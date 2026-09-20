@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentList.lua#L3)
---- @class HousingBlueprintContentListFrameMixin
+ --- @class HousingBlueprintContentListFrameMixin
 HousingBlueprintContentListFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentList.lua#L244)
---- @class HousingBlueprintContentGroupMixin
+ --- @class HousingBlueprintContentGroupMixin
 HousingBlueprintContentGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentList.lua#L16)

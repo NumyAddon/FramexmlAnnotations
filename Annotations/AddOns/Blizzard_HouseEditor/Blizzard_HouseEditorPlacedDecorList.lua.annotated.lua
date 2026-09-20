@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.lua#L1)
---- @class HouseEditorPlacedDecorListButtonMixin
+ --- @class HouseEditorPlacedDecorListButtonMixin
 HouseEditorPlacedDecorListButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.lua#L70)
---- @class HouseEditorPlacedDecorListMixin
+ --- @class HouseEditorPlacedDecorListMixin
 HouseEditorPlacedDecorListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.lua#L178)
---- @class HouseEditorPlacedDecorEntryMixin
+ --- @class HouseEditorPlacedDecorEntryMixin
 HouseEditorPlacedDecorEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.lua#L3)

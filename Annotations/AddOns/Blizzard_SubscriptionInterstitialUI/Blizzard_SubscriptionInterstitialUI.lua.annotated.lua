@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.lua#L8)
---- @class SubscriptionInterstitialSubscribeButtonBaseMixin
+ --- @class SubscriptionInterstitialSubscribeButtonBaseMixin
 SubscriptionInterstitialSubscribeButtonBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.lua#L44)
---- @class SubscriptionInterstitialSubscribeButtonMixin
+ --- @class SubscriptionInterstitialSubscribeButtonMixin
 SubscriptionInterstitialSubscribeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.lua#L62)
---- @class SubscriptionInterstitialUpgradeButtonMixin
+ --- @class SubscriptionInterstitialUpgradeButtonMixin
 SubscriptionInterstitialUpgradeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.lua#L93)
---- @class SubscriptionInterstitialCloseButtonMixin
+ --- @class SubscriptionInterstitialCloseButtonMixin
 SubscriptionInterstitialCloseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.lua#L101)
---- @class SubscriptionInterstitialFrameMixin
+ --- @class SubscriptionInterstitialFrameMixin
 SubscriptionInterstitialFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.lua#L10)

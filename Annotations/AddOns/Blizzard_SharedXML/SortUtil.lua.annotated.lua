@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SortUtil.lua#L11)
---- @class SortManagerMixin
+ --- @class SortManagerMixin
 SortManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SortUtil.lua#L13)

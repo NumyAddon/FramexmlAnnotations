@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.lua#L273)
---- @class GarrisonMissionFollowerDurabilityMixin
+ --- @class GarrisonMissionFollowerDurabilityMixin
 GarrisonMissionFollowerDurabilityMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.lua#L343)
---- @class GarrisonMissionFollowerOrCategoryListButtonMixin
+ --- @class GarrisonMissionFollowerOrCategoryListButtonMixin
 GarrisonMissionFollowerOrCategoryListButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.lua#L1664)
---- @class GarrisonFollowerTabMixin
+ --- @class GarrisonFollowerTabMixin
 GarrisonFollowerTabMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.lua#L2586)
---- @class GarrisonAbilitiesFrameMixin
+ --- @class GarrisonAbilitiesFrameMixin
 GarrisonAbilitiesFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.lua#L2785)
---- @class GarrisonFollowerCombatAllySpellMixin
+ --- @class GarrisonFollowerCombatAllySpellMixin
 GarrisonFollowerCombatAllySpellMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.lua#L2804)
---- @class GarrisonFollowerEquipmentMixin
+ --- @class GarrisonFollowerEquipmentMixin
 GarrisonFollowerEquipmentMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.lua#L275)

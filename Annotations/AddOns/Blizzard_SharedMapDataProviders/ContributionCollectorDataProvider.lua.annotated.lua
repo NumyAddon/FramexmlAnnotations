@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/ContributionCollectorDataProvider.lua#L1)
---- @class ContributionCollectorDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class ContributionCollectorDataProviderMixin : MapCanvasDataProviderMixin
 ContributionCollectorDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/ContributionCollectorDataProvider.lua#L3)

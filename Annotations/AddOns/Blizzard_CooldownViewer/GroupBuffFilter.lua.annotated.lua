@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/GroupBuffFilter.lua#L64)
---- @class GroupBuffFilterItemMixin : CooldownViewerVisualAlertTargetMixin
+ --- @class GroupBuffFilterItemMixin : CooldownViewerVisualAlertTargetMixin
 GroupBuffFilterItemMixin = CreateFromMixins(CooldownViewerVisualAlertTargetMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/GroupBuffFilter.lua#L176)
---- @class GroupBuffFilterEditVisualAlertMixin : CooldownViewerEditAlertBaseMixin
+ --- @class GroupBuffFilterEditVisualAlertMixin : CooldownViewerEditAlertBaseMixin
 GroupBuffFilterEditVisualAlertMixin = CreateFromMixins(CooldownViewerEditAlertBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/GroupBuffFilter.lua#L219)
---- @class GroupBuffFilterSectionMixin
+ --- @class GroupBuffFilterSectionMixin
 GroupBuffFilterSectionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/GroupBuffFilter.lua#L283)
---- @class GroupBuffFilterMixin
+ --- @class GroupBuffFilterMixin
 GroupBuffFilterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/GroupBuffFilter.lua#L66)

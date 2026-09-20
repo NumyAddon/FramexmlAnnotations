@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L2)
---- @class AreaLabelDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class AreaLabelDataProviderMixin : MapCanvasDataProviderMixin
 AreaLabelDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L65)
---- @class AreaLabelFrameMixin
+ --- @class AreaLabelFrameMixin
 AreaLabelFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L4)

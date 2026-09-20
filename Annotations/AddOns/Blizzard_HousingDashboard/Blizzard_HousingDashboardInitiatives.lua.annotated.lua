@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardInitiatives.lua#L5)
---- @class HouseXPCapIconMixin
+ --- @class HouseXPCapIconMixin
 HouseXPCapIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardInitiatives.lua#L30)
---- @class InitiativesTabMixin
+ --- @class InitiativesTabMixin
 InitiativesTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardInitiatives.lua#L505)
---- @class InitiativeTaskButtonMixin
+ --- @class InitiativeTaskButtonMixin
 InitiativeTaskButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardInitiatives.lua#L659)
---- @class ProgressThresholdMixin
+ --- @class ProgressThresholdMixin
 ProgressThresholdMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardInitiatives.lua#L7)

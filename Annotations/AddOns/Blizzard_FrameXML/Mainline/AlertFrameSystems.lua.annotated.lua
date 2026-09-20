@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1203)
---- @class NewPetAlertFrameMixin : ItemAlertFrameMixin
+ --- @class NewPetAlertFrameMixin : ItemAlertFrameMixin
 NewPetAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1237)
---- @class NewMountAlertFrameMixin : ItemAlertFrameMixin
+ --- @class NewMountAlertFrameMixin : ItemAlertFrameMixin
 NewMountAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1268)
---- @class NewToyAlertFrameMixin : ItemAlertFrameMixin
+ --- @class NewToyAlertFrameMixin : ItemAlertFrameMixin
 NewToyAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1295)
---- @class NewWarbandSceneAlertFrameMixin : ItemAlertFrameMixin
+ --- @class NewWarbandSceneAlertFrameMixin : ItemAlertFrameMixin
 NewWarbandSceneAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1328)
---- @class NewRuneforgePowerAlertFrameMixin : ItemAlertFrameMixin, RuneforgePowerBaseMixin
+ --- @class NewRuneforgePowerAlertFrameMixin : ItemAlertFrameMixin, RuneforgePowerBaseMixin
 NewRuneforgePowerAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin, RuneforgePowerBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1371)
---- @class NewCosmeticAlertFrameMixin : ItemAlertFrameMixin
+ --- @class NewCosmeticAlertFrameMixin : ItemAlertFrameMixin
 NewCosmeticAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1029)
---- @class SkillLineSpecsUnlockedAlertFrameMixin
+ --- @class SkillLineSpecsUnlockedAlertFrameMixin
 SkillLineSpecsUnlockedAlertFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1175)
---- @class ItemAlertFrameMixin
+ --- @class ItemAlertFrameMixin
 ItemAlertFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1458)
---- @class GuildRenamedAlertMixin
+ --- @class GuildRenamedAlertMixin
 GuildRenamedAlertMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.lua#L1031)

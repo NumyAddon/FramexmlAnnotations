@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L15)
---- @class PartyMemberAuraMixin
+ --- @class PartyMemberAuraMixin
 PartyMemberAuraMixin={}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L146)
---- @class PartyAuraFrameMixin
+ --- @class PartyAuraFrameMixin
 PartyAuraFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L210)
---- @class ResurrectableIndicatorMixin
+ --- @class ResurrectableIndicatorMixin
 ResurrectableIndicatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L17)

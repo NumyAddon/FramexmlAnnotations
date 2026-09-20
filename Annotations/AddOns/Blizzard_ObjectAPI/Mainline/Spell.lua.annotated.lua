@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectAPI/Mainline/Spell.lua#L2)
---- @class SpellMixin
+ --- @class SpellMixin
 SpellMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectAPI/Mainline/Spell.lua#L10)

@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteUI/AzeriteTierAnimationMixin.lua#L60)
---- @class AzeriteTierPowerSelectedAnimationMixin : AzeriteTierBaseAnimationMixin
+ --- @class AzeriteTierPowerSelectedAnimationMixin : AzeriteTierBaseAnimationMixin
 AzeriteTierPowerSelectedAnimationMixin = CreateFromMixins(AzeriteTierBaseAnimationMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteUI/AzeriteTierAnimationMixin.lua#L210)
---- @class AzeriteTierFinalPowerSelectedAnimationMixin : AzeriteTierPowerSelectedAnimationMixin
+ --- @class AzeriteTierFinalPowerSelectedAnimationMixin : AzeriteTierPowerSelectedAnimationMixin
 AzeriteTierFinalPowerSelectedAnimationMixin = CreateFromMixins(AzeriteTierPowerSelectedAnimationMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteUI/AzeriteTierAnimationMixin.lua#L259)
---- @class AzeriteTierRevealAnimationMixin : AzeriteTierBaseAnimationMixin
+ --- @class AzeriteTierRevealAnimationMixin : AzeriteTierBaseAnimationMixin
 AzeriteTierRevealAnimationMixin = CreateFromMixins(AzeriteTierBaseAnimationMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteUI/AzeriteTierAnimationMixin.lua#L2)
---- @class AzeriteTierBaseAnimationMixin
+ --- @class AzeriteTierBaseAnimationMixin
 AzeriteTierBaseAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteUI/AzeriteTierAnimationMixin.lua#L5)

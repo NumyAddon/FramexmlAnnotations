@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.lua#L989)
---- @class TieredEntranceViewRewardsMixin : ButtonStateBehaviorMixin
+ --- @class TieredEntranceViewRewardsMixin : ButtonStateBehaviorMixin
 TieredEntranceViewRewardsMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.lua#L85)
---- @class DelvesDifficultyPickerFrameMixin
+ --- @class DelvesDifficultyPickerFrameMixin
 DelvesDifficultyPickerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.lua#L248)
---- @class DelveChallengesContainerFrameMixin
+ --- @class DelveChallengesContainerFrameMixin
 DelveChallengesContainerFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.lua#L726)
---- @class DelvesDifficultyPickerEnterDelveButtonMixin
+ --- @class DelvesDifficultyPickerEnterDelveButtonMixin
 DelvesDifficultyPickerEnterDelveButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.lua#L813)
---- @class DelveRewardsContainerFrameMixin
+ --- @class DelveRewardsContainerFrameMixin
 DelveRewardsContainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.lua#L921)
---- @class DelveRewardsButtonMixin
+ --- @class DelveRewardsButtonMixin
 DelveRewardsButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.lua#L970)
---- @class DelvesDifficultyPickerDropdownMixin
+ --- @class DelvesDifficultyPickerDropdownMixin
 DelvesDifficultyPickerDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.lua#L88)

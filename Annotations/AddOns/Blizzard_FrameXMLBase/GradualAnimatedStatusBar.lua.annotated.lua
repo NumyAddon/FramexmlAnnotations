@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.lua#L2)
---- @class GradualAnimatedStatusBarMixin
+ --- @class GradualAnimatedStatusBarMixin
 GradualAnimatedStatusBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.lua#L406)
---- @class GainFlareAnimationMixin
+ --- @class GainFlareAnimationMixin
 GainFlareAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.lua#L418)
---- @class LevelUpRolloverAnimationMixin
+ --- @class LevelUpRolloverAnimationMixin
 LevelUpRolloverAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.lua#L431)
---- @class LevelUpMaxAnimationMixin
+ --- @class LevelUpMaxAnimationMixin
 LevelUpMaxAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.lua#L4)

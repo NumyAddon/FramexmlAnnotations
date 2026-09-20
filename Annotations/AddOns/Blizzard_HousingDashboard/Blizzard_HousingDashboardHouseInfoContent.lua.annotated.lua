@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L1)
---- @class HousingDashboardHouseInfoMixin
+ --- @class HousingDashboardHouseInfoMixin
 HousingDashboardHouseInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L136)
---- @class HousingDashboardHouseInfoContentFrameMixin
+ --- @class HousingDashboardHouseInfoContentFrameMixin
 HousingDashboardHouseInfoContentFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L188)
---- @class HouseFinderButtonMixin
+ --- @class HouseFinderButtonMixin
 HouseFinderButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L7)

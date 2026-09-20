@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.lua#L61)
---- @class BulletinBoardColumnDisplayMixin : ColumnDisplayMixin
+ --- @class BulletinBoardColumnDisplayMixin : ColumnDisplayMixin
 BulletinBoardColumnDisplayMixin = CreateFromMixins(ColumnDisplayMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.lua#L1)
---- @class HousingBulletinBoardFrameMixin
+ --- @class HousingBulletinBoardFrameMixin
 HousingBulletinBoardFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.lua#L69)
---- @class NeighborhoodRosterMixin
+ --- @class NeighborhoodRosterMixin
 NeighborhoodRosterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.lua#L387)
---- @class NeighborhoodRosterEntryMixin
+ --- @class NeighborhoodRosterEntryMixin
 NeighborhoodRosterEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.lua#L504)
---- @class HousingInviteResidentFrameMixin
+ --- @class HousingInviteResidentFrameMixin
 HousingInviteResidentFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.lua#L683)
---- @class HousingInviteSearchBoxMixin
+ --- @class HousingInviteSearchBoxMixin
 HousingInviteSearchBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.lua#L714)
---- @class NeighborhoodChangeNameDialogMixin
+ --- @class NeighborhoodChangeNameDialogMixin
 NeighborhoodChangeNameDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.lua#L760)
---- @class NeighborhoodChangeNameCostMixin
+ --- @class NeighborhoodChangeNameCostMixin
 NeighborhoodChangeNameCostMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.lua#L7)

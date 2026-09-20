@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L18)
---- @class TorghastLevelPickerFrameMixin
+ --- @class TorghastLevelPickerFrameMixin
 TorghastLevelPickerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L186)
---- @class TorghastLevelPickerOptionButtonMixin
+ --- @class TorghastLevelPickerOptionButtonMixin
 TorghastLevelPickerOptionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L302)
---- @class TorghastPagingContainerMixin
+ --- @class TorghastPagingContainerMixin
 TorghastPagingContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L343)
---- @class TorghastLevelPickerRewardCircleMixin
+ --- @class TorghastLevelPickerRewardCircleMixin
 TorghastLevelPickerRewardCircleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L525)
---- @class TorghastLevelPickerOpenPortalButtonMixin
+ --- @class TorghastLevelPickerOpenPortalButtonMixin
 TorghastLevelPickerOpenPortalButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L20)

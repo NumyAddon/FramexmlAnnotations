@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_MidnightLandingPage.lua#L4)
---- @class MidnightLandingOverlayMixin
+ --- @class MidnightLandingOverlayMixin
 MidnightLandingOverlayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_MidnightLandingPage.lua#L151)
---- @class RunesOfPowerMixin
+ --- @class RunesOfPowerMixin
 RunesOfPowerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_MidnightLandingPage.lua#L96)

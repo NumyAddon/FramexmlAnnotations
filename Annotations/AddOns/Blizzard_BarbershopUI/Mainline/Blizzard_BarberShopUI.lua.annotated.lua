@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.lua#L1)
---- @class BarberShopMixin : CharCustomizeParentFrameBaseMixin
+ --- @class BarberShopMixin : CharCustomizeParentFrameBaseMixin
 BarberShopMixin = CreateFromMixins(CharCustomizeParentFrameBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.lua#L244)
---- @class BarberShopButtonMixin
+ --- @class BarberShopButtonMixin
 BarberShopButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.lua#L3)

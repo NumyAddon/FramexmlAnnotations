@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgePowerList.lua#L6)
---- @class RuneforgePowerButtonMixin : RuneforgePowerBaseMixin
+ --- @class RuneforgePowerButtonMixin : RuneforgePowerBaseMixin
 RuneforgePowerButtonMixin = CreateFromMixins(RuneforgePowerBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgePowerList.lua#L36)
---- @class RuneforgePowerSlotMixin : RuneforgeSystemMixin
+ --- @class RuneforgePowerSlotMixin : RuneforgeSystemMixin
 RuneforgePowerSlotMixin = CreateFromMixins(RuneforgeSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgePowerList.lua#L335)
---- @class RuneforgePowerFrameMixin : RuneforgeSystemMixin
+ --- @class RuneforgePowerFrameMixin : RuneforgeSystemMixin
 RuneforgePowerFrameMixin = CreateFromMixins(RuneforgeSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgePowerList.lua#L173)
---- @class RuneforgePowerMixin
+ --- @class RuneforgePowerMixin
 RuneforgePowerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgePowerList.lua#L235)
---- @class RuneforgePowerListMixin
+ --- @class RuneforgePowerListMixin
 RuneforgePowerListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgePowerList.lua#L8)

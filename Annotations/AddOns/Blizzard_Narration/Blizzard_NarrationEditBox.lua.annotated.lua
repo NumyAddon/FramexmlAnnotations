@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationEditBox.lua#L69)
---- @class NarrationEditBoxMixin
+ --- @class NarrationEditBoxMixin
 NarrationEditBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationEditBox.lua#L109)
---- @class NarrationSearchBoxMixin
+ --- @class NarrationSearchBoxMixin
 NarrationSearchBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationEditBox.lua#L71)

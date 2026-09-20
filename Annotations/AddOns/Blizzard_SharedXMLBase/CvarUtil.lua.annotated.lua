@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua#L72)
---- @class CVarAccessorMixin
+ --- @class CVarAccessorMixin
 CVarAccessorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua#L74)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsHouseFinder.lua#L75)
---- @class HouseFinderMapTutorialMixin : HelpTipStateMachineBasedTutorialMixin
+ --- @class HouseFinderMapTutorialMixin : HelpTipStateMachineBasedTutorialMixin
 HouseFinderMapTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsHouseFinder.lua#L2)
---- @class HouseFinderWatcherMixin
+ --- @class HouseFinderWatcherMixin
 HouseFinderWatcherMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsHouseFinder.lua#L9)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L2)
---- @class StoreTooltipBackdropMixin
+ --- @class StoreTooltipBackdropMixin
 StoreTooltipBackdropMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L12)
---- @class StoreBulletPointMixin
+ --- @class StoreBulletPointMixin
 StoreBulletPointMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L51)
---- @class CategoryTreeScrollContainerMixin
+ --- @class CategoryTreeScrollContainerMixin
 CategoryTreeScrollContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUITemplates.lua#L4)

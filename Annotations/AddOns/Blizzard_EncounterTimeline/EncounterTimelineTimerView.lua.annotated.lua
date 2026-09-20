@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTimerView.lua#L18)
---- @class EncounterTimelineTimerViewMixin : EncounterTimelineViewMixin, EncounterTimelineTimerViewSettingsMixin
+ --- @class EncounterTimelineTimerViewMixin : EncounterTimelineViewMixin, EncounterTimelineTimerViewSettingsMixin
 EncounterTimelineTimerViewMixin = CreateFromMixins(EncounterTimelineViewMixin, EncounterTimelineTimerViewSettingsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTimerView.lua#L574)
---- @class EncounterTimelineTimerViewTrackDividerMixin
+ --- @class EncounterTimelineTimerViewTrackDividerMixin
 EncounterTimelineTimerViewTrackDividerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTimerView.lua#L20)

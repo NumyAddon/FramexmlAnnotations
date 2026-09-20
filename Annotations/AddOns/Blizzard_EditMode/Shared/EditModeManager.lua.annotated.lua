@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L10)
---- @class EditModeManagerFrameMixin
+ --- @class EditModeManagerFrameMixin
 EditModeManagerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L1673)
---- @class EditModeGridMixin
+ --- @class EditModeGridMixin
 EditModeGridMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L1742)
---- @class EditModeGridSpacingSliderMixin
+ --- @class EditModeGridSpacingSliderMixin
 EditModeGridSpacingSliderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L1822)
---- @class EditModeAccountSettingsMixin
+ --- @class EditModeAccountSettingsMixin
 EditModeAccountSettingsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2821)
---- @class EditModeManagerTutorialMixin
+ --- @class EditModeManagerTutorialMixin
 EditModeManagerTutorialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L23)

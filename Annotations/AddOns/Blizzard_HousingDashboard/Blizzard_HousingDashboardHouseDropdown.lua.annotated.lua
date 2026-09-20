@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseDropdown.lua#L1)
---- @class HousingDashboardHouseDropdownMixin
+ --- @class HousingDashboardHouseDropdownMixin
 HousingDashboardHouseDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseDropdown.lua#L7)

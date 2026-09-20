@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.lua#L161)
---- @class AlliedRacesModelSceneMixin : PanningModelSceneMixin
+ --- @class AlliedRacesModelSceneMixin : PanningModelSceneMixin
 AlliedRacesModelSceneMixin = CreateFromMixins(PanningModelSceneMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.lua#L1)
---- @class AlliedRacesFrameMixin
+ --- @class AlliedRacesFrameMixin
 AlliedRacesFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.lua#L165)
---- @class AlliedRacesMaleButtonMixin
+ --- @class AlliedRacesMaleButtonMixin
 AlliedRacesMaleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.lua#L178)
---- @class AlliedRacesFemaleButtonMixin
+ --- @class AlliedRacesFemaleButtonMixin
 AlliedRacesFemaleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.lua#L191)
---- @class AlliedRaceAbilityMixin
+ --- @class AlliedRaceAbilityMixin
 AlliedRaceAbilityMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.lua#L3)

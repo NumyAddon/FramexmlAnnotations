@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Interpolator.lua#L28)
---- @class InterpolatorMixin
+ --- @class InterpolatorMixin
 InterpolatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Interpolator.lua#L30)

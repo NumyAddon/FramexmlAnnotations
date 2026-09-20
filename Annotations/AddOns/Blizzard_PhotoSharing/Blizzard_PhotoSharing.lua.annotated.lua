@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PhotoSharing/Blizzard_PhotoSharing.lua#L16)
---- @class PhotoSharingMixin
+ --- @class PhotoSharingMixin
 PhotoSharingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PhotoSharing/Blizzard_PhotoSharing.lua#L104)
---- @class PhotoSharingSubmitButtonMixin
+ --- @class PhotoSharingSubmitButtonMixin
 PhotoSharingSubmitButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PhotoSharing/Blizzard_PhotoSharing.lua#L117)
---- @class PhotoSharingCancelButtonMixin
+ --- @class PhotoSharingCancelButtonMixin
 PhotoSharingCancelButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PhotoSharing/Blizzard_PhotoSharing.lua#L18)

@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TableBuilder.lua#L21)
---- @class TableBuilderCellMixin : TableBuilderElementMixin
+ --- @class TableBuilderCellMixin : TableBuilderElementMixin
 TableBuilderCellMixin = CreateFromMixins(TableBuilderElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TableBuilder.lua#L32)
---- @class TableBuilderRowMixin : TableBuilderElementMixin
+ --- @class TableBuilderRowMixin : TableBuilderElementMixin
 TableBuilderRowMixin = CreateFromMixins(TableBuilderElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TableBuilder.lua#L11)
---- @class TableBuilderElementMixin
+ --- @class TableBuilderElementMixin
 TableBuilderElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TableBuilder.lua#L58)
---- @class TableBuilderColumnMixin
+ --- @class TableBuilderColumnMixin
 TableBuilderColumnMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TableBuilder.lua#L207)
---- @class TableBuilderMixin
+ --- @class TableBuilderMixin
 TableBuilderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TableBuilder.lua#L14)

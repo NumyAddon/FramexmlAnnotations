@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCommoditiesList.lua#L6)
---- @class AuctionHouseCommoditiesListMixin : AuctionHouseItemListMixin, AuctionHouseSystemMixin
+ --- @class AuctionHouseCommoditiesListMixin : AuctionHouseItemListMixin, AuctionHouseSystemMixin
 AuctionHouseCommoditiesListMixin = CreateFromMixins(AuctionHouseItemListMixin, AuctionHouseSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCommoditiesList.lua#L111)
---- @class AuctionHouseCommoditiesBuyListMixin : AuctionHouseCommoditiesListMixin
+ --- @class AuctionHouseCommoditiesBuyListMixin : AuctionHouseCommoditiesListMixin
 AuctionHouseCommoditiesBuyListMixin = CreateFromMixins(AuctionHouseCommoditiesListMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCommoditiesList.lua#L262)
---- @class AuctionHouseCommoditiesSellListMixin : AuctionHouseCommoditiesListMixin
+ --- @class AuctionHouseCommoditiesSellListMixin : AuctionHouseCommoditiesListMixin
 AuctionHouseCommoditiesSellListMixin = CreateFromMixins(AuctionHouseCommoditiesListMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCommoditiesList.lua#L14)

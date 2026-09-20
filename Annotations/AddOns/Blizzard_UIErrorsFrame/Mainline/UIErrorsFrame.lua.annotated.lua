@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIErrorsFrame/Mainline/UIErrorsFrame.lua#L1)
---- @class UIErrorsMixin
+ --- @class UIErrorsMixin
 UIErrorsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIErrorsFrame/Mainline/UIErrorsFrame.lua#L3)

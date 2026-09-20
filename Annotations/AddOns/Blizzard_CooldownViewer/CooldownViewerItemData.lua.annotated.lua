@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerItemData.lua#L3)
---- @class CooldownViewerItemDataMixin
+ --- @class CooldownViewerItemDataMixin
 CooldownViewerItemDataMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerItemData.lua#L5)

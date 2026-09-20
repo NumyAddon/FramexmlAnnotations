@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L1)
---- @class LootJournalItemsMixin
+ --- @class LootJournalItemsMixin
 LootJournalItemsMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L67)
---- @class LootJournalItemSetsMixin
+ --- @class LootJournalItemSetsMixin
 LootJournalItemSetsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L275)
---- @class LootJournalItemSetButtonMixin
+ --- @class LootJournalItemSetButtonMixin
 LootJournalItemSetButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L3)

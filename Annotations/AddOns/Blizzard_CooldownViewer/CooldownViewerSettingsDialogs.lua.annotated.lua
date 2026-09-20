@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDialogs.lua#L1)
---- @class CooldownViewerBaseDialogMixin
+ --- @class CooldownViewerBaseDialogMixin
 CooldownViewerBaseDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDialogs.lua#L15)
---- @class CooldownViewerImportLayoutDialogMixin
+ --- @class CooldownViewerImportLayoutDialogMixin
 CooldownViewerImportLayoutDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDialogs.lua#L3)

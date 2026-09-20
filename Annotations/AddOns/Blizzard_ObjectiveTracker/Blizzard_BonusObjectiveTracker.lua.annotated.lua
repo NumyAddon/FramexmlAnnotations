@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.lua#L23)
---- @class BonusObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+ --- @class BonusObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 BonusObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.lua#L613)
---- @class BonusObjectiveBlockMixin : ObjectiveTrackerQuestPOIBlockMixin
+ --- @class BonusObjectiveBlockMixin : ObjectiveTrackerQuestPOIBlockMixin
 BonusObjectiveBlockMixin = CreateFromMixins(ObjectiveTrackerQuestPOIBlockMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.lua#L483)
---- @class BonusObjectiveTrackerProgressBarMixin
+ --- @class BonusObjectiveTrackerProgressBarMixin
 BonusObjectiveTrackerProgressBarMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.lua#L684)
---- @class ObjectiveTrackerTopBannerMixin
+ --- @class ObjectiveTrackerTopBannerMixin
 ObjectiveTrackerTopBannerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_BonusObjectiveTracker.lua#L36)

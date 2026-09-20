@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L2)
---- @class PerksProgramMixin
+ --- @class PerksProgramMixin
 PerksProgramMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L571)
---- @class PerksProgramThemeContainerMixin
+ --- @class PerksProgramThemeContainerMixin
 PerksProgramThemeContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L3)

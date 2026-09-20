@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L425)
---- @class ItemTransmogInfoMixin
+ --- @class ItemTransmogInfoMixin
 ItemTransmogInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L427)

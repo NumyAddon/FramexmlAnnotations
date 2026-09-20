@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L2)
---- @class RaidFrameSocialClassTypeMixin
+ --- @class RaidFrameSocialClassTypeMixin
 RaidFrameSocialClassTypeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L8)
---- @class RaidFrameSocialAllAssistMixin
+ --- @class RaidFrameSocialAllAssistMixin
 RaidFrameSocialAllAssistMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L66)
---- @class SocialRaidInfoMixin
+ --- @class SocialRaidInfoMixin
 SocialRaidInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L95)
---- @class RaidFrameSocialGroupMixin
+ --- @class RaidFrameSocialGroupMixin
 RaidFrameSocialGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L151)
---- @class RaidFrameSocialMixin
+ --- @class RaidFrameSocialMixin
 RaidFrameSocialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L303)
---- @class RaidFrameSocialPlayerMixin
+ --- @class RaidFrameSocialPlayerMixin
 RaidFrameSocialPlayerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L394)
---- @class RaidFrameSocialPlayerRoleIconMixin
+ --- @class RaidFrameSocialPlayerRoleIconMixin
 RaidFrameSocialPlayerRoleIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L4)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_ExpansionLandingPage.lua#L7)
---- @class ExpansionLandingPageMixin
+ --- @class ExpansionLandingPageMixin
 ExpansionLandingPageMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_ExpansionLandingPage.lua#L17)

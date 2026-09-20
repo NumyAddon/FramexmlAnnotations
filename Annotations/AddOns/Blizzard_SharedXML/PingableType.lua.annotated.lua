@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L32)
---- @class PingableType_UnitFrameMixin : PingableTypeMixin
+ --- @class PingableType_UnitFrameMixin : PingableTypeMixin
 PingableType_UnitFrameMixin = CreateFromMixins(PingableTypeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L43)
---- @class PingableType_PlayerUnitFrameMixin : PingableType_UnitFrameMixin
+ --- @class PingableType_PlayerUnitFrameMixin : PingableType_UnitFrameMixin
 PingableType_PlayerUnitFrameMixin = CreateFromMixins(PingableType_UnitFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L61)
---- @class PingableType_ActionButtonMixin : PingableTypeMixin
+ --- @class PingableType_ActionButtonMixin : PingableTypeMixin
 PingableType_ActionButtonMixin = CreateFromMixins(PingableTypeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L115)
---- @class PingableType_CooldownViewerItemMixin : PingableTypeMixin
+ --- @class PingableType_CooldownViewerItemMixin : PingableTypeMixin
 PingableType_CooldownViewerItemMixin = CreateFromMixins(PingableTypeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L4)
---- @class PingableTypeMixin
+ --- @class PingableTypeMixin
 PingableTypeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L7)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardMagnifierTemplates.lua#L4)
---- @class DefaultStoreCardMagnifierMixin
+ --- @class DefaultStoreCardMagnifierMixin
 DefaultStoreCardMagnifierMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardMagnifierTemplates.lua#L5)

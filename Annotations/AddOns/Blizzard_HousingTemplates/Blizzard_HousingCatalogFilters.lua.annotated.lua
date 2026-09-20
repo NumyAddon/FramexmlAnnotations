@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogFilters.lua#L1)
---- @class HousingCatalogFiltersMixin
+ --- @class HousingCatalogFiltersMixin
 HousingCatalogFiltersMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogFilters.lua#L266)
---- @class HousingCatalogSearchBoxMixin
+ --- @class HousingCatalogSearchBoxMixin
 HousingCatalogSearchBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogFilters.lua#L3)

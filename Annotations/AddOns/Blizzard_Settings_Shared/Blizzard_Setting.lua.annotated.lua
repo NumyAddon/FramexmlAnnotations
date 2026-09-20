@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Setting.lua#L271)
---- @class CVarSettingMixin : SettingMixin
+ --- @class CVarSettingMixin : SettingMixin
 CVarSettingMixin = CreateFromMixins(SettingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Setting.lua#L326)
---- @class ProxySettingMixin : SettingMixin
+ --- @class ProxySettingMixin : SettingMixin
 ProxySettingMixin = CreateFromMixins(SettingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Setting.lua#L364)
---- @class ModifiedClickSettingMixin : SettingMixin
+ --- @class ModifiedClickSettingMixin : SettingMixin
 ModifiedClickSettingMixin = CreateFromMixins(SettingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Setting.lua#L388)
---- @class AddOnSettingMixin : SettingMixin
+ --- @class AddOnSettingMixin : SettingMixin
 AddOnSettingMixin = CreateFromMixins(SettingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Setting.lua#L66)
---- @class SettingMixin
+ --- @class SettingMixin
 SettingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Setting.lua#L68)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L3)
---- @class AdventureMapMixin
+ --- @class AdventureMapMixin
 AdventureMapMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L5)

@@ -1,51 +1,51 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L155)
---- @class DressUpModelFrameMixin : DressUpModelFrameBaseMixin
+ --- @class DressUpModelFrameMixin : DressUpModelFrameBaseMixin
 DressUpModelFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L263)
---- @class SideDressUpModelFrameFrameMixin : DressUpModelFrameBaseMixin
+ --- @class SideDressUpModelFrameFrameMixin : DressUpModelFrameBaseMixin
 SideDressUpModelFrameFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L283)
---- @class TransmogAndMountDressupFrameMixin : DressUpModelFrameBaseMixin
+ --- @class TransmogAndMountDressupFrameMixin : DressUpModelFrameBaseMixin
 TransmogAndMountDressupFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L3)
---- @class DressUpModelFrameResetButtonMixin
+ --- @class DressUpModelFrameResetButtonMixin
 DressUpModelFrameResetButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L21)
---- @class DressUpModelFrameLinkButtonMixin
+ --- @class DressUpModelFrameLinkButtonMixin
 DressUpModelFrameLinkButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L73)
---- @class DressUpModelFrameCloseButtonMixin
+ --- @class DressUpModelFrameCloseButtonMixin
 DressUpModelFrameCloseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L81)
---- @class DressUpModelFrameCancelButtonMixin
+ --- @class DressUpModelFrameCancelButtonMixin
 DressUpModelFrameCancelButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L89)
---- @class DressUpModelFrameMaximizeMinimizeMixin
+ --- @class DressUpModelFrameMaximizeMinimizeMixin
 DressUpModelFrameMaximizeMinimizeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L110)
---- @class DressUpModelFrameBaseMixin
+ --- @class DressUpModelFrameBaseMixin
 DressUpModelFrameBaseMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L340)
---- @class DressUpFrameSetSelectionLabelMixin
+ --- @class DressUpFrameSetSelectionLabelMixin
 DressUpFrameSetSelectionLabelMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L360)
---- @class DressUpFrameTransmogSetMixin
+ --- @class DressUpFrameTransmogSetMixin
 DressUpFrameTransmogSetMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L708)
---- @class DressUpFrameTransmogSetButtonMixin
+ --- @class DressUpFrameTransmogSetButtonMixin
 DressUpFrameTransmogSetButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L4)

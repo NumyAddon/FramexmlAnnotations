@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/DelveEntranceDataProvider.lua#L1)
---- @class DelveEntranceDataProviderMixin : CVarMapCanvasDataProviderMixin, AreaPOIDataProviderMixin
+ --- @class DelveEntranceDataProviderMixin : CVarMapCanvasDataProviderMixin, AreaPOIDataProviderMixin
 DelveEntranceDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin, AreaPOIDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/DelveEntranceDataProvider.lua#L4)

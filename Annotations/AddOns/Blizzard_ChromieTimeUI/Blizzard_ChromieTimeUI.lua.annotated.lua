@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.lua#L2)
---- @class ChromieTimeFrameMixin
+ --- @class ChromieTimeFrameMixin
 ChromieTimeFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.lua#L88)
---- @class CurrentlySelectedExpansionInfoFrameMixin
+ --- @class CurrentlySelectedExpansionInfoFrameMixin
 CurrentlySelectedExpansionInfoFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.lua#L103)
---- @class ChromieTimeExpansionButtonMixin
+ --- @class ChromieTimeExpansionButtonMixin
 ChromieTimeExpansionButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.lua#L159)
---- @class ChromieTimeSelectButtonMixin
+ --- @class ChromieTimeSelectButtonMixin
 ChromieTimeSelectButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChromieTimeUI/Blizzard_ChromieTimeUI.lua#L4)

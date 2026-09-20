@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantPreviewUI/Blizzard_CovenantPreviewUI.lua#L81)
---- @class CovenantPreviewFrameMixin
+ --- @class CovenantPreviewFrameMixin
 CovenantPreviewFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantPreviewUI/Blizzard_CovenantPreviewUI.lua#L270)
---- @class CovenantAbilityButtonMixin
+ --- @class CovenantAbilityButtonMixin
 CovenantAbilityButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantPreviewUI/Blizzard_CovenantPreviewUI.lua#L290)
---- @class CovenantFeatureButtonMixin
+ --- @class CovenantFeatureButtonMixin
 CovenantFeatureButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantPreviewUI/Blizzard_CovenantPreviewUI.lua#L310)
---- @class CovenantSoulbindButtonMixin
+ --- @class CovenantSoulbindButtonMixin
 CovenantSoulbindButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantPreviewUI/Blizzard_CovenantPreviewUI.lua#L345)
---- @class CovenantPreviewModelSceneContainerMixin
+ --- @class CovenantPreviewModelSceneContainerMixin
 CovenantPreviewModelSceneContainerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantPreviewUI/Blizzard_CovenantPreviewUI.lua#L82)

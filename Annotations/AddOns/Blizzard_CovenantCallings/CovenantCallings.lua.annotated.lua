@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.lua#L1)
---- @class CovenantCallingQuestMixin
+ --- @class CovenantCallingQuestMixin
 CovenantCallingQuestMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.lua#L160)
---- @class CovenantCallingsMixin
+ --- @class CovenantCallingsMixin
 CovenantCallingsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.lua#L3)

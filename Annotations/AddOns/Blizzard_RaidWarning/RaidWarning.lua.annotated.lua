@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidWarning/RaidWarning.lua#L34)
---- @class RaidWarningFrameMixin
+ --- @class RaidWarningFrameMixin
 RaidWarningFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidWarning/RaidWarning.lua#L339)
---- @class GlobalRaidWarningFrameMixin
+ --- @class GlobalRaidWarningFrameMixin
 GlobalRaidWarningFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidWarning/RaidWarning.lua#L352)
---- @class PrivateRaidBossEmoteFrameAnchorMixin
+ --- @class PrivateRaidBossEmoteFrameAnchorMixin
 PrivateRaidBossEmoteFrameAnchorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidWarning/RaidWarning.lua#L45)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimatedShine/Shared/AnimatedShine.lua#L12)
---- @class AnimatedShineMixin
+ --- @class AnimatedShineMixin
 AnimatedShineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AnimatedShine/Shared/AnimatedShine.lua#L17)

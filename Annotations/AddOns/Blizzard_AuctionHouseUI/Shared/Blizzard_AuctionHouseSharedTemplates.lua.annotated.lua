@@ -1,59 +1,59 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L429)
---- @class AuctionHouseInteractableItemDisplayItemButtonMixin : AuctionHouseItemDisplayItemButtonMixin
+ --- @class AuctionHouseInteractableItemDisplayItemButtonMixin : AuctionHouseItemDisplayItemButtonMixin
 AuctionHouseInteractableItemDisplayItemButtonMixin = CreateFromMixins(AuctionHouseItemDisplayItemButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L483)
---- @class AuctionHouseInteractableItemDisplayMixin : AuctionHouseItemDisplayMixin
+ --- @class AuctionHouseInteractableItemDisplayMixin : AuctionHouseItemDisplayMixin
 AuctionHouseInteractableItemDisplayMixin = CreateFromMixins(AuctionHouseItemDisplayMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L23)
---- @class AuctionHouseBackgroundMixin
+ --- @class AuctionHouseBackgroundMixin
 AuctionHouseBackgroundMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L37)
---- @class AuctionHouseItemDisplayMixin
+ --- @class AuctionHouseItemDisplayMixin
 AuctionHouseItemDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L410)
---- @class AuctionHouseItemDisplayItemButtonMixin
+ --- @class AuctionHouseItemDisplayItemButtonMixin
 AuctionHouseItemDisplayItemButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L586)
---- @class AuctionHouseQuantityInputBoxMixin
+ --- @class AuctionHouseQuantityInputBoxMixin
 AuctionHouseQuantityInputBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L615)
---- @class AuctionHousePriceDisplayFrameMixin
+ --- @class AuctionHousePriceDisplayFrameMixin
 AuctionHousePriceDisplayFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L630)
---- @class AuctionHouseRefreshFrameMixin
+ --- @class AuctionHouseRefreshFrameMixin
 AuctionHouseRefreshFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L649)
---- @class AuctionHouseRefreshButtonMixin
+ --- @class AuctionHouseRefreshButtonMixin
 AuctionHouseRefreshButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L658)
---- @class AuctionHouseBidFrameMixin
+ --- @class AuctionHouseBidFrameMixin
 AuctionHouseBidFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L698)
---- @class AuctionHouseBuyoutFrameMixin
+ --- @class AuctionHouseBuyoutFrameMixin
 AuctionHouseBuyoutFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L729)
---- @class AuctionHouseBidButtonMixin
+ --- @class AuctionHouseBidButtonMixin
 AuctionHouseBidButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L736)
---- @class AuctionHouseBuyoutButtonMixin
+ --- @class AuctionHouseBuyoutButtonMixin
 AuctionHouseBuyoutButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L742)
---- @class AuctionHouseFavoriteButtonBaseMixin
+ --- @class AuctionHouseFavoriteButtonBaseMixin
 AuctionHouseFavoriteButtonBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.lua#L25)

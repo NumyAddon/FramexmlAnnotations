@@ -1,47 +1,47 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L293)
---- @class ChallengeModeWeeklyChestMixin : WeeklyRewardMixin
+ --- @class ChallengeModeWeeklyChestMixin : WeeklyRewardMixin
 ChallengeModeWeeklyChestMixin = CreateFromMixins(WeeklyRewardMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L104)
---- @class ChallengesFrameMixin
+ --- @class ChallengesFrameMixin
 ChallengesFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L379)
---- @class ChallengeModeLegacyWeeklyChestMixin
+ --- @class ChallengeModeLegacyWeeklyChestMixin
 ChallengeModeLegacyWeeklyChestMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L476)
---- @class ChallengesDungeonIconMixin
+ --- @class ChallengesDungeonIconMixin
 ChallengesDungeonIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L551)
---- @class ChallengesFrameWeeklyInfoMixin
+ --- @class ChallengesFrameWeeklyInfoMixin
 ChallengesFrameWeeklyInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L583)
---- @class ChallengesKeystoneFrameMixin
+ --- @class ChallengesKeystoneFrameMixin
 ChallengesKeystoneFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L728)
---- @class ChallengesKeystoneSlotMixin
+ --- @class ChallengesKeystoneSlotMixin
 ChallengesKeystoneSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L775)
---- @class ChallengesKeystoneFrameAffixMixin
+ --- @class ChallengesKeystoneFrameAffixMixin
 ChallengesKeystoneFrameAffixMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L842)
---- @class ChallengeModeCompleteBannerMixin
+ --- @class ChallengeModeCompleteBannerMixin
 ChallengeModeCompleteBannerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L1059)
---- @class ChallengeModeBannerPartyMemberMixin
+ --- @class ChallengeModeBannerPartyMemberMixin
 ChallengeModeBannerPartyMemberMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L1089)
---- @class DungeonScoreInfoMixin
+ --- @class DungeonScoreInfoMixin
 DungeonScoreInfoMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.lua#L106)

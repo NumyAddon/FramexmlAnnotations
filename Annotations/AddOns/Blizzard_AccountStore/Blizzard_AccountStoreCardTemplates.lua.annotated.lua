@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreCardTemplates.lua#L13)
---- @class AccountStoreBaseCardMixin
+ --- @class AccountStoreBaseCardMixin
 AccountStoreBaseCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreCardTemplates.lua#L230)
---- @class AccountStoreCreatureCardMixin
+ --- @class AccountStoreCreatureCardMixin
 AccountStoreCreatureCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreCardTemplates.lua#L252)
---- @class AccountStoreIconCardMixin
+ --- @class AccountStoreIconCardMixin
 AccountStoreIconCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreCardTemplates.lua#L263)
---- @class AccountStoreTransmogSetCardMixin
+ --- @class AccountStoreTransmogSetCardMixin
 AccountStoreTransmogSetCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreCardTemplates.lua#L20)

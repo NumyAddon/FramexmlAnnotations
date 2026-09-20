@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationSlider.lua#L13)
---- @class NarrationSliderMixin
+ --- @class NarrationSliderMixin
 NarrationSliderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationSlider.lua#L15)

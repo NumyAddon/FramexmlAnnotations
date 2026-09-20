@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.lua#L14)
---- @class GuildBankFrameMixin
+ --- @class GuildBankFrameMixin
 GuildBankFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.lua#L544)
---- @class GuildBankTabButtonMixin
+ --- @class GuildBankTabButtonMixin
 GuildBankTabButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.lua#L585)
---- @class GuildBankFrameTabMixin
+ --- @class GuildBankFrameTabMixin
 GuildBankFrameTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.lua#L618)
---- @class GuildBankTabMixin
+ --- @class GuildBankTabMixin
 GuildBankTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.lua#L650)
---- @class GuildBankFrameDepositButtonMixin
+ --- @class GuildBankFrameDepositButtonMixin
 GuildBankFrameDepositButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.lua#L663)
---- @class GuildBankFrameWithdrawButtonMixin
+ --- @class GuildBankFrameWithdrawButtonMixin
 GuildBankFrameWithdrawButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.lua#L676)
---- @class GuildBankItemButtonMixin
+ --- @class GuildBankItemButtonMixin
 GuildBankItemButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.lua#L821)
---- @class GuildBankPopupFrameMixin
+ --- @class GuildBankPopupFrameMixin
 GuildBankPopupFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.lua#L16)

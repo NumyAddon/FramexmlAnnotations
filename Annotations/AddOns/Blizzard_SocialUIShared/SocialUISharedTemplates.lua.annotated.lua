@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.lua#L55)
---- @class SocialUIAddFriendButtonMixin : SocialUIActionButtonMixin
+ --- @class SocialUIAddFriendButtonMixin : SocialUIActionButtonMixin
 SocialUIAddFriendButtonMixin = CreateFromMixins(SocialUIActionButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.lua#L196)
---- @class SocialCardActionButtonMixin : ButtonStateBehaviorMixin
+ --- @class SocialCardActionButtonMixin : ButtonStateBehaviorMixin
 SocialCardActionButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.lua#L1)
---- @class SocialUIActionButtonMixin
+ --- @class SocialUIActionButtonMixin
 SocialUIActionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.lua#L73)
---- @class SocialUISearchBoxMixin
+ --- @class SocialUISearchBoxMixin
 SocialUISearchBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.lua#L108)
---- @class SocialUISearchFilterDropdownMixin
+ --- @class SocialUISearchFilterDropdownMixin
 SocialUISearchFilterDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.lua#L131)
---- @class SocialUIContactsFrameMixin
+ --- @class SocialUIContactsFrameMixin
 SocialUIContactsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.lua#L172)
---- @class SocialUIScrollableHeaderMixin
+ --- @class SocialUIScrollableHeaderMixin
 SocialUIScrollableHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.lua#L189)
---- @class SocialCardPresenceHolderMixin
+ --- @class SocialCardPresenceHolderMixin
 SocialCardPresenceHolderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.lua#L3)

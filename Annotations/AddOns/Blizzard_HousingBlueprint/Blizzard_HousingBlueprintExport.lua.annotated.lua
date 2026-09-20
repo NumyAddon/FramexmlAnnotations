@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.lua#L8)
---- @class HousingBlueprintExportFrameMixin
+ --- @class HousingBlueprintExportFrameMixin
 HousingBlueprintExportFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.lua#L131)
---- @class HousingBlueprintExportInputContentMixin
+ --- @class HousingBlueprintExportInputContentMixin
 HousingBlueprintExportInputContentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.lua#L263)
---- @class HousingBlueprintExportSuccessContentMixin
+ --- @class HousingBlueprintExportSuccessContentMixin
 HousingBlueprintExportSuccessContentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.lua#L10)

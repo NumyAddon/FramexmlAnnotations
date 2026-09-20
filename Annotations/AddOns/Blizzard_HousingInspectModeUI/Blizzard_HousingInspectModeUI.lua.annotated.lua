@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingInspectModeUI/Blizzard_HousingInspectModeUI.lua#L1)
---- @class HousingInspectModeManagerMixin
+ --- @class HousingInspectModeManagerMixin
 HousingInspectModeManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingInspectModeUI/Blizzard_HousingInspectModeUI.lua#L20)

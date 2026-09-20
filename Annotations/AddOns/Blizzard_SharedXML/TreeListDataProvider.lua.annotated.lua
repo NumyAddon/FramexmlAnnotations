@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L214)
---- @class TreeDataProviderMixin : CallbackRegistryMixin
+ --- @class TreeDataProviderMixin : CallbackRegistryMixin
 TreeDataProviderMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L427)
---- @class LinearizedTreeDataProviderMixin : TreeDataProviderMixin
+ --- @class LinearizedTreeDataProviderMixin : TreeDataProviderMixin
 LinearizedTreeDataProviderMixin = CreateFromMixins(TreeDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L16)
---- @class TreeNodeMixin
+ --- @class TreeNodeMixin
 TreeNodeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L25)

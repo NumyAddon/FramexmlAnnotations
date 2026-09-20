@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L1)
---- @class HouseListFrameMixin
+ --- @class HouseListFrameMixin
 HouseListFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L108)
---- @class HouseEntryTemplateMixin
+ --- @class HouseEntryTemplateMixin
 HouseEntryTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L13)

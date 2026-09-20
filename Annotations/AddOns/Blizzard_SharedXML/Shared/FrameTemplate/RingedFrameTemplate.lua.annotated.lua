@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Shared/FrameTemplate/RingedFrameTemplate.lua#L79)
---- @class RingedMaskedButtonMixin : RingedFrameWithTooltipMixin
+ --- @class RingedMaskedButtonMixin : RingedFrameWithTooltipMixin
 RingedMaskedButtonMixin = CreateFromMixins(RingedFrameWithTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Shared/FrameTemplate/RingedFrameTemplate.lua#L2)
---- @class RingedFrameWithTooltipMixin
+ --- @class RingedFrameWithTooltipMixin
 RingedFrameWithTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Shared/FrameTemplate/RingedFrameTemplate.lua#L3)

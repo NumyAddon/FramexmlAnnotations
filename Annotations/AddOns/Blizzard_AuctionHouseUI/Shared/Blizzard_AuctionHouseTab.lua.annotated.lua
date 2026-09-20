@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseTab.lua#L14)
---- @class AuctionHouseFrameTopTabMixin : AuctionHouseFrameTabMixin
+ --- @class AuctionHouseFrameTopTabMixin : AuctionHouseFrameTabMixin
 AuctionHouseFrameTopTabMixin = CreateFromMixins(AuctionHouseFrameTabMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseTab.lua#L6)
---- @class AuctionHouseFrameTabMixin
+ --- @class AuctionHouseFrameTabMixin
 AuctionHouseFrameTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseTab.lua#L21)
---- @class AuctionHouseFrameDisplayModeTabMixin
+ --- @class AuctionHouseFrameDisplayModeTabMixin
 AuctionHouseFrameDisplayModeTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseTab.lua#L8)

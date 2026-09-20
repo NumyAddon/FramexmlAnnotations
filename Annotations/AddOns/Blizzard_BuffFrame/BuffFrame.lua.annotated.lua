@@ -1,63 +1,63 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L304)
---- @class AuraFrameEditModeMixin : AuraFrameMixin
+ --- @class AuraFrameEditModeMixin : AuraFrameMixin
 AuraFrameEditModeMixin = CreateFromMixins(AuraFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L446)
---- @class BuffFrameMixin : BaseAuraFrameMixin
+ --- @class BuffFrameMixin : BaseAuraFrameMixin
 BuffFrameMixin = CreateFromMixins(BaseAuraFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L28)
---- @class AuraContainerWarningFaderMixin
+ --- @class AuraContainerWarningFaderMixin
 AuraContainerWarningFaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L43)
---- @class AuraContainerMixin
+ --- @class AuraContainerMixin
 AuraContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L169)
---- @class AuraFrameMixin
+ --- @class AuraFrameMixin
 AuraFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L273)
---- @class AuraFrameEventListenerMixin
+ --- @class AuraFrameEventListenerMixin
 AuraFrameEventListenerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L416)
---- @class BaseAuraFrameMixin
+ --- @class BaseAuraFrameMixin
 BaseAuraFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L728)
---- @class DebuffFrameMixin
+ --- @class DebuffFrameMixin
 DebuffFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L860)
---- @class AuraButtonMixin
+ --- @class AuraButtonMixin
 AuraButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1133)
---- @class CollapseAndExpandButtonMixin
+ --- @class CollapseAndExpandButtonMixin
 CollapseAndExpandButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1184)
---- @class DeadlyDebuffFrameMixin
+ --- @class DeadlyDebuffFrameMixin
 DeadlyDebuffFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1209)
---- @class BuffFramePrivateAuraAnchorMixin
+ --- @class BuffFramePrivateAuraAnchorMixin
 BuffFramePrivateAuraAnchorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1259)
---- @class ConsolidatedBuffsMixin
+ --- @class ConsolidatedBuffsMixin
 ConsolidatedBuffsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1304)
---- @class ConsolidatedBuffsTooltipMixin
+ --- @class ConsolidatedBuffsTooltipMixin
 ConsolidatedBuffsTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1327)
---- @class ConsolidatedBuffsTooltipAurasMixin
+ --- @class ConsolidatedBuffsTooltipAurasMixin
 ConsolidatedBuffsTooltipAurasMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L30)

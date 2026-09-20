@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.lua#L510)
---- @class EventSchedulerOngoingEntryMixin : EventSchedulerBaseEntryMixin
+ --- @class EventSchedulerOngoingEntryMixin : EventSchedulerBaseEntryMixin
 EventSchedulerOngoingEntryMixin = CreateFromMixins(EventSchedulerBaseEntryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.lua#L560)
---- @class EventSchedulerScheduledEntryMixin : EventSchedulerBaseEntryMixin
+ --- @class EventSchedulerScheduledEntryMixin : EventSchedulerBaseEntryMixin
 EventSchedulerScheduledEntryMixin = CreateFromMixins(EventSchedulerBaseEntryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.lua#L167)
---- @class EventSchedulerMixin
+ --- @class EventSchedulerMixin
 EventSchedulerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.lua#L453)
---- @class EventSchedulerBaseEntryMixin
+ --- @class EventSchedulerBaseEntryMixin
 EventSchedulerBaseEntryMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.lua#L676)
---- @class EventSchedulerBaseLabelMixin
+ --- @class EventSchedulerBaseLabelMixin
 EventSchedulerBaseLabelMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.lua#L169)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSpend.lua#L2)
---- @class TalentButtonSpendMixin : TalentButtonBaseMixin
+ --- @class TalentButtonSpendMixin : TalentButtonBaseMixin
 TalentButtonSpendMixin = CreateFromMixins(TalentButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSpend.lua#L4)

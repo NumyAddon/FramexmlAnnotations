@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L2)
---- @class ScrappingMachineMixin
+ --- @class ScrappingMachineMixin
 ScrappingMachineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L139)
---- @class ScrappingMachineItemSlotMixin
+ --- @class ScrappingMachineItemSlotMixin
 ScrappingMachineItemSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L4)

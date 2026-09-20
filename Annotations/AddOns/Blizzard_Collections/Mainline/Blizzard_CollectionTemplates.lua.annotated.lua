@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_CollectionTemplates.lua#L49)
---- @class CollectionsPagingMixin
+ --- @class CollectionsPagingMixin
 CollectionsPagingMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_CollectionTemplates.lua#L51)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/GuildRoster.lua#L5)
---- @class CommunitiesGuildMemberDetailMixin
+ --- @class CommunitiesGuildMemberDetailMixin
 CommunitiesGuildMemberDetailMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/GuildRoster.lua#L7)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuraContainer/Blizzard_ManagedAuraContainer.lua#L43)
---- @class ManagedAuraContainerSharedMixin : AuraContainerSharedMixin
+ --- @class ManagedAuraContainerSharedMixin : AuraContainerSharedMixin
 ManagedAuraContainerSharedMixin = CreateFromMixins(AuraContainerSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuraContainer/Blizzard_ManagedAuraContainer.lua#L59)
---- @class ManagedAuraContainerInboundMixin : AuraContainerInboundMixin, ManagedAuraContainerSharedMixin
+ --- @class ManagedAuraContainerInboundMixin : AuraContainerInboundMixin, ManagedAuraContainerSharedMixin
 ManagedAuraContainerInboundMixin = CreateFromMixins(AuraContainerInboundMixin, ManagedAuraContainerSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuraContainer/Blizzard_ManagedAuraContainer.lua#L60)
---- @class ManagedAuraContainerPrivateMixin : AuraContainerAuraGroupOwnerMixin, AuraContainerAuraSlotOwnerMixin, AuraContainerItemEnchantmentOwnerMixin, AuraContainerPrivateMixin, ManagedAuraContainerSharedMixin, DirtyPhaseMixin
+ --- @class ManagedAuraContainerPrivateMixin : AuraContainerAuraGroupOwnerMixin, AuraContainerAuraSlotOwnerMixin, AuraContainerItemEnchantmentOwnerMixin, AuraContainerPrivateMixin, ManagedAuraContainerSharedMixin, DirtyPhaseMixin
 ManagedAuraContainerPrivateMixin = CreateFromMixins(AuraContainerAuraGroupOwnerMixin, AuraContainerAuraSlotOwnerMixin, AuraContainerItemEnchantmentOwnerMixin, AuraContainerPrivateMixin, ManagedAuraContainerSharedMixin, DirtyPhaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuraContainer/Blizzard_ManagedAuraContainer.lua#L45)

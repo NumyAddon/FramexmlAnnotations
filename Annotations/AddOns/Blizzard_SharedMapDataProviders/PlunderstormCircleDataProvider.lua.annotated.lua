@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.lua#L1)
---- @class PlunderstormCircleDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class PlunderstormCircleDataProviderMixin : MapCanvasDataProviderMixin
 PlunderstormCircleDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.lua#L67)
---- @class PlunderstormCircleBasePinMixin : MapCanvasPinMixin
+ --- @class PlunderstormCircleBasePinMixin : MapCanvasPinMixin
 PlunderstormCircleBasePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.lua#L97)
---- @class PlunderstormInnerCirclePinMixin : PlunderstormCircleBasePinMixin
+ --- @class PlunderstormInnerCirclePinMixin : PlunderstormCircleBasePinMixin
 PlunderstormInnerCirclePinMixin = CreateFromMixins(PlunderstormCircleBasePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.lua#L145)
---- @class PlunderstormOuterCirclePinMixin : PlunderstormCircleBasePinMixin
+ --- @class PlunderstormOuterCirclePinMixin : PlunderstormCircleBasePinMixin
 PlunderstormOuterCirclePinMixin = CreateFromMixins(PlunderstormCircleBasePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/PlunderstormCircleDataProvider.lua#L21)

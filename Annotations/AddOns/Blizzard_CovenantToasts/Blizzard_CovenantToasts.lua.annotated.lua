@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L15)
---- @class CovenantCelebrationBannerMixin
+ --- @class CovenantCelebrationBannerMixin
 CovenantCelebrationBannerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantToasts.lua#L17)

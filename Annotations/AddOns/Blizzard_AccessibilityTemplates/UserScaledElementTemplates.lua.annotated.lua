@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AccessibilityTemplates/UserScaledElementTemplates.lua#L65)
---- @class UserScaledButtonFitToTextMixin : UserScaledElementMixin
+ --- @class UserScaledButtonFitToTextMixin : UserScaledElementMixin
 UserScaledButtonFitToTextMixin = CreateFromMixins(UserScaledElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AccessibilityTemplates/UserScaledElementTemplates.lua#L1)
---- @class UserScaledElementMixin
+ --- @class UserScaledElementMixin
 UserScaledElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AccessibilityTemplates/UserScaledElementTemplates.lua#L98)
---- @class UserScaledFrameByHeightMixin
+ --- @class UserScaledFrameByHeightMixin
 UserScaledFrameByHeightMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AccessibilityTemplates/UserScaledElementTemplates.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.lua#L1)
---- @class SoulbindsSelectButtonMixin : SelectableButtonMixin
+ --- @class SoulbindsSelectButtonMixin : SelectableButtonMixin
 SoulbindsSelectButtonMixin = CreateFromMixins(SelectableButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectButton.lua#L8)

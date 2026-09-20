@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L239)
---- @class LootFrameElementMixin : LootFrameBaseElementMixin
+ --- @class LootFrameElementMixin : LootFrameBaseElementMixin
 LootFrameElementMixin = CreateFromMixins(LootFrameBaseElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L333)
---- @class LootFrameItemElementMixin : LootFrameElementMixin
+ --- @class LootFrameItemElementMixin : LootFrameElementMixin
 LootFrameItemElementMixin = CreateFromMixins(LootFrameElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L11)
---- @class LootFrameMixin
+ --- @class LootFrameMixin
 LootFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L220)
---- @class LootFrameBaseElementMixin
+ --- @class LootFrameBaseElementMixin
 LootFrameBaseElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L26)

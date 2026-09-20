@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L86)
---- @class CastingBarMixin
+ --- @class CastingBarMixin
 CastingBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1365)
---- @class PlayerCastingBarMixin
+ --- @class PlayerCastingBarMixin
 PlayerCastingBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1384)
---- @class OverlayPlayerCastingBarMixin
+ --- @class OverlayPlayerCastingBarMixin
 OverlayPlayerCastingBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L91)

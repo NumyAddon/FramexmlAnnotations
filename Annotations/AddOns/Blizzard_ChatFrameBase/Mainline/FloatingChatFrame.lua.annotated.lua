@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.lua#L84)
---- @class FloatingChatFrameMixin : ChatFrameMixin
+ --- @class FloatingChatFrameMixin : ChatFrameMixin
 FloatingChatFrameMixin = CreateFromMixins(ChatFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.lua#L182)
---- @class PrimaryChatFrameMixin : FloatingChatFrameMixin
+ --- @class PrimaryChatFrameMixin : FloatingChatFrameMixin
 PrimaryChatFrameMixin = CreateFromMixins(FloatingChatFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.lua#L90)

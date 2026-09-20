@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.lua#L286)
---- @class MonthlyActivitiesTabButtonMixin : PanelTabButtonMixin
+ --- @class MonthlyActivitiesTabButtonMixin : PanelTabButtonMixin
 MonthlyActivitiesTabButtonMixin = CreateFromMixins(PanelTabButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.lua#L190)
---- @class EncounterJournalItemMixin
+ --- @class EncounterJournalItemMixin
 EncounterJournalItemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.lua#L254)
---- @class EncounterJournalItemHeaderMixin
+ --- @class EncounterJournalItemHeaderMixin
 EncounterJournalItemHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.lua#L266)
---- @class EncounterBossButtonMixin
+ --- @class EncounterBossButtonMixin
 EncounterBossButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.lua#L2524)
---- @class EncounterSearchResultLGMixin
+ --- @class EncounterSearchResultLGMixin
 EncounterSearchResultLGMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.lua#L3628)
---- @class EncounterJournalScrollBarOldMixin
+ --- @class EncounterJournalScrollBarOldMixin
 EncounterJournalScrollBarOldMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.lua#L3634)
---- @class ModifiedInstanceIconMixin
+ --- @class ModifiedInstanceIconMixin
 ModifiedInstanceIconMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.lua#L3676)
---- @class GreatVaultButtonMixin
+ --- @class GreatVaultButtonMixin
 GreatVaultButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.lua#L3714)
---- @class EncounterJournalRPEStartButtonMixin
+ --- @class EncounterJournalRPEStartButtonMixin
 EncounterJournalRPEStartButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.lua#L192)

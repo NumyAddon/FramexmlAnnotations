@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelTemplatesShared.lua#L214)
---- @class CurrencyTemplateMixin
+ --- @class CurrencyTemplateMixin
 CurrencyTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelTemplatesShared.lua#L265)
---- @class UIExpandingButtonMixin
+ --- @class UIExpandingButtonMixin
 UIExpandingButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelTemplatesShared.lua#L322)
---- @class ButtonWithDisableMixin
+ --- @class ButtonWithDisableMixin
 ButtonWithDisableMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelTemplatesShared.lua#L216)

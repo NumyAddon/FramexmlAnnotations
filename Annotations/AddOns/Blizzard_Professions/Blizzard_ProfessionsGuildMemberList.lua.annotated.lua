@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L1)
---- @class ProfessionsGuildCrafterButtonMixin
+ --- @class ProfessionsGuildCrafterButtonMixin
 ProfessionsGuildCrafterButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L18)
---- @class ProfessionsGuildListingMixin
+ --- @class ProfessionsGuildListingMixin
 ProfessionsGuildListingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsGuildMemberList.lua#L3)

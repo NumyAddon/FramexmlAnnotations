@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemPowerMixin.lua#L1)
---- @class AzeriteEmpoweredItemPowerMixin
+ --- @class AzeriteEmpoweredItemPowerMixin
 AzeriteEmpoweredItemPowerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemPowerMixin.lua#L6)

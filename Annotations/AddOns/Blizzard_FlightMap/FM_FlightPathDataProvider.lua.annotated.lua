@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/FM_FlightPathDataProvider.lua#L1)
---- @class FlightMap_FlightPathDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class FlightMap_FlightPathDataProviderMixin : MapCanvasDataProviderMixin
 FlightMap_FlightPathDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/FM_FlightPathDataProvider.lua#L217)
---- @class FlightMap_FlightPointPinMixin : MapCanvasPinMixin
+ --- @class FlightMap_FlightPointPinMixin : MapCanvasPinMixin
 FlightMap_FlightPointPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FlightMap/FM_FlightPathDataProvider.lua#L8)

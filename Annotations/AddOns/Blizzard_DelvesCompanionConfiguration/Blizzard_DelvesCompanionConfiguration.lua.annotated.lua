@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.lua#L81)
---- @class DelvesCompanionConfigurationFrameMixin
+ --- @class DelvesCompanionConfigurationFrameMixin
 DelvesCompanionConfigurationFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.lua#L193)
---- @class CompanionPortraitFrameMixin
+ --- @class CompanionPortraitFrameMixin
 CompanionPortraitFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.lua#L210)
---- @class CompanionExperienceRingFrameMixin
+ --- @class CompanionExperienceRingFrameMixin
 CompanionExperienceRingFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.lua#L221)
---- @class CompanionLevelFrameMixin
+ --- @class CompanionLevelFrameMixin
 CompanionLevelFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.lua#L230)
---- @class CompanionInfoFrameMixin
+ --- @class CompanionInfoFrameMixin
 CompanionInfoFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.lua#L253)
---- @class CompanionConfigSlotTemplateMixin
+ --- @class CompanionConfigSlotTemplateMixin
 CompanionConfigSlotTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.lua#L643)
---- @class CompanionConfigSlotOptionsListMixin
+ --- @class CompanionConfigSlotOptionsListMixin
 CompanionConfigSlotOptionsListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.lua#L660)
---- @class CompanionConfigListButtonMixin
+ --- @class CompanionConfigListButtonMixin
 CompanionConfigListButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.lua#L745)
---- @class CompanionConfigShowAbilitiesButtonMixin
+ --- @class CompanionConfigShowAbilitiesButtonMixin
 CompanionConfigShowAbilitiesButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.lua#L83)

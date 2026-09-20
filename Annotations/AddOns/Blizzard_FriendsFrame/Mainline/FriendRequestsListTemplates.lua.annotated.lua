@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.lua#L1)
---- @class FriendRequestsListSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
+ --- @class FriendRequestsListSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
 FriendRequestsListSocialViewMixin = CreateFromMixins(SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.lua#L221)
---- @class FriendRequestsListSocialCardAcceptButtonMixin : ButtonStateBehaviorMixin
+ --- @class FriendRequestsListSocialCardAcceptButtonMixin : ButtonStateBehaviorMixin
 FriendRequestsListSocialCardAcceptButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.lua#L292)
---- @class FriendRequestsListSocialCardMixin
+ --- @class FriendRequestsListSocialCardMixin
 FriendRequestsListSocialCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.lua#L513)
---- @class FriendRequestsListSocialCardDeclineButtonMixin
+ --- @class FriendRequestsListSocialCardDeclineButtonMixin
 FriendRequestsListSocialCardDeclineButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.lua#L554)
---- @class FriendRequestsListRealIDWarningMixin
+ --- @class FriendRequestsListRealIDWarningMixin
 FriendRequestsListRealIDWarningMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.lua#L29)

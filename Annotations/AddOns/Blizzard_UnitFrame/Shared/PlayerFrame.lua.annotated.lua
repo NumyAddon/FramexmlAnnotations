@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/PlayerFrame.lua#L2)
---- @class PlayerBottomManagedFrameContainerMixin
+ --- @class PlayerBottomManagedFrameContainerMixin
 PlayerBottomManagedFrameContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/PlayerFrame.lua#L4)

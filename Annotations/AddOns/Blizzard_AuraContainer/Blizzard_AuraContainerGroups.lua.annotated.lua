@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerGroups.lua#L32)
---- @class AuraContainerAuraGroupManagerMixin
+ --- @class AuraContainerAuraGroupManagerMixin
 AuraContainerAuraGroupManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerGroups.lua#L330)
---- @class AuraContainerAuraGroupMixin
+ --- @class AuraContainerAuraGroupMixin
 AuraContainerAuraGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerGroups.lua#L496)
---- @class AuraContainerAuraGroupOwnerMixin
+ --- @class AuraContainerAuraGroupOwnerMixin
 AuraContainerAuraGroupOwnerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerGroups.lua#L34)

@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraButton.lua#L28)
---- @class TargetFrameAuraButtonInboundMixin : TargetFrameAuraButtonSharedMixin
+ --- @class TargetFrameAuraButtonInboundMixin : TargetFrameAuraButtonSharedMixin
 TargetFrameAuraButtonInboundMixin = CreateFromMixins(TargetFrameAuraButtonSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraButton.lua#L29)
---- @class TargetFrameAuraButtonPrivateMixin : AuraButtonPrivateMixin, TargetFrameAuraButtonSharedMixin
+ --- @class TargetFrameAuraButtonPrivateMixin : AuraButtonPrivateMixin, TargetFrameAuraButtonSharedMixin
 TargetFrameAuraButtonPrivateMixin = CreateFromMixins(AuraButtonPrivateMixin, TargetFrameAuraButtonSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraButton.lua#L109)
---- @class TargetFrameBuffButtonInboundMixin : TargetFrameBuffButtonSharedMixin
+ --- @class TargetFrameBuffButtonInboundMixin : TargetFrameBuffButtonSharedMixin
 TargetFrameBuffButtonInboundMixin = CreateFromMixins(TargetFrameBuffButtonSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraButton.lua#L110)
---- @class TargetFrameBuffButtonPrivateMixin : TargetFrameAuraButtonPrivateMixin, TargetFrameBuffButtonSharedMixin
+ --- @class TargetFrameBuffButtonPrivateMixin : TargetFrameAuraButtonPrivateMixin, TargetFrameBuffButtonSharedMixin
 TargetFrameBuffButtonPrivateMixin = CreateFromMixins(TargetFrameAuraButtonPrivateMixin, TargetFrameBuffButtonSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraButton.lua#L129)
---- @class TargetFrameDebuffButtonInboundMixin : TargetFrameDebuffButtonSharedMixin
+ --- @class TargetFrameDebuffButtonInboundMixin : TargetFrameDebuffButtonSharedMixin
 TargetFrameDebuffButtonInboundMixin = CreateFromMixins(TargetFrameDebuffButtonSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraButton.lua#L130)
---- @class TargetFrameDebuffButtonPrivateMixin : TargetFrameAuraButtonPrivateMixin, TargetFrameDebuffButtonSharedMixin
+ --- @class TargetFrameDebuffButtonPrivateMixin : TargetFrameAuraButtonPrivateMixin, TargetFrameDebuffButtonSharedMixin
 TargetFrameDebuffButtonPrivateMixin = CreateFromMixins(TargetFrameAuraButtonPrivateMixin, TargetFrameDebuffButtonSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraButton.lua#L1)
---- @class TargetFrameAuraButtonSharedMixin
+ --- @class TargetFrameAuraButtonSharedMixin
 TargetFrameAuraButtonSharedMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraButton.lua#L90)
---- @class TargetFrameBuffButtonSharedMixin
+ --- @class TargetFrameBuffButtonSharedMixin
 TargetFrameBuffButtonSharedMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraButton.lua#L123)
---- @class TargetFrameDebuffButtonSharedMixin
+ --- @class TargetFrameDebuffButtonSharedMixin
 TargetFrameDebuffButtonSharedMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraButton.lua#L3)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/RoleSelectionTemplate.lua#L2)
---- @class RoleSelectionMixin
+ --- @class RoleSelectionMixin
 RoleSelectionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/RoleSelectionTemplate.lua#L34)
---- @class RoleSelectionRoleMixin
+ --- @class RoleSelectionRoleMixin
 RoleSelectionRoleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/RoleSelectionTemplate.lua#L4)

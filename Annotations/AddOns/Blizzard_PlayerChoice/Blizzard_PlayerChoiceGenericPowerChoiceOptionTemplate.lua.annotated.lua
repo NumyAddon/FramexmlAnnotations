@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.lua#L1)
---- @class PlayerChoiceGenericPowerChoiceOptionTemplateMixin
+ --- @class PlayerChoiceGenericPowerChoiceOptionTemplateMixin
 PlayerChoiceGenericPowerChoiceOptionTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.lua#L3)

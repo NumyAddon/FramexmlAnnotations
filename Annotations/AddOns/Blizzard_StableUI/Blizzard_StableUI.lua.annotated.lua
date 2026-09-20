@@ -1,83 +1,83 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L731)
---- @class StableBeastMasterSecondaryPetButtonMixin : StableActivePetButtonTemplateMixin
+ --- @class StableBeastMasterSecondaryPetButtonMixin : StableActivePetButtonTemplateMixin
 StableBeastMasterSecondaryPetButtonMixin = CreateFromMixins(StableActivePetButtonTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1066)
---- @class StablePetModelSceneMixin : PanningModelSceneMixin
+ --- @class StablePetModelSceneMixin : PanningModelSceneMixin
 StablePetModelSceneMixin = CreateFromMixins(PanningModelSceneMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L204)
---- @class StableFrameMixin
+ --- @class StableFrameMixin
 StableFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L364)
---- @class StableTogglePetButtonMixin
+ --- @class StableTogglePetButtonMixin
 StableTogglePetButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L404)
---- @class StableReleasePetButtonMixin
+ --- @class StableReleasePetButtonMixin
 StableReleasePetButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L413)
---- @class StablePetFavoriteButtonMixin
+ --- @class StablePetFavoriteButtonMixin
 StablePetFavoriteButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L440)
---- @class StableActivePetListMixin
+ --- @class StableActivePetListMixin
 StableActivePetListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L472)
---- @class StablePetNameBoxMixin
+ --- @class StablePetNameBoxMixin
 StablePetNameBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L480)
---- @class StablePetNameEditButtonMixin
+ --- @class StablePetNameEditButtonMixin
 StablePetNameEditButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L493)
---- @class StableStabledPetButtonTemplateMixin
+ --- @class StableStabledPetButtonTemplateMixin
 StableStabledPetButtonTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L566)
---- @class StableSearchBoxMixin
+ --- @class StableSearchBoxMixin
 StableSearchBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L587)
---- @class StableActivePetButtonTemplateMixin
+ --- @class StableActivePetButtonTemplateMixin
 StableActivePetButtonTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L758)
---- @class StablePetInfoMixin
+ --- @class StablePetInfoMixin
 StablePetInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L773)
---- @class StablePetTypeStringMixin
+ --- @class StablePetTypeStringMixin
 StablePetTypeStringMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L793)
---- @class StabledPetListCategoryMixin
+ --- @class StabledPetListCategoryMixin
 StabledPetListCategoryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L809)
---- @class StableStabledPetListMixin
+ --- @class StableStabledPetListMixin
 StableStabledPetListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1060)
---- @class StableTutorialButtonMixin
+ --- @class StableTutorialButtonMixin
 StableTutorialButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1113)
---- @class StablePetAbilityMixin
+ --- @class StablePetAbilityMixin
 StablePetAbilityMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1163)
---- @class StablePetAbilitiesListMixin
+ --- @class StablePetAbilitiesListMixin
 StablePetAbilitiesListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L1219)
---- @class StablePetSpecializationMixin
+ --- @class StablePetSpecializationMixin
 StablePetSpecializationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.lua#L206)

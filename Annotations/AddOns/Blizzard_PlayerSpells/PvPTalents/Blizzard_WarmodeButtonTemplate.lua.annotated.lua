@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L2)
---- @class WarmodeButtonMixin
+ --- @class WarmodeButtonMixin
 WarmodeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L182)
---- @class WarmodeIncentiveMixin
+ --- @class WarmodeIncentiveMixin
 WarmodeIncentiveMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L4)

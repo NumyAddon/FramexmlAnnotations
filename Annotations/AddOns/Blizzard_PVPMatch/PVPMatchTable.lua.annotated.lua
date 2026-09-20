@@ -1,51 +1,51 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L1)
---- @class PVPRowMixin : TableBuilderRowMixin
+ --- @class PVPRowMixin : TableBuilderRowMixin
 PVPRowMixin = CreateFromMixins(TableBuilderRowMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L27)
---- @class PVPHeaderMixin : TableBuilderElementMixin
+ --- @class PVPHeaderMixin : TableBuilderElementMixin
 PVPHeaderMixin = CreateFromMixins(TableBuilderElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L64)
---- @class PVPHeaderIconMixin : PVPHeaderMixin
+ --- @class PVPHeaderIconMixin : PVPHeaderMixin
 PVPHeaderIconMixin = CreateFromMixins(PVPHeaderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L75)
---- @class PVPCellClassMixin : TableBuilderCellMixin
+ --- @class PVPCellClassMixin : TableBuilderCellMixin
 PVPCellClassMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L104)
---- @class PVPCellHonorLevelMixin : TableBuilderCellMixin
+ --- @class PVPCellHonorLevelMixin : TableBuilderCellMixin
 PVPCellHonorLevelMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L128)
---- @class PVPHeaderStringMixin : PVPHeaderMixin
+ --- @class PVPHeaderStringMixin : PVPHeaderMixin
 PVPHeaderStringMixin = CreateFromMixins(PVPHeaderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L163)
---- @class PVPCellStringMixin : TableBuilderCellMixin
+ --- @class PVPCellStringMixin : TableBuilderCellMixin
 PVPCellStringMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L203)
---- @class PVPCellNameMixin : TableBuilderCellMixin
+ --- @class PVPCellNameMixin : TableBuilderCellMixin
 PVPCellNameMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L244)
---- @class PVPSoloShuffleCellNameMixin : PVPCellNameMixin
+ --- @class PVPSoloShuffleCellNameMixin : PVPCellNameMixin
 PVPSoloShuffleCellNameMixin = CreateFromMixins(PVPCellNameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L261)
---- @class PVPCellStatMixin : TableBuilderCellMixin
+ --- @class PVPCellStatMixin : TableBuilderCellMixin
 PVPCellStatMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L307)
---- @class PVPSoloShuffleCellStatMixin : PVPCellStatMixin
+ --- @class PVPSoloShuffleCellStatMixin : PVPCellStatMixin
 PVPSoloShuffleCellStatMixin = CreateFromMixins(PVPCellStatMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L313)
---- @class PVPNewRatingMixin : TableBuilderCellMixin
+ --- @class PVPNewRatingMixin : TableBuilderCellMixin
 PVPNewRatingMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L3)

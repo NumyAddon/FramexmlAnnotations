@@ -1,55 +1,55 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L1)
---- @class SocialUITabMixin : SidePanelTabButtonMixin
+ --- @class SocialUITabMixin : SidePanelTabButtonMixin
 SocialUITabMixin = CreateFromMixins(SidePanelTabButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L211)
---- @class SocialUIBattleNetMenuButtonMixin : SocialUISystemMixin
+ --- @class SocialUIBattleNetMenuButtonMixin : SocialUISystemMixin
 SocialUIBattleNetMenuButtonMixin = CreateFromMixins(SocialUISystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L325)
---- @class SocialUICopyBattleTagToClipboardButtonMixin : ButtonStateBehaviorMixin
+ --- @class SocialUICopyBattleTagToClipboardButtonMixin : ButtonStateBehaviorMixin
 SocialUICopyBattleTagToClipboardButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L364)
---- @class SocialUIBattleNetUnavailableNoticeButtonMixin : SocialUISystemMixin
+ --- @class SocialUIBattleNetUnavailableNoticeButtonMixin : SocialUISystemMixin
 SocialUIBattleNetUnavailableNoticeButtonMixin = CreateFromMixins(SocialUISystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L582)
---- @class SocialUIIgnoreListMixin : SocialUIScrollableElementExtentPreviewerMixin
+ --- @class SocialUIIgnoreListMixin : SocialUIScrollableElementExtentPreviewerMixin
 SocialUIIgnoreListMixin = CreateFromMixins(SocialUIScrollableElementExtentPreviewerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L124)
---- @class SocialUIOnlineStatusDropdownMixin
+ --- @class SocialUIOnlineStatusDropdownMixin
 SocialUIOnlineStatusDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L276)
---- @class SocialUIPersonalBattleTagDisplayMixin
+ --- @class SocialUIPersonalBattleTagDisplayMixin
 SocialUIPersonalBattleTagDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L370)
---- @class SocialUIBattleNetControlsContainerMixin
+ --- @class SocialUIBattleNetControlsContainerMixin
 SocialUIBattleNetControlsContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L467)
---- @class SocialUIBattleNetUnavailableNoticeFrameMixin
+ --- @class SocialUIBattleNetUnavailableNoticeFrameMixin
 SocialUIBattleNetUnavailableNoticeFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L486)
---- @class SocialUIBattleNetBroadcastFrameMixin
+ --- @class SocialUIBattleNetBroadcastFrameMixin
 SocialUIBattleNetBroadcastFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L567)
---- @class SocialUIBattleNetBroadcastEditBoxMixin
+ --- @class SocialUIBattleNetBroadcastEditBoxMixin
 SocialUIBattleNetBroadcastEditBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L813)
---- @class SocialUIIgnoreListHeaderMixin
+ --- @class SocialUIIgnoreListHeaderMixin
 SocialUIIgnoreListHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L825)
---- @class SocialUIIgnoreListEntryMixin
+ --- @class SocialUIIgnoreListEntryMixin
 SocialUIIgnoreListEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L3)

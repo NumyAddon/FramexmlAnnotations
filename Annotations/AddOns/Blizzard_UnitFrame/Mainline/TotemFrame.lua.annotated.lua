@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/TotemFrame.lua#L2)
---- @class TotemFrameMixin
+ --- @class TotemFrameMixin
 TotemFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/TotemFrame.lua#L48)
---- @class TotemButtonMixin
+ --- @class TotemButtonMixin
 TotemButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/TotemFrame.lua#L4)

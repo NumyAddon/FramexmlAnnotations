@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/WM_DebugDataProvider.lua#L5)
---- @class WorldMap_DebugDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class WorldMap_DebugDataProviderMixin : MapCanvasDataProviderMixin
 WorldMap_DebugDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/WM_DebugDataProvider.lua#L131)
---- @class WorldMap_DebugObjectPinMixin : MapCanvasPinMixin
+ --- @class WorldMap_DebugObjectPinMixin : MapCanvasPinMixin
 WorldMap_DebugObjectPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/WM_DebugDataProvider.lua#L11)

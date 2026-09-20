@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapBountyBoard.lua#L78)
---- @class WorldMapBountyBoardMixin : BountyFrameMixin
+ --- @class WorldMapBountyBoardMixin : BountyFrameMixin
 WorldMapBountyBoardMixin = CreateFromMixins(BountyFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapBountyBoard.lua#L568)
---- @class WorldMapActivityTrackerMixin : BountyFrameMixin
+ --- @class WorldMapActivityTrackerMixin : BountyFrameMixin
 WorldMapActivityTrackerMixin = CreateFromMixins(BountyFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapBountyBoard.lua#L12)
---- @class BountyFrameMixin
+ --- @class BountyFrameMixin
 BountyFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapBountyBoard.lua#L14)

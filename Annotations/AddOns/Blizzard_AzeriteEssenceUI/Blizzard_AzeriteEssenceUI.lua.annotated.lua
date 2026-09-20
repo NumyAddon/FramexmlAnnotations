@@ -1,43 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.lua#L3)
---- @class AzeriteEssenceUIMixin : CallbackRegistryMixin
+ --- @class AzeriteEssenceUIMixin : CallbackRegistryMixin
 AzeriteEssenceUIMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.lua#L545)
---- @class AzeriteEssenceDependencyLineMixin : PowerDependencyLineMixin
+ --- @class AzeriteEssenceDependencyLineMixin : PowerDependencyLineMixin
 AzeriteEssenceDependencyLineMixin = CreateFromMixins(PowerDependencyLineMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.lua#L1103)
---- @class AzeriteMilestoneSlotMixin : AzeriteMilestoneBaseMixin
+ --- @class AzeriteMilestoneSlotMixin : AzeriteMilestoneBaseMixin
 AzeriteMilestoneSlotMixin = CreateFromMixins(AzeriteMilestoneBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.lua#L1292)
---- @class AzeriteMilestoneStaminaMixin : AzeriteMilestoneBaseMixin
+ --- @class AzeriteMilestoneStaminaMixin : AzeriteMilestoneBaseMixin
 AzeriteMilestoneStaminaMixin = CreateFromMixins(AzeriteMilestoneBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.lua#L1328)
---- @class AzeriteMilestoneRankedMixin : AzeriteMilestoneBaseMixin
+ --- @class AzeriteMilestoneRankedMixin : AzeriteMilestoneBaseMixin
 AzeriteMilestoneRankedMixin = CreateFromMixins(AzeriteMilestoneBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.lua#L586)
---- @class AzeriteEssenceListMixin
+ --- @class AzeriteEssenceListMixin
 AzeriteEssenceListMixin  = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.lua#L859)
---- @class AzeriteEssenceButtonMixin
+ --- @class AzeriteEssenceButtonMixin
 AzeriteEssenceButtonMixin  = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.lua#L911)
---- @class AzeriteEssenceHeaderButtonMixin
+ --- @class AzeriteEssenceHeaderButtonMixin
 AzeriteEssenceHeaderButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.lua#L923)
---- @class AzeriteMilestoneBaseMixin
+ --- @class AzeriteMilestoneBaseMixin
 AzeriteMilestoneBaseMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.lua#L1400)
---- @class AzeriteEssenceLearnAnimFrameMixin
+ --- @class AzeriteEssenceLearnAnimFrameMixin
 AzeriteEssenceLearnAnimFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.lua#L86)

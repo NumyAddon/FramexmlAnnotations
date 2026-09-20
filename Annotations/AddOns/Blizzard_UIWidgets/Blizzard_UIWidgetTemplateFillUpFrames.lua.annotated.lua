@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateFillUpFrames.lua#L10)
---- @class UIWidgetTemplateFillUpFramesMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateFillUpFramesMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateFillUpFramesMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateFillUpFrames.lua#L143)
---- @class UIWidgetFillUpFrameTemplateMixin : UIWidgetTemplateTooltipFrameMixin
+ --- @class UIWidgetFillUpFrameTemplateMixin : UIWidgetTemplateTooltipFrameMixin
 UIWidgetFillUpFrameTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateFillUpFrames.lua#L314)
---- @class DecorFlipbookAnimMixin
+ --- @class DecorFlipbookAnimMixin
 DecorFlipbookAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateFillUpFrames.lua#L321)
---- @class FilledFlipbookAnimMixin
+ --- @class FilledFlipbookAnimMixin
 FilledFlipbookAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateFillUpFrames.lua#L327)
---- @class BurstFlipbookAnimMixin
+ --- @class BurstFlipbookAnimMixin
 BurstFlipbookAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateFillUpFrames.lua#L36)

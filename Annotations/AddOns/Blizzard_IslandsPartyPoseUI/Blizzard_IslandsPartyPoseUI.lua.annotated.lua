@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.lua#L1)
---- @class IslandsPartyPoseMixin : PartyPoseMixin
+ --- @class IslandsPartyPoseMixin : PartyPoseMixin
 IslandsPartyPoseMixin = CreateFromMixins(PartyPoseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsPartyPoseUI/Blizzard_IslandsPartyPoseUI.lua#L3)

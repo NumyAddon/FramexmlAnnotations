@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Tutorials/Blizzard_Tutorials_Managed.lua#L1)
---- @class RPETutorialInterruptMixin : UIFrameManager_ManagedFrameMixin
+ --- @class RPETutorialInterruptMixin : UIFrameManager_ManagedFrameMixin
 RPETutorialInterruptMixin = CreateFromMixins(UIFrameManager_ManagedFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Tutorials/Blizzard_Tutorials_Managed.lua#L3)

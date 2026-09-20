@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.lua#L2)
---- @class AdventureMapQuestChoiceDialogMixin
+ --- @class AdventureMapQuestChoiceDialogMixin
 AdventureMapQuestChoiceDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.lua#L272)
---- @class AdventureMapQuestRewardMixin
+ --- @class AdventureMapQuestRewardMixin
 AdventureMapQuestRewardMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.lua#L8)

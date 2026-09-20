@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L50)
---- @class CurrencyDisplayMixin : CurrencyTemplateMixin
+ --- @class CurrencyDisplayMixin : CurrencyTemplateMixin
 CurrencyDisplayMixin = CreateFromMixins(CurrencyTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L7)
---- @class RoleCountMixin
+ --- @class RoleCountMixin
 RoleCountMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L29)
---- @class TalentRankDisplayMixin
+ --- @class TalentRankDisplayMixin
 TalentRankDisplayMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L94)
---- @class CurrencyDisplayGroupMixin
+ --- @class CurrencyDisplayGroupMixin
 CurrencyDisplayGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L171)
---- @class CurrencyLayoutFrameIconMixin
+ --- @class CurrencyLayoutFrameIconMixin
 CurrencyLayoutFrameIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L193)
---- @class CurrencyHorizontalLayoutFrameMixin
+ --- @class CurrencyHorizontalLayoutFrameMixin
 CurrencyHorizontalLayoutFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L9)

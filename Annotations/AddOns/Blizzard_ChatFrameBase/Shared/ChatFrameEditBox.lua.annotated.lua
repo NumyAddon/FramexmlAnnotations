@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L317)
---- @class ChatFrameEditBoxMixin : ChatFrameEditBoxBaseMixin
+ --- @class ChatFrameEditBoxMixin : ChatFrameEditBoxBaseMixin
 ChatFrameEditBoxMixin = CreateFromMixins(ChatFrameEditBoxBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L8)
---- @class ChatFrameEditBoxBaseMixin
+ --- @class ChatFrameEditBoxBaseMixin
 ChatFrameEditBoxBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L10)

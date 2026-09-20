@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L9)
---- @class ShoppingCartDataManagerMixin : ShoppingCartServiceRegistrantMixin
+ --- @class ShoppingCartDataManagerMixin : ShoppingCartServiceRegistrantMixin
 ShoppingCartDataManagerMixin = CreateFromMixins(ShoppingCartServiceRegistrantMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L128)
---- @class ShoppingCartClearCartServiceMixin
+ --- @class ShoppingCartClearCartServiceMixin
 ShoppingCartClearCartServiceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L11)

@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationRoomTemplates.lua#L63)
---- @class HousingRoomComponentThemeMixin : HousingRoomComponentOptionMixin
+ --- @class HousingRoomComponentThemeMixin : HousingRoomComponentOptionMixin
 HousingRoomComponentThemeMixin = CreateFromMixins(HousingRoomComponentOptionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationRoomTemplates.lua#L136)
---- @class HousingRoomComponentWallpaperMixin : HousingRoomComponentOptionMixin
+ --- @class HousingRoomComponentWallpaperMixin : HousingRoomComponentOptionMixin
 HousingRoomComponentWallpaperMixin = CreateFromMixins(HousingRoomComponentOptionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationRoomTemplates.lua#L207)
---- @class HousingRoomComponentCeilingTypeMixin : HousingRoomComponentOptionMixin
+ --- @class HousingRoomComponentCeilingTypeMixin : HousingRoomComponentOptionMixin
 HousingRoomComponentCeilingTypeMixin = CreateFromMixins(HousingRoomComponentOptionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationRoomTemplates.lua#L241)
---- @class HousingRoomComponentDoorTypeMixin : HousingRoomComponentOptionMixin
+ --- @class HousingRoomComponentDoorTypeMixin : HousingRoomComponentOptionMixin
 HousingRoomComponentDoorTypeMixin = CreateFromMixins(HousingRoomComponentOptionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationRoomTemplates.lua#L274)
---- @class HousingRoomComponentApplyToAllButtonMixin : UIButtonMixin
+ --- @class HousingRoomComponentApplyToAllButtonMixin : UIButtonMixin
 HousingRoomComponentApplyToAllButtonMixin = CreateFromMixins(UIButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationRoomTemplates.lua#L2)
---- @class HousingRoomComponentOptionMixin
+ --- @class HousingRoomComponentOptionMixin
 HousingRoomComponentOptionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationRoomTemplates.lua#L288)
---- @class RoomComponentPaneMixin
+ --- @class RoomComponentPaneMixin
 RoomComponentPaneMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationRoomTemplates.lua#L4)

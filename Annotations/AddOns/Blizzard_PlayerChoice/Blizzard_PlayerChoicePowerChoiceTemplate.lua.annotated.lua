@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L1)
---- @class PlayerChoicePowerChoiceTemplateMixin : PlayerChoiceBaseOptionTemplateMixin
+ --- @class PlayerChoicePowerChoiceTemplateMixin : PlayerChoiceBaseOptionTemplateMixin
 PlayerChoicePowerChoiceTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L3)

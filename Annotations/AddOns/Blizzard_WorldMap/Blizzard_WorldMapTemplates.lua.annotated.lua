@@ -1,51 +1,51 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L166)
---- @class WorldMapTrackingOptionsButtonMixin : WowDropdownFilterBehaviorMixin
+ --- @class WorldMapTrackingOptionsButtonMixin : WowDropdownFilterBehaviorMixin
 WorldMapTrackingOptionsButtonMixin = CreateFromMixins(WowDropdownFilterBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L1)
---- @class WorldMapFloorNavigationFrameMixin
+ --- @class WorldMapFloorNavigationFrameMixin
 WorldMapFloorNavigationFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L60)
---- @class WorldMapFilterMixin
+ --- @class WorldMapFilterMixin
 WorldMapFilterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L126)
---- @class WorldMapTrackingOptionsFilterCounterMixin
+ --- @class WorldMapTrackingOptionsFilterCounterMixin
 WorldMapTrackingOptionsFilterCounterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L406)
---- @class WorldMapTrackingPinButtonMixin
+ --- @class WorldMapTrackingPinButtonMixin
 WorldMapTrackingPinButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L473)
---- @class WorldMapNavBarMixin
+ --- @class WorldMapNavBarMixin
 WorldMapNavBarMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L527)
---- @class WorldMapNavBarButtonMixin
+ --- @class WorldMapNavBarButtonMixin
 WorldMapNavBarButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L551)
---- @class WorldMapCoordsPanelMixin
+ --- @class WorldMapCoordsPanelMixin
 WorldMapCoordsPanelMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L631)
---- @class WorldMapSidePanelToggleMixin
+ --- @class WorldMapSidePanelToggleMixin
 WorldMapSidePanelToggleMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L648)
---- @class WorldMapZoneTimerMixin
+ --- @class WorldMapZoneTimerMixin
 WorldMapZoneTimerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L667)
---- @class WorldMapThreatFrameMixin
+ --- @class WorldMapThreatFrameMixin
 WorldMapThreatFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L790)
---- @class WorldMapThreatEyeMixin
+ --- @class WorldMapThreatEyeMixin
 WorldMapThreatEyeMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L3)

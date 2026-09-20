@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PetBattleUI/Mainline/Blizzard_PetBattleUI.lua#L26)
---- @class MicroButtonFrameMixin
+ --- @class MicroButtonFrameMixin
 MicroButtonFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PetBattleUI/Mainline/Blizzard_PetBattleUI.lua#L28)

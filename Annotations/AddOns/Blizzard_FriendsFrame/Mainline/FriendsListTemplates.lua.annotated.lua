@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L44)
---- @class FriendsListSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
+ --- @class FriendsListSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
 FriendsListSocialViewMixin = CreateFromMixins(SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L444)
---- @class FriendsListSocialCardMixin
+ --- @class FriendsListSocialCardMixin
 FriendsListSocialCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L1126)
---- @class FriendsListSocialCardStateDisplayMixin
+ --- @class FriendsListSocialCardStateDisplayMixin
 FriendsListSocialCardStateDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L1139)
---- @class FriendsListSocialCardFavoriteDisplayMixin
+ --- @class FriendsListSocialCardFavoriteDisplayMixin
 FriendsListSocialCardFavoriteDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L1174)
---- @class FriendsListSocialCardRAFSummonButtonMixin
+ --- @class FriendsListSocialCardRAFSummonButtonMixin
 FriendsListSocialCardRAFSummonButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L1283)
---- @class FriendsListSocialCardPartyButtonMixin
+ --- @class FriendsListSocialCardPartyButtonMixin
 FriendsListSocialCardPartyButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L54)

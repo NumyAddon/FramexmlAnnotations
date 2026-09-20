@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/RuneFrame.lua#L1)
---- @class RuneFrameMixin
+ --- @class RuneFrameMixin
 RuneFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/RuneFrame.lua#L129)
---- @class RuneButtonMixin
+ --- @class RuneButtonMixin
 RuneButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/RuneFrame.lua#L3)

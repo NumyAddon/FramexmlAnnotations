@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.lua#L845)
---- @class CovenantSanctumUpgradeTreeMixin : CovenantSanctumUpgradeBaseMixin
+ --- @class CovenantSanctumUpgradeTreeMixin : CovenantSanctumUpgradeBaseMixin
 CovenantSanctumUpgradeTreeMixin = CreateFromMixins(CovenantSanctumUpgradeBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.lua#L848)
---- @class CovenantSanctumUpgradeReservoirMixin : CovenantSanctumUpgradeBaseMixin
+ --- @class CovenantSanctumUpgradeReservoirMixin : CovenantSanctumUpgradeBaseMixin
 CovenantSanctumUpgradeReservoirMixin = CreateFromMixins(CovenantSanctumUpgradeBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.lua#L145)
---- @class CovenantSanctumUpgradesTabMixin
+ --- @class CovenantSanctumUpgradesTabMixin
 CovenantSanctumUpgradesTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.lua#L447)
---- @class CovenantSanctumUpgradeTalentListMixin
+ --- @class CovenantSanctumUpgradeTalentListMixin
 CovenantSanctumUpgradeTalentListMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.lua#L527)
---- @class CovenantSanctumIntroBoxMixin
+ --- @class CovenantSanctumIntroBoxMixin
 CovenantSanctumIntroBoxMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.lua#L568)
---- @class CovenantSanctumUpgradeTalentMixin
+ --- @class CovenantSanctumUpgradeTalentMixin
 CovenantSanctumUpgradeTalentMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.lua#L736)
---- @class CovenantSanctumUpgradeBaseMixin
+ --- @class CovenantSanctumUpgradeBaseMixin
 CovenantSanctumUpgradeBaseMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.lua#L1098)
---- @class CovenantSanctumUpgradeButtonMixin
+ --- @class CovenantSanctumUpgradeButtonMixin
 CovenantSanctumUpgradeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CovenantSanctum/Blizzard_CovenantSanctumUpgrades.lua#L156)

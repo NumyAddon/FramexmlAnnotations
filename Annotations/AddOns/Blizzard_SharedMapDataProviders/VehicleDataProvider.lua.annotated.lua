@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/VehicleDataProvider.lua#L1)
---- @class VehicleDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class VehicleDataProviderMixin : MapCanvasDataProviderMixin
 VehicleDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/VehicleDataProvider.lua#L42)
---- @class VehiclePinMixin : MapCanvasPinMixin
+ --- @class VehiclePinMixin : MapCanvasPinMixin
 VehiclePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/VehicleDataProvider.lua#L3)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TemplatedList.lua#L2)
---- @class TemplatedListElementMixin
+ --- @class TemplatedListElementMixin
 TemplatedListElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TemplatedList.lua#L48)
---- @class TemplatedListMixin
+ --- @class TemplatedListMixin
 TemplatedListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/TemplatedList.lua#L4)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControls.lua#L16)
---- @class HousingControlsMixin
+ --- @class HousingControlsMixin
 HousingControlsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControls.lua#L85)
---- @class HousingOwnerControlsLayoutMixin
+ --- @class HousingOwnerControlsLayoutMixin
 HousingOwnerControlsLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControls.lua#L95)
---- @class HousingVisitorControlsLayoutMixin
+ --- @class HousingVisitorControlsLayoutMixin
 HousingVisitorControlsLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControls.lua#L18)

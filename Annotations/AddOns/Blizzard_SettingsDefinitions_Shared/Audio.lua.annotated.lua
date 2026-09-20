@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Audio.lua#L1)
---- @class VoiceTestMicrophoneMixin : SettingsListElementMixin
+ --- @class VoiceTestMicrophoneMixin : SettingsListElementMixin
 VoiceTestMicrophoneMixin = CreateFromMixins(SettingsListElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Audio.lua#L100)
---- @class VoicePushToTalkMixin : SettingsListElementMixin
+ --- @class VoicePushToTalkMixin : SettingsListElementMixin
 VoicePushToTalkMixin = CreateFromMixins(SettingsListElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Audio.lua#L195)
---- @class MacMicrophoneAccessWarningMixin
+ --- @class MacMicrophoneAccessWarningMixin
 MacMicrophoneAccessWarningMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Audio.lua#L3)

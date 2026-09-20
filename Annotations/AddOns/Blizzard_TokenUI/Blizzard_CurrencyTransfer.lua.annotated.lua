@@ -1,55 +1,55 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L9)
---- @class CurrencyTransferToggleButtonMixin : CurrencyTransferSystemMixin
+ --- @class CurrencyTransferToggleButtonMixin : CurrencyTransferSystemMixin
 CurrencyTransferToggleButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L99)
---- @class CurrencyTransferMenuMixin : CallbackRegistryMixin
+ --- @class CurrencyTransferMenuMixin : CallbackRegistryMixin
 CurrencyTransferMenuMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L367)
---- @class CurrencyTransferBalancePreviewMixin : CurrencyTransferSystemMixin
+ --- @class CurrencyTransferBalancePreviewMixin : CurrencyTransferSystemMixin
 CurrencyTransferBalancePreviewMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L398)
---- @class CurrencyTransferConfirmButtonMixin : CurrencyTransferSystemMixin
+ --- @class CurrencyTransferConfirmButtonMixin : CurrencyTransferSystemMixin
 CurrencyTransferConfirmButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L406)
---- @class CurrencyTransferCancelButtonMixin : CurrencyTransferSystemMixin
+ --- @class CurrencyTransferCancelButtonMixin : CurrencyTransferSystemMixin
 CurrencyTransferCancelButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L412)
---- @class CurrencyTransferAmountSelectorMixin : CallbackRegistryMixin
+ --- @class CurrencyTransferAmountSelectorMixin : CallbackRegistryMixin
 CurrencyTransferAmountSelectorMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L460)
---- @class CurrencyTransferAmountInputBoxMixin : CurrencyTransferSystemMixin
+ --- @class CurrencyTransferAmountInputBoxMixin : CurrencyTransferSystemMixin
 CurrencyTransferAmountInputBoxMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L512)
---- @class CurrencyTransferCostDisplayMixin : CurrencyTransferSystemMixin
+ --- @class CurrencyTransferCostDisplayMixin : CurrencyTransferSystemMixin
 CurrencyTransferCostDisplayMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L524)
---- @class CurrencyTransferSourceSelectorMixin : CurrencyTransferSystemMixin
+ --- @class CurrencyTransferSourceSelectorMixin : CurrencyTransferSystemMixin
 CurrencyTransferSourceSelectorMixin = CreateFromMixins(CurrencyTransferSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L3)
---- @class CurrencyTransferSystemMixin
+ --- @class CurrencyTransferSystemMixin
 CurrencyTransferSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L652)
---- @class CurrencyTransferLogMixin
+ --- @class CurrencyTransferLogMixin
 CurrencyTransferLogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L736)
---- @class CurrencyTransferLogEntryMixin
+ --- @class CurrencyTransferLogEntryMixin
 CurrencyTransferLogEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L781)
---- @class CurrencyTransferLogToggleButtonMixin
+ --- @class CurrencyTransferLogToggleButtonMixin
 CurrencyTransferLogToggleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.lua#L5)

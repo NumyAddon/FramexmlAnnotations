@@ -4,11 +4,15 @@ declare(strict_types=1);
 
 namespace App;
 
+use SplTempFileObject;
+
 /**
  * @phpstan-type AnnotationData array{lineNr: int, classAnnotation: string, annotated: string}
  */
 class LuaFileParser
 {
+    private const array MATCHING_BRACKETS = ['}' => '{', ')' => '('];
+
     /** @var array<string, array<string, array{lineNr: int, classAnnotation: string, annotated: string}> [filename => [mixin name => mixin data]] */
     private array $mixins = [];
     /** @var array<string, list<array{lineNr: int, enumName?: string, enumAnnotation?: string, typeAnnotation: string}>> [filename => list of enum data] */
@@ -101,7 +105,7 @@ class LuaFileParser
     private function extractMixins(string $fileContents, ?string $linkPrefix): array
     {
         $mixins = [];
-        // e.g. `Foo = CreateFromMixins({BarMixin, BazMixin})`
+        // e.g. `Foo = CreateFromMixins(BarMixin, BazMixin)`
         $this->parseMixinRegex(
             '/^(?<match>(?<name>\S+)\s*=\s*CreateFromMixins\((?<extends>[^)]+)\))/m',
             $fileContents,
@@ -109,7 +113,7 @@ class LuaFileParser
             $mixins,
         );
 
-        // e.g. `local FooMixin = CreateFromMixins({BarMixin, BazMixin})`
+        // e.g. `local FooMixin = CreateFromMixins(BarMixin, BazMixin)`
         $this->parseMixinRegex(
             '/^local (?<match>(?<name>\S+Mixin)\s*=\s*CreateFromMixins\((?<extends>[^)]+)\))/m',
             $fileContents,
@@ -136,6 +140,65 @@ class LuaFileParser
         return $mixins;
     }
 
+    private function findExtends(string $fileContents, int $offsetStart): string
+    {
+        $mixins = [];
+        $tmpFile = new SplTempFileObject();
+        $tmpFile->fwrite($fileContents);
+        $tmpFile->fseek($offsetStart);
+        $stack = [];
+        $previousCharacter = '';
+        $inComment = false;
+        $currentWord = '';
+        // let the poor man's tokenizer commence 🙈
+        while (!$tmpFile->eof()) {
+            $character = $tmpFile->fgetc();
+            if ($inComment) {
+                if ($character === '\n') {
+                    $inComment = false;
+                }
+                continue;
+            }
+            switch (true) {
+                case $character === '{':
+                case $character === '(':
+                    $stack[] = $character;
+                    break;
+                case $character === '}':
+                case $character === ')':
+                    $popped = array_pop($stack);
+                    if ($popped === null) {
+                        break 2;
+                    }
+                    if ($popped !== self::MATCHING_BRACKETS[$character]) {
+                        throw new \Exception('Unexpected ' . $character);
+                    }
+                    break;
+                case preg_match('/[a-zA-Z0-9._]/', $character):
+                    if ($stack === []) {
+                        $currentWord .= $character;
+                    }
+                    break;
+                case preg_match('/[\s,]/', $character):
+                    if ($stack === [] && $currentWord !== '') {
+                        $mixins[] = $currentWord;
+                        $currentWord = '';
+                    }
+                    break;
+                case $character === '-';
+                    if ($previousCharacter === '-') {
+                        $inComment = true;
+                    }
+            }
+            $previousCharacter = $character;
+        }
+        if ($currentWord !== '') {
+            $mixins[] = $currentWord;
+        }
+
+        return implode(', ', $mixins);
+    }
+
     private function parseMixinRegex(
         string $regex,
         string $fileContents,
@@ -151,16 +214,21 @@ class LuaFileParser
         );
         foreach ($matches as $match) {
             $funcInfo = [
-                'classAnnotation' => '--- @class ' . $match['name'][0],
+                'classAnnotation' => ' --- @class ' . $match['name'][0],
                 'lineNr' => $this->getLineNrFromOffset($fileContents, $match['match'][1]),
             ];
-            if (isset($match['extends'])) {
-                $funcInfo['classAnnotation'] .= ' : ' . $match['extends'][0];
+            $extends = $match['extends'][0] ?? null;
+            if (isset($extends)) {
+                $extends = $this->findExtends($fileContents, $match['extends'][1]);
+                if (!preg_match('/^(([a-zA-Z0-9_.]+),? ?)*$/', $extends)) {
+                    throw new \Exception('Unexpected mixin value: ' . $extends);
+                }
+                $funcInfo['classAnnotation'] .= ' : ' . $extends;
             }
             if (
                 (
                     !str_contains($match['name'][0], 'Mixin')
-                    && !str_contains($match['extends'][0], ',')
+                    && !str_contains($extends, ',')
                 )
                 || str_contains($match['name'][0], '.')
             ) {
@@ -236,8 +304,8 @@ class LuaFileParser
         // e.g. `local foo = EnumUtil.MakeEnum("firstValue", "secondValue", "Value3")`
         // e.g. `foo = EnumUtil.MakeEnum("firstValue", "secondValue", "Value3")`
         // e.g. `Something.Foo = EnumUtil.MakeEnum("firstValue", "secondValue", "Value3")`
-        $regex = '/^(?<local>local )?(?<name>\S+) = EnumUtil\.MakeEnum\((?<values>(?:\s*"[^",]+?",?\s*(?:--\s*(?<comment>[^\n]+\n))?)+)\)/m';
-        $valueRegex = '/(?<value>"[^",]+?"),?\s*(?:--\s*(?<comment>[^\n]+))?/m';
+        $regex = '/^(?<local>local )?(?<name>\S+) = EnumUtil\.MakeEnum\((?<values>(?:\s*"?[^",]+"?,?\s*(?:--\s*(?<comment>[^\n]+\n))?)+?)\)/m';
+        $valueRegex = '/\s*(?<value>"?[^",]+"?),?\s*(?:--\s*(?<comment>[^\n]+))?/m';
         $matches = [];
         preg_match_all(
             $regex,
@@ -255,6 +323,12 @@ class LuaFileParser
             preg_match_all($valueRegex, $enumValuesRaw, $valueMatches, PREG_SET_ORDER | PREG_OFFSET_CAPTURE);
             foreach ($valueMatches as $valueMatch) {
                 $value = $valueMatch['value'][0];
+                if (empty(trim($value))) {
+                    continue;
+                }
+                if (!preg_match('/^"?[a-zA-Z0-9_]+"?$/', $value)) {
+                    throw new \Exception('Unexpected enum value: ' . $value);
+                }
                 if (isset($valueMatch['comment']) && $valueMatch['comment'][1] !== -1) {
                     $valueComments[] = ' -- ' . $valueMatch['comment'][0];
                 } else {
@@ -265,7 +339,7 @@ class LuaFileParser
 
             // --- @type {["firstValue"] = 1, ["secondValue"] = 2, ["value3"] = 3}
             $typeAnnotation = sprintf(
-                '--- @type {%s}',
+                ' --- @type {%s}',
                 implode(
                     ', ',
                     array_map(
@@ -283,9 +357,9 @@ class LuaFileParser
             if ($isLocal) {
                 $enumAnnotation = null;
             } else {
-                $typeAnnotation .= sprintf(' See [%s](lua://%s)', $enumName, $enumName);
+                $typeAnnotation .= sprintf(' # See [%s](lua://%s)', $enumName, $enumName);
                 $enumAnnotation = sprintf(
-                    "--- @enum %s\nlocal %s = {\n    %s\n}",
+                    " --- @enum %s\nlocal %s = {\n    %s\n}",
                     $enumName,
                     str_replace('.', '_', $enumName),
                     implode(

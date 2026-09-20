@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateStatusBar.lua#L10)
---- @class UIWidgetTemplateStatusBarMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateStatusBarMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateStatusBarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateStatusBar.lua#L35)

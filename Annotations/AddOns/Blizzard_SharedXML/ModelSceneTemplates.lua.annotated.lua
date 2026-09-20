@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.lua#L107)
---- @class WrappedAndUnwrappedModelSceneMixin : WrappedModelSceneMixin
+ --- @class WrappedAndUnwrappedModelSceneMixin : WrappedModelSceneMixin
 WrappedAndUnwrappedModelSceneMixin = CreateFromMixins(WrappedModelSceneMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.lua#L2)
---- @class ModifyOrbitCameraButtonMixin
+ --- @class ModifyOrbitCameraButtonMixin
 ModifyOrbitCameraButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.lua#L30)
---- @class WrappedModelSceneMixin
+ --- @class WrappedModelSceneMixin
 WrappedModelSceneMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.lua#L4)

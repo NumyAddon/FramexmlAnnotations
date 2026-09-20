@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2289)
---- @class LFGRoleButtonWithShortageRewardMixin
+ --- @class LFGRoleButtonWithShortageRewardMixin
 LFGRoleButtonWithShortageRewardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2349)
---- @class LFGRoleShortagePulseAnimMixin
+ --- @class LFGRoleShortagePulseAnimMixin
 LFGRoleShortagePulseAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2362)
---- @class LFGRewardFrameTemplateTitleMixin
+ --- @class LFGRewardFrameTemplateTitleMixin
 LFGRewardFrameTemplateTitleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2291)

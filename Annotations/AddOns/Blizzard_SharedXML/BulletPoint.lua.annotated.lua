@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/BulletPoint.lua#L2)
---- @class BulletPointMixin : ContentFrameMixin
+ --- @class BulletPointMixin : ContentFrameMixin
 BulletPointMixin = CreateFromMixins(ContentFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/BulletPoint.lua#L38)
---- @class BulletPointWithTextureMixin : BulletPointMixin
+ --- @class BulletPointWithTextureMixin : BulletPointMixin
 BulletPointWithTextureMixin = CreateFromMixins(BulletPointMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/BulletPoint.lua#L4)

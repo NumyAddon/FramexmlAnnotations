@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L39)
---- @class GameDialogMixin : GameDialogBaseMixin
+ --- @class GameDialogMixin : GameDialogBaseMixin
 GameDialogMixin = CreateFromMixins(GameDialogBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L20)
---- @class GameDialogBaseMixin
+ --- @class GameDialogBaseMixin
 GameDialogBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L732)
---- @class GameDialogCoverFrameMixin
+ --- @class GameDialogCoverFrameMixin
 GameDialogCoverFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L744)
---- @class StaticPopupItemFrameMixin
+ --- @class StaticPopupItemFrameMixin
 StaticPopupItemFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L22)

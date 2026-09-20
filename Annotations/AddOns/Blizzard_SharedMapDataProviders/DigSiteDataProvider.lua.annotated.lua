@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/DigSiteDataProvider.lua#L1)
---- @class DigSiteDataProviderMixin : CVarMapCanvasDataProviderMixin
+ --- @class DigSiteDataProviderMixin : CVarMapCanvasDataProviderMixin
 DigSiteDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/DigSiteDataProvider.lua#L64)
---- @class DigSiteBlobPinMixin : MapCanvasPinMixin
+ --- @class DigSiteBlobPinMixin : MapCanvasPinMixin
 DigSiteBlobPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/DigSiteDataProvider.lua#L4)

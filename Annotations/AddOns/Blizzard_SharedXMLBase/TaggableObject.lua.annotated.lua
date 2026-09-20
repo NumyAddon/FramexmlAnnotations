@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXMLBase/TaggableObject.lua#L35)
---- @class TaggableObjectMixin
+ --- @class TaggableObjectMixin
 TaggableObjectMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXMLBase/TaggableObject.lua#L37)

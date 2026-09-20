@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaPOIDataProvider.lua#L1)
---- @class AreaPOIDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class AreaPOIDataProviderMixin : MapCanvasDataProviderMixin
 AreaPOIDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaPOIDataProvider.lua#L3)

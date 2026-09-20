@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.lua#L5)
---- @class QuestLogMixin
+ --- @class QuestLogMixin
 QuestLogMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.lua#L66)
---- @class QuestLogHeaderCodeMixin
+ --- @class QuestLogHeaderCodeMixin
 QuestLogHeaderCodeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.lua#L1116)
---- @class QuestLogTitleMixin
+ --- @class QuestLogTitleMixin
 QuestLogTitleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.lua#L1122)
---- @class QuestLogObjectiveMixin
+ --- @class QuestLogObjectiveMixin
 QuestLogObjectiveMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.lua#L7)

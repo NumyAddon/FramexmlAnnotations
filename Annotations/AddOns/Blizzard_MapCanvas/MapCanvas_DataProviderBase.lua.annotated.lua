@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua#L104)
---- @class CVarMapCanvasDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class CVarMapCanvasDataProviderMixin : MapCanvasDataProviderMixin
 CVarMapCanvasDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua#L2)
---- @class MapCanvasDataProviderMixin
+ --- @class MapCanvasDataProviderMixin
 MapCanvasDataProviderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua#L133)
---- @class MapCanvasPinMixin
+ --- @class MapCanvasPinMixin
 MapCanvasPinMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MapCanvas/MapCanvas_DataProviderBase.lua#L4)

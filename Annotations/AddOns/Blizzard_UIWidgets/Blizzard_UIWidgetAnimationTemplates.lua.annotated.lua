@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetAnimationTemplates.lua#L1)
---- @class TorghastGemsAnimationMixin
+ --- @class TorghastGemsAnimationMixin
 TorghastGemsAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetAnimationTemplates.lua#L3)

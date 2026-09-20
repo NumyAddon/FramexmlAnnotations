@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.lua#L1)
---- @class GameTooltipMixin
+ --- @class GameTooltipMixin
 GameTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.lua#L25)
---- @class GameTooltipStatusBarMixin
+ --- @class GameTooltipStatusBarMixin
 GameTooltipStatusBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.lua#L31)
---- @class TooltipStatusBarMixin
+ --- @class TooltipStatusBarMixin
 TooltipStatusBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.lua#L37)
---- @class ShoppingTooltipMixin
+ --- @class ShoppingTooltipMixin
 ShoppingTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.lua#L3)

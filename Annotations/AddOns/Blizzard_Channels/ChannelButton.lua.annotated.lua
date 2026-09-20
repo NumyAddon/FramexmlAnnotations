@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L208)
---- @class ChannelButtonMixin : ChannelButtonBaseMixin
+ --- @class ChannelButtonMixin : ChannelButtonBaseMixin
 ChannelButtonMixin = CreateFromMixins(ChannelButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L286)
---- @class ChannelButtonTextMixin : ChannelButtonMixin
+ --- @class ChannelButtonTextMixin : ChannelButtonMixin
 ChannelButtonTextMixin = CreateFromMixins(ChannelButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L297)
---- @class ChannelButtonVoiceMixin : ChannelButtonMixin
+ --- @class ChannelButtonVoiceMixin : ChannelButtonMixin
 ChannelButtonVoiceMixin = CreateFromMixins(ChannelButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L318)
---- @class ChannelButtonCommunityMixin : ChannelButtonMixin
+ --- @class ChannelButtonCommunityMixin : ChannelButtonMixin
 ChannelButtonCommunityMixin = CreateFromMixins(ChannelButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L354)
---- @class ChannelButtonHeaderMixin : ChannelButtonBaseMixin
+ --- @class ChannelButtonHeaderMixin : ChannelButtonBaseMixin
 ChannelButtonHeaderMixin = CreateFromMixins(ChannelButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L2)
---- @class ChannelButtonBaseMixin
+ --- @class ChannelButtonBaseMixin
 ChannelButtonBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L4)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_RotateControlFrame.lua#L59)
---- @class RotateControlArrowButtonMixin : ButtonStateBehaviorMixin
+ --- @class RotateControlArrowButtonMixin : ButtonStateBehaviorMixin
 RotateControlArrowButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_RotateControlFrame.lua#L8)
---- @class RotateControlFrameMixin
+ --- @class RotateControlFrameMixin
 RotateControlFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_RotateControlFrame.lua#L10)

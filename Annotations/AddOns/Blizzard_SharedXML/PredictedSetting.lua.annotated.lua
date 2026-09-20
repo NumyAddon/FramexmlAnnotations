@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/PredictedSetting.lua#L23)
---- @class PredictedSettingMixin : PredictedSettingBaseMixin
+ --- @class PredictedSettingMixin : PredictedSettingBaseMixin
 PredictedSettingMixin = CreateFromMixins(PredictedSettingBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/PredictedSetting.lua#L38)
---- @class PredictedToggleMixin : PredictedSettingBaseMixin
+ --- @class PredictedToggleMixin : PredictedSettingBaseMixin
 PredictedToggleMixin = CreateFromMixins(PredictedSettingBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/PredictedSetting.lua#L1)
---- @class PredictedSettingBaseMixin
+ --- @class PredictedSettingBaseMixin
 PredictedSettingBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/PredictedSetting.lua#L8)

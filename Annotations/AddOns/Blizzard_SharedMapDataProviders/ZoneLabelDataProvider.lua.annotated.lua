@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/ZoneLabelDataProvider.lua#L1)
---- @class ZoneLabelDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class ZoneLabelDataProviderMixin : MapCanvasDataProviderMixin
 ZoneLabelDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/ZoneLabelDataProvider.lua#L3)

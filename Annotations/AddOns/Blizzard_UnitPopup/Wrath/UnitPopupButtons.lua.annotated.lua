@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L1)
---- @class UnitPopupTeamPromoteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupTeamPromoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTeamPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L33)
---- @class UnitPopupTeamKickButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupTeamKickButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTeamKickButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L65)
---- @class UnitPopupTeamLeaveButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupTeamLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTeamLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L89)
---- @class UnitPopupTeamDisbandButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupTeamDisbandButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTeamDisbandButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L180)
---- @class UnitPopupRaidDifficulty2ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
+ --- @class UnitPopupRaidDifficulty2ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 UnitPopupRaidDifficulty2ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L190)
---- @class UnitPopupRaidDifficulty3ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
+ --- @class UnitPopupRaidDifficulty3ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 UnitPopupRaidDifficulty3ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L200)
---- @class UnitPopupRaidDifficulty4ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
+ --- @class UnitPopupRaidDifficulty4ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 UnitPopupRaidDifficulty4ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L3)

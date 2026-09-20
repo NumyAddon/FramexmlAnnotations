@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.lua#L34)
---- @class MenuStyle1Mixin : MenuStyleMixin
+ --- @class MenuStyle1Mixin : MenuStyleMixin
 MenuStyle1Mixin = CreateFromMixins(MenuStyleMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.lua#L64)
---- @class MenuStyle1ThinMixin : MenuStyle1Mixin
+ --- @class MenuStyle1ThinMixin : MenuStyle1Mixin
 MenuStyle1ThinMixin = CreateFromMixins(MenuStyle1Mixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.lua#L81)
---- @class MenuStyle2Mixin : MenuStyleMixin
+ --- @class MenuStyle2Mixin : MenuStyleMixin
 MenuStyle2Mixin = CreateFromMixins(MenuStyleMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.lua#L36)

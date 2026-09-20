@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.lua#L54)
---- @class CharacterFrameMixin
+ --- @class CharacterFrameMixin
 CharacterFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.lua#L56)

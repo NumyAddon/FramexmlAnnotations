@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateDiscreteProgressSteps.lua#L43)
---- @class UIWidgetTemplateDiscreteProgressStepsMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateDiscreteProgressStepsMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateDiscreteProgressStepsMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateDiscreteProgressSteps.lua#L45)

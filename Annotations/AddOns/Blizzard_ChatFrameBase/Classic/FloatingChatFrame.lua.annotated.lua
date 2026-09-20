@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua#L68)
---- @class FloatingChatFrameMixin : ChatFrameMixin
+ --- @class FloatingChatFrameMixin : ChatFrameMixin
 FloatingChatFrameMixin = CreateFromMixins(ChatFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua#L164)
---- @class PrimaryChatFrameMixin : FloatingChatFrameMixin
+ --- @class PrimaryChatFrameMixin : FloatingChatFrameMixin
 PrimaryChatFrameMixin = CreateFromMixins(FloatingChatFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua#L2374)
---- @class FloatingChatFrameButtonFrameMixin
+ --- @class FloatingChatFrameButtonFrameMixin
 FloatingChatFrameButtonFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua#L2381)
---- @class FloatingChatFrameMinimizeButtonMixin
+ --- @class FloatingChatFrameMinimizeButtonMixin
 FloatingChatFrameMinimizeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua#L70)

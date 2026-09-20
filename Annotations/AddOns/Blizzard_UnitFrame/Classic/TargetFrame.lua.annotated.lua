@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/TargetFrame.lua#L1034)
---- @class TargetSpellBarMixin : CastingBarMixin
+ --- @class TargetSpellBarMixin : CastingBarMixin
 TargetSpellBarMixin = CreateFromMixins(CastingBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/TargetFrame.lua#L38)
---- @class TargetFrameMixin
+ --- @class TargetFrameMixin
 TargetFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/TargetFrame.lua#L932)
---- @class TargetOfTargetMixin
+ --- @class TargetOfTargetMixin
 TargetOfTargetMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/TargetFrame.lua#L1115)
---- @class BossTargetFrameMixin
+ --- @class BossTargetFrameMixin
 BossTargetFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/TargetFrame.lua#L1153)
---- @class FocusFrameMixin
+ --- @class FocusFrameMixin
 FocusFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/TargetFrame.lua#L40)

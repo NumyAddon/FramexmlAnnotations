@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L36)
---- @class SettingsCategoryListButtonMixin : ButtonStateBehaviorMixin
+ --- @class SettingsCategoryListButtonMixin : ButtonStateBehaviorMixin
 SettingsCategoryListButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L135)
---- @class SettingsCategoryListMixin : CallbackRegistryMixin
+ --- @class SettingsCategoryListMixin : CallbackRegistryMixin
 SettingsCategoryListMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L19)
---- @class CategoryButtonInitializerMixin : ScrollBoxFactoryInitializerMixin
+ --- @class CategoryButtonInitializerMixin : ScrollBoxFactoryInitializerMixin
 CategoryButtonInitializerMixin = CreateFromMixins(ScrollBoxFactoryInitializerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L28)
---- @class SettingsCategoryListHeaderMixin
+ --- @class SettingsCategoryListHeaderMixin
 SettingsCategoryListHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L30)

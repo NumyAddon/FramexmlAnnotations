@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CombatText/Shared/CombatText.lua#L3)
---- @class CombatTextMixin
+ --- @class CombatTextMixin
 CombatTextMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CombatText/Shared/CombatText.lua#L5)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedCondensedGridContentFrame.lua#L157)
---- @class PagedCondensedVerticalGridContentFrameMixin : PagedContentFrameBaseMixin
+ --- @class PagedCondensedVerticalGridContentFrameMixin : PagedContentFrameBaseMixin
 PagedCondensedVerticalGridContentFrameMixin = CreateFromMixins(PagedContentFrameBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedCondensedGridContentFrame.lua#L56)
---- @class VerticalDataGroupMixin
+ --- @class VerticalDataGroupMixin
 VerticalDataGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedCondensedGridContentFrame.lua#L82)
---- @class VerticalElementSetMixin
+ --- @class VerticalElementSetMixin
 VerticalElementSetMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedCondensedGridContentFrame.lua#L58)

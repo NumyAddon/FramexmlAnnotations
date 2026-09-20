@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchFilter.lua#L2)
---- @class BaseSpellSearchFilterMixin
+ --- @class BaseSpellSearchFilterMixin
 BaseSpellSearchFilterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchFilter.lua#L37)

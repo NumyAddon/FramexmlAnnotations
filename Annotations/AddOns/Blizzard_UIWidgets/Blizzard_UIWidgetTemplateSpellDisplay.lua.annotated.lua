@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateSpellDisplay.lua#L19)
---- @class UIWidgetTemplateSpellDisplayMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateSpellDisplayMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateSpellDisplayMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateSpellDisplay.lua#L123)
---- @class UIWidgetTemplateSpellDisplaySpellMixin
+ --- @class UIWidgetTemplateSpellDisplaySpellMixin
 UIWidgetTemplateSpellDisplaySpellMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateSpellDisplay.lua#L21)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Keybindings.lua#L34)
---- @class SettingsKeybindingSectionMixin : SettingsExpandableSectionMixin
+ --- @class SettingsKeybindingSectionMixin : SettingsExpandableSectionMixin
 SettingsKeybindingSectionMixin = CreateFromMixins(SettingsExpandableSectionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Keybindings.lua#L326)
---- @class SettingsKeybindingPrefaceMixin
+ --- @class SettingsKeybindingPrefaceMixin
 SettingsKeybindingPrefaceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Keybindings.lua#L36)

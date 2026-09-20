@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateIconTextAndCurrencies.lua#L10)
---- @class UIWidgetTemplateIconTextAndCurrenciesMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateIconTextAndCurrenciesMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateIconTextAndCurrenciesMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateIconTextAndCurrencies.lua#L16)

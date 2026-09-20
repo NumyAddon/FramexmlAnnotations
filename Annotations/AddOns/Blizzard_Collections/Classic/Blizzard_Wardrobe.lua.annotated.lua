@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L1034)
---- @class WardrobeItemModelMixin : ItemModelBaseMixin
+ --- @class WardrobeItemModelMixin : ItemModelBaseMixin
 WardrobeItemModelMixin = CreateFromMixins(ItemModelBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L5)
---- @class WardrobeCollectionFrameMixin
+ --- @class WardrobeCollectionFrameMixin
 WardrobeCollectionFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L289)
---- @class WardrobeItemsCollectionSlotButtonMixin
+ --- @class WardrobeItemsCollectionSlotButtonMixin
 WardrobeItemsCollectionSlotButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L313)
---- @class WardrobeItemsCollectionMixin
+ --- @class WardrobeItemsCollectionMixin
 WardrobeItemsCollectionMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L1094)
---- @class WardrobeCollectionFrameSearchBoxProgressMixin
+ --- @class WardrobeCollectionFrameSearchBoxProgressMixin
 WardrobeCollectionFrameSearchBoxProgressMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L1137)
---- @class WardrobeCollectionFrameSearchBoxMixin
+ --- @class WardrobeCollectionFrameSearchBoxMixin
 WardrobeCollectionFrameSearchBoxMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L7)

@@ -3,7 +3,7 @@ local Utility = require(".Utility");
 local BUTTON_COLOR = { 0, 1, 0, 0.2 };
 local SCROLL_FRAME_COLOR = { 1, 1, 0, 0.2 };
 
-local DebugOverlayMixin = {};--- @class DebugOverlayMixin
+local DebugOverlayMixin = {}; --- @class DebugOverlayMixin
 
 function DebugOverlayMixin:Init()
 	self.noEdit = true;

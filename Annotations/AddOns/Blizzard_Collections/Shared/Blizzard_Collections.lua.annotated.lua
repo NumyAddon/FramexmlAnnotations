@@ -70,7 +70,7 @@ end
 
 -- End tab (PanelTabButtonTemplate) wrappers --
 
-CollectionsJournalMixin =--- @class CollectionsJournalMixin
+CollectionsJournalMixin = --- @class CollectionsJournalMixin
 {
 	TABS_DATA = {
 		[1] = { title = MOUNTS, icon = "Interface/ICONS/INV_Horse3Saddle008_Chestnut.blp"},

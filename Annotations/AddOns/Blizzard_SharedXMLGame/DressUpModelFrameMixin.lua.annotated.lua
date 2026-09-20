@@ -1,6 +1,6 @@
 --------------------------------------------------
 -- DRESS UP MODEL FRAME RESET BUTTON MIXIN
-DressUpModelFrameResetButtonMixin = {};--- @class DressUpModelFrameResetButtonMixin
+DressUpModelFrameResetButtonMixin = {}; --- @class DressUpModelFrameResetButtonMixin
 function DressUpModelFrameResetButtonMixin:OnLoad()
 	self.modelScene = self:GetParent().ModelScene;
 end
@@ -18,7 +18,7 @@ end
 
 --------------------------------------------------
 -- DRESS UP MODEL FRAME LINK BUTTON MIXIN
-DressUpModelFrameLinkButtonMixin = {};--- @class DressUpModelFrameLinkButtonMixin
+DressUpModelFrameLinkButtonMixin = {}; --- @class DressUpModelFrameLinkButtonMixin
 function DressUpModelFrameLinkButtonMixin:OnShow()
 	if not GetCVarBitfield("closedInfoFrames", LE_FRAME_TUTORIAL_LINK_TRANSMOG_CUSTOM_SET) then
 		local helpTipInfo = {
@@ -70,7 +70,7 @@ end
 
 --------------------------------------------------
 -- DRESS UP MODEL FRAME CLOSE BUTTON MIXIN
-DressUpModelFrameCloseButtonMixin = {};--- @class DressUpModelFrameCloseButtonMixin
+DressUpModelFrameCloseButtonMixin = {}; --- @class DressUpModelFrameCloseButtonMixin
 function DressUpModelFrameCloseButtonMixin:OnClick()
 	HideUIPanel(self:GetParent());
 end
@@ -78,7 +78,7 @@ end
 
 --------------------------------------------------
 -- DRESS UP MODEL FRAME CANCEL BUTTON MIXIN
-DressUpModelFrameCancelButtonMixin = {};--- @class DressUpModelFrameCancelButtonMixin
+DressUpModelFrameCancelButtonMixin = {}; --- @class DressUpModelFrameCancelButtonMixin
 function DressUpModelFrameCancelButtonMixin:OnClick()
 	HideParentPanel(self);
 end
@@ -86,7 +86,7 @@ end
 
 --------------------------------------------------
 -- DRESS UP MODEL FRAME MAX MIN MIXIN
-DressUpModelFrameMaximizeMinimizeMixin = {};--- @class DressUpModelFrameMaximizeMinimizeMixin
+DressUpModelFrameMaximizeMinimizeMixin = {}; --- @class DressUpModelFrameMaximizeMinimizeMixin
 function DressUpModelFrameMaximizeMinimizeMixin:OnLoad()
 	local function OnMaximize(frame)
 		local isMinimized = false;
@@ -107,7 +107,7 @@ end
 
 --------------------------------------------------
 -- BASE MODEL FRAME FRAME MIXIN
-DressUpModelFrameBaseMixin = { };--- @class DressUpModelFrameBaseMixin
+DressUpModelFrameBaseMixin = { }; --- @class DressUpModelFrameBaseMixin
 function DressUpModelFrameBaseMixin:OnLoad()
 	self.ModelScene:SetResetCallback(GenerateClosure(self.OnModelSceneReset, self));
 end
@@ -152,7 +152,7 @@ end
 
 --------------------------------------------------
 -- DEFAULT MODEL FRAME FRAME MIXIN
-DressUpModelFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin);--- @class DressUpModelFrameMixin : DressUpModelFrameBaseMixin
+DressUpModelFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin); --- @class DressUpModelFrameMixin : DressUpModelFrameBaseMixin
 function DressUpModelFrameMixin:OnLoad()
 	DressUpModelFrameBaseMixin.OnLoad(self);
 	self:SetTitle(DRESSUP_FRAME);
@@ -260,7 +260,7 @@ end
 
 --------------------------------------------------
 -- SIDE DRESS UP MODEL FRAME FRAME MIXIN
-SideDressUpModelFrameFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin);--- @class SideDressUpModelFrameFrameMixin : DressUpModelFrameBaseMixin
+SideDressUpModelFrameFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin); --- @class SideDressUpModelFrameFrameMixin : DressUpModelFrameBaseMixin
 function SideDressUpModelFrameFrameMixin:OnLoad()
 	DressUpModelFrameBaseMixin.OnLoad(self);
 	self.ModelScene.ControlFrame:SetModelScene(self.ModelScene);
@@ -280,7 +280,7 @@ end
 
 --------------------------------------------------
 -- TRANSMOG AND MOUNT DRESS UP MODEL FRAME FRAME MIXIN
-TransmogAndMountDressupFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin);--- @class TransmogAndMountDressupFrameMixin : DressUpModelFrameBaseMixin
+TransmogAndMountDressupFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin); --- @class TransmogAndMountDressupFrameMixin : DressUpModelFrameBaseMixin
 function TransmogAndMountDressupFrameMixin:OnLoad()
 	DressUpModelFrameBaseMixin.OnLoad(self);
 
@@ -337,7 +337,7 @@ end
 
 --------------------------------------------------
 ------- TRANSMOG SET DRESS UP FRAME MIXINS -------
-DressUpFrameSetSelectionLabelMixin = {};--- @class DressUpFrameSetSelectionLabelMixin
+DressUpFrameSetSelectionLabelMixin = {}; --- @class DressUpFrameSetSelectionLabelMixin
 
 function DressUpFrameSetSelectionLabelMixin:OnEnter()
 	if self:IsTruncated() then
@@ -357,7 +357,7 @@ function DressUpFrameSetSelectionLabelMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-DressUpFrameTransmogSetMixin = {};--- @class DressUpFrameTransmogSetMixin
+DressUpFrameTransmogSetMixin = {}; --- @class DressUpFrameTransmogSetMixin
 
 local function ConvertInvTypeToSelectionKey(invType, invSlot)
 	if invType == "INVTYPE_SHIELD" or invType == "INVTYPE_WEAPONOFFHAND" or invType == "INVTYPE_HOLDABLE" then
@@ -705,7 +705,7 @@ end
 ----------------------------------------------------------------------------------
 -- DressUpFrameTransmogSetButtonMixin
 ----------------------------------------------------------------------------------
-DressUpFrameTransmogSetButtonMixin = {}--- @class DressUpFrameTransmogSetButtonMixin
+DressUpFrameTransmogSetButtonMixin = {} --- @class DressUpFrameTransmogSetButtonMixin
 
 function DressUpFrameTransmogSetButtonMixin:InitItem(elementData)
 	self:Show();

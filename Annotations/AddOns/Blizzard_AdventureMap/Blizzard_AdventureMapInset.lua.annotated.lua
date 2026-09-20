@@ -1,4 +1,4 @@
-AdventureMapInsetMixin = {};--- @class AdventureMapInsetMixin
+AdventureMapInsetMixin = {}; --- @class AdventureMapInsetMixin
 
 local TILE_WIDTH = 256;
 local TILE_HEIGHT = 256;

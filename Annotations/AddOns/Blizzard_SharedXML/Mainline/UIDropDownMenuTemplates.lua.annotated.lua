@@ -6,7 +6,7 @@
 
 local envTable = GetCurrentEnvironment();
 
-DropDownMenuButtonMixin = {}--- @class DropDownMenuButtonMixin
+DropDownMenuButtonMixin = {} --- @class DropDownMenuButtonMixin
 
 function DropDownMenuButtonMixin:OnEnter(...)
 	ExecuteFrameScript(self:GetParent(), "OnEnter", ...);
@@ -23,7 +23,7 @@ function DropDownMenuButtonMixin:OnMouseDown(button)
 	end
 end
 
-LargeDropDownMenuButtonMixin = CreateFromMixins(DropDownMenuButtonMixin);--- @class LargeDropDownMenuButtonMixin : DropDownMenuButtonMixin
+LargeDropDownMenuButtonMixin = CreateFromMixins(DropDownMenuButtonMixin); --- @class LargeDropDownMenuButtonMixin : DropDownMenuButtonMixin
 
 function LargeDropDownMenuButtonMixin:OnMouseDown(button)
 	if self:IsEnabled() then
@@ -33,7 +33,7 @@ function LargeDropDownMenuButtonMixin:OnMouseDown(button)
 	end
 end
 
-DropDownExpandArrowMixin = {};--- @class DropDownExpandArrowMixin
+DropDownExpandArrowMixin = {}; --- @class DropDownExpandArrowMixin
 
 function DropDownExpandArrowMixin:OnEnter()
 	local level =  self:GetParent():GetParent():GetID() + 1;
@@ -54,7 +54,7 @@ function DropDownExpandArrowMixin:OnMouseDown(button)
 	end
 end
 
-UIDropDownCustomMenuEntryMixin = {};--- @class UIDropDownCustomMenuEntryMixin
+UIDropDownCustomMenuEntryMixin = {}; --- @class UIDropDownCustomMenuEntryMixin
 
 function UIDropDownCustomMenuEntryMixin:GetPreferredEntryWidth()
 	return self:GetWidth();

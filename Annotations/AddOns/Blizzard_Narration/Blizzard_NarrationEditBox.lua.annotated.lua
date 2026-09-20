@@ -66,7 +66,7 @@ end
 --		narrationHideText (boolean) - Reports "Hidden" instead of actual text.
 ---------------------------------------------------------------------------
 
-NarrationEditBoxMixin = {};--- @class NarrationEditBoxMixin
+NarrationEditBoxMixin = {}; --- @class NarrationEditBoxMixin
 
 function NarrationEditBoxMixin:SetNarrationLabelRegion(region)
 	self.narrationLabelRegion = region;
@@ -106,7 +106,7 @@ end
 
 -- Fully overrides all Narration* methods from NarrationEditBoxMixin, which may be
 -- applied via the InputBoxScriptTemplate inheritance chain.
-NarrationSearchBoxMixin = {};--- @class NarrationSearchBoxMixin
+NarrationSearchBoxMixin = {}; --- @class NarrationSearchBoxMixin
 
 function NarrationSearchBoxMixin:NarrationGetName()
 	local label = GetLabelText(self);

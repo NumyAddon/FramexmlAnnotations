@@ -1,4 +1,4 @@
-KioskModeSplashEndMixin = {};--- @class KioskModeSplashEndMixin
+KioskModeSplashEndMixin = {}; --- @class KioskModeSplashEndMixin
 
 function KioskModeSplashEndMixin:OnLoad()
 	self:SetParent(GetAppropriateTopLevelParent());
@@ -11,7 +11,7 @@ function KioskModeSplashEndMixin:OnLoad()
 	self.FooterText:SetText(KIOSK_SPLASH_END_FOOTER1_TEXT);
 end
 
-KioskFrameMixin = {}--- @class KioskFrameMixin
+KioskFrameMixin = {} --- @class KioskFrameMixin
 
 function KioskFrameMixin:OnLoad()
 	self:RegisterEvent("KIOSK_SESSION_EXPIRATION_WARNING");

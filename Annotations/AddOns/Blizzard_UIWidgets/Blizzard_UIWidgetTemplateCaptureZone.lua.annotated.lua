@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.CaptureZone, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateCaptureZone"}, GetCaptureZoneVisInfoData);
 
-UIWidgetTemplateCaptureZoneMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateCaptureZoneMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateCaptureZoneMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateCaptureZoneMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateCaptureZoneMixin:OnLoad()
 	UIWidgetBaseTemplateMixin.OnLoad(self);

@@ -81,7 +81,7 @@ local RESISTANCE_STAT_ENTRIES = {
 	{ name = _G["DAMAGE_SCHOOL6"], damageClass = Enum.Damageclass.Shadow, atlas = "UI-Character-Info-Resistance-Shadow" },
 };
 
-CharacterFrameMixin = {};--- @class CharacterFrameMixin
+CharacterFrameMixin = {}; --- @class CharacterFrameMixin
 
 function CharacterFrameMixin:GetTab(tabID)
 	if self.ModeTabs and self.ModeTabs.Tabs then
@@ -346,7 +346,7 @@ function CharacterFrameMixin:UpdateRightPaneToggleButton()
 	button.tooltipText = collapsed and CHARACTER_FRAME_SHOW_DETAILS_TOOLTIP or CHARACTER_FRAME_HIDE_DETAILS_TOOLTIP;
 end
 
-CharacterFrameRightPaneToggleButtonMixin = {};--- @class CharacterFrameRightPaneToggleButtonMixin
+CharacterFrameRightPaneToggleButtonMixin = {}; --- @class CharacterFrameRightPaneToggleButtonMixin
 
 function CharacterFrameRightPaneToggleButtonMixin:OnClick()
 	CharacterFrame:ToggleRightPane();
@@ -829,7 +829,7 @@ function CharacterFrameMixin:GetStatsPane()
 	return CharacterStatsPaneScrollBox;
 end
 
-CharacterFrameSidePaneMixin = {};--- @class CharacterFrameSidePaneMixin
+CharacterFrameSidePaneMixin = {}; --- @class CharacterFrameSidePaneMixin
 
 function CharacterFrameSidePaneMixin:OnLoad()
 	ScrollUtil.RegisterScrollBoxWithScrollBar(self.Description:GetScrollBox(), self.DescriptionScrollBar);
@@ -956,7 +956,7 @@ function CharacterFrameSidePaneMixin:ClearEmpty()
 	self.Footer:Show();
 end
 
-CharacterModeTabButtonMixin = CreateFromMixins(SidePanelTabButtonMixin);--- @class CharacterModeTabButtonMixin : SidePanelTabButtonMixin
+CharacterModeTabButtonMixin = CreateFromMixins(SidePanelTabButtonMixin); --- @class CharacterModeTabButtonMixin : SidePanelTabButtonMixin
 
 function CharacterModeTabButtonMixin:OnLoad()
 	SidePanelTabButtonMixin.OnLoad(self);
@@ -968,7 +968,7 @@ function CharacterModeTabButtonMixin:OnLoad()
 	end);
 end
 
-GearEnchantAnimationMixin = {}--- @class GearEnchantAnimationMixin
+GearEnchantAnimationMixin = {} --- @class GearEnchantAnimationMixin
 
 local GearEnchantAnimationEvents = {
 	"ENCHANT_SPELL_COMPLETED",
@@ -1015,13 +1015,13 @@ function GearEnchantAnimationMixin:StopAndHide()
 	self:Hide();
 end
 
-CharacterStatFrameCategoryMixin = {};--- @class CharacterStatFrameCategoryMixin
+CharacterStatFrameCategoryMixin = {}; --- @class CharacterStatFrameCategoryMixin
 
 function CharacterStatFrameCategoryMixin:OnLoad()
 	self.Title:SetText(self.titleText);
 end
 
-CharacterStatFrameMixin = {};--- @class CharacterStatFrameMixin
+CharacterStatFrameMixin = {}; --- @class CharacterStatFrameMixin
 
 function CharacterStatFrameMixin:OnLoad()
 	if (STATFRAME_STATTEXT_FONT_OVERRIDE) then
@@ -1038,13 +1038,13 @@ function CharacterStatFrameMixin:OnEnter()
 	end
 end
 
-CharacterStatsPaneScrollBoxBaseMixin = {};--- @class CharacterStatsPaneScrollBoxBaseMixin
+CharacterStatsPaneScrollBoxBaseMixin = {}; --- @class CharacterStatsPaneScrollBoxBaseMixin
 
 function CharacterStatsPaneScrollBoxBaseMixin:OnLoad()
 	self.ScrollBox:SetEdgeFadeLength(45);
 end
 
-CharacterStatsPaneScrollBoxMixin = {};--- @class CharacterStatsPaneScrollBoxMixin
+CharacterStatsPaneScrollBoxMixin = {}; --- @class CharacterStatsPaneScrollBoxMixin
 
 function CharacterStatsPaneScrollBoxMixin:OnLoad()
 	CharacterStatsPaneScrollBoxBaseMixin.OnLoad(self);
@@ -1230,13 +1230,13 @@ function CharacterStatsPaneScrollBoxMixin:GetUnit()
 end
 
 
-CharacterStatFrameCategoryScrollBoxElementMixin = {};--- @class CharacterStatFrameCategoryScrollBoxElementMixin
+CharacterStatFrameCategoryScrollBoxElementMixin = {}; --- @class CharacterStatFrameCategoryScrollBoxElementMixin
 
 function CharacterStatFrameCategoryScrollBoxElementMixin:Init(elementData)
 	self.Title:SetText(elementData.name);
 end
 
-CharacterStatFrameScrollBoxBaseElementMixin = CreateFromMixins(CharacterStatFrameMixin);--- @class CharacterStatFrameScrollBoxBaseElementMixin : CharacterStatFrameMixin
+CharacterStatFrameScrollBoxBaseElementMixin = CreateFromMixins(CharacterStatFrameMixin); --- @class CharacterStatFrameScrollBoxBaseElementMixin : CharacterStatFrameMixin
 
 function CharacterStatFrameScrollBoxBaseElementMixin:Init(elementData)
 	self.onEnterFunc = nil;
@@ -1276,7 +1276,7 @@ function CharacterStatFrameScrollBoxBaseElementMixin:Init(elementData)
 	self.numericValue = numericValue;
 end
 
-CharacterStatFrameScrollBoxIconElementMixin = CreateFromMixins(CharacterStatFrameScrollBoxBaseElementMixin);--- @class CharacterStatFrameScrollBoxIconElementMixin : CharacterStatFrameScrollBoxBaseElementMixin
+CharacterStatFrameScrollBoxIconElementMixin = CreateFromMixins(CharacterStatFrameScrollBoxBaseElementMixin); --- @class CharacterStatFrameScrollBoxIconElementMixin : CharacterStatFrameScrollBoxBaseElementMixin
 
 function CharacterStatFrameScrollBoxIconElementMixin:Init(elementData)
 	CharacterStatFrameScrollBoxBaseElementMixin.Init(self, elementData);
@@ -1297,7 +1297,7 @@ function CharacterStatFrameScrollBoxIconElementMixin:Init(elementData)
 	end
 end
 
-CharacterStatsPanePetScrollBoxMixin = CreateFromMixins(CharacterStatsPaneScrollBoxMixin);--- @class CharacterStatsPanePetScrollBoxMixin : CharacterStatsPaneScrollBoxMixin
+CharacterStatsPanePetScrollBoxMixin = CreateFromMixins(CharacterStatsPaneScrollBoxMixin); --- @class CharacterStatsPanePetScrollBoxMixin : CharacterStatsPaneScrollBoxMixin
 
 function CharacterStatsPanePetScrollBoxMixin:GetUnit()
 	return "pet";

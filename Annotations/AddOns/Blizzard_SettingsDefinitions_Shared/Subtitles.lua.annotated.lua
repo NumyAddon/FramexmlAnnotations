@@ -8,7 +8,7 @@ local BACKGROUND_OPACITY_MIN = 50; -- 0.5, 50%
 local BACKGROUND_OPACITY_MAX = 100; -- 1, 100%
 local BACKGROUND_OPACITY_STEP = 10; -- 0.1, 10%
 
-SubtitlesPreviewMixin = {};--- @class SubtitlesPreviewMixin
+SubtitlesPreviewMixin = {}; --- @class SubtitlesPreviewMixin
 local SubtitlesPreviewReference = nil;
 
 function SubtitlesPreviewMixin:OnLoad()

@@ -952,7 +952,7 @@ function EmbeddedItemTooltip_SetCurrencyByID(self, currencyID, quantity)
 	return false;
 end
 
-GameTooltipDataMixin = CreateFromMixins(TooltipDataHandlerMixin);--- @class GameTooltipDataMixin : TooltipDataHandlerMixin
+GameTooltipDataMixin = CreateFromMixins(TooltipDataHandlerMixin); --- @class GameTooltipDataMixin : TooltipDataHandlerMixin
 
 function GameTooltipDataMixin:OnLoad()
 	GameTooltip_OnLoad(self);
@@ -1040,7 +1040,7 @@ function GameTooltipDataMixin:GetUnit()
 	return TooltipUtil.GetDisplayedUnit(self);
 end
 
-GameTooltipUnitHealthBarMixin = { };--- @class GameTooltipUnitHealthBarMixin
+GameTooltipUnitHealthBarMixin = { }; --- @class GameTooltipUnitHealthBarMixin
 
 function GameTooltipUnitHealthBarMixin:OnLoad()
 	self:SetMinMaxValues(0, 1);
@@ -1094,7 +1094,7 @@ end
 -- invoked from tainted execution paths in SetWatch/ClearWatch without
 -- causing further secret-related errors.
 
-GameTooltipUnitHealthBarSecureMixin = {};--- @class GameTooltipUnitHealthBarSecureMixin
+GameTooltipUnitHealthBarSecureMixin = {}; --- @class GameTooltipUnitHealthBarSecureMixin
 
 function GameTooltipUnitHealthBarSecureMixin:ResetUnitHealth()
 	GameTooltipUnitHealthBarMixin.ResetUnitHealth(self);

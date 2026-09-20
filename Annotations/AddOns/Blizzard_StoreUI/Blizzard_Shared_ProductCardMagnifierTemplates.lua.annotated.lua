@@ -1,7 +1,7 @@
 
 --------------------------------------------------
 -- DEFAULT MAGNIFIER MIXIN
-DefaultStoreCardMagnifierMixin = {};--- @class DefaultStoreCardMagnifierMixin
+DefaultStoreCardMagnifierMixin = {}; --- @class DefaultStoreCardMagnifierMixin
 function DefaultStoreCardMagnifierMixin:OnEnter()
 	self:GetParent():OnEnter();
 end

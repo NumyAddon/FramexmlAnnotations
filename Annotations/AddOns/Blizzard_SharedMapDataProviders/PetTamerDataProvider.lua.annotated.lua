@@ -1,4 +1,4 @@
-PetTamerDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin);--- @class PetTamerDataProviderMixin : CVarMapCanvasDataProviderMixin
+PetTamerDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin); --- @class PetTamerDataProviderMixin : CVarMapCanvasDataProviderMixin
 PetTamerDataProviderMixin:Init("showTamers");
 
 function PetTamerDataProviderMixin:OnShow()

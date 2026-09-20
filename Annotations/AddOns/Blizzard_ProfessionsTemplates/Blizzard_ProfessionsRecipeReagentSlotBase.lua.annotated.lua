@@ -1,5 +1,5 @@
 -- This file should be renamed to *ReagentSlotButton.
-ProfessionsReagentSlotButtonMixin = CreateFromMixins(ProfessionsButtonMixin);--- @class ProfessionsReagentSlotButtonMixin : ProfessionsButtonMixin
+ProfessionsReagentSlotButtonMixin = CreateFromMixins(ProfessionsButtonMixin); --- @class ProfessionsReagentSlotButtonMixin : ProfessionsButtonMixin
 
 function ProfessionsReagentSlotButtonMixin:GetReagent()
 	return self.reagent;

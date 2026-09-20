@@ -1,4 +1,4 @@
-GamepadActionBarEditFrameMixin = {};--- @class GamepadActionBarEditFrameMixin
+GamepadActionBarEditFrameMixin = {}; --- @class GamepadActionBarEditFrameMixin
 
 local EDIT_FRAME_MODES =
 {
@@ -980,7 +980,7 @@ end
 -----------------------------------------------------
 -- GamepadActionBarEditFrameInfoFrameTitleBoxMixin --
 -----------------------------------------------------
-GamepadActionBarEditFrameInfoFrameTitleBoxMixin = {};--- @class GamepadActionBarEditFrameInfoFrameTitleBoxMixin
+GamepadActionBarEditFrameInfoFrameTitleBoxMixin = {}; --- @class GamepadActionBarEditFrameInfoFrameTitleBoxMixin
 
 function GamepadActionBarEditFrameInfoFrameTitleBoxMixin:OnLoad()
 	self.TitleText:SetText(self.Title);

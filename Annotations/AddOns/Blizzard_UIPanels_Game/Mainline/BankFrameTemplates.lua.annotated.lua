@@ -2,7 +2,7 @@ local PURCHASE_TAB_ID = -1;
 
 local DEFAULT_MAXIMUM_TOTAL_SLOTS_PER_PAGE = 96; -- Only used if ShouldUsePlayerBagsInBank is true
 
-BankFrameBaseMixin = CreateFromMixins(CallbackRegistryMixin);--- @class BankFrameBaseMixin : CallbackRegistryMixin
+BankFrameBaseMixin = CreateFromMixins(CallbackRegistryMixin); --- @class BankFrameBaseMixin : CallbackRegistryMixin
 
 BankFrameBaseMixin:GenerateCallbackEvents(
 {
@@ -123,7 +123,7 @@ function BankFrame_Open()
 	end
 end
 
-BankPanelSystemMixin = {};--- @class BankPanelSystemMixin
+BankPanelSystemMixin = {}; --- @class BankPanelSystemMixin
 
 function BankPanelSystemMixin:GetBankPanel()
 	return BankPanel;
@@ -265,7 +265,7 @@ StaticPopupDialogs["ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM"] = {
 	hideOnEscape = 1,
 };
 
-BankPanelTabMixin = CreateFromMixins(BankPanelSystemMixin);--- @class BankPanelTabMixin : BankPanelSystemMixin
+BankPanelTabMixin = CreateFromMixins(BankPanelSystemMixin); --- @class BankPanelTabMixin : BankPanelSystemMixin
 
 local BANK_PANEL_TAB_EVENTS = {
 	"INVENTORY_SEARCH_UPDATE",
@@ -385,7 +385,7 @@ function BankPanelTabMixin:IsPurchaseTab()
 	return self.tabData.ID == PURCHASE_TAB_ID;
 end
 
-BankPanelItemButtonMixin = {};--- @class BankPanelItemButtonMixin
+BankPanelItemButtonMixin = {}; --- @class BankPanelItemButtonMixin
 
 function BankPanelItemButtonMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -603,7 +603,7 @@ function BankPanelItemButtonMixin:SplitStack(amount)
 	C_Container.SplitContainerItem(self:GetBankTabID(), self:GetContainerSlotID(), amount);
 end
 
-BankPanelMixin = CreateFromMixins(CallbackRegistryMixin);--- @class BankPanelMixin : CallbackRegistryMixin
+BankPanelMixin = CreateFromMixins(CallbackRegistryMixin); --- @class BankPanelMixin : CallbackRegistryMixin
 
 local BankPanelEvents = {
 	"ACCOUNT_MONEY",
@@ -1161,7 +1161,7 @@ function BankPanelMixin:FindItemButtonByBankTabAndContainerSlotID(bankTabID, con
 	end
 end
 
-BankPanelPromptMixin = CreateFromMixins(BankPanelSystemMixin);--- @class BankPanelPromptMixin : BankPanelSystemMixin
+BankPanelPromptMixin = CreateFromMixins(BankPanelSystemMixin); --- @class BankPanelPromptMixin : BankPanelSystemMixin
 
 function BankPanelPromptMixin:OnLoad()
 	RaiseFrameLevel(self);
@@ -1191,7 +1191,7 @@ local BANK_LOCKED_MESSAGE = {
 	[Enum.BankLockedReason.NoAccountInventoryLock] = BANK_LOCKED_REASON_NO_ACCOUNT_INVENTORY_LOCK,
 };
 
-BankPanelLockPromptMixin = CreateFromMixins(BankPanelPromptMixin);--- @class BankPanelLockPromptMixin : BankPanelPromptMixin
+BankPanelLockPromptMixin = CreateFromMixins(BankPanelPromptMixin); --- @class BankPanelLockPromptMixin : BankPanelPromptMixin
 
 function BankPanelLockPromptMixin:OnLoad()
 	BankPanelPromptMixin.OnLoad(self);
@@ -1208,7 +1208,7 @@ function BankPanelLockPromptMixin:GetBankLockedMessage()
 	return BANK_LOCKED_MESSAGE[C_Bank.FetchBankLockedReason(self:GetActiveBankType())] or "";
 end
 
-BankPanelPurchasePromptMixin = CreateFromMixins(BankPanelPromptMixin);--- @class BankPanelPurchasePromptMixin : BankPanelPromptMixin
+BankPanelPurchasePromptMixin = CreateFromMixins(BankPanelPromptMixin); --- @class BankPanelPurchasePromptMixin : BankPanelPromptMixin
 
 local BankPurchasePromptEvents = {
 	"PLAYER_MONEY",
@@ -1246,7 +1246,7 @@ function BankPanelPurchasePromptMixin:Refresh()
 	end
 end
 
-BankPanelAutoDepositFrameMixin = CreateFromMixins(BankPanelSystemMixin);--- @class BankPanelAutoDepositFrameMixin : BankPanelSystemMixin
+BankPanelAutoDepositFrameMixin = CreateFromMixins(BankPanelSystemMixin); --- @class BankPanelAutoDepositFrameMixin : BankPanelSystemMixin
 
 function BankPanelAutoDepositFrameMixin:SetEnabled(enable)
 	local needsReagentCheckbox = self:GetActiveBankType() == Enum.BankType.Account;
@@ -1255,7 +1255,7 @@ function BankPanelAutoDepositFrameMixin:SetEnabled(enable)
 	self.DepositButton:SetEnabledState(enable);
 end
 
-BankPanelItemDepositButtonMixin = CreateFromMixins(BankPanelSystemMixin);--- @class BankPanelItemDepositButtonMixin : BankPanelSystemMixin
+BankPanelItemDepositButtonMixin = CreateFromMixins(BankPanelSystemMixin); --- @class BankPanelItemDepositButtonMixin : BankPanelSystemMixin
 
 function BankPanelItemDepositButtonMixin:GetItemDepositConfirmationPopup()
 	if self:GetActiveBankType() == Enum.BankType.Account then
@@ -1300,14 +1300,14 @@ function BankPanelItemDepositButtonMixin:UpdateTextForBankType()
 	self:SetText(self:GetBestTextForBankType());
 end
 
-BankPanelTabCostMoneyDisplayMixin = {};--- @class BankPanelTabCostMoneyDisplayMixin
+BankPanelTabCostMoneyDisplayMixin = {}; --- @class BankPanelTabCostMoneyDisplayMixin
 
 function BankPanelTabCostMoneyDisplayMixin:OnLoad()
 	SmallMoneyFrame_OnLoad(self);
 	MoneyFrame_SetType(self, "STATIC");
 end
 
-BankPanelPurchaseTabButtonMixin = CreateFromMixins(BankPanelSystemMixin);--- @class BankPanelPurchaseTabButtonMixin : BankPanelSystemMixin
+BankPanelPurchaseTabButtonMixin = CreateFromMixins(BankPanelSystemMixin); --- @class BankPanelPurchaseTabButtonMixin : BankPanelSystemMixin
 
 function BankPanelPurchaseTabButtonMixin:GetBankTypeForTabPurchase()
 	local overrideBankType = self:GetAttribute("overrideBankType");
@@ -1325,7 +1325,7 @@ function BankPanelPurchaseTabButtonMixin:OnClick()
 	StaticPopup_Show("CONFIRM_BUY_BANK_TAB", textArg1, textArg2, { bankType = self:GetBankTypeForTabPurchase() });
 end
 
-BankPanelMoneyFrameMixin = CreateFromMixins(BankPanelSystemMixin);--- @class BankPanelMoneyFrameMixin : BankPanelSystemMixin
+BankPanelMoneyFrameMixin = CreateFromMixins(BankPanelSystemMixin); --- @class BankPanelMoneyFrameMixin : BankPanelSystemMixin
 
 function BankPanelMoneyFrameMixin:OnShow()
 	self:Refresh();
@@ -1356,7 +1356,7 @@ function BankPanelMoneyFrameMixin:UpdateMoneyDisplayAnchoring()
 	self:SetWidth(moneyTransferButtonsVisible and 394 or 180);
 end
 
-BankPanelMoneyFrameMoneyDisplayMixin = CreateFromMixins(BankPanelSystemMixin);--- @class BankPanelMoneyFrameMoneyDisplayMixin : BankPanelSystemMixin
+BankPanelMoneyFrameMoneyDisplayMixin = CreateFromMixins(BankPanelSystemMixin); --- @class BankPanelMoneyFrameMoneyDisplayMixin : BankPanelSystemMixin
 
 function BankPanelMoneyFrameMoneyDisplayMixin:OnLoad()
 	SmallMoneyFrame_OnLoad(self);
@@ -1381,7 +1381,7 @@ function BankPanelMoneyFrameMoneyDisplayMixin:Refresh()
 	MoneyFrame_UpdateMoney(self);
 end
 
-BankPanelWithdrawMoneyButtonMixin = CreateFromMixins(BankPanelSystemMixin);--- @class BankPanelWithdrawMoneyButtonMixin : BankPanelSystemMixin
+BankPanelWithdrawMoneyButtonMixin = CreateFromMixins(BankPanelSystemMixin); --- @class BankPanelWithdrawMoneyButtonMixin : BankPanelSystemMixin
 
 function BankPanelWithdrawMoneyButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION);
@@ -1409,7 +1409,7 @@ function BankPanelWithdrawMoneyButtonMixin:Refresh()
 	self:SetEnabled(canWithdrawMoney);
 end
 
-BankPanelDepositMoneyButtonMixin = CreateFromMixins(BankPanelSystemMixin);--- @class BankPanelDepositMoneyButtonMixin : BankPanelSystemMixin
+BankPanelDepositMoneyButtonMixin = CreateFromMixins(BankPanelSystemMixin); --- @class BankPanelDepositMoneyButtonMixin : BankPanelSystemMixin
 
 function BankPanelDepositMoneyButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION);
@@ -1437,7 +1437,7 @@ function BankPanelDepositMoneyButtonMixin:Refresh()
 	self:SetEnabled(canDepositMoney);
 end
 
-BankPanelTabSettingsMenuMixin = CreateFromMixins(CallbackRegistryMixin, BankPanelSystemMixin);--- @class BankPanelTabSettingsMenuMixin : CallbackRegistryMixin, BankPanelSystemMixin
+BankPanelTabSettingsMenuMixin = CreateFromMixins(CallbackRegistryMixin, BankPanelSystemMixin); --- @class BankPanelTabSettingsMenuMixin : CallbackRegistryMixin, BankPanelSystemMixin
 
 BankPanelTabSettingsMenuMixin:GenerateCallbackEvents(
 {
@@ -1680,7 +1680,7 @@ local BankTabExpansionFilterTypeNames = {
 	[BankTabExpansionFilterTypes.ExpansionLegacy] = BANK_TAB_EXPANSION_FILTER_LEGACY,
 };
 
-BankTabDepositSettingsMenuMixin = {};--- @class BankTabDepositSettingsMenuMixin
+BankTabDepositSettingsMenuMixin = {}; --- @class BankTabDepositSettingsMenuMixin
 
 function BankTabDepositSettingsMenuMixin:OnLoad()
 	self.ExpansionFilterDropdown:SetWidth(110);
@@ -1690,7 +1690,7 @@ function BankTabDepositSettingsMenuMixin:OnShow()
 	self.ExpansionFilterDropdown:Refresh();
 end
 
-BankPanelTabSettingsExpansionFilterDropdownMixin = {};--- @class BankPanelTabSettingsExpansionFilterDropdownMixin
+BankPanelTabSettingsExpansionFilterDropdownMixin = {}; --- @class BankPanelTabSettingsExpansionFilterDropdownMixin
 
 local function GetCurrentFilterType(tabData)
 	local filterType = 0;
@@ -1738,7 +1738,7 @@ function BankPanelTabSettingsExpansionFilterDropdownMixin:SetFilterValue(value)
 	self.selectedValue = value;
 end
 
-BankPanelCheckboxMixin = {};--- @class BankPanelCheckboxMixin
+BankPanelCheckboxMixin = {}; --- @class BankPanelCheckboxMixin
 
 function BankPanelCheckboxMixin:OnShow()
 	self:Init();
@@ -1767,7 +1767,7 @@ function BankPanelCheckboxMixin:Init()
 	end
 end
 
-BankPanelIncludeReagentsCheckboxMixin = CreateFromMixins(BankPanelCheckboxMixin);--- @class BankPanelIncludeReagentsCheckboxMixin : BankPanelCheckboxMixin
+BankPanelIncludeReagentsCheckboxMixin = CreateFromMixins(BankPanelCheckboxMixin); --- @class BankPanelIncludeReagentsCheckboxMixin : BankPanelCheckboxMixin
 
 function BankPanelIncludeReagentsCheckboxMixin:OnShow()
 	BankPanelCheckboxMixin.OnShow(self);
@@ -1788,7 +1788,7 @@ function BankPanelIncludeReagentsCheckboxMixin:Refresh()
 	self:SetShown(self:IsEnabled());
 end
 
-BankCleanUpConfirmationPopupMixin = CreateFromMixins(BankPanelSystemMixin);--- @class BankCleanUpConfirmationPopupMixin : BankPanelSystemMixin
+BankCleanUpConfirmationPopupMixin = CreateFromMixins(BankPanelSystemMixin); --- @class BankCleanUpConfirmationPopupMixin : BankPanelSystemMixin
 
 function BankCleanUpConfirmationPopupMixin:OnShow()
 	self:RefreshConfirmationText();
@@ -1822,7 +1822,7 @@ function BankCleanUpConfirmationPopupMixin:RefreshConfirmationText()
 	self.Text:SetText(selectedTabData and selectedTabData.tabCleanupConfirmation or BANK_CONFIRM_CLEANUP_PROMPT);
 end
 
-BankAutoSortButtonMixin = CreateFromMixins(BankPanelSystemMixin);--- @class BankAutoSortButtonMixin : BankPanelSystemMixin
+BankAutoSortButtonMixin = CreateFromMixins(BankPanelSystemMixin); --- @class BankAutoSortButtonMixin : BankPanelSystemMixin
 
 function BankAutoSortButtonMixin:OnEnter()
 	self:ShowBestTooltipForBankType();

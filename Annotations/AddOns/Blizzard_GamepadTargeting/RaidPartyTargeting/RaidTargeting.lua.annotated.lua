@@ -1,4 +1,4 @@
-RaidTargetingManagerMixin = {};--- @class RaidTargetingManagerMixin
+RaidTargetingManagerMixin = {}; --- @class RaidTargetingManagerMixin
 
 function RaidTargetingManagerMixin:OnLoad()
 	self.isRaidTargetingActive = false;

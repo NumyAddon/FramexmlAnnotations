@@ -1,4 +1,4 @@
-NameplateLevelFrameMixin = {};--- @class NameplateLevelFrameMixin
+NameplateLevelFrameMixin = {}; --- @class NameplateLevelFrameMixin
 
 function NameplateLevelFrameMixin:ShouldDisplay(unit)
 	if not unit then

@@ -1,10 +1,10 @@
-local FriendsFriendsViewType = EnumUtil.MakeEnum(--- @type {["Potential"]: 1, ["Mutual"]: 2, ["All"]: 3}
+local FriendsFriendsViewType = EnumUtil.MakeEnum( --- @type {["Potential"]: 1, ["Mutual"]: 2, ["All"]: 3}
 	"Potential",
 	"Mutual",
 	"All"
 );
 
-FriendsFriendsButtonMixin = {};--- @class FriendsFriendsButtonMixin
+FriendsFriendsButtonMixin = {}; --- @class FriendsFriendsButtonMixin
 
 function FriendsFriendsButtonMixin:Init(elementData, friendsFrame)
 	local friendID = elementData.friendID;
@@ -43,7 +43,7 @@ function FriendsFriendsButtonMixin:SetSelected(selected)
 	end
 end
 
-FriendsFriendsFrameMixin = CreateFromMixins(SocialUIScrollableElementExtentPreviewerMixin);--- @class FriendsFriendsFrameMixin : SocialUIScrollableElementExtentPreviewerMixin
+FriendsFriendsFrameMixin = CreateFromMixins(SocialUIScrollableElementExtentPreviewerMixin); --- @class FriendsFriendsFrameMixin : SocialUIScrollableElementExtentPreviewerMixin
 
 function FriendsFriendsFrameMixin:OnLoad()
 	self:RegisterEvent("BN_REQUEST_FOF_SUCCEEDED");
@@ -275,7 +275,7 @@ function FriendsFriendsFrame_Show(bnetIDAccount)
 	FriendsFriendsFrame:Open(bnetIDAccount);
 end
 
-FriendsFriendsWaitFrameMixin = {};--- @class FriendsFriendsWaitFrameMixin
+FriendsFriendsWaitFrameMixin = {}; --- @class FriendsFriendsWaitFrameMixin
 
 function FriendsFriendsWaitFrameMixin:OnShow()
 	if UIFrameIsFlashing(self) then

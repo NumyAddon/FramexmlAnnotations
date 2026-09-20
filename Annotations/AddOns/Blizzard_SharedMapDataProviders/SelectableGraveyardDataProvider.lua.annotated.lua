@@ -1,4 +1,4 @@
-SelectableGraveyardDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class SelectableGraveyardDataProviderMixin : MapCanvasDataProviderMixin
+SelectableGraveyardDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class SelectableGraveyardDataProviderMixin : MapCanvasDataProviderMixin
 
 function SelectableGraveyardDataProviderMixin:OnShow()
 	self:RegisterEvent("CEMETERY_PREFERENCE_UPDATED");

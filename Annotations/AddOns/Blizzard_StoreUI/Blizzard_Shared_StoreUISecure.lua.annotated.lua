@@ -831,7 +831,7 @@ end
 
 local InitialXOffset = 0;
 local InitialYOffset = 0;
-StoreLayoutGridMixin = {};--- @class StoreLayoutGridMixin
+StoreLayoutGridMixin = {}; --- @class StoreLayoutGridMixin
 function StoreLayoutGridMixin:Init(numRows, numCols)
 	self.numRows = numRows;
 	self.numCols = numCols;

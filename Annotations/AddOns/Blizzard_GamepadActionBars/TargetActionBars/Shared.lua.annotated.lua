@@ -120,7 +120,7 @@ end
 
 ---------------------------------------------------------------------------------------------------
 
-local SharedBarStateMixin = {};--- @class SharedBarStateMixin
+local SharedBarStateMixin = {}; --- @class SharedBarStateMixin
 
 Shared.SharedBarStateMixin = SharedBarStateMixin;
 

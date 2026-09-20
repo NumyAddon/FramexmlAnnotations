@@ -1,4 +1,4 @@
-InstanceDifficultyMixin = { };--- @class InstanceDifficultyMixin
+InstanceDifficultyMixin = { }; --- @class InstanceDifficultyMixin
 
 function InstanceDifficultyMixin:OnLoad()
 	self:RegisterEvent("PLAYER_DIFFICULTY_CHANGED");
@@ -213,7 +213,7 @@ function InstanceDifficultyMixin:SetFlipped(flipped)
 	challengeModeFrame.Border:SetAtlas(border);
 end
 
-GuildInstanceDifficultyMixin = { };--- @class GuildInstanceDifficultyMixin
+GuildInstanceDifficultyMixin = { }; --- @class GuildInstanceDifficultyMixin
 
 function GuildInstanceDifficultyMixin:OnEnter()
 	local guildName = GetGuildInfo("player");

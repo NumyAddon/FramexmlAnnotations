@@ -25,7 +25,7 @@ durationFormatter:Init(
 durationFormatter:SetDesiredUnitCount(2);
 
 -------------------------------------[[ Top-Level Frame ]]-------------------------------------------------------
-PVPRankFrameMixin = {};--- @class PVPRankFrameMixin
+PVPRankFrameMixin = {}; --- @class PVPRankFrameMixin
 
 function PVPRankFrameMixin:OnLoad()
 	if CharacterFrame and CharacterFrame.ModeTabs and CharacterFrame.ModeTabs.PvPTab then
@@ -121,7 +121,7 @@ function PVPRankFrameMixin:Update()
 	self.DetailFrame:Refresh();
 end
 
-PVPRankDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin);--- @class PVPRankDetailFrameMixin : CharacterFrameSidePaneMixin
+PVPRankDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin); --- @class PVPRankDetailFrameMixin : CharacterFrameSidePaneMixin
 
 local PVP_RANK_DETAIL_DESCRIPTION_HEIGHT = 60;
 
@@ -217,7 +217,7 @@ function PVPRankDetailFrameMixin:AddNextRewardRows(rankLevel, seasonEndMaxRank)
 end
 
 -------------------------------------[[ PVPUIHonorLevelDisplay Frame ]]-------------------------------------------------------
-RankProgressBarDisplayMixin = { };--- @class RankProgressBarDisplayMixin
+RankProgressBarDisplayMixin = { }; --- @class RankProgressBarDisplayMixin
 
 function RankProgressBarDisplayMixin:OnLoad()
 	self:Pause();
@@ -281,7 +281,7 @@ function RankProgressBarDisplayMixin:Update()
 	self.NextRewardLevel.LevelLabel:SetText(rankLevel);
 end
 
-RewardBadgeMixin = {};--- @class RewardBadgeMixin
+RewardBadgeMixin = {}; --- @class RewardBadgeMixin
 
 -- Override the Update from PVPHonorRewardMixin. We don't want to do anything.
 function RewardBadgeMixin:Update()

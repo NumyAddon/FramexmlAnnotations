@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------------
 -- PerksProgramFooterFrameMixin
 ----------------------------------------------------------------------------------
-PerksProgramFooterFrameMixin = {};--- @class PerksProgramFooterFrameMixin
+PerksProgramFooterFrameMixin = {}; --- @class PerksProgramFooterFrameMixin
 
 function PerksProgramFooterFrameMixin:OnLoad()
 	EventRegistry:RegisterCallback("PerksProgram.OnProductPurchasedStateChange", self.OnProductPurchasedStateChange, self);
@@ -201,7 +201,7 @@ function PerksProgramFooterFrameMixin:OnServerErrorStateChanged()
 	self.RefundButton:SetEnabled(not hasErrorOccurred);
 end
 
-PerksProgramErrorIndicatorMixin = {};--- @class PerksProgramErrorIndicatorMixin
+PerksProgramErrorIndicatorMixin = {}; --- @class PerksProgramErrorIndicatorMixin
 
 function PerksProgramErrorIndicatorMixin:OnEnter()
 	PerksProgramTooltip:SetOwner(self, "ANCHOR_RIGHT", -5, -5);

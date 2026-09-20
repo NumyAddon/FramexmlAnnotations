@@ -31,7 +31,7 @@ local ANIMA_DIVERSION_LINK_TEXTURE = "animachannel-link-anima-%s";
 local ANIMA_DIVERSION_LINE_TEXTURE = "_AnimaChannel-Channel-Line-horizontal-%s";
 local ANIMA_SELECTION_MODEL_EFFECT_ID = 35;
 
-AnimaDiversionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class AnimaDiversionDataProviderMixin : MapCanvasDataProviderMixin
+AnimaDiversionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class AnimaDiversionDataProviderMixin : MapCanvasDataProviderMixin
 
 function AnimaDiversionDataProviderMixin:OnShow()
 	FrameUtil.RegisterFrameForEvents(self, ANIMA_DIVERSION_DATA_PROVIDER_FRAME_EVENTS);
@@ -180,12 +180,12 @@ function AnimaDiversionDataProviderMixin:AddModelScene()
 	pin.ModelScene:RefreshModelScene();
 end
 
-AnimaDiversionModelScenePinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class AnimaDiversionModelScenePinMixin : MapCanvasPinMixin
+AnimaDiversionModelScenePinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class AnimaDiversionModelScenePinMixin : MapCanvasPinMixin
 function AnimaDiversionModelScenePinMixin:OnLoad()
 	self:UseFrameLevelType("PIN_FRAME_LEVEL_ANIMA_DIVERSION_MODELSCENE_PIN");
 end
 
-AnimaDiversionPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class AnimaDiversionPinMixin : MapCanvasPinMixin
+AnimaDiversionPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class AnimaDiversionPinMixin : MapCanvasPinMixin
 function AnimaDiversionPinMixin:OnLoad()
 	self:UseFrameLevelType("PIN_FRAME_LEVEL_ANIMA_DIVERSION_PIN");
 	self:SetNudgeSourceRadius(1);
@@ -378,7 +378,7 @@ function AnimaDiversionPinMixin:OnClick(button)
 	end
 end
 
-AnimaDiversionConnectionMixin = {}--- @class AnimaDiversionConnectionMixin
+AnimaDiversionConnectionMixin = {} --- @class AnimaDiversionConnectionMixin
 
 function AnimaDiversionConnectionMixin:Setup(textureKit, origin, pin)
 		-- Anchor straight up from the origin

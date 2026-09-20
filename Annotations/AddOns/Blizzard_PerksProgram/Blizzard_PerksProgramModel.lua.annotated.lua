@@ -271,7 +271,7 @@ local function UpdateModelSceneWithDisplayData(actor, camera, displayData, perks
 	end
 end
 
-PerksProgramAlteredFormButtonMixin = CreateFromMixins(SelectableButtonMixin);--- @class PerksProgramAlteredFormButtonMixin : SelectableButtonMixin
+PerksProgramAlteredFormButtonMixin = CreateFromMixins(SelectableButtonMixin); --- @class PerksProgramAlteredFormButtonMixin : SelectableButtonMixin
 function PerksProgramAlteredFormButtonMixin:OnLoad()
 	RingedMaskedButtonMixin.OnLoad(self);
 	SelectableButtonMixin.OnLoad(self);
@@ -302,7 +302,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramModelSceneContainerFrameMixin
 ----------------------------------------------------------------------------------
-PerksProgramModelSceneContainerFrameMixin = {};--- @class PerksProgramModelSceneContainerFrameMixin
+PerksProgramModelSceneContainerFrameMixin = {}; --- @class PerksProgramModelSceneContainerFrameMixin
 function PerksProgramModelSceneContainerFrameMixin:OnLoad()
 	EventRegistry:RegisterCallback("PerksProgram.OnItemSetSelectionUpdated", self.OnItemSetSelectionUpdated, self);
 

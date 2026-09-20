@@ -1,7 +1,7 @@
 local Shared = require(".Shared");
 local StaticOverrideActionBarMixin = require(".StaticOverrideActionBar");
 
-GamepadFriendlyTargetingActionBarMixin = CreateFromMixins(StaticOverrideActionBarMixin);--- @class GamepadFriendlyTargetingActionBarMixin : StaticOverrideActionBarMixin
+GamepadFriendlyTargetingActionBarMixin = CreateFromMixins(StaticOverrideActionBarMixin); --- @class GamepadFriendlyTargetingActionBarMixin : StaticOverrideActionBarMixin
 
 function GamepadFriendlyTargetingActionBarMixin:OnLoad()
 	self.swapLeftAndRightCvar = "GamepadSwapFriendlyTargetActions";

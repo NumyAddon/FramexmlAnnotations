@@ -1,4 +1,4 @@
-WorldMapPOIQuantizerMixin = {};--- @class WorldMapPOIQuantizerMixin
+WorldMapPOIQuantizerMixin = {}; --- @class WorldMapPOIQuantizerMixin
 
 function WorldMapPOIQuantizerMixin:OnLoad(numCellsWide, numCellsHigh)
 	self:Resize(numCellsWide, numCellsHigh);

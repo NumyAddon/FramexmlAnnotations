@@ -1,4 +1,4 @@
-GossipTitleButtonMixin = CreateFromMixins(GossipSharedTitleButtonMixin)--- @class GossipTitleButtonMixin : GossipSharedTitleButtonMixin
+GossipTitleButtonMixin = CreateFromMixins(GossipSharedTitleButtonMixin) --- @class GossipTitleButtonMixin : GossipSharedTitleButtonMixin
 function GossipTitleButtonMixin:OnEnter()
 	if (self.spellID) then
 		GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
@@ -11,7 +11,7 @@ function GossipTitleButtonMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-GossipQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMixin);--- @class GossipQuestButtonMixin : GossipSharedQuestButtonMixin
+GossipQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMixin); --- @class GossipQuestButtonMixin : GossipSharedQuestButtonMixin
 function GossipQuestButtonMixin:UpdateTitleForQuest(questID, titleText, isIgnored, isTrivial)
 	GossipSharedQuestButtonMixin.UpdateTitleForQuest(self, questID, titleText, isIgnored, isTrivial);
 	self:AddCallbackForQuest(questID, UpdateTitle);
@@ -32,20 +32,20 @@ function GossipQuestButtonMixin:AddCallbackForQuest(questID, cb)
 	self.cancelCallback = QuestEventListener:AddCancelableCallback(questID, cb);
 end
 
-GossipAvailableQuestButtonMixin = CreateFromMixins(GossipSharedAvailableQuestButtonMixin);--- @class GossipAvailableQuestButtonMixin : GossipSharedAvailableQuestButtonMixin
+GossipAvailableQuestButtonMixin = CreateFromMixins(GossipSharedAvailableQuestButtonMixin); --- @class GossipAvailableQuestButtonMixin : GossipSharedAvailableQuestButtonMixin
 
 function GossipAvailableQuestButtonMixin:Setup(questInfo)
 	QuestUtil.ApplyQuestIconOfferToTextureForQuestID(self.Icon, questInfo.questID, questInfo.isLegendary, questInfo.frequency, questInfo.isRepeatable, questInfo.isImportant, questInfo.isMeta, questInfo.questInfoID);
 	GossipSharedAvailableQuestButtonMixin.Setup(self, questInfo);
 end
 
-GossipActiveQuestButtonMixin = CreateFromMixins(GossipSharedActiveQuestButtonMixin);--- @class GossipActiveQuestButtonMixin : GossipSharedActiveQuestButtonMixin
+GossipActiveQuestButtonMixin = CreateFromMixins(GossipSharedActiveQuestButtonMixin); --- @class GossipActiveQuestButtonMixin : GossipSharedActiveQuestButtonMixin
 function GossipActiveQuestButtonMixin:Setup(questInfo)
 	QuestUtil.ApplyQuestIconActiveToTextureForQuestID(self.Icon, questInfo.questID, questInfo.isComplete, questInfo.isLegendary, questInfo.frequency, questInfo.isRepeatable, questInfo.isImportant, questInfo.isMeta, questInfo.questInfoID);
 	GossipSharedActiveQuestButtonMixin.Setup(self, questInfo);
 end
 
-GossipFrameMixin = CreateFromMixins(GossipFrameSharedMixin);--- @class GossipFrameMixin : GossipFrameSharedMixin
+GossipFrameMixin = CreateFromMixins(GossipFrameSharedMixin); --- @class GossipFrameMixin : GossipFrameSharedMixin
 
 function GossipFrameMixin:OnLoad()
 	self:RegisterEvent("QUEST_LOG_UPDATE");

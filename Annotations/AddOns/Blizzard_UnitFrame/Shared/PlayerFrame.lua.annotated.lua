@@ -1,10 +1,10 @@
-PlayerFrameMixin = {};--- @class PlayerFrameMixin
+PlayerFrameMixin = {}; --- @class PlayerFrameMixin
 
 function PlayerFrameMixin:RegisterForInterfaceTransitions()
 	InputUtil.RegisterForInterfaceTransitions(self, nil);
 end
 
-PlayerBottomManagedFrameContainerMixin = {};--- @class PlayerBottomManagedFrameContainerMixin
+PlayerBottomManagedFrameContainerMixin = {}; --- @class PlayerBottomManagedFrameContainerMixin
 
 function PlayerBottomManagedFrameContainerMixin:Layout()
 	LayoutMixin.Layout(self);

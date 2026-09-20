@@ -1,7 +1,7 @@
 
 local STEPPER_DISABLED_ALPHA = 0.5;
 
-MinimalSliderMixin = {};--- @class MinimalSliderMixin
+MinimalSliderMixin = {}; --- @class MinimalSliderMixin
 
 function MinimalSliderMixin:OnLoad()
 	self:SetObeyStepOnDrag(self.obeyStepOnDrag);
@@ -30,7 +30,7 @@ function CreateMinimalSliderFormatter(labelType, value)
 	return formatter;
 end
 
-MinimalSliderWithSteppersMixin = CreateFromMixins(CallbackRegistryMixin);--- @class MinimalSliderWithSteppersMixin : CallbackRegistryMixin
+MinimalSliderWithSteppersMixin = CreateFromMixins(CallbackRegistryMixin); --- @class MinimalSliderWithSteppersMixin : CallbackRegistryMixin
 
 MinimalSliderWithSteppersMixin:GenerateCallbackEvents(
 	{
@@ -40,7 +40,7 @@ MinimalSliderWithSteppersMixin:GenerateCallbackEvents(
 	}
 );
 
-MinimalSliderWithSteppersMixin.Label = EnumUtil.MakeEnum("Left", "Right", "Top", "Min", "Max");--- @type {["Left"]: 1, ["Right"]: 2, ["Top"]: 3, ["Min"]: 4, ["Max"]: 5} See [MinimalSliderWithSteppersMixin.Label](lua://MinimalSliderWithSteppersMixin.Label)
+MinimalSliderWithSteppersMixin.Label = EnumUtil.MakeEnum("Left", "Right", "Top", "Min", "Max"); --- @type {["Left"]: 1, ["Right"]: 2, ["Top"]: 3, ["Min"]: 4, ["Max"]: 5} # See [MinimalSliderWithSteppersMixin.Label](lua://MinimalSliderWithSteppersMixin.Label)
 
 local interactionFlags = {
 	Hover = 1,

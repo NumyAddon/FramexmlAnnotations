@@ -19,7 +19,7 @@ local CATALOG_SHOP_REFUNDABLE_DECORS_UPDATED_TIMEOUT_SECONDS = 5;
 ----------------------------------------------------------------------------------
 -- CatalogShopRefundFrameMixin
 ----------------------------------------------------------------------------------
-CatalogShopRefundFrameMixin = {};--- @class CatalogShopRefundFrameMixin
+CatalogShopRefundFrameMixin = {}; --- @class CatalogShopRefundFrameMixin
 function CatalogShopRefundFrameMixin:OnLoad()
 	if ( C_Glue.IsOnGlueScreen() ) then
 		self:SetFrameStrata("FULLSCREEN_DIALOG");
@@ -383,7 +383,7 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopRefundFlowProcessingContainerMixin
 ----------------------------------------------------------------------------------
-CatalogShopRefundFlowProcessingContainerMixin = {};--- @class CatalogShopRefundFlowProcessingContainerMixin
+CatalogShopRefundFlowProcessingContainerMixin = {}; --- @class CatalogShopRefundFlowProcessingContainerMixin
 function CatalogShopRefundFlowProcessingContainerMixin:OnLoad()
 	local startingSound = nil;
 	local loopingSound = SOUNDKIT.CATALOG_SHOP_REFUND_PROCESSING_LOOP;

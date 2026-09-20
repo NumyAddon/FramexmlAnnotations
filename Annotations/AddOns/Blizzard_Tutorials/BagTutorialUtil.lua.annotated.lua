@@ -28,7 +28,7 @@ function BagTutorialQueue.GetQueueFront()
 	return BagTutorialQueue.queue[1];
 end
 
-BagTutorialBaseMixin = CreateFromMixins(StateMachineBasedTutorialMixin);--- @class BagTutorialBaseMixin : StateMachineBasedTutorialMixin
+BagTutorialBaseMixin = CreateFromMixins(StateMachineBasedTutorialMixin); --- @class BagTutorialBaseMixin : StateMachineBasedTutorialMixin
 
 function BagTutorialBaseMixin:Init(helpTipInfos, helpTipSystem, bitfield, bitflag)
 	self.helpTipInfos = helpTipInfos;

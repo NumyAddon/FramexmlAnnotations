@@ -281,7 +281,7 @@ local function GetRequiredAuraSlot(container, slotKey)
 	return auraSlot;
 end
 
-CustomAuraContainerSharedMixin = CreateFromMixins(ManagedAuraContainerSharedMixin);--- @class CustomAuraContainerSharedMixin : ManagedAuraContainerSharedMixin
+CustomAuraContainerSharedMixin = CreateFromMixins(ManagedAuraContainerSharedMixin); --- @class CustomAuraContainerSharedMixin : ManagedAuraContainerSharedMixin
 
 function CustomAuraContainerSharedMixin:AddAuraGroup(groupKey, filterString, options)
 	assert(IsNonEmptyString(groupKey), "groupKey must be a non-empty string.");
@@ -571,8 +571,8 @@ function CustomAuraContainerSharedMixin:SetAuraProcessingPolicy(policy, options)
 	self:UpdateAllAuras();
 end
 
-CustomAuraContainerInboundMixin = CreateFromMixins(ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, CustomAuraContainerSharedMixin);--- @class CustomAuraContainerInboundMixin : ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, CustomAuraContainerSharedMixin
-CustomAuraContainerPrivateMixin = CreateFromMixins(ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, CustomAuraContainerSharedMixin);--- @class CustomAuraContainerPrivateMixin : ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, CustomAuraContainerSharedMixin
+CustomAuraContainerInboundMixin = CreateFromMixins(ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, CustomAuraContainerSharedMixin); --- @class CustomAuraContainerInboundMixin : ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, CustomAuraContainerSharedMixin
+CustomAuraContainerPrivateMixin = CreateFromMixins(ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, CustomAuraContainerSharedMixin); --- @class CustomAuraContainerPrivateMixin : ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, CustomAuraContainerSharedMixin
 
 function CustomAuraContainerPrivateMixin:OnLoad()
 	self.auraProcessingPolicy = CustomAuraContainerAuraProcessingPolicy.None;
@@ -784,7 +784,7 @@ function CustomAuraContainerPrivateMixin:CreateAuraSlotFrame(options)
 	return frameProvider:AcquireFrame();
 end
 
-CustomAuraContainerFlowLayoutMixin = CreateFromMixins(AnchorUtil.FlowLayoutMixin);--- @class CustomAuraContainerFlowLayoutMixin : AnchorUtil.FlowLayoutMixin
+CustomAuraContainerFlowLayoutMixin = CreateFromMixins(AnchorUtil.FlowLayoutMixin); --- @class CustomAuraContainerFlowLayoutMixin : AnchorUtil.FlowLayoutMixin
 
 function CustomAuraContainerFlowLayoutMixin:GetElementSize(_container, element, group)
 	local width, height = element:GetSize();

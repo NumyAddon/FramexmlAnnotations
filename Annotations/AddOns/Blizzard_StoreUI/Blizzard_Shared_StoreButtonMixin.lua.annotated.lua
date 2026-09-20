@@ -1,7 +1,7 @@
 
 --------------------------------------------------
 -- STORE BUTTON MIXIN
-StoreButtonMixin = {};--- @class StoreButtonMixin
+StoreButtonMixin = {}; --- @class StoreButtonMixin
 
 function StoreButtonMixin:OnLoad()
 	if ( not self:IsEnabled() ) then

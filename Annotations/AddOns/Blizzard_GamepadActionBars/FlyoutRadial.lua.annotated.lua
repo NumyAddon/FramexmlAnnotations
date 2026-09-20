@@ -51,7 +51,7 @@ local SQUARE_STYLE_PROPERTIES = {
 -- GamepadSpellFlyoutPopupButtonMixin
 --------------------------------------------------------------------------------
 
-GamepadSpellFlyoutPopupButtonMixin = CreateFromMixins(SpellFlyoutPopupButtonMixin);--- @class GamepadSpellFlyoutPopupButtonMixin : SpellFlyoutPopupButtonMixin
+GamepadSpellFlyoutPopupButtonMixin = CreateFromMixins(SpellFlyoutPopupButtonMixin); --- @class GamepadSpellFlyoutPopupButtonMixin : SpellFlyoutPopupButtonMixin
 
 -- Overrides BaseActionButtonMixin:UpdateButtonArt
 function GamepadSpellFlyoutPopupButtonMixin:UpdateButtonArt()
@@ -183,7 +183,7 @@ end
 -- GamepadSpellFlyoutMixin
 --------------------------------------------------------------------------------
 
-GamepadSpellFlyoutMixin = CreateFromMixins(LayoutMixin, SpellFlyoutMixin);--- @class GamepadSpellFlyoutMixin : LayoutMixin, SpellFlyoutMixin
+GamepadSpellFlyoutMixin = CreateFromMixins(LayoutMixin, SpellFlyoutMixin); --- @class GamepadSpellFlyoutMixin : LayoutMixin, SpellFlyoutMixin
 
 -- Overrides FlyoutPopupMixin:AttachToButton
 function GamepadSpellFlyoutMixin:AttachToButton(button)

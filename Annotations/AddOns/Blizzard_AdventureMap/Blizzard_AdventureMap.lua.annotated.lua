@@ -1,6 +1,6 @@
 UIPanelWindows["AdventureMapFrame"] = { area = "center", pushable = 0, showFailedFunc = C_AdventureMap.Close, allowOtherPanels = 1 };
 
-AdventureMapMixin = {};--- @class AdventureMapMixin
+AdventureMapMixin = {}; --- @class AdventureMapMixin
 
 function AdventureMapMixin:SetupTitle()
 	self.BorderFrame.TitleText:SetText(ADVENTURE_MAP_TITLE);

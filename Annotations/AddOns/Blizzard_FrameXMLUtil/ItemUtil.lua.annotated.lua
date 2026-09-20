@@ -431,7 +431,7 @@ function ItemUtil.GetEquipSlotTexture(equipSlot)
 	return nil;
 end
 
-ItemTransmogInfoMixin = {};--- @class ItemTransmogInfoMixin
+ItemTransmogInfoMixin = {}; --- @class ItemTransmogInfoMixin
 
 function ItemTransmogInfoMixin:Init(appearanceID, secondaryAppearanceID, illusionID)
 	self.appearanceID = appearanceID;

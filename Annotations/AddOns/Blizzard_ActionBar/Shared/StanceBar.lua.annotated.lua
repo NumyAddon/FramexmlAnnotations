@@ -1,7 +1,7 @@
 -------------------------------------------------------
 ------- StanceBar (Shapsfit,Auras,Aspects) Code -------
 -------------------------------------------------------
-StanceBarMixin = {};--- @class StanceBarMixin
+StanceBarMixin = {}; --- @class StanceBarMixin
 
 function StanceBarMixin:OnLoad()
 	self:RegisterEvent("UPDATE_SHAPESHIFT_COOLDOWN");
@@ -107,7 +107,7 @@ function StanceBarMixin:Select(id)
 	CastShapeshiftForm(id);
 end
 
-StanceButtonMixin = {}--- @class StanceButtonMixin
+StanceButtonMixin = {} --- @class StanceButtonMixin
 
 function StanceButtonMixin:StanceButtonMixin_OnLoad()
 	SmallActionButtonMixin.SmallActionButtonMixin_OnLoad(self);

@@ -1,4 +1,4 @@
-VoiceActivityVolumeMixin = {};--- @class VoiceActivityVolumeMixin
+VoiceActivityVolumeMixin = {}; --- @class VoiceActivityVolumeMixin
 
 function VoiceActivityVolumeMixin:SetVolume(volume)
 	self.Level1:SetShown(volume > 0);
@@ -6,7 +6,7 @@ function VoiceActivityVolumeMixin:SetVolume(volume)
 	self.Level3:SetShown(volume > 0.8);
 end
 
-VoiceActivityNotificationBaseMixin = {};--- @class VoiceActivityNotificationBaseMixin
+VoiceActivityNotificationBaseMixin = {}; --- @class VoiceActivityNotificationBaseMixin
 
 function VoiceActivityNotificationBaseMixin:OnLoad()
 
@@ -78,7 +78,7 @@ function VoiceActivityNotificationBaseMixin:SetChannelID(channelID)
 end
 
 -- Chat Frame notification
-VoiceActivityNotificationMixin = CreateFromMixins(VoiceActivityNotificationBaseMixin);--- @class VoiceActivityNotificationMixin : VoiceActivityNotificationBaseMixin
+VoiceActivityNotificationMixin = CreateFromMixins(VoiceActivityNotificationBaseMixin); --- @class VoiceActivityNotificationMixin : VoiceActivityNotificationBaseMixin
 
 function VoiceActivityNotificationMixin:OnLoad()
 	VoiceActivityNotificationBaseMixin.OnLoad(self);

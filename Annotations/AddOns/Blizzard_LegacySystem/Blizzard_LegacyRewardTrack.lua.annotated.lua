@@ -1,4 +1,4 @@
-LegacyRewardTrackPageMixin = {}--- @class LegacyRewardTrackPageMixin
+LegacyRewardTrackPageMixin = {} --- @class LegacyRewardTrackPageMixin
 
 -- Lines up the cards from the LegacyRewardProgressFrame with progress bar fill based on 0-100 scale
 local CARD_POSITION_TO_PROGRESS = {3, 27, 50, 73, 97};

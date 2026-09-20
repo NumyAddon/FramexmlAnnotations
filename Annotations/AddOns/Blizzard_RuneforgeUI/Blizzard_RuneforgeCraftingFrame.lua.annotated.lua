@@ -1,5 +1,5 @@
 
-RuneforgeCraftingFrameMixin = CreateFromMixins(RuneforgeSystemMixin);--- @class RuneforgeCraftingFrameMixin : RuneforgeSystemMixin
+RuneforgeCraftingFrameMixin = CreateFromMixins(RuneforgeSystemMixin); --- @class RuneforgeCraftingFrameMixin : RuneforgeSystemMixin
 
 local RuneforgeCraftingFrameEvents = {
 	"GLOBAL_MOUSE_DOWN",

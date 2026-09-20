@@ -1,4 +1,4 @@
-LegacyChallengesPageMixin = {}--- @class LegacyChallengesPageMixin
+LegacyChallengesPageMixin = {} --- @class LegacyChallengesPageMixin
 
 function LegacyChallengesPageMixin:OnLoad()
 	self:RegisterEvent("ACHIEVEMENT_EARNED");
@@ -218,7 +218,7 @@ function LegacyChallengesPageMixin:InitFilterMenu(dropdown)
 	end);
 end
 
-LegacyChallengePointSummaryMixin = {}--- @class LegacyChallengePointSummaryMixin
+LegacyChallengePointSummaryMixin = {} --- @class LegacyChallengePointSummaryMixin
 
 function LegacyChallengePointSummaryMixin:OnLoad()
 	EventRegistry:RegisterCallback("Legacy.UpdateCurrencyInfo", function(_, info)
@@ -237,7 +237,7 @@ function LegacyChallengePointSummaryMixin:RefreshText(currencyInfo)
 	self.Shield.Points:SetText(currencyInfo.renownCurrency);
 end
 
-ChallengePointBarMixin = {};--- @class ChallengePointBarMixin
+ChallengePointBarMixin = {}; --- @class ChallengePointBarMixin
 
 function ChallengePointBarMixin:OnHide()
 	if self.interpolator then

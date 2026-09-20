@@ -1,4 +1,4 @@
-ItemTextFrameMixin = {};--- @class ItemTextFrameMixin
+ItemTextFrameMixin = {}; --- @class ItemTextFrameMixin
 
 function ItemTextFrameMixin:OnLoad()
 	self:RegisterEvent("ITEM_TEXT_BEGIN");

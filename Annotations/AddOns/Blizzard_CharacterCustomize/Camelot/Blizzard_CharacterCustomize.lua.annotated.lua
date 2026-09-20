@@ -6,7 +6,7 @@ local MAX_ALTERED_FORMS_DROPDOWN_HEIGHT = 625;
 
 ----------------- Char-Specific Base Parent Frame -----------------
 
-CharCustomizeParentFrameBaseMixin = CreateFromMixins(CustomizationParentFrameBaseMixin);--- @class CharCustomizeParentFrameBaseMixin : CustomizationParentFrameBaseMixin
+CharCustomizeParentFrameBaseMixin = CreateFromMixins(CustomizationParentFrameBaseMixin); --- @class CharCustomizeParentFrameBaseMixin : CustomizationParentFrameBaseMixin
 
 function CharCustomizeParentFrameBaseMixin:SetViewingAlteredForm(viewingAlteredForm, resetCategory)
 	-- Required Override
@@ -35,7 +35,7 @@ end
 
 ----------------- Char-Specific Category Button  -----------------
 
-CharCustomizeCategoryButtonMixin = CreateFromMixins(CustomizationCategoryButtonMixin);--- @class CharCustomizeCategoryButtonMixin : CustomizationCategoryButtonMixin
+CharCustomizeCategoryButtonMixin = CreateFromMixins(CustomizationCategoryButtonMixin); --- @class CharCustomizeCategoryButtonMixin : CustomizationCategoryButtonMixin
 
 function CharCustomizeCategoryButtonMixin:IsSelected(categoryData, selectedCategoryID)
 	-- Overrides CustomizationCategoryButtonMixin
@@ -53,7 +53,7 @@ end
 
 ----------------- Shapeshift Form Category Button -----------------
 
-CharCustomizeShapeshiftFormButtonMixin = CreateFromMixins(CharCustomizeCategoryButtonMixin);--- @class CharCustomizeShapeshiftFormButtonMixin : CharCustomizeCategoryButtonMixin
+CharCustomizeShapeshiftFormButtonMixin = CreateFromMixins(CharCustomizeCategoryButtonMixin); --- @class CharCustomizeShapeshiftFormButtonMixin : CharCustomizeCategoryButtonMixin
 
 function CharCustomizeShapeshiftFormButtonMixin:SetupAnchors(tooltip)
 	tooltip:SetOwner(self, "ANCHOR_NONE");
@@ -74,7 +74,7 @@ end
 
 ----------------- Riding Drake Category Button -----------------
 
-CharCustomizeRidingDrakeButtonMixin = CreateFromMixins(CharCustomizeCategoryButtonMixin);--- @class CharCustomizeRidingDrakeButtonMixin : CharCustomizeCategoryButtonMixin
+CharCustomizeRidingDrakeButtonMixin = CreateFromMixins(CharCustomizeCategoryButtonMixin); --- @class CharCustomizeRidingDrakeButtonMixin : CharCustomizeCategoryButtonMixin
 
 function CharCustomizeRidingDrakeButtonMixin:SetupAnchors(tooltip)
 	tooltip:SetOwner(self, "ANCHOR_NONE");
@@ -94,7 +94,7 @@ end
 
 ----------------- Altered Form Button -----------------
 
-CharCustomizeAlteredFormButtonMixin = CreateFromMixins(CustomizationMaskedButtonMixin);--- @class CharCustomizeAlteredFormButtonMixin : CustomizationMaskedButtonMixin
+CharCustomizeAlteredFormButtonMixin = CreateFromMixins(CustomizationMaskedButtonMixin); --- @class CharCustomizeAlteredFormButtonMixin : CustomizationMaskedButtonMixin
 
 function CharCustomizeAlteredFormButtonMixin:SetupAlteredFormButton(raceData, isSelected, isAlteredForm, layoutIndex)
 	self.layoutIndex = layoutIndex;
@@ -127,7 +127,7 @@ end
 
 ----------------- Body Type Button -----------------
 
-CharCustomizeBodyTypeButtonMixin = CreateFromMixins(CustomizationMaskedButtonMixin);--- @class CharCustomizeBodyTypeButtonMixin : CustomizationMaskedButtonMixin
+CharCustomizeBodyTypeButtonMixin = CreateFromMixins(CustomizationMaskedButtonMixin); --- @class CharCustomizeBodyTypeButtonMixin : CustomizationMaskedButtonMixin
 
 function CharCustomizeBodyTypeButtonMixin:SetBodyType(bodyTypeID, selecteBodyTypeID, layoutIndex)
 	self.sexID = bodyTypeID;
@@ -158,7 +158,7 @@ end
 ----------------- Altered Form Icon -----------------
 -- For use with CharCustomizeAlteredFormDropdownItemMixin/Template.
 
-CharCustomizeAlteredFormDropdownItemIconMixin = {};--- @class CharCustomizeAlteredFormDropdownItemIconMixin
+CharCustomizeAlteredFormDropdownItemIconMixin = {}; --- @class CharCustomizeAlteredFormDropdownItemIconMixin
 
 function CharCustomizeAlteredFormDropdownItemIconMixin:SetIconAtlas(atlasStr)
 	self.Icon:SetAtlas(atlasStr);
@@ -171,7 +171,7 @@ end
 ----------------- Altered Form Dropdown Item -----------------
 -- For use with CharCustomizeAlteredFormsDropdownMixin/Template.
 
-CharCustomizeAlteredFormDropdownItemMixin = {};--- @class CharCustomizeAlteredFormDropdownItemMixin
+CharCustomizeAlteredFormDropdownItemMixin = {}; --- @class CharCustomizeAlteredFormDropdownItemMixin
 
 function CharCustomizeAlteredFormDropdownItemMixin:Init(categoryData, isSelected, isLastItem)
 	self.Text:SetText(categoryData.name);
@@ -206,7 +206,7 @@ end
 
 ----------------- Altered Forms Dropdown -----------------
 
-CharCustomizeAlteredFormsDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownSelectionTextMixin);--- @class CharCustomizeAlteredFormsDropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin
+CharCustomizeAlteredFormsDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownSelectionTextMixin); --- @class CharCustomizeAlteredFormsDropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin
 
 function CharCustomizeAlteredFormsDropdownMixin:OnLoad()
 	ButtonStateBehaviorMixin.OnLoad(self);
@@ -276,7 +276,7 @@ end
 
 ----------------- Character Customize Frame -----------------
 
-CharCustomizeMixin = CreateFromMixins(CustomizationFrameBaseMixin);--- @class CharCustomizeMixin : CustomizationFrameBaseMixin
+CharCustomizeMixin = CreateFromMixins(CustomizationFrameBaseMixin); --- @class CharCustomizeMixin : CustomizationFrameBaseMixin
 
 function CharCustomizeMixin:OnLoad()
 	-- Expose container children as direct fields so CustomizationFrameBaseMixin methods can access them.

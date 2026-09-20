@@ -1,4 +1,4 @@
-WaypointLocationDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class WaypointLocationDataProviderMixin : MapCanvasDataProviderMixin
+WaypointLocationDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class WaypointLocationDataProviderMixin : MapCanvasDataProviderMixin
 
 function WaypointLocationDataProviderMixin:GetPinTemplate()
 	return "WaypointLocationPinTemplate";
@@ -121,7 +121,7 @@ function WaypointLocationDataProviderMixin:OnPingWaypointLocation()
 	end
 end
 
-WaypointLocationPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class WaypointLocationPinMixin : MapCanvasPinMixin
+WaypointLocationPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class WaypointLocationPinMixin : MapCanvasPinMixin
 
 function WaypointLocationPinMixin:OnLoad()
 	self:SetScalingLimits(1, 1.0, 1.2);

@@ -1,5 +1,5 @@
 
-GamepadPageIndicatorMixin = {};--- @class GamepadPageIndicatorMixin
+GamepadPageIndicatorMixin = {}; --- @class GamepadPageIndicatorMixin
 
 function GamepadPageIndicatorMixin:SetOnClick(func, owner)
 	self:SetScript("OnClick", GenerateClosure(func, owner));

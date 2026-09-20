@@ -7,7 +7,7 @@ EditModeManagerOptionsCategory = {
 local maxLayoutsCopyErrorText = HUD_EDIT_MODE_ERROR_COPY_MAX_LAYOUTS:format(Constants.EditModeConsts.EditModeMaxLayoutsPerType, Constants.EditModeConsts.EditModeMaxLayoutsPerType);
 local characterLayoutHeaderText = GetClassColoredTextForUnit("player", HUD_EDIT_MODE_CHARACTER_LAYOUTS_HEADER:format(UnitNameUnmodified("player")));
 
-EditModeManagerFrameMixin = {};--- @class EditModeManagerFrameMixin
+EditModeManagerFrameMixin = {}; --- @class EditModeManagerFrameMixin
 
 function EditModeManagerFrame_EscapePressed()
 	if EditModeManagerFrame and EditModeManagerFrame:IsShown() then
@@ -1749,7 +1749,7 @@ function EditModeManagerFrameMixin:GetDefaultAnchor(frame)
 	return EditModePresetLayoutManager:GetPresetLayoutSystemAnchorInfo(C_EditMode.GetEditModeDefaultLayout(), frame.system, frame.systemIndex);
 end
 
-EditModeGridMixin = {}--- @class EditModeGridMixin
+EditModeGridMixin = {} --- @class EditModeGridMixin
 
 function EditModeGridMixin:OnLoad()
 	self.linePool = EditModeUtil.CreateLinePool(self, "EditModeGridLineTemplate");
@@ -1818,7 +1818,7 @@ function EditModeGridMixin:UpdateGrid()
 	end
 end
 
-EditModeGridSpacingSliderMixin = {};--- @class EditModeGridSpacingSliderMixin
+EditModeGridSpacingSliderMixin = {}; --- @class EditModeGridSpacingSliderMixin
 
 function EditModeGridSpacingSliderMixin:OnLoad()
 	CallbackRegistryMixin.OnLoad(self);
@@ -1900,7 +1900,7 @@ local checkBoxSetupData =
 	LossOfControl = { callbackName = "SetLossOfControlShown", mouseoverName = "SetLossOfControlMouseOver", },
 };
 
-EditModeAccountSettingsMixin = {};--- @class EditModeAccountSettingsMixin
+EditModeAccountSettingsMixin = {}; --- @class EditModeAccountSettingsMixin
 
 function EditModeAccountSettingsMixin:OnLoad()
 	self:PrepareSettingsCheckButtons();
@@ -2954,7 +2954,7 @@ function EditModeAccountSettingsMixin:RefreshLossOfControl()
 	end
 end
 
-EditModeManagerTutorialMixin = {};--- @class EditModeManagerTutorialMixin
+EditModeManagerTutorialMixin = {}; --- @class EditModeManagerTutorialMixin
 
 local HelpTipInfos = {
 	[1] = { text = EDIT_MODE_HELPTIPS_LAYOUTS, buttonStyle = HelpTip.ButtonStyle.Next, offsetX = 0, offsetY = 0, targetPoint = HelpTip.Point.RightEdgeCenter, relativeRegionParentKey="LayoutDropdown",

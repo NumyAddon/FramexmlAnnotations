@@ -106,7 +106,7 @@ local function ClassAltPowerBarInfoForClassID(classID)
 	return classAltPowerBarInfo;
 end
 
-PersonalResourceDisplayMixin = {};--- @class PersonalResourceDisplayMixin
+PersonalResourceDisplayMixin = {}; --- @class PersonalResourceDisplayMixin
 
 function PersonalResourceDisplayMixin:GetClassFrameInfo()
 	return CLASS_FRAME_INFO_MAP[self.classID];

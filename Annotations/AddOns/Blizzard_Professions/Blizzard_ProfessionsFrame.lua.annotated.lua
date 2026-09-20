@@ -32,7 +32,7 @@ StaticPopupDialogs["PROFESSIONS_SPECIALIZATION_CONFIRM_CLOSE"] =
 local helptipSystemName = "Professions";
 
 
-ProfessionsMixin = {};--- @class ProfessionsMixin
+ProfessionsMixin = {}; --- @class ProfessionsMixin
 
 function ProfessionsMixin:OnLoad()
 	FrameUtil.RegisterFrameForEvents(self, ProfessionsFrameEvents);

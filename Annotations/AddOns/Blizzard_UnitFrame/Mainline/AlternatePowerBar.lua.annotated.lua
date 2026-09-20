@@ -27,7 +27,7 @@ end
 
 -- Basic alternate power bar for displaying a specific UnitPower type
 -- Primarily intended to be the 3rd bar in a unit frame, beneath the unit's primary power bar
-AlternatePowerBarMixin = {};--- @class AlternatePowerBarMixin
+AlternatePowerBarMixin = {}; --- @class AlternatePowerBarMixin
 
 function AlternatePowerBarMixin:Initialize()
 	self.frequentUpdates = true;

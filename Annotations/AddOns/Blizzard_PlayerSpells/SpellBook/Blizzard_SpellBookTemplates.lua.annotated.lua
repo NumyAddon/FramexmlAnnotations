@@ -1,4 +1,4 @@
-SpellBookHeaderMixin = {};--- @class SpellBookHeaderMixin
+SpellBookHeaderMixin = {}; --- @class SpellBookHeaderMixin
 
 function SpellBookHeaderMixin:Init(elementData)
 	if elementData.text then

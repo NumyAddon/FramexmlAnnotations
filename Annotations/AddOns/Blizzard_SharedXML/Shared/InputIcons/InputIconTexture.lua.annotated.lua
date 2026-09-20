@@ -1,7 +1,7 @@
 -----------------------------
 -- InputDeviceIconSetMixin --
 -----------------------------
-local InputDeviceIconSetMixin = {};	-- Holds the textures used by the InputIconTextureMixin for a given input device.--- @class InputDeviceIconSetMixin
+local InputDeviceIconSetMixin = {};	-- Holds the textures used by the InputIconTextureMixin for a given input device. --- @class InputDeviceIconSetMixin
 
 --[[
 	Representation of _how_ this InputIcon can be used. Certain texture state

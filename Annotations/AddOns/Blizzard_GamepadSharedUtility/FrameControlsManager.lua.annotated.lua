@@ -8,7 +8,7 @@
 	Each frame is responsible for handling it's own activation and deactivation.
 ]]
 
-GamepadFrameControlsManagerMixin = {};--- @class GamepadFrameControlsManagerMixin
+GamepadFrameControlsManagerMixin = {}; --- @class GamepadFrameControlsManagerMixin
 
 -- Turns on Smart Navigation unless the frame has some custom navigation it uses.
 local function EnableNavigation(inFrame)

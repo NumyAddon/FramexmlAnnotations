@@ -1,6 +1,6 @@
 local AUTO_ATTACK_SPELL_ID = 6603;
 
-GamepadMainActionBarFrameMixin = {};--- @class GamepadMainActionBarFrameMixin
+GamepadMainActionBarFrameMixin = {}; --- @class GamepadMainActionBarFrameMixin
 
 function GamepadMainActionBarFrameMixin:GetActionBars()
 	return self.PageUnit.actionBars;

@@ -31,7 +31,7 @@ local DISPLAY_TYPE_NONE = 0;
 
 local LOSS_OF_CONTROL_STUNNED_ICON = 135860;
 
-LossOfControlMixin = {};--- @class LossOfControlMixin
+LossOfControlMixin = {}; --- @class LossOfControlMixin
 
 function LossOfControlMixin:OnLoad()
 	EditModeSystemMixin.OnSystemLoad(self);

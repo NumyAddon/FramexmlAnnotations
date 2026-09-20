@@ -3,7 +3,7 @@
 	mode over the raid groups
 ]]
 
-RaidTargetingFreeSelectionMixin = {}--- @class RaidTargetingFreeSelectionMixin
+RaidTargetingFreeSelectionMixin = {} --- @class RaidTargetingFreeSelectionMixin
 
 function RaidTargetingFreeSelectionMixin:OnLoad()
 	self:SetupFooter();

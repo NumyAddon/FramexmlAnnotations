@@ -1,4 +1,4 @@
-GamepadHudModeMixin = CreateFromMixins(CallbackRegistryMixin);--- @class GamepadHudModeMixin : CallbackRegistryMixin
+GamepadHudModeMixin = CreateFromMixins(CallbackRegistryMixin); --- @class GamepadHudModeMixin : CallbackRegistryMixin
 
 GamepadHudModeMixin:GenerateCallbackEvents({
 	"SelectionStateEntered",
@@ -324,7 +324,7 @@ function GamepadHudModeMixin:ToggleEditMode()
 	end
 end
 
-GamepadHudInfoMixin = {};--- @class GamepadHudInfoMixin
+GamepadHudInfoMixin = {}; --- @class GamepadHudInfoMixin
 
 function GamepadHudInfoMixin:Init(frame, cursorAnchor, activateFunction, deactivateFunction, availabilityFunction)
 	self.frame = frame;

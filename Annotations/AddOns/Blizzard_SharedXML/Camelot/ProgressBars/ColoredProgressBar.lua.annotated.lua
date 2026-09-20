@@ -1,4 +1,4 @@
-ColoredProgressBarMixin = {};--- @class ColoredProgressBarMixin
+ColoredProgressBarMixin = {}; --- @class ColoredProgressBarMixin
 
 ColoredProgressBarMixin.ColorType =
 {

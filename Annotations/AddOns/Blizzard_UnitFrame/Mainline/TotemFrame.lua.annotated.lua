@@ -1,5 +1,5 @@
 
-TotemFrameMixin = { };--- @class TotemFrameMixin
+TotemFrameMixin = { }; --- @class TotemFrameMixin
 
 function TotemFrameMixin:OnLoad()
 	self:RegisterEvent("PLAYER_TOTEM_UPDATE");
@@ -45,7 +45,7 @@ function TotemFrameMixin:Update()
 	PlayerFrame_AdjustAttachments();
 end
 
-TotemButtonMixin = { };--- @class TotemButtonMixin
+TotemButtonMixin = { }; --- @class TotemButtonMixin
 
 function TotemButtonMixin:OnLoad()
 	self:RegisterForClicks("RightButtonUp");

@@ -67,7 +67,7 @@ local function UpdateScrollSelection(self)
 	end
 end
 
-SmartNavigationMixin = CreateFromMixins(CallbackRegistryMixin);--- @class SmartNavigationMixin : CallbackRegistryMixin
+SmartNavigationMixin = CreateFromMixins(CallbackRegistryMixin); --- @class SmartNavigationMixin : CallbackRegistryMixin
 
 local SmartNavigationEvents =
 {

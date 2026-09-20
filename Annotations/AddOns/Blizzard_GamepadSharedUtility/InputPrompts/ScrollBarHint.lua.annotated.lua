@@ -1,4 +1,4 @@
-GamepadScrollBarHintMixin = {};--- @class GamepadScrollBarHintMixin
+GamepadScrollBarHintMixin = {}; --- @class GamepadScrollBarHintMixin
 
 function GamepadScrollBarHintMixin:OnLoad()
 	InputUtil.RegisterForInterfaceTransitions(self);

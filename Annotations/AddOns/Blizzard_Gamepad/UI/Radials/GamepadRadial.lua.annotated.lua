@@ -479,7 +479,7 @@ end
 ------------------------------------------------------------
 ---------------------- Gamepad Radial ----------------------
 ------------------------------------------------------------
-GamepadRadialMixin = {};--- @class GamepadRadialMixin
+GamepadRadialMixin = {}; --- @class GamepadRadialMixin
 
 function GamepadRadialMixin:OnLoad()
 	for _, segment in ipairs(self.SegmentList) do
@@ -1043,7 +1043,7 @@ end
 ------------------------------------------------------------
 ---------------------- Radial Segment ----------------------
 ------------------------------------------------------------
-GamepadRadialSegmentMixin = {};--- @class GamepadRadialSegmentMixin
+GamepadRadialSegmentMixin = {}; --- @class GamepadRadialSegmentMixin
 
 function GamepadRadialSegmentMixin:Activate()
 	if self.handler and self.handler.Activate then
@@ -1132,7 +1132,7 @@ end
 ------------------------------------------------------------
 --- GamepadRadialContextMenuMixin
 
-GamepadRadialContextMenuMixin = {};--- @class GamepadRadialContextMenuMixin
+GamepadRadialContextMenuMixin = {}; --- @class GamepadRadialContextMenuMixin
 
 function GamepadRadialContextMenuMixin:Init(radial)
 	self.isDown = {};

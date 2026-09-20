@@ -8,7 +8,7 @@ LFGPARENT_BROWSING_TAB_INDEX = 2;
 -------------------------------------------------------
 ----------LFG Parent
 -------------------------------------------------------
-LFGParentFrameMixin = {};--- @class LFGParentFrameMixin
+LFGParentFrameMixin = {}; --- @class LFGParentFrameMixin
 
 --[[
 	Boolean flag that identifies this frame as having updated jump hints, no longer
@@ -97,7 +97,7 @@ function LFGParentFrameMixin:UpdateEyePortrait()
 end
 
 
-LFGParentFrameRightTabMixin = CreateFromMixins(SidePanelTabButtonMixin);--- @class LFGParentFrameRightTabMixin : SidePanelTabButtonMixin
+LFGParentFrameRightTabMixin = CreateFromMixins(SidePanelTabButtonMixin); --- @class LFGParentFrameRightTabMixin : SidePanelTabButtonMixin
 function LFGParentFrameRightTabMixin:OnLoad()
 	SidePanelTabButtonMixin.OnLoad(self);
 

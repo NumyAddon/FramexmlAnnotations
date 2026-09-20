@@ -1,10 +1,10 @@
-AnimaDiversion_WorldQuestDataProviderMixin = CreateFromMixins(WorldQuestDataProviderMixin);--- @class AnimaDiversion_WorldQuestDataProviderMixin : WorldQuestDataProviderMixin
+AnimaDiversion_WorldQuestDataProviderMixin = CreateFromMixins(WorldQuestDataProviderMixin); --- @class AnimaDiversion_WorldQuestDataProviderMixin : WorldQuestDataProviderMixin
 
 function AnimaDiversion_WorldQuestDataProviderMixin:GetPinTemplate()
 	return "AnimaDiversion_WorldQuestPinTemplate";
 end
 
-AnimaDiversion_WorldQuestPinMixin = CreateFromMixins(WorldQuestPinMixin);--- @class AnimaDiversion_WorldQuestPinMixin : WorldQuestPinMixin
+AnimaDiversion_WorldQuestPinMixin = CreateFromMixins(WorldQuestPinMixin); --- @class AnimaDiversion_WorldQuestPinMixin : WorldQuestPinMixin
 
 function AnimaDiversion_WorldQuestPinMixin:OnLoad()
 	WorldQuestPinMixin.OnLoad(self);

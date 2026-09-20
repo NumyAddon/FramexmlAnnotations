@@ -1572,7 +1572,7 @@ function PaperDollFrame_UpdateCorruptedItemGlows(glow)
 	end
 end
 
-PaperDollFrameMixin = {};--- @class PaperDollFrameMixin
+PaperDollFrameMixin = {}; --- @class PaperDollFrameMixin
 
 function PaperDollFrameMixin:RepairSingleItemContextAction()
 	local button = SmartNavigation:GetCurrentButton();
@@ -2548,7 +2548,7 @@ function GearSetEditButton_OnMouseDown(self, button)
 	end);
 end
 
-GearSetButtonMixin = {};--- @class GearSetButtonMixin
+GearSetButtonMixin = {}; --- @class GearSetButtonMixin
 
 function GearSetButtonMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -2667,7 +2667,7 @@ function GearSetButton_OpenPopup(self, openedFromContextActionMenu)
 	GearManagerPopupFrame:Show();
 end
 
-GearManagerPopupFrameMixin = {};--- @class GearManagerPopupFrameMixin
+GearManagerPopupFrameMixin = {}; --- @class GearManagerPopupFrameMixin
 
 function GearManagerPopupFrameMixin:OnShow()
 	IconSelectorPopupFrameTemplateMixin.OnShow(self);
@@ -2760,7 +2760,7 @@ function GearManagerPopupFrameMixin:OkayButton_OnClick()
 	end
 end
 
-PaperDollEquipmentManagerPaneMixin = {};--- @class PaperDollEquipmentManagerPaneMixin
+PaperDollEquipmentManagerPaneMixin = {}; --- @class PaperDollEquipmentManagerPaneMixin
 
 function PaperDollEquipmentManagerPaneMixin:RegisterForInterfaceTransitions()
 	InputUtil.RegisterForInterfaceTransitions(self);
@@ -3488,19 +3488,19 @@ function PaperDollFrame_HideInventoryFixupComplete(self)
 	MicroButtonPulseStop(CharacterMicroButton);
 end
 
-PaperDollItemSlotButtonBaseMixin = {};--- @class PaperDollItemSlotButtonBaseMixin
+PaperDollItemSlotButtonBaseMixin = {}; --- @class PaperDollItemSlotButtonBaseMixin
 
 function PaperDollItemSlotButtonBaseMixin:SetTooltipAnchor(tooltip)
 	tooltip:SetOwner(self, "ANCHOR_RIGHT");
 end
 
-PaperDollItemSlotButtonMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin);--- @class PaperDollItemSlotButtonMixin : PaperDollItemSlotButtonBaseMixin
+PaperDollItemSlotButtonMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin); --- @class PaperDollItemSlotButtonMixin : PaperDollItemSlotButtonBaseMixin
 
 function PaperDollItemSlotButtonMixin:GetItemContextMatchResult()
 	return ItemButtonUtil.GetItemContextMatchResultForItem(ItemLocation:CreateFromEquipmentSlot(self:GetID()));
 end
 
-PaperDollItemSocketDisplayMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin);--- @class PaperDollItemSocketDisplayMixin : PaperDollItemSlotButtonBaseMixin
+PaperDollItemSocketDisplayMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin); --- @class PaperDollItemSocketDisplayMixin : PaperDollItemSlotButtonBaseMixin
 
 function PaperDollItemSocketDisplayMixin:SetItem(item)
 	-- Currently only showing socket display for timerunning characters
@@ -3540,7 +3540,7 @@ function PaperDollItemSocketDisplayMixin:SetItem(item)
 	self:Layout();
 end
 
-PaperDollSidebarTabMixin = {};--- @class PaperDollSidebarTabMixin
+PaperDollSidebarTabMixin = {}; --- @class PaperDollSidebarTabMixin
 
 function PaperDollSidebarTabMixin:OnLoad()
 	if PAPERDOLL_SIDEBARS[self:GetID()].atlas then
@@ -3606,7 +3606,7 @@ function PaperDollAmmoSlotButton_OnShow(self)
 	self.IconBorder:Hide();
 end
 
-PaperDollTertiaryButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class PaperDollTertiaryButtonMixin : ButtonStateBehaviorMixin
+PaperDollTertiaryButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class PaperDollTertiaryButtonMixin : ButtonStateBehaviorMixin
 
 function PaperDollTertiaryButtonMixin:OnButtonStateChanged()
 	local atlas;
@@ -3623,7 +3623,7 @@ function PaperDollTertiaryButtonMixin:OnButtonStateChanged()
 	self.StateTexture:SetAtlas(atlas, TextureKitConstants.UseAtlasSize);
 end
 
-PetExpColoredProgressBarMixin = CreateFromMixins(ColoredProgressBarMixin);--- @class PetExpColoredProgressBarMixin : ColoredProgressBarMixin
+PetExpColoredProgressBarMixin = CreateFromMixins(ColoredProgressBarMixin); --- @class PetExpColoredProgressBarMixin : ColoredProgressBarMixin
 
 function PetExpColoredProgressBarMixin:OnLoad()
 	ColoredProgressBarMixin.OnLoad(self);

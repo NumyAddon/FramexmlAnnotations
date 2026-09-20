@@ -1,4 +1,4 @@
-StaticPopupElementMixin = {};--- @class StaticPopupElementMixin
+StaticPopupElementMixin = {}; --- @class StaticPopupElementMixin
 
 function StaticPopupElementMixin:SetOwningDialog(dialog)
 	self.owningDialog = dialog;
@@ -18,7 +18,7 @@ function StaticPopupElementMixin:GetOwningDialogData()
 	return dialog and dialog.data;
 end
 
-StaticPopupEditBoxMixin = CreateFromMixins(StaticPopupElementMixin);--- @class StaticPopupEditBoxMixin : StaticPopupElementMixin
+StaticPopupEditBoxMixin = CreateFromMixins(StaticPopupElementMixin); --- @class StaticPopupEditBoxMixin : StaticPopupElementMixin
 
 local StaticPopupEditBoxAttributes = {
 	ClearEditBox = "clear-editbox",

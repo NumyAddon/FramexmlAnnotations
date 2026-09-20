@@ -10,7 +10,7 @@ local function FormatStringForSize(string, isSmall)
     return isSmall and RADIAL_FORMAT_SMALL:format(string) or string;
 end
 
-RadialWheelFrameMixin = {--- @class RadialWheelFrameMixin
+RadialWheelFrameMixin = { --- @class RadialWheelFrameMixin
     MinimumWedgeDistanceSquared = 500;
     MinimumWedgeDistanceSquaredSmall = 150;
 };
@@ -292,7 +292,7 @@ function RadialWheelFrameMixin:UpdateFrameTexture()
     self.Frame:SetAtlas(frameAtlasName, true);
 end
 
-RadialWheelButtonMixin = {};--- @class RadialWheelButtonMixin
+RadialWheelButtonMixin = {}; --- @class RadialWheelButtonMixin
 
 local buttonAnimValues = {
     Intro = {
@@ -483,7 +483,7 @@ function RadialWheelButtonMixin:UpdateTextShownState()
     self.Text:SetShown(not self.isSmall and self:GetEnabled());
 end
 
-RadialWheelButtonCooldownDoneAnimMixin = {};--- @class RadialWheelButtonCooldownDoneAnimMixin
+RadialWheelButtonCooldownDoneAnimMixin = {}; --- @class RadialWheelButtonCooldownDoneAnimMixin
 
 function RadialWheelButtonCooldownDoneAnimMixin:OnPlay()
     self:GetParent().IconGlow:Show();
@@ -493,7 +493,7 @@ function RadialWheelButtonCooldownDoneAnimMixin:OnFinished()
     self:GetParent().IconGlow:Hide();
 end
 
-RadialWheelCooldownMixin = {};--- @class RadialWheelCooldownMixin
+RadialWheelCooldownMixin = {}; --- @class RadialWheelCooldownMixin
 
 function RadialWheelCooldownMixin:OnLoad()
     self.SetCooldownBase = self.SetCooldown;
@@ -537,7 +537,7 @@ function RadialWheelCooldownMixin:OnOutroAnimFinished()
     radialWheel:OnCooldownDone();
 end
 
-RadialWheelCooldownOutroAnimMixin = {};--- @class RadialWheelCooldownOutroAnimMixin
+RadialWheelCooldownOutroAnimMixin = {}; --- @class RadialWheelCooldownOutroAnimMixin
 
 function RadialWheelCooldownOutroAnimMixin:OnFinished()
     local cooldown = self:GetParent();

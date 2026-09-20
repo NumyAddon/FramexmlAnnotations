@@ -1,6 +1,6 @@
 ----------------- Base Customization child frame -----------------
 
-CustomizationContentFrameMixin = {};--- @class CustomizationContentFrameMixin
+CustomizationContentFrameMixin = {}; --- @class CustomizationContentFrameMixin
 
 function CustomizationContentFrameMixin:SetCustomizationFrame(customizationFrame)
 	self.customizationFrame = customizationFrame;
@@ -12,7 +12,7 @@ end
 
 ----------------- Base Button -----------------
 
-CustomizationBaseButtonMixin = CreateFromMixins(CustomizationContentFrameMixin);--- @class CustomizationBaseButtonMixin : CustomizationContentFrameMixin
+CustomizationBaseButtonMixin = CreateFromMixins(CustomizationContentFrameMixin); --- @class CustomizationBaseButtonMixin : CustomizationContentFrameMixin
 
 function CustomizationBaseButtonMixin:OnBaseButtonClick()
 	-- This propagated click isn't intended for the parent frame to handle button-specific logic
@@ -22,7 +22,7 @@ end
 
 ----------------- Base Frame With Tooltip -----------------
 
-CustomizationFrameWithTooltipMixin = CreateFromMixins(RingedFrameWithTooltipMixin);--- @class CustomizationFrameWithTooltipMixin : RingedFrameWithTooltipMixin
+CustomizationFrameWithTooltipMixin = CreateFromMixins(RingedFrameWithTooltipMixin); --- @class CustomizationFrameWithTooltipMixin : RingedFrameWithTooltipMixin
 
 function CustomizationFrameWithTooltipMixin:GetAppropriateTooltip()
 	return CustomizationNoHeaderTooltip;
@@ -30,14 +30,14 @@ end
 
 ----------------- Base Masked Frame With Tooltip -----------------
 
-CustomizationMaskedButtonMixin = CreateFromMixins(RingedMaskedButtonMixin)--- @class CustomizationMaskedButtonMixin : RingedMaskedButtonMixin
+CustomizationMaskedButtonMixin = CreateFromMixins(RingedMaskedButtonMixin) --- @class CustomizationMaskedButtonMixin : RingedMaskedButtonMixin
 function CustomizationMaskedButtonMixin:GetAppropriateTooltip()
 	return CustomizationNoHeaderTooltip;
 end
 
 ----------------- Base Frame With Expandable Tooltip -----------------
 
-CustomizationFrameWithExpandableTooltipMixin = {};--- @class CustomizationFrameWithExpandableTooltipMixin
+CustomizationFrameWithExpandableTooltipMixin = {}; --- @class CustomizationFrameWithExpandableTooltipMixin
 
 function CustomizationFrameWithExpandableTooltipMixin:ClearTooltipLines()
 	self.tooltipLines = nil;
@@ -99,7 +99,7 @@ end
 
 ----------------- Small Button -----------------
 
-CustomizationSmallButtonMixin = CreateFromMixins(CustomizationFrameWithTooltipMixin, CustomizationContentFrameMixin);--- @class CustomizationSmallButtonMixin : CustomizationFrameWithTooltipMixin, CustomizationContentFrameMixin
+CustomizationSmallButtonMixin = CreateFromMixins(CustomizationFrameWithTooltipMixin, CustomizationContentFrameMixin); --- @class CustomizationSmallButtonMixin : CustomizationFrameWithTooltipMixin, CustomizationContentFrameMixin
 
 function CustomizationSmallButtonMixin:OnLoad()
 	CustomizationFrameWithTooltipMixin.OnLoad(self);
@@ -125,7 +125,7 @@ end
 
 -- Expects to inherit CustomizationSmallButtonMixin
 
-CustomizationClickOrHoldButtonMixin = {};--- @class CustomizationClickOrHoldButtonMixin
+CustomizationClickOrHoldButtonMixin = {}; --- @class CustomizationClickOrHoldButtonMixin
 
 function CustomizationClickOrHoldButtonMixin:OnHide()
 	self.waitTimerSeconds = nil;
@@ -175,7 +175,7 @@ function CustomizationClickOrHoldButtonMixin:OnMouseUp()
 	self:SetScript("OnUpdate", nil);
 end
 
-CustomizationNoHeaderTooltipMixin = {};--- @class CustomizationNoHeaderTooltipMixin
+CustomizationNoHeaderTooltipMixin = {}; --- @class CustomizationNoHeaderTooltipMixin
 
 function CustomizationNoHeaderTooltipMixin:OnLoad()
 	SharedTooltip_OnLoad(self);

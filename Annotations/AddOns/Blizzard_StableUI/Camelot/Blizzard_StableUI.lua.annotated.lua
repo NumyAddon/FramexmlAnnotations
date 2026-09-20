@@ -1,7 +1,7 @@
 
 local CURRENT_PET_SLOT = 1;
 
-StableFrameMixin = {};--- @class StableFrameMixin
+StableFrameMixin = {}; --- @class StableFrameMixin
 
 function StableFrameMixin:OnLoad()
 	self:RegisterEvent("PET_STABLE_SHOW");
@@ -169,7 +169,7 @@ function StableFrameMixin:OnPetSwapRequested(originSlot, destinationSlot)
 	self.lastSwappedDestinationSlot = destinationSlot;
 end
 
-PetStableSlotMixin = {};--- @class PetStableSlotMixin
+PetStableSlotMixin = {}; --- @class PetStableSlotMixin
 
 function PetStableSlotMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -236,7 +236,7 @@ function PetStableSlotMixin:Update()
 
 end
 
-PetStablePurchaseButtonMixin = {};--- @class PetStablePurchaseButtonMixin
+PetStablePurchaseButtonMixin = {}; --- @class PetStablePurchaseButtonMixin
 
 function PetStablePurchaseButtonMixin:Update()
 
@@ -270,7 +270,7 @@ function PetStablePurchaseButtonMixin:OnClick()
 	StaticPopup_Show("CONFIRM_BUY_STABLE_SLOT");
 end
 
-PetStableLoyaltyLevelMixin = {};--- @class PetStableLoyaltyLevelMixin
+PetStableLoyaltyLevelMixin = {}; --- @class PetStableLoyaltyLevelMixin
 
 function PetStableLoyaltyLevelMixin:OnEnter()
 	if self.tooltip then

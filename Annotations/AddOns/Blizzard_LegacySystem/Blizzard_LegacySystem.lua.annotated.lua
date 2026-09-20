@@ -1,6 +1,6 @@
 local CHALLENGES_PAGE_IDX = 2;
 
-LegacySystemFrameMixin = {};--- @class LegacySystemFrameMixin
+LegacySystemFrameMixin = {}; --- @class LegacySystemFrameMixin
 
 function LegacySystemFrameMixin:OnLoad()
 	self:SetPortraitAtlasRaw("Legacy-up-c60");
@@ -572,7 +572,7 @@ function LegacySystemFrameMixin:UpdateSmartNavFocus(pageId)
 	self.smartNavFocusHandlers[pageId](self, self.Pages[pageId]);
 end
 
-LegacySystemFrameTabMixin = CreateFromMixins(SidePanelTabButtonMixin);--- @class LegacySystemFrameTabMixin : SidePanelTabButtonMixin
+LegacySystemFrameTabMixin = CreateFromMixins(SidePanelTabButtonMixin); --- @class LegacySystemFrameTabMixin : SidePanelTabButtonMixin
 
 function LegacySystemFrameTabMixin:OnLoad()
 	SidePanelTabButtonMixin.OnLoad(self);

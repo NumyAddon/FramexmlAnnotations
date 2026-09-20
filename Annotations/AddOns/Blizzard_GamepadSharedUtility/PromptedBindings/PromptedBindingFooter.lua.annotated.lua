@@ -1,4 +1,4 @@
-PromptedBindingFooterMixin = {};--- @class PromptedBindingFooterMixin
+PromptedBindingFooterMixin = {}; --- @class PromptedBindingFooterMixin
 
 PromptedBindingFooterMixin.ALIGNMENT_TYPE =
 {

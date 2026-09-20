@@ -20,7 +20,7 @@
 -- 		"Narration.SystemStatus" (isEnabled)
 --			isEnabled: Whether the narration system is now active.
 
-NarrationManagerMixin = {};--- @class NarrationManagerMixin
+NarrationManagerMixin = {}; --- @class NarrationManagerMixin
 
 local function SpeakScreenNarration(text)
 	local voiceID = CVarCallbackRegistry:GetCVarNumberOrDefault("accessibilityScreenNarrationVoice");

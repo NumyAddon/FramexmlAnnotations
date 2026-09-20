@@ -22,7 +22,7 @@ function StableUtils.ClearPetCursor()
 end
 
 
-StablePetModelSceneMixin = CreateFromMixins(PanningModelSceneMixin);--- @class StablePetModelSceneMixin : PanningModelSceneMixin
+StablePetModelSceneMixin = CreateFromMixins(PanningModelSceneMixin); --- @class StablePetModelSceneMixin : PanningModelSceneMixin
 
 function StablePetModelSceneMixin:OnLoad()
 	ModelSceneMixin.OnLoad(self);

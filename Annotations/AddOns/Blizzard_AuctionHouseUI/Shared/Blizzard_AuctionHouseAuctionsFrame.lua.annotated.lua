@@ -2,7 +2,7 @@
 local BIDS_TAB_ID = 2;
 local ALL_INDEX = 1;
 
-AuctionHouseAuctionsFrameTabMixin = {};--- @class AuctionHouseAuctionsFrameTabMixin
+AuctionHouseAuctionsFrameTabMixin = {}; --- @class AuctionHouseAuctionsFrameTabMixin
 
 function AuctionHouseAuctionsFrameTabMixin:OnClick()
 	AuctionHouseFrameTopTabMixin.OnClick(self);
@@ -10,7 +10,7 @@ function AuctionHouseAuctionsFrameTabMixin:OnClick()
 	self:GetParent():SetTab(self:GetID());
 end
 
-AuctionHouseAuctionsSummaryListMixin = {};--- @class AuctionHouseAuctionsSummaryListMixin
+AuctionHouseAuctionsSummaryListMixin = {}; --- @class AuctionHouseAuctionsSummaryListMixin
 
 function AuctionHouseAuctionsSummaryListMixin:OnLoad()
 	AuctionHouseBackgroundMixin.OnLoad(self);
@@ -53,7 +53,7 @@ function AuctionHouseAuctionsSummaryListMixin:SetSelectedIndex(index)
 	AuctionHouseFrame.AuctionsFrame:OnSummaryLineSelected(index);
 end
 
-AuctionHouseAuctionsSummaryLineMixin = {};--- @class AuctionHouseAuctionsSummaryLineMixin
+AuctionHouseAuctionsSummaryLineMixin = {}; --- @class AuctionHouseAuctionsSummaryLineMixin
 
 function AuctionHouseAuctionsSummaryLineMixin:Init(listIndex)
 	self:SetIconShown(false);
@@ -116,7 +116,7 @@ function AuctionHouseAuctionsSummaryLineMixin:SetIconShown(shown)
 	self.IconBorder:SetShown(shown);
 end
 
-CancelAuctionButtonMixin = {};--- @class CancelAuctionButtonMixin
+CancelAuctionButtonMixin = {}; --- @class CancelAuctionButtonMixin
 
 function CancelAuctionButtonMixin:OnClick()
 	local auctionsFrame = self:GetParent();
@@ -125,7 +125,7 @@ function CancelAuctionButtonMixin:OnClick()
 end
 
 
-AuctionHouseAuctionsFrameMixin = CreateFromMixins(AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin);--- @class AuctionHouseAuctionsFrameMixin : AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin
+AuctionHouseAuctionsFrameMixin = CreateFromMixins(AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin); --- @class AuctionHouseAuctionsFrameMixin : AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin
 
 local AUCTIONS_FRAME_EVENTS = {
 	"OWNED_AUCTIONS_UPDATED",

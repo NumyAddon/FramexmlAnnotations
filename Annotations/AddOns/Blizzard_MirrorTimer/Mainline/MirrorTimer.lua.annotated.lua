@@ -7,7 +7,7 @@ MirrorTimerAtlas = {
 	FEIGNDEATH = "ui-castingbar-filling-channel",
 };
 
-MirrorTimerContainerMixin = {};--- @class MirrorTimerContainerMixin
+MirrorTimerContainerMixin = {}; --- @class MirrorTimerContainerMixin
 
 EventRegistry:RegisterForOnUpdate(MirrorTimerContainerMixin, function(_, _elapsed)
 	MirrorTimerContainer:ForceUpdateTimers();
@@ -125,7 +125,7 @@ function MirrorTimerContainerMixin:HasAnyTimersShowing()
 	return false;
 end
 
-MirrorTimerMixin = {};--- @class MirrorTimerMixin
+MirrorTimerMixin = {}; --- @class MirrorTimerMixin
 
 function MirrorTimerMixin:OnUpdate(elapsed)
 	if not self.timer then

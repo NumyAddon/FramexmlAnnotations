@@ -1,7 +1,7 @@
 
 G_GameMenuFrameContextKey = "GameMenuFrame";
 
-GameMenuFrameMixin = {};--- @class GameMenuFrameMixin
+GameMenuFrameMixin = {}; --- @class GameMenuFrameMixin
 
 StaticPopupDialogs["GAMEMENU_EXTERNALEVENT_FAILURE"] = {
 	text = GAMEMENU_EXTERNALEVENT_FAILURE,

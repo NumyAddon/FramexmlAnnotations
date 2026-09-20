@@ -1,4 +1,4 @@
-CovenantCallingQuestMixin = {};--- @class CovenantCallingQuestMixin
+CovenantCallingQuestMixin = {}; --- @class CovenantCallingQuestMixin
 
 function CovenantCallingQuestMixin:Set(calling, covenantData)
 	self.calling = calling;
@@ -157,7 +157,7 @@ function CovenantCallingQuestMixin:OnMouseUp(button, upInside)
 	end
 end
 
-CovenantCallingsMixin = {};--- @class CovenantCallingsMixin
+CovenantCallingsMixin = {}; --- @class CovenantCallingsMixin
 
 function CovenantCallingsMixin:OnLoad()
 	self.pool = CreateFramePool("Frame", self, "CovenantCallingQuestTemplate");

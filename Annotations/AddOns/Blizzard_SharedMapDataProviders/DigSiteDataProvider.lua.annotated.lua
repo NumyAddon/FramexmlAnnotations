@@ -1,4 +1,4 @@
-DigSiteDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin);--- @class DigSiteDataProviderMixin : CVarMapCanvasDataProviderMixin
+DigSiteDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin); --- @class DigSiteDataProviderMixin : CVarMapCanvasDataProviderMixin
 DigSiteDataProviderMixin:Init("digSites");
 
 function DigSiteDataProviderMixin:RemoveAllData()

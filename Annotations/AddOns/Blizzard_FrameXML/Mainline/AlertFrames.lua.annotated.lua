@@ -3,7 +3,7 @@ ALERT_FRAME_COALESCE_SUCCESS = 2; -- Return to signal coalescing was a success a
 DEFAULT_FULLSCREEN_STRATA = "FULLSCREEN_DIALOG";
 -- [[ ContainedAlertSystem ]] --
 
-ContainedAlertSubSystemMixin = {};--- @class ContainedAlertSubSystemMixin
+ContainedAlertSubSystemMixin = {}; --- @class ContainedAlertSubSystemMixin
 
 function ContainedAlertSubSystemMixin:OnLoad(containedAlertFrame)
 	self:ContainFrame(containedAlertFrame);
@@ -25,7 +25,7 @@ end
 -- Used to insert a frame into the anchoring hierarchy, but that frame is positioned by something else.
 -- This only serves to all the rest of the systems to pass through this frame
 -- or use it in the anchoring chain.
-AlertFrameExternallyAnchoredMixin = CreateFromMixins(ContainedAlertSubSystemMixin);--- @class AlertFrameExternallyAnchoredMixin : ContainedAlertSubSystemMixin
+AlertFrameExternallyAnchoredMixin = CreateFromMixins(ContainedAlertSubSystemMixin); --- @class AlertFrameExternallyAnchoredMixin : ContainedAlertSubSystemMixin
 
 function AlertFrameExternallyAnchoredMixin:OnLoad(anchorFrame)
 	ContainedAlertSubSystemMixin.OnLoad(self, anchorFrame);
@@ -47,7 +47,7 @@ end
 -- Used to insert a frame into the anchoring hierarchy, and this frame knows how to
 -- automatically position itself relative to the other contained alerts based on
 -- justification from the container it belongs to.
-AlertFrameAutoAnchoredMixin = CreateFromMixins(ContainedAlertSubSystemMixin);--- @class AlertFrameAutoAnchoredMixin : ContainedAlertSubSystemMixin
+AlertFrameAutoAnchoredMixin = CreateFromMixins(ContainedAlertSubSystemMixin); --- @class AlertFrameAutoAnchoredMixin : ContainedAlertSubSystemMixin
 
 function AlertFrameAutoAnchoredMixin:OnLoad(anchorFrame)
 	ContainedAlertSubSystemMixin.OnLoad(self, anchorFrame);
@@ -79,7 +79,7 @@ end
 
 -- [[ AlertFrameQueueMixin ]] --
 -- A more complex alert frame system that can show multiple alerts and optionally queue additional alerts if the visible slots are full
-AlertFrameQueueMixin = CreateFromMixins(ContainedAlertSubSystemMixin);--- @class AlertFrameQueueMixin : ContainedAlertSubSystemMixin
+AlertFrameQueueMixin = CreateFromMixins(ContainedAlertSubSystemMixin); --- @class AlertFrameQueueMixin : ContainedAlertSubSystemMixin
 
 function OnPooledAlertFrameQueueReset(framePool, frame)
 	Pool_HideAndClearAnchors(framePool, frame);
@@ -261,7 +261,7 @@ end
 
 -- [[ AlertContainerMixin ]] --
 
-AlertContainerMixin = {};--- @class AlertContainerMixin
+AlertContainerMixin = {}; --- @class AlertContainerMixin
 
 function AlertContainerMixin:OnLoad()
 	self.alertFrameSubSystems = {};
@@ -468,7 +468,7 @@ function AlertContainerMixin:AddAlertFrame(frame)
 end
 
 -- [[ AlertFrameMixin ]] --
-AlertFrameMixin = {};--- @class AlertFrameMixin
+AlertFrameMixin = {}; --- @class AlertFrameMixin
 
 function AlertFrameMixin:OnLoad()
 	AlertContainerMixin.OnLoad(self);

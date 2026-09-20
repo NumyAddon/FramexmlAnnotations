@@ -1,5 +1,5 @@
 
-MovieFrameMixin = {}--- @class MovieFrameMixin
+MovieFrameMixin = {} --- @class MovieFrameMixin
 
 function MovieFrameMixin:OnLoad()
 	self:RegisterEvent("PLAY_MOVIE");

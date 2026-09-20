@@ -1,7 +1,7 @@
 -------------------------------------------------------
 ----------LFGVanillaTabButtonMixin
 -------------------------------------------------------
-LFGVanillaTabButtonMixin = {};--- @class LFGVanillaTabButtonMixin
+LFGVanillaTabButtonMixin = {}; --- @class LFGVanillaTabButtonMixin
 function LFGVanillaTabButtonMixin:OnLoad()
 	self.selectedTextY = 4;
 	LowerFrameLevel(self);
@@ -28,7 +28,7 @@ end
 
 
 -- List Variant
-LFGVanillaListTabButtonMixin = CreateFromMixins(LFGVanillaTabButtonMixin);--- @class LFGVanillaListTabButtonMixin : LFGVanillaTabButtonMixin
+LFGVanillaListTabButtonMixin = CreateFromMixins(LFGVanillaTabButtonMixin); --- @class LFGVanillaListTabButtonMixin : LFGVanillaTabButtonMixin
 function LFGVanillaListTabButtonMixin:OnEnterTemp()
 	if (C_LFGList.HasActiveEntryInfo()) then
 		GameTooltip_AddNewbieTip(self, MicroButtonTooltipText(LFG_LIST_EDIT, "TOGGLELFGTAB"), 1.0, 1.0, 1.0, NEWBIE_TOOLTIP_LFG_LIST_EDIT, 1);
@@ -39,14 +39,14 @@ end
 
 
 -- Browser Variant
-LFGVanillaBrowserTabButtonMixin = CreateFromMixins(LFGVanillaTabButtonMixin);--- @class LFGVanillaBrowserTabButtonMixin : LFGVanillaTabButtonMixin
+LFGVanillaBrowserTabButtonMixin = CreateFromMixins(LFGVanillaTabButtonMixin); --- @class LFGVanillaBrowserTabButtonMixin : LFGVanillaTabButtonMixin
 function LFGVanillaBrowserTabButtonMixin:OnEnterTemp()
 	GameTooltip_AddNewbieTip(self, MicroButtonTooltipText(LFG_LIST_TAB_2, "TOGGLELFMTAB"), 1.0, 1.0, 1.0, NEWBIE_TOOLTIP_LFG_LIST_TAB_2, 1);
 end
 
 
 -- Who List Variant
-LFGVanillaWhoListTabButtonMixin = CreateFromMixins(LFGVanillaTabButtonMixin);--- @class LFGVanillaWhoListTabButtonMixin : LFGVanillaTabButtonMixin
+LFGVanillaWhoListTabButtonMixin = CreateFromMixins(LFGVanillaTabButtonMixin); --- @class LFGVanillaWhoListTabButtonMixin : LFGVanillaTabButtonMixin
 function LFGVanillaWhoListTabButtonMixin:OnEnterTemp()
 	GameTooltip_AddNewbieTip(self, MicroButtonTooltipText(LFG_LIST_TAB_3, "TOGGLELFMTAB"), 1.0, 1.0, 1.0, NEWBIE_TOOLTIP_LFG_LIST_TAB_2, 1);
 end

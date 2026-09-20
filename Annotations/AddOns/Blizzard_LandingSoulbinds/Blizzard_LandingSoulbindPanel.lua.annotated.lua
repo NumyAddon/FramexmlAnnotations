@@ -1,4 +1,4 @@
-LandingPageSoulbindPanelMixin = {};--- @class LandingPageSoulbindPanelMixin
+LandingPageSoulbindPanelMixin = {}; --- @class LandingPageSoulbindPanelMixin
 
 function LandingPageSoulbindPanelMixin:Update()
 	local showRenown = self:UpdateRenown();

@@ -51,7 +51,7 @@ local INSPECT_MODE_TAB_ICONS = {
 	["GuildFrame"] = "Interface/ICONS/INV_Shirt_GuildTabard_01",
 };
 
-InspectFrameMixin = {};--- @class InspectFrameMixin
+InspectFrameMixin = {}; --- @class InspectFrameMixin
 
 function InspectFrame_Show(unit)
 	HideUIPanel(InspectFrame);
@@ -289,7 +289,7 @@ function InspectFrameMixin:SetupModeTabs()
 	self:SetSelectedModeTabByFrame("PaperDollFrame");
 end
 
-InspectTabButtonMixin = CreateFromMixins(SidePanelTabButtonMixin);--- @class InspectTabButtonMixin : SidePanelTabButtonMixin
+InspectTabButtonMixin = CreateFromMixins(SidePanelTabButtonMixin); --- @class InspectTabButtonMixin : SidePanelTabButtonMixin
 
 function InspectTabButtonMixin:OnLoad()
 	SidePanelTabButtonMixin.OnLoad(self);

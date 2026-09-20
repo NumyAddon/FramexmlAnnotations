@@ -1,4 +1,4 @@
-GamepadItemPickupCursorMixin = {};--- @class GamepadItemPickupCursorMixin
+GamepadItemPickupCursorMixin = {}; --- @class GamepadItemPickupCursorMixin
 
 function GamepadItemPickupCursorMixin:OnLoad()
 	self:RegisterEvent("CURSOR_CHANGED");

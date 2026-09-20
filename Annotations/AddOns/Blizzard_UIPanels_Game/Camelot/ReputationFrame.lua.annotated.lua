@@ -25,7 +25,7 @@ local function GetReputationSortTypeName(sortType)
 	return ReputationSortTypeNames[sortType];
 end
 
-ReputationFrameMixin = {};--- @class ReputationFrameMixin
+ReputationFrameMixin = {}; --- @class ReputationFrameMixin
 
 function ReputationFrameMixin:OnLoad()
 	local view = CreateScrollBoxListLinearView();
@@ -245,7 +245,7 @@ function ReputationFrameMixin:OnSubframeFocus(characterFrame)
 	GamepadScrollBarHint:Show();
 end
 
-local ReputationType = EnumUtil.MakeEnum(--- @type {["Standard"]: 1, ["Friendship"]: 2, ["MajorFaction"]: 3}
+local ReputationType = EnumUtil.MakeEnum( --- @type {["Standard"]: 1, ["Friendship"]: 2, ["MajorFaction"]: 3}
 	"Standard",
 	"Friendship",
 	"MajorFaction"
@@ -269,7 +269,7 @@ local function GetReputationTypeFromElementData(elementData)
 	return ReputationType.Standard;
 end
 
-ReputationHeaderMixin = {};--- @class ReputationHeaderMixin
+ReputationHeaderMixin = {}; --- @class ReputationHeaderMixin
 
 function ReputationHeaderMixin:Initialize(elementData)
 	self.elementData = elementData;
@@ -310,7 +310,7 @@ function ReputationHeaderMixin:OnClick()
 	self:ToggleCollapsed();
 end
 
-ReputationEntryMixin = CreateFromMixins(CallbackRegistryMixin);--- @class ReputationEntryMixin : CallbackRegistryMixin
+ReputationEntryMixin = CreateFromMixins(CallbackRegistryMixin); --- @class ReputationEntryMixin : CallbackRegistryMixin
 
 function ReputationEntryMixin:OnLoad()
 	CallbackRegistryMixin.OnLoad(self);
@@ -482,7 +482,7 @@ function ReputationEntryMixin:IsAtWar()
 	return self.elementData.atWarWith;
 end
 
-ReputationEntryAccountWideIconMixin = {};--- @class ReputationEntryAccountWideIconMixin
+ReputationEntryAccountWideIconMixin = {}; --- @class ReputationEntryAccountWideIconMixin
 
 function ReputationEntryAccountWideIconMixin:OnEnter()
 	if not self:IsShown() then
@@ -592,7 +592,7 @@ function ReputationEntryMixin:InitializeReputationBarForReputationType()
 	self.Content.ReputationBar.BonusIcon:SetShown(self.elementData.hasBonusRepGain);
 end
 
-ReputationSubHeaderMixin = CreateFromMixins(ReputationEntryMixin);--- @class ReputationSubHeaderMixin : ReputationEntryMixin
+ReputationSubHeaderMixin = CreateFromMixins(ReputationEntryMixin); --- @class ReputationSubHeaderMixin : ReputationEntryMixin
 
 function ReputationSubHeaderMixin:Initialize(elementData)
 	ReputationEntryMixin.Initialize(self, elementData);
@@ -620,7 +620,7 @@ function ReputationSubHeaderMixin:ToggleCollapsed()
 	end
 end
 
-ReputationSubHeaderToggleCollapseButtonMixin = {};--- @class ReputationSubHeaderToggleCollapseButtonMixin
+ReputationSubHeaderToggleCollapseButtonMixin = {}; --- @class ReputationSubHeaderToggleCollapseButtonMixin
 
 function ReputationSubHeaderToggleCollapseButtonMixin:GetHeader()
 	return self:GetParent();
@@ -636,7 +636,7 @@ function ReputationSubHeaderToggleCollapseButtonMixin:OnClick()
 	self:GetHeader():ToggleCollapsed();
 end
 
-ReputationBarMixin = {};--- @class ReputationBarMixin
+ReputationBarMixin = {}; --- @class ReputationBarMixin
 
 function ReputationBarMixin:UpdateBarValues(minValue, maxValue, currentValue)
 	local percent = 0;
@@ -675,7 +675,7 @@ function ReputationBarMixin:TryShowReputationStandingText()
 	self:SetText(self.reputationStandingText);
 end
 
-ReputationBarBonusIconMixin = {};--- @class ReputationBarBonusIconMixin
+ReputationBarBonusIconMixin = {}; --- @class ReputationBarBonusIconMixin
 
 function ReputationBarBonusIconMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
@@ -689,7 +689,7 @@ function ReputationBarBonusIconMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-ReputationBarParagonIconMixin = {};--- @class ReputationBarParagonIconMixin
+ReputationBarParagonIconMixin = {}; --- @class ReputationBarParagonIconMixin
 
 function ReputationBarParagonIconMixin:OnUpdate()
 	if not self.Glow:IsShown() then
@@ -730,7 +730,7 @@ function ReputationParagonWatchBar_OnLeave(self)
 	self.UpdateTooltip = nil;
 end
 
-ReputationDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin, CallbackRegistryMixin);--- @class ReputationDetailFrameMixin : CharacterFrameSidePaneMixin, CallbackRegistryMixin
+ReputationDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin, CallbackRegistryMixin); --- @class ReputationDetailFrameMixin : CharacterFrameSidePaneMixin, CallbackRegistryMixin
 
 function ReputationDetailFrameMixin:OnLoad()
 	CharacterFrameSidePaneMixin.OnLoad(self);
@@ -830,7 +830,7 @@ function ReputationDetailFrameMixin:ClearSelectedFaction()
 	EventRegistry:TriggerEvent("ReputationFrame.NewFactionSelected");
 end
 
-ReputationDetailViewRenownButtonMixin = {};--- @class ReputationDetailViewRenownButtonMixin
+ReputationDetailViewRenownButtonMixin = {}; --- @class ReputationDetailViewRenownButtonMixin
 
 function ReputationDetailViewRenownButtonMixin:Refresh()
 	local factionData = C_Reputation.GetFactionDataByIndex(C_Reputation.GetSelectedFaction());
@@ -861,7 +861,7 @@ function ReputationDetailViewRenownButtonMixin:OnClick()
 	EncounterJournalJourneysFrame:ResetView(nil, self.factionID);
 end
 
-ReputationDetailAtWarCheckboxMixin = {};--- @class ReputationDetailAtWarCheckboxMixin
+ReputationDetailAtWarCheckboxMixin = {}; --- @class ReputationDetailAtWarCheckboxMixin
 
 function ReputationDetailAtWarCheckboxMixin:OnClick()
 	C_Reputation.ToggleFactionAtWar(C_Reputation.GetSelectedFaction());
@@ -883,7 +883,7 @@ function ReputationDetailAtWarCheckboxMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-ReputationDetailInactiveCheckboxMixin = {};--- @class ReputationDetailInactiveCheckboxMixin
+ReputationDetailInactiveCheckboxMixin = {}; --- @class ReputationDetailInactiveCheckboxMixin
 
 function ReputationDetailInactiveCheckboxMixin:OnClick()
 	local selectedIndex = C_Reputation.GetSelectedFaction();
@@ -911,7 +911,7 @@ function ReputationDetailInactiveCheckboxMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-ReputationDetailWatchFactionCheckboxMixin = {};--- @class ReputationDetailWatchFactionCheckboxMixin
+ReputationDetailWatchFactionCheckboxMixin = {}; --- @class ReputationDetailWatchFactionCheckboxMixin
 
 function ReputationDetailWatchFactionCheckboxMixin:OnClick()
 	C_Reputation.SetWatchedFactionByIndex(self:GetChecked() and C_Reputation.GetSelectedFaction() or 0);

@@ -1,4 +1,4 @@
-ObjectiveTrackerBlockMixin = CreateFromMixins(ObjectiveTrackerSlidingMixin);--- @class ObjectiveTrackerBlockMixin : ObjectiveTrackerSlidingMixin
+ObjectiveTrackerBlockMixin = CreateFromMixins(ObjectiveTrackerSlidingMixin); --- @class ObjectiveTrackerBlockMixin : ObjectiveTrackerSlidingMixin
 
 -- Called on frame creation
 function ObjectiveTrackerBlockMixin:Init()
@@ -377,7 +377,7 @@ function ObjectiveTrackerBlockMixin:HasActiveAnim()
 	return false;
 end
 
-ObjectiveTrackerBlockHeaderMixin = { };--- @class ObjectiveTrackerBlockHeaderMixin
+ObjectiveTrackerBlockHeaderMixin = { }; --- @class ObjectiveTrackerBlockHeaderMixin
 
 function ObjectiveTrackerBlockHeaderMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonUp", "RightButtonUp");

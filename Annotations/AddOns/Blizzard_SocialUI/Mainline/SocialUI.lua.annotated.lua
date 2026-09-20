@@ -14,7 +14,7 @@ local function TabSort(tab1, tab2)
 	return strcmputf8i(tab1.tabName, tab2.tabName) < 0;
 end
 
-SocialUIFrameMixin = CreateFromMixins(CallbackRegistryMixin);--- @class SocialUIFrameMixin : CallbackRegistryMixin
+SocialUIFrameMixin = CreateFromMixins(CallbackRegistryMixin); --- @class SocialUIFrameMixin : CallbackRegistryMixin
 
 SocialUIFrameMixin:GenerateCallbackEvents(
 {

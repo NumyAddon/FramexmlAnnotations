@@ -87,7 +87,7 @@ function GetKeyRingSize()
 	return size;
 end
 
-KeyRingMixin = {};--- @class KeyRingMixin
+KeyRingMixin = {}; --- @class KeyRingMixin
 
 function KeyRingMixin:BagSlotOnShow()
 	-- Only here to prevent base object behavior

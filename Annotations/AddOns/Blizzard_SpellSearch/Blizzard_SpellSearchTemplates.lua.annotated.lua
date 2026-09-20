@@ -1,6 +1,6 @@
 -------------------------------- Preview Result -------------------------------
 
-SpellSearchPreviewResultMixin = {};--- @class SpellSearchPreviewResultMixin
+SpellSearchPreviewResultMixin = {}; --- @class SpellSearchPreviewResultMixin
 
 function SpellSearchPreviewResultMixin:Init(elementData)
 	self.resultInfo = elementData.resultInfo;
@@ -50,7 +50,7 @@ end
 
 -------------------------------- Preview Results Container -------------------------------
 
-SpellSearchPreviewContainerMixin = {};--- @class SpellSearchPreviewContainerMixin
+SpellSearchPreviewContainerMixin = {}; --- @class SpellSearchPreviewContainerMixin
 
 function SpellSearchPreviewContainerMixin:OnLoad()
 	local view = CreateScrollBoxListLinearView(1,3,0,0,1);
@@ -290,7 +290,7 @@ end
 
 -------------------------------- Search Box -------------------------------
 
-SpellSearchBoxMixin = {};--- @class SpellSearchBoxMixin
+SpellSearchBoxMixin = {}; --- @class SpellSearchBoxMixin
 
 function SpellSearchBoxMixin:OnLoad()
 	SearchBoxTemplate_OnLoad(self);

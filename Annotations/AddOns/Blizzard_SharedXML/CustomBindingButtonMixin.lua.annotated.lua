@@ -16,7 +16,7 @@ The rules from Blizzard_BindingUI are (mostly) followed, including but not limit
 Other caveats are that LMB/RMB aren't bindable, both of them will activate and cancel binding mode.
 --]]
 
-CustomBindingButtonMixin = {};--- @class CustomBindingButtonMixin
+CustomBindingButtonMixin = {}; --- @class CustomBindingButtonMixin
 
 --[[private]] function CustomBindingButtonMixin:OnLoad()
 	local preventBindingManagerUpdate = true;

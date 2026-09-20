@@ -1,7 +1,7 @@
 
 --------------------------------------------------
 -- PRODUCT CARD BUY BUTTON MIXIN
-ProductCardBuyButtonMixin = {};--- @class ProductCardBuyButtonMixin
+ProductCardBuyButtonMixin = {}; --- @class ProductCardBuyButtonMixin
 
 function ProductCardBuyButtonMixin:UpdatePricing(currencyInfo, entryInfo, currencyFormat)
 	self.NormalPrice:Hide();
@@ -84,7 +84,7 @@ end
 
 --------------------------------------------------
 -- LARGE PRODUCT CARD BUY BUTTON MIXIN
-LargeProductCardBuyButtonMixin = CreateFromMixins(ProductCardBuyButtonMixin);--- @class LargeProductCardBuyButtonMixin : ProductCardBuyButtonMixin
+LargeProductCardBuyButtonMixin = CreateFromMixins(ProductCardBuyButtonMixin); --- @class LargeProductCardBuyButtonMixin : ProductCardBuyButtonMixin
 function LargeProductCardBuyButtonMixin:SetOriginalSize()
 	self.BuyButton:SetSize(self:GetMinSize(), 35);
 end
@@ -96,7 +96,7 @@ end
 
 --------------------------------------------------
 -- STORE BUY BUTTON MIXIN
-StoreBuyButtonMixin = CreateFromMixins(StoreButtonMixin);--- @class StoreBuyButtonMixin : StoreButtonMixin
+StoreBuyButtonMixin = CreateFromMixins(StoreButtonMixin); --- @class StoreBuyButtonMixin : StoreButtonMixin
 
 function StoreBuyButtonMixin:OnMouseDown()
 	StoreButtonMixin.OnMouseDown(self);
@@ -110,7 +110,7 @@ end
 
 --------------------------------------------------
 -- STORE BUY BUTTON MIXIN
-StoreNydusLinkButtonMixin = CreateFromMixins(StoreButtonMixin);--- @class StoreNydusLinkButtonMixin : StoreButtonMixin
+StoreNydusLinkButtonMixin = CreateFromMixins(StoreButtonMixin); --- @class StoreNydusLinkButtonMixin : StoreButtonMixin
 
 function StoreNydusLinkButtonMixin:OnClick()
 	local parent = self:GetParent();

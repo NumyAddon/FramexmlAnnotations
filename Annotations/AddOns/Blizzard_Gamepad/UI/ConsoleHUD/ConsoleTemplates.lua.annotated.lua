@@ -2,7 +2,7 @@
 	Mixins for console templates
 ]]
 
-GamepadButtonIconWithTextMixin = {};--- @class GamepadButtonIconWithTextMixin
+GamepadButtonIconWithTextMixin = {}; --- @class GamepadButtonIconWithTextMixin
 
 function GamepadButtonIconWithTextMixin:SetButtonScale(scale)
 	if (self.text) then
@@ -120,7 +120,7 @@ function GamepadButtonIconWithTextMixin:OnDisable()
 	self:SetScale(self.startingScale);
 end
 
-GamepadPressAndHoldButtonMixin = {};--- @class GamepadPressAndHoldButtonMixin
+GamepadPressAndHoldButtonMixin = {}; --- @class GamepadPressAndHoldButtonMixin
 
 function GamepadPressAndHoldButtonMixin:OnLoad()
 	-- Upcall

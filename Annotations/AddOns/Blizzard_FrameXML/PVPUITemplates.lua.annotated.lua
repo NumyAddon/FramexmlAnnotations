@@ -1,4 +1,4 @@
-PVPConquestRewardMixin = { };--- @class PVPConquestRewardMixin
+PVPConquestRewardMixin = { }; --- @class PVPConquestRewardMixin
 function PVPConquestRewardMixin:Setup()
 	local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(Constants.CurrencyConsts.CONQUEST_CURRENCY_ID);
 
@@ -80,7 +80,7 @@ function PVPConquestRewardMixin:OnClick()
 	end
 end
 
-PVPHonorRewardMixin = {};--- @class PVPHonorRewardMixin
+PVPHonorRewardMixin = {}; --- @class PVPHonorRewardMixin
 function PVPHonorRewardMixin:OnEnter()
 	local honorLevel = UnitHonorLevel("player");
 	local nextHonorLevelForReward = C_PvP.GetNextHonorLevelForReward(honorLevel);
@@ -151,7 +151,7 @@ function PVPGetConquestLevelInfo()
 	return objectives[1].numFulfilled, objectives[1].numRequired, currentQuestID;
 end
 
-PVPRatedTierMixin = {};--- @class PVPRatedTierMixin
+PVPRatedTierMixin = {}; --- @class PVPRatedTierMixin
 function PVPRatedTierMixin:Setup(tierInfo, ranking)
 	if tierInfo then
 		self.Icon:SetTexture(tierInfo.tierIconID);
@@ -170,7 +170,7 @@ function PVPRatedTierMixin:Setup(tierInfo, ranking)
 	self.tierInfo = tierInfo;
 end
 
-PVPLootMixin = CreateFromMixins(LootItemExtendedMixin);--- @class PVPLootMixin : LootItemExtendedMixin
+PVPLootMixin = CreateFromMixins(LootItemExtendedMixin); --- @class PVPLootMixin : LootItemExtendedMixin
 function PVPLootMixin:Init(itemLink, quantity, specID, isCurrency, isUpgraded, isIconBorderShown, isIconBorderDropShadowShown, iconDrawLayer)
 	LootItemExtendedMixin.Init(self, itemLink, quantity, specID, isCurrency, isUpgraded, isIconBorderShown, isIconBorderDropShadowShown, iconDrawLayer);
 

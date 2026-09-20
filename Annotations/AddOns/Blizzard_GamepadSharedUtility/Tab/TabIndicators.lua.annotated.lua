@@ -1,5 +1,5 @@
 
-GamepadTabIndicatorsMixin = {};--- @class GamepadTabIndicatorsMixin
+GamepadTabIndicatorsMixin = {}; --- @class GamepadTabIndicatorsMixin
 
 function GamepadTabIndicatorsMixin:OnLoad()
 	self.tabs = {};
@@ -169,7 +169,7 @@ function GamepadTabIndicatorsMixin:LockTabs(isLocked)
 	self:UpdateTabVisibility();
 end
 
-GamepadTabIndicatorButtonMixin = {};--- @class GamepadTabIndicatorButtonMixin
+GamepadTabIndicatorButtonMixin = {}; --- @class GamepadTabIndicatorButtonMixin
 
 function GamepadTabIndicatorButtonMixin:OnClick(button, down)
 	if down then

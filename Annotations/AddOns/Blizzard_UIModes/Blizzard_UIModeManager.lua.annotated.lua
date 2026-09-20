@@ -7,7 +7,7 @@
 --
 -- When multiple modes are active, blocklists are unioned and allowlists are intersected.
 
-UIModeManagerMixin = {};--- @class UIModeManagerMixin
+UIModeManagerMixin = {}; --- @class UIModeManagerMixin
 
 function UIModeManagerMixin:Init()
 	self.registeredModes = {};

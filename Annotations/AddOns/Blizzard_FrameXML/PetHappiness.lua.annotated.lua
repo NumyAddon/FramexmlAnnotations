@@ -1,4 +1,4 @@
-PetHappinessIndicatorMixin = {};--- @class PetHappinessIndicatorMixin
+PetHappinessIndicatorMixin = {}; --- @class PetHappinessIndicatorMixin
 
 PetHappinessIndicatorMixin.HappinessText = {
 	[1] = PET_HAPPINESS1,

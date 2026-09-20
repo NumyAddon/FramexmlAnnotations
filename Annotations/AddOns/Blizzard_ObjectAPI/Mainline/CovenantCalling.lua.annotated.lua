@@ -1,4 +1,4 @@
-CovenantCallingMixin = {};--- @class CovenantCallingMixin
+CovenantCallingMixin = {}; --- @class CovenantCallingMixin
 
 function CovenantCallingMixin:Init(bounty)
 	if bounty then

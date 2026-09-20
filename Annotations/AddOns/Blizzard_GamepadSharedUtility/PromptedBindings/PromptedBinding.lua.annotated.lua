@@ -1,4 +1,4 @@
-PromptedBindingMixin = {};--- @class PromptedBindingMixin
+PromptedBindingMixin = {}; --- @class PromptedBindingMixin
 
 PromptedBindingMixin.VISIBILITY_TYPE =
 {

@@ -301,7 +301,7 @@ function TradeFrameTradeButton_SetToEnabledState()
 	end
 end
 
-TradeFrameTradeButtonMixin = {};--- @class TradeFrameTradeButtonMixin
+TradeFrameTradeButtonMixin = {}; --- @class TradeFrameTradeButtonMixin
 
 function TradeFrameTradeButtonMixin:OnLoad()
 	self.Text:SetText(TRADE); -- Note: Doing this here so that we can anchor the WarningIcon to self.Text and have it be positioned appropriately.
@@ -316,7 +316,7 @@ function TradeFrameTradeButtonMixin:OnEnter()
 	end
 end
 
-TradeItemAlertTemplateMixin = {};--- @class TradeItemAlertTemplateMixin
+TradeItemAlertTemplateMixin = {}; --- @class TradeItemAlertTemplateMixin
 
 function TradeItemAlertTemplateMixin:OnShow()
 	self.itemKey = nil; -- Used to track when this itemSlot changes in a way that should trigger an alert.

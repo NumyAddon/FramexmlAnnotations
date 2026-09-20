@@ -2,7 +2,7 @@ local function SetupTextureKit(frame, textureKit, regions)
 	SetupTextureKitOnRegions(textureKit, frame, regions, TextureKitConstants.SetVisibility, TextureKitConstants.UseAtlasSize);
 end
 
-RewardTrackFrameMixin = {--- @class RewardTrackFrameMixin
+RewardTrackFrameMixin = { --- @class RewardTrackFrameMixin
 	totalWidth = 570,
 	elementWidth = 55,
 	elementSpacing = -2,
@@ -264,7 +264,7 @@ function RewardTrackFrameMixin:RequestStop()
 	end
 end
 
-RewardTrackArtButtonMixin = { };--- @class RewardTrackArtButtonMixin
+RewardTrackArtButtonMixin = { }; --- @class RewardTrackArtButtonMixin
 
 function RewardTrackArtButtonMixin:OnLoad()
 	if self.direction == 1 then
@@ -275,7 +275,7 @@ function RewardTrackArtButtonMixin:OnLoad()
 	end
 end
 
-RewardTrackButtonMixin = { };--- @class RewardTrackButtonMixin
+RewardTrackButtonMixin = { }; --- @class RewardTrackButtonMixin
 
 function RewardTrackButtonMixin:OnMouseDown()
 	if self:IsEnabled() then
@@ -299,7 +299,7 @@ function RewardTrackButtonMixin:OnDisable()
 	track:RequestStop();
 end
 
-RewardTrackJumpButtonMixin = { };--- @class RewardTrackJumpButtonMixin
+RewardTrackJumpButtonMixin = { }; --- @class RewardTrackJumpButtonMixin
 
 function RewardTrackJumpButtonMixin:OnLoad()
 	if self.direction == 1 then
@@ -334,7 +334,7 @@ function RewardTrackJumpButtonMixin:OnClick()
 	end
 end
 
-RewardTrackSkipLevelUpButtonMixin = { };--- @class RewardTrackSkipLevelUpButtonMixin
+RewardTrackSkipLevelUpButtonMixin = { }; --- @class RewardTrackSkipLevelUpButtonMixin
 
 function RewardTrackSkipLevelUpButtonMixin:OnClick()
 	local rewardFrame = self:GetParent();
@@ -345,7 +345,7 @@ function RewardTrackSkipLevelUpButtonMixin:OnClick()
 	rewardFrame:SelectLevel(nextUnlock, fromOnShow, forceRefresh);
 end
 
-RenownLevelMixin = { };--- @class RenownLevelMixin
+RenownLevelMixin = { }; --- @class RenownLevelMixin
 
 local function ResolveIconBorderAtlas(atlas, iconShape)
 	if atlas and atlas:find("%s", 1, true) then

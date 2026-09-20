@@ -1,4 +1,4 @@
-CooldownViewerSettingsDataProviderMixin = {};--- @class CooldownViewerSettingsDataProviderMixin
+CooldownViewerSettingsDataProviderMixin = {}; --- @class CooldownViewerSettingsDataProviderMixin
 
 function CooldownViewerSettingsDataProviderMixin:Init(layoutManager)
 	self:SetLayoutManager(layoutManager);

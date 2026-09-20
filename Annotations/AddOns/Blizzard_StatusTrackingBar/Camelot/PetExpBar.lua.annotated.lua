@@ -2,7 +2,7 @@ local unrestedBarAtlas = "UI-HUD-ExperienceBar-Fill-Experience";
 local unrestedGainFlareAtlas = "UI-HUD-ExperienceBar-Flare-XP-2x-Flipbook";
 local unrestedLevelUpAtlas = "UI-HUD-ExperienceBar-Fill-Experience-2x-Flipbook";
 
-PetExpBarMixin = {};--- @class PetExpBarMixin
+PetExpBarMixin = {}; --- @class PetExpBarMixin
 
 function PetExpBarMixin:GetLevelData()
 	-- Overriden by StableUI.lua

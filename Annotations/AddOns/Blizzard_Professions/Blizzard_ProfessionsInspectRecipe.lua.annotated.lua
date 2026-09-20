@@ -1,4 +1,4 @@
-InspectRecipeMixin = {};--- @class InspectRecipeMixin
+InspectRecipeMixin = {}; --- @class InspectRecipeMixin
 
 local InspectRecipeEvents =
 {

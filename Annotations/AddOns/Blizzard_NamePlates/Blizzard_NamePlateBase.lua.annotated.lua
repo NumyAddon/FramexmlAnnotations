@@ -1,7 +1,7 @@
 -- Mixed in with the frame created in code.
 -- Positioned and sized in code.
 -- Contains a child using NamePlateUnitFrameMixin (self.UnitFrame) which displays the info about the unit to which the nameplate is attached.
-NamePlateBaseMixin = {};--- @class NamePlateBaseMixin
+NamePlateBaseMixin = {}; --- @class NamePlateBaseMixin
 
 function NamePlateBaseMixin:Init(unitFrameTemplate, driverFrame)
 	self:SetScript("OnSizeChanged", self.OnSizeChanged);

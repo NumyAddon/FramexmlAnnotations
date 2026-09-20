@@ -1,5 +1,5 @@
 
-AreaLabelDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class AreaLabelDataProviderMixin : MapCanvasDataProviderMixin
+AreaLabelDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class AreaLabelDataProviderMixin : MapCanvasDataProviderMixin
 
 function AreaLabelDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -62,7 +62,7 @@ MAP_AREA_LABEL_TYPE = {
 	POI = 4,
 };
 
-AreaLabelFrameMixin = { };--- @class AreaLabelFrameMixin
+AreaLabelFrameMixin = { }; --- @class AreaLabelFrameMixin
 
 function AreaLabelFrameMixin:OnLoad()
 	self.labelInfoByType = { };

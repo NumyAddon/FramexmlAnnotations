@@ -59,7 +59,7 @@ local function GetStatusBarInterpolationForUpdateMode(interpolation, updateMode)
 	end
 end
 
-CustomAuraButtonSharedMixin = {};--- @class CustomAuraButtonSharedMixin
+CustomAuraButtonSharedMixin = {}; --- @class CustomAuraButtonSharedMixin
 
 function CustomAuraButtonSharedMixin:GetApplicationBar()
 	return ExportDisplayElement(self.applicationBar);
@@ -376,8 +376,8 @@ function CustomAuraButtonSharedMixin:ClearCasterName()
 	self.casterName = nil;
 end
 
-CustomAuraButtonInboundMixin = CreateFromMixins(CustomAuraButtonSharedMixin);--- @class CustomAuraButtonInboundMixin : CustomAuraButtonSharedMixin
-CustomAuraButtonPrivateMixin = CreateFromMixins(AuraButtonPrivateMixin, CustomAuraButtonSharedMixin);--- @class CustomAuraButtonPrivateMixin : AuraButtonPrivateMixin, CustomAuraButtonSharedMixin
+CustomAuraButtonInboundMixin = CreateFromMixins(CustomAuraButtonSharedMixin); --- @class CustomAuraButtonInboundMixin : CustomAuraButtonSharedMixin
+CustomAuraButtonPrivateMixin = CreateFromMixins(AuraButtonPrivateMixin, CustomAuraButtonSharedMixin); --- @class CustomAuraButtonPrivateMixin : AuraButtonPrivateMixin, CustomAuraButtonSharedMixin
 
 function CustomAuraButtonPrivateMixin:OnLoad_Intrinsic()
 	AuraButtonPrivateMixin.OnLoad_Intrinsic(self);

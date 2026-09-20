@@ -4,7 +4,7 @@ end
 
 ----------------- Audio Interface -----------------
 
-CustomizationAudioInterfaceMixin = {};--- @class CustomizationAudioInterfaceMixin
+CustomizationAudioInterfaceMixin = {}; --- @class CustomizationAudioInterfaceMixin
 
 function CustomizationAudioInterfaceMixin:OnEvent(event, ...)
 	if event == "SOUNDKIT_FINISHED" then
@@ -105,7 +105,7 @@ end
 
 ----------------- Play Button -----------------
 
-CustomizationAudioInterfacePlayButtonMixin = CreateFromMixins(CustomizationFrameWithTooltipMixin);--- @class CustomizationAudioInterfacePlayButtonMixin : CustomizationFrameWithTooltipMixin
+CustomizationAudioInterfacePlayButtonMixin = CreateFromMixins(CustomizationFrameWithTooltipMixin); --- @class CustomizationAudioInterfacePlayButtonMixin : CustomizationFrameWithTooltipMixin
 
 function CustomizationAudioInterfacePlayButtonMixin:CustomizationAudioInterfacePlayButton_OnLoad()
 	CustomizationFrameWithTooltipMixin.OnLoad(self);
@@ -141,7 +141,7 @@ end
 
 ----------------- Mute Button -----------------
 
-CustomizationAudioInterfaceMuteButtonMixin = CreateFromMixins(CustomizationFrameWithTooltipMixin);--- @class CustomizationAudioInterfaceMuteButtonMixin : CustomizationFrameWithTooltipMixin
+CustomizationAudioInterfaceMuteButtonMixin = CreateFromMixins(CustomizationFrameWithTooltipMixin); --- @class CustomizationAudioInterfaceMuteButtonMixin : CustomizationFrameWithTooltipMixin
 
 function CustomizationAudioInterfaceMuteButtonMixin:CustomizationAudioInterfaceMuteButton_OnLoad()
 	CustomizationFrameWithTooltipMixin.OnLoad(self);

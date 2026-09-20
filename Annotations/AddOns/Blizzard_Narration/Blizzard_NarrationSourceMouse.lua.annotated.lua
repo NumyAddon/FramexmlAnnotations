@@ -43,7 +43,7 @@ local function BuildNarrationInfo(regions)
 	return NarrationUtil.RegionToNarrationInfo(region, NarrationUtil.TriggerType.Navigation), region;
 end
 
-NarrationSourceMouseMixin = {};--- @class NarrationSourceMouseMixin
+NarrationSourceMouseMixin = {}; --- @class NarrationSourceMouseMixin
 
 function NarrationSourceMouseMixin:Init()
 	self:Reset();

@@ -2,7 +2,7 @@ local SHOW_SWING_TIMER_CVAR = "showSwingTimer";
 local OUT_OF_RANGE_ALPHA = 0.4;
 CVarCallbackRegistry:SetCVarCachable(SHOW_SWING_TIMER_CVAR);
 
-SwingTimerMixin = {};--- @class SwingTimerMixin
+SwingTimerMixin = {}; --- @class SwingTimerMixin
 
 function SwingTimerMixin:GetBackground()
 	return self.Background;

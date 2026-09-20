@@ -29,7 +29,7 @@ local function InitializeRuneEffects()
 end
 
 
-RuneforgeFrameMixin = CreateFromMixins(CallbackRegistryMixin);--- @class RuneforgeFrameMixin : CallbackRegistryMixin
+RuneforgeFrameMixin = CreateFromMixins(CallbackRegistryMixin); --- @class RuneforgeFrameMixin : CallbackRegistryMixin
 
 RuneforgeFrameMixin:GenerateCallbackEvents(
 {

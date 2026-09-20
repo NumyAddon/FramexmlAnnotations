@@ -23,7 +23,7 @@ function PetBattleXPBar_OnLeave(self)
 	GameTooltip:Hide();
 end
 
-MicroButtonFrameMixin = {};--- @class MicroButtonFrameMixin
+MicroButtonFrameMixin = {}; --- @class MicroButtonFrameMixin
 
 function MicroButtonFrameMixin:OnShow()
 	MicroMenu:OverrideMicroMenuPosition(self, "TOPLEFT", self, "TOPLEFT", -3, 4, true);

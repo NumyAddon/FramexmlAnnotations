@@ -1,4 +1,4 @@
-CollapseButtonMixin = { };--- @class CollapseButtonMixin
+CollapseButtonMixin = { }; --- @class CollapseButtonMixin
 
 function CollapseButtonMixin:UpdatePressedState(pressed)
 	if pressed then
@@ -15,7 +15,7 @@ function CollapseButtonMixin:UpdateCollapsedState(collapsed)
 	self:SetHighlightAtlas(atlas);
 end
 
-ListHeaderVisualMixin = {};--- @class ListHeaderVisualMixin
+ListHeaderVisualMixin = {}; --- @class ListHeaderVisualMixin
 
 function ListHeaderVisualMixin:GetTitleRegion()
 	return self.ButtonText or self.Text;
@@ -68,7 +68,7 @@ function ListHeaderVisualMixin:GetCollapseButton()
 	return self.CollapseButton;
 end
 
-ListHeaderMixin = {};--- @class ListHeaderMixin
+ListHeaderMixin = {}; --- @class ListHeaderMixin
 
 function ListHeaderMixin:OnLoad()
 	local isMouseOver = false;
@@ -158,7 +158,7 @@ function ListHeaderMixin:UpdateCollapsedState(collapsed)
 	end
 end
 
-ListHeaderThreeSliceMixin = CreateFromMixins(ListHeaderVisualMixin);--- @class ListHeaderThreeSliceMixin : ListHeaderVisualMixin
+ListHeaderThreeSliceMixin = CreateFromMixins(ListHeaderVisualMixin); --- @class ListHeaderThreeSliceMixin : ListHeaderVisualMixin
 
 function ListHeaderThreeSliceMixin:OnLoad()
 	-- override if necessary

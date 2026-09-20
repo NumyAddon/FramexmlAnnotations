@@ -6,7 +6,7 @@ CVarCallbackRegistry:SetCVarCachable(NamePlateConstants.STYLE_CVAR);
 
 -- Handles setup and management of nameplates, including event handling, frame pooling, and
 -- applying configuration options for all nameplate types.
-NamePlateDriverMixin = {};--- @class NamePlateDriverMixin
+NamePlateDriverMixin = {}; --- @class NamePlateDriverMixin
 
 function NamePlateDriverMixin:OnLoad()
 	self:RegisterEvent("NAME_PLATE_CREATED");
@@ -640,7 +640,7 @@ function NamePlateDriverMixin:UpdateNamePlateSize(namePlateStyle, namePlateScale
 	end);
 end
 
-NamePlateBorderTemplateMixin = {};--- @class NamePlateBorderTemplateMixin
+NamePlateBorderTemplateMixin = {}; --- @class NamePlateBorderTemplateMixin
 
 function NamePlateBorderTemplateMixin:SetVertexColor(r, g, b, a)
 	for i, texture in ipairs(self.Textures) do
@@ -691,7 +691,7 @@ function NamePlateBorderTemplateMixin:UpdateSizes()
 	end
 end
 
-NamePlateScriptBaseMixin = {};--- @class NamePlateScriptBaseMixin
+NamePlateScriptBaseMixin = {}; --- @class NamePlateScriptBaseMixin
 
 function NamePlateScriptBaseMixin:CanChangeHitTestPoints()
 	return true;

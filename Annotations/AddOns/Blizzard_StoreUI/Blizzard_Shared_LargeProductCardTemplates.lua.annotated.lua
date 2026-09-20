@@ -6,7 +6,7 @@ local BATTLEPAY_SPLASH_BANNER_TEXT_NEW = 2;
 
 --------------------------------------------------
 -- VERTICAL LARGE STORE CARD MIXIN
-VerticalLargeStoreCardMixin = CreateFromMixins(StoreCardMixin);--- @class VerticalLargeStoreCardMixin : StoreCardMixin
+VerticalLargeStoreCardMixin = CreateFromMixins(StoreCardMixin); --- @class VerticalLargeStoreCardMixin : StoreCardMixin
 function VerticalLargeStoreCardMixin:OnLoad()
 	StoreCardMixin.OnLoad(self);
 
@@ -257,7 +257,7 @@ end
 
 --------------------------------------------------
 -- VERTICAL LARGE STORE CARD WITH A BUY BUTTON MIXIN 
-VerticalLargeStoreCardWithBuyButtonMixin = CreateFromMixins(VerticalLargeStoreCardMixin, ProductCardBuyButtonMixin, LargeProductCardBuyButtonMixin);--- @class VerticalLargeStoreCardWithBuyButtonMixin : VerticalLargeStoreCardMixin, ProductCardBuyButtonMixin, LargeProductCardBuyButtonMixin
+VerticalLargeStoreCardWithBuyButtonMixin = CreateFromMixins(VerticalLargeStoreCardMixin, ProductCardBuyButtonMixin, LargeProductCardBuyButtonMixin); --- @class VerticalLargeStoreCardWithBuyButtonMixin : VerticalLargeStoreCardMixin, ProductCardBuyButtonMixin, LargeProductCardBuyButtonMixin
 
 function VerticalLargeStoreCardWithBuyButtonMixin:OnLoad()
 	VerticalLargeStoreCardMixin.OnLoad(self);
@@ -335,7 +335,7 @@ end
 
 --------------------------------------------------
 -- VERTICAL LARGE PAGEABLE STORE CARD WITH A BUY BUTTON MIXIN
-VerticalLargePageableStoreCardWithBuyButtonMixin = CreateFromMixins(VerticalLargeStoreCardWithBuyButtonMixin);--- @class VerticalLargePageableStoreCardWithBuyButtonMixin : VerticalLargeStoreCardWithBuyButtonMixin
+VerticalLargePageableStoreCardWithBuyButtonMixin = CreateFromMixins(VerticalLargeStoreCardWithBuyButtonMixin); --- @class VerticalLargePageableStoreCardWithBuyButtonMixin : VerticalLargeStoreCardWithBuyButtonMixin
 
 function VerticalLargePageableStoreCardWithBuyButtonMixin:Layout()
 	VerticalLargeStoreCardWithBuyButtonMixin.Layout(self);
@@ -360,7 +360,7 @@ end
 
 --------------------------------------------------
 -- HORIZONTAL LARGE STORE CARD MIXIN
-HorizontalLargeStoreCardMixin = CreateFromMixins(VerticalLargeStoreCardMixin);--- @class HorizontalLargeStoreCardMixin : VerticalLargeStoreCardMixin
+HorizontalLargeStoreCardMixin = CreateFromMixins(VerticalLargeStoreCardMixin); --- @class HorizontalLargeStoreCardMixin : VerticalLargeStoreCardMixin
 
 function HorizontalLargeStoreCardMixin:OnLoad()
 	StoreCardMixin.OnLoad(self);
@@ -429,7 +429,7 @@ end
 
 --------------------------------------------------
 -- HORIZONTAL LARGE STORE CARD WITH A BUY BUTTON MIXIN 
-HorizontalLargeStoreCardWithBuyButtonMixin = CreateFromMixins(VerticalLargeStoreCardWithBuyButtonMixin);--- @class HorizontalLargeStoreCardWithBuyButtonMixin : VerticalLargeStoreCardWithBuyButtonMixin
+HorizontalLargeStoreCardWithBuyButtonMixin = CreateFromMixins(VerticalLargeStoreCardWithBuyButtonMixin); --- @class HorizontalLargeStoreCardWithBuyButtonMixin : VerticalLargeStoreCardWithBuyButtonMixin
 
 function HorizontalLargeStoreCardWithBuyButtonMixin:SetDefaultCardTexture()
 	self.Card:SetAtlas("store-card-horizontalfull", true);

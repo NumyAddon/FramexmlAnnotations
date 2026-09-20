@@ -1,4 +1,4 @@
-MapCanvasScrollControllerMixin = {};--- @class MapCanvasScrollControllerMixin
+MapCanvasScrollControllerMixin = {}; --- @class MapCanvasScrollControllerMixin
 
 MAP_CANVAS_MOUSE_WHEEL_ZOOM_BEHAVIOR_SMOOTH = 1;
 MAP_CANVAS_MOUSE_WHEEL_ZOOM_BEHAVIOR_FULL = 2;

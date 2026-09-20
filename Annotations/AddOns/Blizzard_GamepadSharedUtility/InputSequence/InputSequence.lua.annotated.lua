@@ -1,4 +1,4 @@
-GamepadInputSequenceMixin = {};--- @class GamepadInputSequenceMixin
+GamepadInputSequenceMixin = {}; --- @class GamepadInputSequenceMixin
 
 function GamepadInputSequenceMixin:OnLoad()
 	self.currentSequenceIndex = 1;

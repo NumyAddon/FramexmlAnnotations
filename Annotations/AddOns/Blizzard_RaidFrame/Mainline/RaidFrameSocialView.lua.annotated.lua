@@ -1,11 +1,11 @@
 
-RaidFrameSocialClassTypeMixin = {}--- @class RaidFrameSocialClassTypeMixin
+RaidFrameSocialClassTypeMixin = {} --- @class RaidFrameSocialClassTypeMixin
 
 function RaidFrameSocialClassTypeMixin:OnLoad()
 	self.Icon:SetAtlas(self.iconAtlas);
 end
 
-RaidFrameSocialAllAssistMixin = {};--- @class RaidFrameSocialAllAssistMixin
+RaidFrameSocialAllAssistMixin = {}; --- @class RaidFrameSocialAllAssistMixin
 
 function RaidFrameSocialAllAssistMixin:OnClick()
 	PlaySound(self:GetChecked() and SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON or SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_OFF);
@@ -63,7 +63,7 @@ function RaidFrameSocialAllAssistMixin:HideTooltip()
 	GameTooltip:Hide();
 end
 
-SocialRaidInfoMixin = {};--- @class SocialRaidInfoMixin
+SocialRaidInfoMixin = {}; --- @class SocialRaidInfoMixin
 
 local RAID_INFO_BUTTON_EVENTS =
 {
@@ -92,7 +92,7 @@ function SocialRaidInfoMixin:OnClick()
 	self:SocialUIRequestToggleSideWindow(SocialUISideWindowType.RaidInfoFrame);
 end
 
-RaidFrameSocialGroupMixin = {};--- @class RaidFrameSocialGroupMixin
+RaidFrameSocialGroupMixin = {}; --- @class RaidFrameSocialGroupMixin
 
 function RaidFrameSocialGroupMixin:CreatePlayer(raidFrame, i, rank, role, name, level, class, fileName, subgroup, online, isDead)
 	local playerFrame = self.playerPool:Acquire();
@@ -148,7 +148,7 @@ function RaidFrameSocialGroupMixin:CreatePlayer(raidFrame, i, rank, role, name, 
 	playerFrame:Show();
 end
 
-RaidFrameSocialMixin = CreateFromMixins(SocialUISystemMixin);--- @class RaidFrameSocialMixin : SocialUISystemMixin
+RaidFrameSocialMixin = CreateFromMixins(SocialUISystemMixin); --- @class RaidFrameSocialMixin : SocialUISystemMixin
 
 local PLAYERS_PER_GROUP = 5;
 
@@ -305,7 +305,7 @@ function RaidFrameSocialMixin:FinishReadyChecks()
 	end
 end
 
-RaidFrameSocialPlayerMixin = {}--- @class RaidFrameSocialPlayerMixin
+RaidFrameSocialPlayerMixin = {} --- @class RaidFrameSocialPlayerMixin
 
 function RaidFrameSocialPlayerMixin:OnClick(button, down)
 	if button == "RightButton" then
@@ -396,7 +396,7 @@ function RaidFrameSocialPlayerMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-RaidFrameSocialPlayerRoleIconMixin = {};--- @class RaidFrameSocialPlayerRoleIconMixin
+RaidFrameSocialPlayerRoleIconMixin = {}; --- @class RaidFrameSocialPlayerRoleIconMixin
 
 function RaidFrameSocialPlayerRoleIconMixin:OnEnter()
 	self:TryShowTooltip();

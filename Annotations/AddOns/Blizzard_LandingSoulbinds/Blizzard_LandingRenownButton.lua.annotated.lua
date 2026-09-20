@@ -1,4 +1,4 @@
-LandingPageRenownButtonMixin = {};--- @class LandingPageRenownButtonMixin
+LandingPageRenownButtonMixin = {}; --- @class LandingPageRenownButtonMixin
 
 function LandingPageRenownButtonMixin:OnEvent(event, ...)
 	if event == "CURRENCY_DISPLAY_UPDATE" then

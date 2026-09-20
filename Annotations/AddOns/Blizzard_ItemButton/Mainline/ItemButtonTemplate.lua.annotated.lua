@@ -418,7 +418,7 @@ function ItemButtonMixin:GetItemButtonBackgroundTexture()
 	return GetItemButtonBackgroundTexture_Base(self);
 end
 
-CircularGiantItemButtonMixin = {}--- @class CircularGiantItemButtonMixin
+CircularGiantItemButtonMixin = {} --- @class CircularGiantItemButtonMixin
 
 function CircularGiantItemButtonMixin:SetItemButtonQuality(quality, itemIDOrLink, suppressOverlays, isBound, ignoreColorOverrides)
 	ClearItemButtonOverlay(self);
@@ -442,7 +442,7 @@ local EnchantingItemButtonEvents = {
 	"ENCHANT_SPELL_COMPLETED",
 };
 
-EnchantingItemButtonAnimMixin = {};--- @class EnchantingItemButtonAnimMixin
+EnchantingItemButtonAnimMixin = {}; --- @class EnchantingItemButtonAnimMixin
 
 function EnchantingItemButtonAnimMixin:OnLoad()
 	local function AugmentBorderAnimOnFinished()

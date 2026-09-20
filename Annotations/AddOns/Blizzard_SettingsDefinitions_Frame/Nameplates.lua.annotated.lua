@@ -1,6 +1,6 @@
 local PreviewIconDataProvider = nil;
 
-NamePlatePreviewMixin = { };--- @class NamePlatePreviewMixin
+NamePlatePreviewMixin = { }; --- @class NamePlatePreviewMixin
 
 function NamePlatePreviewMixin:OnShow()
 	if NamePlateDriverFrame and not self.UnitFrame then
@@ -868,7 +868,7 @@ end
 
 SettingsRegistrar:AddRegistrant(Register);
 
-NamePlatesTutorialMixin = {};--- @class NamePlatesTutorialMixin
+NamePlatesTutorialMixin = {}; --- @class NamePlatesTutorialMixin
 
 function NamePlatesTutorialMixin:OnLoad()
 	ButtonFrameTemplate_HidePortrait(self);

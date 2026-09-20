@@ -18,7 +18,7 @@ end
 local TAB_CHECKMARK_MARKUP = CreateAtlasMarkup("Talents-Checkmark-c60", 20, 15);
 local TAB_LOCK_MARKUP = CreateAtlasMarkup("Talents-lock-c60", 10, 14);
 
-ClassTalentsFrameTabMixin = {};--- @class ClassTalentsFrameTabMixin
+ClassTalentsFrameTabMixin = {}; --- @class ClassTalentsFrameTabMixin
 
 function ClassTalentsFrameTabMixin:SetIsActive(isActive)
 	self.isActive = isActive;
@@ -305,7 +305,7 @@ function ClassTalentsFrameMixin:SetSpecSwitchCastBarActive(active)
 	end
 end
 
-ClassTalentTreeHeaderMixin = {};--- @class ClassTalentTreeHeaderMixin
+ClassTalentTreeHeaderMixin = {}; --- @class ClassTalentTreeHeaderMixin
 
 function ClassTalentTreeHeaderMixin:Setup(displayInfo, groupInfo)
 	self.displayInfo = displayInfo;
@@ -322,7 +322,7 @@ function ClassTalentTreeHeaderMixin:Setup(displayInfo, groupInfo)
 	end
 end
 
-ClassTalentActiveSpecMixin = {};--- @class ClassTalentActiveSpecMixin
+ClassTalentActiveSpecMixin = {}; --- @class ClassTalentActiveSpecMixin
 
 function ClassTalentActiveSpecMixin:OnLoad()
 	self.ActivateButton:SetOnClickHandler(GenerateClosure(self.ActivateSpec, self));

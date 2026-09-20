@@ -45,7 +45,7 @@ local HORIZONTAL_LAYOUT_AURA_HEIGHT = 40;
 local VERTICAL_LAYOUT_AURA_WIDTH = 60;
 local VERTICAL_LAYOUT_AURA_HEIGHT = 30;
 
-AuraContainerWarningFaderMixin = {};--- @class AuraContainerWarningFaderMixin
+AuraContainerWarningFaderMixin = {}; --- @class AuraContainerWarningFaderMixin
 
 function AuraContainerWarningFaderMixin:Init(period, minAlpha, maxAlpha)
 	self.period = period;
@@ -60,7 +60,7 @@ function AuraContainerWarningFaderMixin:GetSmoothAlpha()
 	return Lerp(self.minAlpha, self.maxAlpha, self.Animation:GetSmoothProgress());
 end
 
-AuraContainerMixin = {};--- @class AuraContainerMixin
+AuraContainerMixin = {}; --- @class AuraContainerMixin
 
 function AuraContainerMixin:OnLoad()
 	self.WarningFader:Init(self.auraWarningFlashPeriod, self.auraWarningMinAlpha, self.auraWarningMaxAlpha);
@@ -186,7 +186,7 @@ function AuraContainerMixin:UpdateGridLayout(auras, doNotAnchorDisabledFrames)
 	self.currentGridLayoutInfo = newLayoutInfo;
 end
 
-AuraFrameMixin = {};--- @class AuraFrameMixin
+AuraFrameMixin = {}; --- @class AuraFrameMixin
 
 function AuraFrameMixin:AuraFrame_OnLoad()
 	-- Create aura buttons
@@ -322,7 +322,7 @@ function AuraFrameMixin:GetLastActiveAuraFrame()
 	return lastActiveAuraFrame;
 end
 
-AuraFrameEventListenerMixin = {};--- @class AuraFrameEventListenerMixin
+AuraFrameEventListenerMixin = {}; --- @class AuraFrameEventListenerMixin
 
 function AuraFrameEventListenerMixin:AuraFrameEventListener_OnLoad()
 	self:RegisterUnitEvent("UNIT_AURA", "player", "vehicle");
@@ -353,7 +353,7 @@ function AuraFrameEventListenerMixin:AuraFrameEventListener_OnEvent(event, ...)
 	end
 end
 
-AuraFrameEditModeMixin = CreateFromMixins(AuraFrameMixin);--- @class AuraFrameEditModeMixin : AuraFrameMixin
+AuraFrameEditModeMixin = CreateFromMixins(AuraFrameMixin); --- @class AuraFrameEditModeMixin : AuraFrameMixin
 
 function AuraFrameEditModeMixin:SetIsEditing(isEditing)
 	if self.isInEditMode ~= isEditing then
@@ -465,7 +465,7 @@ function AuraFrameEditModeMixin:UpdatePrivateAuraAnchors()
 	-- override as necessary
 end
 
-BaseAuraFrameMixin = {};--- @class BaseAuraFrameMixin
+BaseAuraFrameMixin = {}; --- @class BaseAuraFrameMixin
 
 function BaseAuraFrameMixin:GetIconLimitSettingEnum()
 	return Enum.EditModeAuraFrameSetting.IconLimitBuffFrame;
@@ -495,7 +495,7 @@ function BaseAuraFrameMixin:UpdateGridLayout(icons)
 	self:UpdateAuraContainerAnchor();
 end
 
-BuffFrameMixin = CreateFromMixins(BaseAuraFrameMixin);--- @class BuffFrameMixin : BaseAuraFrameMixin
+BuffFrameMixin = CreateFromMixins(BaseAuraFrameMixin); --- @class BuffFrameMixin : BaseAuraFrameMixin
 
 function BuffFrameMixin:OnLoad()
 	self:RegisterEvent("WEAPON_ENCHANT_CHANGED");
@@ -938,7 +938,7 @@ function BuffFrameMixin:RemoveAuraForTooltip(removedAuraInstanceID)
 	table.removevalue(self.auraTooltipQueue, removedAuraInstanceID);
 end
 
-DebuffFrameMixin = { };--- @class DebuffFrameMixin
+DebuffFrameMixin = { }; --- @class DebuffFrameMixin
 
 function DebuffFrameMixin:OnLoad()
 	self.maxAuras = DEBUFF_MAX_DISPLAY;
@@ -1097,7 +1097,7 @@ function DebuffFrameMixin:RegisterForTransitions()
 end
 
 -- If you make changes to this, consider making the same changes to PrivateAuraMixin
-AuraButtonMixin = { };--- @class AuraButtonMixin
+AuraButtonMixin = { }; --- @class AuraButtonMixin
 
 function AuraButtonMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonUp", "RightButtonUp");
@@ -1372,7 +1372,7 @@ function AuraButtonMixin:SetupDebuffBorderTexture()
 	-- nothing by default
 end
 
-CollapseAndExpandButtonMixin = { };--- @class CollapseAndExpandButtonMixin
+CollapseAndExpandButtonMixin = { }; --- @class CollapseAndExpandButtonMixin
 
 function CollapseAndExpandButtonMixin:OnLoad()
 	self.orientation = CollapseAndExpandButton_Orientation_Horizontal;
@@ -1423,7 +1423,7 @@ function CollapseAndExpandButtonMixin:UpdateOrientation()
 	self:GetPushedTexture():SetRotation(rotation);
 end
 
-DeadlyDebuffFrameMixin = {};--- @class DeadlyDebuffFrameMixin
+DeadlyDebuffFrameMixin = {}; --- @class DeadlyDebuffFrameMixin
 
 function DeadlyDebuffFrameMixin:OnShow()
 	RaidWarningUtil.UpdateCenterScreenAnchors();
@@ -1448,7 +1448,7 @@ function DeadlyDebuffFrameMixin:Setup(deadlyDebuffInfo)
 	self:Show();
 end
 
-BuffFramePrivateAuraAnchorMixin = {};--- @class BuffFramePrivateAuraAnchorMixin
+BuffFramePrivateAuraAnchorMixin = {}; --- @class BuffFramePrivateAuraAnchorMixin
 
 function BuffFramePrivateAuraAnchorMixin:SetUnit(unit, showDispelType)
 	self.unit = unit; -- This is really just for debugging now.
@@ -1498,7 +1498,7 @@ function BuffFramePrivateAuraAnchorMixin:SetUnit(unit, showDispelType)
 	end
 end
 
-ConsolidatedBuffsMixin = {};--- @class ConsolidatedBuffsMixin
+ConsolidatedBuffsMixin = {}; --- @class ConsolidatedBuffsMixin
 
 function ConsolidatedBuffsMixin:OnLoad()
 	self:UpdateAuraType("Buff");
@@ -1543,7 +1543,7 @@ function ConsolidatedBuffsMixin:ShouldShow()
 	return self:IsEnabled() and self.consolidatedAuraCount > 0;
 end
 
-ConsolidatedBuffsTooltipMixin = {};--- @class ConsolidatedBuffsTooltipMixin
+ConsolidatedBuffsTooltipMixin = {}; --- @class ConsolidatedBuffsTooltipMixin
 
 function ConsolidatedBuffsTooltipMixin:OnLoad()
 	TooltipBackdropTemplateMixin.TooltipBackdropOnLoad(self);
@@ -1566,7 +1566,7 @@ function ConsolidatedBuffsTooltipMixin:UpdateAurasAndLayout()
 	self:Layout(); -- Resize tooltip to auras.
 end
 
-ConsolidatedBuffsTooltipAurasMixin = {};--- @class ConsolidatedBuffsTooltipAurasMixin
+ConsolidatedBuffsTooltipAurasMixin = {}; --- @class ConsolidatedBuffsTooltipAurasMixin
 
 function ConsolidatedBuffsTooltipAurasMixin:OnLoad()
 	self.AuraContainer.addIconsToRight = true;

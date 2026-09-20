@@ -11,7 +11,7 @@ local function EnumerateTaintedKeysTable(tableToIterate)
 	return IteratorFunction, enumerateTable, initialIteratorKey;
 end
 
-SettingsListSearchCategoryMixin = {};--- @class SettingsListSearchCategoryMixin
+SettingsListSearchCategoryMixin = {}; --- @class SettingsListSearchCategoryMixin
 
 function SettingsListSearchCategoryMixin:Init(initializer)
 	local data = initializer:GetData();
@@ -38,7 +38,7 @@ function CreateSettingsListSearchCategoryInitializer(category)
 	return Settings.CreateElementInitializer("SettingsListSearchCategoryTemplate", data);
 end
 
-SettingsListMixin = CreateFromMixins(CallbackRegistryMixin);--- @class SettingsListMixin : CallbackRegistryMixin
+SettingsListMixin = CreateFromMixins(CallbackRegistryMixin); --- @class SettingsListMixin : CallbackRegistryMixin
 
 SettingsListMixin:GenerateCallbackEvents(
 	{

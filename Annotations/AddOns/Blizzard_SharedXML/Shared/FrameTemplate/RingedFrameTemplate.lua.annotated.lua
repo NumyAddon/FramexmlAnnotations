@@ -1,5 +1,5 @@
 
-RingedFrameWithTooltipMixin = {};--- @class RingedFrameWithTooltipMixin
+RingedFrameWithTooltipMixin = {}; --- @class RingedFrameWithTooltipMixin
 function RingedFrameWithTooltipMixin:OnLoad()
 	if self.simpleTooltipLine then
 		self:AddTooltipLine(self.simpleTooltipLine, HIGHLIGHT_FONT_COLOR);
@@ -85,7 +85,7 @@ function RingedFrameWithTooltipMixin:OnLeave()
 	self:HideTooltip();
 end
 
-RingedMaskedButtonMixin = CreateFromMixins(RingedFrameWithTooltipMixin);--- @class RingedMaskedButtonMixin : RingedFrameWithTooltipMixin
+RingedMaskedButtonMixin = CreateFromMixins(RingedFrameWithTooltipMixin); --- @class RingedMaskedButtonMixin : RingedFrameWithTooltipMixin
 
 function RingedMaskedButtonMixin:OnLoad()
 	RingedFrameWithTooltipMixin.OnLoad(self);

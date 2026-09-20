@@ -17,7 +17,7 @@ function GamepadActionBarPageUnitMixin:InitializeStanceBar()
 	stanceBar:ApplyInitialOverridePositioning();
 end
 
-GamepadStanceBarMixin = CreateFromMixins(GamepadOverrideBarMixin);--- @class GamepadStanceBarMixin : GamepadOverrideBarMixin
+GamepadStanceBarMixin = CreateFromMixins(GamepadOverrideBarMixin); --- @class GamepadStanceBarMixin : GamepadOverrideBarMixin
 
 function GamepadStanceBarMixin:OnLoad()
 	GamepadOverrideBarMixin.OnLoad(self);

@@ -19,7 +19,7 @@ local PageSlotState = {
 	Disabled = 3,
 }
 
-GamepadActionBarPageTrackerSlotMixin = {}--- @class GamepadActionBarPageTrackerSlotMixin
+GamepadActionBarPageTrackerSlotMixin = {} --- @class GamepadActionBarPageTrackerSlotMixin
 
 function GamepadActionBarPageTrackerSlotMixin:Initialize(slotIdentifier)
 	self.currentState = PageSlotState.Disabled;
@@ -46,7 +46,7 @@ function GamepadActionBarPageTrackerSlotMixin:TransitionPageSlotState(oldState, 
 	assert(oldState ~= newState, "Cannot call transition without changing state.");
 end
 
-GamepadActionBarPageTrackerSlotImageMixin = CreateFromMixins(GamepadActionBarPageTrackerSlotMixin);--- @class GamepadActionBarPageTrackerSlotImageMixin : GamepadActionBarPageTrackerSlotMixin
+GamepadActionBarPageTrackerSlotImageMixin = CreateFromMixins(GamepadActionBarPageTrackerSlotMixin); --- @class GamepadActionBarPageTrackerSlotImageMixin : GamepadActionBarPageTrackerSlotMixin
 
 function GamepadActionBarPageTrackerSlotImageMixin:Initialize(slotIdentifier)
 	GamepadActionBarPageTrackerSlotMixin.Initialize(self, slotIdentifier);
@@ -74,7 +74,7 @@ function GamepadActionBarPageTrackerSlotImageMixin:TransitionPageSlotState(oldSt
 	self.stateTextures[newState]:Show();
 end
 
-GamepadActionBarPageTrackerSlotTextMixin = CreateFromMixins(GamepadActionBarPageTrackerSlotMixin);--- @class GamepadActionBarPageTrackerSlotTextMixin : GamepadActionBarPageTrackerSlotMixin
+GamepadActionBarPageTrackerSlotTextMixin = CreateFromMixins(GamepadActionBarPageTrackerSlotMixin); --- @class GamepadActionBarPageTrackerSlotTextMixin : GamepadActionBarPageTrackerSlotMixin
 local TrackerSlotTextStateColors = {
 	[PageSlotState.Disabled] = GRAY_FONT_COLOR,
 	[PageSlotState.Empty] = WHITE_FONT_COLOR,
@@ -103,7 +103,7 @@ function GamepadActionBarPageTrackerSlotTextMixin:TransitionPageSlotState(oldSta
 	end
 end
 
-GamepadActionBarPageUnitMixin = CreateFromMixins(CallbackRegistryMixin);--- @class GamepadActionBarPageUnitMixin : CallbackRegistryMixin
+GamepadActionBarPageUnitMixin = CreateFromMixins(CallbackRegistryMixin); --- @class GamepadActionBarPageUnitMixin : CallbackRegistryMixin
 
 local function SetupActionBarReferences(pageUnit)
 	pageUnit.actionBars = {}; -- All available action bars in the page unit (both standard indexed bars and special bars).

@@ -100,7 +100,7 @@ local function FormatPercent(value)
 	return format("%.0f%%", value);
 end
 
-SkillsFrameMixin = {};--- @class SkillsFrameMixin
+SkillsFrameMixin = {}; --- @class SkillsFrameMixin
 
 function SkillsFrameMixin:OnLoad()
 	local view = CreateScrollBoxListLinearView();
@@ -215,7 +215,7 @@ function SkillsFrameMixin:Update()
 	self.SkillDetailFrame:Refresh();
 end
 
-SkillDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin, CallbackRegistryMixin);--- @class SkillDetailFrameMixin : CharacterFrameSidePaneMixin, CallbackRegistryMixin
+SkillDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin, CallbackRegistryMixin); --- @class SkillDetailFrameMixin : CharacterFrameSidePaneMixin, CallbackRegistryMixin
 
 local SKILL_DETAIL_DESCRIPTION_HEIGHT = 120;
 local WEAPON_SKILL_DETAIL_DESCRIPTION_HEIGHT = 40;
@@ -316,7 +316,7 @@ function SkillDetailFrameMixin:AddWeaponSkillRows(skillInfo)
 	end
 end
 
-SkillsHeaderMixin = {};--- @class SkillsHeaderMixin
+SkillsHeaderMixin = {}; --- @class SkillsHeaderMixin
 
 function SkillsHeaderMixin:Initialize(elementData)
 	self.elementData = elementData;
@@ -356,7 +356,7 @@ function SkillsHeaderMixin:OnClick()
 	self:ToggleCollapsed();
 end
 
-SkillsEntryMixin = CreateFromMixins(CallbackRegistryMixin);--- @class SkillsEntryMixin : CallbackRegistryMixin
+SkillsEntryMixin = CreateFromMixins(CallbackRegistryMixin); --- @class SkillsEntryMixin : CallbackRegistryMixin
 
 function SkillsEntryMixin:OnLoad()
 	CallbackRegistryMixin.OnLoad(self);
@@ -472,7 +472,7 @@ function SkillsEntryMixin:InitializeBarForStandardSkill(skillData, skillsBar)
 	skillsBar:UpdateBarProgressText(text);
 end
 
-SkillsSubHeaderMixin = CreateFromMixins(SkillsEntryMixin);--- @class SkillsSubHeaderMixin : SkillsEntryMixin
+SkillsSubHeaderMixin = CreateFromMixins(SkillsEntryMixin); --- @class SkillsSubHeaderMixin : SkillsEntryMixin
 
 function SkillsSubHeaderMixin:Initialize(elementData)
 	SkillsEntryMixin.Initialize(self, elementData);
@@ -500,7 +500,7 @@ function SkillsSubHeaderMixin:ToggleCollapsed()
 	end
 end
 
-SkillsSubHeaderToggleCollapseButtonMixin = {};--- @class SkillsSubHeaderToggleCollapseButtonMixin
+SkillsSubHeaderToggleCollapseButtonMixin = {}; --- @class SkillsSubHeaderToggleCollapseButtonMixin
 
 function SkillsSubHeaderToggleCollapseButtonMixin:GetHeader()
 	return self:GetParent();
@@ -516,7 +516,7 @@ function SkillsSubHeaderToggleCollapseButtonMixin:OnClick()
 	self:GetHeader():ToggleCollapsed();
 end
 
-SkillsBarMixin = CreateFromMixins(ColoredProgressBarMixin);--- @class SkillsBarMixin : ColoredProgressBarMixin
+SkillsBarMixin = CreateFromMixins(ColoredProgressBarMixin); --- @class SkillsBarMixin : ColoredProgressBarMixin
 
 function SkillsBarMixin:OnLoad()
 	ColoredProgressBarMixin.OnLoad(self);

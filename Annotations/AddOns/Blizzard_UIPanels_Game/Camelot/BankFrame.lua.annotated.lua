@@ -31,7 +31,7 @@ function GetBagIDFromBankTypeAndSlot(bankType, bagSlot)
 	end
 end
 
-BankFrameMixin = {};--- @class BankFrameMixin
+BankFrameMixin = {}; --- @class BankFrameMixin
 
 function BankFrameMixin:OnTriggerSetTabEffects(id)
 	self:SetTab(id);
@@ -249,7 +249,7 @@ function BankFrameMixin:RefreshBankTabHighlights()
 	self:RefreshPageTabs(self.BankPanel.currentPage or self.currentBankPage or 1);
 end
 
-CamelotBankPanelItemButtonMixin = {};--- @class CamelotBankPanelItemButtonMixin
+CamelotBankPanelItemButtonMixin = {}; --- @class CamelotBankPanelItemButtonMixin
 
 function CamelotBankPanelItemButtonMixin:Refresh()
 	BankPanelItemButtonMixin.Refresh(self);
@@ -261,7 +261,7 @@ function CamelotBankPanelItemButtonMixin:Refresh()
 	end
 end
 
-BankPageTabMixin = CreateFromMixins(SidePanelTabButtonMixin);--- @class BankPageTabMixin : SidePanelTabButtonMixin
+BankPageTabMixin = CreateFromMixins(SidePanelTabButtonMixin); --- @class BankPageTabMixin : SidePanelTabButtonMixin
 
 function BankPageTabMixin:OnLoad()
 	SidePanelTabButtonMixin.OnLoad(self);
@@ -299,7 +299,7 @@ function BankPageTabMixin:SetPageInfo(bankType, pageNumber, currentPage)
 	self.Icon:SetTexture(self[iconKey] or self.iconTexture);
 end
 
-BankItemButtonBagMixin = {};--- @class BankItemButtonBagMixin
+BankItemButtonBagMixin = {}; --- @class BankItemButtonBagMixin
 
 function BankItemButtonBagMixin:BagInventorySlot()
 	return C_Bank.BankBagTypeAndIDToInvSlot(self.bankType, self.bagSlotID) + 1;
@@ -395,7 +395,7 @@ function BankItemButtonBagMixin:OnClick()
 	end
 end
 
-BankBagCostMoneyDisplayMixin = {};--- @class BankBagCostMoneyDisplayMixin
+BankBagCostMoneyDisplayMixin = {}; --- @class BankBagCostMoneyDisplayMixin
 
 function BankBagCostMoneyDisplayMixin:Refresh()
 	local bankType = self:GetParent():GetActiveBankType();
@@ -433,7 +433,7 @@ function BankBagCostMoneyDisplayMixin:OnLoad()
 	MoneyFrame_SetType(self, "STATIC");
 end
 
-BankFramePurchaseButtonMixin = {};--- @class BankFramePurchaseButtonMixin
+BankFramePurchaseButtonMixin = {}; --- @class BankFramePurchaseButtonMixin
 
 function BankFramePurchaseButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION);

@@ -16,7 +16,7 @@ local LargeTemplatesByTalentType = {
 	[Enum.TraitNodeEntryType.ArmorSet] = "TalentArmorSetTemplate",
 };
 
-local EntryTypeUsesArtMixin = {--- @class EntryTypeUsesArtMixin
+local EntryTypeUsesArtMixin = { --- @class EntryTypeUsesArtMixin
 	[Enum.TraitNodeEntryType.SpendSquare] = true,
 	[Enum.TraitNodeEntryType.SpendCircle] = true,
 };

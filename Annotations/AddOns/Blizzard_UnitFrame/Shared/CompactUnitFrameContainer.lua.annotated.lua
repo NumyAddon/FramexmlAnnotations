@@ -20,7 +20,7 @@
 
 local DEFAULT_MAX_CONTAINER_MEMBERS = 5;
 
-CompactUnitFrameContainerMixin = {};--- @class CompactUnitFrameContainerMixin
+CompactUnitFrameContainerMixin = {}; --- @class CompactUnitFrameContainerMixin
 
 function CompactUnitFrameContainerMixin:OnLoad()
 	self.unitFramePool = CreateFramePool("BUTTON", self, "ContainedCompactUnitFrameTemplate");

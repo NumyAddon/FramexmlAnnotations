@@ -249,7 +249,7 @@ function MoneyInputFrame_PickupPlayerMoney(moneyFrame)
 	end
 end
 
-LargeMoneyInputBoxMixin = {};--- @class LargeMoneyInputBoxMixin
+LargeMoneyInputBoxMixin = {}; --- @class LargeMoneyInputBoxMixin
 
 function LargeMoneyInputBoxMixin:OnLoad()
 	self:SetFontObject("PriceFont");
@@ -328,7 +328,7 @@ function MoneyFrameEditBoxCopper_OnEnterPressed(self)
 	end
 end
 
-MoneyFrameEditBoxMixin = {};--- @class MoneyFrameEditBoxMixin
+MoneyFrameEditBoxMixin = {}; --- @class MoneyFrameEditBoxMixin
 
 function MoneyFrameEditBoxMixin:OnLoad()
 	self.texture:SetAtlas(self.coinAtlas);
@@ -360,7 +360,7 @@ function MoneyFrameEditBoxMixin:SetDesiredWidth(width)
 	self:SetWidth(width);
 end
 
-MoneyInputFrameMixin = {};--- @class MoneyInputFrameMixin
+MoneyInputFrameMixin = {}; --- @class MoneyInputFrameMixin
 
 function MoneyInputFrameMixin:SetIsUserScaled()
 	if self.isUserScaled then

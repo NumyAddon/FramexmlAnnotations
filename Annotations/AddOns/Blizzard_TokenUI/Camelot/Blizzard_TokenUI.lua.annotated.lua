@@ -1,6 +1,6 @@
 UIPanelWindows["TokenFrame"] = { area = "left", pushable = 1, whileDead = 1 };
 
-TokenHeaderMixin = {};--- @class TokenHeaderMixin
+TokenHeaderMixin = {}; --- @class TokenHeaderMixin
 
 function TokenHeaderMixin:Initialize(elementData)
 	self.elementData = elementData;
@@ -37,7 +37,7 @@ function TokenHeaderMixin:OnClick()
 	self:ToggleCollapsed();
 end
 
-TokenEntryMixin = {};--- @class TokenEntryMixin
+TokenEntryMixin = {}; --- @class TokenEntryMixin
 
 function TokenEntryMixin:OnLoad()
 	self.Content.AccountWideIcon:SetScript("OnLeave", function()
@@ -189,7 +189,7 @@ function TokenEntryMixin:OnLeave()
 	self:RefreshHighlightVisuals();
 end
 
-TokenEntryAccountWideIconMixin = {};--- @class TokenEntryAccountWideIconMixin
+TokenEntryAccountWideIconMixin = {}; --- @class TokenEntryAccountWideIconMixin
 
 function TokenEntryAccountWideIconMixin:OnEnter()
 	if not self:IsShown() then
@@ -210,7 +210,7 @@ function TokenEntryAccountWideIconMixin:GetCurrencyButton()
 	return self:GetParent():GetParent();
 end
 
-TokenSubHeaderMixin = {};--- @class TokenSubHeaderMixin
+TokenSubHeaderMixin = {}; --- @class TokenSubHeaderMixin
 
 function TokenSubHeaderMixin:Initialize(elementData)
 	self.elementData = elementData;
@@ -229,7 +229,7 @@ function TokenSubHeaderMixin:ToggleCollapsed()
 	TokenFrame.DetailFrame:ClearSelectionIfMissing();
 end
 
-TokenSubHeaderToggleCollapseButtonMixin = {};--- @class TokenSubHeaderToggleCollapseButtonMixin
+TokenSubHeaderToggleCollapseButtonMixin = {}; --- @class TokenSubHeaderToggleCollapseButtonMixin
 
 function TokenSubHeaderToggleCollapseButtonMixin:GetHeader()
 	return self:GetParent();
@@ -249,7 +249,7 @@ local TOKEN_FRAME_EVENTS = {
 	"ACCOUNT_CHARACTER_CURRENCY_DATA_RECEIVED",
 };
 
-TokenFrameMixin = {};--- @class TokenFrameMixin
+TokenFrameMixin = {}; --- @class TokenFrameMixin
 
 function TokenFrameMixin:OnLoad()
 	local view = CreateScrollBoxListLinearView();
@@ -471,7 +471,7 @@ function TokenFrameMixin:SetTokenWatched(id, watched)
 	return true;
 end
 
-TokenDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin);--- @class TokenDetailFrameMixin : CharacterFrameSidePaneMixin
+TokenDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin); --- @class TokenDetailFrameMixin : CharacterFrameSidePaneMixin
 
 local TOKEN_DETAIL_DESCRIPTION_HEIGHT = 90;
 local TOKEN_DETAIL_FOOTER_HEIGHT = 90;
@@ -576,7 +576,7 @@ function GetNumWatchedTokens()
 	return BackpackTokenFrame:GetNumWatchedTokens();
 end
 
-InactiveCurrencyCheckboxMixin = {};--- @class InactiveCurrencyCheckboxMixin
+InactiveCurrencyCheckboxMixin = {}; --- @class InactiveCurrencyCheckboxMixin
 
 function InactiveCurrencyCheckboxMixin:OnClick()
 	if ( self:GetChecked() ) then
@@ -605,7 +605,7 @@ function InactiveCurrencyCheckboxMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-BackpackCurrencyCheckboxMixin = {};--- @class BackpackCurrencyCheckboxMixin
+BackpackCurrencyCheckboxMixin = {}; --- @class BackpackCurrencyCheckboxMixin
 
 function BackpackCurrencyCheckboxMixin:OnClick()
 	local watched = self:GetChecked();
@@ -629,7 +629,7 @@ function BackpackCurrencyCheckboxMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-BackpackTokenFrameMixin = {};--- @class BackpackTokenFrameMixin
+BackpackTokenFrameMixin = {}; --- @class BackpackTokenFrameMixin
 
 function BackpackTokenFrameMixin:OnLoad()
 	EventRegistry:RegisterCallback("ContainerFrame.OnShowTokenWatcher", self.MarkDirty, self);
@@ -753,7 +753,7 @@ function BackpackTokenFrameMixin:GetMaxTokensWatched()
 	return math.max(math.floor(self:GetWidth() / self.tokenWidth), 1);
 end
 
-BackpackTokenMixin = {};--- @class BackpackTokenMixin
+BackpackTokenMixin = {}; --- @class BackpackTokenMixin
 
 function BackpackTokenMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");

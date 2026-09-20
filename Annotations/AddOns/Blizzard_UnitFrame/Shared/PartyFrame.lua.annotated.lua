@@ -3,7 +3,7 @@ PARTYBACKGROUND_OPACITY = PARTYBACKGROUND_OPACITY or nil;
 
 CVarCallbackRegistry:SetCVarCachable("showPartyPets");
 
-PartyFrameMixin={};--- @class PartyFrameMixin
+PartyFrameMixin={}; --- @class PartyFrameMixin
 
 function PartyFrameMixin:OnLoad()
 	local numDecimalPlaces = 2;
@@ -176,7 +176,7 @@ function PartyFrameMixin:UpdatePartyFrames()
 	end
 end
 
-PartyMemberBuffTooltipMixin = {};--- @class PartyMemberBuffTooltipMixin
+PartyMemberBuffTooltipMixin = {}; --- @class PartyMemberBuffTooltipMixin
 function PartyMemberBuffTooltipMixin:OnLoad()
 	self.PartyMemberBuffPool = CreateFramePool("BUTTON", self.BuffContainer, "PartyAuraFrameTemplate");
 	self.PartyMemberDebuffPool = CreateFramePool("BUTTON", self.DebuffContainer, "PartyAuraFrameTemplate");
@@ -267,7 +267,7 @@ function PartyMemberBuffTooltipMixin:UpdateTooltip(frame)
 	self:UpdateGridLayout(debuffFrames, numDebuffs, anchor);
 end
 
-PartyMemberBackgroundMixin={};--- @class PartyMemberBackgroundMixin
+PartyMemberBackgroundMixin={}; --- @class PartyMemberBackgroundMixin
 
 function PartyMemberBackgroundMixin:OnLoad()
 	self:RegisterEvent("VARIABLES_LOADED");

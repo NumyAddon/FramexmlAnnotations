@@ -1,4 +1,4 @@
-RightSideTabMixin = {};--- @class RightSideTabMixin
+RightSideTabMixin = {}; --- @class RightSideTabMixin
 
 function RightSideTabMixin:OnLoad()
 	self.Icon:SetTexture(self.iconTexture);

@@ -2,7 +2,7 @@ local HIGHLIGHT_ACTIVE_FRAME_LEVEL = 5;
 local HIGHLIGHT_INACTIVE_FRAME_LEVEL = 4;
 local LEFTSQUARE_RIGHTCIRCLE_STYLE = 0;
 
-GamepadActionBarMixin = {}--- @class GamepadActionBarMixin
+GamepadActionBarMixin = {} --- @class GamepadActionBarMixin
 
 function GamepadActionBarMixin:InitActionButtons()
 	self.actionButtons = {};

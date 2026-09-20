@@ -29,7 +29,7 @@ StaticPopupDialogs["LOADOUT_CONFIRM_SHARED_ACTION_BARS"] = {
 	wide = 1,
 };
 
-ClassTalentLoadoutEditDialogMixin = {};--- @class ClassTalentLoadoutEditDialogMixin
+ClassTalentLoadoutEditDialogMixin = {}; --- @class ClassTalentLoadoutEditDialogMixin
 
 function ClassTalentLoadoutEditDialogMixin:OnLoad()
 	self.exclusive = true;
@@ -100,7 +100,7 @@ function ClassTalentLoadoutEditDialogMixin:ShowDialog(configID)
 	self.configID = configID;
 end
 
-ClassTalentLoadoutEditDialogNameControlMixin = {}--- @class ClassTalentLoadoutEditDialogNameControlMixin
+ClassTalentLoadoutEditDialogNameControlMixin = {} --- @class ClassTalentLoadoutEditDialogNameControlMixin
 
 function ClassTalentLoadoutEditDialogNameControlMixin:OnShow()
 	ClassTalentLoadoutDialogNameControlMixin.OnShow(self);
@@ -119,7 +119,7 @@ function ClassTalentLoadoutEditDialogNameControlMixin:OnTextChanged()
 	self:GetParent():OnTextChanged();
 end
 
-UseSharedActionBarsMixin = {};--- @class UseSharedActionBarsMixin
+UseSharedActionBarsMixin = {}; --- @class UseSharedActionBarsMixin
 
 function UseSharedActionBarsMixin:OnEnter()
 	GameTooltip:SetOwner(self.CheckButton, "ANCHOR_RIGHT", 0, 0);

@@ -35,7 +35,7 @@ local function SortTableByCommitOrder(tbl)
 	end);
 end
 
-SettingsPanelMixin = {};--- @class SettingsPanelMixin
+SettingsPanelMixin = {}; --- @class SettingsPanelMixin
 
 function SettingsPanel_EscapePressed()
 	if SettingsPanel:IsShown() then

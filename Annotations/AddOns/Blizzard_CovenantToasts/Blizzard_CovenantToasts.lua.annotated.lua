@@ -12,7 +12,7 @@ function CovenantChoiceToasts.GetSwirlEffectsByTextureKit(textureKit)
 	return covenantSwirlEffects[textureKit];
 end
 
-CovenantCelebrationBannerMixin = {};--- @class CovenantCelebrationBannerMixin
+CovenantCelebrationBannerMixin = {}; --- @class CovenantCelebrationBannerMixin
 
 function CovenantCelebrationBannerMixin:CancelIconSwirlEffects()
 	self.IconSwirlModelScene:ClearEffects();

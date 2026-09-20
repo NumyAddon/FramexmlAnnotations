@@ -1,4 +1,4 @@
-ProfessionsEnchantSlotMixin = CreateFromMixins(ProfessionsRecipeSlotBaseMixin);--- @class ProfessionsEnchantSlotMixin : ProfessionsRecipeSlotBaseMixin
+ProfessionsEnchantSlotMixin = CreateFromMixins(ProfessionsRecipeSlotBaseMixin); --- @class ProfessionsEnchantSlotMixin : ProfessionsRecipeSlotBaseMixin
 
 function ProfessionsEnchantSlotMixin:Init(transaction)
 	ProfessionsRecipeSlotBaseMixin.Init(self);

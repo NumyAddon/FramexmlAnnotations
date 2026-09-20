@@ -1,6 +1,6 @@
 local SCROLL_BOX_EDGE_FADE_LENGTH = 30;
 
-LegacyChallengeDetailPaneMixin = {}--- @class LegacyChallengeDetailPaneMixin
+LegacyChallengeDetailPaneMixin = {} --- @class LegacyChallengeDetailPaneMixin
 
 function LegacyChallengeDetailPaneMixin:OnLoad()
 	AchievementFrameAchievements_OnLoad(self);

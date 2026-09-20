@@ -1,4 +1,4 @@
-BagSlotItemFlyInMixin = {};--- @class BagSlotItemFlyInMixin
+BagSlotItemFlyInMixin = {}; --- @class BagSlotItemFlyInMixin
 
 function BagSlotItemFlyInMixin:OnPlay()
 	self:GetParent().AnimIcon:Show();
@@ -8,7 +8,7 @@ function BagSlotItemFlyInMixin:OnFinished()
 	self:GetParent().AnimIcon:Hide();
 end
 
-BaseBagSlotButtonMixin = {};--- @class BaseBagSlotButtonMixin
+BaseBagSlotButtonMixin = {}; --- @class BaseBagSlotButtonMixin
 
 function BaseBagSlotButtonMixin:BagSlotOnLoad()
 	MainMenuBarBagManager:RegisterBagButton(self);
@@ -202,7 +202,7 @@ function BaseBagSlotButtonMixin:ClearHighlight()
 	self.SlotHighlightTexture:SetShown(false);
 end
 
-GamepadBagBarMixin = {};--- @class GamepadBagBarMixin
+GamepadBagBarMixin = {}; --- @class GamepadBagBarMixin
 
 function GamepadBagBarMixin:GetBagButton(bagID)
 	return self.BagButtonArray[bagID];
@@ -231,7 +231,7 @@ function GamepadBagBarMixin:OnLoad()
 	self:SetPoint("TOPRIGHT", ContainerFrameCombinedBags, "TOPRIGHT", -5, -19);
 end
 
-GamepadBagSlotButtonMixin = CreateFromMixins(BaseBagSlotButtonMixin);--- @class GamepadBagSlotButtonMixin : BaseBagSlotButtonMixin
+GamepadBagSlotButtonMixin = CreateFromMixins(BaseBagSlotButtonMixin); --- @class GamepadBagSlotButtonMixin : BaseBagSlotButtonMixin
 
 function GamepadBagSlotButtonMixin:BagSlotOnLoad()
 	-- We don't want to be registered to the MainMenuBarBagManager
@@ -260,7 +260,7 @@ function GamepadBagSlotButtonMixin:BagSlotOnHide()
 	EventRegistry:UnregisterCallback("ContainerFrameItemButton.ExitButton", self);
 end
 
-MainMenuBarBackpackMixin = CreateFromMixins(BaseBagSlotButtonMixin);--- @class MainMenuBarBackpackMixin : BaseBagSlotButtonMixin
+MainMenuBarBackpackMixin = CreateFromMixins(BaseBagSlotButtonMixin); --- @class MainMenuBarBackpackMixin : BaseBagSlotButtonMixin
 
 function MainMenuBarBackpackMixin:BagSlotOnShow()
 	-- Only here to prevent base object behavior
@@ -410,7 +410,7 @@ function MainMenuBarBackpackMixin:BagSlotOnDragStart(button)
 	-- prevent pick up
 end
 
-GamepadBackpackButtonMixin = CreateFromMixins(MainMenuBarBackpackMixin);--- @class GamepadBackpackButtonMixin : MainMenuBarBackpackMixin
+GamepadBackpackButtonMixin = CreateFromMixins(MainMenuBarBackpackMixin); --- @class GamepadBackpackButtonMixin : MainMenuBarBackpackMixin
 
 function GamepadBackpackButtonMixin:BagSlotOnLoad()
 	-- We don't want to be registered to the MainMenuBarBagManager
@@ -439,13 +439,13 @@ function GamepadBackpackButtonMixin:BagSlotOnHide()
 	EventRegistry:UnregisterCallback("ContainerFrameItemButton.ExitButton", self);
 end
 
-CharacterReagentBagMixin = {};--- @class CharacterReagentBagMixin
+CharacterReagentBagMixin = {}; --- @class CharacterReagentBagMixin
 
 function CharacterReagentBagMixin:SetBarExpanded(isExpanded)
 	-- Remains shown regardless of expand state
 end
 
-GamepadCharacterReagentBagMixin = CreateFromMixins(CharacterReagentBagMixin)--- @class GamepadCharacterReagentBagMixin : CharacterReagentBagMixin
+GamepadCharacterReagentBagMixin = CreateFromMixins(CharacterReagentBagMixin) --- @class GamepadCharacterReagentBagMixin : CharacterReagentBagMixin
 
 function GamepadCharacterReagentBagMixin:BagSlotOnLoad()
 	-- We don't want to be registered to the MainMenuBarBagManager
@@ -465,7 +465,7 @@ function GamepadCharacterReagentBagMixin:BagSlotOnClick(button, down)
 	end
 end
 
-GamepadKeyRingMixin = {}--- @class GamepadKeyRingMixin
+GamepadKeyRingMixin = {} --- @class GamepadKeyRingMixin
 
 function GamepadKeyRingMixin:OnLoad()
 	-- This does not currently exist in Camelot
@@ -494,7 +494,7 @@ function GamepadKeyRingMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-BagBarExpandToggleMixin = {};--- @class BagBarExpandToggleMixin
+BagBarExpandToggleMixin = {}; --- @class BagBarExpandToggleMixin
 
 function BagBarExpandToggleMixin:OnClick()
 	MainMenuBarBagManager:ToggleExpandBar();

@@ -1,5 +1,5 @@
 
-SimpleCheckoutMixin = {};--- @class SimpleCheckoutMixin
+SimpleCheckoutMixin = {}; --- @class SimpleCheckoutMixin
 
 local function GetAppropriateTopLevelParent()
 	return SimpleCheckoutOutbound.GetAppropriateTopLevelParent();
@@ -178,7 +178,7 @@ function SimpleCheckoutMixin:RecalculateSize()
 	SetOffsets(self.TopOutside, self.LeftOutside, self.BottomOutside, self.RightOutside, pixelSize, 0, 0, 0, 0);
 end
 
-SimpleCheckoutBackgroundMixin = {};--- @class SimpleCheckoutBackgroundMixin
+SimpleCheckoutBackgroundMixin = {}; --- @class SimpleCheckoutBackgroundMixin
 function SimpleCheckoutBackgroundMixin:OnLoad()
 	self:FixupToParent(GetAppropriateTopLevelParent());
 end

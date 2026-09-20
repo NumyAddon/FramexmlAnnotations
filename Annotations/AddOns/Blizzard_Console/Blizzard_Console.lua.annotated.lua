@@ -10,7 +10,7 @@ local SAVED_VARS_VERSION = 3;
 local MAX_NUM_COMMAND_HISTORY = 100;
 local MAX_NUM_MESSAGE_HISTORY = 1000;
 
-DeveloperConsoleMixin = {};--- @class DeveloperConsoleMixin
+DeveloperConsoleMixin = {}; --- @class DeveloperConsoleMixin
 
 
 function DeveloperConsoleMixin:OnLoad()

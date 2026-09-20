@@ -1,5 +1,5 @@
 Item = {};
-ItemMixin = {};--- @class ItemMixin
+ItemMixin = {}; --- @class ItemMixin
 
 --[[static]] function Item:CreateFromItemLocation(itemLocation)
 	if type(itemLocation) ~= "table" or type(itemLocation.HasAnyLocation) ~= "function" or not itemLocation:HasAnyLocation() then

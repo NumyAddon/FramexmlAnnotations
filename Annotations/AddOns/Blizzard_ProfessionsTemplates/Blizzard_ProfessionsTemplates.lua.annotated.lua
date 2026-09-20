@@ -135,7 +135,7 @@ local function GetHeaderNameFromSortOrder(sortOrder)
 	end
 end
 
-ProfessionsButtonMixin = {};--- @class ProfessionsButtonMixin
+ProfessionsButtonMixin = {}; --- @class ProfessionsButtonMixin
 
 function ProfessionsButtonMixin:OnLoad()
 	self.IconBorder:ClearAllPoints();
@@ -181,7 +181,7 @@ function ProfessionsButtonMixin:SetReagent(reagent, count)
 	self:SetItemButtonCount(count or 0);
 end
 
-ProfessionsReagentContainerMixin = {};--- @class ProfessionsReagentContainerMixin
+ProfessionsReagentContainerMixin = {}; --- @class ProfessionsReagentContainerMixin
 
 function ProfessionsReagentContainerMixin:OnLoad()
 	self:SetText(self.labelText);
@@ -191,7 +191,7 @@ function ProfessionsReagentContainerMixin:SetText(text)
 	self.Label:SetText(text);
 end
 
-ProfessionsCrafterTableHeaderStringMixin = CreateFromMixins(TableBuilderElementMixin);--- @class ProfessionsCrafterTableHeaderStringMixin : TableBuilderElementMixin
+ProfessionsCrafterTableHeaderStringMixin = CreateFromMixins(TableBuilderElementMixin); --- @class ProfessionsCrafterTableHeaderStringMixin : TableBuilderElementMixin
 
 function ProfessionsCrafterTableHeaderStringMixin:OnClick()
 	if not self.sortOrder then
@@ -226,7 +226,7 @@ function ProfessionsCrafterTableHeaderStringMixin:UpdateArrow()
 	end
 end
 
-ProfessionsTableBuilderMixin = {};--- @class ProfessionsTableBuilderMixin
+ProfessionsTableBuilderMixin = {}; --- @class ProfessionsTableBuilderMixin
 
 function ProfessionsTableBuilderMixin:AddColumnInternal(owner, sortOrder, cellTemplate, ...)
 	local column = self:AddColumn();
@@ -277,12 +277,12 @@ function ProfessionsTableBuilderMixin:AddUnsortableFillColumn(owner, padding, fi
 	return column;
 end
 
-ProfessionsTableCellTextMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsTableCellTextMixin : TableBuilderCellMixin
+ProfessionsTableCellTextMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsTableCellTextMixin : TableBuilderCellMixin
 
 function ProfessionsTableCellTextMixin:SetText(text)
 	self.Text:SetText(text);
 end
-ProfessionsCrafterTableCellNameMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCrafterTableCellNameMixin : TableBuilderCellMixin
+ProfessionsCrafterTableCellNameMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCrafterTableCellNameMixin : TableBuilderCellMixin
 
 function ProfessionsCrafterTableCellNameMixin:Populate(rowData, dataIndex)
 	local order = rowData;
@@ -290,7 +290,7 @@ function ProfessionsCrafterTableCellNameMixin:Populate(rowData, dataIndex)
 	ProfessionsTableCellTextMixin.SetText(self, text);
 end
 
-ProfessionsCrafterTableCellTipMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCrafterTableCellTipMixin : TableBuilderCellMixin
+ProfessionsCrafterTableCellTipMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCrafterTableCellTipMixin : TableBuilderCellMixin
 
 function ProfessionsCrafterTableCellTipMixin:Populate(rowData, dataIndex)
 	local order = rowData;
@@ -298,7 +298,7 @@ function ProfessionsCrafterTableCellTipMixin:Populate(rowData, dataIndex)
 	ProfessionsTableCellTextMixin.SetText(self, text);
 end
 
-ProfessionsCrafterTableCellQualityMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCrafterTableCellQualityMixin : TableBuilderCellMixin
+ProfessionsCrafterTableCellQualityMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCrafterTableCellQualityMixin : TableBuilderCellMixin
 
 function ProfessionsCrafterTableCellQualityMixin:Populate(rowData, dataIndex)
 	local order = rowData;
@@ -308,7 +308,7 @@ function ProfessionsCrafterTableCellQualityMixin:Populate(rowData, dataIndex)
 	ProfessionsTableCellTextMixin.SetText(self, text);
 end
 
-ProfessionsCrafterTableCellReagentsMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCrafterTableCellReagentsMixin : TableBuilderCellMixin
+ProfessionsCrafterTableCellReagentsMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCrafterTableCellReagentsMixin : TableBuilderCellMixin
 
 function ProfessionsCrafterTableCellReagentsMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
@@ -389,7 +389,7 @@ function ProfessionsCrafterTableCellReagentsMixin:OnLeave()
 	reagentIconFramePool:ReleaseAll();
 end
 
-ProfessionsCrafterTableCellCommissionMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCrafterTableCellCommissionMixin : TableBuilderCellMixin
+ProfessionsCrafterTableCellCommissionMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCrafterTableCellCommissionMixin : TableBuilderCellMixin
 
 local function OrderRewardFrameReset(pool, frame)
 	frame.Reward:Reset();
@@ -435,7 +435,7 @@ function ProfessionsCrafterTableCellCommissionMixin:Populate(rowData, dataIndex)
 	end
 end
 
-ProfessionsCrafterTableCellItemNameMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCrafterTableCellItemNameMixin : TableBuilderCellMixin
+ProfessionsCrafterTableCellItemNameMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCrafterTableCellItemNameMixin : TableBuilderCellMixin
 
 function ProfessionsCrafterTableCellItemNameMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
@@ -477,7 +477,7 @@ function ProfessionsCrafterTableCellItemNameMixin:Populate(rowData, dataIndex)
 	end);
 end
 
-ProfessionsCrafterTableCellExpirationMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCrafterTableCellExpirationMixin : TableBuilderCellMixin
+ProfessionsCrafterTableCellExpirationMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCrafterTableCellExpirationMixin : TableBuilderCellMixin
 
 function ProfessionsCrafterTableCellExpirationMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
@@ -510,21 +510,21 @@ function ProfessionsCrafterTableCellExpirationMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-ProfessionsCrafterTableCellNumAvailableMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCrafterTableCellNumAvailableMixin : TableBuilderCellMixin
+ProfessionsCrafterTableCellNumAvailableMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCrafterTableCellNumAvailableMixin : TableBuilderCellMixin
 
 function ProfessionsCrafterTableCellNumAvailableMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
 	ProfessionsTableCellTextMixin.SetText(self, order.numAvailable);
 end
 
-ProfessionsCrafterTableCellCustomerNameMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCrafterTableCellCustomerNameMixin : TableBuilderCellMixin
+ProfessionsCrafterTableCellCustomerNameMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCrafterTableCellCustomerNameMixin : TableBuilderCellMixin
 
 function ProfessionsCrafterTableCellCustomerNameMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
 	ProfessionsTableCellTextMixin.SetText(self, order.customerName);
 end
 
-ProfessionsCustomerTableCellItemNameMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCustomerTableCellItemNameMixin : TableBuilderCellMixin
+ProfessionsCustomerTableCellItemNameMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCustomerTableCellItemNameMixin : TableBuilderCellMixin
 
 function ProfessionsCustomerTableCellItemNameMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
@@ -549,7 +549,7 @@ function ProfessionsCustomerTableCellItemNameMixin:Populate(rowData, dataIndex)
 	end);
 end
 
-ProfessionsCustomerTableCellIlvlMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCustomerTableCellIlvlMixin : TableBuilderCellMixin
+ProfessionsCustomerTableCellIlvlMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCustomerTableCellIlvlMixin : TableBuilderCellMixin
 
 function ProfessionsCustomerTableCellIlvlMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
@@ -606,28 +606,28 @@ function ProfessionsCustomerTableCellIlvlMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-ProfessionsCustomerTableCellSlotsMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCustomerTableCellSlotsMixin : TableBuilderCellMixin
+ProfessionsCustomerTableCellSlotsMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCustomerTableCellSlotsMixin : TableBuilderCellMixin
 
 function ProfessionsCustomerTableCellSlotsMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
 	ProfessionsTableCellTextMixin.SetText(self, order.slots);
 end
 
-ProfessionsCustomerTableCellLevelMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCustomerTableCellLevelMixin : TableBuilderCellMixin
+ProfessionsCustomerTableCellLevelMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCustomerTableCellLevelMixin : TableBuilderCellMixin
 
 function ProfessionsCustomerTableCellLevelMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
 	ProfessionsTableCellTextMixin.SetText(self, order.level);
 end
 
-ProfessionsCustomerTableCellSkillMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCustomerTableCellSkillMixin : TableBuilderCellMixin
+ProfessionsCustomerTableCellSkillMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCustomerTableCellSkillMixin : TableBuilderCellMixin
 
 function ProfessionsCustomerTableCellSkillMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
 	ProfessionsTableCellTextMixin.SetText(self, order.skill);
 end
 
-ProfessionsCustomerTableCellStatusMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCustomerTableCellStatusMixin : TableBuilderCellMixin
+ProfessionsCustomerTableCellStatusMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCustomerTableCellStatusMixin : TableBuilderCellMixin
 
 function ProfessionsCustomerTableCellStatusMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
@@ -650,7 +650,7 @@ function ProfessionsCustomerTableCellStatusMixin:Populate(rowData, dataIndex)
 	ProfessionsTableCellTextMixin.SetText(self, statusText);
 end
 
-ProfessionsCustomerTableCellTypeMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCustomerTableCellTypeMixin : TableBuilderCellMixin
+ProfessionsCustomerTableCellTypeMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCustomerTableCellTypeMixin : TableBuilderCellMixin
 
 function ProfessionsCustomerTableCellTypeMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
@@ -667,7 +667,7 @@ function ProfessionsCustomerTableCellTypeMixin:Populate(rowData, dataIndex)
 	ProfessionsTableCellTextMixin.SetText(self, typeText);
 end
 
-ProfessionsCustomerTableCellExpirationMixin = CreateFromMixins(TableBuilderCellMixin);--- @class ProfessionsCustomerTableCellExpirationMixin : TableBuilderCellMixin
+ProfessionsCustomerTableCellExpirationMixin = CreateFromMixins(TableBuilderCellMixin); --- @class ProfessionsCustomerTableCellExpirationMixin : TableBuilderCellMixin
 
 function ProfessionsCustomerTableCellExpirationMixin:Populate(rowData, dataIndex)
 	local order = rowData.option;
@@ -713,7 +713,7 @@ function ProfessionsCustomerTableCellExpirationMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-ProfessionsRecipeListPanelMixin = {};--- @class ProfessionsRecipeListPanelMixin
+ProfessionsRecipeListPanelMixin = {}; --- @class ProfessionsRecipeListPanelMixin
 
 function ProfessionsRecipeListPanelMixin:StoreCollapses(scrollbox)
 	self.collapses = {};
@@ -732,7 +732,7 @@ function ProfessionsRecipeListPanelMixin:GetCollapses()
 	return self.collapses;
 end
 
-ProfessionsCurrencyMixin = {};--- @class ProfessionsCurrencyMixin
+ProfessionsCurrencyMixin = {}; --- @class ProfessionsCurrencyMixin
 
 function ProfessionsCurrencyMixin:SetCurrencyType(currencyType)
 	if self.currencyType == currencyType then
@@ -803,7 +803,7 @@ function ProfessionsCurrencyMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-ProfessionsCurrencyWithLabelMixin = CreateFromMixins(ProfessionsCurrencyMixin);--- @class ProfessionsCurrencyWithLabelMixin : ProfessionsCurrencyMixin
+ProfessionsCurrencyWithLabelMixin = CreateFromMixins(ProfessionsCurrencyMixin); --- @class ProfessionsCurrencyWithLabelMixin : ProfessionsCurrencyMixin
 
 function ProfessionsCurrencyWithLabelMixin:OnQuantityChanged(currencyInfo)
 	self.Amount:SetFormattedText(PROFESSIONS_CRAFTING_CURRENCY_LABEL_FORMAT, currencyInfo.quantity, currencyInfo.maxQuantity);
@@ -827,7 +827,7 @@ function ProfessionsCurrencyWithLabelMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-ProfessionsConcentrateToggleButtonMixin = CreateFromMixins(ProfessionsCurrencyMixin);--- @class ProfessionsConcentrateToggleButtonMixin : ProfessionsCurrencyMixin
+ProfessionsConcentrateToggleButtonMixin = CreateFromMixins(ProfessionsCurrencyMixin); --- @class ProfessionsConcentrateToggleButtonMixin : ProfessionsCurrencyMixin
 
 function ProfessionsConcentrateToggleButtonMixin:OnQuantityChanged(currencyInfo)
 	self:UpdateState();
@@ -946,7 +946,7 @@ function ProfessionsConcentrateToggleButtonMixin:OnClick()
 	end
 end
 
-local ProfessionsLargeRightTabMixin = CreateFromMixins(SidePanelTabButtonMixin);--- @class ProfessionsLargeRightTabMixin : SidePanelTabButtonMixin
+local ProfessionsLargeRightTabMixin = CreateFromMixins(SidePanelTabButtonMixin); --- @class ProfessionsLargeRightTabMixin : SidePanelTabButtonMixin
 
 function ProfessionsLargeRightTabMixin:OnLoad()
 	SidePanelTabButtonMixin.OnLoad(self);
@@ -971,7 +971,7 @@ function ProfessionsLargeRightTabMixin:CastProfessionSpell()
 	end
 end
 
-ProfessionsBookRightTabMixin = CreateFromMixins(ProfessionsLargeRightTabMixin);--- @class ProfessionsBookRightTabMixin : ProfessionsLargeRightTabMixin
+ProfessionsBookRightTabMixin = CreateFromMixins(ProfessionsLargeRightTabMixin); --- @class ProfessionsBookRightTabMixin : ProfessionsLargeRightTabMixin
 
 function ProfessionsBookRightTabMixin:OnClick()
 	ProfessionsFrame:SelectBookPage();
@@ -979,7 +979,7 @@ function ProfessionsBookRightTabMixin:OnClick()
 	ProfessionsFrame:RightTabSelected(self);
 end
 
-ProfessionsFrameRightTabMixin = CreateFromMixins(ProfessionsLargeRightTabMixin);--- @class ProfessionsFrameRightTabMixin : ProfessionsLargeRightTabMixin
+ProfessionsFrameRightTabMixin = CreateFromMixins(ProfessionsLargeRightTabMixin); --- @class ProfessionsFrameRightTabMixin : ProfessionsLargeRightTabMixin
 
 function ProfessionsFrameRightTabMixin:OnClick()
 	self:CastProfessionSpell();

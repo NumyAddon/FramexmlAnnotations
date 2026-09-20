@@ -1,4 +1,4 @@
-CommunitiesGuildPreferredPlaySettingsFrameMixin = {};--- @class CommunitiesGuildPreferredPlaySettingsFrameMixin
+CommunitiesGuildPreferredPlaySettingsFrameMixin = {}; --- @class CommunitiesGuildPreferredPlaySettingsFrameMixin
 
 local function GetLockoutSecondsRemaining(lastChangeDate, changeCooldownDays)
 	if not lastChangeDate or lastChangeDate <= 0 then

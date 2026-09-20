@@ -1,4 +1,4 @@
-EditModeSystemMixin = {};--- @class EditModeSystemMixin
+EditModeSystemMixin = {}; --- @class EditModeSystemMixin
 
 function EditModeSystemMixin:OnSystemLoad()
 	if not self.system then
@@ -925,7 +925,7 @@ end
 function EditModeSystemMixin:OnAnyEditModeSystemAnchorChanged()
 end
 
-EditModeActionBarSystemMixin = {};--- @class EditModeActionBarSystemMixin
+EditModeActionBarSystemMixin = {}; --- @class EditModeActionBarSystemMixin
 
 function EditModeActionBarSystemMixin:UpdateSystem(systemInfo)
 	EditModeSystemMixin.UpdateSystem(self, systemInfo);
@@ -1233,7 +1233,7 @@ function EditModeActionBarSystemMixin:AddExtraButtons(extraButtonPool)
 	return true;
 end
 
-EditModeUnitFrameSystemMixin = {};--- @class EditModeUnitFrameSystemMixin
+EditModeUnitFrameSystemMixin = {}; --- @class EditModeUnitFrameSystemMixin
 
 local function OpenRaidFrameSettings()
 	EditModeManagerFrame:CheckHideAndLockEditMode();
@@ -1620,7 +1620,7 @@ function EditModeUnitFrameSystemMixin:UpdateSystemSetting(setting, entireSystemU
 	self:ClearDirtySetting(setting);
 end
 
-EditModeBossUnitFrameSystemMixin = {};--- @class EditModeBossUnitFrameSystemMixin
+EditModeBossUnitFrameSystemMixin = {}; --- @class EditModeBossUnitFrameSystemMixin
 
 function EditModeBossUnitFrameSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -1651,7 +1651,7 @@ function EditModeBossUnitFrameSystemMixin:UpdateShownState()
 	ManageFramePositions();
 end
 
-EditModeArenaUnitFrameSystemMixin = {};--- @class EditModeArenaUnitFrameSystemMixin
+EditModeArenaUnitFrameSystemMixin = {}; --- @class EditModeArenaUnitFrameSystemMixin
 
 local function OpenPvpFrameSettings()
 	EditModeManagerFrame:CheckHideAndLockEditMode();
@@ -1707,7 +1707,7 @@ function EditModeArenaUnitFrameSystemMixin:AddExtraButtons(extraButtonPool)
 	return true;
 end
 
-EditModeMinimapSystemMixin = {};--- @class EditModeMinimapSystemMixin
+EditModeMinimapSystemMixin = {}; --- @class EditModeMinimapSystemMixin
 
 function EditModeMinimapSystemMixin:UpdateSystemSettingHeaderUnderneath()
 	self:SetHeaderUnderneath(self:GetSettingValueBool(Enum.EditModeMinimapSetting.HeaderUnderneath));
@@ -1752,7 +1752,7 @@ function EditModeMinimapSystemMixin:UpdateSystemSetting(setting, entireSystemUpd
 	self:ClearDirtySetting(setting);
 end
 
-EditModeCastBarSystemMixin = {};--- @class EditModeCastBarSystemMixin
+EditModeCastBarSystemMixin = {}; --- @class EditModeCastBarSystemMixin
 
 function EditModeCastBarSystemMixin:OnDragStart()
 	-- If we start dragging then unlock the cast bar from the player frame so it can move
@@ -1875,14 +1875,14 @@ function EditModeCastBarSystemMixin:UpdateSystemSetting(setting, entireSystemUpd
 	self:ClearDirtySetting(setting);
 end
 
-EditModeEncounterBarSystemMixin = {};--- @class EditModeEncounterBarSystemMixin
+EditModeEncounterBarSystemMixin = {}; --- @class EditModeEncounterBarSystemMixin
 
 function EditModeEncounterBarSystemMixin:ApplySystemAnchor()
 	EditModeSystemMixin.ApplySystemAnchor(self);
 	self:Layout();
 end
 
-EditModeExtraAbilitiesSystemMixin = {};--- @class EditModeExtraAbilitiesSystemMixin
+EditModeExtraAbilitiesSystemMixin = {}; --- @class EditModeExtraAbilitiesSystemMixin
 
 function EditModeExtraAbilitiesSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -1891,7 +1891,7 @@ function EditModeExtraAbilitiesSystemMixin:OnEditModeExit()
 	self:UpdateShownState();
 end
 
-EditModeAuraFrameSystemMixin = {};--- @class EditModeAuraFrameSystemMixin
+EditModeAuraFrameSystemMixin = {}; --- @class EditModeAuraFrameSystemMixin
 
 function EditModeAuraFrameSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2104,7 +2104,7 @@ function EditModeAuraFrameSystemMixin:UpdateSystemSetting(setting, entireSystemU
 	self:ClearDirtySetting(setting);
 end
 
-EditModeTalkingHeadFrameSystemMixin = {};--- @class EditModeTalkingHeadFrameSystemMixin
+EditModeTalkingHeadFrameSystemMixin = {}; --- @class EditModeTalkingHeadFrameSystemMixin
 
 function EditModeTalkingHeadFrameSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2113,7 +2113,7 @@ function EditModeTalkingHeadFrameSystemMixin:OnEditModeExit()
 	self:UpdateShownState();
 end
 
-EditModeChatFrameSystemMixin = {};--- @class EditModeChatFrameSystemMixin
+EditModeChatFrameSystemMixin = {}; --- @class EditModeChatFrameSystemMixin
 
 function EditModeChatFrameSystemMixin:UpdateSystem(systemInfo)
 	EditModeSystemMixin.UpdateSystem(self, systemInfo);
@@ -2216,7 +2216,7 @@ function EditModeChatFrameSystemMixin:UpdateSystemSetting(setting, entireSystemU
 	self:ClearDirtySetting(setting);
 end
 
-EditModeChatFrameResizeButtonMixin = {};--- @class EditModeChatFrameResizeButtonMixin
+EditModeChatFrameResizeButtonMixin = {}; --- @class EditModeChatFrameResizeButtonMixin
 
 function EditModeChatFrameResizeButtonMixin:OnMouseDown()
 	self:SetButtonState("PUSHED", true);
@@ -2235,7 +2235,7 @@ function EditModeChatFrameResizeButtonMixin:OnMouseUp()
 	chatFrame:EditMode_OnResized();
 end
 
-EditModeVehicleLeaveButtonSystemMixin = {};--- @class EditModeVehicleLeaveButtonSystemMixin
+EditModeVehicleLeaveButtonSystemMixin = {}; --- @class EditModeVehicleLeaveButtonSystemMixin
 
 function EditModeVehicleLeaveButtonSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2252,7 +2252,7 @@ function EditModeVehicleLeaveButtonSystemMixin:EditModeVehicleLeaveButtonSystem_
     EditModeManagerFrame:UpdateActionBarLayout(self);
 end
 
-EditModeLootFrameSystemMixin = {};--- @class EditModeLootFrameSystemMixin
+EditModeLootFrameSystemMixin = {}; --- @class EditModeLootFrameSystemMixin
 
 function EditModeLootFrameSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2274,7 +2274,7 @@ function EditModeLootFrameSystemMixin:ApplySystemAnchor()
 	self.editModeManuallyShown = not self:IsInDefaultPosition();
 end
 
-EditModeObjectiveTrackerSystemMixin = {};--- @class EditModeObjectiveTrackerSystemMixin
+EditModeObjectiveTrackerSystemMixin = {}; --- @class EditModeObjectiveTrackerSystemMixin
 
 function EditModeObjectiveTrackerSystemMixin:OnEditModeEnter()
 	EditModeSystemMixin.OnEditModeEnter(self);
@@ -2363,7 +2363,7 @@ function EditModeObjectiveTrackerSystemMixin:OnAnyEditModeSystemAnchorChanged()
 	ObjectiveTrackerFrame:Update(OBJECTIVE_TRACKER_UPDATE_MOVED);
 end
 
-EditModeMicroMenuSystemMixin = {};--- @class EditModeMicroMenuSystemMixin
+EditModeMicroMenuSystemMixin = {}; --- @class EditModeMicroMenuSystemMixin
 
 function EditModeMicroMenuSystemMixin:OnEditModeEnter()
 	EditModeSystemMixin.OnEditModeEnter(self);
@@ -2443,7 +2443,7 @@ function EditModeMicroMenuSystemMixin:UpdateSystemSetting(setting, entireSystemU
 	self:ClearDirtySetting(setting);
 end
 
-EditModeBagsSystemMixin = {};--- @class EditModeBagsSystemMixin
+EditModeBagsSystemMixin = {}; --- @class EditModeBagsSystemMixin
 
 local bagsDirectionTextTable =
 {
@@ -2526,7 +2526,7 @@ function EditModeBagsSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate
 	self:ClearDirtySetting(setting);
 end
 
-EditModeStatusTrackingBarSystemMixin = {};--- @class EditModeStatusTrackingBarSystemMixin
+EditModeStatusTrackingBarSystemMixin = {}; --- @class EditModeStatusTrackingBarSystemMixin
 
 function EditModeStatusTrackingBarSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2565,7 +2565,7 @@ function EditModeStatusTrackingBarSystemMixin:UpdateSystemSetting(setting, entir
 	self:ClearDirtySetting(setting);
 end
 
-EditModeStatusTrackingBar1SystemMixin = {};--- @class EditModeStatusTrackingBar1SystemMixin
+EditModeStatusTrackingBar1SystemMixin = {}; --- @class EditModeStatusTrackingBar1SystemMixin
 
 function EditModeStatusTrackingBar1SystemMixin:OnEditModeEnter()
 	EditModeSystemMixin.OnEditModeEnter(self);
@@ -2587,7 +2587,7 @@ function EditModeStatusTrackingBar1SystemMixin:GetSystemName()
 	return EditModeSystemMixin.GetSystemName(self);
 end
 
-EditModeDurabilityFrameSystemMixin = {};--- @class EditModeDurabilityFrameSystemMixin
+EditModeDurabilityFrameSystemMixin = {}; --- @class EditModeDurabilityFrameSystemMixin
 
 function EditModeDurabilityFrameSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2628,7 +2628,7 @@ local function UpdatePetFrameScale()
 	playerBottomManagedFrameContainer:Layout();
 end
 
-EditModePlayerFrameSystemMixin = {};--- @class EditModePlayerFrameSystemMixin
+EditModePlayerFrameSystemMixin = {}; --- @class EditModePlayerFrameSystemMixin
 
 function EditModePlayerFrameSystemMixin:ApplySystemAnchor()
 	EditModeSystemMixin.ApplySystemAnchor(self);
@@ -2645,7 +2645,7 @@ function EditModePlayerFrameSystemMixin:UpdateSystemSettingFrameSize()
 	PlayerCastingBarFrame:UpdateSystemSettingBarSize();
 end
 
-EditModePetFrameSystemMixin = {};--- @class EditModePetFrameSystemMixin
+EditModePetFrameSystemMixin = {}; --- @class EditModePetFrameSystemMixin
 
 function EditModePetFrameSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2658,7 +2658,7 @@ function EditModePetFrameSystemMixin:UpdateSystemSettingFrameSize()
 	UpdatePetFrameScale();
 end
 
-EditModeTimerBarsSystemMixin = {};--- @class EditModeTimerBarsSystemMixin
+EditModeTimerBarsSystemMixin = {}; --- @class EditModeTimerBarsSystemMixin
 
 function EditModeTimerBarsSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2685,7 +2685,7 @@ function EditModeTimerBarsSystemMixin:UpdateSystemSetting(setting, entireSystemU
 	self:ClearDirtySetting(setting);
 end
 
-EditModeSwingTimerSystemMixin = {};--- @class EditModeSwingTimerSystemMixin
+EditModeSwingTimerSystemMixin = {}; --- @class EditModeSwingTimerSystemMixin
 
 function EditModeSwingTimerSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2759,7 +2759,7 @@ function EditModeSwingTimerSystemMixin:UpdateSystemSetting(setting, entireSystem
 	self:ClearDirtySetting(setting);
 end
 
-EditModeVehicleSeatIndicatorSystemMixin = {};--- @class EditModeVehicleSeatIndicatorSystemMixin
+EditModeVehicleSeatIndicatorSystemMixin = {}; --- @class EditModeVehicleSeatIndicatorSystemMixin
 
 function EditModeVehicleSeatIndicatorSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2786,7 +2786,7 @@ function EditModeVehicleSeatIndicatorSystemMixin:UpdateSystemSetting(setting, en
 	self:ClearDirtySetting(setting);
 end
 
-EditModeTotemActionBarSystemMixin = {};--- @class EditModeTotemActionBarSystemMixin
+EditModeTotemActionBarSystemMixin = {}; --- @class EditModeTotemActionBarSystemMixin
 
 function EditModeTotemActionBarSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2805,7 +2805,7 @@ function EditModeTotemActionBarSystemMixin:UpdateSystemSetting(setting, entireSy
 	self:ClearDirtySetting(setting);
 end
 
-EditModeArchaeologyBarSystemMixin = {};--- @class EditModeArchaeologyBarSystemMixin
+EditModeArchaeologyBarSystemMixin = {}; --- @class EditModeArchaeologyBarSystemMixin
 
 function EditModeArchaeologyBarSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -2832,7 +2832,7 @@ function EditModeArchaeologyBarSystemMixin:UpdateSystemSetting(setting, entireSy
 	self:ClearDirtySetting(setting);
 end
 
-EditModeCooldownViewerSystemMixin = CreateFromMixins(EditModeSystemMixin);--- @class EditModeCooldownViewerSystemMixin : EditModeSystemMixin
+EditModeCooldownViewerSystemMixin = CreateFromMixins(EditModeSystemMixin); --- @class EditModeCooldownViewerSystemMixin : EditModeSystemMixin
 
 function EditModeCooldownViewerSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -3029,7 +3029,7 @@ function EditModeCooldownViewerSystemMixin:AddExtraButtons(extraButtonPool)
 	return true;
 end
 
-EditModeEncounterEventsSystemMixin = CreateFromMixins(EditModeSystemMixin);--- @class EditModeEncounterEventsSystemMixin : EditModeSystemMixin
+EditModeEncounterEventsSystemMixin = CreateFromMixins(EditModeSystemMixin); --- @class EditModeEncounterEventsSystemMixin : EditModeSystemMixin
 
 function EditModeEncounterEventsSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -3232,7 +3232,7 @@ local EditModeSystemSelectionLayout =
 	["Center"] = { atlas = "%s-NineSlice-Center", x = -8, y = 8, x1 = 8, y1 = -8, },
 };
 
-EditModeSystemSelectionBaseMixin = {};--- @class EditModeSystemSelectionBaseMixin
+EditModeSystemSelectionBaseMixin = {}; --- @class EditModeSystemSelectionBaseMixin
 
 function EditModeSystemSelectionBaseMixin:OnLoad()
 	self.parent = self:GetParent();
@@ -3337,14 +3337,14 @@ function EditModeSystemSelectionBaseMixin:GetLabelText()
 	return HUD_EDIT_MODE_INSTRUCTIONS_CLICK_TO_EDIT;
 end
 
-EditModeSystemSelectionMixin = CreateFromMixins(EditModeSystemSelectionBaseMixin);--- @class EditModeSystemSelectionMixin : EditModeSystemSelectionBaseMixin
+EditModeSystemSelectionMixin = CreateFromMixins(EditModeSystemSelectionBaseMixin); --- @class EditModeSystemSelectionMixin : EditModeSystemSelectionBaseMixin
 
 function EditModeSystemSelectionMixin:UpdateLabelVisibility()
 	self.Label:SetText(self:GetLabelText());
 	self.Label:SetShown(self:ShouldShowLabelText());
 end
 
-EditModeSystemSelectionDoubleLabelMixin = CreateFromMixins(EditModeSystemSelectionBaseMixin);--- @class EditModeSystemSelectionDoubleLabelMixin : EditModeSystemSelectionBaseMixin
+EditModeSystemSelectionDoubleLabelMixin = CreateFromMixins(EditModeSystemSelectionBaseMixin); --- @class EditModeSystemSelectionDoubleLabelMixin : EditModeSystemSelectionBaseMixin
 
 function EditModeSystemSelectionDoubleLabelMixin:SetVerticalState(vertical)
 	self.isVertical = vertical;
@@ -3361,7 +3361,7 @@ function EditModeSystemSelectionDoubleLabelMixin:UpdateLabelVisibility()
 	self.VerticalLabel:SetShown(showLabel and self.isVertical);
 end
 
-EditModePersonalResourceDisplaySystemMixin = {};--- @class EditModePersonalResourceDisplaySystemMixin
+EditModePersonalResourceDisplaySystemMixin = {}; --- @class EditModePersonalResourceDisplaySystemMixin
 
 function EditModePersonalResourceDisplaySystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -3498,7 +3498,7 @@ function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSetting(setting,
 	self:ClearDirtySetting(setting);
 end
 
-EditModeDamageMeterSystemMixin = CreateFromMixins(EditModeSystemMixin);--- @class EditModeDamageMeterSystemMixin : EditModeSystemMixin
+EditModeDamageMeterSystemMixin = CreateFromMixins(EditModeSystemMixin); --- @class EditModeDamageMeterSystemMixin : EditModeSystemMixin
 
 function EditModeDamageMeterSystemMixin:OnSystemLoad()
 	EditModeSystemMixin.OnSystemLoad(self);
@@ -3674,7 +3674,7 @@ function EditModeDamageMeterSystemMixin:OnUpdateSystem(anySettingsDirty)
 	end
 end
 
-EditModeRaidWarningSystemMixin = {};--- @class EditModeRaidWarningSystemMixin
+EditModeRaidWarningSystemMixin = {}; --- @class EditModeRaidWarningSystemMixin
 
 function EditModeRaidWarningSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);
@@ -3682,7 +3682,7 @@ function EditModeRaidWarningSystemMixin:OnEditModeExit()
 	self:SetIsInEditMode(false);
 end
 
-EditModeMainActionBarEndCapSystemMixin = {};--- @class EditModeMainActionBarEndCapSystemMixin
+EditModeMainActionBarEndCapSystemMixin = {}; --- @class EditModeMainActionBarEndCapSystemMixin
 
 function EditModeMainActionBarEndCapSystemMixin:AnchorSelectionFrame()
 	if self.systemIndex ~= self.lastSystemIndex then
@@ -3721,7 +3721,7 @@ function EditModeMainActionBarEndCapSystemMixin:UpdateSystemSetting(setting, ent
 	self:ClearDirtySetting(setting);
 end
 
-EditModeGroupFinderSystemMixin = {};--- @class EditModeGroupFinderSystemMixin
+EditModeGroupFinderSystemMixin = {}; --- @class EditModeGroupFinderSystemMixin
 
 function EditModeGroupFinderSystemMixin:ApplySystemAnchor()
 	EditModeSystemMixin.ApplySystemAnchor(self);
@@ -3756,7 +3756,7 @@ function EditModeGroupFinderSystemMixin:UpdateSystemSetting(setting, entireSyste
 	self:ClearDirtySetting(setting);
 end
 
-EditModeLossOfControlSystemMixin = {};--- @class EditModeLossOfControlSystemMixin
+EditModeLossOfControlSystemMixin = {}; --- @class EditModeLossOfControlSystemMixin
 
 function EditModeLossOfControlSystemMixin:OnEditModeExit()
 	EditModeSystemMixin.OnEditModeExit(self);

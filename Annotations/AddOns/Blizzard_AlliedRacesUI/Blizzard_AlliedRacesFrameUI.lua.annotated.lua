@@ -1,4 +1,4 @@
-AlliedRacesFrameMixin = { };--- @class AlliedRacesFrameMixin
+AlliedRacesFrameMixin = { }; --- @class AlliedRacesFrameMixin
 
 function AlliedRacesFrameMixin:UpdatedBannerColor(bannerColor)
 	self.Banner:SetVertexColor(bannerColor:GetRGB());
@@ -158,11 +158,11 @@ end
 
 --------------------------------------------------
 -- ALLIED RACES MODEL SCENE MIXIN
-AlliedRacesModelSceneMixin = CreateFromMixins(PanningModelSceneMixin);--- @class AlliedRacesModelSceneMixin : PanningModelSceneMixin
+AlliedRacesModelSceneMixin = CreateFromMixins(PanningModelSceneMixin); --- @class AlliedRacesModelSceneMixin : PanningModelSceneMixin
 
 --------------------------------------------------
 -- ALLIED RACES MALE BUTTON MIXIN
-AlliedRacesMaleButtonMixin = {};--- @class AlliedRacesMaleButtonMixin
+AlliedRacesMaleButtonMixin = {}; --- @class AlliedRacesMaleButtonMixin
 function AlliedRacesMaleButtonMixin:OnClick()
 	local alliedRaceModelFrame = self:GetParent();
 	alliedRaceModelFrame.AlliedRacesFemaleButton:SetChecked(false);
@@ -175,7 +175,7 @@ end
 
 --------------------------------------------------
 -- ALLIED RACES FEMALE BUTTON MIXIN
-AlliedRacesFemaleButtonMixin = {};--- @class AlliedRacesFemaleButtonMixin
+AlliedRacesFemaleButtonMixin = {}; --- @class AlliedRacesFemaleButtonMixin
 function AlliedRacesFemaleButtonMixin:OnClick()
 	local alliedRaceModelFrame = self:GetParent();
 	alliedRaceModelFrame.AlliedRacesMaleButton:SetChecked(false);
@@ -188,7 +188,7 @@ end
 
 --------------------------------------------------
 -- ALLIED RACE ABILITY MIXIN
-AlliedRaceAbilityMixin = {};--- @class AlliedRaceAbilityMixin
+AlliedRaceAbilityMixin = {}; --- @class AlliedRaceAbilityMixin
 function AlliedRaceAbilityMixin:OnEnter()
 	GameTooltip:SetOwner(self.Icon, "ANCHOR_RIGHT", 6, 0);
 	GameTooltip_SetTitle(GameTooltip, self.abilityName);

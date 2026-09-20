@@ -1,4 +1,4 @@
-FriendRequestsListSocialViewMixin = CreateFromMixins(SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin);--- @class FriendRequestsListSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
+FriendRequestsListSocialViewMixin = CreateFromMixins(SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin); --- @class FriendRequestsListSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
 
 local FriendRequestsListSocialViewStaticEvents =
 {
@@ -218,7 +218,7 @@ function FriendRequestsListSocialViewMixin:ShouldShowRealIDWarning()
 	return HasAnyRealIDInvites();
 end
 
-FriendRequestsListSocialCardAcceptButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class FriendRequestsListSocialCardAcceptButtonMixin : ButtonStateBehaviorMixin
+FriendRequestsListSocialCardAcceptButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class FriendRequestsListSocialCardAcceptButtonMixin : ButtonStateBehaviorMixin
 
 function FriendRequestsListSocialCardAcceptButtonMixin:OnLoad()
 	self:OnLoad_UserScaledElement();
@@ -289,7 +289,7 @@ function FriendRequestsListSocialCardAcceptButtonMixin:Initialize(elementData)
 	self.inviteID = elementData.inviteID;
 end
 
-FriendRequestsListSocialCardMixin = {};--- @class FriendRequestsListSocialCardMixin
+FriendRequestsListSocialCardMixin = {}; --- @class FriendRequestsListSocialCardMixin
 
 function FriendRequestsListSocialCardMixin:Initialize(node)
 	self:RefreshInviteData(node);
@@ -510,7 +510,7 @@ function FriendRequestsListSocialCardMixin:IsRealIDFriendRequest()
 	return self.elementData.friendLevel == Enum.BattleNetFriendLevel.RealID;
 end
 
-FriendRequestsListSocialCardDeclineButtonMixin = {};--- @class FriendRequestsListSocialCardDeclineButtonMixin
+FriendRequestsListSocialCardDeclineButtonMixin = {}; --- @class FriendRequestsListSocialCardDeclineButtonMixin
 
 function FriendRequestsListSocialCardDeclineButtonMixin:OnLoad()
 	UserScaledElementMixin.OnLoad_UserScaledElement(self);
@@ -551,7 +551,7 @@ function FriendRequestsListSocialCardDeclineButtonMixin:Initialize(elementData)
 	self.inviteIndex = elementData.inviteIndex;
 end
 
-FriendRequestsListRealIDWarningMixin = {};--- @class FriendRequestsListRealIDWarningMixin
+FriendRequestsListRealIDWarningMixin = {}; --- @class FriendRequestsListRealIDWarningMixin
 
 function FriendRequestsListRealIDWarningMixin:OnLoad()
 	self:InitializeScrollBox();

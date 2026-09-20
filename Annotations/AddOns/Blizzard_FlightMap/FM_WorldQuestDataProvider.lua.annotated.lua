@@ -1,10 +1,10 @@
-FlightMap_WorldQuestDataProviderMixin = CreateFromMixins(WorldQuestDataProviderMixin);--- @class FlightMap_WorldQuestDataProviderMixin : WorldQuestDataProviderMixin
+FlightMap_WorldQuestDataProviderMixin = CreateFromMixins(WorldQuestDataProviderMixin); --- @class FlightMap_WorldQuestDataProviderMixin : WorldQuestDataProviderMixin
 
 function FlightMap_WorldQuestDataProviderMixin:GetPinTemplate()
 	return "FlightMap_WorldQuestPinTemplate";
 end
 
-FlightMap_WorldQuestPinMixin = CreateFromMixins(WorldQuestPinMixin);--- @class FlightMap_WorldQuestPinMixin : WorldQuestPinMixin
+FlightMap_WorldQuestPinMixin = CreateFromMixins(WorldQuestPinMixin); --- @class FlightMap_WorldQuestPinMixin : WorldQuestPinMixin
 
 function FlightMap_WorldQuestPinMixin:OnLoad()
 	WorldQuestPinMixin.OnLoad(self);

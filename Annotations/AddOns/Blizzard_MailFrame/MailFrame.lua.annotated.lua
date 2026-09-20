@@ -20,7 +20,7 @@ local MAX_INBOX_SIZE = 100;
 local INBOX_FOCUS = "Inbox";
 local SEND_MAIL_FOCUS = "Send Mail";
 
-MailMixin = {};--- @class MailMixin
+MailMixin = {}; --- @class MailMixin
 
 function MailMixin:OnLoad()
 	self:SetPortraitToAsset("Interface\\MailFrame\\Mail-Icon");
@@ -256,7 +256,7 @@ function MailMixin:RefreshInbox()
 	end
 end
 
-InboxMixin = {};--- @class InboxMixin
+InboxMixin = {}; --- @class InboxMixin
 
 function InboxMixin:OnLoad()
 	self:RegisterForTransitions();
@@ -512,7 +512,7 @@ function InboxFrameItem_OnEnter(self)
 	GameTooltip:Show();
 end
 
-InboxNextPageMixin = {};--- @class InboxNextPageMixin
+InboxNextPageMixin = {}; --- @class InboxNextPageMixin
 
 function InboxNextPageMixin:OnClick()
 	if not self:IsEnabled() then
@@ -532,7 +532,7 @@ function InboxNextPageMixin:NextPage()
 	end
 end
 
-InboxPrevPageMixin = {};--- @class InboxPrevPageMixin
+InboxPrevPageMixin = {}; --- @class InboxPrevPageMixin
 
 function InboxPrevPageMixin:OnClick()
 	if not self:IsEnabled() then
@@ -554,7 +554,7 @@ end
 
 -- Open Mail functions
 
-OpenMailMixin = {};--- @class OpenMailMixin
+OpenMailMixin = {}; --- @class OpenMailMixin
 
 function OpenMailMixin:OnLoad()
 	self:RegisterForTransitions();
@@ -1077,7 +1077,7 @@ function OpenMailMixin:GetItemCounts(letterIsTakeable, textCreated, money)
 	return itemButtonCount, numRows;
 end
 
-OpenMailReplyMixin = {};--- @class OpenMailReplyMixin
+OpenMailReplyMixin = {}; --- @class OpenMailReplyMixin
 
 function OpenMailReplyMixin:OnClick()
 	self:Reply();
@@ -1099,7 +1099,7 @@ function OpenMailReplyMixin:Reply()
 	SendMailFrame.replyMailID = InboxFrame.openMailID;
 end
 
-OpenMailDeleteMixin = {};--- @class OpenMailDeleteMixin
+OpenMailDeleteMixin = {}; --- @class OpenMailDeleteMixin
 
 function OpenMailDeleteMixin:OnClick()
 	self:Delete();
@@ -1124,7 +1124,7 @@ function OpenMailDeleteMixin:Delete()
 	HideUIPanel(OpenMailFrame);
 end
 
-OpenMailReportSpamMixin = {};--- @class OpenMailReportSpamMixin
+OpenMailReportSpamMixin = {}; --- @class OpenMailReportSpamMixin
 
 function OpenMailReportSpamMixin:OnClick()
 	self:ReportSpam();
@@ -1175,7 +1175,7 @@ end
 
 -- SendMail functions
 
-SendMailMixin = {};--- @class SendMailMixin
+SendMailMixin = {}; --- @class SendMailMixin
 
 function SendMailMixin:OnLoad()
 	SendMailErrorText:SetPoint("BOTTOMLEFT", "SendMailMoneyText", "TOPLEFT", 0, 2);
@@ -1231,7 +1231,7 @@ function SendMailMixin:UnfocusGamepad()
 	self.gamepadFooter:HideAndDeactivateBindings();
 end
 
-SendMailScrollChildMixin = {};--- @class SendMailScrollChildMixin
+SendMailScrollChildMixin = {}; --- @class SendMailScrollChildMixin
 
 function SendMailScrollChildMixin:OnMouseUp()
 	SendMailBodyEditBox:SetFocus();
@@ -1240,13 +1240,13 @@ function SendMailScrollChildMixin:OnMouseUp()
 	end
 end
 
-SendMailScrollFrameGamepadFocusAreaMixin = {};--- @class SendMailScrollFrameGamepadFocusAreaMixin
+SendMailScrollFrameGamepadFocusAreaMixin = {}; --- @class SendMailScrollFrameGamepadFocusAreaMixin
 
 function SendMailScrollFrameGamepadFocusAreaMixin:OnMouseUp()
 	SendMailScrollChildFrame:OnMouseUp();
 end
 
-SendMailButtonMixin = {};--- @class SendMailButtonMixin
+SendMailButtonMixin = {}; --- @class SendMailButtonMixin
 
 function SendMailButtonMixin:OnClick()
 	self:Disable();
@@ -1509,7 +1509,7 @@ end
 
 local OPEN_ALL_MAIL_MIN_DELAY = 0.15;
 
-OpenAllMailMixin = {};--- @class OpenAllMailMixin
+OpenAllMailMixin = {}; --- @class OpenAllMailMixin
 
 function OpenAllMailMixin:Reset()
 	self.mailIndex = 1;

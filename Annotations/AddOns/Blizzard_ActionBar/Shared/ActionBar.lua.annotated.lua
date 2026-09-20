@@ -1,4 +1,4 @@
-ActionBarMixin = {}--- @class ActionBarMixin
+ActionBarMixin = {} --- @class ActionBarMixin
 
 function ActionBarMixin:ActionBar_OnLoad()
 	self.numButtonsShowable = self.numButtons;
@@ -255,7 +255,7 @@ function ActionBarMixin:GetSpellFlyoutDirection()
 	return self.flyoutDirection;
 end
 
-EditModeActionBarMixin = {}--- @class EditModeActionBarMixin
+EditModeActionBarMixin = {} --- @class EditModeActionBarMixin
 
 function EditModeActionBarMixin:EditModeActionBar_OnLoad()
 	self:ActionBar_OnLoad();

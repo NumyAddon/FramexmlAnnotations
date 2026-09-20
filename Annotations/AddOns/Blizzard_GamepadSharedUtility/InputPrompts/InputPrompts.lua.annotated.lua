@@ -20,7 +20,7 @@ local DIVIDER_SPACING_INFO =
 
 local TEXT_LEFT_PADDING_FOLLOWING_ICON = 4;
 
-InputPromptMixin = {};--- @class InputPromptMixin
+InputPromptMixin = {}; --- @class InputPromptMixin
 
 function InputPromptMixin:SetPromptInputIconKey(promptIconID, newInputKey)
 	local iconTextureWithID = self.InputIcons[promptIconID];

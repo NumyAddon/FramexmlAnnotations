@@ -2,7 +2,7 @@
 -- Action Bar Styling --
 ------------------------
 local gamepadActionBarStyleInfo = {};
-local GamepadActionBarStyleInfoMixin = {};--- @class GamepadActionBarStyleInfoMixin
+local GamepadActionBarStyleInfoMixin = {}; --- @class GamepadActionBarStyleInfoMixin
 local ACTION_BAR_GROUPS = { LEFT = "leftGroup", RIGHT = "rightGroup" };
 local ACTION_BUTTONS = { LEFT = 1, TOP = 2, RIGHT = 3, BOTTOM = 4 };
 local ACTION_STATES = { NORMAL = "NORMAL", PUSHED = "PUSHED"};

@@ -2,7 +2,7 @@ local TIMER_PANEL_BASE_HEIGHT = 43;
 local TIMER_ROW_HEIGHT = 16;
 local OBJECTIVE_PANEL_SPACING = 18;
 
-QuestTimerMixin = {};--- @class QuestTimerMixin
+QuestTimerMixin = {}; --- @class QuestTimerMixin
 
 function QuestTimerMixin:OnLoad()
 	self.numTimers = 0;

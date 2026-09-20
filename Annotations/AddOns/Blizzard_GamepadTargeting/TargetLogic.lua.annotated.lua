@@ -2,7 +2,7 @@
 	Handles logic and controls for targeting
 ]]
 
-local GamepadTargetLogicMixin = {};--- @class GamepadTargetLogicMixin
+local GamepadTargetLogicMixin = {}; --- @class GamepadTargetLogicMixin
 
 function GamepadTargetLogicMixin:ConsumeModifier()
 	self.wasModifierUsed = true;

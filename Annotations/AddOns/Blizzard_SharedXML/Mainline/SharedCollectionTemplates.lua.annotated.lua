@@ -1,4 +1,4 @@
-WarbandSceneEntryMixin = {};--- @class WarbandSceneEntryMixin
+WarbandSceneEntryMixin = {}; --- @class WarbandSceneEntryMixin
 
 function WarbandSceneEntryMixin:OnMouseUp(button, upInside)
 	local warbandSceneID = self:GetWarbandSceneID();

@@ -45,7 +45,7 @@ end
 -- almost everything that mixin provides is to override one specific bar on a specific page, based
 -- on the setting of a cvar. The target actions bars instead need to always override the top bar on
 -- every page.
-local StaticOverrideActionBarMixin = CreateFromMixins(GamepadActionBarMixin);--- @class StaticOverrideActionBarMixin : GamepadActionBarMixin
+local StaticOverrideActionBarMixin = CreateFromMixins(GamepadActionBarMixin); --- @class StaticOverrideActionBarMixin : GamepadActionBarMixin
 
 function StaticOverrideActionBarMixin:OnLoad()
 	GamepadActionBarMixin.OnLoad(self);

@@ -8,7 +8,7 @@
 
 --------------------------- Base Mixin --------------------------------
 
-BaseSpellBookCategoryMixin = {};--- @class BaseSpellBookCategoryMixin
+BaseSpellBookCategoryMixin = {}; --- @class BaseSpellBookCategoryMixin
 
 function BaseSpellBookCategoryMixin:Init(spellBookFrame)
 	self.spellBookFrame = spellBookFrame;
@@ -172,7 +172,7 @@ end
 
 --------------------------- Class and Specializations --------------------------------
 
-SpellBookClassCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin);--- @class SpellBookClassCategoryMixin : BaseSpellBookCategoryMixin
+SpellBookClassCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin); --- @class SpellBookClassCategoryMixin : BaseSpellBookCategoryMixin
 
 function SpellBookClassCategoryMixin:Init(spellBookFrame)
 	self.displayName = PlayerUtil.GetClassName();
@@ -254,7 +254,7 @@ end
 
 --------------------------- General --------------------------------
 
-SpellBookGeneralCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin);--- @class SpellBookGeneralCategoryMixin : BaseSpellBookCategoryMixin
+SpellBookGeneralCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin); --- @class SpellBookGeneralCategoryMixin : BaseSpellBookCategoryMixin
 
 function SpellBookGeneralCategoryMixin:Init(spellBookFrame)
 	self.displayName = GENERAL_SPELLS;
@@ -307,7 +307,7 @@ end
 
 --------------------------- Pet --------------------------------
 
-SpellBookPetCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin);--- @class SpellBookPetCategoryMixin : BaseSpellBookCategoryMixin
+SpellBookPetCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin); --- @class SpellBookPetCategoryMixin : BaseSpellBookCategoryMixin
 
 function SpellBookPetCategoryMixin:Init(spellBookFrame)
 	self.displayName = PET;
@@ -351,7 +351,7 @@ end
 
 --------------------------- Single Skill Line (Classic-Style) --------------------------------
 
-SpellBookSingleSkillLineCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin);--- @class SpellBookSingleSkillLineCategoryMixin : BaseSpellBookCategoryMixin
+SpellBookSingleSkillLineCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin); --- @class SpellBookSingleSkillLineCategoryMixin : BaseSpellBookCategoryMixin
 
 function SpellBookSingleSkillLineCategoryMixin:Init(spellBookFrame, skillLineIndex)
 	self.skillLineIndex = skillLineIndex;
@@ -405,7 +405,7 @@ end
 
 --------------------------- Transmog --------------------------------
 
-SpellBookTransmogCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin);--- @class SpellBookTransmogCategoryMixin : BaseSpellBookCategoryMixin
+SpellBookTransmogCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin); --- @class SpellBookTransmogCategoryMixin : BaseSpellBookCategoryMixin
 
 -- Search infrastructure assumes SpellBookItems are uniquely identified by (spellBank, slotIndex). Transmog outfits are not real spellbook
 -- entries, so use an offset range to avoid collisions with actual spellbook slot indices.

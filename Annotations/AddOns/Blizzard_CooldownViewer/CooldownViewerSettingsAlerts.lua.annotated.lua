@@ -1,4 +1,4 @@
-CooldownViewerSettingsEditAlertMixin = CreateFromMixins(CooldownViewerEditAlertBaseMixin);--- @class CooldownViewerSettingsEditAlertMixin : CooldownViewerEditAlertBaseMixin
+CooldownViewerSettingsEditAlertMixin = CreateFromMixins(CooldownViewerEditAlertBaseMixin); --- @class CooldownViewerSettingsEditAlertMixin : CooldownViewerEditAlertBaseMixin
 
 function CooldownViewerSettingsEditAlertMixin:OnLoad()
 	CooldownViewerEditAlertBaseMixin.OnLoad(self);

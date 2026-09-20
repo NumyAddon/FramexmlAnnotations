@@ -9,7 +9,7 @@ local whoSortValue = 1;
 -------------------------------------------------------
 ----------LFGWhoListButtonMixin
 -------------------------------------------------------
-LFGWhoListButtonMixin = {};--- @class LFGWhoListButtonMixin
+LFGWhoListButtonMixin = {}; --- @class LFGWhoListButtonMixin
 
 function LFGWhoListButtonMixin:OnClick(button)
 	if button == "LeftButton" then
@@ -90,7 +90,7 @@ end
 -------------------------------------------------------
 ----------WhoFrameEditBoxMixin
 -------------------------------------------------------
-WhoFrameEditBoxMixin = {};--- @class WhoFrameEditBoxMixin
+WhoFrameEditBoxMixin = {}; --- @class WhoFrameEditBoxMixin
 
 function WhoFrameEditBoxMixin:OnLoad()
 	-- Hiding this art so we can show the backdrop instead
@@ -149,7 +149,7 @@ end
 -------------------------------------------------------
 ----------WhoSearchMixin
 -------------------------------------------------------
-WhoSearchMixin = {};--- @class WhoSearchMixin
+WhoSearchMixin = {}; --- @class WhoSearchMixin
 function WhoSearchMixin:OnClick()
 	local searchText = LFGWhoListFrame.EditBox:GetText();
 	C_FriendList.SendWho(searchText, Enum.SocialWhoOrigin.Social);
@@ -159,7 +159,7 @@ end
 -------------------------------------------------------
 ----------LFGWhoListMixin
 -------------------------------------------------------
-LFGWhoListMixin = {};--- @class LFGWhoListMixin
+LFGWhoListMixin = {}; --- @class LFGWhoListMixin
 
 function LFGWhoListMixin:OnLoad()
 	self:RegisterEvent("WHO_LIST_UPDATE");

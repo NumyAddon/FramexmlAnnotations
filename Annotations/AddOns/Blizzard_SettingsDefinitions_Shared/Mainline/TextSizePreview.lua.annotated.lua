@@ -1,4 +1,4 @@
-AccessibilityFontPreviewMixin = CreateFromMixins(AccessibilitySettingsPreviewMixin);--- @class AccessibilityFontPreviewMixin : AccessibilitySettingsPreviewMixin
+AccessibilityFontPreviewMixin = CreateFromMixins(AccessibilitySettingsPreviewMixin); --- @class AccessibilityFontPreviewMixin : AccessibilitySettingsPreviewMixin
 
 function AccessibilityFontPreviewMixin:UpdatePreview(value)
 	self.TitleText:SetFontHeight(TextSizeManager:GetResizedFontHeight("UserScaledFontHeader", value));

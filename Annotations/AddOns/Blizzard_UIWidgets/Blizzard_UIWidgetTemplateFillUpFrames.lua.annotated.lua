@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.FillUpFrames, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateFillUpFrames"}, GetFillUpFramesVisInfoData);
 
-UIWidgetTemplateFillUpFramesMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateFillUpFramesMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateFillUpFramesMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateFillUpFramesMixin : UIWidgetBaseTemplateMixin
 
 local decorFormatStringDefault = "%s_decor";
 local decorFormatStringExtra = "%s_decor_%s";
@@ -140,7 +140,7 @@ function UIWidgetTemplateFillUpFramesMixin:ApplyEffects(widgetInfo)
 	-- Intentionally empty, we apply the effect on the frames themselves when they are full
 end
 
-UIWidgetFillUpFrameTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin);--- @class UIWidgetFillUpFrameTemplateMixin : UIWidgetTemplateTooltipFrameMixin
+UIWidgetFillUpFrameTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin); --- @class UIWidgetFillUpFrameTemplateMixin : UIWidgetTemplateTooltipFrameMixin
 
 local frameTextureKitRegions = {
 	BG = "%s_background",
@@ -311,20 +311,20 @@ function UIWidgetFillUpFrameTemplateMixin:Setup(widgetContainer, textureKit, isF
 	self:Layout();
 end
 
-DecorFlipbookAnimMixin = {}--- @class DecorFlipbookAnimMixin
+DecorFlipbookAnimMixin = {} --- @class DecorFlipbookAnimMixin
 
 function DecorFlipbookAnimMixin:OnAnimFinished()
 	self:GetParent().DecorFlipbookLeft:Hide();
 	self:GetParent().DecorFlipbookRight:Hide();
 end
 
-FilledFlipbookAnimMixin = {}--- @class FilledFlipbookAnimMixin
+FilledFlipbookAnimMixin = {} --- @class FilledFlipbookAnimMixin
 
 function FilledFlipbookAnimMixin:OnAnimFinished()
 	self:GetParent().FilledFlipbook:Hide();
 end
 
-BurstFlipbookAnimMixin = {}--- @class BurstFlipbookAnimMixin
+BurstFlipbookAnimMixin = {} --- @class BurstFlipbookAnimMixin
 
 function BurstFlipbookAnimMixin:OnAnimFinished()
 	self:GetParent().BurstFlipbook:Hide();

@@ -23,7 +23,7 @@
 	|_____________________________________| |_____________________________________|
 ]]
 
-PagedContentFrameBaseMixin = CreateFromMixins(CallbackRegistryMixin);--- @class PagedContentFrameBaseMixin : CallbackRegistryMixin
+PagedContentFrameBaseMixin = CreateFromMixins(CallbackRegistryMixin); --- @class PagedContentFrameBaseMixin : CallbackRegistryMixin
 
 PagedContentFrameBaseMixin:GenerateCallbackEvents(
 	{

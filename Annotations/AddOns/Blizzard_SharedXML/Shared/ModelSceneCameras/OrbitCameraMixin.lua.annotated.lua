@@ -8,7 +8,7 @@
 	This is ideal for changing view points based on zoom distance from the target. For example, target model's face on zoom in and center on the model on zoom out.
 ]]
 
-OrbitCameraMixin = CreateFromMixins(CameraBaseMixin);--- @class OrbitCameraMixin : CameraBaseMixin
+OrbitCameraMixin = CreateFromMixins(CameraBaseMixin); --- @class OrbitCameraMixin : CameraBaseMixin
 
 local CAMERA_NAME = "OrbitCamera";
 CameraRegistry:AddCameraFactoryFromMixin(CAMERA_NAME, OrbitCameraMixin);

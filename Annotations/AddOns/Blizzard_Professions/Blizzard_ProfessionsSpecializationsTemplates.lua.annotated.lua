@@ -26,7 +26,7 @@ function ProfessionDial_GetRelativeRotation(currRank, maxRank, inPct)
 end
 
 
-ProfessionSpecTabMixin = {};--- @class ProfessionSpecTabMixin
+ProfessionSpecTabMixin = {}; --- @class ProfessionSpecTabMixin
 
 local ProfessionSpecTabEvents =
 {
@@ -173,7 +173,7 @@ function ProfessionSpecTabMixin:Init(traitTreeID)
 end
 
 
-ProfessionsSpecPathMixin = CreateFromMixins(TalentButtonSpendMixin);--- @class ProfessionsSpecPathMixin : TalentButtonSpendMixin
+ProfessionsSpecPathMixin = CreateFromMixins(TalentButtonSpendMixin); --- @class ProfessionsSpecPathMixin : TalentButtonSpendMixin
 
 function ProfessionsSpecPathMixin:Reset()
 	self.state = nil;
@@ -585,7 +585,7 @@ end
 ProfessionsSpecPathMixin.UpdateEntryInfo = TalentDisplayMixin.UpdateEntryInfo;
 
 
-ProfessionsSpecPerkMixin = CreateFromMixins(TalentDisplayMixin);--- @class ProfessionsSpecPerkMixin : TalentDisplayMixin
+ProfessionsSpecPerkMixin = CreateFromMixins(TalentDisplayMixin); --- @class ProfessionsSpecPerkMixin : TalentDisplayMixin
 
 function ProfessionsSpecPerkMixin:OnLoad()
 	self:ApplySize(self:GetSize());
@@ -773,7 +773,7 @@ function ProfessionsSpecPerkMixin:UpdateAssets()
 end
 
 
-ProfessionSpecEdgeArrowMixin = {};--- @class ProfessionSpecEdgeArrowMixin
+ProfessionSpecEdgeArrowMixin = {}; --- @class ProfessionSpecEdgeArrowMixin
 
 function ProfessionSpecEdgeArrowMixin:UpdateState() -- Override
 	local endButton = self:GetEndButton();

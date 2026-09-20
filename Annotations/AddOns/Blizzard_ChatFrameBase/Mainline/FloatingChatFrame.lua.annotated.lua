@@ -81,7 +81,7 @@ local function FCF_SetTabFixedWidth(tab, width)
 	tab:SetWidth(width);
 end
 
-FloatingChatFrameMixin = CreateFromMixins(ChatFrameMixin);--- @class FloatingChatFrameMixin : ChatFrameMixin
+FloatingChatFrameMixin = CreateFromMixins(ChatFrameMixin); --- @class FloatingChatFrameMixin : ChatFrameMixin
 
 EventRegistry:RegisterForOnUpdate(FloatingChatFrameMixin, function(_, elapsed)
 	FCF_OnUpdate(elapsed);
@@ -434,7 +434,7 @@ function FloatingChatFrame_UpdateScroll(self)
 	end
 end
 
-PrimaryChatFrameMixin = CreateFromMixins(FloatingChatFrameMixin);--- @class PrimaryChatFrameMixin : FloatingChatFrameMixin
+PrimaryChatFrameMixin = CreateFromMixins(FloatingChatFrameMixin); --- @class PrimaryChatFrameMixin : FloatingChatFrameMixin
 
 function PrimaryChatFrameMixin:OnLoad()
 	-- Edit Mode doesn't exist at glues
@@ -2009,7 +2009,7 @@ function IsBuiltinChatWindow(frame)
 	return ( frame == DEFAULT_CHAT_FRAME ) or IsCombatLog(frame) or IsVoiceTranscription(frame);
 end
 
-FloatingChatFrameClickAnywhereButtonMixin = {};--- @class FloatingChatFrameClickAnywhereButtonMixin
+FloatingChatFrameClickAnywhereButtonMixin = {}; --- @class FloatingChatFrameClickAnywhereButtonMixin
 
 function FloatingChatFrameClickAnywhereButtonMixin:OnLoad()
 	self:SetFrameLevel(self:GetParent():GetFrameLevel() - 1);
@@ -2173,7 +2173,7 @@ To keep with this, please ensure that "dock" is the first argument of every func
 
 local MAX_RESERVED_LEFT_PADDING_FOR_RIGHT_TAB_HINT = 3;
 
-FloatingChatFrameDockMixin = {}--- @class FloatingChatFrameDockMixin
+FloatingChatFrameDockMixin = {} --- @class FloatingChatFrameDockMixin
 
 function FloatingChatFrameDockMixin:OnLoad()
 	self.DOCKED_CHAT_FRAMES = {};

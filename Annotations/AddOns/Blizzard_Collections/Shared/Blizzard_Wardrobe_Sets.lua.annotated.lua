@@ -69,7 +69,7 @@ local IN_PROGRESS_FONT_COLOR_CODE = "|cff40c040";
 
 local SetsDataProvider = CreateFromMixins(WardrobeSetsDataProviderMixin);
 
-WardrobeSetsCollectionMixin = {};--- @class WardrobeSetsCollectionMixin
+WardrobeSetsCollectionMixin = {}; --- @class WardrobeSetsCollectionMixin
 
 function WardrobeSetsCollectionMixin:OnLoad()
 	self.RightInset.BGCornerTopLeft:Hide();
@@ -509,7 +509,7 @@ function WardrobeSetsCollectionMixin:ScrollToSet(setID, alignment)
 	scrollBox:ScrollToElementDataByPredicate(FindSet, alignment);
 end
 
-WardrobeSetsScrollFrameButtonMixin = {};--- @class WardrobeSetsScrollFrameButtonMixin
+WardrobeSetsScrollFrameButtonMixin = {}; --- @class WardrobeSetsScrollFrameButtonMixin
 
 function WardrobeSetsScrollFrameButtonMixin:Init(elementData)
 	local displayData = elementData;
@@ -597,7 +597,7 @@ function WardrobeSetsScrollFrameButtonMixin:OnClick(buttonName, down)
 	end
 end
 
-WardrobeSetsScrollFrameButtonIconFrameMixin = {};--- @class WardrobeSetsScrollFrameButtonIconFrameMixin
+WardrobeSetsScrollFrameButtonIconFrameMixin = {}; --- @class WardrobeSetsScrollFrameButtonIconFrameMixin
 
 function WardrobeSetsScrollFrameButtonIconFrameMixin:OnEnter()
 	self:DisplaySetTooltip();
@@ -671,7 +671,7 @@ function WardrobeSetsScrollFrameButtonIconFrameMixin:DisplaySetTooltip()
 	GameTooltip:Show();
 end
 
-WardrobeSetsCollectionContainerMixin = { };--- @class WardrobeSetsCollectionContainerMixin
+WardrobeSetsCollectionContainerMixin = { }; --- @class WardrobeSetsCollectionContainerMixin
 
 function WardrobeSetsCollectionContainerMixin:OnLoad()
 	local view = CreateScrollBoxListLinearView();
@@ -741,7 +741,7 @@ function WardrobeSetsCollectionContainerMixin:SelectElementDataMatchingSetID(set
 	end);
 end
 
-WardrobeSetsDetailsModelMixin = { };--- @class WardrobeSetsDetailsModelMixin
+WardrobeSetsDetailsModelMixin = { }; --- @class WardrobeSetsDetailsModelMixin
 
 function WardrobeSetsDetailsModelMixin:OnLoad()
 	self:SetAutoDress(false);
@@ -842,7 +842,7 @@ function WardrobeSetsDetailsModelMixin:OnModelLoaded()
 	end
 end
 
-WardrobeSetsDetailsItemMixin = { };--- @class WardrobeSetsDetailsItemMixin
+WardrobeSetsDetailsItemMixin = { }; --- @class WardrobeSetsDetailsItemMixin
 
 function WardrobeSetsDetailsItemMixin:OnShow()
 	self:RegisterEvent("TRANSMOG_COLLECTION_ITEM_FAVORITE_UPDATE");

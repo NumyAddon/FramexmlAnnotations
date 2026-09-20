@@ -1,4 +1,4 @@
-CovenantSanctumMixin = {};--- @class CovenantSanctumMixin
+CovenantSanctumMixin = {}; --- @class CovenantSanctumMixin
 
 function CovenantSanctumMixin:OnLoad()
 	local attributes =

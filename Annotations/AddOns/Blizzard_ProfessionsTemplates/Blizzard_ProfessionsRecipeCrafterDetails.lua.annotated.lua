@@ -20,7 +20,7 @@ local DetailsFrameEvents =
 	"TRADE_SKILL_CRAFT_BEGIN",
 };
 
-CraftingQualityStatLine = EnumUtil.MakeEnum("Difficulty", "Skill", "Concentration");--- @type {["Difficulty"]: 1, ["Skill"]: 2, ["Concentration"]: 3} See [CraftingQualityStatLine](lua://CraftingQualityStatLine)
+CraftingQualityStatLine = EnumUtil.MakeEnum("Difficulty", "Skill", "Concentration"); --- @type {["Difficulty"]: 1, ["Skill"]: 2, ["Concentration"]: 3} # See [CraftingQualityStatLine](lua://CraftingQualityStatLine)
 
 local detailsPanelTitles =
 {
@@ -60,7 +60,7 @@ local statLineDescriptions =
 	},
 };
 
-ProfessionsCrafterDetailsStatLineMixin = {};--- @class ProfessionsCrafterDetailsStatLineMixin
+ProfessionsCrafterDetailsStatLineMixin = {}; --- @class ProfessionsCrafterDetailsStatLineMixin
 
 function ProfessionsCrafterDetailsStatLineMixin:SetProfessionType(professionType)
 	self.professionType = professionType;
@@ -133,7 +133,7 @@ function ProfessionsCrafterDetailsStatLineMixin:SetLabelColor(color)
 	self.RightLabel:SetTextColor(color:GetRGB());
 end
 
-ProfessionsRecipeCrafterDetailsMixin = {};--- @class ProfessionsRecipeCrafterDetailsMixin
+ProfessionsRecipeCrafterDetailsMixin = {}; --- @class ProfessionsRecipeCrafterDetailsMixin
 
 function ProfessionsRecipeCrafterDetailsMixin:OnLoad()
 	self.statLinePool = CreateFramePool("FRAME", self.StatLines, "ProfessionsCrafterDetailsStatLineTemplate");
@@ -454,7 +454,7 @@ function ProfessionsRecipeCrafterDetailsMixin:GetProjectedQualityInfo()
 	return qualityInfo;
 end
 
-ProfessionsQualityMeterMixin = {};--- @class ProfessionsQualityMeterMixin
+ProfessionsQualityMeterMixin = {}; --- @class ProfessionsQualityMeterMixin
 
 function ProfessionsQualityMeterMixin:OnLoad()
 	self:Reset();

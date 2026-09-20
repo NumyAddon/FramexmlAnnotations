@@ -1,4 +1,4 @@
-UnitPopupDuelToTheDeathButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupDuelToTheDeathButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupDuelToTheDeathButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupDuelToTheDeathButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupDuelToTheDeathButtonMixin:GetText(contextData)
 	return DUEL_TO_DEATH;

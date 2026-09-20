@@ -2,7 +2,7 @@
 -- TalentButtonSelectExpandedButtonMixin is a select button template that always shows all its options
 -- instead of showing a selection frame on mouseover.
 
-TalentButtonSelectExpandedButtonMixin = CreateFromMixins(TalentButtonSelectMixin);--- @class TalentButtonSelectExpandedButtonMixin : TalentButtonSelectMixin
+TalentButtonSelectExpandedButtonMixin = CreateFromMixins(TalentButtonSelectMixin); --- @class TalentButtonSelectExpandedButtonMixin : TalentButtonSelectMixin
 
 function TalentButtonSelectExpandedButtonMixin:FullUpdate()
 	TalentButtonSelectMixin.FullUpdate(self);
@@ -29,7 +29,7 @@ function TalentButtonSelectExpandedButtonMixin:OnEnter()
 	-- Do nothing here since our selections are always shown.
 end
 
-TalentButtonSelectExpandedDisplayMixin = {};--- @class TalentButtonSelectExpandedDisplayMixin
+TalentButtonSelectExpandedDisplayMixin = {}; --- @class TalentButtonSelectExpandedDisplayMixin
 
 function TalentButtonSelectExpandedDisplayMixin:Init(talentFrame, ...)
 	TalentDisplayMixin.Init(self, talentFrame, ...);

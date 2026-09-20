@@ -1,4 +1,4 @@
-IslandsPartyPoseMixin = CreateFromMixins(PartyPoseMixin);--- @class IslandsPartyPoseMixin : PartyPoseMixin
+IslandsPartyPoseMixin = CreateFromMixins(PartyPoseMixin); --- @class IslandsPartyPoseMixin : PartyPoseMixin
 
 function IslandsPartyPoseMixin:SetRewards()
 	self.pendingRewardData = {};

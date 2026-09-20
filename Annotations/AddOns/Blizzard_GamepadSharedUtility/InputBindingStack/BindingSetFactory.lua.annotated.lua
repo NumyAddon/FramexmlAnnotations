@@ -1,4 +1,4 @@
-local BindingGroupMixin = {};--- @class BindingGroupMixin
+local BindingGroupMixin = {}; --- @class BindingGroupMixin
 
 local bindingSets = {};
 local nextBindingGroupId = 0;

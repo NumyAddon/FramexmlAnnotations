@@ -1,5 +1,5 @@
 
-MicroMenuContainerMixin = {};--- @class MicroMenuContainerMixin
+MicroMenuContainerMixin = {}; --- @class MicroMenuContainerMixin
 
 function MicroMenuContainerMixin:OnLoad()
 	self:RegisterEvent("PLAYER_LEVEL_UP");
@@ -54,7 +54,7 @@ function MicroMenuContainerMixin:Layout()
 	self:SetSize(math.max(width, 1), math.max(height, 1));
 end
 
-MicroMenuMixin = {};--- @class MicroMenuMixin
+MicroMenuMixin = {}; --- @class MicroMenuMixin
 
 function MicroMenuMixin:OnLoad()
 	self:ApplyMicroMenuOverrides();

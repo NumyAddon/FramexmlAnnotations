@@ -1,10 +1,10 @@
-DefaultAnimOutMixin = {};--- @class DefaultAnimOutMixin
+DefaultAnimOutMixin = {}; --- @class DefaultAnimOutMixin
 
 function DefaultAnimOutMixin:OnFinished()
 	self:GetParent():Hide();
 end
 
-SocialToastCloseButtonMixin = {};--- @class SocialToastCloseButtonMixin
+SocialToastCloseButtonMixin = {}; --- @class SocialToastCloseButtonMixin
 
 function SocialToastCloseButtonMixin:OnEnter()
 	self:GetParent():OnEnter();
@@ -19,7 +19,7 @@ function SocialToastCloseButtonMixin:OnClick()
 	self:GetParent():Hide();
 end
 
-SocialToastMixin = {};--- @class SocialToastMixin
+SocialToastMixin = {}; --- @class SocialToastMixin
 
 function SocialToastMixin:OnEnter()
 	AlertFrame_PauseOutAnimation(self);
@@ -30,7 +30,7 @@ function SocialToastMixin:OnLeave()
 end
 
 --This is used to track the time remaining until a player gets forcibly sharded
-ShardTransferImminentMixin = {};--- @class ShardTransferImminentMixin
+ShardTransferImminentMixin = {}; --- @class ShardTransferImminentMixin
 
 function ShardTransferImminentMixin:OnLoad()
 	self:RegisterEvent("SHARD_TRANSFER_IMMINENT");
@@ -85,7 +85,7 @@ function ShardTransferImminentMixin:OnClick()
 end
 
 --This is used to minimize the ShardTransferImminentMixin element
-ShardTransferImminentMinimizeMixin = {};--- @class ShardTransferImminentMinimizeMixin
+ShardTransferImminentMinimizeMixin = {}; --- @class ShardTransferImminentMinimizeMixin
 
 function ShardTransferImminentMinimizeMixin:OnLoad()
 	self:RegisterEvent("SHARD_TRANSFER_IMMINENT");

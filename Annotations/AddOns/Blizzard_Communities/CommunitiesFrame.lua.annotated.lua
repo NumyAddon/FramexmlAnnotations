@@ -5,7 +5,7 @@ function CommunitiesFrame_ShouldDisplayPersonalAchievements()
 	return true;
 end
 
-CommunitiesFrameMixin = CreateFromMixins(CallbackRegistryMixin);--- @class CommunitiesFrameMixin : CallbackRegistryMixin
+CommunitiesFrameMixin = CreateFromMixins(CallbackRegistryMixin); --- @class CommunitiesFrameMixin : CallbackRegistryMixin
 
 CommunitiesFrameMixin:GenerateCallbackEvents(
 {
@@ -1726,7 +1726,7 @@ function CommunitiesFrameMaximizeMinimizeButton_OnLoad(self)
 	self:SetMinimizedCVar("miniCommunitiesFrame");
 end
 
-CommunitiesControlFrameMixin = {};--- @class CommunitiesControlFrameMixin
+CommunitiesControlFrameMixin = {}; --- @class CommunitiesControlFrameMixin
 
 function CommunitiesControlFrameMixin:OnShow()
 	self:Update();

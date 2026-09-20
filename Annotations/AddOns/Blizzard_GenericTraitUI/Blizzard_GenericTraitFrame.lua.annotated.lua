@@ -6,7 +6,7 @@ UIPanelWindows["GenericTraitFrame"] = {
 	checkFitExtraHeight = 40,
 };
 
-GenericTraitFrameMixin = {};--- @class GenericTraitFrameMixin
+GenericTraitFrameMixin = {}; --- @class GenericTraitFrameMixin
 
 local GenericTraitFrameEvents = {
 	"TRAIT_SYSTEM_NPC_CLOSED",
@@ -163,7 +163,7 @@ function GenericTraitFrameMixin:ShowGenericTraitFrameTutorial()
 	end
 end
 
-GenericTraitFrameCurrencyFrameMixin = {};--- @class GenericTraitFrameCurrencyFrameMixin
+GenericTraitFrameCurrencyFrameMixin = {}; --- @class GenericTraitFrameCurrencyFrameMixin
 
 function GenericTraitFrameCurrencyFrameMixin:UpdateWidgetSet()
 	local configID = self:GetParent():GetConfigID();

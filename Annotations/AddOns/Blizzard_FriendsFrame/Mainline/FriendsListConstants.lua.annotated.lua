@@ -1,4 +1,4 @@
-BattleNetFriendPartyInviteRestrictionType = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["NoGameAccounts"]: 2, ["Client"]: 3, ["Leader"]: 4, ["Faction"]: 5, ["Realm"]: 6, ["MissingRealmInfo"]: 7, ["DifferentWowProject"]: 8, ["WowProjectMainline"]: 9, ["WowProjectClassic"]: 10, ["Mobile"]: 11, ["DifferentRegion"]: 12, ["QuestSession"]: 13, ["IncompatibleGameMode"]: 14} See [BattleNetFriendPartyInviteRestrictionType](lua://BattleNetFriendPartyInviteRestrictionType)
+BattleNetFriendPartyInviteRestrictionType = EnumUtil.MakeEnum( --- @type {["None"]: 1, ["NoGameAccounts"]: 2, ["Client"]: 3, ["Leader"]: 4, ["Faction"]: 5, ["Realm"]: 6, ["MissingRealmInfo"]: 7, ["DifferentWowProject"]: 8, ["WowProjectMainline"]: 9, ["WowProjectClassic"]: 10, ["Mobile"]: 11, ["DifferentRegion"]: 12, ["QuestSession"]: 13, ["IncompatibleGameMode"]: 14} # See [BattleNetFriendPartyInviteRestrictionType](lua://BattleNetFriendPartyInviteRestrictionType)
 	"None",
 	"NoGameAccounts",
 	"Client",

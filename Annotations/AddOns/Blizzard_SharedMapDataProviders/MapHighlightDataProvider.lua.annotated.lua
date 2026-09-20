@@ -1,4 +1,4 @@
-MapHighlightDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class MapHighlightDataProviderMixin : MapCanvasDataProviderMixin
+MapHighlightDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class MapHighlightDataProviderMixin : MapCanvasDataProviderMixin
 
 function MapHighlightDataProviderMixin:RefreshAllData(fromOnShow)
 	self.pin:SetupHighlightPulse();
@@ -20,7 +20,7 @@ function MapHighlightDataProviderMixin:OnRemoved(mapCanvas)
 end
 
 --[[ THE Pin ]]--
-MapHighlightPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class MapHighlightPinMixin : MapCanvasPinMixin
+MapHighlightPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class MapHighlightPinMixin : MapCanvasPinMixin
 
 function MapHighlightPinMixin:OnLoad()
 	self:UseFrameLevelType("PIN_FRAME_LEVEL_MAP_HIGHLIGHT");

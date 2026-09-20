@@ -1,4 +1,4 @@
-ScaleToFitFrameMixin = {};--- @class ScaleToFitFrameMixin
+ScaleToFitFrameMixin = {}; --- @class ScaleToFitFrameMixin
 
 function ScaleToFitFrameMixin:OnScaleToFitFrameLoad()
 	self:RegisterEvent("UI_SCALE_CHANGED");
@@ -51,7 +51,7 @@ function ScaleToFitFrameMixin:UpdateScaleToFit()
 end
 
 -- Automatically calls Refresh whenever the LayoutFrame is cleaned
-ScaleToFitLayoutFrameMixin = {};--- @class ScaleToFitLayoutFrameMixin
+ScaleToFitLayoutFrameMixin = {}; --- @class ScaleToFitLayoutFrameMixin
 
 function ScaleToFitLayoutFrameMixin:OnCleaned()
 	self:Refresh();

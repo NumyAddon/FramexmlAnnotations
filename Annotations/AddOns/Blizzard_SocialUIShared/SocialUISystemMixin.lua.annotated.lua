@@ -1,4 +1,4 @@
-SocialUISystemMixin = {};--- @class SocialUISystemMixin
+SocialUISystemMixin = {}; --- @class SocialUISystemMixin
 
 function SocialUISystemMixin:GetSocialUI()
 	return SocialUIFrame;

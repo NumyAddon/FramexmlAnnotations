@@ -1,4 +1,4 @@
-CollectionsJournalTabMixin = CreateFromMixins(SidePanelTabButtonMixin);--- @class CollectionsJournalTabMixin : SidePanelTabButtonMixin
+CollectionsJournalTabMixin = CreateFromMixins(SidePanelTabButtonMixin); --- @class CollectionsJournalTabMixin : SidePanelTabButtonMixin
 
 function CollectionsJournalTabMixin:OnLoad()
 	SidePanelTabButtonMixin.OnLoad(self);

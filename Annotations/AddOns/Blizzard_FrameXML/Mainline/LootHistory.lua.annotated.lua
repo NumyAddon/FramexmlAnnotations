@@ -2,7 +2,7 @@
 -- Instantiated when GroupLootHistoryFrame is loaded
 local tooltipLinePool = nil;
 
-LootHistoryElementMixin = {};--- @class LootHistoryElementMixin
+LootHistoryElementMixin = {}; --- @class LootHistoryElementMixin
 
 local LootHistoryElementEvents =
 {
@@ -214,7 +214,7 @@ function LootHistoryElementMixin:OnHide()
 	FrameUtil.UnregisterFrameForEvents(self, LootHistoryElementEvents);
 end
 
-LootHistoryElementAnimationMixin = {};--- @class LootHistoryElementAnimationMixin
+LootHistoryElementAnimationMixin = {}; --- @class LootHistoryElementAnimationMixin
 
 function LootHistoryElementAnimationMixin:InitAndStartAnim(dropInfo)
 	self.Item.IconBorder:SetSize(self.Item:GetWidth(), self.Item:GetHeight());
@@ -238,7 +238,7 @@ function LootHistoryElementAnimationMixin:StopPerfectRollAnim()
 	self.PerfectRollTopFrame.Anim:Stop();
 end
 
-LootHistoryRollTooltipLineMixin = {};--- @class LootHistoryRollTooltipLineMixin
+LootHistoryRollTooltipLineMixin = {}; --- @class LootHistoryRollTooltipLineMixin
 
 function LootHistoryRollTooltipLineMixin:Init(rollInfo, anyRollNumbers)
 	local rollAtlas;
@@ -296,7 +296,7 @@ function LootHistoryRollTooltipLineMixin:SetToAllPassed()
 end
 
 
-LootHistoryFrameMixin = {};--- @class LootHistoryFrameMixin
+LootHistoryFrameMixin = {}; --- @class LootHistoryFrameMixin
 
 local LootHistoryFrameAlwaysListenEvents =
 {

@@ -75,7 +75,7 @@ end
 --- Adventures Combat Log Mixin				                                  ---
 ---------------------------------------------------------------------------------
 
-AdventuresCombatLogMixin = { }--- @class AdventuresCombatLogMixin
+AdventuresCombatLogMixin = { } --- @class AdventuresCombatLogMixin
 
 function AdventuresCombatLogMixin:OnLoad()
 	self.CombatLogMessageFrame:SetMaxLines(5000);

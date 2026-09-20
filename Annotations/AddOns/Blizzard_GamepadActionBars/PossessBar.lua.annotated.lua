@@ -31,7 +31,7 @@ function GamepadActionBarPageUnitMixin:IsPossessBarActiveAndOnSpecialPage()
 end
 
 -- Handles managing the gamepad possess bar buttons similar to how the MKB pet bar manages its pet buttons (PetActionBar.lua).
-GamepadPossessBarMixin = CreateFromMixins(GamepadOverrideBarMixin);--- @class GamepadPossessBarMixin : GamepadOverrideBarMixin
+GamepadPossessBarMixin = CreateFromMixins(GamepadOverrideBarMixin); --- @class GamepadPossessBarMixin : GamepadOverrideBarMixin
 
 function GamepadPossessBarMixin:OnLoad()
 	GamepadOverrideBarMixin.OnLoad(self);

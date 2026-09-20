@@ -1,4 +1,4 @@
-MapLinkDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class MapLinkDataProviderMixin : MapCanvasDataProviderMixin
+MapLinkDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class MapLinkDataProviderMixin : MapCanvasDataProviderMixin
 
 function MapLinkDataProviderMixin:RemoveAllData()
 	self:GetMap():RemoveAllPinsByTemplate("MapLinkPinTemplate");

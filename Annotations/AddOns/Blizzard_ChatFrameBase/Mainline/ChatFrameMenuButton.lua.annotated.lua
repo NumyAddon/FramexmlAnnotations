@@ -10,7 +10,7 @@ local function GetSelectedLanguageID()
 	return DEFAULT_CHAT_FRAME.editBox.languageID;
 end
 
-ChatFrameMenuButtonMixin = {};--- @class ChatFrameMenuButtonMixin
+ChatFrameMenuButtonMixin = {}; --- @class ChatFrameMenuButtonMixin
 
 ChatFrameMenuButtonMixin.CHAT_TYPES =
 {

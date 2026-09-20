@@ -2,7 +2,7 @@
 ---------------------
 -- Frame Glow mixin
 
-FrameGlowMixin = {};--- @class FrameGlowMixin
+FrameGlowMixin = {}; --- @class FrameGlowMixin
 
 local FrameGlowTable = {
 	PortraitFrameTemplate = { atlas = "gamepad-uiframemetal-largeportrait-focus", x = -20, y = 24, x1= 14, y1 = -14,},
@@ -60,7 +60,7 @@ end
 --------------------
 -- Focus Acquisition
 
-FocusFramesInterfaceMixin = {};--- @class FocusFramesInterfaceMixin
+FocusFramesInterfaceMixin = {}; --- @class FocusFramesInterfaceMixin
 
 function FocusFramesInterfaceMixin:GetFocusFrameRoot()
 	return self.FocusFrameParent and self[self.FocusFrameParent] or self;

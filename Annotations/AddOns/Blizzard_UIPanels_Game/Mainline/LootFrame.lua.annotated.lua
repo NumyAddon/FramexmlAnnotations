@@ -37,7 +37,7 @@ local function TrySmartNavSelectFirstElementAbove(scrollBox, slotIndex)
 	return false;
 end
 
-LootFrameMixin = {};--- @class LootFrameMixin
+LootFrameMixin = {}; --- @class LootFrameMixin
 
 function LootFrame_EscapePressed()
 	if LootFrame:IsShown() then
@@ -436,7 +436,7 @@ function LootFrameMixin:OnSmartNavPanelInfoRemoved(panelInfo)
 	end
 end
 
-LootFrameBaseElementMixin = {};--- @class LootFrameBaseElementMixin
+LootFrameBaseElementMixin = {}; --- @class LootFrameBaseElementMixin
 
 function LootFrameBaseElementMixin:GetSlotIndex()
 	local elementData = self:GetElementData();
@@ -455,7 +455,7 @@ end
 function LootFrameBaseElementMixin:Init()
 end
 
-LootFrameElementMixin = CreateFromMixins(LootFrameBaseElementMixin);--- @class LootFrameElementMixin : LootFrameBaseElementMixin
+LootFrameElementMixin = CreateFromMixins(LootFrameBaseElementMixin); --- @class LootFrameElementMixin : LootFrameBaseElementMixin
 
 function LootFrameElementMixin:OnLoad()
 	self.Item:SetScript("OnEnter", GenerateClosure(self.OnEnter, self));
@@ -609,14 +609,14 @@ function LootFrameElementMixin:SetupCustomSmartNavJumps()
 	SmartNavigation_RegisterOutgoingDirNavCallback(itemIcon, SMART_NAV_INPUT_DIRECTION.DOWN, GenerateClosure(self.OnSmartNavDown, self, scrollBox));
 end
 
-LootFrameElementSlideOutRightAnimMixin = {};--- @class LootFrameElementSlideOutRightAnimMixin
+LootFrameElementSlideOutRightAnimMixin = {}; --- @class LootFrameElementSlideOutRightAnimMixin
 
 function LootFrameElementSlideOutRightAnimMixin:OnAnimFinished()
 	local lootFrameElement = self:GetParent();
 	lootFrameElement:Hide();	-- Keeps consistency with what happens to the non-autolooted loot elements when they are looted.
 end
 
-LootFrameItemElementMixin = CreateFromMixins(LootFrameElementMixin);--- @class LootFrameItemElementMixin : LootFrameElementMixin
+LootFrameItemElementMixin = CreateFromMixins(LootFrameElementMixin); --- @class LootFrameItemElementMixin : LootFrameElementMixin
 
 function LootFrameItemElementMixin:Init()
 	LootFrameElementMixin.Init(self);

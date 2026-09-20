@@ -7,7 +7,7 @@ local function ReconfigureCountPointAndScale(itemButton)
 	itemButton:SetItemButtonScale(1.4);
 end
 
-ProfessionsCraftingOutputLogElementMixin = {};--- @class ProfessionsCraftingOutputLogElementMixin
+ProfessionsCraftingOutputLogElementMixin = {}; --- @class ProfessionsCraftingOutputLogElementMixin
 
 function ProfessionsCraftingOutputLogElementMixin:OnLoad()
 	self.itemButtonPool = CreateFramePool("ItemButton", self, "ProfessionsButtonTemplate");
@@ -248,7 +248,7 @@ function ProfessionsCraftingOutputLogElementMixin:Init()
 	end
 end
 
-ProfessionsCraftingOutputLogMixin = CreateFromMixins(CallbackRegistryMixin);--- @class ProfessionsCraftingOutputLogMixin : CallbackRegistryMixin
+ProfessionsCraftingOutputLogMixin = CreateFromMixins(CallbackRegistryMixin); --- @class ProfessionsCraftingOutputLogMixin : CallbackRegistryMixin
 
 ProfessionsCraftingOutputLogMixin:GenerateCallbackEvents(
 {

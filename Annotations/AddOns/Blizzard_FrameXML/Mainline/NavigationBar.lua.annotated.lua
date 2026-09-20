@@ -312,7 +312,7 @@ function NavBar_OverflowItemOnClick(junk, index, navBar)
 	end
 end
 
-NavButtonMixin = {}--- @class NavButtonMixin
+NavButtonMixin = {} --- @class NavButtonMixin
 
 function NavButtonMixin:OnLoad()
 	self.MenuArrowButton:RegisterCallback(self.MenuArrowButton.Event.OnMenuClose, self.RefreshReturnFrameGamepadNavButtonFocus, self);

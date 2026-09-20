@@ -2,7 +2,7 @@ WARDROBE_TAB_ITEMS = 1;
 WARDROBE_TAB_SETS = 2;
 WARDROBE_TABS_MAX_WIDTH = 185;
 
-WardrobeCollectionFrameMixin = { };--- @class WardrobeCollectionFrameMixin
+WardrobeCollectionFrameMixin = { }; --- @class WardrobeCollectionFrameMixin
 
 function WardrobeCollectionFrameMixin:ClickTab(tab)
 	self:SetTab(tab:GetID());
@@ -420,7 +420,7 @@ function WardrobeCollectionFrameMixin:GetTooltipSourceIndex()
 	return self.tooltipSourceIndex;
 end
 
-WardrobeItemsCollectionSlotButtonMixin = { }--- @class WardrobeItemsCollectionSlotButtonMixin
+WardrobeItemsCollectionSlotButtonMixin = { } --- @class WardrobeItemsCollectionSlotButtonMixin
 
 function WardrobeItemsCollectionSlotButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.UI_TRANSMOG_GEAR_SLOT_CLICK);
@@ -449,7 +449,7 @@ function WardrobeItemsCollectionSlotButtonMixin:OnEnter()
 	end
 end
 
-WardrobeItemsCollectionMixin = {--- @class WardrobeItemsCollectionMixin
+WardrobeItemsCollectionMixin = { --- @class WardrobeItemsCollectionMixin
 	spacingNoSmallButton = 2;
 	spacingWithSmallButton = 12;
 	defaultSectionSpacing = 24;
@@ -1385,7 +1385,7 @@ end
 
 -- ***** MODELS
 
-WardrobeItemModelMixin = CreateFromMixins(ItemModelBaseMixin);--- @class WardrobeItemModelMixin : ItemModelBaseMixin
+WardrobeItemModelMixin = CreateFromMixins(ItemModelBaseMixin); --- @class WardrobeItemModelMixin : ItemModelBaseMixin
 
 -- Overridden.
 function WardrobeItemModelMixin:OnMouseDown(button)
@@ -1544,7 +1544,7 @@ function WardrobeItemModelMixin:GetSourceInfoForTracking()
 end
 
 -- ***** TUTORIAL
-WardrobeCollectionTutorialMixin = { };--- @class WardrobeCollectionTutorialMixin
+WardrobeCollectionTutorialMixin = { }; --- @class WardrobeCollectionTutorialMixin
 
 function WardrobeCollectionTutorialMixin:OnLoad()
 
@@ -1568,7 +1568,7 @@ function WardrobeCollectionTutorialMixin:OnLeave()
 	HelpTip:Hide(self, WARDROBE_SHORTCUTS_TUTORIAL_1);
 end
 
-WardrobeCollectionClassDropdownMixin = {};--- @class WardrobeCollectionClassDropdownMixin
+WardrobeCollectionClassDropdownMixin = {}; --- @class WardrobeCollectionClassDropdownMixin
 
 function WardrobeCollectionClassDropdownMixin:OnLoad()
 	self:SetWidth(150);
@@ -1650,7 +1650,7 @@ function WardrobeCollectionClassDropdownMixin:Refresh()
 	end);
 end
 
-WardrobeCollectionFrameSearchBoxProgressMixin = { };--- @class WardrobeCollectionFrameSearchBoxProgressMixin
+WardrobeCollectionFrameSearchBoxProgressMixin = { }; --- @class WardrobeCollectionFrameSearchBoxProgressMixin
 
 function WardrobeCollectionFrameSearchBoxProgressMixin:OnLoad()
 	self:SetFrameLevel(self:GetParent():GetFrameLevel() + 15);
@@ -1693,7 +1693,7 @@ function WardrobeCollectionFrameSearchBoxProgressMixin:ShowProgressBar()
 	self:Show();
 end
 
-WardrobeCollectionFrameSearchBoxMixin = { }--- @class WardrobeCollectionFrameSearchBoxMixin
+WardrobeCollectionFrameSearchBoxMixin = { } --- @class WardrobeCollectionFrameSearchBoxMixin
 
 function WardrobeCollectionFrameSearchBoxMixin:OnLoad()
 	SearchBoxTemplate_OnLoad(self);

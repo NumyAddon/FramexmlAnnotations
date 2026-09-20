@@ -4,7 +4,7 @@ ClassTalentBorderSheenSyncKey = "ClassTalentBorderSheen";
 -- Base mixin for both the standard talent Buttons and the Selection Choice mixin.
 -- Should only contain overrides to TalentButtonArtMixin or TalentDisplayMixin functionality.
 -- Should NOT contain any overrides to TalentButtonBaseMixin functionality.
-ClassTalentButtonArtMixin = {};--- @class ClassTalentButtonArtMixin
+ClassTalentButtonArtMixin = {}; --- @class ClassTalentButtonArtMixin
 
 function ClassTalentButtonArtMixin:OnShow()
 	if not self.BorderSheen.Anim:IsPlaying() then
@@ -59,7 +59,7 @@ end
 --------------------------------------------------
 -- Base mixin for the standard talent Buttons.
 -- Should contain functionality for all BUT the Selection Choice mixin.
-ClassTalentButtonBaseMixin = {};--- @class ClassTalentButtonBaseMixin
+ClassTalentButtonBaseMixin = {}; --- @class ClassTalentButtonBaseMixin
 
 function ClassTalentButtonBaseMixin:OnLoad()
 	self.BorderSheenMask:SetAtlas(self.sheenMaskAtlas, TextureKitConstants.UseAtlasSize);
@@ -175,7 +175,7 @@ end
 
 --------------------------------------------------
 -- Spend Mixin (standard select/deselect)
-ClassTalentButtonSpendMixin = CreateFromMixins(TalentButtonSpendMixin, ClassTalentButtonBaseMixin);--- @class ClassTalentButtonSpendMixin : TalentButtonSpendMixin, ClassTalentButtonBaseMixin
+ClassTalentButtonSpendMixin = CreateFromMixins(TalentButtonSpendMixin, ClassTalentButtonBaseMixin); --- @class ClassTalentButtonSpendMixin : TalentButtonSpendMixin, ClassTalentButtonBaseMixin
 
 function ClassTalentButtonSpendMixin:OnLoad()
 	-- Overrides TalentButtonSpendMixin.
@@ -232,7 +232,7 @@ end
 
 --------------------------------------------------
 -- Select Mixin (talent with multiple choices)
-ClassTalentButtonSelectMixin = CreateFromMixins(TalentButtonSelectMixin, ClassTalentButtonBaseMixin);--- @class ClassTalentButtonSelectMixin : TalentButtonSelectMixin, ClassTalentButtonBaseMixin
+ClassTalentButtonSelectMixin = CreateFromMixins(TalentButtonSelectMixin, ClassTalentButtonBaseMixin); --- @class ClassTalentButtonSelectMixin : TalentButtonSelectMixin, ClassTalentButtonBaseMixin
 
 function ClassTalentButtonSelectMixin:OnLoad()
 	-- Overrides TalentButtonSelectMixin.
@@ -302,7 +302,7 @@ end
 
 --------------------------------------------------
 -- Split Select Mixin (talent with split icon with two choices)
-ClassTalentButtonSplitSelectMixin = CreateFromMixins(TalentButtonSplitSelectMixin, ClassTalentButtonBaseMixin);--- @class ClassTalentButtonSplitSelectMixin : TalentButtonSplitSelectMixin, ClassTalentButtonBaseMixin
+ClassTalentButtonSplitSelectMixin = CreateFromMixins(TalentButtonSplitSelectMixin, ClassTalentButtonBaseMixin); --- @class ClassTalentButtonSplitSelectMixin : TalentButtonSplitSelectMixin, ClassTalentButtonBaseMixin
 
 function ClassTalentButtonSplitSelectMixin:OnLoad()
 	-- Overrides TalentButtonSplitSelectMixin.
@@ -363,7 +363,7 @@ end
 
 --------------------------------------------------
 -- Selection Choice Mixin (flyout choice shown by select mixins)
-ClassTalentSelectionChoiceMixin = CreateFromMixins(TalentSelectionChoiceArtMixin);--- @class ClassTalentSelectionChoiceMixin : TalentSelectionChoiceArtMixin
+ClassTalentSelectionChoiceMixin = CreateFromMixins(TalentSelectionChoiceArtMixin); --- @class ClassTalentSelectionChoiceMixin : TalentSelectionChoiceArtMixin
 
 function ClassTalentSelectionChoiceMixin:OnLoad()
 	-- Overrides TalentButtonArtMixin.
@@ -421,7 +421,7 @@ function ClassTalentSelectionChoiceMixin:OnLeave()
 	self:HideActionBarHighlights();
 end
 
-ClassTalentButtonCapstoneWithTrackMixin = CreateFromMixins(ClassTalentButtonBaseMixin, TalentButtonCapstoneWithTrackMixin);--- @class ClassTalentButtonCapstoneWithTrackMixin : ClassTalentButtonBaseMixin, TalentButtonCapstoneWithTrackMixin
+ClassTalentButtonCapstoneWithTrackMixin = CreateFromMixins(ClassTalentButtonBaseMixin, TalentButtonCapstoneWithTrackMixin); --- @class ClassTalentButtonCapstoneWithTrackMixin : ClassTalentButtonBaseMixin, TalentButtonCapstoneWithTrackMixin
 
 function ClassTalentButtonCapstoneWithTrackMixin:OnLoad()
 	ClassTalentButtonBaseMixin.OnLoad(self);
@@ -449,7 +449,7 @@ end
 
 -- ClassTalentButtonBaseMixin is placed second here so that its UpdateStateBorder overrides the generic one
 -- inherited by TalentButtonCapstonePipMixin (via TalentButtonArtMixin)
-ClassTalentButtonCapstonePipMixin = CreateFromMixins(TalentButtonCapstonePipMixin, ClassTalentButtonBaseMixin);--- @class ClassTalentButtonCapstonePipMixin : TalentButtonCapstonePipMixin, ClassTalentButtonBaseMixin
+ClassTalentButtonCapstonePipMixin = CreateFromMixins(TalentButtonCapstonePipMixin, ClassTalentButtonBaseMixin); --- @class ClassTalentButtonCapstonePipMixin : TalentButtonCapstonePipMixin, ClassTalentButtonBaseMixin
 
 function ClassTalentButtonCapstonePipMixin:OnLoad()
 	ClassTalentButtonBaseMixin.OnLoad(self);

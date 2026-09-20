@@ -19,13 +19,13 @@ function LegacyTreeUtil.GetEdgeTemplateType(edgeVisualStyle)
 	return "LegacyTreeTraitEdgeArrowTemplate";
 end
 
-LegacyTreePageMixin = {};--- @class LegacyTreePageMixin
+LegacyTreePageMixin = {}; --- @class LegacyTreePageMixin
 
 function LegacyTreePageMixin:OnShow()
 	self:GetParent():SetTitle(LEGACY_TREE_FRAME_TITLE);
 end
 
-LegacyTreeTraitPanelMixin = CreateFromMixins(ClassTalentSearchMixin);--- @class LegacyTreeTraitPanelMixin : ClassTalentSearchMixin
+LegacyTreeTraitPanelMixin = CreateFromMixins(ClassTalentSearchMixin); --- @class LegacyTreeTraitPanelMixin : ClassTalentSearchMixin
 
 function LegacyTreeTraitPanelMixin:OnLoad()
 	TalentFrameBaseMixin.OnLoad(self);
@@ -195,7 +195,7 @@ function LegacyTreeTraitPanelMixin:GetSubTreeInfoForEntry(entryID)
 	return nil;
 end
 
-LegacyTreeSelectionPanelMixin = {};--- @class LegacyTreeSelectionPanelMixin
+LegacyTreeSelectionPanelMixin = {}; --- @class LegacyTreeSelectionPanelMixin
 
 function LegacyTreeSelectionPanelMixin:OnLoad()
 	self.treeButtonPool = CreateFramePoolCollection();
@@ -230,7 +230,7 @@ function LegacyTreeSelectionPanelMixin:UpdateSelection(selectedIdx)
 	end
 end
 
-LegacyTreeButtonMixin = CreateFromMixins(SelectableButtonMixin);--- @class LegacyTreeButtonMixin : SelectableButtonMixin
+LegacyTreeButtonMixin = CreateFromMixins(SelectableButtonMixin); --- @class LegacyTreeButtonMixin : SelectableButtonMixin
 
 function LegacyTreeButtonMixin:OnLoad()
 	RingedMaskedButtonMixin.OnLoad(self);
@@ -272,7 +272,7 @@ function LegacyTreeButtonMixin:OnClick()
 	EventRegistry:TriggerEvent("Legacy.SelectTree", self.layoutIndex);
 end	
 
-LegacyTreeIconMixin = CreateFromMixins(SelectableButtonMixin);--- @class LegacyTreeIconMixin : SelectableButtonMixin
+LegacyTreeIconMixin = CreateFromMixins(SelectableButtonMixin); --- @class LegacyTreeIconMixin : SelectableButtonMixin
 
 function LegacyTreeIconMixin:OnLoad()
 	RingedMaskedButtonMixin.OnLoad(self);
@@ -288,7 +288,7 @@ function LegacyTreeIconMixin:GetAppropriateTooltip()
 	return nil;
 end
 
-LegacyTreePointSummaryMixin = {};--- @class LegacyTreePointSummaryMixin
+LegacyTreePointSummaryMixin = {}; --- @class LegacyTreePointSummaryMixin
 
 function LegacyTreePointSummaryMixin:OnLoad()
 	EventRegistry:RegisterCallback("Legacy.UpdateCurrencyInfo", function(_, info)

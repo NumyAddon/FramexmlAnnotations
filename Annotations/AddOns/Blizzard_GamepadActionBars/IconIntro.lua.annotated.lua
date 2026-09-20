@@ -1,4 +1,4 @@
-GamepadIconIntroTrackerMixin = {};--- @class GamepadIconIntroTrackerMixin
+GamepadIconIntroTrackerMixin = {}; --- @class GamepadIconIntroTrackerMixin
 
 local PAGE_UNIT_SLOT_ID_PUSH_ORDER = {
 	24, 21, 23, 22,		-- RT+face buttons

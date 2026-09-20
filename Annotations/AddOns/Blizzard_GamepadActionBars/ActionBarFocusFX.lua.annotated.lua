@@ -70,7 +70,7 @@ end
 	primary mechanism through which child classes will identify elements to play and pause
 	when the sequence is played / paused.
 ]]
-local GamepadActionBarSequenceMixin = {};--- @class GamepadActionBarSequenceMixin
+local GamepadActionBarSequenceMixin = {}; --- @class GamepadActionBarSequenceMixin
 
 function GamepadActionBarSequenceMixin:GetSequenceDebugName()
 	return "n/a";
@@ -201,7 +201,7 @@ function GamepadActionBarSequenceMixin:Stop(continueLooping)
 end
 
 -- Base / abstract class for "collapse" animation sequences.
-local GamepadActionBarSequenceCollapseMixin = CreateFromMixins(GamepadActionBarSequenceMixin);--- @class GamepadActionBarSequenceCollapseMixin : GamepadActionBarSequenceMixin
+local GamepadActionBarSequenceCollapseMixin = CreateFromMixins(GamepadActionBarSequenceMixin); --- @class GamepadActionBarSequenceCollapseMixin : GamepadActionBarSequenceMixin
 
 function GamepadActionBarSequenceCollapseMixin:GetSequenceDebugName()
 	return "CollapseSequenceStandard";
@@ -227,7 +227,7 @@ function GamepadActionBarSequenceCollapseMixin:InitAnimations()
 end
 
 -- Collapse animation sequence specifically used by the primary gameplay action bars.
-local GamepadActionBarSequenceGameplayCollapseMixin = CreateFromMixins(GamepadActionBarSequenceCollapseMixin);--- @class GamepadActionBarSequenceGameplayCollapseMixin : GamepadActionBarSequenceCollapseMixin
+local GamepadActionBarSequenceGameplayCollapseMixin = CreateFromMixins(GamepadActionBarSequenceCollapseMixin); --- @class GamepadActionBarSequenceGameplayCollapseMixin : GamepadActionBarSequenceCollapseMixin
 function GamepadActionBarSequenceGameplayCollapseMixin:GetSequenceDebugName()
 	return "CollapseSequenceGameplay";
 end
@@ -237,7 +237,7 @@ function GamepadActionBarSequenceGameplayCollapseMixin:Start()
 end
 
 -- Collapse animation sequence specifically by edit mode action bars during spell assignment.
-local GamepadActionBarSequenceEditModeCollapseMixin = CreateFromMixins(GamepadActionBarSequenceCollapseMixin);--- @class GamepadActionBarSequenceEditModeCollapseMixin : GamepadActionBarSequenceCollapseMixin
+local GamepadActionBarSequenceEditModeCollapseMixin = CreateFromMixins(GamepadActionBarSequenceCollapseMixin); --- @class GamepadActionBarSequenceEditModeCollapseMixin : GamepadActionBarSequenceCollapseMixin
 
 function GamepadActionBarSequenceEditModeCollapseMixin:GetSequenceDebugName()
 	return "CollapseSequenceEditMode";
@@ -251,7 +251,7 @@ function GamepadActionBarSequenceEditModeCollapseMixin:Start()
 end
 
 -- Base / abstract class for "expand" animation sequences.
-local GamepadActionBarSequenceExpandMixin = CreateFromMixins(GamepadActionBarSequenceMixin);--- @class GamepadActionBarSequenceExpandMixin : GamepadActionBarSequenceMixin
+local GamepadActionBarSequenceExpandMixin = CreateFromMixins(GamepadActionBarSequenceMixin); --- @class GamepadActionBarSequenceExpandMixin : GamepadActionBarSequenceMixin
 
 function GamepadActionBarSequenceExpandMixin:GetSequenceDebugName()
 	return "ExpandSequence";
@@ -293,7 +293,7 @@ function GamepadActionBarSequenceExpandMixin:InitAnimations()
 end
 
 -- Expand animation sequence specifically used by the primary gameplay action bars.
-local GamepadActionBarSequenceGameplayExpandMixin = CreateFromMixins(GamepadActionBarSequenceExpandMixin);--- @class GamepadActionBarSequenceGameplayExpandMixin : GamepadActionBarSequenceExpandMixin
+local GamepadActionBarSequenceGameplayExpandMixin = CreateFromMixins(GamepadActionBarSequenceExpandMixin); --- @class GamepadActionBarSequenceGameplayExpandMixin : GamepadActionBarSequenceExpandMixin
 function GamepadActionBarSequenceGameplayExpandMixin:GetSequenceDebugName()
 	return "ExpandSequenceGameplay";
 end
@@ -325,7 +325,7 @@ function GamepadActionBarSequenceGameplayExpandMixin:InitAnimations()
 end
 
 -- Expand animation sequence specifically by edit mode action bars during spell assignment.
-local GamepadActionBarSequenceEditModeExpandMixin = CreateFromMixins(GamepadActionBarSequenceExpandMixin);--- @class GamepadActionBarSequenceEditModeExpandMixin : GamepadActionBarSequenceExpandMixin
+local GamepadActionBarSequenceEditModeExpandMixin = CreateFromMixins(GamepadActionBarSequenceExpandMixin); --- @class GamepadActionBarSequenceEditModeExpandMixin : GamepadActionBarSequenceExpandMixin
 
 function GamepadActionBarSequenceEditModeExpandMixin:GetSequenceDebugName()
 	return "ExpandSequenceEditMode";

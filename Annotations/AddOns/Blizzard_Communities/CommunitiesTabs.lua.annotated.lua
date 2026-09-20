@@ -1,4 +1,4 @@
-CommunitiesFrameTabMixin = {};--- @class CommunitiesFrameTabMixin
+CommunitiesFrameTabMixin = {}; --- @class CommunitiesFrameTabMixin
 
 function CommunitiesFrameTabMixin:OnClick()
 	RightSideTabMixin.OnClick(self);
@@ -6,7 +6,7 @@ function CommunitiesFrameTabMixin:OnClick()
 	self:GetParent():SetDisplayMode(self.displayMode);
 end
 
-CommunitiesChatTabMixin = CreateFromMixins(CommunitiesFrameTabMixin);--- @class CommunitiesChatTabMixin : CommunitiesFrameTabMixin
+CommunitiesChatTabMixin = CreateFromMixins(CommunitiesFrameTabMixin); --- @class CommunitiesChatTabMixin : CommunitiesFrameTabMixin
 
 function CommunitiesChatTabMixin:OnClick(buttonName, down)
 	if IsShiftKeyDown() then

@@ -1,4 +1,4 @@
-GameKioskTimerMixin = {};--- @class GameKioskTimerMixin
+GameKioskTimerMixin = {}; --- @class GameKioskTimerMixin
 
 function GameKioskTimerMixin:OnLoad()
 	self.timeLeftFormatter = CreateFromMixins(SecondsFormatterMixin);
@@ -22,7 +22,7 @@ function GameKioskTimerMixin:OnUpdate()
 	end
 end
 
-GameKioskFrameMixin = CreateFromMixins(KioskFrameMixin);--- @class GameKioskFrameMixin : KioskFrameMixin
+GameKioskFrameMixin = CreateFromMixins(KioskFrameMixin); --- @class GameKioskFrameMixin : KioskFrameMixin
 
 function GameKioskFrameMixin:OnEvent(event, ...)
 	KioskFrameMixin.OnEvent(self, event, ...);

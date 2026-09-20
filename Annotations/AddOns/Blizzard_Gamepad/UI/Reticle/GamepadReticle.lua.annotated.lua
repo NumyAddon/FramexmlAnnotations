@@ -2,7 +2,7 @@
 	A small indicator in the middle of the screen to help aim automatic targeting and interactions on gamepad.
 ]]
 
-GamepadReticleMixin = {};--- @class GamepadReticleMixin
+GamepadReticleMixin = {}; --- @class GamepadReticleMixin
 
 function GamepadReticleMixin:OnLoad()
 	self.showingHoverState = false;

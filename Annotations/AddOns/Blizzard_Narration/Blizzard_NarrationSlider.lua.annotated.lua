@@ -10,7 +10,7 @@
 --		narrationValueFormatter (function) - function(value, min, max) -> string. For supplying custom text.
 ---------------------------------------------------------------------------
 
-NarrationSliderMixin = {};--- @class NarrationSliderMixin
+NarrationSliderMixin = {}; --- @class NarrationSliderMixin
 
 function NarrationSliderMixin:SetNarrationLabelRegion(region)
 	self.narrationLabelRegion = region;

@@ -50,7 +50,7 @@ VERTICAL_FLYOUTS = { [16] = true, [17] = true, [18] = true }
 local itemTable = {}; -- Used for items and locations
 local itemDisplayTable = {} -- Used for ordering items by location
 
-EquipmentFlyoutMixin = {};--- @class EquipmentFlyoutMixin
+EquipmentFlyoutMixin = {}; --- @class EquipmentFlyoutMixin
 
 function EquipmentFlyoutMixin:SmartNavigationCloseHandler()
 	self:Hide();

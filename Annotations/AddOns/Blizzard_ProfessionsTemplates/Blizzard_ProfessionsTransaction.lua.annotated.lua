@@ -22,7 +22,7 @@ local function ReagentToTableKey(reagent)
 	return nil;
 end
 
-local AllocationMixin = {};--- @class AllocationMixin
+local AllocationMixin = {}; --- @class AllocationMixin
 
 function AllocationMixin:Init(reagent, quantity)
 	AssertReagentArgumentValid(reagent);
@@ -59,7 +59,7 @@ function CreateAllocation(reagent, quantity)
 	return CreateAndInitFromMixin(AllocationMixin, reagent, quantity);
 end
 
-local AllocationsMixin = {};--- @class AllocationsMixin
+local AllocationsMixin = {}; --- @class AllocationsMixin
 
 function AllocationsMixin:Init()
 	self:Clear();
@@ -146,7 +146,7 @@ function AllocationsMixin:OnChanged()
 	EventRegistry:TriggerEvent("Professions.AllocationUpdated", self);
 end
 
-ProfessionsRecipeTransactionMixin = {};--- @class ProfessionsRecipeTransactionMixin
+ProfessionsRecipeTransactionMixin = {}; --- @class ProfessionsRecipeTransactionMixin
 
 function ProfessionsRecipeTransactionMixin:Init(recipeSchematic)
 	self.exemptedReagents = {};

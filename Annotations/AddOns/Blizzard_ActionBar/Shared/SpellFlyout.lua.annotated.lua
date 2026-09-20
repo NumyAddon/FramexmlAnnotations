@@ -6,7 +6,7 @@ local SPELLFLYOUT_FINAL_SPACING = 9;
 local BEAR_FORM_SPELL_ID = 5487;
 local DIRE_BEAR_FORM_SPELL_ID = 9634;
 
-SpellFlyoutOpenReason = EnumUtil.MakeEnum("GlyphPending", "GlyphActivated");--- @type {["GlyphPending"]: 1, ["GlyphActivated"]: 2} See [SpellFlyoutOpenReason](lua://SpellFlyoutOpenReason)
+SpellFlyoutOpenReason = EnumUtil.MakeEnum("GlyphPending", "GlyphActivated"); --- @type {["GlyphPending"]: 1, ["GlyphActivated"]: 2} # See [SpellFlyoutOpenReason](lua://SpellFlyoutOpenReason)
 
 function SpellFlyout_EscapePressed()
 	if ( DISALLOW_SPELL_FLYOUTS or not SpellFlyout or not SpellFlyout:IsShown() ) then
@@ -19,7 +19,7 @@ end
 
 RegisterGameMenuEscHandler(GameMenuEscPriority.Menu, SpellFlyout_EscapePressed);
 
-SpellFlyoutPopupButtonMixin = {};--- @class SpellFlyoutPopupButtonMixin
+SpellFlyoutPopupButtonMixin = {}; --- @class SpellFlyoutPopupButtonMixin
 
 function SpellFlyoutPopupButtonMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -175,7 +175,7 @@ function SpellFlyoutPopupButtonMixin:GetActionButtonInfo()
 	return info;
 end
 
-SpellFlyoutMixin = {};--- @class SpellFlyoutMixin
+SpellFlyoutMixin = {}; --- @class SpellFlyoutMixin
 
 function SpellFlyoutMixin:IsButtonContextValid()
 	local button = SmartNavigation:GetCurrentButton();

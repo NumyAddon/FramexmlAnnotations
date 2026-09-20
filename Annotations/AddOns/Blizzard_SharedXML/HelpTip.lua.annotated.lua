@@ -349,7 +349,7 @@ function HelpTip:IsPointVertical(point)
 	return point <= HelpTip.Point.BottomEdgeRight;
 end
 
-HelpTipCloseButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class HelpTipCloseButtonMixin : ButtonStateBehaviorMixin
+HelpTipCloseButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class HelpTipCloseButtonMixin : ButtonStateBehaviorMixin
 
 function HelpTipCloseButtonMixin:GetAtlas()
 	if self:IsDown() then
@@ -363,7 +363,7 @@ function HelpTipCloseButtonMixin:OnButtonStateChanged()
 end
 
 
-HelpTipTemplateMixin = { };--- @class HelpTipTemplateMixin
+HelpTipTemplateMixin = { }; --- @class HelpTipTemplateMixin
 
 local function TransformOffsetsForRotation(offsets, rotationInfo)
 	local offsetX = offsets[1];

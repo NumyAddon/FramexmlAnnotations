@@ -32,7 +32,7 @@ end
 
 --------------------------------------------------
 -- DEFAULT STORE CARD MIXIN
-StoreCardMixin = {};--- @class StoreCardMixin
+StoreCardMixin = {}; --- @class StoreCardMixin
 function StoreCardMixin:OnLoad()
 	self.ProductName:SetSpacing(3);
 	self.CurrentPrice:SetTextColor(1.0, 0.82, 0);

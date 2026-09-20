@@ -1,4 +1,4 @@
-SocialUIActionButtonMixin = {};--- @class SocialUIActionButtonMixin
+SocialUIActionButtonMixin = {}; --- @class SocialUIActionButtonMixin
 
 function SocialUIActionButtonMixin:OnEnter()
 	self:TryShowTooltip();
@@ -52,7 +52,7 @@ function SocialUIActionButtonMixin:IsActionEnabled()
 	return true;
 end
 
-SocialUIAddFriendButtonMixin = CreateFromMixins(SocialUIActionButtonMixin);--- @class SocialUIAddFriendButtonMixin : SocialUIActionButtonMixin
+SocialUIAddFriendButtonMixin = CreateFromMixins(SocialUIActionButtonMixin); --- @class SocialUIAddFriendButtonMixin : SocialUIActionButtonMixin
 
 function SocialUIAddFriendButtonMixin:IsActionEnabled()
 	local isFriendsEnabled = not C_SocialRestrictions.IsFriendsDisabled();
@@ -70,7 +70,7 @@ function SocialUIAddFriendButtonMixin:PerformClickAction(...)
 	AddFriendFrame_Show();
 end
 
-SocialUISearchBoxMixin = {};--- @class SocialUISearchBoxMixin
+SocialUISearchBoxMixin = {}; --- @class SocialUISearchBoxMixin
 
 function SocialUISearchBoxMixin:OnLoad()
 	SearchBoxTemplate_OnLoad(self);
@@ -105,7 +105,7 @@ function SocialUISearchBoxMixin:InitializeUserScaledFontSystem()
 	self.Instructions:SetMaxLines(1);
 end
 
-SocialUISearchFilterDropdownMixin = {};--- @class SocialUISearchFilterDropdownMixin
+SocialUISearchFilterDropdownMixin = {}; --- @class SocialUISearchFilterDropdownMixin
 
 function SocialUISearchFilterDropdownMixin:OnLoad()
 	WowStyle1FilterDropdownMixin.OnLoad(self);
@@ -128,7 +128,7 @@ function SocialUISearchFilterDropdownMixin:InitializeUserScaledFontSystem()
 	self.Text:SetPoint("CENTER", self, "CENTER", 0, 0);
 end
 
-SocialUIContactsFrameMixin = {};--- @class SocialUIContactsFrameMixin
+SocialUIContactsFrameMixin = {}; --- @class SocialUIContactsFrameMixin
 
 function SocialUIContactsFrameMixin:SetFilterBarShown(shown)
 	self.FilterBar:SetShown(shown);
@@ -169,7 +169,7 @@ function SocialUIContactsFrameInitializeAADC(tabData)
 	end
 end
 
-SocialUIScrollableHeaderMixin = {};--- @class SocialUIScrollableHeaderMixin
+SocialUIScrollableHeaderMixin = {}; --- @class SocialUIScrollableHeaderMixin
 
 function SocialUIScrollableHeaderMixin:OnLoad()
 	UserScaledElementMixin.OnLoad_UserScaledElement(self);
@@ -186,14 +186,14 @@ function SocialUIScrollableHeaderMixin:SetText(text)
 	self.ButtonText:SetText(text);
 end
 
-SocialCardPresenceHolderMixin = {};--- @class SocialCardPresenceHolderMixin
+SocialCardPresenceHolderMixin = {}; --- @class SocialCardPresenceHolderMixin
 
 function SocialCardPresenceHolderMixin:SetPresence(presenceType)
 	local icon = SocialUIUtil.GetIconForPresenceType(presenceType);
 	self.PresenceIcon:SetAtlas(icon);
 end
 
-SocialCardActionButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class SocialCardActionButtonMixin : ButtonStateBehaviorMixin
+SocialCardActionButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class SocialCardActionButtonMixin : ButtonStateBehaviorMixin
 
 function SocialCardActionButtonMixin:OnLoad()
 	self:SetUpDisplacedRegions();

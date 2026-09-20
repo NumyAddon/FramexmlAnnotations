@@ -46,7 +46,7 @@ function CollectionsSpellButton_UpdateCooldown(self)
 	end
 end
 
-CollectionsPagingMixin = { };--- @class CollectionsPagingMixin
+CollectionsPagingMixin = { }; --- @class CollectionsPagingMixin
 
 function CollectionsPagingMixin:OnLoad()
 	self.currentPage = 1;
@@ -139,7 +139,7 @@ function CollectionItemListButton_SetRedOverlayShown(self, showRedOverlay)
 	end
 end
 
-CollectionsCountTemplateMixin = { };--- @class CollectionsCountTemplateMixin
+CollectionsCountTemplateMixin = { }; --- @class CollectionsCountTemplateMixin
 
 function CollectionsCountTemplateMixin:OnLoad()
 	if (self.labelText) then

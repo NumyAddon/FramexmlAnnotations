@@ -101,7 +101,7 @@ local eventToastTemplatesByToastType = {
 	[Enum.EventToastDisplayType.HouseUpgradeAvailable] = {template = "EventToastHouseUpgradeAvailableTemplate", frameType = "FRAME", hideAutomatically = true,},
 };
 
-EventToastManagerMixin = { };--- @class EventToastManagerMixin
+EventToastManagerMixin = { }; --- @class EventToastManagerMixin
 function EventToastManagerMixin:OnLoad()
 	self.eventToastPools = CreateFramePoolCollection();
 
@@ -141,7 +141,7 @@ end
 function EventToastManagerMixin:SetupBlackBGAtlas()
 end
 
-EventToastManagerFrameMixin = CreateFromMixins(EventToastManagerMixin, OverrideLayoutFrameOnUpdateMixin);--- @class EventToastManagerFrameMixin : EventToastManagerMixin, OverrideLayoutFrameOnUpdateMixin
+EventToastManagerFrameMixin = CreateFromMixins(EventToastManagerMixin, OverrideLayoutFrameOnUpdateMixin); --- @class EventToastManagerFrameMixin : EventToastManagerMixin, OverrideLayoutFrameOnUpdateMixin
 function EventToastManagerFrameMixin:OnLoad()
 	EventToastManagerMixin.OnLoad(self);
 
@@ -397,7 +397,7 @@ function EventToastManagerFrameMixin:StopToasting()
 	self:Hide();
 end
 
-EventToastManagerSideDisplayMixin = CreateFromMixins(EventToastManagerMixin);--- @class EventToastManagerSideDisplayMixin : EventToastManagerMixin
+EventToastManagerSideDisplayMixin = CreateFromMixins(EventToastManagerMixin); --- @class EventToastManagerSideDisplayMixin : EventToastManagerMixin
 
 function EventToastManagerSideDisplayMixin:OnLoad()
 	EventToastManagerMixin.OnLoad(self);
@@ -465,7 +465,7 @@ function EventToastManagerSideDisplayMixin:OnHide()
 	self.level = nil;
 end
 
-EventToastScenarioBaseToastMixin = { };--- @class EventToastScenarioBaseToastMixin
+EventToastScenarioBaseToastMixin = { }; --- @class EventToastScenarioBaseToastMixin
 
 function EventToastScenarioBaseToastMixin:OnLoad()
 	EventToastAnimationsMixin.OnLoad(self);
@@ -522,7 +522,7 @@ function EventToastScenarioBaseToastMixin:PlayAnim()
 	self:AnimIn();
 end
 
-EventToastScenarioToastMixin = { };--- @class EventToastScenarioToastMixin
+EventToastScenarioToastMixin = { }; --- @class EventToastScenarioToastMixin
 
 function EventToastScenarioToastMixin:Setup(toastInfo)
 	EventToastScenarioBaseToastMixin.Setup(self, toastInfo);
@@ -548,7 +548,7 @@ local scenarioExpandSoundKitIDs = {
 	["jailerstower-score"] = 183163;
 };
 
-EventToastScenarioExpandToastMixin = { };--- @class EventToastScenarioExpandToastMixin
+EventToastScenarioExpandToastMixin = { }; --- @class EventToastScenarioExpandToastMixin
 
 function EventToastScenarioExpandToastMixin:Setup(toastInfo)
 	EventToastScenarioBaseToastMixin.Setup(self, toastInfo);
@@ -618,7 +618,7 @@ function EventToastScenarioExpandToastMixin:OnClick(button, ...)
 	end
 end
 
-EventToastWeeklyRewardToastMixin = {};--- @class EventToastWeeklyRewardToastMixin
+EventToastWeeklyRewardToastMixin = {}; --- @class EventToastWeeklyRewardToastMixin
 
 function EventToastWeeklyRewardToastMixin:Setup(toastInfo)
 	self.Contents.Title:SetText(toastInfo.title);
@@ -635,7 +635,7 @@ function EventToastWeeklyRewardToastMixin:ShowToast()
 	self:AnimIn();
 end
 
-EventToastWeeklyRewardUpgradeToastMixin = CreateFromMixins(EventToastWeeklyRewardToastMixin, ItemMixin);--- @class EventToastWeeklyRewardUpgradeToastMixin : EventToastWeeklyRewardToastMixin, ItemMixin
+EventToastWeeklyRewardUpgradeToastMixin = CreateFromMixins(EventToastWeeklyRewardToastMixin, ItemMixin); --- @class EventToastWeeklyRewardUpgradeToastMixin : EventToastWeeklyRewardToastMixin, ItemMixin
 
 function EventToastWeeklyRewardUpgradeToastMixin:Setup(toastInfo)
 	local item = Item:CreateFromItemLink(toastInfo.subtitle);
@@ -649,7 +649,7 @@ function EventToastWeeklyRewardUpgradeToastMixin:Setup(toastInfo)
 	end);
 end
 
-EventToastWithIconBaseMixin = { };--- @class EventToastWithIconBaseMixin
+EventToastWithIconBaseMixin = { }; --- @class EventToastWithIconBaseMixin
 
 function EventToastWithIconBaseMixin:OnAnimFinished()
 	self.WidgetContainer:UnregisterForWidgetSet();
@@ -688,14 +688,14 @@ function EventToastWithIconBaseMixin:Setup(toastInfo)
 	self:Layout();
 end
 
-EventToastWithIconNormalMixin = { };--- @class EventToastWithIconNormalMixin
+EventToastWithIconNormalMixin = { }; --- @class EventToastWithIconNormalMixin
 function EventToastWithIconNormalMixin:Setup(toastInfo)
 	EventToastWithIconBaseMixin.Setup(self, toastInfo);
 	self:Show();
 	self:AnimIn();
 end
 
-EventToastWithIconLargeTextMixin = { };--- @class EventToastWithIconLargeTextMixin
+EventToastWithIconLargeTextMixin = { }; --- @class EventToastWithIconLargeTextMixin
 function EventToastWithIconLargeTextMixin:Setup(toastInfo)
 	EventToastWithIconBaseMixin.Setup(self, toastInfo);
 	self.Icon:ClearAllPoints();
@@ -704,7 +704,7 @@ function EventToastWithIconLargeTextMixin:Setup(toastInfo)
 	self:AnimIn();
 end
 
-EventToastFlightpointDiscoveredMixin = { };--- @class EventToastFlightpointDiscoveredMixin
+EventToastFlightpointDiscoveredMixin = { }; --- @class EventToastFlightpointDiscoveredMixin
 function EventToastFlightpointDiscoveredMixin:Setup(toastInfo)
 	EventToastWithIconBaseMixin.Setup(self, toastInfo);
 
@@ -725,7 +725,7 @@ function EventToastFlightpointDiscoveredMixin:SetupGLineAtlas(useWhiteGLineAtlas
 	parent.GLine2:SetWidth(glineWidth);
 end
 
-EventToastWithIconWithRarityMixin = { };--- @class EventToastWithIconWithRarityMixin
+EventToastWithIconWithRarityMixin = { }; --- @class EventToastWithIconWithRarityMixin
 function EventToastWithIconWithRarityMixin:Setup(toastInfo)
 	EventToastWithIconBaseMixin.Setup(self, toastInfo);
 	local quality = toastInfo.quality;
@@ -747,7 +747,7 @@ function EventToastWithIconWithRarityMixin:Setup(toastInfo)
 	self:AnimIn();
 end
 
-EventToastChallengeModeToastMixin = { };--- @class EventToastChallengeModeToastMixin
+EventToastChallengeModeToastMixin = { }; --- @class EventToastChallengeModeToastMixin
 function EventToastChallengeModeToastMixin:Setup(toastInfo)
 	self.Title:SetText(toastInfo.title);
 	self.SubTitle:SetText(toastInfo.subtitle);
@@ -761,7 +761,7 @@ function EventToastChallengeModeToastMixin:Setup(toastInfo)
 	self:AnimIn();
 end
 
-EventToastManagerNormalMixin = { };--- @class EventToastManagerNormalMixin
+EventToastManagerNormalMixin = { }; --- @class EventToastManagerNormalMixin
 function EventToastManagerNormalMixin:Setup(toastInfo)
 	self:GetParent():SetAnimationState(self.hideParentAnim);
 
@@ -785,7 +785,7 @@ function EventToastManagerNormalMixin:AnchorWidgetFrame(frame, customOffsetY)
 	end
 end
 
-EventToastManagerNormalTitleAndSubtitleMixin = CreateFromMixins(EventToastManagerNormalMixin);--- @class EventToastManagerNormalTitleAndSubtitleMixin : EventToastManagerNormalMixin
+EventToastManagerNormalTitleAndSubtitleMixin = CreateFromMixins(EventToastManagerNormalMixin); --- @class EventToastManagerNormalTitleAndSubtitleMixin : EventToastManagerNormalMixin
 
 local function LeaveMatch()
 	PlaySound(SOUNDKIT.IG_MAINMENU_LOGOUT);
@@ -966,7 +966,7 @@ function EventToastManagerNormalTitleAndSubtitleMixin:Setup(toastInfo)
 	self:Layout();
 end
 
-EventToastManagerNormalSingleLineMixin = CreateFromMixins(EventToastManagerNormalMixin);--- @class EventToastManagerNormalSingleLineMixin : EventToastManagerNormalMixin
+EventToastManagerNormalSingleLineMixin = CreateFromMixins(EventToastManagerNormalMixin); --- @class EventToastManagerNormalSingleLineMixin : EventToastManagerNormalMixin
 function EventToastManagerNormalSingleLineMixin:Setup(toastInfo)
 	EventToastManagerNormalMixin.Setup(self, toastInfo);
 	self.Title:SetText(toastInfo.title);
@@ -976,7 +976,7 @@ function EventToastManagerNormalSingleLineMixin:Setup(toastInfo)
 	self:Layout();
 end
 
-EventToastManagerNormalBlockTextMixin = CreateFromMixins(EventToastManagerNormalMixin);--- @class EventToastManagerNormalBlockTextMixin : EventToastManagerNormalMixin
+EventToastManagerNormalBlockTextMixin = CreateFromMixins(EventToastManagerNormalMixin); --- @class EventToastManagerNormalBlockTextMixin : EventToastManagerNormalMixin
 function EventToastManagerNormalBlockTextMixin:Setup(toastInfo)
 	EventToastManagerNormalMixin.Setup(self, toastInfo);
 	self.Title:SetText(toastInfo.title);
@@ -986,7 +986,7 @@ function EventToastManagerNormalBlockTextMixin:Setup(toastInfo)
 	self:Layout();
 end
 
-EventToastManagerCapstoneUnlockedMixin = CreateFromMixins(EventToastManagerNormalMixin);--- @class EventToastManagerCapstoneUnlockedMixin : EventToastManagerNormalMixin
+EventToastManagerCapstoneUnlockedMixin = CreateFromMixins(EventToastManagerNormalMixin); --- @class EventToastManagerCapstoneUnlockedMixin : EventToastManagerNormalMixin
 function EventToastManagerCapstoneUnlockedMixin:Setup(toastInfo)
 	EventToastManagerNormalMixin.Setup(self, toastInfo);
 	if(toastInfo.subIcon) then
@@ -1009,7 +1009,7 @@ function EventToastManagerCapstoneUnlockedMixin:SetupGLineAtlas(useWhiteGLineAtl
 	parent.GLine2:SetWidth(glineWidth);
 end
 
-EventToastManagerSingleLineWithIconMixin = CreateFromMixins(EventToastManagerNormalMixin);--- @class EventToastManagerSingleLineWithIconMixin : EventToastManagerNormalMixin
+EventToastManagerSingleLineWithIconMixin = CreateFromMixins(EventToastManagerNormalMixin); --- @class EventToastManagerSingleLineWithIconMixin : EventToastManagerNormalMixin
 function EventToastManagerSingleLineWithIconMixin:Setup(toastInfo)
 	EventToastManagerNormalMixin.Setup(self, toastInfo);
 	self.Icon:SetTexture(toastInfo.iconFileID);
@@ -1020,7 +1020,7 @@ function EventToastManagerSingleLineWithIconMixin:Setup(toastInfo)
 	self:Layout();
 end
 
-EventToastAnimationsMixin = { };--- @class EventToastAnimationsMixin
+EventToastAnimationsMixin = { }; --- @class EventToastAnimationsMixin
 
 function EventToastAnimationsMixin:SetupSideDisplayToast(isFirstToast)
 	self.isSideDisplayToast = true;
@@ -1248,19 +1248,19 @@ function EventToastAnimationsMixin:MouseLeave()
 	GameTooltip:Hide();
 end
 
-EventToastHideButtonMixin = { };--- @class EventToastHideButtonMixin
+EventToastHideButtonMixin = { }; --- @class EventToastHideButtonMixin
 function EventToastHideButtonMixin:OnClick()
 	self:GetParent():CloseActiveToasts();
 	self:Hide();
 end
 
-EventToastWeeklyContentsMixin = {};--- @class EventToastWeeklyContentsMixin
+EventToastWeeklyContentsMixin = {}; --- @class EventToastWeeklyContentsMixin
 
 function EventToastWeeklyContentsMixin:OnMouseDown(...)
 	EventToastManagerFrame:OnMouseDown(...);
 end
 
-EventToastScoreboardMixin = {};--- @class EventToastScoreboardMixin
+EventToastScoreboardMixin = {}; --- @class EventToastScoreboardMixin
 
 function EventToastScoreboardMixin:OnLoad()
 	EventToastAnimationsMixin.OnLoad(self);
@@ -1300,7 +1300,7 @@ function EventToastScoreboardMixin:OnHide()
 	EventRegistry:TriggerEvent("EventToastManager.CloseActiveToasts");
 end
 
-EventToastHouseUpgradeAvailableMixin = {}--- @class EventToastHouseUpgradeAvailableMixin
+EventToastHouseUpgradeAvailableMixin = {} --- @class EventToastHouseUpgradeAvailableMixin
 
 function EventToastHouseUpgradeAvailableMixin:Setup(toastInfo)
 	self.SubTitle:SetText(toastInfo.subtitle);

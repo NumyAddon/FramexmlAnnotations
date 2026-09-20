@@ -10,7 +10,7 @@ local SHOOT_RANGED_WEAPON_SPELL_ID_MAPPING = {
 	[Enum.ItemWeaponSubclass.Wand] = 5019,
 };
 
-GamepadHostileTargetingActionBarMixin = CreateFromMixins(StaticOverrideActionBarMixin);--- @class GamepadHostileTargetingActionBarMixin : StaticOverrideActionBarMixin
+GamepadHostileTargetingActionBarMixin = CreateFromMixins(StaticOverrideActionBarMixin); --- @class GamepadHostileTargetingActionBarMixin : StaticOverrideActionBarMixin
 
 function GamepadHostileTargetingActionBarMixin:OnLoad()
 	self.swapLeftAndRightCvar = "GamepadSwapHostileTargetActions";

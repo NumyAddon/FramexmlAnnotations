@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L331)
---- @enum AuraUtil.AuraUpdateChangedType
+ --- @enum AuraUtil.AuraUpdateChangedType
 local AuraUtil_AuraUpdateChangedType = {
     ["None"] = 1,
     ["Debuff"] = 2,
@@ -10,7 +10,7 @@ local AuraUtil_AuraUpdateChangedType = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L338)
---- @enum AuraUtil.UnitFrameDebuffType
+ --- @enum AuraUtil.UnitFrameDebuffType
 local AuraUtil_UnitFrameDebuffType = {
     ["BossDebuff"] = 1,
     ["BossBuff"] = 2,
@@ -20,7 +20,7 @@ local AuraUtil_UnitFrameDebuffType = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListConstants.lua#L1)
---- @enum BattleNetFriendPartyInviteRestrictionType
+ --- @enum BattleNetFriendPartyInviteRestrictionType
 local BattleNetFriendPartyInviteRestrictionType = {
     ["None"] = 1,
     ["NoGameAccounts"] = 2,
@@ -39,14 +39,14 @@ local BattleNetFriendPartyInviteRestrictionType = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapBountyBoard.lua#L1)
---- @enum BountyFrameType
+ --- @enum BountyFrameType
 local BountyFrameType = {
     ["BountyBoard"] = 1,
     ["ActivityTracker"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.lua#L23)
---- @enum CraftingQualityStatLine
+ --- @enum CraftingQualityStatLine
 local CraftingQualityStatLine = {
     ["Difficulty"] = 1,
     ["Skill"] = 2,
@@ -54,14 +54,14 @@ local CraftingQualityStatLine = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLBase/IconDataProvider.lua#L45)
---- @enum IconDataProviderIconType
+ --- @enum IconDataProviderIconType
 local IconDataProviderIconType = {
     ["Spell"] = 1,
     ["Item"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1797)
---- @enum IconSelectorPopupFrameIconFilterTypes
+ --- @enum IconSelectorPopupFrameIconFilterTypes
 local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
     ["Spell"] = 2,
@@ -69,21 +69,21 @@ local IconSelectorPopupFrameIconFilterTypes = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1792)
---- @enum IconSelectorPopupFrameModes
+ --- @enum IconSelectorPopupFrameModes
 local IconSelectorPopupFrameModes = {
     ["New"] = 1,
     ["Edit"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L286)
---- @enum MapPinHighlightAnimType
+ --- @enum MapPinHighlightAnimType
 local MapPinHighlightAnimType = {
     ["ExpandAndFade"] = 1, -- Expands and fades the MapPoi icon, and shows a glow texture
     ["BackgroundPulse"] = 2, -- Pulses a background glow a specified number of times
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L274)
---- @enum MapPinHighlightType
+ --- @enum MapPinHighlightType
 local MapPinHighlightType = {
     ["None"] = 1,
     ["BountyRing"] = 2, -- Golden ring around the pin, used by the Emissary/Bounty Board, not really used any more after a consistency pass on quest pins
@@ -93,7 +93,7 @@ local MapPinHighlightType = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L43)
---- @enum MinimalSliderWithSteppersMixin.Label
+ --- @enum MinimalSliderWithSteppersMixin.Label
 local MinimalSliderWithSteppersMixin_Label = {
     ["Left"] = 1,
     ["Right"] = 2,
@@ -103,7 +103,7 @@ local MinimalSliderWithSteppersMixin_Label = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L11)
---- @enum MinimapPulseLock
+ --- @enum MinimapPulseLock
 local MinimapPulseLock = {
     ["GarrisonBuilding"] = 1,
     ["GarrisonInvasion"] = 2,
@@ -116,7 +116,7 @@ local MinimapPulseLock = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerAnimTemplates.lua#L5)
---- @enum ObjectiveTrackerAnimLineState
+ --- @enum ObjectiveTrackerAnimLineState
 local ObjectiveTrackerAnimLineState = {
     ["Adding"] = 1,
     ["Present"] = 2,
@@ -127,7 +127,7 @@ local ObjectiveTrackerAnimLineState = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua#L1)
---- @enum ObjectiveTrackerModuleState
+ --- @enum ObjectiveTrackerModuleState
 local ObjectiveTrackerModuleState = {
     ["Skipped"] = 1, -- module did not try to layout (due to availableHeight being 0)
     ["NoObjectives"] = 2, -- module has no objectives to show
@@ -137,7 +137,7 @@ local ObjectiveTrackerModuleState = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L374)
---- @enum ObjectiveTrackerSlidingState
+ --- @enum ObjectiveTrackerSlidingState
 local ObjectiveTrackerSlidingState = {
     ["None"] = 1,
     ["SlideIn"] = 2,
@@ -145,7 +145,7 @@ local ObjectiveTrackerSlidingState = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1782)
---- @enum PVPUIHonorInsetPanelType
+ --- @enum PVPUIHonorInsetPanelType
 local PVPUIHonorInsetPanelType = {
     ["Casual"] = 1,
     ["Rated"] = 2,
@@ -154,14 +154,14 @@ local PVPUIHonorInsetPanelType = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L6)
---- @enum Professions.ProfessionType
+ --- @enum Professions.ProfessionType
 local Professions_ProfessionType = {
     ["Crafting"] = 1,
     ["Gathering"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L5)
---- @enum Professions.ReagentContents
+ --- @enum Professions.ReagentContents
 local Professions_ReagentContents = {
     ["None"] = 1,
     ["Partial"] = 2,
@@ -169,7 +169,7 @@ local Professions_ReagentContents = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L4)
---- @enum Professions.ReagentInputMode
+ --- @enum Professions.ReagentInputMode
 local Professions_ReagentInputMode = {
     ["Fixed"] = 1,
     ["Quality"] = 2,
@@ -177,14 +177,14 @@ local Professions_ReagentInputMode = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.lua#L1)
---- @enum ProfessionsCustomerOrdersMode
+ --- @enum ProfessionsCustomerOrdersMode
 local ProfessionsCustomerOrdersMode = {
     ["Browse"] = 1,
     ["Orders"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L1596)
---- @enum ProfessionsSortOrder
+ --- @enum ProfessionsSortOrder
 local ProfessionsSortOrder = {
     ["Name"] = 1,
     ["Tip"] = 2,
@@ -204,7 +204,7 @@ local ProfessionsSortOrder = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L1)
---- @enum QuestLogButtonTypes
+ --- @enum QuestLogButtonTypes
 local QuestLogButtonTypes = {
     ["None"] = 1,
     ["Any"] = 2,
@@ -217,7 +217,7 @@ local QuestLogButtonTypes = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L3)
---- @enum QuestLogDisplayMode
+ --- @enum QuestLogDisplayMode
 local QuestLogDisplayMode = {
     ["Quests"] = 1,
     ["Events"] = 2,
@@ -225,28 +225,28 @@ local QuestLogDisplayMode = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
---- @enum Settings.CategorySet
+ --- @enum Settings.CategorySet
 local Settings_CategorySet = {
     ["Game"] = 1,
     ["AddOns"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L27)
---- @enum Settings.ControlType
+ --- @enum Settings.ControlType
 local Settings_ControlType = {
     ["Radio"] = 1,
     ["Checkbox"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L3)
---- @enum SettingsLayoutMixin.LayoutType
+ --- @enum SettingsLayoutMixin.LayoutType
 local SettingsLayoutMixin_LayoutType = {
     ["Vertical"] = 1,
     ["Canvas"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedConstants.lua#L10)
---- @enum SocialUISideWindowType
+ --- @enum SocialUISideWindowType
 local SocialUISideWindowType = {
     ["BattleNetBroadcastFrame"] = 1,
     ["BattleNetUnavailableNoticeFrame"] = 2,
@@ -255,7 +255,7 @@ local SocialUISideWindowType = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedConstants.lua#L1)
---- @enum SocialUITabType
+ --- @enum SocialUITabType
 local SocialUITabType = {
     ["Friends"] = 1,
     ["FriendRequests"] = 2,
@@ -266,7 +266,7 @@ local SocialUITabType = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L9)
---- @enum SpellFlyoutOpenReason
+ --- @enum SpellFlyoutOpenReason
 local SpellFlyoutOpenReason = {
     ["GlyphPending"] = 1,
     ["GlyphActivated"] = 2,

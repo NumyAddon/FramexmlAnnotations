@@ -1,4 +1,4 @@
-BonusObjectiveDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class BonusObjectiveDataProviderMixin : MapCanvasDataProviderMixin
+BonusObjectiveDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class BonusObjectiveDataProviderMixin : MapCanvasDataProviderMixin
 
 function BonusObjectiveDataProviderMixin:RemoveAllData()
 	self:GetMap():RemoveAllPinsByTemplate("BonusObjectivePinTemplate");
@@ -107,7 +107,7 @@ function BonusObjectiveDataProviderMixin:OnHide()
 end
 
 --[[ Bonus Objective Pin ]]--
-BonusObjectivePinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class BonusObjectivePinMixin : MapCanvasPinMixin
+BonusObjectivePinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class BonusObjectivePinMixin : MapCanvasPinMixin
 
 function BonusObjectivePinMixin:OnLoad()
 	self:SetDefaultMapPinScale();
@@ -189,7 +189,7 @@ function BonusObjectivePinMixin:GetDisplayName()
 end
 
 --[[ Threat Objective Pin ]]--
-ThreatObjectivePinMixin = CreateFromMixins(BonusObjectivePinMixin);--- @class ThreatObjectivePinMixin : BonusObjectivePinMixin
+ThreatObjectivePinMixin = CreateFromMixins(BonusObjectivePinMixin); --- @class ThreatObjectivePinMixin : BonusObjectivePinMixin
 
 function ThreatObjectivePinMixin:OnLoad()
 	self:SetDefaultMapPinScale();

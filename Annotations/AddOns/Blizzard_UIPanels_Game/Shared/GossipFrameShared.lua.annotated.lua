@@ -4,7 +4,7 @@ GOSSIP_BUTTON_TYPE_OPTION = 3;
 GOSSIP_BUTTON_TYPE_ACTIVE_QUEST = 4;
 GOSSIP_BUTTON_TYPE_AVAILABLE_QUEST = 5;
 
-GossipSharedTitleButtonMixin = {};--- @class GossipSharedTitleButtonMixin
+GossipSharedTitleButtonMixin = {}; --- @class GossipSharedTitleButtonMixin
 
 function GossipSharedTitleButtonMixin:Resize()
 	self:SetHeight(math.max(self:GetTextHeight() + 2, self.Icon:GetHeight()));
@@ -23,7 +23,7 @@ function GossipSharedTitleButtonMixin:OnLeave()
 
 end
 
-GossipSharedQuestButtonMixin = CreateFromMixins(GossipSharedTitleButtonMixin);--- @class GossipSharedQuestButtonMixin : GossipSharedTitleButtonMixin
+GossipSharedQuestButtonMixin = CreateFromMixins(GossipSharedTitleButtonMixin); --- @class GossipSharedQuestButtonMixin : GossipSharedTitleButtonMixin
 function GossipSharedQuestButtonMixin:UpdateTitleForQuest(questID, titleText, isIgnored, isTrivial)
 	if ( isIgnored ) then
 		self:SetFormattedText(IGNORED_QUEST_DISPLAY, titleText);
@@ -40,7 +40,7 @@ function GossipSharedQuestButtonMixin:UpdateTitleForQuest(questID, titleText, is
 
 end
 
-GossipSharedAvailableQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMixin);--- @class GossipSharedAvailableQuestButtonMixin : GossipSharedQuestButtonMixin
+GossipSharedAvailableQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMixin); --- @class GossipSharedAvailableQuestButtonMixin : GossipSharedQuestButtonMixin
 
 function GossipSharedAvailableQuestButtonMixin:Setup(questInfo)
 	self:SetID(questInfo.questID);
@@ -51,7 +51,7 @@ function GossipSharedAvailableQuestButtonMixin:OnClick(button)
 	C_GossipInfo.SelectAvailableQuest(self:GetID());
 end
 
-GossipSharedActiveQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMixin);--- @class GossipSharedActiveQuestButtonMixin : GossipSharedQuestButtonMixin
+GossipSharedActiveQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMixin); --- @class GossipSharedActiveQuestButtonMixin : GossipSharedQuestButtonMixin
 function GossipSharedActiveQuestButtonMixin:Setup(questInfo)
 	self:SetID(questInfo.questID);
 	self:UpdateTitleForQuest(questInfo.questID, questInfo.title, questInfo.isIgnored, questInfo.isTrivial);
@@ -62,7 +62,7 @@ function GossipSharedActiveQuestButtonMixin:OnClick(button)
 	C_GossipInfo.SelectActiveQuest(self:GetID());
 end
 
-GossipOptionButtonMixin = { };--- @class GossipOptionButtonMixin
+GossipOptionButtonMixin = { }; --- @class GossipOptionButtonMixin
 
 function GossipOptionButtonMixin:Setup(optionInfo)
 	self:SetID(optionInfo.orderIndex or 0);
@@ -99,14 +99,14 @@ function GossipOptionButtonMixin:OnClick(button)
 	C_GossipInfo.SelectOptionByIndex(self:GetID());
 end
 
-GossipGreetingTextMixin = { }--- @class GossipGreetingTextMixin
+GossipGreetingTextMixin = { } --- @class GossipGreetingTextMixin
 function GossipGreetingTextMixin:Setup(text)
 	self.GreetingText:SetText(text);
 	self:Show();
 	self:SetSize(270, self.GreetingText:GetHeight());
 end
 
-GossipFrameSharedMixin = {};--- @class GossipFrameSharedMixin
+GossipFrameSharedMixin = {}; --- @class GossipFrameSharedMixin
 
 function GossipFrameSharedMixin:AvailableQuestButtonInit(button, elementData)
 	button:Setup(elementData.info);

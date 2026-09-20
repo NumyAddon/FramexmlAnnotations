@@ -1,4 +1,4 @@
-PlayerChoiceTorghastOptionTemplateMixin = {};--- @class PlayerChoiceTorghastOptionTemplateMixin
+PlayerChoiceTorghastOptionTemplateMixin = {}; --- @class PlayerChoiceTorghastOptionTemplateMixin
 
 function PlayerChoiceTorghastOptionTemplateMixin:OnLoad()
 	PlayerChoicePowerChoiceTemplateMixin.OnLoad(self);

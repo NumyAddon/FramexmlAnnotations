@@ -691,7 +691,7 @@ function GetBonusRollEncounterJournalLinkDifficulty()
 	return BonusRollFrame.difficultyID;
 end
 
-EncounterJournalLinkButtonMixin = {};--- @class EncounterJournalLinkButtonMixin
+EncounterJournalLinkButtonMixin = {}; --- @class EncounterJournalLinkButtonMixin
 
 function EncounterJournalLinkButtonMixin:IsLinkDataAvailable()
 	if ( BonusRollFrame.instanceID and BonusRollFrame.instanceID ~= 0 ) then
@@ -1038,7 +1038,7 @@ function ToggleLootRollFrame()
 	GamepadGroupLootRollFrame:SetShown(not GamepadGroupLootRollFrame:IsShown());
 end
 
-GamepadGroupLootRollFrameMixin = {};--- @class GamepadGroupLootRollFrameMixin
+GamepadGroupLootRollFrameMixin = {}; --- @class GamepadGroupLootRollFrameMixin
 
 local function ClampSelectedRollIndex(self)
 	local numWaitingRolls = 0;

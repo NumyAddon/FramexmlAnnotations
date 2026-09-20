@@ -8,7 +8,7 @@ local SpellBookItemEvents = {
 
 local TRAINABLE_FX_ID = 176;
 
-SpellBookItemMixin = {};--- @class SpellBookItemMixin
+SpellBookItemMixin = {}; --- @class SpellBookItemMixin
 
 function SpellBookItemMixin:OnLoad()
 	-- Moved to a container to center all of the text vertically.
@@ -792,7 +792,7 @@ function SpellBookItemMixin:GamepadAdjustTooltipAnchor(tooltip)
 	end
 end
 
-SpellBookOutfitItemMixin = CreateFromMixins(SpellBookItemMixin);--- @class SpellBookOutfitItemMixin : SpellBookItemMixin
+SpellBookOutfitItemMixin = CreateFromMixins(SpellBookItemMixin); --- @class SpellBookOutfitItemMixin : SpellBookItemMixin
 
 local SpellBookOutfitItemEvents = {
 	"SPELL_UPDATE_COOLDOWN",
@@ -920,7 +920,7 @@ function SpellBookOutfitItemMixin:UpdateCooldown()
 	end
 end
 
-SpellBookItemButtonMixin = {};--- @class SpellBookItemButtonMixin
+SpellBookItemButtonMixin = {}; --- @class SpellBookItemButtonMixin
 
 function SpellBookItemButtonMixin:OnLoad()
 	FlyoutButtonMixin.OnLoad(self);

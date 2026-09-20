@@ -19,7 +19,7 @@ local function CreatePrivateAuraUpdateCallback(callback)
 	return handle;
 end
 
-AuraContainerSharedMixin = {};--- @class AuraContainerSharedMixin
+AuraContainerSharedMixin = {}; --- @class AuraContainerSharedMixin
 
 function AuraContainerSharedMixin:IsEnabled()
 	return self.enabled == true;
@@ -53,8 +53,8 @@ function AuraContainerSharedMixin:UpdateAllAuras()
 	-- needed (e.g. target changes).
 end
 
-AuraContainerInboundMixin = CreateFromMixins(AuraContainerSharedMixin);--- @class AuraContainerInboundMixin : AuraContainerSharedMixin
-AuraContainerPrivateMixin = CreateFromMixins(AuraContainerSharedMixin);--- @class AuraContainerPrivateMixin : AuraContainerSharedMixin
+AuraContainerInboundMixin = CreateFromMixins(AuraContainerSharedMixin); --- @class AuraContainerInboundMixin : AuraContainerSharedMixin
+AuraContainerPrivateMixin = CreateFromMixins(AuraContainerSharedMixin); --- @class AuraContainerPrivateMixin : AuraContainerSharedMixin
 
 function AuraContainerPrivateMixin:OnLoad_Intrinsic()
 	local function OnPrivateAurasUpdated(unitAuraUpdateInfo)

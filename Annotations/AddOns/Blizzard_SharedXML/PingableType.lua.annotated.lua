@@ -1,7 +1,7 @@
 -- Mixins used for frames that are pingable, and associated behavior used up to the point of sending a ping.
 
 -- Base mixin, do not use directly. If adding a new mixin or PingableTypeMixin function here, be sure to mirror it in Classic's Stubs.lua/xml files if classic has similar UI.
-PingableTypeMixin = {};--- @class PingableTypeMixin
+PingableTypeMixin = {}; --- @class PingableTypeMixin
 
 -- Check if attributes like "ping-receiver" should be set or not on this frame.
 function PingableTypeMixin:UpdatePingAttributes()
@@ -29,7 +29,7 @@ function PingableTypeMixin:GetTargetInfo()
 end
 
 
-PingableType_UnitFrameMixin = CreateFromMixins(PingableTypeMixin);--- @class PingableType_UnitFrameMixin : PingableTypeMixin
+PingableType_UnitFrameMixin = CreateFromMixins(PingableTypeMixin); --- @class PingableType_UnitFrameMixin : PingableTypeMixin
 
 function PingableType_UnitFrameMixin:GetTargetInfo()
 	local targetInfo = {
@@ -40,7 +40,7 @@ function PingableType_UnitFrameMixin:GetTargetInfo()
 end
 
 
-PingableType_PlayerUnitFrameMixin = CreateFromMixins(PingableType_UnitFrameMixin);--- @class PingableType_PlayerUnitFrameMixin : PingableType_UnitFrameMixin
+PingableType_PlayerUnitFrameMixin = CreateFromMixins(PingableType_UnitFrameMixin); --- @class PingableType_PlayerUnitFrameMixin : PingableType_UnitFrameMixin
 
 function PingableType_PlayerUnitFrameMixin:GetAllowRadialWheel()
 	-- Do not allow the radial wheel when over player resources.
@@ -58,7 +58,7 @@ function PingableType_PlayerUnitFrameMixin:GetTargetInfo()
 end
 
 
-PingableType_ActionButtonMixin = CreateFromMixins(PingableTypeMixin);--- @class PingableType_ActionButtonMixin : PingableTypeMixin
+PingableType_ActionButtonMixin = CreateFromMixins(PingableTypeMixin); --- @class PingableType_ActionButtonMixin : PingableTypeMixin
 
 function PingableType_ActionButtonMixin:UpdatePingAttributes()
 	-- Empty action bar buttons should let pings pass through them.
@@ -112,7 +112,7 @@ function PingableType_ActionButtonMixin:GetTargetInfo()
 end
 
 
-PingableType_CooldownViewerItemMixin = CreateFromMixins(PingableTypeMixin);--- @class PingableType_CooldownViewerItemMixin : PingableTypeMixin
+PingableType_CooldownViewerItemMixin = CreateFromMixins(PingableTypeMixin); --- @class PingableType_CooldownViewerItemMixin : PingableTypeMixin
 
 function PingableType_CooldownViewerItemMixin:GetAllowRadialWheel()
 	return false;

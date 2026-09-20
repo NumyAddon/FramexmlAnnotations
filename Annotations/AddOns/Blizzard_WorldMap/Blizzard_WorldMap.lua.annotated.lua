@@ -3,7 +3,7 @@ local function ShouldWoWLabsAreaBeActive()
 	return WoWLabsAreaDataProviderMixin and C_GameRules.IsGameRuleActive(Enum.GameRule.PlunderstormAreaSelection);
 end
 
-WorldMapMixin = {};--- @class WorldMapMixin
+WorldMapMixin = {}; --- @class WorldMapMixin
 
 --[[
 	Boolean flag that identifies this frame as having updated jump hints, no longer
@@ -1212,7 +1212,7 @@ function WorldMapMixin:RegisterForTransitions()
 end
 
 --[[ Help Plate ]] --
-WorldMapTutorialMixin = { }--- @class WorldMapTutorialMixin
+WorldMapTutorialMixin = { } --- @class WorldMapTutorialMixin
 
 function WorldMapTutorialMixin:OnLoad()
 	self.helpInfo = {

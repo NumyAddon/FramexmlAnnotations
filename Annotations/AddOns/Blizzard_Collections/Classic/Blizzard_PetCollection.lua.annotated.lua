@@ -205,7 +205,7 @@ end
 
 -- SUMMON RANDOM FAVORITE PET ---
 
-PetJournalSummonRandomPetSpellFrameMixin = { };--- @class PetJournalSummonRandomPetSpellFrameMixin
+PetJournalSummonRandomPetSpellFrameMixin = { }; --- @class PetJournalSummonRandomPetSpellFrameMixin
 
 function PetJournalSummonRandomPetSpellFrameMixin:OnLoad()
 	UIPanelSpellButtonFrameMixin.OnLoad(self);

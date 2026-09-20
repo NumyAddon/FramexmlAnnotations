@@ -1,4 +1,4 @@
-ColorPickerFrameMixin = {};--- @class ColorPickerFrameMixin
+ColorPickerFrameMixin = {}; --- @class ColorPickerFrameMixin
 
 function ColorPickerFrameMixin:OnOkay()
 	self.swatchFunc();
@@ -117,7 +117,7 @@ function ColorPickerFrameMixin:GetPreviousValues()
 	return self.previousValues.r, self.previousValues.g, self.previousValues.b, self.previousValues.a;
 end
 
-ColorPickerHexBoxMixin = {};--- @class ColorPickerHexBoxMixin
+ColorPickerHexBoxMixin = {}; --- @class ColorPickerHexBoxMixin
 
 function ColorPickerHexBoxMixin:OnLoad()
 	self:SetTextInsets(16, 0, 0, 0);

@@ -41,7 +41,7 @@ local function UpdateLastLockedAbilities()
 end
 
 --[[ Ability List Frame ]]
-DelvesCompanionAbilityListFrameMixin = {};--- @class DelvesCompanionAbilityListFrameMixin
+DelvesCompanionAbilityListFrameMixin = {}; --- @class DelvesCompanionAbilityListFrameMixin
 
 function DelvesCompanionAbilityListFrameMixin:OnLoad()
 	local panelAttributes = {
@@ -272,7 +272,7 @@ function DelvesCompanionAbilityListFrameMixin:OnMouseWheel(direction)
 end
 
 --[[ Ability Template ]]
-DelvesCompanionAbilityMixin = CreateFromMixins(TalentDisplayMixin);--- @class DelvesCompanionAbilityMixin : TalentDisplayMixin
+DelvesCompanionAbilityMixin = CreateFromMixins(TalentDisplayMixin); --- @class DelvesCompanionAbilityMixin : TalentDisplayMixin
 
 function DelvesCompanionAbilityMixin:InitAdditionalElements()
 	self.Name:SetText(self:GetName());
@@ -333,7 +333,7 @@ function DelvesCompanionAbilityMixin:SetTooltipInternal()
 end
 
 --[[ Role Dropdown ]]
-DelvesCompanionRoleDropdownMixin = {};--- @class DelvesCompanionRoleDropdownMixin
+DelvesCompanionRoleDropdownMixin = {}; --- @class DelvesCompanionRoleDropdownMixin
 
 function DelvesCompanionRoleDropdownMixin:OnLoad()
 	WowStyle1DropdownMixin.OnLoad(self);
@@ -414,7 +414,7 @@ function DelvesCompanionRoleDropdownMixin:Refresh()
 	end);
 end
 
-DelvesCompanionAbilityListPagingControlsMixin = {};--- @class DelvesCompanionAbilityListPagingControlsMixin
+DelvesCompanionAbilityListPagingControlsMixin = {}; --- @class DelvesCompanionAbilityListPagingControlsMixin
 
 function DelvesCompanionAbilityListPagingControlsMixin:Init()
 	self.maxPages = 1;

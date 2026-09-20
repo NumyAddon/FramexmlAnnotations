@@ -46,7 +46,7 @@ LFGVanillaBrowseDividerType =
 -------------------------------------------------------
 ----------LFGBrowseMixin
 -------------------------------------------------------
-LFGBrowseMixin = {};--- @class LFGBrowseMixin
+LFGBrowseMixin = {}; --- @class LFGBrowseMixin
 
 function LFGBrowseMixin:OnLoad()
 	-- Event for entire list
@@ -983,7 +983,7 @@ end
 -------------------------------------------------------
 ----------LFGBrowseCategoryDropdownMixin
 -------------------------------------------------------
-LFGBrowseCategoryDropdownMixin = {};--- @class LFGBrowseCategoryDropdownMixin
+LFGBrowseCategoryDropdownMixin = {}; --- @class LFGBrowseCategoryDropdownMixin
 
 function LFGBrowseCategoryDropdownMixin:OnLoad()
 	self:SetWidth(118);
@@ -1048,7 +1048,7 @@ end
 -------------------------------------------------------
 ----------LFGBrowseActivityDropdownMixin
 -------------------------------------------------------
-LFGBrowseActivityDropdownMixin = {};--- @class LFGBrowseActivityDropdownMixin
+LFGBrowseActivityDropdownMixin = {}; --- @class LFGBrowseActivityDropdownMixin
 
 function LFGBrowseActivityDropdownMixin:OnLoad()
 	self.selectedValues = {};
@@ -1231,7 +1231,7 @@ end
 -------------------------------------------------------
 ----------Delist Button
 -------------------------------------------------------
-LFGBrowseDelistButtonMixin = { };--- @class LFGBrowseDelistButtonMixin
+LFGBrowseDelistButtonMixin = { }; --- @class LFGBrowseDelistButtonMixin
 
 function LFGBrowseDelistButtonMixin:OnClick(button)
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
@@ -1245,7 +1245,7 @@ end
 -------------------------------------------------------
 ----------Invite Button
 -------------------------------------------------------
-LFGBrowseGroupInviteButtonMixin = { };--- @class LFGBrowseGroupInviteButtonMixin
+LFGBrowseGroupInviteButtonMixin = { }; --- @class LFGBrowseGroupInviteButtonMixin
 
 function LFGBrowseGroupInviteButtonMixin:OnClick(button)
 	self.inviteFunc();
@@ -1254,7 +1254,7 @@ end
 -------------------------------------------------------
 ----------Message Button
 -------------------------------------------------------
-LFGBrowseSendMessageButtonMixin = { };--- @class LFGBrowseSendMessageButtonMixin
+LFGBrowseSendMessageButtonMixin = { }; --- @class LFGBrowseSendMessageButtonMixin
 
 function LFGBrowseSendMessageButtonMixin:OnClick(button)
 	local selectedElement = LFGBrowseFrame.selectionBehavior:GetSelectedElementData()[1];

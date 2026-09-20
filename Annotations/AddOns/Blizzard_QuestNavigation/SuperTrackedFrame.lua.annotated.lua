@@ -1,7 +1,7 @@
 
 local PartyMemberIconUpdateFrequencySeconds = 1.0;
 
-SuperTrackedFrameMixin = {};--- @class SuperTrackedFrameMixin
+SuperTrackedFrameMixin = {}; --- @class SuperTrackedFrameMixin
 
 function SuperTrackedFrameMixin:OnLoad()
 	self.mouseToNavVec = CreateVector2D(0, 0);

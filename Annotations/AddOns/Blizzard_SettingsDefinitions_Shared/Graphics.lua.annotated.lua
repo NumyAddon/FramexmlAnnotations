@@ -81,7 +81,7 @@ local function CreateQualitySliderSetting(cvar, label, proxyName, tooltip)
 	return {setting = setting, initializer = initializer, cvar = cvar};
 end
 
-SettingsAdvancedQualityControlsMixin = {};--- @class SettingsAdvancedQualityControlsMixin
+SettingsAdvancedQualityControlsMixin = {}; --- @class SettingsAdvancedQualityControlsMixin
 
 function SettingsAdvancedQualityControlsMixin:Init(settings, raid, cbrHandles)
 
@@ -528,7 +528,7 @@ function SettingsAdvancedQualityControlsMixin:Init(settings, raid, cbrHandles)
 	end
 end
 
-SettingsTabNarrationMixin = CreateFromMixins(NarrationSkipTooltipsMixin);--- @class SettingsTabNarrationMixin : NarrationSkipTooltipsMixin
+SettingsTabNarrationMixin = CreateFromMixins(NarrationSkipTooltipsMixin); --- @class SettingsTabNarrationMixin : NarrationSkipTooltipsMixin
 
 function SettingsTabNarrationMixin:NarrationGetName()
 	return self.Text:GetText();
@@ -539,7 +539,7 @@ function SettingsTabNarrationMixin:NarrationGetContext()
 	return NarrationUtil.MakeNarrationString(NARRATION_OBJECT_TAB, indexString);
 end
 
-SettingsAdvancedQualitySectionMixin = CreateFromMixins(SettingsExpandableSectionMixin);--- @class SettingsAdvancedQualitySectionMixin : SettingsExpandableSectionMixin
+SettingsAdvancedQualitySectionMixin = CreateFromMixins(SettingsExpandableSectionMixin); --- @class SettingsAdvancedQualitySectionMixin : SettingsExpandableSectionMixin
 
 function SettingsAdvancedQualitySectionMixin:OnLoad()
 	self.tabsGroup = CreateRadioButtonGroup();
@@ -594,7 +594,7 @@ function SettingsAdvancedQualitySectionMixin:NarrationGetIndexInfo()
 	return nil;
 end
 
-SettingsAdvancedControlNarrationMixin = CreateFromMixins(NarrationStaticDescriptionMixin);--- @class SettingsAdvancedControlNarrationMixin : NarrationStaticDescriptionMixin
+SettingsAdvancedControlNarrationMixin = CreateFromMixins(NarrationStaticDescriptionMixin); --- @class SettingsAdvancedControlNarrationMixin : NarrationStaticDescriptionMixin
 
 function SettingsAdvancedControlNarrationMixin:GetNarrationControlCount()
 	return 1;
@@ -604,7 +604,7 @@ function SettingsAdvancedControlNarrationMixin:SetNarrationIndexInfo(groupName, 
 	self.settingsNarrationIndexString = groupName .. " " .. NARRATION_INDEX_INFO_FORMAT:format(startIndex, total);
 end
 
-SettingsAdvancedSliderMixin = CreateFromMixins(DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin);--- @class SettingsAdvancedSliderMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
+SettingsAdvancedSliderMixin = CreateFromMixins(DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin); --- @class SettingsAdvancedSliderMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
 
 function SettingsAdvancedSliderMixin:OnLoad()
 	Mixin(self.SliderWithSteppers.Slider, DefaultTooltipMixin);
@@ -626,7 +626,7 @@ function SettingsAdvancedSliderMixin:OnLoad()
 	end;
 end
 
-SettingsAdvancedCheckboxSliderMixin = CreateFromMixins(DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin);--- @class SettingsAdvancedCheckboxSliderMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
+SettingsAdvancedCheckboxSliderMixin = CreateFromMixins(DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin); --- @class SettingsAdvancedCheckboxSliderMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
 
 function SettingsAdvancedCheckboxSliderMixin:OnLoad()
 	Mixin(self.SliderWithSteppers.Slider, DefaultTooltipMixin);
@@ -677,7 +677,7 @@ function SettingsAdvancedCheckboxSliderMixin:SetNarrationIndexInfo(groupName, st
 	self.settingsSliderNarrationIndexString = groupName .. " " .. NARRATION_INDEX_INFO_FORMAT:format(startIndex + 1, total);
 end
 
-SettingsAdvancedDropdownMixin = CreateFromMixins(DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin);--- @class SettingsAdvancedDropdownMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
+SettingsAdvancedDropdownMixin = CreateFromMixins(DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin); --- @class SettingsAdvancedDropdownMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
 
 function SettingsAdvancedDropdownMixin:OnLoad()
 	DefaultTooltipMixin.OnLoad(self);

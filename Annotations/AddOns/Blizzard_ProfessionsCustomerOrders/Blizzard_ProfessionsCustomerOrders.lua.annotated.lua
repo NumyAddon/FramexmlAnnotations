@@ -1,4 +1,4 @@
-ProfessionsCustomerOrdersMode = EnumUtil.MakeEnum("Browse", "Orders");--- @type {["Browse"]: 1, ["Orders"]: 2} See [ProfessionsCustomerOrdersMode](lua://ProfessionsCustomerOrdersMode)
+ProfessionsCustomerOrdersMode = EnumUtil.MakeEnum("Browse", "Orders"); --- @type {["Browse"]: 1, ["Orders"]: 2} # See [ProfessionsCustomerOrdersMode](lua://ProfessionsCustomerOrdersMode)
 
 local ProfessionOrderFrameTitles =
 {
@@ -7,7 +7,7 @@ local ProfessionOrderFrameTitles =
 };
 
 
-ProfessionsCustomerOrdersFrameTabMixin = {};--- @class ProfessionsCustomerOrdersFrameTabMixin
+ProfessionsCustomerOrdersFrameTabMixin = {}; --- @class ProfessionsCustomerOrdersFrameTabMixin
 
 function ProfessionsCustomerOrdersFrameTabMixin:OnClick()
     CallMethodOnNearestAncestor(self, "SelectMode", self.mode);
@@ -21,7 +21,7 @@ function ProfessionsCustomerOrdersFrameTabMixin:OnShow()
 	PanelTemplates_TabResize(self, TAB_PADDING, absoluteSize, MIN_TAB_WIDTH);
 end
 
-ProfessionsCustomerOrdersMixin = {};--- @class ProfessionsCustomerOrdersMixin
+ProfessionsCustomerOrdersMixin = {}; --- @class ProfessionsCustomerOrdersMixin
 
 local ProfessionsCustomerOrdersEvents =
 {

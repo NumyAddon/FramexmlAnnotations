@@ -1,5 +1,5 @@
 -- Base mixin for alternate power bars attached to the player's nameplate (Personal Resources)
-ClassNameplateAlternatePowerBarBaseMixin = CreateFromMixins(AlternatePowerBarBaseMixin);--- @class ClassNameplateAlternatePowerBarBaseMixin : AlternatePowerBarBaseMixin
+ClassNameplateAlternatePowerBarBaseMixin = CreateFromMixins(AlternatePowerBarBaseMixin); --- @class ClassNameplateAlternatePowerBarBaseMixin : AlternatePowerBarBaseMixin
 
 local DefaultBarArtInfo = {r = 0, g = 0, b = 1};
 

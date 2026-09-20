@@ -15,7 +15,7 @@
 								 event is needed so that we get both the new
 								 value and the old value.
 ]]
-GamepadOverrideBarMixin = CreateFromMixins(GamepadActionBarMixin);--- @class GamepadOverrideBarMixin : GamepadActionBarMixin
+GamepadOverrideBarMixin = CreateFromMixins(GamepadActionBarMixin); --- @class GamepadOverrideBarMixin : GamepadActionBarMixin
 
 function GamepadOverrideBarMixin:OnLoad()
 	GamepadActionBarMixin.OnLoad(self);

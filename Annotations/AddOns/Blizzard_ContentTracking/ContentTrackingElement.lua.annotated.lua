@@ -1,5 +1,5 @@
 
-ContentTrackingCheckmarkMixin = {};--- @class ContentTrackingCheckmarkMixin
+ContentTrackingCheckmarkMixin = {}; --- @class ContentTrackingCheckmarkMixin
 
 function ContentTrackingCheckmarkMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
@@ -12,7 +12,7 @@ function ContentTrackingCheckmarkMixin:OnLeave()
 end
 
 
-ContentTrackingElementMixin = {};--- @class ContentTrackingElementMixin
+ContentTrackingElementMixin = {}; --- @class ContentTrackingElementMixin
 
 function ContentTrackingElementMixin:OnHide()
 	self:ClearTrackables();

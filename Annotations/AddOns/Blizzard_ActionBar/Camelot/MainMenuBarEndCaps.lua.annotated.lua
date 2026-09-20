@@ -1,5 +1,5 @@
 
-MainMenuBarEndCapMixin = {};--- @class MainMenuBarEndCapMixin
+MainMenuBarEndCapMixin = {}; --- @class MainMenuBarEndCapMixin
 
 function MainMenuBarEndCapMixin:OnLoad()
 	self.isVisible = true;

@@ -1,4 +1,4 @@
-ProfessionsUnlearnButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class ProfessionsUnlearnButtonMixin : ButtonStateBehaviorMixin
+ProfessionsUnlearnButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class ProfessionsUnlearnButtonMixin : ButtonStateBehaviorMixin
 
 function ProfessionsUnlearnButtonMixin:OnEnter()
 	ButtonStateBehaviorMixin.OnEnter(self);

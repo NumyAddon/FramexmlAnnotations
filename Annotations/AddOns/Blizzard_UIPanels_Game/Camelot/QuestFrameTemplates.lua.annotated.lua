@@ -1,4 +1,4 @@
-QuestAccountCompletedNoticeMixin = {};--- @class QuestAccountCompletedNoticeMixin
+QuestAccountCompletedNoticeMixin = {}; --- @class QuestAccountCompletedNoticeMixin
 
 function QuestAccountCompletedNoticeMixin:OnLoad()
 	self:SetShown(false);

@@ -1,6 +1,6 @@
 local SOFT_CURSOR_DEFUALT_MAX_SPEED = 200;
 
-SoftCursorMixin = {}--- @class SoftCursorMixin
+SoftCursorMixin = {} --- @class SoftCursorMixin
 
 function SoftCursorMixin:OnLoad()
 	self.speedX = 0;
@@ -118,7 +118,7 @@ function SoftCursorMixin:RefreshBounds()
 	self:ResetPosition();
 end
 
-SoftCursorBoundsMixin = {}--- @class SoftCursorBoundsMixin
+SoftCursorBoundsMixin = {} --- @class SoftCursorBoundsMixin
 
 --This is a base function expected to be overriden.
 function SoftCursorBoundsMixin:ClampPointInBounds(inX, inY)
@@ -129,7 +129,7 @@ function SoftCursorBoundsMixin:GetCenter()
 	return self.pointX, self.pointY;
 end
 
-SoftCursorCircleBoundsMixin = CreateFromMixins(SoftCursorBoundsMixin)--- @class SoftCursorCircleBoundsMixin : SoftCursorBoundsMixin
+SoftCursorCircleBoundsMixin = CreateFromMixins(SoftCursorBoundsMixin) --- @class SoftCursorCircleBoundsMixin : SoftCursorBoundsMixin
 
 function SoftCursorCircleBoundsMixin:Init(inX, inY, inRadius)
 	self.pointX = inX;
@@ -159,7 +159,7 @@ function SoftCursor_CreateCircleBounds(inX, inY, inRadius)
 	return CreateAndInitFromMixin(SoftCursorCircleBoundsMixin, inX, inY, inRadius);
 end
 
-SoftCursorRectBoundsMixin = CreateFromMixins(SoftCursorBoundsMixin)--- @class SoftCursorRectBoundsMixin : SoftCursorBoundsMixin
+SoftCursorRectBoundsMixin = CreateFromMixins(SoftCursorBoundsMixin) --- @class SoftCursorRectBoundsMixin : SoftCursorBoundsMixin
 
 function SoftCursorRectBoundsMixin:Init(inX, inY, inWidth, inHeight)
 	self.pointX = inX;

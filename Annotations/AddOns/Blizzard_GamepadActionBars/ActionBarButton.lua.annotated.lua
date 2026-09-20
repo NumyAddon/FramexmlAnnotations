@@ -1,4 +1,4 @@
-local InputDeviceActionButtonTextureSetMixin = {};--- @class InputDeviceActionButtonTextureSetMixin
+local InputDeviceActionButtonTextureSetMixin = {}; --- @class InputDeviceActionButtonTextureSetMixin
 
 function InputDeviceActionButtonTextureSetMixin:Init()
 	self.emptySlotSquareBackgroundTextures = {};
@@ -230,7 +230,7 @@ castingAnimData:SetEndMaskSizeOffset(BUTTON_SHAPES.SQUARE, false, 17);
 ---------------------------------
 
 -- Contains the functions and values shared between both the standard and pet variants of the gamepad action bar button.
-GamepadActionBarButtonMixin = {};--- @class GamepadActionBarButtonMixin
+GamepadActionBarButtonMixin = {}; --- @class GamepadActionBarButtonMixin
 
 function GamepadActionBarButtonMixin:SetShapeToCircle()
 	-- Hide generic mask in favor of Gamepad specific masks
@@ -684,7 +684,7 @@ end
 -- GamepadActionBarButtonFlyoutMixin --
 -----------------------------------------
 
-GamepadActionBarButtonFlyoutMixin = {}--- @class GamepadActionBarButtonFlyoutMixin
+GamepadActionBarButtonFlyoutMixin = {} --- @class GamepadActionBarButtonFlyoutMixin
 
 function GamepadActionBarButtonFlyoutMixin:OnLoad()
 	self.flyoutArrowAngleRads = 0;
@@ -1014,7 +1014,7 @@ end
 -----------------------------------------
 
 -- GamepadActionBarButton variant for the standard action buttons on the gamepad action
-GamepadActionBarStandardButtonMixin = CreateFromMixins(GamepadActionBarButtonMixin, GamepadActionBarButtonFlyoutMixin);--- @class GamepadActionBarStandardButtonMixin : GamepadActionBarButtonMixin, GamepadActionBarButtonFlyoutMixin
+GamepadActionBarStandardButtonMixin = CreateFromMixins(GamepadActionBarButtonMixin, GamepadActionBarButtonFlyoutMixin); --- @class GamepadActionBarStandardButtonMixin : GamepadActionBarButtonMixin, GamepadActionBarButtonFlyoutMixin
 
 function GamepadActionBarStandardButtonMixin:OnLoad()
 	GamepadActionBarButtonFlyoutMixin.OnLoad(self);
@@ -1111,7 +1111,7 @@ end
 -- GamepadActionBarPetButtonMixin --
 ------------------------------------
 
-GamepadActionBarPetButtonMixin = CreateFromMixins(PetActionButtonMixin, GamepadActionBarButtonMixin);--- @class GamepadActionBarPetButtonMixin : PetActionButtonMixin, GamepadActionBarButtonMixin
+GamepadActionBarPetButtonMixin = CreateFromMixins(PetActionButtonMixin, GamepadActionBarButtonMixin); --- @class GamepadActionBarPetButtonMixin : PetActionButtonMixin, GamepadActionBarButtonMixin
 
 function GamepadActionBarPetButtonMixin:HasAction()
 	local petActionButtonID = self:GetID();

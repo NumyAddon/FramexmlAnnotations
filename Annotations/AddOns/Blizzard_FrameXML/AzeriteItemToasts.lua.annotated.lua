@@ -1,4 +1,4 @@
-AzeriteItemLevelUpToastMixin = {};--- @class AzeriteItemLevelUpToastMixin
+AzeriteItemLevelUpToastMixin = {}; --- @class AzeriteItemLevelUpToastMixin
 
 local TOAST_MODEL_SCENE_INFO = StaticModelInfo.CreateModelSceneEntry(111, 1688020);	-- 7DU_ArgusRaid_TitanTrappedSoul01
 

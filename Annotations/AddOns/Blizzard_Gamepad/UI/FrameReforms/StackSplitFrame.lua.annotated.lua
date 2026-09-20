@@ -4,7 +4,7 @@
 	is processed, OnLoad is off the table. So we will lazy-init gamepad behaviors the first
 	time the user attempts to open the stack split frame.
 ]]
-StackSplitGamepadMixin = {};--- @class StackSplitGamepadMixin
+StackSplitGamepadMixin = {}; --- @class StackSplitGamepadMixin
 
 local ParentOpenStackSplit = StackSplitMixin.OpenStackSplitFrame;
 function StackSplitGamepadMixin:OpenStackSplitFrame(maxStack, parent, anchor, anchorTo, stackCount)

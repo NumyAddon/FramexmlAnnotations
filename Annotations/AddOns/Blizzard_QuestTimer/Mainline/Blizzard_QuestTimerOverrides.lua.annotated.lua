@@ -1,6 +1,6 @@
 QUEST_TIMER_FRAME_TOP_PADDING = 18;
 
-QuestTimerButtonMixin = {};--- @class QuestTimerButtonMixin
+QuestTimerButtonMixin = {}; --- @class QuestTimerButtonMixin
 
 function QuestTimerButtonMixin:OnClick()
 	QuestMapFrame_OpenToQuestDetails(self.questID);

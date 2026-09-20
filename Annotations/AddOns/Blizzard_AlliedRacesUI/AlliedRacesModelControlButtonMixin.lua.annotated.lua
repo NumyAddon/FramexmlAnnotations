@@ -19,7 +19,7 @@ end
 
 --------------------------------------------------
 -- ALLIED RACES MODEL CONTROL ROTATE BUTTON MIXIN
-AlliedRacesModelControlRotateButtonMixin = CreateFromMixins(ModelControlRotateButtonMixin, AlliedRacesModelControlButtonMixin);--- @class AlliedRacesModelControlRotateButtonMixin : ModelControlRotateButtonMixin, AlliedRacesModelControlButtonMixin
+AlliedRacesModelControlRotateButtonMixin = CreateFromMixins(ModelControlRotateButtonMixin, AlliedRacesModelControlButtonMixin); --- @class AlliedRacesModelControlRotateButtonMixin : ModelControlRotateButtonMixin, AlliedRacesModelControlButtonMixin
 
 function AlliedRacesModelControlRotateButtonMixin:OnLoad()
 	AlliedRacesModelControlButtonMixin.OnLoad(self);
@@ -37,7 +37,7 @@ end
 
 --------------------------------------------------
 -- ALLIED RACES MODEL CONTROL ZOOM BUTTON MIXIN
-AlliedRacesModelControlZoomButtonMixin = CreateFromMixins(ModelControlZoomButtonMixin, AlliedRacesModelControlButtonMixin);--- @class AlliedRacesModelControlZoomButtonMixin : ModelControlZoomButtonMixin, AlliedRacesModelControlButtonMixin
+AlliedRacesModelControlZoomButtonMixin = CreateFromMixins(ModelControlZoomButtonMixin, AlliedRacesModelControlButtonMixin); --- @class AlliedRacesModelControlZoomButtonMixin : ModelControlZoomButtonMixin, AlliedRacesModelControlButtonMixin
 
 function AlliedRacesModelControlZoomButtonMixin:OnLoad()
 	AlliedRacesModelControlButtonMixin.OnLoad(self);

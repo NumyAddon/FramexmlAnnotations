@@ -3,7 +3,7 @@ local COMMODITIES_LIST_SCROLL_OFFSET_REFRESH_THRESHOLD = 30;
 local MINIMUM_UNSELECTED_ENTRIES = 6;
 
 
-AuctionHouseCommoditiesListMixin = CreateFromMixins(AuctionHouseItemListMixin, AuctionHouseSystemMixin);--- @class AuctionHouseCommoditiesListMixin : AuctionHouseItemListMixin, AuctionHouseSystemMixin
+AuctionHouseCommoditiesListMixin = CreateFromMixins(AuctionHouseItemListMixin, AuctionHouseSystemMixin); --- @class AuctionHouseCommoditiesListMixin : AuctionHouseItemListMixin, AuctionHouseSystemMixin
 
 local AUCTION_HOUSE_COMMODITIES_LIST_EVENTS = {
 	"COMMODITY_SEARCH_RESULTS_UPDATED",
@@ -108,7 +108,7 @@ function AuctionHouseCommoditiesListMixin:RefreshScrollFrame()
 end
 
 
-AuctionHouseCommoditiesBuyListMixin = CreateFromMixins(AuctionHouseCommoditiesListMixin);--- @class AuctionHouseCommoditiesBuyListMixin : AuctionHouseCommoditiesListMixin
+AuctionHouseCommoditiesBuyListMixin = CreateFromMixins(AuctionHouseCommoditiesListMixin); --- @class AuctionHouseCommoditiesBuyListMixin : AuctionHouseCommoditiesListMixin
 
 function AuctionHouseCommoditiesBuyListMixin:OnLoad()
 	AuctionHouseItemListMixin.OnLoad(self);
@@ -259,7 +259,7 @@ function AuctionHouseCommoditiesBuyListMixin:RefreshScrollFrame()
 end
 
 
-AuctionHouseCommoditiesSellListMixin = CreateFromMixins(AuctionHouseCommoditiesListMixin);--- @class AuctionHouseCommoditiesSellListMixin : AuctionHouseCommoditiesListMixin
+AuctionHouseCommoditiesSellListMixin = CreateFromMixins(AuctionHouseCommoditiesListMixin); --- @class AuctionHouseCommoditiesSellListMixin : AuctionHouseCommoditiesListMixin
 
 function AuctionHouseCommoditiesSellListMixin:OnLoad()
 	AuctionHouseCommoditiesListMixin.OnLoad(self);

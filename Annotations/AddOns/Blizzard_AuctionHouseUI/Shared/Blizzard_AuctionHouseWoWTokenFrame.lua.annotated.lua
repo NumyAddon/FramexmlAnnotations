@@ -181,7 +181,7 @@ function BrowseWowTokenResultsBuyout_OnEnter(self)
 end
 
 
-WoWTokenSellFrameMixin = CreateFromMixins(AuctionHouseSystemMixin);--- @class WoWTokenSellFrameMixin : AuctionHouseSystemMixin
+WoWTokenSellFrameMixin = CreateFromMixins(AuctionHouseSystemMixin); --- @class WoWTokenSellFrameMixin : AuctionHouseSystemMixin
 
 function WoWTokenSellFrameMixin:OnLoad()
 	AuctionHouseBackgroundMixin.OnLoad(self);
@@ -280,7 +280,7 @@ function WoWTokenSellFrameMixin:Refresh()
 	end
 end
 
-WoWTokenDisplayMixin = CreateFromMixins(AuctionHouseItemDisplayMixin);--- @class WoWTokenDisplayMixin : AuctionHouseItemDisplayMixin
+WoWTokenDisplayMixin = CreateFromMixins(AuctionHouseItemDisplayMixin); --- @class WoWTokenDisplayMixin : AuctionHouseItemDisplayMixin
 
 function WoWTokenDisplayMixin:OnLoad()
 	AuctionHouseItemDisplayMixin.OnLoad(self);
@@ -391,7 +391,7 @@ function WowTokenGameTimeTutorialStoreButton_OnLoad(self)
 	self:RegisterEvent("TRIAL_STATUS_UPDATE");
 end
 
-AuctionHouseStoreButtonMixin = {};--- @class AuctionHouseStoreButtonMixin
+AuctionHouseStoreButtonMixin = {}; --- @class AuctionHouseStoreButtonMixin
 function AuctionHouseStoreButtonMixin:OnLoad()
 	WowTokenGameTimeTutorialStoreButton_OnLoad(self);
 end

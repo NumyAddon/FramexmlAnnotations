@@ -13,7 +13,7 @@ PROFESSION_RANKS[11] = {950, BATTLE_FOR_AZEROTH_MASTER};
 
 local strlen = strlen;
 
-ProfessionsBookFrameMixin = {};--- @class ProfessionsBookFrameMixin
+ProfessionsBookFrameMixin = {}; --- @class ProfessionsBookFrameMixin
 
 function ProfessionsBookFrameMixin:OnLoad()
 	self:RegisterEvent("SKILL_LINES_CHANGED");
@@ -213,7 +213,7 @@ function ProfessionsBookFrameMixin:FormatProfession(frame, index)
 end
 
 
-ProfessionsBookFrameStandaloneMixin = CreateFromMixins(ProfessionsBookFrameMixin);--- @class ProfessionsBookFrameStandaloneMixin : ProfessionsBookFrameMixin
+ProfessionsBookFrameStandaloneMixin = CreateFromMixins(ProfessionsBookFrameMixin); --- @class ProfessionsBookFrameStandaloneMixin : ProfessionsBookFrameMixin
 
 function ProfessionsBookFrameStandaloneMixin:OnLoad()
 	ProfessionsBookFrameMixin.OnLoad(self);
@@ -227,7 +227,7 @@ function ProfessionsBookFrameStandaloneMixin:OnLoad()
 	self:SetTitle(TRADE_SKILLS);
 end
 
-ProfessionSpellButtonMixin = {};--- @class ProfessionSpellButtonMixin
+ProfessionSpellButtonMixin = {}; --- @class ProfessionSpellButtonMixin
 
 function ProfessionSpellButtonMixin:OnLoad()
 	FlyoutButtonMixin.OnLoad(self);
@@ -514,7 +514,7 @@ function ProfessionsBook_GetSpellBookItemSlot(spellButton)
 	return index <= arbitraryMaxSpells and index or nil;
 end
 
-ProfessionsUnlearnButtonMixin = {};--- @class ProfessionsUnlearnButtonMixin
+ProfessionsUnlearnButtonMixin = {}; --- @class ProfessionsUnlearnButtonMixin
 
 function ProfessionsUnlearnButtonMixin:OnEnter()
     self.Icon:SetAlpha(1.0);

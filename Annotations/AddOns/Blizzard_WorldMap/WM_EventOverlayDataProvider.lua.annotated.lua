@@ -1,4 +1,4 @@
-WorldMap_EventOverlayDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class WorldMap_EventOverlayDataProviderMixin : MapCanvasDataProviderMixin
+WorldMap_EventOverlayDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class WorldMap_EventOverlayDataProviderMixin : MapCanvasDataProviderMixin
 
 function WorldMap_EventOverlayDataProviderMixin:RemoveAllData()
 	self:GetMap():RemoveAllPinsByTemplate("WorldMapInvasionOverlayPinTemplate");
@@ -43,7 +43,7 @@ function WorldMap_EventOverlayDataProviderMixin:CheckShowThreatOverlay(mapID)
 end
 
 --[[ EventOverlay Blob Pin ]]--
-WorldMap_EventOverlayPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class WorldMap_EventOverlayPinMixin : MapCanvasPinMixin
+WorldMap_EventOverlayPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class WorldMap_EventOverlayPinMixin : MapCanvasPinMixin
 
 function WorldMap_EventOverlayPinMixin:OnLoad()
 	self:SetIgnoreGlobalPinScale(true);

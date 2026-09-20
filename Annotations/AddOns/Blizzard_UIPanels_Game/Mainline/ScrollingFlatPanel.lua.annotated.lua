@@ -1,6 +1,6 @@
 local ScrollBarWidth = 16;
 
-ScrollingFlatPanelMixin = {};--- @class ScrollingFlatPanelMixin
+ScrollingFlatPanelMixin = {}; --- @class ScrollingFlatPanelMixin
 
 function ScrollingFlatPanelMixin:OnLoad()
 	self:SetTitle(self.panelTitle);

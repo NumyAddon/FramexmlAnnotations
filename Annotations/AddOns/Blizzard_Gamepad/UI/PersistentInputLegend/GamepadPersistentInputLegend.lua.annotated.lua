@@ -31,7 +31,7 @@ local FACE_BUTTONS = {
 	right = GAMEPAD_FACE_RIGHT,
 };
 
-GamepadPersistentInputLegendEntryMixin = {};--- @class GamepadPersistentInputLegendEntryMixin
+GamepadPersistentInputLegendEntryMixin = {}; --- @class GamepadPersistentInputLegendEntryMixin
 
 function GamepadPersistentInputLegendEntryMixin:OnLoad()
 	self:SetPromptFont("GameFontNormal");
@@ -71,7 +71,7 @@ function GamepadPersistentInputLegendEntryMixin:OnEvent(Event)
 	end
 end
 
-GamepadPersistentInputLegendMixin = {};--- @class GamepadPersistentInputLegendMixin
+GamepadPersistentInputLegendMixin = {}; --- @class GamepadPersistentInputLegendMixin
 
 function GamepadPersistentInputLegendMixin:SetGroupColumns(groupName, countAndWidth)
 	if not self.columns then

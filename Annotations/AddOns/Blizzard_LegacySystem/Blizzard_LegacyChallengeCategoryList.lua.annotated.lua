@@ -1,5 +1,5 @@
 
-LegacyChallengeCategoryListMixin = CreateFromMixins(CallbackRegistryMixin);--- @class LegacyChallengeCategoryListMixin : CallbackRegistryMixin
+LegacyChallengeCategoryListMixin = CreateFromMixins(CallbackRegistryMixin); --- @class LegacyChallengeCategoryListMixin : CallbackRegistryMixin
 
 function LegacyChallengeCategoryListMixin:IsCategorySelected(elementData)
 	if not elementData or not elementData.categoryInfo then
@@ -159,7 +159,7 @@ function LegacyChallengeCategoryListMixin:OpenToCategory(categoryID, scrollToCat
 	return elementData;
 end
 
-LegacyChallengeCategoryMixin = {};--- @class LegacyChallengeCategoryMixin
+LegacyChallengeCategoryMixin = {}; --- @class LegacyChallengeCategoryMixin
 
 function LegacyChallengeCategoryMixin:OnLoad()
 	EventRegistry:RegisterCallback("Legacy.RefreshCategoryButtonCollapseState", function(_, info)

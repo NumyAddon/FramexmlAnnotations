@@ -65,7 +65,7 @@ local function BuildCategoryEntriesFromSource(sourceCategories)
 	return categoryEntries;
 end
 
-StatisticsFrameMixin = {};--- @class StatisticsFrameMixin
+StatisticsFrameMixin = {}; --- @class StatisticsFrameMixin
 
 function StatisticsFrameMixin:OnLoad()
 	local indent = 20;
@@ -191,7 +191,7 @@ local function HideTooltip(owner)
 	end
 end
 
-StatisticsHeaderMixin = {};--- @class StatisticsHeaderMixin
+StatisticsHeaderMixin = {}; --- @class StatisticsHeaderMixin
 
 function StatisticsHeaderMixin:Initialize(elementData)
 	self.treeNode = elementData;
@@ -226,7 +226,7 @@ function StatisticsHeaderMixin:OnLeave()
 	HideTooltip(self);
 end
 
-StatisticsEntryMixin = {};--- @class StatisticsEntryMixin
+StatisticsEntryMixin = {}; --- @class StatisticsEntryMixin
 
 function StatisticsEntryMixin:OnLoad()
 	self.Content.BackgroundHighlight:SetFrameLevel(self:GetFrameLevel() - 1);
@@ -282,7 +282,7 @@ function StatisticsEntryMixin:RefreshBackgroundHighlightOpacity()
 	self.Content.BackgroundHighlight:SetAlpha(self:IsMouseOver() and 0.10 or 0);
 end
 
-StatisticsSubHeaderMixin = CreateFromMixins(StatisticsEntryMixin);--- @class StatisticsSubHeaderMixin : StatisticsEntryMixin
+StatisticsSubHeaderMixin = CreateFromMixins(StatisticsEntryMixin); --- @class StatisticsSubHeaderMixin : StatisticsEntryMixin
 
 function StatisticsSubHeaderMixin:Initialize(elementData)
 	StatisticsEntryMixin.Initialize(self, elementData);
@@ -300,7 +300,7 @@ function StatisticsSubHeaderMixin:OnClick()
 	self.ToggleCollapseButton:RefreshIcon();
 end
 
-StatisticsSubHeaderToggleCollapseButtonMixin = {};--- @class StatisticsSubHeaderToggleCollapseButtonMixin
+StatisticsSubHeaderToggleCollapseButtonMixin = {}; --- @class StatisticsSubHeaderToggleCollapseButtonMixin
 
 function StatisticsSubHeaderToggleCollapseButtonMixin:GetHeader()
 	return self:GetParent();

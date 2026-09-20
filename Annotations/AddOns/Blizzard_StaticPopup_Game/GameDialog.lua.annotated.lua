@@ -19,7 +19,7 @@ local function ShouldHideButtonFromDialogData(dialog, dialogInfo, index)
 	return true;
 end
 
-GameDialogBaseMixin = {};--- @class GameDialogBaseMixin
+GameDialogBaseMixin = {}; --- @class GameDialogBaseMixin
 
 function GameDialogBaseMixin:OnLoad()
 	self.BG.Top:SetAtlas(GameDialogBackgroundTop, TextureKitConstants.UseAtlasSize);
@@ -46,7 +46,7 @@ function GameDialogBaseMixin:SetCloseButtonToHide()
 	self.CloseButton:SetPushedTexture(GameDialogCloseButtonStatePressed);
 end
 
-GameDialogMixin = CreateFromMixins(GameDialogBaseMixin);--- @class GameDialogMixin : GameDialogBaseMixin
+GameDialogMixin = CreateFromMixins(GameDialogBaseMixin); --- @class GameDialogMixin : GameDialogBaseMixin
 
 do
 	local function SetupButton(dialog, button)
@@ -764,7 +764,7 @@ function GameDialogMixin:OnHyperlinkLeave(...)
 	StaticPopup_OnHyperlinkLeave(self, ...);
 end
 
-GameDialogCoverFrameMixin = {};--- @class GameDialogCoverFrameMixin
+GameDialogCoverFrameMixin = {}; --- @class GameDialogCoverFrameMixin
 
 function GameDialogCoverFrameMixin:Init(hideOnEscape)
 	self.hideOnEscape = hideOnEscape;
@@ -776,7 +776,7 @@ function GameDialogCoverFrameMixin:OnKeyDown(key)
 	end
 end
 
-StaticPopupItemFrameMixin = {};--- @class StaticPopupItemFrameMixin
+StaticPopupItemFrameMixin = {}; --- @class StaticPopupItemFrameMixin
 
 function StaticPopupItemFrameMixin:OnLoad()
 	self:RegisterEvent("GET_ITEM_INFO_RECEIVED");

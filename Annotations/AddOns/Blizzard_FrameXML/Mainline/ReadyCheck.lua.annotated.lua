@@ -60,7 +60,7 @@ function ReadyCheckFrame_OnHide(self)
 	self.initiator = nil;
 end
 
-ReadyCheckListenerFrameMixin = {};--- @class ReadyCheckListenerFrameMixin
+ReadyCheckListenerFrameMixin = {}; --- @class ReadyCheckListenerFrameMixin
 
 function ReadyCheckListenerFrameMixin:OnLoad()
 	self:RegisterForTransitions();

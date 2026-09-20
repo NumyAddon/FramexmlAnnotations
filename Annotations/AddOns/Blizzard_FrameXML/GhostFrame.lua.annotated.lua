@@ -1,4 +1,4 @@
-GhostFrameMixin = {}--- @class GhostFrameMixin
+GhostFrameMixin = {} --- @class GhostFrameMixin
 
 function SetGhostFrameShown(shown)
 	GhostFrame:SetShown(shown);

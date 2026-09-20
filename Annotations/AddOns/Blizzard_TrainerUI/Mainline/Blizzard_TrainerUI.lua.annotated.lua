@@ -12,7 +12,7 @@ end
 
 UIPanelWindows["ClassTrainerFrame"] = { area = "left", pushable = 0, allowOtherPanels = 1,};
 
-local TrainDisableReason = EnumUtil.MakeEnum("NoProfessionSlot", "CannotAfford");--- @type {["NoProfessionSlot"]: 1, ["CannotAfford"]: 2}
+local TrainDisableReason = EnumUtil.MakeEnum("NoProfessionSlot", "CannotAfford"); --- @type {["NoProfessionSlot"]: 1, ["CannotAfford"]: 2}
 
 StaticPopupDialogs["CONFIRM_PROFESSION"] = {
 	text = format(PROFESSION_CONFIRMATION1, "XXX"),
@@ -39,7 +39,7 @@ StaticPopupDialogs["CONFIRM_PROFESSION"] = {
 	hideOnEscape = 1
 };
 
-ClassTrainerFrameMixin = {};--- @class ClassTrainerFrameMixin
+ClassTrainerFrameMixin = {}; --- @class ClassTrainerFrameMixin
 
 --[[
 	Boolean flag that identifies this frame as having updated jump hints, no longer
@@ -756,14 +756,14 @@ function ClassTrainer_SetSelection(id)
 	end
 end
 
-ClassTrainerCategoryButtonMixin = {};--- @class ClassTrainerCategoryButtonMixin
+ClassTrainerCategoryButtonMixin = {}; --- @class ClassTrainerCategoryButtonMixin
 
 function ClassTrainerCategoryButtonMixin:OnSmartNavSelect()
 	-- Make sure smart nav stays in sync with selected services
 	ClassTrainer_SetSelection(nil);
 end
 
-ClassTrainerSkillButtonMixin = {};--- @class ClassTrainerSkillButtonMixin
+ClassTrainerSkillButtonMixin = {}; --- @class ClassTrainerSkillButtonMixin
 
 function ClassTrainerSkillButtonMixin:OnSmartNavSelect()
 	-- Make sure smart nav stays in sync with selected services

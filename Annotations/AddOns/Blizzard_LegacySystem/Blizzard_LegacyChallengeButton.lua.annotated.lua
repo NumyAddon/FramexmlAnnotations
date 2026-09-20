@@ -79,7 +79,7 @@ end
 
 -- The base shield gets Saturate/Desaturate assigned by AchievementShield_OnLoad, which this template omits
 -- because the Legacy points art is identical for completed and incomplete challenges.
-LegacyChallengeShieldMixin = {};--- @class LegacyChallengeShieldMixin
+LegacyChallengeShieldMixin = {}; --- @class LegacyChallengeShieldMixin
 
 function LegacyChallengeShieldMixin:Saturate()
 end
@@ -87,7 +87,7 @@ end
 function LegacyChallengeShieldMixin:Desaturate()
 end
 
-LegacyChallengeIconFrameMixin = {};--- @class LegacyChallengeIconFrameMixin
+LegacyChallengeIconFrameMixin = {}; --- @class LegacyChallengeIconFrameMixin
 
 function LegacyChallengeIconFrameMixin:Saturate()
 	self.texture:SetDesaturated(false);
@@ -97,7 +97,7 @@ function LegacyChallengeIconFrameMixin:Desaturate()
 	self.texture:SetDesaturated(true);
 end
 
-LegacyChallengeCriteriaMixin = {};--- @class LegacyChallengeCriteriaMixin
+LegacyChallengeCriteriaMixin = {}; --- @class LegacyChallengeCriteriaMixin
 
 function LegacyChallengeCriteriaMixin:Init(text, completed, flags, quantity, reqQuantity)
 	local art = LEGACY_CHALLENGE_ART.text;
@@ -126,7 +126,7 @@ function LegacyChallengeCriteriaMixin:IsShowingProgress()
 	return self.showingProgress;
 end
 
-LegacyChallengeObjectivesMixin = {};--- @class LegacyChallengeObjectivesMixin
+LegacyChallengeObjectivesMixin = {}; --- @class LegacyChallengeObjectivesMixin
 
 function LegacyChallengeObjectivesMixin:OnLoad()
 	self.criteriaPool = CreateFramePool("FRAME", self, "LegacyChallengeCriteriaTemplate");
@@ -199,7 +199,7 @@ function LegacyChallengeObjectivesMixin:Display(id, width)
 	return height;
 end
 
-LegacyChallengeTemplateMixin = CreateFromMixins(AchievementTemplateMixin);--- @class LegacyChallengeTemplateMixin : AchievementTemplateMixin
+LegacyChallengeTemplateMixin = CreateFromMixins(AchievementTemplateMixin); --- @class LegacyChallengeTemplateMixin : AchievementTemplateMixin
 
 function LegacyChallengeTemplateMixin:OnLoad()
 	AchievementTemplateMixin.OnLoad(self);

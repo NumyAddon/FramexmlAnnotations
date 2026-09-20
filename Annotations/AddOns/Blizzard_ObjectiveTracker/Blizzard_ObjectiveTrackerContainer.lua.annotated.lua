@@ -14,7 +14,7 @@ local settings = {
 
 local BASE_TOP_PADDING = 38;
 
-ObjectiveTrackerContainerMixin = CreateFromMixins(DirtiableMixin, settings);--- @class ObjectiveTrackerContainerMixin : DirtiableMixin, settings
+ObjectiveTrackerContainerMixin = CreateFromMixins(DirtiableMixin, settings); --- @class ObjectiveTrackerContainerMixin : DirtiableMixin, settings
 
 function ObjectiveTrackerContainerMixin:OnLoad()
 	local dirtyUpdate = true;
@@ -248,7 +248,7 @@ end
 -- ***** HEADER
 -- *****************************************************************************************************
 
-ObjectiveTrackerContainerHeaderMixin = {};--- @class ObjectiveTrackerContainerHeaderMixin
+ObjectiveTrackerContainerHeaderMixin = {}; --- @class ObjectiveTrackerContainerHeaderMixin
 
 function ObjectiveTrackerContainerHeaderMixin:OnLoad()
 	self.MinimizeButton:SetScript("OnClick", GenerateClosure(self.OnToggle, self));

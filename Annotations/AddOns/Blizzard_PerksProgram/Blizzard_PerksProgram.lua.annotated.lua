@@ -1,5 +1,5 @@
 
-PerksProgramMixin = {};--- @class PerksProgramMixin
+PerksProgramMixin = {}; --- @class PerksProgramMixin
 function PerksProgramMixin:OnLoad()
 	self:RegisterEvent("PERKS_PROGRAM_DATA_REFRESH");
 	self:RegisterEvent("PERKS_PROGRAM_PURCHASE_SUCCESS");
@@ -568,7 +568,7 @@ end
 ----------------------------------------------------------------------------------
 -- Theme Container
 ----------------------------------------------------------------------------------
-PerksProgramThemeContainerMixin = {};--- @class PerksProgramThemeContainerMixin
+PerksProgramThemeContainerMixin = {}; --- @class PerksProgramThemeContainerMixin
 
 function PerksProgramThemeContainerMixin:OnLoad()
 	local function PositionFrame(frame, point, relativeTo, relativePoint, offsetX, offsetY)

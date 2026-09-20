@@ -1,7 +1,7 @@
 local Shared = require(".Shared");
 local StaticOverrideActionBarMixin = require(".StaticOverrideActionBar");
 
-GamepadShortcutsActionBarMixin = CreateFromMixins(StaticOverrideActionBarMixin);--- @class GamepadShortcutsActionBarMixin : StaticOverrideActionBarMixin
+GamepadShortcutsActionBarMixin = CreateFromMixins(StaticOverrideActionBarMixin); --- @class GamepadShortcutsActionBarMixin : StaticOverrideActionBarMixin
 
 function GamepadShortcutsActionBarMixin:OnLoad()
 	GamepadMode.RegisterInputModifierStateChangeCallback(self.OnInputModifierStateChanged, self);

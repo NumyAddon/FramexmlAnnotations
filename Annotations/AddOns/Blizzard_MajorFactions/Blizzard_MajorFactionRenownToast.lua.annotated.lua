@@ -1,5 +1,5 @@
 
-MajorFactionsRenownToastMixin = {};--- @class MajorFactionsRenownToastMixin
+MajorFactionsRenownToastMixin = {}; --- @class MajorFactionsRenownToastMixin
 
 function MajorFactionsRenownToastMixin:OnLoad()
 	self:RegisterEvent("MAJOR_FACTION_RENOWN_LEVEL_CHANGED");

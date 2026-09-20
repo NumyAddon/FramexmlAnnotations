@@ -1,4 +1,4 @@
-ObjectiveTrackerFrameMixin = { };--- @class ObjectiveTrackerFrameMixin
+ObjectiveTrackerFrameMixin = { }; --- @class ObjectiveTrackerFrameMixin
 
 local function GetQuestBlockNavAnchor(block)
 	if block.poiButton then

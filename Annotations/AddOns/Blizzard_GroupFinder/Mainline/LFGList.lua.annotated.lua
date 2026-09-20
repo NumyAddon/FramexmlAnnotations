@@ -2138,7 +2138,7 @@ function LFGListApplicationViewerEditButton_OnClick(self)
 	HideCensorDialogs();
 end
 
-LFGApplicationBrowseGroupsButtonMixin = { };--- @class LFGApplicationBrowseGroupsButtonMixin
+LFGApplicationBrowseGroupsButtonMixin = { }; --- @class LFGApplicationBrowseGroupsButtonMixin
 function LFGApplicationBrowseGroupsButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 	local panel = self:GetParent();
@@ -4715,7 +4715,7 @@ function IsActivityLockedForCustomText(activityCategoryID, activityID)
 	return false;
 end
 
-LFGAuthenticatorMessagingMixin = {}--- @class LFGAuthenticatorMessagingMixin
+LFGAuthenticatorMessagingMixin = {} --- @class LFGAuthenticatorMessagingMixin
 
 function LFGAuthenticatorMessagingMixin:GetSelectedActivityID()
 	return self.selectedActivity or self:GetParent().selectedActivity or self:GetParent():GetParent().selectedActivity;
@@ -4738,7 +4738,7 @@ function LFGAuthenticatorMessagingMixin:DisplayStaticPopup()
 	end
 end
 
-LFGEditBoxMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin);--- @class LFGEditBoxMixin : LFGAuthenticatorMessagingMixin
+LFGEditBoxMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin); --- @class LFGEditBoxMixin : LFGAuthenticatorMessagingMixin
 function LFGEditBoxMixin:AddToTabCategory(tabCategory, editBox)
 	local addToTab = editBox or self;
 	LFGListEditBox_AddToTabCategory(addToTab, tabCategory);
@@ -4785,7 +4785,7 @@ function LFGEditBoxMixin:OnTabPressed()
 	LFGListEditBox_OnTabPressed(self);
 end
 
-LFGListLockButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin);--- @class LFGListLockButtonMixin : LFGAuthenticatorMessagingMixin
+LFGListLockButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin); --- @class LFGListLockButtonMixin : LFGAuthenticatorMessagingMixin
 
 function LFGListLockButtonMixin:OnClick()
 	self:DisplayStaticPopup();
@@ -4795,7 +4795,7 @@ function LFGListLockButtonMixin:OnEnter()
 	self:DisplayTooltip();
 end
 
-LFGListCreationNameMixin = CreateFromMixins(LFGEditBoxMixin);--- @class LFGListCreationNameMixin : LFGEditBoxMixin
+LFGListCreationNameMixin = CreateFromMixins(LFGEditBoxMixin); --- @class LFGListCreationNameMixin : LFGEditBoxMixin
 
 function LFGListCreationNameMixin:UpdateEnabledState()
 	LFGEditBoxMixin.UpdateEnabledState(self);
@@ -4808,7 +4808,7 @@ function LFGListCreationNameMixin:OnShow()
 	self:UpdateEnabledState();
 end
 
-LFGListCreationDescriptionMixin = CreateFromMixins(LFGEditBoxMixin);--- @class LFGListCreationDescriptionMixin : LFGEditBoxMixin
+LFGListCreationDescriptionMixin = CreateFromMixins(LFGEditBoxMixin); --- @class LFGListCreationDescriptionMixin : LFGEditBoxMixin
 
 function LFGListCreationDescriptionMixin:UpdateEnabledState()
 	local isAccountSecured = not IsActivityLockedForCustomText(self:GetSelectedCategoryID(), self:GetSelectedActivityID());
@@ -4836,7 +4836,7 @@ function LFGListCreationDescriptionMixin:OnShow()
 	self:UpdateEnabledState();
 end
 
-LFGListCreateGroupDisabledStateButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin);--- @class LFGListCreateGroupDisabledStateButtonMixin : LFGAuthenticatorMessagingMixin
+LFGListCreateGroupDisabledStateButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin); --- @class LFGListCreateGroupDisabledStateButtonMixin : LFGAuthenticatorMessagingMixin
 
 function LFGListCreateGroupDisabledStateButtonMixin:OnClick()
 	if(IsActivityLockedForCustomText(self:GetSelectedCategoryID(), self:GetSelectedActivityID())) then
@@ -4853,7 +4853,7 @@ function LFGListCreateGroupDisabledStateButtonMixin:OnEnter()
 	end
 end
 
-LFGListSearchBackToGroupButtonMixin = { };--- @class LFGListSearchBackToGroupButtonMixin
+LFGListSearchBackToGroupButtonMixin = { }; --- @class LFGListSearchBackToGroupButtonMixin
 
 function LFGListSearchBackToGroupButtonMixin:OnClick()
 	local frame = self:GetParent():GetParent();
@@ -4861,7 +4861,7 @@ function LFGListSearchBackToGroupButtonMixin:OnClick()
 	LFGListFrame_SetActivePanel(frame, frame.ApplicationViewer);
 end
 
-LFGListSearchBackButtonMixin = { };--- @class LFGListSearchBackButtonMixin
+LFGListSearchBackButtonMixin = { }; --- @class LFGListSearchBackButtonMixin
 
 function LFGListSearchBackButtonMixin:OnClick()
 	local frame = self:GetParent():GetParent();
@@ -4870,7 +4870,7 @@ function LFGListSearchBackButtonMixin:OnClick()
 	self:GetParent().shouldAlwaysShowCreateGroupButton = false;
 end
 
-LfgListLeaverBadgeMixin = { };--- @class LfgListLeaverBadgeMixin
+LfgListLeaverBadgeMixin = { }; --- @class LfgListLeaverBadgeMixin
 
 function LfgListLeaverBadgeMixin:OnEnter()
 	GameTooltip:SetOwner(self.LeaverIcon, "ANCHOR_RIGHT");

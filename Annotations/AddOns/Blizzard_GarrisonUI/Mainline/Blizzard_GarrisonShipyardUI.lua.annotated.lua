@@ -1755,7 +1755,7 @@ function GarrisonShipyardMissionPage_UpdatePortraitPulse(missionPage)
 	end
 end
 
-GarrisonShipyardFollowerTabMixin = { }--- @class GarrisonShipyardFollowerTabMixin
+GarrisonShipyardFollowerTabMixin = { } --- @class GarrisonShipyardFollowerTabMixin
 
 function GarrisonShipyardFollowerTabMixin:GetFollowerList()
 	return self:GetParent():GetFollowerList();
@@ -2273,7 +2273,7 @@ end
 --- GarrisonShipyardMissionListMixin                                                             ---
 ---------------------------------------------------------------------------------
 
-GarrisonShipyardMissionListMixin = { }--- @class GarrisonShipyardMissionListMixin
+GarrisonShipyardMissionListMixin = { } --- @class GarrisonShipyardMissionListMixin
 
 function GarrisonShipyardMissionListMixin:UpdateCombatAllyMission()
 	-- do nothing; there are no shipyard combat allies.

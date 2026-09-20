@@ -51,7 +51,7 @@ function QuestData:GetTurnInMapID()
 end
 
 -- ------------------------------------------------------------------------------------------------------------
-TutorialQuestManagerMixin = {};--- @class TutorialQuestManagerMixin
+TutorialQuestManagerMixin = {}; --- @class TutorialQuestManagerMixin
 
 TutorialQuestManagerMixin.Events =
 {

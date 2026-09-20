@@ -111,7 +111,7 @@ end
 
 -------------------------------- SpellBookSearch Mixin -------------------------------
 
-SpellBookSearchMixin = {};--- @class SpellBookSearchMixin
+SpellBookSearchMixin = {}; --- @class SpellBookSearchMixin
 
 function SpellBookSearchMixin:InitializeSearch()
 	local searchSources = {};

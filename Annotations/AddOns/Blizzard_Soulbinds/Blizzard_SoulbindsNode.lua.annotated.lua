@@ -1,4 +1,4 @@
-SoulbindTreeNodeMixin = CreateFromMixins(CallbackRegistryMixin);--- @class SoulbindTreeNodeMixin : CallbackRegistryMixin
+SoulbindTreeNodeMixin = CreateFromMixins(CallbackRegistryMixin); --- @class SoulbindTreeNodeMixin : CallbackRegistryMixin
 
 SoulbindTreeNodeMixin:GenerateCallbackEvents(
 	{
@@ -209,7 +209,7 @@ function SoulbindTreeNodeMixin:StopAnimations()
 	self.Arrow2:Hide();
 end
 
-SoulbindTraitNodeMixin = CreateFromMixins(SoulbindTreeNodeMixin);--- @class SoulbindTraitNodeMixin : SoulbindTreeNodeMixin
+SoulbindTraitNodeMixin = CreateFromMixins(SoulbindTreeNodeMixin); --- @class SoulbindTraitNodeMixin : SoulbindTreeNodeMixin
 
 function SoulbindTraitNodeMixin:OnLoad()
 	SoulbindTreeNodeMixin.OnLoad(self);
@@ -253,7 +253,7 @@ function SoulbindTraitNodeMixin:UpdateVisuals()
 	end
 end
 
-SoulbindConduitNodeMixin = CreateFromMixins(SoulbindTreeNodeMixin);--- @class SoulbindConduitNodeMixin : SoulbindTreeNodeMixin
+SoulbindConduitNodeMixin = CreateFromMixins(SoulbindTreeNodeMixin); --- @class SoulbindConduitNodeMixin : SoulbindTreeNodeMixin
 
 local SoulbindConduitNodeEvents =
 {

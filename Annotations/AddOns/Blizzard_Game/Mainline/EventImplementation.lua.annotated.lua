@@ -104,7 +104,7 @@ local function HasVisibleAutoCompleteBox(autoCompleteBoxList, mouseFocus)
 	return false;
 end
 
-local StickyFocusRequestMixin = {};--- @class StickyFocusRequestMixin
+local StickyFocusRequestMixin = {}; --- @class StickyFocusRequestMixin
 
 function StickyFocusRequestMixin:AddFrame(frame)
 	if not self.frames then

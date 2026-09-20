@@ -1,7 +1,7 @@
 NUM_POSSESS_SLOTS = 2;
 POSSESS_CANCEL_SLOT = 2;
 
-PossessActionBarMixin = {};--- @class PossessActionBarMixin
+PossessActionBarMixin = {}; --- @class PossessActionBarMixin
 
 function PossessActionBarMixin:PossessActionBar_OnLoad()
 	self:SetShowGrid(true, ACTION_BUTTON_SHOW_GRID_REASON_CVAR);
@@ -62,7 +62,7 @@ function PossessActionBarMixin:SetBackgroundArtShown(shown)
 	end
 end
 
-PossessButtonMixin = {};--- @class PossessButtonMixin
+PossessButtonMixin = {}; --- @class PossessButtonMixin
 
 function PossessButtonMixin:OnLoad()
 	self.cooldown:SetSwipeColor(0, 0, 0);

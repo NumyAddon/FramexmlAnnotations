@@ -35,7 +35,7 @@ TARGET_FRAME_TEXTURES = {
 
 CVarCallbackRegistry:SetCVarCachable("showTargetOfTarget");
 
-TargetFrameMixin = {};--- @class TargetFrameMixin
+TargetFrameMixin = {}; --- @class TargetFrameMixin
 
 function TargetFrameMixin:OnLoad(unit, menuFunc)
 	self.HealthBar.LeftText = self.textureFrame.HealthBarTextLeft;
@@ -929,7 +929,7 @@ end
 -- Target of Target Frame
 --
 
-TargetOfTargetMixin = {};--- @class TargetOfTargetMixin
+TargetOfTargetMixin = {}; --- @class TargetOfTargetMixin
 
 function TargetOfTargetMixin:OnShow()
 	local parent = self:GetParent();
@@ -1031,7 +1031,7 @@ function TargetFrameMixin:CreateSpellbar(event, boss)
 	end
 end
 
-TargetSpellBarMixin = CreateFromMixins(CastingBarMixin);--- @class TargetSpellBarMixin : CastingBarMixin
+TargetSpellBarMixin = CreateFromMixins(CastingBarMixin); --- @class TargetSpellBarMixin : CastingBarMixin
 
 function TargetSpellBarMixin:OnEvent(event, ...)
 	local arg1 = ...
@@ -1112,7 +1112,7 @@ end
 -- Boss Frames
 -- *********************************************************************************
 
-BossTargetFrameMixin = {};--- @class BossTargetFrameMixin
+BossTargetFrameMixin = {}; --- @class BossTargetFrameMixin
 
 function BossTargetFrameMixin:OnLoad(unit, event)
 	self.isBossFrame = true;
@@ -1150,7 +1150,7 @@ end
 -- Focus Frame
 -- *********************************************************************************
 
-FocusFrameMixin = {};--- @class FocusFrameMixin
+FocusFrameMixin = {}; --- @class FocusFrameMixin
 
 function FocusFrame_OpenMenu()
 	local contextData = {

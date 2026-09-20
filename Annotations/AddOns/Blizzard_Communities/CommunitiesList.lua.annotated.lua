@@ -15,7 +15,7 @@ function CreateCommunitiesIconNotificationMarkup(text, xoffset, yoffset)
 	return string.format("%s %s", text, CreateAtlasMarkup("communities-icon-notification", 11, 11, xoffset, yoffset));
 end
 
-CommunitiesListMixin = {};--- @class CommunitiesListMixin
+CommunitiesListMixin = {}; --- @class CommunitiesListMixin
 
 function CommunitiesListMixin:GetCommunitiesFrame()
 	return self:GetParent();
@@ -385,7 +385,7 @@ local COMMUNITIES_LIST_ENTRY_EVENTS = {
 	"CHAT_DISABLED_CHANGED",
 }
 
-CommunitiesListEntryMixin = {};--- @class CommunitiesListEntryMixin
+CommunitiesListEntryMixin = {}; --- @class CommunitiesListEntryMixin
 
 local function GetFontColor(isBattleNet, isGuild, isInvitation)
 	if isBattleNet then
@@ -804,7 +804,7 @@ function CommunitiesListEntryMixin:OnClick(button)
 	end
 end
 
-CommunitiesListDropdownMixin = {};--- @class CommunitiesListDropdownMixin
+CommunitiesListDropdownMixin = {}; --- @class CommunitiesListDropdownMixin
 
 function CommunitiesListDropdownMixin:OnLoad()
 	WowStyle1DropdownMixin.OnLoad(self);

@@ -1,4 +1,4 @@
-DropDownToggleButtonMixin = {};--- @class DropDownToggleButtonMixin
+DropDownToggleButtonMixin = {}; --- @class DropDownToggleButtonMixin
 
 function DropDownToggleButtonMixin:OnLoad_Intrinsic()
 	self:RegisterForMouse("LeftButtonDown","LeftButtonUp");

@@ -13,7 +13,7 @@ function ColorblindOverrides.CreateSettings(category, layout)
 end
 
 
-ColorblindSelectorMixin = {};--- @class ColorblindSelectorMixin
+ColorblindSelectorMixin = {}; --- @class ColorblindSelectorMixin
 
 function ColorblindSelectorMixin:OnLoad()
 	local qualityIDs = 

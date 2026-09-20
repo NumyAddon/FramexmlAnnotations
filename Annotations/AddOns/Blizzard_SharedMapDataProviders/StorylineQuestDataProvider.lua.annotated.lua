@@ -1,4 +1,4 @@
-StorylineQuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class StorylineQuestDataProviderMixin : MapCanvasDataProviderMixin
+StorylineQuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class StorylineQuestDataProviderMixin : MapCanvasDataProviderMixin
 
 function StorylineQuestDataProviderMixin:RemoveAllData()
 	self:GetMap():RemoveAllPinsByTemplate("StorylineQuestPinTemplate");
@@ -33,7 +33,7 @@ function StorylineQuestDataProviderMixin:OnEvent(event, ...)
 	end
 end
 
-StorylineQuestPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class StorylineQuestPinMixin : MapCanvasPinMixin
+StorylineQuestPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class StorylineQuestPinMixin : MapCanvasPinMixin
 
 function StorylineQuestPinMixin:OnLoad()
 	self:SetScalingLimits(1, 1.0, 1.2);

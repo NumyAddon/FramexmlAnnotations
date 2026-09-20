@@ -1,4 +1,4 @@
-NPCFriendshipStatusBarMixin = { };--- @class NPCFriendshipStatusBarMixin
+NPCFriendshipStatusBarMixin = { }; --- @class NPCFriendshipStatusBarMixin
 
 function NPCFriendshipStatusBarMixin:OnLoad()
 	self:SetColorFill(1, 1, 1);

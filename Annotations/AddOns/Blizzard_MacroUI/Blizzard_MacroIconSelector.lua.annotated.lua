@@ -1,4 +1,4 @@
-MacroPopupFrameMixin = {};--- @class MacroPopupFrameMixin
+MacroPopupFrameMixin = {}; --- @class MacroPopupFrameMixin
 
 function MacroPopupFrameMixin:OnShow()
 	IconSelectorPopupFrameTemplateMixin.OnShow(self);

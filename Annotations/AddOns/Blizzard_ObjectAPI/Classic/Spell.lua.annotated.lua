@@ -1,5 +1,5 @@
 Spell = {};
-SpellMixin = {};--- @class SpellMixin
+SpellMixin = {}; --- @class SpellMixin
 
 local SpellEventListener;
 

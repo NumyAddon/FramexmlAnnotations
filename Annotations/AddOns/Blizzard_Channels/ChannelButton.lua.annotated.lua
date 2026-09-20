@@ -1,5 +1,5 @@
 -- Base
-ChannelButtonBaseMixin = {};--- @class ChannelButtonBaseMixin
+ChannelButtonBaseMixin = {}; --- @class ChannelButtonBaseMixin
 
 function ChannelButtonBaseMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonUp", "RightButtonUp");
@@ -205,7 +205,7 @@ function ChannelButtonBaseMixin:Setup(channelID, name, header, channelNumber, co
 end
 
 -- Channels
-ChannelButtonMixin = CreateFromMixins(ChannelButtonBaseMixin);--- @class ChannelButtonMixin : ChannelButtonBaseMixin
+ChannelButtonMixin = CreateFromMixins(ChannelButtonBaseMixin); --- @class ChannelButtonMixin : ChannelButtonBaseMixin
 
 function ChannelButtonMixin:OnLoad()
 	ChannelButtonBaseMixin.OnLoad(self);
@@ -283,7 +283,7 @@ function ChannelButtonMixin:Setup(channelID, name, header, channelNumber, count,
 end
 
 -- Text channel button
-ChannelButtonTextMixin = CreateFromMixins(ChannelButtonMixin);--- @class ChannelButtonTextMixin : ChannelButtonMixin
+ChannelButtonTextMixin = CreateFromMixins(ChannelButtonMixin); --- @class ChannelButtonTextMixin : ChannelButtonMixin
 
 function ChannelButtonTextMixin:ChannelSupportsText()
 	return true;
@@ -294,7 +294,7 @@ function ChannelButtonTextMixin:ChannelSupportsVoice()
 end
 
 -- Voice channel button
-ChannelButtonVoiceMixin = CreateFromMixins(ChannelButtonMixin);--- @class ChannelButtonVoiceMixin : ChannelButtonMixin
+ChannelButtonVoiceMixin = CreateFromMixins(ChannelButtonMixin); --- @class ChannelButtonVoiceMixin : ChannelButtonMixin
 
 function ChannelButtonVoiceMixin:Setup(channelID, category)
 	local channel = C_VoiceChat.GetChannel(channelID);
@@ -315,7 +315,7 @@ function ChannelButtonVoiceMixin:IsUserCreatedChannel()
 end
 
 -- Community channel button
-ChannelButtonCommunityMixin = CreateFromMixins(ChannelButtonMixin);--- @class ChannelButtonCommunityMixin : ChannelButtonMixin
+ChannelButtonCommunityMixin = CreateFromMixins(ChannelButtonMixin); --- @class ChannelButtonCommunityMixin : ChannelButtonMixin
 
 function ChannelButtonCommunityMixin:OnClick(button)
 	local channelFrame = self:GetChannelList():GetChannelFrame();
@@ -351,7 +351,7 @@ function ChannelButtonCommunityMixin:ChannelSupportsVoice()
 end
 
 -- Headers
-ChannelButtonHeaderMixin = CreateFromMixins(ChannelButtonBaseMixin);--- @class ChannelButtonHeaderMixin : ChannelButtonBaseMixin
+ChannelButtonHeaderMixin = CreateFromMixins(ChannelButtonBaseMixin); --- @class ChannelButtonHeaderMixin : ChannelButtonBaseMixin
 
 function ChannelButtonHeaderMixin:Reset(pool)
 	ChannelButtonBaseMixin.Reset(self, pool);

@@ -362,7 +362,7 @@ MONEY_DENOMINATION_SYMBOLS_BY_DISPLAY_TYPE = {
 	[MoneyDenominationDisplayType.AuctionHouseGold] = GOLD_AMOUNT_SYMBOL,
 };
 
-MoneyDenominationDisplayMixin = {};--- @class MoneyDenominationDisplayMixin
+MoneyDenominationDisplayMixin = {}; --- @class MoneyDenominationDisplayMixin
 
 function MoneyDenominationDisplayMixin:OnLoad()
 	self.amount = 0;
@@ -467,7 +467,7 @@ function MoneyDenominationDisplayMixin:UpdateWidth()
 	self:SetWidth(self.Text:GetStringWidth() + iconWidth + iconSpacing);
 end
 
-MoneyDisplayFrameMixin = {};--- @class MoneyDisplayFrameMixin
+MoneyDisplayFrameMixin = {}; --- @class MoneyDisplayFrameMixin
 
 local DENOMINATION_DISPLAY_WIDTH = 36; -- Space for two characters and an anchor offset.
 

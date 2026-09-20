@@ -1,5 +1,5 @@
 -- Spell search filter for finding spells not currently on an active action bar
-SpellSearchActionBarFilterMixin = CreateFromMixins(BaseSpellSearchFilterMixin);--- @class SpellSearchActionBarFilterMixin : BaseSpellSearchFilterMixin
+SpellSearchActionBarFilterMixin = CreateFromMixins(BaseSpellSearchFilterMixin); --- @class SpellSearchActionBarFilterMixin : BaseSpellSearchFilterMixin
 
 -------------------------------- Public Functions -------------------------------
 

@@ -6,7 +6,7 @@ if C_Glue.IsOnGlueScreen() then
 	return;
 end
 
-TexelSnappingVisualizerMixin = {};--- @class TexelSnappingVisualizerMixin
+TexelSnappingVisualizerMixin = {}; --- @class TexelSnappingVisualizerMixin
 
 function TexelSnappingVisualizerMixin:OnCreated()
 	self:Hide();

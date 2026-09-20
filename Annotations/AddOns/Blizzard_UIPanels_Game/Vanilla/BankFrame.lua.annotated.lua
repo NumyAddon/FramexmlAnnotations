@@ -433,7 +433,7 @@ function BankFrame_ShowPanel(sidePanelName, selection)
 	end
 end
 
-BankFrameMixin = {};--- @class BankFrameMixin
+BankFrameMixin = {}; --- @class BankFrameMixin
 
 function BankFrameMixin:GetActiveBankType()
 	if not self:IsShown() then

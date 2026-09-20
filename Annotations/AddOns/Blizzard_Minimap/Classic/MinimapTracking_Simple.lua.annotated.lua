@@ -1,5 +1,5 @@
 
-MinimapTrackingSimpleMixin = { };--- @class MinimapTrackingSimpleMixin
+MinimapTrackingSimpleMixin = { }; --- @class MinimapTrackingSimpleMixin
 
 function MinimapTrackingSimpleMixin:OnLoad()
 	self:RegisterEvent("MINIMAP_UPDATE_TRACKING");

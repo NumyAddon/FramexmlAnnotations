@@ -4,7 +4,7 @@ local HouseChestAtlasMarkup = CreateAtlasMarkup("house-chest-icon", 16, 16);
 ----------------------------------------------------------------------------------
 -- CatalogShopMixin
 ----------------------------------------------------------------------------------
-CatalogShopMixin = {};--- @class CatalogShopMixin
+CatalogShopMixin = {}; --- @class CatalogShopMixin
 
 local CATALOG_SHOP_DYNAMIC_EVENTS = {
 	"CATALOG_SHOP_REBUILD_SCROLL_BOX",
@@ -832,7 +832,7 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopVCFrameMixin
 ----------------------------------------------------------------------------------
-CatalogShopVCFrameMixin = {};--- @class CatalogShopVCFrameMixin
+CatalogShopVCFrameMixin = {}; --- @class CatalogShopVCFrameMixin
 function CatalogShopVCFrameMixin:OnLoad()
 	-- Refreshing VC when data is loaded, this allows GetVirutalCurrencyBalance can be called safely OnShow
 	EventRegistry:RegisterCallback("CatalogShop.DataRefreshed", self.RefreshVC, self);
@@ -914,7 +914,7 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopProductDetailsFrameMixin
 ----------------------------------------------------------------------------------
-CatalogShopProductDetailsFrameMixin = {};--- @class CatalogShopProductDetailsFrameMixin
+CatalogShopProductDetailsFrameMixin = {}; --- @class CatalogShopProductDetailsFrameMixin
 function CatalogShopProductDetailsFrameMixin:OnLoad()
 	EventRegistry:RegisterCallback("CatalogShopModel.OnProductSelectedAfterModel", self.SetDetailsFrameProductInfo, self);
 	EventRegistry:RegisterCallback("CatalogShopModel.OnProductSelectEarlyOut", self.SetDetailsFrameProductInfo, self);
@@ -1042,7 +1042,7 @@ end
 ----------------------------------------------------------------------------------
 -- BackgroundContainerMixin
 ----------------------------------------------------------------------------------
-BackgroundContainerMixin = {};--- @class BackgroundContainerMixin
+BackgroundContainerMixin = {}; --- @class BackgroundContainerMixin
 function BackgroundContainerMixin:OnLoad()
 	self.Background_1:SetAlpha(1);
 	self.Background_2:SetAlpha(0);
@@ -1085,7 +1085,7 @@ end
 ----------------------------------------------------------------------------------
 -- QuantityOwnedMixin
 ----------------------------------------------------------------------------------
-QuantityOwnedMixin = {};--- @class QuantityOwnedMixin
+QuantityOwnedMixin = {}; --- @class QuantityOwnedMixin
 function QuantityOwnedMixin:OnEnter()
 	if (self:IsShown() and self.tooltip ~= nil) then
 		CatalogShopFrame:ShowTooltip(self, self.tooltip.name, self.tooltip.description);

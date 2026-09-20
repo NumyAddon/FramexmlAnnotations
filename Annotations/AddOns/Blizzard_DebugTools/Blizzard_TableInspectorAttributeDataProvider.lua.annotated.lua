@@ -1,5 +1,5 @@
 
-TableInspectorAttributeDataProviderMixin = CreateFromMixins(TableInspectorDataProviderMixin);--- @class TableInspectorAttributeDataProviderMixin : TableInspectorDataProviderMixin
+TableInspectorAttributeDataProviderMixin = CreateFromMixins(TableInspectorDataProviderMixin); --- @class TableInspectorAttributeDataProviderMixin : TableInspectorDataProviderMixin
 
 function TableInspectorAttributeDataProviderMixin:Initialize(tableInspector, parent)
 	TableInspectorDataProviderMixin.Initialize(self, tableInspector, parent);
@@ -137,7 +137,7 @@ function TableInspectorAttributeDataProviderMixin:GetLines(filter)
 	return results;
 end
 
-TableAttributeLineMixin = {};--- @class TableAttributeLineMixin
+TableAttributeLineMixin = {}; --- @class TableAttributeLineMixin
 
 function TableAttributeLineMixin:Initialize(attributeSource, index, attributeData)
 	self.attributeSource = attributeSource;
@@ -162,28 +162,28 @@ function TableAttributeLineMixin:GetAttributeData()
 	return self.attributeSource:GetAttribute(self.attributeIndex);
 end
 
-TableAttributeLineEditableMixin = CreateFromMixins(TableAttributeLineMixin);--- @class TableAttributeLineEditableMixin : TableAttributeLineMixin
+TableAttributeLineEditableMixin = CreateFromMixins(TableAttributeLineMixin); --- @class TableAttributeLineEditableMixin : TableAttributeLineMixin
 
 function TableAttributeLineEditableMixin:Initialize(attributeSource, index, attributeData)
 	TableAttributeLineMixin.Initialize(self, attributeSource, index, attributeData);
 	self.Value:SetText(attributeData.displayValue);
 end 
 
-TableAttributeLineReferenceMixin = CreateFromMixins(TableAttributeLineMixin);--- @class TableAttributeLineReferenceMixin : TableAttributeLineMixin
+TableAttributeLineReferenceMixin = CreateFromMixins(TableAttributeLineMixin); --- @class TableAttributeLineReferenceMixin : TableAttributeLineMixin
 
 function TableAttributeLineReferenceMixin:Initialize(attributeSource, index, attributeData)
 	TableAttributeLineMixin.Initialize(self, attributeSource, index, attributeData);
 	self.ValueButton.Text:SetText(attributeData.displayValue);
 end
 
-TableAttributeLineFixedValueMixin = CreateFromMixins(TableAttributeLineMixin);--- @class TableAttributeLineFixedValueMixin : TableAttributeLineMixin
+TableAttributeLineFixedValueMixin = CreateFromMixins(TableAttributeLineMixin); --- @class TableAttributeLineFixedValueMixin : TableAttributeLineMixin
 
 function TableAttributeLineFixedValueMixin:Initialize(attributeSource, index, attributeData)
 	TableAttributeLineMixin.Initialize(self, attributeSource, index, attributeData);
 	self.Value:SetText(attributeData.displayValue);
 end
 
-TableAttributeLineTitleMixin = {};--- @class TableAttributeLineTitleMixin
+TableAttributeLineTitleMixin = {}; --- @class TableAttributeLineTitleMixin
 
 function TableAttributeLineTitleMixin:Initialize(attributeType)
 	self.Text:SetText(attributeType.."(s)");

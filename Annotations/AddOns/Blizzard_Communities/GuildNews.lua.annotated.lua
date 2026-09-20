@@ -2,7 +2,7 @@ local function IsLootNews(newsType)
 	return newsType == NEWS_ITEM_LOOTED or newsType == NEWS_ITEM_CRAFTED or newsType == NEWS_ITEM_PURCHASED or newsType == NEWS_LEGENDARY_LOOTED;
 end
 
-CommunitiesGuildNewsButtonMixin = {};--- @class CommunitiesGuildNewsButtonMixin
+CommunitiesGuildNewsButtonMixin = {}; --- @class CommunitiesGuildNewsButtonMixin
 
 function CommunitiesGuildNewsButtonMixin:Init(elementData)
 	self.newsInfo = nil;

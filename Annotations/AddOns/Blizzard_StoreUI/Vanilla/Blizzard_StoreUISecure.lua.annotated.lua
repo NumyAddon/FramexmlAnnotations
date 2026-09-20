@@ -4147,7 +4147,7 @@ function ServicesLogoutPopupCancelButton_OnClick(self)
 	ServicesLogoutPopup:Hide();
 end
 
-StoreTooltipBackdropMixin = {};--- @class StoreTooltipBackdropMixin
+StoreTooltipBackdropMixin = {}; --- @class StoreTooltipBackdropMixin
 
 function StoreTooltipBackdropMixin:StoreTooltipOnLoad()
 	NineSliceUtil.DisableSharpening(self);

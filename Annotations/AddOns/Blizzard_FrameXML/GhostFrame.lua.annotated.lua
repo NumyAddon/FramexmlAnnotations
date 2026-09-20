@@ -1,4 +1,4 @@
-GhostFrameMixin = {}--- @class GhostFrameMixin
+GhostFrameMixin = {} --- @class GhostFrameMixin
 
 function GhostFrameMixin:OnLoad()
 	self:RegisterEvent("ADDON_LOADED");

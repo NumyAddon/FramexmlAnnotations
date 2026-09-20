@@ -21,7 +21,7 @@ ECLIPSE_MARKER_COORDS["none"] 		= { 0.914, 1.0, 0.82, 1.0 };
 ECLIPSE_MARKER_COORDS["sun"] 		= { 0.914, 1.0, 0.641, 0.82 }; 
 ECLIPSE_MARKER_COORDS["moon"] 		= { 1.0, 0.914, 0.641, 0.82 }; 
 
-EclipseBarFrameMixin = {}--- @class EclipseBarFrameMixin
+EclipseBarFrameMixin = {} --- @class EclipseBarFrameMixin
 
 function EclipseBarFrameMixin:ShouldDisplay()
 

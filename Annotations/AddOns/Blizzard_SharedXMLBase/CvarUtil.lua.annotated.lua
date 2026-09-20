@@ -47,7 +47,7 @@ end
 -- of using this accessor is to add type strictness to avoid scenarios where
 -- nil is implicitly converted to "0" or false and to relieve the callsites of
 -- casting concerns.
-CVarAccessorMixin = {};--- @class CVarAccessorMixin
+CVarAccessorMixin = {}; --- @class CVarAccessorMixin
 
 function CVarAccessorMixin:Init(cvar, variableType)
 	if variableType == "boolean" then

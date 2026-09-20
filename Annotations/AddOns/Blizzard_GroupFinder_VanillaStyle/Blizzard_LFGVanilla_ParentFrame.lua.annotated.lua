@@ -7,7 +7,7 @@ CVarCallbackRegistry:SetCVarCachable("disableSuggestedLevelActivityFilter");
 -------------------------------------------------------
 ----------LFG Parent
 -------------------------------------------------------
-LFGParentFrameMixin = {};--- @class LFGParentFrameMixin
+LFGParentFrameMixin = {}; --- @class LFGParentFrameMixin
 
 function LFGParentFrameMixin:OnLoad()
 	self:RegisterEvent("LFG_LIST_ACTIVE_ENTRY_UPDATE");

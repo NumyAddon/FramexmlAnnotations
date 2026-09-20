@@ -1,4 +1,4 @@
-WardrobeOutfitDropdownMixin = { };--- @class WardrobeOutfitDropdownMixin
+WardrobeOutfitDropdownMixin = { }; --- @class WardrobeOutfitDropdownMixin
 
 function WardrobeOutfitDropdownMixin:OnLoad()
 	WowStyle1DropdownMixin.OnLoad(self);
@@ -420,7 +420,7 @@ function WardrobeOutfitManager:OverwriteOutfit(outfitID)
 end
 
 --===================================================================================================================================
-WardrobeOutfitEditFrameMixin = { };--- @class WardrobeOutfitEditFrameMixin
+WardrobeOutfitEditFrameMixin = { }; --- @class WardrobeOutfitEditFrameMixin
 
 function WardrobeOutfitEditFrameMixin:ShowForOutfit(outfitID)
 	WardrobeOutfitManager:ShowPopup(self);
@@ -443,7 +443,7 @@ function WardrobeOutfitEditFrameMixin:OnAccept()
 end
 
 --===================================================================================================================================
-WardrobeOutfitCheckAppearancesMixin = { };--- @class WardrobeOutfitCheckAppearancesMixin
+WardrobeOutfitCheckAppearancesMixin = { }; --- @class WardrobeOutfitCheckAppearancesMixin
 
 function WardrobeOutfitCheckAppearancesMixin:OnShow()
 	self:RegisterEvent("TRANSMOG_COLLECTION_ITEM_UPDATE");

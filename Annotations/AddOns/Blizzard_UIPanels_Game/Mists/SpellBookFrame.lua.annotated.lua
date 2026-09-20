@@ -540,7 +540,7 @@ function SpellBook_GetSpellBookSlot(spellButton)
 	return nil, nil, nil;
 end
 
-ProfessionsUnlearnButtonMixin = {};--- @class ProfessionsUnlearnButtonMixin
+ProfessionsUnlearnButtonMixin = {}; --- @class ProfessionsUnlearnButtonMixin
 
 function ProfessionsUnlearnButtonMixin:OnEnter()
     self.Icon:SetAlpha(1.0);
@@ -848,7 +848,7 @@ function SpellBook_GetCoreAbilitySpecTab(index)
 	return tab;
 end
 
-SpellBookCoreAbilitiesMixin = {};--- @class SpellBookCoreAbilitiesMixin
+SpellBookCoreAbilitiesMixin = {}; --- @class SpellBookCoreAbilitiesMixin
 
 function SpellBookCoreAbilitiesMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_ABILITY_PAGE_TURN);

@@ -80,7 +80,7 @@ local function CreateQualitySliderSetting(cvar, label, proxyName, tooltip)
 	return {setting = setting, initializer = initializer, cvar = cvar};
 end
 
-SettingsAdvancedQualityControlsMixin = {};--- @class SettingsAdvancedQualityControlsMixin
+SettingsAdvancedQualityControlsMixin = {}; --- @class SettingsAdvancedQualityControlsMixin
 
 function SettingsAdvancedQualityControlsMixin:Init(settings, raid, cbrHandles)
 
@@ -353,7 +353,7 @@ function SettingsAdvancedQualityControlsMixin:Init(settings, raid, cbrHandles)
 	GraphicsOverrides.AdjustAdvancedQualityControls(self, settings, raid, InitControlDropdown, AddValidatedSettingOption, AddRecommended);
 end
 
-SettingsAdvancedQualitySectionMixin = CreateFromMixins(SettingsExpandableSectionMixin);--- @class SettingsAdvancedQualitySectionMixin : SettingsExpandableSectionMixin
+SettingsAdvancedQualitySectionMixin = CreateFromMixins(SettingsExpandableSectionMixin); --- @class SettingsAdvancedQualitySectionMixin : SettingsExpandableSectionMixin
 
 function SettingsAdvancedQualitySectionMixin:OnLoad()
 	self.tabsGroup = CreateRadioButtonGroup();
@@ -399,7 +399,7 @@ function SettingsAdvancedQualitySectionMixin:EvaluateVisibility(tab)
 	self.RaidQualityControls:SetShown(tab == self.RaidTab);
 end
 
-SettingsAdvancedSliderMixin = CreateFromMixins(DefaultTooltipMixin);--- @class SettingsAdvancedSliderMixin : DefaultTooltipMixin
+SettingsAdvancedSliderMixin = CreateFromMixins(DefaultTooltipMixin); --- @class SettingsAdvancedSliderMixin : DefaultTooltipMixin
 
 function SettingsAdvancedSliderMixin:OnLoad()
 	Mixin(self.SliderWithSteppers.Slider, DefaultTooltipMixin);
@@ -409,7 +409,7 @@ function SettingsAdvancedSliderMixin:OnLoad()
 	self.SliderWithSteppers.Slider:InitDefaultTooltipScriptHandlers();
 end
 
-SettingsAdvancedCheckboxSliderMixin = CreateFromMixins(DefaultTooltipMixin);--- @class SettingsAdvancedCheckboxSliderMixin : DefaultTooltipMixin
+SettingsAdvancedCheckboxSliderMixin = CreateFromMixins(DefaultTooltipMixin); --- @class SettingsAdvancedCheckboxSliderMixin : DefaultTooltipMixin
 
 function SettingsAdvancedCheckboxSliderMixin:OnLoad()
 	Mixin(self.SliderWithSteppers.Slider, DefaultTooltipMixin);
@@ -419,7 +419,7 @@ function SettingsAdvancedCheckboxSliderMixin:OnLoad()
 	self.SliderWithSteppers.Slider:InitDefaultTooltipScriptHandlers();
 end
 
-SettingsAdvancedDropdownMixin = CreateFromMixins(DefaultTooltipMixin);--- @class SettingsAdvancedDropdownMixin : DefaultTooltipMixin
+SettingsAdvancedDropdownMixin = CreateFromMixins(DefaultTooltipMixin); --- @class SettingsAdvancedDropdownMixin : DefaultTooltipMixin
 
 function SettingsAdvancedDropdownMixin:OnLoad()
 	DefaultTooltipMixin.OnLoad(self);

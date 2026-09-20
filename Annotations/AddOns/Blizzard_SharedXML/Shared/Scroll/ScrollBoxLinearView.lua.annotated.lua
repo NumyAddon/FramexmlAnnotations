@@ -1,5 +1,5 @@
 
-ScrollBoxLinearPaddingMixin = CreateFromMixins(ScrollBoxPaddingMixin);--- @class ScrollBoxLinearPaddingMixin : ScrollBoxPaddingMixin
+ScrollBoxLinearPaddingMixin = CreateFromMixins(ScrollBoxPaddingMixin); --- @class ScrollBoxLinearPaddingMixin : ScrollBoxPaddingMixin
 
 function ScrollBoxLinearPaddingMixin:Init(top, bottom, left, right, spacing)
 	ScrollBoxPaddingMixin.Init(self, top, bottom, left, right);
@@ -18,7 +18,7 @@ function CreateScrollBoxLinearPadding(top, bottom, left, right, spacing)
 	return CreateAndInitFromMixin(ScrollBoxLinearPaddingMixin, top, bottom, left, right, spacing);
 end
 
-ScrollBoxLinearBaseViewMixin = CreateFromMixins(ScrollBoxViewMixin);--- @class ScrollBoxLinearBaseViewMixin : ScrollBoxViewMixin
+ScrollBoxLinearBaseViewMixin = CreateFromMixins(ScrollBoxViewMixin); --- @class ScrollBoxLinearBaseViewMixin : ScrollBoxViewMixin
 
 function ScrollBoxLinearBaseViewMixin:SetPadding(top, bottom, left, right, spacing)
 	local padding = CreateScrollBoxLinearPadding(top, bottom, left, right, spacing);
@@ -101,7 +101,7 @@ function ScrollBoxLinearBaseViewMixin:Layout()
 	return self:LayoutInternal(self:GetLayoutFunction());
 end
 
-ScrollBoxListLinearViewMixin = CreateFromMixins(ScrollBoxListViewMixin, ScrollBoxLinearBaseViewMixin);--- @class ScrollBoxListLinearViewMixin : ScrollBoxListViewMixin, ScrollBoxLinearBaseViewMixin
+ScrollBoxListLinearViewMixin = CreateFromMixins(ScrollBoxListViewMixin, ScrollBoxLinearBaseViewMixin); --- @class ScrollBoxListLinearViewMixin : ScrollBoxListViewMixin, ScrollBoxLinearBaseViewMixin
 
 function ScrollBoxListLinearViewMixin:Init(top, bottom, left, right, spacing)
 	ScrollBoxListViewMixin.Init(self);
@@ -144,7 +144,7 @@ function CreateScrollBoxListLinearView(top, bottom, left, right, spacing)
 	return CreateAndInitFromMixin(ScrollBoxListLinearViewMixin, top or 0, bottom or 0, left or 0, right or 0, spacing or 0);
 end
 
-ScrollBoxLinearViewMixin = CreateFromMixins(ScrollBoxLinearBaseViewMixin);--- @class ScrollBoxLinearViewMixin : ScrollBoxLinearBaseViewMixin
+ScrollBoxLinearViewMixin = CreateFromMixins(ScrollBoxLinearBaseViewMixin); --- @class ScrollBoxLinearViewMixin : ScrollBoxLinearBaseViewMixin
 
 function ScrollBoxLinearViewMixin:Init(top, bottom, left, right, spacing)
 	ScrollBoxViewMixin.Init(self);

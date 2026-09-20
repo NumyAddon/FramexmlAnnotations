@@ -1,4 +1,4 @@
-UnitPopupTeamPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupTeamPromoteButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupTeamPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupTeamPromoteButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupTeamPromoteButtonMixin:GetText(contextData)
 	return TEAM_PROMOTE; 
@@ -31,7 +31,7 @@ function UnitPopupTeamPromoteButtonMixin:OnClick(contextData)
 	end
 end
 
-UnitPopupTeamKickButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupTeamKickButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupTeamKickButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupTeamKickButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupTeamKickButtonMixin:GetText(contextData)
 	return TEAM_KICK; 
@@ -64,7 +64,7 @@ function UnitPopupTeamKickButtonMixin:OnClick(contextData)
 	end
 end
 
-UnitPopupTeamLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupTeamLeaveButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupTeamLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupTeamLeaveButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupTeamLeaveButtonMixin:GetText(contextData)
 	return TEAM_LEAVE; 
@@ -91,7 +91,7 @@ function UnitPopupTeamLeaveButtonMixin:OnClick(contextData)
 	end
 end
 
-UnitPopupTeamDisbandButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupTeamDisbandButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupTeamDisbandButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupTeamDisbandButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupTeamDisbandButtonMixin:GetText(contextData)
 	return TEAM_DISBAND; 
@@ -160,7 +160,7 @@ function UnitPopupRaidDifficulty1ButtonMixin:OnClick(contextData)
 	SetRaidDifficultyID(raidDifficultyID);
 end
 
-UnitPopupRaidDifficulty2ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin);--- @class UnitPopupRaidDifficulty2ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
+UnitPopupRaidDifficulty2ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin); --- @class UnitPopupRaidDifficulty2ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 
 function UnitPopupRaidDifficulty2ButtonMixin:GetText(contextData)
 	return RAID_DIFFICULTY2; 
@@ -170,7 +170,7 @@ function UnitPopupRaidDifficulty2ButtonMixin:GetDifficultyID()
 	return DIFFICULTY_RAID25_NORMAL;
 end
 
-UnitPopupRaidDifficulty3ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin);--- @class UnitPopupRaidDifficulty3ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
+UnitPopupRaidDifficulty3ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin); --- @class UnitPopupRaidDifficulty3ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 
 function UnitPopupRaidDifficulty3ButtonMixin:GetText(contextData)
 	return RAID_DIFFICULTY3; 
@@ -180,7 +180,7 @@ function UnitPopupRaidDifficulty3ButtonMixin:GetDifficultyID()
 	return DIFFICULTY_RAID10_HEROIC;
 end
 
-UnitPopupRaidDifficulty4ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin);--- @class UnitPopupRaidDifficulty4ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
+UnitPopupRaidDifficulty4ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin); --- @class UnitPopupRaidDifficulty4ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 
 function UnitPopupRaidDifficulty4ButtonMixin:GetText(contextData)
 	return RAID_DIFFICULTY4; 

@@ -24,7 +24,7 @@ local SubTypeToColor = {
 };
 
 
-TalentDisplayMixin = {};--- @class TalentDisplayMixin
+TalentDisplayMixin = {}; --- @class TalentDisplayMixin
 
 function TalentDisplayMixin:OnEnter()
 	local spellID = self:GetSpellID();
@@ -431,7 +431,7 @@ function TalentDisplayMixin:UpdateColorBlindVisuals(isColorBlindModeActive)
 end
 
 
-TalentButtonBaseMixin = {};--- @class TalentButtonBaseMixin
+TalentButtonBaseMixin = {}; --- @class TalentButtonBaseMixin
 
 function TalentButtonBaseMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -761,7 +761,7 @@ function TalentButtonBaseMixin:PlayDeselectSound()
 	end
 end
 
-TalentButtonBasicArtMixin = {};--- @class TalentButtonBasicArtMixin
+TalentButtonBasicArtMixin = {}; --- @class TalentButtonBasicArtMixin
 
 TalentButtonBasicArtMixin.SizingAdjustment = {
 	Circle = {
@@ -858,7 +858,7 @@ function TalentButtonBasicArtMixin:ApplySize(width, height)
 end
 
 
-TalentButtonArtMixin = {};--- @class TalentButtonArtMixin
+TalentButtonArtMixin = {}; --- @class TalentButtonArtMixin
 
 -- Split out for easier adjustment.
 local RefundInvalidOverlayAlpha = 0.3;
@@ -1165,7 +1165,7 @@ function TalentButtonArtMixin:ResetActiveVisuals()
 	self:StopPurchaseCompleteEffect();
 end
 
-TalentButtonSplitIconMixin = {};--- @class TalentButtonSplitIconMixin
+TalentButtonSplitIconMixin = {}; --- @class TalentButtonSplitIconMixin
 
 function TalentButtonSplitIconMixin:ApplyVisualState(visualState)
 	TalentButtonArtMixin.ApplyVisualState(self, visualState);
@@ -1180,7 +1180,7 @@ function TalentButtonSplitIconMixin:SetSplitIconShown(isSplitShown)
 end
 
 
-TalentButtonSpendMixin = CreateFromMixins(TalentButtonBaseMixin);--- @class TalentButtonSpendMixin : TalentButtonBaseMixin
+TalentButtonSpendMixin = CreateFromMixins(TalentButtonBaseMixin); --- @class TalentButtonSpendMixin : TalentButtonBaseMixin
 
 function TalentButtonSpendMixin:OnClick(button)
 	EventRegistry:TriggerEvent("TalentButton.OnClick", self, button);
@@ -1285,7 +1285,7 @@ function TalentButtonSpendMixin:AddTooltipInstructions(tooltip)
 end
 
 
-TalentButtonSelectMixin = CreateFromMixins(TalentButtonBaseMixin);--- @class TalentButtonSelectMixin : TalentButtonBaseMixin
+TalentButtonSelectMixin = CreateFromMixins(TalentButtonBaseMixin); --- @class TalentButtonSelectMixin : TalentButtonBaseMixin
 
 function TalentButtonSelectMixin:OnLoad()
 	TalentButtonBaseMixin.OnLoad(self);
@@ -1622,7 +1622,7 @@ end
 
 
 -- This breaks the usual pattern and inherits TalentButtonSplitIconMixin directly so that overrides are handled properly.
-TalentButtonSplitSelectMixin = CreateFromMixins(TalentButtonSelectMixin, TalentButtonSplitIconMixin);--- @class TalentButtonSplitSelectMixin : TalentButtonSelectMixin, TalentButtonSplitIconMixin
+TalentButtonSplitSelectMixin = CreateFromMixins(TalentButtonSelectMixin, TalentButtonSplitIconMixin); --- @class TalentButtonSplitSelectMixin : TalentButtonSelectMixin, TalentButtonSplitIconMixin
 
 function TalentButtonSplitSelectMixin:UpdateIconTexture()
 	-- Overrides TalentDisplayMixin.
@@ -1666,7 +1666,7 @@ function TalentButtonSplitSelectMixin:UpdateIconTexture()
 end
 
 
-TalentButtonSearchIconMixin = {};--- @class TalentButtonSearchIconMixin
+TalentButtonSearchIconMixin = {}; --- @class TalentButtonSearchIconMixin
 
 function TalentButtonSearchIconMixin:OnLoad()
 	self.Mouseover:SetScript("OnEnter", GenerateClosure(self.OnEnter, self));

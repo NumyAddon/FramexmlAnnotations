@@ -187,7 +187,7 @@ local InteractionManagerFrameInfo = {
 	},
 };
 
-PlayerInteractionFrameManagerMixin = { };--- @class PlayerInteractionFrameManagerMixin
+PlayerInteractionFrameManagerMixin = { }; --- @class PlayerInteractionFrameManagerMixin
 
 function PlayerInteractionFrameManagerMixin:ShowFrame(interactionType)
 	local frameInfo = InteractionManagerFrameInfo[interactionType]; 

@@ -191,7 +191,7 @@ local EXTRA_GUILD_COLUMNS = {
 
 };
 
-CommunitiesMemberListMixin = {};--- @class CommunitiesMemberListMixin
+CommunitiesMemberListMixin = {}; --- @class CommunitiesMemberListMixin
 
 function CommunitiesMemberListMixin:ResetColumnSort()
 	self.activeColumnSortIndex = nil;
@@ -905,7 +905,7 @@ function CommunitiesMemberListColumnDisplay_OnClick(self, columnIndex)
 	self:GetParent():RefreshListDisplay();
 end
 
-CommunitiesMemberListEntryMixin = {};--- @class CommunitiesMemberListEntryMixin
+CommunitiesMemberListEntryMixin = {}; --- @class CommunitiesMemberListEntryMixin
 
 function CommunitiesMemberListEntryMixin:OnShow()
 	FrameUtil.RegisterFrameForEvents(self, COMMUNITIES_MEMBER_LIST_ENTRY_EVENTS);
@@ -1491,7 +1491,7 @@ do
 	end
 end
 
-CommunitiesFrameMemberListDropdownMixin = {};--- @class CommunitiesFrameMemberListDropdownMixin
+CommunitiesFrameMemberListDropdownMixin = {}; --- @class CommunitiesFrameMemberListDropdownMixin
 
 function CommunitiesFrameMemberListDropdownMixin:OnLoad()
 	self:SetSelectionTranslator(function(selection)
@@ -1518,7 +1518,7 @@ function CommunitiesFrameMemberListDropdownMixin:GetCommunitiesFrame()
 	return self:GetParent();
 end
 
-GuildMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin);--- @class GuildMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
+GuildMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin); --- @class GuildMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
 
 function GuildMemberListDropdownMixin:OnShow()
 	self:ResetGuildColumnIndex();
@@ -1627,7 +1627,7 @@ function GuildMemberListDropdownMixin:ResetDisplayMode()
 	self:SetupMenu();
 end 
 
-CommunityMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin);--- @class CommunityMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
+CommunityMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin); --- @class CommunityMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
 
 function CommunityMemberListDropdownMixin:OnShow()
 	self:ResetCurrentIndex();
@@ -1734,7 +1734,7 @@ function CommunityMemberListDropdownMixin:ResetDisplayMode()
 	self:SetupMenu();
 end
 
-CommunitiesMemberListFactionButtonMixin = { }; --- @class CommunitiesMemberListFactionButtonMixin
+CommunitiesMemberListFactionButtonMixin = { };  --- @class CommunitiesMemberListFactionButtonMixin
 function CommunitiesMemberListFactionButtonMixin:OnShow()
 	local faction = self:GetParent():GetFaction(); 
 	if(not faction) then 

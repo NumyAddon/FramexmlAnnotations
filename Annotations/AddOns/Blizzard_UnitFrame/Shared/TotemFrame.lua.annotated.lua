@@ -6,7 +6,7 @@ TOTEM_PRIORITIES =
 	FIRE_TOTEM_SLOT
 };
 
-TotemFrameMixin = {};--- @class TotemFrameMixin
+TotemFrameMixin = {}; --- @class TotemFrameMixin
 
 function TotemFrameMixin:OnLoad()
 	self:RegisterEvent("PLAYER_TOTEM_UPDATE");
@@ -108,7 +108,7 @@ function TotemFrameMixin:Update()
 	PlayerFrame_AdjustAttachments();
 end
 
-TotemButtonMixin = {};--- @class TotemButtonMixin
+TotemButtonMixin = {}; --- @class TotemButtonMixin
 
 function TotemButtonMixin:OnLoad()
 	self.duration:SetPoint("TOP", self, "BOTTOM", 0, TOTEM_BUTTON_DURATION_TEXT_VERTICAL_OFFSET);

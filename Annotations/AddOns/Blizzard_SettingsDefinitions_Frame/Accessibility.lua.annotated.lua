@@ -1,4 +1,4 @@
-QuestTextPreviewMixin = { };--- @class QuestTextPreviewMixin
+QuestTextPreviewMixin = { }; --- @class QuestTextPreviewMixin
 
 function QuestTextPreviewMixin:OnShow()
 	self:UpdatePreview(GetCVarNumberOrDefault("QuestTextContrast"));
@@ -18,7 +18,7 @@ function QuestTextPreviewMixin:UpdatePreview(value)
 	self.BodyText:SetTextColor(textColor[1], textColor[2], textColor[3]);
 end
 
-ArachnophobiaMixin = {};--- @class ArachnophobiaMixin
+ArachnophobiaMixin = {}; --- @class ArachnophobiaMixin
 
 function ArachnophobiaMixin:OnLoad()
 	SettingsCheckboxControlMixin.OnLoad(self);

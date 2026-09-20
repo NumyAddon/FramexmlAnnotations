@@ -1,5 +1,5 @@
 
-SimpleCheckoutMixin = {};--- @class SimpleCheckoutMixin
+SimpleCheckoutMixin = {}; --- @class SimpleCheckoutMixin
 
 function SimpleCheckoutMixin:OnLoad()
 	self:RegisterEvent("STORE_OPEN_SIMPLE_CHECKOUT");

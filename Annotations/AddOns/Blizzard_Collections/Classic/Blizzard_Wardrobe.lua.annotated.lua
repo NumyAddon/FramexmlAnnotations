@@ -2,7 +2,7 @@
 -- **** MAIN **********************************************************************************************************************************************
 -- ************************************************************************************************************************************************************
 
-WardrobeFrameMixin = CreateFromMixins(CallbackRegistryMixin);--- @class WardrobeFrameMixin : CallbackRegistryMixin
+WardrobeFrameMixin = CreateFromMixins(CallbackRegistryMixin); --- @class WardrobeFrameMixin : CallbackRegistryMixin
 
 WardrobeFrameMixin:GenerateCallbackEvents(
 {
@@ -19,7 +19,7 @@ end
 -- **** TRANSMOG **********************************************************************************************************************************************
 -- ************************************************************************************************************************************************************
 
-TransmogFrameMixin = { };--- @class TransmogFrameMixin
+TransmogFrameMixin = { }; --- @class TransmogFrameMixin
 
 function TransmogFrameMixin:OnLoad()
 	local race, fileName = UnitRace("player");
@@ -454,7 +454,7 @@ function TransmogFrameMixin:RemoveRangedSlot()
 	end
 end
 
-WardrobeOutfitDropdownOverrideMixin = {};--- @class WardrobeOutfitDropdownOverrideMixin
+WardrobeOutfitDropdownOverrideMixin = {}; --- @class WardrobeOutfitDropdownOverrideMixin
 
 function WardrobeOutfitDropdownOverrideMixin:LoadOutfit(outfitID)
 	if ( not outfitID ) then
@@ -474,7 +474,7 @@ function WardrobeOutfitDropdownOverrideMixin:GetLastOutfitID()
 	return tonumber(GetCVar("lastTransmogOutfitIDNoSpec"));
 end
 
-TransmogSlotButtonMixin = { };--- @class TransmogSlotButtonMixin
+TransmogSlotButtonMixin = { }; --- @class TransmogSlotButtonMixin
 
 function TransmogSlotButtonMixin:OnLoad()
 	if (self.slot == "RANGEDSLOT" and not C_PaperDollInfo.IsRangedSlotShown()) then
@@ -833,7 +833,7 @@ function TransmogSlotButtonMixin:RefreshItemModel(selectedSlotButton)
 	end
 end
 
-WardrobeTransmogClearAllPendingButtonMixin = {};--- @class WardrobeTransmogClearAllPendingButtonMixin
+WardrobeTransmogClearAllPendingButtonMixin = {}; --- @class WardrobeTransmogClearAllPendingButtonMixin
 
 function WardrobeTransmogClearAllPendingButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.UI_TRANSMOG_REVERTING_GEAR_SLOT);
@@ -900,7 +900,7 @@ local WARDROBE_MODEL_SETUP_GEAR = {
 	["HEADSLOT"] = 78416,
 }
 
-WardrobeCollectionFrameMixin = { };--- @class WardrobeCollectionFrameMixin
+WardrobeCollectionFrameMixin = { }; --- @class WardrobeCollectionFrameMixin
 
 function WardrobeCollectionFrameMixin:SetContainer(parent)
 	self:SetParent(parent);
@@ -1244,7 +1244,7 @@ function WardrobeCollectionFrameMixin:GetSearchType()
 	return self.activeFrame.searchType;
 end
 
-WardrobeItemsCollectionSlotButtonMixin = { }--- @class WardrobeItemsCollectionSlotButtonMixin
+WardrobeItemsCollectionSlotButtonMixin = { } --- @class WardrobeItemsCollectionSlotButtonMixin
 
 function WardrobeItemsCollectionSlotButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.UI_TRANSMOG_GEAR_SLOT_CLICK);
@@ -1268,7 +1268,7 @@ function WardrobeItemsCollectionSlotButtonMixin:OnEnter()
 	GameTooltip:SetText(slotName);
 end
 
-WardrobeItemsCollectionMixin = { };--- @class WardrobeItemsCollectionMixin
+WardrobeItemsCollectionMixin = { }; --- @class WardrobeItemsCollectionMixin
 
 local spacingNoSmallButton = 2;
 local spacingWithSmallButton = 12;
@@ -2126,7 +2126,7 @@ function WardrobeItemsCollectionMixin:DressUpVisual(visualInfo)
 	end
 end
 
-TransmogToggleSecondaryAppearanceCheckboxMixin = { }--- @class TransmogToggleSecondaryAppearanceCheckboxMixin
+TransmogToggleSecondaryAppearanceCheckboxMixin = { } --- @class TransmogToggleSecondaryAppearanceCheckboxMixin
 
 function TransmogToggleSecondaryAppearanceCheckboxMixin:OnClick()
 	local isOn = self:GetChecked();
@@ -2140,7 +2140,7 @@ end
 
 -- ***** MODELS
 
-WardrobeItemsModelMixin = { };--- @class WardrobeItemsModelMixin
+WardrobeItemsModelMixin = { }; --- @class WardrobeItemsModelMixin
 
 function WardrobeItemsModelMixin:OnLoad()
 	self:SetAutoDress(false);
@@ -2348,7 +2348,7 @@ function WardrobeCollectionFrameModelDropdown_SetFavorite(visualID, setFavorite,
 	HelpTip:Hide(WardrobeCollectionFrame.ItemsCollectionFrame, TRANSMOG_MOUSE_CLICK_TUTORIAL);
 end
 
-WardrobeCollectionFrameSearchBoxProgressMixin = { };--- @class WardrobeCollectionFrameSearchBoxProgressMixin
+WardrobeCollectionFrameSearchBoxProgressMixin = { }; --- @class WardrobeCollectionFrameSearchBoxProgressMixin
 
 function WardrobeCollectionFrameSearchBoxProgressMixin:OnLoad()
 	self:SetFrameLevel(self:GetParent():GetFrameLevel() + 15);
@@ -2391,7 +2391,7 @@ function WardrobeCollectionFrameSearchBoxProgressMixin:ShowProgressBar()
 	self:Show();
 end
 
-WardrobeCollectionFrameSearchBoxMixin = { }--- @class WardrobeCollectionFrameSearchBoxMixin
+WardrobeCollectionFrameSearchBoxMixin = { } --- @class WardrobeCollectionFrameSearchBoxMixin
 
 function WardrobeCollectionFrameSearchBoxMixin:OnLoad()
 	SearchBoxTemplate_OnLoad(self);

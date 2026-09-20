@@ -28,9 +28,9 @@ AttributeDelegate:SetScript("OnAttributeChanged", function(self, attribute, valu
 	end
 end);
 
-local CallbackType = EnumUtil.MakeEnum("Closure", "Function");--- @type {["Closure"]: 1, ["Function"]: 2}
+local CallbackType = EnumUtil.MakeEnum("Closure", "Function"); --- @type {["Closure"]: 1, ["Function"]: 2}
 
-CallbackRegistryMixin = {};--- @class CallbackRegistryMixin
+CallbackRegistryMixin = {}; --- @class CallbackRegistryMixin
 
 function CallbackRegistryMixin:OnLoad()
 	local callbackTables = {};

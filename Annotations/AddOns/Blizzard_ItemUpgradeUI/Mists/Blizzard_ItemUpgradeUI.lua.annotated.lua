@@ -3,10 +3,10 @@ UIPanelWindows["ItemUpgradeFrame"] = { area = "left", pushable = 0};
 
 ITEM_UPGRADE_MAX_STATS_SHOWN = 10;
 
-ItemUpgradeMixin = {};--- @class ItemUpgradeMixin
-ItemUpgradeUpgradeButtonMixin = {};--- @class ItemUpgradeUpgradeButtonMixin
-ItemUpgradeCurrencyMixin = {};--- @class ItemUpgradeCurrencyMixin
-ItemUpgradeItemMixin = {};--- @class ItemUpgradeItemMixin
+ItemUpgradeMixin = {}; --- @class ItemUpgradeMixin
+ItemUpgradeUpgradeButtonMixin = {}; --- @class ItemUpgradeUpgradeButtonMixin
+ItemUpgradeCurrencyMixin = {}; --- @class ItemUpgradeCurrencyMixin
+ItemUpgradeItemMixin = {}; --- @class ItemUpgradeItemMixin
 
 function ItemUpgradeFrame_Show()
 	ShowUIPanel(ItemUpgradeFrame);

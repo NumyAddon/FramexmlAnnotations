@@ -1,4 +1,4 @@
-MovePadMixin = {};--- @class MovePadMixin
+MovePadMixin = {}; --- @class MovePadMixin
 
 function MovePadMixin:OnLoad()
 	local function OnValueChanged(o, setting, value)

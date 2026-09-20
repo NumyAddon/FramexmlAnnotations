@@ -1,5 +1,5 @@
 -- Anim group whose parent is hidden or shown based on script calls defined in the template xml being used
-VisibleWhilePlayingAnimGroupMixin = {}--- @class VisibleWhilePlayingAnimGroupMixin
+VisibleWhilePlayingAnimGroupMixin = {} --- @class VisibleWhilePlayingAnimGroupMixin
 
 function VisibleWhilePlayingAnimGroupMixin:Show()
 	self:GetParent():Show();
@@ -10,7 +10,7 @@ function VisibleWhilePlayingAnimGroupMixin:Hide()
 end
 
 -- Anim group whose animation targets are hidden or shown based on script calls defined in the template xml being used
-TargetsVisibleWhilePlayingAnimGroupMixin = {}--- @class TargetsVisibleWhilePlayingAnimGroupMixin
+TargetsVisibleWhilePlayingAnimGroupMixin = {} --- @class TargetsVisibleWhilePlayingAnimGroupMixin
 
 function TargetsVisibleWhilePlayingAnimGroupMixin:Show()
 	self:SetTargetsShown(true, self:GetAnimations());
@@ -33,7 +33,7 @@ function TargetsVisibleWhilePlayingAnimGroupMixin:SetTargetsShown(shown, ...)
 end
 
 -- Anim group for keeping all groups using the same syncKey in sync via initial start time tracking
-SyncedAnimGroupMixin = {};--- @class SyncedAnimGroupMixin
+SyncedAnimGroupMixin = {}; --- @class SyncedAnimGroupMixin
 
 local s_animGroupSyncTimesByKey = {};
 
@@ -68,7 +68,7 @@ function SyncedAnimGroupMixin:ClearSyncedStart(syncKey)
 end
 
 -- Frame mixin for playing or stopping all child Anim Groups based on script calls defined in the template xml being used
-AnimateWhileShownMixin = { };--- @class AnimateWhileShownMixin
+AnimateWhileShownMixin = { }; --- @class AnimateWhileShownMixin
 
 local function IterateAllAnimationGroups(frame, func)
 	local animGroups = { frame:GetAnimationGroups() };

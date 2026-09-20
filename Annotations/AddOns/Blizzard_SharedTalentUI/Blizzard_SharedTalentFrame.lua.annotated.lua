@@ -11,7 +11,7 @@ local AutoPanDelay = 0.35;
 local CommitSpinnerWithBarDelay = 0.5;
 
 
-TalentFrameBaseButtonsParentMixin = {};--- @class TalentFrameBaseButtonsParentMixin
+TalentFrameBaseButtonsParentMixin = {}; --- @class TalentFrameBaseButtonsParentMixin
 
 function TalentFrameBaseButtonsParentMixin:OnUpdate(dt)
 	local currentEdgeTime = self.edgeTime;
@@ -107,7 +107,7 @@ function TalentFrameBaseButtonsParentMixin:MarkPanningPosition()
 end
 
 
-TalentFrameBaseMixin = CreateFromMixins(CallbackRegistryMixin);--- @class TalentFrameBaseMixin : CallbackRegistryMixin
+TalentFrameBaseMixin = CreateFromMixins(CallbackRegistryMixin); --- @class TalentFrameBaseMixin : CallbackRegistryMixin
 
 local TalentFrameBaseEvents = {
 	"TRAIT_NODE_CHANGED",

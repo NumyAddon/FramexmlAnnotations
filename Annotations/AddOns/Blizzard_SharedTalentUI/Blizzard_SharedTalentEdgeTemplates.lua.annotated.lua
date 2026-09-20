@@ -1,5 +1,5 @@
 
-TalentEdgeBaseMixin = {};--- @class TalentEdgeBaseMixin
+TalentEdgeBaseMixin = {}; --- @class TalentEdgeBaseMixin
 
 function TalentEdgeBaseMixin:Init(startButton, endButton, edgeInfo)
 	self.startButton = startButton;
@@ -24,7 +24,7 @@ function TalentEdgeBaseMixin:UpdateState()
 end
 
 
-TalentEdgeStraightMixin = {};--- @class TalentEdgeStraightMixin
+TalentEdgeStraightMixin = {}; --- @class TalentEdgeStraightMixin
 
 local ActiveEdgeFrameLevel = 100;
 function TalentEdgeStraightMixin:Init(startButton, endButton, edgeInfo)
@@ -85,7 +85,7 @@ function TalentEdgeStraightMixin:SetLineColor(r, g, b, a)
 end
 
 
-TalentEdgeArrowMixin = {};--- @class TalentEdgeArrowMixin
+TalentEdgeArrowMixin = {}; --- @class TalentEdgeArrowMixin
 
 function TalentEdgeArrowMixin:Init(startButton, endButton, edgeInfo)
 	TalentEdgeBaseMixin.Init(self, startButton, endButton, edgeInfo);

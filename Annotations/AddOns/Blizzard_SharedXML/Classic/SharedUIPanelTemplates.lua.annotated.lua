@@ -320,7 +320,7 @@ function SearchBoxTemplateClearButton_OnClick(self)
 	editBox:ClearFocus();
 end
 
-PanelTabButtonMixin = {};--- @class PanelTabButtonMixin
+PanelTabButtonMixin = {}; --- @class PanelTabButtonMixin
 
 function PanelTabButtonMixin:OnLoad()
 	self:SetFrameLevel(self:GetFrameLevel() + 4);
@@ -348,7 +348,7 @@ function PanelTabButtonMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-PanelTopTabButtonMixin = {};--- @class PanelTopTabButtonMixin
+PanelTopTabButtonMixin = {}; --- @class PanelTopTabButtonMixin
 
 local TOP_TAB_HEIGHT_PERCENT = 0.75;
 local TOP_TAB_BOTTOM_TEX_COORD = 1 - TOP_TAB_HEIGHT_PERCENT;
@@ -678,7 +678,7 @@ function ScrollingEdit_OnCursorChanged(self, x, y, w, h)
 	self.handleCursorChange = true;
 end
 
-NumericInputSpinnerMixin = {};--- @class NumericInputSpinnerMixin
+NumericInputSpinnerMixin = {}; --- @class NumericInputSpinnerMixin
 
 -- "public"
 function NumericInputSpinnerMixin:SetValue(value)
@@ -783,7 +783,7 @@ function NumericInputSpinnerMixin:OnUpdate(elapsed)
 	end
 end
 
-MaximizeMinimizeButtonFrameMixin = {};--- @class MaximizeMinimizeButtonFrameMixin
+MaximizeMinimizeButtonFrameMixin = {}; --- @class MaximizeMinimizeButtonFrameMixin
 
 function MaximizeMinimizeButtonFrameMixin:OnShow()
 	if self.cvar then
@@ -845,7 +845,7 @@ function MaximizeMinimizeButtonFrameMixin:SetMaximizedLook()
 	self.MinimizeButton:Hide();
 end
 
-PortraitFrameTemplateMixin = {}--- @class PortraitFrameTemplateMixin
+PortraitFrameTemplateMixin = {} --- @class PortraitFrameTemplateMixin
 
 function PortraitFrameTemplateMixin:OnLoad()
 
@@ -934,7 +934,7 @@ function GetAppropriateTooltip()
 	return UIParent and GameTooltip or GlueTooltip;
 end
 
-ColumnDisplayMixin = {};--- @class ColumnDisplayMixin
+ColumnDisplayMixin = {}; --- @class ColumnDisplayMixin
 
 function ColumnDisplayMixin:OnLoad()
 	self.columnHeaders = CreateFramePool("BUTTON", self, "ColumnDisplayButtonTemplate");
@@ -1009,7 +1009,7 @@ function ColumnDisplayButton_OnClick(self)
 end
 
 
-UIMenuButtonStretchMixin = {}--- @class UIMenuButtonStretchMixin
+UIMenuButtonStretchMixin = {} --- @class UIMenuButtonStretchMixin
 
 function UIMenuButtonStretchMixin:SetTextures(texture)
 	self.TopLeft:SetTexture(texture);
@@ -1070,7 +1070,7 @@ function UIMenuButtonStretchMixin:OnLeave()
 	end
 end
 
-DialogHeaderMixin = {};--- @class DialogHeaderMixin
+DialogHeaderMixin = {}; --- @class DialogHeaderMixin
 
 function DialogHeaderMixin:OnLoad()
 	if self.textString then
@@ -1084,7 +1084,7 @@ function DialogHeaderMixin:Setup(text)
 end
 
 
-DropdownWithSteppersMixin = {};--- @class DropdownWithSteppersMixin
+DropdownWithSteppersMixin = {}; --- @class DropdownWithSteppersMixin
 
 function DropdownWithSteppersMixin:OnLoad()
 	self.IncrementButton:SetPoint("LEFT", self.Dropdown, "RIGHT", (self.incrementOffsetX or 4), 0);
@@ -1148,13 +1148,13 @@ function DropdownWithSteppersMixin:UpdateSteppers()
 	end
 end
 
-DropdownWithSteppersAndLabelMixin = CreateFromMixins(DropdownWithSteppersMixin);--- @class DropdownWithSteppersAndLabelMixin : DropdownWithSteppersMixin
+DropdownWithSteppersAndLabelMixin = CreateFromMixins(DropdownWithSteppersMixin); --- @class DropdownWithSteppersAndLabelMixin : DropdownWithSteppersMixin
 
 function DropdownWithSteppersAndLabelMixin:SetText(text)
 	self.Label:SetText(text);
 end
 
-DefaultScaleFrameMixin = {};--- @class DefaultScaleFrameMixin
+DefaultScaleFrameMixin = {}; --- @class DefaultScaleFrameMixin
 
 function DefaultScaleFrameMixin:OnDefaultScaleFrameLoad()
 	self:RegisterEvent("DISPLAY_SIZE_CHANGED");
@@ -1171,7 +1171,7 @@ function DefaultScaleFrameMixin:UpdateScale()
 	ApplyDefaultScale(self, self.minScale, self.maxScale);
 end
 
-UIButtonMixin = {}--- @class UIButtonMixin
+UIButtonMixin = {} --- @class UIButtonMixin
 
 function UIButtonMixin:InitButton()
 	if self.buttonArtKit then
@@ -1271,7 +1271,7 @@ function UIButtonMixin:SetDisabledTooltip(disabledTooltip, disabledTooltipAnchor
 	self:SetMotionScriptsWhileDisabled(disabledTooltip ~= nil);
 end
 
-IconButtonMixin = CreateFromMixins(UIButtonMixin);--- @class IconButtonMixin : UIButtonMixin
+IconButtonMixin = CreateFromMixins(UIButtonMixin); --- @class IconButtonMixin : UIButtonMixin
 
 function IconButtonMixin:OnLoad()
 	if self.icon then
@@ -1322,7 +1322,7 @@ function IconButtonMixin:SetEnabledState(enabled)
 	self.Icon:SetDesaturated(not enabled);
 end
 
-SquareIconButtonMixin = CreateFromMixins(IconButtonMixin);--- @class SquareIconButtonMixin : IconButtonMixin
+SquareIconButtonMixin = CreateFromMixins(IconButtonMixin); --- @class SquareIconButtonMixin : IconButtonMixin
 
 function SquareIconButtonMixin:OnMouseDown()
 	-- Overrides IconButtonMixin.
@@ -1340,7 +1340,7 @@ function SquareIconButtonMixin:OnMouseUp()
 end
 
 -- Click to drag directly attached to frame itself.
-ClickToDragMixin = {};--- @class ClickToDragMixin
+ClickToDragMixin = {}; --- @class ClickToDragMixin
 
 function ClickToDragMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -1355,7 +1355,7 @@ function ClickToDragMixin:OnDragStop()
 end
 
 -- Click to drag attached to a subframe. For example, a title bar.
-PanelDragBarMixin = {};--- @class PanelDragBarMixin
+PanelDragBarMixin = {}; --- @class PanelDragBarMixin
 
 function PanelDragBarMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -1420,7 +1420,7 @@ function PanelDragBarMixin:SetOnDragStopCallback(onDragStopCallback)
 	self.onDragStopCallback = onDragStopCallback;
 end
 
-NumericInputBoxMixin = {};--- @class NumericInputBoxMixin
+NumericInputBoxMixin = {}; --- @class NumericInputBoxMixin
 function NumericInputBoxMixin:OnTextChanged(isUserInput)
 	self.valueChangedCallback(self:GetNumber(), isUserInput);
 end
@@ -1434,7 +1434,7 @@ end
 function NumericInputBoxMixin:SetOnValueFinalizedCallback(valueFinalizedCallback)
 	self.valueFinalizedCallback = valueFinalizedCallback;
 end
-SliderControlFrameMixin = {};--- @class SliderControlFrameMixin
+SliderControlFrameMixin = {}; --- @class SliderControlFrameMixin
 function SliderControlFrameMixin:OnEnter()
 end
 function SliderControlFrameMixin:OnLeave()
@@ -1452,7 +1452,7 @@ end
 function SliderControlFrameMixin:OnSliderValueChanged(value, userInput)
 	-- Override in your mixin.
 end
-SliderAndEditControlMixin = CreateFromMixins(SliderControlFrameMixin);--- @class SliderAndEditControlMixin : SliderControlFrameMixin
+SliderAndEditControlMixin = CreateFromMixins(SliderControlFrameMixin); --- @class SliderAndEditControlMixin : SliderControlFrameMixin
 function SliderAndEditControlMixin:SetupSlider(minValue, maxValue, value, valueStep, label)
 	SliderControlFrameMixin.SetupSlider(self, minValue, maxValue, value, valueStep, label);
 	self.ValueBox:SetNumber(value);
@@ -1476,7 +1476,7 @@ function SliderAndEditControlMixin:SetCallback(callback)
 	self.callback = callback;
 end
 
-PanelResizeButtonMixin = {};--- @class PanelResizeButtonMixin
+PanelResizeButtonMixin = {}; --- @class PanelResizeButtonMixin
 
 function PanelResizeButtonMixin:Init(target, minWidth, minHeight, maxWidth, maxHeight, rotationDegrees)
 	self.target = target;
@@ -1604,15 +1604,15 @@ function PanelResizeButtonMixin:SetOnResizeCallback(resizeCallback)
 	self.resizeCallback = resizeCallback;
 end
 
-IconSelectorPopupFrameTemplateMixin = {};--- @class IconSelectorPopupFrameTemplateMixin
+IconSelectorPopupFrameTemplateMixin = {}; --- @class IconSelectorPopupFrameTemplateMixin
 
 
-IconSelectorPopupFrameModes = EnumUtil.MakeEnum(--- @type {["New"]: 1, ["Edit"]: 2} See [IconSelectorPopupFrameModes](lua://IconSelectorPopupFrameModes)
+IconSelectorPopupFrameModes = EnumUtil.MakeEnum( --- @type {["New"]: 1, ["Edit"]: 2} # See [IconSelectorPopupFrameModes](lua://IconSelectorPopupFrameModes)
 	"New",
 	"Edit"
 );
 
-IconSelectorPopupFrameIconFilterTypes = EnumUtil.MakeEnum(--- @type {["All"]: 1, ["Spell"]: 2, ["Item"]: 3} See [IconSelectorPopupFrameIconFilterTypes](lua://IconSelectorPopupFrameIconFilterTypes)
+IconSelectorPopupFrameIconFilterTypes = EnumUtil.MakeEnum( --- @type {["All"]: 1, ["Spell"]: 2, ["Item"]: 3} # See [IconSelectorPopupFrameIconFilterTypes](lua://IconSelectorPopupFrameIconFilterTypes)
 	"All",
 	"Spell",
 	"Item"
@@ -1828,7 +1828,7 @@ function IsAnyIconSelectorPopupFrameShown()
 	return IconSelectorPopupFramesShown and IconSelectorPopupFramesShown > 0;
 end
 
-SelectedIconButtonMixin = {};--- @class SelectedIconButtonMixin
+SelectedIconButtonMixin = {}; --- @class SelectedIconButtonMixin
 
 function SelectedIconButtonMixin:SetIconTexture(iconTexture)
 	self.Icon:SetTexture(iconTexture);
@@ -1858,7 +1858,7 @@ function SelectedIconButtonMixin:SetIconSelector(iconSelector)
 	self.selectedIconButtonIconSelector = iconSelector;
 end
 
-SearchBoxListElementMixin = {};--- @class SearchBoxListElementMixin
+SearchBoxListElementMixin = {}; --- @class SearchBoxListElementMixin
 
 function SearchBoxListElementMixin:OnEnter()
 	self:GetParent():SetSearchPreviewSelection(self:GetID());
@@ -1870,7 +1870,7 @@ end
 
 -- SearchBoxListMixin was refactored out of EncounterJournal for use in Professions but is not complete. It doesn't
 -- provide any interface for handling the bar progress updates.
-SearchBoxListMixin = {};--- @class SearchBoxListMixin
+SearchBoxListMixin = {}; --- @class SearchBoxListMixin
 
 function SearchBoxListMixin:OnLoad()
 	SearchBoxTemplate_OnLoad(self);
@@ -2129,7 +2129,7 @@ function SearchBoxListMixin:OnFocusGained()
 	self:SetSearchPreviewSelection(1);
 end
 
-LevelRangeFrameMixin = {};--- @class LevelRangeFrameMixin
+LevelRangeFrameMixin = {}; --- @class LevelRangeFrameMixin
 
 function LevelRangeFrameMixin:OnLoad()
 	self.MinLevel.nextEditBox = self.MaxLevel;
@@ -2187,7 +2187,7 @@ function LevelRangeFrameMixin:GetLevelRange()
 end
 
 -- Allows inheriting buttons to override OnLoad and OnShow
-ButtonControllerMixin = {};--- @class ButtonControllerMixin
+ButtonControllerMixin = {}; --- @class ButtonControllerMixin
 
 function ButtonControllerMixin:OnLoad()
 	if self:GetParent().InitButton then
@@ -2207,7 +2207,7 @@ function UICheckButtonFontString_SetParentKeyAlias(fontString)
 	parent.text = fontString;
 end
 
-ResizeCheckButtonMixin = {}--- @class ResizeCheckButtonMixin
+ResizeCheckButtonMixin = {} --- @class ResizeCheckButtonMixin
 function ResizeCheckButtonMixin:OnLoad()
 	self.onBoxToggled = self.onBoxToggled or nop;
 
@@ -2332,7 +2332,7 @@ function ResizeCheckButtonMixin:UpdateLabelFont()
 	self.Label:SetFontObject(enabled and enabledFont or disabledFont);
 end
 
-AlphaHighlightButtonMixin = {};--- @class AlphaHighlightButtonMixin
+AlphaHighlightButtonMixin = {}; --- @class AlphaHighlightButtonMixin
 
 function AlphaHighlightButtonMixin:UpdateHighlightForState()
 	self:SetHighlightAtlas(self:GetHighlightForState());
@@ -2359,7 +2359,7 @@ function AlphaHighlightButtonMixin:SetPressed(pressed)
 	self:UpdateHighlightForState();
 end
 
-IconSelectorEditBoxMixin = {};--- @class IconSelectorEditBoxMixin
+IconSelectorEditBoxMixin = {}; --- @class IconSelectorEditBoxMixin
 
 function IconSelectorEditBoxMixin:OnTextChanged()
 	local iconSelectorPopupFrame = self:GetIconSelectorPopupFrame();

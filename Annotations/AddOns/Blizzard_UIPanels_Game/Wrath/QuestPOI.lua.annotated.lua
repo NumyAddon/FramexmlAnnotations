@@ -118,7 +118,7 @@ local function QuestPOI_SetAtlas(texture, width, height, atlas)
 	end
 end
 
-QuestPOIDisplayLayerMixin = {};--- @class QuestPOIDisplayLayerMixin
+QuestPOIDisplayLayerMixin = {}; --- @class QuestPOIDisplayLayerMixin
 
 function QuestPOIDisplayLayerMixin:SetOffset(x, y)
 	self.offsetX = x;

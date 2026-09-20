@@ -227,7 +227,7 @@ function LFGMicroButton_OnLoad(self)
 	self.minLevel = SHOW_LFD_LEVEL;
 end
 
-SocialsMicroButtonMixin = {};--- @class SocialsMicroButtonMixin
+SocialsMicroButtonMixin = {}; --- @class SocialsMicroButtonMixin
 
 function SocialsMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "Socials");
@@ -272,7 +272,7 @@ function SocialsMicroButtonMixin:UpdateMicroButton()
 	end
 end
 
-GuildMicroButtonMixin = {};--- @class GuildMicroButtonMixin
+GuildMicroButtonMixin = {}; --- @class GuildMicroButtonMixin
 
 function GuildMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "Socials");

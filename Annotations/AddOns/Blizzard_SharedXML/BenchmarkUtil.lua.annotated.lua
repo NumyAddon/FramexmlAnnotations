@@ -1,4 +1,4 @@
-ScriptBenchmarkMixin = {};--- @class ScriptBenchmarkMixin
+ScriptBenchmarkMixin = {}; --- @class ScriptBenchmarkMixin
 
 function ScriptBenchmarkMixin:OnStart(_iterationCount)
 	-- Derive and implement to run any logic before your benchmark has started.

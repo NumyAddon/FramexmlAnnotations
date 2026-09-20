@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.IconTextAndCurrencies, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateIconTextAndCurrencies"}, GetIconTextAndCurrenciesVisInfoData);
 
-UIWidgetTemplateIconTextAndCurrenciesMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateIconTextAndCurrenciesMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateIconTextAndCurrenciesMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateIconTextAndCurrenciesMixin : UIWidgetBaseTemplateMixin
 
 local textureKitRegions = {
 	["Icon"] = "%s",

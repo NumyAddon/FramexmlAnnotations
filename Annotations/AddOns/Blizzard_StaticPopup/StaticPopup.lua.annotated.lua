@@ -911,7 +911,7 @@ function StaticPopup_UpdateAll(elapsed)
 	end
 end
 
-StaticPopupEditBoxMixin = {};--- @class StaticPopupEditBoxMixin
+StaticPopupEditBoxMixin = {}; --- @class StaticPopupEditBoxMixin
 
 local StaticPopupEditBoxAttributes = {
 	ClearEditBox = "clear-editbox",
@@ -1332,7 +1332,7 @@ function StaticPopup_HasDisplayedFrames()
 	return #StaticPopup_DisplayedFrames > 0;
 end
 
-StaticPopupItemFrameMixin = {};--- @class StaticPopupItemFrameMixin
+StaticPopupItemFrameMixin = {}; --- @class StaticPopupItemFrameMixin
 
 function StaticPopupItemFrameMixin:OnLoad()
 	self:GetParent().itemFrame = self;

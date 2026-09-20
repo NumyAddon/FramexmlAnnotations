@@ -181,7 +181,7 @@ function BrowseWowTokenResultsBuyout_OnEnter(self)
 end
 
 
-WoWTokenSellFrameMixin = CreateFromMixins(AuctionHouseSystemMixin);--- @class WoWTokenSellFrameMixin : AuctionHouseSystemMixin
+WoWTokenSellFrameMixin = CreateFromMixins(AuctionHouseSystemMixin); --- @class WoWTokenSellFrameMixin : AuctionHouseSystemMixin
 
 function WoWTokenSellFrameMixin:OnLoad()
 	AuctionHouseBackgroundMixin.OnLoad(self);
@@ -280,7 +280,7 @@ function WoWTokenSellFrameMixin:Refresh()
 	end
 end
 
-WoWTokenDisplayMixin = CreateFromMixins(AuctionHouseItemDisplayMixin);--- @class WoWTokenDisplayMixin : AuctionHouseItemDisplayMixin
+WoWTokenDisplayMixin = CreateFromMixins(AuctionHouseItemDisplayMixin); --- @class WoWTokenDisplayMixin : AuctionHouseItemDisplayMixin
 
 function WoWTokenDisplayMixin:OnLoad()
 	AuctionHouseItemDisplayMixin.OnLoad(self);

@@ -80,7 +80,7 @@ function AuctionFrameFilter_OnMouseUp(self)
 	self.Text:AdjustPointsOffset(-1, 1);
 end
 
-AuctionHouseCategoriesListMixin = CreateFromMixins(AuctionHouseSystemMixin);--- @class AuctionHouseCategoriesListMixin : AuctionHouseSystemMixin
+AuctionHouseCategoriesListMixin = CreateFromMixins(AuctionHouseSystemMixin); --- @class AuctionHouseCategoriesListMixin : AuctionHouseSystemMixin
 
 function AuctionHouseCategoriesListMixin:OnLoad()
 	local view = CreateScrollBoxListLinearView();

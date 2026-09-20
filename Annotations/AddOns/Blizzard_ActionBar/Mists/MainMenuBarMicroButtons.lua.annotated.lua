@@ -186,7 +186,7 @@ function AchievementMicroButton_OnEvent(event, ...)
 	end
 end
 
-CollectionMicroButtonMixin = {};--- @class CollectionMicroButtonMixin
+CollectionMicroButtonMixin = {}; --- @class CollectionMicroButtonMixin
 
 local function SafeSetCollectionJournalTab(tab)
 	if CollectionsJournal_SetTab then
@@ -271,7 +271,7 @@ function CollectionMicroButtonMixin:OnClick(button, down)
 	end
 end
 
-EJMicroButtonMixin = {};--- @class EJMicroButtonMixin
+EJMicroButtonMixin = {}; --- @class EJMicroButtonMixin
 
 function EJMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "EJ");
@@ -360,7 +360,7 @@ function EJMicroButtonMixin:OnClick(button, down)
 	end
 end
 
-StoreMicroButtonMixin = {};--- @class StoreMicroButtonMixin
+StoreMicroButtonMixin = {}; --- @class StoreMicroButtonMixin
 
 function StoreMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "BStore");

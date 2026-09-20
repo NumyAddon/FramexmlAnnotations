@@ -29,7 +29,7 @@ local function SetupLanguageAtlas(texture, localeTbl)
 	texture:SetAtlas(atlas, TextureKitConstants.UseAtlasSize);
 end
 
-SettingsLanguageDropdownMixin = {};--- @class SettingsLanguageDropdownMixin
+SettingsLanguageDropdownMixin = {}; --- @class SettingsLanguageDropdownMixin
 
 function SettingsLanguageDropdownMixin:OnLoad()
 	WowStyle2DropdownMixin.OnLoad(self);
@@ -71,15 +71,15 @@ local function SetupDropdown(dropdown, setting, options, width, initTooltip)
 end
 
 -- SettingsDropdownControlTemplate inherited in XML.
-local BaseLanguageDropdownControlMixin = {}; --- @class BaseLanguageDropdownControlMixin
+local BaseLanguageDropdownControlMixin = {};  --- @class BaseLanguageDropdownControlMixin
 
 function BaseLanguageDropdownControlMixin:SetupDropdownMenu(button, setting, options, initTooltip)
 	SetupDropdown(self.Control.Dropdown, setting, options, initTooltip);
 end
 
-SettingsLanguageDropdownControlMixin = CreateFromMixins(BaseLanguageDropdownControlMixin);--- @class SettingsLanguageDropdownControlMixin : BaseLanguageDropdownControlMixin
+SettingsLanguageDropdownControlMixin = CreateFromMixins(BaseLanguageDropdownControlMixin); --- @class SettingsLanguageDropdownControlMixin : BaseLanguageDropdownControlMixin
 
-SettingsAudioLocaleDropdownMixin = CreateFromMixins(BaseLanguageDropdownControlMixin);--- @class SettingsAudioLocaleDropdownMixin : BaseLanguageDropdownControlMixin
+SettingsAudioLocaleDropdownMixin = CreateFromMixins(BaseLanguageDropdownControlMixin); --- @class SettingsAudioLocaleDropdownMixin : BaseLanguageDropdownControlMixin
 
 function SettingsAudioLocaleDropdownMixin:Init(initializer)
 	SettingsDropdownControlMixin.Init(self, initializer);
@@ -96,7 +96,7 @@ function SettingsAudioLocaleDropdownMixin:Init(initializer)
 	self.cbrHandles:SetOnValueChangedCallback("textLocale", OnTextLocaleChanged);
 end
 
-LanguageRestartNeededMixin = CreateFromMixins(SettingsListElementMixin);--- @class LanguageRestartNeededMixin : SettingsListElementMixin
+LanguageRestartNeededMixin = CreateFromMixins(SettingsListElementMixin); --- @class LanguageRestartNeededMixin : SettingsListElementMixin
 
 function LanguageRestartNeededMixin:EvaluateState()
 	local textLocaleCurrent = GetCVar("textLocale");

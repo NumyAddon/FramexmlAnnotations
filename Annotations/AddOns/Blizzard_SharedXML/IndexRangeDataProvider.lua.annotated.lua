@@ -1,7 +1,7 @@
 -- IndexRangeDataProviderMixin originally written for parity with ScrollBox API to 
 -- simulate extremely large ranges (i.e. 20,000 macro icons). As a result, this
 -- data provider has a minimal API.
-IndexRangeDataProviderMixin = CreateFromMixins(CallbackRegistryMixin);--- @class IndexRangeDataProviderMixin : CallbackRegistryMixin
+IndexRangeDataProviderMixin = CreateFromMixins(CallbackRegistryMixin); --- @class IndexRangeDataProviderMixin : CallbackRegistryMixin
 
 IndexRangeDataProviderMixin:GenerateCallbackEvents(
 	{

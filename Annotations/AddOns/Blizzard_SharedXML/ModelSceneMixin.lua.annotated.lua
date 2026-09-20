@@ -1,5 +1,5 @@
 
-ModelSceneMixin = {}--- @class ModelSceneMixin
+ModelSceneMixin = {} --- @class ModelSceneMixin
 
 -- "public" functions
 function ModelSceneMixin:OnLoad()
@@ -526,7 +526,7 @@ function ModelSceneMixin:AddOrUpdateDropShadow(actor, baseShadowScale)
 end
 
 
-PanningModelSceneMixin = CreateFromMixins(ModelSceneMixin);--- @class PanningModelSceneMixin : ModelSceneMixin
+PanningModelSceneMixin = CreateFromMixins(ModelSceneMixin); --- @class PanningModelSceneMixin : ModelSceneMixin
 function PanningModelSceneMixin:TransitionToModelSceneID(modelSceneID, cameraTransitionType, cameraModificationType, forceEvenIfSame)
 	ModelSceneMixin.TransitionToModelSceneID(self, modelSceneID, cameraTransitionType, cameraModificationType, forceEvenIfSame);
 
@@ -538,7 +538,7 @@ function PanningModelSceneMixin:TransitionToModelSceneID(modelSceneID, cameraTra
 end
 
 
-NoCameraControlModelSceneMixin = CreateFromMixins(ModelSceneMixin);--- @class NoCameraControlModelSceneMixin : ModelSceneMixin
+NoCameraControlModelSceneMixin = CreateFromMixins(ModelSceneMixin); --- @class NoCameraControlModelSceneMixin : ModelSceneMixin
 function NoCameraControlModelSceneMixin:OnMouseDown(button)
 	self.isLeftButtonDown = false;
 	self.isRightButtonDown = false;
@@ -551,6 +551,6 @@ end
 
 function NoCameraControlModelSceneMixin:OnMouseWheel(delta)	
 end
-NoZoomModelSceneMixin = CreateFromMixins(ModelSceneMixin);--- @class NoZoomModelSceneMixin : ModelSceneMixin
+NoZoomModelSceneMixin = CreateFromMixins(ModelSceneMixin); --- @class NoZoomModelSceneMixin : ModelSceneMixin
 function NoZoomModelSceneMixin:OnMouseWheel(delta)	
 end

@@ -8,7 +8,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.StatusBar, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateStatusBar"}, GetStatusBarVisInfoData);
 
-UIWidgetTemplateStatusBarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateStatusBarMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateStatusBarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateStatusBarMixin : UIWidgetBaseTemplateMixin
 
 local textureKitRegionFormatStrings = {
 	["BorderLeft"] = "%s-BorderLeft",

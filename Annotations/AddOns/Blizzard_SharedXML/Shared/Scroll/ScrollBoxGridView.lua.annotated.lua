@@ -1,4 +1,4 @@
-ScrollBoxGridPaddingMixin = CreateFromMixins(ScrollBoxPaddingMixin);--- @class ScrollBoxGridPaddingMixin : ScrollBoxPaddingMixin
+ScrollBoxGridPaddingMixin = CreateFromMixins(ScrollBoxPaddingMixin); --- @class ScrollBoxGridPaddingMixin : ScrollBoxPaddingMixin
 
 function ScrollBoxGridPaddingMixin:Init(top, bottom, left, right, horizontalSpacing, verticalSpacing)
 	ScrollBoxPaddingMixin.Init(self, top, bottom, left, right);
@@ -26,7 +26,7 @@ function CreateScrollBoxGridPadding(top, bottom, left, right, horizontalSpacing,
 	return CreateAndInitFromMixin(ScrollBoxGridPaddingMixin, top, bottom, left, right, horizontalSpacing, verticalSpacing);
 end
 
-ScrollBoxListGridViewMixin = CreateFromMixins(ScrollBoxListViewMixin);--- @class ScrollBoxListGridViewMixin : ScrollBoxListViewMixin
+ScrollBoxListGridViewMixin = CreateFromMixins(ScrollBoxListViewMixin); --- @class ScrollBoxListGridViewMixin : ScrollBoxListViewMixin
 
 function ScrollBoxListGridViewMixin:Init(stride, top, bottom, left, right, horizontalSpacing, verticalSpacing)
 	ScrollBoxListViewMixin.Init(self);

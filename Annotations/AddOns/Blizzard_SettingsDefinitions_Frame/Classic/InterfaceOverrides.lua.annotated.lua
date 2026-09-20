@@ -202,7 +202,7 @@ function InterfaceOverrides.AdjustDisplaySettings(category)
 end
 
 -- RaidProfilesMixin
-RaidProfilesMixin = CreateFromMixins(SettingsDropdownControlMixin);--- @class RaidProfilesMixin : SettingsDropdownControlMixin
+RaidProfilesMixin = CreateFromMixins(SettingsDropdownControlMixin); --- @class RaidProfilesMixin : SettingsDropdownControlMixin
 
 function RaidProfilesMixin:OnLoad()
 	SettingsDropdownControlMixin.OnLoad(self);

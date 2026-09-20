@@ -1000,7 +1000,7 @@ function ActionButton_UpdateFlyout(self)
 	end
 end
 
-ActionBarActionButtonMixin = {};--- @class ActionBarActionButtonMixin
+ActionBarActionButtonMixin = {}; --- @class ActionBarActionButtonMixin
 
 function ActionBarActionButtonMixin:UpdateAction(force)
 	-- This is a wrapper for Classic until we update to use the full mixin.

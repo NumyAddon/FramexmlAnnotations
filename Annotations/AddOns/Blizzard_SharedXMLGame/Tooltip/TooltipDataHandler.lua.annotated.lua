@@ -229,7 +229,7 @@ function CreateBaseTooltipInfo(getterName, ...)
 	return tooltipInfo;
 end
 
-TooltipDataHandlerMixin = { };--- @class TooltipDataHandlerMixin
+TooltipDataHandlerMixin = { }; --- @class TooltipDataHandlerMixin
 
 function TooltipDataHandlerMixin:ProcessInfo(info)
 	return securecallfunction(self.InternalProcessInfo, self, info);

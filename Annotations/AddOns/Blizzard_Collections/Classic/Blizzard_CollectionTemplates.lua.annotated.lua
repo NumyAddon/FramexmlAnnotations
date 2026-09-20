@@ -46,7 +46,7 @@ function CollectionsSpellButton_UpdateCooldown(self)
 	end
 end
 
-CollectionsPagingMixin = { };--- @class CollectionsPagingMixin
+CollectionsPagingMixin = { }; --- @class CollectionsPagingMixin
 
 function CollectionsPagingMixin:OnLoad()
 	self.currentPage = 1;

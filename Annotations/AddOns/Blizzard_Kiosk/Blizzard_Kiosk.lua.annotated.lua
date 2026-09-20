@@ -1,7 +1,7 @@
 local expirationWarningSoundKit = 15273;
 local errorSecondsThreshold = 60;
 
-KioskFrameMixin = {}--- @class KioskFrameMixin
+KioskFrameMixin = {} --- @class KioskFrameMixin
 
 function KioskFrameMixin:OnLoad()
 	self:RegisterEvent("KIOSK_SESSION_EXPIRATION_WARNING");
@@ -37,13 +37,13 @@ function KioskFrameMixin:OnEvent(event, ...)
 	end
 end
 
-KioskSessionStartedDialogButtonMixin = {}--- @class KioskSessionStartedDialogButtonMixin
+KioskSessionStartedDialogButtonMixin = {} --- @class KioskSessionStartedDialogButtonMixin
 
 function KioskSessionStartedDialogButtonMixin:OnClick()
 	KioskSessionStartedDialog:Hide()
 end
 
-KioskSessionFinishedDialogMixin = CreateFromMixins(BaseExpandableDialogMixin);--- @class KioskSessionFinishedDialogMixin : BaseExpandableDialogMixin
+KioskSessionFinishedDialogMixin = CreateFromMixins(BaseExpandableDialogMixin); --- @class KioskSessionFinishedDialogMixin : BaseExpandableDialogMixin
 
 function KioskSessionFinishedDialogMixin:OnLoad()
 	self:RegisterEvent("KIOSK_SESSION_EXPIRATION_CHANGED");

@@ -48,14 +48,14 @@ AuctionHouseBidStatus = {
 };
 
 
-AuctionHouseSystemMixin = {};--- @class AuctionHouseSystemMixin
+AuctionHouseSystemMixin = {}; --- @class AuctionHouseSystemMixin
 
 function AuctionHouseSystemMixin:GetAuctionHouseFrame()
 	return self:GetParent();
 end
 
 
-AuctionHouseSortOrderSystemMixin = CreateFromMixins(AuctionHouseSystemMixin);--- @class AuctionHouseSortOrderSystemMixin : AuctionHouseSystemMixin
+AuctionHouseSortOrderSystemMixin = CreateFromMixins(AuctionHouseSystemMixin); --- @class AuctionHouseSortOrderSystemMixin : AuctionHouseSystemMixin
 
 function AuctionHouseSortOrderSystemMixin:OnLoad()
 	self.headers = {};
@@ -100,7 +100,7 @@ function AuctionHouseSortOrderSystemMixin:GetSearchContext()
 end
 
 
-AuctionHouseBuySystemMixin = CreateFromMixins(AuctionHouseSystemMixin);--- @class AuctionHouseBuySystemMixin : AuctionHouseSystemMixin
+AuctionHouseBuySystemMixin = CreateFromMixins(AuctionHouseSystemMixin); --- @class AuctionHouseBuySystemMixin : AuctionHouseSystemMixin
 
 function AuctionHouseBuySystemMixin:OnLoad()
 	assert(self.BidFrame and self.BuyoutFrame, "This mixin requires both a BidFrame and a BuyoutFrame.");

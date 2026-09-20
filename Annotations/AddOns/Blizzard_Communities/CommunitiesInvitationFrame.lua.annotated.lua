@@ -4,7 +4,7 @@ local COMMUNITIES_INVITATION_FRAME_EVENTS = {
 	"PLAYER_REPORT_SUBMITTED",
 };
 
-CommunitiesInvitationFrameMixin = {};--- @class CommunitiesInvitationFrameMixin
+CommunitiesInvitationFrameMixin = {}; --- @class CommunitiesInvitationFrameMixin
 
 function CommunitiesInvitationFrameMixin:OnShow()
 	FrameUtil.RegisterFrameForEvents(self, COMMUNITIES_INVITATION_FRAME_EVENTS);
@@ -126,7 +126,7 @@ function CommunitiesInvitebutton_OnHide(self)
 	end
 end
 
-CommunitiesTicketFrameMixin = {};--- @class CommunitiesTicketFrameMixin
+CommunitiesTicketFrameMixin = {}; --- @class CommunitiesTicketFrameMixin
 
 -- overrides CommunitiesInvitationFrameMixin:OnShow 
 function CommunitiesTicketFrameMixin:OnShow()

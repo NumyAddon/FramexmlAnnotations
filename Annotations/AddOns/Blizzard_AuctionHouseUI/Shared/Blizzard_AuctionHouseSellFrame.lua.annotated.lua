@@ -1,5 +1,5 @@
 
-AuctionHouseSellFrameAlignedControlMixin = {};--- @class AuctionHouseSellFrameAlignedControlMixin
+AuctionHouseSellFrameAlignedControlMixin = {}; --- @class AuctionHouseSellFrameAlignedControlMixin
 
 function AuctionHouseSellFrameAlignedControlMixin:OnLoad()
 	self:SetLabel(self.labelText);
@@ -25,7 +25,7 @@ function AuctionHouseSellFrameAlignedControlMixin:SetLabelColor(color)
 end
 
 
-AuctionHouseAlignedQuantityInputBoxMixin = {};--- @class AuctionHouseAlignedQuantityInputBoxMixin
+AuctionHouseAlignedQuantityInputBoxMixin = {}; --- @class AuctionHouseAlignedQuantityInputBoxMixin
 
 function AuctionHouseAlignedQuantityInputBoxMixin:OnEditFocusLost()
 	EditBox_ClearHighlight(self);
@@ -49,7 +49,7 @@ function AuctionHouseAlignedQuantityInputBoxMixin:SetNextEditBox(nextEditBox)
 end
 
 
-AuctionHouseQuantityInputMaxButtonMixin = {};--- @class AuctionHouseQuantityInputMaxButtonMixin
+AuctionHouseQuantityInputMaxButtonMixin = {}; --- @class AuctionHouseQuantityInputMaxButtonMixin
 
 function AuctionHouseQuantityInputMaxButtonMixin:OnClick()
 	self:GetParent():GetParent():SetToMaxQuantity();
@@ -57,7 +57,7 @@ function AuctionHouseQuantityInputMaxButtonMixin:OnClick()
 end
 
 
-AuctionHouseAlignedQuantityInputFrameMixin = {};--- @class AuctionHouseAlignedQuantityInputFrameMixin
+AuctionHouseAlignedQuantityInputFrameMixin = {}; --- @class AuctionHouseAlignedQuantityInputFrameMixin
 
 function AuctionHouseAlignedQuantityInputFrameMixin:GetQuantity()
 	return self.InputBox:GetNumber();
@@ -80,7 +80,7 @@ function AuctionHouseAlignedQuantityInputFrameMixin:SetNextEditBox(nextEditBox)
 end
 
 
-AuctionHouseAlignedPriceInputFrameMixin = {};--- @class AuctionHouseAlignedPriceInputFrameMixin
+AuctionHouseAlignedPriceInputFrameMixin = {}; --- @class AuctionHouseAlignedPriceInputFrameMixin
 
 function AuctionHouseAlignedPriceInputFrameMixin:OnLoad()
 	AuctionHouseSellFrameAlignedControlMixin.OnLoad(self);
@@ -124,7 +124,7 @@ function AuctionHouseAlignedPriceInputFrameMixin:SetErrorShown(shown)
 end
 
 
-AuctionHousePriceErrorFrameMixin = {};--- @class AuctionHousePriceErrorFrameMixin
+AuctionHousePriceErrorFrameMixin = {}; --- @class AuctionHousePriceErrorFrameMixin
 
 function AuctionHousePriceErrorFrameMixin:OnEnter()
 	if self.tooltip then
@@ -144,7 +144,7 @@ function AuctionHousePriceErrorFrameMixin:SetTooltip(tooltip)
 end
 
 
-AuctionHouseAlignedDurationMixin = {};--- @class AuctionHouseAlignedDurationMixin
+AuctionHouseAlignedDurationMixin = {}; --- @class AuctionHouseAlignedDurationMixin
 
 function AuctionHouseAlignedDurationMixin:OnLoad()
 	AuctionHouseSellFrameAlignedControlMixin.OnLoad(self);
@@ -190,7 +190,7 @@ function AuctionHouseAlignedDurationMixin:SetDuration(index)
 	self:GetParent():OnDurationUpdated();
 end
 
-AuctionHouseAlignedPriceDisplayMixin = {};--- @class AuctionHouseAlignedPriceDisplayMixin
+AuctionHouseAlignedPriceDisplayMixin = {}; --- @class AuctionHouseAlignedPriceDisplayMixin
 
 function AuctionHouseAlignedPriceDisplayMixin:GetAmount(amount)
 	return self.MoneyDisplayFrame:GetAmount();
@@ -201,7 +201,7 @@ function AuctionHouseAlignedPriceDisplayMixin:SetAmount(amount)
 end
 
 
-AuctionHouseSellFramePostButtonMixin = {};--- @class AuctionHouseSellFramePostButtonMixin
+AuctionHouseSellFramePostButtonMixin = {}; --- @class AuctionHouseSellFramePostButtonMixin
 
 function AuctionHouseSellFramePostButtonMixin:OnClick()
 	self:GetParent():PostItem();
@@ -226,7 +226,7 @@ function AuctionHouseSellFramePostButtonMixin:SetTooltip(tooltip)
 end
 
 
-AuctionHouseSellFrameOverlayMixin = {};--- @class AuctionHouseSellFrameOverlayMixin
+AuctionHouseSellFrameOverlayMixin = {}; --- @class AuctionHouseSellFrameOverlayMixin
 
 function AuctionHouseSellFrameOverlayMixin:OnEnter()
 	self:GetParent():OnOverlayEnter();
@@ -245,7 +245,7 @@ function AuctionHouseSellFrameOverlayMixin:OnReceiveDrag()
 end
 
 
-AuctionHouseSellFrameItemDisplayMixin = {};--- @class AuctionHouseSellFrameItemDisplayMixin
+AuctionHouseSellFrameItemDisplayMixin = {}; --- @class AuctionHouseSellFrameItemDisplayMixin
 
 function AuctionHouseSellFrameItemDisplayMixin:OnLoad()
 	AuctionHouseInteractableItemDisplayMixin.OnLoad(self);
@@ -254,7 +254,7 @@ function AuctionHouseSellFrameItemDisplayMixin:OnLoad()
 end
 
 
-AuctionHouseSellFrameMixin = CreateFromMixins(AuctionHouseSortOrderSystemMixin);--- @class AuctionHouseSellFrameMixin : AuctionHouseSortOrderSystemMixin
+AuctionHouseSellFrameMixin = CreateFromMixins(AuctionHouseSortOrderSystemMixin); --- @class AuctionHouseSellFrameMixin : AuctionHouseSortOrderSystemMixin
 
 local AUCTION_HOUSE_SELL_FRAME_EVENTS = {
 	"CURSOR_CHANGED",

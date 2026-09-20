@@ -31,7 +31,7 @@ function WowStyle1ArrowDropdownMixin:OnButtonStateChanged()
 	self.Arrow:SetAtlas(atlas, TextureKitConstants.UseAtlasSize);
 end
 
-MenuStyle1Mixin = CreateFromMixins(MenuStyleMixin);--- @class MenuStyle1Mixin : MenuStyleMixin
+MenuStyle1Mixin = CreateFromMixins(MenuStyleMixin); --- @class MenuStyle1Mixin : MenuStyleMixin
 
 function MenuStyle1Mixin:Generate()
 	local background = self:AttachTexture();
@@ -61,7 +61,7 @@ do
 	end
 end
 
-MenuStyle2Mixin = CreateFromMixins(MenuStyleMixin);--- @class MenuStyle2Mixin : MenuStyleMixin
+MenuStyle2Mixin = CreateFromMixins(MenuStyleMixin); --- @class MenuStyle2Mixin : MenuStyleMixin
 
 function MenuStyle2Mixin:Generate()
 	local background = self:AttachTexture();

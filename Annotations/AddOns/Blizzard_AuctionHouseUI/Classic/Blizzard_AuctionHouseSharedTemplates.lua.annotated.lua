@@ -1,4 +1,4 @@
-AuctionHouseBackgroundMixin = {};--- @class AuctionHouseBackgroundMixin
+AuctionHouseBackgroundMixin = {}; --- @class AuctionHouseBackgroundMixin
 
 function AuctionHouseBackgroundMixin:OnLoad()
 	local xOffset = self.backgroundXOffset or 0;

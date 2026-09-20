@@ -1,4 +1,4 @@
-NamePlateDriverMixin = {};--- @class NamePlateDriverMixin
+NamePlateDriverMixin = {}; --- @class NamePlateDriverMixin
 
 function NamePlateDriverMixin:OnLoad()
 	self:RegisterEvent("NAME_PLATE_CREATED");
@@ -323,7 +323,7 @@ function NamePlateDriverMixin:UpdateNamePlateOptions()
 	end
 end
 
-NamePlateBaseMixin = {};--- @class NamePlateBaseMixin
+NamePlateBaseMixin = {}; --- @class NamePlateBaseMixin
 
 function NamePlateBaseMixin:OnAdded(namePlateUnitToken, driverFrame)
 	self.namePlateUnitToken = namePlateUnitToken;
@@ -403,7 +403,7 @@ function NamePlateBaseMixin:GetPreferredInsets()
 	return left, right, top, bottom;
 end
 
-NamePlateBorderTemplateMixin = {};--- @class NamePlateBorderTemplateMixin
+NamePlateBorderTemplateMixin = {}; --- @class NamePlateBorderTemplateMixin
 
 function NamePlateBorderTemplateMixin:SetVertexColor(r, g, b, a)
 	-- Nothing to do in Classic.

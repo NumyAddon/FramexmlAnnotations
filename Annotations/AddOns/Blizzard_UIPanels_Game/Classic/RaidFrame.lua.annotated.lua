@@ -1,7 +1,7 @@
-RaidParentFrameMixin = {}--- @class RaidParentFrameMixin
-RaidFrameMixin = {}--- @class RaidFrameMixin
-RaidInfoFrameMixin = {}--- @class RaidInfoFrameMixin
-RaidInstanceFrameMixin = {}--- @class RaidInstanceFrameMixin
+RaidParentFrameMixin = {} --- @class RaidParentFrameMixin
+RaidFrameMixin = {} --- @class RaidFrameMixin
+RaidInfoFrameMixin = {} --- @class RaidInfoFrameMixin
+RaidInstanceFrameMixin = {} --- @class RaidInstanceFrameMixin
 
 function RaidParentFrameMixin:OnLoad()
 	SetPortraitToTexture(self.portrait, "Interface\\LFGFrame\\UI-LFR-PORTRAIT");

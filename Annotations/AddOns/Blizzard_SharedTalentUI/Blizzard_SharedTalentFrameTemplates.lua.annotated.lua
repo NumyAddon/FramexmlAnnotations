@@ -1,5 +1,5 @@
 
-TalentFrameGateMixin = {};--- @class TalentFrameGateMixin
+TalentFrameGateMixin = {}; --- @class TalentFrameGateMixin
 
 function TalentFrameGateMixin:Init(talentFrame, anchorButton, condInfo)
 	self.talentFrame = talentFrame;

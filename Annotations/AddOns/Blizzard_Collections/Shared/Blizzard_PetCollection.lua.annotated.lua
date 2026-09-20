@@ -322,7 +322,7 @@ function PetJournal_UpdateSummonButtonState()
 	end
 end
 
-PetJournalHealPetSpellFrameMixin = { };--- @class PetJournalHealPetSpellFrameMixin
+PetJournalHealPetSpellFrameMixin = { }; --- @class PetJournalHealPetSpellFrameMixin
 
 function PetJournalHealPetSpellFrameMixin:OnLoad()
 	UIPanelSpellButtonFrameMixin.OnLoad(self);
@@ -350,7 +350,7 @@ end
 
 -- SUMMON RANDOM FAVORITE PET ---
 
-PetJournalSummonRandomPetSpellFrameMixin = { };--- @class PetJournalSummonRandomPetSpellFrameMixin
+PetJournalSummonRandomPetSpellFrameMixin = { }; --- @class PetJournalSummonRandomPetSpellFrameMixin
 
 function PetJournalSummonRandomPetSpellFrameMixin:OnLoad()
 	UIPanelSpellButtonFrameMixin.OnLoad(self);
@@ -949,7 +949,7 @@ local function CreateContextMenu(owner, rootDescription, petID)
 	end
 end
 
-PetJournalListItemMixin = {}--- @class PetJournalListItemMixin
+PetJournalListItemMixin = {} --- @class PetJournalListItemMixin
 
 function PetJournalListItemMixin:OnClick(button)
 	if ( IsModifiedClick("CHATLINK") ) then
@@ -988,7 +988,7 @@ function PetJournalListItemMixin:OnDragStart()
 	PetJournalDragButtonMixin.OnDragStart(self.dragButton);
 end
 
-PetJournalDragButtonMixin = {}--- @class PetJournalDragButtonMixin
+PetJournalDragButtonMixin = {} --- @class PetJournalDragButtonMixin
 
 function PetJournalDragButtonMixin:OnEnter()
 	local petID = self:GetParent().petID;
@@ -1060,7 +1060,7 @@ function PetJournalDragButtonMixin:OnEvent(event, ...)
 	end
 end
 
-PetJournalLoadoutDragButtonMixin = CreateFromMixins(PetJournalDragButtonMixin);--- @class PetJournalLoadoutDragButtonMixin : PetJournalDragButtonMixin
+PetJournalLoadoutDragButtonMixin = CreateFromMixins(PetJournalDragButtonMixin); --- @class PetJournalLoadoutDragButtonMixin : PetJournalDragButtonMixin
 
 function PetJournalLoadoutDragButtonMixin:OnClick(button)
 	local loadout = self:GetParent();

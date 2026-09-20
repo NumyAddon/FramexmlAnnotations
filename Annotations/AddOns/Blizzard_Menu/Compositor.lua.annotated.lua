@@ -338,7 +338,7 @@ local function ConfigureMetatable(compositor, region)
 	return region;
 end
 
-CompositorMixin = {};--- @class CompositorMixin
+CompositorMixin = {}; --- @class CompositorMixin
 
 do 
 	--[[

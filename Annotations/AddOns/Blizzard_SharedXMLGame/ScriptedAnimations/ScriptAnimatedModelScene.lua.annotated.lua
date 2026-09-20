@@ -10,7 +10,7 @@ local TargetViewWidth = 600;
 local TargetViewHeight = 680;
 
 
-ScriptAnimatedModelSceneMixin = {};--- @class ScriptAnimatedModelSceneMixin
+ScriptAnimatedModelSceneMixin = {}; --- @class ScriptAnimatedModelSceneMixin
 
 function ScriptAnimatedModelSceneMixin:OnLoad()
 	ModelSceneMixin.OnLoad(self);

@@ -14,7 +14,7 @@ PET_MOVE_TO_TEXTURE = "Interface\\Icons\\Ability_Hunter_Pet_Goto";
 
 PET_ACTION_HIGHLIGHT_MARKS = {};
 
-PetActionBarMixin = {};--- @class PetActionBarMixin
+PetActionBarMixin = {}; --- @class PetActionBarMixin
 
 function ClearPetActionHighlightMarks()
 	PET_ACTION_HIGHLIGHT_MARKS = {};

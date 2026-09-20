@@ -8,7 +8,7 @@ local ColumnWidthConstraints = {
 -- Any row or cell is expected to initialize itself in terms of the row data. The dataIndex is provided
 -- in case the derived mixin needs to make additional CAPI calls involving it's relative index. The row
 -- data may also be needed for a tooltip, so it will be assigned to the row and cells on update.
-TableBuilderElementMixin = {};--- @class TableBuilderElementMixin
+TableBuilderElementMixin = {}; --- @class TableBuilderElementMixin
 
 --Derive
 function TableBuilderElementMixin:Init(...)
@@ -18,7 +18,7 @@ end
 function TableBuilderElementMixin:Populate(rowData, dataProviderKey)
 end
 
-TableBuilderCellMixin = CreateFromMixins(TableBuilderElementMixin);--- @class TableBuilderCellMixin : TableBuilderElementMixin
+TableBuilderCellMixin = CreateFromMixins(TableBuilderElementMixin); --- @class TableBuilderCellMixin : TableBuilderElementMixin
 
 --Derive
 function TableBuilderCellMixin:OnLineEnter()
@@ -29,7 +29,7 @@ function TableBuilderCellMixin:OnLineLeave()
 end
 
 
-TableBuilderRowMixin = CreateFromMixins(TableBuilderElementMixin);--- @class TableBuilderRowMixin : TableBuilderElementMixin
+TableBuilderRowMixin = CreateFromMixins(TableBuilderElementMixin); --- @class TableBuilderRowMixin : TableBuilderElementMixin
 
 --Derive
 function TableBuilderRowMixin:OnLineEnter()
@@ -55,7 +55,7 @@ function TableBuilderRowMixin:OnLeave()
 end
 
 -- Defines an entire column within the table builder, by default a column's sizing constraints are set to fill.
-TableBuilderColumnMixin = {};--- @class TableBuilderColumnMixin
+TableBuilderColumnMixin = {}; --- @class TableBuilderColumnMixin
 function TableBuilderColumnMixin:Init(table)
 	self.cells = {};
 	self.table = table;
@@ -204,7 +204,7 @@ end
 -- Constructs a table of frames within an existing set of row frames. These row frames could originate from
 -- a scroll box or statically fixed set. To populate the table, assign a data provider (CAPI or lua function)
 -- that can retrieve an object by index (number).
-TableBuilderMixin = {};--- @class TableBuilderMixin
+TableBuilderMixin = {}; --- @class TableBuilderMixin
 function TableBuilderMixin:Init()
 	self.rows = {};
 	self.columns = {};

@@ -20,7 +20,7 @@ function AuctionHouseFavoriteContextMenu(frame, itemKey)
 end
 
 
-AuctionHouseBackgroundMixin = {};--- @class AuctionHouseBackgroundMixin
+AuctionHouseBackgroundMixin = {}; --- @class AuctionHouseBackgroundMixin
 
 function AuctionHouseBackgroundMixin:OnLoad()
 	local xOffset = self.backgroundXOffset or 0;
@@ -34,7 +34,7 @@ function AuctionHouseBackgroundMixin:OnLoad()
 end
 
 
-AuctionHouseItemDisplayMixin = {};--- @class AuctionHouseItemDisplayMixin
+AuctionHouseItemDisplayMixin = {}; --- @class AuctionHouseItemDisplayMixin
 
 function AuctionHouseItemDisplayMixin:OnLoad()
 	AuctionHouseBackgroundMixin.OnLoad(self);
@@ -407,7 +407,7 @@ function AuctionHouseItemDisplayMixin:SetHighlightLocked(locked)
 end
 
 
-AuctionHouseItemDisplayItemButtonMixin = {};--- @class AuctionHouseItemDisplayItemButtonMixin
+AuctionHouseItemDisplayItemButtonMixin = {}; --- @class AuctionHouseItemDisplayItemButtonMixin
 
 function AuctionHouseItemDisplayItemButtonMixin:OnLoad()
 	self:ClearHighlightTexture();
@@ -426,7 +426,7 @@ function AuctionHouseItemDisplayItemButtonMixin:OnLeave()
 end
 
 
-AuctionHouseInteractableItemDisplayItemButtonMixin = CreateFromMixins(AuctionHouseItemDisplayItemButtonMixin);--- @class AuctionHouseInteractableItemDisplayItemButtonMixin : AuctionHouseItemDisplayItemButtonMixin
+AuctionHouseInteractableItemDisplayItemButtonMixin = CreateFromMixins(AuctionHouseItemDisplayItemButtonMixin); --- @class AuctionHouseInteractableItemDisplayItemButtonMixin : AuctionHouseItemDisplayItemButtonMixin
 
 function AuctionHouseInteractableItemDisplayItemButtonMixin:OnLoad()
 	-- Intentional override.
@@ -480,7 +480,7 @@ function AuctionHouseInteractableItemDisplayItemButtonMixin:OnReceiveDrag()
 end
 
 
-AuctionHouseInteractableItemDisplayMixin = CreateFromMixins(AuctionHouseItemDisplayMixin);--- @class AuctionHouseInteractableItemDisplayMixin : AuctionHouseItemDisplayMixin
+AuctionHouseInteractableItemDisplayMixin = CreateFromMixins(AuctionHouseItemDisplayMixin); --- @class AuctionHouseInteractableItemDisplayMixin : AuctionHouseItemDisplayMixin
 
 local InteractableItemButtonScripts = {
 	"OnClick",
@@ -583,7 +583,7 @@ function AuctionHouseInteractableItemDisplayMixin:GetItemDisplayText(itemName, i
 end
 
 
-AuctionHouseQuantityInputBoxMixin = {};--- @class AuctionHouseQuantityInputBoxMixin
+AuctionHouseQuantityInputBoxMixin = {}; --- @class AuctionHouseQuantityInputBoxMixin
 
 function AuctionHouseQuantityInputBoxMixin:OnLoad()
 	self:SetFontObject("PriceFont");
@@ -612,7 +612,7 @@ function AuctionHouseQuantityInputBoxMixin:Reset()
 end
 
 
-AuctionHousePriceDisplayFrameMixin = {};--- @class AuctionHousePriceDisplayFrameMixin
+AuctionHousePriceDisplayFrameMixin = {}; --- @class AuctionHousePriceDisplayFrameMixin
 
 function AuctionHousePriceDisplayFrameMixin:OnLoad()
 	self.Label:SetText(self.labelText or "");
@@ -627,7 +627,7 @@ function AuctionHousePriceDisplayFrameMixin:GetAmount()
 end
 
 
-AuctionHouseRefreshFrameMixin = {};--- @class AuctionHouseRefreshFrameMixin
+AuctionHouseRefreshFrameMixin = {}; --- @class AuctionHouseRefreshFrameMixin
 
 function AuctionHouseRefreshFrameMixin:SetQuantity(totalQuantity)
 	self.RefreshButton:SetEnabledState(true);
@@ -646,7 +646,7 @@ function AuctionHouseRefreshFrameMixin:SetRefreshCallback(refreshCallback)
 end
 
 
-AuctionHouseRefreshButtonMixin = {};--- @class AuctionHouseRefreshButtonMixin
+AuctionHouseRefreshButtonMixin = {}; --- @class AuctionHouseRefreshButtonMixin
 
 function AuctionHouseRefreshButtonMixin:OnLoad()
 	SquareIconButtonMixin.OnLoad(self);
@@ -655,7 +655,7 @@ function AuctionHouseRefreshButtonMixin:OnLoad()
 end
 
 
-AuctionHouseBidFrameMixin = {};--- @class AuctionHouseBidFrameMixin
+AuctionHouseBidFrameMixin = {}; --- @class AuctionHouseBidFrameMixin
 
 function AuctionHouseBidFrameMixin:SetBidCallback(bidCallback)
 	self.bidCallback = bidCallback;
@@ -695,7 +695,7 @@ function AuctionHouseBidFrameMixin:PlaceBid()
 end
 
 
-AuctionHouseBuyoutFrameMixin = {};--- @class AuctionHouseBuyoutFrameMixin
+AuctionHouseBuyoutFrameMixin = {}; --- @class AuctionHouseBuyoutFrameMixin
 
 function AuctionHouseBuyoutFrameMixin:SetBuyoutCallback(buyoutCallback)
 	self.buyoutCallback = buyoutCallback;
@@ -726,20 +726,20 @@ function AuctionHouseBuyoutFrameMixin:BuyoutItem()
 end
 
 
-AuctionHouseBidButtonMixin = {};--- @class AuctionHouseBidButtonMixin
+AuctionHouseBidButtonMixin = {}; --- @class AuctionHouseBidButtonMixin
 
 function AuctionHouseBidButtonMixin:OnClick()
 	self:GetParent():PlaceBid();
 end
 
 
-AuctionHouseBuyoutButtonMixin = {};--- @class AuctionHouseBuyoutButtonMixin
+AuctionHouseBuyoutButtonMixin = {}; --- @class AuctionHouseBuyoutButtonMixin
 
 function AuctionHouseBuyoutButtonMixin:OnClick()
 	self:GetParent():BuyoutItem();
 end
 
-AuctionHouseFavoriteButtonBaseMixin = {};--- @class AuctionHouseFavoriteButtonBaseMixin
+AuctionHouseFavoriteButtonBaseMixin = {}; --- @class AuctionHouseFavoriteButtonBaseMixin
 
 function AuctionHouseFavoriteButtonBaseMixin:OnEnter()
 	if not self:IsInteractionAvailable() then

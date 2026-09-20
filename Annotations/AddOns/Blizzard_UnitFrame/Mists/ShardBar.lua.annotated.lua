@@ -4,10 +4,10 @@ local WARLOCK_POWER_FILLBAR = {
 	Destruction			= { left = 0.30078125, right = 0.37890625, top = 0.32812500, bottom = 0.67187500, height = 22, fileHeight = 64 };
 };
 
-WarlockPowerFrameMixin = {}--- @class WarlockPowerFrameMixin
-ShardBarMixin = {}--- @class ShardBarMixin
-DemonicFuryBarMixin = {}--- @class DemonicFuryBarMixin
-BurningEmbersBarMixin = {}--- @class BurningEmbersBarMixin
+WarlockPowerFrameMixin = {} --- @class WarlockPowerFrameMixin
+ShardBarMixin = {} --- @class ShardBarMixin
+DemonicFuryBarMixin = {} --- @class DemonicFuryBarMixin
+BurningEmbersBarMixin = {} --- @class BurningEmbersBarMixin
 
 -- GENERAL WARLOCK
 function WarlockPowerFrameMixin:OnLoad()

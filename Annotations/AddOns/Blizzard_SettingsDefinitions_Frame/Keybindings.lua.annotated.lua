@@ -20,7 +20,7 @@ end
 
 local KeybindingSpacer = {};
 
-SettingsKeybindingSectionMixin = CreateFromMixins(SettingsExpandableSectionMixin);--- @class SettingsKeybindingSectionMixin : SettingsExpandableSectionMixin
+SettingsKeybindingSectionMixin = CreateFromMixins(SettingsExpandableSectionMixin); --- @class SettingsKeybindingSectionMixin : SettingsExpandableSectionMixin
 
 function SettingsKeybindingSectionMixin:OnLoad()
 	SettingsExpandableSectionMixin.OnLoad(self);

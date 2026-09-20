@@ -86,7 +86,7 @@ function AbbreviateNumbers(value)
 	return tostring(value);
 end
 
-UIParentManagedFrameMixin = { };--- @class UIParentManagedFrameMixin
+UIParentManagedFrameMixin = { }; --- @class UIParentManagedFrameMixin
 function UIParentManagedFrameMixin:OnShow()
 	self.layoutParent:AddManagedFrame(self);
 end
@@ -95,7 +95,7 @@ function UIParentManagedFrameMixin:OnHide()
 	self.layoutParent:RemoveManagedFrame(self);
 end
 
-UIParentManagedFrameContainerMixin = {};--- @class UIParentManagedFrameContainerMixin
+UIParentManagedFrameContainerMixin = {}; --- @class UIParentManagedFrameContainerMixin
 
 function UIParentManagedFrameContainerMixin:OnLoad()
 	self.showingFrames = {};

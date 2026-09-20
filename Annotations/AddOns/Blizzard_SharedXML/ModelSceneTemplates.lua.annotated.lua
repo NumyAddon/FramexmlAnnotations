@@ -1,5 +1,5 @@
 
-ModifyOrbitCameraButtonMixin = {}--- @class ModifyOrbitCameraButtonMixin
+ModifyOrbitCameraButtonMixin = {} --- @class ModifyOrbitCameraButtonMixin
 
 function ModifyOrbitCameraButtonMixin:OnMouseDown()
 	self:SetScript("OnUpdate", self.OnUpdate);
@@ -27,7 +27,7 @@ end
 WRAPPED_PRESENT_CREATURE_DISPLAY_ID = 71933;
 WRAPPED_PRESENT_SPELL_VISUAL_KIT_ID = 73393;
 
-WrappedModelSceneMixin = {};--- @class WrappedModelSceneMixin
+WrappedModelSceneMixin = {}; --- @class WrappedModelSceneMixin
 
 function WrappedModelSceneMixin:IsUnwrapAnimating()
 	return self.isUnwrapping;
@@ -104,7 +104,7 @@ function WrappedModelSceneMixin:StartUnwrapAnimation(OnFinishedCallback)
 	end
 end
 
-WrappedAndUnwrappedModelSceneMixin = CreateFromMixins(WrappedModelSceneMixin);--- @class WrappedAndUnwrappedModelSceneMixin : WrappedModelSceneMixin
+WrappedAndUnwrappedModelSceneMixin = CreateFromMixins(WrappedModelSceneMixin); --- @class WrappedAndUnwrappedModelSceneMixin : WrappedModelSceneMixin
 
 function WrappedAndUnwrappedModelSceneMixin:PrepareForFanfare(needsFanFare)
 	self.needsFanFare = needsFanFare;

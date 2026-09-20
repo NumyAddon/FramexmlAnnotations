@@ -1,4 +1,4 @@
-UnitPopupAttachableFrameMixin = {};--- @class UnitPopupAttachableFrameMixin
+UnitPopupAttachableFrameMixin = {}; --- @class UnitPopupAttachableFrameMixin
 
 function UnitPopupAttachableFrameMixin:GetDesiredSize()
 	return self:GetWidth(), self:GetHeight();
@@ -16,7 +16,7 @@ function UnitPopupAttachableFrameMixin:OnAttach()
 	-- Derive. Called after the context data is assigned and the frame is shown.
 end
 
-UnitPopupVoiceMemberInfoMixin = {};--- @class UnitPopupVoiceMemberInfoMixin
+UnitPopupVoiceMemberInfoMixin = {}; --- @class UnitPopupVoiceMemberInfoMixin
 
 function UnitPopupVoiceMemberInfoMixin:GetPlayerLocation()
 	return self:GetParent():GetContextData().playerLocation;
@@ -30,7 +30,7 @@ function UnitPopupVoiceMemberInfoMixin:CallMutator(...)
 	return self.mutator(self:GetPlayerLocation(), ...);
 end
 
-UnitPopupVoiceToggleButtonMixin = {};--- @class UnitPopupVoiceToggleButtonMixin
+UnitPopupVoiceToggleButtonMixin = {}; --- @class UnitPopupVoiceToggleButtonMixin
 
 function UnitPopupVoiceToggleButtonMixin:OnEnter()
 	PropertyBindingMixin.OnEnter(self);
@@ -42,7 +42,7 @@ function UnitPopupVoiceToggleButtonMixin:OnLeave()
 	ExecuteFrameScript(self:GetParent():GetParent(), "OnLeave");
 end
 
-UnitPopupVoiceLevelsMixin = CreateFromMixins(UnitPopupAttachableFrameMixin);--- @class UnitPopupVoiceLevelsMixin : UnitPopupAttachableFrameMixin
+UnitPopupVoiceLevelsMixin = CreateFromMixins(UnitPopupAttachableFrameMixin); --- @class UnitPopupVoiceLevelsMixin : UnitPopupAttachableFrameMixin
 
 function UnitPopupVoiceLevelsMixin:GetVoiceChannelID()
 	return self:GetContextData().voiceChannelID;
@@ -77,7 +77,7 @@ function UnitPopupVoiceLevelsMixin:OnAttach()
 	self.Slider:UpdateVisibleState();
 end
 
-UnitPopupToggleMuteMixin = {};--- @class UnitPopupToggleMuteMixin
+UnitPopupToggleMuteMixin = {}; --- @class UnitPopupToggleMuteMixin
 
 function UnitPopupToggleMuteMixin:IsForPublicChannel()
 	local voiceChannel = self:GetParent():GetVoiceChannel();
@@ -109,14 +109,14 @@ function UnitPopupToggleMuteMixin:UnregisterEvents()
 	self:UnregisterStateUpdateEvent("VOICE_CHAT_SILENCED_CHANGED");
 end
 
-UnitPopupVoiceMicrophoneVolumeSliderMixin = {};--- @class UnitPopupVoiceMicrophoneVolumeSliderMixin
+UnitPopupVoiceMicrophoneVolumeSliderMixin = {}; --- @class UnitPopupVoiceMicrophoneVolumeSliderMixin
 
 function UnitPopupVoiceMicrophoneVolumeSliderMixin:OnLoad()
 	self:SetAccessorFunction(C_VoiceChat.GetInputVolume);
 	self:SetMutatorFunction(C_VoiceChat.SetInputVolume);
 end
 
-UnitPopupToggleDeafenMixin = {};--- @class UnitPopupToggleDeafenMixin
+UnitPopupToggleDeafenMixin = {}; --- @class UnitPopupToggleDeafenMixin
 
 function UnitPopupToggleDeafenMixin:OnLoad()
 	VoiceToggleButtonMixin.OnLoad(self);
@@ -138,14 +138,14 @@ function UnitPopupToggleDeafenMixin:UnregisterEvents()
 	self:UnregisterStateUpdateEvent("VOICE_CHAT_DEAFENED_CHANGED");
 end
 
-UnitPopupVoiceSpeakerVolumeSliderMixin = {};--- @class UnitPopupVoiceSpeakerVolumeSliderMixin
+UnitPopupVoiceSpeakerVolumeSliderMixin = {}; --- @class UnitPopupVoiceSpeakerVolumeSliderMixin
 
 function UnitPopupVoiceSpeakerVolumeSliderMixin:OnLoad()
 	self:SetAccessorFunction(C_VoiceChat.GetOutputVolume);
 	self:SetMutatorFunction(C_VoiceChat.SetOutputVolume);
 end
 
-UnitPopupToggleUserMuteMixin = {};--- @class UnitPopupToggleUserMuteMixin
+UnitPopupToggleUserMuteMixin = {}; --- @class UnitPopupToggleUserMuteMixin
 
 function UnitPopupToggleUserMuteMixin:IsMuted()
 	local contextData = self:GetParent():GetContextData();
@@ -194,7 +194,7 @@ function UnitPopupToggleUserMuteMixin:UnregisterEvents()
 	self:UnregisterStateUpdateEvent("VOICE_CHAT_CHANNEL_MEMBER_SILENCED_CHANGED");
 end
 
-UnitPopupVoiceUserVolumeSliderMixin = {};--- @class UnitPopupVoiceUserVolumeSliderMixin
+UnitPopupVoiceUserVolumeSliderMixin = {}; --- @class UnitPopupVoiceUserVolumeSliderMixin
 
 function UnitPopupVoiceUserVolumeSliderMixin:OnLoad()
 	self:SetAccessorFunction(C_VoiceChat.GetMemberVolume);

@@ -374,7 +374,7 @@ local function IsTrackingActive(info)
 	return trackingState:IsSelected(info.index);
 end
 
-MiniMapTrackingButtonMixin = { };--- @class MiniMapTrackingButtonMixin
+MiniMapTrackingButtonMixin = { }; --- @class MiniMapTrackingButtonMixin
 
 function MiniMapTrackingButtonMixin:OnLoad()
 	self:RegisterEvent("MINIMAP_UPDATE_TRACKING");

@@ -3,7 +3,7 @@ local BUYOUT_DISPLAY_PADDING = 0;
 local STANDARD_PADDING = 10;
 
 
-AuctionHouseTableCellMixin = CreateFromMixins(TableBuilderCellMixin);--- @class AuctionHouseTableCellMixin : TableBuilderCellMixin
+AuctionHouseTableCellMixin = CreateFromMixins(TableBuilderCellMixin); --- @class AuctionHouseTableCellMixin : TableBuilderCellMixin
 
 function AuctionHouseTableCellMixin:Init(owner)
 	self.owner = owner;
@@ -18,7 +18,7 @@ function AuctionHouseTableCellMixin:GetAuctionHouseFrame()
 end
 
 
-AuctionHouseTableCellItemKeyMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellItemKeyMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellItemKeyMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellItemKeyMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellItemKeyMixin:Init(owner, restrictQualityToFilter)
 	AuctionHouseTableCellMixin.Init(owner, restrictQualityToFilter);
@@ -71,7 +71,7 @@ function AuctionHouseTableCellItemKeyMixin:UpdateDisplay(itemKey, itemKeyInfo)
 end
 
 
-AuctionHouseTableCellTooltipMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellTooltipMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellTooltipMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellTooltipMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellTooltipMixin:OnEnter()
 	ExecuteFrameScript(self:GetParent(), "OnEnter");
@@ -90,7 +90,7 @@ function AuctionHouseTableCellTooltipMixin:ShowTooltip(tooltip)
 end
 
 
-AuctionHouseTableCellTextTooltipMixin = CreateFromMixins(AuctionHouseTableCellTooltipMixin);--- @class AuctionHouseTableCellTextTooltipMixin : AuctionHouseTableCellTooltipMixin
+AuctionHouseTableCellTextTooltipMixin = CreateFromMixins(AuctionHouseTableCellTooltipMixin); --- @class AuctionHouseTableCellTextTooltipMixin : AuctionHouseTableCellTooltipMixin
 
 function AuctionHouseTableCellTextTooltipMixin:UpdateText(newText)
 	self.Text:SetText(newText);
@@ -107,7 +107,7 @@ function AuctionHouseTableCellTextTooltipMixin:UpdateHitRect()
 end
 
 
-AuctionHouseTableCellVirtualTextMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellVirtualTextMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellVirtualTextMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellVirtualTextMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellVirtualTextMixin:Populate(rowData, dataIndex)
 	self.Text:SetShown(rowData.isVirtualEntry);
@@ -118,7 +118,7 @@ function AuctionHouseTableCellVirtualTextMixin:Populate(rowData, dataIndex)
 end
 
 
-AuctionHouseTablePriceDisplayMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTablePriceDisplayMixin : AuctionHouseTableCellMixin
+AuctionHouseTablePriceDisplayMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTablePriceDisplayMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTablePriceDisplayMixin:Init(owner)
 	AuctionHouseTableCellMixin.Init(self, owner);
@@ -132,7 +132,7 @@ function AuctionHouseTablePriceDisplayMixin:UpdateWidth(rowData, dataIndex)
 end
 
 
-AuctionHouseTableCellAuctionsMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellAuctionsMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellAuctionsMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellAuctionsMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellAuctionsMixin:ShouldShowHighlighted(rowData)
 	return self:IsDisplayingBids() and (self:GetAuctionHouseFrame():GetBidStatus(rowData) == AuctionHouseBidStatus.PlayerBid) or rowData.containsOwnerItem;
@@ -143,21 +143,21 @@ function AuctionHouseTableCellAuctionsMixin:IsDisplayingBids()
 end
 
 
-AuctionHouseTableCellAuctionsTextMixin = CreateFromMixins(AuctionHouseTableCellAuctionsMixin);--- @class AuctionHouseTableCellAuctionsTextMixin : AuctionHouseTableCellAuctionsMixin
+AuctionHouseTableCellAuctionsTextMixin = CreateFromMixins(AuctionHouseTableCellAuctionsMixin); --- @class AuctionHouseTableCellAuctionsTextMixin : AuctionHouseTableCellAuctionsMixin
 
 function AuctionHouseTableCellAuctionsTextMixin:Populate(rowData, dataIndex)
 	self.Text:SetFontObject(self:ShouldShowHighlighted(rowData) and Number13FontWhite or Number13FontGray);
 end
 
 
-AuctionHouseTableCellAuctionsPriceMixin = CreateFromMixins(AuctionHouseTableCellAuctionsMixin, AuctionHouseTablePriceDisplayMixin);--- @class AuctionHouseTableCellAuctionsPriceMixin : AuctionHouseTableCellAuctionsMixin, AuctionHouseTablePriceDisplayMixin
+AuctionHouseTableCellAuctionsPriceMixin = CreateFromMixins(AuctionHouseTableCellAuctionsMixin, AuctionHouseTablePriceDisplayMixin); --- @class AuctionHouseTableCellAuctionsPriceMixin : AuctionHouseTableCellAuctionsMixin, AuctionHouseTablePriceDisplayMixin
 
 function AuctionHouseTableCellAuctionsPriceMixin:Populate(rowData, dataIndex)
 	self.MoneyDisplay:SetFontAndIconDisabled(not self:ShouldShowHighlighted(rowData));
 end
 
 
-AuctionHouseTableCellUnitPriceMixin = CreateFromMixins(AuctionHouseTablePriceDisplayMixin);--- @class AuctionHouseTableCellUnitPriceMixin : AuctionHouseTablePriceDisplayMixin
+AuctionHouseTableCellUnitPriceMixin = CreateFromMixins(AuctionHouseTablePriceDisplayMixin); --- @class AuctionHouseTableCellUnitPriceMixin : AuctionHouseTablePriceDisplayMixin
 
 function AuctionHouseTableCellUnitPriceMixin:Populate(rowData, dataIndex)
 	self.MoneyDisplay:SetAmount(rowData.unitPrice);
@@ -171,7 +171,7 @@ function AuctionHouseTableCellUnitPriceMixin:UpdateWidth(rowData, dataIndex)
 end
 
 
-AuctionHouseTableCellCommoditiesQuantityMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellCommoditiesQuantityMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellCommoditiesQuantityMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellCommoditiesQuantityMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellCommoditiesQuantityMixin:Init(...)
 	AuctionHouseTableCellMixin.Init(self, ...);
@@ -186,7 +186,7 @@ function AuctionHouseTableCellCommoditiesQuantityMixin:Populate(rowData, dataInd
 end
 
 
-AuctionHouseTableCellFavoriteMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellFavoriteMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellFavoriteMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellFavoriteMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellFavoriteMixin:Populate(rowData, dataIndex)
 	self.FavoriteButton:SetItemKey(rowData.itemKey);
@@ -213,7 +213,7 @@ function AuctionHouseTableCellFavoriteMixin:OnLineLeave()
 end
 
 
-AuctionHouseTableCellFavoriteButtonMixin = CreateFromMixins(AuctionHouseTableCellMixin, AuctionHouseFavoriteButtonBaseMixin);--- @class AuctionHouseTableCellFavoriteButtonMixin : AuctionHouseTableCellMixin, AuctionHouseFavoriteButtonBaseMixin
+AuctionHouseTableCellFavoriteButtonMixin = CreateFromMixins(AuctionHouseTableCellMixin, AuctionHouseFavoriteButtonBaseMixin); --- @class AuctionHouseTableCellFavoriteButtonMixin : AuctionHouseTableCellMixin, AuctionHouseFavoriteButtonBaseMixin
 
 function AuctionHouseTableCellFavoriteButtonMixin:OnEnter()
 	if not self:IsInteractionAvailable() then
@@ -261,7 +261,7 @@ function AuctionHouseTableCellFavoriteButtonMixin:UnlockTexture()
 	end
 end
 
-AuctionHouseTableCellBidMixin = CreateFromMixins(AuctionHouseTablePriceDisplayMixin);--- @class AuctionHouseTableCellBidMixin : AuctionHouseTablePriceDisplayMixin
+AuctionHouseTableCellBidMixin = CreateFromMixins(AuctionHouseTablePriceDisplayMixin); --- @class AuctionHouseTableCellBidMixin : AuctionHouseTablePriceDisplayMixin
 
 function AuctionHouseTableCellBidMixin:Init(owner)
 	AuctionHouseTablePriceDisplayMixin.Init(self, owner);
@@ -291,7 +291,7 @@ function AuctionHouseTableCellBidMixin:UpdateWidth(rowData, dataIndex)
 end
 
 
-AuctionHouseTableCellBuyoutMixin = CreateFromMixins(AuctionHouseTablePriceDisplayMixin);--- @class AuctionHouseTableCellBuyoutMixin : AuctionHouseTablePriceDisplayMixin
+AuctionHouseTableCellBuyoutMixin = CreateFromMixins(AuctionHouseTablePriceDisplayMixin); --- @class AuctionHouseTableCellBuyoutMixin : AuctionHouseTablePriceDisplayMixin
 
 function AuctionHouseTableCellBuyoutMixin:Populate(rowData, dataIndex)
 	self.MoneyDisplay:SetShown(not rowData.isVirtualEntry);
@@ -315,7 +315,7 @@ function AuctionHouseTableCellBuyoutMixin:UpdateWidth(rowData, dataIndex)
 end
 
 
-AuctionHouseTableCellOwnedCheckmarkMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellOwnedCheckmarkMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellOwnedCheckmarkMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellOwnedCheckmarkMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellOwnedCheckmarkMixin:Init(owner)
 	AuctionHouseTableCellMixin.Init(self, owner);
@@ -328,7 +328,7 @@ function AuctionHouseTableCellOwnedCheckmarkMixin:Populate(rowData, dataIndex)
 end
 
 
-AuctionHouseTableExtraInfoMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableExtraInfoMixin : AuctionHouseTableCellMixin
+AuctionHouseTableExtraInfoMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableExtraInfoMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableExtraInfoMixin:Init()
 	AuctionHouseTableCellMixin.Init(self, owner);
@@ -360,7 +360,7 @@ function AuctionHouseTableExtraInfoMixin:Populate(rowData, dataIndex)
 end
 
 
-AuctionHouseTableCellOwnersMixin = CreateFromMixins(AuctionHouseTableCellTextTooltipMixin);--- @class AuctionHouseTableCellOwnersMixin : AuctionHouseTableCellTextTooltipMixin
+AuctionHouseTableCellOwnersMixin = CreateFromMixins(AuctionHouseTableCellTextTooltipMixin); --- @class AuctionHouseTableCellOwnersMixin : AuctionHouseTableCellTextTooltipMixin
 
 function AuctionHouseTableCellOwnersMixin:Init(owner)
 	AuctionHouseTableCellMixin.Init(self, owner);
@@ -384,7 +384,7 @@ function AuctionHouseTableCellOwnersMixin:ShowTooltip(tooltip)
 end
 
 
-AuctionHouseTableCellTimeLeftMixin = CreateFromMixins(AuctionHouseTableCellTextTooltipMixin);--- @class AuctionHouseTableCellTimeLeftMixin : AuctionHouseTableCellTextTooltipMixin
+AuctionHouseTableCellTimeLeftMixin = CreateFromMixins(AuctionHouseTableCellTextTooltipMixin); --- @class AuctionHouseTableCellTimeLeftMixin : AuctionHouseTableCellTextTooltipMixin
 
 function AuctionHouseTableCellTimeLeftMixin:Init(owner)
 	AuctionHouseTableCellMixin.Init(self, owner);
@@ -446,7 +446,7 @@ function AuctionHouseTableCellTimeLeftMixin:ShowTooltip(tooltip)
 end
 
 
-AuctionHouseTableCellTimeLeftBandMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellTimeLeftBandMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellTimeLeftBandMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellTimeLeftBandMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellTimeLeftBandMixin:Init(owner)
 	AuctionHouseTableCellMixin.Init(self, owner);
@@ -464,7 +464,7 @@ function AuctionHouseTableCellTimeLeftBandMixin:Populate(rowData, dataIndex)
 end
 
 
-AuctionHouseTableCellAuctionsBidMixin = CreateFromMixins(AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellBidMixin);--- @class AuctionHouseTableCellAuctionsBidMixin : AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellBidMixin
+AuctionHouseTableCellAuctionsBidMixin = CreateFromMixins(AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellBidMixin); --- @class AuctionHouseTableCellAuctionsBidMixin : AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellBidMixin
 
 function AuctionHouseTableCellAuctionsBidMixin:Init(...)
 	AuctionHouseTableCellAuctionsPriceMixin.Init(self, ...);
@@ -502,7 +502,7 @@ function AuctionHouseTableCellAuctionsBidMixin:UpdateTextColor(rowData, dataInde
 end
 
 
-AuctionHouseTableCellAllAuctionsPriceMixin = CreateFromMixins(AuctionHouseTableCellTooltipMixin);--- @class AuctionHouseTableCellAllAuctionsPriceMixin : AuctionHouseTableCellTooltipMixin
+AuctionHouseTableCellAllAuctionsPriceMixin = CreateFromMixins(AuctionHouseTableCellTooltipMixin); --- @class AuctionHouseTableCellAllAuctionsPriceMixin : AuctionHouseTableCellTooltipMixin
 
 function AuctionHouseTableCellAllAuctionsPriceMixin:Populate(rowData, dataIndex)
 	self:UpdateBidder();
@@ -537,7 +537,7 @@ function AuctionHouseTableCellAllAuctionsPriceMixin:UpdateBidder()
 end
 
 
-AuctionHouseTableCellAllAuctionsBidMixin = CreateFromMixins(AuctionHouseTableCellAllAuctionsPriceMixin, AuctionHouseTableCellAuctionsBidMixin);--- @class AuctionHouseTableCellAllAuctionsBidMixin : AuctionHouseTableCellAllAuctionsPriceMixin, AuctionHouseTableCellAuctionsBidMixin
+AuctionHouseTableCellAllAuctionsBidMixin = CreateFromMixins(AuctionHouseTableCellAllAuctionsPriceMixin, AuctionHouseTableCellAuctionsBidMixin); --- @class AuctionHouseTableCellAllAuctionsBidMixin : AuctionHouseTableCellAllAuctionsPriceMixin, AuctionHouseTableCellAuctionsBidMixin
 
 function AuctionHouseTableCellAllAuctionsBidMixin:Populate(rowData, dataIndex)
 	AuctionHouseTableCellAllAuctionsPriceMixin.Populate(self, rowData, dataIndex);
@@ -569,7 +569,7 @@ function AuctionHouseTableCellAllAuctionsBidMixin:ShowTooltip(tooltip)
 end
 
 
-AuctionHouseTableCellAuctionsBuyoutMixin = CreateFromMixins(AuctionHouseTableCellAllAuctionsPriceMixin, AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellBuyoutMixin);--- @class AuctionHouseTableCellAuctionsBuyoutMixin : AuctionHouseTableCellAllAuctionsPriceMixin, AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellBuyoutMixin
+AuctionHouseTableCellAuctionsBuyoutMixin = CreateFromMixins(AuctionHouseTableCellAllAuctionsPriceMixin, AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellBuyoutMixin); --- @class AuctionHouseTableCellAuctionsBuyoutMixin : AuctionHouseTableCellAllAuctionsPriceMixin, AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellBuyoutMixin
 
 function AuctionHouseTableCellAuctionsBuyoutMixin:Init(...)
 	AuctionHouseTableCellAuctionsPriceMixin.Init(self, ...);
@@ -598,7 +598,7 @@ function AuctionHouseTableCellAuctionsBuyoutMixin:ShowTooltip(tooltip)
 end
 
 
-AuctionHouseTableCellAllAuctionsBuyoutMixin = CreateFromMixins(AuctionHouseTableCellAuctionsBuyoutMixin);--- @class AuctionHouseTableCellAllAuctionsBuyoutMixin : AuctionHouseTableCellAuctionsBuyoutMixin
+AuctionHouseTableCellAllAuctionsBuyoutMixin = CreateFromMixins(AuctionHouseTableCellAuctionsBuyoutMixin); --- @class AuctionHouseTableCellAllAuctionsBuyoutMixin : AuctionHouseTableCellAuctionsBuyoutMixin
 
 function AuctionHouseTableCellAllAuctionsBuyoutMixin:UpdateWidth(rowData, dataIndex)
 	local maxWidth = self:IsDisplayingBids() and self:GetAuctionHouseFrame():GetMaxBuyoutPriceWidthForAllBids(self.MoneyDisplay:GetFontObject()) or self:GetAuctionHouseFrame():GetMaxBuyoutPriceWidthForAllAuctions(self.MoneyDisplay:GetFontObject());
@@ -610,7 +610,7 @@ function AuctionHouseTableCellAllAuctionsBuyoutMixin:ShouldShowHighlighted()
 end
 
 
-AuctionHouseTableCellAuctionsOwnersMixin = CreateFromMixins(AuctionHouseTableCellAuctionsTextMixin);--- @class AuctionHouseTableCellAuctionsOwnersMixin : AuctionHouseTableCellAuctionsTextMixin
+AuctionHouseTableCellAuctionsOwnersMixin = CreateFromMixins(AuctionHouseTableCellAuctionsTextMixin); --- @class AuctionHouseTableCellAuctionsOwnersMixin : AuctionHouseTableCellAuctionsTextMixin
 
 function AuctionHouseTableCellAuctionsOwnersMixin:Init(owner, disableTooltip)
 	AuctionHouseTableCellAuctionsTextMixin.Init(self, owner);
@@ -629,7 +629,7 @@ function AuctionHouseTableCellAuctionsOwnersMixin:ShowTooltip(tooltip)
 end
 
 
-AuctionHouseTableCellAuctionsItemLevelMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellAuctionsItemLevelMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellAuctionsItemLevelMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellAuctionsItemLevelMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellAuctionsItemLevelMixin:Init(...)
 	AuctionHouseTableCellMixin.Init(self, ...);
@@ -654,7 +654,7 @@ function AuctionHouseTableCellAuctionsItemLevelMixin:Populate(rowData, dataIndex
 end
 
 
-AuctionHouseTableCellAuctionsCommoditiesQuantityMixin = CreateFromMixins(AuctionHouseTableCellAuctionsTextMixin);--- @class AuctionHouseTableCellAuctionsCommoditiesQuantityMixin : AuctionHouseTableCellAuctionsTextMixin
+AuctionHouseTableCellAuctionsCommoditiesQuantityMixin = CreateFromMixins(AuctionHouseTableCellAuctionsTextMixin); --- @class AuctionHouseTableCellAuctionsCommoditiesQuantityMixin : AuctionHouseTableCellAuctionsTextMixin
 
 function AuctionHouseTableCellAuctionsCommoditiesQuantityMixin:Populate(rowData, dataIndex)
 	AuctionHouseTableCellCommoditiesQuantityMixin.Populate(self, rowData, dataIndex);
@@ -664,7 +664,7 @@ function AuctionHouseTableCellAuctionsCommoditiesQuantityMixin:Populate(rowData,
 end
 
 
-AuctionHouseTableCellAuctionsUnitPriceMixin = CreateFromMixins(AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellUnitPriceMixin);--- @class AuctionHouseTableCellAuctionsUnitPriceMixin : AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellUnitPriceMixin
+AuctionHouseTableCellAuctionsUnitPriceMixin = CreateFromMixins(AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellUnitPriceMixin); --- @class AuctionHouseTableCellAuctionsUnitPriceMixin : AuctionHouseTableCellAuctionsPriceMixin, AuctionHouseTableCellUnitPriceMixin
 
 function AuctionHouseTableCellAuctionsUnitPriceMixin:Init(...)
 	AuctionHouseTableCellAuctionsPriceMixin.Init(self, ...);
@@ -681,7 +681,7 @@ function AuctionHouseTableCellAuctionsUnitPriceMixin:UpdateWidth(rowData, dataIn
 end
 
 
-AuctionHouseTableCellItemDisplayMixin = CreateFromMixins(AuctionHouseTableCellItemKeyMixin);--- @class AuctionHouseTableCellItemDisplayMixin : AuctionHouseTableCellItemKeyMixin
+AuctionHouseTableCellItemDisplayMixin = CreateFromMixins(AuctionHouseTableCellItemKeyMixin); --- @class AuctionHouseTableCellItemDisplayMixin : AuctionHouseTableCellItemKeyMixin
 
 function AuctionHouseTableCellItemDisplayMixin:Init(owner, restrictQualityToFilter, hideItemLevel)
 	AuctionHouseTableCellItemKeyMixin.Init(self, owner, restrictQualityToFilter);
@@ -728,7 +728,7 @@ function AuctionHouseTableCellItemDisplayMixin:HandleItemNameTruncation()
 	end
 end
 
-AuctionHouseTableCellAuctionsItemDisplayMixin = CreateFromMixins(AuctionHouseTableCellAuctionsMixin, AuctionHouseTableCellItemDisplayMixin);--- @class AuctionHouseTableCellAuctionsItemDisplayMixin : AuctionHouseTableCellAuctionsMixin, AuctionHouseTableCellItemDisplayMixin
+AuctionHouseTableCellAuctionsItemDisplayMixin = CreateFromMixins(AuctionHouseTableCellAuctionsMixin, AuctionHouseTableCellItemDisplayMixin); --- @class AuctionHouseTableCellAuctionsItemDisplayMixin : AuctionHouseTableCellAuctionsMixin, AuctionHouseTableCellItemDisplayMixin
 
 function AuctionHouseTableCellAuctionsItemDisplayMixin:Init(...)
 	AuctionHouseTableCellAuctionsMixin.Init(self, ...);
@@ -767,7 +767,7 @@ function AuctionHouseTableCellAuctionsItemDisplayMixin:UpdateDisplay(itemKey, it
 end
 
 
-AuctionHouseTableCellMinPriceMixin = CreateFromMixins(AuctionHouseTablePriceDisplayMixin);--- @class AuctionHouseTableCellMinPriceMixin : AuctionHouseTablePriceDisplayMixin
+AuctionHouseTableCellMinPriceMixin = CreateFromMixins(AuctionHouseTablePriceDisplayMixin); --- @class AuctionHouseTableCellMinPriceMixin : AuctionHouseTablePriceDisplayMixin
 
 function AuctionHouseTableCellMinPriceMixin:Init(rowData, dataIndex)
 	AuctionHouseTableCellMixin.Init(self, owner);
@@ -792,7 +792,7 @@ function AuctionHouseTableCellMinPriceMixin:Populate(rowData, dataIndex)
 end
 
 
-AuctionHouseTableCellQuantityMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellQuantityMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellQuantityMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellQuantityMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellQuantityMixin:Populate(rowData, dataIndex)
 	local noneAvailable = self.rowData.totalQuantity == 0;
@@ -801,7 +801,7 @@ function AuctionHouseTableCellQuantityMixin:Populate(rowData, dataIndex)
 end
 
 
-AuctionHouseTableCellLevelMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellLevelMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellLevelMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellLevelMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellLevelMixin:Populate(rowData, dataIndex)
 	self.rowData = rowData;
@@ -835,7 +835,7 @@ function AuctionHouseTableCellLevelMixin:OnHide(event, ...)
 end
 
 
-AuctionHouseTableCellItemSellBuyoutMixin = CreateFromMixins(AuctionHouseTableCellVirtualTextMixin, AuctionHouseTableCellBuyoutMixin);--- @class AuctionHouseTableCellItemSellBuyoutMixin : AuctionHouseTableCellVirtualTextMixin, AuctionHouseTableCellBuyoutMixin
+AuctionHouseTableCellItemSellBuyoutMixin = CreateFromMixins(AuctionHouseTableCellVirtualTextMixin, AuctionHouseTableCellBuyoutMixin); --- @class AuctionHouseTableCellItemSellBuyoutMixin : AuctionHouseTableCellVirtualTextMixin, AuctionHouseTableCellBuyoutMixin
 
 function AuctionHouseTableCellItemSellBuyoutMixin:Populate(rowData, dataIndex)
 	AuctionHouseTableCellVirtualTextMixin.Populate(self, rowData, dataIndex);
@@ -843,7 +843,7 @@ function AuctionHouseTableCellItemSellBuyoutMixin:Populate(rowData, dataIndex)
 end
 
 
-AuctionHouseTableCellItemQuantityMixin = CreateFromMixins(AuctionHouseTableCellMixin);--- @class AuctionHouseTableCellItemQuantityMixin : AuctionHouseTableCellMixin
+AuctionHouseTableCellItemQuantityMixin = CreateFromMixins(AuctionHouseTableCellMixin); --- @class AuctionHouseTableCellItemQuantityMixin : AuctionHouseTableCellMixin
 
 function AuctionHouseTableCellItemQuantityMixin:Init(owner, hideBidStatus)
 	AuctionHouseTableCellMixin.Init(self, owner);
@@ -870,7 +870,7 @@ function AuctionHouseTableCellItemQuantityMixin:Populate(rowData, dataIndex)
 end
 
 
-AuctionHouseTableHeaderStringMixin = CreateFromMixins(TableBuilderElementMixin);--- @class AuctionHouseTableHeaderStringMixin : TableBuilderElementMixin
+AuctionHouseTableHeaderStringMixin = CreateFromMixins(TableBuilderElementMixin); --- @class AuctionHouseTableHeaderStringMixin : TableBuilderElementMixin
 
 function AuctionHouseTableHeaderStringMixin:OnClick()
 	self.owner:SetSortOrder(self.sortOrder);
@@ -908,7 +908,7 @@ function AuctionHouseTableHeaderStringMixin:SetArrowState(sortOrderState)
 end
 
 
-AuctionHouseTableBuilderMixin = {};--- @class AuctionHouseTableBuilderMixin
+AuctionHouseTableBuilderMixin = {}; --- @class AuctionHouseTableBuilderMixin
 
 function AuctionHouseTableBuilderMixin:AddColumnInternal(owner, sortOrder, cellTemplate, ...)
 	local column = self:AddColumn();

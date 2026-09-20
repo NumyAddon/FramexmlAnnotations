@@ -1,4 +1,4 @@
-GlowEmitterMixin = {}--- @class GlowEmitterMixin
+GlowEmitterMixin = {} --- @class GlowEmitterMixin
 
 GlowEmitterMixin.Anims =
 {

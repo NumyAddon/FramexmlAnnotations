@@ -1,5 +1,5 @@
 
-ScrollBoxPaddingMixin = {};--- @class ScrollBoxPaddingMixin
+ScrollBoxPaddingMixin = {}; --- @class ScrollBoxPaddingMixin
 
 function ScrollBoxPaddingMixin:Init(top, bottom, left, right)
 	self:SetTop(top or 0);

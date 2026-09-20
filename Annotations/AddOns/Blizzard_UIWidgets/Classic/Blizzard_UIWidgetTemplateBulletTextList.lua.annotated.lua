@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.BulletTextList, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateBulletTextList"}, GetBulletTextListVisInfoData);
 
-UIWidgetTemplateBulletTextListMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateBulletTextListMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateBulletTextListMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateBulletTextListMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateBulletTextListMixin:Setup(widgetInfo)
 	UIWidgetBaseTemplateMixin.Setup(self, widgetInfo);
@@ -57,7 +57,7 @@ function UIWidgetTemplateBulletTextListMixin:CustomDebugSetup(color)
 	end
 end
 
-UIWidgetTemplateBulletTextListLineMixin = {};--- @class UIWidgetTemplateBulletTextListLineMixin
+UIWidgetTemplateBulletTextListLineMixin = {}; --- @class UIWidgetTemplateBulletTextListLineMixin
 
 function UIWidgetTemplateBulletTextListLineMixin:SetEnabledState(enabledState)
 	self.Bullet:SetEnabledState(enabledState);

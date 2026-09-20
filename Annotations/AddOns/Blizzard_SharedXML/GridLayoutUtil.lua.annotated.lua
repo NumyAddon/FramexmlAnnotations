@@ -180,7 +180,7 @@ function GridLayoutUtil.CreateGridLayout()
 end
 
 
-GridLayoutManagerMixin = {};--- @class GridLayoutManagerMixin
+GridLayoutManagerMixin = {}; --- @class GridLayoutManagerMixin
 
 function GridLayoutManagerMixin:Init(primarySizeCalculator, secondarySizeCalculator, primaryMultiplier, secondaryMultiplier, primarySizePadding, secondarySizePadding)
 	self.primarySizeCalculator = primarySizeCalculator;
@@ -314,7 +314,7 @@ function GridLayoutManagerMixin:CalculateCellSize(region)
 end
 
 
-GridLayoutRegionEntryMixin = {};--- @class GridLayoutRegionEntryMixin
+GridLayoutRegionEntryMixin = {}; --- @class GridLayoutRegionEntryMixin
 
 function GridLayoutRegionEntryMixin:Init(layoutManager, region)
 	self.region = region;
@@ -372,7 +372,7 @@ function GridLayoutRegionEntryMixin:GetExtraSecondarySpacing()
 end
 
 
-GridLayoutSectionMixin = {};--- @class GridLayoutSectionMixin
+GridLayoutSectionMixin = {}; --- @class GridLayoutSectionMixin
 
 function GridLayoutSectionMixin:Init(layoutManager)
 	self.layoutManager = layoutManager;
@@ -441,7 +441,7 @@ function GridLayoutSectionMixin:GetSecondarySize()
 end
 
 
-GridLayoutSectionGroupMixin = {};--- @class GridLayoutSectionGroupMixin
+GridLayoutSectionGroupMixin = {}; --- @class GridLayoutSectionGroupMixin
 
 function GridLayoutSectionGroupMixin:Init(layoutManager)
 	self.layoutManager = layoutManager;

@@ -3,8 +3,8 @@ local SPELLFLYOUT_DEFAULT_SPACING = 4;
 local SPELLFLYOUT_INITIAL_SPACING = 7;
 local SPELLFLYOUT_FINAL_SPACING = 4;
 
-SpellFlyoutMixin = {};--- @class SpellFlyoutMixin
-SpellFlyoutButtonMixin = {};--- @class SpellFlyoutButtonMixin
+SpellFlyoutMixin = {}; --- @class SpellFlyoutMixin
+SpellFlyoutButtonMixin = {}; --- @class SpellFlyoutButtonMixin
 
 function SpellFlyoutButtonMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");

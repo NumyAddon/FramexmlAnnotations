@@ -1,4 +1,4 @@
-local FrameFactoryMixin = {};--- @class FrameFactoryMixin
+local FrameFactoryMixin = {}; --- @class FrameFactoryMixin
 
 function FrameFactoryMixin:Init()
 	self.templateInfoCache = CreateTemplateInfoCache();

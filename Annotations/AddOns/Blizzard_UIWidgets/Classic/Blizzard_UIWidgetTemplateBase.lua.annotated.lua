@@ -1,4 +1,4 @@
-UIWidgetTemplateTooltipFrameMixin = {}--- @class UIWidgetTemplateTooltipFrameMixin
+UIWidgetTemplateTooltipFrameMixin = {} --- @class UIWidgetTemplateTooltipFrameMixin
 
 function UIWidgetTemplateTooltipFrameMixin:SetTooltip(tooltip)
 	self.tooltip = tooltip;
@@ -37,7 +37,7 @@ function UIWidgetTemplateTooltipFrameMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-UIWidgetBaseTemplateMixin = {}--- @class UIWidgetBaseTemplateMixin
+UIWidgetBaseTemplateMixin = {} --- @class UIWidgetBaseTemplateMixin
 
 function UIWidgetBaseTemplateMixin:OnLoad()
 end
@@ -54,7 +54,7 @@ function UIWidgetBaseTemplateMixin:OnReset()
 	self:ClearAllPoints();
 end
 
-UIWidgetBaseResourceTemplateMixin = {}--- @class UIWidgetBaseResourceTemplateMixin
+UIWidgetBaseResourceTemplateMixin = {} --- @class UIWidgetBaseResourceTemplateMixin
 
 function UIWidgetBaseResourceTemplateMixin:Setup(resourceInfo)
 	self.Text:SetTextColor(NORMAL_FONT_COLOR:GetRGB());
@@ -83,7 +83,7 @@ local function SetTextColorForEnabledState(fontString, enabledState)
 	end
 end
 
-UIWidgetBaseCurrencyTemplateMixin = {}--- @class UIWidgetBaseCurrencyTemplateMixin
+UIWidgetBaseCurrencyTemplateMixin = {} --- @class UIWidgetBaseCurrencyTemplateMixin
 
 function UIWidgetBaseCurrencyTemplateMixin:Setup(currencyInfo, enabledState)
 	self.Text:SetText(currencyInfo.text);
@@ -115,7 +115,7 @@ function UIWidgetBaseCurrencyTemplateMixin:SetFontColor(color)
 	self.LeadingText:SetTextColor(color:GetRGB());
 end
 
-UIWidgetBaseColoredTextMixin = {}--- @class UIWidgetBaseColoredTextMixin
+UIWidgetBaseColoredTextMixin = {} --- @class UIWidgetBaseColoredTextMixin
 
 function UIWidgetBaseColoredTextMixin:SetEnabledState(enabledState)
 	SetTextColorForEnabledState(self, enabledState);

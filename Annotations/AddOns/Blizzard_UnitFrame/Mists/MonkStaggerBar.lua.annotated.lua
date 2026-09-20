@@ -9,7 +9,7 @@ local GREEN_INDEX = 1;
 local YELLOW_INDEX = 2;
 local RED_INDEX = 3;
 
-MonkStaggerBarMixin = {}--- @class MonkStaggerBarMixin
+MonkStaggerBarMixin = {} --- @class MonkStaggerBarMixin
 
 function MonkStaggerBarMixin:OnLoad()
 	self.specRestriction = SPEC_MONK_BREWMASTER;

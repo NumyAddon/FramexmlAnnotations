@@ -3,7 +3,7 @@ local TalentSelectionChoiceFramePadding = 0;
 local TalentSelectionChoiceFrameStride = 5;
 
 
-TalentSelectionChoiceFrameMixin = {};--- @class TalentSelectionChoiceFrameMixin
+TalentSelectionChoiceFrameMixin = {}; --- @class TalentSelectionChoiceFrameMixin
 
 local TalentSelectionChoiceFrameEvents = {
 	"GLOBAL_MOUSE_DOWN",
@@ -169,7 +169,7 @@ function TalentSelectionChoiceFrameMixin:GetTalentFrame()
 end
 
 
-TalentSelectionChoiceMixin = {};--- @class TalentSelectionChoiceMixin
+TalentSelectionChoiceMixin = {}; --- @class TalentSelectionChoiceMixin
 
 function TalentSelectionChoiceMixin:Init(talentFrame)
 	TalentDisplayMixin.Init(self, talentFrame);

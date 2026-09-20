@@ -1,6 +1,6 @@
 local BarHeight = 18;
 
-CommentatorNamePlateMixin = {}--- @class CommentatorNamePlateMixin
+CommentatorNamePlateMixin = {} --- @class CommentatorNamePlateMixin
 
 function CommentatorNamePlateMixin:OnLoad()
 	CompactUnitFrame_OnLoad(self);
@@ -248,7 +248,7 @@ function CommentatorNamePlateMixin:UpdateCrowdControlAuras()
 	end
 end
 
-CommentatorNamePlateBorderTemplateMixin = {};--- @class CommentatorNamePlateBorderTemplateMixin
+CommentatorNamePlateBorderTemplateMixin = {}; --- @class CommentatorNamePlateBorderTemplateMixin
 
 function CommentatorNamePlateBorderTemplateMixin:SetVertexColor(r, g, b, a)
 	for i, texture in ipairs(self.Textures) do

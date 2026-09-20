@@ -40,7 +40,7 @@ local LFGBROWSE_DISPLAYTYPE_PRIORITY = {
 -------------------------------------------------------
 ----------LFGBrowseMixin
 -------------------------------------------------------
-LFGBrowseMixin = {};--- @class LFGBrowseMixin
+LFGBrowseMixin = {}; --- @class LFGBrowseMixin
 
 function LFGBrowseMixin:OnLoad()
 	-- Event for entire list

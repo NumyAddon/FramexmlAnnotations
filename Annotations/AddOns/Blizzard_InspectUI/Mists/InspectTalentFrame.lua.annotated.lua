@@ -1,5 +1,5 @@
 
-InspectTalentFrameMixin = {};--- @class InspectTalentFrameMixin
+InspectTalentFrameMixin = {}; --- @class InspectTalentFrameMixin
 
 function InspectTalentFrameMixin:OnLoad()
 	self:RegisterEvent("INSPECT_READY");
@@ -26,7 +26,7 @@ function InspectTalentFrameMixin:OnShow()
 	ButtonFrameTemplate_HideButtonBar(InspectFrame);
 end
 
-InspectGlyphFrameGlyphMixin = {};--- @class InspectGlyphFrameGlyphMixin
+InspectGlyphFrameGlyphMixin = {}; --- @class InspectGlyphFrameGlyphMixin
 
 function InspectGlyphFrameGlyph_OnClear(self)
 	InspectGlyphFrameGlyph_UpdateGlyphs(self.InspectGlyphs, true);
@@ -174,7 +174,7 @@ function InspectTalentFrameSpec_OnClear(self)
 	self.roleIcon:Hide();
 end
 
-InspectTalentFrameSpecMixin = {};--- @class InspectTalentFrameSpecMixin
+InspectTalentFrameSpecMixin = {}; --- @class InspectTalentFrameSpecMixin
 
 function InspectTalentFrameSpecMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_TOP");
@@ -199,7 +199,7 @@ function InspectTalentFrameTalents_OnShow(self)
 	TalentFrame_Update(self, INSPECTED_UNIT);
 end
 
-InspectTalentButtonMixin = {};--- @class InspectTalentButtonMixin
+InspectTalentButtonMixin = {}; --- @class InspectTalentButtonMixin
 
 function InspectTalentButtonMixin:OnEnter()
 	local classDisplayName, class, classID = UnitClass(INSPECTED_UNIT);

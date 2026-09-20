@@ -41,7 +41,7 @@ local function ValuesApproximatelyEqual(v1, v2)
 	return v1 == v2;
 end
 
-SettingMixin = {};--- @class SettingMixin
+SettingMixin = {}; --- @class SettingMixin
 
 function SettingMixin:Init(name, variable, variableType)
 	self.name = name;
@@ -246,7 +246,7 @@ function SettingMixin:SetValueChangedCallback(callback)
 	end);
 end
 
-CVarSettingMixin = CreateFromMixins(SettingMixin);--- @class CVarSettingMixin : SettingMixin
+CVarSettingMixin = CreateFromMixins(SettingMixin); --- @class CVarSettingMixin : SettingMixin
 
 function CVarSettingMixin:Init(name, cvar, variableType)
 	ErrorIfInvalidSettingArguments(name, cvar, variableType);
@@ -297,7 +297,7 @@ do
 	end
 end
 
-ProxySettingMixin = CreateFromMixins(SettingMixin);--- @class ProxySettingMixin : SettingMixin
+ProxySettingMixin = CreateFromMixins(SettingMixin); --- @class ProxySettingMixin : SettingMixin
 
 do
 	local function SecureGetValueDerived(setting)
@@ -331,7 +331,7 @@ do
 	end
 end
 
-ModifiedClickSettingMixin = CreateFromMixins(SettingMixin);--- @class ModifiedClickSettingMixin : SettingMixin
+ModifiedClickSettingMixin = CreateFromMixins(SettingMixin); --- @class ModifiedClickSettingMixin : SettingMixin
 
 function ModifiedClickSettingMixin:Init(name, modifier, defaultValue)
 	SettingMixin.Init(self, name, modifier, Settings.VarType.String);
@@ -351,7 +351,7 @@ function ModifiedClickSettingMixin:Init(name, modifier, defaultValue)
 	self:SetCommitFlags(Settings.CommitFlag.SaveBindings);
 end
 
-AddOnSettingMixin = CreateFromMixins(SettingMixin);--- @class AddOnSettingMixin : SettingMixin
+AddOnSettingMixin = CreateFromMixins(SettingMixin); --- @class AddOnSettingMixin : SettingMixin
 
 --[[
 'variable' uniquely identifies your setting and must not conflict with any addons. Prefixing this identifier

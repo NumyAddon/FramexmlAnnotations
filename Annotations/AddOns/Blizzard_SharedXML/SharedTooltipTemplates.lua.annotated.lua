@@ -219,7 +219,7 @@ function GameTooltip_AddNewbieTip(frame, normalText, r, g, b, newbieText, noNorm
 	-- Nothing to do, this was added for Glue support.
 end
 
-TooltipBackdropTemplateMixin = {};--- @class TooltipBackdropTemplateMixin
+TooltipBackdropTemplateMixin = {}; --- @class TooltipBackdropTemplateMixin
 
 function TooltipBackdropTemplateMixin:TooltipBackdropOnLoad()
 	NineSliceUtil.DisableSharpening(self.NineSlice);
@@ -256,7 +256,7 @@ function TooltipBackdropTemplateMixin:SetBorderBlendMode(blendMode)
 	self.NineSlice:SetBorderBlendMode(blendMode);
 end
 
-DisabledTooltipButtonMixin = {};--- @class DisabledTooltipButtonMixin
+DisabledTooltipButtonMixin = {}; --- @class DisabledTooltipButtonMixin
 
 function DisabledTooltipButtonMixin:OnEnter()
 	if not self:IsEnabled() then

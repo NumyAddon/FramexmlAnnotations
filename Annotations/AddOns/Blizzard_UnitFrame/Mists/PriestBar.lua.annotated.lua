@@ -1,8 +1,8 @@
 SHADOW_ORBS_SHOW_LEVEL = 10;
 PRIEST_BAR_NUM_ORBS = 3;
 
-PriestBarMixin = {};--- @class PriestBarMixin
-PriestBarOrbMixin = {};--- @class PriestBarOrbMixin
+PriestBarMixin = {}; --- @class PriestBarMixin
+PriestBarOrbMixin = {}; --- @class PriestBarOrbMixin
 
 function PriestBarMixin:OnLoad()
 	local _, class = UnitClass("player");

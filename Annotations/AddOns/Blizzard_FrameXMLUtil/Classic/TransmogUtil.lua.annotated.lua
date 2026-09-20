@@ -311,7 +311,7 @@ function TransmogUtil.ParseOutfitSlashCommand(msg)
 	return nil;
 end
 
-TransmogPendingInfoMixin = {};--- @class TransmogPendingInfoMixin
+TransmogPendingInfoMixin = {}; --- @class TransmogPendingInfoMixin
 
 function TransmogPendingInfoMixin:Init(pendingType, transmogID, category)
 	self.type = pendingType;
@@ -322,7 +322,7 @@ function TransmogPendingInfoMixin:Init(pendingType, transmogID, category)
 	self.category = category;
 end
 
-TransmogLocationMixin = {};--- @class TransmogLocationMixin
+TransmogLocationMixin = {}; --- @class TransmogLocationMixin
 
 function TransmogLocationMixin:Set(slotID, transmogType, modification)
 	self.slotID = slotID;

@@ -5304,7 +5304,7 @@ local function GetSelectedLanguageID()
 	return DEFAULT_CHAT_FRAME.editBox.languageID;
 end
 
-ChatFrameMenuButtonMixin = {};--- @class ChatFrameMenuButtonMixin
+ChatFrameMenuButtonMixin = {}; --- @class ChatFrameMenuButtonMixin
 
 function ChatFrameMenuButtonMixin:OnLoad()
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");

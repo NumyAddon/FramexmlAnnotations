@@ -1,4 +1,4 @@
-AuctionHouseSearchButtonMixin = {};--- @class AuctionHouseSearchButtonMixin
+AuctionHouseSearchButtonMixin = {}; --- @class AuctionHouseSearchButtonMixin
 
 function AuctionHouseSearchButtonMixin:OnClick()
 	self:GetParent():StartSearch();
@@ -6,7 +6,7 @@ function AuctionHouseSearchButtonMixin:OnClick()
 end
 
 
-AuctionHouseFavoritesSearchButtonMixin = {};--- @class AuctionHouseFavoritesSearchButtonMixin
+AuctionHouseFavoritesSearchButtonMixin = {}; --- @class AuctionHouseFavoritesSearchButtonMixin
 
 local AUCTION_HOUSE_FAVORITES_SEARCH_BUTTON_EVENTS = {
 	"AUCTION_HOUSE_FAVORITES_UPDATED",
@@ -51,7 +51,7 @@ function AuctionHouseFavoritesSearchButtonMixin:UpdateState()
 end
 
 
-AuctionHouseFilterButtonMixin = {};--- @class AuctionHouseFilterButtonMixin
+AuctionHouseFilterButtonMixin = {}; --- @class AuctionHouseFilterButtonMixin
 
 function AuctionHouseFilterButtonMixin:OnLoad()
 	WowStyle1FilterDropdownMixin.OnLoad(self);
@@ -94,7 +94,7 @@ function AuctionHouseFilterButtonMixin:GetLevelRange()
 	return self.minLevel, self.maxLevel;
 end
 
-AuctionHouseSearchBoxMixin = {};--- @class AuctionHouseSearchBoxMixin
+AuctionHouseSearchBoxMixin = {}; --- @class AuctionHouseSearchBoxMixin
 
 function AuctionHouseSearchBoxMixin:OnEnterPressed()
 	EditBox_ClearFocus(self);
@@ -110,7 +110,7 @@ function AuctionHouseSearchBoxMixin:GetSearchString()
 end
 
 
-AuctionHouseSearchBarMixin = CreateFromMixins(AuctionHouseSystemMixin);--- @class AuctionHouseSearchBarMixin : AuctionHouseSystemMixin
+AuctionHouseSearchBarMixin = CreateFromMixins(AuctionHouseSystemMixin); --- @class AuctionHouseSearchBarMixin : AuctionHouseSystemMixin
 
 function AuctionHouseSearchBarMixin:OnLoad()
 	local function IsSelected(filter)

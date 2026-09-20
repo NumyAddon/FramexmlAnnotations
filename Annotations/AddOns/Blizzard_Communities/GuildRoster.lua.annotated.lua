@@ -2,7 +2,7 @@
 COMMUNITIES_GUILD_DETAIL_NORM_HEIGHT = 175;
 COMMUNITIES_GUILD_DETAIL_OFFICER_HEIGHT = 228;
 
-CommunitiesGuildMemberDetailMixin = {};--- @class CommunitiesGuildMemberDetailMixin
+CommunitiesGuildMemberDetailMixin = {}; --- @class CommunitiesGuildMemberDetailMixin
 
 function CommunitiesGuildMemberDetailMixin:OnLoad()
 	self.RankDropdown:SetWidth(169 - self.RankLabel:GetWidth());

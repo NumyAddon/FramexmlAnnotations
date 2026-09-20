@@ -56,7 +56,7 @@ local SET_MODEL_PAN_AND_ZOOM_LIMITS = {
 };
 
 local g_selectionBehavior = nil;
-WardrobeSetsTransmogModelMixin = { };--- @class WardrobeSetsTransmogModelMixin
+WardrobeSetsTransmogModelMixin = { }; --- @class WardrobeSetsTransmogModelMixin
 
 function WardrobeSetsTransmogModelMixin:OnLoad()
 	self:RegisterEvent("UI_SCALE_CHANGED");
@@ -196,7 +196,7 @@ local SET_PROGRESS_BAR_MAX_WIDTH = 204;
 local IN_PROGRESS_FONT_COLOR = CreateColor(0.251, 0.753, 0.251);
 local IN_PROGRESS_FONT_COLOR_CODE = "|cff40c040";
 
-WardrobeSetsDataProviderMixin = {};--- @class WardrobeSetsDataProviderMixin
+WardrobeSetsDataProviderMixin = {}; --- @class WardrobeSetsDataProviderMixin
 
 function WardrobeSetsDataProviderMixin:SortSets(sets, reverseUIOrder, ignorePatchID)
 	local comparison = function(set1, set2)
@@ -473,7 +473,7 @@ end
 
 local SetsDataProvider = CreateFromMixins(WardrobeSetsDataProviderMixin);
 
-WardrobeSetsCollectionMixin = {};--- @class WardrobeSetsCollectionMixin
+WardrobeSetsCollectionMixin = {}; --- @class WardrobeSetsCollectionMixin
 
 function WardrobeSetsCollectionMixin:OnLoad()
 	self.RightInset.BGCornerTopLeft:Hide();
@@ -895,7 +895,7 @@ function WardrobeSetsCollectionMixin:ScrollToSet(setID, alignment)
 	scrollBox:ScrollToElementDataByPredicate(FindSet, alignment);
 end
 
-WardrobeSetsScrollFrameButtonMixin = {};--- @class WardrobeSetsScrollFrameButtonMixin
+WardrobeSetsScrollFrameButtonMixin = {}; --- @class WardrobeSetsScrollFrameButtonMixin
 
 function WardrobeSetsScrollFrameButtonMixin:Init(elementData)
 	local displayData = elementData;
@@ -983,7 +983,7 @@ function WardrobeSetsScrollFrameButtonMixin:OnClick(buttonName, down)
 	end
 end
 
-WardrobeSetsScrollFrameButtonIconFrameMixin = {};--- @class WardrobeSetsScrollFrameButtonIconFrameMixin
+WardrobeSetsScrollFrameButtonIconFrameMixin = {}; --- @class WardrobeSetsScrollFrameButtonIconFrameMixin
 
 function WardrobeSetsScrollFrameButtonIconFrameMixin:OnEnter()
 	self:DisplaySetTooltip();
@@ -1057,7 +1057,7 @@ function WardrobeSetsScrollFrameButtonIconFrameMixin:DisplaySetTooltip()
 	GameTooltip:Show();
 end
 
-WardrobeSetsCollectionContainerMixin = { };--- @class WardrobeSetsCollectionContainerMixin
+WardrobeSetsCollectionContainerMixin = { }; --- @class WardrobeSetsCollectionContainerMixin
 
 function WardrobeSetsCollectionContainerMixin:OnLoad()
 	local view = CreateScrollBoxListLinearView();
@@ -1128,7 +1128,7 @@ function WardrobeSetsCollectionContainerMixin:SelectElementDataMatchingSetID(set
 	end);
 end
 
-WardrobeSetsDetailsModelMixin = { };--- @class WardrobeSetsDetailsModelMixin
+WardrobeSetsDetailsModelMixin = { }; --- @class WardrobeSetsDetailsModelMixin
 
 function WardrobeSetsDetailsModelMixin:OnLoad()
 	self:SetAutoDress(false);
@@ -1229,7 +1229,7 @@ function WardrobeSetsDetailsModelMixin:OnModelLoaded()
 	end
 end
 
-WardrobeSetsDetailsItemMixin = { };--- @class WardrobeSetsDetailsItemMixin
+WardrobeSetsDetailsItemMixin = { }; --- @class WardrobeSetsDetailsItemMixin
 
 function WardrobeSetsDetailsItemMixin:OnShow()
 	self:RegisterEvent("TRANSMOG_COLLECTION_ITEM_FAVORITE_UPDATE");
@@ -1333,7 +1333,7 @@ function WardrobeSetsDetailsItemMixin:OnMouseUp(button)
 	end
 end
 
-WardrobeSetsTransmogMixin = CreateFromMixins(DirtiableMixin);--- @class WardrobeSetsTransmogMixin : DirtiableMixin
+WardrobeSetsTransmogMixin = CreateFromMixins(DirtiableMixin); --- @class WardrobeSetsTransmogMixin : DirtiableMixin
 
 function WardrobeSetsTransmogMixin:OnLoad()
 	self.NUM_ROWS = 2;

@@ -93,7 +93,7 @@ function ClubTicketUtil.IsTicketExpired(ticket)
 	return ticket.expirationTime ~= 0 and ticket.expirationTime / 1000000 < GetServerTime()
 end
 
-CommunitiesTicketEntryMixin = {};--- @class CommunitiesTicketEntryMixin
+CommunitiesTicketEntryMixin = {}; --- @class CommunitiesTicketEntryMixin
 
 function CommunitiesTicketEntryMixin:OnUpdate()
 	if self.Creator:IsTruncated() and self.Creator:IsMouseOver() then
@@ -182,13 +182,13 @@ function CommunitiesTicketEntryMixin:GetCommunitiesIniteManagerDialog()
 	return self:GetParent():GetParent():GetParent():GetParent();
 end
 
-CommunitiesTicketManagerScrollFrameMixin = {};--- @class CommunitiesTicketManagerScrollFrameMixin
+CommunitiesTicketManagerScrollFrameMixin = {}; --- @class CommunitiesTicketManagerScrollFrameMixin
 
 function CommunitiesTicketManagerScrollFrameMixin:OnLoad()
 	self.ColumnDisplay:LayoutColumns(INVITE_MANAGER_COLUMN_INFO);
 end
 
-CommunitiesTicketManagerDialogMixin = {};--- @class CommunitiesTicketManagerDialogMixin
+CommunitiesTicketManagerDialogMixin = {}; --- @class CommunitiesTicketManagerDialogMixin
 
 function CommunitiesTicketManagerDialogMixin:OnLoad()
 	self.tickets = {};

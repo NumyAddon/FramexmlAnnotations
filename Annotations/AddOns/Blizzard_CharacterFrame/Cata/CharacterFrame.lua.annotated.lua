@@ -49,7 +49,7 @@ function ToggleCharacter (tab, onlyShow)
 	end
 end
 
-CharacterFrameMixin = {};--- @class CharacterFrameMixin
+CharacterFrameMixin = {}; --- @class CharacterFrameMixin
 
 function CharacterFrameMixin:ShowSubFrame(frameName)
 	for index, value in pairs(CHARACTERFRAME_SUBFRAMES) do
@@ -288,7 +288,7 @@ function CharacterFrameMixin:Expand()
 	self:RefreshDisplay();
 end
 
-CharacterFrameTabButtonMixin = {};--- @class CharacterFrameTabButtonMixin
+CharacterFrameTabButtonMixin = {}; --- @class CharacterFrameTabButtonMixin
 
 function CharacterFrameTabButtonMixin:OnClick(button)
 	PanelTemplates_Tab_OnClick(self, CharacterFrame);

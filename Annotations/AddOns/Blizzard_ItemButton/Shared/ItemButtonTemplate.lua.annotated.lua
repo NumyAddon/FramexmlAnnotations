@@ -1,4 +1,4 @@
-ItemButtonMixin = {};--- @class ItemButtonMixin
+ItemButtonMixin = {}; --- @class ItemButtonMixin
 
 function ItemButtonMixin:OnItemContextChanged()
 	self:UpdateItemContextMatching();

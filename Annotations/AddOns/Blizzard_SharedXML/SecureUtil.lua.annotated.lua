@@ -1,6 +1,6 @@
 
 -- Mix this into a FontString to have it resize until it stops truncating, or gets too small
-ShrinkUntilTruncateFontStringMixin = {};--- @class ShrinkUntilTruncateFontStringMixin
+ShrinkUntilTruncateFontStringMixin = {}; --- @class ShrinkUntilTruncateFontStringMixin
 
 -- From largest to smallest
 function ShrinkUntilTruncateFontStringMixin:SetFontObjectsToTry(...)
@@ -48,7 +48,7 @@ function ShrinkUntilTruncateFontStringMixin:SetFormattedText(format, ...)
 end
 
 --------------------------------------------------
-AutoScalingFontStringMixin = { }--- @class AutoScalingFontStringMixin
+AutoScalingFontStringMixin = { } --- @class AutoScalingFontStringMixin
 
 local DEFAULT_AUTO_SCALING_MIN_LINE_HEIGHT = 10;
 

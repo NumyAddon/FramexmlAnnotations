@@ -1,4 +1,4 @@
-UnitPopupLootMethodButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupLootMethodButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupLootMethodButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupLootMethodButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupLootMethodButtonMixin:GetSelectedLootMixin()
 	local lootMethod = GetLootMethod();
@@ -59,7 +59,7 @@ function UnitPopupLootMethodButtonMixin:GetEntries()
 	}
 end 
 
-UnitPopupLootFreeForAllButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin);--- @class UnitPopupLootFreeForAllButtonMixin : UnitPopupRadioButtonMixin
+UnitPopupLootFreeForAllButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin); --- @class UnitPopupLootFreeForAllButtonMixin : UnitPopupRadioButtonMixin
 
 function UnitPopupLootFreeForAllButtonMixin:GetText(contextData)
 	return LOOT_FREE_FOR_ALL;
@@ -93,7 +93,7 @@ function UnitPopupLootFreeForAllButtonMixin:OnClick(contextData)
 	SetLootMethod(self:GetLootMethod());
 end
 
-UnitPopupLootRoundRobinButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin);--- @class UnitPopupLootRoundRobinButtonMixin : UnitPopupLootFreeForAllButtonMixin
+UnitPopupLootRoundRobinButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin); --- @class UnitPopupLootRoundRobinButtonMixin : UnitPopupLootFreeForAllButtonMixin
 
 function UnitPopupLootRoundRobinButtonMixin:GetText(contextData)
 	return LOOT_ROUND_ROBIN;
@@ -107,7 +107,7 @@ function UnitPopupLootRoundRobinButtonMixin:GetLootMethod()
 	return "roundrobin";
 end		
 
-UnitPopupMasterLooterButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin);--- @class UnitPopupMasterLooterButtonMixin : UnitPopupLootFreeForAllButtonMixin
+UnitPopupMasterLooterButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin); --- @class UnitPopupMasterLooterButtonMixin : UnitPopupLootFreeForAllButtonMixin
 
 function UnitPopupMasterLooterButtonMixin:GetText(contextData)
 	return LOOT_MASTER_LOOTER;
@@ -125,7 +125,7 @@ function UnitPopupMasterLooterButtonMixin:OnClick(contextData)
 	SetLootMethod(self:GetLootMethod(), UnitPopupSharedUtil.GetFullPlayerName(contextData), 2);
 end
 
-UnitPopupGroupLootButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin);--- @class UnitPopupGroupLootButtonMixin : UnitPopupLootFreeForAllButtonMixin
+UnitPopupGroupLootButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin); --- @class UnitPopupGroupLootButtonMixin : UnitPopupLootFreeForAllButtonMixin
 
 function UnitPopupGroupLootButtonMixin:GetText(contextData)
 	return LOOT_GROUP_LOOT;
@@ -139,7 +139,7 @@ function UnitPopupGroupLootButtonMixin:GetLootMethod()
 	return "group";
 end		
 
-UnitPopupNeedBeforeGreedButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin);--- @class UnitPopupNeedBeforeGreedButtonMixin : UnitPopupLootFreeForAllButtonMixin
+UnitPopupNeedBeforeGreedButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin); --- @class UnitPopupNeedBeforeGreedButtonMixin : UnitPopupLootFreeForAllButtonMixin
 
 function UnitPopupNeedBeforeGreedButtonMixin:GetText(contextData)
 	return LOOT_NEED_BEFORE_GREED;
@@ -153,7 +153,7 @@ function UnitPopupNeedBeforeGreedButtonMixin:GetTooltipText(contextData)
 	return NEWBIE_TOOLTIP_UNIT_NEED_BEFORE_GREED;
 end 
 
-UnitPopupLootThresholdButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupLootThresholdButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupLootThresholdButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupLootThresholdButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupLootThresholdButtonMixin:GetText(contextData)
 	return  _G["ITEM_QUALITY"..GetLootThreshold().."_DESC"];
@@ -498,7 +498,7 @@ function UnitPopupRaidTargetButtonMixin:CanShow(contextData)
 	return not IsInRaid() or UnitIsGroupLeader("player") or UnitIsGroupAssistant("player");
 end
 
-UnitPopupGuildSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupGuildSettingButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupGuildSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupGuildSettingButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupGuildSettingButtonMixin:GetText(contextData)
 	return GUILD_CONTROL_BUTTON_TEXT;
@@ -518,7 +518,7 @@ function UnitPopupGuildSettingButtonMixin:CanShow(contextData)
 	return IsGuildLeader();
 end
 
-UnitPopupGuildRecruitmentSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupGuildRecruitmentSettingButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupGuildRecruitmentSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupGuildRecruitmentSettingButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupGuildRecruitmentSettingButtonMixin:GetText(contextData)
 	return GUILD_RECRUITMENT;
@@ -553,7 +553,7 @@ function UnitPopupGuildRecruitmentSettingButtonMixin:CanShow(contextData)
 	return IsGuildLeader() or C_GuildInfo.IsGuildOfficer();
 end
 
-UnitPopupGuildInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupGuildInviteButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupGuildInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupGuildInviteButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupGuildInviteButtonMixin:GetText(contextData)
 	return COMMUNITIES_LIST_DROP_DOWN_INVITE;

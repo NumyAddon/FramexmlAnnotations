@@ -1,4 +1,4 @@
-ReportFrameMixin = CreateFromMixins(SharedReportFrameMixin);--- @class ReportFrameMixin : SharedReportFrameMixin
+ReportFrameMixin = CreateFromMixins(SharedReportFrameMixin); --- @class ReportFrameMixin : SharedReportFrameMixin
 
 --override
 function ReportFrameMixin:CanDisplayMinorCategory(minorCategory)

@@ -2349,14 +2349,14 @@ function FloatingChatFrameManager_OnEvent(self, event, ...)
 	end
 end
 
-FloatingChatFrameButtonFrameMixin = {};--- @class FloatingChatFrameButtonFrameMixin
+FloatingChatFrameButtonFrameMixin = {}; --- @class FloatingChatFrameButtonFrameMixin
 
 function FloatingChatFrameButtonFrameMixin:OnShow()
 	-- Mark dirty so ChatFrame1-specific buttons display correctly after they are added.
 	self:MarkDirty();
 end
 
-FloatingChatFrameMinimizeButtonMixin = {};--- @class FloatingChatFrameMinimizeButtonMixin
+FloatingChatFrameMinimizeButtonMixin = {}; --- @class FloatingChatFrameMinimizeButtonMixin
 
 function FloatingChatFrameMinimizeButtonMixin:OnLoad()
 	local chatFrame = self:GetParent();

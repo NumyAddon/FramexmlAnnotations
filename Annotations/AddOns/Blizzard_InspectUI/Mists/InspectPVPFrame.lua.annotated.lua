@@ -1,6 +1,6 @@
 local arenaFrames;
 
-InspectPVPFrameMixin = {};--- @class InspectPVPFrameMixin
+InspectPVPFrameMixin = {}; --- @class InspectPVPFrameMixin
 
 function InspectPVPFrameMixin:OnLoad()
 	self:RegisterEvent("INSPECT_HONOR_UPDATE");

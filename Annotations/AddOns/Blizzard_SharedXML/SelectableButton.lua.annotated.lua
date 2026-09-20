@@ -1,4 +1,4 @@
-SelectableButtonMixin = {};--- @class SelectableButtonMixin
+SelectableButtonMixin = {}; --- @class SelectableButtonMixin
 
 function SelectableButtonMixin:OnLoad()
 	self.selected = false;

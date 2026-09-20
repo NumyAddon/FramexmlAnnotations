@@ -8,7 +8,7 @@ INIT_OPTION_HEIGHT = 268;
 INIT_WINDOW_HEIGHT = 440;
 OPTION_STATIC_HEIGHT = 136; --height of artwork, button, and minimum padding
 
-QuestChoiceMixin = {}--- @class QuestChoiceMixin
+QuestChoiceMixin = {} --- @class QuestChoiceMixin
 
 function QuestChoiceMixin:OnLoad()
 	self:RegisterEvent("QUEST_CHOICE_UPDATE");

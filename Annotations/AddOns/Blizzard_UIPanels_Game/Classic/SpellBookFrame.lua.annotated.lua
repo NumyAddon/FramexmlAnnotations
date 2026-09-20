@@ -74,7 +74,7 @@ function ToggleSpellBook(bookType)
 	end
 end
 
-SpellBookFrameMixin = {};--- @class SpellBookFrameMixin
+SpellBookFrameMixin = {}; --- @class SpellBookFrameMixin
 
 function SpellBookFrameMixin:OnShow()
     if (SpellBookCoreAbilitiesFrame) then
@@ -154,7 +154,7 @@ function SpellBookFrameMixin:OnHide()
 	UpdateMicroButtons();
 end
 
-SpellButtonMixin = {};--- @class SpellButtonMixin
+SpellButtonMixin = {}; --- @class SpellButtonMixin
 
 function SpellButtonMixin:OnLoad() 
 	self:RegisterForDrag("LeftButton");
@@ -541,7 +541,7 @@ function SpellBook_UpdatePetTab(showing)
 	SpellBookFrame:UpdateSpells();
 end
 
-CoreAbilitySpellMixin = {}--- @class CoreAbilitySpellMixin
+CoreAbilitySpellMixin = {} --- @class CoreAbilitySpellMixin
 
 function CoreAbilitySpellMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");

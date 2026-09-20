@@ -1,7 +1,7 @@
 HOLY_POWER_FULL = 3;
 PALADINPOWERBAR_SHOW_LEVEL = 9;
 
-PaladinPowerBarMixin = {}--- @class PaladinPowerBarMixin
+PaladinPowerBarMixin = {} --- @class PaladinPowerBarMixin
 
 function PaladinPowerBarMixin:ToggleHolyRune(rune, visible)
 	if visible then

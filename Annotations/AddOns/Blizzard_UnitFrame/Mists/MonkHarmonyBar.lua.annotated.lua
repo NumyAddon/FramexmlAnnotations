@@ -1,6 +1,6 @@
 
-MonkHarmonyBarMixin = {}--- @class MonkHarmonyBarMixin
-MonkLightEnergyMixin = {}--- @class MonkLightEnergyMixin
+MonkHarmonyBarMixin = {} --- @class MonkHarmonyBarMixin
+MonkLightEnergyMixin = {} --- @class MonkLightEnergyMixin
 
 function MonkLightEnergyMixin:SetEnergy(active)
 

@@ -4,7 +4,7 @@ local type = type;
 SCROLLING_MESSAGE_FRAME_INSERT_MODE_TOP = 1;
 SCROLLING_MESSAGE_FRAME_INSERT_MODE_BOTTOM = 2;
 
-ScrollingMessageFrameMixin = CreateFromMixins(FontableFrameMixin);--- @class ScrollingMessageFrameMixin : FontableFrameMixin
+ScrollingMessageFrameMixin = CreateFromMixins(FontableFrameMixin); --- @class ScrollingMessageFrameMixin : FontableFrameMixin
 
 -- where ... is any extra user data
 function ScrollingMessageFrameMixin:AddMessage(message, r, g, b, ...)

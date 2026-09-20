@@ -261,7 +261,7 @@ local function GetOrCreateCustomKeybindingButton(customBindingType)
 	return button;
 end
 
-KeyBindingFrameBindingTemplateMixin = {};--- @class KeyBindingFrameBindingTemplateMixin
+KeyBindingFrameBindingTemplateMixin = {}; --- @class KeyBindingFrameBindingTemplateMixin
 
 local KeyBindingFrameBindingTemplateEvents = {
 	"UPDATE_BINDINGS",
@@ -537,7 +537,7 @@ function CreateKeybindingEntryInitializer(bindingIndex, search)
 	return initializer;
 end
 
-KeyBindingButtonMixin = CreateFromMixins(DefaultTooltipMixin);--- @class KeyBindingButtonMixin : DefaultTooltipMixin
+KeyBindingButtonMixin = CreateFromMixins(DefaultTooltipMixin); --- @class KeyBindingButtonMixin : DefaultTooltipMixin
 
 function KeyBindingButtonMixin:SetSelected(selected)
 	self.SelectedHighlight:SetShown(selected);

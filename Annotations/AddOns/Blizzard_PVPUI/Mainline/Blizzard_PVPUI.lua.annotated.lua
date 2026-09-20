@@ -34,7 +34,7 @@ end
 
 local DEFAULT_BG_TEXTURE = "Interface\\PVPFrame\\RandomPVPIcon";
 
-PVPCasualActivityButtonMixin = {};--- @class PVPCasualActivityButtonMixin
+PVPCasualActivityButtonMixin = {}; --- @class PVPCasualActivityButtonMixin
 
 function PVPCasualActivityButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
@@ -84,7 +84,7 @@ function PVPCasualActivityButtonMixin:OnHide()
 	self.Title:SetPoint("RIGHT", self.Anchor, "RIGHT", -20, -1);
 end
 
-PVPSpecialEventButtonMixin = CreateFromMixins(PVPCasualActivityButtonMixin);--- @class PVPSpecialEventButtonMixin : PVPCasualActivityButtonMixin
+PVPSpecialEventButtonMixin = CreateFromMixins(PVPCasualActivityButtonMixin); --- @class PVPSpecialEventButtonMixin : PVPCasualActivityButtonMixin
 
 function PVPSpecialEventButtonMixin:OnEnter()
 	PVPCasualActivityButtonMixin.OnEnter(self);
@@ -96,7 +96,7 @@ function PVPSpecialEventButtonMixin:OnShow()
 	self.NewAlert:ValidateIsShown();
 end
 
-PVPSpecialEventLabelMixin = CreateFromMixins(NewFeatureLabelMixin);--- @class PVPSpecialEventLabelMixin : NewFeatureLabelMixin
+PVPSpecialEventLabelMixin = CreateFromMixins(NewFeatureLabelMixin); --- @class PVPSpecialEventLabelMixin : NewFeatureLabelMixin
 
 function PVPSpecialEventLabelMixin:ClearAlert()
 	NewFeatureLabelMixin.ClearAlert(self);
@@ -1696,7 +1696,7 @@ local function AddPVPRewardCurrency(tooltip, currencyID, amount)
 	end
 end
 
-PVPStandardRewardMixin = CreateFromMixins(CallbackRegistryMixin);--- @class PVPStandardRewardMixin : CallbackRegistryMixin
+PVPStandardRewardMixin = CreateFromMixins(CallbackRegistryMixin); --- @class PVPStandardRewardMixin : CallbackRegistryMixin
 
 function PVPStandardRewardMixin:OnLoad()
 	CallbackRegistryMixin.OnLoad(self);
@@ -1811,9 +1811,9 @@ end
 
 local HONOR_INSET_WIDTH = 225;
 
-PVPUIHonorInsetMixin = { }--- @class PVPUIHonorInsetMixin
+PVPUIHonorInsetMixin = { } --- @class PVPUIHonorInsetMixin
 
-PVPUIHonorInsetPanelType = EnumUtil.MakeEnum(--- @type {["Casual"]: 1, ["Rated"]: 2, ["Plunderstorm"]: 3, ["TrainingGrounds"]: 4} See [PVPUIHonorInsetPanelType](lua://PVPUIHonorInsetPanelType)
+PVPUIHonorInsetPanelType = EnumUtil.MakeEnum( --- @type {["Casual"]: 1, ["Rated"]: 2, ["Plunderstorm"]: 3, ["TrainingGrounds"]: 4} # See [PVPUIHonorInsetPanelType](lua://PVPUIHonorInsetPanelType)
 	"Casual",
 	"Rated",
 	"Plunderstorm",
@@ -1875,7 +1875,7 @@ local function GetPVPSeasonAchievementID()
 	return achievementID;
 end
 
-PVPUIHonorLevelDisplayMixin = { };--- @class PVPUIHonorLevelDisplayMixin
+PVPUIHonorLevelDisplayMixin = { }; --- @class PVPUIHonorLevelDisplayMixin
 
 function PVPUIHonorLevelDisplayMixin:OnLoad()
 	self:Pause();
@@ -1985,7 +1985,7 @@ function PVPUIHonorLevelDisplayMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-PVPAchievementRewardMixin = {};--- @class PVPAchievementRewardMixin
+PVPAchievementRewardMixin = {}; --- @class PVPAchievementRewardMixin
 
 function PVPAchievementRewardMixin:Init(achievementID, headerString)
 	self.achievementID = achievementID;
@@ -2099,7 +2099,7 @@ function PVPAchievementRewardMixin:OnLeave()
 	ResetCursor();
 end
 
-PVPConquestBarMixin = { };--- @class PVPConquestBarMixin
+PVPConquestBarMixin = { }; --- @class PVPConquestBarMixin
 
 function PVPConquestBarMixin:OnLoad()
 	self.Reward:SetTooltipAnchor("ANCHOR_BOTTOMRIGHT");
@@ -2197,7 +2197,7 @@ function PVPConquestBarMixin:SetDisabled(disabled)
 	end
 end
 
-NewPvpSeasonMixin = { };--- @class NewPvpSeasonMixin
+NewPvpSeasonMixin = { }; --- @class NewPvpSeasonMixin
 
 local MAX_NUMBER_OF_PVP_SEASON_DESCRIPTIONS = 2;
 local PVP_SEASON_DESCRIPTION_FORMAT = "SL_PVP_SEASON_DESCRIPTION%s";
@@ -2261,13 +2261,13 @@ function PVPNewSeasonPopupOnClick(self)
 	SetCVar("newPvpSeason", GetCurrentArenaSeason());
 end
 
-PVPWeeklyCasualPanelMixin = { };--- @class PVPWeeklyCasualPanelMixin
+PVPWeeklyCasualPanelMixin = { }; --- @class PVPWeeklyCasualPanelMixin
 function PVPWeeklyCasualPanelMixin:OnShow()
 	self.HKLabel:Hide();
 end
 
 
-PVPWeeklyRatedPanelMixin = { };--- @class PVPWeeklyRatedPanelMixin
+PVPWeeklyRatedPanelMixin = { }; --- @class PVPWeeklyRatedPanelMixin
 
 function PVPWeeklyRatedPanelMixin:OnShow()
 	self:RegisterEvent("PVP_RATED_STATS_UPDATE");
@@ -2332,7 +2332,7 @@ local function PVPQuestRewardSortFunction(firstValue, secondValue)
 	return firstValue > secondValue;
 end
 
-PlunderstormQueueFrameMixin = {};--- @class PlunderstormQueueFrameMixin
+PlunderstormQueueFrameMixin = {}; --- @class PlunderstormQueueFrameMixin
 
 PlunderstormQueueFrameEvents = {
 	"PARTY_LEADER_CHANGED",
@@ -2361,7 +2361,7 @@ function PlunderstormQueueFrameMixin:OnEvent(event, ...)
 	end
 end
 
-StartPlunderstormQueueButtonMixin = {};--- @class StartPlunderstormQueueButtonMixin
+StartPlunderstormQueueButtonMixin = {}; --- @class StartPlunderstormQueueButtonMixin
 
 local PlunderstormQueueButtonEvents = {
 	"LOBBY_MATCHMAKER_QUEUE_STATUS_UPDATE",
@@ -2432,7 +2432,7 @@ function StartPlunderstormQueueButtonMixin:UpdateState()
 	self:SetText(not C_LobbyMatchmakerInfo.IsInQueue() and WOW_LABS_JOIN_QUEUE or WOW_LABS_LEAVE_QUEUE);
 end
 
-PlunderstormPanelMixin = {};--- @class PlunderstormPanelMixin
+PlunderstormPanelMixin = {}; --- @class PlunderstormPanelMixin
 
 local PlunderstormPanelEvents = {
 	"ACCOUNT_STORE_CURRENCY_AVAILABLE_UPDATED",
@@ -2500,7 +2500,7 @@ function PlunderstormPanelMixin:UpdatePlunder()
 	self.PlunderDisplay:SetText(AccountStoreUtil.FormatCurrencyDisplayWithWarning(accountStoreCurrencyID));
 end
 
-PVPQuestRewardMixin = { };--- @class PVPQuestRewardMixin
+PVPQuestRewardMixin = { }; --- @class PVPQuestRewardMixin
 
 function PVPQuestRewardMixin:OnShow()
 	self:RegisterEvent("QUEST_LOG_UPDATE");
@@ -2618,13 +2618,13 @@ local function UserActionClosePVPTalentPrestigeLevelDialog(frame)
 	frame:Hide();
 end
 
-PVPTalentPrestigeLevelDialogCloseButtonMixin = {};--- @class PVPTalentPrestigeLevelDialogCloseButtonMixin
+PVPTalentPrestigeLevelDialogCloseButtonMixin = {}; --- @class PVPTalentPrestigeLevelDialogCloseButtonMixin
 
 function PVPTalentPrestigeLevelDialogCloseButtonMixin:OnClick()
 	UserActionClosePVPTalentPrestigeLevelDialog(self:GetParent());
 end
 
-PVPRewardRoleShortageBonusMixin = {};--- @class PVPRewardRoleShortageBonusMixin
+PVPRewardRoleShortageBonusMixin = {}; --- @class PVPRewardRoleShortageBonusMixin
 
 function PVPRewardRoleShortageBonusMixin:Init(rewardInfo)
 	self.rewardInfo = rewardInfo;
@@ -2669,7 +2669,7 @@ end
 -- TRAINING GROUNDS FRAME
 ---------------------------------------------------------------
 
-TrainingGroundsFrameMixin = {};--- @class TrainingGroundsFrameMixin
+TrainingGroundsFrameMixin = {}; --- @class TrainingGroundsFrameMixin
 
 local TrainingGroundsFrameEvents = {
 	"GROUP_ROSTER_UPDATE",
@@ -2678,7 +2678,7 @@ local TrainingGroundsFrameEvents = {
 	"TRAINING_GROUNDS_ENABLED_STATUS_UPDATED",
 };
 
-local TrainingGroundPVPType = EnumUtil.MakeEnum(--- @type {["Specific"]: 1, ["Bonus"]: 2}
+local TrainingGroundPVPType = EnumUtil.MakeEnum( --- @type {["Specific"]: 1, ["Bonus"]: 2}
 	"Specific",
 	"Bonus"
 );
@@ -2840,7 +2840,7 @@ function TrainingGroundsFrameMixin:GetSelectedQueueOption()
 	end
 end
 
-BonusTrainingGroundListMixin = {};--- @class BonusTrainingGroundListMixin
+BonusTrainingGroundListMixin = {}; --- @class BonusTrainingGroundListMixin
 
 local BonusTrainingGroundListEvents = {
 	"PLAYER_LEVEL_UP",
@@ -2913,7 +2913,7 @@ function BonusTrainingGroundListMixin:Refresh()
 	end
 end
 
-TrainingGroundActivityButtonMixin = CreateFromMixins(PVPCasualActivityButtonMixin);--- @class TrainingGroundActivityButtonMixin : PVPCasualActivityButtonMixin
+TrainingGroundActivityButtonMixin = CreateFromMixins(PVPCasualActivityButtonMixin); --- @class TrainingGroundActivityButtonMixin : PVPCasualActivityButtonMixin
 
 local queueOptionToRewardGetter = {
 	["RandomTrainingGround"] = C_PvP.GetRandomTrainingGroundRewards;
@@ -3030,7 +3030,7 @@ function TrainingGroundActivityButtonMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-SpecificTrainingGroundListMixin = {};--- @class SpecificTrainingGroundListMixin
+SpecificTrainingGroundListMixin = {}; --- @class SpecificTrainingGroundListMixin
 
 local SpecificTrainingGroundListEvents = {
 	"PLAYER_LEVEL_UP",
@@ -3118,7 +3118,7 @@ function SpecificTrainingGroundListMixin:Refresh()
 	self.ScrollBox:SetDataProvider(CreateDataProvider(self:GetVisibleTrainingGrounds()), ScrollBoxConstants.RetainScrollPosition);
 end
 
-PVPSpecificTrainingGroundButtonMixin = {};--- @class PVPSpecificTrainingGroundButtonMixin
+PVPSpecificTrainingGroundButtonMixin = {}; --- @class PVPSpecificTrainingGroundButtonMixin
 
 function PVPSpecificTrainingGroundButtonMixin:Initialize(elementData)
 	self.elementData = elementData;

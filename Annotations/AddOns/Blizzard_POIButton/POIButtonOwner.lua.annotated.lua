@@ -1,5 +1,5 @@
 
-POIButtonOwnerMixin = {};--- @class POIButtonOwnerMixin
+POIButtonOwnerMixin = {}; --- @class POIButtonOwnerMixin
 
 
 local function HideAndClearAnchorsWithReset(pool, frame)

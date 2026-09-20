@@ -1,4 +1,4 @@
-ProfessionsRecipeSlotBaseMixin = {};--- @class ProfessionsRecipeSlotBaseMixin
+ProfessionsRecipeSlotBaseMixin = {}; --- @class ProfessionsRecipeSlotBaseMixin
 
 function ProfessionsRecipeSlotBaseMixin:IsLoading()
 	return self.continuableContainer and self.continuableContainer:AreAnyLoadsOutstanding();

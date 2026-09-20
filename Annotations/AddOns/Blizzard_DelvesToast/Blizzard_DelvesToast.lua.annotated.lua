@@ -1,4 +1,4 @@
-DelvesToastMixin = {};--- @class DelvesToastMixin
+DelvesToastMixin = {}; --- @class DelvesToastMixin
 
 local DelvesConstants =
 {

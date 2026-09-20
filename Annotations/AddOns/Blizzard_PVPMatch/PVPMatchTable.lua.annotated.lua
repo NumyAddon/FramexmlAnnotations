@@ -1,4 +1,4 @@
-PVPRowMixin = CreateFromMixins(TableBuilderRowMixin);--- @class PVPRowMixin : TableBuilderRowMixin
+PVPRowMixin = CreateFromMixins(TableBuilderRowMixin); --- @class PVPRowMixin : TableBuilderRowMixin
 
 function PVPRowMixin:SetUseAlternateColor(useAlternateColor)
 	self.useAlternateColor = useAlternateColor;
@@ -24,7 +24,7 @@ function PVPRowMixin:Populate(rowData, dataIndex)
 	end
 end
 
-PVPHeaderMixin = CreateFromMixins(TableBuilderElementMixin);--- @class PVPHeaderMixin : TableBuilderElementMixin
+PVPHeaderMixin = CreateFromMixins(TableBuilderElementMixin); --- @class PVPHeaderMixin : TableBuilderElementMixin
 
 function PVPHeaderMixin:Init(sortType, tooltipTitle, tooltipText)
 	self.sortType = sortType;
@@ -61,7 +61,7 @@ function PVPHeaderMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-PVPHeaderIconMixin = CreateFromMixins(PVPHeaderMixin);--- @class PVPHeaderIconMixin : PVPHeaderMixin
+PVPHeaderIconMixin = CreateFromMixins(PVPHeaderMixin); --- @class PVPHeaderIconMixin : PVPHeaderMixin
 
 function PVPHeaderIconMixin:Init(textureFileID, sortType)
 	PVPHeaderMixin.Init(self, sortType);
@@ -72,7 +72,7 @@ function PVPHeaderIconMixin:Init(textureFileID, sortType)
 	self:SetSize(icon:GetSize());
 end
 
-PVPCellClassMixin = CreateFromMixins(TableBuilderCellMixin);--- @class PVPCellClassMixin : TableBuilderCellMixin
+PVPCellClassMixin = CreateFromMixins(TableBuilderCellMixin); --- @class PVPCellClassMixin : TableBuilderCellMixin
 
 function PVPCellClassMixin:Populate(rowData, dataIndex)
 	local classToken = rowData.classToken;
@@ -101,7 +101,7 @@ function PVPCellClassMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-PVPCellHonorLevelMixin = CreateFromMixins(TableBuilderCellMixin);--- @class PVPCellHonorLevelMixin : TableBuilderCellMixin
+PVPCellHonorLevelMixin = CreateFromMixins(TableBuilderCellMixin); --- @class PVPCellHonorLevelMixin : TableBuilderCellMixin
 
 function PVPCellHonorLevelMixin:Populate(rowData, dataIndex)
 	local honorLevel = rowData.honorLevel;
@@ -125,7 +125,7 @@ function PVPCellHonorLevelMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-PVPHeaderStringMixin = CreateFromMixins(PVPHeaderMixin);--- @class PVPHeaderStringMixin : PVPHeaderMixin
+PVPHeaderStringMixin = CreateFromMixins(PVPHeaderMixin); --- @class PVPHeaderStringMixin : PVPHeaderMixin
 
 function PVPHeaderStringMixin:Init(textID, textAlignment, sortType, tooltipTitle, tooltipText)
 	PVPHeaderMixin.Init(self, sortType, tooltipTitle, tooltipText)
@@ -160,7 +160,7 @@ local function FormatCellColor(frame, rowData, useAlternateColor)
 	frame:SetVertexColor(color:GetRGB());
 end
 
-PVPCellStringMixin = CreateFromMixins(TableBuilderCellMixin);--- @class PVPCellStringMixin : TableBuilderCellMixin
+PVPCellStringMixin = CreateFromMixins(TableBuilderCellMixin); --- @class PVPCellStringMixin : TableBuilderCellMixin
 
 function PVPCellStringMixin:Init(dataProviderKey, useAlternateColor, isAbbreviated, hasTooltip)
 	self.dataProviderKey = dataProviderKey;
@@ -200,7 +200,7 @@ function PVPCellStringMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-PVPCellNameMixin = CreateFromMixins(TableBuilderCellMixin);--- @class PVPCellNameMixin : TableBuilderCellMixin
+PVPCellNameMixin = CreateFromMixins(TableBuilderCellMixin); --- @class PVPCellNameMixin : TableBuilderCellMixin
 
 function PVPCellNameMixin:Init(useAlternateColor)
 	self.useAlternateColor = useAlternateColor;
@@ -241,7 +241,7 @@ function PVPCellNameMixin:OnClick(button)
 	end
 end
 
-PVPSoloShuffleCellNameMixin = CreateFromMixins(PVPCellNameMixin);--- @class PVPSoloShuffleCellNameMixin : PVPCellNameMixin
+PVPSoloShuffleCellNameMixin = CreateFromMixins(PVPCellNameMixin); --- @class PVPSoloShuffleCellNameMixin : PVPCellNameMixin
 
 local tinyHealerIcon = CreateAtlasMarkup("roleicon-tiny-healer");
 
@@ -258,7 +258,7 @@ function PVPSoloShuffleCellNameMixin:Populate(rowData, dataIndex)
 	FormatCellColor(self.text, rowData, self.useAlternateColor);
 end
 
-PVPCellStatMixin = CreateFromMixins(TableBuilderCellMixin);--- @class PVPCellStatMixin : TableBuilderCellMixin
+PVPCellStatMixin = CreateFromMixins(TableBuilderCellMixin); --- @class PVPCellStatMixin : TableBuilderCellMixin
 
 function PVPCellStatMixin:Init(dataProviderKey, useAlternateColor)
 	self.dataProviderKey = dataProviderKey;
@@ -304,13 +304,13 @@ function PVPCellStatMixin:Populate(rowData, dataIndex)
 	end
 end
 
-PVPSoloShuffleCellStatMixin = CreateFromMixins(PVPCellStatMixin);--- @class PVPSoloShuffleCellStatMixin : PVPCellStatMixin
+PVPSoloShuffleCellStatMixin = CreateFromMixins(PVPCellStatMixin); --- @class PVPSoloShuffleCellStatMixin : PVPCellStatMixin
 
 function PVPSoloShuffleCellStatMixin:Populate(rowData, dataIndex)
 	PVPCellStatMixin.Populate(self, rowData, dataIndex);
 end
 
-PVPNewRatingMixin = CreateFromMixins(TableBuilderCellMixin);--- @class PVPNewRatingMixin : TableBuilderCellMixin
+PVPNewRatingMixin = CreateFromMixins(TableBuilderCellMixin); --- @class PVPNewRatingMixin : TableBuilderCellMixin
 
 function PVPNewRatingMixin:Init(useAlternateColor)
 	self.useAlternateColor = useAlternateColor;

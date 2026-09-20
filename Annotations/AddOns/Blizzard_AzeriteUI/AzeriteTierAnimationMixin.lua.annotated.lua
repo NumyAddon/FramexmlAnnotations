@@ -1,5 +1,5 @@
 --[[ Base Tier Animation ]]
-AzeriteTierBaseAnimationMixin = {};--- @class AzeriteTierBaseAnimationMixin
+AzeriteTierBaseAnimationMixin = {}; --- @class AzeriteTierBaseAnimationMixin
 AzeriteTierBaseAnimationMixin.SUPPRESS_POWER_UPDATE = 1;
 
 function AzeriteTierBaseAnimationMixin:OnLoad(owningFrame, firstAnimState, lastAnimState)
@@ -57,7 +57,7 @@ function AzeriteTierBaseAnimationMixin:OnAnimStateChanged(animState)
 end
 
 --[[ Power Selected Animation ]]
-AzeriteTierPowerSelectedAnimationMixin = CreateFromMixins(AzeriteTierBaseAnimationMixin);--- @class AzeriteTierPowerSelectedAnimationMixin : AzeriteTierBaseAnimationMixin
+AzeriteTierPowerSelectedAnimationMixin = CreateFromMixins(AzeriteTierBaseAnimationMixin); --- @class AzeriteTierPowerSelectedAnimationMixin : AzeriteTierBaseAnimationMixin
 
 AzeriteTierPowerSelectedAnimationMixin.START_HOLD = 1;
 AzeriteTierPowerSelectedAnimationMixin.ROTATING = 2;
@@ -207,7 +207,7 @@ end
 
 
 --[[ Final Power Selected Animation ]]
-AzeriteTierFinalPowerSelectedAnimationMixin = CreateFromMixins(AzeriteTierPowerSelectedAnimationMixin);--- @class AzeriteTierFinalPowerSelectedAnimationMixin : AzeriteTierPowerSelectedAnimationMixin
+AzeriteTierFinalPowerSelectedAnimationMixin = CreateFromMixins(AzeriteTierPowerSelectedAnimationMixin); --- @class AzeriteTierFinalPowerSelectedAnimationMixin : AzeriteTierPowerSelectedAnimationMixin
 
 function AzeriteTierFinalPowerSelectedAnimationMixin:Create(owningFrame)
 	local finalPowerSelectedAnimation = CreateFromMixins(AzeriteTierFinalPowerSelectedAnimationMixin);
@@ -256,7 +256,7 @@ end
 
 --[[ Reveal Animation ]]
 
-AzeriteTierRevealAnimationMixin = CreateFromMixins(AzeriteTierBaseAnimationMixin);--- @class AzeriteTierRevealAnimationMixin : AzeriteTierBaseAnimationMixin
+AzeriteTierRevealAnimationMixin = CreateFromMixins(AzeriteTierBaseAnimationMixin); --- @class AzeriteTierRevealAnimationMixin : AzeriteTierBaseAnimationMixin
 
 AzeriteTierRevealAnimationMixin.START_HOLD = 1;
 AzeriteTierRevealAnimationMixin.ROTATING = 2;

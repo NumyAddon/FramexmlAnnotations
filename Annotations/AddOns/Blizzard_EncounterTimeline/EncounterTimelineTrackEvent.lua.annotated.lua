@@ -6,7 +6,7 @@ local function SetPointWithHorizontalFlip(region, point, relativeTo, relativePoi
 	end
 end
 
-EncounterTimelineTrackFrameMixin = CreateFromMixins(EncounterTimelineEventFrameMixin, EncounterTimelineScriptedAnimatableMixin, EncounterTimelineTrackSettingsMixin);--- @class EncounterTimelineTrackFrameMixin : EncounterTimelineEventFrameMixin, EncounterTimelineScriptedAnimatableMixin, EncounterTimelineTrackSettingsMixin
+EncounterTimelineTrackFrameMixin = CreateFromMixins(EncounterTimelineEventFrameMixin, EncounterTimelineScriptedAnimatableMixin, EncounterTimelineTrackSettingsMixin); --- @class EncounterTimelineTrackFrameMixin : EncounterTimelineEventFrameMixin, EncounterTimelineScriptedAnimatableMixin, EncounterTimelineTrackSettingsMixin
 
 function EncounterTimelineTrackFrameMixin:OnLoad()
 	EncounterTimelineEventFrameMixin.OnLoad(self);
@@ -164,7 +164,7 @@ function EncounterTimelineTrackFrameMixin:ClearPrimaryAxisTranslation()
 	self:GetPrimaryAxisInterpolator():SetFixedOffset(0);
 end
 
-EncounterTimelineTrackEventMixin = CreateFromMixins(EncounterTimelineTrackFrameMixin);--- @class EncounterTimelineTrackEventMixin : EncounterTimelineTrackFrameMixin
+EncounterTimelineTrackEventMixin = CreateFromMixins(EncounterTimelineTrackFrameMixin); --- @class EncounterTimelineTrackEventMixin : EncounterTimelineTrackFrameMixin
 
 EncounterTimelineTrackEventDirtyFlag = {
 	Countdown = bit.lshift(1, 0),

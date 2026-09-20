@@ -26,7 +26,7 @@ local WEEKLY_REWARDS_EVENTS = {
 	"CHALLENGE_MODE_MAPS_UPDATE",
 };
 
-WeeklyRewardsMixin = { };--- @class WeeklyRewardsMixin
+WeeklyRewardsMixin = { }; --- @class WeeklyRewardsMixin
 
 function WeeklyRewardsMixin:SetUpConditionalActivities()
 	self.showWorldRow = false;
@@ -378,7 +378,7 @@ function WeeklyRewardsMixin:ShowClassSetTutorial(parent)
 	HelpTip:Show(parent, helpTipInfo);
 end
 
-WeeklyRewardOverlayMixin = {};--- @class WeeklyRewardOverlayMixin
+WeeklyRewardOverlayMixin = {}; --- @class WeeklyRewardOverlayMixin
 
 local EVERGREEN_WEEKLY_REWARD_OVERLAY_EFFECT = { effectID = 179, offsetX = 3, offsetY = 0 };
 
@@ -394,7 +394,7 @@ function WeeklyRewardOverlayMixin:OnHide()
 	end
 end
 
-WeeklyRewardsActivityMixin = { };--- @class WeeklyRewardsActivityMixin
+WeeklyRewardsActivityMixin = { }; --- @class WeeklyRewardsActivityMixin
 
 function WeeklyRewardsActivityMixin:SetSelectionState(state)
 	self.SelectedTexture:SetShown(state == SELECTION_STATE_SELECTED);
@@ -906,7 +906,7 @@ function WeeklyRewardsActivityMixin:GetDisplayedItemDBID()
 	return self.ItemFrame.displayedItemDBID;
 end
 
-WeeklyRewardActivityItemMixin = { };--- @class WeeklyRewardActivityItemMixin
+WeeklyRewardActivityItemMixin = { }; --- @class WeeklyRewardActivityItemMixin
 
 function WeeklyRewardActivityItemMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT", -3, -6);
@@ -981,7 +981,7 @@ function WeeklyRewardActivityItemMixin:SetRewards(rewards)
 	end);
 end
 
-WeeklyRewardsConcessionMixin = { };--- @class WeeklyRewardsConcessionMixin
+WeeklyRewardsConcessionMixin = { }; --- @class WeeklyRewardsConcessionMixin
 
 function WeeklyRewardsConcessionMixin:SetWeeklyRewardsFrame(weeklyRewardsFrame)
 	self.weeklyRewardsFrame = weeklyRewardsFrame;
@@ -1113,7 +1113,7 @@ function WeeklyRewardsConcessionMixin:GetDisplayedItemDBID()
 	return nil;
 end
 
-WeeklyRewardConfirmSelectionMixin = { }--- @class WeeklyRewardConfirmSelectionMixin
+WeeklyRewardConfirmSelectionMixin = { } --- @class WeeklyRewardConfirmSelectionMixin
 
 function WeeklyRewardConfirmSelectionMixin:OnEvent(_event, ...)
 	self:RefreshRewards();
@@ -1209,7 +1209,7 @@ function WeeklyRewardConfirmSelectionMixin:RefreshRewards()
 	self:SetHeight(heightUsed);
 end
 
-GreatVaultRetirementWarningFrameMixin = { };--- @class GreatVaultRetirementWarningFrameMixin
+GreatVaultRetirementWarningFrameMixin = { }; --- @class GreatVaultRetirementWarningFrameMixin
 
 function GreatVaultRetirementWarningFrameMixin:OnShow()
 	local title = _G["EXPANSION_NAME"..LE_EXPANSION_LEVEL_CURRENT];

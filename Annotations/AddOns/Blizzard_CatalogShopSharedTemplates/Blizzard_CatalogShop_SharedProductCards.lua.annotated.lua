@@ -27,7 +27,7 @@ end
 ----------------------------------------------------------------------------------
 -- InvisibleMouseOverFrameMixin
 ----------------------------------------------------------------------------------
-InvisibleMouseOverFrameMixin = {};--- @class InvisibleMouseOverFrameMixin
+InvisibleMouseOverFrameMixin = {}; --- @class InvisibleMouseOverFrameMixin
 function InvisibleMouseOverFrameMixin:OnEnter()
 end
 
@@ -36,7 +36,7 @@ end
 
 --------------------------------------------------
 -- CATALOG SHOP DEFAULT PRODUCT CARD MIXIN
-CatalogShopDefaultProductCardMixin = {};--- @class CatalogShopDefaultProductCardMixin
+CatalogShopDefaultProductCardMixin = {}; --- @class CatalogShopDefaultProductCardMixin
 function CatalogShopDefaultProductCardMixin:OnLoad()
 	-- set the tooltip here
 	-- set any override fonts
@@ -314,7 +314,7 @@ end
 
 --------------------------------------------------
 -- SMALL CATALOG SHOP PRODUCT CARD MIXIN
-SmallCatalogShopProductCardMixin = {};--- @class SmallCatalogShopProductCardMixin
+SmallCatalogShopProductCardMixin = {}; --- @class SmallCatalogShopProductCardMixin
 function SmallCatalogShopProductCardMixin:OnLoad()
 	CatalogShopDefaultProductCardMixin.OnLoad(self);
 end
@@ -405,7 +405,7 @@ end
 
 --------------------------------------------------
 -- SMALL CATALOG SHOP HOUSING CURRENCY CARD MIXIN
-SmallCatalogShopHousingCurrencyCardMixin = {};--- @class SmallCatalogShopHousingCurrencyCardMixin
+SmallCatalogShopHousingCurrencyCardMixin = {}; --- @class SmallCatalogShopHousingCurrencyCardMixin
 function SmallCatalogShopHousingCurrencyCardMixin:OnLoad()
 	SmallCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -502,14 +502,14 @@ function SmallCatalogShopHousingCurrencyCardMixin:Layout()
 end
 
 
-EmbeddedPurchaseButtonMixin = {};--- @class EmbeddedPurchaseButtonMixin
+EmbeddedPurchaseButtonMixin = {}; --- @class EmbeddedPurchaseButtonMixin
 function EmbeddedPurchaseButtonMixin:OnLoad()
 --embeddedPurchaseButtonOnClickMethod
 end
 
 --------------------------------------------------
 -- WIDE CATALOG SHOP PRODUCT CARD MIXIN
-WideCatalogShopProductCardMixin = {};--- @class WideCatalogShopProductCardMixin
+WideCatalogShopProductCardMixin = {}; --- @class WideCatalogShopProductCardMixin
 function WideCatalogShopProductCardMixin:OnLoad()
 	CatalogShopDefaultProductCardMixin.OnLoad(self);
 end
@@ -607,7 +607,7 @@ end
 
 --------------------------------------------------
 -- HEARTHSTEEL VFX MIXINS
-HearthsteelVFXBaseMixin = {};--- @class HearthsteelVFXBaseMixin
+HearthsteelVFXBaseMixin = {}; --- @class HearthsteelVFXBaseMixin
 function HearthsteelVFXBaseMixin:PlayAnimation()
 	-- override this
 end
@@ -629,7 +629,7 @@ function HearthsteelVFXBaseMixin:OnEnter()
 end
 
 
-HearthsteelVFX_L_Mixin = CreateFromMixins(HearthsteelVFXBaseMixin);--- @class HearthsteelVFX_L_Mixin : HearthsteelVFXBaseMixin
+HearthsteelVFX_L_Mixin = CreateFromMixins(HearthsteelVFXBaseMixin); --- @class HearthsteelVFX_L_Mixin : HearthsteelVFXBaseMixin
 function HearthsteelVFX_L_Mixin:PlayAnimation()
 	self.Glows.animation:Play();
 	self.IconGlow.animation:Play();
@@ -642,7 +642,7 @@ function HearthsteelVFX_L_Mixin:StopAnimation()
 	self.Flipbook.animation:Stop();
 end
 
-HearthsteelVFX_XL_Mixin = CreateFromMixins(HearthsteelVFXBaseMixin);--- @class HearthsteelVFX_XL_Mixin : HearthsteelVFXBaseMixin
+HearthsteelVFX_XL_Mixin = CreateFromMixins(HearthsteelVFXBaseMixin); --- @class HearthsteelVFX_XL_Mixin : HearthsteelVFXBaseMixin
 
 function HearthsteelVFX_XL_Mixin:PlayAnimation()
 	self.Rays.animation:Play();
@@ -660,7 +660,7 @@ function HearthsteelVFX_XL_Mixin:StopAnimation()
 	self.CoinShine.animation:Stop();
 end
 
-HearthsteelVFX_XXL_Mixin = CreateFromMixins(HearthsteelVFXBaseMixin);--- @class HearthsteelVFX_XXL_Mixin : HearthsteelVFXBaseMixin
+HearthsteelVFX_XXL_Mixin = CreateFromMixins(HearthsteelVFXBaseMixin); --- @class HearthsteelVFX_XXL_Mixin : HearthsteelVFXBaseMixin
 function HearthsteelVFX_XXL_Mixin:PlayAnimation()
 	self.Rays.animation:Play();
 	self.Flipbook.animation:Play();

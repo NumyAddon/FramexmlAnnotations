@@ -20,7 +20,7 @@ local function ClassTrialDoCharacterUpgrade(guid, boostType, confirmed)
 	end
 end
 
-ClassTrialSecureFrameMixin = {};--- @class ClassTrialSecureFrameMixin
+ClassTrialSecureFrameMixin = {}; --- @class ClassTrialSecureFrameMixin
 
 function ClassTrialSecureFrameMixin:OnLoad()
 	self:RegisterEvent("PRODUCT_DISTRIBUTIONS_UPDATED");

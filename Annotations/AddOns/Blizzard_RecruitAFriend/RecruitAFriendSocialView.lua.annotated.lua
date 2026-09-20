@@ -1,5 +1,5 @@
 
-RecruitListButtonSocialMixin = CreateFromMixins(RecruitListButtonMixin);--- @class RecruitListButtonSocialMixin : RecruitListButtonMixin
+RecruitListButtonSocialMixin = CreateFromMixins(RecruitListButtonMixin); --- @class RecruitListButtonSocialMixin : RecruitListButtonMixin
 
 function RecruitListButtonSocialMixin:SetupRecruit(recruitInfo)
 	RecruitListButtonMixin.SetupRecruit(self, recruitInfo);
@@ -107,7 +107,7 @@ end
 function RecruitListButtonSocialMixin:MakeDivider(_isDivider)
 end
 
-RecruitAFriendFrameSocialViewMixin = CreateFromMixins(RecruitAFriendFrameMixin, SocialUIScrollableElementExtentPreviewerMixin);--- @class RecruitAFriendFrameSocialViewMixin : RecruitAFriendFrameMixin, SocialUIScrollableElementExtentPreviewerMixin
+RecruitAFriendFrameSocialViewMixin = CreateFromMixins(RecruitAFriendFrameMixin, SocialUIScrollableElementExtentPreviewerMixin); --- @class RecruitAFriendFrameSocialViewMixin : RecruitAFriendFrameMixin, SocialUIScrollableElementExtentPreviewerMixin
 
 function RecruitAFriendFrameSocialViewMixin:OnLoad()
 	SocialUIScrollableElementExtentPreviewerMixin.OnLoad(self);
@@ -244,7 +244,7 @@ function RecruitAFriendFrameSocialViewMixin:SetNoRecruitsText(text)
 	self.NoRecruitsScrollBox:ScrollToBegin();
 end
 
-RecruitAFriendSocialViewActionButtonMixin = CreateFromMixins(SocialUIActionButtonMixin);--- @class RecruitAFriendSocialViewActionButtonMixin : SocialUIActionButtonMixin
+RecruitAFriendSocialViewActionButtonMixin = CreateFromMixins(SocialUIActionButtonMixin); --- @class RecruitAFriendSocialViewActionButtonMixin : SocialUIActionButtonMixin
 
 function RecruitAFriendSocialViewActionButtonMixin:IsActionEnabled()
 	local isFriendsEnabled = not C_SocialRestrictions.IsFriendsDisabled();
@@ -268,7 +268,7 @@ function RecruitAFriendSocialViewActionButtonMixin:PerformClickAction()
 	end
 end
 
-RecruitAFriendSocialViewClaimOrViewRewardButtonMixin = CreateFromMixins(RecruitAFriendClaimOrViewRewardButtonMixin);--- @class RecruitAFriendSocialViewClaimOrViewRewardButtonMixin : RecruitAFriendClaimOrViewRewardButtonMixin
+RecruitAFriendSocialViewClaimOrViewRewardButtonMixin = CreateFromMixins(RecruitAFriendClaimOrViewRewardButtonMixin); --- @class RecruitAFriendSocialViewClaimOrViewRewardButtonMixin : RecruitAFriendClaimOrViewRewardButtonMixin
 
 function RecruitAFriendSocialViewClaimOrViewRewardButtonMixin:OnLoad()
 	UserScaledButtonFitToTextMixin.OnLoad(self);

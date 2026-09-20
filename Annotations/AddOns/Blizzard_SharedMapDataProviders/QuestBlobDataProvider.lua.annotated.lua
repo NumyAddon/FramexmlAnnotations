@@ -1,5 +1,5 @@
 
-QuestBlobDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class QuestBlobDataProviderMixin : MapCanvasDataProviderMixin
+QuestBlobDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class QuestBlobDataProviderMixin : MapCanvasDataProviderMixin
 
 function QuestBlobDataProviderMixin:SetShowWorldQuests(showWorldQuests)
 	self.showWorldQuests = showWorldQuests;
@@ -65,7 +65,7 @@ function QuestBlobDataProviderMixin:OnMapChanged()
 end
 
 --[[ Quest Blob Pin ]]--
-QuestBlobPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class QuestBlobPinMixin : MapCanvasPinMixin
+QuestBlobPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class QuestBlobPinMixin : MapCanvasPinMixin
 
 function QuestBlobPinMixin:OnLoad()
 	self:SetFillTexture("Interface\\WorldMap\\UI-QuestBlob-Inside");

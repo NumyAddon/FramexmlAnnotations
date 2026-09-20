@@ -1,4 +1,4 @@
-FogOfWarFrameMixin = {};--- @class FogOfWarFrameMixin
+FogOfWarFrameMixin = {}; --- @class FogOfWarFrameMixin
 
 function FogOfWarFrameMixin:OnLoad()
 	self:RegisterEvent("FOG_OF_WAR_UPDATED");

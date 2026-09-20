@@ -1,4 +1,4 @@
-EncounterTimelineViewMixin = CreateFromMixins(EncounterTimelineFrameManagerMixin, EncounterTimelineDataProviderMixin, EncounterTimelineViewSettingsMixin);--- @class EncounterTimelineViewMixin : EncounterTimelineFrameManagerMixin, EncounterTimelineDataProviderMixin, EncounterTimelineViewSettingsMixin
+EncounterTimelineViewMixin = CreateFromMixins(EncounterTimelineFrameManagerMixin, EncounterTimelineDataProviderMixin, EncounterTimelineViewSettingsMixin); --- @class EncounterTimelineViewMixin : EncounterTimelineFrameManagerMixin, EncounterTimelineDataProviderMixin, EncounterTimelineViewSettingsMixin
 
 function EncounterTimelineViewMixin:OnLoad()
 	EncounterTimelineFrameManagerMixin.OnLoad(self);

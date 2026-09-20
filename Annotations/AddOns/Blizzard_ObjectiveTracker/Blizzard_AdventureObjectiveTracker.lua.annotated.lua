@@ -12,7 +12,7 @@ local settings = {
 	blockTemplate = "ObjectiveTrackerAnimBlockTemplate",
 };
 
-AdventureObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings);--- @class AdventureObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+AdventureObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings); --- @class AdventureObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 
 function AdventureObjectiveTrackerMixin:InitModule()
 	-- POIButtonOwnerTemplate

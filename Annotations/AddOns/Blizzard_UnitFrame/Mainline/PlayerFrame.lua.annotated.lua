@@ -781,7 +781,7 @@ function PlayerFrame_OnAlternatePowerBarDisabled(alternatePowerBar)
 	end
 end
 
-TempMaxHealthLossDividerMixin = {};--- @class TempMaxHealthLossDividerMixin
+TempMaxHealthLossDividerMixin = {}; --- @class TempMaxHealthLossDividerMixin
 
 function TempMaxHealthLossDividerMixin:SetXPosition(xPosition)
 	self.TempHPLossDividerShadow:SetPoint("CENTER", self, "LEFT", xPosition, 0);

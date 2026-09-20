@@ -1,7 +1,7 @@
 -- Used by the Personal Resource Display.
 -- Shared logic for alternate power bars that display Mana as the alternate resource.
 -- Class-specific mixins should be created and must define requiredClass and requiredSpec as table fields.
-ManaAlternatePowerMixin = {};--- @class ManaAlternatePowerMixin
+ManaAlternatePowerMixin = {}; --- @class ManaAlternatePowerMixin
 
 function ManaAlternatePowerMixin:Initialize()
 	self.powerName = "MANA";
@@ -48,10 +48,10 @@ function ManaAlternatePowerMixin:GetCurrentMinMaxPower()
 	return 0, UnitPowerMax("player", self.powerType);
 end
 
-PriestAlternatePowerBarMixin = CreateFromMixins(ManaAlternatePowerMixin);--- @class PriestAlternatePowerBarMixin : ManaAlternatePowerMixin
+PriestAlternatePowerBarMixin = CreateFromMixins(ManaAlternatePowerMixin); --- @class PriestAlternatePowerBarMixin : ManaAlternatePowerMixin
 PriestAlternatePowerBarMixin.requiredClass = "PRIEST";
 PriestAlternatePowerBarMixin.requiredSpec = SPEC_PRIEST_SHADOW;
 
-DruidAlternatePowerBarMixin = CreateFromMixins(ManaAlternatePowerMixin);--- @class DruidAlternatePowerBarMixin : ManaAlternatePowerMixin
+DruidAlternatePowerBarMixin = CreateFromMixins(ManaAlternatePowerMixin); --- @class DruidAlternatePowerBarMixin : ManaAlternatePowerMixin
 DruidAlternatePowerBarMixin.requiredClass = "DRUID";
 DruidAlternatePowerBarMixin.requiredSpec = SPEC_DRUID_BALANCE;

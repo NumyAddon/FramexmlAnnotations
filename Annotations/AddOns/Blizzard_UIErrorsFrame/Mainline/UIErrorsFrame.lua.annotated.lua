@@ -1,4 +1,4 @@
-UIErrorsMixin = {};--- @class UIErrorsMixin
+UIErrorsMixin = {}; --- @class UIErrorsMixin
 
 function UIErrorsMixin:OnLoad()
 	self:RegisterEvent("SYSMSG");

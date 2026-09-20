@@ -13,7 +13,7 @@ local HousingControlsShownEvents = {
 	"HOUSING_BLUEPRINTS_AVAILABILITY_CHANGED",
 };
 
-HousingControlsMixin = {};--- @class HousingControlsMixin
+HousingControlsMixin = {}; --- @class HousingControlsMixin
 
 function HousingControlsMixin:OnLoad()
 	self:UpdateControlVisibility();
@@ -82,7 +82,7 @@ function HousingControlsMixin:UpdateButtons()
 	end
 end
 
-HousingOwnerControlsLayoutMixin = {};--- @class HousingOwnerControlsLayoutMixin
+HousingOwnerControlsLayoutMixin = {}; --- @class HousingOwnerControlsLayoutMixin
 
 function HousingOwnerControlsLayoutMixin:SetActive(active)
 	self:SetShown(active);
@@ -92,7 +92,7 @@ function HousingOwnerControlsLayoutMixin:GetButtons()
 	return self.Buttons;
 end
 
-HousingVisitorControlsLayoutMixin = {};--- @class HousingVisitorControlsLayoutMixin
+HousingVisitorControlsLayoutMixin = {}; --- @class HousingVisitorControlsLayoutMixin
 
 function HousingVisitorControlsLayoutMixin:SetActive(active)
 	self:SetShown(active);

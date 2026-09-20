@@ -1,4 +1,4 @@
-HousingBlueprintBudgetsContainerMixin = {};--- @class HousingBlueprintBudgetsContainerMixin
+HousingBlueprintBudgetsContainerMixin = {}; --- @class HousingBlueprintBudgetsContainerMixin
 
 function HousingBlueprintBudgetsContainerMixin:OnLoad()
 	self.budgetEntryPool = CreateFramePool("BUTTON", self, "HousingBlueprintBudgetTemplate");
@@ -99,7 +99,7 @@ local BudgetTypeVisuals = {
 	},
 };
 
-HousingBlueprintBudgetMixin = {};--- @class HousingBlueprintBudgetMixin
+HousingBlueprintBudgetMixin = {}; --- @class HousingBlueprintBudgetMixin
 
 function HousingBlueprintBudgetMixin:OnLoad()
 	self.Icon:SetAtlas(self.icon);

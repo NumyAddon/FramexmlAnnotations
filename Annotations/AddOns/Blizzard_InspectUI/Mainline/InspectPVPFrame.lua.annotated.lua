@@ -1,6 +1,6 @@
 local arenaFrames;
 
-InspectPvpTalentSlotMixin = CreateFromMixins(PvpTalentSlotMixin);--- @class InspectPvpTalentSlotMixin : PvpTalentSlotMixin
+InspectPvpTalentSlotMixin = CreateFromMixins(PvpTalentSlotMixin); --- @class InspectPvpTalentSlotMixin : PvpTalentSlotMixin
 
 function InspectPvpTalentSlotMixin:OnLoad()
 	self.Texture:SetSize(34, 34);

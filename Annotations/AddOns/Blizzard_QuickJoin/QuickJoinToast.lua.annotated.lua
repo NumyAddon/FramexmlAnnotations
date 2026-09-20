@@ -1,6 +1,6 @@
 QUICK_JOIN_CONFIG = nil;
 --
-QuickJoinToastMixin = {}--- @class QuickJoinToastMixin
+QuickJoinToastMixin = {} --- @class QuickJoinToastMixin
 
 function QuickJoinToastMixin:OnLoad()
 	QUICK_JOIN_CONFIG = C_SocialQueue.GetConfig();
@@ -471,7 +471,7 @@ end
 ---------------------------
 --QuickJoinToastGroup------
 ---------------------------
-QuickJoinToastGroupMixin = {};--- @class QuickJoinToastGroupMixin
+QuickJoinToastGroupMixin = {}; --- @class QuickJoinToastGroupMixin
 
 function QuickJoinToastGroupMixin:Init(guid)
 	self.guid = guid;
@@ -692,7 +692,7 @@ end
 ---------------------------
 --QuickJoinToastThrottle---
 ---------------------------
-QuickJoinToastThrottleMixin = {};--- @class QuickJoinToastThrottleMixin
+QuickJoinToastThrottleMixin = {}; --- @class QuickJoinToastThrottleMixin
 
 function QuickJoinToastThrottleMixin:Init()
 	self.lastThreshold = QUICK_JOIN_CONFIG.THROTTLE_INITIAL_THRESHOLD;

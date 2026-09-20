@@ -1,4 +1,4 @@
-HousingBlueprintContentEntryMixin = {};--- @class HousingBlueprintContentEntryMixin
+HousingBlueprintContentEntryMixin = {}; --- @class HousingBlueprintContentEntryMixin
 
 function HousingBlueprintContentEntryMixin:Init(node, isReadonly)
 	local entryData = node:GetData();

@@ -97,7 +97,7 @@ StaticPopupDialogs["KIOSK_ENABLED"] = {
 	button2 = nil,
 };
 
-KioskFrameMixin = {}--- @class KioskFrameMixin
+KioskFrameMixin = {} --- @class KioskFrameMixin
 
 function KioskFrameMixin:OnLoad()
 	self:RegisterEvent("KIOSK_SESSION_EXPIRATION_WARNING");

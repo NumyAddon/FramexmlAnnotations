@@ -7,7 +7,7 @@ STAGGER_STATES = {
 	GREEN 	= { key = "green" }
 }
 
-MonkStaggerBarMixin = {};--- @class MonkStaggerBarMixin
+MonkStaggerBarMixin = {}; --- @class MonkStaggerBarMixin
 
 function MonkStaggerBarMixin:Initialize()
 	self.frequentUpdates = true;

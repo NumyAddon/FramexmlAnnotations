@@ -31,7 +31,7 @@ local SpellBookWhileVisibleUnitEvents = {
 	"PLAYER_SPECIALIZATION_CHANGED",
 };
 
-SpellBookFrameMixin = CreateFromMixins(SpellBookFrameTutorialsMixin, SpellBookSearchMixin);--- @class SpellBookFrameMixin : SpellBookFrameTutorialsMixin, SpellBookSearchMixin
+SpellBookFrameMixin = CreateFromMixins(SpellBookFrameTutorialsMixin, SpellBookSearchMixin); --- @class SpellBookFrameMixin : SpellBookFrameTutorialsMixin, SpellBookSearchMixin
 
 function SpellBookFrameMixin:OnLoad()
 	TabSystemOwnerMixin.OnLoad(self);
@@ -543,7 +543,7 @@ function SpellBookFrameMixin:OnPagingButtonLeave()
 	self.BookCornerFlipbook.Anim:Play(reverse);
 end
 
-AssistedCombatRotationSpellFrameMixin = { };--- @class AssistedCombatRotationSpellFrameMixin
+AssistedCombatRotationSpellFrameMixin = { }; --- @class AssistedCombatRotationSpellFrameMixin
 
 function AssistedCombatRotationSpellFrameMixin:OnIconEnter()
 	UIPanelSpellButtonFrameMixin.OnIconEnter(self);

@@ -1,6 +1,6 @@
 
 
-ProfessionsCustomerListingsElementMixin = CreateFromMixins(TableBuilderRowMixin);--- @class ProfessionsCustomerListingsElementMixin : TableBuilderRowMixin
+ProfessionsCustomerListingsElementMixin = CreateFromMixins(TableBuilderRowMixin); --- @class ProfessionsCustomerListingsElementMixin : TableBuilderRowMixin
 
 function ProfessionsCustomerListingsElementMixin:OnLineEnter()
 	self.HighlightTexture:Show();
@@ -25,7 +25,7 @@ local ProfessionsCustomerOrderFormEvents =
 	"CAN_LOCAL_WHISPER_TARGET_RESPONSE",
 };
 
-ProfessionsCustomerOrderFormMixin = {};--- @class ProfessionsCustomerOrderFormMixin
+ProfessionsCustomerOrderFormMixin = {}; --- @class ProfessionsCustomerOrderFormMixin
 
 function ProfessionsCustomerOrderFormMixin:InitPaymentContainer()
 	self.PaymentContainer.TipMoneyInputFrame:SetOnValueChangedCallback(GenerateClosure(self.UpdateTotalPrice, self));

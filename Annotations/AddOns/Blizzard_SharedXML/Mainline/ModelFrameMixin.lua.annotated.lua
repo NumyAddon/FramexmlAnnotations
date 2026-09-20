@@ -78,7 +78,7 @@ end
 
 --------------------------------------------------
 -- DEFAULT MODEL FRAME MIXIN
-ModelFrameMixin = {};--- @class ModelFrameMixin
+ModelFrameMixin = {}; --- @class ModelFrameMixin
 
 -- Generic model rotation functions
 function ModelFrameMixin:OnLoad(maxZoom, minZoom, defaultRotation)

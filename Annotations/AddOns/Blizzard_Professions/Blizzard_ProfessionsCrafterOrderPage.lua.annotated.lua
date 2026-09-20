@@ -1,6 +1,6 @@
 
 local ignoreSkillLine = true;
-local OrderBrowseType = EnumUtil.MakeEnum("Flat", "Bucketed", "None");--- @type {["Flat"]: 1, ["Bucketed"]: 2, ["None"]: 3}
+local OrderBrowseType = EnumUtil.MakeEnum("Flat", "Bucketed", "None"); --- @type {["Flat"]: 1, ["Bucketed"]: 2, ["None"]: 3}
 local orderTypeTabTitles =
 {
 	[Enum.CraftingOrderType.Public] = PROFESSIONS_CRAFTER_ORDER_TAB_PUBLIC,
@@ -19,7 +19,7 @@ local function SetTabTitleWithCount(tabButton, type, count)
 	tabButton.Text:SetText(string.format("%s (%s)", title, count));
 end
 
-ProfessionsCrafterOrderListElementMixin = CreateFromMixins(TableBuilderRowMixin);--- @class ProfessionsCrafterOrderListElementMixin : TableBuilderRowMixin
+ProfessionsCrafterOrderListElementMixin = CreateFromMixins(TableBuilderRowMixin); --- @class ProfessionsCrafterOrderListElementMixin : TableBuilderRowMixin
 
 function ProfessionsCrafterOrderListElementMixin:OnLineEnter()
 	self.HighlightTexture:Show();
@@ -99,7 +99,7 @@ function ProfessionsCrafterOrderListElementMixin:Init(elementData)
 end
 
 
-ProfessionsCraftingOrderPageMixin = CreateFromMixins(ProfessionsRecipeListPanelMixin);--- @class ProfessionsCraftingOrderPageMixin : ProfessionsRecipeListPanelMixin
+ProfessionsCraftingOrderPageMixin = CreateFromMixins(ProfessionsRecipeListPanelMixin); --- @class ProfessionsCraftingOrderPageMixin : ProfessionsRecipeListPanelMixin
 
 function ProfessionsCraftingOrderPageMixin:InitButtons()
 	self.BrowseFrame.FavoritesSearchButton.Icon:SetAtlas("auctionhouse-icon-favorite");

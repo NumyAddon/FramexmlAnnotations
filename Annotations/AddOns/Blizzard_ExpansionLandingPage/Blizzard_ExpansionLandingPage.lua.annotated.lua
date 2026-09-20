@@ -4,7 +4,7 @@ local landingPageOverlay = {
 	[LE_EXPANSION_MIDNIGHT] = CreateFromMixins(MidnightLandingOverlayMixin),
 };
 
-ExpansionLandingPageMixin = {};--- @class ExpansionLandingPageMixin
+ExpansionLandingPageMixin = {}; --- @class ExpansionLandingPageMixin
 
 ExpansionLandingPageEvents = {
 	"QUEST_LOG_UPDATE",

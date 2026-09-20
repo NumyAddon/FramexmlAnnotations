@@ -5,7 +5,7 @@ UIModeUtil.RegisterMode("ClientScene", {
 	},
 });
 
-ClientSceneVisManagerMixin = {};--- @class ClientSceneVisManagerMixin
+ClientSceneVisManagerMixin = {}; --- @class ClientSceneVisManagerMixin
 
 function ClientSceneVisManagerMixin:OnLoad()
 	self:RegisterEvent("CLIENT_SCENE_OPENED");

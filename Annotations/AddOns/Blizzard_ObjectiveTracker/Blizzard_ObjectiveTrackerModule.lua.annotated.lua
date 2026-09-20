@@ -1,4 +1,4 @@
-ObjectiveTrackerModuleState = EnumUtil.MakeEnum(--- @type {["Skipped"]: 1, ["NoObjectives"]: 2, ["NotShown"]: 3, ["ShownPartially"]: 4, ["ShownFully"]: 5} See [ObjectiveTrackerModuleState](lua://ObjectiveTrackerModuleState)
+ObjectiveTrackerModuleState = EnumUtil.MakeEnum( --- @type {["Skipped"]: 1, ["NoObjectives"]: 2, ["NotShown"]: 3, ["ShownPartially"]: 4, ["ShownFully"]: 5} # See [ObjectiveTrackerModuleState](lua://ObjectiveTrackerModuleState)
 	"Skipped",			-- module did not try to layout (due to availableHeight being 0)
 	"NoObjectives",		-- module has no objectives to show
 	"NotShown",			-- module has objectives but there was not enough room to display anything
@@ -42,7 +42,7 @@ local settings = {
 	numCachedBlocks = 0,		-- number of cached blocks in cachedOrderList
 };
 
-ObjectiveTrackerModuleMixin = CreateFromMixins(ObjectiveTrackerSlidingMixin, settings);--- @class ObjectiveTrackerModuleMixin : ObjectiveTrackerSlidingMixin, settings
+ObjectiveTrackerModuleMixin = CreateFromMixins(ObjectiveTrackerSlidingMixin, settings); --- @class ObjectiveTrackerModuleMixin : ObjectiveTrackerSlidingMixin, settings
 
 function ObjectiveTrackerModuleMixin:OnLoad()
 	self.usedBlocks = { };			-- list of displayed blocks
@@ -768,7 +768,7 @@ end
 -- ***** HEADER
 -- *****************************************************************************************************
 
-ObjectiveTrackerModuleHeaderMixin = {};--- @class ObjectiveTrackerModuleHeaderMixin
+ObjectiveTrackerModuleHeaderMixin = {}; --- @class ObjectiveTrackerModuleHeaderMixin
 
 function ObjectiveTrackerModuleHeaderMixin:OnLoad()
 	self.MinimizeButton:SetScript("OnClick", GenerateClosure(self.OnToggle, self));

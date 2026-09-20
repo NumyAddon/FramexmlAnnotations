@@ -1,4 +1,4 @@
-HousingCharterMixin = {}--- @class HousingCharterMixin
+HousingCharterMixin = {} --- @class HousingCharterMixin
 
 local HousingCharterFrameShowingEvents =
 {
@@ -129,7 +129,7 @@ function HousingCharterMixin:SetCharterInfo(neighborhoodInfo, signatures, numSig
 end
 
 --//////////////////////////////////////////////////////
-HousingCharterRequestSignatureFrameMixin = {}--- @class HousingCharterRequestSignatureFrameMixin
+HousingCharterRequestSignatureFrameMixin = {} --- @class HousingCharterRequestSignatureFrameMixin
 
 function HousingCharterRequestSignatureFrameMixin:OnLoad()
 	self.ConfirmButton:SetScript("OnClick", function()

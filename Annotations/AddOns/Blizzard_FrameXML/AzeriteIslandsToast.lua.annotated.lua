@@ -1,4 +1,4 @@
-AzeriteIslandsToastMixin = { }; --- @class AzeriteIslandsToastMixin
+AzeriteIslandsToastMixin = { };  --- @class AzeriteIslandsToastMixin
 
 function AzeriteIslandsToastMixin:OnLoad()
 	self:RegisterEvent("ISLAND_AZERITE_GAIN");
@@ -114,7 +114,7 @@ function AzeriteIslandsToastMixin:OnUpdate(elapsed)
 	end
 end
 
-AzeriteIslandsToastAccumulatorMixin = {};--- @class AzeriteIslandsToastAccumulatorMixin
+AzeriteIslandsToastAccumulatorMixin = {}; --- @class AzeriteIslandsToastAccumulatorMixin
 
 function AzeriteIslandsToastAccumulatorMixin:OnLoad(accumulationDeferralTimeSec)
 	self.accumulationDeferralTimeSec = accumulationDeferralTimeSec;

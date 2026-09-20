@@ -173,7 +173,7 @@ function SocialUIUtil.InitializeUserScaledDropdownMainTitle(title)
 	title.fontString:SetHeight(title.fontString:GetLineHeight() + scaledPadding);
 end
 
-SocialUIScrollableElementExtentPreviewerMixin = {};--- @class SocialUIScrollableElementExtentPreviewerMixin
+SocialUIScrollableElementExtentPreviewerMixin = {}; --- @class SocialUIScrollableElementExtentPreviewerMixin
 
 function SocialUIScrollableElementExtentPreviewerMixin:OnLoad()
 	self.TemplateRegistrations = {};

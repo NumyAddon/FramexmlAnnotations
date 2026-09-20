@@ -1,4 +1,4 @@
-HouseEditorPlacedDecorListButtonMixin = {};--- @class HouseEditorPlacedDecorListButtonMixin
+HouseEditorPlacedDecorListButtonMixin = {}; --- @class HouseEditorPlacedDecorListButtonMixin
 
 function HouseEditorPlacedDecorListButtonMixin:SetListFrame(listFrame)
 	self.listFrame = listFrame;
@@ -67,7 +67,7 @@ local stateChangeEvents = {
 	["HOUSING_EXPERT_MODE_HOVERED_TARGET_CHANGED"] = true,
 };
 
-HouseEditorPlacedDecorListMixin = {};--- @class HouseEditorPlacedDecorListMixin
+HouseEditorPlacedDecorListMixin = {}; --- @class HouseEditorPlacedDecorListMixin
 
 function HouseEditorPlacedDecorListMixin:OnLoad()
 	ClickToDragMixin.OnLoad(self);
@@ -175,7 +175,7 @@ function HouseEditorPlacedDecorListMixin:OnEntryRemoved(decorGUID)
 	dataProvider:RemoveByPredicate(function(elementData) return elementData.decorGUID == decorGUID; end);
 end
 
-HouseEditorPlacedDecorEntryMixin = {};--- @class HouseEditorPlacedDecorEntryMixin
+HouseEditorPlacedDecorEntryMixin = {}; --- @class HouseEditorPlacedDecorEntryMixin
 
 function HouseEditorPlacedDecorEntryMixin:Init(elementData)
 	self.elementData = elementData;

@@ -1,4 +1,4 @@
-PetFrameMixin = CreateFromMixins(PartyMemberAuraMixin);--- @class PetFrameMixin : PartyMemberAuraMixin
+PetFrameMixin = CreateFromMixins(PartyMemberAuraMixin); --- @class PetFrameMixin : PartyMemberAuraMixin
 
 function PetFrameMixin:UpdateAuras(unitAuraUpdateInfo)
 	self:UpdateMemberAuras(unitAuraUpdateInfo);
@@ -170,7 +170,7 @@ function PetFrameMixin:UpdateShownState()
 		or (UnitIsVisible(self.unit) and PetUsesPetFrame() and not PlayerFrame.vehicleHidesPet));
 end
 
-PetCastingBarMixin = CreateFromMixins(CastingBarMixin);--- @class PetCastingBarMixin : CastingBarMixin
+PetCastingBarMixin = CreateFromMixins(CastingBarMixin); --- @class PetCastingBarMixin : CastingBarMixin
 
 function PetCastingBarMixin:OnLoad()
 	CastingBarMixin.OnLoad(self, "pet", false, false);
@@ -197,7 +197,7 @@ function PetCastingBarMixin:OnEvent(event, ...)
 	CastingBarMixin.OnEvent(self, event, ...);
 end
 
-PetManaBarMixin = {};--- @class PetManaBarMixin
+PetManaBarMixin = {}; --- @class PetManaBarMixin
 
 function PetManaBarMixin:OnLoad()
 	self:InitializeTextStatusBar();
@@ -207,7 +207,7 @@ function PetManaBarMixin:OnLoad()
 	self.cvarLabel = "STATUS_TEXT_PET";
 end
 
-PetHealthBarMixin = {};--- @class PetHealthBarMixin
+PetHealthBarMixin = {}; --- @class PetHealthBarMixin
 
 function PetHealthBarMixin:OnLoad()
 	self:InitializeTextStatusBar();

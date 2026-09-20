@@ -142,7 +142,7 @@ local covenantSanctumFeatureDescription = {
 	},
 };
 
-CovenantSanctumUpgradesTabMixin = {};--- @class CovenantSanctumUpgradesTabMixin
+CovenantSanctumUpgradesTabMixin = {}; --- @class CovenantSanctumUpgradesTabMixin
 
 local CovenantSanctumUpgradesEvents = {
 	"CURRENCY_DISPLAY_UPDATE",
@@ -444,7 +444,7 @@ function CovenantSanctumUpgradesTabMixin:HasAnySoulCurrencies()
 end
 
 --=============================================================================================
-CovenantSanctumUpgradeTalentListMixin = { };--- @class CovenantSanctumUpgradeTalentListMixin
+CovenantSanctumUpgradeTalentListMixin = { }; --- @class CovenantSanctumUpgradeTalentListMixin
 
 function CovenantSanctumUpgradeTalentListMixin:OnLoad()
 	self.talentPool = CreateFramePool("FRAME", self, "CovenantSanctumUpgradeTalentTemplate");
@@ -524,7 +524,7 @@ function CovenantSanctumUpgradeTalentListMixin:FindTalentButton(talentID)
 end
 
 --=============================================================================================
-CovenantSanctumIntroBoxMixin = { };--- @class CovenantSanctumIntroBoxMixin
+CovenantSanctumIntroBoxMixin = { }; --- @class CovenantSanctumIntroBoxMixin
 
 function CovenantSanctumIntroBoxMixin:SetTalent(talentID)
 	self.talentID = talentID;
@@ -565,7 +565,7 @@ function CovenantSanctumIntroBoxMixin:UpdateResearchTime()
 end
 
 --=============================================================================================
-CovenantSanctumUpgradeTalentMixin = { };--- @class CovenantSanctumUpgradeTalentMixin
+CovenantSanctumUpgradeTalentMixin = { }; --- @class CovenantSanctumUpgradeTalentMixin
 
 function CovenantSanctumUpgradeTalentMixin:Set(talentInfo, inIntroMode)
 	self.Name:SetText(talentInfo.name);
@@ -733,7 +733,7 @@ function CovenantSanctumUpgradeTalentMixin:RefreshTooltip()
 end
 
 --=============================================================================================
-CovenantSanctumUpgradeBaseMixin = { };--- @class CovenantSanctumUpgradeBaseMixin
+CovenantSanctumUpgradeBaseMixin = { }; --- @class CovenantSanctumUpgradeBaseMixin
 
 function CovenantSanctumUpgradeBaseMixin:Refresh()
 	local treeInfo = C_Garrison.GetTalentTreeInfo(self.treeID);
@@ -842,10 +842,10 @@ function CovenantSanctumUpgradeBaseMixin:SetUpTextureKit()
 end
 
 --=============================================================================================
-CovenantSanctumUpgradeTreeMixin = CreateFromMixins(CovenantSanctumUpgradeBaseMixin);--- @class CovenantSanctumUpgradeTreeMixin : CovenantSanctumUpgradeBaseMixin
+CovenantSanctumUpgradeTreeMixin = CreateFromMixins(CovenantSanctumUpgradeBaseMixin); --- @class CovenantSanctumUpgradeTreeMixin : CovenantSanctumUpgradeBaseMixin
 
 --=============================================================================================
-CovenantSanctumUpgradeReservoirMixin = CreateFromMixins(CovenantSanctumUpgradeBaseMixin);--- @class CovenantSanctumUpgradeReservoirMixin : CovenantSanctumUpgradeBaseMixin
+CovenantSanctumUpgradeReservoirMixin = CreateFromMixins(CovenantSanctumUpgradeBaseMixin); --- @class CovenantSanctumUpgradeReservoirMixin : CovenantSanctumUpgradeBaseMixin
 
 local ORB_INSIDE_HEIGHT = 182;
 
@@ -1095,7 +1095,7 @@ function CovenantSanctumUpgradeReservoirMixin:CancelAnimaGainEffect()
 	self.FullElements.Glow:SetAlpha(0);
 end
 
-CovenantSanctumUpgradeButtonMixin = {};--- @class CovenantSanctumUpgradeButtonMixin
+CovenantSanctumUpgradeButtonMixin = {}; --- @class CovenantSanctumUpgradeButtonMixin
 
 function CovenantSanctumUpgradeButtonMixin:OnClick(button)
 	local talent = C_Garrison.GetTalentInfo(self:GetParent().upgradeTalentID);

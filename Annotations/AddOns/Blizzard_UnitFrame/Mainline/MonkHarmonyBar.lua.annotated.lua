@@ -22,7 +22,7 @@ function MonkPowerBar:UpdateMaxPower()
 end
 
 
-MonkLightEnergyMixin = {};--- @class MonkLightEnergyMixin
+MonkLightEnergyMixin = {}; --- @class MonkLightEnergyMixin
 
 function MonkLightEnergyMixin:Setup()
 	self.active = nil;

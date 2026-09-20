@@ -118,7 +118,7 @@ local function IsPerksVendorCategoryTransmog(perksVendorCategoryID)
 	return perksVendorCategoryID == Enum.PerksVendorCategoryType.Transmog or perksVendorCategoryID == Enum.PerksVendorCategoryType.Transmogset;
 end
 
-PerksRefundIconTooltipMixin = {};--- @class PerksRefundIconTooltipMixin
+PerksRefundIconTooltipMixin = {}; --- @class PerksRefundIconTooltipMixin
 
 function PerksRefundIconTooltipMixin:OnEnter()
 	local productButtonFrameData = (self:GetParent():GetParent()).itemInfo;
@@ -141,7 +141,7 @@ end
 -- PerksProductPriceMixin
 ----------------------------------------------------------------------------------
 
-PerksProductPriceMixin = {};--- @class PerksProductPriceMixin
+PerksProductPriceMixin = {}; --- @class PerksProductPriceMixin
 
 function PerksProductPriceMixin:Init(price, salePrice)
 	local itemOnSale = salePrice and salePrice < price;
@@ -186,7 +186,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramProductButtonMixin
 ----------------------------------------------------------------------------------
-PerksProgramProductButtonMixin = {};--- @class PerksProgramProductButtonMixin
+PerksProgramProductButtonMixin = {}; --- @class PerksProgramProductButtonMixin
 function PerksProgramProductButtonMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
 	EventRegistry:RegisterCallback("PerksProgram.CelebratePurchase", self.CelebratePurchase, self);
@@ -412,7 +412,7 @@ end
 -- ProductCartToggleButtonMixin
 ----------------------------------------------------------------------------------
 
-ProductCartToggleButtonMixin = {};--- @class ProductCartToggleButtonMixin
+ProductCartToggleButtonMixin = {}; --- @class ProductCartToggleButtonMixin
 
 function ProductCartToggleButtonMixin:OnLoad()
 	EventRegistry:RegisterCallback("PerksProgram.AddItemToCart", self.OnAddItemToCart, self);
@@ -490,7 +490,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramFrozenProductButtonMixin
 ----------------------------------------------------------------------------------
-PerksProgramFrozenProductButtonMixin = {};--- @class PerksProgramFrozenProductButtonMixin
+PerksProgramFrozenProductButtonMixin = {}; --- @class PerksProgramFrozenProductButtonMixin
 
 function PerksProgramFrozenProductButtonMixin:FrozenProductButton_OnLoad()
 	-- Frozen products can't be dragged
@@ -693,7 +693,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramPurchasePendingSpinnerMixin
 ----------------------------------------------------------------------------------
-PerksProgramPurchasePendingSpinnerMixin = {};--- @class PerksProgramPurchasePendingSpinnerMixin
+PerksProgramPurchasePendingSpinnerMixin = {}; --- @class PerksProgramPurchasePendingSpinnerMixin
 
 function PerksProgramPurchasePendingSpinnerMixin:Init(onEnterCallback, onLeaveCallback)
 	self.onEnterCallback = onEnterCallback;
@@ -719,7 +719,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramButtonMixin
 ----------------------------------------------------------------------------------
-PerksProgramButtonMixin = {};--- @class PerksProgramButtonMixin
+PerksProgramButtonMixin = {}; --- @class PerksProgramButtonMixin
 function PerksProgramButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 	if self.perksProgramOnClickMethod then
@@ -743,7 +743,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramPurchaseButtonMixin
 ----------------------------------------------------------------------------------
-PerksProgramPurchaseButtonMixin = {};--- @class PerksProgramPurchaseButtonMixin
+PerksProgramPurchaseButtonMixin = {}; --- @class PerksProgramPurchaseButtonMixin
 function PerksProgramPurchaseButtonMixin:OnLoad()
 	EventRegistry:RegisterCallback("PerksProgramModel.OnProductSelectedAfterModel", self.UpdateState, self);
 	EventRegistry:RegisterCallback("PerksProgram.OnProductPurchasedStateChange", self.UpdateState, self);
@@ -828,7 +828,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramRefundButtonMixin
 ----------------------------------------------------------------------------------
-PerksProgramRefundButtonMixin = {};--- @class PerksProgramRefundButtonMixin
+PerksProgramRefundButtonMixin = {}; --- @class PerksProgramRefundButtonMixin
 function PerksProgramRefundButtonMixin:ShowTooltip(tooltip)
 	if not self:IsEnabled() then
 		tooltip:SetOwner(self, "ANCHOR_LEFT", 0, 0);
@@ -841,7 +841,7 @@ end
 -- PerksProgramTruncatedTextTooltipButtonMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramTruncatedTextTooltipButtonMixin = {};--- @class PerksProgramTruncatedTextTooltipButtonMixin
+PerksProgramTruncatedTextTooltipButtonMixin = {}; --- @class PerksProgramTruncatedTextTooltipButtonMixin
 
 function PerksProgramTruncatedTextTooltipButtonMixin:ShowTooltip(tooltip)
 	local text = self:GetFontString();
@@ -864,7 +864,7 @@ end
 -- PerksProgramViewCartButtonMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramViewCartButtonMixin = {};--- @class PerksProgramViewCartButtonMixin
+PerksProgramViewCartButtonMixin = {}; --- @class PerksProgramViewCartButtonMixin
 
 function PerksProgramViewCartButtonMixin:ShowTooltip(tooltip)
 	tooltip:SetOwner(self, "ANCHOR_LEFT", 0, 0);
@@ -875,7 +875,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramDividerFrameMixin
 ----------------------------------------------------------------------------------
-PerksProgramDividerFrameMixin = {};--- @class PerksProgramDividerFrameMixin
+PerksProgramDividerFrameMixin = {}; --- @class PerksProgramDividerFrameMixin
 function PerksProgramDividerFrameMixin:OnLoad()
 	EventRegistry:RegisterCallback("PerksProgramModel.OnProductSelectedAfterModel", self.OnProductSelectedAfterModel, self);
 end
@@ -943,7 +943,7 @@ end
 -- PerksProgramItemDetailsListMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramItemDetailsListMixin = {};--- @class PerksProgramItemDetailsListMixin
+PerksProgramItemDetailsListMixin = {}; --- @class PerksProgramItemDetailsListMixin
 
 local function ConvertInvTypeToSelectionKey(invType)
 	if invType == "INVTYPE_NON_EQUIP_IGNORE" then
@@ -1322,7 +1322,7 @@ end
 -- PerksProgramSetDetailsListMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramSetDetailsListMixin = CreateFromMixins(PerksProgramItemDetailsListMixin);--- @class PerksProgramSetDetailsListMixin : PerksProgramItemDetailsListMixin
+PerksProgramSetDetailsListMixin = CreateFromMixins(PerksProgramItemDetailsListMixin); --- @class PerksProgramSetDetailsListMixin : PerksProgramItemDetailsListMixin
 
 function PerksProgramSetDetailsListMixin:PopulateItemList()
 	self.itemList = self.data.subItems;
@@ -1344,7 +1344,7 @@ end
 -- PerksProgramCartDetailsListMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramCartDetailsListMixin = CreateFromMixins(PerksProgramItemDetailsListMixin);--- @class PerksProgramCartDetailsListMixin : PerksProgramItemDetailsListMixin
+PerksProgramCartDetailsListMixin = CreateFromMixins(PerksProgramItemDetailsListMixin); --- @class PerksProgramCartDetailsListMixin : PerksProgramItemDetailsListMixin
 
 function PerksProgramCartDetailsListMixin:UpdateScrollBar()
 	-- We don't want the parent functionality at all
@@ -1481,7 +1481,7 @@ end
 -- PerksProgramDisableableScrollItemMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramDisableableScrollItemMixin = {}--- @class PerksProgramDisableableScrollItemMixin
+PerksProgramDisableableScrollItemMixin = {} --- @class PerksProgramDisableableScrollItemMixin
 
 function PerksProgramDisableableScrollItemMixin:SetScrollItemDetailsEnabled(enabled)
 	self.enabled = enabled;
@@ -1507,7 +1507,7 @@ end
 -- RemoveFromCartItemButtonContainerMixin
 ----------------------------------------------------------------------------------
 
-RemoveFromCartItemButtonContainerMixin = {}--- @class RemoveFromCartItemButtonContainerMixin
+RemoveFromCartItemButtonContainerMixin = {} --- @class RemoveFromCartItemButtonContainerMixin
 
 function RemoveFromCartItemButtonContainerMixin:OnEnter()
 	self.mouseOver = true;
@@ -1525,7 +1525,7 @@ end
 -- RemoveFromCartItemButtonMixin
 ----------------------------------------------------------------------------------
 
-RemoveFromCartItemButtonMixin = {}--- @class RemoveFromCartItemButtonMixin
+RemoveFromCartItemButtonMixin = {} --- @class RemoveFromCartItemButtonMixin
 
 function RemoveFromCartItemButtonMixin:OnClick()
 	local itemButton = self:GetParent():GetParent();
@@ -1548,7 +1548,7 @@ end
 -- PerksProgramScrollItemDetailsMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramScrollItemDetailsMixin = {}--- @class PerksProgramScrollItemDetailsMixin
+PerksProgramScrollItemDetailsMixin = {} --- @class PerksProgramScrollItemDetailsMixin
 
 function PerksProgramScrollItemDetailsMixin:InitItem(elementData)
 	self:Show();
@@ -1627,7 +1627,7 @@ end
 -- PerksProgramCartScrollItemDetailsMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramCartScrollItemDetailsMixin = {};--- @class PerksProgramCartScrollItemDetailsMixin
+PerksProgramCartScrollItemDetailsMixin = {}; --- @class PerksProgramCartScrollItemDetailsMixin
 
 function PerksProgramCartScrollItemDetailsMixin:InitItem(elementData)
 	PerksProgramScrollItemDetailsMixin.InitItem(self, elementData);
@@ -1664,7 +1664,7 @@ end
 -- PerksProgramSetScrollItemDetailsMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramSetScrollItemDetailsMixin = {};--- @class PerksProgramSetScrollItemDetailsMixin
+PerksProgramSetScrollItemDetailsMixin = {}; --- @class PerksProgramSetScrollItemDetailsMixin
 
 function PerksProgramSetScrollItemDetailsMixin:InitItem(elementData)
 	PerksProgramScrollItemDetailsMixin.InitItem(self, elementData);
@@ -1712,7 +1712,7 @@ end
 -- PerksProgramSetItemDetailsScrollHeaderMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramSetItemDetailsScrollHeaderMixin = {};--- @class PerksProgramSetItemDetailsScrollHeaderMixin
+PerksProgramSetItemDetailsScrollHeaderMixin = {}; --- @class PerksProgramSetItemDetailsScrollHeaderMixin
 
 function PerksProgramSetItemDetailsScrollHeaderMixin:InitHeader(setInfo)
 	self.perksVendorItemID = setInfo.perksVendorItemID;
@@ -1738,7 +1738,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramCheckboxMixin
 ----------------------------------------------------------------------------------
-PerksProgramCheckboxMixin = {};--- @class PerksProgramCheckboxMixin
+PerksProgramCheckboxMixin = {}; --- @class PerksProgramCheckboxMixin
 
 function PerksProgramCheckboxMixin:OnLoad()
 	if self.textString then
@@ -1763,7 +1763,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramToyDetailsFrameMixin
 ----------------------------------------------------------------------------------
-PerksProgramToyDetailsFrameMixin = {};--- @class PerksProgramToyDetailsFrameMixin
+PerksProgramToyDetailsFrameMixin = {}; --- @class PerksProgramToyDetailsFrameMixin
 function PerksProgramToyDetailsFrameMixin:OnLoad()
 	EventRegistry:RegisterCallback("PerksProgramModel.OnProductSelectedAfterModel", self.OnProductSelectedAfterModel, self);
 end
@@ -1807,7 +1807,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramProductDetailsFrameMixin
 ----------------------------------------------------------------------------------
-PerksProgramProductDetailsFrameMixin = {};--- @class PerksProgramProductDetailsFrameMixin
+PerksProgramProductDetailsFrameMixin = {}; --- @class PerksProgramProductDetailsFrameMixin
 function PerksProgramProductDetailsFrameMixin:OnLoad()
 	EventRegistry:RegisterCallback("PerksProgramModel.OnProductSelectedAfterModel", self.OnProductSelectedAfterModel, self);
 	EventRegistry:RegisterCallback("PerksProgram.OnProductInfoChanged", self.OnProductInfoChanged, self);
@@ -1896,7 +1896,7 @@ end
 -- PerksProgramProductDetailsContainerMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramProductDetailsContainerMixin = {};--- @class PerksProgramProductDetailsContainerMixin
+PerksProgramProductDetailsContainerMixin = {}; --- @class PerksProgramProductDetailsContainerMixin
 
 function PerksProgramProductDetailsContainerMixin:OnLoad()
 	EventRegistry:RegisterCallback("PerksProgram.UpdateCartShown", self.OnUpdateCartShown, self);
@@ -1909,7 +1909,7 @@ end
 ----------------------------------------------------------------------------------
 -- HeaderSortButtonMixin
 ----------------------------------------------------------------------------------
-HeaderSortButtonMixin = {};--- @class HeaderSortButtonMixin
+HeaderSortButtonMixin = {}; --- @class HeaderSortButtonMixin
 function HeaderSortButtonMixin:OnLoad()
 	EventRegistry:RegisterCallback("PerksProgram.SortFieldSet", self.SortFieldSet, self);
 	self.labelSet = false;
@@ -1980,7 +1980,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksModelSceneControlButtonMixin
 ----------------------------------------------------------------------------------
-PerksModelSceneControlButtonMixin = {};--- @class PerksModelSceneControlButtonMixin
+PerksModelSceneControlButtonMixin = {}; --- @class PerksModelSceneControlButtonMixin
 function PerksModelSceneControlButtonMixin:OnLoad()
 	if self.iconAtlas then
 		self.Icon:SetAtlas(self.iconAtlas, false);
@@ -2060,7 +2060,7 @@ end
 -- PerksProgramClearCartButtonMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramClearCartButtonMixin = {};--- @class PerksProgramClearCartButtonMixin
+PerksProgramClearCartButtonMixin = {}; --- @class PerksProgramClearCartButtonMixin
 
 function PerksProgramClearCartButtonMixin:ShowTooltip(tooltip)
 	if self:IsEnabled() then
@@ -2074,7 +2074,7 @@ end
 -- PerksProgramPurchaseCartButtonMixin
 ----------------------------------------------------------------------------------
 
-PerksProgramPurchaseCartButtonMixin = {};--- @class PerksProgramPurchaseCartButtonMixin
+PerksProgramPurchaseCartButtonMixin = {}; --- @class PerksProgramPurchaseCartButtonMixin
 
 function PerksProgramPurchaseCartButtonMixin:OnLoad()
 	EventRegistry:RegisterCallback("PerksProgramModel.OnProductSelectedAfterModel", self.UpdateState, self);
@@ -2133,7 +2133,7 @@ local function CloseCart()
 	EventRegistry:TriggerEvent("PerksProgram.UpdateCartShown", showCart);
 end
 
-PerksProgramShoppingCartMixin = {};--- @class PerksProgramShoppingCartMixin
+PerksProgramShoppingCartMixin = {}; --- @class PerksProgramShoppingCartMixin
 
 function PerksProgramShoppingCartMixin:OnLoad()
 	self.cartItems = {};

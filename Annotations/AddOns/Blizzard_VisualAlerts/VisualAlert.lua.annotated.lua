@@ -6,7 +6,7 @@
 -- VisualAlertTemplates defines the concrete visual styles (e.g. MarchingAnts, Flash, and color variants)
 -- and registers them with the manager.
 
-VisualAlertMixin = {};--- @class VisualAlertMixin
+VisualAlertMixin = {}; --- @class VisualAlertMixin
 
 function VisualAlertMixin:SetAlertTarget(target)
 	-- override as necessary, but continue calling base

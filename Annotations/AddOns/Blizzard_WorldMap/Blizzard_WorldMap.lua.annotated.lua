@@ -3,7 +3,7 @@ local function ShouldWoWLabsAreaBeActive()
 	return WoWLabsAreaDataProviderMixin and C_GameRules.IsGameRuleActive(Enum.GameRule.PlunderstormAreaSelection);
 end
 
-WorldMapMixin = {};--- @class WorldMapMixin
+WorldMapMixin = {}; --- @class WorldMapMixin
 
 local TITLE_CANVAS_SPACER_FRAME_HEIGHT = 67;
 
@@ -467,7 +467,7 @@ function WorldMapMixin:UpdateSpacerFrameAnchoring()
 end
 
 --[[ Help Plate ]] --
-WorldMapTutorialMixin = { }--- @class WorldMapTutorialMixin
+WorldMapTutorialMixin = { } --- @class WorldMapTutorialMixin
 
 function WorldMapTutorialMixin:OnLoad()
 	self.helpInfo = {

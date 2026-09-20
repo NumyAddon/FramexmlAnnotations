@@ -1,4 +1,4 @@
-ProfessionsRecraftSlotMixin = {};--- @class ProfessionsRecraftSlotMixin
+ProfessionsRecraftSlotMixin = {}; --- @class ProfessionsRecraftSlotMixin
 
 function ProfessionsRecraftSlotMixin:OnLoad()
 	self.InputSlot:SetScript("OnLeave", GameTooltip_Hide);
@@ -69,7 +69,7 @@ function ProfessionsRecraftSlotMixin:SetItem(item)
 	end
 end
 
-ProfessionsRecraftOutputSlotMixin = {};--- @class ProfessionsRecraftOutputSlotMixin
+ProfessionsRecraftOutputSlotMixin = {}; --- @class ProfessionsRecraftOutputSlotMixin
 
 
 function ProfessionsRecraftOutputSlotMixin:OnLoad()
@@ -85,7 +85,7 @@ function ProfessionsRecraftOutputSlotMixin:Init(item)
 	self:RegisterForClicks("LeftButtonDown");
 end
 
-ProfessionsRecraftInputSlotMixin = {};--- @class ProfessionsRecraftInputSlotMixin
+ProfessionsRecraftInputSlotMixin = {}; --- @class ProfessionsRecraftInputSlotMixin
 
 function ProfessionsRecraftInputSlotMixin:OnLoad()
 	self:RegisterForClicks("RightButtonDown", "LeftButtonDown");

@@ -14,7 +14,7 @@ GARRISON_MISSION_TYPE_FONT_COLOR	=	{r=0.8, g=0.7, b=0.53};
 ---------------------------------------------------------------------------------
 --- Main Frame                                                                ---
 ---------------------------------------------------------------------------------
-GarrisonLandingPageMixin = { }--- @class GarrisonLandingPageMixin
+GarrisonLandingPageMixin = { } --- @class GarrisonLandingPageMixin
 function GarrisonLandingPageMixin:OnLoad()
 	self.selectedTab = 1;
 
@@ -213,7 +213,7 @@ end
 ---------------------------------------------------------------------------------
 --- Shipyard Follower page
 ---------------------------------------------------------------------------------
-GarrisonLandingPageShipyardFollowerMixin = { }--- @class GarrisonLandingPageShipyardFollowerMixin
+GarrisonLandingPageShipyardFollowerMixin = { } --- @class GarrisonLandingPageShipyardFollowerMixin
 
 function GarrisonLandingPageShipyardFollowerMixin:GetFollowerList()
 	-- in the landing page fleet tab, we'll get the ship follower list instead.

@@ -1,4 +1,4 @@
-AzeritePaperDollItemOverlayMixin = {};--- @class AzeritePaperDollItemOverlayMixin
+AzeritePaperDollItemOverlayMixin = {}; --- @class AzeritePaperDollItemOverlayMixin
 
 function AzeritePaperDollItemOverlayMixin:UpdateCorruptedGlow(itemLocation, glow)
 	self.CorruptedHighlightTexture:SetShown(glow and itemLocation:IsValid() and C_Item.IsItemCorruptionRelated(itemLocation));

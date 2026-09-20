@@ -1,4 +1,4 @@
-MatchCelebrationPartyPoseMixin = CreateFromMixins(PartyPoseMixin);--- @class MatchCelebrationPartyPoseMixin : PartyPoseMixin
+MatchCelebrationPartyPoseMixin = CreateFromMixins(PartyPoseMixin); --- @class MatchCelebrationPartyPoseMixin : PartyPoseMixin
 
 local function MatchCelebrationPartyPoseFrame_EscapePressed()
 	return MatchCelebrationPartyPoseFrame:IsShown();
@@ -67,7 +67,7 @@ function MatchCelebrationPartyPoseMixin:LoadPartyPose(partyPoseData, forceUpdate
 	self.ExtraButton:Show();
 end
 
-MatchCelebrationExtraButtonMixin = {};--- @class MatchCelebrationExtraButtonMixin
+MatchCelebrationExtraButtonMixin = {}; --- @class MatchCelebrationExtraButtonMixin
 
 function MatchCelebrationExtraButtonMixin:OnClick()
 	local partyPoseID = MatchCelebrationPartyPoseFrame.partyPoseData.partyPoseInfo.partyPoseID; 

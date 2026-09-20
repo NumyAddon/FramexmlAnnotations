@@ -109,7 +109,7 @@ function AreMonthlyActivitiesRestricted()
 end
 
 -- MonthlyActivityButtonTextContainerMixin
-MonthlyActivitiesButtonTextContainerMixin = {};--- @class MonthlyActivitiesButtonTextContainerMixin
+MonthlyActivitiesButtonTextContainerMixin = {}; --- @class MonthlyActivitiesButtonTextContainerMixin
 function MonthlyActivitiesButtonTextContainerMixin:OnLoad()
 	self.NameText:SetMaxLines(2);
 	self.ConditionsText:SetMaxLines(1);
@@ -207,7 +207,7 @@ function MonthlyActivitiesButtonTextContainerMixin:UpdateText(data)
 end
 
 -- MonthlyActivitiesButton
-MonthlyActivitiesButtonMixin = { };--- @class MonthlyActivitiesButtonMixin
+MonthlyActivitiesButtonMixin = { }; --- @class MonthlyActivitiesButtonMixin
 
 function MonthlyActivitiesButtonMixin:Init()
 	self:GetElementData():SetCollapsed(true);
@@ -465,7 +465,7 @@ function MonthlyActivitiesButtonMixin:PlayPendingCompleteAnim(timeOffset)
 end
 
 -- MonthlySupersedeActivitiesButton
-MonthlySupersedeActivitiesButtonMixin = CreateFromMixins(MonthlyActivitiesButtonMixin);--- @class MonthlySupersedeActivitiesButtonMixin : MonthlyActivitiesButtonMixin
+MonthlySupersedeActivitiesButtonMixin = CreateFromMixins(MonthlyActivitiesButtonMixin); --- @class MonthlySupersedeActivitiesButtonMixin : MonthlyActivitiesButtonMixin
 
 function MonthlySupersedeActivitiesButtonMixin:Init()
 	self:UpdateButtonState();
@@ -484,7 +484,7 @@ function MonthlySupersedeActivitiesButtonMixin:UpdateDesaturated()
 end
 
 -- MonthlyActivitiesThresholdMixin
-MonthlyActivitiesThresholdMixin = { };--- @class MonthlyActivitiesThresholdMixin
+MonthlyActivitiesThresholdMixin = { }; --- @class MonthlyActivitiesThresholdMixin
 function MonthlyActivitiesThresholdMixin:SetCurrentPoints(points)
 	self.RewardCurrency:SetCurrentPoints(points);
 
@@ -523,7 +523,7 @@ function MonthlyActivitiesThresholdMixin:SetThresholdInfo(thresholdInfo, showLin
 end
 
 -- MonthlyActivitiesRewardCurrencyMixin
-MonthlyActivitiesRewardCurrencyMixin = { };--- @class MonthlyActivitiesRewardCurrencyMixin
+MonthlyActivitiesRewardCurrencyMixin = { }; --- @class MonthlyActivitiesRewardCurrencyMixin
 
 function MonthlyActivitiesRewardCurrencyMixin:SetCurrentPoints(points)
 	local aboveThreshold = points >= self.thresholdInfo.requiredContributionAmount;
@@ -607,7 +607,7 @@ function MonthlyActivitiesRewardCurrencyMixin:OnLeave()
 end
 
 -- MonthlyActivitiesFilterListButtonMixin
-MonthlyActivitiesFilterListButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class MonthlyActivitiesFilterListButtonMixin : ButtonStateBehaviorMixin
+MonthlyActivitiesFilterListButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class MonthlyActivitiesFilterListButtonMixin : ButtonStateBehaviorMixin
 
 function MonthlyActivitiesFilterListButtonMixin:UpdateStateInternal(selected)
 	if selected then
@@ -643,7 +643,7 @@ function MonthlyActivitiesFilterListButtonMixin:SetSelected(selected)
 end
 
 -- MonthlyActivitiesFilterListMixin
-MonthlyActivitiesFilterListMixin = { };--- @class MonthlyActivitiesFilterListMixin
+MonthlyActivitiesFilterListMixin = { }; --- @class MonthlyActivitiesFilterListMixin
 function MonthlyActivitiesFilterListMixin:OnLoad()
 	local pad = 10;
 	local spacing = 2;
@@ -752,7 +752,7 @@ function MonthlyActivitiesFilterListMixin:UpdateFilters()
 end
 
 -- MonthlyActivitiesFrame
-MonthlyActivitiesFrameMixin = { };--- @class MonthlyActivitiesFrameMixin
+MonthlyActivitiesFrameMixin = { }; --- @class MonthlyActivitiesFrameMixin
 
 local MonthlyActivitiesFrameEvents =
 {
@@ -1596,7 +1596,7 @@ function MonthlyActivitiesFrame_OpenFrameToActivity(activityID)
 end
 
 -- MonthlyActivitiesRewardButton
-MonthlyActivitiesRewardButtonMixin = { };--- @class MonthlyActivitiesRewardButtonMixin
+MonthlyActivitiesRewardButtonMixin = { }; --- @class MonthlyActivitiesRewardButtonMixin
 
 function MonthlyActivitiesRewardButtonMixin:OnLoad()
 	self:SetNormalAtlas("activities-reward-border");
@@ -1649,7 +1649,7 @@ function MonthlyActivitiesRewardButtonMixin:OnUpdate()
 end
 
 -- MonthlyActivitiesThemeContainerMixin
-MonthlyActivitiesThemeContainerMixin = {};--- @class MonthlyActivitiesThemeContainerMixin
+MonthlyActivitiesThemeContainerMixin = {}; --- @class MonthlyActivitiesThemeContainerMixin
 
 function MonthlyActivitiesThemeContainerMixin:OnLoad()
 	local function PositionFrame(frame, point, relativeTo, relativePoint, offsetX, offsetY)

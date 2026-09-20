@@ -22,7 +22,7 @@ local function GetStreamName(clubId, stream)
 	return streamName;
 end
 
-CommunitiesStreamDropdownMixin = {}--- @class CommunitiesStreamDropdownMixin
+CommunitiesStreamDropdownMixin = {} --- @class CommunitiesStreamDropdownMixin
 
 function CommunitiesStreamDropdownMixin:OnLoad()
 	WowStyle1DropdownMixin.OnLoad(self);
@@ -133,7 +133,7 @@ function CommunitiesStreamDropdownMixin:GetCommunitiesFrame()
 	return self:GetParent();
 end
 
-CommunitiesEditStreamDialogMixin = {}--- @class CommunitiesEditStreamDialogMixin
+CommunitiesEditStreamDialogMixin = {} --- @class CommunitiesEditStreamDialogMixin
 
 function CommunitiesEditStreamDialogMixin:OnLoad()
 	self.Description.EditBox:SetScript("OnTabPressed", 
@@ -219,7 +219,7 @@ function CommunitiesEditStreamDialogMixin:GetCommunitiesFrame()
 	return self:GetParent();
 end
 
-CommunitiesNotificationSettingsStreamEntryMixin = {};--- @class CommunitiesNotificationSettingsStreamEntryMixin
+CommunitiesNotificationSettingsStreamEntryMixin = {}; --- @class CommunitiesNotificationSettingsStreamEntryMixin
 
 function CommunitiesNotificationSettingsStreamEntryMixin:SetStream(clubId, streamId)
 	self.clubId = clubId;
@@ -244,7 +244,7 @@ function CommunitiesNotificationSettingsStreamEntryMixin:GetFilter()
 	return self.filter;
 end
 
-CommunitiesNotificationSettingsDialogMixin = {};--- @class CommunitiesNotificationSettingsDialogMixin
+CommunitiesNotificationSettingsDialogMixin = {}; --- @class CommunitiesNotificationSettingsDialogMixin
 
 function CommunitiesNotificationSettingsDialogMixin:OnLoad()
 	self.buttonPool = CreateFramePool("BUTTON", self.ScrollFrame.Child, "CommunitiesNotificationSettingsStreamEntryTemplate");
@@ -356,7 +356,7 @@ function CommunitiesNotificationSettingsDialogCancelButton_OnClick(self)
 	CommunitiesFrame.NotificationSettingsDialog:Cancel();
 end
 
-CommunitiesAddToChatMixin = {};--- @class CommunitiesAddToChatMixin
+CommunitiesAddToChatMixin = {}; --- @class CommunitiesAddToChatMixin
 
 function CommunitiesAddToChatMixin:OnShow()
 	self:SetupMenu(function(dropdown, rootDescription)

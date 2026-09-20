@@ -1,4 +1,4 @@
-AzeriteEmpoweredItemPowerMixin = {};--- @class AzeriteEmpoweredItemPowerMixin
+AzeriteEmpoweredItemPowerMixin = {}; --- @class AzeriteEmpoweredItemPowerMixin
 
 local CLICK_MODEL_SCENE_INFO = StaticModelInfo.CreateModelSceneEntry(219, 1983548); -- 8FX_AZERITE_GENERIC_NOVAHIGH_BASE;
 local SELECTION_READY_MODEL_SCENE_INFO = StaticModelInfo.CreateModelSceneEntry(222, 1983980); -- 8FX_AZERITE_EMPOWER_STATECHEST

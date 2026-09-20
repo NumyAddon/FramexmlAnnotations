@@ -1,4 +1,4 @@
-PrivateAurasTooltipMixin = {};--- @class PrivateAurasTooltipMixin
+PrivateAurasTooltipMixin = {}; --- @class PrivateAurasTooltipMixin
 
 function PrivateAurasTooltipMixin:OnLoad_PrivateAuraTooltip()
 	GameTooltip_OnLoad(self);

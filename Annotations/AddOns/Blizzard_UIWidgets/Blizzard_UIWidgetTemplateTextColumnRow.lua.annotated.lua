@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.TextColumnRow, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateTextColumnRow"}, GetTextColumnRowVisInfoData);
 
-UIWidgetTemplateTextColumnRowMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateTextColumnRowMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateTextColumnRowMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateTextColumnRowMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateTextColumnRowMixin:OnLoad()
 	UIWidgetBaseTemplateMixin.OnLoad(self); 
@@ -65,7 +65,7 @@ function UIWidgetTemplateTextColumnRowMixin:OnReset()
 	self.entryPool:ReleaseAll();
 end
 
-UIWidgetTemplateTextColumnRowColumnMixin = {};--- @class UIWidgetTemplateTextColumnRowColumnMixin
+UIWidgetTemplateTextColumnRowColumnMixin = {}; --- @class UIWidgetTemplateTextColumnRowColumnMixin
 
 function UIWidgetTemplateTextColumnRowColumnMixin:Setup(text, fontType, textSizeType, enabledState, hAlign, columnWidth, layoutIndex)
 	self.Text:SetWidth(columnWidth);

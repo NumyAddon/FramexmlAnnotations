@@ -48,7 +48,7 @@ local function FormatTextureInfo(region, ...)
 	end
 end
 
-TextureInfoGeneratorMixin = {};--- @class TextureInfoGeneratorMixin
+TextureInfoGeneratorMixin = {}; --- @class TextureInfoGeneratorMixin
 
 function TextureInfoGeneratorMixin:CheckGetRegionsTextureInfo(...)
 	local info = {};

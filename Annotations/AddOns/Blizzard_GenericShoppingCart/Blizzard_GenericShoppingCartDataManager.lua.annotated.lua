@@ -6,7 +6,7 @@ ShoppingCartDataServices = {
 	PurchaseCart = "PurchaseCart",
 };
 
-ShoppingCartDataManagerMixin = CreateFromMixins(ShoppingCartServiceRegistrantMixin);--- @class ShoppingCartDataManagerMixin : ShoppingCartServiceRegistrantMixin
+ShoppingCartDataManagerMixin = CreateFromMixins(ShoppingCartServiceRegistrantMixin); --- @class ShoppingCartDataManagerMixin : ShoppingCartServiceRegistrantMixin
 
 function ShoppingCartDataManagerMixin:Init(eventNamespace)
 	self.cartList = {};
@@ -125,7 +125,7 @@ function ShoppingCartDataManagerMixin:GetNumItemsInCart()
 	return #self.cartList;
 end
 
-ShoppingCartClearCartServiceMixin = {};--- @class ShoppingCartClearCartServiceMixin
+ShoppingCartClearCartServiceMixin = {}; --- @class ShoppingCartClearCartServiceMixin
 
 function ShoppingCartClearCartServiceMixin:GetEventData()
 	local clearRequiresConfimation = true;

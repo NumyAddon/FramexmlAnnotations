@@ -1,4 +1,4 @@
-CampaignOverviewMixin = {};--- @class CampaignOverviewMixin
+CampaignOverviewMixin = {}; --- @class CampaignOverviewMixin
 
 function CampaignOverviewMixin:OnLoad()
 	self.ScrollFrame.ScrollBar:ClearAllPoints();
@@ -110,7 +110,7 @@ function CampaignOverviewMixin:UpdateCampaignLoreText(campaignID, textEntries)
 	self.ScrollFrame:UpdateFade();
 end
 
-CampaignOverviewScrollFrameMixin = {};--- @class CampaignOverviewScrollFrameMixin
+CampaignOverviewScrollFrameMixin = {}; --- @class CampaignOverviewScrollFrameMixin
 
 function CampaignOverviewScrollFrameMixin:OnLoad()
 	ScrollFrame_OnLoad(self);

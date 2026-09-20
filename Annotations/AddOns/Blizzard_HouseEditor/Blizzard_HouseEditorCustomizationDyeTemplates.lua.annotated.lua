@@ -1,4 +1,4 @@
-HousingDyePaneMixin = {};--- @class HousingDyePaneMixin
+HousingDyePaneMixin = {}; --- @class HousingDyePaneMixin
 
 function HousingDyePaneMixin:OnLoad()
 	ClickToDragMixin.OnLoad(self);
@@ -155,7 +155,7 @@ function HousingDyePaneMixin:ClearDecorInfo()
 	self.currentChannel = nil;
 end
 
-HousingDecorDyeSlotMixin = {};--- @class HousingDecorDyeSlotMixin
+HousingDecorDyeSlotMixin = {}; --- @class HousingDecorDyeSlotMixin
 
 function HousingDecorDyeSlotMixin:SetDyeSlotInfo(dyeSlotInfo, onClickCallback)
 	self.dyeSlotInfo = dyeSlotInfo;
@@ -176,7 +176,7 @@ function HousingDecorDyeSlotMixin:SetDyeSlotInfo(dyeSlotInfo, onClickCallback)
 	self.CurrentSwatch:SetDyeColorInfo(dyeColorInfo, isSelected, onClickCallback, isClearing);
 end
 
-HousingDecorDyeSlotPopoutMixin = {};--- @class HousingDecorDyeSlotPopoutMixin
+HousingDecorDyeSlotPopoutMixin = {}; --- @class HousingDecorDyeSlotPopoutMixin
 
 function HousingDecorDyeSlotPopoutMixin:OnLoad()
 	self.dyeSwatchPool = CreateFramePool("BUTTON", self.DyeSlotScrollBox.Contents.DyeSwatchContainer, "HousingDecorDyeSwatchTemplate", HousingDecorDyeSwatchMixin.Reset);
@@ -295,7 +295,7 @@ function HousingDecorDyeSlotPopoutMixin:OnSwatchClicked(dyeSwatch)
 	C_HousingCustomizeMode.ApplyDyeToSelectedDecor(self.dyeSlotInfo.ID, selectedColorID);
 end
 
-HousingDecorDyeSwatchMixin = {};--- @class HousingDecorDyeSwatchMixin
+HousingDecorDyeSwatchMixin = {}; --- @class HousingDecorDyeSwatchMixin
 
 function HousingDecorDyeSwatchMixin:SetDyeColorInfo(dyeColorInfo, isSelected, onClickCallback, isClearing)
 	self.dyeColorInfo = dyeColorInfo;
@@ -368,7 +368,7 @@ function HousingDecorDyeSwatchMixin:OnClick()
 	end
 end
 
-HousingDyeCostIconMixin = {};--- @class HousingDyeCostIconMixin
+HousingDyeCostIconMixin = {}; --- @class HousingDyeCostIconMixin
 
 function HousingDyeCostIconMixin:Init(itemID, numOwned, unowned)
 	self.itemID = itemID;

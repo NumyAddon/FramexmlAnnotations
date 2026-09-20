@@ -1,6 +1,6 @@
 ----------------- Parent Frame -----------------
 
-CustomizationParentFrameBaseMixin = {};--- @class CustomizationParentFrameBaseMixin
+CustomizationParentFrameBaseMixin = {}; --- @class CustomizationParentFrameBaseMixin
 
 function CustomizationParentFrameBaseMixin:SetCustomizationChoice(optionID, choiceID)
 	-- Required Override
@@ -70,7 +70,7 @@ end
 ----------------- Randomize Appearance Button -----------------
 
 -- Expects to inherit CustomizationSmallButtonMixin
-CustomizationRandomizeAppearanceButtonMixin = CreateFromMixins(NarrationSkipTooltipsMixin);--- @class CustomizationRandomizeAppearanceButtonMixin : NarrationSkipTooltipsMixin
+CustomizationRandomizeAppearanceButtonMixin = CreateFromMixins(NarrationSkipTooltipsMixin); --- @class CustomizationRandomizeAppearanceButtonMixin : NarrationSkipTooltipsMixin
 
 function CustomizationRandomizeAppearanceButtonMixin:OnClick()
 	CustomizationSmallButtonMixin.OnClick(self);
@@ -84,7 +84,7 @@ end
 ----------------- Reset Camera Button -----------------
 
 -- Expects to inherit CustomizationSmallButtonMixin
-CustomizationResetCameraButtonMixin = CreateFromMixins(NarrationSkipTooltipsMixin);--- @class CustomizationResetCameraButtonMixin : NarrationSkipTooltipsMixin
+CustomizationResetCameraButtonMixin = CreateFromMixins(NarrationSkipTooltipsMixin); --- @class CustomizationResetCameraButtonMixin : NarrationSkipTooltipsMixin
 
 function CustomizationResetCameraButtonMixin:OnClick()
 	CustomizationSmallButtonMixin.OnClick(self);
@@ -99,7 +99,7 @@ end
 
 ----------------- Zoom Button -----------------
 
-CustomizationZoomButtonMixin = CreateFromMixins(CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin);--- @class CustomizationZoomButtonMixin : CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin
+CustomizationZoomButtonMixin = CreateFromMixins(CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin); --- @class CustomizationZoomButtonMixin : CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin
 
 function CustomizationZoomButtonMixin:DoClickAction()
 	self:GetCustomizationFrame():ZoomCamera(self.clickAmount);
@@ -115,7 +115,7 @@ end
 
 ----------------- Rotate Button -----------------
 
-CustomizationRotateButtonMixin = CreateFromMixins(CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin);--- @class CustomizationRotateButtonMixin : CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin
+CustomizationRotateButtonMixin = CreateFromMixins(CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin); --- @class CustomizationRotateButtonMixin : CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin
 
 function CustomizationRotateButtonMixin:DoClickAction()
 	self:GetCustomizationFrame():RotateSubject(self.clickAmount);
@@ -131,7 +131,7 @@ end
 
 ----------------- Category Button -----------------
 
-CustomizationCategoryButtonMixin = CreateFromMixins(CustomizationMaskedButtonMixin, CustomizationContentFrameMixin);--- @class CustomizationCategoryButtonMixin : CustomizationMaskedButtonMixin, CustomizationContentFrameMixin
+CustomizationCategoryButtonMixin = CreateFromMixins(CustomizationMaskedButtonMixin, CustomizationContentFrameMixin); --- @class CustomizationCategoryButtonMixin : CustomizationMaskedButtonMixin, CustomizationContentFrameMixin
 
 function CustomizationCategoryButtonMixin:SetCategory(categoryData, selectedCategoryID)
 	self.categoryData = categoryData;
@@ -207,7 +207,7 @@ end
 
 ----------------- Customization Frame -----------------
 
-CustomizationFrameBaseMixin = {};--- @class CustomizationFrameBaseMixin
+CustomizationFrameBaseMixin = {}; --- @class CustomizationFrameBaseMixin
 
 function CustomizationFrameBaseMixin:CustomizationFrameBase_OnLoad()
 	self:RegisterEvent("CVAR_UPDATE");

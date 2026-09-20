@@ -1,5 +1,5 @@
 
-RuneforgeItemSlotMixin = CreateFromMixins(RuneforgeSystemMixin);--- @class RuneforgeItemSlotMixin : RuneforgeSystemMixin
+RuneforgeItemSlotMixin = CreateFromMixins(RuneforgeSystemMixin); --- @class RuneforgeItemSlotMixin : RuneforgeSystemMixin
 
 local RuneforgeItemSlotEvents = {
 	"UNIT_INVENTORY_CHANGED",
@@ -276,7 +276,7 @@ function RuneforgeItemSlotMixin:UpdateEffectVisibility()
 end
 
 
-RuneforgeUpgradeItemSlotMixin = CreateFromMixins(RuneforgeItemSlotMixin);--- @class RuneforgeUpgradeItemSlotMixin : RuneforgeItemSlotMixin
+RuneforgeUpgradeItemSlotMixin = CreateFromMixins(RuneforgeItemSlotMixin); --- @class RuneforgeUpgradeItemSlotMixin : RuneforgeItemSlotMixin
 
 function RuneforgeUpgradeItemSlotMixin:SetEvents()
 	self.onEnterEvent = RuneforgeFrameMixin.Event.UpgradeItemSlotOnEnter;

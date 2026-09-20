@@ -1,7 +1,7 @@
 -- NOTE: If you make changes here, you likely need to make changes to EvokerEbonMightBar.lua
 
 -- Evoker Alternate Power Bar: Ebon Might
-EvokerAlternatePowerBarMixin = {};--- @class EvokerAlternatePowerBarMixin
+EvokerAlternatePowerBarMixin = {}; --- @class EvokerAlternatePowerBarMixin
 
 -- Ebon Might Spell that applies Aura on Self
 local EBON_MIGHT_SELF_AURA_SPELL_ID = 395296;

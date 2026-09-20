@@ -4,7 +4,7 @@ local ROLE_COUNT_EVENTS = {
 	"PLAYER_ROLES_ASSIGNED",
 };
 
-RoleCountMixin = {};--- @class RoleCountMixin
+RoleCountMixin = {}; --- @class RoleCountMixin
 
 function RoleCountMixin:OnShow()
 	self:Refresh();
@@ -26,7 +26,7 @@ function RoleCountMixin:Refresh()
 	self.TankCount:SetText(counts.TANK);
 end
 
-TalentRankDisplayMixin = { };--- @class TalentRankDisplayMixin
+TalentRankDisplayMixin = { }; --- @class TalentRankDisplayMixin
 
 function TalentRankDisplayMixin:SetValues(currentRank, maxRank, isDisabled, isAvailable)
 	self.Text:SetFormattedText(GENERIC_FRACTION_STRING, currentRank, maxRank);
@@ -47,7 +47,7 @@ function TalentRankDisplayMixin:SetValues(currentRank, maxRank, isDisabled, isAv
 	self.Text:SetTextColor(textColor:GetRGB());
 end
 
-CurrencyDisplayMixin = CreateFromMixins(CurrencyTemplateMixin);--- @class CurrencyDisplayMixin : CurrencyTemplateMixin
+CurrencyDisplayMixin = CreateFromMixins(CurrencyTemplateMixin); --- @class CurrencyDisplayMixin : CurrencyTemplateMixin
 
 -- currencies: An array of currencyInfo
 -- currencyInfo: either a currencyID, or an array with { currencyID, overrideAmount, colorCode }, or a table with { currencyID = 123, amount = 45, colorCode = RED_FONT_COLOR_CODE [, formatString = "5 / %s"] }
@@ -91,7 +91,7 @@ function CurrencyDisplayMixin:SetCurrencyFont(fontObject)
 	self.Text:SetFontObject(fontObject);
 end
 
-CurrencyDisplayGroupMixin = {};--- @class CurrencyDisplayGroupMixin
+CurrencyDisplayGroupMixin = {}; --- @class CurrencyDisplayGroupMixin
 
 function CurrencyDisplayGroupMixin:OnLoad()
 	self.currencyFramePool = CreateFramePool("FRAME", self, "CurrencyDisplayTemplate");
@@ -168,7 +168,7 @@ function CurrencyDisplayGroupMixin:SetCurrencyFont(fontObject)
 	self.customFontObject = fontObject;
 end
 
-CurrencyLayoutFrameIconMixin = {};--- @class CurrencyLayoutFrameIconMixin
+CurrencyLayoutFrameIconMixin = {}; --- @class CurrencyLayoutFrameIconMixin
 
 function CurrencyLayoutFrameIconMixin:OnEnter()
 	if self.currencyID then
@@ -190,7 +190,7 @@ function CurrencyLayoutFrameIconMixin:SetItemID(itemID)
 	self.itemID = itemID;
 end
 
-CurrencyHorizontalLayoutFrameMixin = {};--- @class CurrencyHorizontalLayoutFrameMixin
+CurrencyHorizontalLayoutFrameMixin = {}; --- @class CurrencyHorizontalLayoutFrameMixin
 
 function CurrencyHorizontalLayoutFrameMixin:Clear()
 	if self.quantityPool then

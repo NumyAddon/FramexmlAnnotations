@@ -85,7 +85,7 @@ function ClassTrial_ShowStoreServices(guid, boostType)
 	end
 end
 
-ClassTrialDialogMixin = {}--- @class ClassTrialDialogMixin
+ClassTrialDialogMixin = {} --- @class ClassTrialDialogMixin
 
 function ClassTrialDialogMixin:ShowThanks(soundKit)
 	local className, classFilename = UnitClass("player");
@@ -190,7 +190,7 @@ function ClassTrialDialogMixin:OnLoad()
 	self:RegisterEvent("CLASS_TRIAL_UPGRADE_COMPLETE");
 end
 
-ExpansionTrialDialogMixin = CreateFromMixins(BaseExpandableDialogMixin);--- @class ExpansionTrialDialogMixin : BaseExpandableDialogMixin
+ExpansionTrialDialogMixin = CreateFromMixins(BaseExpandableDialogMixin); --- @class ExpansionTrialDialogMixin : BaseExpandableDialogMixin
 
 local textureKitRegionInfo = {
 	["Top"] = {formatString= "%s-expansionTrialPopup-top", useAtlasSize=true},
@@ -285,7 +285,7 @@ function ExpansionTrialDialogMixin:OnCloseClick()
 	end
 end
 
-ClassTrialTimerDisplayMixin = {}--- @class ClassTrialTimerDisplayMixin
+ClassTrialTimerDisplayMixin = {} --- @class ClassTrialTimerDisplayMixin
 
 function ClassTrialTimerDisplayMixin:SetupCountdown()
 	self.kickTime = C_ClassTrial.GetClassTrialLogoutTimeSeconds();

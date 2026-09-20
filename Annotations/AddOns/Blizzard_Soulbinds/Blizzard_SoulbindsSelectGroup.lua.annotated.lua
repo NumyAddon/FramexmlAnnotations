@@ -1,4 +1,4 @@
-SoulbindSelectGroupMixin = CreateFromMixins(CallbackRegistryMixin);--- @class SoulbindSelectGroupMixin : CallbackRegistryMixin
+SoulbindSelectGroupMixin = CreateFromMixins(CallbackRegistryMixin); --- @class SoulbindSelectGroupMixin : CallbackRegistryMixin
 
 SoulbindSelectGroupMixin:GenerateCallbackEvents(
 	{

@@ -1,6 +1,6 @@
 UIPanelWindows["TokenFrame"] = { area = "left", pushable = 1, whileDead = 1 };
 
-TokenHeaderMixin = {};--- @class TokenHeaderMixin
+TokenHeaderMixin = {}; --- @class TokenHeaderMixin
 
 function TokenHeaderMixin:OnLoad_TokenHeaderTemplate()
 	self:SetClickHandler(function(_header, button)
@@ -30,7 +30,7 @@ function TokenHeaderMixin:ToggleCollapsed()
 	TokenFramePopup:CloseIfHidden();
 end
 
-TokenEntryMixin = {};--- @class TokenEntryMixin
+TokenEntryMixin = {}; --- @class TokenEntryMixin
 
 function TokenEntryMixin:OnLoad()
 	self.Content.BackgroundHighlight:SetFrameLevel(self:GetFrameLevel() - 1);
@@ -170,7 +170,7 @@ function TokenEntryMixin:OnLeave()
 	self:RefreshHighlightVisuals();
 end
 
-TokenEntryAccountWideIconMixin = {};--- @class TokenEntryAccountWideIconMixin
+TokenEntryAccountWideIconMixin = {}; --- @class TokenEntryAccountWideIconMixin
 
 function TokenEntryAccountWideIconMixin:OnEnter()
 	if not self:IsShown() then
@@ -191,7 +191,7 @@ function TokenEntryAccountWideIconMixin:GetCurrencyButton()
 	return self:GetParent():GetParent();
 end
 
-TokenSubHeaderMixin = {};--- @class TokenSubHeaderMixin
+TokenSubHeaderMixin = {}; --- @class TokenSubHeaderMixin
 
 function TokenSubHeaderMixin:Initialize(elementData)
 	self.elementData = elementData;
@@ -210,7 +210,7 @@ function TokenSubHeaderMixin:ToggleCollapsed()
 	TokenFramePopup:CloseIfHidden();
 end
 
-TokenSubHeaderToggleCollapseButtonMixin = {};--- @class TokenSubHeaderToggleCollapseButtonMixin
+TokenSubHeaderToggleCollapseButtonMixin = {}; --- @class TokenSubHeaderToggleCollapseButtonMixin
 
 function TokenSubHeaderToggleCollapseButtonMixin:GetHeader()
 	return self:GetParent();
@@ -230,7 +230,7 @@ local TOKEN_FRAME_EVENTS = {
 	"ACCOUNT_CHARACTER_CURRENCY_DATA_RECEIVED",
 };
 
-TokenFrameMixin = {};--- @class TokenFrameMixin
+TokenFrameMixin = {}; --- @class TokenFrameMixin
 
 function TokenFrameMixin:OnLoad()
 	local view = CreateScrollBoxListLinearView();
@@ -455,7 +455,7 @@ function TokenFrameMixin:SetTokenWatched(id, watched)
 	return true;
 end
 
-TokenFramePopupMixin = {};--- @class TokenFramePopupMixin
+TokenFramePopupMixin = {}; --- @class TokenFramePopupMixin
 
 function TokenFramePopupMixin:CloseIfHidden()
 	-- This handles the case where you close a category with the selected token popup shown
@@ -514,7 +514,7 @@ function TokenFrameMixin:UpdatePopup(button)
 	TokenFramePopup:SetHeight(TokenFramePopup:CalculateBestHeight());
 end
 
-InactiveCurrencyCheckboxMixin = {};--- @class InactiveCurrencyCheckboxMixin
+InactiveCurrencyCheckboxMixin = {}; --- @class InactiveCurrencyCheckboxMixin
 
 function InactiveCurrencyCheckboxMixin:OnLoad()
 	self.Text:SetText(UNUSED);
@@ -548,7 +548,7 @@ function InactiveCurrencyCheckboxMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-BackpackCurrencyCheckboxMixin = {};--- @class BackpackCurrencyCheckboxMixin
+BackpackCurrencyCheckboxMixin = {}; --- @class BackpackCurrencyCheckboxMixin
 
 function BackpackCurrencyCheckboxMixin:OnLoad()
 	self.Text:SetText(SHOW_ON_BACKPACK);
@@ -577,7 +577,7 @@ function BackpackCurrencyCheckboxMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-BackpackTokenFrameMixin = {};--- @class BackpackTokenFrameMixin
+BackpackTokenFrameMixin = {}; --- @class BackpackTokenFrameMixin
 
 function BackpackTokenFrameMixin:OnLoad()
 	EventRegistry:RegisterCallback("ContainerFrame.OnShowTokenWatcher", self.MarkDirty, self);
@@ -701,7 +701,7 @@ function BackpackTokenFrameMixin:GetMaxTokensWatched()
 	return math.max(math.floor(self:GetWidth() / self.tokenWidth), 1);
 end
 
-BackpackTokenMixin = {};--- @class BackpackTokenMixin
+BackpackTokenMixin = {}; --- @class BackpackTokenMixin
 
 function BackpackTokenMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");

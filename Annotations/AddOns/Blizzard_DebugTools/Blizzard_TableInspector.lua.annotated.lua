@@ -6,7 +6,7 @@ local DEFAULT_DATA_PROVIDERS = {
 	TableInspectorAttributeDataProviderMixin,
 };
 
-TableInspectorMixin = CreateFromMixins(ToolWindowOwnerMixin);--- @class TableInspectorMixin : ToolWindowOwnerMixin
+TableInspectorMixin = CreateFromMixins(ToolWindowOwnerMixin); --- @class TableInspectorMixin : ToolWindowOwnerMixin
 
 function TableInspectorMixin:OnLoad()
 	self:Reset();

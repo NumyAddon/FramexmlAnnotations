@@ -105,7 +105,7 @@ local function ClassAltPowerBarInfoForClassID(classID)
 	return CLASS_ALT_POWER_BAR_INFO_MAP[classID];
 end
 
-PersonalResourceDisplayMixin = {};--- @class PersonalResourceDisplayMixin
+PersonalResourceDisplayMixin = {}; --- @class PersonalResourceDisplayMixin
 
 function PersonalResourceDisplayMixin:OnLoad()
 	FrameUtil.RegisterFrameForEvents(self, PERSONAL_RESOURCE_DISPLAY_ON_LOAD_EVENTS);

@@ -1,4 +1,4 @@
-ContributionCollectorDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class ContributionCollectorDataProviderMixin : MapCanvasDataProviderMixin
+ContributionCollectorDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class ContributionCollectorDataProviderMixin : MapCanvasDataProviderMixin
 
 function ContributionCollectorDataProviderMixin:RemoveAllData()
 	self:GetMap():RemoveAllPinsByTemplate("ContributionCollectorPinTemplate");

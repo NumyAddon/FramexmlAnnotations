@@ -83,7 +83,7 @@ function MarkNewSettingAsSeen(setting)
 	end
 end
 
-NewDefinitionsCheckerMixin = {};--- @class NewDefinitionsCheckerMixin
+NewDefinitionsCheckerMixin = {}; --- @class NewDefinitionsCheckerMixin
 
 function NewDefinitionsCheckerMixin:NDCM_OnShow()
 	EventRegistry:RegisterCallback("NewSettingSeen", function()
@@ -149,7 +149,7 @@ function NewDefinitionsCheckerMixin:SetNewOptionAnchor()
 	end
 end
 
-NewDefinitionsCheckerButtonMixin = CreateFromMixins(NewDefinitionsCheckerMixin);--- @class NewDefinitionsCheckerButtonMixin : NewDefinitionsCheckerMixin
+NewDefinitionsCheckerButtonMixin = CreateFromMixins(NewDefinitionsCheckerMixin); --- @class NewDefinitionsCheckerButtonMixin : NewDefinitionsCheckerMixin
 
 function NewDefinitionsCheckerButtonMixin:SetNewOptionAnchor()
 	local newOptionFrame = self:GetNewOptionDisplay();

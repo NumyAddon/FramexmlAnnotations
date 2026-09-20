@@ -5,7 +5,7 @@ local MaximumBulletPoints = 10;
 UIPanelWindows["SubscriptionInterstitialFrame"] = { area = "center", pushable = 0, whileDead = 1 };
 
 
-SubscriptionInterstitialSubscribeButtonBaseMixin = {};--- @class SubscriptionInterstitialSubscribeButtonBaseMixin
+SubscriptionInterstitialSubscribeButtonBaseMixin = {}; --- @class SubscriptionInterstitialSubscribeButtonBaseMixin
 
 function SubscriptionInterstitialSubscribeButtonBaseMixin:OnLoad()
 	local useAtlasSize = true;
@@ -41,7 +41,7 @@ function SubscriptionInterstitialSubscribeButtonBaseMixin:ClearClickState()
 end
 
 
-SubscriptionInterstitialSubscribeButtonMixin = {};--- @class SubscriptionInterstitialSubscribeButtonMixin
+SubscriptionInterstitialSubscribeButtonMixin = {}; --- @class SubscriptionInterstitialSubscribeButtonMixin
 
 function SubscriptionInterstitialSubscribeButtonMixin:OnLoad()
 	SubscriptionInterstitialSubscribeButtonBaseMixin.OnLoad(self);
@@ -59,7 +59,7 @@ function SubscriptionInterstitialSubscribeButtonMixin:OnLoad()
 end
 
 
-SubscriptionInterstitialUpgradeButtonMixin = {};--- @class SubscriptionInterstitialUpgradeButtonMixin
+SubscriptionInterstitialUpgradeButtonMixin = {}; --- @class SubscriptionInterstitialUpgradeButtonMixin
 
 function SubscriptionInterstitialUpgradeButtonMixin:OnLoad()
 	SubscriptionInterstitialSubscribeButtonBaseMixin.OnLoad(self);
@@ -90,7 +90,7 @@ function SubscriptionInterstitialUpgradeButtonMixin:OnLoad()
 end
 
 
-SubscriptionInterstitialCloseButtonMixin = {};--- @class SubscriptionInterstitialCloseButtonMixin
+SubscriptionInterstitialCloseButtonMixin = {}; --- @class SubscriptionInterstitialCloseButtonMixin
 
 function SubscriptionInterstitialCloseButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_CLOSE);
@@ -98,7 +98,7 @@ function SubscriptionInterstitialCloseButtonMixin:OnClick()
 end
 
 
-SubscriptionInterstitialFrameMixin = {}--- @class SubscriptionInterstitialFrameMixin
+SubscriptionInterstitialFrameMixin = {} --- @class SubscriptionInterstitialFrameMixin
 
 function SubscriptionInterstitialFrameMixin:OnLoad()
 	self:RegisterEvent("SHOW_SUBSCRIPTION_INTERSTITIAL");

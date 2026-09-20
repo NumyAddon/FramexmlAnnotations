@@ -1,7 +1,7 @@
 local POWER_LOCKED_MODEL_SCENE_INFO = StaticModelInfo.CreateModelSceneEntry(221, 2101307); -- 8FX_AZERITE_ABSORBCURRENCY_LARGE_IMPACTBASE
 local FINAL_POWER_LOCKED_MODEL_SCENE_INFO = StaticModelInfo.CreateModelSceneEntry(223, 2101307); -- 8FX_AZERITE_ABSORBCURRENCY_LARGE_IMPACTBASE
 
-AzeriteEmpoweredItemSlotMixin = {};--- @class AzeriteEmpoweredItemSlotMixin
+AzeriteEmpoweredItemSlotMixin = {}; --- @class AzeriteEmpoweredItemSlotMixin
 
 function AzeriteEmpoweredItemSlotMixin:OnShow()
 	self:RegisterEvent("UI_MODEL_SCENE_INFO_UPDATED");

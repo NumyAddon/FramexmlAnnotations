@@ -14,7 +14,7 @@ end
 
 ------------------------- Item Upgrade Frame -------------------------
 
-ItemUpgradeMixin = {};--- @class ItemUpgradeMixin
+ItemUpgradeMixin = {}; --- @class ItemUpgradeMixin
 
 function ItemUpgradeMixin:OnLoad()
 	self:SetPortraitToAsset("Interface\\Icons\\UI_ItemUpgrade");
@@ -677,7 +677,7 @@ end
 
 ------------------------- Item Upgrade Button -------------------------
 
-ItemUpgradeButtonMixin = {};--- @class ItemUpgradeButtonMixin
+ItemUpgradeButtonMixin = {}; --- @class ItemUpgradeButtonMixin
 
 function ItemUpgradeButtonMixin:OnClick()
 	self:SetEnabled(false);
@@ -736,7 +736,7 @@ end
 
 ------------------------- Item Upgrade Preview -------------------------
 
-ItemUpgradePreviewMixin = {};--- @class ItemUpgradePreviewMixin
+ItemUpgradePreviewMixin = {}; --- @class ItemUpgradePreviewMixin
 
 function ItemUpgradePreviewMixin:OnShow()
 	if self.UpgradedAnim then
@@ -900,7 +900,7 @@ end
 
 ------------------------- Item Upgrade Slot -------------------------
 
-ItemUpgradeSlotMixin = {};--- @class ItemUpgradeSlotMixin
+ItemUpgradeSlotMixin = {}; --- @class ItemUpgradeSlotMixin
 
 function ItemUpgradeSlotMixin:OnLoad()
 	local function SetUpgradeableItemCallback(button)
@@ -977,7 +977,7 @@ end
 
 ------------------------- Item Upgrade Item Info -------------------------
 
-ItemUpgradeItemInfoMixin = {};--- @class ItemUpgradeItemInfoMixin
+ItemUpgradeItemInfoMixin = {}; --- @class ItemUpgradeItemInfoMixin
 
 function ItemUpgradeItemInfoMixin:Setup(upgradeInfo, canUpgrade)
 	if not upgradeInfo then
@@ -1024,7 +1024,7 @@ local WeaponSetHighWatermarkSlots = {
 	Enum.ItemRedundancySlot.Offhand,
 };
 
-ItemUpgradeCostQuantityMixin = {};--- @class ItemUpgradeCostQuantityMixin
+ItemUpgradeCostQuantityMixin = {}; --- @class ItemUpgradeCostQuantityMixin
 
 function ItemUpgradeCostQuantityMixin:OnEnter()
 	if not self.costInfo or not self.costInfo.discountInfo or not self.costInfo.discountInfo.isDiscounted then
@@ -1084,7 +1084,7 @@ end
 
 ------------------------- Item Upgrade Cost Icon -------------------------
 
-ItemUpgradeCostIconMixin = {};--- @class ItemUpgradeCostIconMixin
+ItemUpgradeCostIconMixin = {}; --- @class ItemUpgradeCostIconMixin
 
 function ItemUpgradeCostIconMixin:OnEnter()
 	if self.currencyID or self.itemID then

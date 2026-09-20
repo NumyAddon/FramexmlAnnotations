@@ -236,14 +236,14 @@ function NarrationUtil.NarrateCurrentScreen(text)
 end
 
 -- Use if you have a child that should narrate as if it is its parent.
-NarrationForwardToParentMixin = {};--- @class NarrationForwardToParentMixin
+NarrationForwardToParentMixin = {}; --- @class NarrationForwardToParentMixin
 
 function NarrationForwardToParentMixin:NarrationGetForwardedRegion()
 	return self:GetParent();
 end
 
 -- Use for regions that should narrate a fixed name set via Key-Value or SetNarrationName.
-NarrationStaticNameMixin = {};--- @class NarrationStaticNameMixin
+NarrationStaticNameMixin = {}; --- @class NarrationStaticNameMixin
 
 function NarrationStaticNameMixin:SetNarrationName(name)
 	self.narrationName = name;
@@ -260,7 +260,7 @@ function NarrationUtil.SetStaticName(region, name)
 end
 
 -- Use for regions that should narrate a fixed description set via SetNarrationDescription.
-NarrationStaticDescriptionMixin = {};--- @class NarrationStaticDescriptionMixin
+NarrationStaticDescriptionMixin = {}; --- @class NarrationStaticDescriptionMixin
 
 function NarrationStaticDescriptionMixin:SetNarrationDescription(description)
 	self.narrationDescription = description;
@@ -277,7 +277,7 @@ function NarrationUtil.SetStaticDescription(region, description)
 end
 
 -- Use for regions whose tooltips should be skipped during narration navigation.
-NarrationSkipTooltipsMixin = {};--- @class NarrationSkipTooltipsMixin
+NarrationSkipTooltipsMixin = {}; --- @class NarrationSkipTooltipsMixin
 
 function NarrationSkipTooltipsMixin:NarrationNavigationShouldSkipTooltips()
 	return true;
@@ -285,7 +285,7 @@ end
 
 -- Use for child regions that should forward only their NarrationGetName to their parent.
 -- Use NarrationForwardToParentMixin for complete forwarding.
-NarrationForwardNameToParentMixin = {};--- @class NarrationForwardNameToParentMixin
+NarrationForwardNameToParentMixin = {}; --- @class NarrationForwardNameToParentMixin
 
 function NarrationForwardNameToParentMixin:NarrationGetName()
 	return self:GetParent():NarrationGetName();
@@ -293,7 +293,7 @@ end
 
 -- Use for child regions that should forward only their NarrationGetDescription to their parent.
 -- Use NarrationForwardToParentMixin for complete forwarding.
-NarrationForwardDescriptionToParentMixin = {};--- @class NarrationForwardDescriptionToParentMixin
+NarrationForwardDescriptionToParentMixin = {}; --- @class NarrationForwardDescriptionToParentMixin
 
 function NarrationForwardDescriptionToParentMixin:NarrationGetDescription()
 	return self:GetParent():NarrationGetDescription();

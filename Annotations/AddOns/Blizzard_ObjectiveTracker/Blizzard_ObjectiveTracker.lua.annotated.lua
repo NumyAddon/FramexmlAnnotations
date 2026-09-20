@@ -1,4 +1,4 @@
-ObjectiveTrackerFrameMixin = { };--- @class ObjectiveTrackerFrameMixin
+ObjectiveTrackerFrameMixin = { }; --- @class ObjectiveTrackerFrameMixin
 
 function ObjectiveTrackerFrameMixin:OnLoad()
 	ObjectiveTrackerContainerMixin.OnLoad(self);

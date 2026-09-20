@@ -6,7 +6,7 @@ function ShouldShowMawBuffs()
 	return IsInJailersTower() or hasMawBuff or false;
 end
 
-MawBuffsContainerMixin = {};--- @class MawBuffsContainerMixin
+MawBuffsContainerMixin = {}; --- @class MawBuffsContainerMixin
 
 function MawBuffsContainerMixin:OnLoad()
 	self:Update();
@@ -140,7 +140,7 @@ function MawBuffsContainerMixin:HideBuffHighlight(spellID)
 	self.List:HideBuffHighlight(spellID)
 end 
 
-MawBuffsListMixin = {};--- @class MawBuffsListMixin
+MawBuffsListMixin = {}; --- @class MawBuffsListMixin
 
 local BUFF_HEIGHT = 45;
 local BUFF_LIST_MIN_HEIGHT = 159;
@@ -228,7 +228,7 @@ function MawBuffsListMixin:Update(mawBuffs)
 	self:SetHeight(totalListHeight);
 end
 
-MawBuffMixin = {};--- @class MawBuffMixin
+MawBuffMixin = {}; --- @class MawBuffMixin
 
 local mawPowerRarityIDToItemQuality = {
 	[1] = Enum.ItemQuality.Common,

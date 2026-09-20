@@ -3,7 +3,7 @@ local SPELLFLYOUT_DEFAULT_SPACING = 4;
 local SPELLFLYOUT_INITIAL_SPACING = 9;
 local SPELLFLYOUT_FINAL_SPACING = 9;
 
-SpellFlyoutOpenReason = EnumUtil.MakeEnum("GlyphPending", "GlyphActivated");--- @type {["GlyphPending"]: 1, ["GlyphActivated"]: 2} See [SpellFlyoutOpenReason](lua://SpellFlyoutOpenReason)
+SpellFlyoutOpenReason = EnumUtil.MakeEnum("GlyphPending", "GlyphActivated"); --- @type {["GlyphPending"]: 1, ["GlyphActivated"]: 2} # See [SpellFlyoutOpenReason](lua://SpellFlyoutOpenReason)
 
 function SpellFlyout_EscapePressed()
 	if ( DISALLOW_SPELL_FLYOUTS or not SpellFlyout or not SpellFlyout:IsShown() ) then
@@ -16,7 +16,7 @@ end
 
 RegisterGameMenuEscHandler(GameMenuEscPriority.Menu, SpellFlyout_EscapePressed);
 
-SpellFlyoutPopupButtonMixin = {};--- @class SpellFlyoutPopupButtonMixin
+SpellFlyoutPopupButtonMixin = {}; --- @class SpellFlyoutPopupButtonMixin
 
 function SpellFlyoutPopupButtonMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -173,7 +173,7 @@ function SpellFlyoutPopupButtonMixin:GetActionButtonInfo()
 	return info;
 end
 
-SpellFlyoutMixin = {};--- @class SpellFlyoutMixin
+SpellFlyoutMixin = {}; --- @class SpellFlyoutMixin
 
 function SpellFlyoutMixin:OnLoad()
 	self.eventsRegistered = false;

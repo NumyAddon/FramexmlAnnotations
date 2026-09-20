@@ -1,6 +1,6 @@
 UIPanelWindows["AzeriteRespecFrame"] = {area = "left", pushable = 3, showFailedFunc = C_AzeriteEmpoweredItem.CloseAzeriteEmpoweredItemRespec, };
 
-AzeriteRespecMixin = {};--- @class AzeriteRespecMixin
+AzeriteRespecMixin = {}; --- @class AzeriteRespecMixin
 
 function AzeriteRespecMixin:OnLoad()
 	self:SetPortraitToAsset("Interface\\Icons\\inv_enchant_voidsphere");
@@ -118,7 +118,7 @@ function AzeriteRespecMixin:SetRespecItem(itemLocation)
 	self:UpdateAzeriteRespecButtonState();
 end
 
-AzeriteRespecItemSlotMixin = {};--- @class AzeriteRespecItemSlotMixin
+AzeriteRespecItemSlotMixin = {}; --- @class AzeriteRespecItemSlotMixin
 
 function AzeriteRespecItemSlotMixin:OnLoad()
 	self:RegisterForClicks("RightButtonDown", "LeftButtonDown");
@@ -182,7 +182,7 @@ function AzeriteRespecItemSlotMixin:OnMouseLeave()
 	GameTooltip_Hide();
 end
 
-AzeriteRespecButtonMixin = {};--- @class AzeriteRespecButtonMixin
+AzeriteRespecButtonMixin = {}; --- @class AzeriteRespecButtonMixin
 
 function AzeriteRespecButtonMixin:OnMouseEnter()
 	if (not self:IsEnabled()) and GetMoney() < self:GetParent():GetParent().respecCost then

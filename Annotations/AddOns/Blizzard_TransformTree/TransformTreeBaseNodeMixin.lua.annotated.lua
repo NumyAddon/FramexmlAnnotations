@@ -1,4 +1,4 @@
-TransformTreeBaseNodeMixin = {};--- @class TransformTreeBaseNodeMixin
+TransformTreeBaseNodeMixin = {}; --- @class TransformTreeBaseNodeMixin
 
 function CreateTransformTreeNode(nodeMixin, parentTransform, localPosition, localRotationRadians, localScale, ...)
 	local treeTransformNode = CreateFromMixins(nodeMixin);

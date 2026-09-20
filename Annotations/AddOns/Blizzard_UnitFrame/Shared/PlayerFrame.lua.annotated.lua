@@ -1,5 +1,5 @@
 
-PlayerBottomManagedFrameContainerMixin = {};--- @class PlayerBottomManagedFrameContainerMixin
+PlayerBottomManagedFrameContainerMixin = {}; --- @class PlayerBottomManagedFrameContainerMixin
 
 function PlayerBottomManagedFrameContainerMixin:Layout()
 	LayoutMixin.Layout(self);

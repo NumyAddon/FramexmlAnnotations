@@ -5,7 +5,7 @@ local ExportWhileShownEvents = {
 };
 
 -- Inherits HousingBlueprintBaseFrameMixin
-HousingBlueprintExportFrameMixin = {};--- @class HousingBlueprintExportFrameMixin
+HousingBlueprintExportFrameMixin = {}; --- @class HousingBlueprintExportFrameMixin
 
 function HousingBlueprintExportFrameMixin:OnEvent(event, ...)
 	if event == "HOUSING_BLUEPRINT_EXPORT_SUCCESS" then
@@ -128,7 +128,7 @@ function HousingBlueprintExportFrameMixin:IsOperationInProgress()
 end
 
 ----------------- Input Content -----------------
-HousingBlueprintExportInputContentMixin = {};--- @class HousingBlueprintExportInputContentMixin
+HousingBlueprintExportInputContentMixin = {}; --- @class HousingBlueprintExportInputContentMixin
 
 function HousingBlueprintExportInputContentMixin:OnLoad()
 	self.NameInputBox.Instructions:SetText(HOUSING_BLUEPRINT_EXPORT_NAME_PLACEHOLDER);
@@ -260,7 +260,7 @@ function HousingBlueprintExportInputContentMixin:UpdateSaveButton()
 end
 
 ----------------- Success Content -----------------
-HousingBlueprintExportSuccessContentMixin = {};--- @class HousingBlueprintExportSuccessContentMixin
+HousingBlueprintExportSuccessContentMixin = {}; --- @class HousingBlueprintExportSuccessContentMixin
 
 function HousingBlueprintExportSuccessContentMixin:OnLoad()
 	self.ShareCodeBox.EditBox:SetAutoFocus(false);

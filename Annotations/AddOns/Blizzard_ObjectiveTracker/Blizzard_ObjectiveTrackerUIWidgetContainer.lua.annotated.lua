@@ -4,7 +4,7 @@ local settings = {
 	fromHeaderOffsetY = -9,
 };
 
-UIWidgetObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings);--- @class UIWidgetObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+UIWidgetObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings); --- @class UIWidgetObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 
 function UIWidgetObjectiveTrackerMixin:OnEvent()
 	self:SetHeader(GetRealZoneText());
@@ -35,7 +35,7 @@ function UIWidgetObjectiveTrackerMixin:LayoutContents()
 	end
 end
 
-ObjectiveTrackerUIWidgetContainerMixin = {};--- @class ObjectiveTrackerUIWidgetContainerMixin
+ObjectiveTrackerUIWidgetContainerMixin = {}; --- @class ObjectiveTrackerUIWidgetContainerMixin
 
 local function WidgetsLayout(widgetContainer, sortedWidgets)
 	DefaultWidgetLayout(widgetContainer, sortedWidgets);

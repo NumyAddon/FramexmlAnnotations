@@ -90,7 +90,7 @@ function ProfessionsBookFrame_OnHide(self)
 	self:UnregisterEvent("SPELLS_CHANGED");
 end
 
-ProfessionSpellButtonMixin = {};--- @class ProfessionSpellButtonMixin
+ProfessionSpellButtonMixin = {}; --- @class ProfessionSpellButtonMixin
 
 function ProfessionSpellButtonMixin:OnLoad()
 	FlyoutButtonMixin.OnLoad(self);
@@ -358,7 +358,7 @@ function ProfessionsBook_GetSpellBookItemSlot(spellButton)
 	return index <= arbitraryMaxSpells and index or nil;
 end
 
-ProfessionsUnlearnButtonMixin = {};--- @class ProfessionsUnlearnButtonMixin
+ProfessionsUnlearnButtonMixin = {}; --- @class ProfessionsUnlearnButtonMixin
 
 function ProfessionsUnlearnButtonMixin:OnEnter()
     self.Icon:SetAlpha(1.0);

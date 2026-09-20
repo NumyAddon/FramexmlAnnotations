@@ -2181,7 +2181,7 @@ function GearSetButton_OpenPopup(self)
 	GearManagerPopupFrame:Show();
 end
 
-GearManagerPopupFrameMixin = {};--- @class GearManagerPopupFrameMixin
+GearManagerPopupFrameMixin = {}; --- @class GearManagerPopupFrameMixin
 
 function GearManagerPopupFrameMixin:OnShow()
 	IconSelectorPopupFrameTemplateMixin.OnShow(self);
@@ -2749,19 +2749,19 @@ function PaperDollFrame_HideInventoryFixupComplete(self)
 	MicroButtonPulseStop(CharacterMicroButton);
 end
 
-PaperDollItemSlotButtonBaseMixin = {};--- @class PaperDollItemSlotButtonBaseMixin
+PaperDollItemSlotButtonBaseMixin = {}; --- @class PaperDollItemSlotButtonBaseMixin
 
 function PaperDollItemSlotButtonBaseMixin:SetTooltipAnchor(tooltip)
 	tooltip:SetOwner(self, "ANCHOR_RIGHT");
 end
 
-PaperDollItemSlotButtonMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin);--- @class PaperDollItemSlotButtonMixin : PaperDollItemSlotButtonBaseMixin
+PaperDollItemSlotButtonMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin); --- @class PaperDollItemSlotButtonMixin : PaperDollItemSlotButtonBaseMixin
 
 function PaperDollItemSlotButtonMixin:GetItemContextMatchResult()
 	return ItemButtonUtil.GetItemContextMatchResultForItem(ItemLocation:CreateFromEquipmentSlot(self:GetID()));
 end
 
-PaperDollItemSocketDisplayMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin);--- @class PaperDollItemSocketDisplayMixin : PaperDollItemSlotButtonBaseMixin
+PaperDollItemSocketDisplayMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin); --- @class PaperDollItemSocketDisplayMixin : PaperDollItemSlotButtonBaseMixin
 
 function PaperDollItemSocketDisplayMixin:SetItem(item)
 	-- Currently only showing socket display for timerunning characters

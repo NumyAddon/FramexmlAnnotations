@@ -503,7 +503,7 @@ function GetBonusRollEncounterJournalLinkDifficulty()
 	return BonusRollFrame.difficultyID;
 end
 
-EncounterJournalLinkButtonMixin = {};--- @class EncounterJournalLinkButtonMixin
+EncounterJournalLinkButtonMixin = {}; --- @class EncounterJournalLinkButtonMixin
 
 function EncounterJournalLinkButtonMixin:IsLinkDataAvailable()
 	if ( BonusRollFrame.instanceID and BonusRollFrame.instanceID ~= 0 ) then

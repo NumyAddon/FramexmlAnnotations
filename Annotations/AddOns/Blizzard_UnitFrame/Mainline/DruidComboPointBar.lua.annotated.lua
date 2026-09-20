@@ -1,4 +1,4 @@
-DruidComboPointBarMixin = {};--- @class DruidComboPointBarMixin
+DruidComboPointBarMixin = {}; --- @class DruidComboPointBarMixin
 
 function DruidComboPointBarMixin:ShouldShowBar()
 	local showBar = false;
@@ -19,7 +19,7 @@ function DruidComboPointBarMixin:UpdatePower()
 	end
 end
 
-DruidComboPointMixin = {};--- @class DruidComboPointMixin
+DruidComboPointMixin = {}; --- @class DruidComboPointMixin
 
 function DruidComboPointMixin:Setup()
 	self.isActive = nil;

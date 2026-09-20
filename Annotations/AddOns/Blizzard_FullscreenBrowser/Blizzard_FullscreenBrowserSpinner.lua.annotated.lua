@@ -1,4 +1,4 @@
-FullscreenBrowserSpinnerMixin = { };--- @class FullscreenBrowserSpinnerMixin
+FullscreenBrowserSpinnerMixin = { }; --- @class FullscreenBrowserSpinnerMixin
 
 function FullscreenBrowserSpinnerMixin:OnLoad()
 	self:RegisterEvent("FULLSCREEN_BROWSER_SPINNER_SHOW");
@@ -43,7 +43,7 @@ function FullscreenBrowserSpinnerMixin:OnKeyDown(key)
 	end
 end
 
-FullscreenBrowserSpinnerFadeOutAnimMixin = { };--- @class FullscreenBrowserSpinnerFadeOutAnimMixin
+FullscreenBrowserSpinnerFadeOutAnimMixin = { }; --- @class FullscreenBrowserSpinnerFadeOutAnimMixin
 
 function FullscreenBrowserSpinnerFadeOutAnimMixin:OnFadeOutFinished()
 	local spinner = self:GetParent();

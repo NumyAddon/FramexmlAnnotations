@@ -49,7 +49,7 @@ end
 
 ---------------------------------------------------------------------------------------------------
 -- Base Mixin for all Cooldown Viewer items.
-CooldownViewerItemMixin = CreateFromMixins(CooldownViewerItemDataMixin, VisualAlertTargetMixin);--- @class CooldownViewerItemMixin : CooldownViewerItemDataMixin, VisualAlertTargetMixin
+CooldownViewerItemMixin = CreateFromMixins(CooldownViewerItemDataMixin, VisualAlertTargetMixin); --- @class CooldownViewerItemMixin : CooldownViewerItemDataMixin, VisualAlertTargetMixin
 
 function CooldownViewerItemMixin:OnUpdate(_elapsed, timeNow)
 	if self:ShouldTriggerAvailableAlert(timeNow) then
@@ -696,7 +696,7 @@ end
 
 ---------------------------------------------------------------------------------------------------
 -- Base Mixin for Essential and Utility cooldown items.
-CooldownViewerCooldownItemMixin = CreateFromMixins(CooldownViewerItemMixin);--- @class CooldownViewerCooldownItemMixin : CooldownViewerItemMixin
+CooldownViewerCooldownItemMixin = CreateFromMixins(CooldownViewerItemMixin); --- @class CooldownViewerCooldownItemMixin : CooldownViewerItemMixin
 
 function CooldownViewerCooldownItemMixin:IsActivelyCast()
 	-- This indicates that the spell related to the cooldown item can be cast by the player and isn't a proc.
@@ -1278,14 +1278,14 @@ function CooldownViewerCooldownItemMixin:RefreshCooldownOnly()
 end
 
 ---------------------------------------------------------------------------------------------------
-CooldownViewerEssentialItemMixin = CreateFromMixins(CooldownViewerCooldownItemMixin);--- @class CooldownViewerEssentialItemMixin : CooldownViewerCooldownItemMixin
+CooldownViewerEssentialItemMixin = CreateFromMixins(CooldownViewerCooldownItemMixin); --- @class CooldownViewerEssentialItemMixin : CooldownViewerCooldownItemMixin
 
 ---------------------------------------------------------------------------------------------------
-CooldownViewerUtilityItemMixin = CreateFromMixins(CooldownViewerCooldownItemMixin);--- @class CooldownViewerUtilityItemMixin : CooldownViewerCooldownItemMixin
+CooldownViewerUtilityItemMixin = CreateFromMixins(CooldownViewerCooldownItemMixin); --- @class CooldownViewerUtilityItemMixin : CooldownViewerCooldownItemMixin
 
 ---------------------------------------------------------------------------------------------------
 -- Base Mixin for BuffIcon and BuffBar cooldown items.
-CooldownViewerBuffItemMixin = CreateFromMixins(CooldownViewerItemMixin);--- @class CooldownViewerBuffItemMixin : CooldownViewerItemMixin
+CooldownViewerBuffItemMixin = CreateFromMixins(CooldownViewerItemMixin); --- @class CooldownViewerBuffItemMixin : CooldownViewerItemMixin
 
 function CooldownViewerBuffItemMixin:NeedsTargetUpdateRegistration()
 	-- Buff items must respond to target changes whenever their aura might come from the current
@@ -1383,7 +1383,7 @@ function CooldownViewerBuffItemMixin:GetApplicationsText()
 end
 
 ---------------------------------------------------------------------------------------------------
-CooldownViewerBuffIconItemMixin = CreateFromMixins(CooldownViewerBuffItemMixin);--- @class CooldownViewerBuffIconItemMixin : CooldownViewerBuffItemMixin
+CooldownViewerBuffIconItemMixin = CreateFromMixins(CooldownViewerBuffItemMixin); --- @class CooldownViewerBuffIconItemMixin : CooldownViewerBuffItemMixin
 
 function CooldownViewerBuffIconItemMixin:GetApplicationsFrame()
 	return self.Applications;
@@ -1456,7 +1456,7 @@ function CooldownViewerBuffIconItemMixin:RefreshData()
 end
 
 ---------------------------------------------------------------------------------------------------
-CooldownViewerBuffBarItemMixin = CreateFromMixins(CooldownViewerBuffItemMixin);--- @class CooldownViewerBuffBarItemMixin : CooldownViewerBuffItemMixin
+CooldownViewerBuffBarItemMixin = CreateFromMixins(CooldownViewerBuffItemMixin); --- @class CooldownViewerBuffBarItemMixin : CooldownViewerBuffItemMixin
 
 function CooldownViewerBuffBarItemMixin:GetIconFrame()
 	return self.Icon;
@@ -1631,7 +1631,7 @@ end
 local cooldownViewerEnabledCVar = "cooldownViewerEnabled";
 CVarCallbackRegistry:SetCVarCachable(cooldownViewerEnabledCVar);
 
-CooldownViewerMixin = {};--- @class CooldownViewerMixin
+CooldownViewerMixin = {}; --- @class CooldownViewerMixin
 
 function CooldownViewerMixin:GetItemContainerFrame()
 	return self;
@@ -2142,7 +2142,7 @@ end
 
 ---------------------------------------------------------------------------------------------------
 -- Base Mixin for Essential and Utility Cooldown Viewers.
-CooldownViewerCooldownMixin = CreateFromMixins(CooldownViewerMixin);--- @class CooldownViewerCooldownMixin : CooldownViewerMixin
+CooldownViewerCooldownMixin = CreateFromMixins(CooldownViewerMixin); --- @class CooldownViewerCooldownMixin : CooldownViewerMixin
 
 function CooldownViewerCooldownMixin:OnShow()
 	CooldownViewerMixin.OnShow(self);
@@ -2204,7 +2204,7 @@ function CooldownViewerCooldownMixin:OnEvent(event, ...)
 end
 
 ---------------------------------------------------------------------------------------------------
-EssentialCooldownViewerMixin = CreateFromMixins(CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin);--- @class EssentialCooldownViewerMixin : CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
+EssentialCooldownViewerMixin = CreateFromMixins(CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin); --- @class EssentialCooldownViewerMixin : CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
 
 function EssentialCooldownViewerMixin:OnLoad()
 	EditModeCooldownViewerSystemMixin.OnSystemLoad(self);
@@ -2227,7 +2227,7 @@ function EssentialCooldownViewerMixin:OnEvent(event, ...)
 end
 
 ---------------------------------------------------------------------------------------------------
-UtilityCooldownViewerMixin = CreateFromMixins(CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin);--- @class UtilityCooldownViewerMixin : CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
+UtilityCooldownViewerMixin = CreateFromMixins(CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin); --- @class UtilityCooldownViewerMixin : CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
 
 function UtilityCooldownViewerMixin:OnLoad()
 	EditModeCooldownViewerSystemMixin.OnSystemLoad(self);
@@ -2251,7 +2251,7 @@ end
 
 ---------------------------------------------------------------------------------------------------
 -- Base Mixin for BuffIcon and BuffBar Cooldown Viewers.
-CooldownViewerBuffMixin = CreateFromMixins(CooldownViewerMixin);--- @class CooldownViewerBuffMixin : CooldownViewerMixin
+CooldownViewerBuffMixin = CreateFromMixins(CooldownViewerMixin); --- @class CooldownViewerBuffMixin : CooldownViewerMixin
 
 function CooldownViewerBuffMixin:OnShow()
 	CooldownViewerMixin.OnShow(self);
@@ -2266,7 +2266,7 @@ function CooldownViewerBuffMixin:OnEvent(event, ...)
 end
 
 ---------------------------------------------------------------------------------------------------
-BuffIconCooldownViewerMixin = CreateFromMixins(CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin);--- @class BuffIconCooldownViewerMixin : CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
+BuffIconCooldownViewerMixin = CreateFromMixins(CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin); --- @class BuffIconCooldownViewerMixin : CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
 
 function BuffIconCooldownViewerMixin:OnLoad()
 	EditModeCooldownViewerSystemMixin.OnSystemLoad(self);
@@ -2294,7 +2294,7 @@ function BuffIconCooldownViewerMixin:GetStride(cooldownIDs)
 end
 
 ---------------------------------------------------------------------------------------------------
-BuffBarCooldownViewerMixin = CreateFromMixins(CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, GridLayoutFrameMixin);--- @class BuffBarCooldownViewerMixin : CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, GridLayoutFrameMixin
+BuffBarCooldownViewerMixin = CreateFromMixins(CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, GridLayoutFrameMixin); --- @class BuffBarCooldownViewerMixin : CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, GridLayoutFrameMixin
 
 function BuffBarCooldownViewerMixin:OnLoad()
 	EditModeCooldownViewerSystemMixin.OnSystemLoad(self);
@@ -2365,7 +2365,7 @@ function BuffBarCooldownViewerMixin:GetAdditionalPaddingOffset()
 	return -2;
 end
 
-CooldownViewerItemDebuffBorderMixin = {};--- @class CooldownViewerItemDebuffBorderMixin
+CooldownViewerItemDebuffBorderMixin = {}; --- @class CooldownViewerItemDebuffBorderMixin
 
 function CooldownViewerItemDebuffBorderMixin:UpdateFromAuraData(auraData)
 	if auraData then

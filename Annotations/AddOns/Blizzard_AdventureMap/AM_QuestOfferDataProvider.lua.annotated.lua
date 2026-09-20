@@ -1,4 +1,4 @@
-AdventureMap_QuestOfferDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class AdventureMap_QuestOfferDataProviderMixin : MapCanvasDataProviderMixin
+AdventureMap_QuestOfferDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class AdventureMap_QuestOfferDataProviderMixin : MapCanvasDataProviderMixin
 
 function AdventureMap_QuestOfferDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -141,7 +141,7 @@ function AdventureMap_QuestOfferDataProviderMixin:OnCanvasScaleChanged()
 end
 
 --[[ Quest Offer Pin ]]--
-AdventureMap_QuestOfferPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class AdventureMap_QuestOfferPinMixin : MapCanvasPinMixin
+AdventureMap_QuestOfferPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class AdventureMap_QuestOfferPinMixin : MapCanvasPinMixin
 
 function AdventureMap_QuestOfferPinMixin:OnLoad()
 	self:SetScalingLimits(1.25, 0.825, 1.275);

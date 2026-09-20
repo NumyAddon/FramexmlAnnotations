@@ -1,4 +1,4 @@
-HousingBlueprintCollectionEntryMixin = {};--- @class HousingBlueprintCollectionEntryMixin
+HousingBlueprintCollectionEntryMixin = {}; --- @class HousingBlueprintCollectionEntryMixin
 
 function HousingBlueprintCollectionEntryMixin:Init(node, owner)
 	self.blueprintInfo = node:GetData();

@@ -20,7 +20,7 @@ local settings = {
 	completedSupersededObjectives = { },
 };
 
-BonusObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings);--- @class BonusObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+BonusObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings); --- @class BonusObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 
 local function GetScenarioSupersedingStep(index)
 	local supersededObjectives = C_Scenario.GetSupersededObjectives();
@@ -480,7 +480,7 @@ end
 -- ***** PROGRESS BAR
 -- *****************************************************************************************************
 
-BonusObjectiveTrackerProgressBarMixin = { };--- @class BonusObjectiveTrackerProgressBarMixin
+BonusObjectiveTrackerProgressBarMixin = { }; --- @class BonusObjectiveTrackerProgressBarMixin
 
 function BonusObjectiveTrackerProgressBarMixin:OnLoad()
 	self.Bar.Icon:SetMask("Interface\\CharacterFrame\\TempPortraitAlphaMask");
@@ -610,7 +610,7 @@ end
 -- ***** BLOCK
 -- *****************************************************************************************************
 
-BonusObjectiveBlockMixin = CreateFromMixins(ObjectiveTrackerQuestPOIBlockMixin);--- @class BonusObjectiveBlockMixin : ObjectiveTrackerQuestPOIBlockMixin
+BonusObjectiveBlockMixin = CreateFromMixins(ObjectiveTrackerQuestPOIBlockMixin); --- @class BonusObjectiveBlockMixin : ObjectiveTrackerQuestPOIBlockMixin
 
 function BonusObjectiveBlockMixin:OnEnter()
 	self:OnHeaderEnter();
@@ -681,7 +681,7 @@ end
 -- ***** TOP BANNER
 -- *****************************************************************************************************
 
-ObjectiveTrackerTopBannerMixin = { };--- @class ObjectiveTrackerTopBannerMixin
+ObjectiveTrackerTopBannerMixin = { }; --- @class ObjectiveTrackerTopBannerMixin
 
 function ObjectiveTrackerTopBannerMixin:OnLoad()
 	self.PopAnim:SetScript("OnFinished", GenerateClosure(self.OnPopAnimFinished, self));

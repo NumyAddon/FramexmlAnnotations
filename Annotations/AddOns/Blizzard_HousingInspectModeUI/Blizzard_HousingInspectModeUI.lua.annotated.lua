@@ -1,4 +1,4 @@
-HousingInspectModeManagerMixin = {};--- @class HousingInspectModeManagerMixin
+HousingInspectModeManagerMixin = {}; --- @class HousingInspectModeManagerMixin
 
 local function HousingInspectMode_EscapePressed()
 	if HousingInspectModeManagerFrame:IsInspectModeActive() then

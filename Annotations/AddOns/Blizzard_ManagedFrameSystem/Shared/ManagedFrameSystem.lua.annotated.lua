@@ -13,7 +13,7 @@ end
 local TOP_LEVEL_PARENT_SHOWN_EVENT = "UI.TopLevelParentShown";
 local TOP_LEVEL_PARENT_HIDDEN_EVENT = "UI.TopLevelParentHidden";
 
-ManagedFrameMixin = { };--- @class ManagedFrameMixin
+ManagedFrameMixin = { }; --- @class ManagedFrameMixin
 function ManagedFrameMixin:OnShow()
 	self.layoutParent:AddManagedFrame(self);
 end
@@ -37,7 +37,7 @@ local function UpdateFrameAlphaState(frame, isActionBarOverriden)
 	end
 end
 
-ManagedFrameContainerMixin = {};--- @class ManagedFrameContainerMixin
+ManagedFrameContainerMixin = {}; --- @class ManagedFrameContainerMixin
 
 function ManagedFrameContainerMixin:OnLoad()
 	self.showingFrames = {};

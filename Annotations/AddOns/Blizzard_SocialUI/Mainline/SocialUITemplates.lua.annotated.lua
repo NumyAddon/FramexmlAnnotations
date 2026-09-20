@@ -1,4 +1,4 @@
-SocialUITabMixin = CreateFromMixins(SidePanelTabButtonMixin);--- @class SocialUITabMixin : SidePanelTabButtonMixin
+SocialUITabMixin = CreateFromMixins(SidePanelTabButtonMixin); --- @class SocialUITabMixin : SidePanelTabButtonMixin
 
 function SocialUITabMixin:Initialize(tabData)
 	if not tabData then
@@ -121,7 +121,7 @@ function SocialUITabMixin:RefreshIconAnchoring()
 	self.Icon:SetPoint("CENTER", -2, self.iconBaseYOffset);
 end
 
-SocialUIOnlineStatusDropdownMixin = {};--- @class SocialUIOnlineStatusDropdownMixin
+SocialUIOnlineStatusDropdownMixin = {}; --- @class SocialUIOnlineStatusDropdownMixin
 
 local SocialUIOnlineStatusDropdownEvents =
 {
@@ -208,7 +208,7 @@ function SocialUIOnlineStatusDropdownMixin:InitializeMenu()
 	self:SetScript("OnLeave", function() GetAppropriateTooltip():Hide() end);
 end
 
-SocialUIBattleNetMenuButtonMixin = CreateFromMixins(SocialUISystemMixin);--- @class SocialUIBattleNetMenuButtonMixin : SocialUISystemMixin
+SocialUIBattleNetMenuButtonMixin = CreateFromMixins(SocialUISystemMixin); --- @class SocialUIBattleNetMenuButtonMixin : SocialUISystemMixin
 
 function SocialUIBattleNetMenuButtonMixin:OnShow()
 	self:Refresh();
@@ -273,7 +273,7 @@ function SocialUIBattleNetMenuButtonMixin:HasAnyAvailableMenuOptions()
 	return self:ShouldShowBroadcastMenuOption() or self:ShouldShowIgnoreListMenuOption();
 end
 
-SocialUIPersonalBattleTagDisplayMixin = {};--- @class SocialUIPersonalBattleTagDisplayMixin
+SocialUIPersonalBattleTagDisplayMixin = {}; --- @class SocialUIPersonalBattleTagDisplayMixin
 
 function SocialUIPersonalBattleTagDisplayMixin:ShowBestDisplayTextAndButton()
 	if not BNFeaturesEnabled() then
@@ -322,7 +322,7 @@ function SocialUIPersonalBattleTagDisplayMixin:OnLeave()
 	GetAppropriateTooltip():Hide();
 end
 
-SocialUICopyBattleTagToClipboardButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class SocialUICopyBattleTagToClipboardButtonMixin : ButtonStateBehaviorMixin
+SocialUICopyBattleTagToClipboardButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class SocialUICopyBattleTagToClipboardButtonMixin : ButtonStateBehaviorMixin
 
 function SocialUICopyBattleTagToClipboardButtonMixin:OnLoad()
 	self:SetDisplacedRegions(1, -1, self.Icon, self.HighlightTexture);
@@ -361,13 +361,13 @@ function SocialUICopyBattleTagToClipboardButtonMixin:DisplayCopiedNotice()
 	ChatFrameUtil.AddSystemMessage(SOCIAL_UI_PERSONAL_BATTLE_TAG_COPIED_NOTICE);
 end
 
-SocialUIBattleNetUnavailableNoticeButtonMixin = CreateFromMixins(SocialUISystemMixin);--- @class SocialUIBattleNetUnavailableNoticeButtonMixin : SocialUISystemMixin
+SocialUIBattleNetUnavailableNoticeButtonMixin = CreateFromMixins(SocialUISystemMixin); --- @class SocialUIBattleNetUnavailableNoticeButtonMixin : SocialUISystemMixin
 
 function SocialUIBattleNetUnavailableNoticeButtonMixin:OnClick()
 	self:SocialUIRequestToggleSideWindow(SocialUISideWindowType.BattleNetUnavailableNoticeFrame);
 end
 
-SocialUIBattleNetControlsContainerMixin = {};--- @class SocialUIBattleNetControlsContainerMixin
+SocialUIBattleNetControlsContainerMixin = {}; --- @class SocialUIBattleNetControlsContainerMixin
 
 local SocialUIBattleNetControlsContainerEvents =
 {
@@ -464,7 +464,7 @@ function SocialUIBattleNetControlsContainerMixin:LayoutPersonalBattleTagDisplayT
 	end
 end
 
-SocialUIBattleNetUnavailableNoticeFrameMixin = {};--- @class SocialUIBattleNetUnavailableNoticeFrameMixin
+SocialUIBattleNetUnavailableNoticeFrameMixin = {}; --- @class SocialUIBattleNetUnavailableNoticeFrameMixin
 
 function SocialUIBattleNetUnavailableNoticeFrameMixin:OnShow()
 	EventRegistry:RegisterCallback("TextSizeManager.OnTextScaleUpdated", self.Refresh, self);
@@ -483,7 +483,7 @@ function SocialUIBattleNetUnavailableNoticeFrameMixin:Refresh()
 	self:Layout();
 end
 
-SocialUIBattleNetBroadcastFrameMixin = {};--- @class SocialUIBattleNetBroadcastFrameMixin
+SocialUIBattleNetBroadcastFrameMixin = {}; --- @class SocialUIBattleNetBroadcastFrameMixin
 
 function SocialUIBattleNetBroadcastFrameMixin:OnLoad()
 	self:InitializeBroadcastFrameElements();
@@ -564,7 +564,7 @@ function SocialUIBattleNetBroadcastFrameMixin:SetBroadcast()
 	self:SocialUIRequestHideSideWindow(SocialUISideWindowType.BattleNetBroadcastFrame);
 end
 
-SocialUIBattleNetBroadcastEditBoxMixin = {};--- @class SocialUIBattleNetBroadcastEditBoxMixin
+SocialUIBattleNetBroadcastEditBoxMixin = {}; --- @class SocialUIBattleNetBroadcastEditBoxMixin
 
 function SocialUIBattleNetBroadcastEditBoxMixin:OnTextChanged()
 	self:RefreshPromptTextVisibility();
@@ -579,7 +579,7 @@ function SocialUIBattleNetBroadcastEditBoxMixin:OnEscapePressed()
 	self:ClearFocus();
 end
 
-SocialUIIgnoreListMixin = CreateFromMixins(SocialUIScrollableElementExtentPreviewerMixin);--- @class SocialUIIgnoreListMixin : SocialUIScrollableElementExtentPreviewerMixin
+SocialUIIgnoreListMixin = CreateFromMixins(SocialUIScrollableElementExtentPreviewerMixin); --- @class SocialUIIgnoreListMixin : SocialUIScrollableElementExtentPreviewerMixin
 
 local SocialUIIgnoreListEvents =
 {
@@ -810,7 +810,7 @@ function SocialUIIgnoreListMixin:UnblockSelected()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 end
 
-SocialUIIgnoreListHeaderMixin = {};--- @class SocialUIIgnoreListHeaderMixin
+SocialUIIgnoreListHeaderMixin = {}; --- @class SocialUIIgnoreListHeaderMixin
 
 function SocialUIIgnoreListHeaderMixin:Initialize(elementData)
 	self.elementData = elementData;
@@ -822,7 +822,7 @@ function SocialUIIgnoreListHeaderMixin:RefreshText()
 	self.Text:SetText(headerText);
 end
 
-SocialUIIgnoreListEntryMixin = {};--- @class SocialUIIgnoreListEntryMixin
+SocialUIIgnoreListEntryMixin = {}; --- @class SocialUIIgnoreListEntryMixin
 
 function SocialUIIgnoreListEntryMixin:Initialize(elementData)
 	self.elementData = elementData;

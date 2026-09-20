@@ -1,5 +1,5 @@
 
-TalentButtonSearchIconMixin = {};--- @class TalentButtonSearchIconMixin
+TalentButtonSearchIconMixin = {}; --- @class TalentButtonSearchIconMixin
 
 function TalentButtonSearchIconMixin:OnLoad()
 	self.Mouseover:SetScript("OnEnter", GenerateClosure(self.OnEnter, self));

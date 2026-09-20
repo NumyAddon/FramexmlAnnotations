@@ -4,7 +4,7 @@ local DefaultMinBottomSpacing = 20;
 
 -- Used when you want to dynamically adjust spacing to the actual space available. For example,
 -- when things need to be adjusted based on UI scale and resolution.
-SpaceToFitDirectionalLayoutMixin = {};--- @class SpaceToFitDirectionalLayoutMixin
+SpaceToFitDirectionalLayoutMixin = {}; --- @class SpaceToFitDirectionalLayoutMixin
 
 function SpaceToFitDirectionalLayoutMixin:SetFixedMaxSpace(maxSpace)
 	self.maxSpace = maxSpace;
@@ -57,7 +57,7 @@ function SpaceToFitDirectionalLayoutMixin:GetSpacing()
 end
 
 
-SpaceToFitVerticalLayoutMixin = CreateFromMixins(SpaceToFitDirectionalLayoutMixin);--- @class SpaceToFitVerticalLayoutMixin : SpaceToFitDirectionalLayoutMixin
+SpaceToFitVerticalLayoutMixin = CreateFromMixins(SpaceToFitDirectionalLayoutMixin); --- @class SpaceToFitVerticalLayoutMixin : SpaceToFitDirectionalLayoutMixin
 
 function SpaceToFitVerticalLayoutMixin:LayoutChildren(children, expandToWidth)
 	self:UpdateSpacing(children);
@@ -106,7 +106,7 @@ end
 
 
 -- Less featured than the Vertical version simply because nothing else was required originally.
-SpaceToFitHorizontalLayoutMixin = CreateFromMixins(SpaceToFitDirectionalLayoutMixin);--- @class SpaceToFitHorizontalLayoutMixin : SpaceToFitDirectionalLayoutMixin
+SpaceToFitHorizontalLayoutMixin = CreateFromMixins(SpaceToFitDirectionalLayoutMixin); --- @class SpaceToFitHorizontalLayoutMixin : SpaceToFitDirectionalLayoutMixin
 
 function SpaceToFitHorizontalLayoutMixin:LayoutChildren(children, expandToWidth)
 	self:UpdateSpacing(children);

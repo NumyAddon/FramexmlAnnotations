@@ -1,15 +1,15 @@
-BountyFrameType = EnumUtil.MakeEnum(--- @type {["BountyBoard"]: 1, ["ActivityTracker"]: 2} See [BountyFrameType](lua://BountyFrameType)
+BountyFrameType = EnumUtil.MakeEnum( --- @type {["BountyBoard"]: 1, ["ActivityTracker"]: 2} # See [BountyFrameType](lua://BountyFrameType)
 	"BountyBoard",
 	"ActivityTracker"
 );
 
-local BountyLockType = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["ByQuest"]: 2, ["NoBounties"]: 3}
+local BountyLockType = EnumUtil.MakeEnum( --- @type {["None"]: 1, ["ByQuest"]: 2, ["NoBounties"]: 3}
 	"None",
 	"ByQuest",
 	"NoBounties"
 );
 
-BountyFrameMixin = {};--- @class BountyFrameMixin
+BountyFrameMixin = {}; --- @class BountyFrameMixin
 
 function BountyFrameMixin:GetDisplayLocation()
 	return self.displayLocation;
@@ -75,7 +75,7 @@ function BountyFrameMixin:SetNextMapForSelectedBounty(isNewSelection)
 	self:GoToMap(self.cachedMapInfo[mapIndex].mapID);
 end
 
-WorldMapBountyBoardMixin = CreateFromMixins(BountyFrameMixin);--- @class WorldMapBountyBoardMixin : BountyFrameMixin
+WorldMapBountyBoardMixin = CreateFromMixins(BountyFrameMixin); --- @class WorldMapBountyBoardMixin : BountyFrameMixin
 
 function WorldMapBountyBoardMixin:OnLoad()
 	self:RegisterEvent("QUEST_LOG_UPDATE");
@@ -565,7 +565,7 @@ local function SortActivityBountiesAlphabetical(bounty1, bounty2)
 	return strcmputf8i(faction1Data.name, faction2Data.name) < 0;
 end
 
-WorldMapActivityTrackerMixin = CreateFromMixins(BountyFrameMixin);--- @class WorldMapActivityTrackerMixin : BountyFrameMixin
+WorldMapActivityTrackerMixin = CreateFromMixins(BountyFrameMixin); --- @class WorldMapActivityTrackerMixin : BountyFrameMixin
 
 function WorldMapActivityTrackerMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonUp", "RightButtonUp");

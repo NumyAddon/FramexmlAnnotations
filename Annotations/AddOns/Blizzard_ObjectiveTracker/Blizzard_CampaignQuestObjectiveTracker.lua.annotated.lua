@@ -4,7 +4,7 @@ local settings = {
 	lineTemplate = "ObjectiveTrackerAnimLineTemplate",
 };
 
-CampaignQuestObjectiveTrackerMixin = CreateFromMixins(QuestObjectiveTrackerMixin, settings);--- @class CampaignQuestObjectiveTrackerMixin : QuestObjectiveTrackerMixin, settings
+CampaignQuestObjectiveTrackerMixin = CreateFromMixins(QuestObjectiveTrackerMixin, settings); --- @class CampaignQuestObjectiveTrackerMixin : QuestObjectiveTrackerMixin, settings
 
 function CampaignQuestObjectiveTrackerMixin:ShouldDisplayQuest(quest)
 	return (quest:GetQuestClassification() == Enum.QuestClassification.Campaign) and not quest:IsDisabledForSession();

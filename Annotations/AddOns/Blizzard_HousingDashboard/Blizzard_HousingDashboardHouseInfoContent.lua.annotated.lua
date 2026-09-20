@@ -1,4 +1,4 @@
-HousingDashboardHouseInfoMixin = {}--- @class HousingDashboardHouseInfoMixin
+HousingDashboardHouseInfoMixin = {} --- @class HousingDashboardHouseInfoMixin
 local HouseInfoLifetimeEvents =
 {
 	"PLAYER_LEVEL_CHANGED",
@@ -133,7 +133,7 @@ function HousingDashboardHouseInfoMixin:OnTutorialButtonClicked()
 	PlaySound(SOUNDKIT.HOUSING_DASHBOARD_BUTTON_CLICK);
 end
 
-HousingDashboardHouseInfoContentFrameMixin = {};--- @class HousingDashboardHouseInfoContentFrameMixin
+HousingDashboardHouseInfoContentFrameMixin = {}; --- @class HousingDashboardHouseInfoContentFrameMixin
 
 function HousingDashboardHouseInfoContentFrameMixin:Initialize()
 	if not self.tabsInitialized then
@@ -185,7 +185,7 @@ function HousingDashboardHouseInfoContentFrameMixin:IsTabAvailable(tabID)
 end
 
 ---------------------House Finder-------------------------------
-HouseFinderButtonMixin = {};--- @class HouseFinderButtonMixin
+HouseFinderButtonMixin = {}; --- @class HouseFinderButtonMixin
 
 function HouseFinderButtonMixin:OnClick()
 	if not HouseFinderFrame then

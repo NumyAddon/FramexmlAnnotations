@@ -1,4 +1,4 @@
-TutorialMainFrameMixin = {};--- @class TutorialMainFrameMixin
+TutorialMainFrameMixin = {}; --- @class TutorialMainFrameMixin
 TutorialMainFrameMixin.States =
 {
 	Hidden			= "hidden",
@@ -224,7 +224,7 @@ end
 
 
 -- ------------------------------------------------------------------------------------------------------------
-TutorialSingleKeyMixin = CreateFromMixins(TutorialMainFrameMixin);--- @class TutorialSingleKeyMixin : TutorialMainFrameMixin
+TutorialSingleKeyMixin = CreateFromMixins(TutorialMainFrameMixin); --- @class TutorialSingleKeyMixin : TutorialMainFrameMixin
 function TutorialSingleKeyMixin:OnLoad()
 	TutorialMainFrameMixin.OnLoad(self);
 
@@ -269,7 +269,7 @@ function TutorialSingleKeyMixin:HideTutorial(id)
 end
 
 -- ------------------------------------------------------------------------------------------------------------
-TutorialDoubleKeyMixin = CreateFromMixins(TutorialMainFrameMixin);--- @class TutorialDoubleKeyMixin : TutorialMainFrameMixin
+TutorialDoubleKeyMixin = CreateFromMixins(TutorialMainFrameMixin); --- @class TutorialDoubleKeyMixin : TutorialMainFrameMixin
 function TutorialDoubleKeyMixin:OnLoad()
 	TutorialMainFrameMixin.OnLoad(self);
 

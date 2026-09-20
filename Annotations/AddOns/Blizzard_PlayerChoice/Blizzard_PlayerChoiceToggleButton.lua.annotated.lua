@@ -3,7 +3,7 @@ local textureKitEffectIDs =
 	jailerstower = 98,
 };
 
-PlayerChoiceToggleButtonMixin = {};--- @class PlayerChoiceToggleButtonMixin
+PlayerChoiceToggleButtonMixin = {}; --- @class PlayerChoiceToggleButtonMixin
 
 function PlayerChoiceToggleButtonMixin:StartEffect(effectID)
 	if not self.effectController then
@@ -95,7 +95,7 @@ function PlayerChoiceToggleButtonMixin:OnClick()
 end
 
 
-TorghastPlayerChoiceToggleButtonMixin = {};--- @class TorghastPlayerChoiceToggleButtonMixin
+TorghastPlayerChoiceToggleButtonMixin = {}; --- @class TorghastPlayerChoiceToggleButtonMixin
 
 function TorghastPlayerChoiceToggleButtonMixin:UpdateButtonState()
 	PlayerChoiceToggleButtonMixin.UpdateButtonState(self);
@@ -131,7 +131,7 @@ function TorghastPlayerChoiceToggleButtonMixin:OnLoad()
 end
 
 
-CypherPlayerChoiceToggleButtonMixin = {};--- @class CypherPlayerChoiceToggleButtonMixin
+CypherPlayerChoiceToggleButtonMixin = {}; --- @class CypherPlayerChoiceToggleButtonMixin
 
 function CypherPlayerChoiceToggleButtonMixin:OnLoad()
 	self.shownModeButtonInfo =
@@ -165,7 +165,7 @@ function CypherPlayerChoiceToggleButtonMixin:UpdateButtonState()
 	end
 end
 
-GenericPlayerChoiceToggleButtonMixin = CreateFromMixins(PlayerChoiceToggleButtonMixin);--- @class GenericPlayerChoiceToggleButtonMixin : PlayerChoiceToggleButtonMixin
+GenericPlayerChoiceToggleButtonMixin = CreateFromMixins(PlayerChoiceToggleButtonMixin); --- @class GenericPlayerChoiceToggleButtonMixin : PlayerChoiceToggleButtonMixin
 
 function GenericPlayerChoiceToggleButtonMixin:OnLoad()
 	self.shownModeButtonInfo =
@@ -189,7 +189,7 @@ function GenericPlayerChoiceToggleButtonMixin:OnEnter()
 	self.HighlightAnimation:Restart();
 end
 
-PlayerChoiceRerollButtonMixin = {};--- @class PlayerChoiceRerollButtonMixin
+PlayerChoiceRerollButtonMixin = {}; --- @class PlayerChoiceRerollButtonMixin
 
 function PlayerChoiceRerollButtonMixin:OnShow()
 	local rerollButtonHelpTipInfo = {

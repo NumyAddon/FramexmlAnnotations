@@ -1,4 +1,4 @@
-EncounterWarningsSettingsMixin = {};--- @class EncounterWarningsSettingsMixin
+EncounterWarningsSettingsMixin = {}; --- @class EncounterWarningsSettingsMixin
 
 function EncounterWarningsSettingsMixin:OnLoad()
 	self.iconScale = EncounterWarningsSettingDefaults.IconScale;

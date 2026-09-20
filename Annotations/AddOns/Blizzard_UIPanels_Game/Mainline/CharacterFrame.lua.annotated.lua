@@ -62,7 +62,7 @@ function ShowCharacterFrameIfMatchesContext()
 	end
 end
 
-CharacterFrameMixin = {};--- @class CharacterFrameMixin
+CharacterFrameMixin = {}; --- @class CharacterFrameMixin
 
 function CharacterFrameMixin:ToggleTokenFrame()
 	if C_CurrencyInfo.GetCurrencyListSize() <= 0 then
@@ -389,7 +389,7 @@ function CharacterFrameCorruption_OnLeave(self)
 	PaperDollFrame_UpdateCorruptedItemGlows(false);
 end
 
-CharacterFrameTabButtonMixin = {};--- @class CharacterFrameTabButtonMixin
+CharacterFrameTabButtonMixin = {}; --- @class CharacterFrameTabButtonMixin
 
 function CharacterFrameTabButtonMixin:OnClick(button)
 	PanelTemplates_Tab_OnClick(self, CharacterFrame);
@@ -405,7 +405,7 @@ function CharacterFrameTabButtonMixin:OnClick(button)
 	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB);
 end
 
-GearEnchantAnimationMixin = {}--- @class GearEnchantAnimationMixin
+GearEnchantAnimationMixin = {} --- @class GearEnchantAnimationMixin
 
 local GearEnchantAnimationEvents = {
 	"ENCHANT_SPELL_COMPLETED",

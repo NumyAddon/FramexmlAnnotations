@@ -1,5 +1,5 @@
 
-ProfessionsCustomerOrdersRecipeListElementMixin = CreateFromMixins(TableBuilderRowMixin);--- @class ProfessionsCustomerOrdersRecipeListElementMixin : TableBuilderRowMixin
+ProfessionsCustomerOrdersRecipeListElementMixin = CreateFromMixins(TableBuilderRowMixin); --- @class ProfessionsCustomerOrdersRecipeListElementMixin : TableBuilderRowMixin
 
 function ProfessionsCustomerOrdersRecipeListElementMixin:OnLoad()
 	self:RegisterEvent("CRAFTINGORDERS_CUSTOMER_FAVORITES_CHANGED");
@@ -119,7 +119,7 @@ function ProfessionsCustomerOrdersRecipeListElementMixin:Init(elementData, conte
 	self.HighlightTexture:Hide();
 end
 
-ProfessionsCustomerOrdersRecipeListMixin = {};--- @class ProfessionsCustomerOrdersRecipeListMixin
+ProfessionsCustomerOrdersRecipeListMixin = {}; --- @class ProfessionsCustomerOrdersRecipeListMixin
 
 function ProfessionsCustomerOrdersRecipeListMixin:OnLoad()
 	local pad = 5;

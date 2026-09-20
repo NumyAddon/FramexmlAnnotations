@@ -1,5 +1,5 @@
 
-PvPTalentListButtonMixin = {};--- @class PvPTalentListButtonMixin
+PvPTalentListButtonMixin = {}; --- @class PvPTalentListButtonMixin
 
 function PvPTalentListButtonMixin:SetPvpTalent(talentID)
 	self.talentID = talentID;
@@ -114,7 +114,7 @@ function PvPTalentListButtonMixin:OnEnter()
 end
 
 
-PvPTalentListMixin = {};--- @class PvPTalentListMixin
+PvPTalentListMixin = {}; --- @class PvPTalentListMixin
 
 function PvPTalentListMixin:OnLoad()
 	local view = CreateScrollBoxListLinearView();

@@ -1,4 +1,4 @@
-HousingHouseSettingsFrameMixin = {}--- @class HousingHouseSettingsFrameMixin
+HousingHouseSettingsFrameMixin = {} --- @class HousingHouseSettingsFrameMixin
 
 local HouseSettingsFrameShownEvents =
 {
@@ -201,7 +201,7 @@ function HousingHouseSettingsFrameMixin:OnSaveClicked()
 	HideUIPanel(self);
 end
 
-HouseSettingsAccessOptionsMixin = {}--- @class HouseSettingsAccessOptionsMixin
+HouseSettingsAccessOptionsMixin = {} --- @class HouseSettingsAccessOptionsMixin
 
 function HouseSettingsAccessOptionsMixin:SetSelectedSettings(currentlySelectedSettings)
 	self.selectedOptions = 0;
@@ -310,7 +310,7 @@ function HouseSettingsAccessOptionsMixin:OptionSelected(accessType, isChecked, s
 	end
 end
 
-AbandonHouseConfirmationDialogMixin = {}--- @class AbandonHouseConfirmationDialogMixin
+AbandonHouseConfirmationDialogMixin = {} --- @class AbandonHouseConfirmationDialogMixin
 
 function AbandonHouseConfirmationDialogMixin:OnLoad()
 	self.ConfirmButton:SetText(HOUSING_HOUSE_SETTINGS_ABANDON_CONFIRM);

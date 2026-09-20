@@ -1,5 +1,5 @@
 
-TemplatedListElementMixin = {};--- @class TemplatedListElementMixin
+TemplatedListElementMixin = {}; --- @class TemplatedListElementMixin
 
 function TemplatedListElementMixin:InitElement(...)
 	-- Override in your mixin.
@@ -45,7 +45,7 @@ function TemplatedListElementMixin:GetList()
 end
 
 
-TemplatedListMixin = {};--- @class TemplatedListMixin
+TemplatedListMixin = {}; --- @class TemplatedListMixin
 
 function TemplatedListMixin:SetElementTemplate(elementTemplate, ...)
 	if self.elementTemplate ~= nil then

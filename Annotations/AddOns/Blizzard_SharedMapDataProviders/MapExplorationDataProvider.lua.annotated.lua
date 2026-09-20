@@ -1,4 +1,4 @@
-MapExplorationDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class MapExplorationDataProviderMixin : MapCanvasDataProviderMixin
+MapExplorationDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class MapExplorationDataProviderMixin : MapCanvasDataProviderMixin
 
 function MapExplorationDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -57,7 +57,7 @@ function MapExplorationDataProviderMixin:GetDrawLayer()
 end
 
 --[[ THE Pin ]]--
-MapExplorationPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class MapExplorationPinMixin : MapCanvasPinMixin
+MapExplorationPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class MapExplorationPinMixin : MapCanvasPinMixin
 
 function MapExplorationPinMixin:OnAcquired(dataProvider)
 	if not self.overlayTexturePool then

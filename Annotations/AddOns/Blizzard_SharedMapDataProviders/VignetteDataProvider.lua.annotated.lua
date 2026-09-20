@@ -1,4 +1,4 @@
-VignetteDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class VignetteDataProviderMixin : MapCanvasDataProviderMixin
+VignetteDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class VignetteDataProviderMixin : MapCanvasDataProviderMixin
 
 function VignetteDataProviderMixin:GetPinTemplates()
 	local templates = self.pinTemplates;
@@ -218,7 +218,7 @@ function VignetteDataProviderMixin:GetPin(vignetteGUID, vignetteInfo)
 	end
 end
 
-SuperTrackableVignettePinMixin = CreateFromMixins(SuperTrackablePinMixin);--- @class SuperTrackableVignettePinMixin : SuperTrackablePinMixin
+SuperTrackableVignettePinMixin = CreateFromMixins(SuperTrackablePinMixin); --- @class SuperTrackableVignettePinMixin : SuperTrackablePinMixin
 
 function SuperTrackableVignettePinMixin:GetSuperTrackAccessorAPIName()
 	return "GetSuperTrackedVignette"; -- override
@@ -243,7 +243,7 @@ function SuperTrackableVignettePinMixin:GetSuperTrackData()
 	return self.vignetteGUID;
 end
 
-VignettePinBaseMixin = CreateFromMixins(MapCanvasPinMixin);--- @class VignettePinBaseMixin : MapCanvasPinMixin
+VignettePinBaseMixin = CreateFromMixins(MapCanvasPinMixin); --- @class VignettePinBaseMixin : MapCanvasPinMixin
 
 function VignettePinBaseMixin:OnLoad()
 	self:SetScalingLimits(1, 1.0, 1.2);
@@ -546,8 +546,8 @@ function VignettePinBaseMixin:Remove()
 end
 
 -- Order matters, if base and derived have the same method names, then derived must override base in order to invoke the base methods correctly.
-VignettePinMixin = CreateFromMixins(SuperTrackableVignettePinMixin, VignettePinBaseMixin);--- @class VignettePinMixin : SuperTrackableVignettePinMixin, VignettePinBaseMixin
-VignettePinPOIButtonMixin = CreateFromMixins(VignettePinBaseMixin, POIButtonMixin);--- @class VignettePinPOIButtonMixin : VignettePinBaseMixin, POIButtonMixin
+VignettePinMixin = CreateFromMixins(SuperTrackableVignettePinMixin, VignettePinBaseMixin); --- @class VignettePinMixin : SuperTrackableVignettePinMixin, VignettePinBaseMixin
+VignettePinPOIButtonMixin = CreateFromMixins(VignettePinBaseMixin, POIButtonMixin); --- @class VignettePinPOIButtonMixin : VignettePinBaseMixin, POIButtonMixin
 
 function VignettePinPOIButtonMixin:DisableInheritedMotionScriptsWarning()
 	-- The vignette pin will override these anyway, we don't need to handle
@@ -577,7 +577,7 @@ end
 
 --[[ Fyakk Flight Pin ]]--
 
-FyrakkFlightVignettePinMixin = CreateFromMixins(VignettePinMixin);--- @class FyrakkFlightVignettePinMixin : VignettePinMixin
+FyrakkFlightVignettePinMixin = CreateFromMixins(VignettePinMixin); --- @class FyrakkFlightVignettePinMixin : VignettePinMixin
 
 function FyrakkFlightVignettePinMixin:OnLoad()
 	-- set up rotation vectors

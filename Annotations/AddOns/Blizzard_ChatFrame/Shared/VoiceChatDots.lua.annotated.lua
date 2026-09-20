@@ -1,4 +1,4 @@
-VoiceChatDotsMixin = {};--- @class VoiceChatDotsMixin
+VoiceChatDotsMixin = {}; --- @class VoiceChatDotsMixin
 
 function VoiceChatDotsMixin:OnLoad()
 	self:StopAnimation();

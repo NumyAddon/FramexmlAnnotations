@@ -1,5 +1,5 @@
 -- Intended to simplify the management of a single font object sourced frame
-FontableFrameMixin = {};--- @class FontableFrameMixin
+FontableFrameMixin = {}; --- @class FontableFrameMixin
 
 function FontableFrameMixin:SetFontObject(fontObject)
 	if self.fontObject ~= fontObject then

@@ -1,6 +1,6 @@
 local SuperTrackEventFrame = nil;
 
-local SuperTrackEventMixin = {};--- @class SuperTrackEventMixin
+local SuperTrackEventMixin = {}; --- @class SuperTrackEventMixin
 
 function SuperTrackEventMixin:OnLoad()
 	self:SetScript("OnEvent", SuperTrackEventMixin.OnEvent);

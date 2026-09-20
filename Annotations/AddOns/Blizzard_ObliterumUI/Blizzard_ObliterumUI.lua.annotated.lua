@@ -6,7 +6,7 @@ local OBLITERUM_UI_UNIT_EVENTS = {
 	"UNIT_SPELLCAST_STOP",
 };
 
-ObliterumForgeMixin = {};--- @class ObliterumForgeMixin
+ObliterumForgeMixin = {}; --- @class ObliterumForgeMixin
 
 function ObliterumForgeMixin:OnLoad()
 	self:SetPortraitToAsset("Interface\\Icons\\INV_Obliterum_Ash");
@@ -56,7 +56,7 @@ function ObliterumForgeMixin:UpdateObliterateButtonState()
 	self.ObliterateButton:SetEnabled(C_TradeSkillUI.GetPendingObliterateItemID() ~= nil);
 end
 
-ObliterumForgeItemSlotMixin = {};--- @class ObliterumForgeItemSlotMixin
+ObliterumForgeItemSlotMixin = {}; --- @class ObliterumForgeItemSlotMixin
 
 function ObliterumForgeItemSlotMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonDown");

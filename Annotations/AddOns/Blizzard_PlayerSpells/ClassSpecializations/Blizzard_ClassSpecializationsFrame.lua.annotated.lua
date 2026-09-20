@@ -55,7 +55,7 @@ local SPEC_FORMAT_STRINGS = {
 	[1480] = "demonhunter-devourer"
 }
 
-ClassSpecFrameMixin={}--- @class ClassSpecFrameMixin
+ClassSpecFrameMixin={} --- @class ClassSpecFrameMixin
 
 local ClassSpecFrameUnitEvents = {
 	"UNIT_LEVEL"
@@ -314,7 +314,7 @@ function ClassSpecFrameMixin:ActivateSpecByIndex(specIndex)
 end
 --------------------------- End Script Command Helpers --------------------------------
 
-ClassSpecContentFrameMixin={}--- @class ClassSpecContentFrameMixin
+ClassSpecContentFrameMixin={} --- @class ClassSpecContentFrameMixin
 
 function ClassSpecContentFrameMixin:OnLoad()
 	self.SpellButtonPool = CreateFramePool("BUTTON", self, "ClassSpecSpellTemplate");
@@ -488,7 +488,7 @@ function ClassSpecContentFrameMixin:SetHoverStateActive(isActive)
 	self.HoverBackground:SetShown(isActive);
 end
 
-ClassSpecSpellMixin = {}--- @class ClassSpecSpellMixin
+ClassSpecSpellMixin = {} --- @class ClassSpecSpellMixin
 
 function ClassSpecSpellMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");

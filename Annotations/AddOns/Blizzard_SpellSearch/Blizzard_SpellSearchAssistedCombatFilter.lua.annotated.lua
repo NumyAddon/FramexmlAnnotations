@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchAssistedCombatFilter.lua#L2)
---- @class SpellSearchAssistedCombatFilterMixin : BaseSpellSearchFilterMixin
+ --- @class SpellSearchAssistedCombatFilterMixin : BaseSpellSearchFilterMixin
 SpellSearchAssistedCombatFilterMixin = CreateFromMixins(BaseSpellSearchFilterMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchAssistedCombatFilter.lua#L6)

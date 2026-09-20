@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua#L1)
---- @class BonusObjectiveDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class BonusObjectiveDataProviderMixin : MapCanvasDataProviderMixin
 BonusObjectiveDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua#L28)
---- @class BonusObjectivePinMixin : MapCanvasPinMixin
+ --- @class BonusObjectivePinMixin : MapCanvasPinMixin
 BonusObjectivePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactPartyFrame.lua#L15)
---- @class CompactPartyFrameMixin
+ --- @class CompactPartyFrameMixin
 CompactPartyFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactPartyFrame.lua#L17)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L1)
---- @class CooldownCircleTrackerMixin
+ --- @class CooldownCircleTrackerMixin
 CooldownCircleTrackerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L9)
---- @class CommentatorUnitFrameMixin
+ --- @class CommentatorUnitFrameMixin
 CommentatorUnitFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L3)

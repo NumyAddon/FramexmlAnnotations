@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetManager.lua#L610)
---- @class UIWidgetContainerResizeMixin : OverrideLayoutFrameOnUpdateMixin
+ --- @class UIWidgetContainerResizeMixin : OverrideLayoutFrameOnUpdateMixin
 UIWidgetContainerResizeMixin = CreateFromMixins(OverrideLayoutFrameOnUpdateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetManager.lua#L9)
---- @class UIWidgetHorizontalWidgetContainerMixin
+ --- @class UIWidgetHorizontalWidgetContainerMixin
 UIWidgetHorizontalWidgetContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetManager.lua#L29)
---- @class UIWidgetContainerMixin
+ --- @class UIWidgetContainerMixin
 UIWidgetContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetManager.lua#L633)
---- @class UIWidgetManagerMixin
+ --- @class UIWidgetManagerMixin
 UIWidgetManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetManager.lua#L11)

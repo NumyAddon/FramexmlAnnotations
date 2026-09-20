@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L2)
---- @class QuickKeybindButtonTemplateMixin
+ --- @class QuickKeybindButtonTemplateMixin
 QuickKeybindButtonTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L104)
---- @class QuickKeybindFrameMixin
+ --- @class QuickKeybindFrameMixin
 QuickKeybindFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L4)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyMemberFrame.lua#L2)
---- @class PartyMemberFrameMixin : PartyMemberAuraMixin
+ --- @class PartyMemberFrameMixin : PartyMemberAuraMixin
 PartyMemberFrameMixin = CreateFromMixins(PartyMemberAuraMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyMemberFrame.lua#L466)
---- @class PartyMemberPetFrameMixin : PartyMemberAuraMixin
+ --- @class PartyMemberPetFrameMixin : PartyMemberAuraMixin
 PartyMemberPetFrameMixin = CreateFromMixins(PartyMemberAuraMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyMemberFrame.lua#L4)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/MapHighlightDataProvider.lua#L1)
---- @class MapHighlightDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class MapHighlightDataProviderMixin : MapCanvasDataProviderMixin
 MapHighlightDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/MapHighlightDataProvider.lua#L21)
---- @class MapHighlightPinMixin : MapCanvasPinMixin
+ --- @class MapHighlightPinMixin : MapCanvasPinMixin
 MapHighlightPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/MapHighlightDataProvider.lua#L3)

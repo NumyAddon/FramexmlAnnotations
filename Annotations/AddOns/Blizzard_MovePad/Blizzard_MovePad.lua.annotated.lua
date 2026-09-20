@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L1)
---- @class MovePadMixin
+ --- @class MovePadMixin
 MovePadMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L108)
---- @class MovePadCheckboxMixin
+ --- @class MovePadCheckboxMixin
 MovePadCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L152)
---- @class MovePadForwardMixin
+ --- @class MovePadForwardMixin
 MovePadForwardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L158)
---- @class MovePadBackwardMixin
+ --- @class MovePadBackwardMixin
 MovePadBackwardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L164)
---- @class MovePadRotateLeftMixin
+ --- @class MovePadRotateLeftMixin
 MovePadRotateLeftMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L172)
---- @class MovePadRotateRightMixin
+ --- @class MovePadRotateRightMixin
 MovePadRotateRightMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L180)
---- @class MovePadStrafeLeftMixin
+ --- @class MovePadStrafeLeftMixin
 MovePadStrafeLeftMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L186)
---- @class MovePadStrafeRightMixin
+ --- @class MovePadStrafeRightMixin
 MovePadStrafeRightMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L192)
---- @class MovePadJumpMixin
+ --- @class MovePadJumpMixin
 MovePadJumpMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L3)

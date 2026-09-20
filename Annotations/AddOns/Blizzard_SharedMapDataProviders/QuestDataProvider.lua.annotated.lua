@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestDataProvider.lua#L1)
---- @class QuestDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class QuestDataProviderMixin : MapCanvasDataProviderMixin
 QuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestDataProvider.lua#L222)
---- @class QuestPinMixin : MapCanvasPinMixin
+ --- @class QuestPinMixin : MapCanvasPinMixin
 QuestPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestDataProvider.lua#L3)

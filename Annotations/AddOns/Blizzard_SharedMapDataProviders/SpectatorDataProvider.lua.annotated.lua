@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/SpectatorDataProvider.lua#L1)
---- @class SpectatorDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class SpectatorDataProviderMixin : MapCanvasDataProviderMixin
 SpectatorDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/SpectatorDataProvider.lua#L59)
---- @class SpectatorPinMixin : MapCanvasPinMixin
+ --- @class SpectatorPinMixin : MapCanvasPinMixin
 SpectatorPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/SpectatorDataProvider.lua#L3)

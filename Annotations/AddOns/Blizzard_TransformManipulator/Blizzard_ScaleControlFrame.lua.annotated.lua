@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L145)
---- @class ScaleControlArrowButtonMixin : ButtonStateBehaviorMixin
+ --- @class ScaleControlArrowButtonMixin : ButtonStateBehaviorMixin
 ScaleControlArrowButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L7)
---- @class ScaleControlFrameMixin
+ --- @class ScaleControlFrameMixin
 ScaleControlFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L9)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/DataProvider.lua#L2)
---- @class DataProviderMixin : CallbackRegistryMixin
+ --- @class DataProviderMixin : CallbackRegistryMixin
 DataProviderMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/DataProvider.lua#L14)

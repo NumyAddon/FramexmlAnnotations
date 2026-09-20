@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Channels/ChannelList.lua#L1)
---- @class ChannelListMixin
+ --- @class ChannelListMixin
 ChannelListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Channels/ChannelList.lua#L3)

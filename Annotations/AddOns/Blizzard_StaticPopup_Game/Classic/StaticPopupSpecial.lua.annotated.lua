@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_StaticPopup_Game/Classic/StaticPopupSpecial.lua#L1)
---- @class PlayerReportFrameMixin
+ --- @class PlayerReportFrameMixin
 PlayerReportFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_StaticPopup_Game/Classic/StaticPopupSpecial.lua#L3)

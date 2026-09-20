@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L151)
---- @class MinimapClusterMixin
+ --- @class MinimapClusterMixin
 MinimapClusterMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L153)

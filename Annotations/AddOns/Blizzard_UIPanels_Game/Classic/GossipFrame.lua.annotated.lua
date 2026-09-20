@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L1)
---- @class GossipFrameMixin : GossipFrameSharedMixin
+ --- @class GossipFrameMixin : GossipFrameSharedMixin
 GossipFrameMixin = CreateFromMixins(GossipFrameSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L30)
---- @class GossipAvailableQuestButtonMixin : GossipSharedAvailableQuestButtonMixin
+ --- @class GossipAvailableQuestButtonMixin : GossipSharedAvailableQuestButtonMixin
 GossipAvailableQuestButtonMixin = CreateFromMixins(GossipSharedAvailableQuestButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L42)
---- @class GossipActiveQuestButtonMixin : GossipSharedActiveQuestButtonMixin
+ --- @class GossipActiveQuestButtonMixin : GossipSharedActiveQuestButtonMixin
 GossipActiveQuestButtonMixin = CreateFromMixins(GossipSharedActiveQuestButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L3)

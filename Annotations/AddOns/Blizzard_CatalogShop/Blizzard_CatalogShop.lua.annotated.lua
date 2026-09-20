@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L7)
---- @class CatalogShopMixin
+ --- @class CatalogShopMixin
 CatalogShopMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L835)
---- @class CatalogShopVCFrameMixin
+ --- @class CatalogShopVCFrameMixin
 CatalogShopVCFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L917)
---- @class CatalogShopProductDetailsFrameMixin
+ --- @class CatalogShopProductDetailsFrameMixin
 CatalogShopProductDetailsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L1045)
---- @class BackgroundContainerMixin
+ --- @class BackgroundContainerMixin
 BackgroundContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L1088)
---- @class QuantityOwnedMixin
+ --- @class QuantityOwnedMixin
 QuantityOwnedMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L38)

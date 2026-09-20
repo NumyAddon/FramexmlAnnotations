@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.lua#L19)
---- @class WowTrimScrollBarStepperMixin : ButtonStateBehaviorMixin
+ --- @class WowTrimScrollBarStepperMixin : ButtonStateBehaviorMixin
 WowTrimScrollBarStepperMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.lua#L41)
---- @class WowScrollBarThumbScriptsMixin : ButtonStateBehaviorMixin
+ --- @class WowScrollBarThumbScriptsMixin : ButtonStateBehaviorMixin
 WowScrollBarThumbScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.lua#L1)
---- @class WowTrimScrollBarMixin
+ --- @class WowTrimScrollBarMixin
 WowTrimScrollBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/TrimScrollBar.lua#L3)

@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MicroMenu/Classic/MainMenuBarMicroButtons.lua#L305)
---- @class MainMenuBarMicroButtonMixin
+ --- @class MainMenuBarMicroButtonMixin
 MainMenuBarMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MicroMenu/Classic/MainMenuBarMicroButtons.lua#L316)
---- @class SocialsMicroButtonMixin
+ --- @class SocialsMicroButtonMixin
 SocialsMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MicroMenu/Classic/MainMenuBarMicroButtons.lua#L361)
---- @class GuildMicroButtonMixin
+ --- @class GuildMicroButtonMixin
 GuildMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MicroMenu/Classic/MainMenuBarMicroButtons.lua#L729)
---- @class CollectionMicroButtonMixin
+ --- @class CollectionMicroButtonMixin
 CollectionMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MicroMenu/Classic/MainMenuBarMicroButtons.lua#L814)
---- @class EJMicroButtonMixin
+ --- @class EJMicroButtonMixin
 EJMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MicroMenu/Classic/MainMenuBarMicroButtons.lua#L903)
---- @class StoreMicroButtonMixin
+ --- @class StoreMicroButtonMixin
 StoreMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MicroMenu/Classic/MainMenuBarMicroButtons.lua#L998)
---- @class MainMenuMicroButtonMixin
+ --- @class MainMenuMicroButtonMixin
 MainMenuMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MicroMenu/Classic/MainMenuBarMicroButtons.lua#L307)

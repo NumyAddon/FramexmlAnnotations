@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MapCanvas/MapCanvas_PinFrameLevelsManager.lua#L1)
---- @class MapCanvasPinFrameLevelsManagerMixin
+ --- @class MapCanvasPinFrameLevelsManagerMixin
 MapCanvasPinFrameLevelsManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MapCanvas/MapCanvas_PinFrameLevelsManager.lua#L7)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L1)
---- @class WorldMapMixin
+ --- @class WorldMapMixin
 WorldMapMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L4)

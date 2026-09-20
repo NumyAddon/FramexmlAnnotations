@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/ModelSceneCameras/CameraBaseMixin.lua#L2)
---- @class CameraBaseMixin
+ --- @class CameraBaseMixin
 CameraBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/ModelSceneCameras/CameraBaseMixin.lua#L4)

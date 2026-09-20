@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/BenchmarkUtil.lua#L1)
---- @class ScriptBenchmarkMixin
+ --- @class ScriptBenchmarkMixin
 ScriptBenchmarkMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/BenchmarkUtil.lua#L23)
---- @class ScriptBenchmarkGarbageCollectorControlMixin
+ --- @class ScriptBenchmarkGarbageCollectorControlMixin
 ScriptBenchmarkGarbageCollectorControlMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/BenchmarkUtil.lua#L3)

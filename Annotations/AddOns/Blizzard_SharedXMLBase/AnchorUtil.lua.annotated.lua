@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L2)
---- @class AnchorMixin
+ --- @class AnchorMixin
 AnchorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L62)
---- @class GridLayoutMixin
+ --- @class GridLayoutMixin
 GridLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L4)

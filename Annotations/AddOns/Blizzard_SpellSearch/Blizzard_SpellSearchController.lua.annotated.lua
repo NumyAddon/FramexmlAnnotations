@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchController.lua#L1)
---- @class SpellSearchControllerMixin
+ --- @class SpellSearchControllerMixin
 SpellSearchControllerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchController.lua#L4)

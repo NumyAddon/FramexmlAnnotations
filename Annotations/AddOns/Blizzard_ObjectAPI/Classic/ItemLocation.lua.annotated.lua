@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L2)
---- @class ItemLocationMixin
+ --- @class ItemLocationMixin
 ItemLocationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L21)

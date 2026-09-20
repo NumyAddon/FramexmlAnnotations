@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L1)
---- @class WorldQuestDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class WorldQuestDataProviderMixin : MapCanvasDataProviderMixin
 WorldQuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L341)
---- @class WorldQuestPinMixin : MapCanvasPinMixin
+ --- @class WorldQuestPinMixin : MapCanvasPinMixin
 WorldQuestPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L442)
---- @class WorldQuestSpellEffectPinMixin : MapCanvasPinMixin
+ --- @class WorldQuestSpellEffectPinMixin : MapCanvasPinMixin
 WorldQuestSpellEffectPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L479)
---- @class WorldQuestPingPinMixin : MapCanvasPinMixin
+ --- @class WorldQuestPingPinMixin : MapCanvasPinMixin
 WorldQuestPingPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L515)
---- @class WorldQuestPinPingDriverAnimationMixin
+ --- @class WorldQuestPinPingDriverAnimationMixin
 WorldQuestPinPingDriverAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L3)

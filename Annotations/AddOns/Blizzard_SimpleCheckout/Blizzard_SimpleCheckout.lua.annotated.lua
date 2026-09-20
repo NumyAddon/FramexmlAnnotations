@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SimpleCheckout/Blizzard_SimpleCheckout.lua#L2)
---- @class SimpleCheckoutMixin
+ --- @class SimpleCheckoutMixin
 SimpleCheckoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SimpleCheckout/Blizzard_SimpleCheckout.lua#L170)
---- @class SimpleCheckoutBackgroundMixin
+ --- @class SimpleCheckoutBackgroundMixin
 SimpleCheckoutBackgroundMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SimpleCheckout/Blizzard_SimpleCheckout.lua#L4)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L62)
---- @class ScrollBoxListLinearViewMixin : ScrollBoxListViewMixin, ScrollBoxListStrideMixin, ScrollBoxLinearBaseViewMixin
+ --- @class ScrollBoxListLinearViewMixin : ScrollBoxListViewMixin, ScrollBoxListStrideMixin, ScrollBoxLinearBaseViewMixin
 ScrollBoxListLinearViewMixin = CreateFromMixins(ScrollBoxListViewMixin, ScrollBoxListStrideMixin, ScrollBoxLinearBaseViewMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L251)
---- @class ScrollBoxLinearViewMixin : ScrollBoxViewMixin, ScrollBoxLinearBaseViewMixin
+ --- @class ScrollBoxLinearViewMixin : ScrollBoxViewMixin, ScrollBoxLinearBaseViewMixin
 ScrollBoxLinearViewMixin = CreateFromMixins(ScrollBoxViewMixin, ScrollBoxLinearBaseViewMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L1)
---- @class ScrollBoxLinearBaseViewMixin
+ --- @class ScrollBoxLinearBaseViewMixin
 ScrollBoxLinearBaseViewMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L3)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Channels/VoiceActivityNotification.lua#L81)
---- @class VoiceActivityNotificationMixin : VoiceActivityNotificationBaseMixin
+ --- @class VoiceActivityNotificationMixin : VoiceActivityNotificationBaseMixin
 VoiceActivityNotificationMixin = CreateFromMixins(VoiceActivityNotificationBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Channels/VoiceActivityNotification.lua#L1)
---- @class VoiceActivityVolumeMixin
+ --- @class VoiceActivityVolumeMixin
 VoiceActivityVolumeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Channels/VoiceActivityNotification.lua#L9)
---- @class VoiceActivityNotificationBaseMixin
+ --- @class VoiceActivityNotificationBaseMixin
 VoiceActivityNotificationBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Channels/VoiceActivityNotification.lua#L3)

@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitPopup/TBC/UnitPopupButtons.lua#L1)
---- @class UnitPopupTeamPromoteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupTeamPromoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTeamPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitPopup/TBC/UnitPopupButtons.lua#L33)
---- @class UnitPopupTeamKickButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupTeamKickButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTeamKickButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitPopup/TBC/UnitPopupButtons.lua#L65)
---- @class UnitPopupTeamLeaveButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupTeamLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTeamLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitPopup/TBC/UnitPopupButtons.lua#L89)
---- @class UnitPopupTeamDisbandButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupTeamDisbandButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTeamDisbandButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitPopup/TBC/UnitPopupButtons.lua#L3)

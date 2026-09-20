@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIParent/Shared/UIParent.lua#L119)
---- @class UIParentManagedFrameMixin
+ --- @class UIParentManagedFrameMixin
 UIParentManagedFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIParent/Shared/UIParent.lua#L145)
---- @class UIParentManagedFrameContainerMixin
+ --- @class UIParentManagedFrameContainerMixin
 UIParentManagedFrameContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIParent/Shared/UIParent.lua#L120)

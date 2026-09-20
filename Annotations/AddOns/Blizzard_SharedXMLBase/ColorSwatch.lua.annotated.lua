@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXMLBase/ColorSwatch.lua#L1)
---- @class ColorSwatchMixin
+ --- @class ColorSwatchMixin
 ColorSwatchMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXMLBase/ColorSwatch.lua#L3)

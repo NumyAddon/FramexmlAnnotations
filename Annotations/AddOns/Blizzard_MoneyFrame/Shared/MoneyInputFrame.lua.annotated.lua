@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyInputFrame.lua#L7)
---- @class LargeMoneyInputBoxMixin
+ --- @class LargeMoneyInputBoxMixin
 LargeMoneyInputBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyInputFrame.lua#L41)
---- @class LargeMoneyInputFrameMixin
+ --- @class LargeMoneyInputFrameMixin
 LargeMoneyInputFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyInputFrame.lua#L9)

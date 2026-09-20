@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L2)
---- @class EncounterJournalDataProviderMixin : CVarMapCanvasDataProviderMixin
+ --- @class EncounterJournalDataProviderMixin : CVarMapCanvasDataProviderMixin
 EncounterJournalDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L43)
---- @class EncounterJournalPinMixin : MapCanvasPinMixin
+ --- @class EncounterJournalPinMixin : MapCanvasPinMixin
 EncounterJournalPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L5)

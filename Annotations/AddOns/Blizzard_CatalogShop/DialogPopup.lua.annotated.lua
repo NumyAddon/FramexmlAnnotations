@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CatalogShop/DialogPopup.lua#L6)
---- @class DialogButtonMixin : ButtonStateBehaviorMixin
+ --- @class DialogButtonMixin : ButtonStateBehaviorMixin
 DialogButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CatalogShop/DialogPopup.lua#L107)
---- @class DialogPopupMixin
+ --- @class DialogPopupMixin
 DialogPopupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CatalogShop/DialogPopup.lua#L8)

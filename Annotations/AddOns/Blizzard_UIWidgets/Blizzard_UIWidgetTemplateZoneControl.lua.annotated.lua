@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateZoneControl.lua#L10)
---- @class UIWidgetTemplateZoneControlMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateZoneControlMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateZoneControlMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateZoneControl.lua#L12)

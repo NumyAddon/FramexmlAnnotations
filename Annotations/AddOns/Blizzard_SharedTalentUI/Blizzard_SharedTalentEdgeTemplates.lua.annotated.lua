@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentEdgeTemplates.lua#L2)
---- @class TalentEdgeBaseMixin
+ --- @class TalentEdgeBaseMixin
 TalentEdgeBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentEdgeTemplates.lua#L27)
---- @class TalentEdgeStraightMixin
+ --- @class TalentEdgeStraightMixin
 TalentEdgeStraightMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentEdgeTemplates.lua#L88)
---- @class TalentEdgeArrowMixin
+ --- @class TalentEdgeArrowMixin
 TalentEdgeArrowMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentEdgeTemplates.lua#L4)

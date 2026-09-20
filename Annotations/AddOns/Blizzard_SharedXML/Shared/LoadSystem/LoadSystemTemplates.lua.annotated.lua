@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/LoadSystem/LoadSystemTemplates.lua#L1)
---- @class DropdownLoadSystemMixin
+ --- @class DropdownLoadSystemMixin
 DropdownLoadSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/Shared/LoadSystem/LoadSystemTemplates.lua#L3)

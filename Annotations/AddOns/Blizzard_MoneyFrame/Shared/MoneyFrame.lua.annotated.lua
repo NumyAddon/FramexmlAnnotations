@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L365)
---- @class MoneyDenominationDisplayMixin
+ --- @class MoneyDenominationDisplayMixin
 MoneyDenominationDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L470)
---- @class MoneyDisplayFrameMixin
+ --- @class MoneyDisplayFrameMixin
 MoneyDisplayFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L367)

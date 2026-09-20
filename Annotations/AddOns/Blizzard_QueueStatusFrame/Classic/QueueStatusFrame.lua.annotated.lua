@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.lua#L5)
---- @class QueueStatusFrameMixin
+ --- @class QueueStatusFrameMixin
 QueueStatusFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.lua#L6)

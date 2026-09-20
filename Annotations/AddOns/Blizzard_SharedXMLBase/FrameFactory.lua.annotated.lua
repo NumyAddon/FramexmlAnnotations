@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXMLBase/FrameFactory.lua#L1)
---- @class FrameFactoryMixin
+ --- @class FrameFactoryMixin
 FrameFactoryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXMLBase/FrameFactory.lua#L3)

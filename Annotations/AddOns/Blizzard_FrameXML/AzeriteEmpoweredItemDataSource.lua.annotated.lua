@@ -1,4 +1,4 @@
-AzeriteEmpoweredItemDataSourceMixin = {};--- @class AzeriteEmpoweredItemDataSourceMixin
+AzeriteEmpoweredItemDataSourceMixin = {}; --- @class AzeriteEmpoweredItemDataSourceMixin
 AzeriteEmpoweredItemDataSource = {};
 
 function AzeriteEmpoweredItemDataSource:CreateEmpty()

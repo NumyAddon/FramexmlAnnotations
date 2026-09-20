@@ -8,7 +8,7 @@ local LFG_EYE_POKE_INIT_ANIM	= "POKE_INIT";
 local LFG_EYE_POKE_LOOP_ANIM	= "POKE_LOOP";
 local LFG_EYE_POKE_END_ANIM		= "POKE_END";
 
-EyeTemplateMixin = {};--- @class EyeTemplateMixin
+EyeTemplateMixin = {}; --- @class EyeTemplateMixin
 
 function EyeTemplateMixin:OnLoad()
 	self.currActiveAnims = {};
@@ -124,7 +124,7 @@ end
 -------------QueueStatusButton----------------
 ----------------------------------------------
 
-QueueStatusButtonMixin = {};--- @class QueueStatusButtonMixin
+QueueStatusButtonMixin = {}; --- @class QueueStatusButtonMixin
 
 local LFG_ANGER_INC_VAL = 30;
 local LFG_ANGER_DEC_VAL = 1;
@@ -464,7 +464,7 @@ end
 ------------QueueStatusFrame------------------
 ----------------------------------------------
 
-QueueStatusFrameMixin = {}--- @class QueueStatusFrameMixin
+QueueStatusFrameMixin = {} --- @class QueueStatusFrameMixin
 function QueueStatusFrameMixin:OnLoad()
 	--For everything
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");

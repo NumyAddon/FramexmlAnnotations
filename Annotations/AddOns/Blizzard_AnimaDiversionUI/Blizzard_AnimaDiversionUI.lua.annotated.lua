@@ -2,7 +2,7 @@ local ANIMA_GEM_TEXTURE_INFO = "AnimaChannel-Bar-%s-Gem";
 local OVERRIDE_MODEL_SCENE_FRAME_LEVEL = 511; 
 local MAX_ANIMA_GEM_COUNT = 10; 
 
-AnimaDiversionFrameMixin = { }; --- @class AnimaDiversionFrameMixin
+AnimaDiversionFrameMixin = { };  --- @class AnimaDiversionFrameMixin
 
 local fullGemsTextureKitAnimationEffectId = {
 	["Kyrian"] = 24,
@@ -339,7 +339,7 @@ function AnimaDiversionFrameMixin:SetupCurrencyFrame()
 	end 
 end 
 
-AnimaDiversionCurrencyFrameMixin = { }; --- @class AnimaDiversionCurrencyFrameMixin
+AnimaDiversionCurrencyFrameMixin = { };  --- @class AnimaDiversionCurrencyFrameMixin
 
 function AnimaDiversionCurrencyFrameMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
@@ -352,7 +352,7 @@ function AnimaDiversionCurrencyFrameMixin:OnLeave()
 	GameTooltip:Hide(); 
 end 
 
-ReinforceProgressFrameMixin = { }; --- @class ReinforceProgressFrameMixin
+ReinforceProgressFrameMixin = { };  --- @class ReinforceProgressFrameMixin
 
 function ReinforceProgressFrameMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
@@ -365,7 +365,7 @@ function ReinforceProgressFrameMixin:OnLeave()
 	GameTooltip:Hide(); 
 end 
 
-ReinforceInfoFrameMixin = { };--- @class ReinforceInfoFrameMixin
+ReinforceInfoFrameMixin = { }; --- @class ReinforceInfoFrameMixin
 
 function ReinforceInfoFrameMixin:OnHide()
 	self.selectedNode = nil; 
@@ -421,7 +421,7 @@ function ReinforceInfoFrameMixin:SelectNodeToReinforce(node)
 	PlaySound(AnimaDiversionFrame.covenantData.animaReinforceSelectSoundKit);
 end 
 
-AnimaNodeReinforceButtonMixin = { };--- @class AnimaNodeReinforceButtonMixin
+AnimaNodeReinforceButtonMixin = { }; --- @class AnimaNodeReinforceButtonMixin
 function AnimaNodeReinforceButtonMixin:OnClick()
 	local selectedNode = self:GetParent():GetSelectedNode();
 	if selectedNode then

@@ -10,7 +10,7 @@ local function GetPlayerPartyMemberInfo()
 	return nil;
 end
 
-PlunderstormAccountStoreToggleMixin = {};--- @class PlunderstormAccountStoreToggleMixin
+PlunderstormAccountStoreToggleMixin = {}; --- @class PlunderstormAccountStoreToggleMixin
 
 function PlunderstormAccountStoreToggleMixin:OnClick()
 	-- TODO:: play a sound
@@ -35,7 +35,7 @@ function PlunderstormAccountStoreToggleMixin:OnLeave()
 	GetAppropriateTooltip():Hide();
 end
 
-PlunderstormBasicsContainerFrameMixin = {};--- @class PlunderstormBasicsContainerFrameMixin
+PlunderstormBasicsContainerFrameMixin = {}; --- @class PlunderstormBasicsContainerFrameMixin
 
 local PlunderstormBasicsContainerFrameEvents = {
 	"ACCOUNT_STORE_CURRENCY_AVAILABLE_UPDATED",

@@ -1,4 +1,4 @@
-EncounterTimelineTrackViewMixin = CreateFromMixins(EncounterTimelineViewMixin, EncounterTimelineTrackViewSettingsMixin, EncounterTimelineTrackLayoutMixin);--- @class EncounterTimelineTrackViewMixin : EncounterTimelineViewMixin, EncounterTimelineTrackViewSettingsMixin, EncounterTimelineTrackLayoutMixin
+EncounterTimelineTrackViewMixin = CreateFromMixins(EncounterTimelineViewMixin, EncounterTimelineTrackViewSettingsMixin, EncounterTimelineTrackLayoutMixin); --- @class EncounterTimelineTrackViewMixin : EncounterTimelineViewMixin, EncounterTimelineTrackViewSettingsMixin, EncounterTimelineTrackLayoutMixin
 
 function EncounterTimelineTrackViewMixin:OnLoad()
 	EncounterTimelineViewMixin.OnLoad(self);

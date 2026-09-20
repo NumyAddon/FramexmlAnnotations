@@ -15,7 +15,7 @@ local AccountStoreCategoryToInfo = {
 };
 
 
-AccountStoreItemRackMixin = {};--- @class AccountStoreItemRackMixin
+AccountStoreItemRackMixin = {}; --- @class AccountStoreItemRackMixin
 
 function AccountStoreItemRackMixin:SetCategoryType(categoryType)
 	local categoryInfo = AccountStoreCategoryToInfo[categoryType];

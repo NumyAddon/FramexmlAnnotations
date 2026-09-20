@@ -1014,7 +1014,7 @@ NewRecipeLearnedAlertSystem = AlertFrame:AddQueuedAlertFrameSubSystem("NewRecipe
 
 
 -- [[SkillLineSpecsUnlockedAlertFrame ]] --
-SkillLineSpecsUnlockedAlertFrameMixin = {};--- @class SkillLineSpecsUnlockedAlertFrameMixin
+SkillLineSpecsUnlockedAlertFrameMixin = {}; --- @class SkillLineSpecsUnlockedAlertFrameMixin
 
 function SkillLineSpecsUnlockedAlertFrameMixin:SetUp(skillLineID, tradeSkillID)
 	PlaySound(SOUNDKIT.UI_PROFESSIONS_NEW_RECIPE_LEARNED_TOAST);
@@ -1160,7 +1160,7 @@ end
 
 -- [[ ItemAlertFrame (template) ]] ---
 
-ItemAlertFrameMixin = {};--- @class ItemAlertFrameMixin
+ItemAlertFrameMixin = {}; --- @class ItemAlertFrameMixin
 
 function ItemAlertFrameMixin:SetUpDisplay(icon, itemQuality, name, label, overlayAtlas)
 	self.Icon:SetTexture(icon);
@@ -1188,7 +1188,7 @@ function NewPetAlertFrame_SetUp(frame, petID)
 	frame:SetUp(petID);
 end
 
-NewPetAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin);--- @class NewPetAlertFrameMixin : ItemAlertFrameMixin
+NewPetAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin); --- @class NewPetAlertFrameMixin : ItemAlertFrameMixin
 
 function NewPetAlertFrameMixin:SetUp(petID)
 	self.petID = petID;
@@ -1218,7 +1218,7 @@ function NewMountAlertFrame_SetUp(frame, mountID)
 	frame:SetUp(mountID);
 end
 
-NewMountAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin);--- @class NewMountAlertFrameMixin : ItemAlertFrameMixin
+NewMountAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin); --- @class NewMountAlertFrameMixin : ItemAlertFrameMixin
 
 function NewMountAlertFrameMixin:SetUp(mountID)
 	self.mountID = mountID;
@@ -1245,7 +1245,7 @@ function NewToyAlertFrame_SetUp(frame, toyID)
 	frame:SetUp(toyID);
 end
 
-NewToyAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin);--- @class NewToyAlertFrameMixin : ItemAlertFrameMixin
+NewToyAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin); --- @class NewToyAlertFrameMixin : ItemAlertFrameMixin
 
 function NewToyAlertFrameMixin:SetUp(toyID)
 	self.toyID = toyID;
@@ -1268,7 +1268,7 @@ function NewWarbandSceneAlertFrame_SetUp(frame, warbandSceneID)
 	frame:SetUp(warbandSceneID);
 end
 
-NewWarbandSceneAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin);--- @class NewWarbandSceneAlertFrameMixin : ItemAlertFrameMixin
+NewWarbandSceneAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin); --- @class NewWarbandSceneAlertFrameMixin : ItemAlertFrameMixin
 
 function NewWarbandSceneAlertFrameMixin:SetUp(warbandSceneID)
 	self.warbandSceneID = warbandSceneID;
@@ -1297,7 +1297,7 @@ function NewRuneforgePowerAlertSystem_SetUp(frame, powerID)
 	frame:SetUp(powerID);
 end
 
-NewRuneforgePowerAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin, RuneforgePowerBaseMixin);--- @class NewRuneforgePowerAlertFrameMixin : ItemAlertFrameMixin, RuneforgePowerBaseMixin
+NewRuneforgePowerAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin, RuneforgePowerBaseMixin); --- @class NewRuneforgePowerAlertFrameMixin : ItemAlertFrameMixin, RuneforgePowerBaseMixin
 
 function NewRuneforgePowerAlertFrameMixin:SetUp(powerID)
 	self:SetPowerID(powerID);
@@ -1340,7 +1340,7 @@ function NewCosmeticAlertFrameSystem_SetUp(frame, itemModifiedAppearanceID)
 	frame:SetUp(itemModifiedAppearanceID);
 end
 
-NewCosmeticAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin);--- @class NewCosmeticAlertFrameMixin : ItemAlertFrameMixin
+NewCosmeticAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin); --- @class NewCosmeticAlertFrameMixin : ItemAlertFrameMixin
 
 function NewCosmeticAlertFrameMixin:SetUp(itemModifiedAppearanceID)
 	PlaySound(SOUNDKIT.UI_COSMETIC_ITEM_TOAST_SHOW);
@@ -1427,7 +1427,7 @@ function GuildRenameAlertFrame_SetUp(frame, guildName)
 	SetLargeGuildTabardTextures("player", frame.GuildTabardEmblem, frame.GuildTabardBackground, frame.GuildTabardBorder);
 end
 
-GuildRenamedAlertMixin = {};--- @class GuildRenamedAlertMixin
+GuildRenamedAlertMixin = {}; --- @class GuildRenamedAlertMixin
 
 function GuildRenamedAlertMixin:OnClick(button, down)
 	GuildFrameAlertClick(self, button, down);

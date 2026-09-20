@@ -82,7 +82,7 @@ local EDIT_MODE_SESSION =
 	maxAmount = 100;
 };
 
-DamageMeterSessionWindowMixin = {};--- @class DamageMeterSessionWindowMixin
+DamageMeterSessionWindowMixin = {}; --- @class DamageMeterSessionWindowMixin
 
 local DamageMeterSessionWindowMixinEvents = {
 	"DAMAGE_METER_COMBAT_SESSION_UPDATED",

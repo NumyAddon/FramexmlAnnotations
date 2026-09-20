@@ -30,7 +30,7 @@ local function ShouldHideErrorFrame(errorTypeCVar)
 	return not GetCVarBool(errorTypeCVar);
 end
 
-ScriptErrorsFrameMixin = {};--- @class ScriptErrorsFrameMixin
+ScriptErrorsFrameMixin = {}; --- @class ScriptErrorsFrameMixin
 
 function ScriptErrorsFrameMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");

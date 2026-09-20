@@ -1,5 +1,5 @@
 
-StoreTooltipBackdropMixin = {};--- @class StoreTooltipBackdropMixin
+StoreTooltipBackdropMixin = {}; --- @class StoreTooltipBackdropMixin
 
 function StoreTooltipBackdropMixin:StoreTooltipOnLoad()
 	NineSliceUtil.DisableSharpening(self);
@@ -9,7 +9,7 @@ function StoreTooltipBackdropMixin:StoreTooltipOnLoad()
 end
 
 
-StoreBulletPointMixin = {};--- @class StoreBulletPointMixin
+StoreBulletPointMixin = {}; --- @class StoreBulletPointMixin
 function StoreBulletPointMixin:OnLoad()
 	BulletPointWithTextureMixin.OnLoad(self);
 	self.Text:SetFontObject("GameFontNormalMed1");
@@ -48,7 +48,7 @@ local function SelectCategoryGroupID(groupID)
 end
 
 
-CategoryTreeScrollContainerMixin = {};--- @class CategoryTreeScrollContainerMixin
+CategoryTreeScrollContainerMixin = {}; --- @class CategoryTreeScrollContainerMixin
 function CategoryTreeScrollContainerMixin:OnLoad()
 	self:RegisterEvent("STORE_PRODUCTS_UPDATED");
 

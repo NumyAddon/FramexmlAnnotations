@@ -270,7 +270,7 @@ function GarrisonFollowerList:OnEvent(event, ...)
 end
 
 
-GarrisonMissionFollowerDurabilityMixin = { }--- @class GarrisonMissionFollowerDurabilityMixin
+GarrisonMissionFollowerDurabilityMixin = { } --- @class GarrisonMissionFollowerDurabilityMixin
 
 function GarrisonMissionFollowerDurabilityMixin:SetDurability(durability, maxDurability, durabilityLoss)
 	local heartWidth = 13;
@@ -340,7 +340,7 @@ function GarrisonFollowerListButton_OnDragStop(self)
 	end
 end
 
-GarrisonMissionFollowerOrCategoryListButtonMixin = { }--- @class GarrisonMissionFollowerOrCategoryListButtonMixin
+GarrisonMissionFollowerOrCategoryListButtonMixin = { } --- @class GarrisonMissionFollowerOrCategoryListButtonMixin
 
 function GarrisonMissionFollowerOrCategoryListButtonMixin:GetFollowerList()
 	return self:GetParent():GetParent():GetParent():GetParent();
@@ -1661,7 +1661,7 @@ end
 
 --- GarrisonFollowerTab
 
-GarrisonFollowerTabMixin = { }--- @class GarrisonFollowerTabMixin
+GarrisonFollowerTabMixin = { } --- @class GarrisonFollowerTabMixin
 
 function GarrisonFollowerTabMixin:UpdateValidSpellHighlightOnAbilityFrame(abilityFrame, followerID, followerInfo, predicate)
 	local ability = abilityFrame.ability;
@@ -2583,7 +2583,7 @@ end
 ---------------------------------------------------------------------------------
 --- Abilities Frame
 ---------------------------------------------------------------------------------
-GarrisonAbilitiesFrameMixin = { }--- @class GarrisonAbilitiesFrameMixin
+GarrisonAbilitiesFrameMixin = { } --- @class GarrisonAbilitiesFrameMixin
 
 function GarrisonAbilitiesFrameMixin:GetFollowerTab()
 	return self:GetParent();
@@ -2782,7 +2782,7 @@ end
 ---------------------------------------------------------------------------------
 -- Combat Ally support
 ---------------------------------------------------------------------------------
-GarrisonFollowerCombatAllySpellMixin = { }--- @class GarrisonFollowerCombatAllySpellMixin
+GarrisonFollowerCombatAllySpellMixin = { } --- @class GarrisonFollowerCombatAllySpellMixin
 
 function GarrisonFollowerCombatAllySpellMixin:OnEnter()
 	if ( self.spellID ) then
@@ -2801,7 +2801,7 @@ end
 -- GarrisonFollowerEquipmentMixin
 ---------------------------------------------------------------------------------
 
-GarrisonFollowerEquipmentMixin = { }--- @class GarrisonFollowerEquipmentMixin
+GarrisonFollowerEquipmentMixin = { } --- @class GarrisonFollowerEquipmentMixin
 function GarrisonFollowerEquipmentMixin:OnEnter()
 	local overrideTooltipText = self.failureReason or self.tooltipText;
 	if overrideTooltipText then

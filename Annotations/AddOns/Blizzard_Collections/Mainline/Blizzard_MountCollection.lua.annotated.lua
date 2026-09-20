@@ -34,7 +34,7 @@ StaticPopupDialogs["DIALOG_REPLACE_MOUNT_EQUIPMENT"] = {
 	hideOnEscape = 1,
 };
 
-SuppressedMountEquipmentButtonMixin = {};--- @class SuppressedMountEquipmentButtonMixin
+SuppressedMountEquipmentButtonMixin = {}; --- @class SuppressedMountEquipmentButtonMixin
 function SuppressedMountEquipmentButtonMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_TOPLEFT", self:GetWidth());
 	GameTooltip_AddErrorLine(GameTooltip, MOUNT_EQUIPMENT_EXEMPT, true);
@@ -45,7 +45,7 @@ function SuppressedMountEquipmentButtonMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-AlertMountEquipmentFeatureMixin = CreateFromMixins(NewFeatureLabelMixin);--- @class AlertMountEquipmentFeatureMixin : NewFeatureLabelMixin
+AlertMountEquipmentFeatureMixin = CreateFromMixins(NewFeatureLabelMixin); --- @class AlertMountEquipmentFeatureMixin : NewFeatureLabelMixin
 
 function AlertMountEquipmentFeatureMixin:ClearAlert()
 	NewFeatureLabelMixin.ClearAlert(self);
@@ -57,7 +57,7 @@ function AlertMountEquipmentFeatureMixin:ValidateIsShown()
 	self:SetShown(not GetCVarBitfield("closedInfoFrames", LE_FRAME_TUTORIAL_MOUNT_EQUIPMENT_SLOT_FRAME));
 end
 
-MountEquipmentButtonMixin = {};--- @class MountEquipmentButtonMixin
+MountEquipmentButtonMixin = {}; --- @class MountEquipmentButtonMixin
 function MountEquipmentButtonMixin:Initialize(item)
 	self.ItemIcon:SetTexture(item and item:GetItemIcon() or nil);
 	self.ItemBorder:SetShown(item ~= nil);
@@ -987,7 +987,7 @@ end
 
 --------------------------------------------------
 -- Random Favorite Mount Spell Mixin
-MountJournalSummonRandomFavoriteSpellFrameMixin = {};--- @class MountJournalSummonRandomFavoriteSpellFrameMixin
+MountJournalSummonRandomFavoriteSpellFrameMixin = {}; --- @class MountJournalSummonRandomFavoriteSpellFrameMixin
 
 function MountJournalSummonRandomFavoriteSpellFrameMixin:OnIconClick()
 	C_MountJournal.SummonByID(0);
@@ -1004,7 +1004,7 @@ end
 
 --------------------------------------------------
 -- Flight Mode Button Mixin
-MountJournalDynamicFlightModeButtonMixin = {};--- @class MountJournalDynamicFlightModeButtonMixin
+MountJournalDynamicFlightModeButtonMixin = {}; --- @class MountJournalDynamicFlightModeButtonMixin
 
 function MountJournalDynamicFlightModeButtonMixin:OnLoad()
 	self.spellID = C_MountJournal.GetDynamicFlightModeSpellID();
@@ -1059,7 +1059,7 @@ function MountJournalDynamicFlightModeButtonMixin:DisplayTooltip()
 end
 
 --------------------------------------------------
-MountJournalOpenDynamicFlightSkillTreeButtonMixin = {};--- @class MountJournalOpenDynamicFlightSkillTreeButtonMixin
+MountJournalOpenDynamicFlightSkillTreeButtonMixin = {}; --- @class MountJournalOpenDynamicFlightSkillTreeButtonMixin
 
 function MountJournalOpenDynamicFlightSkillTreeButtonMixin:OnLoad()
 	self.NormalTexture:SetDrawLayer("OVERLAY");
@@ -1086,7 +1086,7 @@ function MountJournalOpenDynamicFlightSkillTreeButtonMixin:OnLeave()
 end
 
 --------------------------------------------------
-MountJournalToggleDynamicFlightFlyoutButtonMixin = CreateFromMixins(FlyoutButtonMixin);--- @class MountJournalToggleDynamicFlightFlyoutButtonMixin : FlyoutButtonMixin
+MountJournalToggleDynamicFlightFlyoutButtonMixin = CreateFromMixins(FlyoutButtonMixin); --- @class MountJournalToggleDynamicFlightFlyoutButtonMixin : FlyoutButtonMixin
 
 function MountJournalToggleDynamicFlightFlyoutButtonMixin:OnEvent(event, ...)
 	if event == "TRAIT_TREE_CURRENCY_INFO_UPDATED" then

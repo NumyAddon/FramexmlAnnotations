@@ -1,4 +1,4 @@
-DamageMeterSourceWindowMixin = {};--- @class DamageMeterSourceWindowMixin
+DamageMeterSourceWindowMixin = {}; --- @class DamageMeterSourceWindowMixin
 
 local DamageMeterSourceWindowMixinEvents = {
 	"GLOBAL_MOUSE_DOWN",

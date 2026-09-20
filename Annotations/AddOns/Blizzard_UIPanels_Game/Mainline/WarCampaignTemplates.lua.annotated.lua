@@ -1,6 +1,6 @@
 local CAMPAIGN_TITLE_MAX_WIDTH = 214;
 
-CampaignTooltipMixin = {};--- @class CampaignTooltipMixin
+CampaignTooltipMixin = {}; --- @class CampaignTooltipMixin
 
 function CampaignTooltipMixin:OnShow()
 	self.ticker = C_Timer.NewTicker(0.25, function()
@@ -101,7 +101,7 @@ function CampaignTooltipMixin:SetJourneyCampaign(campaign)
 	self:Show();
 end
 
-CampaignHeaderDisplayMixin = {};--- @class CampaignHeaderDisplayMixin
+CampaignHeaderDisplayMixin = {}; --- @class CampaignHeaderDisplayMixin
 
 function CampaignHeaderDisplayMixin:UpdateComplete(isComplete)
 	self.Background:SetDesaturated(isComplete);
@@ -205,7 +205,7 @@ function CampaignHeaderDisplayMixin:IsCollapsed()
 	return self.isCollapsed;
 end
 
-CampaignHeaderCollapsibleMixin = {};--- @class CampaignHeaderCollapsibleMixin
+CampaignHeaderCollapsibleMixin = {}; --- @class CampaignHeaderCollapsibleMixin
 
 function CampaignHeaderCollapsibleMixin:OnClick(button)
 	-- TODO: This doesn't behave like other quest header OnClick handlers, maybe it should.
@@ -249,7 +249,7 @@ function CampaignHeaderCollapsibleMixin:UpdateCollapsedState()
 	return isCollapsed;
 end
 
-CampaignHeaderTooltipableMixin = {};--- @class CampaignHeaderTooltipableMixin
+CampaignHeaderTooltipableMixin = {}; --- @class CampaignHeaderTooltipableMixin
 
 function CampaignHeaderTooltipableMixin:ShowTooltip()
 	local campaign = self:GetCampaign();
@@ -268,7 +268,7 @@ function CampaignHeaderTooltipableMixin:ShowTooltip()
 	tooltip:Show();
 end
 
-CampaignHeaderMixin = CreateFromMixins(CampaignHeaderDisplayMixin);--- @class CampaignHeaderMixin : CampaignHeaderDisplayMixin
+CampaignHeaderMixin = CreateFromMixins(CampaignHeaderDisplayMixin); --- @class CampaignHeaderMixin : CampaignHeaderDisplayMixin
 
 function CampaignHeaderMixin:GetButtonType()
 	return QuestLogButtonTypes.HeaderCampaign;
@@ -342,7 +342,7 @@ function CampaignHeaderMixin:UpdateLoreButtonVisibility()
 	self:SetDrawLayerEnabled("HIGHLIGHT", mouseOver);
 end
 
-CampaignHeaderMinimalMixin = CreateFromMixins(CampaignHeaderDisplayMixin);--- @class CampaignHeaderMinimalMixin : CampaignHeaderDisplayMixin
+CampaignHeaderMinimalMixin = CreateFromMixins(CampaignHeaderDisplayMixin); --- @class CampaignHeaderMinimalMixin : CampaignHeaderDisplayMixin
 
 function CampaignHeaderMinimalMixin:GetButtonType()
 	return QuestLogButtonTypes.HeaderCampaignMinimal;
@@ -379,7 +379,7 @@ function CampaignHeaderMinimalMixin:UpdateTextureKit()
 	-- nop
 end
 
-CampaignLoreButtonMixin = {};--- @class CampaignLoreButtonMixin
+CampaignLoreButtonMixin = {}; --- @class CampaignLoreButtonMixin
 
 function CampaignLoreButtonMixin:SetMode(mode)
 	if mode ~= self.mode then
@@ -417,7 +417,7 @@ function CampaignLoreButtonMixin:OnLeave()
 	end
 end
 
-CampaignNextObjectiveMixin = {};--- @class CampaignNextObjectiveMixin
+CampaignNextObjectiveMixin = {}; --- @class CampaignNextObjectiveMixin
 
 function CampaignNextObjectiveMixin:Set(failureReason)
 	self.mapID = failureReason.mapID;

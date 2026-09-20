@@ -1,5 +1,5 @@
 -- Provides a basic interface for something that manages the adding, updating, and removing of data like icons, blobs or text to the map canvas
-MapCanvasDataProviderMixin = {};--- @class MapCanvasDataProviderMixin
+MapCanvasDataProviderMixin = {}; --- @class MapCanvasDataProviderMixin
 
 function MapCanvasDataProviderMixin:OnAdded(owningMap)
 	-- Optionally override in your mixin, called when this provider is added to a map canvas
@@ -162,7 +162,7 @@ function MapCanvasDataProviderMixin:GetPingTargetPin(idKey, id)
 end
 
 -- A base template for data providers that are enabled or disabled with a CVar, e.g. archaeology digsites.
-CVarMapCanvasDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class CVarMapCanvasDataProviderMixin : MapCanvasDataProviderMixin
+CVarMapCanvasDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class CVarMapCanvasDataProviderMixin : MapCanvasDataProviderMixin
 
 function CVarMapCanvasDataProviderMixin:Init(cvar)
 	self.cvar = cvar;
@@ -190,7 +190,7 @@ function CVarMapCanvasDataProviderMixin:OnEvent(event, ...)
 end
 
 -- Provides a basic interface for something that is visible on the map canvas, like icons, blobs or text
-MapCanvasPinMixin = CreateFromMixins(TaggableObjectMixin);--- @class MapCanvasPinMixin : TaggableObjectMixin
+MapCanvasPinMixin = CreateFromMixins(TaggableObjectMixin); --- @class MapCanvasPinMixin : TaggableObjectMixin
 
 function MapCanvasPinMixin:OnLoad()
 	-- Override in your mixin, called when this pin is created

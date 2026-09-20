@@ -1,4 +1,4 @@
-BagSlotItemFlyInMixin = {};--- @class BagSlotItemFlyInMixin
+BagSlotItemFlyInMixin = {}; --- @class BagSlotItemFlyInMixin
 
 function BagSlotItemFlyInMixin:OnPlay()
 	self:GetParent().AnimIcon:Show();
@@ -8,7 +8,7 @@ function BagSlotItemFlyInMixin:OnFinished()
 	self:GetParent().AnimIcon:Hide();
 end
 
-BaseBagSlotButtonMixin = {};--- @class BaseBagSlotButtonMixin
+BaseBagSlotButtonMixin = {}; --- @class BaseBagSlotButtonMixin
 
 function BaseBagSlotButtonMixin:BagSlotOnLoad()
 	MainMenuBarBagManager:RegisterBagButton(self);
@@ -219,7 +219,7 @@ function BaseBagSlotButtonMixin:SetBarExpanded(isExpanded)
 	self:SetShown(isExpanded);
 end
 
-MainMenuBarBackpackMixin = CreateFromMixins(BaseBagSlotButtonMixin);--- @class MainMenuBarBackpackMixin : BaseBagSlotButtonMixin
+MainMenuBarBackpackMixin = CreateFromMixins(BaseBagSlotButtonMixin); --- @class MainMenuBarBackpackMixin : BaseBagSlotButtonMixin
 
 function MainMenuBarBackpackMixin:BagSlotOnShow()
 	-- Only here to prevent base object behavior
@@ -379,7 +379,7 @@ function MainMenuBarBackpackMixin:BagSlotOnDragStart(button)
 	-- prevent pick up
 end
 
-CharacterReagentBagMixin = {};--- @class CharacterReagentBagMixin
+CharacterReagentBagMixin = {}; --- @class CharacterReagentBagMixin
 
 function CharacterReagentBagMixin:GetSlotAtlases()
 	return "bag-reagent-border", "bag-reagent-border-empty", "bag-border-highlight";
@@ -389,7 +389,7 @@ function CharacterReagentBagMixin:SetBarExpanded(isExpanded)
 	-- Remains shown regardless of expand state
 end
 
-BagBarExpandToggleMixin = {};--- @class BagBarExpandToggleMixin
+BagBarExpandToggleMixin = {}; --- @class BagBarExpandToggleMixin
 
 function BagBarExpandToggleMixin:OnClick()
 	MainMenuBarBagManager:ToggleExpandBar();

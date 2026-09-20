@@ -3,7 +3,7 @@ local RuneforgePowerListRowSize = 4;
 local RuneforgePowerListNumRows = 3;
 
 
-RuneforgePowerButtonMixin = CreateFromMixins(RuneforgePowerBaseMixin);--- @class RuneforgePowerButtonMixin : RuneforgePowerBaseMixin
+RuneforgePowerButtonMixin = CreateFromMixins(RuneforgePowerBaseMixin); --- @class RuneforgePowerButtonMixin : RuneforgePowerBaseMixin
 
 function RuneforgePowerButtonMixin:OnPowerSet(oldPowerID, powerID)
 	local hasPowerID = powerID ~= nil;
@@ -33,7 +33,7 @@ function RuneforgePowerButtonMixin:IsSelectionActive()
 end
 
 
-RuneforgePowerSlotMixin = CreateFromMixins(RuneforgeSystemMixin);--- @class RuneforgePowerSlotMixin : RuneforgeSystemMixin
+RuneforgePowerSlotMixin = CreateFromMixins(RuneforgeSystemMixin); --- @class RuneforgePowerSlotMixin : RuneforgeSystemMixin
 
 function RuneforgePowerSlotMixin:OnLoad()
 	self.Icon:SetPoint("CENTER", -5, 2);
@@ -170,7 +170,7 @@ function RuneforgePowerSlotMixin:OnBaseItemChanged()
 end
 
 
-RuneforgePowerMixin = {};--- @class RuneforgePowerMixin
+RuneforgePowerMixin = {}; --- @class RuneforgePowerMixin
 
 function RuneforgePowerMixin:InitElement(powerList)
 	self.powerList = powerList;
@@ -232,7 +232,7 @@ function RuneforgePowerMixin:OnPowerSet(oldPowerID, powerID)
 end
 
 
-RuneforgePowerListMixin = {};--- @class RuneforgePowerListMixin
+RuneforgePowerListMixin = {}; --- @class RuneforgePowerListMixin
 
 function RuneforgePowerListMixin:OnLoad()
 	PagedListMixin.OnLoad(self);
@@ -332,7 +332,7 @@ function RuneforgePowerListMixin:GetRuneforgeFrame()
 end
 
 
-RuneforgePowerFrameMixin = CreateFromMixins(RuneforgeSystemMixin);--- @class RuneforgePowerFrameMixin : RuneforgeSystemMixin
+RuneforgePowerFrameMixin = CreateFromMixins(RuneforgeSystemMixin); --- @class RuneforgePowerFrameMixin : RuneforgeSystemMixin
 
 function RuneforgePowerFrameMixin:OnLoad()
 	self.PageControl:SetPagedList(self.PowerList);

@@ -4,7 +4,7 @@ local MIN_FILL_BAR_PROGRESS = 0.1;
 local MAX_FILL_BAR_PROGRESS = 0.1;
 local DEFAULT_FILL_BAR_MAX = 6;
 
-ArcheologyDigsiteProgressBarMixin = {};--- @class ArcheologyDigsiteProgressBarMixin
+ArcheologyDigsiteProgressBarMixin = {}; --- @class ArcheologyDigsiteProgressBarMixin
 
 function ArcheologyDigsiteProgressBarMixin:OnLoad()
 	self.FillBar:SetMinMaxValues(0, DEFAULT_FILL_BAR_MAX);
@@ -110,7 +110,7 @@ function ArcheologyDigsiteProgressBarMixin:UpdateShownState()
 	self:SetShown(self.isInEditMode or self.shouldShow);
 end
 
-ArcheologyDigsiteProgressFillBarMixin = {};--- @class ArcheologyDigsiteProgressFillBarMixin
+ArcheologyDigsiteProgressFillBarMixin = {}; --- @class ArcheologyDigsiteProgressFillBarMixin
 
 function ArcheologyDigsiteProgressFillBarMixin:OnUpdate(elapsed)
 	if ( self:GetValue() ~= self.actualFill ) then
@@ -120,14 +120,14 @@ function ArcheologyDigsiteProgressFillBarMixin:OnUpdate(elapsed)
 	end
 end
 
-ArcheologyDigsiteProgressBarAnimOutMixin = {};--- @class ArcheologyDigsiteProgressBarAnimOutMixin
+ArcheologyDigsiteProgressBarAnimOutMixin = {}; --- @class ArcheologyDigsiteProgressBarAnimOutMixin
 
 function ArcheologyDigsiteProgressBarAnimOutMixin:OnFinished()
 	ArcheologyDigsiteProgressBar.shouldShow = false;
 	ArcheologyDigsiteProgressBar:UpdateShownState();
 end
 
-ArcheologyDigsiteProgressBarAnimOutAndTriggerToastMixin = {};--- @class ArcheologyDigsiteProgressBarAnimOutAndTriggerToastMixin
+ArcheologyDigsiteProgressBarAnimOutAndTriggerToastMixin = {}; --- @class ArcheologyDigsiteProgressBarAnimOutAndTriggerToastMixin
 
 function ArcheologyDigsiteProgressBarAnimOutAndTriggerToastMixin:OnFinished()
 	DigsiteCompleteAlertSystem:AddAlert(GetArchaeologyRaceInfoByID(ArcheologyDigsiteProgressBar.researchFieldID));
@@ -135,7 +135,7 @@ function ArcheologyDigsiteProgressBarAnimOutAndTriggerToastMixin:OnFinished()
 	ArcheologyDigsiteProgressBar:UpdateShownState();
 end
 
-ArcheologyDigsiteProgressBarFlashAnimInMixin = {};--- @class ArcheologyDigsiteProgressBarFlashAnimInMixin
+ArcheologyDigsiteProgressBarFlashAnimInMixin = {}; --- @class ArcheologyDigsiteProgressBarFlashAnimInMixin
 
 function ArcheologyDigsiteProgressBarFlashAnimInMixin:OnFinished()
 	ArcheologyDigsiteProgressBar.Flash:Hide();

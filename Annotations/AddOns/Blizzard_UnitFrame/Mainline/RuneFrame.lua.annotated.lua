@@ -1,4 +1,4 @@
-RuneFrameMixin = {};--- @class RuneFrameMixin
+RuneFrameMixin = {}; --- @class RuneFrameMixin
 
 function RuneFrameMixin:OnLoad()
 	-- Disable rune frame if not a death knight.
@@ -126,7 +126,7 @@ local RuneArtSet = {
 	}
 };
 
-RuneButtonMixin = {};--- @class RuneButtonMixin
+RuneButtonMixin = {}; --- @class RuneButtonMixin
 
 -- Note: These int values affect sorting in CompareRuneButtons
 RuneButtonMixin.VisualState = {

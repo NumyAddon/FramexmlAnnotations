@@ -18,7 +18,7 @@ local NATIVE_UNIT_FRAME_AURA_SCALE_MAX = 2;
 local CENTER_STATUS_ICON_SCALE = 2;
 local NATIVE_UNIT_FRAME_CENTER_STATUS_ICON_SIZE = NATIVE_UNIT_FRAME_AURA_SIZE * CENTER_STATUS_ICON_SCALE;
 
-local DispelOverlayOrientation = EnumUtil.MakeEnum(--- @type {["VerticalTopToBottom"]: 1, ["VerticalBottomToTop"]: 2, ["HorizontalLeftToRight"]: 3}
+local DispelOverlayOrientation = EnumUtil.MakeEnum( --- @type {["VerticalTopToBottom"]: 1, ["VerticalBottomToTop"]: 2, ["HorizontalLeftToRight"]: 3}
 	"VerticalTopToBottom",
 	"VerticalBottomToTop",
 	"HorizontalLeftToRight"
@@ -2696,7 +2696,7 @@ function DefaultCompactMiniFrameSetup(frame)
 	CompactUnitFrame_SetOptionTable(frame, DefaultCompactMiniFrameOptions);
 end
 
-CompactUnitPrivateAuraAnchorMixin = {};--- @class CompactUnitPrivateAuraAnchorMixin
+CompactUnitPrivateAuraAnchorMixin = {}; --- @class CompactUnitPrivateAuraAnchorMixin
 
 function CompactUnitPrivateAuraAnchorMixin:SetBorderScale(borderScale)
 	self.borderScale = borderScale;
@@ -2742,7 +2742,7 @@ function CompactUnitPrivateAuraAnchorMixin:SetUnit(unit, force)
 	end
 end
 
-CompactAuraTooltipMixin = {};--- @class CompactAuraTooltipMixin
+CompactAuraTooltipMixin = {}; --- @class CompactAuraTooltipMixin
 
 function CompactAuraTooltipMixin:UpdateTooltip()
 	-- Implement this
@@ -2765,7 +2765,7 @@ function CompactAuraTooltipMixin:OnLeave()
 	self:SetScript("OnUpdate", nil);
 end
 
-CompactDebuffMixin = CreateFromMixins(CompactAuraTooltipMixin);--- @class CompactDebuffMixin : CompactAuraTooltipMixin
+CompactDebuffMixin = CreateFromMixins(CompactAuraTooltipMixin); --- @class CompactDebuffMixin : CompactAuraTooltipMixin
 
 function CompactDebuffMixin:UpdateTooltip()
 	if ( self.isBossBuff ) then
@@ -2775,19 +2775,19 @@ function CompactDebuffMixin:UpdateTooltip()
 	end
 end
 
-CompactBuffMixin = CreateFromMixins(CompactAuraTooltipMixin);--- @class CompactBuffMixin : CompactAuraTooltipMixin
+CompactBuffMixin = CreateFromMixins(CompactAuraTooltipMixin); --- @class CompactBuffMixin : CompactAuraTooltipMixin
 
 function CompactBuffMixin:UpdateTooltip()
 	GameTooltip:SetUnitBuffByAuraInstanceID(self:GetParent().displayedUnit, self.auraInstanceID, self.filter);
 end
 
-CompactDispelDebuffMixin = CreateFromMixins(CompactAuraTooltipMixin);--- @class CompactDispelDebuffMixin : CompactAuraTooltipMixin
+CompactDispelDebuffMixin = CreateFromMixins(CompactAuraTooltipMixin); --- @class CompactDispelDebuffMixin : CompactAuraTooltipMixin
 
 function CompactDispelDebuffMixin:UpdateTooltip()
 	GameTooltip:SetUnitDebuffByAuraInstanceID(self:GetParent().displayedUnit, self.auraInstanceID, "RAID");
 end
 
-CompactUnitFrameCenterStatusIconMixin = {};--- @class CompactUnitFrameCenterStatusIconMixin
+CompactUnitFrameCenterStatusIconMixin = {}; --- @class CompactUnitFrameCenterStatusIconMixin
 
 function CompactUnitFrameCenterStatusIconMixin:OnEnter()
 	if self.tooltip then
@@ -2808,7 +2808,7 @@ function CompactUnitFrameCenterStatusIconMixin:OnLeave()
 	return true; -- propagate to parent
 end
 
-CompactUnitFrameDispelOverlayMixin = {};--- @class CompactUnitFrameDispelOverlayMixin
+CompactUnitFrameDispelOverlayMixin = {}; --- @class CompactUnitFrameDispelOverlayMixin
 
 function CompactUnitFrameDispelOverlayMixin:SetDispelType(dispelType)
 	AuraUtil.SetAuraBorderColor(self.Gradient, dispelType);
@@ -2840,7 +2840,7 @@ function CompactUnitFrameDispelOverlayMixin:SetOrientation(frame, orientation, a
 	self.Border:SetPoint("BOTTOMRIGHT", self, "BOTTOMRIGHT", 0, -frame.powerBarUsedHeight);
 end
 
-CompactUnitFrameReadyCheckMixin = {};--- @class CompactUnitFrameReadyCheckMixin
+CompactUnitFrameReadyCheckMixin = {}; --- @class CompactUnitFrameReadyCheckMixin
 
 function CompactUnitFrameReadyCheckMixin:SetStatus(status)
 	if status == "ready" then

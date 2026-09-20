@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------------
 -- CatalogShopAlteredFormButtonMixin
 ----------------------------------------------------------------------------------
-CatalogShopAlteredFormButtonMixin = CreateFromMixins(SelectableButtonMixin);--- @class CatalogShopAlteredFormButtonMixin : SelectableButtonMixin
+CatalogShopAlteredFormButtonMixin = CreateFromMixins(SelectableButtonMixin); --- @class CatalogShopAlteredFormButtonMixin : SelectableButtonMixin
 function CatalogShopAlteredFormButtonMixin:OnLoad()
 	RingedMaskedButtonMixin.OnLoad(self);
 	SelectableButtonMixin.OnLoad(self);
@@ -37,7 +37,7 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopModelSceneContainerFrameMixin
 ----------------------------------------------------------------------------------
-CatalogShopModelSceneContainerFrameMixin = {};--- @class CatalogShopModelSceneContainerFrameMixin
+CatalogShopModelSceneContainerFrameMixin = {}; --- @class CatalogShopModelSceneContainerFrameMixin
 function CatalogShopModelSceneContainerFrameMixin:OnLoad()
 
 end

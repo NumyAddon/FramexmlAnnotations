@@ -363,7 +363,7 @@ function MainMenuMicroButton_HideAlert(microButton)
 end
 
 --Mixins (In order of placement)
-MainMenuBarMicroButtonMixin = {};--- @class MainMenuBarMicroButtonMixin
+MainMenuBarMicroButtonMixin = {}; --- @class MainMenuBarMicroButtonMixin
 
 function MainMenuBarMicroButtonMixin:ShouldShowTooltip()
 	if KeybindFrames_InQuickKeybindMode() then
@@ -499,7 +499,7 @@ function MainMenuBarMicroButtonMixin:OnDisable()
 	self:EvaluateTooltipVisibility();
 end
 
-CharacterMicroButtonMixin = {};--- @class CharacterMicroButtonMixin
+CharacterMicroButtonMixin = {}; --- @class CharacterMicroButtonMixin
 
 function CharacterMicroButtonMixin:OnLoad()
 	self:RegisterForClicks("AnyUp");
@@ -627,7 +627,7 @@ function CharacterMicroButtonMixin:SetNormal()
 end
 
 
-ProfessionMicroButtonMixin = {};--- @class ProfessionMicroButtonMixin
+ProfessionMicroButtonMixin = {}; --- @class ProfessionMicroButtonMixin
 
 function ProfessionMicroButtonMixin:OnLoad()
 	self:RegisterForClicks("AnyUp");
@@ -671,7 +671,7 @@ function ProfessionMicroButtonMixin:EvaluateAlertVisibility()
 end
 
 
-PlayerSpellsMicroButtonMixin = CreateFromMixins(DirtiableMixin);--- @class PlayerSpellsMicroButtonMixin : DirtiableMixin
+PlayerSpellsMicroButtonMixin = CreateFromMixins(DirtiableMixin); --- @class PlayerSpellsMicroButtonMixin : DirtiableMixin
 
 function PlayerSpellsMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "SpecTalents");
@@ -893,7 +893,7 @@ function PlayerSpellsMicroButtonMixin:UpdateMicroButton()
 end
 
 
-AchievementMicroButtonMixin = {};--- @class AchievementMicroButtonMixin
+AchievementMicroButtonMixin = {}; --- @class AchievementMicroButtonMixin
 
 function AchievementMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "Achievements");
@@ -950,7 +950,7 @@ function AchievementMicroButtonMixin:OnEvent(event, ...)
 	end
 end
 
-QuestLogMicroButtonMixin = {};--- @class QuestLogMicroButtonMixin
+QuestLogMicroButtonMixin = {}; --- @class QuestLogMicroButtonMixin
 
 function QuestLogMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "Questlog");
@@ -996,7 +996,7 @@ function QuestLogMicroButtonMixin:UpdateMicroButton()
 	end
 end
 
-HousingMicroButtonMixin = {};--- @class HousingMicroButtonMixin
+HousingMicroButtonMixin = {}; --- @class HousingMicroButtonMixin
 
 function HousingMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "Housing");
@@ -1067,7 +1067,7 @@ function HousingMicroButtonMixin:UpdateMicroButton()
 end
 
 
-GuildMicroButtonMixin = {};--- @class GuildMicroButtonMixin
+GuildMicroButtonMixin = {}; --- @class GuildMicroButtonMixin
 
 function GuildMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "GuildCommunities");
@@ -1285,7 +1285,7 @@ function GuildMicroButtonMixin:GetNewClubId()
 end
 
 
-LFDMicroButtonMixin = {};--- @class LFDMicroButtonMixin
+LFDMicroButtonMixin = {}; --- @class LFDMicroButtonMixin
 
 function LFDMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "Groupfinder");
@@ -1363,7 +1363,7 @@ function LFDMicroButtonMixin:UpdateMicroButton()
 end
 
 
-CollectionMicroButtonMixin = {};--- @class CollectionMicroButtonMixin
+CollectionMicroButtonMixin = {}; --- @class CollectionMicroButtonMixin
 
 local function SafeSetCollectionJournalTab(tab)
 	if CollectionsJournal_SetTab then
@@ -1480,7 +1480,7 @@ function CollectionMicroButtonMixin:UpdateMicroButton()
 	end
 end
 
-EJMicroButtonMixin = {};--- @class EJMicroButtonMixin
+EJMicroButtonMixin = {}; --- @class EJMicroButtonMixin
 
 function EJMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "AdventureGuide");
@@ -1662,7 +1662,7 @@ function EJMicroButtonMixin:UpdateNotificationIcon()
 	self.NotificationOverlay:SetShown(show or journeyTutorial);
 end
 
-StoreMicroButtonMixin = {};--- @class StoreMicroButtonMixin
+StoreMicroButtonMixin = {}; --- @class StoreMicroButtonMixin
 
 function StoreMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "Shop");
@@ -1773,7 +1773,7 @@ function StoreMicroButtonMixin:UpdateMicroButton()
 	self.NotificationOverlay:SetShown(C_CatalogShop.HasNewProducts());
 end
 
-HelpMicroButtonMixin = {};--- @class HelpMicroButtonMixin
+HelpMicroButtonMixin = {}; --- @class HelpMicroButtonMixin
 
 function HelpMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "GameMenu");
@@ -1782,7 +1782,7 @@ function HelpMicroButtonMixin:OnLoad()
 end
 
 
-MainMenuMicroButtonMixin = {};--- @class MainMenuMicroButtonMixin
+MainMenuMicroButtonMixin = {}; --- @class MainMenuMicroButtonMixin
 
 function MainMenuMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "GameMenu");

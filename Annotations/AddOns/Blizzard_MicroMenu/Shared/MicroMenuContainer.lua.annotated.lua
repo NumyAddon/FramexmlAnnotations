@@ -6,7 +6,7 @@ MicroMenuPositionEnum = {
 	TopRight = 4;
 };
 
-MicroMenuContainerMixin = {};--- @class MicroMenuContainerMixin
+MicroMenuContainerMixin = {}; --- @class MicroMenuContainerMixin
 
 function MicroMenuContainerMixin:OnLoad()
 	self:RegisterEvent("PLAYER_LEVEL_UP");
@@ -86,7 +86,7 @@ function MicroMenuContainerMixin:GetPosition()
 	end
 end
 
-MicroMenuMixin = {};--- @class MicroMenuMixin
+MicroMenuMixin = {}; --- @class MicroMenuMixin
 
 function MicroMenuMixin:OnLoad()
 	self:InitializeButtons();

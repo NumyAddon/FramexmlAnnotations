@@ -27,7 +27,7 @@ StaticPopupDialogs["PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB"] =
 };
 
 
-ProfessionsSpecFrameMixin = {};--- @class ProfessionsSpecFrameMixin
+ProfessionsSpecFrameMixin = {}; --- @class ProfessionsSpecFrameMixin
 
 function ProfessionsSpecFrameMixin:GetDesiredPageWidth()
 	return 1144;
@@ -429,7 +429,7 @@ function ProfessionsSpecFrameMixin:InstantiateTalentButton(nodeID, xPos, yPos) -
 	return newTalentButton;
 end
 
-local PathLayers = EnumUtil.MakeEnum("Root", "Primary", "Secondary");--- @type {["Root"]: 1, ["Primary"]: 2, ["Secondary"]: 3}
+local PathLayers = EnumUtil.MakeEnum("Root", "Primary", "Secondary"); --- @type {["Root"]: 1, ["Primary"]: 2, ["Secondary"]: 3}
 local ParentLayerToChildLayer =
 {
 	[PathLayers.Root] = PathLayers.Primary,
@@ -948,7 +948,7 @@ function ProfessionsSpecFrameMixin:SetTitle()
 end
 
 
-ProfessionsDetailedSpecPathMixin = CreateFromMixins(ProfessionsSpecPathMixin);--- @class ProfessionsDetailedSpecPathMixin : ProfessionsSpecPathMixin
+ProfessionsDetailedSpecPathMixin = CreateFromMixins(ProfessionsSpecPathMixin); --- @class ProfessionsDetailedSpecPathMixin : ProfessionsSpecPathMixin
 
 function ProfessionsDetailedSpecPathMixin:SetLocked(locked)
 	if locked then

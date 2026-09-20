@@ -15,7 +15,7 @@ local function SetPointWithVerticalFlip(region, point, relativeTo, relativePoint
 	end
 end
 
-EncounterTimelineTimerViewMixin = CreateFromMixins(EncounterTimelineViewMixin, EncounterTimelineTimerViewSettingsMixin);--- @class EncounterTimelineTimerViewMixin : EncounterTimelineViewMixin, EncounterTimelineTimerViewSettingsMixin
+EncounterTimelineTimerViewMixin = CreateFromMixins(EncounterTimelineViewMixin, EncounterTimelineTimerViewSettingsMixin); --- @class EncounterTimelineTimerViewMixin : EncounterTimelineViewMixin, EncounterTimelineTimerViewSettingsMixin
 
 function EncounterTimelineTimerViewMixin:OnLoad()
 	EncounterTimelineViewMixin.OnLoad(self);
@@ -571,7 +571,7 @@ function EncounterTimelineTimerViewMixin:UpdateSize()
 	self:MarkClean(EncounterTimelineTimerViewDirtyFlag.Size);
 end
 
-EncounterTimelineTimerViewTrackDividerMixin = {};--- @class EncounterTimelineTimerViewTrackDividerMixin
+EncounterTimelineTimerViewTrackDividerMixin = {}; --- @class EncounterTimelineTimerViewTrackDividerMixin
 
 function EncounterTimelineTimerViewTrackDividerMixin:AnimateShow()
 	self.HideAnimation:Stop();

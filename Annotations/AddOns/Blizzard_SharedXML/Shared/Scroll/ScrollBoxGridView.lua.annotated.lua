@@ -1,4 +1,4 @@
-ScrollBoxListGridViewMixin = CreateFromMixins(ScrollBoxListBiaxalViewMixin, ScrollBoxListStrideMixin);--- @class ScrollBoxListGridViewMixin : ScrollBoxListBiaxalViewMixin, ScrollBoxListStrideMixin
+ScrollBoxListGridViewMixin = CreateFromMixins(ScrollBoxListBiaxalViewMixin, ScrollBoxListStrideMixin); --- @class ScrollBoxListGridViewMixin : ScrollBoxListBiaxalViewMixin, ScrollBoxListStrideMixin
 
 function ScrollBoxListGridViewMixin:Init(stride, top, bottom, left, right, horizontalSpacing, verticalSpacing)
 	ScrollBoxListBiaxalViewMixin.Init(self, top, bottom, left, right, horizontalSpacing, verticalSpacing);

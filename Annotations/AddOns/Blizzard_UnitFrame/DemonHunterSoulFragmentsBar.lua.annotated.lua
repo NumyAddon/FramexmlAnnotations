@@ -1,6 +1,6 @@
 -- NOTE: If you make changes here, you likely need to make changes to DemonHunterAlternatePower.lua
 
-DemonHunterSoulFragmentsBarMixin = {--- @class DemonHunterSoulFragmentsBarMixin
+DemonHunterSoulFragmentsBarMixin = { --- @class DemonHunterSoulFragmentsBarMixin
 	VOID_METAMORPHOSIS_ANIM_ART = {
 		glow = "UF-DDH-VoidMeta-Bar-Glow",
 		ready = "UF-DDH-VoidMeta-Bar-Ready",

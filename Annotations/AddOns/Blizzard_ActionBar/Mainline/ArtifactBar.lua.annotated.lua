@@ -2,7 +2,7 @@ local barAtlas = "UI-HUD-ExperienceBar-Fill-ArtifactPower";
 local gainFlareAtlas = "UI-HUD-ExperienceBar-Flare-ArtifactPower-2x-Flipbook";
 local levelUpAtlas = "UI-HUD-ExperienceBar-Fill-ArtifactPower-2x-Flipbook";
 
-ArtifactBarMixin = {};--- @class ArtifactBarMixin
+ArtifactBarMixin = {}; --- @class ArtifactBarMixin
 
 function ArtifactBarMixin:IsArtifactMaxed()
 	return HasArtifactEquipped() and C_ArtifactUI.IsEquippedArtifactMaxed();
@@ -107,7 +107,7 @@ function ArtifactBarGetNumArtifactTraitsPurchasableFromXP(pointsSpent, artifactX
 	return numPoints, artifactXP, xpForNextPoint;
 end
 
-ArtifactTickMixin = { }--- @class ArtifactTickMixin
+ArtifactTickMixin = { } --- @class ArtifactTickMixin
 function ArtifactTickMixin:UpdateTick()
 	if ( self:IsShown() ) then
 		local xp = self:GetParent().xp;

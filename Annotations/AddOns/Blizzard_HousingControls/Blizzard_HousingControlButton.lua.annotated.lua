@@ -1,4 +1,4 @@
-BaseHousingControlButtonMixin = {};--- @class BaseHousingControlButtonMixin
+BaseHousingControlButtonMixin = {}; --- @class BaseHousingControlButtonMixin
 
 function BaseHousingControlButtonMixin:GetDefaultTexture()
 	return self.iconDefault, true;
@@ -58,7 +58,7 @@ function BaseHousingControlButtonMixin:OnClick()
 end
 
 -- Inherits BaseHousingControlButtonMixin
-HouseEditorButtonMixin = {};--- @class HouseEditorButtonMixin
+HouseEditorButtonMixin = {}; --- @class HouseEditorButtonMixin
 
 function HouseEditorButtonMixin:CheckEnabled()
 	local availabilityResult = C_HouseEditor.GetHouseEditorAvailability();
@@ -93,7 +93,7 @@ function HouseEditorButtonMixin:LeaveMode()
 end
 
 -- Inherits BaseHousingControlButtonMixin
-HouseExitButtonMixin = {};--- @class HouseExitButtonMixin
+HouseExitButtonMixin = {}; --- @class HouseExitButtonMixin
 
 function HouseExitButtonMixin:OnClick()
 	if Kiosk.IsEnabled() then
@@ -120,7 +120,7 @@ function HouseExitButtonMixin:CheckEnabled()
 end
 
 -- Inherits BaseHousingControlButtonMixin
-HouseInfoButtonMixin = {};--- @class HouseInfoButtonMixin
+HouseInfoButtonMixin = {}; --- @class HouseInfoButtonMixin
 
 function HouseInfoButtonMixin:OnClick()
 	C_AddOns.LoadAddOn("Blizzard_HousingCornerstone");
@@ -141,7 +141,7 @@ function HouseInfoButtonMixin:IsActive()
 end
 
 -- Inherits HousingControlModeButtonMixin
-HouseSettingsButtonMixin = {};--- @class HouseSettingsButtonMixin
+HouseSettingsButtonMixin = {}; --- @class HouseSettingsButtonMixin
 
 function HouseSettingsButtonMixin:EnterMode()
     if not HousingHouseSettingsFrame then

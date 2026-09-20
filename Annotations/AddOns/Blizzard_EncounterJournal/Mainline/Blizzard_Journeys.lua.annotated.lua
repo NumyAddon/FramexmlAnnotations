@@ -44,7 +44,7 @@ local function GetJourneysForNavBar()
 end
 
 -------------------------------------[[ Journeys Frame ]]-------------------------------------------------------
-JourneysFrameMixin = {};--- @class JourneysFrameMixin
+JourneysFrameMixin = {}; --- @class JourneysFrameMixin
 
 function JourneysFrameMixin:OnLoad()
 	self:SetupJourneysList();
@@ -306,7 +306,7 @@ function JourneysFrameMixin:ResetView(majorFactionData, majorfactionID)
 end
 
 -------------------------------------[[ Renown Card Button ]]-------------------------------------------------------
-RenownCardButtonMixin = {};--- @class RenownCardButtonMixin
+RenownCardButtonMixin = {}; --- @class RenownCardButtonMixin
 
 function RenownCardButtonMixin:OnEnter()
 	if self.majorFactionData and self.majorFactionData.factionID then
@@ -345,10 +345,10 @@ function RenownCardButtonMixin:OnClick()
 end
 
 -------------------------------------[[ "Other" Journey Button ]]-------------------------------------------------------
-JourneyCardButtonMixin = CreateFromMixins(RenownCardButtonMixin);--- @class JourneyCardButtonMixin : RenownCardButtonMixin
+JourneyCardButtonMixin = CreateFromMixins(RenownCardButtonMixin); --- @class JourneyCardButtonMixin : RenownCardButtonMixin
 
 -------------------------------------[[ Journey "Progress" Frame ]]-------------------------------------------------------
-JourneyProgressFrameMixin = {};--- @class JourneyProgressFrameMixin
+JourneyProgressFrameMixin = {}; --- @class JourneyProgressFrameMixin
 
 function JourneyProgressFrameMixin:OnLoad()
 	local function RewardResetter(framePool, frame)
@@ -698,7 +698,7 @@ function JourneyProgressFrameMixin:SetRewards(level)
 end
 
 -------------------------------------[[ Journey "Progress" Locked State Frame ]]-------------------------------------------------------
-JourneysLockedStateMixin = {};--- @class JourneysLockedStateMixin
+JourneysLockedStateMixin = {}; --- @class JourneysLockedStateMixin
 
 function JourneysLockedStateMixin:OnShow()
 	self.JourneyLockedText:SetScript("OnEnter", self.ShowUnlockDescriptionTooltip);
@@ -734,7 +734,7 @@ function JourneysLockedStateMixin:HideUnlockDescriptionTooltip()
 end
 
 -------------------------------------[[ Journey Overview Button ]]-------------------------------------------------------
-JourneyOverviewBtnMixin = {};--- @class JourneyOverviewBtnMixin
+JourneyOverviewBtnMixin = {}; --- @class JourneyOverviewBtnMixin
 
 function JourneyOverviewBtnMixin:OnClick()
 	local journeysFrame = EncounterJournal.JourneysFrame;
@@ -752,7 +752,7 @@ function JourneyOverviewBtnMixin:OnClick()
 end
 
 -------------------------------------[[ Journey Overview Frame ]]-------------------------------------------------------
-JourneyOverviewFrameMixin = {};--- @class JourneyOverviewFrameMixin
+JourneyOverviewFrameMixin = {}; --- @class JourneyOverviewFrameMixin
 
 function JourneyOverviewFrameMixin:OnShow()
 	self.JourneyIcon:SetAtlas(MAJOR_FACTION_ICON_ATLAS_FMT:format(self.majorFactionData.textureKit))
@@ -797,7 +797,7 @@ function JourneyOverviewFrameMixin:SetupHighlights()
 end
 
 -------------------------------------[[ Journey Overview Highlights Frame ]]-------------------------------------------------------
-JourneyOverviewHighlightsFrameMixin = {};--- @class JourneyOverviewHighlightsFrameMixin
+JourneyOverviewHighlightsFrameMixin = {}; --- @class JourneyOverviewHighlightsFrameMixin
 
 function JourneyOverviewHighlightsFrameMixin:OnLoad()
 	local function HighlightResetter(framePool, frame)
@@ -843,7 +843,7 @@ function JourneyOverviewHighlightsFrameMixin:DisplayHighlights()
 end
 
 -------------------------------------[[ Journey Companion Config Button ]]-------------------------------------------------------
-JourneyCompanionConfigBtnMixin = {};--- @class JourneyCompanionConfigBtnMixin
+JourneyCompanionConfigBtnMixin = {}; --- @class JourneyCompanionConfigBtnMixin
 
 -- In order to be able to use companion config, players need to have unlocked a companion and have it set with a proper trait config
 function JourneyCompanionConfigBtnMixin:SetCompanionEnabledState()
@@ -896,7 +896,7 @@ function JourneyCompanionConfigBtnMixin:OnClick()
 end
 
 -------------------------------------[[ Watched Faction Toggle ]]-------------------------------------------------------
-WatchedFactionToggleFrameMixin = {};--- @class WatchedFactionToggleFrameMixin
+WatchedFactionToggleFrameMixin = {}; --- @class WatchedFactionToggleFrameMixin
 
 function WatchedFactionToggleFrameMixin:OnShow()
 	self.renownCard = self:GetParent():GetParent();
@@ -927,7 +927,7 @@ function WatchedFactionToggleFrameMixin:OnLeave()
 end
 
 -------------------------------------[[ Progress Bar ]]-------------------------------------------------------
-JourneysProgressBarMixin = {};--- @class JourneysProgressBarMixin
+JourneysProgressBarMixin = {}; --- @class JourneysProgressBarMixin
 
 function JourneysProgressBarMixin:OnLoad()
 	CooldownFrame_SetDisplayAsPercentage(self, 0);

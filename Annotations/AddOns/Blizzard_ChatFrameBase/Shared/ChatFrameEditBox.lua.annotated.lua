@@ -5,7 +5,7 @@ local hash_SlashCmdList = _G.hash_SlashCmdList;
 -- mixin being used by the macro execution manager which doesn't inherit any
 -- templates for its internal editbox.
 
-ChatFrameEditBoxBaseMixin = {};--- @class ChatFrameEditBoxBaseMixin
+ChatFrameEditBoxBaseMixin = {}; --- @class ChatFrameEditBoxBaseMixin
 
 function ChatFrameEditBoxBaseMixin:OnPreSendText()
 	-- Implement in a derived mixin.
@@ -312,7 +312,7 @@ function ChatFrameEditBoxBaseMixin:SendText(addHistory)
 	end
 end
 
-ChatFrameEditBoxMixin = CreateFromMixins(ChatFrameEditBoxBaseMixin);--- @class ChatFrameEditBoxMixin : ChatFrameEditBoxBaseMixin
+ChatFrameEditBoxMixin = CreateFromMixins(ChatFrameEditBoxBaseMixin); --- @class ChatFrameEditBoxMixin : ChatFrameEditBoxBaseMixin
 
 function ChatFrameEditBoxMixin:OnLoad()
 	self:SetFrameLevel(self.chatFrame:GetFrameLevel()+1);

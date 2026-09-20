@@ -1,5 +1,5 @@
 Spell = {};
-SpellMixin = {};--- @class SpellMixin
+SpellMixin = {}; --- @class SpellMixin
 
 --[[static]] function Spell:CreateFromSpellID(spellID)
 	local spell = CreateFromMixins(SpellMixin);

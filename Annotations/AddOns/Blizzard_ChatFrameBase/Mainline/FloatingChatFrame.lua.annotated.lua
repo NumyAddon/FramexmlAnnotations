@@ -65,7 +65,7 @@ CHAT_FRAME_TEXTURES = {
 
 CHAT_FRAMES = {};
 
-FloatingChatFrameMixin = CreateFromMixins(ChatFrameMixin);--- @class FloatingChatFrameMixin : ChatFrameMixin
+FloatingChatFrameMixin = CreateFromMixins(ChatFrameMixin); --- @class FloatingChatFrameMixin : ChatFrameMixin
 
 function FloatingChatFrameMixin:OnLoad()
 	--IMPORTANT NOTE: This function isn't run by ChatFrame1.
@@ -160,7 +160,7 @@ function FloatingChatFrame_UpdateScroll(self)
 	end
 end
 
-PrimaryChatFrameMixin = CreateFromMixins(FloatingChatFrameMixin);--- @class PrimaryChatFrameMixin : FloatingChatFrameMixin
+PrimaryChatFrameMixin = CreateFromMixins(FloatingChatFrameMixin); --- @class PrimaryChatFrameMixin : FloatingChatFrameMixin
 
 function PrimaryChatFrameMixin:OnLoad()
 	-- Edit Mode doesn't exist at glues

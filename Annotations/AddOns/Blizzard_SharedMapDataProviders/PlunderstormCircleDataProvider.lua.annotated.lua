@@ -1,4 +1,4 @@
-PlunderstormCircleDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class PlunderstormCircleDataProviderMixin : MapCanvasDataProviderMixin
+PlunderstormCircleDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class PlunderstormCircleDataProviderMixin : MapCanvasDataProviderMixin
 
 local validCircle = false;
 
@@ -64,7 +64,7 @@ end
 
 
 --[[ Pin ]]--
-PlunderstormCircleBasePinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class PlunderstormCircleBasePinMixin : MapCanvasPinMixin
+PlunderstormCircleBasePinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class PlunderstormCircleBasePinMixin : MapCanvasPinMixin
 
 function PlunderstormCircleBasePinMixin:SetData(circleData, r, g, b)
 	self.circleData = circleData;
@@ -94,7 +94,7 @@ function PlunderstormCircleBasePinMixin:SetSizeAdjustedByScale(size)
 	self:SetSize(size, size);
 end
 
-PlunderstormInnerCirclePinMixin = CreateFromMixins(PlunderstormCircleBasePinMixin);--- @class PlunderstormInnerCirclePinMixin : PlunderstormCircleBasePinMixin
+PlunderstormInnerCirclePinMixin = CreateFromMixins(PlunderstormCircleBasePinMixin); --- @class PlunderstormInnerCirclePinMixin : PlunderstormCircleBasePinMixin
 
 function PlunderstormInnerCirclePinMixin:OnLoad()
 	self.AntsRotate:Play();
@@ -142,7 +142,7 @@ function PlunderstormInnerCirclePinMixin:OnUpdate(elapsed)
 	self:SetSizeAdjustedByScale(newSize);
 end
 
-PlunderstormOuterCirclePinMixin = CreateFromMixins(PlunderstormCircleBasePinMixin);--- @class PlunderstormOuterCirclePinMixin : PlunderstormCircleBasePinMixin
+PlunderstormOuterCirclePinMixin = CreateFromMixins(PlunderstormCircleBasePinMixin); --- @class PlunderstormOuterCirclePinMixin : PlunderstormCircleBasePinMixin
 
 function PlunderstormOuterCirclePinMixin:OnLoad()
 	local r, g, b = OuterCircleColor:GetRGB();

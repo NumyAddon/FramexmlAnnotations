@@ -243,7 +243,7 @@ function HousingFramesUtil.OpenFrameToTaskID(taskID)
 end
 
 -- Handler for events that may fire while relevant Housing addons may not be loaded
-HousingEventHandlerMixin = {}--- @class HousingEventHandlerMixin
+HousingEventHandlerMixin = {} --- @class HousingEventHandlerMixin
 
 function HousingEventHandlerMixin:Init()
 

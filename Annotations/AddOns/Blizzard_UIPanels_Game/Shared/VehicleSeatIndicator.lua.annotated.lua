@@ -1,4 +1,4 @@
-VehicleSeatIndicatorMixin = {};--- @class VehicleSeatIndicatorMixin
+VehicleSeatIndicatorMixin = {}; --- @class VehicleSeatIndicatorMixin
 
 function VehicleSeatIndicatorMixin:OnLoad()
 	self:RegisterEvent("UNIT_ENTERED_VEHICLE");
@@ -133,7 +133,7 @@ function VehicleSeatIndicatorMixin:UpdateShownState()
 	self:SetShown(self.isInEditMode or self.currSkin);
 end
 
-VehicleSeatIndicatorButtonMixin = {};--- @class VehicleSeatIndicatorButtonMixin
+VehicleSeatIndicatorButtonMixin = {}; --- @class VehicleSeatIndicatorButtonMixin
 
 function VehicleSeatIndicatorButtonMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonUp", "RightButtonUp");

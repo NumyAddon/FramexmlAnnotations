@@ -2252,7 +2252,7 @@ function GarrisonShowFollowerPlacerFrame(mainFrame, info)
 	GarrisonFollowerPlacerFrame:Show();
 end
 
-GarrisonMissionPageMixin = { }--- @class GarrisonMissionPageMixin
+GarrisonMissionPageMixin = { } --- @class GarrisonMissionPageMixin
 
 --this function puts check marks on the encounter mechanics countered by the slotted followers abilities
 function GarrisonMissionPageMixin:SetCounters(followers, enemies, missionID)
@@ -2940,7 +2940,7 @@ end
 --- GarrisonMissionCompleteModelClusterMixin                                  ---
 ---------------------------------------------------------------------------------
 
-GarrisonMissionCompleteModelClusterMixin = {}--- @class GarrisonMissionCompleteModelClusterMixin
+GarrisonMissionCompleteModelClusterMixin = {} --- @class GarrisonMissionCompleteModelClusterMixin
 
 function GarrisonMissionCompleteModelClusterMixin:SetFacingLeft(facingLeft)
 	for i, model in ipairs(self.Model) do
@@ -2956,7 +2956,7 @@ end
 --- GarrisonMissionPageCostWithTooltipMixin                                  ---
 ---------------------------------------------------------------------------------
 
-GarrisonMissionPageCostWithTooltipMixin = {}--- @class GarrisonMissionPageCostWithTooltipMixin
+GarrisonMissionPageCostWithTooltipMixin = {} --- @class GarrisonMissionPageCostWithTooltipMixin
 
 function GarrisonMissionPageCostWithTooltipMixin:SetCurrency(currency)
 	self.currency = currency;

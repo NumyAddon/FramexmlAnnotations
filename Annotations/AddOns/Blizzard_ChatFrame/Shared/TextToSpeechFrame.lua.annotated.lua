@@ -647,7 +647,7 @@ function TextToSpeech_SetRate(self, rate)
 	return false;
 end
 
-TTSSettingsSliderMixin = {};--- @class TTSSettingsSliderMixin
+TTSSettingsSliderMixin = {}; --- @class TTSSettingsSliderMixin
 
 function TTSSettingsSliderMixin:OnTextScaleUpdated(scale)
 	local baseWidth = self:GetBaseSliderSize();

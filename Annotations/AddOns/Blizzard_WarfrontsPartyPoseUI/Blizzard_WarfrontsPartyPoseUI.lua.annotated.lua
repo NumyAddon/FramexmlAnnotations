@@ -1,4 +1,4 @@
-WarfrontsPartyPoseMixin = CreateFromMixins(PartyPoseMixin);--- @class WarfrontsPartyPoseMixin : PartyPoseMixin
+WarfrontsPartyPoseMixin = CreateFromMixins(PartyPoseMixin); --- @class WarfrontsPartyPoseMixin : PartyPoseMixin
 
 function WarfrontsPartyPoseMixin:PlayRewardsAnimations()
 	self.RewardAnimations.RewardFrame:Show();

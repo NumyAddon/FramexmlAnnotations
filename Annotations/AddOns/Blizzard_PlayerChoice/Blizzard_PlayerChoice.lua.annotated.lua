@@ -1,4 +1,4 @@
-PlayerChoiceFrameMixin = {};--- @class PlayerChoiceFrameMixin
+PlayerChoiceFrameMixin = {}; --- @class PlayerChoiceFrameMixin
 
 function PlayerChoiceFrameMixin:OnLoad()
 	self.optionPools = CreateFramePoolCollection();

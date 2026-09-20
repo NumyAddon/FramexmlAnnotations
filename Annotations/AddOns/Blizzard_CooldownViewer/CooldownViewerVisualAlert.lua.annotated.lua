@@ -1,4 +1,4 @@
-CooldownViewerVisualAlertMixin = {};--- @class CooldownViewerVisualAlertMixin
+CooldownViewerVisualAlertMixin = {}; --- @class CooldownViewerVisualAlertMixin
 
 function CooldownViewerVisualAlertMixin:SetAlertTarget(target)
 	-- override as necessary, but continue calling base

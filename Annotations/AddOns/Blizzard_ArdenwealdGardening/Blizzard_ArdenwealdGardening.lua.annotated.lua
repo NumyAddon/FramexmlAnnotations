@@ -15,7 +15,7 @@ function ArdenwealdGardening.Create(parent)
 	return CreateFrame("Frame", nil, parent, "ArdenwealdGardeningPanelTemplate");
 end
 
-ArdenwealdGardeningButtonMixin = {}--- @class ArdenwealdGardeningButtonMixin
+ArdenwealdGardeningButtonMixin = {} --- @class ArdenwealdGardeningButtonMixin
 
 function ArdenwealdGardeningButtonMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT", 0, 0);

@@ -1,4 +1,4 @@
-EncounterTimelineTrackLayoutMixin = {};--- @class EncounterTimelineTrackLayoutMixin
+EncounterTimelineTrackLayoutMixin = {}; --- @class EncounterTimelineTrackLayoutMixin
 
 function EncounterTimelineTrackLayoutMixin:OnLoad()
 	self.tracksByID = {};

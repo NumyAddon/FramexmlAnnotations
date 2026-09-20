@@ -1,5 +1,5 @@
 --[[ Quest Choice Dialog ]]--
-AdventureMapQuestChoiceDialogMixin = {};--- @class AdventureMapQuestChoiceDialogMixin
+AdventureMapQuestChoiceDialogMixin = {}; --- @class AdventureMapQuestChoiceDialogMixin
 
 QUEST_CHOICE_DIALOG_RESULT_ACCEPTED = 1;
 QUEST_CHOICE_DIALOG_RESULT_DECLINED = 2;
@@ -269,7 +269,7 @@ function AdventureMapQuestChoiceDialogMixin:DeclineQuest(abstain)
 	AdventureMapQuestChoiceDialog:Hide();
 end
 
-AdventureMapQuestRewardMixin = { };--- @class AdventureMapQuestRewardMixin
+AdventureMapQuestRewardMixin = { }; --- @class AdventureMapQuestRewardMixin
 
 function AdventureMapQuestRewardMixin:OnEnter()
 	if self.tooltipText then

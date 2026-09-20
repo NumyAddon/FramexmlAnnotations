@@ -1,12 +1,12 @@
 UIPanelWindows["CurrencyTransferMenu"] = { area = "left", pushable = 2, whileDead = 0, checkFit = 1, allowOtherPanels = 1, };
 
-CurrencyTransferSystemMixin = {};--- @class CurrencyTransferSystemMixin
+CurrencyTransferSystemMixin = {}; --- @class CurrencyTransferSystemMixin
 
 function CurrencyTransferSystemMixin:GetCurrencyTransferMenu()
 	return CurrencyTransferMenu;
 end
 
-CurrencyTransferToggleButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin);--- @class CurrencyTransferToggleButtonMixin : CurrencyTransferSystemMixin
+CurrencyTransferToggleButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin); --- @class CurrencyTransferToggleButtonMixin : CurrencyTransferSystemMixin
 
 local CURRENCY_TRANSFER_TOGGLE_BUTTON_REFRESH_EVENTS = {
 	"CURRENCY_DISPLAY_UPDATE",
@@ -96,7 +96,7 @@ function CurrencyTransferToggleButtonMixin:UpdateEnabledState()
 	self:SetShown(self:IsEnabled() or (isValidCurrency and hasDisabledTooltip));
 end
 
-CurrencyTransferMenuMixin = CreateFromMixins(CallbackRegistryMixin);--- @class CurrencyTransferMenuMixin : CallbackRegistryMixin
+CurrencyTransferMenuMixin = CreateFromMixins(CallbackRegistryMixin); --- @class CurrencyTransferMenuMixin : CallbackRegistryMixin
 
 local CURRENCY_TRANSFER_MENU_EVENTS = {
 	"CURRENCY_DISPLAY_UPDATE",
@@ -364,7 +364,7 @@ function CurrencyTransferMenuMixin:StopTransferCelebration()
 	self.AnimationHolder.TransferCelebration:Stop();
 end
 
-CurrencyTransferBalancePreviewMixin = CreateFromMixins(CurrencyTransferSystemMixin);--- @class CurrencyTransferBalancePreviewMixin : CurrencyTransferSystemMixin
+CurrencyTransferBalancePreviewMixin = CreateFromMixins(CurrencyTransferSystemMixin); --- @class CurrencyTransferBalancePreviewMixin : CurrencyTransferSystemMixin
 
 function CurrencyTransferBalancePreviewMixin:SetCharacterAndCurrencyBalance(characterName, balance)
 	self:SetCharacterName(characterName);
@@ -395,7 +395,7 @@ function CurrencyTransferBalancePreviewMixin:RefreshTransferCostDisplay()
 	self.BalanceInfo.TransferCostDisplay:SetShown(self.showTransferCost and self:GetCurrencyTransferMenu():GetCurrencyTransferLoss() ~= 0);
 end
 
-CurrencyTransferConfirmButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin);--- @class CurrencyTransferConfirmButtonMixin : CurrencyTransferSystemMixin
+CurrencyTransferConfirmButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin); --- @class CurrencyTransferConfirmButtonMixin : CurrencyTransferSystemMixin
 
 function CurrencyTransferConfirmButtonMixin:OnClick()
 	local CurrencyTransferMenu = self:GetCurrencyTransferMenu();
@@ -403,13 +403,13 @@ function CurrencyTransferConfirmButtonMixin:OnClick()
 	C_CurrencyInfo.RequestCurrencyFromAccountCharacter(sourceCharacterData.characterGUID, CurrencyTransferMenu:GetCurrencyID(), CurrencyTransferMenu:GetRequestedCurrencyTransferAmount());
 end
 
-CurrencyTransferCancelButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin);--- @class CurrencyTransferCancelButtonMixin : CurrencyTransferSystemMixin
+CurrencyTransferCancelButtonMixin = CreateFromMixins(CurrencyTransferSystemMixin); --- @class CurrencyTransferCancelButtonMixin : CurrencyTransferSystemMixin
 
 function CurrencyTransferCancelButtonMixin:OnClick()
 	HideUIPanel(CurrencyTransferMenu);
 end
 
-CurrencyTransferAmountSelectorMixin = CreateFromMixins(CallbackRegistryMixin);--- @class CurrencyTransferAmountSelectorMixin : CallbackRegistryMixin
+CurrencyTransferAmountSelectorMixin = CreateFromMixins(CallbackRegistryMixin); --- @class CurrencyTransferAmountSelectorMixin : CallbackRegistryMixin
 
 CurrencyTransferAmountSelectorMixin:GenerateCallbackEvents({
 	"RequestSetSourceCharacterMaxQuantity",
@@ -457,7 +457,7 @@ function CurrencyTransferAmountSelectorMixin:CalculateCurrencyTransferLoss(curre
 	return totalTransactionCost and (totalTransactionCost - requestedTransferAmount) or 0;
 end
 
-CurrencyTransferAmountInputBoxMixin = CreateFromMixins(CurrencyTransferSystemMixin);--- @class CurrencyTransferAmountInputBoxMixin : CurrencyTransferSystemMixin
+CurrencyTransferAmountInputBoxMixin = CreateFromMixins(CurrencyTransferSystemMixin); --- @class CurrencyTransferAmountInputBoxMixin : CurrencyTransferSystemMixin
 
 function CurrencyTransferAmountInputBoxMixin:OnEditFocusLost()
 	EditBox_ClearHighlight(self);
@@ -509,7 +509,7 @@ function CurrencyTransferAmountInputBoxMixin:GetMaxTransferAmountPerTransaction(
 	return 10^(self:GetMaxLetters()) - 1;
 end
 
-CurrencyTransferCostDisplayMixin = CreateFromMixins(CurrencyTransferSystemMixin);--- @class CurrencyTransferCostDisplayMixin : CurrencyTransferSystemMixin
+CurrencyTransferCostDisplayMixin = CreateFromMixins(CurrencyTransferSystemMixin); --- @class CurrencyTransferCostDisplayMixin : CurrencyTransferSystemMixin
 
 function CurrencyTransferCostDisplayMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
@@ -521,7 +521,7 @@ function CurrencyTransferCostDisplayMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-CurrencyTransferSourceSelectorMixin = CreateFromMixins(CurrencyTransferSystemMixin);--- @class CurrencyTransferSourceSelectorMixin : CurrencyTransferSystemMixin
+CurrencyTransferSourceSelectorMixin = CreateFromMixins(CurrencyTransferSystemMixin); --- @class CurrencyTransferSourceSelectorMixin : CurrencyTransferSystemMixin
 
 function CurrencyTransferSourceSelectorMixin:OnLoad()
 	self.Dropdown:SetWidth(135);
@@ -649,7 +649,7 @@ function CurrencyTransferSourceSelectorMixin:RefreshRosterCurrencyData()
 	self.rosterCurrencyData = C_CurrencyInfo.FetchCurrencyDataFromAccountCharacters(currencyID);
 end
 
-CurrencyTransferLogMixin = {};--- @class CurrencyTransferLogMixin
+CurrencyTransferLogMixin = {}; --- @class CurrencyTransferLogMixin
 
 local CURRENCY_TRANSFER_LOG_EVENTS = {
 	"CURRENCY_TRANSFER_LOG_UPDATE",
@@ -733,7 +733,7 @@ transactionAgeFormatter:Init(
 	SecondsFormatterConstants.DontConvertToLower
 );
 
-CurrencyTransferLogEntryMixin = {};--- @class CurrencyTransferLogEntryMixin
+CurrencyTransferLogEntryMixin = {}; --- @class CurrencyTransferLogEntryMixin
 
 function CurrencyTransferLogEntryMixin:OnLoad()
 	self.BackgroundHighlight:SetFrameLevel(self:GetFrameLevel() - 1);
@@ -778,7 +778,7 @@ function CurrencyTransferLogEntryMixin:OnLeave()
 	self:RefreshHighlightVisuals();
 end
 
-CurrencyTransferLogToggleButtonMixin = {};--- @class CurrencyTransferLogToggleButtonMixin
+CurrencyTransferLogToggleButtonMixin = {}; --- @class CurrencyTransferLogToggleButtonMixin
 
 function CurrencyTransferLogToggleButtonMixin:OnClick()
 	CurrencyTransferLog:Toggle();

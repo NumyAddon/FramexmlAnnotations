@@ -7,7 +7,7 @@ Enum.GuideFrameState =
 	CannotGuide = 3,
 };
 
-GuideFrameMixin = {};--- @class GuideFrameMixin
+GuideFrameMixin = {}; --- @class GuideFrameMixin
 
 function GuideFrameMixin:OnLoad()
 	self:SetPortraitToAsset("Interface/Icons/UI_GreenFlag");

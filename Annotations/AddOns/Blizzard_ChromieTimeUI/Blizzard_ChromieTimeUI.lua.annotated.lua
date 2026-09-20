@@ -1,5 +1,5 @@
 local MAX_EXPANSIONS_IN_ROW = 3; 
-ChromieTimeFrameMixin = { }; --- @class ChromieTimeFrameMixin
+ChromieTimeFrameMixin = { };  --- @class ChromieTimeFrameMixin
 
 function ChromieTimeFrameMixin:OnLoad() 
 	self.ExpansionOptionsPool = CreateFramePool("BUTTON", self.OptionsFrame, "ChromieTimeExpansionButtonTemplate");
@@ -85,7 +85,7 @@ function ChromieTimeFrameMixin:GetSelectedExpansion(expansionSelection)
 	return self.currentExpansionSelection; 
 end 
 
-CurrentlySelectedExpansionInfoFrameMixin = { };--- @class CurrentlySelectedExpansionInfoFrameMixin
+CurrentlySelectedExpansionInfoFrameMixin = { }; --- @class CurrentlySelectedExpansionInfoFrameMixin
 
 function CurrentlySelectedExpansionInfoFrameMixin:SetCurrentlySelectedExpansion(expacSelection) 
 	local expacInfo = expacSelection.buttonInfo; 
@@ -100,7 +100,7 @@ function CurrentlySelectedExpansionInfoFrameMixin:ResetSelection()
 	self.Description:SetText(CHROMIE_TIME_PREVIEW_CARD_DEFAULT_DESCRIPTION);
 end 
 
-ChromieTimeExpansionButtonMixin = { };--- @class ChromieTimeExpansionButtonMixin
+ChromieTimeExpansionButtonMixin = { }; --- @class ChromieTimeExpansionButtonMixin
 
 function ChromieTimeExpansionButtonMixin:SetupButton(buttonInfo)
 	if(not buttonInfo) then 
@@ -156,7 +156,7 @@ function ChromieTimeExpansionButtonMixin:OnLeave()
 	GameTooltip:Hide(); 
 end 
 
-ChromieTimeSelectButtonMixin = { }; --- @class ChromieTimeSelectButtonMixin
+ChromieTimeSelectButtonMixin = { };  --- @class ChromieTimeSelectButtonMixin
 
 function ChromieTimeSelectButtonMixin:OnShow()
 	self:UpdateButtonState(false); 

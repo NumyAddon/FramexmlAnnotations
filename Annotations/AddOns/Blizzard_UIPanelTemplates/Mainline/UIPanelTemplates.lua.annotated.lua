@@ -55,7 +55,7 @@ local ROLE_COUNT_EVENTS = {
 	"PLAYER_ROLES_ASSIGNED",
 };
 
-RoleCountMixin = {};--- @class RoleCountMixin
+RoleCountMixin = {}; --- @class RoleCountMixin
 
 function RoleCountMixin:OnShow()
 	self:Refresh();
@@ -239,7 +239,7 @@ function InlineHyperlinkFrame_OnClick(self, link, text, button)
 	SetItemRef(link, text, button);
 end
 
-CurrencyTemplateMixin = {};--- @class CurrencyTemplateMixin
+CurrencyTemplateMixin = {}; --- @class CurrencyTemplateMixin
 
 function CurrencyTemplateMixin:SetCurrencyFromID(currencyID, amount, formatString, colorCode)
 	local currencyString = GetCurrencyString(currencyID, amount, colorCode, self.abbreviate);
@@ -291,7 +291,7 @@ function CurrencyTemplateMixin:OnUpdate()
 	end
 end
 
-UIExpandingButtonMixin = {};--- @class UIExpandingButtonMixin
+UIExpandingButtonMixin = {}; --- @class UIExpandingButtonMixin
 
 function UIExpandingButtonMixin:SetUp(expanded, expansionDirection)
 	self.expansionDirection = expansionDirection;
@@ -348,7 +348,7 @@ function UIExpandingButtonMixin:OnClick(button, down)
 	self:Update();
 end
 
-TalentRankDisplayMixin = { };--- @class TalentRankDisplayMixin
+TalentRankDisplayMixin = { }; --- @class TalentRankDisplayMixin
 
 function TalentRankDisplayMixin:SetValues(currentRank, maxRank, isDisabled, isAvailable)
 	self.Text:SetFormattedText(GENERIC_FRACTION_STRING, currentRank, maxRank);
@@ -369,7 +369,7 @@ function TalentRankDisplayMixin:SetValues(currentRank, maxRank, isDisabled, isAv
 	self.Text:SetTextColor(textColor:GetRGB());
 end
 
-ButtonWithDisableMixin = {};--- @class ButtonWithDisableMixin
+ButtonWithDisableMixin = {}; --- @class ButtonWithDisableMixin
 
 function ButtonWithDisableMixin:SetDisableTooltip(tooltipTitle, tooltipText)
 	self.disableTooltipTitle = tooltipTitle;
@@ -392,7 +392,7 @@ function ButtonWithDisableMixin:OnEnter()
 	end
 end
 
-CurrencyDisplayMixin = CreateFromMixins(CurrencyTemplateMixin);--- @class CurrencyDisplayMixin : CurrencyTemplateMixin
+CurrencyDisplayMixin = CreateFromMixins(CurrencyTemplateMixin); --- @class CurrencyDisplayMixin : CurrencyTemplateMixin
 
 -- currencies: An array of currencyInfo
 -- currencyInfo: either a currencyID, or an array with { currencyID, overrideAmount, colorCode }, or a table with { currencyID = 123, amount = 45, colorCode = RED_FONT_COLOR_CODE [, formatString = "5 / %s"] }
@@ -436,7 +436,7 @@ function CurrencyDisplayMixin:SetCurrencyFont(fontObject)
 	self.Text:SetFontObject(fontObject);
 end
 
-CurrencyDisplayGroupMixin = {};--- @class CurrencyDisplayGroupMixin
+CurrencyDisplayGroupMixin = {}; --- @class CurrencyDisplayGroupMixin
 
 function CurrencyDisplayGroupMixin:OnLoad()
 	self.currencyFramePool = CreateFramePool("FRAME", self, "CurrencyDisplayTemplate");
@@ -513,7 +513,7 @@ function CurrencyDisplayGroupMixin:SetCurrencyFont(fontObject)
 	self.customFontObject = fontObject;
 end
 
-CurrencyLayoutFrameIconMixin = {};--- @class CurrencyLayoutFrameIconMixin
+CurrencyLayoutFrameIconMixin = {}; --- @class CurrencyLayoutFrameIconMixin
 
 function CurrencyLayoutFrameIconMixin:OnEnter()
 	if self.currencyID then
@@ -535,7 +535,7 @@ function CurrencyLayoutFrameIconMixin:SetItemID(itemID)
 	self.itemID = itemID;
 end
 
-CurrencyHorizontalLayoutFrameMixin = {};--- @class CurrencyHorizontalLayoutFrameMixin
+CurrencyHorizontalLayoutFrameMixin = {}; --- @class CurrencyHorizontalLayoutFrameMixin
 
 function CurrencyHorizontalLayoutFrameMixin:Clear()
 	if self.quantityPool then
@@ -644,7 +644,7 @@ function CurrencyHorizontalLayoutFrameMixin:AddItem(itemID, overrideAmount, colo
 	return fontString, frame;
 end
 
-AnimatedShineMixin = {};--- @class AnimatedShineMixin
+AnimatedShineMixin = {}; --- @class AnimatedShineMixin
 
 local NUM_SHINES = 4;
 

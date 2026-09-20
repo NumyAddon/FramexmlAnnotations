@@ -1,5 +1,5 @@
 
-FlightMap_VignetteDataProviderMixin = CreateFromMixins(VignetteDataProviderMixin);--- @class FlightMap_VignetteDataProviderMixin : VignetteDataProviderMixin
+FlightMap_VignetteDataProviderMixin = CreateFromMixins(VignetteDataProviderMixin); --- @class FlightMap_VignetteDataProviderMixin : VignetteDataProviderMixin
 
 function FlightMap_VignetteDataProviderMixin:GetPinTemplate()
 	return "FlightMap_VignettePinTemplate";
@@ -10,7 +10,7 @@ function FlightMap_VignetteDataProviderMixin:ShouldShowVignette(vignetteInfo)
 	return vignetteInfo and vignetteInfo.onWorldMap and vignetteInfo.zoneInfiniteAOI;
 end
 
-FlightMap_VignettePinMixin = CreateFromMixins(VignettePinMixin);--- @class FlightMap_VignettePinMixin : VignettePinMixin
+FlightMap_VignettePinMixin = CreateFromMixins(VignettePinMixin); --- @class FlightMap_VignettePinMixin : VignettePinMixin
 
 function FlightMap_VignettePinMixin:OnLoad()
 	VignettePinMixin.OnLoad(self);

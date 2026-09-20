@@ -2,16 +2,16 @@
 
 local helpTipSystem = "Professions Crafting Helptips";
 
-ProfessionsGearSlotTemplateMixin = CreateFromMixins(PaperDollItemSlotButtonMixin);--- @class ProfessionsGearSlotTemplateMixin : PaperDollItemSlotButtonMixin
+ProfessionsGearSlotTemplateMixin = CreateFromMixins(PaperDollItemSlotButtonMixin); --- @class ProfessionsGearSlotTemplateMixin : PaperDollItemSlotButtonMixin
 
-CraftingSearchLGMixin = {};--- @class CraftingSearchLGMixin
+CraftingSearchLGMixin = {}; --- @class CraftingSearchLGMixin
 
 function CraftingSearchLGMixin:Init(recipeInfo)
 	self.Name:SetText(recipeInfo.name);
 	self.Icon:SetTexture(recipeInfo.icon);
 end
 
-ProfessionsCraftingPageMixin = CreateFromMixins(ProfessionsRecipeListPanelMixin);--- @class ProfessionsCraftingPageMixin : ProfessionsRecipeListPanelMixin
+ProfessionsCraftingPageMixin = CreateFromMixins(ProfessionsRecipeListPanelMixin); --- @class ProfessionsCraftingPageMixin : ProfessionsRecipeListPanelMixin
 
 local ProfessionsCraftingPageEvents =
 {
@@ -555,7 +555,7 @@ function ProfessionsCraftingPageMixin:SetCreateButtonTooltipText(tooltipText)
 	self.CreateAllButton.tooltipText = tooltipText;
 end
 
-local FailValidationReason = EnumUtil.MakeEnum("Cooldown", "InsufficientReagents", "DependentReagentMissing", "Disabled", "Requirement", "LockedReagentSlot", "RecraftOptionalReagentLimit");--- @type {["Cooldown"]: 1, ["InsufficientReagents"]: 2, ["DependentReagentMissing"]: 3, ["Disabled"]: 4, ["Requirement"]: 5, ["LockedReagentSlot"]: 6, ["RecraftOptionalReagentLimit"]: 7}
+local FailValidationReason = EnumUtil.MakeEnum("Cooldown", "InsufficientReagents", "DependentReagentMissing", "Disabled", "Requirement", "LockedReagentSlot", "RecraftOptionalReagentLimit"); --- @type {["Cooldown"]: 1, ["InsufficientReagents"]: 2, ["DependentReagentMissing"]: 3, ["Disabled"]: 4, ["Requirement"]: 5, ["LockedReagentSlot"]: 6, ["RecraftOptionalReagentLimit"]: 7}
 
 local FailValidationTooltips = {
 	[FailValidationReason.Cooldown] = PROFESSIONS_RECIPE_COOLDOWN,

@@ -102,7 +102,7 @@ end
 
 ---- Plunderstorm Popup Functions
 
-PlunderstormQueuePopupMixin = {};--- @class PlunderstormQueuePopupMixin
+PlunderstormQueuePopupMixin = {}; --- @class PlunderstormQueuePopupMixin
 
 local PlunderstormQueuePopupEvents = {
 	"LOBBY_MATCHMAKER_QUEUE_POPPED",
@@ -422,7 +422,7 @@ end
 -------------------------------------------------------------------------
 ---- PVP Ready Dialog Enter Button
 ---------------------------------------------------------------------------
-PVPReadyDialogEnterButtonMixin = {};--- @class PVPReadyDialogEnterButtonMixin
+PVPReadyDialogEnterButtonMixin = {}; --- @class PVPReadyDialogEnterButtonMixin
 
 function PVPReadyDialogEnterButtonMixin:OnClick()
 	local acceptPort = true;
@@ -438,7 +438,7 @@ end
 -------------------------------------------------------------------------
 ---- PVP Ready Dialog Leave Button
 ---------------------------------------------------------------------------
-PVPReadyDialogLeaveButtonMixin = {};--- @class PVPReadyDialogLeaveButtonMixin
+PVPReadyDialogLeaveButtonMixin = {}; --- @class PVPReadyDialogLeaveButtonMixin
 
 function PVPReadyDialogLeaveButtonMixin:OnClick()
 	local queueIndex = self:GetParent().activeIndex;

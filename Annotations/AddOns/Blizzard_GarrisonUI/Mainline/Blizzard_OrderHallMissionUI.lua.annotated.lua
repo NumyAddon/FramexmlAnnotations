@@ -404,7 +404,7 @@ end
 ---------------------------------------------------------------------------------
 -- Order Hall Mission Page
 ---------------------------------------------------------------------------------
-OrderHallFollowerMissionPageMixin = { }--- @class OrderHallFollowerMissionPageMixin
+OrderHallFollowerMissionPageMixin = { } --- @class OrderHallFollowerMissionPageMixin
 
 function OrderHallFollowerMissionPageMixin:SetCounters(followers, enemies, missionID)
 	GarrisonFollowerMissionPageMixin.SetCounters(self, followers, enemies, missionID);
@@ -434,7 +434,7 @@ end
 ---------------------------------------------------------------------------------
 -- Order Hall Mission Page Enemy Frame
 ---------------------------------------------------------------------------------
-OrderHallMissionPageEnemyMixin = { }--- @class OrderHallMissionPageEnemyMixin
+OrderHallMissionPageEnemyMixin = { } --- @class OrderHallMissionPageEnemyMixin
 
 function OrderHallMissionPageEnemyMixin:OnEnter()
 	if (self.mechanicName and self.mechanicAbilityName) then
@@ -565,7 +565,7 @@ end
 ---------------------------------------------------------------------------------
 -- Order Hall Adventure Map
 ---------------------------------------------------------------------------------
-OrderHallMissionAdventureMapMixin = { }--- @class OrderHallMissionAdventureMapMixin
+OrderHallMissionAdventureMapMixin = { } --- @class OrderHallMissionAdventureMapMixin
 
 function AdventureMapMixin:SetupTitle()
 end
@@ -601,7 +601,7 @@ end
 -- Zone Support Page
 ---------------------------------------------------------------------------------
 
-ZoneSupportMissionPageMixin = { }--- @class ZoneSupportMissionPageMixin
+ZoneSupportMissionPageMixin = { } --- @class ZoneSupportMissionPageMixin
 function ZoneSupportMissionPageMixin:UpdateEmptyString()
 	if ( C_Garrison.GetNumFollowersOnMission(self.missionInfo.missionID) == 0 ) then
 		self.CombatAllyDescriptionLabel:SetText(self.missionInfo.description);
@@ -622,7 +622,7 @@ end
 -- Order Hall Mission list
 ---------------------------------------------------------------------------------
 
-OrderHallMissionListMixin = { }--- @class OrderHallMissionListMixin
+OrderHallMissionListMixin = { } --- @class OrderHallMissionListMixin
 
 function OrderHallMissionListMixin:UpdateCombatAllyMission()
 	GarrisonMissionListMixin.UpdateCombatAllyMission(self);
@@ -637,7 +637,7 @@ function OrderHallMissionListMixin:UpdateCombatAllyMission()
 	end
 end
 
-OrderHallCombatAllyMixin = { }--- @class OrderHallCombatAllyMixin
+OrderHallCombatAllyMixin = { } --- @class OrderHallCombatAllyMixin
 
 function OrderHallCombatAllyMixin:SetMission(missionInfo)
 	self.missionInfo = missionInfo;

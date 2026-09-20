@@ -1,4 +1,4 @@
-BaseHousingActionButtonMixin = {};--- @class BaseHousingActionButtonMixin
+BaseHousingActionButtonMixin = {}; --- @class BaseHousingActionButtonMixin
 
 function BaseHousingActionButtonMixin:OnLoad()
 	local iconName, isAtlas = self:GetDefaultTexture();
@@ -246,7 +246,7 @@ function BaseHousingActionButtonMixin:OnClick()
 end
 
 
-BaseHousingModeButtonMixin = {};--- @class BaseHousingModeButtonMixin
+BaseHousingModeButtonMixin = {}; --- @class BaseHousingModeButtonMixin
 
 function BaseHousingModeButtonMixin:OnLoad()
 	BaseHousingActionButtonMixin.OnLoad(self);

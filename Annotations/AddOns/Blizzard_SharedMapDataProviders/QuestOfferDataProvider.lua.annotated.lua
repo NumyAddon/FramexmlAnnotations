@@ -19,7 +19,7 @@ local function GetMaxPinLevel()
 	return maxPinLevel;
 end
 
-QuestOfferDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin, { PIN_LEVEL_RANGE = GetMaxPinLevel(), });--- @class QuestOfferDataProviderMixin : CVarMapCanvasDataProviderMixin, { PIN_LEVEL_RANGE = GetMaxPinLevel(
+QuestOfferDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin, { PIN_LEVEL_RANGE = GetMaxPinLevel(), }); --- @class QuestOfferDataProviderMixin : CVarMapCanvasDataProviderMixin
 QuestOfferDataProviderMixin:Init("questPOILocalStory");
 
 function QuestOfferDataProviderMixin:BuildPinSubTypeData(pinSubType, info)
@@ -385,7 +385,7 @@ function QuestOfferDataProviderMixin:GetBountyInfo()
 end
 -- END TODO: copy paste hacks
 
-IconWithHeightIndicatorMapPinMixin = {};--- @class IconWithHeightIndicatorMapPinMixin
+IconWithHeightIndicatorMapPinMixin = {}; --- @class IconWithHeightIndicatorMapPinMixin
 
 function IconWithHeightIndicatorMapPinMixin:SetHeightIndicator(floorLocation)
 	if floorLocation == Enum.QuestLineFloorLocation.Below then
@@ -399,7 +399,7 @@ function IconWithHeightIndicatorMapPinMixin:SetHeightIndicator(floorLocation)
 	self.Texture:SetDesaturated(isDifferentFloor);
 end
 
-QuestOfferPinMixin = CreateFromMixins(MapCanvasPinMixin, SuperTrackablePinMixin);--- @class QuestOfferPinMixin : MapCanvasPinMixin, SuperTrackablePinMixin
+QuestOfferPinMixin = CreateFromMixins(MapCanvasPinMixin, SuperTrackablePinMixin); --- @class QuestOfferPinMixin : MapCanvasPinMixin, SuperTrackablePinMixin
 
 function QuestOfferPinMixin:OnLoad()
 	self:SetScalingLimits(1, 1.0, 1.2);
@@ -441,7 +441,7 @@ function QuestOfferPinMixin:GetDisplayName()
 	return self.questName;
 end
 
-QuestHubPinMixin = {};--- @class QuestHubPinMixin
+QuestHubPinMixin = {}; --- @class QuestHubPinMixin
 
 function QuestHubPinMixin:OnAcquired(poiInfo)
 	self.poiInfo = poiInfo;
@@ -829,7 +829,7 @@ local GLOW_HUB_QUESTS = {
 
 GLOW_HUB_QUESTS_ACKNOWLEDGED = {};
 
-QuestHubPinGlowMixin = {};--- @class QuestHubPinGlowMixin
+QuestHubPinGlowMixin = {}; --- @class QuestHubPinGlowMixin
 
 function QuestHubPinGlowMixin:OnMouseEnter()
 	AreaPOIPinMixin.OnMouseEnter(self);
@@ -879,7 +879,7 @@ function QuestHubPinGlowMixin:AcknowledgeGlow()
 	end
 end
 
-SuppressedPinTooltipMixin = {};--- @class SuppressedPinTooltipMixin
+SuppressedPinTooltipMixin = {}; --- @class SuppressedPinTooltipMixin
 
 function SuppressedPinTooltipMixin:SetupFromPin(pin)
 	-- TODO: Finish actual set up using data from the pin
@@ -900,7 +900,7 @@ function SuppressedPinTooltipMixin:SetupFromPin(pin)
 	clonedPin:SetScale(0.9);
 end
 
-SuppressedPinTooltipContainerMixin = {};--- @class SuppressedPinTooltipContainerMixin
+SuppressedPinTooltipContainerMixin = {}; --- @class SuppressedPinTooltipContainerMixin
 
 function SuppressedPinTooltipContainerMixin:Reset()
 	self:SetParent(GetAppropriateTopLevelParent());

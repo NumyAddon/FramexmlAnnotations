@@ -1,4 +1,4 @@
-ShoppingCartServiceRegistrantMixin = CreateFromMixins(CallbackRegistrantMixin);--- @class ShoppingCartServiceRegistrantMixin : CallbackRegistrantMixin
+ShoppingCartServiceRegistrantMixin = CreateFromMixins(CallbackRegistrantMixin); --- @class ShoppingCartServiceRegistrantMixin : CallbackRegistrantMixin
 
 function ShoppingCartServiceRegistrantMixin:AddServiceEvents(services)
 	if not self.Events then
@@ -13,7 +13,7 @@ function ShoppingCartServiceRegistrantMixin:AddServiceEvents(services)
 	end
 end
 
-ShoppingCartServiceButtonMixin = {};--- @class ShoppingCartServiceButtonMixin
+ShoppingCartServiceButtonMixin = {}; --- @class ShoppingCartServiceButtonMixin
 
 function ShoppingCartServiceButtonMixin:BaseService_OnClick()
 	local data = self:GetEventData();

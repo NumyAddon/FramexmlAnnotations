@@ -1,4 +1,4 @@
-local CampaignMixin = {};--- @class CampaignMixin
+local CampaignMixin = {}; --- @class CampaignMixin
 
 function CampaignMixin:Init(campaignID)
 	self.campaignID = campaignID;

@@ -11,7 +11,7 @@ WOW_PROJECT_ID = WOW_PROJECT_ID or WOW_PROJECT_MAINLINE;
 
 -- BNET toast
 
-BNToastMixin = {}--- @class BNToastMixin
+BNToastMixin = {} --- @class BNToastMixin
 
 function BNToastMixin:OnLoad()
 	self.BNToastEvents = {
@@ -321,7 +321,7 @@ end
 
 --This is used to track time played for an alert in Korea
 
-BNetTimeAlertMixin = {};--- @class BNetTimeAlertMixin
+BNetTimeAlertMixin = {}; --- @class BNetTimeAlertMixin
 
 function BNetTimeAlertMixin:OnLoad()
 	self:RegisterEvent("SESSION_TIME_ALERT");

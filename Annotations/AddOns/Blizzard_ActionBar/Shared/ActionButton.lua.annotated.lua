@@ -198,7 +198,7 @@ function ActionBar_PageDown()
 	C_ActionBar.SetActionBarPage(prevPage);
 end
 
-ActionBarButtonEventsFrameMixin = {};--- @class ActionBarButtonEventsFrameMixin
+ActionBarButtonEventsFrameMixin = {}; --- @class ActionBarButtonEventsFrameMixin
 
 function ActionBarButtonEventsFrameMixin:OnLoad()
 	self.frames = {};
@@ -240,7 +240,7 @@ function ActionBarButtonEventsFrameMixin:ForEachFrame(func)
 	end
 end
 
-ActionBarActionEventsFrameMixin = {};--- @class ActionBarActionEventsFrameMixin
+ActionBarActionEventsFrameMixin = {}; --- @class ActionBarActionEventsFrameMixin
 
 function ActionBarActionEventsFrameMixin:OnLoad()
 	self.frames = {};
@@ -343,7 +343,7 @@ function ActionBarActionEventsFrameMixin:UnregisterFrame(frame)
 	self.frames[frame] = nil;
 end
 
-ActionBarButtonUpdateFrameMixin = {};--- @class ActionBarButtonUpdateFrameMixin
+ActionBarButtonUpdateFrameMixin = {}; --- @class ActionBarButtonUpdateFrameMixin
 
 function ActionBarButtonUpdateFrameMixin:OnLoad()
 	self.frames = {};
@@ -363,7 +363,7 @@ function ActionBarButtonUpdateFrameMixin:UnregisterFrame(frame)
 	self.frames[frame] = nil;
 end
 
-ActionBarButtonRangeCheckFrameMixin = {};--- @class ActionBarButtonRangeCheckFrameMixin
+ActionBarButtonRangeCheckFrameMixin = {}; --- @class ActionBarButtonRangeCheckFrameMixin
 
 function ActionBarButtonRangeCheckFrameMixin:OnLoad()
 	self.actions = {};
@@ -401,7 +401,7 @@ function ActionBarButtonRangeCheckFrameMixin:UnregisterFrame(action, frame)
 	C_ActionBar.EnableActionRangeCheck(action, false);
 end
 
-ActionBarButtonUsableWatcherFrameMixin = {};--- @class ActionBarButtonUsableWatcherFrameMixin
+ActionBarButtonUsableWatcherFrameMixin = {}; --- @class ActionBarButtonUsableWatcherFrameMixin
 
 function ActionBarButtonUsableWatcherFrameMixin:OnLoad()
 	self.actions = {};
@@ -439,7 +439,7 @@ function ActionBarButtonUsableWatcherFrameMixin:UnregisterFrame(action, frame)
 	self.actions[action][frame] = nil;
 end
 
-ActionBarActionButtonMixin = {};--- @class ActionBarActionButtonMixin
+ActionBarActionButtonMixin = {}; --- @class ActionBarActionButtonMixin
 
 function ActionBarActionButtonMixin:OnLoad()
 	self.SetButtonStateBase = self.SetButtonState;
@@ -992,7 +992,7 @@ end
 function ActionBarActionButtonMixin:EvaluateTutorials(spellType, id)
 end
 
-ActionBarOverlayGlowAnimInMixin = {};--- @class ActionBarOverlayGlowAnimInMixin
+ActionBarOverlayGlowAnimInMixin = {}; --- @class ActionBarOverlayGlowAnimInMixin
 
 function ActionBarOverlayGlowAnimInMixin:OnPlay()
 	local frame = self:GetParent();
@@ -1023,7 +1023,7 @@ function ActionBarOverlayGlowAnimInMixin:OnFinished()
 	frame.ants:SetAlpha(1.0);
 end
 
-ActionButtonInterruptAnimInMixin = {};--- @class ActionButtonInterruptAnimInMixin
+ActionButtonInterruptAnimInMixin = {}; --- @class ActionButtonInterruptAnimInMixin
 function ActionButtonInterruptAnimInMixin:OnFinished()
 	self:GetParent():GetParent():Hide();
 end
@@ -1527,8 +1527,8 @@ end
 
 
 -- Can be overridden by ActionButtonOverrides.
-ActionBarButtonEventsDerivedFrameMixin = CreateFromMixins(ActionBarButtonEventsFrameMixin);--- @class ActionBarButtonEventsDerivedFrameMixin : ActionBarButtonEventsFrameMixin
-ActionBarActionButtonDerivedMixin = CreateFromMixins(ActionBarActionButtonMixin);--- @class ActionBarActionButtonDerivedMixin : ActionBarActionButtonMixin
+ActionBarButtonEventsDerivedFrameMixin = CreateFromMixins(ActionBarButtonEventsFrameMixin); --- @class ActionBarButtonEventsDerivedFrameMixin : ActionBarButtonEventsFrameMixin
+ActionBarActionButtonDerivedMixin = CreateFromMixins(ActionBarActionButtonMixin); --- @class ActionBarActionButtonDerivedMixin : ActionBarActionButtonMixin
 
 function ActionBarActionButtonDerivedMixin:ActionBarActionButtonDerivedMixin_OnLoad()
 	ActionBarActionButtonMixin.OnLoad(self);
@@ -1584,7 +1584,7 @@ function ActionBarActionButtonDerivedMixin:ActionBarActionButtonDerivedMixin_OnH
 end
 
 
-BaseActionButtonMixin = {}--- @class BaseActionButtonMixin
+BaseActionButtonMixin = {} --- @class BaseActionButtonMixin
 
 function BaseActionButtonMixin:BaseActionButtonMixin_OnLoad()
 	FlyoutButtonMixin.OnLoad(self);
@@ -1687,7 +1687,7 @@ function BaseActionButtonMixin:UpdateFlyout(isButtonDownOverride)
 	end
 end
 
-ActionBarButtonMixin = {};--- @class ActionBarButtonMixin
+ActionBarButtonMixin = {}; --- @class ActionBarButtonMixin
 
 function ActionBarButtonMixin:ActionBarButtonMixin_OnLoad()
 	BaseActionButtonMixin.BaseActionButtonMixin_OnLoad(self);
@@ -1709,7 +1709,7 @@ function ActionBarButtonMixin:ActionBarButtonMixin_OnDragStart()
 	ActionBarActionButtonDerivedMixin.ActionBarActionButtonDerivedMixin_OnDragStart(self);
 end
 
-SmallActionButtonMixin = {}--- @class SmallActionButtonMixin
+SmallActionButtonMixin = {} --- @class SmallActionButtonMixin
 
 function SmallActionButtonMixin:SmallActionButtonMixin_OnLoad()
 	BaseActionButtonMixin.BaseActionButtonMixin_OnLoad(self);
@@ -1753,7 +1753,7 @@ function SmallActionButtonMixin:UpdateButtonArt()
 	self.PushedTexture:SetSize(35, 35);
 end
 
-ActionButtonInterruptFrameMixin = { };--- @class ActionButtonInterruptFrameMixin
+ActionButtonInterruptFrameMixin = { }; --- @class ActionButtonInterruptFrameMixin
 
 function ActionButtonInterruptFrameMixin:OnShow()
 	self.Base.AnimIn:Play();
@@ -1765,7 +1765,7 @@ function ActionButtonInterruptFrameMixin:OnHide()
 	self.Highlight.AnimIn:Stop();
 end
 
-ActionButtonCastingAnimFrameMixin = { };--- @class ActionButtonCastingAnimFrameMixin
+ActionButtonCastingAnimFrameMixin = { }; --- @class ActionButtonCastingAnimFrameMixin
 
 function ActionButtonCastingAnimFrameMixin:Setup(actionButtonCastType)
 	local startTime, endTime, totalTimeInSeconds;
@@ -1824,7 +1824,7 @@ function ActionButtonCastingAnimFrameMixin:FinishAnimAndPlayBurst()
 	self.Fill.CastingAnim:OnFinished();
 end
 
-ActionButtonCastingAnimationFillMixin = { };--- @class ActionButtonCastingAnimationFillMixin
+ActionButtonCastingAnimationFillMixin = { }; --- @class ActionButtonCastingAnimationFillMixin
 
 function ActionButtonCastingAnimationFillMixin:OnFinished()
 	local endBurst = self:GetParent():GetParent().EndBurst;
@@ -1832,39 +1832,39 @@ function ActionButtonCastingAnimationFillMixin:OnFinished()
 	endBurst.FinishCastAnim:Play();
 end
 
-ActionButtonCastingFinishAnimMixin = { };--- @class ActionButtonCastingFinishAnimMixin
+ActionButtonCastingFinishAnimMixin = { }; --- @class ActionButtonCastingFinishAnimMixin
 function ActionButtonCastingFinishAnimMixin:OnFinished()
 	self:GetParent():GetParent():Hide();
 	local parentButton = self:GetParent():GetParent():GetParent();
 	self:GetParent():GetParent():GetParent():StopSpellCastAnim(false, parentButton.actionButtonCastType);
 end
 
-ActionButtonTargetReticleFrameMixin = { };--- @class ActionButtonTargetReticleFrameMixin
+ActionButtonTargetReticleFrameMixin = { }; --- @class ActionButtonTargetReticleFrameMixin
 function ActionButtonTargetReticleFrameMixin:Setup()
 	self.HighlightAnim:Play();
 	self:Show();
 end
 
-ActionButtonCooldownFlashMixin = { };--- @class ActionButtonCooldownFlashMixin
+ActionButtonCooldownFlashMixin = { }; --- @class ActionButtonCooldownFlashMixin
 function ActionButtonCooldownFlashMixin:Setup()
 	self.FlashAnim:Play();
 	self:Show();
 end
 
-ActionButtonCooldownFlashAnimMixin = { };--- @class ActionButtonCooldownFlashAnimMixin
+ActionButtonCooldownFlashAnimMixin = { }; --- @class ActionButtonCooldownFlashAnimMixin
 function ActionButtonCooldownFlashAnimMixin:OnFinished()
 	self:GetParent():Hide();
 end
 
 -- This is done to preserve old hierarchy, while allowing for proper layering of the HotKey text
-ActionButtonTextOverlayContainerMixin = {};--- @class ActionButtonTextOverlayContainerMixin
+ActionButtonTextOverlayContainerMixin = {}; --- @class ActionButtonTextOverlayContainerMixin
 function ActionButtonTextOverlayContainerMixin:OnLoad()
 	local parentActionButton = self:GetParent();
 	parentActionButton.HotKey = self.HotKey;
 	parentActionButton.Count = self.Count;
 end
 
-ActionBarButtonAssistedCombatRotationFrameMixin = { };--- @class ActionBarButtonAssistedCombatRotationFrameMixin
+ActionBarButtonAssistedCombatRotationFrameMixin = { }; --- @class ActionBarButtonAssistedCombatRotationFrameMixin
 
 function ActionBarButtonAssistedCombatRotationFrameMixin:OnLoad()
 	local actionButton = self:GetParent();

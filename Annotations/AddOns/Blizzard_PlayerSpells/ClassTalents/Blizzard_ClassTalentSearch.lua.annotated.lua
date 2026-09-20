@@ -1,6 +1,6 @@
 local NotOnActionBarSearchText = TALENT_FRAME_SEARCH_NOT_ON_ACTIONBAR;
 
-ClassTalentSearchMixin = {};--- @class ClassTalentSearchMixin
+ClassTalentSearchMixin = {}; --- @class ClassTalentSearchMixin
 
 function ClassTalentSearchMixin:InitializeSearch()
 	local searchSources = {};

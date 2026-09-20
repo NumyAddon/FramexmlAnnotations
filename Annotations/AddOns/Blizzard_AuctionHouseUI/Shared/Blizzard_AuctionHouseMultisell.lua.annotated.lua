@@ -1,7 +1,7 @@
 
 local MULTISELL_ALPHA_STEP = 0.05;
 
-MultisellProgressFrameMixin = {};--- @class MultisellProgressFrameMixin
+MultisellProgressFrameMixin = {}; --- @class MultisellProgressFrameMixin
 
 local function MultisellProgressFrame_OnUpdate(self)
 	local alpha = self:GetAlpha() - MULTISELL_ALPHA_STEP;

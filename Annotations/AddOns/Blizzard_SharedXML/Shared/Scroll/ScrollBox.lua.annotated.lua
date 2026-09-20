@@ -29,7 +29,7 @@ ScrollBoxConstants =
 
 -- ScrollBoxBaseMixin includes CallbackRegistryMixin but the derived mixins are responsible
 -- for generating the events.
-ScrollBoxBaseMixin = CreateFromMixins(CallbackRegistryMixin, ScrollControllerMixin);--- @class ScrollBoxBaseMixin : CallbackRegistryMixin, ScrollControllerMixin
+ScrollBoxBaseMixin = CreateFromMixins(CallbackRegistryMixin, ScrollControllerMixin); --- @class ScrollBoxBaseMixin : CallbackRegistryMixin, ScrollControllerMixin
 
 function ScrollBoxBaseMixin:OnLoad()
 	CallbackRegistryMixin.OnLoad(self);
@@ -539,7 +539,7 @@ function ScrollBoxBaseMixin:SetShadowsScale(uiScale)
 	self.Shadows:SetScale(uiScale);
 end
 
-ScrollBoxListMixin = CreateFromMixins(ScrollBoxBaseMixin);--- @class ScrollBoxListMixin : ScrollBoxBaseMixin
+ScrollBoxListMixin = CreateFromMixins(ScrollBoxBaseMixin); --- @class ScrollBoxListMixin : ScrollBoxBaseMixin
 
 ScrollBoxListMixin:GenerateCallbackEvents(
 	{
@@ -884,7 +884,7 @@ function ScrollBoxListMixin:ScrollToElementDataByPredicate(predicate, alignment,
 	end
 end
 
-ScrollBoxMixin = CreateFromMixins(ScrollBoxBaseMixin);--- @class ScrollBoxMixin : ScrollBoxBaseMixin
+ScrollBoxMixin = CreateFromMixins(ScrollBoxBaseMixin); --- @class ScrollBoxMixin : ScrollBoxBaseMixin
 
 ScrollBoxMixin:GenerateCallbackEvents(
 	{

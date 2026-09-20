@@ -1,4 +1,4 @@
-HybridMinimapMixin = { };--- @class HybridMinimapMixin
+HybridMinimapMixin = { }; --- @class HybridMinimapMixin
 
 function HybridMinimapMixin:OnLoad()
 	local mapCanvas = self.MapCanvas;

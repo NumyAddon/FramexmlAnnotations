@@ -1,4 +1,4 @@
-CooldownViewerSettingsEditAlertMixin = {};--- @class CooldownViewerSettingsEditAlertMixin
+CooldownViewerSettingsEditAlertMixin = {}; --- @class CooldownViewerSettingsEditAlertMixin
 
 function CooldownViewerSettingsEditAlertMixin:SetOwner(owner)
 	self.owner = owner;

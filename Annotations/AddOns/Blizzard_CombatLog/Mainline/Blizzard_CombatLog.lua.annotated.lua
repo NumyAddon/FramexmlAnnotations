@@ -1668,7 +1668,7 @@ function Blizzard_CombatLog_RefreshGlobalLinks()
 	Blizzard_CombatLog_CurrentSettings = Blizzard_CombatLog_Filters.filters[Blizzard_CombatLog_Filters.currentFilter];
 end
 
-CombatLogDriverMixin = {};--- @class CombatLogDriverMixin
+CombatLogDriverMixin = {}; --- @class CombatLogDriverMixin
 
 function CombatLogDriverMixin:OnLoad()
 	EventRegistry:RegisterCallback("OnCombatLogRefilterStarted", self.OnCombatLogRefilterStarted, self);

@@ -1,4 +1,4 @@
-EncounterWarningsViewElementMixin = {};--- @class EncounterWarningsViewElementMixin
+EncounterWarningsViewElementMixin = {}; --- @class EncounterWarningsViewElementMixin
 
 function EncounterWarningsViewElementMixin:Init(encounterWarningInfo, parentView)
 	self.parentView = parentView;
@@ -23,9 +23,9 @@ function EncounterWarningsViewElementMixin:GetCurrentSeverity()
 	return currentWarningInfo and currentWarningInfo.severity or nil;
 end
 
-EncounterWarningsSwingAnimationGroupMixin = CreateFromMixins(EncounterWarningsViewElementMixin);--- @class EncounterWarningsSwingAnimationGroupMixin : EncounterWarningsViewElementMixin
+EncounterWarningsSwingAnimationGroupMixin = CreateFromMixins(EncounterWarningsViewElementMixin); --- @class EncounterWarningsSwingAnimationGroupMixin : EncounterWarningsViewElementMixin
 
-EncounterWarningsIconElementMixin = CreateFromMixins(EncounterWarningsViewElementMixin);--- @class EncounterWarningsIconElementMixin : EncounterWarningsViewElementMixin
+EncounterWarningsIconElementMixin = CreateFromMixins(EncounterWarningsViewElementMixin); --- @class EncounterWarningsIconElementMixin : EncounterWarningsViewElementMixin
 
 function EncounterWarningsIconElementMixin:Init(encounterWarningInfo, parentView)
 	EncounterWarningsViewElementMixin.Init(self, encounterWarningInfo, parentView);
@@ -50,7 +50,7 @@ function EncounterWarningsIconElementMixin:SetDeadlyOverlayShown(isDeadly)
 	self.DeadlyOverlayGlow:SetShown(isDeadly);
 end
 
-EncounterWarningsTextElementMixin = CreateFromMixins(EncounterWarningsViewElementMixin, AutoScalingFontStringMixin);--- @class EncounterWarningsTextElementMixin : EncounterWarningsViewElementMixin, AutoScalingFontStringMixin
+EncounterWarningsTextElementMixin = CreateFromMixins(EncounterWarningsViewElementMixin, AutoScalingFontStringMixin); --- @class EncounterWarningsTextElementMixin : EncounterWarningsViewElementMixin, AutoScalingFontStringMixin
 
 function EncounterWarningsTextElementMixin:Init(encounterWarningInfo, parentView)
 	EncounterWarningsViewElementMixin.Init(self, encounterWarningInfo, parentView);

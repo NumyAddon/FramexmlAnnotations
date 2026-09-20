@@ -422,7 +422,7 @@ end
 ---------------------------------------------------------------------------------
 --- Follower Portrait                                                         ---
 ---------------------------------------------------------------------------------
-GarrisonFollowerPortraitMixin = { }--- @class GarrisonFollowerPortraitMixin
+GarrisonFollowerPortraitMixin = { } --- @class GarrisonFollowerPortraitMixin
 
 function GarrisonFollowerPortraitMixin:SetPortraitIcon(iconFileID)
 	if (iconFileID == nil or iconFileID == 0) then

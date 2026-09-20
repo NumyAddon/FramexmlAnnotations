@@ -40,7 +40,7 @@ local FollowerSocketAtlasNames = {
 }
 
 
-AdventuresBoardMixin = {};--- @class AdventuresBoardMixin
+AdventuresBoardMixin = {}; --- @class AdventuresBoardMixin
 
 function AdventuresBoardMixin:OnLoad()
 	self.framesByBoardIndex = {};
@@ -343,7 +343,7 @@ function AdventuresBoardMixin:IsShowingActiveCombat()
 	return false;
 end
 
-AdventuresBoardCombatMixin = CreateFromMixins(AdventuresBoardMixin);--- @class AdventuresBoardCombatMixin : AdventuresBoardMixin
+AdventuresBoardCombatMixin = CreateFromMixins(AdventuresBoardMixin); --- @class AdventuresBoardCombatMixin : AdventuresBoardMixin
 
 function AdventuresBoardCombatMixin:OnLoad()
 	AdventuresBoardMixin.OnLoad(self);
@@ -475,7 +475,7 @@ end
 --- AdventuresSocketMixin for aura management ---
 -------------------------------------------------
 
-AdventuresSocketMixin = {}--- @class AdventuresSocketMixin
+AdventuresSocketMixin = {} --- @class AdventuresSocketMixin
 
 function AdventuresSocketMixin:OnLoad()
 	self:ResetVisibility();
@@ -637,7 +637,7 @@ end
 ---    Adventures Aura Icon Mixin					---
 -------------------------------------------------------
 
-AdventuresBoardAuraIconMixin = {}--- @class AdventuresBoardAuraIconMixin
+AdventuresBoardAuraIconMixin = {} --- @class AdventuresBoardAuraIconMixin
 
 function AdventuresBoardAuraIconMixin:OnLoad()
 	local useAtlasSize = true;
@@ -667,7 +667,7 @@ end
 ---    Adventures Aura Container Mixin				---
 -------------------------------------------------------
 
-AdventuresBoardAuraContainerMixin = {}--- @class AdventuresBoardAuraContainerMixin
+AdventuresBoardAuraContainerMixin = {} --- @class AdventuresBoardAuraContainerMixin
 
 function AdventuresBoardAuraContainerMixin:OnHide()
 	self.BuffIcon:Hide();

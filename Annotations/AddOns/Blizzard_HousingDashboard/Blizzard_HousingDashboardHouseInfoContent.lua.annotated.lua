@@ -1,4 +1,4 @@
-HousingDashboardHouseInfoMixin = {}--- @class HousingDashboardHouseInfoMixin
+HousingDashboardHouseInfoMixin = {} --- @class HousingDashboardHouseInfoMixin
 local HouseInfoLifetimeEvents =
 {
 	"PLAYER_HOUSE_LIST_UPDATED",
@@ -250,7 +250,7 @@ function HousingDashboardHouseInfoMixin:OnTutorialButtonClicked()
 	PlaySound(SOUNDKIT.HOUSING_DASHBOARD_BUTTON_CLICK);
 end
 
-HousingDashboardHouseInfoContentFrameMixin = {};--- @class HousingDashboardHouseInfoContentFrameMixin
+HousingDashboardHouseInfoContentFrameMixin = {}; --- @class HousingDashboardHouseInfoContentFrameMixin
 
 function HousingDashboardHouseInfoContentFrameMixin:Initialize()
 	if not self.tabsInitialized then
@@ -302,7 +302,7 @@ function HousingDashboardHouseInfoContentFrameMixin:IsTabAvailable(tabID)
 end
 
 ---------------------House Finder-------------------------------
-HouseFinderButtonMixin = {};--- @class HouseFinderButtonMixin
+HouseFinderButtonMixin = {}; --- @class HouseFinderButtonMixin
 
 function HouseFinderButtonMixin:OnClick()
 	if not HouseFinderFrame then
@@ -314,7 +314,7 @@ function HouseFinderButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.HOUSING_DASHBOARD_BUTTON_CLICK);
 end
 ---------------------Initiatives Tab-------------------------------
-InitiativesTabMixin = {};--- @class InitiativesTabMixin
+InitiativesTabMixin = {}; --- @class InitiativesTabMixin
 
 function InitiativesTabMixin:OnLoad()
 	self.thresholdFrames = {};
@@ -739,7 +739,7 @@ function InitiativesTabMixin:SetCurrentPoints(barValue)
 end
 
 ---------------------Initiatives Tab: Task Button-------------------------------
-InitiativeTaskButtonMixin = {};--- @class InitiativeTaskButtonMixin
+InitiativeTaskButtonMixin = {}; --- @class InitiativeTaskButtonMixin
 
 function InitiativeTaskButtonMixin:Init()
 	self:GetElementData():SetCollapsed(true);
@@ -892,7 +892,7 @@ function InitiativeTaskButtonMixin:GetData()
 end
 
 ---------------------Initiatives Tab: ProgressBar Threshold-------------------------------
-ProgressThresholdMixin = {};--- @class ProgressThresholdMixin
+ProgressThresholdMixin = {}; --- @class ProgressThresholdMixin
 
 function ProgressThresholdMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_CURSOR_RIGHT");
@@ -958,7 +958,7 @@ function ProgressThresholdMixin:SetCurrentPoints(points)
 end
 
 ---------------------Initiatives Tab: Active Neighborhood Switcher -------------------------------
-InitiativeActiveNeighborhoodSwitcherMixin = {};--- @class InitiativeActiveNeighborhoodSwitcherMixin
+InitiativeActiveNeighborhoodSwitcherMixin = {}; --- @class InitiativeActiveNeighborhoodSwitcherMixin
 
 function InitiativeActiveNeighborhoodSwitcherMixin:OnClick()
 

@@ -20,7 +20,7 @@ local function GetTotalOwnedDecorStorageString()
 	return STORAGE_COUNT_FORMAT:format(nonExemptOwnedCount, maxOwnedCount);
 end
 
-HouseEditorStorageButtonMixin = {};--- @class HouseEditorStorageButtonMixin
+HouseEditorStorageButtonMixin = {}; --- @class HouseEditorStorageButtonMixin
 
 function HouseEditorStorageButtonMixin:OnEnter()
 	for _, icon in ipairs(self.OverlayIcons) do
@@ -56,7 +56,7 @@ local StorageWhileVisibleEvents = {
 	-- "CATALOG_SHOP_FETCH_FAILURE",
 };
 
-HouseEditorStorageFrameMixin = {};--- @class HouseEditorStorageFrameMixin
+HouseEditorStorageFrameMixin = {}; --- @class HouseEditorStorageFrameMixin
 
 function HouseEditorStorageFrameMixin:OnLoad()
 	TabSystemOwnerMixin.OnLoad(self);

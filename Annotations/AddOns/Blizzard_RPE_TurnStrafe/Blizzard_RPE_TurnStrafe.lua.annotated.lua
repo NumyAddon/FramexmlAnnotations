@@ -16,7 +16,7 @@ StaticPopupDialogs["RPE_TURNSTRAFE_CHANGED"] = {
 	whileDead = 1,
 };
 
-RPETurnStrafeStyleMixin = CreateFromMixins(GameDialogBaseMixin);--- @class RPETurnStrafeStyleMixin : GameDialogBaseMixin
+RPETurnStrafeStyleMixin = CreateFromMixins(GameDialogBaseMixin); --- @class RPETurnStrafeStyleMixin : GameDialogBaseMixin
 
 function RPETurnStrafeStyleMixin:OnLoad()
 	GameDialogBaseMixin.OnLoad(self);

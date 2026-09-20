@@ -2,7 +2,7 @@ local DefaultMaxPoints = 5;	-- Default number of max points for normal layout ha
 local DefaultLeftPadding = 0;	-- Padding to use while at or below DefaultMaxPoints
 local LeftPaddingPerPointOverDefault = -20;	-- Padding to add for each max point above DefaultMaxPoints
 
-RogueComboPointBarMixin = {};--- @class RogueComboPointBarMixin
+RogueComboPointBarMixin = {}; --- @class RogueComboPointBarMixin
 
 function RogueComboPointBarMixin:UpdatePower()
 	local unit = self:GetUnit();
@@ -33,7 +33,7 @@ function RogueComboPointBarMixin:UpdateMaxPower()
 end
 
 
-RogueComboPointMixin = {};--- @class RogueComboPointMixin
+RogueComboPointMixin = {}; --- @class RogueComboPointMixin
 
 function RogueComboPointMixin:Setup()
 	self.isFull = nil;

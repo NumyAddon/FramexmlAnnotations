@@ -70,7 +70,7 @@ function CooldownManagerLayout_SetIsDefault(layout, isDefault)
 	layout.isDefault = isDefault;
 end
 
-CooldownViewerLayoutManagerMixin = {};--- @class CooldownViewerLayoutManagerMixin
+CooldownViewerLayoutManagerMixin = {}; --- @class CooldownViewerLayoutManagerMixin
 
 function CooldownViewerLayoutManagerMixin:Init(dataProvider, serializer)
 	self.dataProvider = dataProvider;

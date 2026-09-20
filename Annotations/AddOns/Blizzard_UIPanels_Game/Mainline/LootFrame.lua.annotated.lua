@@ -8,7 +8,7 @@ local FrameEvents =
 	"LOOT_SLOT_CHANGED",
 };
 
-LootFrameMixin = {};--- @class LootFrameMixin
+LootFrameMixin = {}; --- @class LootFrameMixin
 
 function LootFrameMixin:OnLoad()
 	ScrollingFlatPanelMixin.OnLoad(self);
@@ -204,7 +204,7 @@ function LootFrameMixin:UpdateShownState()
 	end
 end
 
-LootFrameBaseElementMixin = {};--- @class LootFrameBaseElementMixin
+LootFrameBaseElementMixin = {}; --- @class LootFrameBaseElementMixin
 
 function LootFrameBaseElementMixin:GetSlotIndex()
 	local elementData = self:GetElementData();
@@ -223,7 +223,7 @@ end
 function LootFrameBaseElementMixin:Init()
 end
 
-LootFrameElementMixin = CreateFromMixins(LootFrameBaseElementMixin);--- @class LootFrameElementMixin : LootFrameBaseElementMixin
+LootFrameElementMixin = CreateFromMixins(LootFrameBaseElementMixin); --- @class LootFrameElementMixin : LootFrameBaseElementMixin
 
 function LootFrameElementMixin:OnLoad()
 	self.Item:SetScript("OnEnter", GenerateClosure(self.OnEnter, self));
@@ -317,7 +317,7 @@ function LootFrameElementMixin:OnLeave()
 	self.HighlightNameFrame:Hide();
 end
 
-LootFrameItemElementMixin = CreateFromMixins(LootFrameElementMixin);--- @class LootFrameItemElementMixin : LootFrameElementMixin
+LootFrameItemElementMixin = CreateFromMixins(LootFrameElementMixin); --- @class LootFrameItemElementMixin : LootFrameElementMixin
 
 function LootFrameItemElementMixin:Init()
 	LootFrameElementMixin.Init(self);

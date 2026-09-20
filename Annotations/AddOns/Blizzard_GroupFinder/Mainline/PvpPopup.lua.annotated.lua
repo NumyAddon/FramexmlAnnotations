@@ -1,4 +1,4 @@
-PVPReadyPopupMixin = { };--- @class PVPReadyPopupMixin
+PVPReadyPopupMixin = { }; --- @class PVPReadyPopupMixin
 
 local ROLE_BUTTON_BASE_XOFFSET = 22;
 local ROLE_BUTTON_WIDTH = 55; 
@@ -116,7 +116,7 @@ function PVPReadyPopupMixin:SetupRole(roleInfo, centerOffset)
 	return roleButton;
 end		
 
-PvpRoleButtonWithCountMixin = { };--- @class PvpRoleButtonWithCountMixin
+PvpRoleButtonWithCountMixin = { }; --- @class PvpRoleButtonWithCountMixin
 function PvpRoleButtonWithCountMixin:Setup(roleInfo)
 	local showDisabled = false;
 	self.Texture:SetAtlas(GetIconForRole(roleInfo.role, showDisabled), TextureKitConstants.IgnoreAtlasSize);
@@ -132,7 +132,7 @@ function PvpRoleButtonWithCountMixin:Setup(roleInfo)
 	self:Show(); 		
 end
 
-PvpRolelessButtonMixin = { };--- @class PvpRolelessButtonMixin
+PvpRolelessButtonMixin = { }; --- @class PvpRolelessButtonMixin
 function PvpRolelessButtonMixin:OnLoad()
 	self.Texture:SetAtlas("UI-LFG-RoleIcon-Generic", TextureKitConstants.IgnoreAtlasSize);
 	self.StatusIcon:SetAtlas(READY_CHECK_NOT_READY_TEXTURE, TextureKitConstants.IgnoreAtlasSize);

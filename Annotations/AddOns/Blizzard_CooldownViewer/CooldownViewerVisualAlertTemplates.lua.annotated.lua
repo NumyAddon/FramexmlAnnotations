@@ -4,7 +4,7 @@ CDMVIS_ALERT_COLOR_RED = CreateColorFromRGBHexString("CA1A1A");
 CDMVIS_ALERT_COLOR_GREEN = CreateColorFromRGBHexString("4DAF63");
 CDMVIS_ALERT_COLOR_BLUE = CreateColorFromRGBHexString("3F6EC7");
 
-CDMVISBaseMixin = CreateFromMixins(CooldownViewerVisualAlertMixin);--- @class CDMVISBaseMixin : CooldownViewerVisualAlertMixin
+CDMVISBaseMixin = CreateFromMixins(CooldownViewerVisualAlertMixin); --- @class CDMVISBaseMixin : CooldownViewerVisualAlertMixin
 
 function CDMVISBaseMixin:CDMVISBase_OnLoad()
 	self:ApplyVertexColor();
@@ -40,7 +40,7 @@ function CDMVISBaseMixin:CDMVISBase_OnUpdate(elapsed)
 	end
 end
 
-CDMVISMarchingAntsBaseMixin = {};--- @class CDMVISMarchingAntsBaseMixin
+CDMVISMarchingAntsBaseMixin = {}; --- @class CDMVISMarchingAntsBaseMixin
 
 function CDMVISMarchingAntsBaseMixin:GetVertexColoredRegions()
 	return self.Flipbook;
@@ -52,7 +52,7 @@ function CDMVISMarchingAntsBaseMixin:GetAnchors(target)
 	return topLeft, bottomRight;
 end
 
-CDMVISFlashBaseMixin = {};--- @class CDMVISFlashBaseMixin
+CDMVISFlashBaseMixin = {}; --- @class CDMVISFlashBaseMixin
 
 function CDMVISFlashBaseMixin:GetVertexColoredRegions()
 	return self.Glow;

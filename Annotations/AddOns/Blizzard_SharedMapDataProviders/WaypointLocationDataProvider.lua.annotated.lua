@@ -1,4 +1,4 @@
-WaypointLocationDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class WaypointLocationDataProviderMixin : MapCanvasDataProviderMixin
+WaypointLocationDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class WaypointLocationDataProviderMixin : MapCanvasDataProviderMixin
 
 function WaypointLocationDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -108,7 +108,7 @@ function WaypointLocationDataProviderMixin:CanPlacePin()
 	return not worldMapTrackingPinDisabled and (self.toggleActive or IsControlKeyDown());
 end
 
-WaypointLocationPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class WaypointLocationPinMixin : MapCanvasPinMixin
+WaypointLocationPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class WaypointLocationPinMixin : MapCanvasPinMixin
 
 function WaypointLocationPinMixin:OnLoad()
 	self:SetScalingLimits(1, 1.0, 1.2);

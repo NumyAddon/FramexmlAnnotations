@@ -9,7 +9,7 @@ local settings = {
 --! this is a stripped down version of Monthly Activities Objective Tracker
 --! still needs: open to initiative frame, fan fare, and initiatve complete turn in animation etc.
 
-InitiativeTasksObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings);--- @class InitiativeTasksObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+InitiativeTasksObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings); --- @class InitiativeTasksObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 
 function InitiativeTasksObjectiveTrackerMixin:OnEvent(event, ...)
 	if event == "INITIATIVE_TASKS_TRACKED_UPDATED" or event == "INITIATIVE_TASKS_TRACKED_LIST_CHANGED" then

@@ -4,7 +4,7 @@ local DifficultyColors = {
 	[Enum.TradeskillRelativeDifficulty.Easy] = EASY_DIFFICULTY_COLOR,
 };
 
-ProfessionsRecipeListMixin = CreateFromMixins(CallbackRegistryMixin);--- @class ProfessionsRecipeListMixin : CallbackRegistryMixin
+ProfessionsRecipeListMixin = CreateFromMixins(CallbackRegistryMixin); --- @class ProfessionsRecipeListMixin : CallbackRegistryMixin
 ProfessionsRecipeListMixin:GenerateCallbackEvents(
 {
 	"OnRecipeSelected",
@@ -173,7 +173,7 @@ function ProfessionsRecipeListMixin:ClearSelectedRecipe()
 	self.previousRecipeID = nil;
 end
 
-ProfessionsRecipeListCategoryMixin = {};--- @class ProfessionsRecipeListCategoryMixin
+ProfessionsRecipeListCategoryMixin = {}; --- @class ProfessionsRecipeListCategoryMixin
 
 function ProfessionsRecipeListCategoryMixin:OnEnter()
 	self.Label:SetFontObject(GameFontHighlight_NoShadow);
@@ -217,7 +217,7 @@ function ProfessionsRecipeListCategoryMixin:SetCollapseState(collapsed)
 	self.CollapseIconAlphaAdd:SetAtlas(atlas, TextureKitConstants.UseAtlasSize);
 end
 
-ProfessionsRecipeListRecipeMixin = {};--- @class ProfessionsRecipeListRecipeMixin
+ProfessionsRecipeListRecipeMixin = {}; --- @class ProfessionsRecipeListRecipeMixin
 
 function ProfessionsRecipeListRecipeMixin:OnLoad()
 	local function OnLeave()

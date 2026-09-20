@@ -194,7 +194,7 @@ function TalentFrame_UpdateSpecInfoCache(cache, inspect, pet, talentGroup)
 	end
 end
 
-PvpTalentSlotMixin = {};--- @class PvpTalentSlotMixin
+PvpTalentSlotMixin = {}; --- @class PvpTalentSlotMixin
 
 local SLOT_NEW_STATE_OFF = 1;
 local SLOT_NEW_STATE_SHOW_IF_ENABLED = 2;

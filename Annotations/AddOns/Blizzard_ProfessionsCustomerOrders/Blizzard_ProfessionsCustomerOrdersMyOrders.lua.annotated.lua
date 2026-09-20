@@ -1,5 +1,5 @@
 
-ProfessionsCustomerOrderListElementMixin = CreateFromMixins(TableBuilderRowMixin);--- @class ProfessionsCustomerOrderListElementMixin : TableBuilderRowMixin
+ProfessionsCustomerOrderListElementMixin = CreateFromMixins(TableBuilderRowMixin); --- @class ProfessionsCustomerOrderListElementMixin : TableBuilderRowMixin
 
 function ProfessionsCustomerOrderListElementMixin:OnLineEnter()
 	self.HighlightTexture:Show();
@@ -56,7 +56,7 @@ function ProfessionsCustomerOrderListElementMixin:Init(elementData)
 end
 
 
-ProfessionsCustomerOrdersMyOrdersMixin = {};--- @class ProfessionsCustomerOrdersMyOrdersMixin
+ProfessionsCustomerOrdersMyOrdersMixin = {}; --- @class ProfessionsCustomerOrdersMyOrdersMixin
 
 local myOrdersPageEvents =
 {

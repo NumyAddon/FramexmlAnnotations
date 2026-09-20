@@ -1,4 +1,4 @@
-HousingPhotoSharingBrowserMixin = {}--- @class HousingPhotoSharingBrowserMixin
+HousingPhotoSharingBrowserMixin = {} --- @class HousingPhotoSharingBrowserMixin
 
 function HousingPhotoSharingBrowserMixin:SetInitialLoading(initialLoading)
 	self.initialLoading = initialLoading;
@@ -38,7 +38,7 @@ function HousingPhotoSharingBrowserMixin:OnEvent(evt, callbackUrl, ...)
 	end
 end	
 
-HousingPhotoSharingBrowserPopupMixin = {}--- @class HousingPhotoSharingBrowserPopupMixin
+HousingPhotoSharingBrowserPopupMixin = {} --- @class HousingPhotoSharingBrowserPopupMixin
 
 function HousingPhotoSharingBrowserPopupMixin:SetInitialLoading(initialLoading)
 	self.initialLoading = initialLoading;

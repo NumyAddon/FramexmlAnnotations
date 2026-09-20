@@ -8,7 +8,7 @@ local barAtlas = "UI-HUD-ExperienceBar-Fill-ArtifactPower";
 local gainFlareAtlas = "UI-HUD-ExperienceBar-Flare-ArtifactPower-2x-Flipbook";
 local levelUpAtlas = "UI-HUD-ExperienceBar-Fill-ArtifactPower-2x-Flipbook";
 
-HouseFavorBarMixin = {};--- @class HouseFavorBarMixin
+HouseFavorBarMixin = {}; --- @class HouseFavorBarMixin
 
 function HouseFavorBarMixin:Update()
 	local current, minBar, maxBar, level = 0, 0, 1, 1;

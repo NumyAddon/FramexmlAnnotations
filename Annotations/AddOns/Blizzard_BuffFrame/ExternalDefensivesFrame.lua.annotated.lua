@@ -1,7 +1,7 @@
 local externalDefensiveTrackerEnabledCVar = "externalDefensivesEnabled";
 CVarCallbackRegistry:SetCVarCachable(externalDefensiveTrackerEnabledCVar);
 
-ExternalDefensivesFrameMixin = CreateFromMixins(BaseAuraFrameMixin);--- @class ExternalDefensivesFrameMixin : BaseAuraFrameMixin
+ExternalDefensivesFrameMixin = CreateFromMixins(BaseAuraFrameMixin); --- @class ExternalDefensivesFrameMixin : BaseAuraFrameMixin
 
 function ExternalDefensivesFrameMixin:ExternalDefensives_OnLoad()
 	CVarCallbackRegistry:RegisterCallback(externalDefensiveTrackerEnabledCVar, self.OnExternalDefensivesEnabledCVarChanged, self);

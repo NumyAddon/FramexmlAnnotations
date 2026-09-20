@@ -2295,7 +2295,7 @@ function ChatConfigFrame_ReplaceChatConfigLeftTooltips(disabled)
 	end
 end
 
-ChatWindowTabMixin = {};--- @class ChatWindowTabMixin
+ChatWindowTabMixin = {}; --- @class ChatWindowTabMixin
 
 function ChatWindowTabMixin:OnClick()
 	self:GetParent():UpdateSelection(self:GetID());
@@ -2317,7 +2317,7 @@ function ChatWindowTabMixin:UpdateWidth()
 	PanelTemplates_TabResize(self, 0, nil, maxWidth, maxWidth, self.Text:GetUnboundedStringWidth());
 end
 
-ChatConfigFrameTabManagerMixin = {};--- @class ChatConfigFrameTabManagerMixin
+ChatConfigFrameTabManagerMixin = {}; --- @class ChatConfigFrameTabManagerMixin
 
 local CHAT_TAB_MANAGER_SPACE = 24;
 
@@ -2413,7 +2413,7 @@ function ChatConfigFrameTabManagerMixin:CalculateCurrentWidth()
 	self.currentWidth = currentWidth;
 end
 
-ChatConfigWideCheckboxManagerMixin = {};--- @class ChatConfigWideCheckboxManagerMixin
+ChatConfigWideCheckboxManagerMixin = {}; --- @class ChatConfigWideCheckboxManagerMixin
 
 function ChatConfigWideCheckboxManagerMixin:OnUpdate(dt)
 	if self.movingIndex > #CHAT_CONFIG_CHANNEL_LIST then
@@ -2501,7 +2501,7 @@ function ChatConfigWideCheckboxManagerMixin:GetMovingEntry()
 	return nil;
 end
 
-ChatConfigWideCheckboxMixin = {};--- @class ChatConfigWideCheckboxMixin
+ChatConfigWideCheckboxMixin = {}; --- @class ChatConfigWideCheckboxMixin
 
 ChatConfigWideCheckboxState = {
 	Normal = 1,
@@ -2568,7 +2568,7 @@ function ChatConfigWideCheckboxMixin:LeaveChannel()
 	ChatConfigChannelSettings_UpdateCheckboxes();
 end
 
-TextToSpeechCharacterSpecificButtonMixin = {};--- @class TextToSpeechCharacterSpecificButtonMixin
+TextToSpeechCharacterSpecificButtonMixin = {}; --- @class TextToSpeechCharacterSpecificButtonMixin
 
 function TextToSpeechCharacterSpecificButtonMixin:OnLoad()
 	local descriptionText = HIGHLIGHT_FONT_COLOR:WrapTextInColorCode(CHARACTER_SPECIFIC_SETTINGS);

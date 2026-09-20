@@ -4,7 +4,7 @@ local rewardTextureKitRegions = {
 	["IconBorder"] = "UI-%s-RewardFrame",
 };
 
-MajorFactionRenownRewardMixin = {};--- @class MajorFactionRenownRewardMixin
+MajorFactionRenownRewardMixin = {}; --- @class MajorFactionRenownRewardMixin
 
 function MajorFactionRenownRewardMixin:SetReward(rewardInfo, unlocked, textureKit)
 	self.Check:SetShown(unlocked);

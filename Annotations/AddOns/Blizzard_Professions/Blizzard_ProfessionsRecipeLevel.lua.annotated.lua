@@ -1,4 +1,4 @@
-ProfessionsRecipeLevelBarMixin = {};--- @class ProfessionsRecipeLevelBarMixin
+ProfessionsRecipeLevelBarMixin = {}; --- @class ProfessionsRecipeLevelBarMixin
 
 function ProfessionsRecipeLevelBarMixin:OnLoad()
 	self:SetStatusBarColor(TRADESKILL_EXPERIENCE_COLOR:GetRGB());
@@ -48,7 +48,7 @@ function ProfessionsRecipeLevelBarMixin:IsMaxLevel()
 	return self.currentExperience == nil;
 end
 
-ProfessionsRecipeLevelDropdownMixin = {};--- @class ProfessionsRecipeLevelDropdownMixin
+ProfessionsRecipeLevelDropdownMixin = {}; --- @class ProfessionsRecipeLevelDropdownMixin
 
 function ProfessionsRecipeLevelDropdownMixin:OnLoad()
 	self:SetWidth(110);

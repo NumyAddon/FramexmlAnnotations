@@ -2,7 +2,7 @@ PHOTO_SHARING_TAB_LIST = {};
 PHOTO_SHARING_TAB_LIST[1] = "PhotoSharingTitleEditBox";
 PHOTO_SHARING_TAB_LIST[2] = "PhotoSharingDescriptionEditBox";
 
-HousingPhotoSharingMixin = {};--- @class HousingPhotoSharingMixin
+HousingPhotoSharingMixin = {}; --- @class HousingPhotoSharingMixin
 
 function HousingPhotoSharingMixin:ResetEditBoxes()
 	self.TitleFrame.PhotoSharingTitleEditBox:SetText("");
@@ -88,7 +88,7 @@ function HousingPhotoSharingMixin:OnEvent(event, ...)
 	end
 end
 
-HousingPhotoSharingSubmitButtonMixin = {};--- @class HousingPhotoSharingSubmitButtonMixin
+HousingPhotoSharingSubmitButtonMixin = {}; --- @class HousingPhotoSharingSubmitButtonMixin
 
 function HousingPhotoSharingSubmitButtonMixin:OnClick()
 	if C_HousingPhotoSharing.IsAuthorized() then
@@ -101,7 +101,7 @@ function HousingPhotoSharingSubmitButtonMixin:OnClick()
 	end
 end
 
-HousingPhotoSharingCancelButtonMixin = {};--- @class HousingPhotoSharingCancelButtonMixin
+HousingPhotoSharingCancelButtonMixin = {}; --- @class HousingPhotoSharingCancelButtonMixin
 
 function HousingPhotoSharingCancelButtonMixin:OnClick()
 	self:GetParent():Hide();

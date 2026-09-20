@@ -1,6 +1,6 @@
 local CONDUIT_PENDING_INSTALL_FONT_COLOR = CreateColor(0.0, 0.8, 1.0);
 
-ConduitListCategoryButtonMixin = {};--- @class ConduitListCategoryButtonMixin
+ConduitListCategoryButtonMixin = {}; --- @class ConduitListCategoryButtonMixin
 
 local function GetConduitIconScale(conduitType)
 	if conduitType == Enum.SoulbindConduitType.Potency then
@@ -71,7 +71,7 @@ function ConduitListCategoryButtonMixin:SetCollapsed(collapsed)
 	self:SetCollapsedVisuals(collapsed);
 end
 
-ConduitListConduitButtonMixin = {};--- @class ConduitListConduitButtonMixin
+ConduitListConduitButtonMixin = {}; --- @class ConduitListConduitButtonMixin
 
 ConduitListConduitButtonMixin.State =
 {
@@ -341,7 +341,7 @@ function ConduitListConduitButtonMixin:SetConduitPulsePlaying(playing)
 	self.IconPulse.Anim:SetPlaying(playing);
 end
 
-ConduitListSectionMixin = {}--- @class ConduitListSectionMixin
+ConduitListSectionMixin = {} --- @class ConduitListSectionMixin
 
 function ConduitListSectionMixin:OnLoad()
 	self.CategoryButton:SetScript("OnClick", function(button, buttonName, down)
@@ -479,7 +479,7 @@ function ConduitListSectionMixin:SetCollapsed(collapsed)
 	self:Layout();
 end
 
-ConduitListMixin = {};--- @class ConduitListMixin
+ConduitListMixin = {}; --- @class ConduitListMixin
 
 local ConduitListEvents =
 {

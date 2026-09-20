@@ -1,4 +1,4 @@
-AdventuresRewardsScreenMixin = {};--- @class AdventuresRewardsScreenMixin
+AdventuresRewardsScreenMixin = {}; --- @class AdventuresRewardsScreenMixin
 
 local followerXPTable = {};
 
@@ -149,7 +149,7 @@ end
 --	Adventures Rewards Screen Continue Button Mixin	
 ---------------------------------------------------
 
-AdventuresRewardsScreenContinueButtonMixin = {}--- @class AdventuresRewardsScreenContinueButtonMixin
+AdventuresRewardsScreenContinueButtonMixin = {} --- @class AdventuresRewardsScreenContinueButtonMixin
 
 function AdventuresRewardsScreenContinueButtonMixin:OnShow()
 	self.FlashAnim:Play();
@@ -164,7 +164,7 @@ end
 --	Adventures Rewards Follower Mixin	
 ---------------------------------------------------
 
-AdventuresRewardsFollowerMixin = {}--- @class AdventuresRewardsFollowerMixin
+AdventuresRewardsFollowerMixin = {} --- @class AdventuresRewardsFollowerMixin
 
 local ExpGainAnimDuration = 1.7;
 

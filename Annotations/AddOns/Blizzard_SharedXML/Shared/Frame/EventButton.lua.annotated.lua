@@ -1,5 +1,5 @@
 
-EventButtonMixin = CreateFromMixins(CallbackRegistryMixin);--- @class EventButtonMixin : CallbackRegistryMixin
+EventButtonMixin = CreateFromMixins(CallbackRegistryMixin); --- @class EventButtonMixin : CallbackRegistryMixin
 
 EventButtonMixin:GenerateCallbackEvents(
 	{

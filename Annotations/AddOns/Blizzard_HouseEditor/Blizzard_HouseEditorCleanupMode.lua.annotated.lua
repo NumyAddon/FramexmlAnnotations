@@ -4,7 +4,7 @@ local CleanupModeShownEvents = {
 	"HOUSING_DECOR_REMOVED",
 };
 
-HouseEditorCleanupModeMixin = CreateFromMixins(BaseHouseEditorModeMixin);--- @class HouseEditorCleanupModeMixin : BaseHouseEditorModeMixin
+HouseEditorCleanupModeMixin = CreateFromMixins(BaseHouseEditorModeMixin); --- @class HouseEditorCleanupModeMixin : BaseHouseEditorModeMixin
 
 function HouseEditorCleanupModeMixin:OnEvent(event, ...)
 	if event == "HOUSING_CLEANUP_MODE_TARGET_SELECTED" then

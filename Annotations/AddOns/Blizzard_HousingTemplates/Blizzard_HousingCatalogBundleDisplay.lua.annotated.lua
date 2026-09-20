@@ -1,5 +1,5 @@
 
-HousingCatalogBundleDisplayMixin = {};--- @class HousingCatalogBundleDisplayMixin
+HousingCatalogBundleDisplayMixin = {}; --- @class HousingCatalogBundleDisplayMixin
 
 function HousingCatalogBundleDisplayMixin:OnLoad()
 	-- In the HousingCatalog bundles never display as selected.

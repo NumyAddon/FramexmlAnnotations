@@ -1,4 +1,4 @@
-PingableTypeMixin = {--- @class PingableTypeMixin
+PingableTypeMixin = { --- @class PingableTypeMixin
     IsPingable = true;
 };
 
@@ -12,7 +12,7 @@ function PingableTypeMixin:GetTargetPingGUID()
     return nil;
 end
 
-PingableType_UnitFrameMixin = CreateFromMixins(PingableTypeMixin);--- @class PingableType_UnitFrameMixin : PingableTypeMixin
+PingableType_UnitFrameMixin = CreateFromMixins(PingableTypeMixin); --- @class PingableType_UnitFrameMixin : PingableTypeMixin
 
 function PingableType_UnitFrameMixin:GetContextualPingType()
     return PingUtil:GetContextualPingTypeForUnit(self:GetTargetPingGUID());

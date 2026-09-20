@@ -17,7 +17,7 @@ local settings = {
 	},
 };
 
-QuestObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings, AutoQuestPopupTrackerMixin);--- @class QuestObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings, AutoQuestPopupTrackerMixin
+QuestObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings, AutoQuestPopupTrackerMixin); --- @class QuestObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings, AutoQuestPopupTrackerMixin
 
 function QuestObjectiveTrackerMixin:InitModule()
 	self:AddTag("quest");
@@ -380,7 +380,7 @@ end
 -- ***** QUEST LINE
 -- *****************************************************************************************************
 
-QuestObjectiveLineMixin = CreateFromMixins(ObjectiveTrackerAnimLineMixin);--- @class QuestObjectiveLineMixin : ObjectiveTrackerAnimLineMixin
+QuestObjectiveLineMixin = CreateFromMixins(ObjectiveTrackerAnimLineMixin); --- @class QuestObjectiveLineMixin : ObjectiveTrackerAnimLineMixin
 
 -- overrides base
 function QuestObjectiveLineMixin:OnGlowAnimFinished()

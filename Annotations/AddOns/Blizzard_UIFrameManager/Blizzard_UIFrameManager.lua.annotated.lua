@@ -1,4 +1,4 @@
-UIFrameManagerMixin = {};--- @class UIFrameManagerMixin
+UIFrameManagerMixin = {}; --- @class UIFrameManagerMixin
 
 function UIFrameManagerMixin:OnLoad()
 	self.registeredFrames = {};
@@ -43,7 +43,7 @@ function UIFrameManagerMixin:RegisterFrameForFrameType(frame, frameType)
 	frame:UpdateFrameState(C_FrameManager.GetFrameVisibilityState(frameType));
 end
 
-UIFrameManager_ManagedFrameMixin= {};--- @class UIFrameManager_ManagedFrameMixin
+UIFrameManager_ManagedFrameMixin= {}; --- @class UIFrameManager_ManagedFrameMixin
 
 function UIFrameManager_ManagedFrameMixin:OnLoad()
 	UIFrameManager:RegisterFrameForFrameType(self, self.frameType);

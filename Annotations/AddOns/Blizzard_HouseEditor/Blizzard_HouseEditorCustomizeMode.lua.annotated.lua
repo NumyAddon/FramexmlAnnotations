@@ -9,7 +9,7 @@ local CustomizeModeShownEvents = {
 	"UPDATE_BINDINGS",
 };
 
-HouseEditorCustomizeModeMixin = CreateFromMixins(BaseHouseEditorModeMixin);--- @class HouseEditorCustomizeModeMixin : BaseHouseEditorModeMixin
+HouseEditorCustomizeModeMixin = CreateFromMixins(BaseHouseEditorModeMixin); --- @class HouseEditorCustomizeModeMixin : BaseHouseEditorModeMixin
 
 function HouseEditorCustomizeModeMixin:OnEvent(event, ...)
 	if event == "HOUSING_CUSTOMIZE_MODE_SELECTED_TARGET_CHANGED" then

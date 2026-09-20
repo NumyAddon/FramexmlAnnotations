@@ -1,5 +1,5 @@
 
-HouseFinderWatcherMixin = {};--- @class HouseFinderWatcherMixin
+HouseFinderWatcherMixin = {}; --- @class HouseFinderWatcherMixin
 
 local HOUSE_FINDER_WATCHER_EVENTS = {
 	"NEIGHBORHOOD_LIST_UPDATED",
@@ -72,7 +72,7 @@ function HouseFinderWatcherMixin:OnPlotInfoFrameVisibilityUpdated(plotInfoVisibl
 	end
 end
 
-HouseFinderMapTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin);--- @class HouseFinderMapTutorialMixin : HelpTipStateMachineBasedTutorialMixin
+HouseFinderMapTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin); --- @class HouseFinderMapTutorialMixin : HelpTipStateMachineBasedTutorialMixin
 
 function HouseFinderMapTutorialMixin:Init()
 	self.helpTipInfos = HousingTutorialData.HouseFinderTutorial.MapHelpTipInfos;

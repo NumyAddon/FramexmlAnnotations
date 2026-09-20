@@ -335,7 +335,7 @@ end
 ---------------------------------------------------------------------------------
 -- BFA Mission Page
 ---------------------------------------------------------------------------------
-BFAFollowerMissionPageMixin = { }--- @class BFAFollowerMissionPageMixin
+BFAFollowerMissionPageMixin = { } --- @class BFAFollowerMissionPageMixin
 
 function BFAFollowerMissionPageMixin:SetCounters(followers, enemies, missionID)
 	OrderHallFollowerMissionPageMixin.SetCounters(self, followers, enemies, missionID);

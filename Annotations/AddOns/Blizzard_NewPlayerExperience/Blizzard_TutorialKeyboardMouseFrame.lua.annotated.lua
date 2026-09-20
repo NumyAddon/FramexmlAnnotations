@@ -5,7 +5,7 @@ end
 -- ------------------------------------------------------------------------------------------------------------
 
 
-TutorialKeyboardMouseFrameMixin = {};--- @class TutorialKeyboardMouseFrameMixin
+TutorialKeyboardMouseFrameMixin = {}; --- @class TutorialKeyboardMouseFrameMixin
 
 function TutorialKeyboardMouseFrameMixin:OnLoad()
 	NineSliceUtil.ApplyUniqueCornersLayout(self, "NewPlayerTutorial");
@@ -87,7 +87,7 @@ function TutorialKeyboardMouseFrameMixin:_AnimateOut()
 end
 
 -- ------------------------------------------------------------------------------------------------------------
-TutorialWalkMixin = CreateFromMixins(TutorialMainFrameMixin);--- @class TutorialWalkMixin : TutorialMainFrameMixin
+TutorialWalkMixin = CreateFromMixins(TutorialMainFrameMixin); --- @class TutorialWalkMixin : TutorialMainFrameMixin
 function TutorialWalkMixin:OnLoad()
 	TutorialMainFrameMixin.OnLoad(self);
 end

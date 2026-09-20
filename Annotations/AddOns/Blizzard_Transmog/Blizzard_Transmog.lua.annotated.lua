@@ -74,7 +74,7 @@ StaticPopupDialogs["CONFIRM_TRANSMOG_USABLE_DISCOUNT"] = {
 	hideOnEscape = 1
 };
 
-TransmogFrameMixin = {--- @class TransmogFrameMixin
+TransmogFrameMixin = { --- @class TransmogFrameMixin
 	DYNAMIC_EVENTS = {
 		"TRANSMOG_OUTFITS_CHANGED",
 		"TRANSMOG_DISPLAYED_OUTFIT_CHANGED",
@@ -314,7 +314,7 @@ function TransmogFrameMixin:GetViewedOutfitIcons()
 	return self.CharacterPreview:GetCurrentTransmogIcons();
 end
 
-TransmogOutfitCollectionMixin = {--- @class TransmogOutfitCollectionMixin
+TransmogOutfitCollectionMixin = { --- @class TransmogOutfitCollectionMixin
 	DYNAMIC_EVENTS = {
 		"VIEWED_TRANSMOG_OUTFIT_CHANGED",
 		"VIEWED_TRANSMOG_OUTFIT_SLOT_SAVE_SUCCESS"
@@ -611,7 +611,7 @@ function TransmogOutfitCollectionMixin:SetSaveOutfitDisabledTooltip(tooltip)
 end
 
 
-ShowEquippedGearSpellFrameMixin = {};--- @class ShowEquippedGearSpellFrameMixin
+ShowEquippedGearSpellFrameMixin = {}; --- @class ShowEquippedGearSpellFrameMixin
 
 function ShowEquippedGearSpellFrameMixin:OnLoad()
 	UIPanelSpellButtonFrameMixin.OnLoad(self);
@@ -648,7 +648,7 @@ function ShowEquippedGearSpellFrameMixin:OnIconDragStart()
 end
 
 
-TransmogOutfitPopupMixin = {};--- @class TransmogOutfitPopupMixin
+TransmogOutfitPopupMixin = {}; --- @class TransmogOutfitPopupMixin
 
 -- Overridden.
 function TransmogOutfitPopupMixin:OnShow()
@@ -727,7 +727,7 @@ function TransmogOutfitPopupMixin:OkayButton_OnClick()
 end
 
 
-TransmogCharacterMixin = {--- @class TransmogCharacterMixin
+TransmogCharacterMixin = { --- @class TransmogCharacterMixin
 	DYNAMIC_EVENTS = {
 		"VIEWED_TRANSMOG_OUTFIT_SLOT_SAVE_SUCCESS",
 		"VIEWED_TRANSMOG_OUTFIT_CHANGED",
@@ -1232,7 +1232,7 @@ function TransmogCharacterMixin:GetItemTransmogInfoList()
 end
 
 
-TransmogWardrobeMixin = {--- @class TransmogWardrobeMixin
+TransmogWardrobeMixin = { --- @class TransmogWardrobeMixin
 	HELPTIP_INFO = {
 		[Enum.FrameTutorialAccount.TransmogSets] =
 		{
@@ -1382,7 +1382,7 @@ function TransmogWardrobeMixin:UpdateSlot(slotData, forceRefresh)
 end
 
 
-TransmogWardrobeItemsMixin = {--- @class TransmogWardrobeItemsMixin
+TransmogWardrobeItemsMixin = { --- @class TransmogWardrobeItemsMixin
 	DYNAMIC_EVENTS = {
 		"TRANSMOG_SEARCH_UPDATED",
 		"TRANSMOG_COLLECTION_UPDATED",
@@ -2345,7 +2345,7 @@ function TransmogWardrobeItemsMixin:GetSlotFrameCallback(slot, type)
 end
 
 
-TransmogWardrobeSetsMixin = {--- @class TransmogWardrobeSetsMixin
+TransmogWardrobeSetsMixin = { --- @class TransmogWardrobeSetsMixin
 	DYNAMIC_EVENTS = {
 		"TRANSMOG_SEARCH_UPDATED",
 		"TRANSMOG_COLLECTION_UPDATED",
@@ -2525,7 +2525,7 @@ function TransmogWardrobeSetsMixin:GetCurrentTransmogInfoCallback()
 end
 
 
-TransmogWardrobeCustomSetsMixin = {--- @class TransmogWardrobeCustomSetsMixin
+TransmogWardrobeCustomSetsMixin = { --- @class TransmogWardrobeCustomSetsMixin
 	DYNAMIC_EVENTS = {
 		"TRANSMOG_CUSTOM_SETS_CHANGED",
 		"UI_SCALE_CHANGED",
@@ -2742,7 +2742,7 @@ function TransmogWardrobeCustomSetsMixin:GetItemTransmogInfoListCallback()
 end
 
 
-TransmogWardrobeSituationsMixin = {--- @class TransmogWardrobeSituationsMixin
+TransmogWardrobeSituationsMixin = { --- @class TransmogWardrobeSituationsMixin
 	DYNAMIC_EVENTS = {
 		"VIEWED_TRANSMOG_OUTFIT_SITUATIONS_CHANGED"
 	};

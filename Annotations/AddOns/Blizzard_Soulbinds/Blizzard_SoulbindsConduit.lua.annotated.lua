@@ -1,4 +1,4 @@
-SoulbindConduitMixin = CreateFromMixins(SpellMixin)--- @class SoulbindConduitMixin : SpellMixin
+SoulbindConduitMixin = CreateFromMixins(SpellMixin) --- @class SoulbindConduitMixin : SpellMixin
 
 function SoulbindConduitMixin:Init(conduitID)
 	self.conduitID = conduitID;

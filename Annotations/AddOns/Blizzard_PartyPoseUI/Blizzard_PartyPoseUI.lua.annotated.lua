@@ -1,4 +1,4 @@
-PartyPoseRewardsMixin = { };--- @class PartyPoseRewardsMixin
+PartyPoseRewardsMixin = { }; --- @class PartyPoseRewardsMixin
 
 local IMPACT_MODEL_SCENE_INFO = StaticModelInfo.CreateModelSceneEntry(214, 1983536);	-- 8FX_AZERITE_GENERIC_IMPACTHIGH_CHEST
 local HOLD_MODEL_SCENE_INFO	= StaticModelInfo.CreateModelSceneEntry(234, 1983980);		-- 8FX_AZERITE_EMPOWER_STATECHEST
@@ -136,7 +136,7 @@ function PartyPoseRewardsMixin:CheckForIndefinitePause()
 	end
 end
 
-PartyPoseMixin = { };--- @class PartyPoseMixin
+PartyPoseMixin = { }; --- @class PartyPoseMixin
 
 function PartyPoseMixin:HideAzeriteGlowModelScenes()
 	self.RewardAnimations.ImpactModelScene:Hide();

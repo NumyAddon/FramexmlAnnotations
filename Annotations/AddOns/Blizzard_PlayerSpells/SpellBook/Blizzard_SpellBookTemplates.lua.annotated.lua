@@ -1,4 +1,4 @@
-SpellBookHeaderMixin = {};--- @class SpellBookHeaderMixin
+SpellBookHeaderMixin = {}; --- @class SpellBookHeaderMixin
 
 function SpellBookHeaderMixin:Init(elementData)
 	if elementData.text then
@@ -6,7 +6,7 @@ function SpellBookHeaderMixin:Init(elementData)
 	end
 end
 
-SpellBookCategoryTabMixin = {};--- @class SpellBookCategoryTabMixin
+SpellBookCategoryTabMixin = {}; --- @class SpellBookCategoryTabMixin
 
 function SpellBookCategoryTabMixin:EnableNewSpellsGlow()
 	if self:IsShown() then

@@ -64,7 +64,7 @@ local function IsSavedWindowDataValid(savedWindowData)
 	return true;
 end
 
-DamageMeterMixin = {};--- @class DamageMeterMixin
+DamageMeterMixin = {}; --- @class DamageMeterMixin
 
 function DamageMeterMixin:OnLoad()
 	EditModeDamageMeterSystemMixin.OnSystemLoad(self);

@@ -4,7 +4,7 @@ local SEE_YOU_LATER_BUNDLE_PRODUCT_ID = 488;
 
 --------------------------------------------------
 -- SMALL STORE CARD MIXIN
-SmallStoreCardMixin = CreateFromMixins(StoreCardMixin);--- @class SmallStoreCardMixin : StoreCardMixin
+SmallStoreCardMixin = CreateFromMixins(StoreCardMixin); --- @class SmallStoreCardMixin : StoreCardMixin
 
 function SmallStoreCardMixin:ShowDiscount(discountText)
 	StoreCardMixin.ShowDiscount(self, discountText);
@@ -114,7 +114,7 @@ end
 
 --------------------------------------------------
 -- MEDIUM STORE CARD MIXIN
-MediumStoreCardMixin = CreateFromMixins(SmallStoreCardMixin);--- @class MediumStoreCardMixin : SmallStoreCardMixin
+MediumStoreCardMixin = CreateFromMixins(SmallStoreCardMixin); --- @class MediumStoreCardMixin : SmallStoreCardMixin
 
 function MediumStoreCardMixin:ShowDiscount(discountText)
 	StoreCardMixin.ShowDiscount(self, discountText);
@@ -189,7 +189,7 @@ end
 
 --------------------------------------------------
 -- MEDIUM STORE CARD WITH A BUY BUTTON MIXIN 
-MediumStoreCardWithBuyButtonMixin = CreateFromMixins(MediumStoreCardMixin, ProductCardBuyButtonMixin);--- @class MediumStoreCardWithBuyButtonMixin : MediumStoreCardMixin, ProductCardBuyButtonMixin
+MediumStoreCardWithBuyButtonMixin = CreateFromMixins(MediumStoreCardMixin, ProductCardBuyButtonMixin); --- @class MediumStoreCardWithBuyButtonMixin : MediumStoreCardMixin, ProductCardBuyButtonMixin
 
 function MediumStoreCardWithBuyButtonMixin:SetDefaultCardTexture()
 	self.Card:SetAtlas("store-card-quarter", true);

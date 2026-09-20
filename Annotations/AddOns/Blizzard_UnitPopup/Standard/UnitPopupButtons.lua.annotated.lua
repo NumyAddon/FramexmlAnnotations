@@ -19,7 +19,7 @@ function UnitPopupAchievementButtonMixin:OnClick(contextData)
 	InspectAchievements(contextData.unit);
 end
 
-UnitPopupBnetAddFavoriteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupBnetAddFavoriteButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupBnetAddFavoriteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupBnetAddFavoriteButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupBnetAddFavoriteButtonMixin:GetText(contextData)
 	return ADD_FAVORITE_STATUS; 
@@ -36,7 +36,7 @@ function UnitPopupBnetAddFavoriteButtonMixin:CanShow(contextData)
 	return contextData.friendsList and not UnitPopupSharedUtil.IsPlayerFavorite(contextData);
 end 
 
-UnitPopupBnetRemoveFavoriteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupBnetRemoveFavoriteButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupBnetRemoveFavoriteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupBnetRemoveFavoriteButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupBnetRemoveFavoriteButtonMixin:GetText(contextData)
 	return REMOVE_FAVORITE_STATUS; 
@@ -53,7 +53,7 @@ function UnitPopupBnetRemoveFavoriteButtonMixin:CanShow(contextData)
 	return contextData.friendsList and UnitPopupSharedUtil.IsPlayerFavorite(contextData);
 end 
 
-UnitPopupDungeonDifficulty3ButtonMixin = CreateFromMixins(UnitPopupDungeonDifficulty1ButtonMixin);--- @class UnitPopupDungeonDifficulty3ButtonMixin : UnitPopupDungeonDifficulty1ButtonMixin
+UnitPopupDungeonDifficulty3ButtonMixin = CreateFromMixins(UnitPopupDungeonDifficulty1ButtonMixin); --- @class UnitPopupDungeonDifficulty3ButtonMixin : UnitPopupDungeonDifficulty1ButtonMixin
 
 function UnitPopupDungeonDifficulty3ButtonMixin:GetText(contextData)
 	return PLAYER_DIFFICULTY6; 
@@ -63,7 +63,7 @@ function UnitPopupDungeonDifficulty3ButtonMixin:GetDifficultyID()
 	return 23;
 end 
 
-UnitPopupRafRemoveRecruitButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupRafRemoveRecruitButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupRafRemoveRecruitButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupRafRemoveRecruitButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupRafRemoveRecruitButtonMixin:GetText(contextData)
 	return RAF_REMOVE_RECRUIT; 
@@ -78,7 +78,7 @@ function UnitPopupRafRemoveRecruitButtonMixin:OnClick(contextData)
 	StaticPopup_Show("CONFIRM_RAF_REMOVE_RECRUIT", contextData.name, text2, contextData.wowAccountGUID);
 end
 
-UnitPopupGuildSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupGuildSettingButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupGuildSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupGuildSettingButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupGuildSettingButtonMixin:GetText(contextData)
 	return GUILD_CONTROL_BUTTON_TEXT;
@@ -98,7 +98,7 @@ function UnitPopupGuildSettingButtonMixin:CanShow(contextData)
 	return IsGuildLeader();
 end
 
-UnitPopupGuildRecruitmentSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupGuildRecruitmentSettingButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupGuildRecruitmentSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupGuildRecruitmentSettingButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupGuildRecruitmentSettingButtonMixin:GetText(contextData)
 	return GUILD_RECRUITMENT;
@@ -133,7 +133,7 @@ function UnitPopupGuildRecruitmentSettingButtonMixin:CanShow(contextData)
 	return IsGuildLeader() or C_GuildInfo.IsGuildOfficer();
 end
 
-UnitPopupGuildInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupGuildInviteButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupGuildInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupGuildInviteButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupGuildInviteButtonMixin:GetText(contextData)
 	return COMMUNITIES_LIST_DROP_DOWN_INVITE;

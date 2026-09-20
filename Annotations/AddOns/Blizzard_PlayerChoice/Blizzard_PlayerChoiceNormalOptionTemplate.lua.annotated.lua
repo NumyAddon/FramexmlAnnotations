@@ -1,4 +1,4 @@
-PlayerChoiceNormalOptionTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin);--- @class PlayerChoiceNormalOptionTemplateMixin : PlayerChoiceBaseOptionTemplateMixin
+PlayerChoiceNormalOptionTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin); --- @class PlayerChoiceNormalOptionTemplateMixin : PlayerChoiceBaseOptionTemplateMixin
 
 local MIN_OPTION_HEIGHT_DEFAULT = 439;
 local MIN_OPTION_HEIGHT_NO_HEADER = 410;

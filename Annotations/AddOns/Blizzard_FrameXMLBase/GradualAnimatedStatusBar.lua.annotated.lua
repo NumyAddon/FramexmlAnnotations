@@ -1,5 +1,5 @@
 
-GradualAnimatedStatusBarMixin = {};--- @class GradualAnimatedStatusBarMixin
+GradualAnimatedStatusBarMixin = {}; --- @class GradualAnimatedStatusBarMixin
 
 function GradualAnimatedStatusBarMixin:OnLoad()
 	if self:GetStatusBarTexture() then
@@ -403,7 +403,7 @@ function GradualAnimatedStatusBarMixin:OnGainAnimationFinished()
 	self:ClearGainAnimationValues();
 end
 
-GainFlareAnimationMixin = {};--- @class GainFlareAnimationMixin
+GainFlareAnimationMixin = {}; --- @class GainFlareAnimationMixin
 
 function GainFlareAnimationMixin:OnPlay()
 	self:GetParent().GainFlareAnimationTexture:Show();
@@ -415,7 +415,7 @@ function GainFlareAnimationMixin:OnFinished()
 	parent:OnFinishedAnimating();
 end
 
-LevelUpRolloverAnimationMixin = {};--- @class LevelUpRolloverAnimationMixin
+LevelUpRolloverAnimationMixin = {}; --- @class LevelUpRolloverAnimationMixin
 
 function LevelUpRolloverAnimationMixin:OnPlay()
 	self:GetParent().LevelUpTexture:Show();
@@ -428,7 +428,7 @@ function LevelUpRolloverAnimationMixin:OnFinished()
 	parent:OnFinishedAnimating();
 end
 
-LevelUpMaxAnimationMixin = {};--- @class LevelUpMaxAnimationMixin
+LevelUpMaxAnimationMixin = {}; --- @class LevelUpMaxAnimationMixin
 
 function LevelUpMaxAnimationMixin:OnPlay()
 	local parent = self:GetParent();

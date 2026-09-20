@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.TextWithState, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateTextWithState"}, GetTextWithStateVisInfoData);
 
-UIWidgetTemplateTextWithStateMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateTextWithStateMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateTextWithStateMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateTextWithStateMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateTextWithStateMixin:Setup(widgetInfo, widgetContainer)
 	UIWidgetBaseTemplateMixin.Setup(self, widgetInfo, widgetContainer);

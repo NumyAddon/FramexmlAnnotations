@@ -1,5 +1,5 @@
 
-PlayerCastingBarMixin = {};--- @class PlayerCastingBarMixin
+PlayerCastingBarMixin = {}; --- @class PlayerCastingBarMixin
 
 function PlayerCastingBarMixin:OnLoad()
 	local showTradeSkills = true;

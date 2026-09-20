@@ -34,7 +34,7 @@ BAG_FILTER_LABELS = {
 	[Enum.BagSlotFlags.ClassReagents] = BAG_FILTER_REAGENTS,
 };
 
-local BagUpdaterMixin = {};--- @class BagUpdaterMixin
+local BagUpdaterMixin = {}; --- @class BagUpdaterMixin
 
 function BagUpdaterMixin:MarkBagUpdateDirty(bag)
 	if not self.dirtyBags then
@@ -477,7 +477,7 @@ function ContainerFrame_CheckItemButtonForTutorials(itemButton, itemID)
 	return false;
 end
 
-BaseContainerFrameMixin = {};--- @class BaseContainerFrameMixin
+BaseContainerFrameMixin = {}; --- @class BaseContainerFrameMixin
 
 function BaseContainerFrameMixin:GetBagSize()
 	if self.size == nil then
@@ -734,7 +734,7 @@ function ContainerFrame_OnCloseButtonClicked(closeButton)
 	closeButton:GetParent():OnCloseClicked();
 end
 
-ContainerFrameMixin = CreateFromMixins(BaseContainerFrameMixin);--- @class ContainerFrameMixin : BaseContainerFrameMixin
+ContainerFrameMixin = CreateFromMixins(BaseContainerFrameMixin); --- @class ContainerFrameMixin : BaseContainerFrameMixin
 
 function ContainerFrameMixin:OnCloseClicked()
 	CloseBag(self:GetBagID());
@@ -1464,7 +1464,7 @@ function ContainerFrameExtendedItemButton_OnEnter(self)
 	GameTooltip:Show();
 end
 
-ContainerFrameItemButtonMixin = {};--- @class ContainerFrameItemButtonMixin
+ContainerFrameItemButtonMixin = {}; --- @class ContainerFrameItemButtonMixin
 
 function ContainerFrameItemButtonMixin:GetItemContextMatchResult()
 	return ItemButtonUtil.GetItemContextMatchResultForItem(ItemLocation:CreateFromBagAndSlot(self:GetBagID(), self:GetID()));
@@ -1816,7 +1816,7 @@ function ContainerFrameItemButtonMixin:CheckForTutorials(couldHaveTutorial, item
 	return false;
 end
 
-ContainerFramePortraitButtonMixin = {};--- @class ContainerFramePortraitButtonMixin
+ContainerFramePortraitButtonMixin = {}; --- @class ContainerFramePortraitButtonMixin
 
 function ContainerFramePortraitButtonMixin:OnMouseDown()
 	if ContainerFrame_IsBackpack(self:GetID()) then
@@ -2440,7 +2440,7 @@ do
 	end
 end
 
-ContainerFrameTokenWatcherMixin = CreateFromMixins(ContainerFrameMixin);--- @class ContainerFrameTokenWatcherMixin : ContainerFrameMixin
+ContainerFrameTokenWatcherMixin = CreateFromMixins(ContainerFrameMixin); --- @class ContainerFrameTokenWatcherMixin : ContainerFrameMixin
 
 function ContainerFrameTokenWatcherMixin:OnShow()
 	EventRegistry:TriggerEvent("ContainerFrame.OnShowTokenWatcher", self);
@@ -2500,7 +2500,7 @@ function ContainerFrameTokenWatcherMixin:UpdateCurrencyFrames()
 	self.MoneyFrame:Show();
 end
 
-ContainerFrameBackpackMixin = CreateFromMixins(ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack);--- @class ContainerFrameBackpackMixin : ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack
+ContainerFrameBackpackMixin = CreateFromMixins(ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack); --- @class ContainerFrameBackpackMixin : ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack
 
 function ContainerFrameBackpackMixin:IsBackpack()
 	return true;
@@ -2528,7 +2528,7 @@ function ContainerFrameBackpackMixin:UpdateMiscellaneousFrames()
 	self:UpdateAddSlots();
 end
 
-ContainerFrameCombinedBagsMixin = CreateFromMixins(ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack);--- @class ContainerFrameCombinedBagsMixin : ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack
+ContainerFrameCombinedBagsMixin = CreateFromMixins(ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack); --- @class ContainerFrameCombinedBagsMixin : ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack
 
 function ContainerFrameCombinedBagsMixin:OnLoad()
 	ContainerFrame_OnLoad(self);
@@ -2697,7 +2697,7 @@ function ContainerFrameCombinedBagsMixin:OnBagSlotLeave(bagSlot)
 	self:SetItemsMatchingBagHighlighted(bagSlot:GetBagID(), false);
 end
 
-ContainerFrameCurrencyBorderMixin = {};--- @class ContainerFrameCurrencyBorderMixin
+ContainerFrameCurrencyBorderMixin = {}; --- @class ContainerFrameCurrencyBorderMixin
 
 function ContainerFrameCurrencyBorderMixin:OnLoad()
 	self:SetupPiece(self.Left, self.leftEdge);

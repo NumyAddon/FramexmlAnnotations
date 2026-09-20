@@ -11,7 +11,7 @@ local HousingControlsShownEvents = {
 	"HOUSE_INFO_UPDATED",
 };
 
-HousingControlsMixin = {};--- @class HousingControlsMixin
+HousingControlsMixin = {}; --- @class HousingControlsMixin
 
 function HousingControlsMixin:OnLoad()
 	self:UpdateControlVisibility(C_Housing.IsInsideHouseOrPlot());
@@ -72,7 +72,7 @@ function HousingControlsMixin:UpdateButtons()
 	end
 end
 
-VisitorControlFrameMixin = {}--- @class VisitorControlFrameMixin
+VisitorControlFrameMixin = {} --- @class VisitorControlFrameMixin
 
 function VisitorControlFrameMixin:UpdateOwnerInfomation()
 	local houseInfo = C_Housing.GetCurrentHouseInfo();

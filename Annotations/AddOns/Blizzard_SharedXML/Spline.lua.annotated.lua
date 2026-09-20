@@ -40,7 +40,7 @@ function CatmullRom_Calculate4DPointOnCurve(t, p1x, p1y, p1z, p1w, p2x, p2y, p2z
 		CatmullRom_CalculatePointOnCurveHelper(t, tSquared, tCubed, p1w, p2w, p3w, p4w);
 end
 
-CatmullRomSplineMixin = {};--- @class CatmullRomSplineMixin
+CatmullRomSplineMixin = {}; --- @class CatmullRomSplineMixin
 
 function CreateCatmullRomSpline(numDimensions)
 	local spline = CreateFromMixins(CatmullRomSplineMixin);

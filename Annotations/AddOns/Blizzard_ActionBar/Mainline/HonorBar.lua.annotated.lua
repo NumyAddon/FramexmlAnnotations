@@ -2,7 +2,7 @@ local barAtlas = "UI-HUD-ExperienceBar-Fill-Honor";
 local gainFlareAtlas = "UI-HUD-ExperienceBar-Flare-Faction-Orange-2x-Flipbook";
 local levelUpAtlas = "UI-HUD-ExperienceBar-Fill-Honor-2x-Flipbook";
 
-HonorBarMixin = {};--- @class HonorBarMixin
+HonorBarMixin = {}; --- @class HonorBarMixin
 
 function HonorBarMixin:Update()
 	local current = UnitHonor("player");

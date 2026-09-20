@@ -1,4 +1,4 @@
-CooldownViewerVisualAlertsManagerMixin = {};--- @class CooldownViewerVisualAlertsManagerMixin
+CooldownViewerVisualAlertsManagerMixin = {}; --- @class CooldownViewerVisualAlertsManagerMixin
 
 function CooldownViewerVisualAlertsManagerMixin:OnLoad()
 	self.poolCollection = CreateFramePoolCollection();

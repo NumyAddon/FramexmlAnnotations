@@ -1,6 +1,6 @@
 ----------------- Option Frame Base -----------------
 
-CustomizationOptionFrameBaseMixin = CreateFromMixins(CustomizationContentFrameMixin);--- @class CustomizationOptionFrameBaseMixin : CustomizationContentFrameMixin
+CustomizationOptionFrameBaseMixin = CreateFromMixins(CustomizationContentFrameMixin); --- @class CustomizationOptionFrameBaseMixin : CustomizationContentFrameMixin
 
 function CustomizationOptionFrameBaseMixin:SetupOption(optionData)
 	-- Required Override
@@ -89,7 +89,7 @@ end
 
 ----------------- Option Slider -----------------
 
-CustomizationOptionSliderMixin = CreateFromMixins(CustomizationOptionFrameBaseMixin, SliderWithButtonsAndLabelMixin, CustomizationFrameWithTooltipMixin);--- @class CustomizationOptionSliderMixin : CustomizationOptionFrameBaseMixin, SliderWithButtonsAndLabelMixin, CustomizationFrameWithTooltipMixin
+CustomizationOptionSliderMixin = CreateFromMixins(CustomizationOptionFrameBaseMixin, SliderWithButtonsAndLabelMixin, CustomizationFrameWithTooltipMixin); --- @class CustomizationOptionSliderMixin : CustomizationOptionFrameBaseMixin, SliderWithButtonsAndLabelMixin, CustomizationFrameWithTooltipMixin
 
 function CustomizationOptionSliderMixin:OnLoad()
 	CustomizationFrameWithTooltipMixin.OnLoad(self);
@@ -149,7 +149,7 @@ end
 
 ----------------- Option Check Button -----------------
 
-CustomizationOptionCheckButtonMixin = CreateFromMixins(CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin);--- @class CustomizationOptionCheckButtonMixin : CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin
+CustomizationOptionCheckButtonMixin = CreateFromMixins(CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin); --- @class CustomizationOptionCheckButtonMixin : CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin
 
 function CustomizationOptionCheckButtonMixin:CustomizationOptionCheckButton_OnLoad()
 	self.Button:SetScript("OnClick", GenerateClosure(self.OnCheckButtonClick, self));
@@ -193,7 +193,7 @@ end
 
 -- Expects to inherit DropdownWithSteppersAndLabelTemplate
 
-CustomizationDropdownWithSteppersAndLabelMixin = CreateFromMixins(CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin);--- @class CustomizationDropdownWithSteppersAndLabelMixin : CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin
+CustomizationDropdownWithSteppersAndLabelMixin = CreateFromMixins(CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin); --- @class CustomizationDropdownWithSteppersAndLabelMixin : CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin
 
 function CustomizationDropdownWithSteppersAndLabelMixin:OnLoad()
 	CustomizationFrameWithTooltipMixin.OnLoad(self);
@@ -413,7 +413,7 @@ end
 
 local CUSTOMIZATION_LOCK_WIDTH = 24;
 
-CustomizationElementDetailsMixin = {};--- @class CustomizationElementDetailsMixin
+CustomizationElementDetailsMixin = {}; --- @class CustomizationElementDetailsMixin
 
 function CustomizationElementDetailsMixin:GetTooltipText()
 	local name;
@@ -654,7 +654,7 @@ end
 
 ----------------- Dropdown Button -----------------
 
-CustomizationDropdownMixin = {};--- @class CustomizationDropdownMixin
+CustomizationDropdownMixin = {}; --- @class CustomizationDropdownMixin
 
 do
 	local xy = 1;
@@ -681,7 +681,7 @@ end
 ----------------- Dropdown Button -----------------
 
 -- Non-dropdown-specific base mixin
-CustomizationElementMixin = {};--- @class CustomizationElementMixin
+CustomizationElementMixin = {}; --- @class CustomizationElementMixin
 
 function CustomizationElementMixin:OnLoad()
 	self.SelectionDetails.SelectionName:SetPoint("RIGHT");
@@ -771,7 +771,7 @@ end
 
 
 -- Inherits CustomizationElementTemplate
-CustomizationDropdownElementMixin = {};--- @class CustomizationDropdownElementMixin
+CustomizationDropdownElementMixin = {}; --- @class CustomizationDropdownElementMixin
 
 function CustomizationDropdownElementMixin:SetOnEnterCallback(onEnterCallback)
 	self.onEnterCallback = onEnterCallback;

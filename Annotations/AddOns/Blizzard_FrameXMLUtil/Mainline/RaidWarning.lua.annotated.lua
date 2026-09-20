@@ -169,7 +169,7 @@ function RaidBossEmoteFrame_OnEvent(self, event, ...)
 end
 
 
-PrivateRaidBossEmoteFrameAnchorMixin = {};--- @class PrivateRaidBossEmoteFrameAnchorMixin
+PrivateRaidBossEmoteFrameAnchorMixin = {}; --- @class PrivateRaidBossEmoteFrameAnchorMixin
 
 function PrivateRaidBossEmoteFrameAnchorMixin:OnLoad()
 	local anchor =

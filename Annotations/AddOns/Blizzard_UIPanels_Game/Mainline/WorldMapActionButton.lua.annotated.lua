@@ -1,4 +1,4 @@
-WorldMapActionButtonMixin = {};--- @class WorldMapActionButtonMixin
+WorldMapActionButtonMixin = {}; --- @class WorldMapActionButtonMixin
 
 function WorldMapActionButtonMixin:OnLoad()
 	self:GetParent():RegisterCallback("WorldQuestsUpdate", self.OnWorldQuestsUpdate, self);

@@ -1,7 +1,7 @@
 ----------------- Embedded Model Preview Mixin -----------------
 local ActorTag = "decor";
 
-HousingModelPreviewMixin = {};--- @class HousingModelPreviewMixin
+HousingModelPreviewMixin = {}; --- @class HousingModelPreviewMixin
 
 function HousingModelPreviewMixin:OnLoad()
 	local forceSceneChange = true;
@@ -113,7 +113,7 @@ end
 
 ----------------- Standalone Container Mixin -----------------
 
-HousingModelPreviewFrameMixin = {};--- @class HousingModelPreviewFrameMixin
+HousingModelPreviewFrameMixin = {}; --- @class HousingModelPreviewFrameMixin
 
 function HousingModelPreviewFrameMixin:OnLoad()
 	ButtonFrameTemplate_HidePortrait(self);

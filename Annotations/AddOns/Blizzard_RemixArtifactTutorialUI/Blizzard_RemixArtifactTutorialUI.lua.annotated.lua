@@ -1,5 +1,5 @@
 
-RemixArtifactTutorialControllerMixin = CreateFromMixins(CallbackRegistrantMixin);--- @class RemixArtifactTutorialControllerMixin : CallbackRegistrantMixin
+RemixArtifactTutorialControllerMixin = CreateFromMixins(CallbackRegistrantMixin); --- @class RemixArtifactTutorialControllerMixin : CallbackRegistrantMixin
 
 local REMIX_ARTIFACT_TUTORIAL_CONTROLLER_EVENTS = {
 	"PLAYER_EQUIPMENT_CHANGED",

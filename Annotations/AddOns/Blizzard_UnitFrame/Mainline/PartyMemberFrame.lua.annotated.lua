@@ -1,5 +1,5 @@
 
-PartyMemberFrameMixin = CreateFromMixins(PartyMemberAuraMixin);--- @class PartyMemberFrameMixin : PartyMemberAuraMixin
+PartyMemberFrameMixin = CreateFromMixins(PartyMemberAuraMixin); --- @class PartyMemberFrameMixin : PartyMemberAuraMixin
 
 function PartyMemberFrameMixin:GetUnit()
 	-- Override unit is set when we get in a vehicle
@@ -621,7 +621,7 @@ function PartyMemberFrameMixin:PartyMemberHealthCheck(value)
 	end
 end
 
-PartyMemberPetFrameMixin = CreateFromMixins(PartyMemberAuraMixin);--- @class PartyMemberPetFrameMixin : PartyMemberAuraMixin
+PartyMemberPetFrameMixin = CreateFromMixins(PartyMemberAuraMixin); --- @class PartyMemberPetFrameMixin : PartyMemberAuraMixin
 
 function PartyMemberPetFrameMixin:UpdateAuras(unitAuraUpdateInfo)
 	self:UpdateMemberAuras(unitAuraUpdateInfo);

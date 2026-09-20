@@ -13,7 +13,7 @@ PET_MOVE_TO_TEXTURE = "Interface\\Icons\\Ability_Hunter_Pet_Goto";
 
 PET_ACTION_HIGHLIGHT_MARKS = {};
 
-PetActionBarMixin = {};--- @class PetActionBarMixin
+PetActionBarMixin = {}; --- @class PetActionBarMixin
 
 local function HasPetActionHighlightMark(index)
 	return PET_ACTION_HIGHLIGHT_MARKS[index];
@@ -233,7 +233,7 @@ function PetActionBarMixin:SetBackgroundArtShown(shown)
 	end
 end
 
-PetActionButtonMixin = {}--- @class PetActionButtonMixin
+PetActionButtonMixin = {} --- @class PetActionButtonMixin
 
 function PetActionButtonMixin:PetActionButtonMixin_OnLoad()
 	SmallActionButtonMixin.SmallActionButtonMixin_OnLoad(self);

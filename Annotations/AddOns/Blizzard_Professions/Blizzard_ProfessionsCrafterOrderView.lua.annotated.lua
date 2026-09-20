@@ -1,5 +1,5 @@
 
-ProfessionsCrafterOrderRewardMixin = CreateFromMixins(ProfessionsReagentSlotButtonMixin);--- @class ProfessionsCrafterOrderRewardMixin : ProfessionsReagentSlotButtonMixin
+ProfessionsCrafterOrderRewardMixin = CreateFromMixins(ProfessionsReagentSlotButtonMixin); --- @class ProfessionsCrafterOrderRewardMixin : ProfessionsReagentSlotButtonMixin
 
 function ProfessionsCrafterOrderRewardMixin:SetReward(reward)
 	self.reward = reward;
@@ -46,7 +46,7 @@ function ProfessionsCrafterOrderRewardMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-ProfessionsCrafterOrderRewardTooltipMixin = {};--- @class ProfessionsCrafterOrderRewardTooltipMixin
+ProfessionsCrafterOrderRewardTooltipMixin = {}; --- @class ProfessionsCrafterOrderRewardTooltipMixin
 
 function ProfessionsCrafterOrderRewardTooltipMixin:SetReward(reward)
 	self.Reward:SetReward(reward);
@@ -76,7 +76,7 @@ function ProfessionsCrafterOrderRewardTooltipMixin:SetReward(reward)
 	self:SetWidth(self.Reward:GetWidth() + self.RewardName:GetWidth() + 20);
 end
 
-ProfessionsCrafterOrderViewMixin = {};--- @class ProfessionsCrafterOrderViewMixin
+ProfessionsCrafterOrderViewMixin = {}; --- @class ProfessionsCrafterOrderViewMixin
 local ownReagentsConfirmationReferenceKey = {};
 local ignoreConfirmationReferenceKey = {};
 

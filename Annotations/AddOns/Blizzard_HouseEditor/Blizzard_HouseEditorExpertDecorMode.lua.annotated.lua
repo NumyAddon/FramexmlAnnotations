@@ -8,7 +8,7 @@ local ExpertDecorModeShownEvents =
 	"UPDATE_BINDINGS",
 };
 
-HouseEditorExpertDecorModeMixin = CreateFromMixins(BaseHouseEditorModeMixin);--- @class HouseEditorExpertDecorModeMixin : BaseHouseEditorModeMixin
+HouseEditorExpertDecorModeMixin = CreateFromMixins(BaseHouseEditorModeMixin); --- @class HouseEditorExpertDecorModeMixin : BaseHouseEditorModeMixin
 
 function HouseEditorExpertDecorModeMixin:OnLoad()
 	self.PlacedDecorListButton:SetListFrame(self.PlacedDecorList);
@@ -217,7 +217,7 @@ function HouseEditorExpertDecorModeMixin:PlaySelectedHouseSoundForSize(size)
 end
 
 -- Inherits HouseEditorSubmodeButtonMixin
-ExpertDecorSubmodeButtonMixin = {};--- @class ExpertDecorSubmodeButtonMixin
+ExpertDecorSubmodeButtonMixin = {}; --- @class ExpertDecorSubmodeButtonMixin
 
 function ExpertDecorSubmodeButtonMixin:SetActive(active, forceUpdateState)
 	if self.isActive == active and not forceUpdateState then
@@ -255,7 +255,7 @@ function ExpertDecorSubmodeButtonMixin:PlayEnterSound()
 end
 
 -- Inherits HouseEditorSubmodeButtonMixin
-ExpertDecorResetButtonMixin = {};--- @class ExpertDecorResetButtonMixin
+ExpertDecorResetButtonMixin = {}; --- @class ExpertDecorResetButtonMixin
 
 function ExpertDecorResetButtonMixin:CheckEnabled()
 	local activeSubmode = C_HousingExpertMode.GetPrecisionSubmode();

@@ -16,7 +16,7 @@ local function GetUIParentScale_Insecure()
 end
 
 
-PingFrameMixin = {};--- @class PingFrameMixin
+PingFrameMixin = {}; --- @class PingFrameMixin
 
 function PingFrameMixin:OnLoad()
     RadialWheelFrameMixin.OnLoad(self);
@@ -59,7 +59,7 @@ function PingFrameMixin:EvaluateResult(overrideTargetGUID)
     end
 end
 
-PingListenerFrameMixin = {--- @class PingListenerFrameMixin
+PingListenerFrameMixin = { --- @class PingListenerFrameMixin
     PingRadialKeyDownDuration = 0.15;
 };
 
@@ -250,7 +250,7 @@ function PingListenerFrameMixin:ClearPendingPingInfo()
     PingFrame:AnimateOutro();
 end
 
-PingPinFrameMixin = {};--- @class PingPinFrameMixin
+PingPinFrameMixin = {}; --- @class PingPinFrameMixin
 
 local PIN_FLIP_BOOK_INFO = {
     ["Assist"] = { sizeX=81, sizeY=48, anchorX=-17.5, anchorY=4 },
@@ -369,7 +369,7 @@ function PingPinFrameMixin:AnimateIntro()
     end
 end
 
-PingPinFlipBookAnimMixin = {};--- @class PingPinFlipBookAnimMixin
+PingPinFlipBookAnimMixin = {}; --- @class PingPinFlipBookAnimMixin
 
 function PingPinFlipBookAnimMixin:OnPlay()
     local parent = self:GetParent();

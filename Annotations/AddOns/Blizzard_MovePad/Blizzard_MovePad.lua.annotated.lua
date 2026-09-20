@@ -1,4 +1,4 @@
-MovePadMixin = {};--- @class MovePadMixin
+MovePadMixin = {}; --- @class MovePadMixin
 
 function MovePadMixin:OnLoad()
 	local function OnValueChanged(o, setting, value)
@@ -103,7 +103,7 @@ function MovePadMixin:ResetMoveButtons(exemptButton)
 	end
 end
 
-MovePadCheckboxMixin = {};--- @class MovePadCheckboxMixin
+MovePadCheckboxMixin = {}; --- @class MovePadCheckboxMixin
 
 function MovePadCheckboxMixin:ResetButton()
 	self:SetChecked(false);
@@ -147,19 +147,19 @@ function MovePadCheckboxMixin:SetPressAndHoldMode(pressAndHoldMode)
 	end
 end
 
-MovePadForwardMixin = {};--- @class MovePadForwardMixin
+MovePadForwardMixin = {}; --- @class MovePadForwardMixin
 
 function MovePadForwardMixin:OnLoad()
 	SquareButton_SetIcon(self, "UP");
 end
 
-MovePadBackwardMixin = {};--- @class MovePadBackwardMixin
+MovePadBackwardMixin = {}; --- @class MovePadBackwardMixin
 
 function MovePadBackwardMixin:OnLoad()
 	SquareButton_SetIcon(self, "DOWN");
 end
 
-MovePadRotateLeftMixin = {};--- @class MovePadRotateLeftMixin
+MovePadRotateLeftMixin = {}; --- @class MovePadRotateLeftMixin
 
 function MovePadRotateLeftMixin:OnLoad()
 	self.icon:SetTexture("Interface\\Buttons\\UI-RotationLeft-Button-Up");
@@ -167,7 +167,7 @@ function MovePadRotateLeftMixin:OnLoad()
 	self.icon:SetSize(35,35);
 end
 
-MovePadRotateRightMixin = {};--- @class MovePadRotateRightMixin
+MovePadRotateRightMixin = {}; --- @class MovePadRotateRightMixin
 
 function MovePadRotateRightMixin:OnLoad()
 	self.icon:SetTexture("Interface\\Buttons\\UI-RotationRight-Button-Up");
@@ -175,19 +175,19 @@ function MovePadRotateRightMixin:OnLoad()
 	self.icon:SetSize(35,35);
 end
 
-MovePadStrafeLeftMixin = {};--- @class MovePadStrafeLeftMixin
+MovePadStrafeLeftMixin = {}; --- @class MovePadStrafeLeftMixin
 
 function MovePadStrafeLeftMixin:OnLoad()
 	SquareButton_SetIcon(self, "LEFT");
 end
 
-MovePadStrafeRightMixin = {};--- @class MovePadStrafeRightMixin
+MovePadStrafeRightMixin = {}; --- @class MovePadStrafeRightMixin
 
 function MovePadStrafeRightMixin:OnLoad()
 	SquareButton_SetIcon(self, "RIGHT");
 end
 
-MovePadJumpMixin = {};--- @class MovePadJumpMixin
+MovePadJumpMixin = {}; --- @class MovePadJumpMixin
 
 function MovePadJumpMixin:OnLoad()
 	self.icon:SetTexture("Interface\\Buttons\\JumpUpArrow");

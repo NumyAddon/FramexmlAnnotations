@@ -349,7 +349,7 @@ function ItemUtil.TransformItemLocationItemsToGUIDItems(itemLocations)
 	return items;
 end
 
-ItemTransmogInfoMixin = {};--- @class ItemTransmogInfoMixin
+ItemTransmogInfoMixin = {}; --- @class ItemTransmogInfoMixin
 
 function ItemTransmogInfoMixin:Init(appearanceID, secondaryAppearanceID, illusionID)
 	self.appearanceID = appearanceID;

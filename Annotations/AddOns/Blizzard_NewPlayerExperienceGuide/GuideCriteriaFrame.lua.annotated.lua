@@ -1,4 +1,4 @@
-CriterionMixin = {};--- @class CriterionMixin
+CriterionMixin = {}; --- @class CriterionMixin
 
 function CriterionMixin:Init(criterionType, text, id, isComplete)
 	self.criterionType = criterionType;
@@ -22,7 +22,7 @@ function CriterionMixin:GetText()
 	return self.text;
 end
 
-CriteriaDisplayMixin = {};--- @class CriteriaDisplayMixin
+CriteriaDisplayMixin = {}; --- @class CriteriaDisplayMixin
 
 function CriteriaDisplayMixin:OnLoad()
 	self.bulletPool = CreateFramePool("FRAME", self, "CriteriaBulletTemplate");
@@ -72,7 +72,7 @@ function CriteriaDisplayMixin:Update()
 	self:SetHeight(self.contentHeight + 43);	-- total of header height plus top and bottom padding
 end
 
-CriteriaBulletMixin = {};--- @class CriteriaBulletMixin
+CriteriaBulletMixin = {}; --- @class CriteriaBulletMixin
 
 function CriteriaBulletMixin:SetUp(criterion, verticalLineOffset)
 	local completed = criterion:IsComplete();

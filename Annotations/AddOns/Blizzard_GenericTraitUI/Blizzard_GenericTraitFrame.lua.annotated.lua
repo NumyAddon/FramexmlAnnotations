@@ -11,7 +11,7 @@ local TotalFrameLevelSpread = 500;
 local BaseYOffset = 1500;
 local BaseRowHeight = 600;
 
-GenericTraitFrameMixin = {};--- @class GenericTraitFrameMixin
+GenericTraitFrameMixin = {}; --- @class GenericTraitFrameMixin
 
 local GenericTraitFrameEvents = {
 	"TRAIT_SYSTEM_NPC_CLOSED",
@@ -336,7 +336,7 @@ function GenericTraitFrameMixin:ShouldShowConfirmation(nodeID)
 end
 
 
-GenericTraitFrameCurrencyFrameMixin = {};--- @class GenericTraitFrameCurrencyFrameMixin
+GenericTraitFrameCurrencyFrameMixin = {}; --- @class GenericTraitFrameCurrencyFrameMixin
 
 function GenericTraitFrameCurrencyFrameMixin:UpdateWidgetSet()
 	local configID = self:GetParent():GetConfigID();

@@ -1,7 +1,7 @@
 
 --------------------------------------------------
 -- TABARD MODEL FRAME MIXIN
-TabardModelFrameMixin = CreateFromMixins(ModelFrameMixin);--- @class TabardModelFrameMixin : ModelFrameMixin
+TabardModelFrameMixin = CreateFromMixins(ModelFrameMixin); --- @class TabardModelFrameMixin : ModelFrameMixin
 
 function TabardModelFrameMixin:OnLoad()
 	self.rotation = 0;

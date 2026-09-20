@@ -1,6 +1,6 @@
 -- NOTE: If you make changes here, you likely need to make changes to EvokerAlternatePower.lua
 
-EvokerEbonMightBarMixin = {}--- @class EvokerEbonMightBarMixin
+EvokerEbonMightBarMixin = {} --- @class EvokerEbonMightBarMixin
 
 -- Ebon Might Spell that applies Aura on Self
 local EbonMightSelfAuraSpellID = 395296;
@@ -108,7 +108,7 @@ function EvokerEbonMightBarMixin:GetCurrentMinMaxPower()
 end
 
 
-PlayerFrameEvokerEbonMightBarMixin = {};--- @class PlayerFrameEvokerEbonMightBarMixin
+PlayerFrameEvokerEbonMightBarMixin = {}; --- @class PlayerFrameEvokerEbonMightBarMixin
 
 function PlayerFrameEvokerEbonMightBarMixin:Initialize()
 	self.OverflowFill:AddMaskTexture(self.PowerBarMask);

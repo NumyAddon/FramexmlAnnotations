@@ -1,4 +1,4 @@
-CooldownViewerVisualAlertTargetMixin = {};--- @class CooldownViewerVisualAlertTargetMixin
+CooldownViewerVisualAlertTargetMixin = {}; --- @class CooldownViewerVisualAlertTargetMixin
 
 function CooldownViewerVisualAlertTargetMixin:GetOrCreateAlertContainer()
 	local container = GetOrCreateTableEntry(self, "alertContainer");

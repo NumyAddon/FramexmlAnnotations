@@ -1,4 +1,4 @@
-BarberShopMixin = CreateFromMixins(CharCustomizeParentFrameBaseMixin);--- @class BarberShopMixin : CharCustomizeParentFrameBaseMixin
+BarberShopMixin = CreateFromMixins(CharCustomizeParentFrameBaseMixin); --- @class BarberShopMixin : CharCustomizeParentFrameBaseMixin
 
 function BarberShopMixin:OnLoad()
 	self:RegisterEvent("BARBER_SHOP_RESULT");
@@ -237,7 +237,7 @@ function BarberShopMixin:SetCharacterSex(sexID)
 	self:UpdateSex();
 end
 
-BarberShopButtonMixin = {};--- @class BarberShopButtonMixin
+BarberShopButtonMixin = {}; --- @class BarberShopButtonMixin
 
 function BarberShopButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);

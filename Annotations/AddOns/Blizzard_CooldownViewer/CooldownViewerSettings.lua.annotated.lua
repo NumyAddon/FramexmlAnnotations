@@ -27,7 +27,7 @@ StaticPopupDialogs["RESET_COOLDOWN_LAYOUT_TO_DEFAULT"] = {
 	hideOnEscape = 1
 };
 
-CooldownViewerSettingsDraggedItemMixin = {};--- @class CooldownViewerSettingsDraggedItemMixin
+CooldownViewerSettingsDraggedItemMixin = {}; --- @class CooldownViewerSettingsDraggedItemMixin
 function CooldownViewerSettingsDraggedItemMixin:SetToCursor(cooldownItem)
 	self.Icon:SetTexture(cooldownItem:GetTextureFileID());
 	self:Show();
@@ -75,7 +75,7 @@ local function MatchesCooldownCategory(cooldownInfo, displayCategory)
 	return cooldownInfo.category == displayCategory:GetCategory() and (cooldownInfo.isKnown or IsShowingUnlearned());
 end
 
-local CooldownViewerCategoryMixin = {};--- @class CooldownViewerCategoryMixin
+local CooldownViewerCategoryMixin = {}; --- @class CooldownViewerCategoryMixin
 function CooldownViewerCategoryMixin:Init(category, title, filter)
 	self.category = category;
 	self.title = title;
@@ -147,7 +147,7 @@ function CreateCategoryObjectLookup()
 	return lookup;
 end
 
-CooldownViewerBaseReorderTargetMixin = {};--- @class CooldownViewerBaseReorderTargetMixin
+CooldownViewerBaseReorderTargetMixin = {}; --- @class CooldownViewerBaseReorderTargetMixin
 
 function CooldownViewerBaseReorderTargetMixin:OnEnter()
 	EventRegistry:TriggerEvent("CooldownViewerSettings.OnEnterItem", self);
@@ -158,7 +158,7 @@ function CooldownViewerBaseReorderTargetMixin:GetBestCooldownItemTarget(_mouseX,
 	return self;
 end
 
-CooldownViewerSettingsItemMixin = CreateFromMixins(CooldownViewerItemDataMixin, CooldownViewerBaseReorderTargetMixin, CooldownViewerVisualAlertTargetMixin);--- @class CooldownViewerSettingsItemMixin : CooldownViewerItemDataMixin, CooldownViewerBaseReorderTargetMixin, CooldownViewerVisualAlertTargetMixin
+CooldownViewerSettingsItemMixin = CreateFromMixins(CooldownViewerItemDataMixin, CooldownViewerBaseReorderTargetMixin, CooldownViewerVisualAlertTargetMixin); --- @class CooldownViewerSettingsItemMixin : CooldownViewerItemDataMixin, CooldownViewerBaseReorderTargetMixin, CooldownViewerVisualAlertTargetMixin
 
 function CooldownViewerSettingsItemMixin:RefreshData()
 	if not self:IsEmptyCategory() then
@@ -576,7 +576,7 @@ function CooldownViewerSettingsItemMixin:GetTextureFileID()
 	return self.Icon:GetTextureFileID();
 end
 
-CooldownViewerSettingsBarItemMixin = CreateFromMixins(CooldownViewerSettingsItemMixin);--- @class CooldownViewerSettingsBarItemMixin : CooldownViewerSettingsItemMixin
+CooldownViewerSettingsBarItemMixin = CreateFromMixins(CooldownViewerSettingsItemMixin); --- @class CooldownViewerSettingsBarItemMixin : CooldownViewerSettingsItemMixin
 
 function CooldownViewerSettingsBarItemMixin:RefreshData()
 	CooldownViewerSettingsItemMixin.RefreshData(self);
@@ -628,13 +628,13 @@ function CooldownViewerSettingsBarItemMixin:GetAlertTargetFrame()
 	return self.AlertTarget;
 end
 
-CooldownViewerContainerReorderTargetMixin = CreateFromMixins(CooldownViewerBaseReorderTargetMixin);--- @class CooldownViewerContainerReorderTargetMixin : CooldownViewerBaseReorderTargetMixin
+CooldownViewerContainerReorderTargetMixin = CreateFromMixins(CooldownViewerBaseReorderTargetMixin); --- @class CooldownViewerContainerReorderTargetMixin : CooldownViewerBaseReorderTargetMixin
 
 function CooldownViewerContainerReorderTargetMixin:GetBestCooldownItemTarget(cursorX, cursorY)
 	return self:GetNearestItemToCursorWeighted(cursorX, cursorY);
 end
 
-CooldownViewerSettingsCategoryMixin = CreateFromMixins(CooldownViewerContainerReorderTargetMixin);--- @class CooldownViewerSettingsCategoryMixin : CooldownViewerContainerReorderTargetMixin
+CooldownViewerSettingsCategoryMixin = CreateFromMixins(CooldownViewerContainerReorderTargetMixin); --- @class CooldownViewerSettingsCategoryMixin : CooldownViewerContainerReorderTargetMixin
 
 function CooldownViewerSettingsCategoryMixin:OnLoad()
 	self.itemPool = CreateFramePool("Frame", self.Container, self:GetItemTemplate());
@@ -757,7 +757,7 @@ function CooldownViewerSettingsCategoryMixin:IsDisplayingAnyItems()
 	return self.itemPool:GetNumActive() > 0;
 end
 
-CooldownViewerSettingsBarCategoryMixin = CreateFromMixins(CooldownViewerSettingsCategoryMixin);--- @class CooldownViewerSettingsBarCategoryMixin : CooldownViewerSettingsCategoryMixin
+CooldownViewerSettingsBarCategoryMixin = CreateFromMixins(CooldownViewerSettingsCategoryMixin); --- @class CooldownViewerSettingsBarCategoryMixin : CooldownViewerSettingsCategoryMixin
 
 function CooldownViewerSettingsBarCategoryMixin:GetItemTemplate()
 	return  "CooldownViewerSettingsBarItemTemplate";
@@ -774,9 +774,9 @@ function CooldownViewerSettingsBarCategoryMixin:SetupGridLayoutParams()
 	container.alwaysUpdateLayout = true;
 end
 
-CooldownViewerSettingsContentMixin = {};--- @class CooldownViewerSettingsContentMixin
+CooldownViewerSettingsContentMixin = {}; --- @class CooldownViewerSettingsContentMixin
 
-CooldownViewerSettingsMixin = {};--- @class CooldownViewerSettingsMixin
+CooldownViewerSettingsMixin = {}; --- @class CooldownViewerSettingsMixin
 
 function CooldownViewerSettingsMixin:GetExtraPanelWidth()
 	return 50;
@@ -1699,14 +1699,14 @@ function CooldownViewerSettingsMixin:ShowOptionsPanel(fromEditMode)
 	Settings.OpenToCategory(Settings.ADVANCED_OPTIONS_CATEGORY_ID);
 end
 
-CooldownViewerSettingsSearchBoxMixin = {}--- @class CooldownViewerSettingsSearchBoxMixin
+CooldownViewerSettingsSearchBoxMixin = {} --- @class CooldownViewerSettingsSearchBoxMixin
 
 function CooldownViewerSettingsSearchBoxMixin:CooldownViewerSettingsSearch_OnTextChanged(_userChange)
 	CooldownViewerSettings:SetFilterText(self:GetText());
 end
 
 
-CooldownViewerSettingsReorderMarkerMixin = {};--- @class CooldownViewerSettingsReorderMarkerMixin
+CooldownViewerSettingsReorderMarkerMixin = {}; --- @class CooldownViewerSettingsReorderMarkerMixin
 
 function CooldownViewerSettingsReorderMarkerMixin:SetHorizontal()
 	self.Texture:SetAtlas("cdm-horizontal", true);

@@ -1,4 +1,4 @@
-StateMachineBasedTutorialMixin = CreateFromMixins(TutorialStateMachineMixin);--- @class StateMachineBasedTutorialMixin : TutorialStateMachineMixin
+StateMachineBasedTutorialMixin = CreateFromMixins(TutorialStateMachineMixin); --- @class StateMachineBasedTutorialMixin : TutorialStateMachineMixin
 
 function StateMachineBasedTutorialMixin:AcknowledgeTutorial()
 	local forceComplete = true;
@@ -58,7 +58,7 @@ function StateMachineBasedTutorialMixin:IsShowingTutorialHelp()
 	return HelpTip:IsShowingAnyInSystem(self:GetSystem());
 end
 
-HelpTipStateMachineBasedTutorialMixin = CreateFromMixins(StateMachineBasedTutorialMixin);--- @class HelpTipStateMachineBasedTutorialMixin : StateMachineBasedTutorialMixin
+HelpTipStateMachineBasedTutorialMixin = CreateFromMixins(StateMachineBasedTutorialMixin); --- @class HelpTipStateMachineBasedTutorialMixin : StateMachineBasedTutorialMixin
 
 function HelpTipStateMachineBasedTutorialMixin:Init(helpTipInfos, helpTipSystemName, states, initialState, bitfield, bitfieldFlag)
 	self.helpTipInfos = helpTipInfos;

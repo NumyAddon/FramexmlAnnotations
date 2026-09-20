@@ -1,6 +1,6 @@
 ---------------------------------------------------
 -- QUEUE TYPE BUTTON MIXIN
-QueueTypeSelectionButtonMixin = {};--- @class QueueTypeSelectionButtonMixin
+QueueTypeSelectionButtonMixin = {}; --- @class QueueTypeSelectionButtonMixin
 function QueueTypeSelectionButtonMixin:OnLoad()
 	SelectableButtonMixin.OnLoad(self);
 
@@ -58,7 +58,7 @@ end
 
 ---------------------------------------------------
 -- QUEUE TYPE SETTINGS FRAME MIXIN
-QueueTypeSettingsFrameMixin = { };--- @class QueueTypeSettingsFrameMixin
+QueueTypeSettingsFrameMixin = { }; --- @class QueueTypeSettingsFrameMixin
 local QueueTypeSettingsFrameEvents =
 {
 	"CLIENT_FEATURE_STATUS_CHANGED",
@@ -230,7 +230,7 @@ function QueueTypeSettingsFrameMixin:SetPlayerReady(isReady)
 end
 
 
-QueueReadyButtonMixin = { };--- @class QueueReadyButtonMixin
+QueueReadyButtonMixin = { }; --- @class QueueReadyButtonMixin
 local QueueReadyButtonEvents =
 {
 	"GLUES_RESUMED",
@@ -357,7 +357,7 @@ end
 local QueueTimeFormatter = CreateFromMixins(SecondsFormatterMixin);
 QueueTimeFormatter:Init(0, SecondsFormatter.Abbreviation.Truncate, true, true);
 
-MatchmakingQueueFrameMixin = { };--- @class MatchmakingQueueFrameMixin
+MatchmakingQueueFrameMixin = { }; --- @class MatchmakingQueueFrameMixin
 function MatchmakingQueueFrameMixin:OnLoad()
 	self.currentTimeInQueue = 0;
 	self:StartTimer();
@@ -422,7 +422,7 @@ function MatchmakingQueueFrameMixin:SetSquadSize(squadSize)
 	end
 end
 
-LeaveQueueButtonMixin = {};--- @class LeaveQueueButtonMixin
+LeaveQueueButtonMixin = {}; --- @class LeaveQueueButtonMixin
 function LeaveQueueButtonMixin:OnClick()
 	EventRegistry:TriggerEvent("MatchmakingQueue.LeaveQueue");
 end

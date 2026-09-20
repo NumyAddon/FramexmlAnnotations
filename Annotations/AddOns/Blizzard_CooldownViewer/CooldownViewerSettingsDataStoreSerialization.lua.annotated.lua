@@ -13,7 +13,7 @@ local SAVE_FIELD_ID_ALERT_OVERRIDES = 3;
 
 local ENCODING_VERSION_PAYLOAD_DELIMITER = "|";
 
-CooldownViewerDataStoreSerializationMixin = {};--- @class CooldownViewerDataStoreSerializationMixin
+CooldownViewerDataStoreSerializationMixin = {}; --- @class CooldownViewerDataStoreSerializationMixin
 
 function CooldownViewerDataStoreSerializationMixin:Init(layoutManager, persistenceObject)
 	self:SetSerializationPersistenceObject(persistenceObject);

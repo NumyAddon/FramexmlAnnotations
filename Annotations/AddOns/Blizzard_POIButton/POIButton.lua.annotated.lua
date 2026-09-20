@@ -27,7 +27,7 @@ local function POIButton_SetAtlas(texture, width, height, atlas, scale)
 	end
 end
 
-POIButtonDisplayLayerMixin = {};--- @class POIButtonDisplayLayerMixin
+POIButtonDisplayLayerMixin = {}; --- @class POIButtonDisplayLayerMixin
 
 function POIButtonDisplayLayerMixin:SetOffset(x, y)
 	self.offsetX = x;
@@ -405,7 +405,7 @@ local function POIButton_UpdateNormalStyle(poiButton)
 	poiButton:UpdateSubTypeIcon();
 end
 
-POIButtonMixin = {};--- @class POIButtonMixin
+POIButtonMixin = {}; --- @class POIButtonMixin
 
 function POIButtonMixin:IsPOIButton()
     return true;

@@ -10,7 +10,7 @@ local DefaultTransmogSetAppearances = {
 };
 
 
-AccountStoreBaseCardMixin = {};--- @class AccountStoreBaseCardMixin
+AccountStoreBaseCardMixin = {}; --- @class AccountStoreBaseCardMixin
 
 local AccountStoreBaseCardEvents = {
 	"UI_MODEL_SCENE_INFO_UPDATED",
@@ -227,7 +227,7 @@ function AccountStoreBaseCardMixin:UpdateCardDisplay()
 end
 
 
-AccountStoreCreatureCardMixin = {};--- @class AccountStoreCreatureCardMixin
+AccountStoreCreatureCardMixin = {}; --- @class AccountStoreCreatureCardMixin
 
 function AccountStoreCreatureCardMixin:UpdateCardDisplay()
 	if not self.itemInfo then
@@ -249,7 +249,7 @@ function AccountStoreCreatureCardMixin:UpdateCardDisplay()
 end
 
 
-AccountStoreIconCardMixin = {};--- @class AccountStoreIconCardMixin
+AccountStoreIconCardMixin = {}; --- @class AccountStoreIconCardMixin
 
 function AccountStoreIconCardMixin:UpdateCardDisplay()
 	if not self.itemInfo then
@@ -260,7 +260,7 @@ function AccountStoreIconCardMixin:UpdateCardDisplay()
 end
 
 
-AccountStoreTransmogSetCardMixin = {};--- @class AccountStoreTransmogSetCardMixin
+AccountStoreTransmogSetCardMixin = {}; --- @class AccountStoreTransmogSetCardMixin
 
 function AccountStoreTransmogSetCardMixin:UpdateCardDisplay()
 	if not self.itemInfo then

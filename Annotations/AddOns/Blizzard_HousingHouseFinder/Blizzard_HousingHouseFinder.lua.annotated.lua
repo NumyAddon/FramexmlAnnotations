@@ -1,4 +1,4 @@
-HouseFinderFrameMixin = {}--- @class HouseFinderFrameMixin
+HouseFinderFrameMixin = {} --- @class HouseFinderFrameMixin
 
 local HouseFinderFrameShownEvents =
 {
@@ -351,7 +351,7 @@ function HouseFinderFrameMixin:SetPendingNeighborhoodInviteToDecline(neighborhoo
 	self.pendingDeclineInviteNeighborhoodButton = neighborhoodButton;
 end
 
-HouseFinderBNetFriendSearchBoxMixin = {};--- @class HouseFinderBNetFriendSearchBoxMixin
+HouseFinderBNetFriendSearchBoxMixin = {}; --- @class HouseFinderBNetFriendSearchBoxMixin
 
 function HouseFinderBNetFriendSearchBoxMixin:OnLoad()
 	local template = AUTOCOMPLETE_LIST.HOUSE_FINDER;
@@ -433,7 +433,7 @@ function HouseFinderBNetFriendSearchBoxMixin:GetBnetID()
 	return self.autoCompleteBnetID;
 end
 
-PlotInfoFrameBackButtonMixin = {}--- @class PlotInfoFrameBackButtonMixin
+PlotInfoFrameBackButtonMixin = {} --- @class PlotInfoFrameBackButtonMixin
 
 function PlotInfoFrameBackButtonMixin:OnEnter()
 	self.IconHighlight:Show();
@@ -455,7 +455,7 @@ function PlotInfoFrameBackButtonMixin:UpdateSize()
 	self:SetWidth(newWidth);
 end
 
-HouseFinderPlotInfoFrameMixin = {}--- @class HouseFinderPlotInfoFrameMixin
+HouseFinderPlotInfoFrameMixin = {} --- @class HouseFinderPlotInfoFrameMixin
 
 local HouseFinderPlotInfoShownEvents =
 {
@@ -534,7 +534,7 @@ function HouseFinderPlotInfoFrameMixin:OnVisitClicked()
 	PlaySound(SOUNDKIT.HOUSING_HOUSE_FINDER_VISIT_HOUSE_BUTTON);
 end
 
-HouseFinderNeighborhoodButtonMixin = {}--- @class HouseFinderNeighborhoodButtonMixin
+HouseFinderNeighborhoodButtonMixin = {} --- @class HouseFinderNeighborhoodButtonMixin
 
 function HouseFinderNeighborhoodButtonMixin:Init(neighborhoodInfo, houseFinderFrame)
 	self.neighborhoodInfo = neighborhoodInfo;
@@ -654,7 +654,7 @@ function HouseFinderNeighborhoodButtonMixin:UpdateGuildIcon()
 	return hasTabard;
 end
 
-DeclineInviteButtonMixin = {}--- @class DeclineInviteButtonMixin
+DeclineInviteButtonMixin = {} --- @class DeclineInviteButtonMixin
 
 function DeclineInviteButtonMixin:SetNeighborhoodButton(neighborhoodButton)
 	self.neighborhoodButton = neighborhoodButton;

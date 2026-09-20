@@ -6,7 +6,7 @@ local settings = {
 	lineTemplate = "ObjectiveTrackerAnimLineTemplate",
 };
 
-AchievementObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings);--- @class AchievementObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+AchievementObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings); --- @class AchievementObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 
 local ARENA_CATEGORY = 165;
 local MAX_CRITERIA_PER_ACHIEVEMENT = 5;

@@ -78,7 +78,7 @@ local function GetPlayerCompanionID()
 end
 
 --[[ Config Frame ]]
-DelvesCompanionConfigurationFrameMixin = {};--- @class DelvesCompanionConfigurationFrameMixin
+DelvesCompanionConfigurationFrameMixin = {}; --- @class DelvesCompanionConfigurationFrameMixin
 
 function DelvesCompanionConfigurationFrameMixin:OnLoad()
     local panelAttributes = {
@@ -185,7 +185,7 @@ function DelvesCompanionConfigurationFrameMixin:OnHide()
 end
 
 --[[ Companion Portrait ]]
-CompanionPortraitFrameMixin = {};--- @class CompanionPortraitFrameMixin
+CompanionPortraitFrameMixin = {}; --- @class CompanionPortraitFrameMixin
 
 function CompanionPortraitFrameMixin:Refresh()
     SetPortraitTextureFromCreatureDisplayID(self.Icon, C_DelvesUI.GetCreatureDisplayInfoForCompanion(GetPlayerCompanionID()));
@@ -202,7 +202,7 @@ function CompanionPortraitFrameMixin:OnLeave()
 end
 
 --[[ Experience Ring ]]
-CompanionExperienceRingFrameMixin = {};--- @class CompanionExperienceRingFrameMixin
+CompanionExperienceRingFrameMixin = {}; --- @class CompanionExperienceRingFrameMixin
 
 function CompanionExperienceRingFrameMixin:Refresh()
     local experienceInfo = GetCompanionExperienceInfo();
@@ -213,7 +213,7 @@ function CompanionExperienceRingFrameMixin:Refresh()
 end
 
 --[[ Companion Level ]]
-CompanionLevelFrameMixin = {};--- @class CompanionLevelFrameMixin
+CompanionLevelFrameMixin = {}; --- @class CompanionLevelFrameMixin
 
 function CompanionLevelFrameMixin:Refresh()
     local companionLevel = GetCompanionCurrentLevel();
@@ -222,7 +222,7 @@ function CompanionLevelFrameMixin:Refresh()
 end
 
 --[[ Companion Info ]]
-CompanionInfoFrameMixin = {};--- @class CompanionInfoFrameMixin
+CompanionInfoFrameMixin = {}; --- @class CompanionInfoFrameMixin
 
 function CompanionInfoFrameMixin:Refresh()
     local companionInfo = GetCompanionInfo();
@@ -245,7 +245,7 @@ function CompanionInfoFrameMixin:Refresh()
 end
 
 --[[ Role and Trinket Slots , Options List ]]
-CompanionConfigSlotTemplateMixin = {};--- @class CompanionConfigSlotTemplateMixin
+CompanionConfigSlotTemplateMixin = {}; --- @class CompanionConfigSlotTemplateMixin
 
 function CompanionConfigSlotTemplateMixin:OnEvent(event)
     if event == "GLOBAL_MOUSE_DOWN" then
@@ -631,7 +631,7 @@ function CompanionConfigSlotTemplateMixin:BuildSelectionNodeOptions()
     end
 end
 
-CompanionConfigSlotOptionsListMixin = {};--- @class CompanionConfigSlotOptionsListMixin
+CompanionConfigSlotOptionsListMixin = {}; --- @class CompanionConfigSlotOptionsListMixin
 
 function CompanionConfigSlotOptionsListMixin:OnShow()
     PlaySound(MenuVariants.GetDropdownOpenSoundKit());
@@ -648,7 +648,7 @@ function CompanionConfigSlotOptionsListMixin:OnHide()
 end
 
 --[[ Config List Button ]]
-CompanionConfigListButtonMixin = {};--- @class CompanionConfigListButtonMixin
+CompanionConfigListButtonMixin = {}; --- @class CompanionConfigListButtonMixin
 
 function CompanionConfigListButtonMixin:OnClick()
     local optionsList = self:GetParent():GetParent():GetParent();
@@ -733,7 +733,7 @@ function CompanionConfigListButtonMixin:OnShow()
 end
 
 --[[ Abilities Button ]]
-CompanionConfigShowAbilitiesButtonMixin = {};--- @class CompanionConfigShowAbilitiesButtonMixin
+CompanionConfigShowAbilitiesButtonMixin = {}; --- @class CompanionConfigShowAbilitiesButtonMixin
 
 function CompanionConfigShowAbilitiesButtonMixin:OnClick()
     if not DelvesCompanionAbilityListFrame:IsShown() then

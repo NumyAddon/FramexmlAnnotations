@@ -2192,7 +2192,7 @@ function GearSetButton_OpenPopup(self)
 	GearManagerPopupFrame:Show();
 end
 
-GearManagerPopupFrameMixin = {};--- @class GearManagerPopupFrameMixin
+GearManagerPopupFrameMixin = {}; --- @class GearManagerPopupFrameMixin
 
 function GearManagerPopupFrameMixin:OnShow()
 	IconSelectorPopupFrameTemplateMixin.OnShow(self);
@@ -2760,13 +2760,13 @@ function PaperDollFrame_HideInventoryFixupComplete(self)
 	MicroButtonPulseStop(CharacterMicroButton);
 end
 
-PaperDollItemSlotButtonMixin = {}--- @class PaperDollItemSlotButtonMixin
+PaperDollItemSlotButtonMixin = {} --- @class PaperDollItemSlotButtonMixin
 
 function PaperDollItemSlotButtonMixin:GetItemContextMatchResult()
 	return ItemButtonUtil.GetItemContextMatchResultForItem(ItemLocation:CreateFromEquipmentSlot(self:GetID()));
 end
 
-PaperDollItemSocketDisplayMixin = {};--- @class PaperDollItemSocketDisplayMixin
+PaperDollItemSocketDisplayMixin = {}; --- @class PaperDollItemSocketDisplayMixin
 
 function PaperDollItemSocketDisplayMixin:SetItem(item)
 	-- Currently only showing socket display for timerunning characters

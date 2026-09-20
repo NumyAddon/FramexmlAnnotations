@@ -1,6 +1,6 @@
-QuestLogButtonTypes = EnumUtil.MakeEnum("None", "Any", "Header", "HeaderCampaign", "HeaderCampaignMinimal", "HeaderCallings", "StoryHeader", "Quest");--- @type {["None"]: 1, ["Any"]: 2, ["Header"]: 3, ["HeaderCampaign"]: 4, ["HeaderCampaignMinimal"]: 5, ["HeaderCallings"]: 6, ["StoryHeader"]: 7, ["Quest"]: 8} See [QuestLogButtonTypes](lua://QuestLogButtonTypes)
+QuestLogButtonTypes = EnumUtil.MakeEnum("None", "Any", "Header", "HeaderCampaign", "HeaderCampaignMinimal", "HeaderCallings", "StoryHeader", "Quest"); --- @type {["None"]: 1, ["Any"]: 2, ["Header"]: 3, ["HeaderCampaign"]: 4, ["HeaderCampaignMinimal"]: 5, ["HeaderCallings"]: 6, ["StoryHeader"]: 7, ["Quest"]: 8} # See [QuestLogButtonTypes](lua://QuestLogButtonTypes)
 
-QuestLogDisplayMode = EnumUtil.MakeEnum("Quests", "Events", "MapLegend");--- @type {["Quests"]: 1, ["Events"]: 2, ["MapLegend"]: 3} See [QuestLogDisplayMode](lua://QuestLogDisplayMode)
+QuestLogDisplayMode = EnumUtil.MakeEnum("Quests", "Events", "MapLegend"); --- @type {["Quests"]: 1, ["Events"]: 2, ["MapLegend"]: 3} # See [QuestLogDisplayMode](lua://QuestLogDisplayMode)
 
 local QuestSearcherObject = { };
 
@@ -195,7 +195,7 @@ function QuestSearcher:RestoreHeaderStates()
 	self.headerStates = nil;
 end
 
-QuestLogMixin = { };--- @class QuestLogMixin
+QuestLogMixin = { }; --- @class QuestLogMixin
 
 function QuestLogMixin:GetPanelExtraWidth()
 	local frame = self.TabButtons[1];
@@ -375,7 +375,7 @@ function QuestLogMixin:SetHeaderQuestsTracked(headerLogIndex, setTracked)
 	QuestMapFrame_UpdateAll();
 end
 
-QuestLogHeaderCodeMixin = {};--- @class QuestLogHeaderCodeMixin
+QuestLogHeaderCodeMixin = {}; --- @class QuestLogHeaderCodeMixin
 
 function QuestLogHeaderCodeMixin:GetButtonType()
 	return QuestLogButtonTypes.Header;
@@ -629,7 +629,7 @@ local sessionCommandToButtonAtlases =
 	[Enum.QuestSessionCommand.Stop] = { normal = "QuestSharing-QuestLog-ButtonStop" , pushed = "QuestSharing-QuestLog-ButtonPressedStop", disabled = "QuestSharing-QuestLog-ButtonStop", },
 }
 
-QuestSessionManagementMixin = {};--- @class QuestSessionManagementMixin
+QuestSessionManagementMixin = {}; --- @class QuestSessionManagementMixin
 
 function QuestSessionManagementMixin:OnLoad()
 	EventRegistry:RegisterCallback("QuestSessionManager.Update", self.OnQuestSessionManagerUpdate, self);
@@ -909,7 +909,7 @@ function QuestMapFrame_AdjustPathButtons()
 	end
 end
 
-QuestLogQuestDetailsMixin = { };--- @class QuestLogQuestDetailsMixin
+QuestLogQuestDetailsMixin = { }; --- @class QuestLogQuestDetailsMixin
 
 function QuestLogQuestDetailsMixin:OnLoad()
 	QuestMapDetailsScrollFrame:RegisterCallback("OnVerticalScroll", GenerateClosure(self.AdjustRewardsFrameContainer, self));
@@ -1151,7 +1151,7 @@ end
 
 -- Quests Frame
 
-QuestLogScrollFrameMixin = { };--- @class QuestLogScrollFrameMixin
+QuestLogScrollFrameMixin = { }; --- @class QuestLogScrollFrameMixin
 
 function QuestLogScrollFrameMixin:OnLoad()
 	ScrollFrame_OnLoad(self);
@@ -1898,7 +1898,7 @@ local function QuestLogQuests_SetupStandardHeaderButton(button, displayState, in
 	return button;
 end
 
-CovenantCallingsHeaderMixin = {};--- @class CovenantCallingsHeaderMixin
+CovenantCallingsHeaderMixin = {}; --- @class CovenantCallingsHeaderMixin
 
 function CovenantCallingsHeaderMixin:GetButtonType()
 	return QuestLogButtonTypes.HeaderCallings;
@@ -2225,7 +2225,7 @@ function QuestMapLogTitleButton_OnLeave(self)
 	POIButtonHighlightManager:ClearHighlight();
 end
 
-QuestLogTitleMixin = {};--- @class QuestLogTitleMixin
+QuestLogTitleMixin = {}; --- @class QuestLogTitleMixin
 
 function QuestLogTitleMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonUp", "RightButtonUp");
@@ -2254,7 +2254,7 @@ function QuestLogTitleMixin:ToggleTracking()
 	end
 end
 
-QuestLogObjectiveMixin = {};--- @class QuestLogObjectiveMixin
+QuestLogObjectiveMixin = {}; --- @class QuestLogObjectiveMixin
 
 function QuestLogObjectiveMixin:GetButtonType()
 	return QuestLogButtonTypes.Quest;
@@ -2386,7 +2386,7 @@ function QuestLogPopupDetailFrame_Update(resetScrollBar)
 	end
 end
 
-StoryHeaderMixin = {};--- @class StoryHeaderMixin
+StoryHeaderMixin = {}; --- @class StoryHeaderMixin
 
 function StoryHeaderMixin:GetButtonType()
 	return QuestLogButtonTypes.StoryHeader;
@@ -2472,7 +2472,7 @@ function StoryHeaderMixin:OnLeave()
 	self.HighlightTexture:Hide();
 end
 
-QuestLogSearchBoxMixin = { };--- @class QuestLogSearchBoxMixin
+QuestLogSearchBoxMixin = { }; --- @class QuestLogSearchBoxMixin
 
 function QuestLogSearchBoxMixin:OnTextChanged()
 	SearchBoxTemplate_OnTextChanged(self);
@@ -2495,7 +2495,7 @@ function QuestLogSearchBoxMixin:UpdateState(displayState)
 	end
 end
 
-QuestLogSettingsButtonMixin = { };--- @class QuestLogSettingsButtonMixin
+QuestLogSettingsButtonMixin = { }; --- @class QuestLogSettingsButtonMixin
 
 function QuestLogSettingsButtonMixin:OnMouseDown()
 	self.Icon:AdjustPointsOffset(1, -1);

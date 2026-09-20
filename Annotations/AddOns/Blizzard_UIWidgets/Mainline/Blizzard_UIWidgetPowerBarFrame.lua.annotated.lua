@@ -1,4 +1,4 @@
-UIWidgetPowerBarContainerMixin = {}--- @class UIWidgetPowerBarContainerMixin
+UIWidgetPowerBarContainerMixin = {} --- @class UIWidgetPowerBarContainerMixin
 
 local function WidgetsLayout(widgetContainer, sortedWidgets)
 	DefaultWidgetLayout(widgetContainer, sortedWidgets);

@@ -7,7 +7,7 @@ local errorStrings =
 };
 
 --/////////////////////////////////////////////////////////////
-HousingCreateNeighborhoodMixin = {}--- @class HousingCreateNeighborhoodMixin
+HousingCreateNeighborhoodMixin = {} --- @class HousingCreateNeighborhoodMixin
 
 function HousingCreateNeighborhoodMixin:CreateNeighborhoodBaseOnLoad()
 	self.NeighborhoodNameEditBox:SetMaxLetters(50);
@@ -33,14 +33,14 @@ function HousingCreateNeighborhoodMixin:CreateNeighborhoodBaseOnShow()
 end
 
 --//////////////////////////////////////////////////////
-HousingCreateNeighborhoodConfirmationMixin = {}--- @class HousingCreateNeighborhoodConfirmationMixin
+HousingCreateNeighborhoodConfirmationMixin = {} --- @class HousingCreateNeighborhoodConfirmationMixin
 
 function HousingCreateNeighborhoodConfirmationMixin:CreateNeighborhoodConfirmationBaseOnLoad()
     self.CancelButton:SetText(HOUSING_CREATENEIGHBORHOOD_CANCELBUTTON);
 end
 
 --//////////////////////////////////////////////////////
-HousingCreateCharterNeighborhoodConfirmationMixin = {}--- @class HousingCreateCharterNeighborhoodConfirmationMixin
+HousingCreateCharterNeighborhoodConfirmationMixin = {} --- @class HousingCreateCharterNeighborhoodConfirmationMixin
 
 local CharterConfirmationFrameShowingEvents =
 {
@@ -85,7 +85,7 @@ function HousingCreateCharterNeighborhoodConfirmationMixin:OnEvent(event, ...)
 end
 
 --//////////////////////////////////////////////////////
-HousingCreateGuildNeighborhoodConfirmationMixin = {}--- @class HousingCreateGuildNeighborhoodConfirmationMixin
+HousingCreateGuildNeighborhoodConfirmationMixin = {} --- @class HousingCreateGuildNeighborhoodConfirmationMixin
 
 function HousingCreateGuildNeighborhoodConfirmationMixin:OnLoad()
     self.ConfirmButton:SetText(HOUSING_CREATENEIGHBORHOOD_GUILD_CONFIRMBUTTON);
@@ -112,7 +112,7 @@ function HousingCreateGuildNeighborhoodConfirmationMixin:OnShow()
 end
 
 --/////////////////////////////////////////////////
-HousingCreateGuildNeighborhoodMixin = {}--- @class HousingCreateGuildNeighborhoodMixin
+HousingCreateGuildNeighborhoodMixin = {} --- @class HousingCreateGuildNeighborhoodMixin
 
 function HousingCreateGuildNeighborhoodMixin:OnCreateNeighborhoodClicked()
 	self.NeighborhoodNameError:Hide();
@@ -179,7 +179,7 @@ function HousingCreateGuildNeighborhoodMixin:SetActiveLocationAndGuild(locationN
 end
 
 --/////////////////////////////////////////////////////////////////
-HousingCreateNeighborhoodCharterMixin = {}--- @class HousingCreateNeighborhoodCharterMixin
+HousingCreateNeighborhoodCharterMixin = {} --- @class HousingCreateNeighborhoodCharterMixin
 
 --call to edit existing charters with the current settings from the charter
 function HousingCreateNeighborhoodCharterMixin:SetCharterInfo(neighborhoodName)

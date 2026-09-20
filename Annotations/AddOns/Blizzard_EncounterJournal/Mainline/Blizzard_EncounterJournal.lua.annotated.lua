@@ -172,7 +172,7 @@ local SlotFilterToSlotName = {
 local BOSS_LOOT_BUTTON_HEIGHT = 45;
 local INSTANCE_LOOT_BUTTON_HEIGHT = 64;
 
-EncounterJournalItemMixin = {};--- @class EncounterJournalItemMixin
+EncounterJournalItemMixin = {}; --- @class EncounterJournalItemMixin
 
 function EncounterJournalItemMixin:Init(elementData)
 	local index = elementData.index;
@@ -236,7 +236,7 @@ function EncounterJournalItemMixin:Init(elementData)
 	end
 end
 
-EncounterJournalItemHeaderMixin = {};--- @class EncounterJournalItemHeaderMixin
+EncounterJournalItemHeaderMixin = {}; --- @class EncounterJournalItemHeaderMixin
 
 function EncounterJournalItemHeaderMixin:Init(elementData)
 	self.name:SetText(elementData.text);
@@ -248,7 +248,7 @@ function EncounterJournalItemHeaderMixin:Init(elementData)
 	end
 end
 
-EncounterBossButtonMixin = {};--- @class EncounterBossButtonMixin
+EncounterBossButtonMixin = {}; --- @class EncounterBossButtonMixin
 
 function EncounterBossButtonMixin:Init(elementData)
 	self.link = elementData.link;
@@ -268,7 +268,7 @@ function EncounterBossButtonMixin:Init(elementData)
 	EncounterJournalBossButton_UpdateDifficultyOverlay(self);
 end
 
-MonthlyActivitiesTabButtonMixin = CreateFromMixins(PanelTabButtonMixin);--- @class MonthlyActivitiesTabButtonMixin : PanelTabButtonMixin
+MonthlyActivitiesTabButtonMixin = CreateFromMixins(PanelTabButtonMixin); --- @class MonthlyActivitiesTabButtonMixin : PanelTabButtonMixin
 
 function MonthlyActivitiesTabButtonMixin:OnEnter()
 	if not C_PlayerInfo.IsTravelersLogAvailable() then
@@ -2473,7 +2473,7 @@ function EncounterJournal_SelectSearch(index)
 	EncounterJournal.searchResults:Hide();
 end
 
-EncounterSearchResultLGMixin = {};--- @class EncounterSearchResultLGMixin
+EncounterSearchResultLGMixin = {}; --- @class EncounterSearchResultLGMixin
 
 function EncounterSearchResultLGMixin:Init(elementData)
 	local index = elementData.index;
@@ -3565,13 +3565,13 @@ function EncounterJournalBossButtonDefeatedOverlay_OnEnter(self)
 	end
 end
 
-EncounterJournalScrollBarOldMixin = {};--- @class EncounterJournalScrollBarOldMixin
+EncounterJournalScrollBarOldMixin = {}; --- @class EncounterJournalScrollBarOldMixin
 
 function EncounterJournalScrollBarOldMixin:OnLoad()
 	self.trackBG:SetVertexColor(ENCOUNTER_JOURNAL_SCROLL_BAR_BACKGROUND_COLOR:GetRGBA());
 end
 
-ModifiedInstanceIconMixin = { };--- @class ModifiedInstanceIconMixin
+ModifiedInstanceIconMixin = { }; --- @class ModifiedInstanceIconMixin
 function ModifiedInstanceIconMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
 	GameTooltip_SetTitle(GameTooltip, self.name, HIGHLIGHT_FONT_COLOR);
@@ -3613,7 +3613,7 @@ function EJInstanceSelect_UpdateTitle(tabId)
 end
 
 -- Mixin for Great Vault button, currently only used in Journeys tab
-GreatVaultButtonMixin = {};--- @class GreatVaultButtonMixin
+GreatVaultButtonMixin = {}; --- @class GreatVaultButtonMixin
 
 function GreatVaultButtonMixin:OnShow()
 	local currentDisplaySeason = C_SeasonInfo.GetCurrentDisplaySeasonID();
@@ -3651,7 +3651,7 @@ function GreatVaultButtonMixin:OnLeave()
 	end
 end
 
-EncounterJournalRPEStartButtonMixin = { };--- @class EncounterJournalRPEStartButtonMixin
+EncounterJournalRPEStartButtonMixin = { }; --- @class EncounterJournalRPEStartButtonMixin
 
 function EncounterJournalRPEStartButtonMixin:OnClick()
 	C_EncounterJournal.StartArathiRPE();

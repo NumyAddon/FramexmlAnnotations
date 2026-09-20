@@ -14,7 +14,7 @@ StaticPopupDialogs["CUSTOM_SET_INVALID_NAME"] = {
 	hideOnEscape = 1
 };
 
-WardrobeCustomSetDropdownMixin = { };--- @class WardrobeCustomSetDropdownMixin
+WardrobeCustomSetDropdownMixin = { }; --- @class WardrobeCustomSetDropdownMixin
 
 function WardrobeCustomSetDropdownMixin:OnLoad()
 	WowStyle1DropdownMixin.OnLoad(self);
@@ -460,7 +460,7 @@ function WardrobeCustomSetManager:OverwriteCustomSet(customSetID)
 end
 
 --===================================================================================================================================
-WardrobeCustomSetEditFrameMixin = { };--- @class WardrobeCustomSetEditFrameMixin
+WardrobeCustomSetEditFrameMixin = { }; --- @class WardrobeCustomSetEditFrameMixin
 
 function WardrobeCustomSetEditFrameMixin:ShowForCustomSet(customSetID)
 	WardrobeCustomSetManager:ShowPopup(self);
@@ -487,7 +487,7 @@ function WardrobeCustomSetEditFrameMixin:OnAccept()
 end
 
 --===================================================================================================================================
-WardrobeCustomSetCheckAppearancesMixin = { };--- @class WardrobeCustomSetCheckAppearancesMixin
+WardrobeCustomSetCheckAppearancesMixin = { }; --- @class WardrobeCustomSetCheckAppearancesMixin
 
 function WardrobeCustomSetCheckAppearancesMixin:OnShow()
 	self:RegisterEvent("TRANSMOG_COLLECTION_ITEM_UPDATE");

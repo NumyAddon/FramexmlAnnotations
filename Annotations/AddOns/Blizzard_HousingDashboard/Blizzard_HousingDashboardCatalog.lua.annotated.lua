@@ -7,7 +7,7 @@ local CatalogWhileVisibleEvents = {
 	"HOUSING_STORAGE_ENTRY_UPDATED",
 };
 
-HousingCatalogFrameMixin = {};--- @class HousingCatalogFrameMixin
+HousingCatalogFrameMixin = {}; --- @class HousingCatalogFrameMixin
 
 function HousingCatalogFrameMixin:OnLoad()
 	FrameUtil.RegisterFrameForEvents(self, CatalogLifetimeEvents);

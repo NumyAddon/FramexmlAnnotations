@@ -52,7 +52,7 @@ local TAB_CHALLENGES = 3;
 local PERK_PANEL_WIDTH = 896;
 local STANDARD_PANEL_WIDTH = 460;
 
-ArtifactUIMixin = {}--- @class ArtifactUIMixin
+ArtifactUIMixin = {} --- @class ArtifactUIMixin
 
 ------------------------------------------------------------------
 --   ArtifactFrame
@@ -299,7 +299,7 @@ end
 --   ArtifactFrameUnderlay
 ------------------------------------------------------------------
 
-ArtifactFrameUnderlayMixin = {};--- @class ArtifactFrameUnderlayMixin
+ArtifactFrameUnderlayMixin = {}; --- @class ArtifactFrameUnderlayMixin
 
 
 ARTIFACT_ITEM_SPEED_FACTOR = 0.15;

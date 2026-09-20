@@ -20,7 +20,7 @@ local function GenerateRankText(professionName, skillLevel, maxSkillLevel, skill
 	return rankText;
 end
 
-ProfessionsRankBarDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class ProfessionsRankBarDropdownMixin : ButtonStateBehaviorMixin
+ProfessionsRankBarDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class ProfessionsRankBarDropdownMixin : ButtonStateBehaviorMixin
 
 local function IsSelected(professionInfo)
 	local baseProfessionInfo = C_TradeSkillUI.GetChildProfessionInfo();
@@ -75,7 +75,7 @@ function ProfessionsRankBarDropdownMixin:OnButtonStateChanged()
 	self.Texture:SetAtlas(self:GetAtlas(), TextureKitConstants.UseAtlasSize);
 end
 
-ProfessionsRankBarMixin = {};--- @class ProfessionsRankBarMixin
+ProfessionsRankBarMixin = {}; --- @class ProfessionsRankBarMixin
 
 function ProfessionsRankBarMixin:OnLoad()
 	self.Flare:ClearAllPoints();

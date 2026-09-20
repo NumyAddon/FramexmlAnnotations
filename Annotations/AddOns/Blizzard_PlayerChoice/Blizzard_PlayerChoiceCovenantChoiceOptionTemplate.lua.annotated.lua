@@ -1,4 +1,4 @@
-PlayerChoiceCovenantChoiceOptionTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin);--- @class PlayerChoiceCovenantChoiceOptionTemplateMixin : PlayerChoiceBaseOptionTemplateMixin
+PlayerChoiceCovenantChoiceOptionTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin); --- @class PlayerChoiceCovenantChoiceOptionTemplateMixin : PlayerChoiceBaseOptionTemplateMixin
 
 function PlayerChoiceCovenantChoiceOptionTemplateMixin:OnLoad()
 	self.WidgetContainer:Hide();
@@ -97,7 +97,7 @@ function PlayerChoiceCovenantChoiceOptionTemplateMixin:OnSelected()
 	PlayerChoiceFrame:OnSelectionMade();
 end
 
-PlayerChoiceCovenantChoicePreviewButtonMixin = CreateFromMixins(PlayerChoiceBaseOptionButtonTemplateMixin);--- @class PlayerChoiceCovenantChoicePreviewButtonMixin : PlayerChoiceBaseOptionButtonTemplateMixin
+PlayerChoiceCovenantChoicePreviewButtonMixin = CreateFromMixins(PlayerChoiceBaseOptionButtonTemplateMixin); --- @class PlayerChoiceCovenantChoicePreviewButtonMixin : PlayerChoiceBaseOptionButtonTemplateMixin
 
 function PlayerChoiceCovenantChoicePreviewButtonMixin:OnLoad()
 	self.parentOption = self:GetParent();

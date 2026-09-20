@@ -1,4 +1,4 @@
-RPETutorialInterruptMixin = CreateFromMixins(UIFrameManager_ManagedFrameMixin);--- @class RPETutorialInterruptMixin : UIFrameManager_ManagedFrameMixin
+RPETutorialInterruptMixin = CreateFromMixins(UIFrameManager_ManagedFrameMixin); --- @class RPETutorialInterruptMixin : UIFrameManager_ManagedFrameMixin
 
 function RPETutorialInterruptMixin:OnLoad()
 	UIFrameManager_ManagedFrameMixin.OnLoad(self);

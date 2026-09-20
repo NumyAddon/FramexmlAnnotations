@@ -1,4 +1,4 @@
-CommentatorSpellBaseMixin = {};--- @class CommentatorSpellBaseMixin
+CommentatorSpellBaseMixin = {}; --- @class CommentatorSpellBaseMixin
 
 function CommentatorSpellBaseMixin:Initialize(spellCache)
 	self.spellCache = spellCache;
@@ -29,7 +29,7 @@ function CommentatorSpellBaseMixin:SetActive(isActive)
 	-- derive
 end
 
-CommentatorSpellMixin = CreateFromMixins(CommentatorSpellBaseMixin);--- @class CommentatorSpellMixin : CommentatorSpellBaseMixin
+CommentatorSpellMixin = CreateFromMixins(CommentatorSpellBaseMixin); --- @class CommentatorSpellMixin : CommentatorSpellBaseMixin
 
 function CommentatorSpellMixin:OnLoad()
 	self.Charges:SetScript("OnCooldownDone", GenerateClosure(self.UpdateCooldownsAndCharges, self));
@@ -98,7 +98,7 @@ function CommentatorSpellMixin:Initialize(spellCache)
 	self:UpdateCooldownsAndCharges();
 end
 
-CommentatorDebuffMixin = CreateFromMixins(CommentatorSpellBaseMixin);--- @class CommentatorDebuffMixin : CommentatorSpellBaseMixin
+CommentatorDebuffMixin = CreateFromMixins(CommentatorSpellBaseMixin); --- @class CommentatorDebuffMixin : CommentatorSpellBaseMixin
 
 function CommentatorDebuffMixin:UpdateCooldowns()
 	local start, duration, enable = self.spellCache:GetPlayerAuraInfo();
@@ -115,7 +115,7 @@ function CommentatorDebuffMixin:Initialize(spellCache)
 	self:UpdateCooldowns();
 end
 
-CommentatorCooldownMixin = {}--- @class CommentatorCooldownMixin
+CommentatorCooldownMixin = {} --- @class CommentatorCooldownMixin
 
 function CommentatorCooldownMixin:OnLoad()
 	self:SetCountdownFont("SystemFont_Shadow_Med3");

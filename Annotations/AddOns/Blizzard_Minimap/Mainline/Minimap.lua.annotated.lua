@@ -103,7 +103,7 @@ end
 
 local trackingState = CreatePredictedTrackingState();
 
-MinimapZoneTextButtonMixin = { };--- @class MinimapZoneTextButtonMixin
+MinimapZoneTextButtonMixin = { }; --- @class MinimapZoneTextButtonMixin
 
 function MinimapZoneTextButtonMixin:OnLoad()
 	self.tooltipText = MicroButtonTooltipText(WORLDMAP_BUTTON, "TOGGLEWORLDMAP");
@@ -134,7 +134,7 @@ function MinimapZoneTextButtonMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-MinimapMixin = { };--- @class MinimapMixin
+MinimapMixin = { }; --- @class MinimapMixin
 
 function MinimapMixin:OnLoad()
 	self.fadeOut = nil;
@@ -300,7 +300,7 @@ function Minimap_OnUpdate(self)
 	GameTooltip:SetMinimapMouseover();
 end
 
-MinimapZoomInButtonMixin = { };--- @class MinimapZoomInButtonMixin
+MinimapZoomInButtonMixin = { }; --- @class MinimapZoomInButtonMixin
 
 function MinimapZoomInButtonMixin:OnClick()
 	Minimap.ZoomOut:Enable();
@@ -322,7 +322,7 @@ function MinimapZoomInButtonMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-MinimapZoomOutButtonMixin = { };--- @class MinimapZoomOutButtonMixin
+MinimapZoomOutButtonMixin = { }; --- @class MinimapZoomOutButtonMixin
 
 function MinimapZoomOutButtonMixin:OnClick()
 	Minimap.ZoomIn:Enable();
@@ -352,7 +352,7 @@ function Minimap_ZoomOut()
 	Minimap.ZoomOut:Click();
 end
 
-MinimapClusterMixin = { };--- @class MinimapClusterMixin
+MinimapClusterMixin = { }; --- @class MinimapClusterMixin
 
 function MinimapClusterMixin:OnLoad()
 	Minimap.timer = 0;
@@ -454,7 +454,7 @@ function MiniMapIndicatorFrame_UpdatePosition()
 end
 
 
-MiniMapMailFrameMixin = { };--- @class MiniMapMailFrameMixin
+MiniMapMailFrameMixin = { }; --- @class MiniMapMailFrameMixin
 
 function MiniMapMailFrameMixin:OnLoad()
 	local inGameMailNotificationDisabled = C_GameRules.IsGameRuleActive(Enum.GameRule.IngameMailNotificationDisabled);
@@ -522,7 +522,7 @@ function MiniMapMailFrameMixin:TryPlayMailNotification()
 	end
 end
 
-MinimapMailAnimMixin = {};--- @class MinimapMailAnimMixin
+MinimapMailAnimMixin = {}; --- @class MinimapMailAnimMixin
 
 function MinimapMailAnimMixin:OnPlay()
 	MiniMapMailIcon:SetShown(false);
@@ -532,7 +532,7 @@ function MinimapMailAnimMixin:OnFinished()
 	MiniMapMailIcon:SetShown(HasNewMail());
 end
 
-MiniMapCraftingOrderFrameMixin = {};--- @class MiniMapCraftingOrderFrameMixin
+MiniMapCraftingOrderFrameMixin = {}; --- @class MiniMapCraftingOrderFrameMixin
 
 function MiniMapCraftingOrderFrameMixin:OnLoad()
 	self:RegisterEvent("CRAFTINGORDERS_UPDATE_PERSONAL_ORDER_COUNTS");
@@ -595,7 +595,7 @@ local function IsAllTrackingDeselected()
 end
 
 
-MiniMapTrackingButtonMixin = { };--- @class MiniMapTrackingButtonMixin
+MiniMapTrackingButtonMixin = { }; --- @class MiniMapTrackingButtonMixin
 
 function MiniMapTrackingButtonMixin:OnLoad()
 	local inGameTrackingDisabled = C_GameRules.IsGameRuleActive(Enum.GameRule.IngameTrackingDisabled);
@@ -795,7 +795,7 @@ function MiniMapTrackingButtonMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-ExpansionLandingPageMinimapButtonMixin = { };--- @class ExpansionLandingPageMinimapButtonMixin
+ExpansionLandingPageMinimapButtonMixin = { }; --- @class ExpansionLandingPageMinimapButtonMixin
 
 ExpansionLandingPageMode = {
 	Garrison = 1,

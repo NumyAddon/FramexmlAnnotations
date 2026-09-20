@@ -343,7 +343,7 @@ StaticPopupDialogs["ORDER_HALL_TALENT_RESEARCH"] = {
 	hideOnEscape = 1
 };
 
-OrderHallTalentFrameMixin = { }--- @class OrderHallTalentFrameMixin
+OrderHallTalentFrameMixin = { } --- @class OrderHallTalentFrameMixin
 
 do
 	NineSliceUtil.AddLayout("BFAOrderTalentHorde", {
@@ -1049,7 +1049,7 @@ function OrderHallTalentFrameMixin:GetResearchingTalentID()
 	return self.researchingTalentID;
 end
 
-GarrisonTalentButtonMixin = { }--- @class GarrisonTalentButtonMixin
+GarrisonTalentButtonMixin = { } --- @class GarrisonTalentButtonMixin
 
 function GarrisonTalentButtonMixin:SetTalent(talent, talentSelectedEffect, customUnavailableTalentErrorCallback)
 	self.talent = talent;
@@ -1328,7 +1328,7 @@ function GarrisonTalentButtonMixin:GetTalentFrame()
 	return self:GetParent();
 end
 
-GarrisonTalentButtonAnimationMixin = {};--- @class GarrisonTalentButtonAnimationMixin
+GarrisonTalentButtonAnimationMixin = {}; --- @class GarrisonTalentButtonAnimationMixin
 
 function GarrisonTalentButtonAnimationMixin:Attach(talentButton)
 	self:SetPoint("CENTER", talentButton, "CENTER");
@@ -1407,7 +1407,7 @@ function GarrisonTalentButtonAnimationMixin:IsPlayingHighlightAnimation()
 end
 
 
-CypherEquipmentLevelMixin = {};--- @class CypherEquipmentLevelMixin
+CypherEquipmentLevelMixin = {}; --- @class CypherEquipmentLevelMixin
 
 local CypherEquipmentLevelEvents =
 {

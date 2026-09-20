@@ -1,7 +1,7 @@
 -- Identical element optimization is not implemented because this view is expected to be used
 -- with elements of varied sizes, whereas elements of the same size are already accomodated by
 -- GridView.
-ScrollBoxListSequenceViewMixin = CreateFromMixins(ScrollBoxListBiaxalViewMixin);--- @class ScrollBoxListSequenceViewMixin : ScrollBoxListBiaxalViewMixin
+ScrollBoxListSequenceViewMixin = CreateFromMixins(ScrollBoxListBiaxalViewMixin); --- @class ScrollBoxListSequenceViewMixin : ScrollBoxListBiaxalViewMixin
 
 function ScrollBoxListSequenceViewMixin:Layout(scrollBox)
 	local frames = self:GetFrames();

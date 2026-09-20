@@ -2,7 +2,7 @@
 local ITEM_SELL_SCROLL_OFFSET_REFRESH_THRESHOLD = 30;
 
 
-AuctionHouseBuyoutModeCheckButtonMixin = {};--- @class AuctionHouseBuyoutModeCheckButtonMixin
+AuctionHouseBuyoutModeCheckButtonMixin = {}; --- @class AuctionHouseBuyoutModeCheckButtonMixin
 
 function AuctionHouseBuyoutModeCheckButtonMixin:OnLoad()
 	self.Text:SetFontObject(GameFontNormal);
@@ -38,7 +38,7 @@ function AuctionHouseBuyoutModeCheckButtonMixin:UpdateState()
 end
 
 
-AuctionHouseItemSellFrameMixin = CreateFromMixins(AuctionHouseSellFrameMixin);--- @class AuctionHouseItemSellFrameMixin : AuctionHouseSellFrameMixin
+AuctionHouseItemSellFrameMixin = CreateFromMixins(AuctionHouseSellFrameMixin); --- @class AuctionHouseItemSellFrameMixin : AuctionHouseSellFrameMixin
 
 local AUCTION_HOUSE_ITEM_SELL_FRAME_EVENTS = {
 	"ITEM_SEARCH_RESULTS_UPDATED",

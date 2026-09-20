@@ -6,7 +6,7 @@ local HouseEditorLayoutModeShownEvents =
 };
 
 ----------------- Base Pin Mixin -----------------
-HousingLayoutBasePinMixin = {};--- @class HousingLayoutBasePinMixin
+HousingLayoutBasePinMixin = {}; --- @class HousingLayoutBasePinMixin
 
 function HousingLayoutBasePinMixin:SetPin(pin)
 	self.pin = pin;
@@ -54,7 +54,7 @@ end
 
 
 ----------------- Door Pin Mixin -----------------
-HousingLayoutDoorPinMixin = CreateFromMixins(HousingLayoutBasePinMixin);--- @class HousingLayoutDoorPinMixin : HousingLayoutBasePinMixin
+HousingLayoutDoorPinMixin = CreateFromMixins(HousingLayoutBasePinMixin); --- @class HousingLayoutDoorPinMixin : HousingLayoutBasePinMixin
 
 function HousingLayoutDoorPinMixin:Init()
 	self.connectionType = nil;
@@ -216,7 +216,7 @@ function HousingLayoutDoorPinMixin:GetPinDebugName()
 end
 
 ----------------- Room Pin Mixin -----------------
-HousingLayoutRoomPinMixin = CreateFromMixins(HousingLayoutBasePinMixin);--- @class HousingLayoutRoomPinMixin : HousingLayoutBasePinMixin
+HousingLayoutRoomPinMixin = CreateFromMixins(HousingLayoutBasePinMixin); --- @class HousingLayoutRoomPinMixin : HousingLayoutBasePinMixin
 
 function HousingLayoutRoomPinMixin:OnLoad()
 	
@@ -439,7 +439,7 @@ function HousingLayoutRoomPinMixin:OnEvent(event, ...)
 end
 
 ----------------- Room Option Mixin -----------------
-HousingLayoutRoomOptionMixin = {};--- @class HousingLayoutRoomOptionMixin
+HousingLayoutRoomOptionMixin = {}; --- @class HousingLayoutRoomOptionMixin
 
 function HousingLayoutRoomOptionMixin:OnLoad()
 	if self.iconAtlas and self.iconAtlas ~= "" then

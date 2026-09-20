@@ -4,7 +4,7 @@ local DISPLAY_STATE_OPEN_MINIMIZED_NO_LOG = 2;
 local DISPLAY_STATE_OPEN_MINIMIZED_WITH_LOG = 3;
 local DISPLAY_STATE_OPEN_MAXIMIZED = 4;
 
-QuestLogOwnerMixin = { }--- @class QuestLogOwnerMixin
+QuestLogOwnerMixin = { } --- @class QuestLogOwnerMixin
 
 function QuestLogOwnerMixin:GetOpenDisplayState()
 	local displayState;

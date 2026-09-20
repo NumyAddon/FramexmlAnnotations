@@ -4,7 +4,7 @@ local splashFrameTextureRegions = {
 	["BottomTexture"] = "splash-%s-botleft",
 };
 
-SplashFrameMixin = { };--- @class SplashFrameMixin
+SplashFrameMixin = { }; --- @class SplashFrameMixin
 
 function SplashFrameMixin:OnLoad()
 	self.screenInfo = nil;
@@ -100,7 +100,7 @@ function SplashFrameMixin:Close()
 	PlaySound(SOUNDKIT.IG_MAINMENU_QUIT);
 end
 
-StartQuestButtonMixin = { };--- @class StartQuestButtonMixin
+StartQuestButtonMixin = { }; --- @class StartQuestButtonMixin
 
 function StartQuestButtonMixin:SetButtonState(enabled)
 	if (enabled) then
@@ -139,14 +139,14 @@ function StartQuestButtonMixin:OnClick()
 end
 
 
-SplashFeatureFrameMixin = { };--- @class SplashFeatureFrameMixin
+SplashFeatureFrameMixin = { }; --- @class SplashFeatureFrameMixin
 
 function SplashFeatureFrameMixin:Setup(title, description)
 	self.Title:SetText(title);
 	self.Description:SetText(description);
 end
 
-SplashRightFeatureFrameMixin = { };--- @class SplashRightFeatureFrameMixin
+SplashRightFeatureFrameMixin = { }; --- @class SplashRightFeatureFrameMixin
 
 function SplashRightFeatureFrameMixin:GetQuestID(screenInfo)
 	if (UnitFactionGroup("player") == "Horde") then

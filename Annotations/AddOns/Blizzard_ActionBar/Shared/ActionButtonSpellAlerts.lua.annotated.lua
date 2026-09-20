@@ -130,7 +130,7 @@ function ActionButtonSpellAlertManager:HasAlert(actionButton)
 	return hasAlert, alertType;
 end
 
-ActionButtonSpellAlertMixin = {};--- @class ActionButtonSpellAlertMixin
+ActionButtonSpellAlertMixin = {}; --- @class ActionButtonSpellAlertMixin
 
 function ActionButtonSpellAlertMixin:OnLoad()
 	self.ProcStartAnim:SetScript("OnFinished", function()

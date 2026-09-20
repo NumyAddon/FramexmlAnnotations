@@ -56,7 +56,7 @@ CastingBarTypeInfo = {
 	},
 };
 
-CastingBarMixin = {};--- @class CastingBarMixin
+CastingBarMixin = {}; --- @class CastingBarMixin
 
 function CastingBarMixin:OnLoad(unit, showTradeSkills, showShield)
 	self.StagePoints = {};
@@ -1253,7 +1253,7 @@ function CastingBarMixin:SimulateCast(castData)
 end
 
 -- Alternate Player Casting Bar for use over frames whose content triggers contextual player casts
-OverlayPlayerCastingBarMixin = {};--- @class OverlayPlayerCastingBarMixin
+OverlayPlayerCastingBarMixin = {}; --- @class OverlayPlayerCastingBarMixin
 
 function OverlayPlayerCastingBarMixin:OnLoad()
 	local showTradeSkills = true;

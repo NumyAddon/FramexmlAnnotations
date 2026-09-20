@@ -4,7 +4,7 @@ local ACTIVE_EVENTS = {
 	"UPDATE_BATTLEFIELD_SCORE",
 };
 
-PVPMatchScoreboardMixin = {};--- @class PVPMatchScoreboardMixin
+PVPMatchScoreboardMixin = {}; --- @class PVPMatchScoreboardMixin
 
 function PVPMatchScoreboardMixin:OnLoad()
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");

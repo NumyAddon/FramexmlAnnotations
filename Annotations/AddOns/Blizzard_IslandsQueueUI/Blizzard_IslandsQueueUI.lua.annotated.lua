@@ -8,7 +8,7 @@ local ISLAND_QUEUE_DIFFICULTY_EVENTS = {
 	"LFG_UPDATE_RANDOM_INFO",
 };
 
-IslandsQueueWeeklyQuestMixin = { };--- @class IslandsQueueWeeklyQuestMixin
+IslandsQueueWeeklyQuestMixin = { }; --- @class IslandsQueueWeeklyQuestMixin
 
 local ButtonTooltips =
 {
@@ -112,7 +112,7 @@ function IslandsQueueWeeklyQuestMixin:Refresh()
 	end
 end
 
-IslandsQueueWeeklyQuestRewardMixin = { };--- @class IslandsQueueWeeklyQuestRewardMixin
+IslandsQueueWeeklyQuestRewardMixin = { }; --- @class IslandsQueueWeeklyQuestRewardMixin
 
 function IslandsQueueWeeklyQuestRewardMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
@@ -132,7 +132,7 @@ function IslandsQueueWeeklyQuestRewardMixin:OnLeave()
 end
 
 
-IslandsQueueFrameMixin = { };--- @class IslandsQueueFrameMixin
+IslandsQueueFrameMixin = { }; --- @class IslandsQueueFrameMixin
 
 local function SetWidgetFrameAnchors(frame, anchorFrame)
 	frame:ClearAllPoints();
@@ -195,7 +195,7 @@ function IslandsQueueFrameMixin:OnHide()
 	C_IslandsQueue.CloseIslandsQueueScreen();
 end
 
-IslandsQueueFrameDifficultyMixin = { };--- @class IslandsQueueFrameDifficultyMixin
+IslandsQueueFrameDifficultyMixin = { }; --- @class IslandsQueueFrameDifficultyMixin
 
 function IslandsQueueFrameDifficultyMixin:OnQueueClick()
 	C_IslandsQueue.QueueForIsland(self:GetActiveDifficulty());

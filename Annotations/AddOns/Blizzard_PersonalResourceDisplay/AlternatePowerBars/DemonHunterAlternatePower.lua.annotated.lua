@@ -1,7 +1,7 @@
 -- NOTE: If you make changes here, you likely need to make changes to DemonHunterSoulFragmentsBar.lua
 
 -- Demon Hunter Alternate Power Bar: Soul Fragments
-DemonHunterAlternatePowerBarMixin = {};--- @class DemonHunterAlternatePowerBarMixin
+DemonHunterAlternatePowerBarMixin = {}; --- @class DemonHunterAlternatePowerBarMixin
 
 function DemonHunterAlternatePowerBarMixin:Initialize()
 	self.requiredClass = "DEMONHUNTER";

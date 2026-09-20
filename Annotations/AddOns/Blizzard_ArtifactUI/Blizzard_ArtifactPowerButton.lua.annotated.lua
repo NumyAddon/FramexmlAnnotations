@@ -2,7 +2,7 @@
 --   ArtifactPowerButtonTemplate
 ------------------------------------------------------------------
 
-ArtifactPowerButtonMixin = {};--- @class ArtifactPowerButtonMixin
+ArtifactPowerButtonMixin = {}; --- @class ArtifactPowerButtonMixin
 
 ARTIFACT_POWER_STYLE_RUNE = 1;
 ARTIFACT_POWER_STYLE_MAXED = 2;

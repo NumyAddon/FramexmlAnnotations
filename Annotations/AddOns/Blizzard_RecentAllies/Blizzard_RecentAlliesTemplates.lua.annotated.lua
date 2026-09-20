@@ -1,4 +1,4 @@
-RecentAlliesListMixin = {};--- @class RecentAlliesListMixin
+RecentAlliesListMixin = {}; --- @class RecentAlliesListMixin
 
 local RecentAlliesListEvents = {
 	"RECENT_ALLIES_CACHE_UPDATE",
@@ -116,7 +116,7 @@ function RecentAlliesListMixin:SetLoadingSpinnerShown(shown)
 	self.ScrollBar:SetShown(not shown);
 end
 
-RecentAlliesEntryMixin = {};--- @class RecentAlliesEntryMixin
+RecentAlliesEntryMixin = {}; --- @class RecentAlliesEntryMixin
 
 function RecentAlliesEntryMixin:OnLoad()
 	self.PartyButton:SetScript("OnClick", function()
@@ -358,7 +358,7 @@ function RecentAlliesEntryMixin:OpenMenu()
 	UnitPopup_OpenMenu(bestMenu, contextData);
 end
 
-RecentAlliesEntryPartyButtonMixin = {};--- @class RecentAlliesEntryPartyButtonMixin
+RecentAlliesEntryPartyButtonMixin = {}; --- @class RecentAlliesEntryPartyButtonMixin
 
 function RecentAlliesEntryPartyButtonMixin:OnEnter()
 	self:ShowTooltip();
@@ -383,7 +383,7 @@ function RecentAlliesEntryPartyButtonMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-RecentAlliesEntryPinDisplayMixin = {};--- @class RecentAlliesEntryPinDisplayMixin
+RecentAlliesEntryPinDisplayMixin = {}; --- @class RecentAlliesEntryPinDisplayMixin
 
 function RecentAlliesEntryPinDisplayMixin:Init(stateData)
 	self.pinExpirationDate = stateData.pinExpirationDate;

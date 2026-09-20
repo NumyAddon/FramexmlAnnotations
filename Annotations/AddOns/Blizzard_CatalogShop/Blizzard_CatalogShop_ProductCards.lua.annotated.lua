@@ -1,6 +1,6 @@
 --------------------------------------------------
 -- CATALOG SHOP SECTION HEADER MIXIN
-CatalogShopSectionHeaderMixin = {};--- @class CatalogShopSectionHeaderMixin
+CatalogShopSectionHeaderMixin = {}; --- @class CatalogShopSectionHeaderMixin
 function CatalogShopSectionHeaderMixin:OnLoad()
 end
 
@@ -24,7 +24,7 @@ end
 
 --------------------------------------------------
 -- CatalogShopSectionHeaderOptOutLinkMixin
-CatalogShopSectionHeaderOptOutLinkMixin = {};--- @class CatalogShopSectionHeaderOptOutLinkMixin
+CatalogShopSectionHeaderOptOutLinkMixin = {}; --- @class CatalogShopSectionHeaderOptOutLinkMixin
 function CatalogShopSectionHeaderOptOutLinkMixin:OnLoad()
 	self.Help:SetScript("OnEnter", self.OnInfoButton_Enter);
 	self.Help:SetScript("OnLeave", self.OnInfoButton_Leave);
@@ -68,7 +68,7 @@ end
 
 --------------------------------------------------
 -- SMALL CATALOG SHOP SERVICES CARD MIXIN
-SmallCatalogShopServicesCardMixin = {};--- @class SmallCatalogShopServicesCardMixin
+SmallCatalogShopServicesCardMixin = {}; --- @class SmallCatalogShopServicesCardMixin
 function SmallCatalogShopServicesCardMixin:OnLoad()
 	SmallCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -103,7 +103,7 @@ end
 --------------------------------------------------
 -- SMALL CATALOG SHOP SUBSCRIPTION CARD MIXIN
 -- Both sub time and game time have the same display type, but their Atlases are distinct
-SmallCatalogShopSubscriptionCardMixin = {};--- @class SmallCatalogShopSubscriptionCardMixin
+SmallCatalogShopSubscriptionCardMixin = {}; --- @class SmallCatalogShopSubscriptionCardMixin
 function SmallCatalogShopSubscriptionCardMixin:OnLoad()
 	SmallCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -143,7 +143,7 @@ end
 --------------------------------------------------
 -- SMALL CATALOG SHOP GAME TIME CARD MIXIN
 -- Both sub time and game time have the same display type, but their Atlases are distinct
-SmallCatalogShopGameTimeCardMixin = {};--- @class SmallCatalogShopGameTimeCardMixin
+SmallCatalogShopGameTimeCardMixin = {}; --- @class SmallCatalogShopGameTimeCardMixin
 function SmallCatalogShopGameTimeCardMixin:OnLoad()
 	SmallCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -156,7 +156,7 @@ end
 
 --------------------------------------------------
 -- SMALL CATALOG SHOP TENDER CARD MIXIN
-SmallCatalogShopTenderCardMixin = {};--- @class SmallCatalogShopTenderCardMixin
+SmallCatalogShopTenderCardMixin = {}; --- @class SmallCatalogShopTenderCardMixin
 function SmallCatalogShopTenderCardMixin:OnLoad()
 	SmallCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -197,7 +197,7 @@ end
 
 --------------------------------------------------
 -- SMALL CATALOG SHOP TOYS CARD MIXIN
-SmallCatalogShopToysCardMixin = {};--- @class SmallCatalogShopToysCardMixin
+SmallCatalogShopToysCardMixin = {}; --- @class SmallCatalogShopToysCardMixin
 function SmallCatalogShopToysCardMixin:OnLoad()
 	SmallCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -228,7 +228,7 @@ end
 
 --------------------------------------------------
 -- SMALL CATALOG SHOP DECOR CARD MIXIN
-SmallCatalogShopDecorCardMixin = {};--- @class SmallCatalogShopDecorCardMixin
+SmallCatalogShopDecorCardMixin = {}; --- @class SmallCatalogShopDecorCardMixin
 function SmallCatalogShopDecorCardMixin:OnLoad()
 	SmallCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -259,7 +259,7 @@ end
 
 --------------------------------------------------
 -- SMALL CATALOG SHOP ACCESS CARD MIXIN
-SmallCatalogShopAccessCardMixin = {};--- @class SmallCatalogShopAccessCardMixin
+SmallCatalogShopAccessCardMixin = {}; --- @class SmallCatalogShopAccessCardMixin
 function SmallCatalogShopAccessCardMixin:OnLoad()
 	SmallCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -297,7 +297,7 @@ end
 
 --------------------------------------------------
 -- DETAILS DEFAULT CATALOG SHOP PRODUCT CARD MIXIN
-DetailsCatalogShopProductCardMixin = {};--- @class DetailsCatalogShopProductCardMixin
+DetailsCatalogShopProductCardMixin = {}; --- @class DetailsCatalogShopProductCardMixin
 function DetailsCatalogShopProductCardMixin:OnLoad()
 	SmallCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -341,7 +341,7 @@ end
 
 --------------------------------------------------
 -- DETAILS CATALOG SHOP SERVICES CARD MIXIN
-DetailsCatalogShopServicesCardMixin = {};--- @class DetailsCatalogShopServicesCardMixin
+DetailsCatalogShopServicesCardMixin = {}; --- @class DetailsCatalogShopServicesCardMixin
 function DetailsCatalogShopServicesCardMixin:OnLoad()
 	DetailsCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -353,7 +353,7 @@ end
 
 --------------------------------------------------
 -- DETAILS CATALOG SHOP SUBSCRIPTION CARD MIXIN
-DetailsCatalogShopSubscriptionCardMixin = {};--- @class DetailsCatalogShopSubscriptionCardMixin
+DetailsCatalogShopSubscriptionCardMixin = {}; --- @class DetailsCatalogShopSubscriptionCardMixin
 function DetailsCatalogShopSubscriptionCardMixin:OnLoad()
 	DetailsCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -365,7 +365,7 @@ end
 
 --------------------------------------------------
 -- DETAILS CATALOG SHOP GAME TIME CARD MIXIN
-DetailsCatalogShopGameTimeCardMixin = {};--- @class DetailsCatalogShopGameTimeCardMixin
+DetailsCatalogShopGameTimeCardMixin = {}; --- @class DetailsCatalogShopGameTimeCardMixin
 function DetailsCatalogShopGameTimeCardMixin:OnLoad()
 	DetailsCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -377,7 +377,7 @@ end
 
 --------------------------------------------------
 -- DETAILS CATALOG SHOP TENDER CARD MIXIN
-DetailsCatalogShopTenderCardMixin = {};--- @class DetailsCatalogShopTenderCardMixin
+DetailsCatalogShopTenderCardMixin = {}; --- @class DetailsCatalogShopTenderCardMixin
 function DetailsCatalogShopTenderCardMixin:OnLoad()
 	DetailsCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -389,7 +389,7 @@ end
 
 --------------------------------------------------
 -- DETAILS CATALOG SHOP TOYS CARD MIXIN
-DetailsCatalogShopToysCardMixin = {};--- @class DetailsCatalogShopToysCardMixin
+DetailsCatalogShopToysCardMixin = {}; --- @class DetailsCatalogShopToysCardMixin
 function DetailsCatalogShopToysCardMixin:OnLoad()
 	DetailsCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -401,7 +401,7 @@ end
 
 --------------------------------------------------
 -- DETAILS CATALOG SHOP DECOR CARD MIXIN
-DetailsCatalogShopDecorCardMixin = {};--- @class DetailsCatalogShopDecorCardMixin
+DetailsCatalogShopDecorCardMixin = {}; --- @class DetailsCatalogShopDecorCardMixin
 function DetailsCatalogShopDecorCardMixin:OnLoad()
 	DetailsCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -413,7 +413,7 @@ end
 
 --------------------------------------------------
 -- DETAILS CATALOG SHOP ACCESS CARD MIXIN
-DetailsCatalogShopAccessCardMixin = {};--- @class DetailsCatalogShopAccessCardMixin
+DetailsCatalogShopAccessCardMixin = {}; --- @class DetailsCatalogShopAccessCardMixin
 function DetailsCatalogShopAccessCardMixin:OnLoad()
 	DetailsCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -426,7 +426,7 @@ end
 
 --------------------------------------------------
 -- WIDE CATALOG SHOP SUBSCRIPTION CARD MIXIN
-WideSubscriptionCatalogShopCardMixin = {};--- @class WideSubscriptionCatalogShopCardMixin
+WideSubscriptionCatalogShopCardMixin = {}; --- @class WideSubscriptionCatalogShopCardMixin
 function WideSubscriptionCatalogShopCardMixin:OnLoad()
 	WideCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -439,7 +439,7 @@ end
 
 --------------------------------------------------
 -- WIDE CATALOG SHOP GAME TIME CARD MIXIN
-WideGameTimeCatalogShopCardMixin = {};--- @class WideGameTimeCatalogShopCardMixin
+WideGameTimeCatalogShopCardMixin = {}; --- @class WideGameTimeCatalogShopCardMixin
 function WideGameTimeCatalogShopCardMixin:OnLoad()
 	WideCatalogShopProductCardMixin.OnLoad(self);
 end
@@ -452,7 +452,7 @@ end
 
 --------------------------------------------------
 -- WOW TOKEN CATALOG SHOP CARD MIXIN
-WideWoWTokenCatalogShopCardMixin = {};--- @class WideWoWTokenCatalogShopCardMixin
+WideWoWTokenCatalogShopCardMixin = {}; --- @class WideWoWTokenCatalogShopCardMixin
 function WideWoWTokenCatalogShopCardMixin:OnLoad()
 	WideCatalogShopProductCardMixin.OnLoad(self);
 end

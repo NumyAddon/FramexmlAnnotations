@@ -1,4 +1,4 @@
-UIWidgetCenterScreenContainerMixin = {}--- @class UIWidgetCenterScreenContainerMixin
+UIWidgetCenterScreenContainerMixin = {} --- @class UIWidgetCenterScreenContainerMixin
 
 local centerScreenSetID = 676;
 function UIWidgetCenterScreenContainerMixin:Layout()

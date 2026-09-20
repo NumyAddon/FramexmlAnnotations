@@ -46,7 +46,7 @@ function EncounterTimelineUtil.IsTerminalEventState(state)
 	return TerminalEventStates[state] == true;
 end
 
-EncounterTimelineTrackOrientationMixin = {};--- @class EncounterTimelineTrackOrientationMixin
+EncounterTimelineTrackOrientationMixin = {}; --- @class EncounterTimelineTrackOrientationMixin
 
 function EncounterTimelineTrackOrientationMixin:GetStartPoint()
 	return self.primaryAxisStartPoint;
@@ -109,7 +109,7 @@ function EncounterTimelineUtil.CreateTrackOrientation(orientationSetting, iconDi
 	return orientation;
 end
 
-EncounterTimelineOrientedScriptRegionMixin = {};--- @class EncounterTimelineOrientedScriptRegionMixin
+EncounterTimelineOrientedScriptRegionMixin = {}; --- @class EncounterTimelineOrientedScriptRegionMixin
 
 function EncounterTimelineOrientedScriptRegionMixin:SetOrientedPoint(orientation, point, relativeTo, relativePoint, x, y)
 	point = orientation:GetTranslatedPointName(point);
@@ -125,9 +125,9 @@ function EncounterTimelineOrientedScriptRegionMixin:SetOrientedSize(orientation,
 	self:SetSize(orientation:GetOrientedExtents(w, h));
 end
 
-EncounterTimelineOrientedFrameMixin = CreateFromMixins(EncounterTimelineOrientedScriptRegionMixin);--- @class EncounterTimelineOrientedFrameMixin : EncounterTimelineOrientedScriptRegionMixin
+EncounterTimelineOrientedFrameMixin = CreateFromMixins(EncounterTimelineOrientedScriptRegionMixin); --- @class EncounterTimelineOrientedFrameMixin : EncounterTimelineOrientedScriptRegionMixin
 
-EncounterTimelineOrientedTextureMixin = CreateFromMixins(EncounterTimelineOrientedScriptRegionMixin);--- @class EncounterTimelineOrientedTextureMixin : EncounterTimelineOrientedScriptRegionMixin
+EncounterTimelineOrientedTextureMixin = CreateFromMixins(EncounterTimelineOrientedScriptRegionMixin); --- @class EncounterTimelineOrientedTextureMixin : EncounterTimelineOrientedScriptRegionMixin
 
 function EncounterTimelineOrientedTextureMixin:SetOrientedAtlas(orientation, atlasName)
 	self:SetAtlas(atlasName, TextureKitConstants.UseAtlasSize);
@@ -146,7 +146,7 @@ function EncounterTimelineOrientedTextureMixin:SetOrientedTexCoordPerVertex(orie
 	self:SetTexCoord(orientation:GetOrientedTexCoord(x1, y1, x2, y2, x3, y3, x4, y4));
 end
 
-EncounterTimelineTrackInterpolatorMixin = {};--- @class EncounterTimelineTrackInterpolatorMixin
+EncounterTimelineTrackInterpolatorMixin = {}; --- @class EncounterTimelineTrackInterpolatorMixin
 
 function EncounterTimelineTrackInterpolatorMixin:Init()
 	self:SetFixedOffset(0);

@@ -1,5 +1,5 @@
 
-MajorFactionUnlockToastMixin = {};--- @class MajorFactionUnlockToastMixin
+MajorFactionUnlockToastMixin = {}; --- @class MajorFactionUnlockToastMixin
 
 function MajorFactionUnlockToastMixin:OnLoad()
 	self:RegisterEvent("MAJOR_FACTION_UNLOCKED");

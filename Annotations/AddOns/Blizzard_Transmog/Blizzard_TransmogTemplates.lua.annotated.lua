@@ -1,4 +1,4 @@
-TransmogOutfitEntryMixin = {--- @class TransmogOutfitEntryMixin
+TransmogOutfitEntryMixin = { --- @class TransmogOutfitEntryMixin
 	DYNAMIC_EVENTS = {
 		"SPELL_UPDATE_COOLDOWN"
 	};
@@ -198,7 +198,7 @@ function TransmogOutfitEntryMixin:UpdateCooldown()
 end
 
 
-TransmogSlotMixin = {};--- @class TransmogSlotMixin
+TransmogSlotMixin = {}; --- @class TransmogSlotMixin
 
 function TransmogSlotMixin:OnClick(buttonName)
 	if not self.slotData then
@@ -444,7 +444,7 @@ function TransmogSlotMixin:SetCurrentWeaponOption(weaponOption)
 end
 
 
-TransmogAppearanceSlotMixin = CreateFromMixins(TransmogSlotMixin);--- @class TransmogAppearanceSlotMixin : TransmogSlotMixin
+TransmogAppearanceSlotMixin = CreateFromMixins(TransmogSlotMixin); --- @class TransmogAppearanceSlotMixin : TransmogSlotMixin
 
 TransmogAppearanceSlotMixin.DEFAULT_WEAPON_OPTION_INFO = {
 	weaponOption = Enum.TransmogOutfitSlotOption.None,
@@ -734,7 +734,7 @@ function TransmogAppearanceSlotMixin:GetCurrentIcons()
 end
 
 
-TransmogSlotFlyoutDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class TransmogSlotFlyoutDropdownMixin : ButtonStateBehaviorMixin
+TransmogSlotFlyoutDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class TransmogSlotFlyoutDropdownMixin : ButtonStateBehaviorMixin
 
 -- Overridden.
 function TransmogSlotFlyoutDropdownMixin:OnButtonStateChanged()
@@ -758,7 +758,7 @@ function TransmogSlotFlyoutDropdownMixin:OnMenuClosed(menu)
 end
 
 
-TransmogIllusionSlotMixin = CreateFromMixins(TransmogSlotMixin);--- @class TransmogIllusionSlotMixin : TransmogSlotMixin
+TransmogIllusionSlotMixin = CreateFromMixins(TransmogSlotMixin); --- @class TransmogIllusionSlotMixin : TransmogSlotMixin
 
 function TransmogIllusionSlotMixin:OnLoad()
 	self.SavedFrame.Anim:SetScript("OnFinished", function()
@@ -843,7 +843,7 @@ function TransmogIllusionSlotMixin:Update()
 end
 
 
-TransmogWardrobeCollectionTabMixin = {};--- @class TransmogWardrobeCollectionTabMixin
+TransmogWardrobeCollectionTabMixin = {}; --- @class TransmogWardrobeCollectionTabMixin
 
 function TransmogWardrobeCollectionTabMixin:SetTabSelected(isSelected)
 	TabSystemButtonArtMixin.SetTabSelected(self, isSelected);
@@ -852,7 +852,7 @@ function TransmogWardrobeCollectionTabMixin:SetTabSelected(isSelected)
 end
 
 
-TransmogSearchBoxMixin = {--- @class TransmogSearchBoxMixin
+TransmogSearchBoxMixin = { --- @class TransmogSearchBoxMixin
 	WARDROBE_SEARCH_DELAY = 0.6;
 };
 
@@ -922,7 +922,7 @@ function TransmogSearchBoxMixin:UpdateSearch()
 end
 
 
-TransmogSearchBoxProgressMixin = {--- @class TransmogSearchBoxProgressMixin
+TransmogSearchBoxProgressMixin = { --- @class TransmogSearchBoxProgressMixin
 	MIN_VALUE = 0;
 	MAX_VALUE = 1000;
 };
@@ -978,7 +978,7 @@ function TransmogSearchBoxProgressMixin:ShowProgressBar()
 end
 
 
-TransmogItemModelMixin = CreateFromMixins(ItemModelBaseMixin);--- @class TransmogItemModelMixin : ItemModelBaseMixin
+TransmogItemModelMixin = CreateFromMixins(ItemModelBaseMixin); --- @class TransmogItemModelMixin : ItemModelBaseMixin
 
 TransmogItemModelMixin.DYNAMIC_EVENTS = {
 	"VIEWED_TRANSMOG_OUTFIT_CHANGED",
@@ -1303,7 +1303,7 @@ function TransmogItemModelMixin:ShouldLocationUseDefaultVisual()
 end
 
 
-TransmogSetBaseModelMixin = {--- @class TransmogSetBaseModelMixin
+TransmogSetBaseModelMixin = { --- @class TransmogSetBaseModelMixin
 	DYNAMIC_EVENTS = {
 		"VIEWED_TRANSMOG_OUTFIT_SLOT_REFRESH",
 		"PLAYER_EQUIPMENT_CHANGED"
@@ -1386,7 +1386,7 @@ function TransmogSetBaseModelMixin:RefreshTooltip()
 end
 
 
-TransmogSetModelMixin = {};--- @class TransmogSetModelMixin
+TransmogSetModelMixin = {}; --- @class TransmogSetModelMixin
 
 function TransmogSetModelMixin:OnMouseDown(button)
 	if not self.elementData then
@@ -1561,7 +1561,7 @@ function TransmogSetModelMixin:ToggleFavorite(setFavorite, isGroupFavorite)
 end
 
 
-TransmogCustomSetModelMixin = {};--- @class TransmogCustomSetModelMixin
+TransmogCustomSetModelMixin = {}; --- @class TransmogCustomSetModelMixin
 
 function TransmogCustomSetModelMixin:OnMouseDown(button)
 	if not self.elementData then
@@ -1707,7 +1707,7 @@ function TransmogCustomSetModelMixin.Reset(framePool, self)
 end
 
 
-TransmogSituationMixin = {--- @class TransmogSituationMixin
+TransmogSituationMixin = { --- @class TransmogSituationMixin
 	DROPDOWN_WIDTH = 305;
 };
 

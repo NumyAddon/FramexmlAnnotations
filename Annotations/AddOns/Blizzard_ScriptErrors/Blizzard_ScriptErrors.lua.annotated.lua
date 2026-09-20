@@ -1,5 +1,5 @@
 
-ScriptErrorsMixin = {};--- @class ScriptErrorsMixin
+ScriptErrorsMixin = {}; --- @class ScriptErrorsMixin
 
 function ScriptErrorsMixin:Init()
 	self.unhandledErrors = {};

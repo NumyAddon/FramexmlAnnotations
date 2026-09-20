@@ -1,17 +1,17 @@
-VoiceToggleButtonMixin = {};--- @class VoiceToggleButtonMixin
+VoiceToggleButtonMixin = {}; --- @class VoiceToggleButtonMixin
 
 function VoiceToggleButtonMixin:OnLoad()
 	PropertyButtonMixin.OnLoad(self);
 end
 
-VoiceToggleButtonAlwaysVisibileMixin = CreateFromMixins(VoiceToggleButtonMixin);--- @class VoiceToggleButtonAlwaysVisibileMixin : VoiceToggleButtonMixin
+VoiceToggleButtonAlwaysVisibileMixin = CreateFromMixins(VoiceToggleButtonMixin); --- @class VoiceToggleButtonAlwaysVisibileMixin : VoiceToggleButtonMixin
 
 function VoiceToggleButtonAlwaysVisibileMixin:OnLoad()
 	VoiceToggleButtonMixin.OnLoad(self);
 	self:SetVisibilityQueryFunction(function() return true; end);
 end
 
-VoiceToggleButtonOnlyVisibleWhenLoggedInMixin = CreateFromMixins(VoiceToggleButtonMixin);--- @class VoiceToggleButtonOnlyVisibleWhenLoggedInMixin : VoiceToggleButtonMixin
+VoiceToggleButtonOnlyVisibleWhenLoggedInMixin = CreateFromMixins(VoiceToggleButtonMixin); --- @class VoiceToggleButtonOnlyVisibleWhenLoggedInMixin : VoiceToggleButtonMixin
 
 function VoiceToggleButtonOnlyVisibleWhenLoggedInMixin:OnLoad()
 	VoiceToggleButtonMixin.OnLoad(self);
@@ -20,7 +20,7 @@ function VoiceToggleButtonOnlyVisibleWhenLoggedInMixin:OnLoad()
 	self:SetVisibilityQueryFunction(function() return C_VoiceChat.IsLoggedIn(); end);
 end
 
-VoiceToggleMuteMixin = CreateFromMixins(VoiceToggleButtonOnlyVisibleWhenLoggedInMixin);--- @class VoiceToggleMuteMixin : VoiceToggleButtonOnlyVisibleWhenLoggedInMixin
+VoiceToggleMuteMixin = CreateFromMixins(VoiceToggleButtonOnlyVisibleWhenLoggedInMixin); --- @class VoiceToggleMuteMixin : VoiceToggleButtonOnlyVisibleWhenLoggedInMixin
 
 MUTE_SILENCE_STATE_NONE = 0;
 MUTE_SILENCE_STATE_MUTE = 1;
@@ -112,7 +112,7 @@ local function GetDeafenSelfButtonTooltipText(isDeafened)
 	end
 end
 
-VoiceToggleDeafenMixin = CreateFromMixins(VoiceToggleButtonOnlyVisibleWhenLoggedInMixin);--- @class VoiceToggleDeafenMixin : VoiceToggleButtonOnlyVisibleWhenLoggedInMixin
+VoiceToggleDeafenMixin = CreateFromMixins(VoiceToggleButtonOnlyVisibleWhenLoggedInMixin); --- @class VoiceToggleDeafenMixin : VoiceToggleButtonOnlyVisibleWhenLoggedInMixin
 
 function VoiceToggleDeafenMixin:OnLoad()
 	VoiceToggleButtonOnlyVisibleWhenLoggedInMixin.OnLoad(self);
@@ -126,7 +126,7 @@ function VoiceToggleDeafenMixin:OnLoad()
 	self:UpdateVisibleState();
 end
 
-RosterToggleButtonMixin = CreateFromMixins(VoiceToggleButtonMixin);--- @class RosterToggleButtonMixin : VoiceToggleButtonMixin
+RosterToggleButtonMixin = CreateFromMixins(VoiceToggleButtonMixin); --- @class RosterToggleButtonMixin : VoiceToggleButtonMixin
 
 function RosterToggleButtonMixin:IsLocalPlayer()
 	return self:GetParent():IsLocalPlayer();
@@ -160,7 +160,7 @@ function RosterToggleButtonMixin:ShouldShowRemotePlayerOnly()
 	return self:ShouldShow() and not self:IsLocalPlayer();
 end
 
-RosterSelfDeafenButtonMixin = CreateFromMixins(RosterToggleButtonMixin);--- @class RosterSelfDeafenButtonMixin : RosterToggleButtonMixin
+RosterSelfDeafenButtonMixin = CreateFromMixins(RosterToggleButtonMixin); --- @class RosterSelfDeafenButtonMixin : RosterToggleButtonMixin
 
 function RosterSelfDeafenButtonMixin:OnLoad()
 	RosterToggleButtonMixin.OnLoad(self);
@@ -182,7 +182,7 @@ function RosterSelfDeafenButtonMixin:IsDeafened()
 	return self:IsLocalPlayer() and C_VoiceChat.IsDeafened();
 end
 
-RosterSelfMuteButtonMixin = CreateFromMixins(RosterToggleButtonMixin);--- @class RosterSelfMuteButtonMixin : RosterToggleButtonMixin
+RosterSelfMuteButtonMixin = CreateFromMixins(RosterToggleButtonMixin); --- @class RosterSelfMuteButtonMixin : RosterToggleButtonMixin
 
 function RosterSelfMuteButtonMixin:IsForPublicChannel()
 	return self:GetParent():IsChannelPublic();
@@ -211,7 +211,7 @@ function RosterSelfMuteButtonMixin:IsMuted()
 	return self:IsLocalPlayer() and C_VoiceChat.IsMuted();
 end
 
-RosterMemberMuteButtonMixin = CreateFromMixins(RosterToggleButtonMixin);--- @class RosterMemberMuteButtonMixin : RosterToggleButtonMixin
+RosterMemberMuteButtonMixin = CreateFromMixins(RosterToggleButtonMixin); --- @class RosterMemberMuteButtonMixin : RosterToggleButtonMixin
 
 function RosterMemberMuteButtonMixin:SetupMuteButton()
 	local function GetMemberMuteAndSilenceState()

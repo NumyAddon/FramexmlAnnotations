@@ -1,4 +1,4 @@
-InstanceAbandonMixin = { };--- @class InstanceAbandonMixin
+InstanceAbandonMixin = { }; --- @class InstanceAbandonMixin
 
 StaticPopupDialogs["VOTE_ABANDON_INSTANCE_VOTE"] = {
 	text = VOTE_TO_ABANDON_PROMPT,

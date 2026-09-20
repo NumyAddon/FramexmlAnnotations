@@ -13,7 +13,7 @@ local SoulbindTreeEvents =
 	"CURSOR_CHANGED",
 };
 
-SoulbindTreeMixin = CreateFromMixins(CallbackRegistryMixin);--- @class SoulbindTreeMixin : CallbackRegistryMixin
+SoulbindTreeMixin = CreateFromMixins(CallbackRegistryMixin); --- @class SoulbindTreeMixin : CallbackRegistryMixin
 
 SoulbindTreeMixin:GenerateCallbackEvents(
 	{

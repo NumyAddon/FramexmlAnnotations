@@ -232,7 +232,7 @@ local function BindingTextFromElementData(elementData)
 end
 
 
-ClickBindingLineMixin = {};--- @class ClickBindingLineMixin
+ClickBindingLineMixin = {}; --- @class ClickBindingLineMixin
 
 function ClickBindingLineMixin:Init(elementData)
 	self:RegisterForClicks("AnyUp");
@@ -274,7 +274,7 @@ function ClickBindingLineMixin:OnLeave()
 end
 
 
-ClickBindingHeaderMixin = {};--- @class ClickBindingHeaderMixin
+ClickBindingHeaderMixin = {}; --- @class ClickBindingHeaderMixin
 
 function ClickBindingHeaderMixin:Init(elementData)
 	local elementName = ColoredNameAndIconFromElementData(elementData);
@@ -282,7 +282,7 @@ function ClickBindingHeaderMixin:Init(elementData)
 end
 
 
-ClickBindingFramePortraitMixin = {};--- @class ClickBindingFramePortraitMixin
+ClickBindingFramePortraitMixin = {}; --- @class ClickBindingFramePortraitMixin
 
 function ClickBindingFramePortraitMixin:SetSelectedState(isSelected)
 	self.Frame:SetDesaturated(not isSelected);
@@ -332,7 +332,7 @@ end
 
 UIPanelWindows["ClickBindingFrame"] = { area = "left", pushable = 2, whileDead = 1, width = 450, height = 600 };
 
-ClickBindingFrameMixin = {};--- @class ClickBindingFrameMixin
+ClickBindingFrameMixin = {}; --- @class ClickBindingFrameMixin
 
 function ClickBindingFrameMixin:InitializeButtons()
 	self.SaveButton:SetScript("OnClick", function()
@@ -806,7 +806,7 @@ function ClickBindingFrameMixin:UpdateMouseoverCastUI()
 	end
 end
 
-ClickBindingTutorialMixin = {};--- @class ClickBindingTutorialMixin
+ClickBindingTutorialMixin = {}; --- @class ClickBindingTutorialMixin
 
 function ClickBindingTutorialMixin:OnLoad()
 	self.Bg:SetPoint("TOPLEFT", 6, 0);
@@ -825,7 +825,7 @@ end
 
 -- [[ Enable Mouseover Cast ]]
 -- This should keep parity with the Interface Option Panel's MouseoverCast settings
-ClickableBindingsEnableMouseoverCastCheckboxMixin = {};--- @class ClickableBindingsEnableMouseoverCastCheckboxMixin
+ClickableBindingsEnableMouseoverCastCheckboxMixin = {}; --- @class ClickableBindingsEnableMouseoverCastCheckboxMixin
 
 function ClickableBindingsEnableMouseoverCastCheckboxMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");

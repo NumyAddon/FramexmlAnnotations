@@ -1,4 +1,4 @@
-FlightMap_QuestDataProviderMixin = CreateFromMixins(QuestDataProviderMixin);--- @class FlightMap_QuestDataProviderMixin : QuestDataProviderMixin
+FlightMap_QuestDataProviderMixin = CreateFromMixins(QuestDataProviderMixin); --- @class FlightMap_QuestDataProviderMixin : QuestDataProviderMixin
 
 function FlightMap_QuestDataProviderMixin:GetPinTemplate() -- override
 	return "FlightMap_QuestPinTemplate";
@@ -19,7 +19,7 @@ function FlightMap_QuestDataProviderMixin:AddQuest(...) -- override
 	return pin;
 end
 
-FlightMap_QuestPinMixin = { };--- @class FlightMap_QuestPinMixin
+FlightMap_QuestPinMixin = { }; --- @class FlightMap_QuestPinMixin
 
 function FlightMap_QuestPinMixin:OnLoad()
 	QuestPinMixin.OnLoad(self);

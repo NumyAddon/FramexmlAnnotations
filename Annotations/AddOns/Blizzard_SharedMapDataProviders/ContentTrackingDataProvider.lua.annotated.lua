@@ -94,7 +94,7 @@ function ContentTrackingDataProviderMixin:AddTrackable(trackableMapInfo)
 end
 
 --[[ Content Tracking Pin ]]--
-ContentTrackingPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class ContentTrackingPinMixin : MapCanvasPinMixin
+ContentTrackingPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class ContentTrackingPinMixin : MapCanvasPinMixin
 
 function ContentTrackingPinMixin:OnLoad()
 	self:SetDefaultMapPinScale();

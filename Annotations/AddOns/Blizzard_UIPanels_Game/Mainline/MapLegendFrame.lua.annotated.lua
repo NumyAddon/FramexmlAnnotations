@@ -1,4 +1,4 @@
-MapLegendMixin = { };--- @class MapLegendMixin
+MapLegendMixin = { }; --- @class MapLegendMixin
 
 function MapLegendMixin:OnLoad()
 	self:SetupCategories();
@@ -85,7 +85,7 @@ function MapLegendMixin:SetupCategories()
 	end
 end
 
-MapLegendButtonMixin = { };--- @class MapLegendButtonMixin
+MapLegendButtonMixin = { }; --- @class MapLegendButtonMixin
 
 function MapLegendButtonMixin:OnEnter()
 	local tooltip = GetAppropriateTooltip();

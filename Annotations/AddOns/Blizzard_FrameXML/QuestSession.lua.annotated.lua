@@ -16,7 +16,7 @@ local function GetMemberClass(guid)
 	return UnitClass(GetMemberUnit(guid));
 end
 
-QuestSessionDialogTitleMixin = {};--- @class QuestSessionDialogTitleMixin
+QuestSessionDialogTitleMixin = {}; --- @class QuestSessionDialogTitleMixin
 
 function QuestSessionDialogTitleMixin:SetText(atlas, text)
 	self.Icon:SetAtlas(atlas, true);
@@ -24,7 +24,7 @@ function QuestSessionDialogTitleMixin:SetText(atlas, text)
 	self:MarkDirty();
 end
 
-QuestSessionDialogBodyMixin = {};--- @class QuestSessionDialogBodyMixin
+QuestSessionDialogBodyMixin = {}; --- @class QuestSessionDialogBodyMixin
 
 function QuestSessionDialogBodyMixin:AdjustTextWidthForAlignment()
 	local body = self.Text;
@@ -73,7 +73,7 @@ function QuestSessionDialogBodyMixin:SetWarningText(text)
 	self:MarkDirty();
 end
 
-QuestSessionMemberMixin = {};--- @class QuestSessionMemberMixin
+QuestSessionMemberMixin = {}; --- @class QuestSessionMemberMixin
 
 function QuestSessionMemberMixin:SetUnit(unit)
 	SetPortraitTexture(self.Portrait, unit);
@@ -89,7 +89,7 @@ function QuestSessionMemberMixin:SetState(state)
 	self.StatusIcon:SetTexture(state);
 end
 
-QuestSessionDialogButtonMixin = {};--- @class QuestSessionDialogButtonMixin
+QuestSessionDialogButtonMixin = {}; --- @class QuestSessionDialogButtonMixin
 
 function QuestSessionDialogButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
@@ -102,14 +102,14 @@ function QuestSessionDialogButtonMixin:OnClick()
 	end
 end
 
-QuestSessionDialogMinimizeButtonMixin = {};--- @class QuestSessionDialogMinimizeButtonMixin
+QuestSessionDialogMinimizeButtonMixin = {}; --- @class QuestSessionDialogMinimizeButtonMixin
 
 function QuestSessionDialogMinimizeButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 	self:GetParent():Minimize();
 end
 
-QuestSessionDialogMixin = {};--- @class QuestSessionDialogMixin
+QuestSessionDialogMixin = {}; --- @class QuestSessionDialogMixin
 
 function QuestSessionDialogMixin:OnLoad()
 	self.ButtonContainer.Confirm:SetText(self.confirmText);
@@ -379,7 +379,7 @@ function QuestSessionDialogMixin:OnButtonsEnabled(enabled)
 	-- Override in derived mixin, nothing to do here
 end
 
-QuestSessionStartDialogMixin = {};--- @class QuestSessionStartDialogMixin
+QuestSessionStartDialogMixin = {}; --- @class QuestSessionStartDialogMixin
 
 function QuestSessionStartDialogMixin:OnLoad()
 	QuestSessionDialogMixin.OnLoad(self);
@@ -492,7 +492,7 @@ function QuestSessionStartDialogMixin:OnTimeout()
 	self:StartHideDialog();
 end
 
-QuestSessionCheckStartDialogMixin = {};--- @class QuestSessionCheckStartDialogMixin
+QuestSessionCheckStartDialogMixin = {}; --- @class QuestSessionCheckStartDialogMixin
 
 function QuestSessionCheckStartDialogMixin:Setup()
 	FlashClientIcon(); -- This dialog will time out, let the user know about it.
@@ -510,7 +510,7 @@ function QuestSessionCheckStartDialogMixin:Confirm()
 	self:HideImmediate();
 end
 
-QuestSessionCheckStopDialogMixin = {};--- @class QuestSessionCheckStopDialogMixin
+QuestSessionCheckStopDialogMixin = {}; --- @class QuestSessionCheckStopDialogMixin
 
 function QuestSessionCheckStopDialogMixin:Setup()
 	self.Title:SetText("QuestSharing-Stop-DialogIcon", QUEST_SESSION_STOP_SESSION);
@@ -527,7 +527,7 @@ function QuestSessionCheckStopDialogMixin:Confirm()
 	self:HideImmediate();
 end
 
-QuestSessionCheckLeavePartyDialogMixin = {};--- @class QuestSessionCheckLeavePartyDialogMixin
+QuestSessionCheckLeavePartyDialogMixin = {}; --- @class QuestSessionCheckLeavePartyDialogMixin
 
 function QuestSessionCheckLeavePartyDialogMixin:Setup()
 	self.Title:SetText("QuestSharing-Stop-DialogIcon", QUEST_SESSION_CHECK_LEAVE_PARTY_TITLE);
@@ -540,7 +540,7 @@ function QuestSessionCheckLeavePartyDialogMixin:Confirm()
 	self:HideImmediate();
 end
 
-QuestSessionCheckConvertToRaidDialogMixin = {};--- @class QuestSessionCheckConvertToRaidDialogMixin
+QuestSessionCheckConvertToRaidDialogMixin = {}; --- @class QuestSessionCheckConvertToRaidDialogMixin
 
 function QuestSessionCheckConvertToRaidDialogMixin:Setup()
 	self.Title:SetText("QuestSharing-Stop-DialogIcon", QUEST_SESSION_CHECK_CONVERT_TO_RAID_TITLE);
@@ -553,7 +553,7 @@ function QuestSessionCheckConvertToRaidDialogMixin:Confirm()
 	self:HideImmediate();
 end
 
-ConfirmJoinGroupRequestDialogMixin = {};--- @class ConfirmJoinGroupRequestDialogMixin
+ConfirmJoinGroupRequestDialogMixin = {}; --- @class ConfirmJoinGroupRequestDialogMixin
 
 function ConfirmJoinGroupRequestDialogMixin:GetTitle(confirmationType, willConvertToRaid)
 	local title = QUEST_SESSION_CHECK_INVITE_TITLE;
@@ -600,7 +600,7 @@ function ConfirmJoinGroupRequestDialogMixin:Cancel()
 	self:HideImmediate();
 end
 
-ConfirmInviteToGroupDialogMixin = {};--- @class ConfirmInviteToGroupDialogMixin
+ConfirmInviteToGroupDialogMixin = {}; --- @class ConfirmInviteToGroupDialogMixin
 
 function ConfirmInviteToGroupDialogMixin:GetTitle(willConvertToRaid)
 	local atlas = "QuestSharing-DialogIcon";
@@ -636,7 +636,7 @@ function ConfirmInviteToGroupDialogMixin:Cancel()
 	self:HideImmediate();
 end
 
-ConfirmInviteToGroupReceivedDialogMixin = {};--- @class ConfirmInviteToGroupReceivedDialogMixin
+ConfirmInviteToGroupReceivedDialogMixin = {}; --- @class ConfirmInviteToGroupReceivedDialogMixin
 
 function ConfirmInviteToGroupReceivedDialogMixin:OnUpdate()
 	if self.timeout then
@@ -665,7 +665,7 @@ function ConfirmInviteToGroupReceivedDialogMixin:Cancel()
 	self:HideImmediate();
 end
 
-ConfirmBNJoinGroupRequestDialogMixin = {};--- @class ConfirmBNJoinGroupRequestDialogMixin
+ConfirmBNJoinGroupRequestDialogMixin = {}; --- @class ConfirmBNJoinGroupRequestDialogMixin
 
 function ConfirmBNJoinGroupRequestDialogMixin:Setup(...)
 	self.confirmationArgs = { ..., n = select("#", ...), };
@@ -684,7 +684,7 @@ function ConfirmBNJoinGroupRequestDialogMixin:Cancel()
 	self:HideImmediate();
 end
 
-ConfirmRequestToJoinGroupDialogMixin = {};--- @class ConfirmRequestToJoinGroupDialogMixin
+ConfirmRequestToJoinGroupDialogMixin = {}; --- @class ConfirmRequestToJoinGroupDialogMixin
 
 function ConfirmRequestToJoinGroupDialogMixin:Setup(target, targetLevelLink, tank, healer, dps)
 	self.target = target;
@@ -713,7 +713,7 @@ function ConfirmRequestToJoinGroupDialogMixin:Cancel()
 	self:HideImmediate();
 end
 
-ConfirmInviteTravelPassConfirmationDialogMixin = {};--- @class ConfirmInviteTravelPassConfirmationDialogMixin
+ConfirmInviteTravelPassConfirmationDialogMixin = {}; --- @class ConfirmInviteTravelPassConfirmationDialogMixin
 
 function ConfirmInviteTravelPassConfirmationDialogMixin:Setup(target, guid)
 	self.target = target;
@@ -798,7 +798,7 @@ AddNotification(Enum.QuestSessionResult.InCombat, ERR_QUEST_SESSION_RESULT_IN_CO
 AddNotification(Enum.QuestSessionResult.MemberInCombat, ERR_QUEST_SESSION_RESULT_MEMBER_IN_COMBAT);
 AddNotification(Enum.QuestSessionResult.RestrictedCrossFaction, ERR_QUEST_SESSION_RESULT_RESTRICTED_CROSS_FACTION);
 
-QuestSessionManagerMixin = {};--- @class QuestSessionManagerMixin
+QuestSessionManagerMixin = {}; --- @class QuestSessionManagerMixin
 
 local questSessionUpdateEvents =
 {

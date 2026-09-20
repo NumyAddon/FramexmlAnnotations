@@ -1,4 +1,4 @@
-PlayerChoicePowerChoiceTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin);--- @class PlayerChoicePowerChoiceTemplateMixin : PlayerChoiceBaseOptionTemplateMixin
+PlayerChoicePowerChoiceTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin); --- @class PlayerChoicePowerChoiceTemplateMixin : PlayerChoiceBaseOptionTemplateMixin
 
 function PlayerChoicePowerChoiceTemplateMixin:OnLoad()
 	PlayerChoiceBaseOptionTemplateMixin.OnLoad(self);

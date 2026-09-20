@@ -14,7 +14,7 @@ local RED_TEXT_SECONDS_THRESHOLD = 1800;
 ----------------------------------------------------------------------------------
 -- CatalogShopRefundButtonMixin
 ----------------------------------------------------------------------------------
-CatalogShopRefundButtonMixin = {};--- @class CatalogShopRefundButtonMixin
+CatalogShopRefundButtonMixin = {}; --- @class CatalogShopRefundButtonMixin
 
 -- TODO (WOW12-45327): Cleaner and easier to use :SetScript("OnClick", function () ... end); in the parent's OnLoad (see https://wowhub.corp.blizzard.net/warcraft/wow/pull/40310)
 function CatalogShopRefundButtonMixin:OnClick()
@@ -33,7 +33,7 @@ end
 ----------------------------------------------------------------------------------
 -- RefundHeaderSortButtonMixin
 ----------------------------------------------------------------------------------
-RefundHeaderSortButtonMixin = {};--- @class RefundHeaderSortButtonMixin
+RefundHeaderSortButtonMixin = {}; --- @class RefundHeaderSortButtonMixin
 function RefundHeaderSortButtonMixin:OnLoad()
 	self.labelSet = false;
 	if self.iconAtlas then
@@ -112,7 +112,7 @@ end
 ----------------------------------------------------------------------------------
 -- RefundFlowDecorButtonMixin
 ----------------------------------------------------------------------------------
-RefundFlowDecorButtonMixin = {};--- @class RefundFlowDecorButtonMixin
+RefundFlowDecorButtonMixin = {}; --- @class RefundFlowDecorButtonMixin
 function RefundFlowDecorButtonMixin:OnLoad()
 	self.ContentsContainer.RefundCheckbox:SetScript("OnEnter", function() self:OnEnter(); end);
 	self.ContentsContainer.RefundCheckbox:SetScript("OnLeave", function() self:OnLeave(); end);

@@ -2,7 +2,7 @@
 AddTooltipDataAccessor(GameTooltipDataMixin, "SetUnitPrivateAura", "GetUnitPrivateAura");
 
 -- This is largely a modified copy of AuraButtonMixin
-PrivateAuraMixin = {};--- @class PrivateAuraMixin
+PrivateAuraMixin = {}; --- @class PrivateAuraMixin
 
 function PrivateAuraMixin:OnLoad()
 	self.Symbol:Hide();

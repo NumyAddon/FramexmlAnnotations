@@ -29,7 +29,7 @@ local HIGHEST_TIER_UNLOCKED_CVAR = "highestUnlockedTieredEntranceTier";
 local TIER_SELECT_DROPDOWN_MENU_MIN_WIDTH = 110;
 local TIER_SELECT_DROPDOWN_MENU_BTN_WIDTH = 130;
 
-local DelvesKeyState = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["Normal"]: 2}
+local DelvesKeyState = EnumUtil.MakeEnum( --- @type {["None"]: 1, ["Normal"]: 2}
 	"None",
 	"Normal"
 );
@@ -45,7 +45,7 @@ function GetPlayerKeyState()
 end
 
 --[[ Difficulty Picker ]]
-DelvesDifficultyPickerFrameMixin = {};--- @class DelvesDifficultyPickerFrameMixin
+DelvesDifficultyPickerFrameMixin = {}; --- @class DelvesDifficultyPickerFrameMixin
 
 -- Required function, unused.
 function DelvesDifficultyPickerFrameMixin:SetStartingPage()
@@ -427,7 +427,7 @@ function DelvesDifficultyPickerFrameMixin:OnHide()
 end		
 
 --[[ Enter Button ]]
-DelvesDifficultyPickerEnterDelveButtonMixin = {};--- @class DelvesDifficultyPickerEnterDelveButtonMixin
+DelvesDifficultyPickerEnterDelveButtonMixin = {}; --- @class DelvesDifficultyPickerEnterDelveButtonMixin
 
 function DelvesDifficultyPickerEnterDelveButtonMixin:OnEnter()
 	local selectedOption = self:GetParent():GetSelectedOption();
@@ -489,7 +489,7 @@ function DelvesDifficultyPickerFrameMixin:GetPartyTierEligibility()
 end
 
 --[[ Rewards Container + Buttons ]]
-DelveRewardsContainerFrameMixin = {};--- @class DelveRewardsContainerFrameMixin
+DelveRewardsContainerFrameMixin = {}; --- @class DelveRewardsContainerFrameMixin
 
 local REWARDS_SCROLL_SPACING = 5;
 
@@ -597,7 +597,7 @@ function DelveRewardsContainerFrameMixin:SetRewards()
 	end);
 end
 
-DelveRewardsButtonMixin = {};--- @class DelveRewardsButtonMixin
+DelveRewardsButtonMixin = {}; --- @class DelveRewardsButtonMixin
 
 function DelveRewardsButtonMixin:OnEnter()
 	if not self.id then
@@ -646,7 +646,7 @@ function DelveRewardsButtonMixin:OnLeave()
 end
 
 --[[ Difficulty Dropdown ]]
-DelvesDifficultyPickerDropdownMixin = {};--- @class DelvesDifficultyPickerDropdownMixin
+DelvesDifficultyPickerDropdownMixin = {}; --- @class DelvesDifficultyPickerDropdownMixin
 
 function DelvesDifficultyPickerDropdownMixin:OnEnter()
 	if not self:IsEnabled() then

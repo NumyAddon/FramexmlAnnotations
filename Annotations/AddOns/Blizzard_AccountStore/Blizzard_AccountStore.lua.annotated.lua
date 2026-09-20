@@ -13,7 +13,7 @@ local function LeaveFullscreenMode()
 	end
 end
 
-AccountStoreMixin = {};--- @class AccountStoreMixin
+AccountStoreMixin = {}; --- @class AccountStoreMixin
 
 function AccountStoreMixin:OnLoad()
 	self:SetPortraitToAsset("Interface\\Icons\\UI_PlunderCoins");
@@ -63,7 +63,7 @@ function AccountStoreMixin:SetFullscreenMode(enabled)
 	self.inFullscreenMode = enabled;
 end
 
-FullscreenAccountStoreContainerMixin = {};--- @class FullscreenAccountStoreContainerMixin
+FullscreenAccountStoreContainerMixin = {}; --- @class FullscreenAccountStoreContainerMixin
 
 function FullscreenAccountStoreContainerMixin:OnShow()
 	local currParent = self:GetParent();
@@ -99,7 +99,7 @@ function FullscreenAccountStoreContainerMixin:OnKeyDown(key)
 	end
 end
 
-FullscreenLeaveAccountStoreButtonMixin = {};--- @class FullscreenLeaveAccountStoreButtonMixin
+FullscreenLeaveAccountStoreButtonMixin = {}; --- @class FullscreenLeaveAccountStoreButtonMixin
 
 function FullscreenLeaveAccountStoreButtonMixin:OnLoad()
 	local widthPadding = 80;

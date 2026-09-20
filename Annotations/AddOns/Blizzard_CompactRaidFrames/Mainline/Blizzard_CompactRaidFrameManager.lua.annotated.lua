@@ -18,7 +18,7 @@ RAID_MARKER_RESET_ID = -1;
 
 NUM_RAID_MARKERS = 8;
 
-CRFM_ButtonStateBehaviorMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class CRFM_ButtonStateBehaviorMixin : ButtonStateBehaviorMixin
+CRFM_ButtonStateBehaviorMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class CRFM_ButtonStateBehaviorMixin : ButtonStateBehaviorMixin
 
 function CRFM_ButtonStateBehaviorMixin:OnButtonStateChanged()
 	local atlas = self.atlasKey;
@@ -31,7 +31,7 @@ function CRFM_ButtonStateBehaviorMixin:OnButtonStateChanged()
 	self:GetNormalTexture():SetAtlas(atlas, TextureKitConstants.IgnoreAtlasSize);
 end
 
-CRFM_TooltipMixin = {}--- @class CRFM_TooltipMixin
+CRFM_TooltipMixin = {} --- @class CRFM_TooltipMixin
 
 function CRFM_TooltipMixin:OnEnter()
 	local tooltipText = nil;
@@ -54,7 +54,7 @@ function CRFM_TooltipMixin:OnLeave()
 	end
 end
 
-CRFM_ToolbarButtonMixin = CreateFromMixins(CRFM_TooltipMixin, CRFM_ButtonStateBehaviorMixin);--- @class CRFM_ToolbarButtonMixin : CRFM_TooltipMixin, CRFM_ButtonStateBehaviorMixin
+CRFM_ToolbarButtonMixin = CreateFromMixins(CRFM_TooltipMixin, CRFM_ButtonStateBehaviorMixin); --- @class CRFM_ToolbarButtonMixin : CRFM_TooltipMixin, CRFM_ButtonStateBehaviorMixin
 
 function CRFM_ToolbarButtonMixin:OnEnter()
 	CRFM_ButtonStateBehaviorMixin.OnEnter(self);
@@ -339,7 +339,7 @@ function CompactRaidFrameManager_Collapse()
 	CompactRaidFrameManager.BottomButtons:Hide();
 end
 
-RaidFrameToggleButtonMixin = {}--- @class RaidFrameToggleButtonMixin
+RaidFrameToggleButtonMixin = {} --- @class RaidFrameToggleButtonMixin
 
 function RaidFrameToggleButtonMixin:OnLoad()
 	self:GetNormalTexture():SetDrawLayer("OVERLAY");
@@ -704,7 +704,7 @@ function CompactRaidFrameManager_UpdateRaidIcons()
 	end
 end
 
-CRFM_DifficultyDropdownMixin = CreateFromMixins(CRFM_ToolbarButtonMixin);--- @class CRFM_DifficultyDropdownMixin : CRFM_ToolbarButtonMixin
+CRFM_DifficultyDropdownMixin = CreateFromMixins(CRFM_ToolbarButtonMixin); --- @class CRFM_DifficultyDropdownMixin : CRFM_ToolbarButtonMixin
 
 function CRFM_DifficultyDropdownMixin:OnMenuOpened(menu)
 	DropdownButtonMixin.OnMenuOpened(self, menu);
@@ -989,7 +989,7 @@ local function FilterButtonOnLeave(self)
 	CompactRaidFrameManager_UpdateFilterInfo();
 end
 
-CRFManagerFilterRoleButtonMixin = {};--- @class CRFManagerFilterRoleButtonMixin
+CRFManagerFilterRoleButtonMixin = {}; --- @class CRFManagerFilterRoleButtonMixin
 
 function CRFManagerFilterRoleButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
@@ -1004,7 +1004,7 @@ function CRFManagerFilterRoleButtonMixin:OnLeave()
 	FilterButtonOnLeave(self);
 end
 
-CRFManagerFilterGroupButtonMixin = {};--- @class CRFManagerFilterGroupButtonMixin
+CRFManagerFilterGroupButtonMixin = {}; --- @class CRFManagerFilterGroupButtonMixin
 
 function CRFManagerFilterGroupButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
@@ -1019,13 +1019,13 @@ function CRFManagerFilterGroupButtonMixin:OnLeave()
 	FilterButtonOnLeave(self);
 end
 
-CRFManagerRoleMarkerCheckMixin = {};--- @class CRFManagerRoleMarkerCheckMixin
+CRFManagerRoleMarkerCheckMixin = {}; --- @class CRFManagerRoleMarkerCheckMixin
 
 function CRFManagerRoleMarkerCheckMixin:OnLoad()
 	self.icon.icon:SetAtlas(self.id == 0 and "GM-icon-role-tank" or "GM-icon-role-healer", 16, 16, 0, 0);
 end
 
-CRFManagerRaidIconButtonMixin = {};--- @class CRFManagerRaidIconButtonMixin
+CRFManagerRaidIconButtonMixin = {}; --- @class CRFManagerRaidIconButtonMixin
 
 function CRFManagerRaidIconButtonMixin:GetMarker()
 	return ReverseMarkerID(self:GetID());
@@ -1140,14 +1140,14 @@ function CRFManagerRaidIconButtonMixin:OnLeave()
 	end
 end
 
-CRFManagerMarkerTabMixin = {};--- @class CRFManagerMarkerTabMixin
+CRFManagerMarkerTabMixin = {}; --- @class CRFManagerMarkerTabMixin
 
 function CRFManagerMarkerTabMixin:OnClick()
 	self:GetParent():SetTab(self);
 	CompactRaidFrameManager_UpdateRaidIcons();
 end
 
-CRFRaidMarkersMixin = {};--- @class CRFRaidMarkersMixin
+CRFRaidMarkersMixin = {}; --- @class CRFRaidMarkersMixin
 
 function CRFRaidMarkersMixin:SetTab(frame)
 	if self.activeTab ~= frame then
@@ -1164,28 +1164,28 @@ function CRFRaidMarkersMixin:OnLoad()
 	self:SetTab(self.Tabs[1]);
 end
 
-RaidFrameFilterRoleTankMixin = CreateFromMixins(CRFManagerFilterRoleButtonMixin);--- @class RaidFrameFilterRoleTankMixin : CRFManagerFilterRoleButtonMixin
+RaidFrameFilterRoleTankMixin = CreateFromMixins(CRFManagerFilterRoleButtonMixin); --- @class RaidFrameFilterRoleTankMixin : CRFManagerFilterRoleButtonMixin
 
 function RaidFrameFilterRoleTankMixin:OnLoad()
 	self.role = "TANK";
 	self.roleTexture = CreateAtlasMarkup("GM-icon-role-tank", 16, 16, 0, 0);
 end
 
-RaidFrameFilterRoleHealerMixin = CreateFromMixins(CRFManagerFilterRoleButtonMixin);--- @class RaidFrameFilterRoleHealerMixin : CRFManagerFilterRoleButtonMixin
+RaidFrameFilterRoleHealerMixin = CreateFromMixins(CRFManagerFilterRoleButtonMixin); --- @class RaidFrameFilterRoleHealerMixin : CRFManagerFilterRoleButtonMixin
 
 function RaidFrameFilterRoleHealerMixin:OnLoad()
 	self.role = "HEALER";
 	self.roleTexture = CreateAtlasMarkup("GM-icon-role-healer", 16, 16, 0, 0);
 end
 
-RaidFrameFilterRoleDamagerMixin = CreateFromMixins(CRFManagerFilterRoleButtonMixin);--- @class RaidFrameFilterRoleDamagerMixin : CRFManagerFilterRoleButtonMixin
+RaidFrameFilterRoleDamagerMixin = CreateFromMixins(CRFManagerFilterRoleButtonMixin); --- @class RaidFrameFilterRoleDamagerMixin : CRFManagerFilterRoleButtonMixin
 
 function RaidFrameFilterRoleDamagerMixin:OnLoad()
 	self.role = "DAMAGER";
 	self.roleTexture = CreateAtlasMarkup("GM-icon-role-dps", 16, 16, 0, 0);
 end
 
-RaidFrameEditModeMixin = CreateFromMixins(CRFM_ToolbarButtonMixin);--- @class RaidFrameEditModeMixin : CRFM_ToolbarButtonMixin
+RaidFrameEditModeMixin = CreateFromMixins(CRFM_ToolbarButtonMixin); --- @class RaidFrameEditModeMixin : CRFM_ToolbarButtonMixin
 
 function RaidFrameEditModeMixin:OnShow()
 	self:SetEnabled(EditModeManagerFrame:CanEnterEditMode());
@@ -1196,21 +1196,21 @@ function RaidFrameEditModeMixin:OnClick()
 	ShowUIPanel(EditModeManagerFrame);
 end
 
-RaidFrameSettingsMixin = CreateFromMixins(CRFM_ToolbarButtonMixin);--- @class RaidFrameSettingsMixin : CRFM_ToolbarButtonMixin
+RaidFrameSettingsMixin = CreateFromMixins(CRFM_ToolbarButtonMixin); --- @class RaidFrameSettingsMixin : CRFM_ToolbarButtonMixin
 
 function RaidFrameSettingsMixin:OnClick()
 	Settings.OpenToCategory(Settings.INTERFACE_CATEGORY_ID, RAID_FRAMES_LABEL);
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION);
 end
 
-RaidFrameHiddenModeToggleMixin = CreateFromMixins(CRFM_ToolbarButtonMixin);--- @class RaidFrameHiddenModeToggleMixin : CRFM_ToolbarButtonMixin
+RaidFrameHiddenModeToggleMixin = CreateFromMixins(CRFM_ToolbarButtonMixin); --- @class RaidFrameHiddenModeToggleMixin : CRFM_ToolbarButtonMixin
 
 function RaidFrameHiddenModeToggleMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 	SetCVar("raidOptionIsShown", not GetCVarBool("raidOptionIsShown"));
 end
 
-RaidFrameEveryoneIsAssistMixin = CreateFromMixins(CRFM_ToolbarButtonMixin);--- @class RaidFrameEveryoneIsAssistMixin : CRFM_ToolbarButtonMixin
+RaidFrameEveryoneIsAssistMixin = CreateFromMixins(CRFM_ToolbarButtonMixin); --- @class RaidFrameEveryoneIsAssistMixin : CRFM_ToolbarButtonMixin
 
 function RaidFrameEveryoneIsAssistMixin:OnLoad()
 	CRFM_ButtonStateBehaviorMixin.OnLoad(self);
@@ -1242,28 +1242,28 @@ function RaidFrameEveryoneIsAssistMixin:OnButtonStateChanged()
 	CRFM_ButtonStateBehaviorMixin.OnButtonStateChanged(self);
 end
 
-RaidFrameReadyCheckMixin = CreateFromMixins(CRFM_ToolbarButtonMixin);--- @class RaidFrameReadyCheckMixin : CRFM_ToolbarButtonMixin
+RaidFrameReadyCheckMixin = CreateFromMixins(CRFM_ToolbarButtonMixin); --- @class RaidFrameReadyCheckMixin : CRFM_ToolbarButtonMixin
 
 function RaidFrameReadyCheckMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 	DoReadyCheck();
 end
 
-RaidFrameRolePollMixin = CreateFromMixins(CRFM_ToolbarButtonMixin);--- @class RaidFrameRolePollMixin : CRFM_ToolbarButtonMixin
+RaidFrameRolePollMixin = CreateFromMixins(CRFM_ToolbarButtonMixin); --- @class RaidFrameRolePollMixin : CRFM_ToolbarButtonMixin
 
 function RaidFrameRolePollMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 	InitiateRolePoll();
 end
 
-RaidFrameCountdownMixin = CreateFromMixins(CRFM_ToolbarButtonMixin);--- @class RaidFrameCountdownMixin : CRFM_ToolbarButtonMixin
+RaidFrameCountdownMixin = CreateFromMixins(CRFM_ToolbarButtonMixin); --- @class RaidFrameCountdownMixin : CRFM_ToolbarButtonMixin
 
 function RaidFrameCountdownMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 	C_PartyInfo.DoCountdown(10);
 end
 
-RaidFrameManagerRestrictPingsButtonMixin = {};--- @class RaidFrameManagerRestrictPingsButtonMixin
+RaidFrameManagerRestrictPingsButtonMixin = {}; --- @class RaidFrameManagerRestrictPingsButtonMixin
 
 local RestrictPingsButtonShownEvents =
 {
@@ -1306,7 +1306,7 @@ function RaidFrameManagerRestrictPingsButtonMixin:ShouldShow()
 	return UnitIsGroupLeader("player") or UnitIsGroupAssistant("player");
 end
 
-LeavePartyButtonMixin = {};--- @class LeavePartyButtonMixin
+LeavePartyButtonMixin = {}; --- @class LeavePartyButtonMixin
 
 function LeavePartyButtonMixin:OnClick()
 	if C_PartyInfo.IsPartyWalkIn() then
@@ -1316,7 +1316,7 @@ function LeavePartyButtonMixin:OnClick()
 	end
 end
 
-LeaveInstanceGroupButtonMixin = {};--- @class LeaveInstanceGroupButtonMixin
+LeaveInstanceGroupButtonMixin = {}; --- @class LeaveInstanceGroupButtonMixin
 
 function LeaveInstanceGroupButtonMixin:OnLoad()
 	self.Text:SetMaxLines(1);

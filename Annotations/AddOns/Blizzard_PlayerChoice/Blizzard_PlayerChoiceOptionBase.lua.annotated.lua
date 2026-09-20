@@ -10,7 +10,7 @@ local rarityToItemQuality = {
     [Enum.PlayerChoiceRarity.Epic] = Enum.ItemQuality.Epic
 };
 
-PlayerChoiceBaseOptionTemplateMixin = {};--- @class PlayerChoiceBaseOptionTemplateMixin
+PlayerChoiceBaseOptionTemplateMixin = {}; --- @class PlayerChoiceBaseOptionTemplateMixin
 
 function PlayerChoiceBaseOptionTemplateMixin:OnLoad()
 	if self.Layout then
@@ -275,13 +275,13 @@ function PlayerChoiceBaseOptionTemplateMixin:SetupButtons()
 	self.OptionButtonsContainer:Setup(self.optionInfo, self.showAsList);
 end
 
-PlayerChoiceBaseOptionAlignedSectionMixin = {};--- @class PlayerChoiceBaseOptionAlignedSectionMixin
+PlayerChoiceBaseOptionAlignedSectionMixin = {}; --- @class PlayerChoiceBaseOptionAlignedSectionMixin
 
 function PlayerChoiceBaseOptionAlignedSectionMixin:SetPaddedHeight(paddedHeight)
 	self:SetHeight(paddedHeight);
 end
 
-PlayerChoiceBaseOptionTextTemplateMixin = { }--- @class PlayerChoiceBaseOptionTextTemplateMixin
+PlayerChoiceBaseOptionTextTemplateMixin = { } --- @class PlayerChoiceBaseOptionTextTemplateMixin
 
 function PlayerChoiceBaseOptionTextTemplateMixin:OnLoad()
 	self:SetUseHTML(true);
@@ -348,7 +348,7 @@ function PlayerChoiceBaseOptionTextTemplateMixin:IsTruncated()
 	return not self.useHTML and self.String:IsTruncated();
 end
 
-PlayerChoiceBaseOptionButtonFrameTemplateMixin = {};--- @class PlayerChoiceBaseOptionButtonFrameTemplateMixin
+PlayerChoiceBaseOptionButtonFrameTemplateMixin = {}; --- @class PlayerChoiceBaseOptionButtonFrameTemplateMixin
 
 function PlayerChoiceBaseOptionButtonFrameTemplateMixin:OnLoad()
 	self.Button = CreateFrame("Button", nil, self, self.buttonTemplate);
@@ -381,7 +381,7 @@ function PlayerChoiceBaseOptionButtonFrameTemplateMixin:OnReset()
 	FunctionUtil.SafeInvokeMethod(self.Button, "OnReset");
 end
 
-PlayerChoiceBaseOptionButtonTemplateMixin = {};--- @class PlayerChoiceBaseOptionButtonTemplateMixin
+PlayerChoiceBaseOptionButtonTemplateMixin = {}; --- @class PlayerChoiceBaseOptionButtonTemplateMixin
 
 function PlayerChoiceBaseOptionButtonTemplateMixin:OnLoad()
 	self.parentOption = self:GetParent():GetParent():GetParent();
@@ -552,7 +552,7 @@ function PlayerChoiceBaseOptionButtonTemplateMixin:SetPushed(pushed)
 	self.Right:SetTexture("Interface\\Buttons\\UI-Panel-Button-"..buttonTextureStateKey);
 end
 
-PlayerChoiceBaseOptionButtonsContainerMixin = {};--- @class PlayerChoiceBaseOptionButtonsContainerMixin
+PlayerChoiceBaseOptionButtonsContainerMixin = {}; --- @class PlayerChoiceBaseOptionButtonsContainerMixin
 
 function PlayerChoiceBaseOptionButtonsContainerMixin:OnLoad()
 	self.buttonFramePool = CreateFramePoolCollection();
@@ -605,7 +605,7 @@ function PlayerChoiceBaseOptionButtonsContainerMixin:DisableButtons()
 	end
 end
 
-PlayerChoiceBaseOptionCurrencyRewardMixin = {};--- @class PlayerChoiceBaseOptionCurrencyRewardMixin
+PlayerChoiceBaseOptionCurrencyRewardMixin = {}; --- @class PlayerChoiceBaseOptionCurrencyRewardMixin
 
 function PlayerChoiceBaseOptionCurrencyRewardMixin:Setup(currencyRewardInfo, fontColor)
 	self.currencyID = currencyRewardInfo.currencyId;
@@ -624,7 +624,7 @@ function PlayerChoiceBaseOptionCurrencyRewardMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-PlayerChoiceBaseOptionItemRewardMixin = {};--- @class PlayerChoiceBaseOptionItemRewardMixin
+PlayerChoiceBaseOptionItemRewardMixin = {}; --- @class PlayerChoiceBaseOptionItemRewardMixin
 
 function PlayerChoiceBaseOptionItemRewardMixin:OnLoad()
 	self.itemButton:EnableMouse(false);
@@ -681,7 +681,7 @@ function PlayerChoiceBaseOptionItemRewardMixin:OnClick(button)
 	end
 end
 
-PlayerChoiceBaseOptionCurrencyContainerRewardMixin = {};--- @class PlayerChoiceBaseOptionCurrencyContainerRewardMixin
+PlayerChoiceBaseOptionCurrencyContainerRewardMixin = {}; --- @class PlayerChoiceBaseOptionCurrencyContainerRewardMixin
 
 function PlayerChoiceBaseOptionCurrencyContainerRewardMixin:OnLoad()
 	self.itemButton:EnableMouse(false);
@@ -709,7 +709,7 @@ function PlayerChoiceBaseOptionCurrencyContainerRewardMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-PlayerChoiceBaseOptionReputationRewardMixin = {};--- @class PlayerChoiceBaseOptionReputationRewardMixin
+PlayerChoiceBaseOptionReputationRewardMixin = {}; --- @class PlayerChoiceBaseOptionReputationRewardMixin
 
 function PlayerChoiceBaseOptionReputationRewardMixin:Setup(repRewardInfo, fontColor)
 	local factionData = C_Reputation.GetFactionDataByID(repRewardInfo.factionId);
@@ -719,7 +719,7 @@ function PlayerChoiceBaseOptionReputationRewardMixin:Setup(repRewardInfo, fontCo
 	end
 end
 
-PlayerChoiceBaseOptionRewardsMixin = {}--- @class PlayerChoiceBaseOptionRewardsMixin
+PlayerChoiceBaseOptionRewardsMixin = {} --- @class PlayerChoiceBaseOptionRewardsMixin
 
 function PlayerChoiceBaseOptionRewardsMixin:OnLoad()
 	self.rewardsPool = CreateFramePoolCollection();
@@ -772,7 +772,7 @@ function PlayerChoiceBaseOptionRewardsMixin:Setup(optionInfo, fontColor)
 	self:Show();
 end
 
-PlayerChoiceWidgetContainerMixin = {}--- @class PlayerChoiceWidgetContainerMixin
+PlayerChoiceWidgetContainerMixin = {} --- @class PlayerChoiceWidgetContainerMixin
 
 function PlayerChoiceWidgetContainerMixin:IsLayoutFrame()
 	-- Return false here because the widget container is used as the filler frame for player choice options

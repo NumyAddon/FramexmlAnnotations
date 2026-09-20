@@ -32,7 +32,7 @@ local function SetPointWithHorizontalFlip(region, point, relativeTo, relativePoi
 	end
 end
 
-EncounterTimelineTimerEventMixin = CreateFromMixins(EncounterTimelineEventFrameMixin, EncounterTimelineScriptedAnimatableMixin, EncounterTimelineTimerSettingsMixin);--- @class EncounterTimelineTimerEventMixin : EncounterTimelineEventFrameMixin, EncounterTimelineScriptedAnimatableMixin, EncounterTimelineTimerSettingsMixin
+EncounterTimelineTimerEventMixin = CreateFromMixins(EncounterTimelineEventFrameMixin, EncounterTimelineScriptedAnimatableMixin, EncounterTimelineTimerSettingsMixin); --- @class EncounterTimelineTimerEventMixin : EncounterTimelineEventFrameMixin, EncounterTimelineScriptedAnimatableMixin, EncounterTimelineTimerSettingsMixin
 
 function EncounterTimelineTimerEventMixin:OnLoad()
 	EncounterTimelineEventFrameMixin.OnLoad(self);

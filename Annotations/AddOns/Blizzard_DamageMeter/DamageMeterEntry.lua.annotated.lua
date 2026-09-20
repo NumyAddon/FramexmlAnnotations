@@ -1,4 +1,4 @@
-DamageMeterEntryMixin = {};--- @class DamageMeterEntryMixin
+DamageMeterEntryMixin = {}; --- @class DamageMeterEntryMixin
 
 function DamageMeterEntryMixin:GetIcon()
 	return self.Icon.Icon;
@@ -450,7 +450,7 @@ function DamageMeterEntryMixin:IsCreature()
 	return false;
 end
 
-DamageMeterSourceEntryMixin = {}--- @class DamageMeterSourceEntryMixin
+DamageMeterSourceEntryMixin = {} --- @class DamageMeterSourceEntryMixin
 
 function DamageMeterSourceEntryMixin:Init(combatSource)
 	self.sourceName = combatSource.name;
@@ -562,7 +562,7 @@ function DamageMeterSourceEntryMixin:ShouldShowBarIcons()
 	return DamageMeterEntryMixin.ShouldShowBarIcons(self);
 end
 
-DamageMeterSpellEntryMixin = {};--- @class DamageMeterSpellEntryMixin
+DamageMeterSpellEntryMixin = {}; --- @class DamageMeterSpellEntryMixin
 
 function DamageMeterSpellEntryMixin:Init(combatSpell)
 	self.spellID = combatSpell.spellID;

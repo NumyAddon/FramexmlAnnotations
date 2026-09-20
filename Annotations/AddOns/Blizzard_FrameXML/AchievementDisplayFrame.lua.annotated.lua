@@ -1,6 +1,6 @@
 local BULLET_SPACING = 14; 
 local ACHIEVEMENT_FRAME_PADDING = 43; 
-AchievementDisplayMixin = {};--- @class AchievementDisplayMixin
+AchievementDisplayMixin = {}; --- @class AchievementDisplayMixin
 
 function AchievementDisplayMixin:OnLoad()
 	self.bulletPool = CreateFramePool("FRAME", self, "AchievementDisplayOverviewBulletTemplate");
@@ -52,7 +52,7 @@ function AchievementDisplayMixin:SetAchievements(achievementIds)
 	self:SetHeight(self.contentHeight + ACHIEVEMENT_FRAME_PADDING);	-- total of header height plus top and bottom padding
 end
 
-AchievementDisplayOverviewBulletMixin = {};--- @class AchievementDisplayOverviewBulletMixin
+AchievementDisplayOverviewBulletMixin = {}; --- @class AchievementDisplayOverviewBulletMixin
 function AchievementDisplayOverviewBulletMixin:Setup(achievementID, criteriaIndex, bulletText, completed)
 	self.achievementID = achievementID;
 	self.criteriaIndex = criteriaIndex;

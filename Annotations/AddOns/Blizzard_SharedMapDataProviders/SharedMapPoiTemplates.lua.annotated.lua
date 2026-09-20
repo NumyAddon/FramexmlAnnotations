@@ -1,4 +1,4 @@
-BaseMapPoiPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class BaseMapPoiPinMixin : MapCanvasPinMixin
+BaseMapPoiPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class BaseMapPoiPinMixin : MapCanvasPinMixin
 
 --[[static]] function BaseMapPoiPinMixin:CreateSubPin(pinFrameLevel)
 	return CreateFromMixins(self, { pinFrameLevel = pinFrameLevel });
@@ -185,7 +185,7 @@ function BaseMapPoiPinMixin:GetBestNameAndDescription()
 	return name, description;
 end
 
-MapPinAnimatedHighlightMixin = {};--- @class MapPinAnimatedHighlightMixin
+MapPinAnimatedHighlightMixin = {}; --- @class MapPinAnimatedHighlightMixin
 
 function MapPinAnimatedHighlightMixin:SetPulseCount(pulseCount)
 	self.pulseCount = pulseCount;
@@ -265,7 +265,7 @@ function MapPinAnimatedHighlightMixin:SetHighlightShown(shown, texture, params)
 	end
 end
 
-MapPinHighlightType = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["BountyRing"]: 2, ["SupertrackedHighlight"]: 3, ["DreamsurgeHighlight"]: 4, ["ImportantHubQuestHighlight"]: 5} See [MapPinHighlightType](lua://MapPinHighlightType)
+MapPinHighlightType = EnumUtil.MakeEnum( --- @type {["None"]: 1, ["BountyRing"]: 2, ["SupertrackedHighlight"]: 3, ["DreamsurgeHighlight"]: 4, ["ImportantHubQuestHighlight"]: 5} # See [MapPinHighlightType](lua://MapPinHighlightType)
 	"None",
 	"BountyRing",				-- Golden ring around the pin, used by the Emissary/Bounty Board, not really used any more after a consistency pass on quest pins
 	"SupertrackedHighlight",		-- Blue glow + animated icon pulse, used by Covenant Callings and the World Map Activity Tracker
@@ -277,7 +277,7 @@ local function isAnimatedHighlightType(highlightType)
 	return highlightType == MapPinHighlightType.SupertrackedHighlight or highlightType == MapPinHighlightType.DreamsurgeHighlight or highlightType == MapPinHighlightType.ImportantHubQuestHighlight;
 end
 
-MapPinHighlightAnimType = EnumUtil.MakeEnum(--- @type {["ExpandAndFade"]: 1, ["BackgroundPulse"]: 2} See [MapPinHighlightAnimType](lua://MapPinHighlightAnimType)
+MapPinHighlightAnimType = EnumUtil.MakeEnum( --- @type {["ExpandAndFade"]: 1, ["BackgroundPulse"]: 2} # See [MapPinHighlightAnimType](lua://MapPinHighlightAnimType)
 	"ExpandAndFade",	-- Expands and fades the MapPoi icon, and shows a glow texture
 	"BackgroundPulse"	-- Pulses a background glow a specified number of times
 );
@@ -416,7 +416,7 @@ function ClearCachedAreaPOIsForPlayer()
 end
 
 --[[ Pin Ping ]]--
-MapPinPingMixin = CreateFromMixins(MapCanvasPinMixin);--- @class MapPinPingMixin : MapCanvasPinMixin
+MapPinPingMixin = CreateFromMixins(MapCanvasPinMixin); --- @class MapPinPingMixin : MapCanvasPinMixin
 
 function MapPinPingMixin:OnLoad()
 	self:SetScalingLimits(1, 0.65, 0.65);
@@ -474,7 +474,7 @@ function MapPinPingMixin:IsActive()
 	return self.id ~= nil;
 end
 
-MapPinPingDriverAnimationMixin = {};--- @class MapPinPingDriverAnimationMixin
+MapPinPingDriverAnimationMixin = {}; --- @class MapPinPingDriverAnimationMixin
 
 function MapPinPingDriverAnimationMixin:OnFinished()
 	local ping = self:GetParent();
@@ -487,7 +487,7 @@ function MapPinPingDriverAnimationMixin:OnFinished()
 end
 
 -- NOTE: Mouse scripts are managed entirely through MapCanvasMixin:AcquirePin.
-SuperTrackablePinMixin = {};--- @class SuperTrackablePinMixin
+SuperTrackablePinMixin = {}; --- @class SuperTrackablePinMixin
 
 function SuperTrackablePinMixin:IsSuperTrackingExternallyHandled()
 	-- Exists because Events need to implement both AreaPOIPin and POIButton
@@ -625,7 +625,7 @@ function SuperTrackablePinMixin:DoesSuperTrackDataMatch(...)
 	return false;
 end
 
-SuperTrackablePoiPinMixin = CreateFromMixins(SuperTrackablePinMixin);--- @class SuperTrackablePoiPinMixin : SuperTrackablePinMixin
+SuperTrackablePoiPinMixin = CreateFromMixins(SuperTrackablePinMixin); --- @class SuperTrackablePoiPinMixin : SuperTrackablePinMixin
 
 function SuperTrackablePoiPinMixin:OnAcquired(...)
 	BaseMapPoiPinMixin.OnAcquired(self, ...);
@@ -636,7 +636,7 @@ function SuperTrackablePoiPinMixin:GetSuperTrackData()
 	return Enum.SuperTrackingMapPinType.AreaPOI, self.poiInfo.areaPoiID;
 end
 
-LegendHighlightablePoiPinMixin = {};--- @class LegendHighlightablePoiPinMixin
+LegendHighlightablePoiPinMixin = {}; --- @class LegendHighlightablePoiPinMixin
 
 function LegendHighlightablePoiPinMixin:ShowMapLegendGlow()
 	if not self.LegendGlow then

@@ -330,7 +330,7 @@ function GetCommunityLink(clubId)
 	return nil;
 end
 
-ItemRefTooltipMixin = {};--- @class ItemRefTooltipMixin
+ItemRefTooltipMixin = {}; --- @class ItemRefTooltipMixin
 
 function ItemRefTooltipMixin:OnLoad()
 	GameTooltip_OnLoad(self);

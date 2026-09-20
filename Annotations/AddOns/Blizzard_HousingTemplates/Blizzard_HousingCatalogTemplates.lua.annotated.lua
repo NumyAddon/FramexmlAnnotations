@@ -34,7 +34,7 @@ local TemplateHeightAdjust = {
 };
 
 -- Base Mixin
-BaseHousingCatalogMixin = {};--- @class BaseHousingCatalogMixin
+BaseHousingCatalogMixin = {}; --- @class BaseHousingCatalogMixin
 
 function BaseHousingCatalogMixin:SetCatalogData(catalogEntries, retainCurrentPosition, headerText, instructionText)
 	if not catalogEntries or #catalogEntries == 0 then
@@ -113,7 +113,7 @@ end
 
 
 -- Pagination-based Catalog Mixin
-PagedHousingCatalogMixin = CreateFromMixins(BaseHousingCatalogMixin);--- @class PagedHousingCatalogMixin : BaseHousingCatalogMixin
+PagedHousingCatalogMixin = CreateFromMixins(BaseHousingCatalogMixin); --- @class PagedHousingCatalogMixin : BaseHousingCatalogMixin
 
 function PagedHousingCatalogMixin:OnLoad()
 	self:SetElementTemplateData(Templates);
@@ -139,7 +139,7 @@ end
 
 
 -- Scrolling Catalog Mixin
-ScrollingHousingCatalogMixin = CreateFromMixins(BaseHousingCatalogMixin);--- @class ScrollingHousingCatalogMixin : BaseHousingCatalogMixin
+ScrollingHousingCatalogMixin = CreateFromMixins(BaseHousingCatalogMixin); --- @class ScrollingHousingCatalogMixin : BaseHousingCatalogMixin
 
 function ScrollingHousingCatalogMixin:OnLoad()
 	local view = CreateScrollBoxListSequenceView(self.topPadding, self.bottomPadding, self.leftPadding, self.rightPadding, self.horizontalSpacing, self.verticalSpacing);

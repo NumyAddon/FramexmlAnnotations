@@ -18,7 +18,7 @@ local ExteriorCustomizationModeShownEvents =
 	"HOUSING_SET_EXTERIOR_HOUSE_SIZE_RESPONSE",
 };
 
-HouseEditorExteriorCustomizationModeMixin = {};--- @class HouseEditorExteriorCustomizationModeMixin
+HouseEditorExteriorCustomizationModeMixin = {}; --- @class HouseEditorExteriorCustomizationModeMixin
 
 function HouseEditorExteriorCustomizationModeMixin:OnLoad()
 	FrameUtil.RegisterFrameForEvents(self, ExteriorCustomizationModeLifetimeEvents);

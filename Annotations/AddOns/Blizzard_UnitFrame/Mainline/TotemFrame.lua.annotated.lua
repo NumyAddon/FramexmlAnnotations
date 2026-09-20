@@ -1,5 +1,5 @@
 
-TotemFrameMixin = { }; --- @class TotemFrameMixin
+TotemFrameMixin = { };  --- @class TotemFrameMixin
 
 function TotemFrameMixin:OnLoad()
 	self:RegisterEvent("PLAYER_TOTEM_UPDATE");
@@ -49,7 +49,7 @@ function TotemFrameMixin:OnEvent(event, ...)
 	self:Update();
 end
 
-TotemButtonMixin = { }; --- @class TotemButtonMixin
+TotemButtonMixin = { };  --- @class TotemButtonMixin
 function TotemButtonMixin:OnClick(mouseButton)
 	local cannotDismiss = GetTotemCannotDismiss(self.slot)
 	if ( not cannotDismiss ) then

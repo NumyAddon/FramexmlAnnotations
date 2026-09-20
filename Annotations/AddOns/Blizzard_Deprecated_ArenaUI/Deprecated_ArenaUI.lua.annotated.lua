@@ -23,7 +23,7 @@ local function UnlockUnitFrame(unitFrame)
 	unitFrame.hideStatusOnTooltip = false;
 end
 
-ArenaEnemyFramesContainerMixin = {};--- @class ArenaEnemyFramesContainerMixin
+ArenaEnemyFramesContainerMixin = {}; --- @class ArenaEnemyFramesContainerMixin
 
 function ArenaEnemyFramesContainerMixin:Update()
 	self:UpdateShownState();
@@ -49,7 +49,7 @@ function ArenaEnemyFramesContainerMixin:UpdateShownState()
 	self:Hide();
 end
 
-ArenaEnemyMatchFramesContainerMixin = {};--- @class ArenaEnemyMatchFramesContainerMixin
+ArenaEnemyMatchFramesContainerMixin = {}; --- @class ArenaEnemyMatchFramesContainerMixin
 
 function ArenaEnemyMatchFramesContainerMixin:OnLoad()
 	self:RegisterEvent("CVAR_UPDATE");
@@ -138,7 +138,7 @@ function ArenaEnemyMatchFramesContainerMixin:GetBestAnchorUnitFrameForOppponent(
 	return self.UnitFrames[math.min(opponentNumber, MAX_ARENA_ENEMIES)];
 end
 
-ArenaEnemyMatchFrameMixin = {};--- @class ArenaEnemyMatchFrameMixin
+ArenaEnemyMatchFrameMixin = {}; --- @class ArenaEnemyMatchFrameMixin
 
 function ArenaEnemyMatchFrameMixin:OnLoad()
 	local id = self:GetID();
@@ -349,7 +349,7 @@ function ArenaEnemyMatchFrameMixin:UpdateShownState()
 	self:UpdatePet();
 end
 
-ArenaEnemyPrepFrameMixin = {};--- @class ArenaEnemyPrepFrameMixin
+ArenaEnemyPrepFrameMixin = {}; --- @class ArenaEnemyPrepFrameMixin
 
 function ArenaEnemyPrepFrameMixin:OnShow()
 	ArenaEnemyFramesContainer:Update();
@@ -359,7 +359,7 @@ function ArenaEnemyPrepFrameMixin:OnHide()
 	ArenaEnemyFramesContainer:Update();
 end
 
-ArenaEnemyPetFrameMixin = {};--- @class ArenaEnemyPetFrameMixin
+ArenaEnemyPetFrameMixin = {}; --- @class ArenaEnemyPetFrameMixin
 
 function ArenaEnemyPetFrameMixin:Update() --At some points, we need to use CVars instead of UVars even though UVars are faster.
 	if UnitGUID(self.unit) and CVarCallbackRegistry:GetCVarValue("showArenaEnemyPets") then
@@ -441,7 +441,7 @@ end
 --Arena preparation stuff, shows class and spec of opponents during countdown
 ------------------------------------------------------------------------------
 
-ArenaEnemyPrepFramesContainerMixin = {};--- @class ArenaEnemyPrepFramesContainerMixin
+ArenaEnemyPrepFramesContainerMixin = {}; --- @class ArenaEnemyPrepFramesContainerMixin
 
 function ArenaEnemyPrepFramesContainerMixin:OnLoad()
 	self:RegisterEvent("ARENA_PREP_OPPONENT_SPECIALIZATIONS");

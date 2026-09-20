@@ -197,7 +197,7 @@ function InspectPaperDollViewButton_OnClick(self)
 	DressUpItemTransmogInfoList(C_TransmogCollection.GetInspectItemTransmogInfoList());
 end
 
-InspectPaperDollFrameTalentsButtonMixin = {};--- @class InspectPaperDollFrameTalentsButtonMixin
+InspectPaperDollFrameTalentsButtonMixin = {}; --- @class InspectPaperDollFrameTalentsButtonMixin
 
 function InspectPaperDollFrameTalentsButtonMixin:OnClick()
 	if C_Traits.HasValidInspectData() then
@@ -222,7 +222,7 @@ function InspectPaperDollFrameTalentsButtonMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-LevelTextMixin = {}--- @class LevelTextMixin
+LevelTextMixin = {} --- @class LevelTextMixin
 
 function LevelTextMixin:OnEnter()
 	if ( InspectLevelText:IsTruncated() ) then

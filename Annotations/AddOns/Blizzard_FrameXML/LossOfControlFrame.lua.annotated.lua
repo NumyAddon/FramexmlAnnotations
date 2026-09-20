@@ -35,7 +35,7 @@ local DISPLAY_TYPE_NONE = 0;
 
 LOSS_OF_CONTROL_ACTIVE_INDEX = 1;
 
-LossOfControlMixin = {};--- @class LossOfControlMixin
+LossOfControlMixin = {}; --- @class LossOfControlMixin
 
 function LossOfControlMixin:OnLoad()
 	self:RegisterEvent("CVAR_UPDATE");

@@ -1,4 +1,4 @@
-LootJournalItemsMixin = { };--- @class LootJournalItemsMixin
+LootJournalItemsMixin = { }; --- @class LootJournalItemsMixin
 
 function LootJournalItemsMixin:OnLoad()
 	self:SetView(LOOT_JOURNAL_ITEM_SETS);
@@ -64,7 +64,7 @@ function LootJournalItemButtonTemplate_OnLeave(self)
 end
 
 --=================================================================================================================================== 
-LootJournalItemSetsMixin = {}--- @class LootJournalItemSetsMixin
+LootJournalItemSetsMixin = {} --- @class LootJournalItemSetsMixin
 
 local LJ_ITEMSET_X_OFFSET = 10;
 local LJ_ITEMSET_Y_OFFSET = 29;
@@ -272,7 +272,7 @@ function LootJournalItemSetsMixin:UpdateList()
 	self.ScrollBox:SetDataProvider(dataProvider, ScrollBoxConstants.RetainScrollPosition);
 end
 
-LootJournalItemSetButtonMixin = {};--- @class LootJournalItemSetButtonMixin
+LootJournalItemSetButtonMixin = {}; --- @class LootJournalItemSetButtonMixin
 
 function LootJournalItemSetButtonMixin:Init(elementData, configureItemButton)
 	self.SetName:SetText(elementData.name);

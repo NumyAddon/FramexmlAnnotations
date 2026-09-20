@@ -1,5 +1,5 @@
 
-CommunitiesGuildPerksButtonMixin = {};--- @class CommunitiesGuildPerksButtonMixin
+CommunitiesGuildPerksButtonMixin = {}; --- @class CommunitiesGuildPerksButtonMixin
 
 function CommunitiesGuildPerksButtonMixin:Init(elementData)
 	local name, spellID, iconTexture = GetGuildPerkInfo(elementData.index);

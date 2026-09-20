@@ -388,7 +388,7 @@ function GroupFinderFrameGroupButton_OnEnter(self)
 	end
 end
 
-PVEFrameMixin = { };--- @class PVEFrameMixin
+PVEFrameMixin = { }; --- @class PVEFrameMixin
 function PVEFrameMixin:OnLoad()
 	RaiseFrameLevel(self.shadows);
 	PanelTemplates_SetNumTabs(self, #panels);
@@ -473,7 +473,7 @@ function PVEFrameMixin:OnEvent(event, ...)
 	end
 end
 
-PlunderstormQueueTutorialMixin = {}--- @class PlunderstormQueueTutorialMixin
+PlunderstormQueueTutorialMixin = {} --- @class PlunderstormQueueTutorialMixin
 
 local PlunderstormTutorialStates = {
 	NoneAcknowledged = 0,

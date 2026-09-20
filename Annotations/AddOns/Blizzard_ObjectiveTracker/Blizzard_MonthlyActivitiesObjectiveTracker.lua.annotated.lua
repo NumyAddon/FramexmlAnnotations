@@ -5,7 +5,7 @@ local settings = {
 	lineTemplate = "ObjectiveTrackerAnimLineTemplate",
 };
 
-MonthlyActivitiesObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings);--- @class MonthlyActivitiesObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+MonthlyActivitiesObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings); --- @class MonthlyActivitiesObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 
 function MonthlyActivitiesObjectiveTrackerMixin:OnEvent(event, ...)
 	if event == "PERKS_ACTIVITY_COMPLETED" then

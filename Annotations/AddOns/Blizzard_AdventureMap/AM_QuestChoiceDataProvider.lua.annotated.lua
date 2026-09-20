@@ -1,4 +1,4 @@
-AdventureMap_QuestChoiceDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class AdventureMap_QuestChoiceDataProviderMixin : MapCanvasDataProviderMixin
+AdventureMap_QuestChoiceDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class AdventureMap_QuestChoiceDataProviderMixin : MapCanvasDataProviderMixin
 
 function AdventureMap_QuestChoiceDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -168,7 +168,7 @@ function AdventureMap_QuestChoiceDataProviderMixin:OnQuestAccepted(pin)
 end
 
 --[[ Quest Choice Pin ]]--
-AdventureMap_QuestChoicePinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class AdventureMap_QuestChoicePinMixin : MapCanvasPinMixin
+AdventureMap_QuestChoicePinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class AdventureMap_QuestChoicePinMixin : MapCanvasPinMixin
 
 function AdventureMap_QuestChoicePinMixin:OnLoad()
 	self:SetScalingLimits(1.25, 0.825, 1.275);
@@ -230,7 +230,7 @@ function AdventureMap_QuestChoicePinMixin:OnMouseLeave()
 end
 
 --[[ Fog Pin ]]--
-AdventureMap_FogPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class AdventureMap_FogPinMixin : MapCanvasPinMixin
+AdventureMap_FogPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class AdventureMap_FogPinMixin : MapCanvasPinMixin
 
 function AdventureMap_FogPinMixin:OnLoad()
 	self:SetAlphaStyle(AM_PIN_ALPHA_STYLE_VISIBLE_WHEN_ZOOMED_IN);

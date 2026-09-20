@@ -12,7 +12,7 @@ local function GetMarketInfoIfDecor(entryID)
 	return nil;
 end
 
-HousingCatalogEntryMixin = {};--- @class HousingCatalogEntryMixin
+HousingCatalogEntryMixin = {}; --- @class HousingCatalogEntryMixin
 
 function HousingCatalogEntryMixin:OnLoad()
 	local forceSceneChange = true;
@@ -404,7 +404,7 @@ function HousingCatalogEntryMixin:IsInMarketView()
 	return false;
 end
 
-HousingCatalogDecorEntryMixin = CreateFromMixins(HousingCatalogEntryMixin);--- @class HousingCatalogDecorEntryMixin : HousingCatalogEntryMixin
+HousingCatalogDecorEntryMixin = CreateFromMixins(HousingCatalogEntryMixin); --- @class HousingCatalogDecorEntryMixin : HousingCatalogEntryMixin
 
 function HousingCatalogDecorEntryMixin:GetEntryData()
 	-- Overrides HousingCatalogEntryMixin.
@@ -734,7 +734,7 @@ function HousingCatalogDecorEntryMixin:ShowContextMenu()
 	end);
 end
 
-HousingCatalogRoomEntryMixin = {};--- @class HousingCatalogRoomEntryMixin
+HousingCatalogRoomEntryMixin = {}; --- @class HousingCatalogRoomEntryMixin
 
 local RoomEntryWhileInitializedEvents = {
 	"HOUSING_LAYOUT_FLOORPLAN_SELECTION_CHANGED",

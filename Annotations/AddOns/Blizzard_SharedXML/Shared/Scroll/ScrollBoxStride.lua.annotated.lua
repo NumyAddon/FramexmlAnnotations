@@ -1,4 +1,4 @@
-ScrollBoxListStrideMixin = {};--- @class ScrollBoxListStrideMixin
+ScrollBoxListStrideMixin = {}; --- @class ScrollBoxListStrideMixin
 
 function ScrollBoxListStrideMixin:GetStride()
 	error("GetStride implementation required.")

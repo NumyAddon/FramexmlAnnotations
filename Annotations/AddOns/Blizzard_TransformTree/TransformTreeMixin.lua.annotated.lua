@@ -1,4 +1,4 @@
-TransformTreeMixin = {};--- @class TransformTreeMixin
+TransformTreeMixin = {}; --- @class TransformTreeMixin
 
 function TransformTreeMixin:OnLoad()
 	self.root = CreateTransformTreeNode(TransformTreeBaseNodeMixin);

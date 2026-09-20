@@ -4,7 +4,7 @@ local type = type;
 SCROLLING_MESSAGE_FRAME_INSERT_MODE_TOP = 1;
 SCROLLING_MESSAGE_FRAME_INSERT_MODE_BOTTOM = 2;
 
-ScrollingMessageFrameMixin = CreateFromMixins(FontableFrameMixin);--- @class ScrollingMessageFrameMixin : FontableFrameMixin
+ScrollingMessageFrameMixin = CreateFromMixins(FontableFrameMixin); --- @class ScrollingMessageFrameMixin : FontableFrameMixin
 
 -- where ... is any extra user data
 function ScrollingMessageFrameMixin:AddMessage(message, r, g, b, ...)
@@ -793,7 +793,7 @@ end
 -- were untainted. For function arguments, these are wrapped in closures that
 -- taint when invoked.
 
-ScrollingMessageFrameSecureMixin = {};--- @class ScrollingMessageFrameSecureMixin
+ScrollingMessageFrameSecureMixin = {}; --- @class ScrollingMessageFrameSecureMixin
 
 function ScrollingMessageFrameSecureMixin:AddMessage(message, r, g, b, ...)
 	ScrollingMessageFrameMixin.AddMessage(self, message, r, g, b, ...);

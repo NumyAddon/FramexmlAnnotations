@@ -4,7 +4,7 @@ SpellBookFrame_HelpPlates = {
 	FramePos = { x = 5,	y = -22 },
 };
 
-SpellBookFrameTutorialsMixin = {};--- @class SpellBookFrameTutorialsMixin
+SpellBookFrameTutorialsMixin = {}; --- @class SpellBookFrameTutorialsMixin
 
 function SpellBookFrameTutorialsMixin:OnLoad()
 	self.HelpPlateButton:SetScript("OnClick", function() self:ToggleHelpPlates(); end);

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectAPI/Mainline/CovenantCalling.lua#L1)
---- @class CovenantCallingMixin
+ --- @class CovenantCallingMixin
 CovenantCallingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectAPI/Mainline/CovenantCalling.lua#L3)

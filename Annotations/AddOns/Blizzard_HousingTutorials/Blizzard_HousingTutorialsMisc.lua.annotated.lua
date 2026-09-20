@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L144)
---- @class HousingTutorialsHouseTeleportMixin : HelpTipStateMachineBasedTutorialMixin
+ --- @class HousingTutorialsHouseTeleportMixin : HelpTipStateMachineBasedTutorialMixin
 HousingTutorialsHouseTeleportMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L2)
---- @class HousingTutorialsItemAcquisitionMixin : BagTutorialBaseMixin
+ --- @class HousingTutorialsItemAcquisitionMixin : BagTutorialBaseMixin
 HousingTutorialsItemAcquisitionMixin = CreateFromMixins(BagTutorialBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L57)
---- @class HousingTutorialsNewPipMixin
+ --- @class HousingTutorialsNewPipMixin
 HousingTutorialsNewPipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L80)
---- @class HousingTutorialsHouseTeleportWatcherMixin
+ --- @class HousingTutorialsHouseTeleportWatcherMixin
 HousingTutorialsHouseTeleportWatcherMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L4)

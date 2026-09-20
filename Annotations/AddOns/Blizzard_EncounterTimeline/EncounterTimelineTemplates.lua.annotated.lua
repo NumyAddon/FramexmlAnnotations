@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTemplates.lua#L1)
---- @class EncounterTimelineEventIconMixin : EncounterTimelineOrientedFrameMixin
+ --- @class EncounterTimelineEventIconMixin : EncounterTimelineOrientedFrameMixin
 EncounterTimelineEventIconMixin = CreateFromMixins(EncounterTimelineOrientedFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTemplates.lua#L166)
---- @class EncounterTimelineIndicatorIconGridMixin
+ --- @class EncounterTimelineIndicatorIconGridMixin
 EncounterTimelineIndicatorIconGridMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTemplates.lua#L217)
---- @class EncounterTimelinePausedIconMixin
+ --- @class EncounterTimelinePausedIconMixin
 EncounterTimelinePausedIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTemplates.lua#L239)
---- @class EncounterTimelineQueuedIconMixin
+ --- @class EncounterTimelineQueuedIconMixin
 EncounterTimelineQueuedIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTemplates.lua#L3)

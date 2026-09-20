@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartServicesBase.lua#L1)
---- @class ShoppingCartServiceRegistrantMixin : CallbackRegistrantMixin
+ --- @class ShoppingCartServiceRegistrantMixin : CallbackRegistrantMixin
 ShoppingCartServiceRegistrantMixin = CreateFromMixins(CallbackRegistrantMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartServicesBase.lua#L16)
---- @class ShoppingCartServiceButtonMixin
+ --- @class ShoppingCartServiceButtonMixin
 ShoppingCartServiceButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartServicesBase.lua#L3)

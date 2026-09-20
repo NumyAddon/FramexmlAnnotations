@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EvokerEbonMightBar.lua#L3)
---- @class EvokerEbonMightBarMixin
+ --- @class EvokerEbonMightBarMixin
 EvokerEbonMightBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EvokerEbonMightBar.lua#L111)
---- @class PlayerFrameEvokerEbonMightBarMixin
+ --- @class PlayerFrameEvokerEbonMightBarMixin
 PlayerFrameEvokerEbonMightBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EvokerEbonMightBar.lua#L10)

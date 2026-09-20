@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTrackView.lua#L1)
---- @class EncounterTimelineTrackViewMixin : EncounterTimelineViewMixin, EncounterTimelineTrackViewSettingsMixin, EncounterTimelineTrackLayoutMixin
+ --- @class EncounterTimelineTrackViewMixin : EncounterTimelineViewMixin, EncounterTimelineTrackViewSettingsMixin, EncounterTimelineTrackLayoutMixin
 EncounterTimelineTrackViewMixin = CreateFromMixins(EncounterTimelineViewMixin, EncounterTimelineTrackViewSettingsMixin, EncounterTimelineTrackLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTrackView.lua#L3)

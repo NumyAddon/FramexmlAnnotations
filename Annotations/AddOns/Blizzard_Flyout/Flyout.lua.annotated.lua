@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L7)
---- @class FlyoutButtonMixin : ButtonStateBehaviorMixin
+ --- @class FlyoutButtonMixin : ButtonStateBehaviorMixin
 FlyoutButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L207)
---- @class FlyoutPopupMixin
+ --- @class FlyoutPopupMixin
 FlyoutPopupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L352)
---- @class FlyoutPopupButtonMixin
+ --- @class FlyoutPopupButtonMixin
 FlyoutPopupButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L9)

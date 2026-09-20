@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.lua#L3)
---- @class HouseExteriorOptionDropdownElementMixin
+ --- @class HouseExteriorOptionDropdownElementMixin
 HouseExteriorOptionDropdownElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.lua#L32)
---- @class HouseExteriorOptionDropdownMixin
+ --- @class HouseExteriorOptionDropdownMixin
 HouseExteriorOptionDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.lua#L175)
---- @class HouseExteriorTypeDropdownMixin
+ --- @class HouseExteriorTypeDropdownMixin
 HouseExteriorTypeDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.lua#L211)
---- @class HouseExteriorSizeDropdownMixin
+ --- @class HouseExteriorSizeDropdownMixin
 HouseExteriorSizeDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.lua#L247)
---- @class HouseExteriorCoreFixtureDropdownMixin
+ --- @class HouseExteriorCoreFixtureDropdownMixin
 HouseExteriorCoreFixtureDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.lua#L300)
---- @class HouseExteriorOptionElementMixin
+ --- @class HouseExteriorOptionElementMixin
 HouseExteriorOptionElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.lua#L391)
---- @class HouseExteriorFixtureOptionListMixin
+ --- @class HouseExteriorFixtureOptionListMixin
 HouseExteriorFixtureOptionListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.lua#L518)
---- @class HouseExteriorCheckboxOptionMixin
+ --- @class HouseExteriorCheckboxOptionMixin
 HouseExteriorCheckboxOptionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.lua#L5)

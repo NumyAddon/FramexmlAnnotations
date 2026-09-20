@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/LossOfControlFrame.lua#L34)
---- @class LossOfControlMixin
+ --- @class LossOfControlMixin
 LossOfControlMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/LossOfControlFrame.lua#L36)

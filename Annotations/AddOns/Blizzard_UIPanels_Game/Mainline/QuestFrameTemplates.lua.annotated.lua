@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.lua#L1)
---- @class QuestAccountCompletedNoticeMixin
+ --- @class QuestAccountCompletedNoticeMixin
 QuestAccountCompletedNoticeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.lua#L3)

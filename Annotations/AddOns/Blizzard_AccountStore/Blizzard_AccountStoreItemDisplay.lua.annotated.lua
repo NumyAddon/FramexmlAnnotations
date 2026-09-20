@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreItemDisplay.lua#L2)
---- @class AccountStoreItemDisplayMixin
+ --- @class AccountStoreItemDisplayMixin
 AccountStoreItemDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreItemDisplay.lua#L10)

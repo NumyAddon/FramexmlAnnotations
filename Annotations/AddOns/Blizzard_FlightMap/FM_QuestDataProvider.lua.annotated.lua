@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FlightMap/FM_QuestDataProvider.lua#L1)
---- @class FlightMap_QuestDataProviderMixin : QuestDataProviderMixin
+ --- @class FlightMap_QuestDataProviderMixin : QuestDataProviderMixin
 FlightMap_QuestDataProviderMixin = CreateFromMixins(QuestDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FlightMap/FM_QuestDataProvider.lua#L22)
---- @class FlightMap_QuestPinMixin
+ --- @class FlightMap_QuestPinMixin
 FlightMap_QuestPinMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FlightMap/FM_QuestDataProvider.lua#L3)

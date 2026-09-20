@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemList.lua#L10)
---- @class AuctionHouseItemListLineMixin : TableBuilderRowMixin
+ --- @class AuctionHouseItemListLineMixin : TableBuilderRowMixin
 AuctionHouseItemListLineMixin = CreateFromMixins(TableBuilderRowMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemList.lua#L38)
---- @class AuctionHouseFavoritableLineMixin
+ --- @class AuctionHouseFavoritableLineMixin
 AuctionHouseFavoritableLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemList.lua#L50)
---- @class AuctionHouseItemListMixin
+ --- @class AuctionHouseItemListMixin
 AuctionHouseItemListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemList.lua#L12)

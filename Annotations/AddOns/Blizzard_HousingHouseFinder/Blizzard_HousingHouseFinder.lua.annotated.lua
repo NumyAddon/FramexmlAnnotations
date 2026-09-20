@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.lua#L1)
---- @class HouseFinderFrameMixin
+ --- @class HouseFinderFrameMixin
 HouseFinderFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.lua#L365)
---- @class HouseFinderBNetFriendSearchBoxMixin
+ --- @class HouseFinderBNetFriendSearchBoxMixin
 HouseFinderBNetFriendSearchBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.lua#L447)
---- @class PlotInfoFrameBackButtonMixin
+ --- @class PlotInfoFrameBackButtonMixin
 PlotInfoFrameBackButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.lua#L469)
---- @class HouseFinderPlotInfoFrameMixin
+ --- @class HouseFinderPlotInfoFrameMixin
 HouseFinderPlotInfoFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.lua#L552)
---- @class HouseFinderNeighborhoodButtonMixin
+ --- @class HouseFinderNeighborhoodButtonMixin
 HouseFinderNeighborhoodButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.lua#L695)
---- @class DeclineInviteButtonMixin
+ --- @class DeclineInviteButtonMixin
 DeclineInviteButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.lua#L733)
---- @class IgnoreNeighborhoodButtonMixin
+ --- @class IgnoreNeighborhoodButtonMixin
 IgnoreNeighborhoodButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.lua#L19)

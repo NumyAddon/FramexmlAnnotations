@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/ModelFrameMixin.lua#L81)
---- @class ModelFrameMixin
+ --- @class ModelFrameMixin
 ModelFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/ModelFrameMixin.lua#L84)

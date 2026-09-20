@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollController.lua#L69)
---- @class ScrollControllerMixin : ScrollDirectionMixin
+ --- @class ScrollControllerMixin : ScrollDirectionMixin
 ScrollControllerMixin = CreateFromMixins(ScrollDirectionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollController.lua#L2)
---- @class ScrollDirectionMixin
+ --- @class ScrollDirectionMixin
 ScrollDirectionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollController.lua#L37)

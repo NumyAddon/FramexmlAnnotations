@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateTextWithState.lua#L10)
---- @class UIWidgetTemplateTextWithStateMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateTextWithStateMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateTextWithStateMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateTextWithState.lua#L12)

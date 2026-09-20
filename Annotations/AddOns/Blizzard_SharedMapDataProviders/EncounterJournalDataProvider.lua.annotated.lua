@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L2)
---- @class EncounterJournalDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class EncounterJournalDataProviderMixin : MapCanvasDataProviderMixin
 EncounterJournalDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L83)
---- @class EncounterJournalPinMixin : MapCanvasPinMixin
+ --- @class EncounterJournalPinMixin : MapCanvasPinMixin
 EncounterJournalPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L141)
---- @class EncounterMapTrackingPinMixin : MapCanvasPinMixin
+ --- @class EncounterMapTrackingPinMixin : MapCanvasPinMixin
 EncounterMapTrackingPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L7)

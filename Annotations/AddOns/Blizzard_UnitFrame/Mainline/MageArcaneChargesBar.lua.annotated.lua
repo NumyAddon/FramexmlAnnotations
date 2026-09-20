@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.lua#L11)
---- @class ArcaneChargeMixin
+ --- @class ArcaneChargeMixin
 ArcaneChargeMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.lua#L13)

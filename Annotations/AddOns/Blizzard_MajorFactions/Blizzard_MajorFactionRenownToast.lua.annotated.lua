@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L2)
---- @class MajorFactionsRenownToastMixin
+ --- @class MajorFactionsRenownToastMixin
 MajorFactionsRenownToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L4)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.lua#L1)
---- @class AzeritePaperDollItemOverlayMixin
+ --- @class AzeritePaperDollItemOverlayMixin
 AzeritePaperDollItemOverlayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.lua#L3)

@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/ModelControlButtonMixin.lua#L66)
---- @class ModelControlZoomButtonMixin : ModelControlButtonMixin
+ --- @class ModelControlZoomButtonMixin : ModelControlButtonMixin
 ModelControlZoomButtonMixin = CreateFromMixins(ModelControlButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/ModelControlButtonMixin.lua#L90)
---- @class ModelControlPanButtonMixin : ModelControlButtonMixin
+ --- @class ModelControlPanButtonMixin : ModelControlButtonMixin
 ModelControlPanButtonMixin = CreateFromMixins(ModelControlButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/ModelControlButtonMixin.lua#L110)
---- @class ModelControlResetButtonMixin : ModelControlButtonMixin
+ --- @class ModelControlResetButtonMixin : ModelControlButtonMixin
 ModelControlResetButtonMixin = CreateFromMixins(ModelControlButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/ModelControlButtonMixin.lua#L127)
---- @class ModelControlRotateButtonMixin : ModelControlButtonMixin
+ --- @class ModelControlRotateButtonMixin : ModelControlButtonMixin
 ModelControlRotateButtonMixin = CreateFromMixins(ModelControlButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/ModelControlButtonMixin.lua#L3)
---- @class ModelControlFrameMixin
+ --- @class ModelControlFrameMixin
 ModelControlFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/ModelControlButtonMixin.lua#L14)
---- @class ModelControlButtonMixin
+ --- @class ModelControlButtonMixin
 ModelControlButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/ModelControlButtonMixin.lua#L159)
---- @class ModelPanningFrameMixin
+ --- @class ModelPanningFrameMixin
 ModelPanningFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/ModelControlButtonMixin.lua#L5)

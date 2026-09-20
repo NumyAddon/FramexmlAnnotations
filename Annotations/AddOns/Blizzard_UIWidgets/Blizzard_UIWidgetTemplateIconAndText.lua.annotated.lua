@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateIconAndText.lua#L10)
---- @class UIWidgetTemplateIconAndTextMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateIconAndTextMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateIconAndTextMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateIconAndText.lua#L18)

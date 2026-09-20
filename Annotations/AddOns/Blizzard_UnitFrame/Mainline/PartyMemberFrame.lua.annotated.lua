@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PartyMemberFrame.lua#L2)
---- @class PartyMemberFrameMixin : PartyMemberAuraMixin
+ --- @class PartyMemberFrameMixin : PartyMemberAuraMixin
 PartyMemberFrameMixin = CreateFromMixins(PartyMemberAuraMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PartyMemberFrame.lua#L624)
---- @class PartyMemberPetFrameMixin : PartyMemberAuraMixin
+ --- @class PartyMemberPetFrameMixin : PartyMemberAuraMixin
 PartyMemberPetFrameMixin = CreateFromMixins(PartyMemberAuraMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PartyMemberFrame.lua#L4)

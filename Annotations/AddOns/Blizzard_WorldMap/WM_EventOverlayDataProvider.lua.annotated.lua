@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/WM_EventOverlayDataProvider.lua#L1)
---- @class WorldMap_EventOverlayDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class WorldMap_EventOverlayDataProviderMixin : MapCanvasDataProviderMixin
 WorldMap_EventOverlayDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/WM_EventOverlayDataProvider.lua#L46)
---- @class WorldMap_EventOverlayPinMixin : MapCanvasPinMixin
+ --- @class WorldMap_EventOverlayPinMixin : MapCanvasPinMixin
 WorldMap_EventOverlayPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/WM_EventOverlayDataProvider.lua#L3)

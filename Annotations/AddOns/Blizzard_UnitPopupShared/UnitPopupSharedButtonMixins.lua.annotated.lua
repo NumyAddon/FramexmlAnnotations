@@ -1,635 +1,635 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L195)
---- @class UnitPopupAttachFrameMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupAttachFrameMixin : UnitPopupButtonBaseMixin
 UnitPopupAttachFrameMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L215)
---- @class UnitPopupCheckboxButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupCheckboxButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCheckboxButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L225)
---- @class UnitPopupRadioButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupRadioButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRadioButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L235)
---- @class UnitPopupTradeButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupTradeButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTradeButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L273)
---- @class UnitPopupInspectButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupInspectButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupInspectButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L296)
---- @class UnitPopupTargetButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupTargetButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTargetButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L324)
---- @class UnitPopupIgnoreButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupIgnoreButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupIgnoreButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L346)
---- @class UnitPopupPopoutChatButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPopoutChatButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPopoutChatButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L370)
---- @class UnitPopupDuelButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupDuelButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupDuelButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L396)
---- @class UnitPopupPetBattleDuelButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPetBattleDuelButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPetBattleDuelButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L423)
---- @class UnitPopupWhisperButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupWhisperButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupWhisperButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L461)
---- @class UnitPopupInviteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L486)
---- @class UnitPopupSuggestInviteButtonMixin : UnitPopupInviteButtonMixin
+ --- @class UnitPopupSuggestInviteButtonMixin : UnitPopupInviteButtonMixin
 UnitPopupSuggestInviteButtonMixin = CreateFromMixins(UnitPopupInviteButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L500)
---- @class UnitPopupRequestInviteButtonMixin : UnitPopupInviteButtonMixin
+ --- @class UnitPopupRequestInviteButtonMixin : UnitPopupInviteButtonMixin
 UnitPopupRequestInviteButtonMixin = CreateFromMixins(UnitPopupInviteButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L514)
---- @class UnitPopupUninviteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupUninviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupUninviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L551)
---- @class UnitPopupFriendsButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupFriendsButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupFriendsButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L557)
---- @class UnitPopupRemoveFriendButtonMixin : UnitPopupFriendsButtonMixin
+ --- @class UnitPopupRemoveFriendButtonMixin : UnitPopupFriendsButtonMixin
 UnitPopupRemoveFriendButtonMixin = CreateFromMixins(UnitPopupFriendsButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L567)
---- @class UnitPopupSetNoteButtonMixin : UnitPopupFriendsButtonMixin
+ --- @class UnitPopupSetNoteButtonMixin : UnitPopupFriendsButtonMixin
 UnitPopupSetNoteButtonMixin = CreateFromMixins(UnitPopupFriendsButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L580)
---- @class UnitPopupRemoveBnetFriendButtonMixin : UnitPopupRemoveFriendButtonMixin
+ --- @class UnitPopupRemoveBnetFriendButtonMixin : UnitPopupRemoveFriendButtonMixin
 UnitPopupRemoveBnetFriendButtonMixin = CreateFromMixins(UnitPopupRemoveFriendButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L602)
---- @class UnitPopupSetBNetNoteButtonMixin : UnitPopupSetNoteButtonMixin
+ --- @class UnitPopupSetBNetNoteButtonMixin : UnitPopupSetNoteButtonMixin
 UnitPopupSetBNetNoteButtonMixin = CreateFromMixins(UnitPopupSetNoteButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L610)
---- @class UnitPopupViewBnetFriendsButtonMixin : UnitPopupFriendsButtonMixin
+ --- @class UnitPopupViewBnetFriendsButtonMixin : UnitPopupFriendsButtonMixin
 UnitPopupViewBnetFriendsButtonMixin = CreateFromMixins(UnitPopupFriendsButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L630)
---- @class UnitPopupBnetBlockButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupBnetBlockButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupBnetBlockButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L659)
---- @class UnitPopupBnetUnblockButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupBnetUnblockButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupBnetUnblockButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L684)
---- @class UnitPopupBnetInviteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupBnetInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupBnetInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L712)
---- @class UnitPopupBnetSuggestInviteButtonMixin : UnitPopupBnetInviteButtonMixin
+ --- @class UnitPopupBnetSuggestInviteButtonMixin : UnitPopupBnetInviteButtonMixin
 UnitPopupBnetSuggestInviteButtonMixin = CreateFromMixins(UnitPopupBnetInviteButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L726)
---- @class UnitPopupBnetRequestInviteButtonMixin : UnitPopupBnetInviteButtonMixin
+ --- @class UnitPopupBnetRequestInviteButtonMixin : UnitPopupBnetInviteButtonMixin
 UnitPopupBnetRequestInviteButtonMixin = CreateFromMixins(UnitPopupBnetInviteButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L740)
---- @class UnitPopupBnetTargetButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupBnetTargetButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupBnetTargetButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L779)
---- @class UnitPopupVoteToKickButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupVoteToKickButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupVoteToKickButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L818)
---- @class UnitPopupPromoteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPromoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L849)
---- @class UnitPopupPromoteGuideButtonMixin : UnitPopupPromoteButtonMixin
+ --- @class UnitPopupPromoteGuideButtonMixin : UnitPopupPromoteButtonMixin
 UnitPopupPromoteGuideButtonMixin = CreateFromMixins(UnitPopupPromoteButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L867)
---- @class UnitPopupGuildPromoteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupGuildPromoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L888)
---- @class UnitPopupGuildLeaveButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupGuildLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L904)
---- @class UnitPopupGuildGuildsLeaveButtonMixin : UnitPopupGuildLeaveButtonMixin
+ --- @class UnitPopupGuildGuildsLeaveButtonMixin : UnitPopupGuildLeaveButtonMixin
 UnitPopupGuildGuildsLeaveButtonMixin = CreateFromMixins(UnitPopupGuildLeaveButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L914)
---- @class UnitPopupPartyLeaveButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPartyLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPartyLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L941)
---- @class UnitPopupPartyInstanceLeaveButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPartyInstanceLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPartyInstanceLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L963)
---- @class UnitPopupPartyInstanceAbandonButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPartyInstanceAbandonButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPartyInstanceAbandonButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1010)
---- @class UnitPopupFollowButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupFollowButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupFollowButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1037)
---- @class UnitPopupPetDismissButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPetDismissButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPetDismissButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1059)
---- @class UnitPopupPetAbandonButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPetAbandonButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPetAbandonButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1075)
---- @class UnitPopupPetRenameButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPetRenameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPetRenameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1090)
---- @class UnitPopupPetShowInJournalButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPetShowInJournalButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPetShowInJournalButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1109)
---- @class UnitPopupResetInstancesButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupResetInstancesButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupResetInstancesButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1147)
---- @class UnitPopupResetChallengeModeButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupResetChallengeModeButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupResetChallengeModeButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1182)
---- @class UnitPopupConvertToRaidButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupConvertToRaidButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupConvertToRaidButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1205)
---- @class UnitPopupConvertToPartyButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupConvertToPartyButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupConvertToPartyButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1232)
---- @class UnitPopupReportButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupReportButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupReportButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1247)
---- @class UnitPopupReportGroupMemberButtonMixin : UnitPopupReportButtonMixin
+ --- @class UnitPopupReportGroupMemberButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportGroupMemberButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1287)
---- @class UnitPopupReportPvpScoreboardButtonMixin : UnitPopupReportButtonMixin
+ --- @class UnitPopupReportPvpScoreboardButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportPvpScoreboardButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1297)
---- @class UnitPopupReportInWorldButtonMixin : UnitPopupReportButtonMixin
+ --- @class UnitPopupReportInWorldButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportInWorldButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1307)
---- @class UnitPopupReportNeighborhoodRosterMixin : UnitPopupReportButtonMixin
+ --- @class UnitPopupReportNeighborhoodRosterMixin : UnitPopupReportButtonMixin
 UnitPopupReportNeighborhoodRosterMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1318)
---- @class UnitPopupPvpReportGroupMemberButtonMixin : UnitPopupReportButtonMixin
+ --- @class UnitPopupPvpReportGroupMemberButtonMixin : UnitPopupReportButtonMixin
 UnitPopupPvpReportGroupMemberButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1358)
---- @class UnitPopupReportFriendButtonMixin : UnitPopupReportButtonMixin
+ --- @class UnitPopupReportFriendButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportFriendButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1382)
---- @class UnitPopupReportClubMemberButtonMixin : UnitPopupReportButtonMixin
+ --- @class UnitPopupReportClubMemberButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportClubMemberButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1392)
---- @class UnitPopupReportChatButtonMixin : UnitPopupReportButtonMixin
+ --- @class UnitPopupReportChatButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportChatButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1415)
---- @class UnitPopupReportPetButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupReportPetButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupReportPetButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1432)
---- @class UnitPopupReportBattlePetButtonMixin : UnitPopupReportPetButtonMixin
+ --- @class UnitPopupReportBattlePetButtonMixin : UnitPopupReportPetButtonMixin
 UnitPopupReportBattlePetButtonMixin = CreateFromMixins(UnitPopupReportPetButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1438)
---- @class UnitPopupCopyCharacterNameButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupCopyCharacterNameButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCopyCharacterNameButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1457)
---- @class UnitPopupDungeonDifficultyButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupDungeonDifficultyButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupDungeonDifficultyButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1483)
---- @class UnitPopupDungeonDifficulty1ButtonMixin : UnitPopupRadioButtonMixin
+ --- @class UnitPopupDungeonDifficulty1ButtonMixin : UnitPopupRadioButtonMixin
 UnitPopupDungeonDifficulty1ButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1519)
---- @class UnitPopupDungeonDifficulty2ButtonMixin : UnitPopupDungeonDifficulty1ButtonMixin
+ --- @class UnitPopupDungeonDifficulty2ButtonMixin : UnitPopupDungeonDifficulty1ButtonMixin
 UnitPopupDungeonDifficulty2ButtonMixin = CreateFromMixins(UnitPopupDungeonDifficulty1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1529)
---- @class UnitPopupDungeonDifficulty3ButtonMixin : UnitPopupDungeonDifficulty1ButtonMixin
+ --- @class UnitPopupDungeonDifficulty3ButtonMixin : UnitPopupDungeonDifficulty1ButtonMixin
 UnitPopupDungeonDifficulty3ButtonMixin = CreateFromMixins(UnitPopupDungeonDifficulty1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1540)
---- @class UnitPopupRaidDifficultyButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupRaidDifficultyButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRaidDifficultyButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1573)
---- @class UnitPopupRaidDifficulty1ButtonMixin : UnitPopupRadioButtonMixin
+ --- @class UnitPopupRaidDifficulty1ButtonMixin : UnitPopupRadioButtonMixin
 UnitPopupRaidDifficulty1ButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1588)
---- @class UnitPopupRaidDifficulty2ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
+ --- @class UnitPopupRaidDifficulty2ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 UnitPopupRaidDifficulty2ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1610)
---- @class UnitPopupRaidDifficulty3ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
+ --- @class UnitPopupRaidDifficulty3ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 UnitPopupRaidDifficulty3ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1632)
---- @class UnitPopupLegacyRaidDifficulty1ButtonMixin : UnitPopupRadioButtonMixin
+ --- @class UnitPopupLegacyRaidDifficulty1ButtonMixin : UnitPopupRadioButtonMixin
 UnitPopupLegacyRaidDifficulty1ButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1711)
---- @class UnitPopupLegacyRaidDifficulty2ButtonMixin : UnitPopupLegacyRaidDifficulty1ButtonMixin
+ --- @class UnitPopupLegacyRaidDifficulty2ButtonMixin : UnitPopupLegacyRaidDifficulty1ButtonMixin
 UnitPopupLegacyRaidDifficulty2ButtonMixin = CreateFromMixins(UnitPopupLegacyRaidDifficulty1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1721)
---- @class UnitPopupPvpFlagButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPvpFlagButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPvpFlagButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1754)
---- @class UnitPopupPvpFlagChoiceMixin : UnitPopupRadioButtonMixin
+ --- @class UnitPopupPvpFlagChoiceMixin : UnitPopupRadioButtonMixin
 UnitPopupPvpFlagChoiceMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1756)
---- @class UnitPopupPvpEnableButtonMixin : UnitPopupPvpFlagChoiceMixin
+ --- @class UnitPopupPvpEnableButtonMixin : UnitPopupPvpFlagChoiceMixin
 UnitPopupPvpEnableButtonMixin = CreateFromMixins(UnitPopupPvpFlagChoiceMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1774)
---- @class UnitPopupPvpDisableButtonMixin : UnitPopupPvpFlagChoiceMixin
+ --- @class UnitPopupPvpDisableButtonMixin : UnitPopupPvpFlagChoiceMixin
 UnitPopupPvpDisableButtonMixin = CreateFromMixins(UnitPopupPvpFlagChoiceMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1793)
---- @class UnitPopupSelectLootSpecializationButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSelectLootSpecializationButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSelectLootSpecializationButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1822)
---- @class UnitPopupLootSpecializationDefaultButtonMixin : UnitPopupRadioButtonMixin
+ --- @class UnitPopupLootSpecializationDefaultButtonMixin : UnitPopupRadioButtonMixin
 UnitPopupLootSpecializationDefaultButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1850)
---- @class UnitPopupLootSpecialization1ButtonMixin : UnitPopupRadioButtonMixin
+ --- @class UnitPopupLootSpecialization1ButtonMixin : UnitPopupRadioButtonMixin
 UnitPopupLootSpecialization1ButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1890)
---- @class UnitPopupLootSpecialization2ButtonMixin : UnitPopupLootSpecialization1ButtonMixin
+ --- @class UnitPopupLootSpecialization2ButtonMixin : UnitPopupLootSpecialization1ButtonMixin
 UnitPopupLootSpecialization2ButtonMixin = CreateFromMixins(UnitPopupLootSpecialization1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1896)
---- @class UnitPopupLootSpecialization3ButtonMixin : UnitPopupLootSpecialization1ButtonMixin
+ --- @class UnitPopupLootSpecialization3ButtonMixin : UnitPopupLootSpecialization1ButtonMixin
 UnitPopupLootSpecialization3ButtonMixin = CreateFromMixins(UnitPopupLootSpecialization1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1902)
---- @class UnitPopupLootSpecialization4ButtonMixin : UnitPopupLootSpecialization1ButtonMixin
+ --- @class UnitPopupLootSpecialization4ButtonMixin : UnitPopupLootSpecialization1ButtonMixin
 UnitPopupLootSpecialization4ButtonMixin = CreateFromMixins(UnitPopupLootSpecialization1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1908)
---- @class UnitPopupSetRaidLeaderButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSetRaidLeaderButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidLeaderButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1935)
---- @class UnitPopupSetRaidAssistButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSetRaidAssistButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidAssistButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1962)
---- @class UnitPopupSetRaidMainTankButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSetRaidMainTankButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidMainTankButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L1993)
---- @class UnitPopupSetRaidMainAssistButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSetRaidMainAssistButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidMainAssistButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2008)
---- @class UnitPopupSetRaidDemoteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSetRaidDemoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidDemoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2066)
---- @class UnitPopupSetRaidRemoveButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSetRaidRemoveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetRaidRemoveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2115)
---- @class UnitPopupPvpReportAfkButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPvpReportAfkButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPvpReportAfkButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2133)
---- @class UnitPopupRafSummonButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupRafSummonButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRafSummonButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2155)
---- @class UnitPopupVehicleLeaveButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupVehicleLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupVehicleLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2169)
---- @class UnitPopupSetFocusButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSetFocusButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSetFocusButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2179)
---- @class UnitPopupClearFocusButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupClearFocusButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupClearFocusButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2189)
---- @class UnitPopupAddFriendButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupAddFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2228)
---- @class UnitPopupAddFriendMenuButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupAddFriendMenuButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddFriendMenuButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2267)
---- @class UnitPopupAddCharacterFriendButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupAddCharacterFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddCharacterFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2339)
---- @class UnitPopupAddBtagFriendButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupAddBtagFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddBtagFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2382)
---- @class UnitPopupAddGuildBtagFriendButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupAddGuildBtagFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddGuildBtagFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2410)
---- @class UnitPopupAddTitleFriendButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupAddTitleFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddTitleFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2458)
---- @class UnitPopupRaidTargetButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupRaidTargetButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRaidTargetButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2486)
---- @class UnitPopupRaidTargetBaseMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupRaidTargetBaseMixin : UnitPopupButtonBaseMixin
 UnitPopupRaidTargetBaseMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2533)
---- @class UnitPopupRaidTargetNoneButtonMixin : UnitPopupRaidTargetBaseMixin
+ --- @class UnitPopupRaidTargetNoneButtonMixin : UnitPopupRaidTargetBaseMixin
 UnitPopupRaidTargetNoneButtonMixin = CreateFromMixins(UnitPopupRaidTargetBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2543)
---- @class UnitPopupRaidTarget1ButtonMixin : UnitPopupRaidTargetBaseMixin
+ --- @class UnitPopupRaidTarget1ButtonMixin : UnitPopupRaidTargetBaseMixin
 UnitPopupRaidTarget1ButtonMixin = CreateFromMixins(UnitPopupRaidTargetBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2561)
---- @class UnitPopupRaidTarget2ButtonMixin : UnitPopupRaidTarget1ButtonMixin
+ --- @class UnitPopupRaidTarget2ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget2ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2575)
---- @class UnitPopupRaidTarget3ButtonMixin : UnitPopupRaidTarget1ButtonMixin
+ --- @class UnitPopupRaidTarget3ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget3ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2589)
---- @class UnitPopupRaidTarget4ButtonMixin : UnitPopupRaidTarget1ButtonMixin
+ --- @class UnitPopupRaidTarget4ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget4ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2603)
---- @class UnitPopupRaidTarget5ButtonMixin : UnitPopupRaidTarget1ButtonMixin
+ --- @class UnitPopupRaidTarget5ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget5ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2617)
---- @class UnitPopupRaidTarget6ButtonMixin : UnitPopupRaidTarget1ButtonMixin
+ --- @class UnitPopupRaidTarget6ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget6ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2631)
---- @class UnitPopupRaidTarget7ButtonMixin : UnitPopupRaidTarget1ButtonMixin
+ --- @class UnitPopupRaidTarget7ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget7ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2645)
---- @class UnitPopupRaidTarget8ButtonMixin : UnitPopupRaidTarget1ButtonMixin
+ --- @class UnitPopupRaidTarget8ButtonMixin : UnitPopupRaidTarget1ButtonMixin
 UnitPopupRaidTarget8ButtonMixin = CreateFromMixins(UnitPopupRaidTarget1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2659)
---- @class UnitPopupSelfHighlightSelectButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSelfHighlightSelectButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSelfHighlightSelectButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2672)
---- @class UnitPopupSelfHighlightCommonMixin : UnitPopupCheckboxButtonMixin
+ --- @class UnitPopupSelfHighlightCommonMixin : UnitPopupCheckboxButtonMixin
 UnitPopupSelfHighlightCommonMixin = CreateFromMixins(UnitPopupCheckboxButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2698)
---- @class UnitPopupSelfHighlightCircleButtonMixin : UnitPopupSelfHighlightCommonMixin
+ --- @class UnitPopupSelfHighlightCircleButtonMixin : UnitPopupSelfHighlightCommonMixin
 UnitPopupSelfHighlightCircleButtonMixin = CreateFromMixins(UnitPopupSelfHighlightCommonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2708)
---- @class UnitPopupSelfHighlightIconButtonMixin : UnitPopupSelfHighlightCommonMixin
+ --- @class UnitPopupSelfHighlightIconButtonMixin : UnitPopupSelfHighlightCommonMixin
 UnitPopupSelfHighlightIconButtonMixin = CreateFromMixins(UnitPopupSelfHighlightCommonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2718)
---- @class UnitPopupChatPromoteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupChatPromoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupChatPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2749)
---- @class UnitPopupChatDemoteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupChatDemoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupChatDemoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2780)
---- @class UnitPopupChatOwnerButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupChatOwnerButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupChatOwnerButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2807)
---- @class UnitPopupGarrisonVisitButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupGarrisonVisitButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGarrisonVisitButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2822)
---- @class UnitPopupVoiceChatButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupVoiceChatButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupVoiceChatButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2853)
---- @class UnitPopupVoiceChatMicrophoneVolumeButtonMixin : UnitPopupAttachFrameMixin
+ --- @class UnitPopupVoiceChatMicrophoneVolumeButtonMixin : UnitPopupAttachFrameMixin
 UnitPopupVoiceChatMicrophoneVolumeButtonMixin = CreateFromMixins(UnitPopupAttachFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2867)
---- @class UnitPopupVoiceChatSpeakerVolumeButtonMixin : UnitPopupAttachFrameMixin
+ --- @class UnitPopupVoiceChatSpeakerVolumeButtonMixin : UnitPopupAttachFrameMixin
 UnitPopupVoiceChatSpeakerVolumeButtonMixin = CreateFromMixins(UnitPopupAttachFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2881)
---- @class UnitPopupVoiceChatUserVolumeButtonMixin : UnitPopupAttachFrameMixin
+ --- @class UnitPopupVoiceChatUserVolumeButtonMixin : UnitPopupAttachFrameMixin
 UnitPopupVoiceChatUserVolumeButtonMixin = CreateFromMixins(UnitPopupAttachFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2904)
---- @class UnitPopupVoiceChatSettingsButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupVoiceChatSettingsButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupVoiceChatSettingsButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2918)
---- @class UnitPopupCommunitiesLeaveButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupCommunitiesLeaveButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2948)
---- @class UnitPopupCommunitiesBtagFriendButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupCommunitiesBtagFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesBtagFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L2978)
---- @class UnitPopupCommunitiesKickFriendButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupCommunitiesKickFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesKickFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3009)
---- @class UnitPopupCommunitiesMemberNoteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupCommunitiesMemberNoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesMemberNoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3053)
---- @class UnitPopupCommunitiesRoleButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupCommunitiesRoleButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesRoleButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3072)
---- @class UnitPopupCommunitiesRoleMemberButtonMixin : UnitPopupRadioButtonMixin
+ --- @class UnitPopupCommunitiesRoleMemberButtonMixin : UnitPopupRadioButtonMixin
 UnitPopupCommunitiesRoleMemberButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3095)
---- @class UnitPopupCommunitiesRoleModeratorButtonMixin : UnitPopupCommunitiesRoleMemberButtonMixin
+ --- @class UnitPopupCommunitiesRoleModeratorButtonMixin : UnitPopupCommunitiesRoleMemberButtonMixin
 UnitPopupCommunitiesRoleModeratorButtonMixin = CreateFromMixins(UnitPopupCommunitiesRoleMemberButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3105)
---- @class UnitPopupCommunitiesRoleLeaderButtonMixin : UnitPopupCommunitiesRoleMemberButtonMixin
+ --- @class UnitPopupCommunitiesRoleLeaderButtonMixin : UnitPopupCommunitiesRoleMemberButtonMixin
 UnitPopupCommunitiesRoleLeaderButtonMixin = CreateFromMixins(UnitPopupCommunitiesRoleMemberButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3115)
---- @class UnitPopupCommunitiesRoleOwnerButtonMixin : UnitPopupCommunitiesRoleMemberButtonMixin
+ --- @class UnitPopupCommunitiesRoleOwnerButtonMixin : UnitPopupCommunitiesRoleMemberButtonMixin
 UnitPopupCommunitiesRoleOwnerButtonMixin = CreateFromMixins(UnitPopupCommunitiesRoleMemberButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3125)
---- @class UnitPopupCommunitiesFavoriteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupCommunitiesFavoriteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesFavoriteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3136)
---- @class UnitPopupCommunitiesSettingButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupCommunitiesSettingButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunitiesSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3157)
---- @class UnitPopupCommunityNotificationButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupCommunityNotificationButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunityNotificationButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3167)
---- @class UnitPopupClearCommunityNotificationButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupClearCommunityNotificationButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupClearCommunityNotificationButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3177)
---- @class UnitPopupCommunityInviteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupCommunityInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupCommunityInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3211)
---- @class UnitPopupDeleteCommunityMessageButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupDeleteCommunityMessageButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupDeleteCommunityMessageButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3262)
---- @class UnitPopupItemQuality2DescButtonMixin : UnitPopupRadioButtonMixin
+ --- @class UnitPopupItemQuality2DescButtonMixin : UnitPopupRadioButtonMixin
 UnitPopupItemQuality2DescButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3288)
---- @class UnitPopupItemQuality3DescButtonMixin : UnitPopupItemQuality2DescButtonMixin
+ --- @class UnitPopupItemQuality3DescButtonMixin : UnitPopupItemQuality2DescButtonMixin
 UnitPopupItemQuality3DescButtonMixin = CreateFromMixins(UnitPopupItemQuality2DescButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3298)
---- @class UnitPopupItemQuality4DescButtonMixin : UnitPopupItemQuality2DescButtonMixin
+ --- @class UnitPopupItemQuality4DescButtonMixin : UnitPopupItemQuality2DescButtonMixin
 UnitPopupItemQuality4DescButtonMixin = CreateFromMixins(UnitPopupItemQuality2DescButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3308)
---- @class UnitPopupOptOutLootTitleMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupOptOutLootTitleMixin : UnitPopupButtonBaseMixin
 UnitPopupOptOutLootTitleMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3326)
---- @class UnitPopupOptOutLootEnableMixin : UnitPopupRadioButtonMixin
+ --- @class UnitPopupOptOutLootEnableMixin : UnitPopupRadioButtonMixin
 UnitPopupOptOutLootEnableMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3341)
---- @class UnitPopupOptOutLootDisableMixin : UnitPopupRadioButtonMixin
+ --- @class UnitPopupOptOutLootDisableMixin : UnitPopupRadioButtonMixin
 UnitPopupOptOutLootDisableMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3357)
---- @class UnitPopupAchievementButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupAchievementButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAchievementButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3373)
---- @class UnitPopupRafGrantLevelButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupRafGrantLevelButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRafGrantLevelButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3389)
---- @class UnitPopupLootPromoteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupLootPromoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupLootPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3395)
---- @class UnitPopupSubsectionTitleMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSubsectionTitleMixin : UnitPopupButtonBaseMixin
 UnitPopupSubsectionTitleMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3405)
---- @class UnitPopupSubsectionSeperatorMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSubsectionSeperatorMixin : UnitPopupButtonBaseMixin
 UnitPopupSubsectionSeperatorMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3441)
---- @class UnitPopupEnterEditModeMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupEnterEditModeMixin : UnitPopupButtonBaseMixin
 UnitPopupEnterEditModeMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3448)
---- @class UnitPopupSelectRoleButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupSelectRoleButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSelectRoleButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3573)
---- @class UnitPopupResetChallengeButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupResetChallengeButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupResetChallengeButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3587)
---- @class UnitPopupViewHousesButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupViewHousesButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupViewHousesButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3609)
---- @class UnitPopupNeighborhoodEvictButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupNeighborhoodEvictButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupNeighborhoodEvictButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3635)
---- @class UnitPopupTransferNeighborhoodOwnerButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupTransferNeighborhoodOwnerButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTransferNeighborhoodOwnerButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3652)
---- @class UnitPopupPromoteDemoteNeighborhoodManagerButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupPromoteDemoteNeighborhoodManagerButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupPromoteDemoteNeighborhoodManagerButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3676)
---- @class UnitPopupDeleteDiscordMessageButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupDeleteDiscordMessageButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupDeleteDiscordMessageButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3693)
---- @class UnitPopupRecentAllyNoteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupRecentAllyNoteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRecentAllyNoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3709)
---- @class UnitPopupRecentAllyPinButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupRecentAllyPinButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRecentAllyPinButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3724)
---- @class UnitPopupAddRecentAllyBattleTagFriendButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupAddRecentAllyBattleTagFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddRecentAllyBattleTagFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3746)
---- @class UnitPopupAddRecentAllyTitleFriendButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupAddRecentAllyTitleFriendButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupAddRecentAllyTitleFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3772)
---- @class UnitPopupReportRecentAllyButtonMixin : UnitPopupReportButtonMixin
+ --- @class UnitPopupReportRecentAllyButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportRecentAllyButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L97)
---- @class UnitPopupButtonBaseMixin
+ --- @class UnitPopupButtonBaseMixin
 UnitPopupButtonBaseMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L99)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/AudioAssist.lua#L1)
---- @class RTTSMixin : SettingsDropdownControlMixin
+ --- @class RTTSMixin : SettingsDropdownControlMixin
 RTTSMixin = CreateFromMixins(SettingsDropdownControlMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/AudioAssist.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L15)
---- @class AdventureObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+ --- @class AdventureObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 AdventureObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L17)

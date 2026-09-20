@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_APIDocumentation/EventsAPIMixin.lua#L1)
---- @class EventsAPIMixin : BaseAPIMixin
+ --- @class EventsAPIMixin : BaseAPIMixin
 EventsAPIMixin = CreateFromMixins(BaseAPIMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_APIDocumentation/EventsAPIMixin.lua#L3)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L23)
---- @class BehavioralMessagingNotificationMixin
+ --- @class BehavioralMessagingNotificationMixin
 BehavioralMessagingNotificationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L103)
---- @class BehavioralMessagingTrayMixin
+ --- @class BehavioralMessagingTrayMixin
 BehavioralMessagingTrayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L177)
---- @class BehavioralMessagingDetailsMixin
+ --- @class BehavioralMessagingDetailsMixin
 BehavioralMessagingDetailsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BehavioralMessaging/Blizzard_BehavioralMessaging.lua#L25)

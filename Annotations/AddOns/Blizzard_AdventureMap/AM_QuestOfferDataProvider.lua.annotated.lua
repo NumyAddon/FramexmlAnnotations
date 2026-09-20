@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L1)
---- @class AdventureMap_QuestOfferDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class AdventureMap_QuestOfferDataProviderMixin : MapCanvasDataProviderMixin
 AdventureMap_QuestOfferDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L144)
---- @class AdventureMap_QuestOfferPinMixin : MapCanvasPinMixin
+ --- @class AdventureMap_QuestOfferPinMixin : MapCanvasPinMixin
 AdventureMap_QuestOfferPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L3)

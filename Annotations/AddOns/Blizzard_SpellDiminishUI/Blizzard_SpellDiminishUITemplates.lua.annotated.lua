@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellDiminishUI/Blizzard_SpellDiminishUITemplates.lua#L1)
---- @class SpellDiminishStatusTrayItemMixin
+ --- @class SpellDiminishStatusTrayItemMixin
 SpellDiminishStatusTrayItemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellDiminishUI/Blizzard_SpellDiminishUITemplates.lua#L37)
---- @class SpellDiminishStatusTrayMixin
+ --- @class SpellDiminishStatusTrayMixin
 SpellDiminishStatusTrayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellDiminishUI/Blizzard_SpellDiminishUITemplates.lua#L3)

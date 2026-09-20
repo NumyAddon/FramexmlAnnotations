@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceNormalOptionTemplate.lua#L68)
---- @class PlayerChoiceNormalOptionTemplateMixin : PlayerChoiceBaseOptionTemplateMixin, BaseMixin
+ --- @class PlayerChoiceNormalOptionTemplateMixin : PlayerChoiceBaseOptionTemplateMixin, BaseMixin
 PlayerChoiceNormalOptionTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin, BaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceNormalOptionTemplate.lua#L248)
---- @class PlayerChoiceNormalOptionGridTemplateMixin : PlayerChoiceBaseOptionTemplateMixin, BaseMixin
+ --- @class PlayerChoiceNormalOptionGridTemplateMixin : PlayerChoiceBaseOptionTemplateMixin, BaseMixin
 PlayerChoiceNormalOptionGridTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin, BaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceNormalOptionTemplate.lua#L1)
---- @class BaseMixin
+ --- @class BaseMixin
 BaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceNormalOptionTemplate.lua#L3)

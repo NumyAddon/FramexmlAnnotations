@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Console/Blizzard_Console_AutoComplete.lua#L1)
---- @class DeveloperConsoleAutoCompleteMixin
+ --- @class DeveloperConsoleAutoCompleteMixin
 DeveloperConsoleAutoCompleteMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Console/Blizzard_Console_AutoComplete.lua#L3)

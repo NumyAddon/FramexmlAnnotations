@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/AddonCompartment.lua#L3)
---- @class AddonCompartmentMixin
+ --- @class AddonCompartmentMixin
 AddonCompartmentMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Minimap/Mainline/AddonCompartment.lua#L9)

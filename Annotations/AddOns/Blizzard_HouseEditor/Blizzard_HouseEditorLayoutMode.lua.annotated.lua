@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorLayoutMode.lua#L28)
---- @class HouseEditorLayoutModeMixin : BaseHouseEditorModeMixin
+ --- @class HouseEditorLayoutModeMixin : BaseHouseEditorModeMixin
 HouseEditorLayoutModeMixin = CreateFromMixins(BaseHouseEditorModeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorLayoutMode.lua#L218)
---- @class HouseEditorLayoutFloorLineMixin
+ --- @class HouseEditorLayoutFloorLineMixin
 HouseEditorLayoutFloorLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorLayoutMode.lua#L264)
---- @class HouseEditorLayoutFloorSelectMixin
+ --- @class HouseEditorLayoutFloorSelectMixin
 HouseEditorLayoutFloorSelectMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorLayoutMode.lua#L30)

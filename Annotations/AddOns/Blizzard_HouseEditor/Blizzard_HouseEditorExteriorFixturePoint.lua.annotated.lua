@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorFixturePoint.lua#L1)
---- @class HousingExteriorFixturePointMixin
+ --- @class HousingExteriorFixturePointMixin
 HousingExteriorFixturePointMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorFixturePoint.lua#L3)

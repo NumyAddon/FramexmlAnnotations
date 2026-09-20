@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantChoiceToast.lua#L1)
---- @class CovenantChoiceToastMixin
+ --- @class CovenantChoiceToastMixin
 CovenantChoiceToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantChoiceToast.lua#L3)

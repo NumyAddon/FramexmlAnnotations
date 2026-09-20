@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L55)
---- @class ArtifactUIMixin
+ --- @class ArtifactUIMixin
 ArtifactUIMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L302)
---- @class ArtifactFrameUnderlayMixin
+ --- @class ArtifactFrameUnderlayMixin
 ArtifactFrameUnderlayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L60)

@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.lua#L1070)
---- @class CovenantFollowerMissionPageMixin
+ --- @class CovenantFollowerMissionPageMixin
 CovenantFollowerMissionPageMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.lua#L1134)
---- @class CovenantMissionEnvironmentEffectMixin
+ --- @class CovenantMissionEnvironmentEffectMixin
 CovenantMissionEnvironmentEffectMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.lua#L1174)
---- @class CovenantFollowerListMixin
+ --- @class CovenantFollowerListMixin
 CovenantFollowerListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.lua#L1237)
---- @class ConvenantMissionPageMouseOverTitleMixin
+ --- @class ConvenantMissionPageMouseOverTitleMixin
 ConvenantMissionPageMouseOverTitleMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.lua#L1072)

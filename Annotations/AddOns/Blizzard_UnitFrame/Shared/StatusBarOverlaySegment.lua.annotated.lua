@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/StatusBarOverlaySegment.lua#L4)
---- @class StatusBarOverlaySegmentMixin
+ --- @class StatusBarOverlaySegmentMixin
 StatusBarOverlaySegmentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/StatusBarOverlaySegment.lua#L6)

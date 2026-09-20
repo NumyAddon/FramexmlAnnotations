@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSalvageSlot.lua#L1)
---- @class ProfessionsSalvageSlotMixin : ProfessionsRecipeSlotBaseMixin
+ --- @class ProfessionsSalvageSlotMixin : ProfessionsRecipeSlotBaseMixin
 ProfessionsSalvageSlotMixin = CreateFromMixins(ProfessionsRecipeSlotBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSalvageSlot.lua#L3)

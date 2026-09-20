@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L2)
---- @class ScrollBoxSelectorMixin
+ --- @class ScrollBoxSelectorMixin
 ScrollBoxSelectorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_ScrollBoxSelector.lua#L4)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateTextColumnRow.lua#L10)
---- @class UIWidgetTemplateTextColumnRowMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateTextColumnRowMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateTextColumnRowMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateTextColumnRow.lua#L68)
---- @class UIWidgetTemplateTextColumnRowColumnMixin
+ --- @class UIWidgetTemplateTextColumnRowColumnMixin
 UIWidgetTemplateTextColumnRowColumnMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateTextColumnRow.lua#L12)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L50)
---- @class BlackMarketItemMixin
+ --- @class BlackMarketItemMixin
 BlackMarketItemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L52)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyReceipt/Blizzard_MoneyReceipt.lua#L1)
---- @class ReceiptMixin
+ --- @class ReceiptMixin
 ReceiptMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyReceipt/Blizzard_MoneyReceipt.lua#L3)

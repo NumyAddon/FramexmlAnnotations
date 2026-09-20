@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L1)
---- @class UIPanelSpellButtonFrameMixin
+ --- @class UIPanelSpellButtonFrameMixin
 UIPanelSpellButtonFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L3)

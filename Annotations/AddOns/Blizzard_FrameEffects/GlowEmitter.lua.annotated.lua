@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.lua#L1)
---- @class GlowEmitterMixin
+ --- @class GlowEmitterMixin
 GlowEmitterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.lua#L11)

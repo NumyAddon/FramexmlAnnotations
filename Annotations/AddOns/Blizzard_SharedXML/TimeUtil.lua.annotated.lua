@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/TimeUtil.lua#L95)
---- @class SecondsFormatterMixin
+ --- @class SecondsFormatterMixin
 SecondsFormatterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/TimeUtil.lua#L101)

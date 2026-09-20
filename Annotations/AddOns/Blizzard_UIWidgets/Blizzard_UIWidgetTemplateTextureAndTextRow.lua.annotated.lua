@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateTextureAndTextRow.lua#L10)
---- @class UIWidgetTemplateTextureAndTextRowMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateTextureAndTextRowMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateTextureAndTextRowMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateTextureAndTextRow.lua#L12)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L4)
---- @class StanceBarMixin
+ --- @class StanceBarMixin
 StanceBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L109)
---- @class StanceButtonMixin
+ --- @class StanceButtonMixin
 StanceButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L6)

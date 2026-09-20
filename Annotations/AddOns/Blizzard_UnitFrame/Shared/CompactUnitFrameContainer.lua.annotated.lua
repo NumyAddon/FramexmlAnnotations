@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrameContainer.lua#L23)
---- @class CompactUnitFrameContainerMixin
+ --- @class CompactUnitFrameContainerMixin
 CompactUnitFrameContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrameContainer.lua#L25)

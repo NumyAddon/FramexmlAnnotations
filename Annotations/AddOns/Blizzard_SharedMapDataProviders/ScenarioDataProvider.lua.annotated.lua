@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L2)
---- @class ScenarioDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class ScenarioDataProviderMixin : MapCanvasDataProviderMixin
 ScenarioDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L50)
---- @class ScenarioBlobPinMixin : MapCanvasPinMixin
+ --- @class ScenarioBlobPinMixin : MapCanvasPinMixin
 ScenarioBlobPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L93)
---- @class ScenarioPinMixin : MapCanvasPinMixin
+ --- @class ScenarioPinMixin : MapCanvasPinMixin
 ScenarioPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/ScenarioDataProvider.lua#L4)

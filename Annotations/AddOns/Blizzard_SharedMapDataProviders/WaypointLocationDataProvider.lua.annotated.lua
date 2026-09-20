@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L1)
---- @class WaypointLocationDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class WaypointLocationDataProviderMixin : MapCanvasDataProviderMixin
 WaypointLocationDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L124)
---- @class WaypointLocationPinMixin : MapCanvasPinMixin
+ --- @class WaypointLocationPinMixin : MapCanvasPinMixin
 WaypointLocationPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L3)

@@ -1,63 +1,63 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L52)
---- @class CooldownViewerItemMixin : CooldownViewerItemDataMixin, VisualAlertTargetMixin
+ --- @class CooldownViewerItemMixin : CooldownViewerItemDataMixin, VisualAlertTargetMixin
 CooldownViewerItemMixin = CreateFromMixins(CooldownViewerItemDataMixin, VisualAlertTargetMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L699)
---- @class CooldownViewerCooldownItemMixin : CooldownViewerItemMixin
+ --- @class CooldownViewerCooldownItemMixin : CooldownViewerItemMixin
 CooldownViewerCooldownItemMixin = CreateFromMixins(CooldownViewerItemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L1281)
---- @class CooldownViewerEssentialItemMixin : CooldownViewerCooldownItemMixin
+ --- @class CooldownViewerEssentialItemMixin : CooldownViewerCooldownItemMixin
 CooldownViewerEssentialItemMixin = CreateFromMixins(CooldownViewerCooldownItemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L1284)
---- @class CooldownViewerUtilityItemMixin : CooldownViewerCooldownItemMixin
+ --- @class CooldownViewerUtilityItemMixin : CooldownViewerCooldownItemMixin
 CooldownViewerUtilityItemMixin = CreateFromMixins(CooldownViewerCooldownItemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L1288)
---- @class CooldownViewerBuffItemMixin : CooldownViewerItemMixin
+ --- @class CooldownViewerBuffItemMixin : CooldownViewerItemMixin
 CooldownViewerBuffItemMixin = CreateFromMixins(CooldownViewerItemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L1386)
---- @class CooldownViewerBuffIconItemMixin : CooldownViewerBuffItemMixin
+ --- @class CooldownViewerBuffIconItemMixin : CooldownViewerBuffItemMixin
 CooldownViewerBuffIconItemMixin = CreateFromMixins(CooldownViewerBuffItemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L1459)
---- @class CooldownViewerBuffBarItemMixin : CooldownViewerBuffItemMixin
+ --- @class CooldownViewerBuffBarItemMixin : CooldownViewerBuffItemMixin
 CooldownViewerBuffBarItemMixin = CreateFromMixins(CooldownViewerBuffItemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L2145)
---- @class CooldownViewerCooldownMixin : CooldownViewerMixin
+ --- @class CooldownViewerCooldownMixin : CooldownViewerMixin
 CooldownViewerCooldownMixin = CreateFromMixins(CooldownViewerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L2207)
---- @class EssentialCooldownViewerMixin : CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
+ --- @class EssentialCooldownViewerMixin : CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
 EssentialCooldownViewerMixin = CreateFromMixins(CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L2230)
---- @class UtilityCooldownViewerMixin : CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
+ --- @class UtilityCooldownViewerMixin : CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
 UtilityCooldownViewerMixin = CreateFromMixins(CooldownViewerCooldownMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L2254)
---- @class CooldownViewerBuffMixin : CooldownViewerMixin
+ --- @class CooldownViewerBuffMixin : CooldownViewerMixin
 CooldownViewerBuffMixin = CreateFromMixins(CooldownViewerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L2269)
---- @class BuffIconCooldownViewerMixin : CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
+ --- @class BuffIconCooldownViewerMixin : CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin
 BuffIconCooldownViewerMixin = CreateFromMixins(CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, ManagedFrameMixin, GridLayoutFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L2297)
---- @class BuffBarCooldownViewerMixin : CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, GridLayoutFrameMixin
+ --- @class BuffBarCooldownViewerMixin : CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, GridLayoutFrameMixin
 BuffBarCooldownViewerMixin = CreateFromMixins(CooldownViewerBuffMixin, EditModeCooldownViewerSystemMixin, GridLayoutFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L1634)
---- @class CooldownViewerMixin
+ --- @class CooldownViewerMixin
 CooldownViewerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L2368)
---- @class CooldownViewerItemDebuffBorderMixin
+ --- @class CooldownViewerItemDebuffBorderMixin
 CooldownViewerItemDebuffBorderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua#L54)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUI.lua#L1)
---- @class AzeriteEmpoweredItemUIMixin : CallbackRegistryMixin
+ --- @class AzeriteEmpoweredItemUIMixin : CallbackRegistryMixin
 AzeriteEmpoweredItemUIMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteUI/Blizzard_AzeriteEmpoweredItemUI.lua#L18)

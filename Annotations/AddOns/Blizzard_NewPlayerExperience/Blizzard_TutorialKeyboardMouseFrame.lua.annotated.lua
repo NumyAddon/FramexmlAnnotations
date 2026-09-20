@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.lua#L90)
---- @class TutorialWalkMixin : TutorialMainFrameMixin
+ --- @class TutorialWalkMixin : TutorialMainFrameMixin
 TutorialWalkMixin = CreateFromMixins(TutorialMainFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.lua#L8)
---- @class TutorialKeyboardMouseFrameMixin
+ --- @class TutorialKeyboardMouseFrameMixin
 TutorialKeyboardMouseFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.lua#L10)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkStaggerBar.lua#L10)
---- @class MonkStaggerBarMixin
+ --- @class MonkStaggerBarMixin
 MonkStaggerBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkStaggerBar.lua#L12)

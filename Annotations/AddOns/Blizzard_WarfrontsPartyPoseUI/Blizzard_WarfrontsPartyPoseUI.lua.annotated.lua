@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WarfrontsPartyPoseUI/Blizzard_WarfrontsPartyPoseUI.lua#L1)
---- @class WarfrontsPartyPoseMixin : PartyPoseMixin
+ --- @class WarfrontsPartyPoseMixin : PartyPoseMixin
 WarfrontsPartyPoseMixin = CreateFromMixins(PartyPoseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WarfrontsPartyPoseUI/Blizzard_WarfrontsPartyPoseUI.lua#L3)

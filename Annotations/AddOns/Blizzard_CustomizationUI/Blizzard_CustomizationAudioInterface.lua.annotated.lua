@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationAudioInterface.lua#L108)
---- @class CustomizationAudioInterfacePlayButtonMixin : CustomizationFrameWithTooltipMixin
+ --- @class CustomizationAudioInterfacePlayButtonMixin : CustomizationFrameWithTooltipMixin
 CustomizationAudioInterfacePlayButtonMixin = CreateFromMixins(CustomizationFrameWithTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationAudioInterface.lua#L144)
---- @class CustomizationAudioInterfaceMuteButtonMixin : CustomizationFrameWithTooltipMixin
+ --- @class CustomizationAudioInterfaceMuteButtonMixin : CustomizationFrameWithTooltipMixin
 CustomizationAudioInterfaceMuteButtonMixin = CreateFromMixins(CustomizationFrameWithTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationAudioInterface.lua#L7)
---- @class CustomizationAudioInterfaceMixin
+ --- @class CustomizationAudioInterfaceMixin
 CustomizationAudioInterfaceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationAudioInterface.lua#L9)

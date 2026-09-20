@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSelectExpanded.lua#L5)
---- @class TalentButtonSelectExpandedButtonMixin : TalentButtonSelectMixin
+ --- @class TalentButtonSelectExpandedButtonMixin : TalentButtonSelectMixin
 TalentButtonSelectExpandedButtonMixin = CreateFromMixins(TalentButtonSelectMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSelectExpanded.lua#L32)
---- @class TalentButtonSelectExpandedDisplayMixin
+ --- @class TalentButtonSelectExpandedDisplayMixin
 TalentButtonSelectExpandedDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSelectExpanded.lua#L7)

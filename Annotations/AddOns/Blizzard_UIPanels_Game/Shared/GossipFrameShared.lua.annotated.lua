@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L26)
---- @class GossipSharedQuestButtonMixin : GossipSharedTitleButtonMixin
+ --- @class GossipSharedQuestButtonMixin : GossipSharedTitleButtonMixin
 GossipSharedQuestButtonMixin = CreateFromMixins(GossipSharedTitleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L44)
---- @class GossipSharedAvailableQuestButtonMixin : GossipSharedQuestButtonMixin
+ --- @class GossipSharedAvailableQuestButtonMixin : GossipSharedQuestButtonMixin
 GossipSharedAvailableQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L55)
---- @class GossipSharedActiveQuestButtonMixin : GossipSharedQuestButtonMixin
+ --- @class GossipSharedActiveQuestButtonMixin : GossipSharedQuestButtonMixin
 GossipSharedActiveQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L7)
---- @class GossipSharedTitleButtonMixin
+ --- @class GossipSharedTitleButtonMixin
 GossipSharedTitleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L66)
---- @class GossipOptionButtonMixin
+ --- @class GossipOptionButtonMixin
 GossipOptionButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L103)
---- @class GossipGreetingTextMixin
+ --- @class GossipGreetingTextMixin
 GossipGreetingTextMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L110)
---- @class GossipFrameSharedMixin
+ --- @class GossipFrameSharedMixin
 GossipFrameSharedMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L9)

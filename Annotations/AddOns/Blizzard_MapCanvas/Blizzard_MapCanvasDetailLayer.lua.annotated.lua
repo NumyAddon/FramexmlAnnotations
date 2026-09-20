@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvasDetailLayer.lua#L2)
---- @class MapCanvasDetailLayerMixin
+ --- @class MapCanvasDetailLayerMixin
 MapCanvasDetailLayerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvasDetailLayer.lua#L4)

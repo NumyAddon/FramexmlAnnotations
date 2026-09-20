@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L4)
---- @class DemonHunterAlternatePowerBarMixin
+ --- @class DemonHunterAlternatePowerBarMixin
 DemonHunterAlternatePowerBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L6)

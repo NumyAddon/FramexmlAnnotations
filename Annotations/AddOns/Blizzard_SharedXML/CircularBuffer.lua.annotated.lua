@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L15)
---- @class CircularBufferMixin
+ --- @class CircularBufferMixin
 CircularBufferMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L24)

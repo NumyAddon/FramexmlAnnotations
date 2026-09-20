@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.lua#L491)
---- @class ArtifactLineMixin : PowerDependencyLineMixin
+ --- @class ArtifactLineMixin : PowerDependencyLineMixin
 ArtifactLineMixin = CreateFromMixins(PowerDependencyLineMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.lua#L1)
---- @class ArtifactPerksMixin
+ --- @class ArtifactPerksMixin
 ArtifactPerksMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.lua#L1113)
---- @class ArtifactTitleTemplateMixin
+ --- @class ArtifactTitleTemplateMixin
 ArtifactTitleTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPerks.lua#L61)

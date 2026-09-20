@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistrant.lua#L2)
---- @class CallbackRegistrantMixin
+ --- @class CallbackRegistrantMixin
 CallbackRegistrantMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistrant.lua#L4)

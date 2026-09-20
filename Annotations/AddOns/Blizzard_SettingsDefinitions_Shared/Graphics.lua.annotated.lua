@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L406)
---- @class SettingsTabNarrationMixin : NarrationSkipTooltipsMixin
+ --- @class SettingsTabNarrationMixin : NarrationSkipTooltipsMixin
 SettingsTabNarrationMixin = CreateFromMixins(NarrationSkipTooltipsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L417)
---- @class SettingsAdvancedQualitySectionMixin : SettingsExpandableSectionMixin
+ --- @class SettingsAdvancedQualitySectionMixin : SettingsExpandableSectionMixin
 SettingsAdvancedQualitySectionMixin = CreateFromMixins(SettingsExpandableSectionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L472)
---- @class SettingsAdvancedControlNarrationMixin : NarrationStaticDescriptionMixin
+ --- @class SettingsAdvancedControlNarrationMixin : NarrationStaticDescriptionMixin
 SettingsAdvancedControlNarrationMixin = CreateFromMixins(NarrationStaticDescriptionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L482)
---- @class SettingsAdvancedSliderMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
+ --- @class SettingsAdvancedSliderMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
 SettingsAdvancedSliderMixin = CreateFromMixins(DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L504)
---- @class SettingsAdvancedCheckboxSliderMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
+ --- @class SettingsAdvancedCheckboxSliderMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
 SettingsAdvancedCheckboxSliderMixin = CreateFromMixins(DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L555)
---- @class SettingsAdvancedDropdownMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
+ --- @class SettingsAdvancedDropdownMixin : DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin
 SettingsAdvancedDropdownMixin = CreateFromMixins(DefaultTooltipMixin, SettingsAdvancedControlNarrationMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L84)
---- @class SettingsAdvancedQualityControlsMixin
+ --- @class SettingsAdvancedQualityControlsMixin
 SettingsAdvancedQualityControlsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L86)

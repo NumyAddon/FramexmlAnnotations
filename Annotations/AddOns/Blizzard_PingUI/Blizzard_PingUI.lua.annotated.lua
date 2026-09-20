@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L19)
---- @class PingFrameMixin
+ --- @class PingFrameMixin
 PingFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L264)
---- @class PingPinFrameMixin
+ --- @class PingPinFrameMixin
 PingPinFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L443)
---- @class PingPinFlipBookAnimMixin
+ --- @class PingPinFlipBookAnimMixin
 PingPinFlipBookAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L458)
---- @class UnitPingIconFrameMixin
+ --- @class UnitPingIconFrameMixin
 UnitPingIconFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PingUI/Blizzard_PingUI.lua#L63)
---- @class PingListenerFrameMixin
+ --- @class PingListenerFrameMixin
 PingListenerFrameMixin = {
     PingRadialKeyDownDuration = 0.15;
 }

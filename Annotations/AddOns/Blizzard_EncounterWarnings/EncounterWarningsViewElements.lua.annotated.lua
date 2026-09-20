@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsViewElements.lua#L26)
---- @class EncounterWarningsSwingAnimationGroupMixin : EncounterWarningsViewElementMixin
+ --- @class EncounterWarningsSwingAnimationGroupMixin : EncounterWarningsViewElementMixin
 EncounterWarningsSwingAnimationGroupMixin = CreateFromMixins(EncounterWarningsViewElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsViewElements.lua#L28)
---- @class EncounterWarningsIconElementMixin : EncounterWarningsViewElementMixin
+ --- @class EncounterWarningsIconElementMixin : EncounterWarningsViewElementMixin
 EncounterWarningsIconElementMixin = CreateFromMixins(EncounterWarningsViewElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsViewElements.lua#L53)
---- @class EncounterWarningsTextElementMixin : EncounterWarningsViewElementMixin, AutoScalingFontStringMixin
+ --- @class EncounterWarningsTextElementMixin : EncounterWarningsViewElementMixin, AutoScalingFontStringMixin
 EncounterWarningsTextElementMixin = CreateFromMixins(EncounterWarningsViewElementMixin, AutoScalingFontStringMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsViewElements.lua#L1)
---- @class EncounterWarningsViewElementMixin
+ --- @class EncounterWarningsViewElementMixin
 EncounterWarningsViewElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsViewElements.lua#L3)

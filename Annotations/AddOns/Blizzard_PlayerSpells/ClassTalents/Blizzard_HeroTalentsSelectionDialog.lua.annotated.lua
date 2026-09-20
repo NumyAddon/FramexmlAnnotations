@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.lua#L1)
---- @class HeroTalentsSelectionMixin
+ --- @class HeroTalentsSelectionMixin
 HeroTalentsSelectionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.lua#L363)
---- @class HeroTalentSpecContentMixin
+ --- @class HeroTalentSpecContentMixin
 HeroTalentSpecContentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.lua#L572)
---- @class HeroTalentActivateButtonMixin
+ --- @class HeroTalentActivateButtonMixin
 HeroTalentActivateButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.lua#L3)

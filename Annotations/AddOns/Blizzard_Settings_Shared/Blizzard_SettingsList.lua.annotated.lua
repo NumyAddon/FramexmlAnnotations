@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L14)
---- @class SettingsListSearchCategoryMixin
+ --- @class SettingsListSearchCategoryMixin
 SettingsListSearchCategoryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L41)
---- @class SettingsListMixin
+ --- @class SettingsListMixin
 SettingsListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsList.lua#L16)

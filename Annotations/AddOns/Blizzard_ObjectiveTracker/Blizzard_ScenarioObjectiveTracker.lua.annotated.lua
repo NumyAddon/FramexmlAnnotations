@@ -1,43 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L60)
---- @class ScenarioObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+ --- @class ScenarioObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 ScenarioObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L459)
---- @class ScenarioObjectiveTrackerStageMixin
+ --- @class ScenarioObjectiveTrackerStageMixin
 ScenarioObjectiveTrackerStageMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L652)
---- @class ScenarioTimerMixin
+ --- @class ScenarioTimerMixin
 ScenarioTimerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L729)
---- @class ScenarioObjectiveTrackerChallengeModeMixin
+ --- @class ScenarioObjectiveTrackerChallengeModeMixin
 ScenarioObjectiveTrackerChallengeModeMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L849)
---- @class ScenarioChallengeModeAffixMixin
+ --- @class ScenarioChallengeModeAffixMixin
 ScenarioChallengeModeAffixMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L877)
---- @class ScenarioObjectiveTrackerProvingGroundsMixin
+ --- @class ScenarioObjectiveTrackerProvingGroundsMixin
 ScenarioObjectiveTrackerProvingGroundsMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L959)
---- @class ScenarioRewardsFrameMixin
+ --- @class ScenarioRewardsFrameMixin
 ScenarioRewardsFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L1017)
---- @class ScenarioTrackerProgressBarMixin
+ --- @class ScenarioTrackerProgressBarMixin
 ScenarioTrackerProgressBarMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L1123)
---- @class ScenarioSpellButtonMixin
+ --- @class ScenarioSpellButtonMixin
 ScenarioSpellButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L1156)
---- @class ScenarioObjectiveTrackerFindGroupButtonMixin
+ --- @class ScenarioObjectiveTrackerFindGroupButtonMixin
 ScenarioObjectiveTrackerFindGroupButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.lua#L62)

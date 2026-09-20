@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectAPI/Mainline/Quest.lua#L1)
---- @class QuestMixin
+ --- @class QuestMixin
 QuestMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectAPI/Mainline/Quest.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimeline.lua#L12)
---- @class EncounterTimelineMixin : EditModeEncounterEventsSystemMixin, EncounterTimelineScriptedAnimatableMixin
+ --- @class EncounterTimelineMixin : EditModeEncounterEventsSystemMixin, EncounterTimelineScriptedAnimatableMixin
 EncounterTimelineMixin = CreateFromMixins(EditModeEncounterEventsSystemMixin, EncounterTimelineScriptedAnimatableMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimeline.lua#L14)

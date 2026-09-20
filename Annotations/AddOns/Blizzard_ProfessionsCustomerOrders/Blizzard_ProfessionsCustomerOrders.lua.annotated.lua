@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.lua#L10)
---- @class ProfessionsCustomerOrdersFrameTabMixin
+ --- @class ProfessionsCustomerOrdersFrameTabMixin
 ProfessionsCustomerOrdersFrameTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.lua#L24)
---- @class ProfessionsCustomerOrdersMixin
+ --- @class ProfessionsCustomerOrdersMixin
 ProfessionsCustomerOrdersMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.lua#L12)

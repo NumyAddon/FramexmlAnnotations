@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L1)
---- @class GossipTitleButtonMixin : GossipSharedTitleButtonMixin
+ --- @class GossipTitleButtonMixin : GossipSharedTitleButtonMixin
 GossipTitleButtonMixin = CreateFromMixins(GossipSharedTitleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L14)
---- @class GossipQuestButtonMixin : GossipSharedQuestButtonMixin
+ --- @class GossipQuestButtonMixin : GossipSharedQuestButtonMixin
 GossipQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L35)
---- @class GossipAvailableQuestButtonMixin : GossipSharedAvailableQuestButtonMixin
+ --- @class GossipAvailableQuestButtonMixin : GossipSharedAvailableQuestButtonMixin
 GossipAvailableQuestButtonMixin = CreateFromMixins(GossipSharedAvailableQuestButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L42)
---- @class GossipActiveQuestButtonMixin : GossipSharedActiveQuestButtonMixin
+ --- @class GossipActiveQuestButtonMixin : GossipSharedActiveQuestButtonMixin
 GossipActiveQuestButtonMixin = CreateFromMixins(GossipSharedActiveQuestButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L48)
---- @class GossipFrameMixin : GossipFrameSharedMixin
+ --- @class GossipFrameMixin : GossipFrameSharedMixin
 GossipFrameMixin = CreateFromMixins(GossipFrameSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L2)

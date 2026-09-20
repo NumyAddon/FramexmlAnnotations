@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MatchmakingQueueDisplay/Blizzard_MatchmakingQueueDisplay.lua#L3)
---- @class QueueTypeSelectionButtonMixin
+ --- @class QueueTypeSelectionButtonMixin
 QueueTypeSelectionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MatchmakingQueueDisplay/Blizzard_MatchmakingQueueDisplay.lua#L61)
---- @class QueueTypeSettingsFrameMixin
+ --- @class QueueTypeSettingsFrameMixin
 QueueTypeSettingsFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MatchmakingQueueDisplay/Blizzard_MatchmakingQueueDisplay.lua#L233)
---- @class QueueReadyButtonMixin
+ --- @class QueueReadyButtonMixin
 QueueReadyButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MatchmakingQueueDisplay/Blizzard_MatchmakingQueueDisplay.lua#L360)
---- @class MatchmakingQueueFrameMixin
+ --- @class MatchmakingQueueFrameMixin
 MatchmakingQueueFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MatchmakingQueueDisplay/Blizzard_MatchmakingQueueDisplay.lua#L425)
---- @class LeaveQueueButtonMixin
+ --- @class LeaveQueueButtonMixin
 LeaveQueueButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MatchmakingQueueDisplay/Blizzard_MatchmakingQueueDisplay.lua#L4)

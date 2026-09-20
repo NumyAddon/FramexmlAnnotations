@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RPE_TurnStrafe/Blizzard_RPE_TurnStrafe.lua#L19)
---- @class RPETurnStrafeStyleMixin : GameDialogBaseMixin
+ --- @class RPETurnStrafeStyleMixin : GameDialogBaseMixin
 RPETurnStrafeStyleMixin = CreateFromMixins(GameDialogBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RPE_TurnStrafe/Blizzard_RPE_TurnStrafe.lua#L21)

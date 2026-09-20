@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Spline.lua#L43)
---- @class CatmullRomSplineMixin
+ --- @class CatmullRomSplineMixin
 CatmullRomSplineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Spline.lua#L51)

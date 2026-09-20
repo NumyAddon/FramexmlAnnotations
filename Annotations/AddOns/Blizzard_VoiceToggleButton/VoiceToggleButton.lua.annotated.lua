@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L7)
---- @class VoiceToggleButtonAlwaysVisibileMixin : VoiceToggleButtonMixin
+ --- @class VoiceToggleButtonAlwaysVisibileMixin : VoiceToggleButtonMixin
 VoiceToggleButtonAlwaysVisibileMixin = CreateFromMixins(VoiceToggleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L14)
---- @class VoiceToggleButtonOnlyVisibleWhenLoggedInMixin : VoiceToggleButtonMixin
+ --- @class VoiceToggleButtonOnlyVisibleWhenLoggedInMixin : VoiceToggleButtonMixin
 VoiceToggleButtonOnlyVisibleWhenLoggedInMixin = CreateFromMixins(VoiceToggleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L23)
---- @class VoiceToggleMuteMixin : VoiceToggleButtonOnlyVisibleWhenLoggedInMixin
+ --- @class VoiceToggleMuteMixin : VoiceToggleButtonOnlyVisibleWhenLoggedInMixin
 VoiceToggleMuteMixin = CreateFromMixins(VoiceToggleButtonOnlyVisibleWhenLoggedInMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L115)
---- @class VoiceToggleDeafenMixin : VoiceToggleButtonOnlyVisibleWhenLoggedInMixin
+ --- @class VoiceToggleDeafenMixin : VoiceToggleButtonOnlyVisibleWhenLoggedInMixin
 VoiceToggleDeafenMixin = CreateFromMixins(VoiceToggleButtonOnlyVisibleWhenLoggedInMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L129)
---- @class RosterToggleButtonMixin : VoiceToggleButtonMixin
+ --- @class RosterToggleButtonMixin : VoiceToggleButtonMixin
 RosterToggleButtonMixin = CreateFromMixins(VoiceToggleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L163)
---- @class RosterSelfDeafenButtonMixin : RosterToggleButtonMixin
+ --- @class RosterSelfDeafenButtonMixin : RosterToggleButtonMixin
 RosterSelfDeafenButtonMixin = CreateFromMixins(RosterToggleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L185)
---- @class RosterSelfMuteButtonMixin : RosterToggleButtonMixin
+ --- @class RosterSelfMuteButtonMixin : RosterToggleButtonMixin
 RosterSelfMuteButtonMixin = CreateFromMixins(RosterToggleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L214)
---- @class RosterMemberMuteButtonMixin : RosterToggleButtonMixin
+ --- @class RosterMemberMuteButtonMixin : RosterToggleButtonMixin
 RosterMemberMuteButtonMixin = CreateFromMixins(RosterToggleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L1)
---- @class VoiceToggleButtonMixin
+ --- @class VoiceToggleButtonMixin
 VoiceToggleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoiceToggleButton/VoiceToggleButton.lua#L3)

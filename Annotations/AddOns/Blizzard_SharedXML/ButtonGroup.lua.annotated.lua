@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ButtonGroup.lua#L6)
---- @class ButtonGroupBaseMixin : CallbackRegistryMixin
+ --- @class ButtonGroupBaseMixin : CallbackRegistryMixin
 ButtonGroupBaseMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ButtonGroup.lua#L172)
---- @class ButtonGroupMixin : ButtonGroupBaseMixin
+ --- @class ButtonGroupMixin : ButtonGroupBaseMixin
 ButtonGroupMixin = CreateFromMixins(ButtonGroupBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ButtonGroup.lua#L187)
---- @class RadioButtonGroupMixin : ButtonGroupBaseMixin
+ --- @class RadioButtonGroupMixin : ButtonGroupBaseMixin
 RadioButtonGroupMixin = CreateFromMixins(ButtonGroupBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ButtonGroup.lua#L220)
---- @class DeselectableRadioButtonGroupMixin : RadioButtonGroupMixin
+ --- @class DeselectableRadioButtonGroupMixin : RadioButtonGroupMixin
 DeselectableRadioButtonGroupMixin = CreateFromMixins(RadioButtonGroupMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ButtonGroup.lua#L15)

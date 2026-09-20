@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.lua#L9)
---- @class HousingCatalogCategoriesMixin
+ --- @class HousingCatalogCategoriesMixin
 HousingCatalogCategoriesMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.lua#L530)
---- @class HousingCategoryBackButtonMixin
+ --- @class HousingCategoryBackButtonMixin
 HousingCategoryBackButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.lua#L548)
---- @class BaseHousingCatalogCategoryMixin
+ --- @class BaseHousingCatalogCategoryMixin
 BaseHousingCatalogCategoryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.lua#L666)
---- @class HousingCatalogCategoryMixin
+ --- @class HousingCatalogCategoryMixin
 HousingCatalogCategoryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.lua#L11)

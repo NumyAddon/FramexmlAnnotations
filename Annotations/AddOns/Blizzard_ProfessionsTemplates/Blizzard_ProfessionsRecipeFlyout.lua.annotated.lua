@@ -1,47 +1,47 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L87)
---- @class ProfessionsFlyoutItemButtonMixin : ProfessionsFlyoutButtonMixin
+ --- @class ProfessionsFlyoutItemButtonMixin : ProfessionsFlyoutButtonMixin
 ProfessionsFlyoutItemButtonMixin = CreateFromMixins(ProfessionsFlyoutButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L140)
---- @class ProfessionsFlyoutCurrencyButtonMixin : ProfessionsFlyoutButtonMixin
+ --- @class ProfessionsFlyoutCurrencyButtonMixin : ProfessionsFlyoutButtonMixin
 ProfessionsFlyoutCurrencyButtonMixin = CreateFromMixins(ProfessionsFlyoutButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L151)
---- @class ProfessionsFlyoutMixin : CallbackRegistryMixin
+ --- @class ProfessionsFlyoutMixin : CallbackRegistryMixin
 ProfessionsFlyoutMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L489)
---- @class SelectRecraftMixin : FlyoutBehaviorMixin
+ --- @class SelectRecraftMixin : FlyoutBehaviorMixin
 SelectRecraftMixin = CreateFromMixins(FlyoutBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L530)
---- @class SelectEnchantMixin : FlyoutBehaviorMixin
+ --- @class SelectEnchantMixin : FlyoutBehaviorMixin
 SelectEnchantMixin = CreateFromMixins(FlyoutBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L633)
---- @class MCRFlyoutMixin : FlyoutBehaviorMixin, FlyoutSchematicSlotMixin
+ --- @class MCRFlyoutMixin : FlyoutBehaviorMixin, FlyoutSchematicSlotMixin
 MCRFlyoutMixin = CreateFromMixins(FlyoutBehaviorMixin, FlyoutSchematicSlotMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L716)
---- @class OrderRecraftFlyoutMixin : FlyoutBehaviorMixin
+ --- @class OrderRecraftFlyoutMixin : FlyoutBehaviorMixin
 OrderRecraftFlyoutMixin = CreateFromMixins(FlyoutBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L743)
---- @class OrderMCRFlyoutMixin : FlyoutBehaviorMixin, FlyoutSchematicSlotMixin
+ --- @class OrderMCRFlyoutMixin : FlyoutBehaviorMixin, FlyoutSchematicSlotMixin
 OrderMCRFlyoutMixin = CreateFromMixins(FlyoutBehaviorMixin, FlyoutSchematicSlotMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L66)
---- @class ProfessionsFlyoutButtonMixin
+ --- @class ProfessionsFlyoutButtonMixin
 ProfessionsFlyoutButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L412)
---- @class FlyoutBehaviorMixin
+ --- @class FlyoutBehaviorMixin
 FlyoutBehaviorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L471)
---- @class FlyoutSchematicSlotMixin
+ --- @class FlyoutSchematicSlotMixin
 FlyoutSchematicSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.lua#L68)

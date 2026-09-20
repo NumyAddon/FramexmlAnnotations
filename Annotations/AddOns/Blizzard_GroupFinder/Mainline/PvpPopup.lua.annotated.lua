@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PvpPopup.lua#L1)
---- @class PVPReadyPopupMixin
+ --- @class PVPReadyPopupMixin
 PVPReadyPopupMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PvpPopup.lua#L119)
---- @class PvpRoleButtonWithCountMixin
+ --- @class PvpRoleButtonWithCountMixin
 PvpRoleButtonWithCountMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PvpPopup.lua#L135)
---- @class PvpRolelessButtonMixin
+ --- @class PvpRolelessButtonMixin
 PvpRolelessButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PvpPopup.lua#L7)

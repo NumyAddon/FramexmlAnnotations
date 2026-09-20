@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L29)
---- @class QuestObjectiveItemButtonMixin
+ --- @class QuestObjectiveItemButtonMixin
 QuestObjectiveItemButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L145)
---- @class QuestObjectiveItemGlowAnimMixin
+ --- @class QuestObjectiveItemGlowAnimMixin
 QuestObjectiveItemGlowAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L172)
---- @class QuestObjectiveFindGroupButtonMixin
+ --- @class QuestObjectiveFindGroupButtonMixin
 QuestObjectiveFindGroupButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L208)
---- @class ObjectiveTrackerRewardsToastMixin
+ --- @class ObjectiveTrackerRewardsToastMixin
 ObjectiveTrackerRewardsToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L297)
---- @class ObjectiveTrackerLineMixin
+ --- @class ObjectiveTrackerLineMixin
 ObjectiveTrackerLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L315)
---- @class ObjectiveTrackerProgressBarMixin
+ --- @class ObjectiveTrackerProgressBarMixin
 ObjectiveTrackerProgressBarMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L326)
---- @class ObjectiveTrackerTimerBarMixin
+ --- @class ObjectiveTrackerTimerBarMixin
 ObjectiveTrackerTimerBarMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L372)
---- @class ObjectiveTrackerSlidingMixin
+ --- @class ObjectiveTrackerSlidingMixin
 ObjectiveTrackerSlidingMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L31)

@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.lua#L2)
---- @class HeroTalentsContainerMixin
+ --- @class HeroTalentsContainerMixin
 HeroTalentsContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.lua#L581)
---- @class HeroSpecButtonMixin
+ --- @class HeroSpecButtonMixin
 HeroSpecButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.lua#L701)
---- @class HeroTalentCollapseButtonMixin
+ --- @class HeroTalentCollapseButtonMixin
 HeroTalentCollapseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.lua#L736)
---- @class HeroTalentsUnlockedAnimFrameMixin
+ --- @class HeroTalentsUnlockedAnimFrameMixin
 HeroTalentsUnlockedAnimFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.lua#L4)

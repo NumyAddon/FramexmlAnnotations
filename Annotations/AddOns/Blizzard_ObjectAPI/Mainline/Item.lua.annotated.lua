@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectAPI/Mainline/Item.lua#L2)
---- @class ItemMixin
+ --- @class ItemMixin
 ItemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectAPI/Mainline/Item.lua#L66)

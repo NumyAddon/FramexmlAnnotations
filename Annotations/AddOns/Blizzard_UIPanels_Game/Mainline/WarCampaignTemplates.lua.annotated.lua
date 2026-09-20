@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.lua#L271)
---- @class CampaignHeaderMixin : CampaignHeaderDisplayMixin
+ --- @class CampaignHeaderMixin : CampaignHeaderDisplayMixin
 CampaignHeaderMixin = CreateFromMixins(CampaignHeaderDisplayMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.lua#L345)
---- @class CampaignHeaderMinimalMixin : CampaignHeaderDisplayMixin
+ --- @class CampaignHeaderMinimalMixin : CampaignHeaderDisplayMixin
 CampaignHeaderMinimalMixin = CreateFromMixins(CampaignHeaderDisplayMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.lua#L3)
---- @class CampaignTooltipMixin
+ --- @class CampaignTooltipMixin
 CampaignTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.lua#L104)
---- @class CampaignHeaderDisplayMixin
+ --- @class CampaignHeaderDisplayMixin
 CampaignHeaderDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.lua#L208)
---- @class CampaignHeaderCollapsibleMixin
+ --- @class CampaignHeaderCollapsibleMixin
 CampaignHeaderCollapsibleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.lua#L252)
---- @class CampaignHeaderTooltipableMixin
+ --- @class CampaignHeaderTooltipableMixin
 CampaignHeaderTooltipableMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.lua#L382)
---- @class CampaignLoreButtonMixin
+ --- @class CampaignLoreButtonMixin
 CampaignLoreButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.lua#L420)
---- @class CampaignNextObjectiveMixin
+ --- @class CampaignNextObjectiveMixin
 CampaignNextObjectiveMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.lua#L5)

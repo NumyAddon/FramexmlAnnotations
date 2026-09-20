@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectAPI/Mainline/CampaignChapter.lua#L1)
---- @class CampaignChapterMixin
+ --- @class CampaignChapterMixin
 CampaignChapterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectAPI/Mainline/CampaignChapter.lua#L3)

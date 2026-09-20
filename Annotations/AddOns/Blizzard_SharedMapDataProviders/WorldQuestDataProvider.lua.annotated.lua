@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L1)
---- @class WorldQuestDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class WorldQuestDataProviderMixin : MapCanvasDataProviderMixin
 WorldQuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L359)
---- @class WorldQuestPinMixin : MapCanvasPinMixin
+ --- @class WorldQuestPinMixin : MapCanvasPinMixin
 WorldQuestPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L482)
---- @class WorldQuestSpellEffectPinMixin : MapCanvasPinMixin
+ --- @class WorldQuestSpellEffectPinMixin : MapCanvasPinMixin
 WorldQuestSpellEffectPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L3)

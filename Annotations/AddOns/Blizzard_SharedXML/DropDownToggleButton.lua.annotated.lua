@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/DropDownToggleButton.lua#L1)
---- @class DropDownToggleButtonMixin
+ --- @class DropDownToggleButtonMixin
 DropDownToggleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/DropDownToggleButton.lua#L3)

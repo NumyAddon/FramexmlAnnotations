@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.lua#L18)
---- @class HouseEditorBasicDecorModeMixin : BaseHouseEditorModeMixin
+ --- @class HouseEditorBasicDecorModeMixin : BaseHouseEditorModeMixin
 HouseEditorBasicDecorModeMixin = CreateFromMixins(BaseHouseEditorModeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.lua#L268)
---- @class HouseEditorSnapButtonMixin
+ --- @class HouseEditorSnapButtonMixin
 HouseEditorSnapButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.lua#L283)
---- @class HouseEditorGridVisibilityButtonMixin
+ --- @class HouseEditorGridVisibilityButtonMixin
 HouseEditorGridVisibilityButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.lua#L298)
---- @class HouseEditorFreePlaceButtonMixin
+ --- @class HouseEditorFreePlaceButtonMixin
 HouseEditorFreePlaceButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.lua#L20)

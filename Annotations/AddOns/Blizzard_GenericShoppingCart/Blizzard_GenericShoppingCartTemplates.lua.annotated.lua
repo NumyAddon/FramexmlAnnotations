@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.lua#L8)
---- @class ShoppingCartVisualsFrameMixin : ShoppingCartServiceRegistrantMixin
+ --- @class ShoppingCartVisualsFrameMixin : ShoppingCartServiceRegistrantMixin
 ShoppingCartVisualsFrameMixin = CreateFromMixins(ShoppingCartServiceRegistrantMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.lua#L294)
---- @class ShoppingCartPriceContainerMixin
+ --- @class ShoppingCartPriceContainerMixin
 ShoppingCartPriceContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.lua#L373)
---- @class ShoppingCartViewCartButtonMixin
+ --- @class ShoppingCartViewCartButtonMixin
 ShoppingCartViewCartButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.lua#L385)
---- @class ShoppingCartShowCartServiceMixin
+ --- @class ShoppingCartShowCartServiceMixin
 ShoppingCartShowCartServiceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.lua#L392)
---- @class ShoppingCartHideCartServiceMixin
+ --- @class ShoppingCartHideCartServiceMixin
 ShoppingCartHideCartServiceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.lua#L399)
---- @class ShoppingCartRemoveFromCartItemButtonContainerMixin
+ --- @class ShoppingCartRemoveFromCartItemButtonContainerMixin
 ShoppingCartRemoveFromCartItemButtonContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.lua#L413)
---- @class ShoppingCartRemoveFromCartItemButtonMixin
+ --- @class ShoppingCartRemoveFromCartItemButtonMixin
 ShoppingCartRemoveFromCartItemButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.lua#L427)
---- @class ShoppingCartPlayerTotalCurrencyMixin
+ --- @class ShoppingCartPlayerTotalCurrencyMixin
 ShoppingCartPlayerTotalCurrencyMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.lua#L10)

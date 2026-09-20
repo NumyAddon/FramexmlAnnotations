@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/RogueComboPointBar.lua#L5)
---- @class RogueComboPointBarMixin
+ --- @class RogueComboPointBarMixin
 RogueComboPointBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/RogueComboPointBar.lua#L36)
---- @class RogueComboPointMixin
+ --- @class RogueComboPointMixin
 RogueComboPointMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/RogueComboPointBar.lua#L7)

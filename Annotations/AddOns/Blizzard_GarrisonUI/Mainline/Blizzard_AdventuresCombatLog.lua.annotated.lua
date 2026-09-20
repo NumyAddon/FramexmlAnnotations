@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCombatLog.lua#L78)
---- @class AdventuresCombatLogMixin
+ --- @class AdventuresCombatLogMixin
 AdventuresCombatLogMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCombatLog.lua#L80)

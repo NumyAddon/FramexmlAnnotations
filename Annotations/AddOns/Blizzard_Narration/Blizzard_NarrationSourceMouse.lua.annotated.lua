@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationSourceMouse.lua#L46)
---- @class NarrationSourceMouseMixin
+ --- @class NarrationSourceMouseMixin
 NarrationSourceMouseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationSourceMouse.lua#L48)

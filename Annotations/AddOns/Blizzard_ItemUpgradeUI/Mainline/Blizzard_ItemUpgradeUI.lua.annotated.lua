@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.lua#L17)
---- @class ItemUpgradeMixin
+ --- @class ItemUpgradeMixin
 ItemUpgradeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.lua#L680)
---- @class ItemUpgradeButtonMixin
+ --- @class ItemUpgradeButtonMixin
 ItemUpgradeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.lua#L739)
---- @class ItemUpgradePreviewMixin
+ --- @class ItemUpgradePreviewMixin
 ItemUpgradePreviewMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.lua#L903)
---- @class ItemUpgradeSlotMixin
+ --- @class ItemUpgradeSlotMixin
 ItemUpgradeSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.lua#L980)
---- @class ItemUpgradeItemInfoMixin
+ --- @class ItemUpgradeItemInfoMixin
 ItemUpgradeItemInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.lua#L1027)
---- @class ItemUpgradeCostQuantityMixin
+ --- @class ItemUpgradeCostQuantityMixin
 ItemUpgradeCostQuantityMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.lua#L1087)
---- @class ItemUpgradeCostIconMixin
+ --- @class ItemUpgradeCostIconMixin
 ItemUpgradeCostIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.lua#L19)

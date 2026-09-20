@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestSessionDataProvider.lua#L1)
---- @class QuestSessionDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class QuestSessionDataProviderMixin : MapCanvasDataProviderMixin
 QuestSessionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestSessionDataProvider.lua#L3)

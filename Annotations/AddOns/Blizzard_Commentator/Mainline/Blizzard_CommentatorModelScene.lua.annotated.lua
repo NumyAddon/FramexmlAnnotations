@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorModelScene.lua#L1)
---- @class CommentatorModelSceneMixin
+ --- @class CommentatorModelSceneMixin
 CommentatorModelSceneMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorModelScene.lua#L11)

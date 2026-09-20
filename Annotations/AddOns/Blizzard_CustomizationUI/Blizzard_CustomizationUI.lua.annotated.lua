@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L73)
---- @class CustomizationRandomizeAppearanceButtonMixin : NarrationSkipTooltipsMixin
+ --- @class CustomizationRandomizeAppearanceButtonMixin : NarrationSkipTooltipsMixin
 CustomizationRandomizeAppearanceButtonMixin = CreateFromMixins(NarrationSkipTooltipsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L87)
---- @class CustomizationResetCameraButtonMixin : NarrationSkipTooltipsMixin
+ --- @class CustomizationResetCameraButtonMixin : NarrationSkipTooltipsMixin
 CustomizationResetCameraButtonMixin = CreateFromMixins(NarrationSkipTooltipsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L102)
---- @class CustomizationZoomButtonMixin : CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin
+ --- @class CustomizationZoomButtonMixin : CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin
 CustomizationZoomButtonMixin = CreateFromMixins(CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L118)
---- @class CustomizationRotateButtonMixin : CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin
+ --- @class CustomizationRotateButtonMixin : CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin
 CustomizationRotateButtonMixin = CreateFromMixins(CustomizationClickOrHoldButtonMixin, NarrationSkipTooltipsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L134)
---- @class CustomizationCategoryButtonMixin : CustomizationMaskedButtonMixin, CustomizationContentFrameMixin
+ --- @class CustomizationCategoryButtonMixin : CustomizationMaskedButtonMixin, CustomizationContentFrameMixin
 CustomizationCategoryButtonMixin = CreateFromMixins(CustomizationMaskedButtonMixin, CustomizationContentFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L3)
---- @class CustomizationParentFrameBaseMixin
+ --- @class CustomizationParentFrameBaseMixin
 CustomizationParentFrameBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L210)
---- @class CustomizationFrameBaseMixin
+ --- @class CustomizationFrameBaseMixin
 CustomizationFrameBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L5)

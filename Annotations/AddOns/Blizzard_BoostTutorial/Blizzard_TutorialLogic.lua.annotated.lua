@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialLogic.lua#L235)
---- @class MapBridgeDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class MapBridgeDataProviderMixin : MapCanvasDataProviderMixin
 MapBridgeDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialLogic.lua#L237)

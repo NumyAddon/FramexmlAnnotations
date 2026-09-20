@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L1)
---- @class FieldsAPIMixin : BaseAPIMixin
+ --- @class FieldsAPIMixin : BaseAPIMixin
 FieldsAPIMixin = CreateFromMixins(BaseAPIMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_APIDocumentation/FieldsAPIMixin.lua#L3)

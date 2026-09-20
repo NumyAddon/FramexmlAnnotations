@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L22)
---- @class AsyncCallbackSystemMixin
+ --- @class AsyncCallbackSystemMixin
 AsyncCallbackSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L24)

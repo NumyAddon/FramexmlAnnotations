@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AsyncRequest/Blizzard_AsyncRequest.lua#L33)
---- @class AsyncRequestMixin
+ --- @class AsyncRequestMixin
 AsyncRequestMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AsyncRequest/Blizzard_AsyncRequest.lua#L35)

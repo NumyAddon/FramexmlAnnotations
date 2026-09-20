@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.lua#L2)
---- @class ProfessionsCustomerOrderListElementMixin : TableBuilderRowMixin
+ --- @class ProfessionsCustomerOrderListElementMixin : TableBuilderRowMixin
 ProfessionsCustomerOrderListElementMixin = CreateFromMixins(TableBuilderRowMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.lua#L59)
---- @class ProfessionsCustomerOrdersMyOrdersMixin
+ --- @class ProfessionsCustomerOrdersMyOrdersMixin
 ProfessionsCustomerOrdersMyOrdersMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.lua#L4)

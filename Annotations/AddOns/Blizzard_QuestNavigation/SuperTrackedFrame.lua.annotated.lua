@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L4)
---- @class SuperTrackedFrameMixin
+ --- @class SuperTrackedFrameMixin
 SuperTrackedFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuestNavigation/SuperTrackedFrame.lua#L6)

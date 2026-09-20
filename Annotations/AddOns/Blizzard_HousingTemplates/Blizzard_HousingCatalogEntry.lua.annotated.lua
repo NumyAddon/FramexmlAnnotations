@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.lua#L483)
---- @class HousingCatalogDecorEntryMixin : HousingCatalogEntryMixin
+ --- @class HousingCatalogDecorEntryMixin : HousingCatalogEntryMixin
 HousingCatalogDecorEntryMixin = CreateFromMixins(HousingCatalogEntryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.lua#L14)
---- @class HousingCatalogDyeDisplayMixin
+ --- @class HousingCatalogDyeDisplayMixin
 HousingCatalogDyeDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.lua#L55)
---- @class HousingCatalogEntryMixin
+ --- @class HousingCatalogEntryMixin
 HousingCatalogEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.lua#L859)
---- @class HousingCatalogRoomEntryMixin
+ --- @class HousingCatalogRoomEntryMixin
 HousingCatalogRoomEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.lua#L16)

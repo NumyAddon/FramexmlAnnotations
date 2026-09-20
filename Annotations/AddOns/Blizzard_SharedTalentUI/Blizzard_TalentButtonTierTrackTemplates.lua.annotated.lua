@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonTierTrackTemplates.lua#L76)
---- @class TalentButtonCapstonePipMixin : TalentButtonArtMixin, TalentButtonCapstoneTooltipMixin
+ --- @class TalentButtonCapstonePipMixin : TalentButtonArtMixin, TalentButtonCapstoneTooltipMixin
 TalentButtonCapstonePipMixin = CreateFromMixins(TalentButtonArtMixin, TalentButtonCapstoneTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonTierTrackTemplates.lua#L212)
---- @class TalentButtonCapstoneWithTrackMixin : TalentButtonSpendMixin, TalentButtonCapstoneTooltipMixin
+ --- @class TalentButtonCapstoneWithTrackMixin : TalentButtonSpendMixin, TalentButtonCapstoneTooltipMixin
 TalentButtonCapstoneWithTrackMixin = CreateFromMixins(TalentButtonSpendMixin, TalentButtonCapstoneTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonTierTrackTemplates.lua#L1)
---- @class TalentButtonCapstoneTooltipMixin
+ --- @class TalentButtonCapstoneTooltipMixin
 TalentButtonCapstoneTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonTierTrackTemplates.lua#L3)

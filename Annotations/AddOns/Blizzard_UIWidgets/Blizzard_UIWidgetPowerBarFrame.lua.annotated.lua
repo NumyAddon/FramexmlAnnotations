@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetPowerBarFrame.lua#L1)
---- @class UIWidgetPowerBarContainerMixin
+ --- @class UIWidgetPowerBarContainerMixin
 UIWidgetPowerBarContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetPowerBarFrame.lua#L12)

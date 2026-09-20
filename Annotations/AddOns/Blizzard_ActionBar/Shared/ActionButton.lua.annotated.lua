@@ -1,95 +1,95 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1484)
---- @class ActionBarButtonEventsDerivedFrameMixin : ActionBarButtonEventsFrameMixin
+ --- @class ActionBarButtonEventsDerivedFrameMixin : ActionBarButtonEventsFrameMixin
 ActionBarButtonEventsDerivedFrameMixin = CreateFromMixins(ActionBarButtonEventsFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1489)
---- @class ActionBarActionButtonDerivedMixin : BaseActionButtonInfoMixin, ActionBarActionButtonMixin
+ --- @class ActionBarActionButtonDerivedMixin : BaseActionButtonInfoMixin, ActionBarActionButtonMixin
 ActionBarActionButtonDerivedMixin = CreateFromMixins(BaseActionButtonInfoMixin, ActionBarActionButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1546)
---- @class BaseActionButtonMixin : BaseActionButtonInfoMixin
+ --- @class BaseActionButtonMixin : BaseActionButtonInfoMixin
 BaseActionButtonMixin = CreateFromMixins(BaseActionButtonInfoMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L201)
---- @class ActionBarButtonEventsFrameMixin
+ --- @class ActionBarButtonEventsFrameMixin
 ActionBarButtonEventsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L243)
---- @class ActionBarActionEventsFrameMixin
+ --- @class ActionBarActionEventsFrameMixin
 ActionBarActionEventsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L346)
---- @class ActionBarButtonUpdateFrameMixin
+ --- @class ActionBarButtonUpdateFrameMixin
 ActionBarButtonUpdateFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L366)
---- @class ActionBarButtonRangeCheckFrameMixin
+ --- @class ActionBarButtonRangeCheckFrameMixin
 ActionBarButtonRangeCheckFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L404)
---- @class ActionBarButtonUsableWatcherFrameMixin
+ --- @class ActionBarButtonUsableWatcherFrameMixin
 ActionBarButtonUsableWatcherFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L442)
---- @class ActionBarActionButtonMixin
+ --- @class ActionBarActionButtonMixin
 ActionBarActionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1432)
---- @class ActionBarOverlayGlowAnimInMixin
+ --- @class ActionBarOverlayGlowAnimInMixin
 ActionBarOverlayGlowAnimInMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1464)
---- @class ActionButtonInterruptAnimInMixin
+ --- @class ActionButtonInterruptAnimInMixin
 ActionButtonInterruptAnimInMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1472)
---- @class BaseActionButtonInfoMixin
+ --- @class BaseActionButtonInfoMixin
 BaseActionButtonInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1649)
---- @class ActionBarButtonMixin
+ --- @class ActionBarButtonMixin
 ActionBarButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1671)
---- @class SmallActionButtonMixin
+ --- @class SmallActionButtonMixin
 SmallActionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1720)
---- @class ActionButtonInterruptFrameMixin
+ --- @class ActionButtonInterruptFrameMixin
 ActionButtonInterruptFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1732)
---- @class ActionButtonCastingAnimFrameMixin
+ --- @class ActionButtonCastingAnimFrameMixin
 ActionButtonCastingAnimFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1791)
---- @class ActionButtonCastingAnimationFillMixin
+ --- @class ActionButtonCastingAnimationFillMixin
 ActionButtonCastingAnimationFillMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1799)
---- @class ActionButtonCastingFinishAnimMixin
+ --- @class ActionButtonCastingFinishAnimMixin
 ActionButtonCastingFinishAnimMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1806)
---- @class ActionButtonTargetReticleFrameMixin
+ --- @class ActionButtonTargetReticleFrameMixin
 ActionButtonTargetReticleFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1812)
---- @class ActionButtonCooldownFlashMixin
+ --- @class ActionButtonCooldownFlashMixin
 ActionButtonCooldownFlashMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1818)
---- @class ActionButtonCooldownFlashAnimMixin
+ --- @class ActionButtonCooldownFlashAnimMixin
 ActionButtonCooldownFlashAnimMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1824)
---- @class ActionButtonTextOverlayContainerMixin
+ --- @class ActionButtonTextOverlayContainerMixin
 ActionButtonTextOverlayContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1831)
---- @class ActionBarButtonAssistedCombatRotationFrameMixin
+ --- @class ActionBarButtonAssistedCombatRotationFrameMixin
 ActionBarButtonAssistedCombatRotationFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L203)

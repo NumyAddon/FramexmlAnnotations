@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateAuras.lua#L72)
---- @class NamePlateAurasMixin : NamePlateComponentMixin
+ --- @class NamePlateAurasMixin : NamePlateComponentMixin
 NamePlateAurasMixin = CreateFromMixins(NamePlateComponentMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateAuras.lua#L2)
---- @class NamePlateAuraItemMixin
+ --- @class NamePlateAuraItemMixin
 NamePlateAuraItemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateAuras.lua#L4)

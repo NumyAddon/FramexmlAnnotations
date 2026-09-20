@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.lua#L304)
---- @class TradeFrameTradeButtonMixin
+ --- @class TradeFrameTradeButtonMixin
 TradeFrameTradeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.lua#L319)
---- @class TradeItemAlertTemplateMixin
+ --- @class TradeItemAlertTemplateMixin
 TradeItemAlertTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.lua#L306)

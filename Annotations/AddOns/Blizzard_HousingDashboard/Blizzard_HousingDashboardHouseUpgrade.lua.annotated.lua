@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.lua#L1)
---- @class HouseLevelTrackFrameMixin : RewardTrackFrameMixin
+ --- @class HouseLevelTrackFrameMixin : RewardTrackFrameMixin
 HouseLevelTrackFrameMixin = CreateFromMixins(RewardTrackFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.lua#L4)
---- @class HousingUpgradeFrameMixin
+ --- @class HousingUpgradeFrameMixin
 HousingUpgradeFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.lua#L308)
---- @class HouseUpgradeLevelFrameMixin
+ --- @class HouseUpgradeLevelFrameMixin
 HouseUpgradeLevelFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.lua#L341)
---- @class HousingTeleportToHouseMixin
+ --- @class HousingTeleportToHouseMixin
 HousingTeleportToHouseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.lua#L445)
---- @class HouseUpgradeRewardFrameMixin
+ --- @class HouseUpgradeRewardFrameMixin
 HouseUpgradeRewardFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.lua#L459)
---- @class HouseUpgradeCurrentLevelFrameMixin
+ --- @class HouseUpgradeCurrentLevelFrameMixin
 HouseUpgradeCurrentLevelFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.lua#L486)
---- @class HouseWatchFavorButtonMixin
+ --- @class HouseWatchFavorButtonMixin
 HouseWatchFavorButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.lua#L512)
---- @class HouseUpgradeProgressBarMixin
+ --- @class HouseUpgradeProgressBarMixin
 HouseUpgradeProgressBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.lua#L11)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L43)
---- @class CommentatorSpellTrayMixin
+ --- @class CommentatorSpellTrayMixin
 CommentatorSpellTrayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.lua#L45)

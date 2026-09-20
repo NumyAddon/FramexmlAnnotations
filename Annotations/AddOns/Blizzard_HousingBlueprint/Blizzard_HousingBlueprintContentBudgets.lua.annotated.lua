@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentBudgets.lua#L1)
---- @class HousingBlueprintBudgetsContainerMixin
+ --- @class HousingBlueprintBudgetsContainerMixin
 HousingBlueprintBudgetsContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentBudgets.lua#L102)
---- @class HousingBlueprintBudgetMixin
+ --- @class HousingBlueprintBudgetMixin
 HousingBlueprintBudgetMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentBudgets.lua#L3)

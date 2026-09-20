@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L1)
---- @class HouseFinderMapDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class HouseFinderMapDataProviderMixin : MapCanvasDataProviderMixin
 HouseFinderMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L41)
---- @class HouseFinderPlotForSalePinMixin : MapCanvasPinMixin
+ --- @class HouseFinderPlotForSalePinMixin : MapCanvasPinMixin
 HouseFinderPlotForSalePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L129)
---- @class HouseFinderFriendsPlotPinMixin : MapCanvasPinMixin
+ --- @class HouseFinderFriendsPlotPinMixin : MapCanvasPinMixin
 HouseFinderFriendsPlotPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L157)
---- @class SelectedPlotTooltipMixin
+ --- @class SelectedPlotTooltipMixin
 SelectedPlotTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L3)

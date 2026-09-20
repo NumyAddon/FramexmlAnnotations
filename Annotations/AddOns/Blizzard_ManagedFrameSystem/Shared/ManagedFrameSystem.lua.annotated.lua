@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ManagedFrameSystem/Shared/ManagedFrameSystem.lua#L16)
---- @class ManagedFrameMixin
+ --- @class ManagedFrameMixin
 ManagedFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ManagedFrameSystem/Shared/ManagedFrameSystem.lua#L40)
---- @class ManagedFrameContainerMixin
+ --- @class ManagedFrameContainerMixin
 ManagedFrameContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ManagedFrameSystem/Shared/ManagedFrameSystem.lua#L17)

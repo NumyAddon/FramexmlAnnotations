@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_Commentator.lua#L43)
---- @class CommentatorMixin
+ --- @class CommentatorMixin
 CommentatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_Commentator.lua#L45)

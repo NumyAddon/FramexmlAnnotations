@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendSocialView.lua#L2)
---- @class RecruitListButtonSocialMixin : RecruitListButtonMixin
+ --- @class RecruitListButtonSocialMixin : RecruitListButtonMixin
 RecruitListButtonSocialMixin = CreateFromMixins(RecruitListButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendSocialView.lua#L110)
---- @class RecruitAFriendFrameSocialViewMixin : RecruitAFriendFrameMixin, SocialUIScrollableElementExtentPreviewerMixin
+ --- @class RecruitAFriendFrameSocialViewMixin : RecruitAFriendFrameMixin, SocialUIScrollableElementExtentPreviewerMixin
 RecruitAFriendFrameSocialViewMixin = CreateFromMixins(RecruitAFriendFrameMixin, SocialUIScrollableElementExtentPreviewerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendSocialView.lua#L247)
---- @class RecruitAFriendSocialViewActionButtonMixin : SocialUIActionButtonMixin
+ --- @class RecruitAFriendSocialViewActionButtonMixin : SocialUIActionButtonMixin
 RecruitAFriendSocialViewActionButtonMixin = CreateFromMixins(SocialUIActionButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendSocialView.lua#L271)
---- @class RecruitAFriendSocialViewClaimOrViewRewardButtonMixin : RecruitAFriendClaimOrViewRewardButtonMixin
+ --- @class RecruitAFriendSocialViewClaimOrViewRewardButtonMixin : RecruitAFriendClaimOrViewRewardButtonMixin
 RecruitAFriendSocialViewClaimOrViewRewardButtonMixin = CreateFromMixins(RecruitAFriendClaimOrViewRewardButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendSocialView.lua#L4)

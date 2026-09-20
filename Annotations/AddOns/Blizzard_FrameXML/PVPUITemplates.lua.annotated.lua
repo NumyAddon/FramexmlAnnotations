@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.lua#L173)
---- @class PVPLootMixin : LootItemExtendedMixin
+ --- @class PVPLootMixin : LootItemExtendedMixin
 PVPLootMixin = CreateFromMixins(LootItemExtendedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.lua#L1)
---- @class PVPConquestRewardMixin
+ --- @class PVPConquestRewardMixin
 PVPConquestRewardMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.lua#L83)
---- @class PVPHonorRewardMixin
+ --- @class PVPHonorRewardMixin
 PVPHonorRewardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.lua#L154)
---- @class PVPRatedTierMixin
+ --- @class PVPRatedTierMixin
 PVPRatedTierMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/PVPUITemplates.lua#L2)

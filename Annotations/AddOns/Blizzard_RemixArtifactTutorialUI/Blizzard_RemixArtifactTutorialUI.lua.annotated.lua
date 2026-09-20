@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RemixArtifactTutorialUI/Blizzard_RemixArtifactTutorialUI.lua#L2)
---- @class RemixArtifactTutorialControllerMixin : CallbackRegistrantMixin
+ --- @class RemixArtifactTutorialControllerMixin : CallbackRegistrantMixin
 RemixArtifactTutorialControllerMixin = CreateFromMixins(CallbackRegistrantMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RemixArtifactTutorialUI/Blizzard_RemixArtifactTutorialUI.lua#L16)

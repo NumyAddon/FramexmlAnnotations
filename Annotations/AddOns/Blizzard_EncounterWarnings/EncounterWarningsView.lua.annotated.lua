@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsView.lua#L1)
---- @class EncounterWarningsViewMixin : EncounterWarningsSettingsMixin, ResizeLayoutMixin
+ --- @class EncounterWarningsViewMixin : EncounterWarningsSettingsMixin, ResizeLayoutMixin
 EncounterWarningsViewMixin = CreateFromMixins(EncounterWarningsSettingsMixin, ResizeLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsView.lua#L3)

@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartItemTemplates.lua#L180)
---- @class HousingMarketCartBundleHeaderMixin : HousingMarketCartBundleRegistrant
+ --- @class HousingMarketCartBundleHeaderMixin : HousingMarketCartBundleRegistrant
 HousingMarketCartBundleHeaderMixin = CreateFromMixins(HousingMarketCartBundleRegistrant)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartItemTemplates.lua#L195)
---- @class HousingMarketCartBundleFooterMixin : HousingMarketCartBundleRegistrant
+ --- @class HousingMarketCartBundleFooterMixin : HousingMarketCartBundleRegistrant
 HousingMarketCartBundleFooterMixin = CreateFromMixins(HousingMarketCartBundleRegistrant)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartItemTemplates.lua#L201)
---- @class HousingMarketCartBundleMixin : HousingMarketCartBundleRegistrant
+ --- @class HousingMarketCartBundleMixin : HousingMarketCartBundleRegistrant
 HousingMarketCartBundleMixin = CreateFromMixins(HousingMarketCartBundleRegistrant)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartItemTemplates.lua#L246)
---- @class HousingMarketCartBundleItemMixin : HousingMarketCartBundleRegistrant
+ --- @class HousingMarketCartBundleItemMixin : HousingMarketCartBundleRegistrant
 HousingMarketCartBundleItemMixin = CreateFromMixins(HousingMarketCartBundleRegistrant)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartItemTemplates.lua#L2)
---- @class HousingMarketCartBraceMixin
+ --- @class HousingMarketCartBraceMixin
 HousingMarketCartBraceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartItemTemplates.lua#L16)
---- @class HousingMarketCartPriceMixin
+ --- @class HousingMarketCartPriceMixin
 HousingMarketCartPriceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartItemTemplates.lua#L64)
---- @class PlaceInWorldButtonMixin
+ --- @class PlaceInWorldButtonMixin
 PlaceInWorldButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartItemTemplates.lua#L82)
---- @class HousingMarketCartItemMixin
+ --- @class HousingMarketCartItemMixin
 HousingMarketCartItemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartItemTemplates.lua#L164)
---- @class HousingRemoveInlineItemFromCartServiceMixin
+ --- @class HousingRemoveInlineItemFromCartServiceMixin
 HousingRemoveInlineItemFromCartServiceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartItemTemplates.lua#L4)

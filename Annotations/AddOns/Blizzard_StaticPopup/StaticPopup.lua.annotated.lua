@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/StaticPopup.lua#L36)
---- @class StaticPopupDialogNarrationMixin
+ --- @class StaticPopupDialogNarrationMixin
 StaticPopupDialogNarrationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/StaticPopup.lua#L38)

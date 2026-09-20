@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HybridMinimap/Blizzard_HybridMinimap.lua#L1)
---- @class HybridMinimapMixin
+ --- @class HybridMinimapMixin
 HybridMinimapMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HybridMinimap/Blizzard_HybridMinimap.lua#L3)

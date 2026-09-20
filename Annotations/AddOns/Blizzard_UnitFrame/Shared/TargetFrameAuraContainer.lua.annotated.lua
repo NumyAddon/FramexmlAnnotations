@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L15)
---- @class TargetFrameAuraContainerSharedMixin : ManagedAuraContainerSharedMixin
+ --- @class TargetFrameAuraContainerSharedMixin : ManagedAuraContainerSharedMixin
 TargetFrameAuraContainerSharedMixin = CreateFromMixins(ManagedAuraContainerSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L224)
---- @class TargetFrameAuraContainerInboundMixin : ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, TargetFrameAuraContainerSharedMixin
+ --- @class TargetFrameAuraContainerInboundMixin : ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, TargetFrameAuraContainerSharedMixin
 TargetFrameAuraContainerInboundMixin = CreateFromMixins(ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, TargetFrameAuraContainerSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L225)
---- @class TargetFrameAuraContainerPrivateMixin : ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, TargetFrameAuraContainerSharedMixin
+ --- @class TargetFrameAuraContainerPrivateMixin : ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, TargetFrameAuraContainerSharedMixin
 TargetFrameAuraContainerPrivateMixin = CreateFromMixins(ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, TargetFrameAuraContainerSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L427)
---- @class TargetFrameAuraFlowLayoutMixin : AnchorUtil.FlowLayoutMixin
+ --- @class TargetFrameAuraFlowLayoutMixin : AnchorUtil.FlowLayoutMixin
 TargetFrameAuraFlowLayoutMixin = CreateFromMixins(AnchorUtil.FlowLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L17)

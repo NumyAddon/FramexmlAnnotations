@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.lua#L26)
---- @class ArenaEnemyFramesContainerMixin
+ --- @class ArenaEnemyFramesContainerMixin
 ArenaEnemyFramesContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.lua#L52)
---- @class ArenaEnemyMatchFramesContainerMixin
+ --- @class ArenaEnemyMatchFramesContainerMixin
 ArenaEnemyMatchFramesContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.lua#L141)
---- @class ArenaEnemyMatchFrameMixin
+ --- @class ArenaEnemyMatchFrameMixin
 ArenaEnemyMatchFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.lua#L352)
---- @class ArenaEnemyPrepFrameMixin
+ --- @class ArenaEnemyPrepFrameMixin
 ArenaEnemyPrepFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.lua#L362)
---- @class ArenaEnemyPetFrameMixin
+ --- @class ArenaEnemyPetFrameMixin
 ArenaEnemyPetFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.lua#L444)
---- @class ArenaEnemyPrepFramesContainerMixin
+ --- @class ArenaEnemyPrepFramesContainerMixin
 ArenaEnemyPrepFramesContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.lua#L28)

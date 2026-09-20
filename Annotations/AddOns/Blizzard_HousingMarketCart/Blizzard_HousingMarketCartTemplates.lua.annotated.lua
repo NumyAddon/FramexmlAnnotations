@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartTemplates.lua#L4)
---- @class HousingMarketCartFrameMixin : ShoppingCartVisualsFrameMixin
+ --- @class HousingMarketCartFrameMixin : ShoppingCartVisualsFrameMixin
 HousingMarketCartFrameMixin = CreateFromMixins(ShoppingCartVisualsFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartTemplates.lua#L383)
---- @class HousingMarketCartDataManagerMixin : ShoppingCartDataManagerMixin
+ --- @class HousingMarketCartDataManagerMixin : ShoppingCartDataManagerMixin
 HousingMarketCartDataManagerMixin = CreateFromMixins(ShoppingCartDataManagerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartTemplates.lua#L6)

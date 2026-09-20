@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PetFrame.lua#L1)
---- @class PetFrameMixin : PartyMemberAuraMixin
+ --- @class PetFrameMixin : PartyMemberAuraMixin
 PetFrameMixin = CreateFromMixins(PartyMemberAuraMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PetFrame.lua#L173)
---- @class PetCastingBarMixin : CastingBarMixin
+ --- @class PetCastingBarMixin : CastingBarMixin
 PetCastingBarMixin = CreateFromMixins(CastingBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PetFrame.lua#L200)
---- @class PetManaBarMixin
+ --- @class PetManaBarMixin
 PetManaBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PetFrame.lua#L210)
---- @class PetHealthBarMixin
+ --- @class PetHealthBarMixin
 PetHealthBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PetFrame.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/ContentTrackingDataProvider.lua#L97)
---- @class ContentTrackingPinMixin : MapCanvasPinMixin
+ --- @class ContentTrackingPinMixin : MapCanvasPinMixin
 ContentTrackingPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/ContentTrackingDataProvider.lua#L99)

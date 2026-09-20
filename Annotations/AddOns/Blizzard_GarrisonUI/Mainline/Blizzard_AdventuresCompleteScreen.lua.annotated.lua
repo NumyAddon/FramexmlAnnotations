@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.lua#L6)
---- @class AdventuresCompleteScreenContinueButtonMixin
+ --- @class AdventuresCompleteScreenContinueButtonMixin
 AdventuresCompleteScreenContinueButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.lua#L12)
---- @class AdventuresCompleteScreenSpeedButtonMixin
+ --- @class AdventuresCompleteScreenSpeedButtonMixin
 AdventuresCompleteScreenSpeedButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.lua#L23)
---- @class AdventuresCompleteScreenMixin
+ --- @class AdventuresCompleteScreenMixin
 AdventuresCompleteScreenMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresCompleteScreen.lua#L8)

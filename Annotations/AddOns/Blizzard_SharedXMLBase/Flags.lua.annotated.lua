@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/Flags.lua#L116)
---- @class DirtyFlagsMixin : FlagsMixin
+ --- @class DirtyFlagsMixin : FlagsMixin
 DirtyFlagsMixin = CreateFromMixins(FlagsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/Flags.lua#L54)
---- @class FlagsMixin
+ --- @class FlagsMixin
 FlagsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/Flags.lua#L56)

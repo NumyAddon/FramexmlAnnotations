@@ -1,127 +1,127 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1325)
---- @class PerksProgramSetDetailsListMixin : PerksProgramItemDetailsListMixin
+ --- @class PerksProgramSetDetailsListMixin : PerksProgramItemDetailsListMixin
 PerksProgramSetDetailsListMixin = CreateFromMixins(PerksProgramItemDetailsListMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1347)
---- @class PerksProgramCartDetailsListMixin : PerksProgramItemDetailsListMixin
+ --- @class PerksProgramCartDetailsListMixin : PerksProgramItemDetailsListMixin
 PerksProgramCartDetailsListMixin = CreateFromMixins(PerksProgramItemDetailsListMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L121)
---- @class PerksRefundIconTooltipMixin
+ --- @class PerksRefundIconTooltipMixin
 PerksRefundIconTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L144)
---- @class PerksProductPriceMixin
+ --- @class PerksProductPriceMixin
 PerksProductPriceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L189)
---- @class PerksProgramProductButtonMixin
+ --- @class PerksProgramProductButtonMixin
 PerksProgramProductButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L415)
---- @class ProductCartToggleButtonMixin
+ --- @class ProductCartToggleButtonMixin
 ProductCartToggleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L493)
---- @class PerksProgramFrozenProductButtonMixin
+ --- @class PerksProgramFrozenProductButtonMixin
 PerksProgramFrozenProductButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L696)
---- @class PerksProgramPurchasePendingSpinnerMixin
+ --- @class PerksProgramPurchasePendingSpinnerMixin
 PerksProgramPurchasePendingSpinnerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L722)
---- @class PerksProgramButtonMixin
+ --- @class PerksProgramButtonMixin
 PerksProgramButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L746)
---- @class PerksProgramPurchaseButtonMixin
+ --- @class PerksProgramPurchaseButtonMixin
 PerksProgramPurchaseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L831)
---- @class PerksProgramRefundButtonMixin
+ --- @class PerksProgramRefundButtonMixin
 PerksProgramRefundButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L844)
---- @class PerksProgramTruncatedTextTooltipButtonMixin
+ --- @class PerksProgramTruncatedTextTooltipButtonMixin
 PerksProgramTruncatedTextTooltipButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L867)
---- @class PerksProgramViewCartButtonMixin
+ --- @class PerksProgramViewCartButtonMixin
 PerksProgramViewCartButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L878)
---- @class PerksProgramDividerFrameMixin
+ --- @class PerksProgramDividerFrameMixin
 PerksProgramDividerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L946)
---- @class PerksProgramItemDetailsListMixin
+ --- @class PerksProgramItemDetailsListMixin
 PerksProgramItemDetailsListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1484)
---- @class PerksProgramDisableableScrollItemMixin
+ --- @class PerksProgramDisableableScrollItemMixin
 PerksProgramDisableableScrollItemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1510)
---- @class RemoveFromCartItemButtonContainerMixin
+ --- @class RemoveFromCartItemButtonContainerMixin
 RemoveFromCartItemButtonContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1528)
---- @class RemoveFromCartItemButtonMixin
+ --- @class RemoveFromCartItemButtonMixin
 RemoveFromCartItemButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1551)
---- @class PerksProgramScrollItemDetailsMixin
+ --- @class PerksProgramScrollItemDetailsMixin
 PerksProgramScrollItemDetailsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1630)
---- @class PerksProgramCartScrollItemDetailsMixin
+ --- @class PerksProgramCartScrollItemDetailsMixin
 PerksProgramCartScrollItemDetailsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1667)
---- @class PerksProgramSetScrollItemDetailsMixin
+ --- @class PerksProgramSetScrollItemDetailsMixin
 PerksProgramSetScrollItemDetailsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1715)
---- @class PerksProgramSetItemDetailsScrollHeaderMixin
+ --- @class PerksProgramSetItemDetailsScrollHeaderMixin
 PerksProgramSetItemDetailsScrollHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1741)
---- @class PerksProgramCheckboxMixin
+ --- @class PerksProgramCheckboxMixin
 PerksProgramCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1766)
---- @class PerksProgramToyDetailsFrameMixin
+ --- @class PerksProgramToyDetailsFrameMixin
 PerksProgramToyDetailsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1810)
---- @class PerksProgramProductDetailsFrameMixin
+ --- @class PerksProgramProductDetailsFrameMixin
 PerksProgramProductDetailsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1899)
---- @class PerksProgramProductDetailsContainerMixin
+ --- @class PerksProgramProductDetailsContainerMixin
 PerksProgramProductDetailsContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1912)
---- @class HeaderSortButtonMixin
+ --- @class HeaderSortButtonMixin
 HeaderSortButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1983)
---- @class PerksModelSceneControlButtonMixin
+ --- @class PerksModelSceneControlButtonMixin
 PerksModelSceneControlButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L2063)
---- @class PerksProgramClearCartButtonMixin
+ --- @class PerksProgramClearCartButtonMixin
 PerksProgramClearCartButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L2077)
---- @class PerksProgramPurchaseCartButtonMixin
+ --- @class PerksProgramPurchaseCartButtonMixin
 PerksProgramPurchaseCartButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L2136)
---- @class PerksProgramShoppingCartMixin
+ --- @class PerksProgramShoppingCartMixin
 PerksProgramShoppingCartMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L123)

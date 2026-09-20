@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L408)
---- @class DressUpCustomSetMixin
+ --- @class DressUpCustomSetMixin
 DressUpCustomSetMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L461)
---- @class DressUpCustomSetDetailsPanelMixin
+ --- @class DressUpCustomSetDetailsPanelMixin
 DressUpCustomSetDetailsPanelMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L641)
---- @class DressUpCustomSetDetailsSlotMixin
+ --- @class DressUpCustomSetDetailsSlotMixin
 DressUpCustomSetDetailsSlotMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L410)

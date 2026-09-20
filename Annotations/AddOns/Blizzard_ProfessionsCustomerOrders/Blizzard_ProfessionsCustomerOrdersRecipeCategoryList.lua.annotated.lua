@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeCategoryList.lua#L36)
---- @class ProfessionsCustomerOrdersCategoryButtonMixin
+ --- @class ProfessionsCustomerOrdersCategoryButtonMixin
 ProfessionsCustomerOrdersCategoryButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeCategoryList.lua#L149)
---- @class ProfessionsCustomerOrdersRecipeCategoryListMixin
+ --- @class ProfessionsCustomerOrdersRecipeCategoryListMixin
 ProfessionsCustomerOrdersRecipeCategoryListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeCategoryList.lua#L38)

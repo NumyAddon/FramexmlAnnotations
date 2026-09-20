@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorLayoutModePin.lua#L57)
---- @class HousingLayoutDoorPinMixin : HousingLayoutBasePinMixin
+ --- @class HousingLayoutDoorPinMixin : HousingLayoutBasePinMixin
 HousingLayoutDoorPinMixin = CreateFromMixins(HousingLayoutBasePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorLayoutModePin.lua#L238)
---- @class HousingLayoutRoomPinMixin : HousingLayoutBasePinMixin
+ --- @class HousingLayoutRoomPinMixin : HousingLayoutBasePinMixin
 HousingLayoutRoomPinMixin = CreateFromMixins(HousingLayoutBasePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorLayoutModePin.lua#L9)
---- @class HousingLayoutBasePinMixin
+ --- @class HousingLayoutBasePinMixin
 HousingLayoutBasePinMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorLayoutModePin.lua#L486)
---- @class HousingLayoutRoomOptionMixin
+ --- @class HousingLayoutRoomOptionMixin
 HousingLayoutRoomOptionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorLayoutModePin.lua#L11)

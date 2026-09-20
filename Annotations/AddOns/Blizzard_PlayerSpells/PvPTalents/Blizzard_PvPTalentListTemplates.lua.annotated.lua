@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentListTemplates.lua#L2)
---- @class PvPTalentListButtonMixin
+ --- @class PvPTalentListButtonMixin
 PvPTalentListButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentListTemplates.lua#L117)
---- @class PvPTalentListMixin
+ --- @class PvPTalentListMixin
 PvPTalentListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentListTemplates.lua#L4)

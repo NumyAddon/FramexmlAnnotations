@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.lua#L3)
---- @class AzeriteRespecMixin
+ --- @class AzeriteRespecMixin
 AzeriteRespecMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.lua#L121)
---- @class AzeriteRespecItemSlotMixin
+ --- @class AzeriteRespecItemSlotMixin
 AzeriteRespecItemSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.lua#L185)
---- @class AzeriteRespecButtonMixin
+ --- @class AzeriteRespecButtonMixin
 AzeriteRespecButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.lua#L5)

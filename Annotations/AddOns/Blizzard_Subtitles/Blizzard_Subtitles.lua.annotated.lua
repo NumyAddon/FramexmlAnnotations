@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Subtitles/Blizzard_Subtitles.lua#L6)
---- @class SubtitlesFrameMixin
+ --- @class SubtitlesFrameMixin
 SubtitlesFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Subtitles/Blizzard_Subtitles.lua#L8)

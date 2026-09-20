@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreCategoryList.lua#L2)
---- @class AccountStoreCategoryMixin
+ --- @class AccountStoreCategoryMixin
 AccountStoreCategoryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreCategoryList.lua#L18)
---- @class AccountStoreCategoryListMixin
+ --- @class AccountStoreCategoryListMixin
 AccountStoreCategoryListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreCategoryList.lua#L4)

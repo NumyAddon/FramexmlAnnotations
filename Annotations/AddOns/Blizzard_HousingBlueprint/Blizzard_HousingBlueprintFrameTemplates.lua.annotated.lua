@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L1)
---- @class HousingBlueprintBaseFrameMixin
+ --- @class HousingBlueprintBaseFrameMixin
 HousingBlueprintBaseFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L3)

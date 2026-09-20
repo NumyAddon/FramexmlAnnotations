@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ContentTracking/ContentTrackingElement.lua#L2)
---- @class ContentTrackingCheckmarkMixin
+ --- @class ContentTrackingCheckmarkMixin
 ContentTrackingCheckmarkMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ContentTracking/ContentTrackingElement.lua#L15)
---- @class ContentTrackingElementMixin
+ --- @class ContentTrackingElementMixin
 ContentTrackingElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ContentTracking/ContentTrackingElement.lua#L4)

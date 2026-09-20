@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Mainline/QuestTextPreview.lua#L1)
---- @class QuestTextPreviewMixin : AccessibilitySettingsPreviewMixin
+ --- @class QuestTextPreviewMixin : AccessibilitySettingsPreviewMixin
 QuestTextPreviewMixin = CreateFromMixins(AccessibilitySettingsPreviewMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Mainline/QuestTextPreview.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L2)
---- @class ScriptAnimatedModelSceneActorMixin
+ --- @class ScriptAnimatedModelSceneActorMixin
 ScriptAnimatedModelSceneActorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L4)

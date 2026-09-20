@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/BattlefieldFlagDataProvider.lua#L1)
---- @class BattlefieldFlagDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class BattlefieldFlagDataProviderMixin : MapCanvasDataProviderMixin
 BattlefieldFlagDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/BattlefieldFlagDataProvider.lua#L30)
---- @class BattlefieldFlagMixin : MapCanvasPinMixin
+ --- @class BattlefieldFlagMixin : MapCanvasPinMixin
 BattlefieldFlagMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/BattlefieldFlagDataProvider.lua#L3)

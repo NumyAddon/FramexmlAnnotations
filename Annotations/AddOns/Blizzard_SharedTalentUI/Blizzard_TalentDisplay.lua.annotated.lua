@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentDisplay.lua#L27)
---- @class TalentDisplayMixin : TalentDisplayAnimationStateControllerMixin
+ --- @class TalentDisplayMixin : TalentDisplayAnimationStateControllerMixin
 TalentDisplayMixin = CreateFromMixins(TalentDisplayAnimationStateControllerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentDisplay.lua#L29)

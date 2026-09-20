@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CombatLog/Mainline/Blizzard_CombatLog.lua#L1671)
---- @class CombatLogDriverMixin
+ --- @class CombatLogDriverMixin
 CombatLogDriverMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CombatLog/Mainline/Blizzard_CombatLog.lua#L1673)

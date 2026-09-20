@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.lua#L5)
---- @class AnimaDiversionFrameMixin
+ --- @class AnimaDiversionFrameMixin
 AnimaDiversionFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.lua#L342)
---- @class AnimaDiversionCurrencyFrameMixin
+ --- @class AnimaDiversionCurrencyFrameMixin
 AnimaDiversionCurrencyFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.lua#L355)
---- @class ReinforceProgressFrameMixin
+ --- @class ReinforceProgressFrameMixin
 ReinforceProgressFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.lua#L368)
---- @class ReinforceInfoFrameMixin
+ --- @class ReinforceInfoFrameMixin
 ReinforceInfoFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.lua#L424)
---- @class AnimaNodeReinforceButtonMixin
+ --- @class AnimaNodeReinforceButtonMixin
 AnimaNodeReinforceButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AnimaDiversionUI/Blizzard_AnimaDiversionUI.lua#L85)

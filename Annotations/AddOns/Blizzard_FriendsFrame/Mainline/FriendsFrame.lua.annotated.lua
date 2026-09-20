@@ -1,79 +1,79 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L662)
---- @class FriendsTabMixin : TabSystemButtonMixin
+ --- @class FriendsTabMixin : TabSystemButtonMixin
 FriendsTabMixin = CreateFromMixins(TabSystemButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L520)
---- @class FriendsTabHeaderMixin
+ --- @class FriendsTabHeaderMixin
 FriendsTabHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L676)
---- @class FriendsFrameTabMixin
+ --- @class FriendsFrameTabMixin
 FriendsFrameTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L706)
---- @class FriendsFrameInviteTemplateMixin
+ --- @class FriendsFrameInviteTemplateMixin
 FriendsFrameInviteTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1128)
---- @class SummonButtonMixin
+ --- @class SummonButtonMixin
 SummonButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1484)
---- @class WhoFrameEditBoxMixin
+ --- @class WhoFrameEditBoxMixin
 WhoFrameEditBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L1992)
---- @class FriendsBroadcastFrameMixin
+ --- @class FriendsBroadcastFrameMixin
 FriendsBroadcastFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2058)
---- @class AddFriendFrameMixin
+ --- @class AddFriendFrameMixin
 AddFriendFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2186)
---- @class FriendsFriendsButtonMixin
+ --- @class FriendsFriendsButtonMixin
 FriendsFriendsButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2193)
---- @class IgnoreListButtonMixin
+ --- @class IgnoreListButtonMixin
 IgnoreListButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2200)
---- @class WhoListButtonMixin
+ --- @class WhoListButtonMixin
 WhoListButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2222)
---- @class FriendsListButtonMixin
+ --- @class FriendsListButtonMixin
 FriendsListButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2449)
---- @class FriendsFriendsFrameMixin
+ --- @class FriendsFriendsFrameMixin
 FriendsFriendsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2981)
---- @class AddFriendIconHolderMixin
+ --- @class AddFriendIconHolderMixin
 AddFriendIconHolderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2994)
---- @class AddFriendEntryFrameInfoButtonMixin
+ --- @class AddFriendEntryFrameInfoButtonMixin
 AddFriendEntryFrameInfoButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L3023)
---- @class AddFriendCloseButtonMixin
+ --- @class AddFriendCloseButtonMixin
 AddFriendCloseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L3029)
---- @class WhoFrameColumnHeaderMixin
+ --- @class WhoFrameColumnHeaderMixin
 WhoFrameColumnHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L3049)
---- @class FriendsIgnoreListMixin
+ --- @class FriendsIgnoreListMixin
 FriendsIgnoreListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L3085)
---- @class ContactsMenuMixin
+ --- @class ContactsMenuMixin
 ContactsMenuMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L522)

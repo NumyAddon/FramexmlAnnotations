@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L13)
---- @class PlunderstormAccountStoreToggleMixin
+ --- @class PlunderstormAccountStoreToggleMixin
 PlunderstormAccountStoreToggleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L38)
---- @class PlunderstormBasicsContainerFrameMixin
+ --- @class PlunderstormBasicsContainerFrameMixin
 PlunderstormBasicsContainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L15)

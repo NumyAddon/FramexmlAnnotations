@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.lua#L176)
---- @class ProfessionsSpecPathMixin : TalentButtonSpendMixin
+ --- @class ProfessionsSpecPathMixin : TalentButtonSpendMixin
 ProfessionsSpecPathMixin = CreateFromMixins(TalentButtonSpendMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.lua#L588)
---- @class ProfessionsSpecPerkMixin : TalentDisplayMixin
+ --- @class ProfessionsSpecPerkMixin : TalentDisplayMixin
 ProfessionsSpecPerkMixin = CreateFromMixins(TalentDisplayMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.lua#L29)
---- @class ProfessionSpecTabMixin
+ --- @class ProfessionSpecTabMixin
 ProfessionSpecTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.lua#L776)
---- @class ProfessionSpecEdgeArrowMixin
+ --- @class ProfessionSpecEdgeArrowMixin
 ProfessionSpecEdgeArrowMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializationsTemplates.lua#L37)

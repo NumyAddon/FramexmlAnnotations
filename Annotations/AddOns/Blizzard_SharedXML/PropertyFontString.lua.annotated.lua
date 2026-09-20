@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/PropertyFontString.lua#L3)
---- @class PropertyFontStringMixin
+ --- @class PropertyFontStringMixin
 PropertyFontStringMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/PropertyFontString.lua#L5)

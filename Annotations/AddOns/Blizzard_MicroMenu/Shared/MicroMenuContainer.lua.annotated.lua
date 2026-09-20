@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L9)
---- @class MicroMenuContainerMixin
+ --- @class MicroMenuContainerMixin
 MicroMenuContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L89)
---- @class MicroMenuMixin
+ --- @class MicroMenuMixin
 MicroMenuMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L11)

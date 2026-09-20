@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow_Elements.lua#L17)
---- @class CatalogShopRefundButtonMixin
+ --- @class CatalogShopRefundButtonMixin
 CatalogShopRefundButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow_Elements.lua#L36)
---- @class RefundHeaderSortButtonMixin
+ --- @class RefundHeaderSortButtonMixin
 RefundHeaderSortButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow_Elements.lua#L115)
---- @class RefundFlowDecorButtonMixin
+ --- @class RefundFlowDecorButtonMixin
 RefundFlowDecorButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow_Elements.lua#L20)

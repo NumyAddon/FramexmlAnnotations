@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.lua#L82)
---- @class ExtraActionButtonMixin
+ --- @class ExtraActionButtonMixin
 ExtraActionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.lua#L84)

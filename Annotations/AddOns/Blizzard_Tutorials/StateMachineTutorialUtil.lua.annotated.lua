@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Tutorials/StateMachineTutorialUtil.lua#L1)
---- @class StateMachineBasedTutorialMixin : TutorialStateMachineMixin
+ --- @class StateMachineBasedTutorialMixin : TutorialStateMachineMixin
 StateMachineBasedTutorialMixin = CreateFromMixins(TutorialStateMachineMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Tutorials/StateMachineTutorialUtil.lua#L61)
---- @class HelpTipStateMachineBasedTutorialMixin : StateMachineBasedTutorialMixin
+ --- @class HelpTipStateMachineBasedTutorialMixin : StateMachineBasedTutorialMixin
 HelpTipStateMachineBasedTutorialMixin = CreateFromMixins(StateMachineBasedTutorialMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Tutorials/StateMachineTutorialUtil.lua#L3)

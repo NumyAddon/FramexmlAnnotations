@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WeeklyRewardsUtil/Blizzard_WeeklyRewardsUtil.lua#L100)
---- @class WeeklyRewardMixin
+ --- @class WeeklyRewardMixin
 WeeklyRewardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WeeklyRewardsUtil/Blizzard_WeeklyRewardsUtil.lua#L102)

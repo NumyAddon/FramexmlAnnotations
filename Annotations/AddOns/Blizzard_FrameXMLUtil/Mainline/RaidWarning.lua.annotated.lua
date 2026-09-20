@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/Mainline/RaidWarning.lua#L172)
---- @class PrivateRaidBossEmoteFrameAnchorMixin
+ --- @class PrivateRaidBossEmoteFrameAnchorMixin
 PrivateRaidBossEmoteFrameAnchorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/Mainline/RaidWarning.lua#L174)

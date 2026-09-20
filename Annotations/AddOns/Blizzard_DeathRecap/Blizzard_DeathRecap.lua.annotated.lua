@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.lua#L1)
---- @class DeathRecapEntryMixin
+ --- @class DeathRecapEntryMixin
 DeathRecapEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.lua#L233)
---- @class DeathRecapMixin
+ --- @class DeathRecapMixin
 DeathRecapMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.lua#L3)

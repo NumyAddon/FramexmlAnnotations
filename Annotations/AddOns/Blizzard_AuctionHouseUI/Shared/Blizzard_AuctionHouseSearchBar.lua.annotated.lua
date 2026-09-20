@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.lua#L113)
---- @class AuctionHouseSearchBarMixin : AuctionHouseSystemMixin
+ --- @class AuctionHouseSearchBarMixin : AuctionHouseSystemMixin
 AuctionHouseSearchBarMixin = CreateFromMixins(AuctionHouseSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.lua#L1)
---- @class AuctionHouseSearchButtonMixin
+ --- @class AuctionHouseSearchButtonMixin
 AuctionHouseSearchButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.lua#L9)
---- @class AuctionHouseFavoritesSearchButtonMixin
+ --- @class AuctionHouseFavoritesSearchButtonMixin
 AuctionHouseFavoritesSearchButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.lua#L54)
---- @class AuctionHouseFilterButtonMixin
+ --- @class AuctionHouseFilterButtonMixin
 AuctionHouseFilterButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.lua#L97)
---- @class AuctionHouseSearchBoxMixin
+ --- @class AuctionHouseSearchBoxMixin
 AuctionHouseSearchBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.lua#L3)

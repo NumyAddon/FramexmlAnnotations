@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.lua#L14)
---- @class SoulbindViewerMixin : CallbackRegistryMixin
+ --- @class SoulbindViewerMixin : CallbackRegistryMixin
 SoulbindViewerMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsViewer.lua#L22)

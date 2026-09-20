@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L361)
---- @class MoneyDenominationDisplayMixin
+ --- @class MoneyDenominationDisplayMixin
 MoneyDenominationDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L466)
---- @class MoneyDisplayFrameMixin
+ --- @class MoneyDisplayFrameMixin
 MoneyDisplayFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L363)

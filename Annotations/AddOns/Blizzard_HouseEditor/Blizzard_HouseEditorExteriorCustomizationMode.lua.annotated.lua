@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.lua#L21)
---- @class HouseEditorExteriorCustomizationModeMixin
+ --- @class HouseEditorExteriorCustomizationModeMixin
 HouseEditorExteriorCustomizationModeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.lua#L23)

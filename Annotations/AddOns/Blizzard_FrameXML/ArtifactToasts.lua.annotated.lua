@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.lua#L1)
---- @class ArtifactLevelUpToastMixin
+ --- @class ArtifactLevelUpToastMixin
 ArtifactLevelUpToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.lua#L3)

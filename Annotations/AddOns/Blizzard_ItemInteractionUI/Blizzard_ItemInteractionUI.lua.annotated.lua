@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.lua#L127)
---- @class ItemInteractionMixin
+ --- @class ItemInteractionMixin
 ItemInteractionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.lua#L746)
---- @class ItemInteractionItemSlotMixin
+ --- @class ItemInteractionItemSlotMixin
 ItemInteractionItemSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.lua#L810)
---- @class ItemInteractionActionButtonMixin
+ --- @class ItemInteractionActionButtonMixin
 ItemInteractionActionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.lua#L858)
---- @class ItemInteractionItemConversionFrameMixin
+ --- @class ItemInteractionItemConversionFrameMixin
 ItemInteractionItemConversionFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.lua#L910)
---- @class ItemInteractionItemConversionInputSlotMixin
+ --- @class ItemInteractionItemConversionInputSlotMixin
 ItemInteractionItemConversionInputSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.lua#L984)
---- @class ItemInteractionItemConversionOutputSlotMixin
+ --- @class ItemInteractionItemConversionOutputSlotMixin
 ItemInteractionItemConversionOutputSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.lua#L130)

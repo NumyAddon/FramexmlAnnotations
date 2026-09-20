@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReportFrame/ReportFrame.lua#L1)
---- @class ReportFrameMixin : SharedReportFrameMixin
+ --- @class ReportFrameMixin : SharedReportFrameMixin
 ReportFrameMixin = CreateFromMixins(SharedReportFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReportFrame/ReportFrame.lua#L4)

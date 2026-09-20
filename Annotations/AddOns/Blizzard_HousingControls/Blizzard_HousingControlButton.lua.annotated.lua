@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L1)
---- @class BaseHousingControlButtonMixin
+ --- @class BaseHousingControlButtonMixin
 BaseHousingControlButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L61)
---- @class HouseEditorButtonMixin
+ --- @class HouseEditorButtonMixin
 HouseEditorButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L96)
---- @class HouseExitButtonMixin
+ --- @class HouseExitButtonMixin
 HouseExitButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L123)
---- @class HouseInfoButtonMixin
+ --- @class HouseInfoButtonMixin
 HouseInfoButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L144)
---- @class HouseSettingsButtonMixin
+ --- @class HouseSettingsButtonMixin
 HouseSettingsButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L3)

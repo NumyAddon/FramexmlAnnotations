@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/GridLayoutUtil.lua#L184)
---- @class GridLayoutManagerMixin
+ --- @class GridLayoutManagerMixin
 GridLayoutManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/GridLayoutUtil.lua#L318)
---- @class GridLayoutRegionEntryMixin
+ --- @class GridLayoutRegionEntryMixin
 GridLayoutRegionEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/GridLayoutUtil.lua#L376)
---- @class GridLayoutSectionMixin
+ --- @class GridLayoutSectionMixin
 GridLayoutSectionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/GridLayoutUtil.lua#L445)
---- @class GridLayoutSectionGroupMixin
+ --- @class GridLayoutSectionGroupMixin
 GridLayoutSectionGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/GridLayoutUtil.lua#L186)

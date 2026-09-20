@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.lua#L1)
---- @class HousingDyePaneMixin
+ --- @class HousingDyePaneMixin
 HousingDyePaneMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.lua#L148)
---- @class HousingDecorDyeSlotMixin
+ --- @class HousingDecorDyeSlotMixin
 HousingDecorDyeSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.lua#L169)
---- @class HousingDecorDyeSlotPopoutMixin
+ --- @class HousingDecorDyeSlotPopoutMixin
 HousingDecorDyeSlotPopoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.lua#L288)
---- @class HousingDecorDyeSwatchMixin
+ --- @class HousingDecorDyeSwatchMixin
 HousingDecorDyeSwatchMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.lua#L361)
---- @class HousingDyeCostIconMixin
+ --- @class HousingDyeCostIconMixin
 HousingDyeCostIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.lua#L3)

@@ -1,59 +1,59 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L674)
---- @class PlayerSpellsMicroButtonMixin : DirtiableMixin
+ --- @class PlayerSpellsMicroButtonMixin : DirtiableMixin
 PlayerSpellsMicroButtonMixin = CreateFromMixins(DirtiableMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L366)
---- @class MainMenuBarMicroButtonMixin
+ --- @class MainMenuBarMicroButtonMixin
 MainMenuBarMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L502)
---- @class CharacterMicroButtonMixin
+ --- @class CharacterMicroButtonMixin
 CharacterMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L630)
---- @class ProfessionMicroButtonMixin
+ --- @class ProfessionMicroButtonMixin
 ProfessionMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L896)
---- @class AchievementMicroButtonMixin
+ --- @class AchievementMicroButtonMixin
 AchievementMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L953)
---- @class QuestLogMicroButtonMixin
+ --- @class QuestLogMicroButtonMixin
 QuestLogMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L999)
---- @class HousingMicroButtonMixin
+ --- @class HousingMicroButtonMixin
 HousingMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1070)
---- @class GuildMicroButtonMixin
+ --- @class GuildMicroButtonMixin
 GuildMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1288)
---- @class LFDMicroButtonMixin
+ --- @class LFDMicroButtonMixin
 LFDMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1366)
---- @class CollectionMicroButtonMixin
+ --- @class CollectionMicroButtonMixin
 CollectionMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1483)
---- @class EJMicroButtonMixin
+ --- @class EJMicroButtonMixin
 EJMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1665)
---- @class StoreMicroButtonMixin
+ --- @class StoreMicroButtonMixin
 StoreMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1776)
---- @class HelpMicroButtonMixin
+ --- @class HelpMicroButtonMixin
 HelpMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1785)
---- @class MainMenuMicroButtonMixin
+ --- @class MainMenuMicroButtonMixin
 MainMenuMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L368)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/DemonHunterSoulFragmentsBar.lua#L3)
---- @class DemonHunterSoulFragmentsBarMixin
+ --- @class DemonHunterSoulFragmentsBarMixin
 DemonHunterSoulFragmentsBarMixin = {
 	VOID_METAMORPHOSIS_ANIM_ART = {
 		glow = "UF-DDH-VoidMeta-Bar-Glow",

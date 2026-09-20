@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControls.lua#L14)
---- @class HousingControlsMixin
+ --- @class HousingControlsMixin
 HousingControlsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControls.lua#L75)
---- @class VisitorControlFrameMixin
+ --- @class VisitorControlFrameMixin
 VisitorControlFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControls.lua#L16)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.lua#L1)
---- @class HousingHouseSettingsFrameMixin
+ --- @class HousingHouseSettingsFrameMixin
 HousingHouseSettingsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.lua#L187)
---- @class HouseSettingsAccessOptionsMixin
+ --- @class HouseSettingsAccessOptionsMixin
 HouseSettingsAccessOptionsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.lua#L296)
---- @class AbandonHouseConfirmationDialogMixin
+ --- @class AbandonHouseConfirmationDialogMixin
 AbandonHouseConfirmationDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.lua#L25)

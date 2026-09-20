@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.lua#L762)
---- @class GarrisonMissionListMixin
+ --- @class GarrisonMissionListMixin
 GarrisonMissionListMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.lua#L1221)
---- @class GarrisonFollowerMissionPageMixin
+ --- @class GarrisonFollowerMissionPageMixin
 GarrisonFollowerMissionPageMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.lua#L764)

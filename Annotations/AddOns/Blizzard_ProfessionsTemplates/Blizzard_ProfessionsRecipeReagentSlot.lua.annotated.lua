@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlot.lua#L1)
---- @class ProfessionsReagentSlotMixin : ProfessionsRecipeSlotBaseMixin
+ --- @class ProfessionsReagentSlotMixin : ProfessionsRecipeSlotBaseMixin
 ProfessionsReagentSlotMixin = CreateFromMixins(ProfessionsRecipeSlotBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlot.lua#L3)

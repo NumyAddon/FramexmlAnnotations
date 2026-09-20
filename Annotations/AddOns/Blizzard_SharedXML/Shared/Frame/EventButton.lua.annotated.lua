@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventButton.lua#L2)
---- @class EventButtonMixin : CallbackRegistryMixin
+ --- @class EventButtonMixin : CallbackRegistryMixin
 EventButtonMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventButton.lua#L21)

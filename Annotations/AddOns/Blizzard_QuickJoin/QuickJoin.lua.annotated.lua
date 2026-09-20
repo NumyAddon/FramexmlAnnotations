@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.lua#L199)
---- @class QuickJoinButtonMixin
+ --- @class QuickJoinButtonMixin
 QuickJoinButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.lua#L281)
---- @class QuickJoinEntriesMixin
+ --- @class QuickJoinEntriesMixin
 QuickJoinEntriesMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.lua#L338)
---- @class QuickJoinEntryMixin
+ --- @class QuickJoinEntryMixin
 QuickJoinEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.lua#L582)
---- @class QuickJoinRoleSelectionMixin
+ --- @class QuickJoinRoleSelectionMixin
 QuickJoinRoleSelectionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.lua#L201)

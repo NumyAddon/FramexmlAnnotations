@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/ClassResourceBarTemplate.lua#L21)
---- @class ClassResourceBarMixin
+ --- @class ClassResourceBarMixin
 ClassResourceBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/ClassResourceBarTemplate.lua#L23)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClassTrial/Blizzard_ClassTrial.lua#L193)
---- @class ExpansionTrialDialogMixin : BaseExpandableDialogMixin
+ --- @class ExpansionTrialDialogMixin : BaseExpandableDialogMixin
 ExpansionTrialDialogMixin = CreateFromMixins(BaseExpandableDialogMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClassTrial/Blizzard_ClassTrial.lua#L88)
---- @class ClassTrialDialogMixin
+ --- @class ClassTrialDialogMixin
 ClassTrialDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClassTrial/Blizzard_ClassTrial.lua#L288)
---- @class ClassTrialTimerDisplayMixin
+ --- @class ClassTrialTimerDisplayMixin
 ClassTrialTimerDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ClassTrial/Blizzard_ClassTrial.lua#L90)

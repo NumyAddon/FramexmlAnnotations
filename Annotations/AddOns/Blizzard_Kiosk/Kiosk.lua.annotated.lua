@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Kiosk/Kiosk.lua#L100)
---- @class KioskFrameMixin
+ --- @class KioskFrameMixin
 KioskFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Kiosk/Kiosk.lua#L102)

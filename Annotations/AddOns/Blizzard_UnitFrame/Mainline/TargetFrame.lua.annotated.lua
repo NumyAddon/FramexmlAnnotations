@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/TargetFrame.lua#L1041)
---- @class TargetFrameHealthBarMixin : TargetFrameStatusBarMixin
+ --- @class TargetFrameHealthBarMixin : TargetFrameStatusBarMixin
 TargetFrameHealthBarMixin = CreateFromMixins(TargetFrameStatusBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/TargetFrame.lua#L1052)
---- @class TargetSpellBarMixin : CastingBarMixin
+ --- @class TargetSpellBarMixin : CastingBarMixin
 TargetSpellBarMixin = CreateFromMixins(CastingBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/TargetFrame.lua#L1110)
---- @class BossSpellBarMixin : TargetSpellBarMixin
+ --- @class BossSpellBarMixin : TargetSpellBarMixin
 BossSpellBarMixin = CreateFromMixins(TargetSpellBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/TargetFrame.lua#L30)
---- @class TargetFrameMixin
+ --- @class TargetFrameMixin
 TargetFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/TargetFrame.lua#L1030)
---- @class TargetFrameStatusBarMixin
+ --- @class TargetFrameStatusBarMixin
 TargetFrameStatusBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/TargetFrame.lua#L1131)
---- @class TargetOfTargetMixin
+ --- @class TargetOfTargetMixin
 TargetOfTargetMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/TargetFrame.lua#L1216)
---- @class BossTargetFrameMixin
+ --- @class BossTargetFrameMixin
 BossTargetFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/TargetFrame.lua#L1319)
---- @class BossTargetFrameContainerMixin
+ --- @class BossTargetFrameContainerMixin
 BossTargetFrameContainerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/TargetFrame.lua#L1399)
---- @class FocusFrameMixin
+ --- @class FocusFrameMixin
 FocusFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/TargetFrame.lua#L32)

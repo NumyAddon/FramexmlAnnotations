@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DurabilityFrame/DurabilityFrame.lua#L18)
---- @class DurabilityFrameMixin
+ --- @class DurabilityFrameMixin
 DurabilityFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DurabilityFrame/DurabilityFrame.lua#L20)

@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.lua#L29)
---- @class WeeklyRewardsMixin
+ --- @class WeeklyRewardsMixin
 WeeklyRewardsMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.lua#L365)
---- @class WeeklyRewardOverlayMixin
+ --- @class WeeklyRewardOverlayMixin
 WeeklyRewardOverlayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.lua#L381)
---- @class WeeklyRewardsActivityMixin
+ --- @class WeeklyRewardsActivityMixin
 WeeklyRewardsActivityMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.lua#L869)
---- @class WeeklyRewardActivityItemMixin
+ --- @class WeeklyRewardActivityItemMixin
 WeeklyRewardActivityItemMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.lua#L944)
---- @class WeeklyRewardsConcessionMixin
+ --- @class WeeklyRewardsConcessionMixin
 WeeklyRewardsConcessionMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.lua#L1031)
---- @class WeeklyRewardConfirmSelectionMixin
+ --- @class WeeklyRewardConfirmSelectionMixin
 WeeklyRewardConfirmSelectionMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.lua#L1127)
---- @class GreatVaultRetirementWarningFrameMixin
+ --- @class GreatVaultRetirementWarningFrameMixin
 GreatVaultRetirementWarningFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.lua#L31)

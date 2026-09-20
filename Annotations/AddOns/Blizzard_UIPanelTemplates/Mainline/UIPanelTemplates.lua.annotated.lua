@@ -1,43 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L395)
---- @class CurrencyDisplayMixin : CurrencyTemplateMixin
+ --- @class CurrencyDisplayMixin : CurrencyTemplateMixin
 CurrencyDisplayMixin = CreateFromMixins(CurrencyTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L58)
---- @class RoleCountMixin
+ --- @class RoleCountMixin
 RoleCountMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L242)
---- @class CurrencyTemplateMixin
+ --- @class CurrencyTemplateMixin
 CurrencyTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L294)
---- @class UIExpandingButtonMixin
+ --- @class UIExpandingButtonMixin
 UIExpandingButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L351)
---- @class TalentRankDisplayMixin
+ --- @class TalentRankDisplayMixin
 TalentRankDisplayMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L372)
---- @class ButtonWithDisableMixin
+ --- @class ButtonWithDisableMixin
 ButtonWithDisableMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L439)
---- @class CurrencyDisplayGroupMixin
+ --- @class CurrencyDisplayGroupMixin
 CurrencyDisplayGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L516)
---- @class CurrencyLayoutFrameIconMixin
+ --- @class CurrencyLayoutFrameIconMixin
 CurrencyLayoutFrameIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L538)
---- @class CurrencyHorizontalLayoutFrameMixin
+ --- @class CurrencyHorizontalLayoutFrameMixin
 CurrencyHorizontalLayoutFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L647)
---- @class AnimatedShineMixin
+ --- @class AnimatedShineMixin
 AnimatedShineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L60)

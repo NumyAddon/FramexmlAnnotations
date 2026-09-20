@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExpertDecorMode.lua#L11)
---- @class HouseEditorExpertDecorModeMixin : BaseHouseEditorModeMixin
+ --- @class HouseEditorExpertDecorModeMixin : BaseHouseEditorModeMixin
 HouseEditorExpertDecorModeMixin = CreateFromMixins(BaseHouseEditorModeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExpertDecorMode.lua#L220)
---- @class ExpertDecorSubmodeButtonMixin
+ --- @class ExpertDecorSubmodeButtonMixin
 ExpertDecorSubmodeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExpertDecorMode.lua#L258)
---- @class ExpertDecorResetButtonMixin
+ --- @class ExpertDecorResetButtonMixin
 ExpertDecorResetButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExpertDecorMode.lua#L13)

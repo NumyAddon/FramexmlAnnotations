@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCategoriesList.lua#L83)
---- @class AuctionHouseCategoriesListMixin : AuctionHouseSystemMixin
+ --- @class AuctionHouseCategoriesListMixin : AuctionHouseSystemMixin
 AuctionHouseCategoriesListMixin = CreateFromMixins(AuctionHouseSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCategoriesList.lua#L85)

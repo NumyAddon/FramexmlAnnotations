@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCleanupMode.lua#L7)
---- @class HouseEditorCleanupModeMixin : BaseHouseEditorModeMixin
+ --- @class HouseEditorCleanupModeMixin : BaseHouseEditorModeMixin
 HouseEditorCleanupModeMixin = CreateFromMixins(BaseHouseEditorModeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCleanupMode.lua#L9)

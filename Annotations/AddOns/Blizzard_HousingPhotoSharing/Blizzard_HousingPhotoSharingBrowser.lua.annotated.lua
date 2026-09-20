@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharingBrowser.lua#L1)
---- @class HousingPhotoSharingBrowserMixin
+ --- @class HousingPhotoSharingBrowserMixin
 HousingPhotoSharingBrowserMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharingBrowser.lua#L41)
---- @class HousingPhotoSharingBrowserPopupMixin
+ --- @class HousingPhotoSharingBrowserPopupMixin
 HousingPhotoSharingBrowserPopupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharingBrowser.lua#L3)

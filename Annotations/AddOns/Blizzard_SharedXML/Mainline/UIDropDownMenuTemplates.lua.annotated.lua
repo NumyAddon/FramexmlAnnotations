@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.lua#L26)
---- @class LargeDropDownMenuButtonMixin : DropDownMenuButtonMixin
+ --- @class LargeDropDownMenuButtonMixin : DropDownMenuButtonMixin
 LargeDropDownMenuButtonMixin = CreateFromMixins(DropDownMenuButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.lua#L9)
---- @class DropDownMenuButtonMixin
+ --- @class DropDownMenuButtonMixin
 DropDownMenuButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.lua#L36)
---- @class DropDownExpandArrowMixin
+ --- @class DropDownExpandArrowMixin
 DropDownExpandArrowMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.lua#L57)
---- @class UIDropDownCustomMenuEntryMixin
+ --- @class UIDropDownCustomMenuEntryMixin
 UIDropDownCustomMenuEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.lua#L11)

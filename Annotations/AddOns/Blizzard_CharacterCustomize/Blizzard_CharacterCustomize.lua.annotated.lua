@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L7)
---- @class CharCustomizeParentFrameBaseMixin : CustomizationParentFrameBaseMixin
+ --- @class CharCustomizeParentFrameBaseMixin : CustomizationParentFrameBaseMixin
 CharCustomizeParentFrameBaseMixin = CreateFromMixins(CustomizationParentFrameBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L36)
---- @class CharCustomizeCategoryButtonMixin : CustomizationCategoryButtonMixin
+ --- @class CharCustomizeCategoryButtonMixin : CustomizationCategoryButtonMixin
 CharCustomizeCategoryButtonMixin = CreateFromMixins(CustomizationCategoryButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L54)
---- @class CharCustomizeShapeshiftFormButtonMixin : CharCustomizeCategoryButtonMixin
+ --- @class CharCustomizeShapeshiftFormButtonMixin : CharCustomizeCategoryButtonMixin
 CharCustomizeShapeshiftFormButtonMixin = CreateFromMixins(CharCustomizeCategoryButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L75)
---- @class CharCustomizeRidingDrakeButtonMixin : CharCustomizeCategoryButtonMixin
+ --- @class CharCustomizeRidingDrakeButtonMixin : CharCustomizeCategoryButtonMixin
 CharCustomizeRidingDrakeButtonMixin = CreateFromMixins(CharCustomizeCategoryButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L95)
---- @class CharCustomizeAlteredFormButtonMixin : CustomizationMaskedButtonMixin
+ --- @class CharCustomizeAlteredFormButtonMixin : CustomizationMaskedButtonMixin
 CharCustomizeAlteredFormButtonMixin = CreateFromMixins(CustomizationMaskedButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L128)
---- @class CharCustomizeBodyTypeButtonMixin : CustomizationMaskedButtonMixin
+ --- @class CharCustomizeBodyTypeButtonMixin : CustomizationMaskedButtonMixin
 CharCustomizeBodyTypeButtonMixin = CreateFromMixins(CustomizationMaskedButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L158)
---- @class CharCustomizeMixin : CustomizationFrameBaseMixin
+ --- @class CharCustomizeMixin : CustomizationFrameBaseMixin
 CharCustomizeMixin = CreateFromMixins(CustomizationFrameBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.lua#L9)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.lua#L3)
---- @class SpellSearchPreviewResultMixin
+ --- @class SpellSearchPreviewResultMixin
 SpellSearchPreviewResultMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.lua#L53)
---- @class SpellSearchPreviewContainerMixin
+ --- @class SpellSearchPreviewContainerMixin
 SpellSearchPreviewContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.lua#L269)
---- @class SpellSearchBoxMixin
+ --- @class SpellSearchBoxMixin
 SpellSearchBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.lua#L5)

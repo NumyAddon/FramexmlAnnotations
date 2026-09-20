@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L1)
---- @class HousingDashboardHouseInfoMixin
+ --- @class HousingDashboardHouseInfoMixin
 HousingDashboardHouseInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L253)
---- @class HousingDashboardHouseInfoContentFrameMixin
+ --- @class HousingDashboardHouseInfoContentFrameMixin
 HousingDashboardHouseInfoContentFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L305)
---- @class HouseFinderButtonMixin
+ --- @class HouseFinderButtonMixin
 HouseFinderButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L317)
---- @class InitiativesTabMixin
+ --- @class InitiativesTabMixin
 InitiativesTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L742)
---- @class InitiativeTaskButtonMixin
+ --- @class InitiativeTaskButtonMixin
 InitiativeTaskButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L895)
---- @class ProgressThresholdMixin
+ --- @class ProgressThresholdMixin
 ProgressThresholdMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L961)
---- @class InitiativeActiveNeighborhoodSwitcherMixin
+ --- @class InitiativeActiveNeighborhoodSwitcherMixin
 InitiativeActiveNeighborhoodSwitcherMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.lua#L22)

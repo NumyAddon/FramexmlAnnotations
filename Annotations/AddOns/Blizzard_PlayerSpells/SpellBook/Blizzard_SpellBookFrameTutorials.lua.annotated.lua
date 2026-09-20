@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrameTutorials.lua#L7)
---- @class SpellBookFrameTutorialsMixin
+ --- @class SpellBookFrameTutorialsMixin
 SpellBookFrameTutorialsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrameTutorials.lua#L9)

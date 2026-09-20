@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L526)
---- @class TransmogLocationMixin
+ --- @class TransmogLocationMixin
 TransmogLocationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L648)
---- @class ItemModelBaseMixin
+ --- @class ItemModelBaseMixin
 ItemModelBaseMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L916)
---- @class WardrobeSetsDataProviderMixin
+ --- @class WardrobeSetsDataProviderMixin
 WardrobeSetsDataProviderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L528)

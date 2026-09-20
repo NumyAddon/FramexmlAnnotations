@@ -1,99 +1,99 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L21)
---- @class CRFM_ButtonStateBehaviorMixin : ButtonStateBehaviorMixin
+ --- @class CRFM_ButtonStateBehaviorMixin : ButtonStateBehaviorMixin
 CRFM_ButtonStateBehaviorMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L57)
---- @class CRFM_ToolbarButtonMixin : CRFM_TooltipMixin, CRFM_ButtonStateBehaviorMixin
+ --- @class CRFM_ToolbarButtonMixin : CRFM_TooltipMixin, CRFM_ButtonStateBehaviorMixin
 CRFM_ToolbarButtonMixin = CreateFromMixins(CRFM_TooltipMixin, CRFM_ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L707)
---- @class CRFM_DifficultyDropdownMixin : CRFM_ToolbarButtonMixin
+ --- @class CRFM_DifficultyDropdownMixin : CRFM_ToolbarButtonMixin
 CRFM_DifficultyDropdownMixin = CreateFromMixins(CRFM_ToolbarButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1167)
---- @class RaidFrameFilterRoleTankMixin : CRFManagerFilterRoleButtonMixin
+ --- @class RaidFrameFilterRoleTankMixin : CRFManagerFilterRoleButtonMixin
 RaidFrameFilterRoleTankMixin = CreateFromMixins(CRFManagerFilterRoleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1174)
---- @class RaidFrameFilterRoleHealerMixin : CRFManagerFilterRoleButtonMixin
+ --- @class RaidFrameFilterRoleHealerMixin : CRFManagerFilterRoleButtonMixin
 RaidFrameFilterRoleHealerMixin = CreateFromMixins(CRFManagerFilterRoleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1181)
---- @class RaidFrameFilterRoleDamagerMixin : CRFManagerFilterRoleButtonMixin
+ --- @class RaidFrameFilterRoleDamagerMixin : CRFManagerFilterRoleButtonMixin
 RaidFrameFilterRoleDamagerMixin = CreateFromMixins(CRFManagerFilterRoleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1188)
---- @class RaidFrameEditModeMixin : CRFM_ToolbarButtonMixin
+ --- @class RaidFrameEditModeMixin : CRFM_ToolbarButtonMixin
 RaidFrameEditModeMixin = CreateFromMixins(CRFM_ToolbarButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1199)
---- @class RaidFrameSettingsMixin : CRFM_ToolbarButtonMixin
+ --- @class RaidFrameSettingsMixin : CRFM_ToolbarButtonMixin
 RaidFrameSettingsMixin = CreateFromMixins(CRFM_ToolbarButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1206)
---- @class RaidFrameHiddenModeToggleMixin : CRFM_ToolbarButtonMixin
+ --- @class RaidFrameHiddenModeToggleMixin : CRFM_ToolbarButtonMixin
 RaidFrameHiddenModeToggleMixin = CreateFromMixins(CRFM_ToolbarButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1213)
---- @class RaidFrameEveryoneIsAssistMixin : CRFM_ToolbarButtonMixin
+ --- @class RaidFrameEveryoneIsAssistMixin : CRFM_ToolbarButtonMixin
 RaidFrameEveryoneIsAssistMixin = CreateFromMixins(CRFM_ToolbarButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1245)
---- @class RaidFrameReadyCheckMixin : CRFM_ToolbarButtonMixin
+ --- @class RaidFrameReadyCheckMixin : CRFM_ToolbarButtonMixin
 RaidFrameReadyCheckMixin = CreateFromMixins(CRFM_ToolbarButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1252)
---- @class RaidFrameRolePollMixin : CRFM_ToolbarButtonMixin
+ --- @class RaidFrameRolePollMixin : CRFM_ToolbarButtonMixin
 RaidFrameRolePollMixin = CreateFromMixins(CRFM_ToolbarButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1259)
---- @class RaidFrameCountdownMixin : CRFM_ToolbarButtonMixin
+ --- @class RaidFrameCountdownMixin : CRFM_ToolbarButtonMixin
 RaidFrameCountdownMixin = CreateFromMixins(CRFM_ToolbarButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L34)
---- @class CRFM_TooltipMixin
+ --- @class CRFM_TooltipMixin
 CRFM_TooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L342)
---- @class RaidFrameToggleButtonMixin
+ --- @class RaidFrameToggleButtonMixin
 RaidFrameToggleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L992)
---- @class CRFManagerFilterRoleButtonMixin
+ --- @class CRFManagerFilterRoleButtonMixin
 CRFManagerFilterRoleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1007)
---- @class CRFManagerFilterGroupButtonMixin
+ --- @class CRFManagerFilterGroupButtonMixin
 CRFManagerFilterGroupButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1022)
---- @class CRFManagerRoleMarkerCheckMixin
+ --- @class CRFManagerRoleMarkerCheckMixin
 CRFManagerRoleMarkerCheckMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1028)
---- @class CRFManagerRaidIconButtonMixin
+ --- @class CRFManagerRaidIconButtonMixin
 CRFManagerRaidIconButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1143)
---- @class CRFManagerMarkerTabMixin
+ --- @class CRFManagerMarkerTabMixin
 CRFManagerMarkerTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1150)
---- @class CRFRaidMarkersMixin
+ --- @class CRFRaidMarkersMixin
 CRFRaidMarkersMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1266)
---- @class RaidFrameManagerRestrictPingsButtonMixin
+ --- @class RaidFrameManagerRestrictPingsButtonMixin
 RaidFrameManagerRestrictPingsButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1309)
---- @class LeavePartyButtonMixin
+ --- @class LeavePartyButtonMixin
 LeavePartyButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L1319)
---- @class LeaveInstanceGroupButtonMixin
+ --- @class LeaveInstanceGroupButtonMixin
 LeaveInstanceGroupButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L23)

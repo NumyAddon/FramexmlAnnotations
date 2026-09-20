@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua#L1)
---- @class BonusObjectiveDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class BonusObjectiveDataProviderMixin : MapCanvasDataProviderMixin
 BonusObjectiveDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua#L110)
---- @class BonusObjectivePinMixin : MapCanvasPinMixin
+ --- @class BonusObjectivePinMixin : MapCanvasPinMixin
 BonusObjectivePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua#L192)
---- @class ThreatObjectivePinMixin : BonusObjectivePinMixin
+ --- @class ThreatObjectivePinMixin : BonusObjectivePinMixin
 ThreatObjectivePinMixin = CreateFromMixins(BonusObjectivePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua#L3)

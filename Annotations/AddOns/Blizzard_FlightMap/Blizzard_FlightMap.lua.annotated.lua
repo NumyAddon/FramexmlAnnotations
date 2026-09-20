@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L3)
---- @class FlightMapMixin
+ --- @class FlightMapMixin
 FlightMapMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.lua#L5)

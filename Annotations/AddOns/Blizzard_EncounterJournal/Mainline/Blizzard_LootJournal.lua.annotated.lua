@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournal.lua#L14)
---- @class RuneforgeLegendaryPowerLootJournalMixin : RuneforgePowerBaseMixin
+ --- @class RuneforgeLegendaryPowerLootJournalMixin : RuneforgePowerBaseMixin
 RuneforgeLegendaryPowerLootJournalMixin = CreateFromMixins(RuneforgePowerBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournal.lua#L69)
---- @class LootJournalMixin
+ --- @class LootJournalMixin
 LootJournalMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournal.lua#L16)

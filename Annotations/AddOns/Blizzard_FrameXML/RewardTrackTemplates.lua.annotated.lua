@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L242)
---- @class RewardTrackButtonMixin
+ --- @class RewardTrackButtonMixin
 RewardTrackButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L275)
---- @class RewardTrackJumpButtonMixin
+ --- @class RewardTrackJumpButtonMixin
 RewardTrackJumpButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L310)
---- @class RewardTrackSkipLevelUpButtonMixin
+ --- @class RewardTrackSkipLevelUpButtonMixin
 RewardTrackSkipLevelUpButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L321)
---- @class RenownLevelMixin
+ --- @class RenownLevelMixin
 RenownLevelMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L5)
---- @class RewardTrackFrameMixin
+ --- @class RewardTrackFrameMixin
 RewardTrackFrameMixin = {
 	totalWidth = 570,
 	elementWidth = 55,

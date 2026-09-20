@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineUtil.lua#L128)
---- @class EncounterTimelineOrientedFrameMixin : EncounterTimelineOrientedScriptRegionMixin
+ --- @class EncounterTimelineOrientedFrameMixin : EncounterTimelineOrientedScriptRegionMixin
 EncounterTimelineOrientedFrameMixin = CreateFromMixins(EncounterTimelineOrientedScriptRegionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineUtil.lua#L130)
---- @class EncounterTimelineOrientedTextureMixin : EncounterTimelineOrientedScriptRegionMixin
+ --- @class EncounterTimelineOrientedTextureMixin : EncounterTimelineOrientedScriptRegionMixin
 EncounterTimelineOrientedTextureMixin = CreateFromMixins(EncounterTimelineOrientedScriptRegionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineUtil.lua#L49)
---- @class EncounterTimelineTrackOrientationMixin
+ --- @class EncounterTimelineTrackOrientationMixin
 EncounterTimelineTrackOrientationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineUtil.lua#L112)
---- @class EncounterTimelineOrientedScriptRegionMixin
+ --- @class EncounterTimelineOrientedScriptRegionMixin
 EncounterTimelineOrientedScriptRegionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineUtil.lua#L149)
---- @class EncounterTimelineTrackInterpolatorMixin
+ --- @class EncounterTimelineTrackInterpolatorMixin
 EncounterTimelineTrackInterpolatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineUtil.lua#L51)

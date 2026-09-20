@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L614)
---- @class ShowEquippedGearSpellFrameMixin
+ --- @class ShowEquippedGearSpellFrameMixin
 ShowEquippedGearSpellFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L651)
---- @class TransmogOutfitPopupMixin
+ --- @class TransmogOutfitPopupMixin
 TransmogOutfitPopupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L77)
---- @class TransmogFrameMixin
+ --- @class TransmogFrameMixin
 TransmogFrameMixin = {
 	DYNAMIC_EVENTS = {
 		"TRANSMOG_OUTFITS_CHANGED",
@@ -41,7 +41,7 @@ TransmogFrameMixin = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L317)
---- @class TransmogOutfitCollectionMixin
+ --- @class TransmogOutfitCollectionMixin
 TransmogOutfitCollectionMixin = {
 	DYNAMIC_EVENTS = {
 		"VIEWED_TRANSMOG_OUTFIT_CHANGED",
@@ -79,7 +79,7 @@ TransmogOutfitCollectionMixin = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L730)
---- @class TransmogCharacterMixin
+ --- @class TransmogCharacterMixin
 TransmogCharacterMixin = {
 	DYNAMIC_EVENTS = {
 		"VIEWED_TRANSMOG_OUTFIT_SLOT_SAVE_SUCCESS",
@@ -103,7 +103,7 @@ TransmogCharacterMixin = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1235)
---- @class TransmogWardrobeMixin
+ --- @class TransmogWardrobeMixin
 TransmogWardrobeMixin = {
 	HELPTIP_INFO = {
 		[Enum.FrameTutorialAccount.TransmogSets] =
@@ -158,7 +158,7 @@ TransmogWardrobeMixin = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1385)
---- @class TransmogWardrobeItemsMixin
+ --- @class TransmogWardrobeItemsMixin
 TransmogWardrobeItemsMixin = {
 	DYNAMIC_EVENTS = {
 		"TRANSMOG_SEARCH_UPDATED",
@@ -179,7 +179,7 @@ TransmogWardrobeItemsMixin = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2348)
---- @class TransmogWardrobeSetsMixin
+ --- @class TransmogWardrobeSetsMixin
 TransmogWardrobeSetsMixin = {
 	DYNAMIC_EVENTS = {
 		"TRANSMOG_SEARCH_UPDATED",
@@ -195,7 +195,7 @@ TransmogWardrobeSetsMixin = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2528)
---- @class TransmogWardrobeCustomSetsMixin
+ --- @class TransmogWardrobeCustomSetsMixin
 TransmogWardrobeCustomSetsMixin = {
 	DYNAMIC_EVENTS = {
 		"TRANSMOG_CUSTOM_SETS_CHANGED",
@@ -210,7 +210,7 @@ TransmogWardrobeCustomSetsMixin = {
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2745)
---- @class TransmogWardrobeSituationsMixin
+ --- @class TransmogWardrobeSituationsMixin
 TransmogWardrobeSituationsMixin = {
 	DYNAMIC_EVENTS = {
 		"VIEWED_TRANSMOG_OUTFIT_SITUATIONS_CHANGED"

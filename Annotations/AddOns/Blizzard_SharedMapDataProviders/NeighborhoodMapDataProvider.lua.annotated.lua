@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L9)
---- @class NeighborhoodMapDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class NeighborhoodMapDataProviderMixin : MapCanvasDataProviderMixin
 NeighborhoodMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L46)
---- @class NeighborhoodMapBasePinMixin : MapCanvasPinMixin
+ --- @class NeighborhoodMapBasePinMixin : MapCanvasPinMixin
 NeighborhoodMapBasePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L98)
---- @class UnoccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
+ --- @class UnoccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
 UnoccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L101)
---- @class OccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
+ --- @class OccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
 OccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L104)
---- @class FriendsPlotPinMixin : NeighborhoodMapBasePinMixin
+ --- @class FriendsPlotPinMixin : NeighborhoodMapBasePinMixin
 FriendsPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L107)
---- @class PlayersPlotPinMixin : NeighborhoodMapBasePinMixin
+ --- @class PlayersPlotPinMixin : NeighborhoodMapBasePinMixin
 PlayersPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L11)

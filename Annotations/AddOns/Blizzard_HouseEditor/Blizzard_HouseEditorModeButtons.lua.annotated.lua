@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorModeButtons.lua#L45)
---- @class HouseEditorModesBarMixin : BaseHouseEditorModesBarMixin
+ --- @class HouseEditorModesBarMixin : BaseHouseEditorModesBarMixin
 HouseEditorModesBarMixin = CreateFromMixins(BaseHouseEditorModesBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorModeButtons.lua#L75)
---- @class HouseEditorSubmodesBarMixin : BaseHouseEditorModesBarMixin
+ --- @class HouseEditorSubmodesBarMixin : BaseHouseEditorModesBarMixin
 HouseEditorSubmodesBarMixin = CreateFromMixins(BaseHouseEditorModesBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorModeButtons.lua#L110)
---- @class HouseEditorModeButtonMixin : BaseHouseEditorModeButtonMixin
+ --- @class HouseEditorModeButtonMixin : BaseHouseEditorModeButtonMixin
 HouseEditorModeButtonMixin = CreateFromMixins(BaseHouseEditorModeButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorModeButtons.lua#L171)
---- @class HouseEditorSubmodeButtonMixin : BaseHouseEditorModeButtonMixin
+ --- @class HouseEditorSubmodeButtonMixin : BaseHouseEditorModeButtonMixin
 HouseEditorSubmodeButtonMixin = CreateFromMixins(BaseHouseEditorModeButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorModeButtons.lua#L199)
---- @class HouseEditorOLDSubmodeButtonMixin : BaseHouseEditorModeButtonMixin
+ --- @class HouseEditorOLDSubmodeButtonMixin : BaseHouseEditorModeButtonMixin
 HouseEditorOLDSubmodeButtonMixin = CreateFromMixins(BaseHouseEditorModeButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorModeButtons.lua#L5)
---- @class BaseHouseEditorModesBarMixin
+ --- @class BaseHouseEditorModesBarMixin
 BaseHouseEditorModesBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorModeButtons.lua#L79)
---- @class BaseHouseEditorModeButtonMixin
+ --- @class BaseHouseEditorModeButtonMixin
 BaseHouseEditorModeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorModeButtons.lua#L7)

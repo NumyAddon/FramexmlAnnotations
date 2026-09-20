@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventFrame.lua#L3)
---- @class EncounterTimelineEventFrameMixin : EncounterTimelineSettingsMixin
+ --- @class EncounterTimelineEventFrameMixin : EncounterTimelineSettingsMixin
 EncounterTimelineEventFrameMixin = CreateFromMixins(EncounterTimelineSettingsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventFrame.lua#L5)

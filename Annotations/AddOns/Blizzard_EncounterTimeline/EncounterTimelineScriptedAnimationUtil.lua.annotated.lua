@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineScriptedAnimationUtil.lua#L1)
---- @class EncounterTimelineScriptedAnimatableMixin
+ --- @class EncounterTimelineScriptedAnimatableMixin
 EncounterTimelineScriptedAnimatableMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineScriptedAnimationUtil.lua#L3)

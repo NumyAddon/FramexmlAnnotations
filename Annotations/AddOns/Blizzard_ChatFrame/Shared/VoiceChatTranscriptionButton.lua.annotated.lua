@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.lua#L1)
---- @class VoiceChatTranscriptionButtonMixin
+ --- @class VoiceChatTranscriptionButtonMixin
 VoiceChatTranscriptionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.lua#L239)
---- @class VoiceChatTranscriptionMixin
+ --- @class VoiceChatTranscriptionMixin
 VoiceChatTranscriptionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/VoiceChatTranscriptionButton.lua#L3)

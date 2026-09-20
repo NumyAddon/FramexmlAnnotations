@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateCaptureBar.lua#L10)
---- @class UIWidgetTemplateCaptureBarMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateCaptureBarMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateCaptureBarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateCaptureBar.lua#L46)

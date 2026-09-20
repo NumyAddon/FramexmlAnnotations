@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.lua#L650)
---- @class TTSSettingsSliderMixin
+ --- @class TTSSettingsSliderMixin
 TTSSettingsSliderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.lua#L652)

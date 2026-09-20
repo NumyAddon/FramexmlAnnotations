@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUtil.lua#L1)
---- @class FunctionThrottleMixin
+ --- @class FunctionThrottleMixin
 FunctionThrottleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUtil.lua#L3)

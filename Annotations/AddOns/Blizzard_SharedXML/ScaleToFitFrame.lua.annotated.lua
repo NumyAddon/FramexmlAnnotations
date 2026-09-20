@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScaleToFitFrame.lua#L1)
---- @class ScaleToFitFrameMixin
+ --- @class ScaleToFitFrameMixin
 ScaleToFitFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScaleToFitFrame.lua#L54)
---- @class ScaleToFitLayoutFrameMixin
+ --- @class ScaleToFitLayoutFrameMixin
 ScaleToFitLayoutFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScaleToFitFrame.lua#L3)

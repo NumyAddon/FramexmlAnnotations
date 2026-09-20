@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L22)
---- @class QuestOfferDataProviderMixin : CVarMapCanvasDataProviderMixin, { PIN_LEVEL_RANGE = GetMaxPinLevel(
+ --- @class QuestOfferDataProviderMixin : CVarMapCanvasDataProviderMixin
 QuestOfferDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin, { PIN_LEVEL_RANGE = GetMaxPinLevel()
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L402)
---- @class QuestOfferPinMixin : MapCanvasPinMixin, SuperTrackablePinMixin
+ --- @class QuestOfferPinMixin : MapCanvasPinMixin, SuperTrackablePinMixin
 QuestOfferPinMixin = CreateFromMixins(MapCanvasPinMixin, SuperTrackablePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L388)
---- @class IconWithHeightIndicatorMapPinMixin
+ --- @class IconWithHeightIndicatorMapPinMixin
 IconWithHeightIndicatorMapPinMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L444)
---- @class QuestHubPinMixin
+ --- @class QuestHubPinMixin
 QuestHubPinMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L832)
---- @class QuestHubPinGlowMixin
+ --- @class QuestHubPinGlowMixin
 QuestHubPinGlowMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L882)
---- @class SuppressedPinTooltipMixin
+ --- @class SuppressedPinTooltipMixin
 SuppressedPinTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L903)
---- @class SuppressedPinTooltipContainerMixin
+ --- @class SuppressedPinTooltipContainerMixin
 SuppressedPinTooltipContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L25)

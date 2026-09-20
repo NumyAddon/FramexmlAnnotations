@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.lua#L1)
---- @class ProfessionsCustomerOrdersBrowsePageMixin
+ --- @class ProfessionsCustomerOrdersBrowsePageMixin
 ProfessionsCustomerOrdersBrowsePageMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersBrowseOrders.lua#L17)

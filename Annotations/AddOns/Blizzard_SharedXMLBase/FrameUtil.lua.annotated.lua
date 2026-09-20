@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/FrameUtil.lua#L591)
---- @class AnimTransitionMixin
+ --- @class AnimTransitionMixin
 AnimTransitionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/FrameUtil.lua#L606)

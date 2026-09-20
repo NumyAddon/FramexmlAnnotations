@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.lua#L3)
---- @class InspectPvpTalentSlotMixin : PvpTalentSlotMixin
+ --- @class InspectPvpTalentSlotMixin : PvpTalentSlotMixin
 InspectPvpTalentSlotMixin = CreateFromMixins(PvpTalentSlotMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.lua#L5)

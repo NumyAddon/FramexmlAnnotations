@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L122)
---- @class EncounterTimelineViewSettingsMixin : EncounterTimelineSettingsMixin
+ --- @class EncounterTimelineViewSettingsMixin : EncounterTimelineSettingsMixin
 EncounterTimelineViewSettingsMixin = CreateFromMixins(EncounterTimelineSettingsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L186)
---- @class EncounterTimelineTrackViewSettingsMixin : EncounterTimelineTrackSettingsMixin
+ --- @class EncounterTimelineTrackViewSettingsMixin : EncounterTimelineTrackSettingsMixin
 EncounterTimelineTrackViewSettingsMixin = CreateFromMixins(EncounterTimelineTrackSettingsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L312)
---- @class EncounterTimelineTimerViewSettingsMixin : EncounterTimelineTimerSettingsMixin
+ --- @class EncounterTimelineTimerViewSettingsMixin : EncounterTimelineTimerSettingsMixin
 EncounterTimelineTimerViewSettingsMixin = CreateFromMixins(EncounterTimelineTimerSettingsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L3)
---- @class EncounterTimelineSettingsMixin
+ --- @class EncounterTimelineSettingsMixin
 EncounterTimelineSettingsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L147)
---- @class EncounterTimelineTrackSettingsMixin
+ --- @class EncounterTimelineTrackSettingsMixin
 EncounterTimelineTrackSettingsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L257)
---- @class EncounterTimelineTimerSettingsMixin
+ --- @class EncounterTimelineTimerSettingsMixin
 EncounterTimelineTimerSettingsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L5)

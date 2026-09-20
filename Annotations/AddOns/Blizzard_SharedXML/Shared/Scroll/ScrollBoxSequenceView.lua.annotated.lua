@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxSequenceView.lua#L4)
---- @class ScrollBoxListSequenceViewMixin : ScrollBoxListBiaxalViewMixin
+ --- @class ScrollBoxListSequenceViewMixin : ScrollBoxListBiaxalViewMixin
 ScrollBoxListSequenceViewMixin = CreateFromMixins(ScrollBoxListBiaxalViewMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxSequenceView.lua#L6)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ScriptErrors/Blizzard_ScriptErrors.lua#L2)
---- @class ScriptErrorsMixin
+ --- @class ScriptErrorsMixin
 ScriptErrorsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ScriptErrors/Blizzard_ScriptErrors.lua#L4)

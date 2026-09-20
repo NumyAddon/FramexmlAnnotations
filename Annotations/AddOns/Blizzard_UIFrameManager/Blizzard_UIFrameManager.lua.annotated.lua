@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIFrameManager/Blizzard_UIFrameManager.lua#L1)
---- @class UIFrameManagerMixin
+ --- @class UIFrameManagerMixin
 UIFrameManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIFrameManager/Blizzard_UIFrameManager.lua#L46)
---- @class UIFrameManager_ManagedFrameMixin
+ --- @class UIFrameManager_ManagedFrameMixin
 UIFrameManager_ManagedFrameMixin= {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIFrameManager/Blizzard_UIFrameManager.lua#L3)

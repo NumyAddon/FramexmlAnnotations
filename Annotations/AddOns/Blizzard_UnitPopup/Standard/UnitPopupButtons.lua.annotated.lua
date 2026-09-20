@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L22)
---- @class UnitPopupBnetAddFavoriteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupBnetAddFavoriteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupBnetAddFavoriteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L39)
---- @class UnitPopupBnetRemoveFavoriteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupBnetRemoveFavoriteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupBnetRemoveFavoriteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L56)
---- @class UnitPopupDungeonDifficulty3ButtonMixin : UnitPopupDungeonDifficulty1ButtonMixin
+ --- @class UnitPopupDungeonDifficulty3ButtonMixin : UnitPopupDungeonDifficulty1ButtonMixin
 UnitPopupDungeonDifficulty3ButtonMixin = CreateFromMixins(UnitPopupDungeonDifficulty1ButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L66)
---- @class UnitPopupRafRemoveRecruitButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupRafRemoveRecruitButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupRafRemoveRecruitButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L81)
---- @class UnitPopupGuildSettingButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupGuildSettingButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L101)
---- @class UnitPopupGuildRecruitmentSettingButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupGuildRecruitmentSettingButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildRecruitmentSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L136)
---- @class UnitPopupGuildInviteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupGuildInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L24)

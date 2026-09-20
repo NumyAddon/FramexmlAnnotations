@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectGroup.lua#L1)
---- @class SoulbindSelectGroupMixin : CallbackRegistryMixin
+ --- @class SoulbindSelectGroupMixin : CallbackRegistryMixin
 SoulbindSelectGroupMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsSelectGroup.lua#L9)

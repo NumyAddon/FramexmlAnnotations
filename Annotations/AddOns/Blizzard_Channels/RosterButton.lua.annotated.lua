@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/RosterButton.lua#L1)
---- @class ChannelRosterButtonMixin
+ --- @class ChannelRosterButtonMixin
 ChannelRosterButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/RosterButton.lua#L3)

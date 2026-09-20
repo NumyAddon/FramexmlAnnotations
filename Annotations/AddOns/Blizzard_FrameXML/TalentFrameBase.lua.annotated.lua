@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalentFrameBase.lua#L197)
---- @class PvpTalentSlotMixin
+ --- @class PvpTalentSlotMixin
 PvpTalentSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/TalentFrameBase.lua#L203)

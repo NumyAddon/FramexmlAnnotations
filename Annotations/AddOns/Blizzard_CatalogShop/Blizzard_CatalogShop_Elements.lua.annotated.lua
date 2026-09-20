@@ -1,87 +1,87 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L15)
---- @class NavigationBarButtonMixin
+ --- @class NavigationBarButtonMixin
 NavigationBarButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L75)
---- @class NavigationBarNavigationButtonMixin
+ --- @class NavigationBarNavigationButtonMixin
 NavigationBarNavigationButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L317)
---- @class CatalogShopButtonMixin
+ --- @class CatalogShopButtonMixin
 CatalogShopButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L336)
---- @class CatalogShopPurchaseButtonMixin
+ --- @class CatalogShopPurchaseButtonMixin
 CatalogShopPurchaseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L349)
---- @class CatalogShopDetailsButtonMixin
+ --- @class CatalogShopDetailsButtonMixin
 CatalogShopDetailsButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L361)
---- @class CatalogShopErrorFrameMixin
+ --- @class CatalogShopErrorFrameMixin
 CatalogShopErrorFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L411)
---- @class WoWTokenContainerFrameMixin
+ --- @class WoWTokenContainerFrameMixin
 WoWTokenContainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L429)
---- @class ToyContainerFrameMixin
+ --- @class ToyContainerFrameMixin
 ToyContainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L447)
---- @class ServicesContainerFrameMixin
+ --- @class ServicesContainerFrameMixin
 ServicesContainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L465)
---- @class PMTImageContainerFrameMixin
+ --- @class PMTImageContainerFrameMixin
 PMTImageContainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L535)
---- @class CatalogShopDetailsRaceButtonMixin
+ --- @class CatalogShopDetailsRaceButtonMixin
 CatalogShopDetailsRaceButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L541)
---- @class CatalogShopRaceChoiceMixin
+ --- @class CatalogShopRaceChoiceMixin
 CatalogShopRaceChoiceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L558)
---- @class GlowPulseAnimContainerMixin
+ --- @class GlowPulseAnimContainerMixin
 GlowPulseAnimContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L596)
---- @class CatalogShopLoadingScreenMixin
+ --- @class CatalogShopLoadingScreenMixin
 CatalogShopLoadingScreenMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L625)
---- @class CatalogShopUnavailableScreenMixin
+ --- @class CatalogShopUnavailableScreenMixin
 CatalogShopUnavailableScreenMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L639)
---- @class CarouselControlMixin
+ --- @class CarouselControlMixin
 CarouselControlMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L717)
---- @class CatalogShopPersistentRefundContainerFrameMixin
+ --- @class CatalogShopPersistentRefundContainerFrameMixin
 CatalogShopPersistentRefundContainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L765)
---- @class ProductRefundContainerMixin
+ --- @class ProductRefundContainerMixin
 ProductRefundContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L803)
---- @class ProductsHeaderMixin
+ --- @class ProductsHeaderMixin
 ProductsHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L832)
---- @class ProductDescriptionMixin
+ --- @class ProductDescriptionMixin
 ProductDescriptionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L111)
---- @class NavigationBarMixin
+ --- @class NavigationBarMixin
 NavigationBarMixin = {
 	NavBarButtonWidthBuffer = 70,
 }

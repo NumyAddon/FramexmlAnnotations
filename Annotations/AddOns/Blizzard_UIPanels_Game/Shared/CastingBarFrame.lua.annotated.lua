@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L2)
---- @class PlayerCastingBarMixin
+ --- @class PlayerCastingBarMixin
 PlayerCastingBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L4)

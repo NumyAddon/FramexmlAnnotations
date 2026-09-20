@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeech.lua#L1)
---- @class SpeechToTextMixin
+ --- @class SpeechToTextMixin
 SpeechToTextMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeech.lua#L11)
---- @class TextToSpeechButtonMixin
+ --- @class TextToSpeechButtonMixin
 TextToSpeechButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeech.lua#L3)

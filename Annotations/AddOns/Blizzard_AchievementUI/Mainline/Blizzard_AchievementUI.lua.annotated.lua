@@ -1,43 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.lua#L496)
---- @class AchievementCategoryTemplateMixin
+ --- @class AchievementCategoryTemplateMixin
 AchievementCategoryTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.lua#L571)
---- @class AchievementCategoryTemplateButtonMixin
+ --- @class AchievementCategoryTemplateButtonMixin
 AchievementCategoryTemplateButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.lua#L1039)
---- @class AchievementTemplateMixin
+ --- @class AchievementTemplateMixin
 AchievementTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.lua#L1629)
---- @class AchivementButtonCheckMixin
+ --- @class AchivementButtonCheckMixin
 AchivementButtonCheckMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.lua#L1674)
---- @class AchievementsObjectivesMixin
+ --- @class AchievementsObjectivesMixin
 AchievementsObjectivesMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.lua#L2125)
---- @class AchievementStatTemplateMixin
+ --- @class AchievementStatTemplateMixin
 AchievementStatTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.lua#L2580)
---- @class AchievementMetaCriteriaMixin
+ --- @class AchievementMetaCriteriaMixin
 AchievementMetaCriteriaMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.lua#L2682)
---- @class AchievementComparisonTemplateMixin
+ --- @class AchievementComparisonTemplateMixin
 AchievementComparisonTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.lua#L2908)
---- @class AchivementComparisonStatMixin
+ --- @class AchivementComparisonStatMixin
 AchivementComparisonStatMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.lua#L3404)
---- @class AchievementFullSearchResultsButtonMixin
+ --- @class AchievementFullSearchResultsButtonMixin
 AchievementFullSearchResultsButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.lua#L498)

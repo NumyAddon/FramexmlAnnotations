@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L94)
---- @class CustomizationZoomButtonMixin : CustomizationClickOrHoldButtonMixin
+ --- @class CustomizationZoomButtonMixin : CustomizationClickOrHoldButtonMixin
 CustomizationZoomButtonMixin = CreateFromMixins(CustomizationClickOrHoldButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L106)
---- @class CustomizationRotateButtonMixin : CustomizationClickOrHoldButtonMixin
+ --- @class CustomizationRotateButtonMixin : CustomizationClickOrHoldButtonMixin
 CustomizationRotateButtonMixin = CreateFromMixins(CustomizationClickOrHoldButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L118)
---- @class CustomizationCategoryButtonMixin : CustomizationMaskedButtonMixin, CustomizationContentFrameMixin
+ --- @class CustomizationCategoryButtonMixin : CustomizationMaskedButtonMixin, CustomizationContentFrameMixin
 CustomizationCategoryButtonMixin = CreateFromMixins(CustomizationMaskedButtonMixin, CustomizationContentFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L3)
---- @class CustomizationParentFrameBaseMixin
+ --- @class CustomizationParentFrameBaseMixin
 CustomizationParentFrameBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L73)
---- @class CustomizationRandomizeAppearanceButtonMixin
+ --- @class CustomizationRandomizeAppearanceButtonMixin
 CustomizationRandomizeAppearanceButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L83)
---- @class CustomizationResetCameraButtonMixin
+ --- @class CustomizationResetCameraButtonMixin
 CustomizationResetCameraButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L185)
---- @class CustomizationFrameBaseMixin
+ --- @class CustomizationFrameBaseMixin
 CustomizationFrameBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationUI.lua#L5)

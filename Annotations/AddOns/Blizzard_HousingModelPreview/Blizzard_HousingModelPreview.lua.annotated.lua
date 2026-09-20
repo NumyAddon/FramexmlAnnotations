@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingModelPreview/Blizzard_HousingModelPreview.lua#L4)
---- @class HousingModelPreviewMixin
+ --- @class HousingModelPreviewMixin
 HousingModelPreviewMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingModelPreview/Blizzard_HousingModelPreview.lua#L116)
---- @class HousingModelPreviewFrameMixin
+ --- @class HousingModelPreviewFrameMixin
 HousingModelPreviewFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingModelPreview/Blizzard_HousingModelPreview.lua#L6)

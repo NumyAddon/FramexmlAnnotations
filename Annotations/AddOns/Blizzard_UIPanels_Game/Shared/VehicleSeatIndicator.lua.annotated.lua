@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Shared/VehicleSeatIndicator.lua#L1)
---- @class VehicleSeatIndicatorMixin
+ --- @class VehicleSeatIndicatorMixin
 VehicleSeatIndicatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Shared/VehicleSeatIndicator.lua#L136)
---- @class VehicleSeatIndicatorButtonMixin
+ --- @class VehicleSeatIndicatorButtonMixin
 VehicleSeatIndicatorButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Shared/VehicleSeatIndicator.lua#L3)

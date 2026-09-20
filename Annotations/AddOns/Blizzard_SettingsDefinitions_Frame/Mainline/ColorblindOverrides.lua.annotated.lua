@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/ColorblindOverrides.lua#L14)
---- @class ItemQualityColorOverrideMixin
+ --- @class ItemQualityColorOverrideMixin
 ItemQualityColorOverrideMixin = {
 	OverrideData =
 	{

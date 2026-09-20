@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.lua#L105)
---- @class PlunderstormQueuePopupMixin
+ --- @class PlunderstormQueuePopupMixin
 PlunderstormQueuePopupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.lua#L425)
---- @class PVPReadyDialogEnterButtonMixin
+ --- @class PVPReadyDialogEnterButtonMixin
 PVPReadyDialogEnterButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.lua#L441)
---- @class PVPReadyDialogLeaveButtonMixin
+ --- @class PVPReadyDialogLeaveButtonMixin
 PVPReadyDialogLeaveButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.lua#L113)

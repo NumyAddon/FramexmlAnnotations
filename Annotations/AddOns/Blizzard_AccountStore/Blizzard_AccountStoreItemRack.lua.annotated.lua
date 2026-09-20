@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreItemRack.lua#L18)
---- @class AccountStoreItemRackMixin
+ --- @class AccountStoreItemRackMixin
 AccountStoreItemRackMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStoreItemRack.lua#L20)

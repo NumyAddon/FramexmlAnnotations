@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/HouseFavorBar.lua#L11)
---- @class HouseFavorBarMixin
+ --- @class HouseFavorBarMixin
 HouseFavorBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/HouseFavorBar.lua#L13)

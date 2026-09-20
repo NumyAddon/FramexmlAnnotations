@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L1)
---- @class ProfessionsRecipeLevelBarMixin
+ --- @class ProfessionsRecipeLevelBarMixin
 ProfessionsRecipeLevelBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L51)
---- @class ProfessionsRecipeLevelDropdownMixin
+ --- @class ProfessionsRecipeLevelDropdownMixin
 ProfessionsRecipeLevelDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRecipeLevel.lua#L3)

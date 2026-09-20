@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.lua#L1)
---- @class CampaignOverviewMixin
+ --- @class CampaignOverviewMixin
 CampaignOverviewMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.lua#L106)
---- @class CampaignOverviewScrollFrameMixin
+ --- @class CampaignOverviewScrollFrameMixin
 CampaignOverviewScrollFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CampaignOverview.lua#L3)

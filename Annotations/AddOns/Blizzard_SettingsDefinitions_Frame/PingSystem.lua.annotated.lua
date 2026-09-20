@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.lua#L129)
---- @class PingSystemTutorialMixin
+ --- @class PingSystemTutorialMixin
 PingSystemTutorialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.lua#L82)
---- @class PingSystemMixin
+ --- @class PingSystemMixin
 PingSystemMixin = {
     TutorialCutoffVersion = {
         Major = 10;

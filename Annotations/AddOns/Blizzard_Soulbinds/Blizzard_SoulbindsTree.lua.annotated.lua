@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsTree.lua#L16)
---- @class SoulbindTreeMixin : CallbackRegistryMixin
+ --- @class SoulbindTreeMixin : CallbackRegistryMixin
 SoulbindTreeMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsTree.lua#L24)

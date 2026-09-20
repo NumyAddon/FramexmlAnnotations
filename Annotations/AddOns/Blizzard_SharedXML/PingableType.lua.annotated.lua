@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L15)
---- @class PingableType_UnitFrameMixin : PingableTypeMixin
+ --- @class PingableType_UnitFrameMixin : PingableTypeMixin
 PingableType_UnitFrameMixin = CreateFromMixins(PingableTypeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L1)
---- @class PingableTypeMixin
+ --- @class PingableTypeMixin
 PingableTypeMixin = {
     IsPingable = true;
 }

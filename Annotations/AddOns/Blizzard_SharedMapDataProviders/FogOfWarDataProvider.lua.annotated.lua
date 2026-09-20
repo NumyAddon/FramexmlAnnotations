@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/FogOfWarDataProvider.lua#L1)
---- @class FogOfWarDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class FogOfWarDataProviderMixin : MapCanvasDataProviderMixin
 FogOfWarDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/FogOfWarDataProvider.lua#L22)
---- @class FogOfWarPinMixin : MapCanvasPinMixin
+ --- @class FogOfWarPinMixin : MapCanvasPinMixin
 FogOfWarPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/FogOfWarDataProvider.lua#L3)

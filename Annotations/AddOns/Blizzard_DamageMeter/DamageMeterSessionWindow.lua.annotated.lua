@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.lua#L85)
---- @class DamageMeterSessionWindowMixin
+ --- @class DamageMeterSessionWindowMixin
 DamageMeterSessionWindowMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.lua#L93)

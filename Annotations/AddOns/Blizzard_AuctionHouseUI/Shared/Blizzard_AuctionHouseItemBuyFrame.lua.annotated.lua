@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.lua#L5)
---- @class AuctionHouseItemBuyFrameMixin : AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin
+ --- @class AuctionHouseItemBuyFrameMixin : AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin
 AuctionHouseItemBuyFrameMixin = CreateFromMixins(AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.lua#L129)
---- @class AuctionHouseItemBuyItemDisplayMixin : AuctionHouseItemDisplayMixin
+ --- @class AuctionHouseItemBuyItemDisplayMixin : AuctionHouseItemDisplayMixin
 AuctionHouseItemBuyItemDisplayMixin = CreateFromMixins(AuctionHouseItemDisplayMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.lua#L14)

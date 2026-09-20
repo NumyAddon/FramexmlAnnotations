@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/AutoCastTemplates.lua#L1)
---- @class AutoCastOverlayMixin
+ --- @class AutoCastOverlayMixin
 AutoCastOverlayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/AutoCastTemplates.lua#L3)

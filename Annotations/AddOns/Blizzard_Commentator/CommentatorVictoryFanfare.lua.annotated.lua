@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.lua#L5)
---- @class CommentatorVictoryFanfareFrameMixin
+ --- @class CommentatorVictoryFanfareFrameMixin
 CommentatorVictoryFanfareFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.lua#L7)

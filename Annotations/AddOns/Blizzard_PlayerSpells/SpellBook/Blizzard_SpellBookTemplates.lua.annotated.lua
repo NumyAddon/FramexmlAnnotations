@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L1)
---- @class SpellBookHeaderMixin
+ --- @class SpellBookHeaderMixin
 SpellBookHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L9)
---- @class SpellBookCategoryTabMixin
+ --- @class SpellBookCategoryTabMixin
 SpellBookCategoryTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.lua#L3)

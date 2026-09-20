@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.lua#L116)
---- @class PagedHousingCatalogMixin : BaseHousingCatalogMixin
+ --- @class PagedHousingCatalogMixin : BaseHousingCatalogMixin
 PagedHousingCatalogMixin = CreateFromMixins(BaseHousingCatalogMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.lua#L142)
---- @class ScrollingHousingCatalogMixin : BaseHousingCatalogMixin
+ --- @class ScrollingHousingCatalogMixin : BaseHousingCatalogMixin
 ScrollingHousingCatalogMixin = CreateFromMixins(BaseHousingCatalogMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.lua#L37)
---- @class BaseHousingCatalogMixin
+ --- @class BaseHousingCatalogMixin
 BaseHousingCatalogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.lua#L39)

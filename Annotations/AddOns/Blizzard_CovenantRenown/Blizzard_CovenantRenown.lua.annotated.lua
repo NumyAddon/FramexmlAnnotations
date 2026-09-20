@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.lua#L52)
---- @class CovenantRenownMixin
+ --- @class CovenantRenownMixin
 CovenantRenownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.lua#L323)
---- @class CovenantRenownRewardMixin
+ --- @class CovenantRenownRewardMixin
 CovenantRenownRewardMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.lua#L350)
---- @class CovenantRenownHeaderFrameMixin
+ --- @class CovenantRenownHeaderFrameMixin
 CovenantRenownHeaderFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.lua#L54)

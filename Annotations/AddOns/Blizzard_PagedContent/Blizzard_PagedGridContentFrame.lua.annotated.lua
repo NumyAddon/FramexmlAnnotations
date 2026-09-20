@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L10)
---- @class BasePagedGridContentFrameMixin : PagedContentFrameBaseMixin
+ --- @class BasePagedGridContentFrameMixin : PagedContentFrameBaseMixin
 BasePagedGridContentFrameMixin = CreateFromMixins(PagedContentFrameBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L84)
---- @class PagedCellSizeGridContentFrameMixin : BasePagedGridContentFrameMixin
+ --- @class PagedCellSizeGridContentFrameMixin : BasePagedGridContentFrameMixin
 PagedCellSizeGridContentFrameMixin = CreateFromMixins(BasePagedGridContentFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L138)
---- @class PagedNaturalSizeGridContentFrameMixin : BasePagedGridContentFrameMixin
+ --- @class PagedNaturalSizeGridContentFrameMixin : BasePagedGridContentFrameMixin
 PagedNaturalSizeGridContentFrameMixin = CreateFromMixins(BasePagedGridContentFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L12)

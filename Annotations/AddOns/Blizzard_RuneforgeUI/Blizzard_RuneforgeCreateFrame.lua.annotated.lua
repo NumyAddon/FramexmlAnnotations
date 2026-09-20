@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L21)
---- @class RuneforgeCreateFrameMixin : RuneforgeSystemMixin
+ --- @class RuneforgeCreateFrameMixin : RuneforgeSystemMixin
 RuneforgeCreateFrameMixin = CreateFromMixins(RuneforgeSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L145)
---- @class RuneforgeCraftItemButtonMixin
+ --- @class RuneforgeCraftItemButtonMixin
 RuneforgeCraftItemButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L28)

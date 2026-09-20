@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerVisualAlert.lua#L1)
---- @class CooldownViewerVisualAlertMixin
+ --- @class CooldownViewerVisualAlertMixin
 CooldownViewerVisualAlertMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerVisualAlert.lua#L3)

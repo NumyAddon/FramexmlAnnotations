@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCraftingTooltip.lua#L2)
---- @class RunforgeFrameTooltipMixin : RuneforgeSystemMixin
+ --- @class RunforgeFrameTooltipMixin : RuneforgeSystemMixin
 RunforgeFrameTooltipMixin = CreateFromMixins(RuneforgeSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCraftingTooltip.lua#L4)

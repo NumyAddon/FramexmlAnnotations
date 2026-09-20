@@ -1,43 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L468)
---- @class MonthlySupersedeActivitiesButtonMixin : MonthlyActivitiesButtonMixin
+ --- @class MonthlySupersedeActivitiesButtonMixin : MonthlyActivitiesButtonMixin
 MonthlySupersedeActivitiesButtonMixin = CreateFromMixins(MonthlyActivitiesButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L610)
---- @class MonthlyActivitiesFilterListButtonMixin : ButtonStateBehaviorMixin
+ --- @class MonthlyActivitiesFilterListButtonMixin : ButtonStateBehaviorMixin
 MonthlyActivitiesFilterListButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L112)
---- @class MonthlyActivitiesButtonTextContainerMixin
+ --- @class MonthlyActivitiesButtonTextContainerMixin
 MonthlyActivitiesButtonTextContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L210)
---- @class MonthlyActivitiesButtonMixin
+ --- @class MonthlyActivitiesButtonMixin
 MonthlyActivitiesButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L487)
---- @class MonthlyActivitiesThresholdMixin
+ --- @class MonthlyActivitiesThresholdMixin
 MonthlyActivitiesThresholdMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L526)
---- @class MonthlyActivitiesRewardCurrencyMixin
+ --- @class MonthlyActivitiesRewardCurrencyMixin
 MonthlyActivitiesRewardCurrencyMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L646)
---- @class MonthlyActivitiesFilterListMixin
+ --- @class MonthlyActivitiesFilterListMixin
 MonthlyActivitiesFilterListMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L755)
---- @class MonthlyActivitiesFrameMixin
+ --- @class MonthlyActivitiesFrameMixin
 MonthlyActivitiesFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L1599)
---- @class MonthlyActivitiesRewardButtonMixin
+ --- @class MonthlyActivitiesRewardButtonMixin
 MonthlyActivitiesRewardButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L1652)
---- @class MonthlyActivitiesThemeContainerMixin
+ --- @class MonthlyActivitiesThemeContainerMixin
 MonthlyActivitiesThemeContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L113)

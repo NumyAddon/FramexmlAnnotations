@@ -1,107 +1,107 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L188)
---- @class ProfessionsCrafterTableHeaderStringMixin : TableBuilderElementMixin
+ --- @class ProfessionsCrafterTableHeaderStringMixin : TableBuilderElementMixin
 ProfessionsCrafterTableHeaderStringMixin = CreateFromMixins(TableBuilderElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L274)
---- @class ProfessionsTableCellTextMixin : TableBuilderCellMixin
+ --- @class ProfessionsTableCellTextMixin : TableBuilderCellMixin
 ProfessionsTableCellTextMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L279)
---- @class ProfessionsCrafterTableCellNameMixin : TableBuilderCellMixin
+ --- @class ProfessionsCrafterTableCellNameMixin : TableBuilderCellMixin
 ProfessionsCrafterTableCellNameMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L287)
---- @class ProfessionsCrafterTableCellTipMixin : TableBuilderCellMixin
+ --- @class ProfessionsCrafterTableCellTipMixin : TableBuilderCellMixin
 ProfessionsCrafterTableCellTipMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L295)
---- @class ProfessionsCrafterTableCellQualityMixin : TableBuilderCellMixin
+ --- @class ProfessionsCrafterTableCellQualityMixin : TableBuilderCellMixin
 ProfessionsCrafterTableCellQualityMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L305)
---- @class ProfessionsCrafterTableCellReagentsMixin : TableBuilderCellMixin
+ --- @class ProfessionsCrafterTableCellReagentsMixin : TableBuilderCellMixin
 ProfessionsCrafterTableCellReagentsMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L386)
---- @class ProfessionsCrafterTableCellCommissionMixin : TableBuilderCellMixin
+ --- @class ProfessionsCrafterTableCellCommissionMixin : TableBuilderCellMixin
 ProfessionsCrafterTableCellCommissionMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L432)
---- @class ProfessionsCrafterTableCellItemNameMixin : TableBuilderCellMixin
+ --- @class ProfessionsCrafterTableCellItemNameMixin : TableBuilderCellMixin
 ProfessionsCrafterTableCellItemNameMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L474)
---- @class ProfessionsCrafterTableCellExpirationMixin : TableBuilderCellMixin
+ --- @class ProfessionsCrafterTableCellExpirationMixin : TableBuilderCellMixin
 ProfessionsCrafterTableCellExpirationMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L507)
---- @class ProfessionsCrafterTableCellNumAvailableMixin : TableBuilderCellMixin
+ --- @class ProfessionsCrafterTableCellNumAvailableMixin : TableBuilderCellMixin
 ProfessionsCrafterTableCellNumAvailableMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L514)
---- @class ProfessionsCrafterTableCellCustomerNameMixin : TableBuilderCellMixin
+ --- @class ProfessionsCrafterTableCellCustomerNameMixin : TableBuilderCellMixin
 ProfessionsCrafterTableCellCustomerNameMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L521)
---- @class ProfessionsCustomerTableCellItemNameMixin : TableBuilderCellMixin
+ --- @class ProfessionsCustomerTableCellItemNameMixin : TableBuilderCellMixin
 ProfessionsCustomerTableCellItemNameMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L546)
---- @class ProfessionsCustomerTableCellIlvlMixin : TableBuilderCellMixin
+ --- @class ProfessionsCustomerTableCellIlvlMixin : TableBuilderCellMixin
 ProfessionsCustomerTableCellIlvlMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L603)
---- @class ProfessionsCustomerTableCellSlotsMixin : TableBuilderCellMixin
+ --- @class ProfessionsCustomerTableCellSlotsMixin : TableBuilderCellMixin
 ProfessionsCustomerTableCellSlotsMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L610)
---- @class ProfessionsCustomerTableCellLevelMixin : TableBuilderCellMixin
+ --- @class ProfessionsCustomerTableCellLevelMixin : TableBuilderCellMixin
 ProfessionsCustomerTableCellLevelMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L617)
---- @class ProfessionsCustomerTableCellSkillMixin : TableBuilderCellMixin
+ --- @class ProfessionsCustomerTableCellSkillMixin : TableBuilderCellMixin
 ProfessionsCustomerTableCellSkillMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L624)
---- @class ProfessionsCustomerTableCellStatusMixin : TableBuilderCellMixin
+ --- @class ProfessionsCustomerTableCellStatusMixin : TableBuilderCellMixin
 ProfessionsCustomerTableCellStatusMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L647)
---- @class ProfessionsCustomerTableCellTypeMixin : TableBuilderCellMixin
+ --- @class ProfessionsCustomerTableCellTypeMixin : TableBuilderCellMixin
 ProfessionsCustomerTableCellTypeMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L664)
---- @class ProfessionsCustomerTableCellExpirationMixin : TableBuilderCellMixin
+ --- @class ProfessionsCustomerTableCellExpirationMixin : TableBuilderCellMixin
 ProfessionsCustomerTableCellExpirationMixin = CreateFromMixins(TableBuilderCellMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L798)
---- @class ProfessionsCurrencyWithLabelMixin : ProfessionsCurrencyMixin
+ --- @class ProfessionsCurrencyWithLabelMixin : ProfessionsCurrencyMixin
 ProfessionsCurrencyWithLabelMixin = CreateFromMixins(ProfessionsCurrencyMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L822)
---- @class ProfessionsConcentrateToggleButtonMixin : ProfessionsCurrencyMixin
+ --- @class ProfessionsConcentrateToggleButtonMixin : ProfessionsCurrencyMixin
 ProfessionsConcentrateToggleButtonMixin = CreateFromMixins(ProfessionsCurrencyMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L138)
---- @class ProfessionsButtonMixin
+ --- @class ProfessionsButtonMixin
 ProfessionsButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L178)
---- @class ProfessionsReagentContainerMixin
+ --- @class ProfessionsReagentContainerMixin
 ProfessionsReagentContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L223)
---- @class ProfessionsTableBuilderMixin
+ --- @class ProfessionsTableBuilderMixin
 ProfessionsTableBuilderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L710)
---- @class ProfessionsRecipeListPanelMixin
+ --- @class ProfessionsRecipeListPanelMixin
 ProfessionsRecipeListPanelMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L727)
---- @class ProfessionsCurrencyMixin
+ --- @class ProfessionsCurrencyMixin
 ProfessionsCurrencyMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.lua#L140)

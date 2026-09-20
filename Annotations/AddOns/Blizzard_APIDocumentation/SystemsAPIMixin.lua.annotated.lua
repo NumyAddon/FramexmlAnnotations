@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_APIDocumentation/SystemsAPIMixin.lua#L1)
---- @class SystemsAPIMixin : BaseAPIMixin
+ --- @class SystemsAPIMixin : BaseAPIMixin
 SystemsAPIMixin = CreateFromMixins(BaseAPIMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_APIDocumentation/SystemsAPIMixin.lua#L3)

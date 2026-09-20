@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/DungeonEntranceDataProvider.lua#L1)
---- @class DungeonEntranceDataProviderMixin : CVarMapCanvasDataProviderMixin
+ --- @class DungeonEntranceDataProviderMixin : CVarMapCanvasDataProviderMixin
 DungeonEntranceDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/DungeonEntranceDataProvider.lua#L4)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogBundleDisplay.lua#L2)
---- @class HousingCatalogBundleDisplayMixin
+ --- @class HousingCatalogBundleDisplayMixin
 HousingCatalogBundleDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogBundleDisplay.lua#L4)

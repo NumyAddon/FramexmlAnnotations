@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/UnitFrame.lua#L659)
---- @class AnimatedHealthLossMixin
+ --- @class AnimatedHealthLossMixin
 AnimatedHealthLossMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/UnitFrame.lua#L661)

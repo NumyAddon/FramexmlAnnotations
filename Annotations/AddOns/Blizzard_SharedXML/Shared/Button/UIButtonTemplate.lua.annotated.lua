@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Button/UIButtonTemplate.lua#L2)
---- @class UIButtonMixin
+ --- @class UIButtonMixin
 UIButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Button/UIButtonTemplate.lua#L4)

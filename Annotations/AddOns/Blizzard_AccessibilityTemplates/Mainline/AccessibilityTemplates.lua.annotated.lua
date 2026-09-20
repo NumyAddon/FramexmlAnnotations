@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AccessibilityTemplates/Mainline/AccessibilityTemplates.lua#L1)
---- @class UIThemeContainerMixin
+ --- @class UIThemeContainerMixin
 UIThemeContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AccessibilityTemplates/Mainline/AccessibilityTemplates.lua#L3)

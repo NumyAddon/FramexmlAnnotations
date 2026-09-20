@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.lua#L1)
---- @class AzeriteItemLevelUpToastMixin
+ --- @class AzeriteItemLevelUpToastMixin
 AzeriteItemLevelUpToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.lua#L5)

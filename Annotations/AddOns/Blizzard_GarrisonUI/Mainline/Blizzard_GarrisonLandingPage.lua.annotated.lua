@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.lua#L17)
---- @class GarrisonLandingPageMixin
+ --- @class GarrisonLandingPageMixin
 GarrisonLandingPageMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.lua#L212)
---- @class GarrisonLandingPageShipyardFollowerMixin
+ --- @class GarrisonLandingPageShipyardFollowerMixin
 GarrisonLandingPageShipyardFollowerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonLandingPage.lua#L18)

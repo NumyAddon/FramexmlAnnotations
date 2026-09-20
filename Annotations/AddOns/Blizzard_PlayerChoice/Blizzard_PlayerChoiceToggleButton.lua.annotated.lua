@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.lua#L168)
---- @class GenericPlayerChoiceToggleButtonMixin : PlayerChoiceToggleButtonMixin
+ --- @class GenericPlayerChoiceToggleButtonMixin : PlayerChoiceToggleButtonMixin
 GenericPlayerChoiceToggleButtonMixin = CreateFromMixins(PlayerChoiceToggleButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.lua#L6)
---- @class PlayerChoiceToggleButtonMixin
+ --- @class PlayerChoiceToggleButtonMixin
 PlayerChoiceToggleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.lua#L98)
---- @class TorghastPlayerChoiceToggleButtonMixin
+ --- @class TorghastPlayerChoiceToggleButtonMixin
 TorghastPlayerChoiceToggleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.lua#L134)
---- @class CypherPlayerChoiceToggleButtonMixin
+ --- @class CypherPlayerChoiceToggleButtonMixin
 CypherPlayerChoiceToggleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.lua#L192)
---- @class PlayerChoiceRerollButtonMixin
+ --- @class PlayerChoiceRerollButtonMixin
 PlayerChoiceRerollButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.lua#L8)

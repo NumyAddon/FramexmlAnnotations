@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.lua#L333)
---- @class ItemRefTooltipMixin
+ --- @class ItemRefTooltipMixin
 ItemRefTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.lua#L335)

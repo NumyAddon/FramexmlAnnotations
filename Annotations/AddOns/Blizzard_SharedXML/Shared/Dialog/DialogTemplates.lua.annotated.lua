@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Dialog/DialogTemplates.lua#L2)
---- @class DialogHeaderMixin
+ --- @class DialogHeaderMixin
 DialogHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Dialog/DialogTemplates.lua#L4)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAnchorDataProvider.lua#L2)
---- @class TableInspectorAnchorDataProviderMixin : TableInspectorDataProviderMixin
+ --- @class TableInspectorAnchorDataProviderMixin : TableInspectorDataProviderMixin
 TableInspectorAnchorDataProviderMixin = CreateFromMixins(TableInspectorDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAnchorDataProvider.lua#L50)
---- @class TableInspectAnchorLineMixin
+ --- @class TableInspectAnchorLineMixin
 TableInspectAnchorLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAnchorDataProvider.lua#L4)

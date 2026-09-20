@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L488)
---- @class EncounterJournalLinkButtonMixin
+ --- @class EncounterJournalLinkButtonMixin
 EncounterJournalLinkButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L490)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Menu/Mainline/MenuTemplates.lua#L51)
---- @class MenuStyle1Mixin : MenuStyleMixin
+ --- @class MenuStyle1Mixin : MenuStyleMixin
 MenuStyle1Mixin = CreateFromMixins(MenuStyleMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Menu/Mainline/MenuTemplates.lua#L53)

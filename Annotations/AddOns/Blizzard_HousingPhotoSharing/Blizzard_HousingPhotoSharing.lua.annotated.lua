@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L5)
---- @class HousingPhotoSharingMixin
+ --- @class HousingPhotoSharingMixin
 HousingPhotoSharingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L91)
---- @class HousingPhotoSharingSubmitButtonMixin
+ --- @class HousingPhotoSharingSubmitButtonMixin
 HousingPhotoSharingSubmitButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L104)
---- @class HousingPhotoSharingCancelButtonMixin
+ --- @class HousingPhotoSharingCancelButtonMixin
 HousingPhotoSharingCancelButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L7)

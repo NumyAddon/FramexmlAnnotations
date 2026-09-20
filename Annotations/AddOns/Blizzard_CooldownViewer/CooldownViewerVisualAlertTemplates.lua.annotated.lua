@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerVisualAlertTemplates.lua#L7)
---- @class CDMVISBaseMixin : CooldownViewerVisualAlertMixin
+ --- @class CDMVISBaseMixin : CooldownViewerVisualAlertMixin
 CDMVISBaseMixin = CreateFromMixins(CooldownViewerVisualAlertMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerVisualAlertTemplates.lua#L43)
---- @class CDMVISMarchingAntsBaseMixin
+ --- @class CDMVISMarchingAntsBaseMixin
 CDMVISMarchingAntsBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerVisualAlertTemplates.lua#L55)
---- @class CDMVISFlashBaseMixin
+ --- @class CDMVISFlashBaseMixin
 CDMVISFlashBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerVisualAlertTemplates.lua#L9)

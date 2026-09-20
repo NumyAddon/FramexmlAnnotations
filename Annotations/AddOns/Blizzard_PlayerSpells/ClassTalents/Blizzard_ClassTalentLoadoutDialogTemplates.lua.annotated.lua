@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutDialogTemplates.lua#L50)
---- @class ClassTalentLoadoutDialogNameControlMixin : ClassTalentLoadoutDialogInputControlMixin
+ --- @class ClassTalentLoadoutDialogNameControlMixin : ClassTalentLoadoutDialogInputControlMixin
 ClassTalentLoadoutDialogNameControlMixin = CreateFromMixins(ClassTalentLoadoutDialogInputControlMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutDialogTemplates.lua#L1)
---- @class ClassTalentLoadoutDialogMixin
+ --- @class ClassTalentLoadoutDialogMixin
 ClassTalentLoadoutDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutDialogTemplates.lua#L8)
---- @class ClassTalentLoadoutDialogInputControlMixin
+ --- @class ClassTalentLoadoutDialogInputControlMixin
 ClassTalentLoadoutDialogInputControlMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutDialogTemplates.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedCollectionTemplates.lua#L1)
---- @class WarbandSceneEntryMixin
+ --- @class WarbandSceneEntryMixin
 WarbandSceneEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedCollectionTemplates.lua#L3)

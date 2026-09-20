@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.lua#L4)
---- @class CommentatorScoreboardMixin
+ --- @class CommentatorScoreboardMixin
 CommentatorScoreboardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.lua#L6)

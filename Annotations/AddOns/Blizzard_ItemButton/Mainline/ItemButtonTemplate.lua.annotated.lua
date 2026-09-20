@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.lua#L424)
---- @class CircularGiantItemButtonMixin
+ --- @class CircularGiantItemButtonMixin
 CircularGiantItemButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.lua#L448)
---- @class EnchantingItemButtonAnimMixin
+ --- @class EnchantingItemButtonAnimMixin
 EnchantingItemButtonAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.lua#L426)

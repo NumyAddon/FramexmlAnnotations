@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_FullProductCardTemplates.lua#L11)
---- @class FullStoreCardMixin : StoreCardMixin
+ --- @class FullStoreCardMixin : StoreCardMixin
 FullStoreCardMixin = CreateFromMixins(StoreCardMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_FullProductCardTemplates.lua#L332)
---- @class HorizontalFullStoreCardMixin : FullStoreCardMixin, ProductCardBuyButtonMixin
+ --- @class HorizontalFullStoreCardMixin : FullStoreCardMixin, ProductCardBuyButtonMixin
 HorizontalFullStoreCardMixin = CreateFromMixins(FullStoreCardMixin, ProductCardBuyButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_FullProductCardTemplates.lua#L392)
---- @class HorizontalFullStoreCardWithNydusLinkMixin : FullStoreCardMixin
+ --- @class HorizontalFullStoreCardWithNydusLinkMixin : FullStoreCardMixin
 HorizontalFullStoreCardWithNydusLinkMixin = CreateFromMixins(FullStoreCardMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_FullProductCardTemplates.lua#L450)
---- @class VerticalFullStoreCardMixin : FullStoreCardMixin, ProductCardBuyButtonMixin
+ --- @class VerticalFullStoreCardMixin : FullStoreCardMixin, ProductCardBuyButtonMixin
 VerticalFullStoreCardMixin = CreateFromMixins(FullStoreCardMixin, ProductCardBuyButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_FullProductCardTemplates.lua#L13)

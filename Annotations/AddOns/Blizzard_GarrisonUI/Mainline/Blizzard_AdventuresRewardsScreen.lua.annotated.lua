@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.lua#L1)
---- @class AdventuresRewardsScreenMixin
+ --- @class AdventuresRewardsScreenMixin
 AdventuresRewardsScreenMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.lua#L152)
---- @class AdventuresRewardsScreenContinueButtonMixin
+ --- @class AdventuresRewardsScreenContinueButtonMixin
 AdventuresRewardsScreenContinueButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.lua#L167)
---- @class AdventuresRewardsFollowerMixin
+ --- @class AdventuresRewardsFollowerMixin
 AdventuresRewardsFollowerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.lua#L12)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L7)
---- @class ScrollingMessageFrameMixin : FontableFrameMixin
+ --- @class ScrollingMessageFrameMixin : FontableFrameMixin
 ScrollingMessageFrameMixin = CreateFromMixins(FontableFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L796)
---- @class ScrollingMessageFrameSecureMixin
+ --- @class ScrollingMessageFrameSecureMixin
 ScrollingMessageFrameSecureMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L10)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua#L32)
---- @class ScrollBoxBaseMixin : CallbackRegistryMixin, ScrollControllerMixin
+ --- @class ScrollBoxBaseMixin : CallbackRegistryMixin, ScrollControllerMixin
 ScrollBoxBaseMixin = CreateFromMixins(CallbackRegistryMixin, ScrollControllerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua#L542)
---- @class ScrollBoxListMixin : ScrollBoxBaseMixin
+ --- @class ScrollBoxListMixin : ScrollBoxBaseMixin
 ScrollBoxListMixin = CreateFromMixins(ScrollBoxBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua#L887)
---- @class ScrollBoxMixin : ScrollBoxBaseMixin
+ --- @class ScrollBoxMixin : ScrollBoxBaseMixin
 ScrollBoxMixin = CreateFromMixins(ScrollBoxBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua#L34)

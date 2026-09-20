@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Shared/LowHealthFrame.lua#L1)
---- @class LowHealthFrameMixin
+ --- @class LowHealthFrameMixin
 LowHealthFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Shared/LowHealthFrame.lua#L7)

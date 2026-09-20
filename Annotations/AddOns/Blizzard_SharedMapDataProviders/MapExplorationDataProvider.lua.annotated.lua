@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/MapExplorationDataProvider.lua#L1)
---- @class MapExplorationDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class MapExplorationDataProviderMixin : MapCanvasDataProviderMixin
 MapExplorationDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/MapExplorationDataProvider.lua#L60)
---- @class MapExplorationPinMixin : MapCanvasPinMixin
+ --- @class MapExplorationPinMixin : MapCanvasPinMixin
 MapExplorationPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/MapExplorationDataProvider.lua#L3)

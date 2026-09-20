@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/RuneforgeUtil.lua#L211)
---- @class RuneforgeSystemMixin : RuneforgeEffectOwnerMixin
+ --- @class RuneforgeSystemMixin : RuneforgeEffectOwnerMixin
 RuneforgeSystemMixin = CreateFromMixins(RuneforgeEffectOwnerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/RuneforgeUtil.lua#L2)
---- @class RuneforgeCovenantSigilMixin
+ --- @class RuneforgeCovenantSigilMixin
 RuneforgeCovenantSigilMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/RuneforgeUtil.lua#L31)
---- @class RuneforgePowerBaseMixin
+ --- @class RuneforgePowerBaseMixin
 RuneforgePowerBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/RuneforgeUtil.lua#L176)
---- @class RuneforgeEffectOwnerMixin
+ --- @class RuneforgeEffectOwnerMixin
 RuneforgeEffectOwnerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/RuneforgeUtil.lua#L4)

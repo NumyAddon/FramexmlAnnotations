@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_APIDocumentation/Blizzard_APIDocumentation.lua#L1)
---- @class APIDocumentationMixin
+ --- @class APIDocumentationMixin
 APIDocumentationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_APIDocumentation/Blizzard_APIDocumentation.lua#L4)

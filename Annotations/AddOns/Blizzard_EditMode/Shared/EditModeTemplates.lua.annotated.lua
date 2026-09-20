@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L65)
---- @class EditModeSettingSliderMixin : CallbackRegistryMixin
+ --- @class EditModeSettingSliderMixin : CallbackRegistryMixin
 EditModeSettingSliderMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L1)
---- @class EditModeUnsavedChangesCheckerMixin
+ --- @class EditModeUnsavedChangesCheckerMixin
 EditModeUnsavedChangesCheckerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L16)
---- @class EditModeSettingDropdownMixin
+ --- @class EditModeSettingDropdownMixin
 EditModeSettingDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L131)
---- @class EditModeSettingCheckboxMixin
+ --- @class EditModeSettingCheckboxMixin
 EditModeSettingCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L146)
---- @class EditModeGridLineMixin
+ --- @class EditModeGridLineMixin
 EditModeGridLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L167)
---- @class MagnetismPreviewLineMixin
+ --- @class MagnetismPreviewLineMixin
 MagnetismPreviewLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L239)
---- @class EditModeCheckButtonMixin
+ --- @class EditModeCheckButtonMixin
 EditModeCheckButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L318)
---- @class EditModeManagerSettingCheckButtonMixin
+ --- @class EditModeManagerSettingCheckButtonMixin
 EditModeManagerSettingCheckButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L3)

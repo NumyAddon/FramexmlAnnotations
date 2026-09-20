@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/MapLinkDataProvider.lua#L1)
---- @class MapLinkDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class MapLinkDataProviderMixin : MapCanvasDataProviderMixin
 MapLinkDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/MapLinkDataProvider.lua#L3)

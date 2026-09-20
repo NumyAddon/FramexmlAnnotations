@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrameTemplates.lua#L6)
---- @class TalentFrameCurrencyDisplayMixin
+ --- @class TalentFrameCurrencyDisplayMixin
 TalentFrameCurrencyDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrameTemplates.lua#L47)
---- @class TalentFrameGateMixin
+ --- @class TalentFrameGateMixin
 TalentFrameGateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrameTemplates.lua#L82)
---- @class TraitsCommitControlsContainerMixin
+ --- @class TraitsCommitControlsContainerMixin
 TraitsCommitControlsContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrameTemplates.lua#L160)
---- @class TalentSubTreeHeaderMixin
+ --- @class TalentSubTreeHeaderMixin
 TalentSubTreeHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrameTemplates.lua#L187)
---- @class TalentFrameHeaderMixin
+ --- @class TalentFrameHeaderMixin
 TalentFrameHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrameTemplates.lua#L193)
---- @class TalentTreeSelectableButtonMixin
+ --- @class TalentTreeSelectableButtonMixin
 TalentTreeSelectableButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrameTemplates.lua#L213)
---- @class TalentFrameTreeSelectorMixin
+ --- @class TalentFrameTreeSelectorMixin
 TalentFrameTreeSelectorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrameTemplates.lua#L249)
---- @class TalentFrameTreeSelectorHorizontalMixin
+ --- @class TalentFrameTreeSelectorHorizontalMixin
 TalentFrameTreeSelectorHorizontalMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrameTemplates.lua#L256)
---- @class TalentFrameStarGridMixin
+ --- @class TalentFrameStarGridMixin
 TalentFrameStarGridMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrameTemplates.lua#L8)

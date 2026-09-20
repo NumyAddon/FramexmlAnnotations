@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FramerateFrame/FramerateFrame.lua#L1)
---- @class FramerateFrameMixin
+ --- @class FramerateFrameMixin
 FramerateFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FramerateFrame/FramerateFrame.lua#L3)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.lua#L1)
---- @class ScrollingEditBoxMixin : CallbackRegistryMixin
+ --- @class ScrollingEditBoxMixin : CallbackRegistryMixin
 ScrollingEditBoxMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.lua#L291)
---- @class ScrollingFontMixin
+ --- @class ScrollingFontMixin
 ScrollingFontMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.lua#L15)

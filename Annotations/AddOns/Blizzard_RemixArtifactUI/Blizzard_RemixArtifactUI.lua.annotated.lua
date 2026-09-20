@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RemixArtifactUI/Blizzard_RemixArtifactUI.lua#L1)
---- @class RemixArtifactFrameMixin
+ --- @class RemixArtifactFrameMixin
 RemixArtifactFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RemixArtifactUI/Blizzard_RemixArtifactUI.lua#L396)
---- @class RemixArtifactCurrencyFrameMixin
+ --- @class RemixArtifactCurrencyFrameMixin
 RemixArtifactCurrencyFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RemixArtifactUI/Blizzard_RemixArtifactUI.lua#L417)
---- @class RemixArtifactModelMixin
+ --- @class RemixArtifactModelMixin
 RemixArtifactModelMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RemixArtifactUI/Blizzard_RemixArtifactUI.lua#L8)

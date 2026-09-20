@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.lua#L1736)
---- @class GarrisonShipyardFollowerTabMixin
+ --- @class GarrisonShipyardFollowerTabMixin
 GarrisonShipyardFollowerTabMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.lua#L2254)
---- @class GarrisonShipyardMissionListMixin
+ --- @class GarrisonShipyardMissionListMixin
 GarrisonShipyardMissionListMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.lua#L1738)

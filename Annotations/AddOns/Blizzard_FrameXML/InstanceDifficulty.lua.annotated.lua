@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L1)
---- @class InstanceDifficultyMixin
+ --- @class InstanceDifficultyMixin
 InstanceDifficultyMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L194)
---- @class GuildInstanceDifficultyMixin
+ --- @class GuildInstanceDifficultyMixin
 GuildInstanceDifficultyMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L3)

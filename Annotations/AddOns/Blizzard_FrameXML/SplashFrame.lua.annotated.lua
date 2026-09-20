@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SplashFrame.lua#L7)
---- @class SplashFrameMixin
+ --- @class SplashFrameMixin
 SplashFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SplashFrame.lua#L103)
---- @class StartQuestButtonMixin
+ --- @class StartQuestButtonMixin
 StartQuestButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SplashFrame.lua#L142)
---- @class SplashFeatureFrameMixin
+ --- @class SplashFeatureFrameMixin
 SplashFeatureFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SplashFrame.lua#L149)
---- @class SplashRightFeatureFrameMixin
+ --- @class SplashRightFeatureFrameMixin
 SplashRightFeatureFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/SplashFrame.lua#L9)

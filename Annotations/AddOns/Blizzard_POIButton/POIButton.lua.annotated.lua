@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L30)
---- @class POIButtonDisplayLayerMixin
+ --- @class POIButtonDisplayLayerMixin
 POIButtonDisplayLayerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L408)
---- @class POIButtonMixin
+ --- @class POIButtonMixin
 POIButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L32)

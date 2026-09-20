@@ -1,75 +1,75 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L19)
---- @class QuestSessionDialogTitleMixin
+ --- @class QuestSessionDialogTitleMixin
 QuestSessionDialogTitleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L27)
---- @class QuestSessionDialogBodyMixin
+ --- @class QuestSessionDialogBodyMixin
 QuestSessionDialogBodyMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L76)
---- @class QuestSessionMemberMixin
+ --- @class QuestSessionMemberMixin
 QuestSessionMemberMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L92)
---- @class QuestSessionDialogButtonMixin
+ --- @class QuestSessionDialogButtonMixin
 QuestSessionDialogButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L105)
---- @class QuestSessionDialogMinimizeButtonMixin
+ --- @class QuestSessionDialogMinimizeButtonMixin
 QuestSessionDialogMinimizeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L112)
---- @class QuestSessionDialogMixin
+ --- @class QuestSessionDialogMixin
 QuestSessionDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L382)
---- @class QuestSessionStartDialogMixin
+ --- @class QuestSessionStartDialogMixin
 QuestSessionStartDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L495)
---- @class QuestSessionCheckStartDialogMixin
+ --- @class QuestSessionCheckStartDialogMixin
 QuestSessionCheckStartDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L513)
---- @class QuestSessionCheckStopDialogMixin
+ --- @class QuestSessionCheckStopDialogMixin
 QuestSessionCheckStopDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L530)
---- @class QuestSessionCheckLeavePartyDialogMixin
+ --- @class QuestSessionCheckLeavePartyDialogMixin
 QuestSessionCheckLeavePartyDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L543)
---- @class QuestSessionCheckConvertToRaidDialogMixin
+ --- @class QuestSessionCheckConvertToRaidDialogMixin
 QuestSessionCheckConvertToRaidDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L556)
---- @class ConfirmJoinGroupRequestDialogMixin
+ --- @class ConfirmJoinGroupRequestDialogMixin
 ConfirmJoinGroupRequestDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L603)
---- @class ConfirmInviteToGroupDialogMixin
+ --- @class ConfirmInviteToGroupDialogMixin
 ConfirmInviteToGroupDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L639)
---- @class ConfirmInviteToGroupReceivedDialogMixin
+ --- @class ConfirmInviteToGroupReceivedDialogMixin
 ConfirmInviteToGroupReceivedDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L668)
---- @class ConfirmBNJoinGroupRequestDialogMixin
+ --- @class ConfirmBNJoinGroupRequestDialogMixin
 ConfirmBNJoinGroupRequestDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L687)
---- @class ConfirmRequestToJoinGroupDialogMixin
+ --- @class ConfirmRequestToJoinGroupDialogMixin
 ConfirmRequestToJoinGroupDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L716)
---- @class ConfirmInviteTravelPassConfirmationDialogMixin
+ --- @class ConfirmInviteTravelPassConfirmationDialogMixin
 ConfirmInviteTravelPassConfirmationDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L801)
---- @class QuestSessionManagerMixin
+ --- @class QuestSessionManagerMixin
 QuestSessionManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L21)

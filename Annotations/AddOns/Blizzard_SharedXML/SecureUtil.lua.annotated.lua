@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L2)
---- @class ShrinkUntilTruncateFontStringMixin
+ --- @class ShrinkUntilTruncateFontStringMixin
 ShrinkUntilTruncateFontStringMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L51)
---- @class AutoScalingFontStringMixin
+ --- @class AutoScalingFontStringMixin
 AutoScalingFontStringMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L5)

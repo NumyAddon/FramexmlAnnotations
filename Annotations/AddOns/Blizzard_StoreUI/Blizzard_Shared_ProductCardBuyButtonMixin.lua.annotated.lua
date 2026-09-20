@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardBuyButtonMixin.lua#L87)
---- @class LargeProductCardBuyButtonMixin : ProductCardBuyButtonMixin
+ --- @class LargeProductCardBuyButtonMixin : ProductCardBuyButtonMixin
 LargeProductCardBuyButtonMixin = CreateFromMixins(ProductCardBuyButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardBuyButtonMixin.lua#L99)
---- @class StoreBuyButtonMixin : StoreButtonMixin
+ --- @class StoreBuyButtonMixin : StoreButtonMixin
 StoreBuyButtonMixin = CreateFromMixins(StoreButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardBuyButtonMixin.lua#L113)
---- @class StoreNydusLinkButtonMixin : StoreButtonMixin
+ --- @class StoreNydusLinkButtonMixin : StoreButtonMixin
 StoreNydusLinkButtonMixin = CreateFromMixins(StoreButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardBuyButtonMixin.lua#L4)
---- @class ProductCardBuyButtonMixin
+ --- @class ProductCardBuyButtonMixin
 ProductCardBuyButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardBuyButtonMixin.lua#L6)

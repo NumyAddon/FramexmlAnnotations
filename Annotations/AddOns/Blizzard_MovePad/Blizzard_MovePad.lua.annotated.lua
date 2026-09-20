@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L1)
---- @class MovePadMixin
+ --- @class MovePadMixin
 MovePadMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L106)
---- @class MovePadCheckboxMixin
+ --- @class MovePadCheckboxMixin
 MovePadCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L150)
---- @class MovePadForwardMixin
+ --- @class MovePadForwardMixin
 MovePadForwardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L156)
---- @class MovePadBackwardMixin
+ --- @class MovePadBackwardMixin
 MovePadBackwardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L162)
---- @class MovePadRotateLeftMixin
+ --- @class MovePadRotateLeftMixin
 MovePadRotateLeftMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L170)
---- @class MovePadRotateRightMixin
+ --- @class MovePadRotateRightMixin
 MovePadRotateRightMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L178)
---- @class MovePadStrafeLeftMixin
+ --- @class MovePadStrafeLeftMixin
 MovePadStrafeLeftMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L184)
---- @class MovePadStrafeRightMixin
+ --- @class MovePadStrafeRightMixin
 MovePadStrafeRightMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L190)
---- @class MovePadJumpMixin
+ --- @class MovePadJumpMixin
 MovePadJumpMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.lua#L3)

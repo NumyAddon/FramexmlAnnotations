@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.lua#L37)
---- @class MajorFactionListMixin
+ --- @class MajorFactionListMixin
 MajorFactionListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.lua#L149)
---- @class MajorFactionButtonMixin
+ --- @class MajorFactionButtonMixin
 MajorFactionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.lua#L211)
---- @class MajorFactionButtonLockedStateMixin
+ --- @class MajorFactionButtonLockedStateMixin
 MajorFactionButtonLockedStateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.lua#L236)
---- @class MajorFactionButtonUnlockedStateMixin
+ --- @class MajorFactionButtonUnlockedStateMixin
 MajorFactionButtonUnlockedStateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.lua#L390)
---- @class MajorFactionRenownProgressBarMixin
+ --- @class MajorFactionRenownProgressBarMixin
 MajorFactionRenownProgressBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.lua#L406)
---- @class MajorFactionWatchFactionButtonMixin
+ --- @class MajorFactionWatchFactionButtonMixin
 MajorFactionWatchFactionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionsLandingTemplates.lua#L43)

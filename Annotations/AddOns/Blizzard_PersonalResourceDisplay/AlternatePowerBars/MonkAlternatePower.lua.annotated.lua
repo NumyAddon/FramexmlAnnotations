@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/MonkAlternatePower.lua#L4)
---- @class MonkAlternatePowerBarMixin
+ --- @class MonkAlternatePowerBarMixin
 MonkAlternatePowerBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/MonkAlternatePower.lua#L13)

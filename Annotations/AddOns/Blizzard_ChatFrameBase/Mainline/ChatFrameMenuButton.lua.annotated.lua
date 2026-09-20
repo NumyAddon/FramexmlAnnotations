@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrameMenuButton.lua#L13)
---- @class ChatFrameMenuButtonMixin
+ --- @class ChatFrameMenuButtonMixin
 ChatFrameMenuButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/ChatFrameMenuButton.lua#L15)

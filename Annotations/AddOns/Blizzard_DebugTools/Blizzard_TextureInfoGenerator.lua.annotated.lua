@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TextureInfoGenerator.lua#L51)
---- @class TextureInfoGeneratorMixin
+ --- @class TextureInfoGeneratorMixin
 TextureInfoGeneratorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_DebugTools/Blizzard_TextureInfoGenerator.lua#L53)

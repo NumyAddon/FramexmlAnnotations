@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L77)
---- @class SpellBookFrameMixin
+ --- @class SpellBookFrameMixin
 SpellBookFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L157)
---- @class SpellButtonMixin
+ --- @class SpellButtonMixin
 SpellButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L532)
---- @class CoreAbilitySpellMixin
+ --- @class CoreAbilitySpellMixin
 CoreAbilitySpellMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L79)

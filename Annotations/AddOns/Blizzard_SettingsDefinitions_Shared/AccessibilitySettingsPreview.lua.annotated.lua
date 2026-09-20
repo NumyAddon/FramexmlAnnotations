@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/AccessibilitySettingsPreview.lua#L1)
---- @class AccessibilitySettingsPreviewMixin
+ --- @class AccessibilitySettingsPreviewMixin
 AccessibilitySettingsPreviewMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/AccessibilitySettingsPreview.lua#L3)

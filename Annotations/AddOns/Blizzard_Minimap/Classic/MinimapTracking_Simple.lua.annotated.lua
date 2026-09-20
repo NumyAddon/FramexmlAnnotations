@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Classic/MinimapTracking_Simple.lua#L2)
---- @class MinimapTrackingSimpleMixin
+ --- @class MinimapTrackingSimpleMixin
 MinimapTrackingSimpleMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Minimap/Classic/MinimapTracking_Simple.lua#L4)

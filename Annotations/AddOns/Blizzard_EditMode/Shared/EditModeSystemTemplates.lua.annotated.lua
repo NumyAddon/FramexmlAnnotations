@@ -1,139 +1,139 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2730)
---- @class EditModeCooldownViewerSystemMixin : EditModeSystemMixin
+ --- @class EditModeCooldownViewerSystemMixin : EditModeSystemMixin
 EditModeCooldownViewerSystemMixin = CreateFromMixins(EditModeSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2926)
---- @class EditModeEncounterEventsSystemMixin : EditModeSystemMixin
+ --- @class EditModeEncounterEventsSystemMixin : EditModeSystemMixin
 EditModeEncounterEventsSystemMixin = CreateFromMixins(EditModeSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3234)
---- @class EditModeSystemSelectionMixin : EditModeSystemSelectionBaseMixin
+ --- @class EditModeSystemSelectionMixin : EditModeSystemSelectionBaseMixin
 EditModeSystemSelectionMixin = CreateFromMixins(EditModeSystemSelectionBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3241)
---- @class EditModeSystemSelectionDoubleLabelMixin : EditModeSystemSelectionBaseMixin
+ --- @class EditModeSystemSelectionDoubleLabelMixin : EditModeSystemSelectionBaseMixin
 EditModeSystemSelectionDoubleLabelMixin = CreateFromMixins(EditModeSystemSelectionBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3395)
---- @class EditModeDamageMeterSystemMixin : EditModeSystemMixin
+ --- @class EditModeDamageMeterSystemMixin : EditModeSystemMixin
 EditModeDamageMeterSystemMixin = CreateFromMixins(EditModeSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1)
---- @class EditModeSystemMixin
+ --- @class EditModeSystemMixin
 EditModeSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L928)
---- @class EditModeActionBarSystemMixin
+ --- @class EditModeActionBarSystemMixin
 EditModeActionBarSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1236)
---- @class EditModeUnitFrameSystemMixin
+ --- @class EditModeUnitFrameSystemMixin
 EditModeUnitFrameSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1609)
---- @class EditModeBossUnitFrameSystemMixin
+ --- @class EditModeBossUnitFrameSystemMixin
 EditModeBossUnitFrameSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1640)
---- @class EditModeArenaUnitFrameSystemMixin
+ --- @class EditModeArenaUnitFrameSystemMixin
 EditModeArenaUnitFrameSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1696)
---- @class EditModeMinimapSystemMixin
+ --- @class EditModeMinimapSystemMixin
 EditModeMinimapSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1734)
---- @class EditModeCastBarSystemMixin
+ --- @class EditModeCastBarSystemMixin
 EditModeCastBarSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1857)
---- @class EditModeEncounterBarSystemMixin
+ --- @class EditModeEncounterBarSystemMixin
 EditModeEncounterBarSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1864)
---- @class EditModeExtraAbilitiesSystemMixin
+ --- @class EditModeExtraAbilitiesSystemMixin
 EditModeExtraAbilitiesSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1873)
---- @class EditModeAuraFrameSystemMixin
+ --- @class EditModeAuraFrameSystemMixin
 EditModeAuraFrameSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2086)
---- @class EditModeTalkingHeadFrameSystemMixin
+ --- @class EditModeTalkingHeadFrameSystemMixin
 EditModeTalkingHeadFrameSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2095)
---- @class EditModeChatFrameSystemMixin
+ --- @class EditModeChatFrameSystemMixin
 EditModeChatFrameSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2198)
---- @class EditModeChatFrameResizeButtonMixin
+ --- @class EditModeChatFrameResizeButtonMixin
 EditModeChatFrameResizeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2217)
---- @class EditModeVehicleLeaveButtonSystemMixin
+ --- @class EditModeVehicleLeaveButtonSystemMixin
 EditModeVehicleLeaveButtonSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2234)
---- @class EditModeLootFrameSystemMixin
+ --- @class EditModeLootFrameSystemMixin
 EditModeLootFrameSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2256)
---- @class EditModeObjectiveTrackerSystemMixin
+ --- @class EditModeObjectiveTrackerSystemMixin
 EditModeObjectiveTrackerSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2345)
---- @class EditModeMicroMenuSystemMixin
+ --- @class EditModeMicroMenuSystemMixin
 EditModeMicroMenuSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2419)
---- @class EditModeBagsSystemMixin
+ --- @class EditModeBagsSystemMixin
 EditModeBagsSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2502)
---- @class EditModeStatusTrackingBarSystemMixin
+ --- @class EditModeStatusTrackingBarSystemMixin
 EditModeStatusTrackingBarSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2538)
---- @class EditModeStatusTrackingBar1SystemMixin
+ --- @class EditModeStatusTrackingBar1SystemMixin
 EditModeStatusTrackingBar1SystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2560)
---- @class EditModeDurabilityFrameSystemMixin
+ --- @class EditModeDurabilityFrameSystemMixin
 EditModeDurabilityFrameSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2600)
---- @class EditModePlayerFrameSystemMixin
+ --- @class EditModePlayerFrameSystemMixin
 EditModePlayerFrameSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2617)
---- @class EditModePetFrameSystemMixin
+ --- @class EditModePetFrameSystemMixin
 EditModePetFrameSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2630)
---- @class EditModeTimerBarsSystemMixin
+ --- @class EditModeTimerBarsSystemMixin
 EditModeTimerBarsSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2657)
---- @class EditModeVehicleSeatIndicatorSystemMixin
+ --- @class EditModeVehicleSeatIndicatorSystemMixin
 EditModeVehicleSeatIndicatorSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2684)
---- @class EditModeTotemActionBarSystemMixin
+ --- @class EditModeTotemActionBarSystemMixin
 EditModeTotemActionBarSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2703)
---- @class EditModeArchaeologyBarSystemMixin
+ --- @class EditModeArchaeologyBarSystemMixin
 EditModeArchaeologyBarSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3129)
---- @class EditModeSystemSelectionBaseMixin
+ --- @class EditModeSystemSelectionBaseMixin
 EditModeSystemSelectionBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3258)
---- @class EditModePersonalResourceDisplaySystemMixin
+ --- @class EditModePersonalResourceDisplaySystemMixin
 EditModePersonalResourceDisplaySystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3)

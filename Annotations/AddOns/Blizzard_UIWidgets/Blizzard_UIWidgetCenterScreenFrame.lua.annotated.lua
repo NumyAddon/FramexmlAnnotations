@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetCenterScreenFrame.lua#L1)
---- @class UIWidgetCenterScreenContainerMixin
+ --- @class UIWidgetCenterScreenContainerMixin
 UIWidgetCenterScreenContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetCenterScreenFrame.lua#L4)

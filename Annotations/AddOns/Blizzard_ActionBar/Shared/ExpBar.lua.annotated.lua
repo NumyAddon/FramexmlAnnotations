@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Shared/ExpBar.lua#L2)
---- @class ExpBarMixin
+ --- @class ExpBarMixin
 ExpBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Shared/ExpBar.lua#L111)
---- @class ExhaustionTickMixin
+ --- @class ExhaustionTickMixin
 ExhaustionTickMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Shared/ExpBar.lua#L4)

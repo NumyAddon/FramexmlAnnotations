@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/Vanilla/UnitPopupButtons.lua#L89)
---- @class UnitPopupDuelToTheDeathButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupDuelToTheDeathButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupDuelToTheDeathButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitPopup/Vanilla/UnitPopupButtons.lua#L91)

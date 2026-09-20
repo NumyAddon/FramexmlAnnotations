@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedListContentFrame.lua#L6)
---- @class BasePagedListContentFrameMixin : PagedContentFrameBaseMixin
+ --- @class BasePagedListContentFrameMixin : PagedContentFrameBaseMixin
 BasePagedListContentFrameMixin = CreateFromMixins(PagedContentFrameBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedListContentFrame.lua#L52)
---- @class PagedVerticalListContentFrameMixin : BasePagedListContentFrameMixin
+ --- @class PagedVerticalListContentFrameMixin : BasePagedListContentFrameMixin
 PagedVerticalListContentFrameMixin = CreateFromMixins(BasePagedListContentFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedListContentFrame.lua#L87)
---- @class PagedHorizontalListContentFrameMixin : BasePagedListContentFrameMixin
+ --- @class PagedHorizontalListContentFrameMixin : BasePagedListContentFrameMixin
 PagedHorizontalListContentFrameMixin = CreateFromMixins(BasePagedListContentFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedListContentFrame.lua#L8)

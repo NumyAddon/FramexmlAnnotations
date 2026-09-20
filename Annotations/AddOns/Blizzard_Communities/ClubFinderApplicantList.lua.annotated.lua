@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L43)
---- @class ClubFinderApplicantEntryMixin
+ --- @class ClubFinderApplicantEntryMixin
 ClubFinderApplicantEntryMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L252)
---- @class ClubFinderApplicantListMixin
+ --- @class ClubFinderApplicantListMixin
 ClubFinderApplicantListMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L508)
---- @class ClubFinderApplicantInviteButtonMixin
+ --- @class ClubFinderApplicantInviteButtonMixin
 ClubFinderApplicantInviteButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L570)
---- @class ClubFinderApplicantCancelButtonMixin
+ --- @class ClubFinderApplicantCancelButtonMixin
 ClubFinderApplicantCancelButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/ClubFinderApplicantList.lua#L45)

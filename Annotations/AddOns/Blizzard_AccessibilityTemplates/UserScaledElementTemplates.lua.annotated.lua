@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AccessibilityTemplates/UserScaledElementTemplates.lua#L1)
---- @class UserScaledElementMixin
+ --- @class UserScaledElementMixin
 UserScaledElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AccessibilityTemplates/UserScaledElementTemplates.lua#L3)

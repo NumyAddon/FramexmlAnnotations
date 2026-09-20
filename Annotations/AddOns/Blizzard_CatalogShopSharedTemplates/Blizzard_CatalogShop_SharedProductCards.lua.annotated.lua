@@ -1,43 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.lua#L632)
---- @class HearthsteelVFX_L_Mixin : HearthsteelVFXBaseMixin
+ --- @class HearthsteelVFX_L_Mixin : HearthsteelVFXBaseMixin
 HearthsteelVFX_L_Mixin = CreateFromMixins(HearthsteelVFXBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.lua#L645)
---- @class HearthsteelVFX_XL_Mixin : HearthsteelVFXBaseMixin
+ --- @class HearthsteelVFX_XL_Mixin : HearthsteelVFXBaseMixin
 HearthsteelVFX_XL_Mixin = CreateFromMixins(HearthsteelVFXBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.lua#L663)
---- @class HearthsteelVFX_XXL_Mixin : HearthsteelVFXBaseMixin
+ --- @class HearthsteelVFX_XXL_Mixin : HearthsteelVFXBaseMixin
 HearthsteelVFX_XXL_Mixin = CreateFromMixins(HearthsteelVFXBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.lua#L30)
---- @class InvisibleMouseOverFrameMixin
+ --- @class InvisibleMouseOverFrameMixin
 InvisibleMouseOverFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.lua#L39)
---- @class CatalogShopDefaultProductCardMixin
+ --- @class CatalogShopDefaultProductCardMixin
 CatalogShopDefaultProductCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.lua#L317)
---- @class SmallCatalogShopProductCardMixin
+ --- @class SmallCatalogShopProductCardMixin
 SmallCatalogShopProductCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.lua#L408)
---- @class SmallCatalogShopHousingCurrencyCardMixin
+ --- @class SmallCatalogShopHousingCurrencyCardMixin
 SmallCatalogShopHousingCurrencyCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.lua#L505)
---- @class EmbeddedPurchaseButtonMixin
+ --- @class EmbeddedPurchaseButtonMixin
 EmbeddedPurchaseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.lua#L512)
---- @class WideCatalogShopProductCardMixin
+ --- @class WideCatalogShopProductCardMixin
 WideCatalogShopProductCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.lua#L610)
---- @class HearthsteelVFXBaseMixin
+ --- @class HearthsteelVFXBaseMixin
 HearthsteelVFXBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.lua#L31)

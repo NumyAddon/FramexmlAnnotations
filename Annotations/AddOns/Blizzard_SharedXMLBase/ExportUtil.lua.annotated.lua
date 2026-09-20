@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXMLBase/ExportUtil.lua#L91)
---- @class ExportDataStreamMixin
+ --- @class ExportDataStreamMixin
 ExportDataStreamMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXMLBase/ExportUtil.lua#L105)
---- @class ImportDataStreamMixin
+ --- @class ImportDataStreamMixin
 ImportDataStreamMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXMLBase/ExportUtil.lua#L93)

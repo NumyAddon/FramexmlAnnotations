@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1538)
---- @class GuildMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
+ --- @class GuildMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
 GuildMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1647)
---- @class CommunityMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
+ --- @class CommunityMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
 CommunityMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L195)
---- @class CommunitiesMemberListMixin
+ --- @class CommunitiesMemberListMixin
 CommunitiesMemberListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L925)
---- @class CommunitiesMemberListEntryMixin
+ --- @class CommunitiesMemberListEntryMixin
 CommunitiesMemberListEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1511)
---- @class CommunitiesFrameMemberListDropdownMixin
+ --- @class CommunitiesFrameMemberListDropdownMixin
 CommunitiesFrameMemberListDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1754)
---- @class CommunitiesMemberListFactionButtonMixin
+ --- @class CommunitiesMemberListFactionButtonMixin
 CommunitiesMemberListFactionButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L197)

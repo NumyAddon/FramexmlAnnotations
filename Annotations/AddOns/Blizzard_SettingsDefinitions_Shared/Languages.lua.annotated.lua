@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L97)
---- @class SettingsLanguageDropdownControlMixin : BaseLanguageDropdownControlMixin
+ --- @class SettingsLanguageDropdownControlMixin : BaseLanguageDropdownControlMixin
 SettingsLanguageDropdownControlMixin = CreateFromMixins(BaseLanguageDropdownControlMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L99)
---- @class SettingsAudioLocaleDropdownMixin : BaseLanguageDropdownControlMixin
+ --- @class SettingsAudioLocaleDropdownMixin : BaseLanguageDropdownControlMixin
 SettingsAudioLocaleDropdownMixin = CreateFromMixins(BaseLanguageDropdownControlMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L116)
---- @class LanguageRestartNeededMixin : SettingsListElementMixin
+ --- @class LanguageRestartNeededMixin : SettingsListElementMixin
 LanguageRestartNeededMixin = CreateFromMixins(SettingsListElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L38)
---- @class SettingsLanguageDropdownMixin
+ --- @class SettingsLanguageDropdownMixin
 SettingsLanguageDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L89)
---- @class BaseLanguageDropdownControlMixin
+ --- @class BaseLanguageDropdownControlMixin
 BaseLanguageDropdownControlMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L40)

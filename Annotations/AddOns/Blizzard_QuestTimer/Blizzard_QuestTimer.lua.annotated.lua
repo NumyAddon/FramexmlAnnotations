@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L1)
---- @class QuestTimerMixin
+ --- @class QuestTimerMixin
 QuestTimerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L50)
---- @class QuestTimerButtonMixin
+ --- @class QuestTimerButtonMixin
 QuestTimerButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L3)

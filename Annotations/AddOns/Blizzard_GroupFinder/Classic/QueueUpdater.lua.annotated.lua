@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/QueueUpdater.lua#L1)
---- @class QueueUpdaterMixin
+ --- @class QueueUpdaterMixin
 QueueUpdaterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/QueueUpdater.lua#L3)

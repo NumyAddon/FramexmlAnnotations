@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Shared/ExtraAbilityContainer.lua#L6)
---- @class ExtraAbilityContainerMixin
+ --- @class ExtraAbilityContainerMixin
 ExtraAbilityContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Shared/ExtraAbilityContainer.lua#L8)

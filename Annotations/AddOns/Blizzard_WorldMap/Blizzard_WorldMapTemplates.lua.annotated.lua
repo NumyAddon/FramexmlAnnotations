@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L1)
---- @class WorldMapFloorNavigationFrameMixin
+ --- @class WorldMapFloorNavigationFrameMixin
 WorldMapFloorNavigationFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L43)
---- @class WorldMapTrackingOptionsButtonMixin
+ --- @class WorldMapTrackingOptionsButtonMixin
 WorldMapTrackingOptionsButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L120)
---- @class WorldMapNavBarMixin
+ --- @class WorldMapNavBarMixin
 WorldMapNavBarMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L166)
---- @class WorldMapNavBarButtonMixin
+ --- @class WorldMapNavBarButtonMixin
 WorldMapNavBarButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L190)
---- @class WorldMapSidePanelToggleMixin
+ --- @class WorldMapSidePanelToggleMixin
 WorldMapSidePanelToggleMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L207)
---- @class WorldMapZoneTimerMixin
+ --- @class WorldMapZoneTimerMixin
 WorldMapZoneTimerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.lua#L3)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L3)
---- @class NamePlatePreviewMixin
+ --- @class NamePlatePreviewMixin
 NamePlatePreviewMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L843)
---- @class NamePlatesTutorialMixin
+ --- @class NamePlatesTutorialMixin
 NamePlatesTutorialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L5)

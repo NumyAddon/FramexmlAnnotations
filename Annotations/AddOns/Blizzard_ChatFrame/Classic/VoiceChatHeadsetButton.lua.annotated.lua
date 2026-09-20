@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/VoiceChatHeadsetButton.lua#L1)
---- @class VoiceChatDotsMixin
+ --- @class VoiceChatDotsMixin
 VoiceChatDotsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/VoiceChatHeadsetButton.lua#L21)
---- @class VoiceChatHeadsetButtonMixin
+ --- @class VoiceChatHeadsetButtonMixin
 VoiceChatHeadsetButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/VoiceChatHeadsetButton.lua#L267)
---- @class VoiceChatHeadsetMixin
+ --- @class VoiceChatHeadsetMixin
 VoiceChatHeadsetMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/VoiceChatHeadsetButton.lua#L3)

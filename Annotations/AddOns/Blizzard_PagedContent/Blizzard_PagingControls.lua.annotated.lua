@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua#L6)
---- @class PagingControlsMixin
+ --- @class PagingControlsMixin
 PagingControlsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua#L8)

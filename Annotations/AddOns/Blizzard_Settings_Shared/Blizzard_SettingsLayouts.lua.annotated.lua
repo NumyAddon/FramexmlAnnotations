@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L17)
---- @class SettingsVerticalLayoutMixin : SettingsLayoutMixin
+ --- @class SettingsVerticalLayoutMixin : SettingsLayoutMixin
 SettingsVerticalLayoutMixin = CreateFromMixins(SettingsLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L61)
---- @class SettingsCanvasLayoutMixin : SettingsLayoutMixin
+ --- @class SettingsCanvasLayoutMixin : SettingsLayoutMixin
 SettingsCanvasLayoutMixin = CreateFromMixins(SettingsLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L1)
---- @class SettingsLayoutMixin
+ --- @class SettingsLayoutMixin
 SettingsLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L5)

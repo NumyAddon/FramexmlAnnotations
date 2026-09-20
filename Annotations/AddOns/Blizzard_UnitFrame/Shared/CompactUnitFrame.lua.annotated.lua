@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua#L2129)
---- @class CompactDebuffMixin : CompactAuraTooltipMixin
+ --- @class CompactDebuffMixin : CompactAuraTooltipMixin
 CompactDebuffMixin = CreateFromMixins(CompactAuraTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua#L2139)
---- @class CompactBuffMixin : CompactAuraTooltipMixin
+ --- @class CompactBuffMixin : CompactAuraTooltipMixin
 CompactBuffMixin = CreateFromMixins(CompactAuraTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua#L2225)
---- @class CompactUnitIndividualPrivateAuraAnchorMixin : PrivateAuraAnchorSettingsContainerMixin
+ --- @class CompactUnitIndividualPrivateAuraAnchorMixin : PrivateAuraAnchorSettingsContainerMixin
 CompactUnitIndividualPrivateAuraAnchorMixin = CreateFromMixins(PrivateAuraAnchorSettingsContainerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua#L2296)
---- @class BasePrivateAuraBehaviorMixin : PrivateAuraAnchorSettingsContainerMixin
+ --- @class BasePrivateAuraBehaviorMixin : PrivateAuraAnchorSettingsContainerMixin
 BasePrivateAuraBehaviorMixin = CreateFromMixins(PrivateAuraAnchorSettingsContainerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua#L2304)
---- @class ContainerPrivateAuraBehaviorMixin : BasePrivateAuraBehaviorMixin, CompactUnitIndividualPrivateAuraAnchorMixin
+ --- @class ContainerPrivateAuraBehaviorMixin : BasePrivateAuraBehaviorMixin, CompactUnitIndividualPrivateAuraAnchorMixin
 ContainerPrivateAuraBehaviorMixin = CreateFromMixins(BasePrivateAuraBehaviorMixin, CompactUnitIndividualPrivateAuraAnchorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua#L2106)
---- @class CompactAuraTooltipMixin
+ --- @class CompactAuraTooltipMixin
 CompactAuraTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua#L2145)
---- @class CompactUnitFrameCenterStatusIconMixin
+ --- @class CompactUnitFrameCenterStatusIconMixin
 CompactUnitFrameCenterStatusIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua#L2166)
---- @class CompactUnitFrameReadyCheckMixin
+ --- @class CompactUnitFrameReadyCheckMixin
 CompactUnitFrameReadyCheckMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua#L2183)
---- @class PrivateAuraAnchorSettingsContainerMixin
+ --- @class PrivateAuraAnchorSettingsContainerMixin
 PrivateAuraAnchorSettingsContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua#L2108)

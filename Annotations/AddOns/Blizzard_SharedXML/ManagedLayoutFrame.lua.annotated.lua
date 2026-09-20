@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ManagedLayoutFrame.lua#L2)
---- @class ManagedLayoutFrameMixin
+ --- @class ManagedLayoutFrameMixin
 ManagedLayoutFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ManagedLayoutFrame.lua#L37)
---- @class ContentFrameMixin
+ --- @class ContentFrameMixin
 ContentFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ManagedLayoutFrame.lua#L4)

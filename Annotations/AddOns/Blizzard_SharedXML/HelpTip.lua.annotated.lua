@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/HelpTip.lua#L348)
---- @class HelpTipCloseButtonMixin : ButtonStateBehaviorMixin
+ --- @class HelpTipCloseButtonMixin : ButtonStateBehaviorMixin
 HelpTipCloseButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/HelpTip.lua#L362)
---- @class HelpTipTemplateMixin
+ --- @class HelpTipTemplateMixin
 HelpTipTemplateMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/HelpTip.lua#L350)

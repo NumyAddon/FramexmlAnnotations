@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L3)
---- @class NamePlateHealthBarMixin : TextStatusBarMixin, NamePlateComponentMixin
+ --- @class NamePlateHealthBarMixin : TextStatusBarMixin, NamePlateComponentMixin
 NamePlateHealthBarMixin = CreateFromMixins(TextStatusBarMixin, NamePlateComponentMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L5)

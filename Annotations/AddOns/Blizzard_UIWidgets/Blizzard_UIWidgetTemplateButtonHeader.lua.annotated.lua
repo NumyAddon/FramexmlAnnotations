@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateButtonHeader.lua#L10)
---- @class UIWidgetTemplateButtonHeaderMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateButtonHeaderMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateButtonHeaderMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateButtonHeader.lua#L16)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/UnitPositionFrameTemplates.lua#L81)
---- @class UnitPositionFrameMixin
+ --- @class UnitPositionFrameMixin
 UnitPositionFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/UnitPositionFrameTemplates.lua#L348)
---- @class UnitPositionFrameUpdateSecureMixin
+ --- @class UnitPositionFrameUpdateSecureMixin
 UnitPositionFrameUpdateSecureMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/UnitPositionFrameTemplates.lua#L83)

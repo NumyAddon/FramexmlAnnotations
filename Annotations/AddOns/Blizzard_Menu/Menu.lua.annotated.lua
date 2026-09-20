@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Menu/Menu.lua#L10)
---- @class ProxyConvertablePrivateMixin : ProxyConvertableMixin
+ --- @class ProxyConvertablePrivateMixin : ProxyConvertableMixin
 ProxyConvertablePrivateMixin = CreateFromMixins(ProxyConvertableMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Menu/Menu.lua#L109)
---- @class SharedMenuPropertiesMixin
+ --- @class SharedMenuPropertiesMixin
 SharedMenuPropertiesMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Menu/Menu.lua#L112)

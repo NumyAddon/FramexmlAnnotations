@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L18)
---- @class BattlefieldMapTabMixin
+ --- @class BattlefieldMapTabMixin
 BattlefieldMapTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L129)
---- @class BattlefieldMapMixin
+ --- @class BattlefieldMapMixin
 BattlefieldMapMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L20)

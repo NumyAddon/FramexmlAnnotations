@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L2)
---- @class ScriptAnimatedEffectControllerMixin
+ --- @class ScriptAnimatedEffectControllerMixin
 ScriptAnimatedEffectControllerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L4)

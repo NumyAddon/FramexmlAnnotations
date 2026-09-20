@@ -143,7 +143,7 @@ function InspectTalentFrame_OnEvent(self, event, ...)
 	end
 end
 
-InspectTalentFrameTabMixin = {};--- @class InspectTalentFrameTabMixin
+InspectTalentFrameTabMixin = {}; --- @class InspectTalentFrameTabMixin
 
 function InspectTalentFrameTabMixin:OnClick()
 	PanelTemplates_Tab_OnClick(self, InspectTalentFrame);

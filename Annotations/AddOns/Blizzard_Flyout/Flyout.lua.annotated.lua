@@ -4,7 +4,7 @@ local FlyoutPopupEvent_Hidden = "FlyoutPopupEvent.Hidden";
 -- FlyoutButtonMixin is the button used to toggle on and off a FlyoutPopupMixin.
 -- It controls the state of an arrow that indicates whether the Popup is open or not.
 
-FlyoutButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class FlyoutButtonMixin : ButtonStateBehaviorMixin
+FlyoutButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class FlyoutButtonMixin : ButtonStateBehaviorMixin
 
 function FlyoutButtonMixin:OnLoad()
 	ButtonStateBehaviorMixin.OnLoad(self);
@@ -204,7 +204,7 @@ end
 -- It contains a set of FlyoutPopupButtonMixin as children.
 -- It is responsible for positioning itself relative to the FlyoutButtonMixin and updating its background.
 
-FlyoutPopupMixin = {};--- @class FlyoutPopupMixin
+FlyoutPopupMixin = {}; --- @class FlyoutPopupMixin
 
 function FlyoutPopupMixin:IsAttachedToButton(flyoutButton)
 	return self.flyoutButton == flyoutButton;
@@ -349,7 +349,7 @@ end
 -- FlyoutPopupButtonMixin is for buttons that are children of a FlyoutPopupMixin.
 -- Derived Mixins should call FlyoutPopupButton_OnClick so the popup is closed when the button is clicked.
 
-FlyoutPopupButtonMixin = {};--- @class FlyoutPopupButtonMixin
+FlyoutPopupButtonMixin = {}; --- @class FlyoutPopupButtonMixin
 
 function FlyoutPopupButtonMixin:SetPopup(popup)
 	assertsafe(not self.poup or self.popup == popup, "Setting a different popup on a FlyoutPopupButton. Possible setup error.");

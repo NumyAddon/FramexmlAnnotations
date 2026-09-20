@@ -40,9 +40,9 @@ function IconDataProvider_GetAllIconTypes()
 	return iconTypeValues;
 end
 
-IconDataProviderMixin = {};--- @class IconDataProviderMixin
+IconDataProviderMixin = {}; --- @class IconDataProviderMixin
 
-IconDataProviderIconType = EnumUtil.MakeEnum(--- @type {["Spell"]: 1, ["Item"]: 2} See [IconDataProviderIconType](lua://IconDataProviderIconType)
+IconDataProviderIconType = EnumUtil.MakeEnum( --- @type {["Spell"]: 1, ["Item"]: 2} # See [IconDataProviderIconType](lua://IconDataProviderIconType)
 	"Spell",
 	"Item"
 );

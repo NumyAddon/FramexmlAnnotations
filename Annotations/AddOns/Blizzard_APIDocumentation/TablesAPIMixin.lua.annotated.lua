@@ -1,4 +1,4 @@
-TablesAPIMixin = CreateFromMixins(BaseAPIMixin);--- @class TablesAPIMixin : BaseAPIMixin
+TablesAPIMixin = CreateFromMixins(BaseAPIMixin); --- @class TablesAPIMixin : BaseAPIMixin
 
 function TablesAPIMixin:GetParentName()
 	if self.System then

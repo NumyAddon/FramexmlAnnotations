@@ -1,4 +1,4 @@
-NewFeatureLabelMixin = {};--- @class NewFeatureLabelMixin
+NewFeatureLabelMixin = {}; --- @class NewFeatureLabelMixin
 
 function NewFeatureLabelMixin:OnLoad()
 	self.BGLabel:SetTextToFit(self.label);

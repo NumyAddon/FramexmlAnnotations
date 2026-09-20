@@ -1015,7 +1015,7 @@ function QuestInfoRewardItemCodeTemplate_OnClick(self, button)
 	end
 end
 
-QuestInfoRewardSpellCodeMixin = {};--- @class QuestInfoRewardSpellCodeMixin
+QuestInfoRewardSpellCodeMixin = {}; --- @class QuestInfoRewardSpellCodeMixin
 
 function QuestInfoRewardSpellCodeMixin:OnEnter()
 	local isPet = nil;

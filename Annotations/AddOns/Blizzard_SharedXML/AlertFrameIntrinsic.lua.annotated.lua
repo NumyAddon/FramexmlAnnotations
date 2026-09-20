@@ -1,5 +1,5 @@
 -- [[ ContainedAlertFrameMixin ]] --
-ContainedAlertFrameMixin = {};--- @class ContainedAlertFrameMixin
+ContainedAlertFrameMixin = {}; --- @class ContainedAlertFrameMixin
 
 function ContainedAlertFrameMixin:OnPostShow()
 	self:OnManagedAlertFrameVisibilityChanged();

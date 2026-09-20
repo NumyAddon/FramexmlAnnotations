@@ -579,7 +579,7 @@ function UnitFrameHealthBar_OnEvent(self, event, ...)
 	end
 end
 
-AnimatedHealthLossMixin = {};--- @class AnimatedHealthLossMixin
+AnimatedHealthLossMixin = {}; --- @class AnimatedHealthLossMixin
 
 function AnimatedHealthLossMixin:OnLoad()
 	self:SetStatusBarColor(1, 0, 0, 1);

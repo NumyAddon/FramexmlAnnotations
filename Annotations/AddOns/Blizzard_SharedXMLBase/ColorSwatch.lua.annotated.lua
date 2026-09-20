@@ -1,4 +1,4 @@
-ColorSwatchMixin = {}--- @class ColorSwatchMixin
+ColorSwatchMixin = {} --- @class ColorSwatchMixin
 
 function ColorSwatchMixin:SetColor(color)
 	self.Color:SetVertexColor(color:GetRGB());

@@ -1,4 +1,4 @@
-WorldMapMixin = {};--- @class WorldMapMixin
+WorldMapMixin = {}; --- @class WorldMapMixin
 
 -- Moved from QuestLogOwnerMixin.
 function WorldMapMixin:HandleUserActionToggleSelf()

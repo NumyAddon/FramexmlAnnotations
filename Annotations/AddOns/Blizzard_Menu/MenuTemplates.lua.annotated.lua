@@ -515,7 +515,7 @@ function MenuTemplates.AttachTexture(parent, textureOrAtlas, point, pointX, poin
 	return iconTexture;
 end
 
-DropdownTextMixin = {};--- @class DropdownTextMixin
+DropdownTextMixin = {}; --- @class DropdownTextMixin
 
 function DropdownTextMixin:OnLoad()
 	if self.text then
@@ -567,7 +567,7 @@ An initializer wrapping DropdownButtonMixin.SetupMenu is not provided because in
 the displayed text will reflect at least 1 selected option. SetDefaultText() should be used to provide text
 in the cases where no selection is possible.
 ]]--
-DropdownSelectionTextMixin = CreateFromMixins(DropdownTextMixin);--- @class DropdownSelectionTextMixin : DropdownTextMixin
+DropdownSelectionTextMixin = CreateFromMixins(DropdownTextMixin); --- @class DropdownSelectionTextMixin : DropdownTextMixin
 
 local function DefaultSelectionTranslator(selection)
 	return MenuUtil.GetElementText(selection);
@@ -687,7 +687,7 @@ end
 
 -- Inherited by dropdown buttons that require the reset button behavior. The reset button
 -- needs to be defined/created prior to the OnLoad call.
-WowDropdownFilterBehaviorMixin = {};--- @class WowDropdownFilterBehaviorMixin
+WowDropdownFilterBehaviorMixin = {}; --- @class WowDropdownFilterBehaviorMixin
 
 function WowDropdownFilterBehaviorMixin:OnLoad()
 	self.ResetButton:SetScript("OnClick", function(button, buttonName, down)
@@ -747,7 +747,7 @@ function WowDropdownFilterBehaviorMixin:OnMenuAssigned()
 	self:ValidateResetState();
 end
 
-WowFilterButtonMixin = CreateFromMixins(WowDropdownFilterBehaviorMixin);--- @class WowFilterButtonMixin : WowDropdownFilterBehaviorMixin
+WowFilterButtonMixin = CreateFromMixins(WowDropdownFilterBehaviorMixin); --- @class WowFilterButtonMixin : WowDropdownFilterBehaviorMixin
 
 function WowFilterButtonMixin:OnMenuResponse(menu, description)
 	DropdownButtonMixin.OnMenuResponse(self, menu, description);
@@ -759,7 +759,7 @@ function WowFilterButtonMixin:OnMenuAssigned()
 	WowDropdownFilterBehaviorMixin.OnMenuAssigned(self);
 end
 
-WowStyle1DropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownSelectionTextMixin);--- @class WowStyle1DropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin
+WowStyle1DropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownSelectionTextMixin); --- @class WowStyle1DropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin
 
 function WowStyle1DropdownMixin:OnLoad()
 	ValidateIsDropdownButtonIntrinsic(self);
@@ -782,7 +782,7 @@ end
 The standard "filter" dropdown style. Its text does not reflect the selected option(s) and
 instead is generally initialized to fixed text.
 ]]--
-WowStyle1FilterDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownTextMixin, WowFilterButtonMixin);--- @class WowStyle1FilterDropdownMixin : ButtonStateBehaviorMixin, DropdownTextMixin, WowFilterButtonMixin
+WowStyle1FilterDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownTextMixin, WowFilterButtonMixin); --- @class WowStyle1FilterDropdownMixin : ButtonStateBehaviorMixin, DropdownTextMixin, WowFilterButtonMixin
 
 function WowStyle1FilterDropdownMixin:OnLoad()
 	ValidateIsDropdownButtonIntrinsic(self);
@@ -838,7 +838,7 @@ A special style used in Settings and Character Creation/Customization. Note that
 contents (color swatches, icons, etc.) are not defined here but are instead added as a child
 within this template. See "WowStyle2DropdownTemplate" in Blizzard_CharacterCustomize.xml.
 ]]--
-WowStyle2DropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownSelectionTextMixin, WowFilterButtonMixin);--- @class WowStyle2DropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin, WowFilterButtonMixin
+WowStyle2DropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownSelectionTextMixin, WowFilterButtonMixin); --- @class WowStyle2DropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin, WowFilterButtonMixin
 
 function WowStyle2DropdownMixin:OnLoad()
 	ButtonStateBehaviorMixin.OnLoad(self);
@@ -898,7 +898,7 @@ function WowStyle2DropdownMixin:OnMenuClosed(menu, closeReason)
 	self:OnButtonStateChanged();
 end
 
-WowStyle1ArrowDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class WowStyle1ArrowDropdownMixin : ButtonStateBehaviorMixin
+WowStyle1ArrowDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class WowStyle1ArrowDropdownMixin : ButtonStateBehaviorMixin
 
 function WowStyle1ArrowDropdownMixin:OnLoad()
 	ValidateIsDropdownButtonIntrinsic(self);
@@ -906,7 +906,7 @@ function WowStyle1ArrowDropdownMixin:OnLoad()
 	DropdownButtonMixin.OnLoad(self);
 end
 
-MenuStyleMixin = {};--- @class MenuStyleMixin
+MenuStyleMixin = {}; --- @class MenuStyleMixin
 
 function MenuStyleMixin:Generate()
 	local texture = self:AttachTexture();
@@ -943,7 +943,7 @@ do
 end
 
 -- Test purposes only.
-RandomColorStyleMenuMixin = CreateFromMixins(MenuStyleMixin);--- @class RandomColorStyleMenuMixin : MenuStyleMixin
+RandomColorStyleMenuMixin = CreateFromMixins(MenuStyleMixin); --- @class RandomColorStyleMenuMixin : MenuStyleMixin
 
 function RandomColorStyleMenuMixin:Generate()
 	local texture = self:AttachTexture();
@@ -954,7 +954,7 @@ function RandomColorStyleMenuMixin:Generate()
 	texture:SetColorTexture(r, g, b, 1);
 end
 
-BlackColorStyleMenuMixin = CreateFromMixins(MenuStyleMixin);--- @class BlackColorStyleMenuMixin : MenuStyleMixin
+BlackColorStyleMenuMixin = CreateFromMixins(MenuStyleMixin); --- @class BlackColorStyleMenuMixin : MenuStyleMixin
 
 function BlackColorStyleMenuMixin:Generate()
 	local texture = self:AttachTexture();
@@ -963,7 +963,7 @@ function BlackColorStyleMenuMixin:Generate()
 	texture:SetColorTexture(0, 0, 0, 1);
 end
 
-MenuStyle2Mixin = CreateFromMixins(MenuStyleMixin);--- @class MenuStyle2Mixin : MenuStyleMixin
+MenuStyle2Mixin = CreateFromMixins(MenuStyleMixin); --- @class MenuStyle2Mixin : MenuStyleMixin
 
 function MenuStyle2Mixin:Generate()
 	local background = self:AttachTexture();
@@ -987,7 +987,7 @@ do
 end
 
 -- Accompanies the style of WowStyle2Dropdown
-WowStyle2IconButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class WowStyle2IconButtonMixin : ButtonStateBehaviorMixin
+WowStyle2IconButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class WowStyle2IconButtonMixin : ButtonStateBehaviorMixin
 
 function WowStyle2IconButtonMixin:OnLoad()
 	self:OnButtonStateChanged();

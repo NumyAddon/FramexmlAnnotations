@@ -23,7 +23,7 @@ end
 
 -- BNET toast
 
-BNToastMixin = {}--- @class BNToastMixin
+BNToastMixin = {} --- @class BNToastMixin
 
 function BNToastMixin:OnLoad()
 	self.BNToastEvents = {
@@ -295,7 +295,7 @@ end
 
 --This is used to track time played for an alert in Korea
 
-BNetTimeAlertMixin = {};--- @class BNetTimeAlertMixin
+BNetTimeAlertMixin = {}; --- @class BNetTimeAlertMixin
 
 function BNetTimeAlertMixin:OnLoad()
 	self:RegisterEvent("SESSION_TIME_ALERT");

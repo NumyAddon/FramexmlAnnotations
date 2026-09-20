@@ -3,7 +3,7 @@ local _, PrivateAuras = ...;
 local CUF_AURA_BOTTOM_OFFSET = 2;
 local BOSS_DEBUFF_SCALE_INCREASE = 1.5;
 
-local DispelOverlayOrientation = EnumUtil.MakeEnum(--- @type {["VerticalTopToBottom"]: 1, ["VerticalBottomToTop"]: 2, ["HorizontalLeftToRight"]: 3}
+local DispelOverlayOrientation = EnumUtil.MakeEnum( --- @type {["VerticalTopToBottom"]: 1, ["VerticalBottomToTop"]: 2, ["HorizontalLeftToRight"]: 3}
 	"VerticalTopToBottom",
 	"VerticalBottomToTop",
 	"HorizontalLeftToRight"
@@ -22,7 +22,7 @@ local PrivateAuraFramePool = CreateFramePool("FRAME", nil, "PrivateAuraTemplate"
 local PrivateAuraEventFramePool = CreateFramePool("FRAME", nil, "PrivateAuraUnitWatcherTemplate"); -- TODO: Maybe this isn't required, but something has to maintain a list
 local PrivateAuraDispelOverlayFramePool = CreateFramePool("Frame", nil, "CompactUnitFrameDispelOverlayTemplate");
 
-CompactDispelDebuffMixin = {}; -- CreateFromMixins(CompactAuraTooltipMixin);--- @class CompactDispelDebuffMixin
+CompactDispelDebuffMixin = {}; -- CreateFromMixins(CompactAuraTooltipMixin); --- @class CompactDispelDebuffMixin
 
 function CompactDispelDebuffMixin:OnEnter()
 	-- TODO: Implement OnEnter logic
@@ -38,7 +38,7 @@ function CompactDispelDebuffMixin:UpdateTooltip()
 end
 
 -- This is largely a modified copy of AuraButtonMixin
-PrivateAuraMixin = {};--- @class PrivateAuraMixin
+PrivateAuraMixin = {}; --- @class PrivateAuraMixin
 
 function PrivateAuraMixin:OnLoad()
 	self.Symbol:Hide();
@@ -274,7 +274,7 @@ end
 --
 
 local InboundFrameAPI = CopyTable(GetFrameMetatable().__index);
-local InboundContainerFrameMixin = {};--- @class InboundContainerFrameMixin
+local InboundContainerFrameMixin = {}; --- @class InboundContainerFrameMixin
 
 function InboundContainerFrameMixin:Init(containerFrame)
 	self[0] = rawget(containerFrame, 0);
@@ -302,7 +302,7 @@ end
 -- These can roughly be thought of as an entire CompactUnitFrame but for aura displays that need to remain entirely in the secure environment.
 --
 
-PrivateAuraAnchorContainerMixin = {};--- @class PrivateAuraAnchorContainerMixin
+PrivateAuraAnchorContainerMixin = {}; --- @class PrivateAuraAnchorContainerMixin
 
 function PrivateAuraAnchorContainerMixin:ReadContainerSettings()
 	local containerFrame = self:GetContainer();
@@ -1030,7 +1030,7 @@ function PrivateAuraAnchorContainerMixin:ClearBlockedAuras()
 	self.blockedAuras = {};
 end
 
-PrivateAuraAnchorSingleMixin = {};--- @class PrivateAuraAnchorSingleMixin
+PrivateAuraAnchorSingleMixin = {}; --- @class PrivateAuraAnchorSingleMixin
 
 function PrivateAuraAnchorSingleMixin:OnAnchorAdded(watcher)
 	self.watcher = watcher;
@@ -1327,7 +1327,7 @@ function RaidBossEmoteFrame_OnEvent(self, event, ...)  -- Private version overri
 	end
 end
 
-CompactUnitFrameDispelOverlayMixin = {};--- @class CompactUnitFrameDispelOverlayMixin
+CompactUnitFrameDispelOverlayMixin = {}; --- @class CompactUnitFrameDispelOverlayMixin
 
 function CompactUnitFrameDispelOverlayMixin:SetDispelType(dispelType, containerSettings)
 	AuraUtil.SetAuraBorderColor(self.Gradient, dispelType);

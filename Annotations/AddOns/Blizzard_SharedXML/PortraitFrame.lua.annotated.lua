@@ -1,5 +1,5 @@
 
-TitledPanelMixin = {};--- @class TitledPanelMixin
+TitledPanelMixin = {}; --- @class TitledPanelMixin
 
 function TitledPanelMixin:GetTitleText()
 	return self.TitleContainer.TitleText;
@@ -32,9 +32,9 @@ function TitledPanelMixin:SetTitleOffsets(leftOffset, rightOffset)
 	self.TitleContainer:SetPoint("TOPRIGHT", self, "TOPRIGHT", rightOffset or -24, -1);
 end
 
-DefaultPanelMixin = CreateFromMixins(TitledPanelMixin);--- @class DefaultPanelMixin : TitledPanelMixin
+DefaultPanelMixin = CreateFromMixins(TitledPanelMixin); --- @class DefaultPanelMixin : TitledPanelMixin
 
-PortraitFrameMixin = CreateFromMixins(TitledPanelMixin);--- @class PortraitFrameMixin : TitledPanelMixin
+PortraitFrameMixin = CreateFromMixins(TitledPanelMixin); --- @class PortraitFrameMixin : TitledPanelMixin
 
 function PortraitFrameMixin:GetPortrait()
 	return self.PortraitContainer.portrait;
@@ -120,7 +120,7 @@ do
 	end
 end
 
-PortraitFrameFlatBaseMixin = {};--- @class PortraitFrameFlatBaseMixin
+PortraitFrameFlatBaseMixin = {}; --- @class PortraitFrameFlatBaseMixin
 
 function PortraitFrameFlatBaseMixin:SetBackgroundColor(color)
 	if self.Bg then

@@ -1,4 +1,4 @@
-UnitPopupSliderMixin = {};--- @class UnitPopupSliderMixin
+UnitPopupSliderMixin = {}; --- @class UnitPopupSliderMixin
 
 function UnitPopupSliderMixin:OnEnter()
 	ExecuteFrameScript(self:GetParent(), "OnEnter");

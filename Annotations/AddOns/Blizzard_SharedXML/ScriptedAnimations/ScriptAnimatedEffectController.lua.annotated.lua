@@ -1,5 +1,5 @@
 
-ScriptAnimatedEffectControllerMixin = {};--- @class ScriptAnimatedEffectControllerMixin
+ScriptAnimatedEffectControllerMixin = {}; --- @class ScriptAnimatedEffectControllerMixin
 
 function ScriptAnimatedEffectControllerMixin:Init(modelScene, effectID, source, target, onEffectFinish, onEffectResolution, scaleMultiplier)
 	self.modelScene = modelScene;

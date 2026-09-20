@@ -1,4 +1,4 @@
-VoiceChatDotsMixin = {};--- @class VoiceChatDotsMixin
+VoiceChatDotsMixin = {}; --- @class VoiceChatDotsMixin
 
 function VoiceChatDotsMixin:OnLoad()
 	self:StopAnimation();
@@ -18,7 +18,7 @@ function VoiceChatDotsMixin:StopAnimation()
 	self.Dot3:SetAlpha(0);
 end
 
-VoiceChatHeadsetButtonMixin = {};--- @class VoiceChatHeadsetButtonMixin
+VoiceChatHeadsetButtonMixin = {}; --- @class VoiceChatHeadsetButtonMixin
 
 function VoiceChatHeadsetButtonMixin:OnLoad()
 	self:RegisterEvent("VOICE_CHAT_CHANNEL_JOINED");
@@ -264,7 +264,7 @@ function VoiceChatHeadsetButtonMixin:Update()
 	end
 end
 
-VoiceChatHeadsetMixin = {};--- @class VoiceChatHeadsetMixin
+VoiceChatHeadsetMixin = {}; --- @class VoiceChatHeadsetMixin
 
 function VoiceChatHeadsetMixin:SetCommunityInfo(...)
 	self.Button:SetCommunityInfo(...);

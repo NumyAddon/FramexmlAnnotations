@@ -3,7 +3,7 @@ local customOptions =
 	maxHealOverflowRatio = 1.0,
 };
 
-CommentatorNamePlateMixin = {}--- @class CommentatorNamePlateMixin
+CommentatorNamePlateMixin = {} --- @class CommentatorNamePlateMixin
 
 function CommentatorNamePlateMixin:OnLoad()
 	NamePlateUnitFrameMixin.OnLoad(self);

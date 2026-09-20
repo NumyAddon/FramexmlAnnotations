@@ -1,5 +1,5 @@
 
-LoopingSoundEffectMixin = {}--- @class LoopingSoundEffectMixin
+LoopingSoundEffectMixin = {} --- @class LoopingSoundEffectMixin
 
 function CreateLoopingSoundEffectEmitter(startingSound, loopingSound, endingSound, loopStartDelay, loopEndDelay, loopFadeTime)
 	local emitter = CreateFromMixins(LoopingSoundEffectMixin);

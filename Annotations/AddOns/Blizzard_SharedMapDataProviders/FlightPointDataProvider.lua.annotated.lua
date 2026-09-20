@@ -1,4 +1,4 @@
-FlightPointDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class FlightPointDataProviderMixin : MapCanvasDataProviderMixin
+FlightPointDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class FlightPointDataProviderMixin : MapCanvasDataProviderMixin
 
 function FlightPointDataProviderMixin:RemoveAllData()
 	self:GetMap():RemoveAllPinsByTemplate("FlightPointPinTemplate");

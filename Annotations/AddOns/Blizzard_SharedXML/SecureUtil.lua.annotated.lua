@@ -1,5 +1,5 @@
 -- Mix this into a FontString to have it keep trying smaller font objects until it stops truncating, or gets too small.
-ShrinkUntilTruncateFontStringMixin = {};--- @class ShrinkUntilTruncateFontStringMixin
+ShrinkUntilTruncateFontStringMixin = {}; --- @class ShrinkUntilTruncateFontStringMixin
 
 -- From largest to smallest
 function ShrinkUntilTruncateFontStringMixin:SetFontObjectsToTry(...)
@@ -48,7 +48,7 @@ end
 
 -- Mix this into a FontString to shrink text to fit the provided space without truncating by scaling it down until it fits or gets too small.
 -- If you're looking for a ShrinkToFit or ShrinkTextToFit mixin this is what you want.
-AutoScalingFontStringMixin = { }--- @class AutoScalingFontStringMixin
+AutoScalingFontStringMixin = { } --- @class AutoScalingFontStringMixin
 
 local DEFAULT_AUTO_SCALING_MIN_LINE_HEIGHT = 10;
 

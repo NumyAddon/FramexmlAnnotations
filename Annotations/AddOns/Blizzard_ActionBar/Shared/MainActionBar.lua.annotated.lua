@@ -1,6 +1,6 @@
 MAIN_MENU_BAR_MARGIN = 75;		-- number of art pixels on one side, used by UIParent_ManageFramePositions. It's not the art's full size, don't care about the gryphon's tail.
 
-MainActionBarMixin = {};--- @class MainActionBarMixin
+MainActionBarMixin = {}; --- @class MainActionBarMixin
 
 function MainActionBarMixin:OnLoad()
 	self:RegisterEvent("ACTIONBAR_PAGE_CHANGED");
@@ -128,7 +128,7 @@ function MainActionBarMixin:GetEndCapsFrameLevel()
 	return self.EndCaps:GetFrameLevel();
 end
 
-MainActionBarUpButtonMixin = {};--- @class MainActionBarUpButtonMixin
+MainActionBarUpButtonMixin = {}; --- @class MainActionBarUpButtonMixin
 
 function MainActionBarUpButtonMixin:OnClick()
 	if ( not KeybindFrames_InQuickKeybindMode() ) then
@@ -141,7 +141,7 @@ function MainActionBarUpButtonMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-MainActionBarDownButtonMixin = {};--- @class MainActionBarDownButtonMixin
+MainActionBarDownButtonMixin = {}; --- @class MainActionBarDownButtonMixin
 
 function MainActionBarDownButtonMixin:OnClick()
 	if ( not KeybindFrames_InQuickKeybindMode() ) then
@@ -156,7 +156,7 @@ end
 
 -- For arrow buttons that need to swap their textures between two styles.
 -- Currently used by Classic.
-MainActionBarSwappableButtonMixin = {};--- @class MainActionBarSwappableButtonMixin
+MainActionBarSwappableButtonMixin = {}; --- @class MainActionBarSwappableButtonMixin
 
 function MainActionBarSwappableButtonMixin:SwapToDefaultAtlas()
 	self:SetNormalAtlas(self:GetNormalTexture().defaultAtlas);

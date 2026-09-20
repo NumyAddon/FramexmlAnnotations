@@ -1,5 +1,5 @@
 
-ScrollBoxListTreeListViewMixin = CreateFromMixins(ScrollBoxListLinearViewMixin);--- @class ScrollBoxListTreeListViewMixin : ScrollBoxListLinearViewMixin
+ScrollBoxListTreeListViewMixin = CreateFromMixins(ScrollBoxListLinearViewMixin); --- @class ScrollBoxListTreeListViewMixin : ScrollBoxListLinearViewMixin
 
 function ScrollBoxListTreeListViewMixin:Init(indent, top, bottom, left, right, spacing)
 	ScrollBoxListLinearViewMixin.Init(self, top, bottom, left, right, spacing);

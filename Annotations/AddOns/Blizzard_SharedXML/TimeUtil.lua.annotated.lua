@@ -58,7 +58,7 @@ please consider if a prexisting formatter suits your needs, otherwise, before ad
 consider adding it to a file appropriate to it's intended use. For example, "WorldQuestsSecondsFormatter"
 could be added to QuestUtil.h so it's immediately apparent the scenarios the formatter is appropriate.]]
 
-SecondsFormatterMixin = {}--- @class SecondsFormatterMixin
+SecondsFormatterMixin = {} --- @class SecondsFormatterMixin
 -- defaultAbbreviation: the default abbreviation for the format. Can be overrridden in SecondsFormatterMixin:Format()
 -- approximationSeconds: threshold for representing the seconds as an approximation (ex. "< 2 hours").
 -- roundUpLastUnit: determines if the last unit in the output format string is ceiled (floored by default).

@@ -1,4 +1,4 @@
-PetTamerDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class PetTamerDataProviderMixin : MapCanvasDataProviderMixin
+PetTamerDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class PetTamerDataProviderMixin : MapCanvasDataProviderMixin
 
 function PetTamerDataProviderMixin:OnShow()
 	self:RegisterEvent("SPELLS_CHANGED");

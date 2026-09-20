@@ -2103,7 +2103,7 @@ function DefaultCompactMiniFrameSetup(frame)
 	frame.overHealAbsorbGlow:SetWidth(16);
 end
 
-CompactAuraTooltipMixin = {};--- @class CompactAuraTooltipMixin
+CompactAuraTooltipMixin = {}; --- @class CompactAuraTooltipMixin
 
 function CompactAuraTooltipMixin:UpdateTooltip()
 	-- Implement this
@@ -2126,7 +2126,7 @@ function CompactAuraTooltipMixin:OnLeave()
 	self:SetScript("OnUpdate", nil);
 end
 
-CompactDebuffMixin = CreateFromMixins(CompactAuraTooltipMixin);--- @class CompactDebuffMixin : CompactAuraTooltipMixin
+CompactDebuffMixin = CreateFromMixins(CompactAuraTooltipMixin); --- @class CompactDebuffMixin : CompactAuraTooltipMixin
 
 function CompactDebuffMixin:UpdateTooltip()
 	if ( self.isBossBuff ) then
@@ -2136,13 +2136,13 @@ function CompactDebuffMixin:UpdateTooltip()
 	end
 end
 
-CompactBuffMixin = CreateFromMixins(CompactAuraTooltipMixin);--- @class CompactBuffMixin : CompactAuraTooltipMixin
+CompactBuffMixin = CreateFromMixins(CompactAuraTooltipMixin); --- @class CompactBuffMixin : CompactAuraTooltipMixin
 
 function CompactBuffMixin:UpdateTooltip()
 	GameTooltip:SetUnitBuffByAuraInstanceID(self:GetParent().displayedUnit, self.auraInstanceID, self.filter);
 end
 
-CompactUnitFrameCenterStatusIconMixin = {};--- @class CompactUnitFrameCenterStatusIconMixin
+CompactUnitFrameCenterStatusIconMixin = {}; --- @class CompactUnitFrameCenterStatusIconMixin
 
 function CompactUnitFrameCenterStatusIconMixin:OnEnter()
 	if self.tooltip then
@@ -2163,7 +2163,7 @@ function CompactUnitFrameCenterStatusIconMixin:OnLeave()
 	return true; -- propagate to parent
 end
 
-CompactUnitFrameReadyCheckMixin = {};--- @class CompactUnitFrameReadyCheckMixin
+CompactUnitFrameReadyCheckMixin = {}; --- @class CompactUnitFrameReadyCheckMixin
 
 function CompactUnitFrameReadyCheckMixin:SetStatus(status)
 	if status == "ready" then
@@ -2180,7 +2180,7 @@ function CompactUnitFrameReadyCheckMixin:SetStatus(status)
 	end
 end
 
-PrivateAuraAnchorSettingsContainerMixin = {};--- @class PrivateAuraAnchorSettingsContainerMixin
+PrivateAuraAnchorSettingsContainerMixin = {}; --- @class PrivateAuraAnchorSettingsContainerMixin
 
 function PrivateAuraAnchorSettingsContainerMixin:SetBorderScale(borderScale)
 	self.borderScale = borderScale;
@@ -2222,7 +2222,7 @@ function PrivateAuraAnchorSettingsContainerMixin:GetPowerBarUsedHeight()
 	return self.powerBarUsedHeight or 0;
 end
 
-CompactUnitIndividualPrivateAuraAnchorMixin = CreateFromMixins(PrivateAuraAnchorSettingsContainerMixin);--- @class CompactUnitIndividualPrivateAuraAnchorMixin : PrivateAuraAnchorSettingsContainerMixin
+CompactUnitIndividualPrivateAuraAnchorMixin = CreateFromMixins(PrivateAuraAnchorSettingsContainerMixin); --- @class CompactUnitIndividualPrivateAuraAnchorMixin : PrivateAuraAnchorSettingsContainerMixin
 
 function CompactUnitIndividualPrivateAuraAnchorMixin:RemovePrivateAuraAnchor()
 	if self.anchorID then
@@ -2293,7 +2293,7 @@ function CompactUnitIndividualPrivateAuraAnchorMixin:SetPrivateAuraAnchorUnit(un
 	end
 end
 
-BasePrivateAuraBehaviorMixin = CreateFromMixins(PrivateAuraAnchorSettingsContainerMixin);--- @class BasePrivateAuraBehaviorMixin : PrivateAuraAnchorSettingsContainerMixin
+BasePrivateAuraBehaviorMixin = CreateFromMixins(PrivateAuraAnchorSettingsContainerMixin); --- @class BasePrivateAuraBehaviorMixin : PrivateAuraAnchorSettingsContainerMixin
 
 function BasePrivateAuraBehaviorMixin:UpdatePrivateAuras(forceUpdate, avoidAnchorChange)
 	-- nop, override as needed
@@ -2301,7 +2301,7 @@ end
 
 -- NOTE: This functions both as a PrivateAura behavior mixin because it overrides UpdatePrivateAuras, and ALSO as a PrivateAura anchor
 -- mixin because it actually creates a custom anchor to pass to the PrivateAura addon.
-ContainerPrivateAuraBehaviorMixin = CreateFromMixins(BasePrivateAuraBehaviorMixin, CompactUnitIndividualPrivateAuraAnchorMixin);--- @class ContainerPrivateAuraBehaviorMixin : BasePrivateAuraBehaviorMixin, CompactUnitIndividualPrivateAuraAnchorMixin
+ContainerPrivateAuraBehaviorMixin = CreateFromMixins(BasePrivateAuraBehaviorMixin, CompactUnitIndividualPrivateAuraAnchorMixin); --- @class ContainerPrivateAuraBehaviorMixin : BasePrivateAuraBehaviorMixin, CompactUnitIndividualPrivateAuraAnchorMixin
 
 do
 	-- NOTE: While container types have completely custom anchors, there must be some kind of valid data to avoid errors.

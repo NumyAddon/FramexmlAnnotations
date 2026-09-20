@@ -1,4 +1,4 @@
-UnitPopupGlueInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupGlueInviteButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupGlueInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupGlueInviteButtonMixin : UnitPopupButtonBaseMixin
 function UnitPopupGlueInviteButtonMixin:GetButtonName()
 	return "GLUE_INVITE";
 end

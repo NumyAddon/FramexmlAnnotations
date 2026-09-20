@@ -3,7 +3,7 @@
 local ARMOR_MODEL_SCENE_ID = 420;
 
 -- This is a display template so it doesn't dictate the functionality of the button.
-TalentArmorSetMixin = {};--- @class TalentArmorSetMixin
+TalentArmorSetMixin = {}; --- @class TalentArmorSetMixin
 
 function TalentArmorSetMixin:OnLoad()
 	self.ModelScene:SetMouseMotionEnabled(false);

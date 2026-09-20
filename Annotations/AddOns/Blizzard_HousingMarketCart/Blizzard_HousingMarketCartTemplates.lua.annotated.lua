@@ -1,7 +1,7 @@
 
 HOUSING_MARKET_EVENT_NAMESPACE = "HousingMarketEvents";
 
-HousingMarketCartFrameMixin = CreateFromMixins(ShoppingCartVisualsFrameMixin);--- @class HousingMarketCartFrameMixin : ShoppingCartVisualsFrameMixin
+HousingMarketCartFrameMixin = CreateFromMixins(ShoppingCartVisualsFrameMixin); --- @class HousingMarketCartFrameMixin : ShoppingCartVisualsFrameMixin
 
 function HousingMarketCartFrameMixin:OnLoad()
 	C_CatalogShop.RefreshVirtualCurrencyBalance(Constants.CatalogShopVirtualCurrencyConstants.HEARTHSTEEL_VC_CURRENCY_CODE);
@@ -380,7 +380,7 @@ HousingMarketCartDataServiceEvents = {
 	PlaceInWorld = "PlaceInWorld",
 };
 
-HousingMarketCartDataManagerMixin = CreateFromMixins(ShoppingCartDataManagerMixin);--- @class HousingMarketCartDataManagerMixin : ShoppingCartDataManagerMixin
+HousingMarketCartDataManagerMixin = CreateFromMixins(ShoppingCartDataManagerMixin); --- @class HousingMarketCartDataManagerMixin : ShoppingCartDataManagerMixin
 
 function HousingMarketCartDataManagerMixin:Init(eventNamespace)
 	ShoppingCartDataManagerMixin.Init(self, eventNamespace);

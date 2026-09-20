@@ -1,5 +1,5 @@
 
-DataProviderMixin = CreateFromMixins(CallbackRegistryMixin);--- @class DataProviderMixin : CallbackRegistryMixin
+DataProviderMixin = CreateFromMixins(CallbackRegistryMixin); --- @class DataProviderMixin : CallbackRegistryMixin
 
 DataProviderMixin:GenerateCallbackEvents(
 	{

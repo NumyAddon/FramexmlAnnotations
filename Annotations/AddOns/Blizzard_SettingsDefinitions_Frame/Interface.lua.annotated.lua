@@ -1,4 +1,4 @@
-RaidFramePreviewMixin = { };--- @class RaidFramePreviewMixin
+RaidFramePreviewMixin = { }; --- @class RaidFramePreviewMixin
 
 RegisterGameMenuEscHandler(GameMenuEscPriority.Framework, SettingsPanel_EscapePressed);
 

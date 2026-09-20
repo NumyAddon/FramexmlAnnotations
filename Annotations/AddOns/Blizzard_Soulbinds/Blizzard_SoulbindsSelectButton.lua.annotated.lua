@@ -1,4 +1,4 @@
-SoulbindsSelectButtonMixin = CreateFromMixins(SelectableButtonMixin);--- @class SoulbindsSelectButtonMixin : SelectableButtonMixin
+SoulbindsSelectButtonMixin = CreateFromMixins(SelectableButtonMixin); --- @class SoulbindsSelectButtonMixin : SelectableButtonMixin
 
 local SoulbindsSelectButtonEvents =
 {

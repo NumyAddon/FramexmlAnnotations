@@ -210,7 +210,7 @@ function SearchBoxTemplateClearButton_OnClick(self)
 	SearchBoxTemplate_ClearText(self:GetParent());
 end
 
-ClearButtonMixin = {};--- @class ClearButtonMixin
+ClearButtonMixin = {}; --- @class ClearButtonMixin
 
 function ClearButtonMixin:OnEnter()
 	self.Icon:SetAlpha(1.0);
@@ -238,7 +238,7 @@ function ClearButtonMixin:NarrationGetName()
 	return NARRATION_OBJECT_CLEAR_BUTTON;
 end
 
-NumericInputBoxMixin = {};--- @class NumericInputBoxMixin
+NumericInputBoxMixin = {}; --- @class NumericInputBoxMixin
 
 function NumericInputBoxMixin:OnTextChanged(isUserInput)
 	self.valueChangedCallback(self:GetNumber(), isUserInput);
@@ -258,7 +258,7 @@ function NumericInputBoxMixin:SetOnValueFinalizedCallback(valueFinalizedCallback
 	self.valueFinalizedCallback = valueFinalizedCallback;
 end
 
-NumericInputSpinnerMixin = {};--- @class NumericInputSpinnerMixin
+NumericInputSpinnerMixin = {}; --- @class NumericInputSpinnerMixin
 
 -- "public"
 function NumericInputSpinnerMixin:SetValue(value)
@@ -369,7 +369,7 @@ function NumericInputSpinnerMixin:OnUpdate(elapsed)
 	end
 end
 
-LevelRangeFrameMixin = {};--- @class LevelRangeFrameMixin
+LevelRangeFrameMixin = {}; --- @class LevelRangeFrameMixin
 
 function LevelRangeFrameMixin:OnLoad()
 	self.MinLevel.nextEditBox = self.MaxLevel;

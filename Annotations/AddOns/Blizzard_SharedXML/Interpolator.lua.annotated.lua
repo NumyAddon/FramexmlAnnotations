@@ -25,7 +25,7 @@ function InterpolatorUtil.GetSmoothProgressChange(value, displayedValue, range, 
 	end
 end
 
-InterpolatorMixin = {}--- @class InterpolatorMixin
+InterpolatorMixin = {} --- @class InterpolatorMixin
 
 function InterpolatorMixin:Interpolate(v1, v2, time, setter, finished)
 	if self.interpolateTo and ApproximatelyEqual(v1, v2) then

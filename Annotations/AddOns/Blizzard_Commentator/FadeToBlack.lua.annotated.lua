@@ -10,7 +10,7 @@ local function QuinticEaseIn(progress)
 	return (progress - 1) ^ 5 + 1;
 end
 
-FadeToBlackMixin = {};--- @class FadeToBlackMixin
+FadeToBlackMixin = {}; --- @class FadeToBlackMixin
 
 function FadeToBlackMixin:OnUpdate(elapsed)
 	if self.state then

@@ -1,5 +1,5 @@
 
-PvPTalentSlotButtonMixin = {};--- @class PvPTalentSlotButtonMixin
+PvPTalentSlotButtonMixin = {}; --- @class PvPTalentSlotButtonMixin
 
 local SLOT_NEW_STATE_OFF = 1;
 local SLOT_NEW_STATE_SHOW_IF_ENABLED = 2;
@@ -215,7 +215,7 @@ function PvPTalentSlotButtonMixin:GetInspectUnit()
 end
 
 
-PvPTalentSlotTrayMixin = {};--- @class PvPTalentSlotTrayMixin
+PvPTalentSlotTrayMixin = {}; --- @class PvPTalentSlotTrayMixin
 
 local PvPTalentSlotTrayEvents = {
 	"PLAYER_PVP_TALENT_UPDATE",

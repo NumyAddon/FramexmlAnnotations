@@ -1,7 +1,7 @@
 local LIST_ROW_SPACING = 40;
 local LIST_SAFE_WIDTH = 300;
 
-TieredEntranceTraitsContainerMixin = {};--- @class TieredEntranceTraitsContainerMixin
+TieredEntranceTraitsContainerMixin = {}; --- @class TieredEntranceTraitsContainerMixin
 
 function TieredEntranceTraitsContainerMixin:OnHide()
 	self.List:Hide();
@@ -103,7 +103,7 @@ function TieredEntranceTraitsContainerMixin:UpdateAlignment()
 	end
 end
 
-TieredEntranceTraitsListMixin = {};--- @class TieredEntranceTraitsListMixin
+TieredEntranceTraitsListMixin = {}; --- @class TieredEntranceTraitsListMixin
 
 function TieredEntranceTraitsListMixin:OnLoad()
 	self.framePool = CreateFramePool("FRAME", self, "TieredEntranceTraitSpellTemplate");
@@ -176,7 +176,7 @@ function TieredEntranceTraitsListMixin:SetSpells(spells)
 	AnchorUtil.GridLayout(frames, anchor, layout);
 end
 
-TieredEntranceTraitSpellMixin = { };--- @class TieredEntranceTraitSpellMixin
+TieredEntranceTraitSpellMixin = { }; --- @class TieredEntranceTraitSpellMixin
 
 function TieredEntranceTraitSpellMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");

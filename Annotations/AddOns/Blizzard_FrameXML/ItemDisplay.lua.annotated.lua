@@ -1,4 +1,4 @@
-LootItemExtendedMixin = {};--- @class LootItemExtendedMixin
+LootItemExtendedMixin = {}; --- @class LootItemExtendedMixin
 
 function LootItemExtendedMixin:Init(itemLink, originalQuantity, specID, isCurrency, isUpgraded, isIconBorderShown, isIconBorderDropShadowShown, iconDrawLayer)
 	local itemName, itemTexture, quantity, itemRarity;

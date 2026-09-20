@@ -1,4 +1,4 @@
-GossipDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class GossipDataProviderMixin : MapCanvasDataProviderMixin
+GossipDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class GossipDataProviderMixin : MapCanvasDataProviderMixin
 
 function GossipDataProviderMixin:OnShow()
 	self:RegisterEvent("DYNAMIC_GOSSIP_POI_UPDATED");

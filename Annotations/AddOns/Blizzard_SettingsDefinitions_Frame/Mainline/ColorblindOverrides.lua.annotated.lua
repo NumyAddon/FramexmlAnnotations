@@ -11,7 +11,7 @@ function ColorblindOverrides.CreateSettings(category, layout)
 end
 
 
-ItemQualityColorOverrideMixin = {--- @class ItemQualityColorOverrideMixin
+ItemQualityColorOverrideMixin = { --- @class ItemQualityColorOverrideMixin
 	OverrideData =
 	{
 		{

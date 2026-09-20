@@ -1,5 +1,5 @@
 -- Note: Currently, nothing about this thing supports panning, so if we ever enable panning in the Class Talents frame, work will be needed to move this accordingly
-HeroTalentsContainerMixin = {};--- @class HeroTalentsContainerMixin
+HeroTalentsContainerMixin = {}; --- @class HeroTalentsContainerMixin
 
 function HeroTalentsContainerMixin:OnLoad()
 	HeroTalentsUnlockedAnimFrame.Anim:SetScript("OnFinished", GenerateClosure(self.OnHeroTalentsUnlockedAnimFinished, self));
@@ -578,7 +578,7 @@ function HeroTalentsContainerMixin:CheckTutorials()
 	self:GetTalentFrame():CheckHeroTalentTutorial(self.activeSubTreeInfo, self.helpTipOffsetX, self.helpTipOffsetY, self, self.ExpandedContainer.NodesContainer);
 end
 
-HeroSpecButtonMixin = {};--- @class HeroSpecButtonMixin
+HeroSpecButtonMixin = {}; --- @class HeroSpecButtonMixin
 
 function HeroSpecButtonMixin:OnLoad()
 	self.SearchIcon.tooltipBackdropStyle = GAME_TOOLTIP_BACKDROP_STYLE_CLASS_TALENT;
@@ -698,7 +698,7 @@ end
 
 
 
-HeroTalentCollapseButtonMixin = {};--- @class HeroTalentCollapseButtonMixin
+HeroTalentCollapseButtonMixin = {}; --- @class HeroTalentCollapseButtonMixin
 
 function HeroTalentCollapseButtonMixin:SetCollapsed(isCollapsed)
 	self.isCollapsed = isCollapsed;
@@ -733,7 +733,7 @@ function HeroTalentCollapseButtonMixin:OnLeave()
 end
 
 
-HeroTalentsUnlockedAnimFrameMixin = { };--- @class HeroTalentsUnlockedAnimFrameMixin
+HeroTalentsUnlockedAnimFrameMixin = { }; --- @class HeroTalentsUnlockedAnimFrameMixin
 
 function HeroTalentsUnlockedAnimFrameMixin:OnHide()
 	self.Anim:Stop();

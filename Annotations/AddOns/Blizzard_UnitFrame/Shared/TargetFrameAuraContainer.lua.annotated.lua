@@ -12,7 +12,7 @@ local function AssertNonNegativeInteger(value, argumentName)
 	return value;
 end
 
-TargetFrameAuraContainerSharedMixin = CreateFromMixins(ManagedAuraContainerSharedMixin);--- @class TargetFrameAuraContainerSharedMixin : ManagedAuraContainerSharedMixin
+TargetFrameAuraContainerSharedMixin = CreateFromMixins(ManagedAuraContainerSharedMixin); --- @class TargetFrameAuraContainerSharedMixin : ManagedAuraContainerSharedMixin
 
 function TargetFrameAuraContainerSharedMixin:GetBuffTemplate()
 	return addonTable.GetTargetFrameBuffButtonTemplate();
@@ -221,8 +221,8 @@ function TargetFrameAuraContainerSharedMixin:GetNumVisibleFlowLayoutLines()
 	return self.numVisibleFlowLayoutLines;
 end
 
-TargetFrameAuraContainerInboundMixin = CreateFromMixins(ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, TargetFrameAuraContainerSharedMixin);--- @class TargetFrameAuraContainerInboundMixin : ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, TargetFrameAuraContainerSharedMixin
-TargetFrameAuraContainerPrivateMixin = CreateFromMixins(ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, TargetFrameAuraContainerSharedMixin);--- @class TargetFrameAuraContainerPrivateMixin : ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, TargetFrameAuraContainerSharedMixin
+TargetFrameAuraContainerInboundMixin = CreateFromMixins(ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, TargetFrameAuraContainerSharedMixin); --- @class TargetFrameAuraContainerInboundMixin : ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, TargetFrameAuraContainerSharedMixin
+TargetFrameAuraContainerPrivateMixin = CreateFromMixins(ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, TargetFrameAuraContainerSharedMixin); --- @class TargetFrameAuraContainerPrivateMixin : ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, TargetFrameAuraContainerSharedMixin
 
 function TargetFrameAuraContainerPrivateMixin:OnLoad()
 	self.flowLayout = CreateAndInitFromMixin(TargetFrameAuraFlowLayoutMixin);
@@ -424,7 +424,7 @@ function TargetFrameAuraContainerPrivateMixin:ShouldShowAuraWithLargeSize(auraDa
 	return false;
 end
 
-TargetFrameAuraFlowLayoutMixin = CreateFromMixins(AnchorUtil.FlowLayoutMixin);--- @class TargetFrameAuraFlowLayoutMixin : AnchorUtil.FlowLayoutMixin
+TargetFrameAuraFlowLayoutMixin = CreateFromMixins(AnchorUtil.FlowLayoutMixin); --- @class TargetFrameAuraFlowLayoutMixin : AnchorUtil.FlowLayoutMixin
 
 function TargetFrameAuraFlowLayoutMixin:GetMaximumLineSizeForLine(container, lineIndex, _group)
 	if lineIndex <= container:GetNumConstrainedFlowLayoutLines() then

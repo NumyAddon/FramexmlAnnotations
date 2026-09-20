@@ -51,7 +51,7 @@ function FlagsUtil.Combine(lhsFlagOrMask, rhsFlagOrMask, shouldSet)
 	end
 end
 
-FlagsMixin = {};--- @class FlagsMixin
+FlagsMixin = {}; --- @class FlagsMixin
 
 function FlagsMixin:OnLoad(initialFlags)
 	self.flags = initialFlags or 0;
@@ -113,7 +113,7 @@ function CreateFlags(initialFlags)
 	return flags;
 end
 
-DirtyFlagsMixin = CreateFromMixins(FlagsMixin);--- @class DirtyFlagsMixin : FlagsMixin
+DirtyFlagsMixin = CreateFromMixins(FlagsMixin); --- @class DirtyFlagsMixin : FlagsMixin
 
 function DirtyFlagsMixin:OnLoad()
 	FlagsMixin.OnLoad(self);

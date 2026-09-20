@@ -5,7 +5,7 @@ local settings = {
 	showWorldQuests = true,
 };
 
-WorldQuestObjectiveTrackerMixin = CreateFromMixins(BonusObjectiveTrackerMixin, settings);--- @class WorldQuestObjectiveTrackerMixin : BonusObjectiveTrackerMixin, settings
+WorldQuestObjectiveTrackerMixin = CreateFromMixins(BonusObjectiveTrackerMixin, settings); --- @class WorldQuestObjectiveTrackerMixin : BonusObjectiveTrackerMixin, settings
 
 function WorldQuestObjectiveTrackerMixin:InitModule()
 	self.entryCount = 0;

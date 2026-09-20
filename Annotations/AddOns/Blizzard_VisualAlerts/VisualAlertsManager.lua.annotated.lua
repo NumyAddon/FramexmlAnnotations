@@ -1,6 +1,6 @@
 -- Used to register templates for different types of visual alerts so they can be pooled and acquired and
 -- released as necessary for visual alert targets that need to display visual alerts.
-VisualAlertsManagerMixin = {};--- @class VisualAlertsManagerMixin
+VisualAlertsManagerMixin = {}; --- @class VisualAlertsManagerMixin
 
 function VisualAlertsManagerMixin:OnLoad()
 	self.poolCollection = CreateFramePoolCollection();

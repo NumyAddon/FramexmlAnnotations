@@ -1,4 +1,4 @@
-ActionStatusMixin = {};--- @class ActionStatusMixin
+ActionStatusMixin = {}; --- @class ActionStatusMixin
 
 local ACTION_STATUS_FADETIME = 2.0;
 

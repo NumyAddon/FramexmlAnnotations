@@ -1,5 +1,5 @@
 ----------------- Collection Container -----------------
-HousingBlueprintCollectionMixin = {};--- @class HousingBlueprintCollectionMixin
+HousingBlueprintCollectionMixin = {}; --- @class HousingBlueprintCollectionMixin
 
 local CollectionWhileShownEvents = {
 	"HOUSING_BLUEPRINT_COLLECTION_RECEIVED",
@@ -265,7 +265,7 @@ function HousingBlueprintCollectionMixin:ShouldShowContextImportOption(blueprint
 end
 
 ----------------- Collection Group -----------------
-HousingBlueprintCollectionGroupMixin = {};--- @class HousingBlueprintCollectionGroupMixin
+HousingBlueprintCollectionGroupMixin = {}; --- @class HousingBlueprintCollectionGroupMixin
 
 function HousingBlueprintCollectionGroupMixin:OnLoad()
 	self.Header:SetClickHandler(function(_header, button)

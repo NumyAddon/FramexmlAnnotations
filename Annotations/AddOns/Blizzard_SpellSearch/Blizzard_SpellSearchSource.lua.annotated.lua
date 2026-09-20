@@ -1,4 +1,4 @@
-SpellSearchSourceMixin = {};--- @class SpellSearchSourceMixin
+SpellSearchSourceMixin = {}; --- @class SpellSearchSourceMixin
 
 function SpellSearchSourceMixin:Init(...)
 	-- Required
@@ -24,7 +24,7 @@ function SpellSearchSourceMixin:GetSourceDataEntry(...)
 end
 
 
-TraitSearchSourceMixin = CreateFromMixins(SpellSearchSourceMixin);--- @class TraitSearchSourceMixin : SpellSearchSourceMixin
+TraitSearchSourceMixin = CreateFromMixins(SpellSearchSourceMixin); --- @class TraitSearchSourceMixin : SpellSearchSourceMixin
 
 -- allNodeInfosGetter: func<table<nodeID, nodeInfo>>() (return all active nodeInfos)
 -- entryDefinitionInfoGetter: func<entryDefinition>(entryID)
@@ -53,7 +53,7 @@ function TraitSearchSourceMixin:GetEntrySubTreeInfo(entryID)
 	return self.subTreeInfoGetter(entryID);
 end
 
-PvPTalentsSearchSourceMixin = CreateFromMixins(SpellSearchSourceMixin);--- @class PvPTalentsSearchSourceMixin : SpellSearchSourceMixin
+PvPTalentsSearchSourceMixin = CreateFromMixins(SpellSearchSourceMixin); --- @class PvPTalentsSearchSourceMixin : SpellSearchSourceMixin
 
 -- allPvPTalentInfosGetter: func<table<pvpTalentID, pvpTalentInfo>>() (return all active pvpTalentInfos)
 function PvPTalentsSearchSourceMixin:Init(allPvPTalentInfosGetter)
@@ -70,7 +70,7 @@ function PvPTalentsSearchSourceMixin:GetSourceDataEntry(pvpTalentID)
 	return allPvPTalents and allPvPTalents[pvpTalentID] or nil;
 end
 
-SpellBookItemSearchSourceMixin = CreateFromMixins(SpellSearchSourceMixin);--- @class SpellBookItemSearchSourceMixin : SpellSearchSourceMixin
+SpellBookItemSearchSourceMixin = CreateFromMixins(SpellSearchSourceMixin); --- @class SpellBookItemSearchSourceMixin : SpellSearchSourceMixin
 
 -- spellBookItemsGetter: func<table<SpellBookItemElementData>>() (return ElementData for all SpellBookItems)
 function SpellBookItemSearchSourceMixin:Init(allSpellBookItemsGetter)

@@ -1,5 +1,5 @@
 
-WarmodeButtonMixin = {};--- @class WarmodeButtonMixin
+WarmodeButtonMixin = {}; --- @class WarmodeButtonMixin
 
 function WarmodeButtonMixin:OnLoad()
 	self:SetUp();
@@ -179,7 +179,7 @@ function WarmodeButtonMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-WarmodeIncentiveMixin = {};--- @class WarmodeIncentiveMixin
+WarmodeIncentiveMixin = {}; --- @class WarmodeIncentiveMixin
 
 function WarmodeIncentiveMixin:OnEnter()
 	local base, current, bonus = self:GetPercentages();

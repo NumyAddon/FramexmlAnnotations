@@ -9,7 +9,7 @@ end
 local animatedShineFrame = CreateFrame("Frame");
 animatedShineFrame:SetScript("OnUpdate", AnimatedShine_OnUpdate);
 
-AnimatedShineMixin = {};--- @class AnimatedShineMixin
+AnimatedShineMixin = {}; --- @class AnimatedShineMixin
 
 local NUM_SHINES = 4;
 local SHINE_SPEED = 2.5;

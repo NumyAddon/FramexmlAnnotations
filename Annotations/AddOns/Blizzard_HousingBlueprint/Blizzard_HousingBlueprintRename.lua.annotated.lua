@@ -3,7 +3,7 @@ local RenameWhileShownEvents = {
 	"HOUSING_BLUEPRINT_RENAME_FAILURE",
 };
 
-HousingBlueprintRenameFrameMixin = {};--- @class HousingBlueprintRenameFrameMixin
+HousingBlueprintRenameFrameMixin = {}; --- @class HousingBlueprintRenameFrameMixin
 
 function HousingBlueprintRenameFrameMixin:OnLoad()
 	self.NameInputBox.Instructions:SetText(HOUSING_BLUEPRINT_RENAME_NAME_PLACEHOLDER);

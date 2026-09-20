@@ -223,7 +223,7 @@ function GameTooltip_AddNewbieTip(frame, normalText, r, g, b, newbieText, noNorm
 	-- Nothing to do, this was added for Glue support.
 end
 
-TooltipBackdropTemplateMixin = {};--- @class TooltipBackdropTemplateMixin
+TooltipBackdropTemplateMixin = {}; --- @class TooltipBackdropTemplateMixin
 
 function TooltipBackdropTemplateMixin:TooltipBackdropOnLoad()
 	NineSliceUtil.DisableSharpening(self.NineSlice);
@@ -263,7 +263,7 @@ end
 -- Provides default Narration* method overrides for tooltips and fires Tooltip.OnShown and
 -- Tooltip.OnHidden EventRegistry events. Inheritors that override OnShow or OnHide should
 -- manually invoke these methods.
-NarratableTooltipMixin = {};--- @class NarratableTooltipMixin
+NarratableTooltipMixin = {}; --- @class NarratableTooltipMixin
 
 function NarratableTooltipMixin:OnShow()
 	EventRegistry:TriggerEvent("Tooltip.OnShown", self);
@@ -311,7 +311,7 @@ function NarratableTooltipMixin:NarrationGetDescription()
 	return table.concat(parts, NARRATION_SEPARATOR);
 end
 
-DisabledTooltipButtonMixin = {};--- @class DisabledTooltipButtonMixin
+DisabledTooltipButtonMixin = {}; --- @class DisabledTooltipButtonMixin
 
 function DisabledTooltipButtonMixin:OnEnter()
 	if not self:IsEnabled() then

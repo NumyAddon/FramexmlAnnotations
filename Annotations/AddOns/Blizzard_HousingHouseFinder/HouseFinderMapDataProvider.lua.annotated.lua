@@ -1,4 +1,4 @@
-HouseFinderMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class HouseFinderMapDataProviderMixin : MapCanvasDataProviderMixin
+HouseFinderMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class HouseFinderMapDataProviderMixin : MapCanvasDataProviderMixin
 
 function HouseFinderMapDataProviderMixin:SetHouseMapData(houseMapData)
 	self.houseMapData = houseMapData;
@@ -38,7 +38,7 @@ function HouseFinderMapDataProviderMixin:RefreshAllData(fromOnShow)
 end
 
 --///////////////////For Sale Pin////////////////////////////
-HouseFinderPlotForSalePinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class HouseFinderPlotForSalePinMixin : MapCanvasPinMixin
+HouseFinderPlotForSalePinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class HouseFinderPlotForSalePinMixin : MapCanvasPinMixin
 
 function HouseFinderPlotForSalePinMixin:OnLoad()
 	self:SetScalingLimits(1, 0.7, 1.3);
@@ -126,7 +126,7 @@ function HouseFinderPlotForSalePinMixin:StopGlow()
 end
 
 --///////////////////Friend Plot Pin////////////////////////////
-HouseFinderFriendsPlotPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class HouseFinderFriendsPlotPinMixin : MapCanvasPinMixin
+HouseFinderFriendsPlotPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class HouseFinderFriendsPlotPinMixin : MapCanvasPinMixin
 
 function HouseFinderFriendsPlotPinMixin:OnLoad()
 	self:SetScalingLimits(1, 0.7, 1.3);
@@ -154,7 +154,7 @@ function HouseFinderFriendsPlotPinMixin:OnMouseLeave()
 	HouseFinderHighlightedPlotTooltip:Hide();
 end
 
-SelectedPlotTooltipMixin = {}--- @class SelectedPlotTooltipMixin
+SelectedPlotTooltipMixin = {} --- @class SelectedPlotTooltipMixin
 
 function SelectedPlotTooltipMixin:OnLoad()
 	TooltipBackdropTemplateMixin.TooltipBackdropOnLoad(self);

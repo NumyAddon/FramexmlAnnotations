@@ -1,5 +1,5 @@
 
-ScenarioDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class ScenarioDataProviderMixin : MapCanvasDataProviderMixin
+ScenarioDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class ScenarioDataProviderMixin : MapCanvasDataProviderMixin
 
 function ScenarioDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -47,7 +47,7 @@ function ScenarioDataProviderMixin:OnEvent(event, ...)
 end
 
 --[[ Scenario Blob Pin ]]--
-ScenarioBlobPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class ScenarioBlobPinMixin : MapCanvasPinMixin
+ScenarioBlobPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class ScenarioBlobPinMixin : MapCanvasPinMixin
 
 function ScenarioBlobPinMixin:OnLoad()
 	self:SetFillTexture("Interface\\WorldMap\\UI-QuestBlob-Inside");
@@ -90,7 +90,7 @@ function ScenarioBlobPinMixin:Refresh()
 end
 
 --[[ Scenario POI Pins ]]--
-ScenarioPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class ScenarioPinMixin : MapCanvasPinMixin
+ScenarioPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class ScenarioPinMixin : MapCanvasPinMixin
 
 function ScenarioPinMixin:OnLoad()
 	self:SetScalingLimits(1, 1, 1);

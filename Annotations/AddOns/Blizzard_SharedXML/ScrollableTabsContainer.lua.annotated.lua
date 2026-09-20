@@ -1,4 +1,4 @@
-ScrollableTabsContainerMixin = { };--- @class ScrollableTabsContainerMixin
+ScrollableTabsContainerMixin = { }; --- @class ScrollableTabsContainerMixin
 
 function ScrollableTabsContainerMixin:OnSizeChanged()
 	if self.headIndex then

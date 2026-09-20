@@ -1,5 +1,5 @@
 
-PagedListMixin = CreateFromMixins(CallbackRegistryMixin);--- @class PagedListMixin : CallbackRegistryMixin
+PagedListMixin = CreateFromMixins(CallbackRegistryMixin); --- @class PagedListMixin : CallbackRegistryMixin
 
 PagedListMixin:GenerateCallbackEvents(
 {
@@ -102,7 +102,7 @@ function PagedListMixin:RefreshListDisplay()
 end
 
 
-PagedListControlButtonMixin = {};--- @class PagedListControlButtonMixin
+PagedListControlButtonMixin = {}; --- @class PagedListControlButtonMixin
 
 function PagedListControlButtonMixin:OnClick()
 	self:GetParent():ChangePage(self.pageAdjustment);
@@ -113,7 +113,7 @@ function PagedListControlButtonMixin:OnMouseWheel(...)
 end
 
 
-PagedListControlMixin = {};--- @class PagedListControlMixin
+PagedListControlMixin = {}; --- @class PagedListControlMixin
 
 function PagedListControlMixin:OnShow()
 	self.pagedList:RegisterCallback(PagedListMixin.Event.ListRefreshed, self.OnListRefreshed, self);

@@ -1,5 +1,5 @@
 
-ScrollBoxViewMixin = CreateFromMixins(ScrollDirectionMixin);--- @class ScrollBoxViewMixin : ScrollDirectionMixin
+ScrollBoxViewMixin = CreateFromMixins(ScrollDirectionMixin); --- @class ScrollBoxViewMixin : ScrollDirectionMixin
 
 ScrollBoxViewMixin.FrameLevelPolicy =
 {

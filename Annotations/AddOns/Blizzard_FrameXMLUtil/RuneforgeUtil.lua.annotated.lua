@@ -1,5 +1,5 @@
 
-RuneforgeCovenantSigilMixin = {};--- @class RuneforgeCovenantSigilMixin
+RuneforgeCovenantSigilMixin = {}; --- @class RuneforgeCovenantSigilMixin
 
 function RuneforgeCovenantSigilMixin:OnPowerSet(oldPowerID, powerID)
 	local hasPowerID = powerID ~= nil;
@@ -28,7 +28,7 @@ function RuneforgeCovenantSigilMixin:OnPowerSet(oldPowerID, powerID)
 end
 
 
-RuneforgePowerBaseMixin = {};--- @class RuneforgePowerBaseMixin
+RuneforgePowerBaseMixin = {}; --- @class RuneforgePowerBaseMixin
 
 function RuneforgePowerBaseMixin:OnHide()
 	self:UnregisterEvent("RUNEFORGE_POWER_INFO_UPDATED");
@@ -173,7 +173,7 @@ function RuneforgePowerBaseMixin:ShouldShowUnavailableError()
 end
 
 
-RuneforgeEffectOwnerMixin = {};--- @class RuneforgeEffectOwnerMixin
+RuneforgeEffectOwnerMixin = {}; --- @class RuneforgeEffectOwnerMixin
 
 function RuneforgeEffectOwnerMixin:GetRuneforgeFrame()
 	return self;
@@ -208,7 +208,7 @@ function RuneforgeEffectOwnerMixin:SetEffectShown(effectKey, shown)
 end
 
 
-RuneforgeSystemMixin = CreateFromMixins(RuneforgeEffectOwnerMixin);--- @class RuneforgeSystemMixin : RuneforgeEffectOwnerMixin
+RuneforgeSystemMixin = CreateFromMixins(RuneforgeEffectOwnerMixin); --- @class RuneforgeSystemMixin : RuneforgeEffectOwnerMixin
 
 local RefreshEventNames = {
 	"BaseItemChanged",

@@ -17,7 +17,7 @@ function LeaveMatchFormatter:GetDesiredUnitCount(seconds)
 	return 1;
 end
 
-PVPMatchResultsCurrencyRewardMixin = {};--- @class PVPMatchResultsCurrencyRewardMixin
+PVPMatchResultsCurrencyRewardMixin = {}; --- @class PVPMatchResultsCurrencyRewardMixin
 function PVPMatchResultsCurrencyRewardMixin:OnLoad()
 	local currencyInfo = self.currencyID and C_CurrencyInfo.GetCurrencyInfo(self.currencyID) or nil;
 	if currencyInfo then
@@ -36,7 +36,7 @@ function PVPMatchResultsCurrencyRewardMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-PVPMatchResultsMixin = {};--- @class PVPMatchResultsMixin
+PVPMatchResultsMixin = {}; --- @class PVPMatchResultsMixin
 function PVPMatchResultsMixin:OnLoad()
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");
 	self:RegisterEvent("PLAYER_LEAVING_WORLD");
@@ -504,7 +504,7 @@ function PVPMatchResultsMixin:OnTabGroupClicked(tab)
 	self.scrollBox:ScrollToBegin();
 end
 
-PVPMatchResultsRatingMixin = {};--- @class PVPMatchResultsRatingMixin
+PVPMatchResultsRatingMixin = {}; --- @class PVPMatchResultsRatingMixin
 function PVPMatchResultsRatingMixin:Init(rating, ratingChange)
 	self.rating = rating;
 	self.ratingChange = ratingChange;

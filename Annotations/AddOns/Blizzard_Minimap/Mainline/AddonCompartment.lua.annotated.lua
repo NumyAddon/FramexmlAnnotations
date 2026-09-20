@@ -1,6 +1,6 @@
 local forceinsecure = forceinsecure;
 
-AddonCompartmentMixin = { };--- @class AddonCompartmentMixin
+AddonCompartmentMixin = { }; --- @class AddonCompartmentMixin
 
 local function SortAddons(addonData1, addonData2)
 	return strcmputf8i(C_StringUtil.StripHyperlinks(addonData1.text), C_StringUtil.StripHyperlinks(addonData2.text)) < 0;

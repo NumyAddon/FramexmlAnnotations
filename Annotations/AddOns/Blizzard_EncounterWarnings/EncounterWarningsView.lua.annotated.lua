@@ -1,4 +1,4 @@
-EncounterWarningsViewMixin = CreateFromMixins(EncounterWarningsSettingsMixin, ResizeLayoutMixin);--- @class EncounterWarningsViewMixin : EncounterWarningsSettingsMixin, ResizeLayoutMixin
+EncounterWarningsViewMixin = CreateFromMixins(EncounterWarningsSettingsMixin, ResizeLayoutMixin); --- @class EncounterWarningsViewMixin : EncounterWarningsSettingsMixin, ResizeLayoutMixin
 
 function EncounterWarningsViewMixin:OnLoad()
 	EncounterWarningsSettingsMixin.OnLoad(self);

@@ -6,7 +6,7 @@ local OWNER_TYPE_TO_TEMPLATE = {
 	[Enum.HousingPlotOwnerType.Self] = "PlayersPlotPinTemplate",
 };
 
-NeighborhoodMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class NeighborhoodMapDataProviderMixin : MapCanvasDataProviderMixin
+NeighborhoodMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class NeighborhoodMapDataProviderMixin : MapCanvasDataProviderMixin
 
 function NeighborhoodMapDataProviderMixin:OnShow()
 	self:RegisterEvent("NEIGHBORHOOD_MAP_DATA_UPDATED");
@@ -43,7 +43,7 @@ function NeighborhoodMapDataProviderMixin:RefreshAllData(fromOnShow)
 
 end
 --///////////////////Base Map Pin//////////////////////////////
-NeighborhoodMapBasePinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class NeighborhoodMapBasePinMixin : MapCanvasPinMixin
+NeighborhoodMapBasePinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class NeighborhoodMapBasePinMixin : MapCanvasPinMixin
 
 function NeighborhoodMapBasePinMixin:OnLoad()
 	self:SetScalingLimits(1, 0.7, 1.3);
@@ -95,16 +95,16 @@ function NeighborhoodMapBasePinMixin:OnMouseLeave()
 	end
 end
 --///////////////////Unoccupied Pin////////////////////////////
-UnoccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin);--- @class UnoccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
+UnoccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin); --- @class UnoccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
 
 --///////////////////Occupied Pin////////////////////////////
-OccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin);--- @class OccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
+OccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin); --- @class OccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
 
 --///////////////////Friend Plot Pin////////////////////////////
-FriendsPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin);--- @class FriendsPlotPinMixin : NeighborhoodMapBasePinMixin
+FriendsPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin); --- @class FriendsPlotPinMixin : NeighborhoodMapBasePinMixin
 
 --///////////////////Player Plot Pin////////////////////////////
-PlayersPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin);--- @class PlayersPlotPinMixin : NeighborhoodMapBasePinMixin
+PlayersPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin); --- @class PlayersPlotPinMixin : NeighborhoodMapBasePinMixin
 
 function PlayersPlotPinMixin:OnMouseEnter()
 	-- Overrides NeighborhoodMapBasePinMixin.

@@ -1,4 +1,4 @@
-ChannelFrameButtonMixin = {};--- @class ChannelFrameButtonMixin
+ChannelFrameButtonMixin = {}; --- @class ChannelFrameButtonMixin
 
 function ToggleChannelFrame()
 	if (Kiosk.IsEnabled()) then

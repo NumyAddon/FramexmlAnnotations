@@ -25,7 +25,7 @@ local HouseEditorLayoutModeShownEvents =
 	"HOUSING_LAYOUT_ROOM_MOVE_INVALID",
 };
 
-HouseEditorLayoutModeMixin = CreateFromMixins(BaseHouseEditorModeMixin);--- @class HouseEditorLayoutModeMixin : BaseHouseEditorModeMixin
+HouseEditorLayoutModeMixin = CreateFromMixins(BaseHouseEditorModeMixin); --- @class HouseEditorLayoutModeMixin : BaseHouseEditorModeMixin
 
 function HouseEditorLayoutModeMixin:OnLoad()
 	FrameUtil.RegisterFrameForEvents(self, HouseEditorLayoutModeLifetimeEvents);
@@ -215,7 +215,7 @@ function HouseEditorLayoutModeMixin:ReleasePins()
 	self.doorPinPool:ReleaseAll();
 end
 
-HouseEditorLayoutFloorLineMixin = {};--- @class HouseEditorLayoutFloorLineMixin
+HouseEditorLayoutFloorLineMixin = {}; --- @class HouseEditorLayoutFloorLineMixin
 
 function HouseEditorLayoutFloorLineMixin:OnEnter()
 	self.FloorText:SetTextColor(HIGHLIGHT_FONT_COLOR:GetRGBA());
@@ -261,7 +261,7 @@ local HouseEditorLayoutFloorSelectShownEvents =
 	"HOUSING_LAYOUT_DRAG_TARGET_CHANGED",
 };
 
-HouseEditorLayoutFloorSelectMixin = {};--- @class HouseEditorLayoutFloorSelectMixin
+HouseEditorLayoutFloorSelectMixin = {}; --- @class HouseEditorLayoutFloorSelectMixin
 
 function HouseEditorLayoutFloorSelectMixin:OnLoad()
 	self.UpButton:SetScript("OnClick", function()

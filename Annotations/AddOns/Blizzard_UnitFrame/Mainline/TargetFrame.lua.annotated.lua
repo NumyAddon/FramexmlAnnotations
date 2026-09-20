@@ -15,7 +15,7 @@ local SMALL_FOCUS_UPSCALE = 1.333;
 
 CVarCallbackRegistry:SetCVarCachable("showTargetOfTarget");
 
-TargetFrameMixin = {};--- @class TargetFrameMixin
+TargetFrameMixin = {}; --- @class TargetFrameMixin
 
 function TargetFrameMixin:OnLoad(unit, menuFunc)
 	self.statusCounter = 0;
@@ -757,7 +757,7 @@ function TargetHealthCheck(self)
 	end
 end
 
-TargetFrameStatusBarMixin = {};--- @class TargetFrameStatusBarMixin
+TargetFrameStatusBarMixin = {}; --- @class TargetFrameStatusBarMixin
 
 function TargetFrameStatusBarMixin:OnLoad()
 	self:InitializeTextStatusBar();
@@ -768,7 +768,7 @@ function TargetFrameStatusBarMixin:OnLoad()
 	self.zeroText = "";
 end
 
-TargetFrameHealthBarMixin = CreateFromMixins(TargetFrameStatusBarMixin);--- @class TargetFrameHealthBarMixin : TargetFrameStatusBarMixin
+TargetFrameHealthBarMixin = CreateFromMixins(TargetFrameStatusBarMixin); --- @class TargetFrameHealthBarMixin : TargetFrameStatusBarMixin
 
 function TargetFrameHealthBarMixin:OnValueChanged(value)
 	UnitFrameHealthBar_OnValueChanged(self, value);
@@ -779,7 +779,7 @@ function TargetFrameHealthBarMixin:OnSizeChanged()
 	UnitFrameHealPredictionBars_UpdateSize(self:GetParent());
 end
 
-TargetSpellBarMixin = CreateFromMixins(CastingBarMixin);--- @class TargetSpellBarMixin : CastingBarMixin
+TargetSpellBarMixin = CreateFromMixins(CastingBarMixin); --- @class TargetSpellBarMixin : CastingBarMixin
 
 function TargetSpellBarMixin:OnEvent(event, ...)
 	local arg1 = ...
@@ -838,7 +838,7 @@ function TargetSpellBarMixin:AdjustPosition()
 	self:SetPoint("TOPLEFT", relativeKey, "BOTTOMLEFT", pointX, pointY);
 end
 
-BossSpellBarMixin = CreateFromMixins(TargetSpellBarMixin);--- @class BossSpellBarMixin : TargetSpellBarMixin
+BossSpellBarMixin = CreateFromMixins(TargetSpellBarMixin); --- @class BossSpellBarMixin : TargetSpellBarMixin
 
 function BossSpellBarMixin:AdjustPosition()
 	self:ClearAllPoints();
@@ -859,7 +859,7 @@ end
 
 local targetOfTargetCVar = "showTargetOfTarget";
 
-TargetOfTargetMixin = {};--- @class TargetOfTargetMixin
+TargetOfTargetMixin = {}; --- @class TargetOfTargetMixin
 
 function TargetOfTargetMixin:OnLoad()
 	CVarCallbackRegistry:RegisterCallback(targetOfTargetCVar, self.OnTargetOfTargetCVarChanged, self);
@@ -944,7 +944,7 @@ end
 -- Boss Frames
 --
 
-BossTargetFrameMixin = {};--- @class BossTargetFrameMixin
+BossTargetFrameMixin = {}; --- @class BossTargetFrameMixin
 
 function BossTargetFrameMixin:OnLoad()
 	local id = self:GetID();
@@ -1046,7 +1046,7 @@ function BossTargetFrame_OpenMenu(self)
 	UnitPopup_OpenMenu("BOSS", contextData);
 end
 
-BossTargetFrameContainerMixin = { };--- @class BossTargetFrameContainerMixin
+BossTargetFrameContainerMixin = { }; --- @class BossTargetFrameContainerMixin
 
 function BossTargetFrameContainerMixin:OnLoad()
 	EditModeSystemMixin.OnSystemLoad(self);
@@ -1126,7 +1126,7 @@ end
 local FOCUS_FRAME_LOCKED = true;
 local FOCUS_FRAME_MOVING = false;
 
-FocusFrameMixin = {};--- @class FocusFrameMixin
+FocusFrameMixin = {}; --- @class FocusFrameMixin
 
 function FocusFrame_OpenMenu(self)
 	local contextData = {
@@ -1198,7 +1198,7 @@ function FocusFrameMixin:SetSmallSize(smallSize)
 	self:UpdateAuras();
 end
 
-TargetFrameInstanceMixin = {};--- @class TargetFrameInstanceMixin
+TargetFrameInstanceMixin = {}; --- @class TargetFrameInstanceMixin
 
 function TargetFrameInstanceMixin:OnLoad_TargetFrameInstance()
 	self.showLevel = true;

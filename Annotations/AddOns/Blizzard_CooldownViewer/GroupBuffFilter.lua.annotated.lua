@@ -61,7 +61,7 @@ EventRegistry:RegisterCallback("CooldownViewerSettings.OnDataChanged", function(
 	SyncGroupBuffVisualAlerts();
 end, groupBuffSyncRegistrant);
 
-GroupBuffFilterItemMixin = CreateFromMixins(CooldownViewerVisualAlertTargetMixin);--- @class GroupBuffFilterItemMixin : CooldownViewerVisualAlertTargetMixin
+GroupBuffFilterItemMixin = CreateFromMixins(CooldownViewerVisualAlertTargetMixin); --- @class GroupBuffFilterItemMixin : CooldownViewerVisualAlertTargetMixin
 
 function GroupBuffFilterItemMixin:Init(groupBuffItem, section)
 	self.groupBuffItem = groupBuffItem;
@@ -173,7 +173,7 @@ function GroupBuffFilterItemMixin:ApplyFilter(passesFilter)
 	end
 end
 
-GroupBuffFilterEditVisualAlertMixin = CreateFromMixins(CooldownViewerEditAlertBaseMixin);--- @class GroupBuffFilterEditVisualAlertMixin : CooldownViewerEditAlertBaseMixin
+GroupBuffFilterEditVisualAlertMixin = CreateFromMixins(CooldownViewerEditAlertBaseMixin); --- @class GroupBuffFilterEditVisualAlertMixin : CooldownViewerEditAlertBaseMixin
 
 function GroupBuffFilterEditVisualAlertMixin:OnLoad()
 	CooldownViewerEditAlertBaseMixin.OnLoad(self);
@@ -216,7 +216,7 @@ function GroupBuffFilterEditVisualAlertMixin:AddCurrentAlert()
 	layoutManager:WriteGroupBuffVisualAlertsToActiveLayout(newVisualAlerts, Enum.CDMLayoutMode.AllowCreate);
 end
 
-GroupBuffFilterSectionMixin = {};--- @class GroupBuffFilterSectionMixin
+GroupBuffFilterSectionMixin = {}; --- @class GroupBuffFilterSectionMixin
 
 function GroupBuffFilterSectionMixin:OnLoad()
 	self.itemPool = CreateFramePool("Frame", self.Container, "GroupBuffFilterItemTemplate");
@@ -280,7 +280,7 @@ function GroupBuffFilterSectionMixin:ApplyFilter()
 	end
 end
 
-GroupBuffFilterMixin = {};--- @class GroupBuffFilterMixin
+GroupBuffFilterMixin = {}; --- @class GroupBuffFilterMixin
 
 function GroupBuffFilterMixin:OnLoad()
 	self.filterText = "";

@@ -328,14 +328,14 @@ AuraUtil.DispellableDebuffTypes =
 	Bleed = true,
 };
 
-AuraUtil.AuraUpdateChangedType = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["Debuff"]: 2, ["Buff"]: 3, ["Dispel"]: 4} See [AuraUtil.AuraUpdateChangedType](lua://AuraUtil.AuraUpdateChangedType)
+AuraUtil.AuraUpdateChangedType = EnumUtil.MakeEnum( --- @type {["None"]: 1, ["Debuff"]: 2, ["Buff"]: 3, ["Dispel"]: 4} # See [AuraUtil.AuraUpdateChangedType](lua://AuraUtil.AuraUpdateChangedType)
 	"None",
 	"Debuff",
 	"Buff",
 	"Dispel"
 );
 
-AuraUtil.UnitFrameDebuffType = EnumUtil.MakeEnum(--- @type {["BossDebuff"]: 1, ["BossBuff"]: 2, ["PriorityDebuff"]: 3, ["NonBossRaidDebuff"]: 4, ["NonBossDebuff"]: 5} See [AuraUtil.UnitFrameDebuffType](lua://AuraUtil.UnitFrameDebuffType)
+AuraUtil.UnitFrameDebuffType = EnumUtil.MakeEnum( --- @type {["BossDebuff"]: 1, ["BossBuff"]: 2, ["PriorityDebuff"]: 3, ["NonBossRaidDebuff"]: 4, ["NonBossDebuff"]: 5} # See [AuraUtil.UnitFrameDebuffType](lua://AuraUtil.UnitFrameDebuffType)
 	"BossDebuff",
 	"BossBuff",
 	"PriorityDebuff",
@@ -662,7 +662,7 @@ end
 
 EventRegistry:RegisterFrameEventAndCallback("AURA_DATA_PROVIDER_SWITCH", OnSwitchAuraDataProvider, {});
 
-GroupBuffMixin = {};--- @class GroupBuffMixin
+GroupBuffMixin = {}; --- @class GroupBuffMixin
 
 function GroupBuffMixin:OnLoad()
 	self:RegisterHiddenGroupBuffsChangedEvent();

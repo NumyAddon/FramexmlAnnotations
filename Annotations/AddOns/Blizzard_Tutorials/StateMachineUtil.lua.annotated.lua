@@ -1,4 +1,4 @@
-TutorialStateMachineMixin = {};--- @class TutorialStateMachineMixin
+TutorialStateMachineMixin = {}; --- @class TutorialStateMachineMixin
 
 function TutorialStateMachineMixin:AddState(stateName, onBegin, onEnd)
 	if not self.states then

@@ -1,7 +1,7 @@
 
 --------------------------------------------------
 -- TABARD MODEL CONTROL ROTATE BUTTON MIXIN
-TabardModelControlRotateButtonMixin = CreateFromMixins(ModelControlRotateButtonMixin);--- @class TabardModelControlRotateButtonMixin : ModelControlRotateButtonMixin
+TabardModelControlRotateButtonMixin = CreateFromMixins(ModelControlRotateButtonMixin); --- @class TabardModelControlRotateButtonMixin : ModelControlRotateButtonMixin
 
 function TabardModelControlRotateButtonMixin:OnLoad()
 	--cache off the model

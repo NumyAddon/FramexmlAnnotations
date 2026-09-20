@@ -1,6 +1,6 @@
 local questItems = { };
 
-AutoQuestPopupTrackerMixin = { };--- @class AutoQuestPopupTrackerMixin
+AutoQuestPopupTrackerMixin = { }; --- @class AutoQuestPopupTrackerMixin
 
 function AutoQuestPopupTrackerMixin:ShouldDisplayAutoQuest(questID)
 	return not C_QuestLog.IsQuestBounty(questID) and self:ShouldDisplayQuest(QuestCache:Get(questID));
@@ -47,7 +47,7 @@ function AutoQuestPopupTrackerMixin:RemoveAutoQuestPopUp(questID)
 	self:MarkDirty();
 end
 
-AutoQuestPopupBlockMixin = CreateFromMixins(ObjectiveTrackerBlockMixin);--- @class AutoQuestPopupBlockMixin : ObjectiveTrackerBlockMixin
+AutoQuestPopupBlockMixin = CreateFromMixins(ObjectiveTrackerBlockMixin); --- @class AutoQuestPopupBlockMixin : ObjectiveTrackerBlockMixin
 
 -- ObjectiveTrackerBlockMixin override
 function AutoQuestPopupBlockMixin:Init()
@@ -171,7 +171,7 @@ function AutoQuestPopupBlockMixin:OnAnimFinished()
 	end
 end
 
-AutoQuestPopupFlashFrameMixin = { };--- @class AutoQuestPopupFlashFrameMixin
+AutoQuestPopupFlashFrameMixin = { }; --- @class AutoQuestPopupFlashFrameMixin
 
 function AutoQuestPopupFlashFrameMixin:OnLoad()
 	self.IconFlash:SetVertexColor(1, 0, 0);

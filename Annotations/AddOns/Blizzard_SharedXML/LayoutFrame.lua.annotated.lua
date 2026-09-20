@@ -7,7 +7,7 @@ local function IsLayoutFrame(frame)
 	return frame.IsLayoutFrame and frame:IsLayoutFrame();
 end
 
-BaseLayoutMixin = {};--- @class BaseLayoutMixin
+BaseLayoutMixin = {}; --- @class BaseLayoutMixin
 
 function BaseLayoutMixin:OnShow()
 	if not self.skipLayoutOnShow then
@@ -203,7 +203,7 @@ end
 -- Layout Mixin
 --------------------------------------------------------------------------------
 
-LayoutMixin = CreateFromMixins(BaseLayoutMixin);--- @class LayoutMixin : BaseLayoutMixin
+LayoutMixin = CreateFromMixins(BaseLayoutMixin); --- @class LayoutMixin : BaseLayoutMixin
 
 function LayoutMixin:GetPadding()
 	return (self.leftPadding or 0),
@@ -270,7 +270,7 @@ end
 -- VerticalLayout Mixin
 --------------------------------------------------------------------------------
 
-VerticalLayoutMixin = {};--- @class VerticalLayoutMixin
+VerticalLayoutMixin = {}; --- @class VerticalLayoutMixin
 
 function VerticalLayoutMixin:LayoutChildren(children, expandToWidth)
 	local frameLeftPadding, frameRightPadding, topOffset, bottomOffset = self:GetPadding();
@@ -367,7 +367,7 @@ end
 -- HorizontalLayout Mixin
 --------------------------------------------------------------------------------
 
-HorizontalLayoutMixin = {};--- @class HorizontalLayoutMixin
+HorizontalLayoutMixin = {}; --- @class HorizontalLayoutMixin
 
 function HorizontalLayoutMixin:LayoutChildren(children, ignored, expandToHeight)
 	local leftOffset, rightOffset, frameTopPadding, frameBottomPadding = self:GetPadding();
@@ -448,7 +448,7 @@ end
 -- ResizeLayout Mixin
 --------------------------------------------------------------------------------
 
-ResizeLayoutMixin = CreateFromMixins(BaseLayoutMixin);--- @class ResizeLayoutMixin : BaseLayoutMixin
+ResizeLayoutMixin = CreateFromMixins(BaseLayoutMixin); --- @class ResizeLayoutMixin : BaseLayoutMixin
 
 local function GetExtents(childFrame, left, right, top, bottom, layoutFrameScale)
 	local frameLeft, frameBottom, frameWidth, frameHeight, defaulted = GetUnscaledFrameRect(childFrame, layoutFrameScale);
@@ -534,7 +534,7 @@ end
 -- GridLayoutFrameMixin
 --------------------------------------------------------------------------------
 
-GridLayoutFrameMixin = {}--- @class GridLayoutFrameMixin
+GridLayoutFrameMixin = {} --- @class GridLayoutFrameMixin
 
 function GridLayoutFrameMixin:Layout()
 	local layoutChildren = self:GetLayoutChildren();
@@ -629,7 +629,7 @@ end
 -- Unlike GridLayoutFrame, which dynamically places child frames into grid columns and rows based on flow direction sand other settings,
 -- StaticGridLayoutFrame expects all child frames to have their assigned grid column and row pre-calculated and simply positions them there,
 -- calculating column and row sizes based on the sizes of the child frames.
-StaticGridLayoutFrameMixin = CreateFromMixins(BaseLayoutMixin);--- @class StaticGridLayoutFrameMixin : BaseLayoutMixin
+StaticGridLayoutFrameMixin = CreateFromMixins(BaseLayoutMixin); --- @class StaticGridLayoutFrameMixin : BaseLayoutMixin
 
 function StaticGridLayoutFrameMixin:Layout()
 	local layoutChildren = self:GetLayoutChildren();
@@ -732,7 +732,7 @@ end
 
 -- Note: we're still discussing options to handle the script override problems with
 -- Layout frames so use this only when necesssary for now since it may be replaced.
-OverrideLayoutFrameOnUpdateMixin = {};--- @class OverrideLayoutFrameOnUpdateMixin
+OverrideLayoutFrameOnUpdateMixin = {}; --- @class OverrideLayoutFrameOnUpdateMixin
 
 -- Override in your derived mixin.
 function OverrideLayoutFrameOnUpdateMixin:NeedsOnUpdate()

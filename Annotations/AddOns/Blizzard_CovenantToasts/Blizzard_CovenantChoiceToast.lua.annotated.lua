@@ -1,4 +1,4 @@
-CovenantChoiceToastMixin = {};--- @class CovenantChoiceToastMixin
+CovenantChoiceToastMixin = {}; --- @class CovenantChoiceToastMixin
 
 function CovenantChoiceToastMixin:OnLoad()
 	self:RegisterEvent("COVENANT_CHOSEN");

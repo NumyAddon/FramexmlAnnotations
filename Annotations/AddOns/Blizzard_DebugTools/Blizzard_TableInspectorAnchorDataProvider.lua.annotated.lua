@@ -1,5 +1,5 @@
 
-TableInspectorAnchorDataProviderMixin = CreateFromMixins(TableInspectorDataProviderMixin);--- @class TableInspectorAnchorDataProviderMixin : TableInspectorDataProviderMixin
+TableInspectorAnchorDataProviderMixin = CreateFromMixins(TableInspectorDataProviderMixin); --- @class TableInspectorAnchorDataProviderMixin : TableInspectorDataProviderMixin
 
 function TableInspectorAnchorDataProviderMixin:Initialize(tableInspector, parent)
 	TableInspectorDataProviderMixin.Initialize(tableInspector, parent);
@@ -47,7 +47,7 @@ function TableInspectorAnchorDataProviderMixin:GetLines(filter)
 	end
 end
 
-TableInspectAnchorLineMixin = {};--- @class TableInspectAnchorLineMixin
+TableInspectAnchorLineMixin = {}; --- @class TableInspectAnchorLineMixin
 
 function TableInspectAnchorLineMixin:Initialize(point, relativeTo, relativePoint, xOffset, yOffset)
 	self.Point:SetText(point);

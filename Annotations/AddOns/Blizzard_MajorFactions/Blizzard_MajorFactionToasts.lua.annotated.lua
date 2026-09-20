@@ -1,5 +1,5 @@
 
-MajorFactionCelebrationBannerMixin = {};--- @class MajorFactionCelebrationBannerMixin
+MajorFactionCelebrationBannerMixin = {}; --- @class MajorFactionCelebrationBannerMixin
 
 function MajorFactionCelebrationBannerMixin:SetMajorFactionTextureKit(textureKit)
 	local textureKitRegions = {

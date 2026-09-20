@@ -1,5 +1,5 @@
 
-LFGReadyCheckPopupMixin = {};--- @class LFGReadyCheckPopupMixin
+LFGReadyCheckPopupMixin = {}; --- @class LFGReadyCheckPopupMixin
 
 function LFGReadyCheckPopupMixin:OnLoad()
 	self:RegisterEvent("LFG_READY_CHECK_SHOW");

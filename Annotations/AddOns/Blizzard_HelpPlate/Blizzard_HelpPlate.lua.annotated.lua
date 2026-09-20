@@ -14,7 +14,7 @@ local function FinalizeHide()
 	HelpPlateTooltip:Hide();
 end
 
-MainHelpPlateButtonMixin = {};--- @class MainHelpPlateButtonMixin
+MainHelpPlateButtonMixin = {}; --- @class MainHelpPlateButtonMixin
 
 function MainHelpPlateButtonMixin:OnEnter()
 	self:ShowTooltip();
@@ -42,7 +42,7 @@ function MainHelpPlateButtonMixin:ShowTooltip()
 	HelpPlateTooltip:InitFromMainHelpPlateButton(self);
 end
 
-HelpPlateButtonMixin = {};--- @class HelpPlateButtonMixin
+HelpPlateButtonMixin = {}; --- @class HelpPlateButtonMixin
 
 function HelpPlateButtonMixin:OnLoad()
 	local slideAnimGroup = self:CreateAnimationGroup();
@@ -124,7 +124,7 @@ function HelpPlateButtonMixin:Reset()
 	self.slideAnimGroup:Stop();
 end
 
-HelpPlateBoxMixin = {};--- @class HelpPlateBoxMixin
+HelpPlateBoxMixin = {}; --- @class HelpPlateBoxMixin
 
 function HelpPlateBoxMixin:OnLoad()
 	for index, texture in ipairs(self.Textures) do
@@ -132,7 +132,7 @@ function HelpPlateBoxMixin:OnLoad()
 	end
 end
 
-HelpPlateTileMixin = {};--- @class HelpPlateTileMixin
+HelpPlateTileMixin = {}; --- @class HelpPlateTileMixin
 
 function HelpPlateTileMixin:OnEnter()
 	self.Button:HideTutorial();
@@ -152,7 +152,7 @@ function HelpPlateTileMixin:Reset()
 	self:Hide();
 end
 
-HelpPlateTooltipMixin = {};--- @class HelpPlateTooltipMixin
+HelpPlateTooltipMixin = {}; --- @class HelpPlateTooltipMixin
 
 function HelpPlateTooltipMixin:OnLoad()
 	self.Text:SetSpacing(4);

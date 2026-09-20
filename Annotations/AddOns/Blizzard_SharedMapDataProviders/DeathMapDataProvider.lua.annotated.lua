@@ -1,4 +1,4 @@
-DeathMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class DeathMapDataProviderMixin : MapCanvasDataProviderMixin
+DeathMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class DeathMapDataProviderMixin : MapCanvasDataProviderMixin
 
 function DeathMapDataProviderMixin:RemoveAllData()
 	self:GetMap():RemoveAllPinsByTemplate("CorpsePinTemplate");
@@ -26,7 +26,7 @@ function DeathMapDataProviderMixin:RefreshAllData(fromOnShow)
 	]]
 end
 
-CorpsePinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class CorpsePinMixin : MapCanvasPinMixin
+CorpsePinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class CorpsePinMixin : MapCanvasPinMixin
 
 function CorpsePinMixin:OnLoad()
 	self:SetScalingLimits(1, 0.8, 0.8);
@@ -52,7 +52,7 @@ function CorpsePinMixin:OnMouseLeave()
 	GameTooltip:Hide();
 end
 
-DeathReleasePinMixin = CreateFromMixins(CorpsePinMixin);--- @class DeathReleasePinMixin : CorpsePinMixin
+DeathReleasePinMixin = CreateFromMixins(CorpsePinMixin); --- @class DeathReleasePinMixin : CorpsePinMixin
 
 function DeathReleasePinMixin:OnMouseEnter()
 	local x, y = self:GetCenter();

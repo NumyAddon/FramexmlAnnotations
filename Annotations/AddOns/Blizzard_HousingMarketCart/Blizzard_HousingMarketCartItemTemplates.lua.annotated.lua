@@ -1,5 +1,5 @@
 
-HousingMarketCartBraceMixin = {};--- @class HousingMarketCartBraceMixin
+HousingMarketCartBraceMixin = {}; --- @class HousingMarketCartBraceMixin
 
 function HousingMarketCartBraceMixin:InitBraces(hasTopBrace, hasBottomBrace)
 	self.TopBrace:SetShown(not not hasTopBrace);
@@ -13,7 +13,7 @@ function HousingMarketCartBraceMixin:InitBraces(hasTopBrace, hasBottomBrace)
 	end
 end
 
-HousingMarketCartPriceMixin = {};--- @class HousingMarketCartPriceMixin
+HousingMarketCartPriceMixin = {}; --- @class HousingMarketCartPriceMixin
 
 function HousingMarketCartPriceMixin:GetCurrencyInfo()
 	local hearthsteelBalance = tonumber(C_CatalogShop.GetVirtualCurrencyBalance(Constants.CatalogShopVirtualCurrencyConstants.HEARTHSTEEL_VC_CURRENCY_CODE));
@@ -61,7 +61,7 @@ local function GetPreviewAtlasName(elementData, hovered, enabled)
 	return nil;
 end
 
-PlaceInWorldButtonMixin = {};--- @class PlaceInWorldButtonMixin
+PlaceInWorldButtonMixin = {}; --- @class PlaceInWorldButtonMixin
 
 function PlaceInWorldButtonMixin:OnEnter()
 	self.HighlightIcon:Show();
@@ -79,7 +79,7 @@ function PlaceInWorldButtonMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-HousingMarketCartItemMixin = {};--- @class HousingMarketCartItemMixin
+HousingMarketCartItemMixin = {}; --- @class HousingMarketCartItemMixin
 
 function HousingMarketCartItemMixin:OnLoad()
 	local removeFromCartButton = self.RemoveFromCartButtonContainer.RemoveFromListButton;
@@ -161,7 +161,7 @@ function HousingMarketCartItemMixin:UpdatePreviewStatusIcon()
 	self.IconBorder:SetAtlas(showGoldBorder and "perks-border-square-gold" or "perks-border-square-gray");
 end
 
-HousingRemoveInlineItemFromCartServiceMixin = {};--- @class HousingRemoveInlineItemFromCartServiceMixin
+HousingRemoveInlineItemFromCartServiceMixin = {}; --- @class HousingRemoveInlineItemFromCartServiceMixin
 
 function HousingRemoveInlineItemFromCartServiceMixin:GetEventData()
 	return self:GetParent().elementData;
@@ -177,7 +177,7 @@ function HousingMarketCartBundleRegistrant:IsRegisteredToBundle(bundleRef)
 	return self.elementData.bundleRef == bundleRef;
 end
 
-HousingMarketCartBundleHeaderMixin = CreateFromMixins(HousingMarketCartBundleRegistrant);--- @class HousingMarketCartBundleHeaderMixin : HousingMarketCartBundleRegistrant
+HousingMarketCartBundleHeaderMixin = CreateFromMixins(HousingMarketCartBundleRegistrant); --- @class HousingMarketCartBundleHeaderMixin : HousingMarketCartBundleRegistrant
 
 function HousingMarketCartBundleHeaderMixin:Init(elementData)
 	self.elementData = elementData;
@@ -192,13 +192,13 @@ function HousingMarketCartBundleHeaderMixin:Refresh()
 	self.Title:SetText(self.elementData.title or "");
 end
 
-HousingMarketCartBundleFooterMixin = CreateFromMixins(HousingMarketCartBundleRegistrant);--- @class HousingMarketCartBundleFooterMixin : HousingMarketCartBundleRegistrant
+HousingMarketCartBundleFooterMixin = CreateFromMixins(HousingMarketCartBundleRegistrant); --- @class HousingMarketCartBundleFooterMixin : HousingMarketCartBundleRegistrant
 
 function HousingMarketCartBundleFooterMixin:Init(elementData)
 	self.elementData = elementData;
 end
 
-HousingMarketCartBundleMixin = CreateFromMixins(HousingMarketCartBundleRegistrant);--- @class HousingMarketCartBundleMixin : HousingMarketCartBundleRegistrant
+HousingMarketCartBundleMixin = CreateFromMixins(HousingMarketCartBundleRegistrant); --- @class HousingMarketCartBundleMixin : HousingMarketCartBundleRegistrant
 
 function HousingMarketCartBundleMixin:OnLoad()
 	local removeFromCartButton = self.RemoveFromCartButtonContainer.RemoveFromListButton;
@@ -243,7 +243,7 @@ function HousingMarketCartBundleMixin:Refresh()
 	self:InitBraces(self.elementData.showTopBrace, self.elementData.showBottomBrace)
 end
 
-HousingMarketCartBundleItemMixin = CreateFromMixins(HousingMarketCartBundleRegistrant);--- @class HousingMarketCartBundleItemMixin : HousingMarketCartBundleRegistrant
+HousingMarketCartBundleItemMixin = CreateFromMixins(HousingMarketCartBundleRegistrant); --- @class HousingMarketCartBundleItemMixin : HousingMarketCartBundleRegistrant
 
 function HousingMarketCartBundleItemMixin:OnLoad()
 	self.PlaceInWorldButton.GetEventData = function (_btn)

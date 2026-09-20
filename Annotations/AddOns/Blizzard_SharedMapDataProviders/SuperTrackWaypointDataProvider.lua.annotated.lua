@@ -1,4 +1,4 @@
-SuperTrackWaypointDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin, DirtiableMixin);--- @class SuperTrackWaypointDataProviderMixin : MapCanvasDataProviderMixin, DirtiableMixin
+SuperTrackWaypointDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin, DirtiableMixin); --- @class SuperTrackWaypointDataProviderMixin : MapCanvasDataProviderMixin, DirtiableMixin
 
 function SuperTrackWaypointDataProviderMixin:OnAdded(owningMap)
 	MapCanvasDataProviderMixin.OnAdded(self, owningMap);
@@ -44,7 +44,7 @@ do
 	end
 end
 
-SuperTrackWaypointPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class SuperTrackWaypointPinMixin : MapCanvasPinMixin
+SuperTrackWaypointPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class SuperTrackWaypointPinMixin : MapCanvasPinMixin
 
 function SuperTrackWaypointPinMixin:DisableInheritedMotionScriptsWarning()
 	return true;

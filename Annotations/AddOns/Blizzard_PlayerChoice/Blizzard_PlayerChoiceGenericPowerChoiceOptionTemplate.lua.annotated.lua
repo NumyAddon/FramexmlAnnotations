@@ -1,4 +1,4 @@
-PlayerChoiceGenericPowerChoiceOptionTemplateMixin = {};--- @class PlayerChoiceGenericPowerChoiceOptionTemplateMixin
+PlayerChoiceGenericPowerChoiceOptionTemplateMixin = {}; --- @class PlayerChoiceGenericPowerChoiceOptionTemplateMixin
 
 function PlayerChoiceGenericPowerChoiceOptionTemplateMixin:OnLoad()
 	PlayerChoicePowerChoiceTemplateMixin.OnLoad(self);

@@ -48,7 +48,7 @@ end
 
 
 
-WarlockShardMixin = {};--- @class WarlockShardMixin
+WarlockShardMixin = {}; --- @class WarlockShardMixin
 
 WarlockShardMixin.IncrementSettings = {
 	[1] = { fillAtlas = "UF-SoulShard-Inc1", glowAtlas = "UF-SoulShard-Inc1Glow", fillYOffset = -5.5, glowYOffset = -5.5 },

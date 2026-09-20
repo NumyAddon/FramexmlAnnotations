@@ -31,7 +31,7 @@ local function GetHoldTime(displayTime)
 	return math.max(displayTime - FADE_OUT_TIME, 1.0);
 end
 
-RaidWarningFrameMixin = {};--- @class RaidWarningFrameMixin
+RaidWarningFrameMixin = {}; --- @class RaidWarningFrameMixin
 
 local function ResetString(_pool, fontString)
 	FadingFrame_StopTextScaling(fontString);
@@ -336,7 +336,7 @@ function RaidWarningFrameMixin:GetActiveMessageCount()
 	return self.fontStringPool:GetNumActive();
 end
 
-GlobalRaidWarningFrameMixin = {};--- @class GlobalRaidWarningFrameMixin
+GlobalRaidWarningFrameMixin = {}; --- @class GlobalRaidWarningFrameMixin
 
 function GlobalRaidWarningFrameMixin:OnLoad()
 	RaidWarningFrameMixin.OnLoad(self);
@@ -349,7 +349,7 @@ function GlobalRaidWarningFrameMixin:OnLayoutUpdated()
 	RaidWarningUtil.UpdateCenterScreenAnchors();
 end
 
-PrivateRaidBossEmoteFrameAnchorMixin = {};--- @class PrivateRaidBossEmoteFrameAnchorMixin
+PrivateRaidBossEmoteFrameAnchorMixin = {}; --- @class PrivateRaidBossEmoteFrameAnchorMixin
 
 function PrivateRaidBossEmoteFrameAnchorMixin:OnLoad()
 	local anchor =

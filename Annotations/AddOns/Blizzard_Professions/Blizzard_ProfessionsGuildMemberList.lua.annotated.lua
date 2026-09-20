@@ -1,4 +1,4 @@
-ProfessionsGuildCrafterButtonMixin = {};--- @class ProfessionsGuildCrafterButtonMixin
+ProfessionsGuildCrafterButtonMixin = {}; --- @class ProfessionsGuildCrafterButtonMixin
 
 function ProfessionsGuildCrafterButtonMixin:Init(elementData)
 	self:SetText(elementData.displayName);
@@ -15,7 +15,7 @@ function ProfessionsGuildCrafterButtonMixin:Init(elementData)
 	end
 end
 
-ProfessionsGuildListingMixin = {};--- @class ProfessionsGuildListingMixin
+ProfessionsGuildListingMixin = {}; --- @class ProfessionsGuildListingMixin
 
 function ProfessionsGuildListingMixin:OnLoad()
 	self.Title:SetText(GUILD_CRAFTERS);

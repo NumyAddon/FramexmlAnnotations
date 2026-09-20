@@ -2,7 +2,7 @@
 -- ***** ANIM LINE
 -- *****************************************************************************************************
 
-ObjectiveTrackerAnimLineState = EnumUtil.MakeEnum(--- @type {["Adding"]: 1, ["Present"]: 2, ["Completing"]: 3, ["Completed"]: 4, ["Fading"]: 5, ["Faded"]: 6} See [ObjectiveTrackerAnimLineState](lua://ObjectiveTrackerAnimLineState)
+ObjectiveTrackerAnimLineState = EnumUtil.MakeEnum( --- @type {["Adding"]: 1, ["Present"]: 2, ["Completing"]: 3, ["Completed"]: 4, ["Fading"]: 5, ["Faded"]: 6} # See [ObjectiveTrackerAnimLineState](lua://ObjectiveTrackerAnimLineState)
 	"Adding",
 	"Present",
 	"Completing",
@@ -11,7 +11,7 @@ ObjectiveTrackerAnimLineState = EnumUtil.MakeEnum(--- @type {["Adding"]: 1, ["Pr
 	"Faded"
 );
 
-ObjectiveTrackerAnimLineMixin = CreateFromMixins(ObjectiveTrackerLineMixin);--- @class ObjectiveTrackerAnimLineMixin : ObjectiveTrackerLineMixin
+ObjectiveTrackerAnimLineMixin = CreateFromMixins(ObjectiveTrackerLineMixin); --- @class ObjectiveTrackerAnimLineMixin : ObjectiveTrackerLineMixin
 
 function ObjectiveTrackerAnimLineMixin:OnGlowAnimFinished()
 	if self.state == ObjectiveTrackerAnimLineState.Completing then
@@ -92,7 +92,7 @@ end
 -- ***** ANIM BLOCK
 -- *****************************************************************************************************
 
-ObjectiveTrackerAnimBlockMixin = CreateFromMixins(ObjectiveTrackerBlockMixin);--- @class ObjectiveTrackerAnimBlockMixin : ObjectiveTrackerBlockMixin
+ObjectiveTrackerAnimBlockMixin = CreateFromMixins(ObjectiveTrackerBlockMixin); --- @class ObjectiveTrackerAnimBlockMixin : ObjectiveTrackerBlockMixin
 
 function ObjectiveTrackerAnimBlockMixin:OnLayout()
 	if self.parentModule:NeedsFanfare(self.id) then

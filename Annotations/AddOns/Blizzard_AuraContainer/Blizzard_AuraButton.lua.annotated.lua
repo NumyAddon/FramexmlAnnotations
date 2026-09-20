@@ -1,4 +1,4 @@
-AuraButtonSharedMixin = {};--- @class AuraButtonSharedMixin
+AuraButtonSharedMixin = {}; --- @class AuraButtonSharedMixin
 
 local function ParseCancelAuraButtons(cancelAuraButtons)
 	if cancelAuraButtons == nil then
@@ -67,8 +67,8 @@ function AuraButtonSharedMixin:SetHideTooltipInCombat(hideInCombat)
 	self.tooltipHideInCombat = (hideInCombat == true);
 end
 
-AuraButtonInboundMixin = CreateFromMixins(AuraButtonSharedMixin);--- @class AuraButtonInboundMixin : AuraButtonSharedMixin
-AuraButtonPrivateMixin = CreateFromMixins(AuraButtonSharedMixin);--- @class AuraButtonPrivateMixin : AuraButtonSharedMixin
+AuraButtonInboundMixin = CreateFromMixins(AuraButtonSharedMixin); --- @class AuraButtonInboundMixin : AuraButtonSharedMixin
+AuraButtonPrivateMixin = CreateFromMixins(AuraButtonSharedMixin); --- @class AuraButtonPrivateMixin : AuraButtonSharedMixin
 
 function AuraButtonPrivateMixin:OnLoad_Intrinsic()
 	self.auraData = nil;
@@ -240,7 +240,7 @@ function AuraButtonPrivateMixin:CanCancelAuraOnClick(button, isDown)
 	return false;
 end
 
-AuraButtonTooltipMixin = CreateFromMixins(PrivateAurasTooltipMixin);--- @class AuraButtonTooltipMixin : PrivateAurasTooltipMixin
+AuraButtonTooltipMixin = CreateFromMixins(PrivateAurasTooltipMixin); --- @class AuraButtonTooltipMixin : PrivateAurasTooltipMixin
 
 function AuraButtonTooltipMixin:OnUpdate(elapsedTime)
 	if not GameTooltip_IsUpdateNeeded(self, elapsedTime) then

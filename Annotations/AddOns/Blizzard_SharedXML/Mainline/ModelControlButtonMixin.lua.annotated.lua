@@ -1,6 +1,6 @@
 --------------------------------------------------
 -- MODEL CONTROL FRAME MIXIN
-ModelControlFrameMixin = {};--- @class ModelControlFrameMixin
+ModelControlFrameMixin = {}; --- @class ModelControlFrameMixin
 
 function ModelControlFrameMixin:OnHide()
 	if ( self.buttonDown ) then
@@ -11,7 +11,7 @@ end
 
 --------------------------------------------------
 -- MODEL CONTROL BUTTON MIXIN
-ModelControlButtonMixin = {};--- @class ModelControlButtonMixin
+ModelControlButtonMixin = {}; --- @class ModelControlButtonMixin
 
 function ModelControlButtonMixin:OnLoad()
 	--cache off the model
@@ -63,7 +63,7 @@ end
 
 --------------------------------------------------
 -- MODEL CONTROL ZOOM BUTTON MIXIN
-ModelControlZoomButtonMixin = CreateFromMixins(ModelControlButtonMixin);--- @class ModelControlZoomButtonMixin : ModelControlButtonMixin
+ModelControlZoomButtonMixin = CreateFromMixins(ModelControlButtonMixin); --- @class ModelControlZoomButtonMixin : ModelControlButtonMixin
 
 function ModelControlZoomButtonMixin:OnLoad()
 	ModelControlButtonMixin.OnLoad(self);
@@ -87,7 +87,7 @@ end
 
 --------------------------------------------------
 -- MODEL CONTROL PAN BUTTON MIXIN
-ModelControlPanButtonMixin = CreateFromMixins(ModelControlButtonMixin);--- @class ModelControlPanButtonMixin : ModelControlButtonMixin
+ModelControlPanButtonMixin = CreateFromMixins(ModelControlButtonMixin); --- @class ModelControlPanButtonMixin : ModelControlButtonMixin
 
 function ModelControlPanButtonMixin:OnLoad()
 	ModelControlButtonMixin.OnLoad(self);
@@ -107,7 +107,7 @@ end
 
 --------------------------------------------------
 -- MODEL CONTROL RESET BUTTON MIXIN
-ModelControlResetButtonMixin = CreateFromMixins(ModelControlButtonMixin);--- @class ModelControlResetButtonMixin : ModelControlButtonMixin
+ModelControlResetButtonMixin = CreateFromMixins(ModelControlButtonMixin); --- @class ModelControlResetButtonMixin : ModelControlButtonMixin
 
 function ModelControlResetButtonMixin:OnLoad()
 	ModelControlButtonMixin.OnLoad(self);
@@ -124,7 +124,7 @@ end
 
 --------------------------------------------------
 -- MODEL CONTROL ROTATE BUTTON MIXIN
-ModelControlRotateButtonMixin = CreateFromMixins(ModelControlButtonMixin);--- @class ModelControlRotateButtonMixin : ModelControlButtonMixin
+ModelControlRotateButtonMixin = CreateFromMixins(ModelControlButtonMixin); --- @class ModelControlRotateButtonMixin : ModelControlButtonMixin
 
 function ModelControlRotateButtonMixin:OnLoad()
 	ModelControlButtonMixin.OnLoad(self);
@@ -156,7 +156,7 @@ end
 
 --------------------------------------------------
 -- MODEL PANNING FRAME MIXIN
-ModelPanningFrameMixin = {};--- @class ModelPanningFrameMixin
+ModelPanningFrameMixin = {}; --- @class ModelPanningFrameMixin
 
 function ModelPanningFrameMixin:OnLoad()
 end

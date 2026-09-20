@@ -32,7 +32,7 @@ local navigateHomeOnShow = true;
 -- HelpFrameMixin
 --
 
-HelpFrameMixin = {};--- @class HelpFrameMixin
+HelpFrameMixin = {}; --- @class HelpFrameMixin
 
 function HelpFrameMixin:SetInitialLoading(initialLoading)
 	self.initialLoading = initialLoading;

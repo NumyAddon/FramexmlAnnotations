@@ -1,4 +1,4 @@
-BattleNetInviteFrameMixin = {};--- @class BattleNetInviteFrameMixin
+BattleNetInviteFrameMixin = {}; --- @class BattleNetInviteFrameMixin
 
 function BattleNetInviteFrameMixin:OnLoad()
 	self.exclusive = true;
@@ -102,7 +102,7 @@ function AddFriendFrame_Show()
 	end
 end
 
-AddFriendFrameMixin = {};--- @class AddFriendFrameMixin
+AddFriendFrameMixin = {}; --- @class AddFriendFrameMixin
 
 function AddFriendFrameMixin:OnLoad()
 	self.exclusive = true;
@@ -247,7 +247,7 @@ function IsValidBattlenetName(text)
 	return false;
 end
 
-AddFriendIconHolderMixin = {};--- @class AddFriendIconHolderMixin
+AddFriendIconHolderMixin = {}; --- @class AddFriendIconHolderMixin
 
 function AddFriendIconHolderMixin:OnLoad()
 	if self.secondaryIconAtlas then
@@ -255,7 +255,7 @@ function AddFriendIconHolderMixin:OnLoad()
 	end
 end
 
-AddFriendEntryFrameInfoButtonMixin = {};--- @class AddFriendEntryFrameInfoButtonMixin
+AddFriendEntryFrameInfoButtonMixin = {}; --- @class AddFriendEntryFrameInfoButtonMixin
 
 function AddFriendEntryFrameInfoButtonMixin:OnLoad()
 	UserScaledElementMixin.OnLoad_UserScaledElement(self);
@@ -284,7 +284,7 @@ function AddFriendEntryFrameInfoButtonMixin:OnClick()
 	AddFriendFrame:ShowInfo();
 end
 
-AddFriendCloseButtonMixin = {};--- @class AddFriendCloseButtonMixin
+AddFriendCloseButtonMixin = {}; --- @class AddFriendCloseButtonMixin
 
 function AddFriendCloseButtonMixin:OnClick()
 	StaticPopupSpecial_Hide(AddFriendFrame);

@@ -98,7 +98,7 @@ end
 
 SettingsRegistrar:AddRegistrant(Register);
 
-PingSystemMixin = {--- @class PingSystemMixin
+PingSystemMixin = { --- @class PingSystemMixin
     TutorialCutoffVersion = {
         Major = 10;
         Minor = 2;
@@ -145,7 +145,7 @@ function PingSystemInitializer(category)
 	initializer:Init(category);
 end
 
-PingSystemTutorialMixin = {};--- @class PingSystemTutorialMixin
+PingSystemTutorialMixin = {}; --- @class PingSystemTutorialMixin
 
 function PingSystemTutorialMixin:OnLoad()
     self:SetParent(UIParent);

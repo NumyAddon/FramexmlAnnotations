@@ -33,7 +33,7 @@ end
 
 
 -- Largely copied from AuctionHouseFilterButton
-ProfessionsCustomerOrdersCategoryButtonMixin = {};--- @class ProfessionsCustomerOrdersCategoryButtonMixin
+ProfessionsCustomerOrdersCategoryButtonMixin = {}; --- @class ProfessionsCustomerOrdersCategoryButtonMixin
 
 function ProfessionsCustomerOrdersCategoryButtonMixin:OnLoad()
 	self:SetPushedTextOffset(0, 0);
@@ -146,7 +146,7 @@ function ProfessionsCustomerOrdersCategoryButtonMixin:UpdateSelected()
 end
 
 
-ProfessionsCustomerOrdersRecipeCategoryListMixin = {};--- @class ProfessionsCustomerOrdersRecipeCategoryListMixin
+ProfessionsCustomerOrdersRecipeCategoryListMixin = {}; --- @class ProfessionsCustomerOrdersRecipeCategoryListMixin
 
 function ProfessionsCustomerOrdersRecipeCategoryListMixin:Init()
 	local emptyProvider = CreateTreeDataProvider();

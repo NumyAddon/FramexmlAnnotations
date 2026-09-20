@@ -2,7 +2,7 @@
 local BROWSE_SCROLL_OFFSET_REFRESH_THRESHOLD = 30;
 
 
-AuctionHouseBrowseResultsFrameMixin = CreateFromMixins(AuctionHouseSortOrderSystemMixin);--- @class AuctionHouseBrowseResultsFrameMixin : AuctionHouseSortOrderSystemMixin
+AuctionHouseBrowseResultsFrameMixin = CreateFromMixins(AuctionHouseSortOrderSystemMixin); --- @class AuctionHouseBrowseResultsFrameMixin : AuctionHouseSortOrderSystemMixin
 
 -- These events are registered in OnLoad, as the browse results can be updated
 -- when the player retrieves specific item and commodity results.

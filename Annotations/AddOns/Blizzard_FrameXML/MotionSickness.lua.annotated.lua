@@ -1,4 +1,4 @@
-MotionSicknessMixin = {--- @class MotionSicknessMixin
+MotionSicknessMixin = { --- @class MotionSicknessMixin
 	landscapeDarkeningMinSpeed = 14,			-- speed at which to start min alpha from 0
 	landscapeDarkeningMinAlpha = 0,				-- alpha at min speed
 	landscapeDarkeningMaxSpeed = 100,			-- speed at which to hit max alpha

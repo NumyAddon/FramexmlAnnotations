@@ -1,4 +1,4 @@
-QuestTextPreviewMixin = CreateFromMixins(AccessibilitySettingsPreviewMixin);--- @class QuestTextPreviewMixin : AccessibilitySettingsPreviewMixin
+QuestTextPreviewMixin = CreateFromMixins(AccessibilitySettingsPreviewMixin); --- @class QuestTextPreviewMixin : AccessibilitySettingsPreviewMixin
 
 function QuestTextPreviewMixin:UpdatePreview(value)
 	self.Background:SetAtlas(QuestTextContrast.GetBackgroundAtlas(value));

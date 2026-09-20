@@ -19,7 +19,7 @@ local ExteriorCustomizationModeShownEvents =
 	"HOUSE_EXTERIOR_DECOR_HIDDEN_CHANGED",
 };
 
-HouseEditorExteriorCustomizationModeMixin = {};--- @class HouseEditorExteriorCustomizationModeMixin
+HouseEditorExteriorCustomizationModeMixin = {}; --- @class HouseEditorExteriorCustomizationModeMixin
 
 function HouseEditorExteriorCustomizationModeMixin:OnLoad()
 	FrameUtil.RegisterFrameForEvents(self, ExteriorCustomizationModeLifetimeEvents);

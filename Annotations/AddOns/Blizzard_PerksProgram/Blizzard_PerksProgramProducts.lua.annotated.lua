@@ -9,7 +9,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramProductsFrameMixin
 ----------------------------------------------------------------------------------
-PerksProgramProductsFrameMixin = {};--- @class PerksProgramProductsFrameMixin
+PerksProgramProductsFrameMixin = {}; --- @class PerksProgramProductsFrameMixin
 function PerksProgramProductsFrameMixin:OnLoad()
 	self:RegisterEvent("PERKS_PROGRAM_DATA_SPECIFIC_ITEM_REFRESH");
 	self:RegisterEvent("PERKS_PROGRAM_PURCHASE_SUCCESS");
@@ -707,7 +707,7 @@ end
 ----------------------------------------------------------------------------------
 -- PerksProgramCurrencyFrameMixin
 ----------------------------------------------------------------------------------
-PerksProgramCurrencyFrameMixin = {};--- @class PerksProgramCurrencyFrameMixin
+PerksProgramCurrencyFrameMixin = {}; --- @class PerksProgramCurrencyFrameMixin
 function PerksProgramCurrencyFrameMixin:OnLoad()
 	self:RegisterEvent("PERKS_PROGRAM_CURRENCY_REFRESH");
 	self:RegisterEvent("CHEST_REWARDS_UPDATED_FROM_SERVER");
@@ -833,7 +833,7 @@ end
 ----------------------------------------------------------------------------------
 -- Frozen product container
 ----------------------------------------------------------------------------------
-FrozenProductContainerMixin = {};--- @class FrozenProductContainerMixin
+FrozenProductContainerMixin = {}; --- @class FrozenProductContainerMixin
 
 function FrozenProductContainerMixin:OnLoad()
 	-- Override the product button's methods so they run through this frame first so even internal calls will go through us

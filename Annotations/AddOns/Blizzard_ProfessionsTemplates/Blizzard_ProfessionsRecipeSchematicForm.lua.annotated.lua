@@ -28,7 +28,7 @@ cooldownFormatter:Init(
 	SecondsFormatterConstants.DontConvertToLower);
 cooldownFormatter:SetDesiredUnitCount(2);
 
-local LayoutEntry = EnumUtil.MakeEnum("Cooldown", "Description", "Source", "FirstCraftBonus");--- @type {["Cooldown"]: 1, ["Description"]: 2, ["Source"]: 3, ["FirstCraftBonus"]: 4}
+local LayoutEntry = EnumUtil.MakeEnum("Cooldown", "Description", "Source", "FirstCraftBonus"); --- @type {["Cooldown"]: 1, ["Description"]: 2, ["Source"]: 3, ["FirstCraftBonus"]: 4}
 
 local function CreateVerticalLayoutOrganizer(anchor, xPadding, yPadding)
 	local OrganizerMixin = {entries = {}};
@@ -68,7 +68,7 @@ local function CreateVerticalLayoutOrganizer(anchor, xPadding, yPadding)
 	return CreateFromMixins(OrganizerMixin);
 end
 
-ProfessionsRecipeSchematicFormMixin = CreateFromMixins(CallbackRegistryMixin);--- @class ProfessionsRecipeSchematicFormMixin : CallbackRegistryMixin
+ProfessionsRecipeSchematicFormMixin = CreateFromMixins(CallbackRegistryMixin); --- @class ProfessionsRecipeSchematicFormMixin : CallbackRegistryMixin
 
 ProfessionsRecipeSchematicFormMixin:GenerateCallbackEvents(
 {
@@ -1540,7 +1540,7 @@ function ProfessionsRecipeSchematicFormMixin:OnHyperlinkLeave()
 	GameTooltip_Hide();
 end
 
-ProfessionsFavoriteButtonMixin = {};--- @class ProfessionsFavoriteButtonMixin
+ProfessionsFavoriteButtonMixin = {}; --- @class ProfessionsFavoriteButtonMixin
 
 function ProfessionsFavoriteButtonMixin:SetIsFavorite(isFavorite)
 	local atlas = isFavorite and "auctionhouse-icon-favorite" or "auctionhouse-icon-favorite-off";

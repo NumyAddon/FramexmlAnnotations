@@ -1,4 +1,4 @@
-TargetFrameAuraButtonSharedMixin = {};--- @class TargetFrameAuraButtonSharedMixin
+TargetFrameAuraButtonSharedMixin = {}; --- @class TargetFrameAuraButtonSharedMixin
 
 function TargetFrameAuraButtonSharedMixin:GetIcon()
 	return self.Icon;
@@ -25,8 +25,8 @@ function TargetFrameAuraButtonSharedMixin:SetShowAuraCount(showAuraCount)
 	end
 end
 
-TargetFrameAuraButtonInboundMixin = CreateFromMixins(TargetFrameAuraButtonSharedMixin);--- @class TargetFrameAuraButtonInboundMixin : TargetFrameAuraButtonSharedMixin
-TargetFrameAuraButtonPrivateMixin = CreateFromMixins(AuraButtonPrivateMixin, TargetFrameAuraButtonSharedMixin);--- @class TargetFrameAuraButtonPrivateMixin : AuraButtonPrivateMixin, TargetFrameAuraButtonSharedMixin
+TargetFrameAuraButtonInboundMixin = CreateFromMixins(TargetFrameAuraButtonSharedMixin); --- @class TargetFrameAuraButtonInboundMixin : TargetFrameAuraButtonSharedMixin
+TargetFrameAuraButtonPrivateMixin = CreateFromMixins(AuraButtonPrivateMixin, TargetFrameAuraButtonSharedMixin); --- @class TargetFrameAuraButtonPrivateMixin : AuraButtonPrivateMixin, TargetFrameAuraButtonSharedMixin
 
 function TargetFrameAuraButtonPrivateMixin:OnClick(mouseButtonName, isDownClick)
 	EventRegistry:TriggerEvent("TargetAuraButton.OnClick", self, mouseButtonName, isDownClick);
@@ -87,7 +87,7 @@ function TargetFrameAuraButtonPrivateMixin:ApplyAuraInstance(unitToken, auraData
 	self:ApplyAuraIcon(unitToken, auraData);
 end
 
-TargetFrameBuffButtonSharedMixin = {};--- @class TargetFrameBuffButtonSharedMixin
+TargetFrameBuffButtonSharedMixin = {}; --- @class TargetFrameBuffButtonSharedMixin
 
 function TargetFrameBuffButtonSharedMixin:GetStealableBorder()
 	return self.StealableBorder;
@@ -106,8 +106,8 @@ function TargetFrameBuffButtonSharedMixin:SetStealableBorderEnabled(enabled)
 	end
 end
 
-TargetFrameBuffButtonInboundMixin = CreateFromMixins(TargetFrameBuffButtonSharedMixin);--- @class TargetFrameBuffButtonInboundMixin : TargetFrameBuffButtonSharedMixin
-TargetFrameBuffButtonPrivateMixin = CreateFromMixins(TargetFrameAuraButtonPrivateMixin, TargetFrameBuffButtonSharedMixin);--- @class TargetFrameBuffButtonPrivateMixin : TargetFrameAuraButtonPrivateMixin, TargetFrameBuffButtonSharedMixin
+TargetFrameBuffButtonInboundMixin = CreateFromMixins(TargetFrameBuffButtonSharedMixin); --- @class TargetFrameBuffButtonInboundMixin : TargetFrameBuffButtonSharedMixin
+TargetFrameBuffButtonPrivateMixin = CreateFromMixins(TargetFrameAuraButtonPrivateMixin, TargetFrameBuffButtonSharedMixin); --- @class TargetFrameBuffButtonPrivateMixin : TargetFrameAuraButtonPrivateMixin, TargetFrameBuffButtonSharedMixin
 
 --[[override]] function TargetFrameBuffButtonPrivateMixin:OnLoad_Intrinsic()
 	TargetFrameAuraButtonPrivateMixin.OnLoad_Intrinsic(self);
@@ -120,14 +120,14 @@ end
 	end
 end
 
-TargetFrameDebuffButtonSharedMixin = {};--- @class TargetFrameDebuffButtonSharedMixin
+TargetFrameDebuffButtonSharedMixin = {}; --- @class TargetFrameDebuffButtonSharedMixin
 
 function TargetFrameDebuffButtonSharedMixin:GetDispelBorder()
 	return self.DispelBorder;
 end
 
-TargetFrameDebuffButtonInboundMixin = CreateFromMixins(TargetFrameDebuffButtonSharedMixin);--- @class TargetFrameDebuffButtonInboundMixin : TargetFrameDebuffButtonSharedMixin
-TargetFrameDebuffButtonPrivateMixin = CreateFromMixins(TargetFrameAuraButtonPrivateMixin, TargetFrameDebuffButtonSharedMixin);--- @class TargetFrameDebuffButtonPrivateMixin : TargetFrameAuraButtonPrivateMixin, TargetFrameDebuffButtonSharedMixin
+TargetFrameDebuffButtonInboundMixin = CreateFromMixins(TargetFrameDebuffButtonSharedMixin); --- @class TargetFrameDebuffButtonInboundMixin : TargetFrameDebuffButtonSharedMixin
+TargetFrameDebuffButtonPrivateMixin = CreateFromMixins(TargetFrameAuraButtonPrivateMixin, TargetFrameDebuffButtonSharedMixin); --- @class TargetFrameDebuffButtonPrivateMixin : TargetFrameAuraButtonPrivateMixin, TargetFrameDebuffButtonSharedMixin
 
 --[[override]] function TargetFrameDebuffButtonPrivateMixin:ApplyAuraBorder(_unitToken, auraData)
 	if auraData then

@@ -4,7 +4,7 @@ function MoneyInputFrame_SetCopperShown(moneyFrame, shown)
 	moneyFrame:SetWidth(shown and 176 or 126);
 end
 
-LargeMoneyInputBoxMixin = {};--- @class LargeMoneyInputBoxMixin
+LargeMoneyInputBoxMixin = {}; --- @class LargeMoneyInputBoxMixin
 
 function LargeMoneyInputBoxMixin:OnLoad()
 	self:SetFontObject("PriceFont");
@@ -38,7 +38,7 @@ function LargeMoneyInputBoxMixin:OnTextChanged()
 	self:GetParent():OnAmountChanged();
 end
 
-LargeMoneyInputFrameMixin = {};--- @class LargeMoneyInputFrameMixin
+LargeMoneyInputFrameMixin = {}; --- @class LargeMoneyInputFrameMixin
 
 function LargeMoneyInputFrameMixin:OnLoad()
 	if ( self.useAuctionHouseCopperValue) then

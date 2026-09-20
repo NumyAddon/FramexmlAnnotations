@@ -1,5 +1,5 @@
 
-local HousingTutorialsItemAcquisitionMixin = CreateFromMixins(BagTutorialBaseMixin);--- @class HousingTutorialsItemAcquisitionMixin : BagTutorialBaseMixin
+local HousingTutorialsItemAcquisitionMixin = CreateFromMixins(BagTutorialBaseMixin); --- @class HousingTutorialsItemAcquisitionMixin : BagTutorialBaseMixin
 
 function HousingTutorialsItemAcquisitionMixin:Init()
 	local itemAcquisitionTutorialSystem = "TutorialItemAcquisition";
@@ -54,7 +54,7 @@ if C_CVar.GetCVarBool("housingTutorialsEnabled") and not C_CVar.GetCVarBitfield(
 	CreateAndInitFromMixin(HousingTutorialsItemAcquisitionMixin):BeginInitialState();
 end
 
-HousingTutorialsNewPipMixin = {};--- @class HousingTutorialsNewPipMixin
+HousingTutorialsNewPipMixin = {}; --- @class HousingTutorialsNewPipMixin
 
 function HousingTutorialsNewPipMixin:Init()
 	EventRegistry:RegisterCallback("HousingDashboard.Toggled", self.OnHousingDashboardToggled, self);
@@ -77,7 +77,7 @@ HOUSING_TUTORIALS_HOUSE_TELEPORT_EVENTS = {
 	"PLAYER_HOUSE_LIST_UPDATED",
 };
 
-HousingTutorialsHouseTeleportWatcherMixin = {};--- @class HousingTutorialsHouseTeleportWatcherMixin
+HousingTutorialsHouseTeleportWatcherMixin = {}; --- @class HousingTutorialsHouseTeleportWatcherMixin
 
 function HousingTutorialsHouseTeleportWatcherMixin:StartWatching()
 	for _i, event in ipairs(HOUSING_TUTORIALS_HOUSE_TELEPORT_EVENTS) do
@@ -141,7 +141,7 @@ end
 
 local HousingTutorialsHouseTeleportWatcher = CreateFromMixins(HousingTutorialsHouseTeleportWatcherMixin);
 
-HousingTutorialsHouseTeleportMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin);--- @class HousingTutorialsHouseTeleportMixin : HelpTipStateMachineBasedTutorialMixin
+HousingTutorialsHouseTeleportMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin); --- @class HousingTutorialsHouseTeleportMixin : HelpTipStateMachineBasedTutorialMixin
 
 function HousingTutorialsHouseTeleportMixin:Init()
 	self.helpTipInfos = HousingTutorialData.HousingTeleportToHouseTutorial.HousingHouseTeleportHelpTipInfos;

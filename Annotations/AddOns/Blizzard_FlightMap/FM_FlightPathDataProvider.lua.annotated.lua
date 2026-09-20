@@ -1,4 +1,4 @@
-FlightMap_FlightPathDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class FlightMap_FlightPathDataProviderMixin : MapCanvasDataProviderMixin
+FlightMap_FlightPathDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class FlightMap_FlightPathDataProviderMixin : MapCanvasDataProviderMixin
 
 local function IsVindicaarTextureKit(textureKit)
 	-- TODO: remove
@@ -214,7 +214,7 @@ function FlightMap_FlightPathDataProviderMixin:OnCanvasScaleChanged()
 end
 
 --[[ Flight Point Pin ]]--
-FlightMap_FlightPointPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class FlightMap_FlightPointPinMixin : MapCanvasPinMixin
+FlightMap_FlightPointPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class FlightMap_FlightPointPinMixin : MapCanvasPinMixin
 
 function FlightMap_FlightPointPinMixin:OnLoad()
 	self:SetScalingLimits(1.25, 0.9625, 1.275);

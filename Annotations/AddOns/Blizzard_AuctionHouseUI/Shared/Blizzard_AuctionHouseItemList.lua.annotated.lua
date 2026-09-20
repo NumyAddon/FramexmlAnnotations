@@ -7,7 +7,7 @@ local ItemListState = {
 };
 
 
-AuctionHouseItemListLineMixin = CreateFromMixins(TableBuilderRowMixin);--- @class AuctionHouseItemListLineMixin : TableBuilderRowMixin
+AuctionHouseItemListLineMixin = CreateFromMixins(TableBuilderRowMixin); --- @class AuctionHouseItemListLineMixin : TableBuilderRowMixin
 
 function AuctionHouseItemListLineMixin:OnClick(button)
 	-- Overrides register for right click as well, ensure this is a left click. 
@@ -35,7 +35,7 @@ function AuctionHouseItemListLineMixin:GetRowData()
 end
 
 
-AuctionHouseFavoritableLineMixin = {};--- @class AuctionHouseFavoritableLineMixin
+AuctionHouseFavoritableLineMixin = {}; --- @class AuctionHouseFavoritableLineMixin
 
 function AuctionHouseFavoritableLineMixin:OnClick(buttonName, ...)
 	AuctionHouseItemListLineMixin.OnClick(self, buttonName, ...)
@@ -47,7 +47,7 @@ function AuctionHouseFavoritableLineMixin:OnClick(buttonName, ...)
 end
 
 
-AuctionHouseItemListMixin = {};--- @class AuctionHouseItemListMixin
+AuctionHouseItemListMixin = {}; --- @class AuctionHouseItemListMixin
 
 function AuctionHouseItemListMixin:OnLoad()
 	AuctionHouseBackgroundMixin.OnLoad(self);

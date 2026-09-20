@@ -1,4 +1,4 @@
-ArtifactAppearancesMixin = {}--- @class ArtifactAppearancesMixin
+ArtifactAppearancesMixin = {} --- @class ArtifactAppearancesMixin
 
 function ArtifactAppearancesMixin:OnLoad()
 	self:RegisterEvent("ARTIFACT_UPDATE");
@@ -145,7 +145,7 @@ do
 	end
 end
 
-ArtifactAppearanceSlotMixin = {};--- @class ArtifactAppearanceSlotMixin
+ArtifactAppearanceSlotMixin = {}; --- @class ArtifactAppearanceSlotMixin
 
 function ArtifactAppearanceSlotMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonDown");

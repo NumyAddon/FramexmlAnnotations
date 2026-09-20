@@ -1,6 +1,6 @@
 local INVALID_EVENT_ID = Constants.EncounterTimelineEventConstants.ENCOUNTER_TIMELINE_INVALID_EVENT;
 
-EncounterTimelineFrameManagerMixin = {};--- @class EncounterTimelineFrameManagerMixin
+EncounterTimelineFrameManagerMixin = {}; --- @class EncounterTimelineFrameManagerMixin
 
 function EncounterTimelineFrameManagerMixin:OnLoad()
 	self.eventFramesActive = {};

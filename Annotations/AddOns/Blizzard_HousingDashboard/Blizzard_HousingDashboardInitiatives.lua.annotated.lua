@@ -2,7 +2,7 @@ local LAST_POINTS_CVAR = "endeavorInitiativesLastPointsMap";
 local SCROLL_BOX_EDGE_FADE_LENGTH = 30;
 
 ---------------------House XP Cap Icon-------------------------------
-HouseXPCapIconMixin = {};--- @class HouseXPCapIconMixin
+HouseXPCapIconMixin = {}; --- @class HouseXPCapIconMixin
 
 function HouseXPCapIconMixin:OnEnter()
 	local avilableXP = C_NeighborhoodInitiative.GetAvailableHouseXP();
@@ -27,7 +27,7 @@ function HouseXPCapIconMixin:UpdateVisibility()
 end
 
 ---------------------Initiatives Tab-------------------------------
-InitiativesTabMixin = {};--- @class InitiativesTabMixin
+InitiativesTabMixin = {}; --- @class InitiativesTabMixin
 
 local InitiativesTabWhileShownEvents =
 {
@@ -502,7 +502,7 @@ function InitiativesTabMixin:OnSetActiveNeighborhoodClicked()
 end
 
 ---------------------Initiatives Tab: Task Button-------------------------------
-InitiativeTaskButtonMixin = {};--- @class InitiativeTaskButtonMixin
+InitiativeTaskButtonMixin = {}; --- @class InitiativeTaskButtonMixin
 
 function InitiativeTaskButtonMixin:Init()
 	self:GetElementData():SetCollapsed(true);
@@ -656,7 +656,7 @@ function InitiativeTaskButtonMixin:GetData()
 end
 
 ---------------------Initiatives Tab: ProgressBar Threshold-------------------------------
-ProgressThresholdMixin = {};--- @class ProgressThresholdMixin
+ProgressThresholdMixin = {}; --- @class ProgressThresholdMixin
 
 function ProgressThresholdMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_CURSOR_RIGHT");

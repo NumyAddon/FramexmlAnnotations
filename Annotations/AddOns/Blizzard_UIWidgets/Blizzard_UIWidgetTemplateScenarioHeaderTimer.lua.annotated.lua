@@ -19,7 +19,7 @@ local defaultTimerBarXOffset = 0;
 local defaultTimerBarYOffset = 4;
 local defaultTimerBarWidth = 233;
 
-UIWidgetTemplateScenarioHeaderTimerMixin = CreateFromMixins(UIWidgetBaseTemplateMixin, UIWidgetBaseScenarioHeaderTemplateMixin);--- @class UIWidgetTemplateScenarioHeaderTimerMixin : UIWidgetBaseTemplateMixin, UIWidgetBaseScenarioHeaderTemplateMixin
+UIWidgetTemplateScenarioHeaderTimerMixin = CreateFromMixins(UIWidgetBaseTemplateMixin, UIWidgetBaseScenarioHeaderTemplateMixin); --- @class UIWidgetTemplateScenarioHeaderTimerMixin : UIWidgetBaseTemplateMixin, UIWidgetBaseScenarioHeaderTemplateMixin
 
 function UIWidgetTemplateScenarioHeaderTimerMixin:Setup(widgetInfo, widgetContainer)
 	UIWidgetBaseTemplateMixin.Setup(self, widgetInfo, widgetContainer);

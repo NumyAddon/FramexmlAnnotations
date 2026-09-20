@@ -60,7 +60,7 @@ function ZoneAbilityFrameUpdater:Clean()
 	self.isDirty = false;
 end
 
-ZoneAbilityFrameMixin = {};--- @class ZoneAbilityFrameMixin
+ZoneAbilityFrameMixin = {}; --- @class ZoneAbilityFrameMixin
 
 function ZoneAbilityFrameMixin:OnLoad()
 	-- Always registered.
@@ -227,7 +227,7 @@ function ZoneAbilityFrameMixin:CheckShowZoneAbilityTutorial(zoneAbilityButton)
 	HelpTip:Show(self, helpTipInfo, zoneAbilityButton);
 end
 
-ZoneAbilityFrameSpellButtonMixin = CreateFromMixins(ContentFrameMixin, BaseActionButtonInfoMixin);--- @class ZoneAbilityFrameSpellButtonMixin : ContentFrameMixin, BaseActionButtonInfoMixin
+ZoneAbilityFrameSpellButtonMixin = CreateFromMixins(ContentFrameMixin, BaseActionButtonInfoMixin); --- @class ZoneAbilityFrameSpellButtonMixin : ContentFrameMixin, BaseActionButtonInfoMixin
 
 local ZoneAbilityFrameSpellButtonEvents = {
 	"SPELL_UPDATE_COOLDOWN",

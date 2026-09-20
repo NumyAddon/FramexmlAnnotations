@@ -1,4 +1,4 @@
-PowerDependencyLineMixin = {};--- @class PowerDependencyLineMixin
+PowerDependencyLineMixin = {}; --- @class PowerDependencyLineMixin
 
 PowerDependencyLineMixin.LINE_STATE_CONNECTED = 1;
 PowerDependencyLineMixin.LINE_STATE_DISCONNECTED = 2;

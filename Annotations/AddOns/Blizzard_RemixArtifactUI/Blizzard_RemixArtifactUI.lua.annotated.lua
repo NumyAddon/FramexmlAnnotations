@@ -1,4 +1,4 @@
-RemixArtifactFrameMixin = {};--- @class RemixArtifactFrameMixin
+RemixArtifactFrameMixin = {}; --- @class RemixArtifactFrameMixin
 
 local RemixArtifactFrameEvents = {
 	"TRAIT_TREE_CURRENCY_INFO_UPDATED",
@@ -399,7 +399,7 @@ function RemixArtifactFrameMixin:TryRefundToNode(nodeID, entryID)
 	return false;
 end
 
-RemixArtifactCurrencyFrameMixin = {};--- @class RemixArtifactCurrencyFrameMixin
+RemixArtifactCurrencyFrameMixin = {}; --- @class RemixArtifactCurrencyFrameMixin
 
 function RemixArtifactCurrencyFrameMixin:Setup(currencyInfo, displayText)
 	displayText = displayText or "";
@@ -420,7 +420,7 @@ function RemixArtifactCurrencyFrameMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-RemixArtifactModelMixin = {}--- @class RemixArtifactModelMixin
+RemixArtifactModelMixin = {} --- @class RemixArtifactModelMixin
 
 function RemixArtifactModelMixin:OnLoad()
 	self:RegisterEvent("UI_SCALE_CHANGED");

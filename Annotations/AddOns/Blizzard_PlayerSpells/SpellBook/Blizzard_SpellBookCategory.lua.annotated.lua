@@ -8,7 +8,7 @@
 
 --------------------------- Base Mixin --------------------------------
 
-BaseSpellBookCategoryMixin = {};--- @class BaseSpellBookCategoryMixin
+BaseSpellBookCategoryMixin = {}; --- @class BaseSpellBookCategoryMixin
 
 function BaseSpellBookCategoryMixin:Init(spellBookFrame)
 	self.spellBookFrame = spellBookFrame;
@@ -168,7 +168,7 @@ end
 
 --------------------------- Class and Specializations --------------------------------
 
-SpellBookClassCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin);--- @class SpellBookClassCategoryMixin : BaseSpellBookCategoryMixin
+SpellBookClassCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin); --- @class SpellBookClassCategoryMixin : BaseSpellBookCategoryMixin
 
 function SpellBookClassCategoryMixin:Init(spellBookFrame)
 	self.displayName = PlayerUtil.GetClassName();
@@ -250,7 +250,7 @@ end
 
 --------------------------- General --------------------------------
 
-SpellBookGeneralCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin);--- @class SpellBookGeneralCategoryMixin : BaseSpellBookCategoryMixin
+SpellBookGeneralCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin); --- @class SpellBookGeneralCategoryMixin : BaseSpellBookCategoryMixin
 
 function SpellBookGeneralCategoryMixin:Init(spellBookFrame)
 	self.displayName = GENERAL_SPELLS;
@@ -303,7 +303,7 @@ end
 
 --------------------------- Pet --------------------------------
 
-SpellBookPetCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin);--- @class SpellBookPetCategoryMixin : BaseSpellBookCategoryMixin
+SpellBookPetCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin); --- @class SpellBookPetCategoryMixin : BaseSpellBookCategoryMixin
 
 function SpellBookPetCategoryMixin:Init(spellBookFrame)
 	self.displayName = PET;

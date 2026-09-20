@@ -1,4 +1,4 @@
-DungeonEntranceDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin);--- @class DungeonEntranceDataProviderMixin : CVarMapCanvasDataProviderMixin
+DungeonEntranceDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin); --- @class DungeonEntranceDataProviderMixin : CVarMapCanvasDataProviderMixin
 DungeonEntranceDataProviderMixin:Init("showDungeonEntrancesOnMap");
 
 function DungeonEntranceDataProviderMixin:OnShow()

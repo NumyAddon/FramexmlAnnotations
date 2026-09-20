@@ -1,4 +1,4 @@
-LandingPageSoulbindButtonMixin = {}--- @class LandingPageSoulbindButtonMixin
+LandingPageSoulbindButtonMixin = {} --- @class LandingPageSoulbindButtonMixin
 
 local LandingSoulbindButtonEvents =
 {

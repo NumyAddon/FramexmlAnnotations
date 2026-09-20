@@ -1,5 +1,5 @@
 
-SelectorMixin = {};--- @class SelectorMixin
+SelectorMixin = {}; --- @class SelectorMixin
 
 function SelectorMixin:OnSelection(selectionIndex)
 	if self.selectedCallback ~= nil then
@@ -99,7 +99,7 @@ function SelectorMixin:UpdateSelections()
 end
 
 
-SelectorButtonMixin = {};--- @class SelectorButtonMixin
+SelectorButtonMixin = {}; --- @class SelectorButtonMixin
 
 function SelectorButtonMixin:Init(selectorFrame)
 	self.selectorFrame = selectorFrame;

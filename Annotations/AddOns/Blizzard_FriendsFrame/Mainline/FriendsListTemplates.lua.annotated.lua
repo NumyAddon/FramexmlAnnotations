@@ -41,7 +41,7 @@ local function AddFriendsSearchFilterOptionsToDescription(socialView, descriptio
 	end
 end
 
-FriendsListSocialViewMixin = CreateFromMixins(SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin);--- @class FriendsListSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
+FriendsListSocialViewMixin = CreateFromMixins(SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin); --- @class FriendsListSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
 
 local FriendsListSocialViewDynamicEvents =
 {
@@ -358,7 +358,7 @@ function FriendsListSocialViewMixin:Refresh(retainScrollPosition)
 	self.ScrollBox:SetDataProvider(self:GenerateDataProvider(), retainScrollPosition);
 end
 
-local FriendsListHeaderType = EnumUtil.MakeEnum("Favorites", "Friends");--- @type {["Favorites"]: 1, ["Friends"]: 2}
+local FriendsListHeaderType = EnumUtil.MakeEnum("Favorites", "Friends"); --- @type {["Favorites"]: 1, ["Friends"]: 2}
 
 local FriendsListHeaderStrings =
 {
@@ -441,7 +441,7 @@ function FriendsListSocialViewMixin:GenerateDataProvider()
 	return dataProvider;
 end
 
-FriendsListSocialCardMixin = {};--- @class FriendsListSocialCardMixin
+FriendsListSocialCardMixin = {}; --- @class FriendsListSocialCardMixin
 
 function FriendsListSocialCardMixin:OnLoad()
 	self:TrySetUpSummonButton();
@@ -1123,7 +1123,7 @@ function FriendsListSocialCardMixin:HideTooltip()
 	end
 end
 
-FriendsListSocialCardStateDisplayMixin = {};--- @class FriendsListSocialCardStateDisplayMixin
+FriendsListSocialCardStateDisplayMixin = {}; --- @class FriendsListSocialCardStateDisplayMixin
 
 function FriendsListSocialCardStateDisplayMixin:Initialize(accountInfo)
 	self.FavoriteDisplay:Initialize(accountInfo);
@@ -1136,7 +1136,7 @@ function FriendsListSocialCardStateDisplayMixin:LayoutContent()
 	self:SetDesiredWidth(favoriteDisplayShown and self.FavoriteDisplay.baseWidth or 0);
 end
 
-FriendsListSocialCardFavoriteDisplayMixin = {};--- @class FriendsListSocialCardFavoriteDisplayMixin
+FriendsListSocialCardFavoriteDisplayMixin = {}; --- @class FriendsListSocialCardFavoriteDisplayMixin
 
 function FriendsListSocialCardFavoriteDisplayMixin:Initialize(accountInfo)
 	self.isFavorite = accountInfo.isFavorite;
@@ -1171,7 +1171,7 @@ function FriendsListSocialCardFavoriteDisplayMixin:HideTooltip()
 	GetAppropriateTooltip():Hide();
 end
 
-FriendsListSocialCardRAFSummonButtonMixin = {};--- @class FriendsListSocialCardRAFSummonButtonMixin
+FriendsListSocialCardRAFSummonButtonMixin = {}; --- @class FriendsListSocialCardRAFSummonButtonMixin
 
 local FriendsListSocialCardRAFSummonButtonDynamicEvents =
 {
@@ -1280,7 +1280,7 @@ function FriendsListSocialCardRAFSummonButtonMixin:HideTooltip()
 	GetAppropriateTooltip():Hide();
 end
 
-FriendsListSocialCardPartyButtonMixin = {};--- @class FriendsListSocialCardPartyButtonMixin
+FriendsListSocialCardPartyButtonMixin = {}; --- @class FriendsListSocialCardPartyButtonMixin
 
 function FriendsListSocialCardPartyButtonMixin:Initialize(elementData)
 	local accountInfo = elementData.accountInfo;

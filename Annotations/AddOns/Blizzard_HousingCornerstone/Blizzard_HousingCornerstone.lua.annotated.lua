@@ -1,4 +1,4 @@
-HousingCornerstoneFrameMixin = {}--- @class HousingCornerstoneFrameMixin
+HousingCornerstoneFrameMixin = {} --- @class HousingCornerstoneFrameMixin
 
 local CornerstoneFrameShowingEvents =
 {
@@ -49,7 +49,7 @@ function HousingCornerstoneFrameMixin:SetTab(tabID)
 end
 
 --//////////////////////////////Purchase Frame//////////////////////////////////////////
-HousingCornerstonePurchaseFrameMixin = {}--- @class HousingCornerstonePurchaseFrameMixin
+HousingCornerstonePurchaseFrameMixin = {} --- @class HousingCornerstonePurchaseFrameMixin
 
 local CornerstonePurchaseFrameShowingEvents =
 {
@@ -288,7 +288,7 @@ function HousingCornerstonePurchaseFrameMixin:SetInputMaskShown(shown)
 end
 
 --//////////////////////////////Shared Visitor Frame//////////////////////////////////////////
-HousingCornerstoneVisitorFrameSharedMixin = {};--- @class HousingCornerstoneVisitorFrameSharedMixin
+HousingCornerstoneVisitorFrameSharedMixin = {}; --- @class HousingCornerstoneVisitorFrameSharedMixin
 
 function HousingCornerstoneVisitorFrameSharedMixin:OnLoad()
 	self.GearDropdown:SetupMenu(function(_dropdown, rootDescription)
@@ -305,7 +305,7 @@ function HousingCornerstoneVisitorFrameSharedMixin:OnReportClicked()
 end
 
 --//////////////////////////////Visitor Frame//////////////////////////////////////////
-HousingCornerstoneVisitorFrameMixin = CreateFromMixins(HousingCornerstoneVisitorFrameSharedMixin);--- @class HousingCornerstoneVisitorFrameMixin : HousingCornerstoneVisitorFrameSharedMixin
+HousingCornerstoneVisitorFrameMixin = CreateFromMixins(HousingCornerstoneVisitorFrameSharedMixin); --- @class HousingCornerstoneVisitorFrameMixin : HousingCornerstoneVisitorFrameSharedMixin
 
 local CornerstoneVisitorFrameShowingEvents =
 {
@@ -338,7 +338,7 @@ function HousingCornerstoneVisitorFrameMixin:OnHide()
 end
 
 --//////////////////////////////House Info Frame//////////////////////////////////////////
-HousingCornerstoneHouseInfoFrameMixin = CreateFromMixins(HousingCornerstoneVisitorFrameSharedMixin);--- @class HousingCornerstoneHouseInfoFrameMixin : HousingCornerstoneVisitorFrameSharedMixin
+HousingCornerstoneHouseInfoFrameMixin = CreateFromMixins(HousingCornerstoneVisitorFrameSharedMixin); --- @class HousingCornerstoneHouseInfoFrameMixin : HousingCornerstoneVisitorFrameSharedMixin
 
 local CornerstoneHouseInfoFrameEvents =
 {
@@ -429,7 +429,7 @@ local function GetDialogHouseInfo()
 	return dialogInfo;
 end
 
-BuyHouseConfirmationDialogMixin = {}--- @class BuyHouseConfirmationDialogMixin
+BuyHouseConfirmationDialogMixin = {} --- @class BuyHouseConfirmationDialogMixin
 
 function BuyHouseConfirmationDialogMixin:OnLoad()
 	self.AcceptButton:SetScript("OnClick", function()
@@ -455,7 +455,7 @@ function BuyHouseConfirmationDialogMixin:OnHide()
 end
 
 --//////////////////////////////moving confirmation dialog//////////////////////////////////////////
-MoveHouseConfirmationDialogMixin = {}--- @class MoveHouseConfirmationDialogMixin
+MoveHouseConfirmationDialogMixin = {} --- @class MoveHouseConfirmationDialogMixin
 
 function MoveHouseConfirmationDialogMixin:OnLoad()
 	SmallMoneyFrame_OnLoad(self.PriceMoneyFrameOriginal);
@@ -511,7 +511,7 @@ function MoveHouseConfirmationDialogMixin:OnHide()
 end
 
 --//////////////////////////////re-use old house confirmation dialog//////////////////////////////////////////
-ImportHouseConfirmationDialogMixin = {}--- @class ImportHouseConfirmationDialogMixin
+ImportHouseConfirmationDialogMixin = {} --- @class ImportHouseConfirmationDialogMixin
 
 function ImportHouseConfirmationDialogMixin:OnLoad()
 	self.ConfirmButton:SetText(HOUSING_PURCHASE_PLOT_BUY);

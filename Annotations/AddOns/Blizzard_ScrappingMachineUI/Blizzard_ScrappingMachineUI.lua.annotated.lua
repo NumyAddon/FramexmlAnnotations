@@ -1,5 +1,5 @@
 UIPanelWindows["ScrappingMachineFrame"] = {area = "center", pushable = 3, showFailedFunc = C_ScrappingMachineUI.CloseScrappingMachine, };
-ScrappingMachineMixin = {};--- @class ScrappingMachineMixin
+ScrappingMachineMixin = {}; --- @class ScrappingMachineMixin
 
 function ScrappingMachineMixin:SetupScrapButtonPool()
 	self.ItemSlots.scrapButtons:ReleaseAll();
@@ -136,7 +136,7 @@ function ScrappingMachineMixin:OnHide()
 	ItemButtonUtil.TriggerEvent(ItemButtonUtil.Event.ItemContextChanged);
 end
 
-ScrappingMachineItemSlotMixin = {};--- @class ScrappingMachineItemSlotMixin
+ScrappingMachineItemSlotMixin = {}; --- @class ScrappingMachineItemSlotMixin
 
 function ScrappingMachineItemSlotMixin:RefreshIcon()
 	self.itemLocation = C_ScrappingMachineUI.GetCurrentPendingScrapItemLocationByIndex(self.SlotNumber);

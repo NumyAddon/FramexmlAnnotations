@@ -2,7 +2,7 @@ if not IsGMClient() then
 	return;
 end
 
-WorldMap_DebugDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class WorldMap_DebugDataProviderMixin : MapCanvasDataProviderMixin
+WorldMap_DebugDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class WorldMap_DebugDataProviderMixin : MapCanvasDataProviderMixin
 
 local function IsTeleportModifierKeyDown()
 	return IsAltKeyDown();
@@ -128,7 +128,7 @@ function WorldMap_DebugDataProviderMixin:RefreshPortLocs(mapID)
 	end
 end
 
-WorldMap_DebugObjectPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class WorldMap_DebugObjectPinMixin : MapCanvasPinMixin
+WorldMap_DebugObjectPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class WorldMap_DebugObjectPinMixin : MapCanvasPinMixin
 
 function WorldMap_DebugObjectPinMixin:OnAcquired(debugObjectInfo)
 	self.index = debugObjectInfo.index;

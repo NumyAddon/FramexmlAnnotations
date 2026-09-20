@@ -1,4 +1,4 @@
-TabGroupMixin = {};--- @class TabGroupMixin
+TabGroupMixin = {}; --- @class TabGroupMixin
 
 function TabGroupMixin:OnLoad(...)
 	self.isTabGroup = true;

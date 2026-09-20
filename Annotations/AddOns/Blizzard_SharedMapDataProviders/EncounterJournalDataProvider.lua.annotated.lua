@@ -1,5 +1,5 @@
 
-EncounterJournalDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class EncounterJournalDataProviderMixin : MapCanvasDataProviderMixin
+EncounterJournalDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class EncounterJournalDataProviderMixin : MapCanvasDataProviderMixin
 
 local TRACKING_PIN_OFFSET_Y = -0.02;
 local TRACKING_PIN_OFFSET_X = 0.012;
@@ -80,7 +80,7 @@ function EncounterJournalDataProviderMixin:CheckForContentTracking(encounterID)
 end
 
 --[[ Pin ]]--
-EncounterJournalPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class EncounterJournalPinMixin : MapCanvasPinMixin
+EncounterJournalPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class EncounterJournalPinMixin : MapCanvasPinMixin
 
 function EncounterJournalPinMixin:OnLoad()
 	self:SetScalingLimits(1, 0.7, 1.3);
@@ -138,7 +138,7 @@ function EncounterJournalPinMixin:OnMouseClickAction()
 end
 
 --[[ Content Tracking Pin ]]--
-EncounterMapTrackingPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class EncounterMapTrackingPinMixin : MapCanvasPinMixin
+EncounterMapTrackingPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class EncounterMapTrackingPinMixin : MapCanvasPinMixin
 
 function EncounterMapTrackingPinMixin:OnLoad()
 	self:SetScalingLimits(1, 0.7, 1.3);

@@ -1,4 +1,4 @@
-TalkingHeadFrameMixin = {};--- @class TalkingHeadFrameMixin
+TalkingHeadFrameMixin = {}; --- @class TalkingHeadFrameMixin
 
 function TalkingHeadFrameMixin:OnLoad()
 	self:RegisterEvent("TALKINGHEAD_REQUESTED");
@@ -248,7 +248,7 @@ function TalkingHeadFrameMixin:UpdateShownState()
 	self:SetShown(self.isInEditMode or self.isPlaying);
 end
 
-TalkingHeadFrameModelMixin = {};--- @class TalkingHeadFrameModelMixin
+TalkingHeadFrameModelMixin = {}; --- @class TalkingHeadFrameModelMixin
 
 function TalkingHeadFrameModelMixin:OnLoad()
 	self:RegisterEvent("UI_SCALE_CHANGED");

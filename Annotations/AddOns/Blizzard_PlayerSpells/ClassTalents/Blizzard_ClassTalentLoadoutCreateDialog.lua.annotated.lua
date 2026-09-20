@@ -1,4 +1,4 @@
-ClassTalentLoadoutCreateDialogMixin = {};--- @class ClassTalentLoadoutCreateDialogMixin
+ClassTalentLoadoutCreateDialogMixin = {}; --- @class ClassTalentLoadoutCreateDialogMixin
 
 function ClassTalentLoadoutCreateDialogMixin:OnLoad()
 	self.exclusive = true;
@@ -36,7 +36,7 @@ function ClassTalentLoadoutCreateDialogMixin:ShowDialog(acceptCallback)
 	StaticPopupSpecial_Show(self);
 end
 
-ClassTalentLoadoutCreateDialogNameControlMixin = {};--- @class ClassTalentLoadoutCreateDialogNameControlMixin
+ClassTalentLoadoutCreateDialogNameControlMixin = {}; --- @class ClassTalentLoadoutCreateDialogNameControlMixin
 
 function ClassTalentLoadoutCreateDialogNameControlMixin:OnShow()
 	ClassTalentLoadoutDialogNameControlMixin.OnShow(self);

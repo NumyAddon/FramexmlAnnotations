@@ -1,5 +1,5 @@
 
-AuctionHouseCommoditiesBackButtonMixin = {};--- @class AuctionHouseCommoditiesBackButtonMixin
+AuctionHouseCommoditiesBackButtonMixin = {}; --- @class AuctionHouseCommoditiesBackButtonMixin
 
 function AuctionHouseCommoditiesBackButtonMixin:OnClick()
 	self:GetParent():GetAuctionHouseFrame():SetDisplayMode(AuctionHouseFrameDisplayMode.Buy);
@@ -7,7 +7,7 @@ function AuctionHouseCommoditiesBackButtonMixin:OnClick()
 end
 
 
-AuctionHouseCommoditiesBuyButtonMixin = {};--- @class AuctionHouseCommoditiesBuyButtonMixin
+AuctionHouseCommoditiesBuyButtonMixin = {}; --- @class AuctionHouseCommoditiesBuyButtonMixin
 
 function AuctionHouseCommoditiesBuyButtonMixin:OnClick()
 	self:GetParent():StartCommoditiesPurchase();
@@ -15,7 +15,7 @@ function AuctionHouseCommoditiesBuyButtonMixin:OnClick()
 end
 
 
-AuctionHouseCommoditiesBuyDisplayMixin = {};--- @class AuctionHouseCommoditiesBuyDisplayMixin
+AuctionHouseCommoditiesBuyDisplayMixin = {}; --- @class AuctionHouseCommoditiesBuyDisplayMixin
 
 function AuctionHouseCommoditiesBuyDisplayMixin:OnLoad()
 	AuctionHouseBackgroundMixin.OnLoad(self);
@@ -146,7 +146,7 @@ function AuctionHouseCommoditiesBuyDisplayMixin:GetAuctionHouseFrame()
 end
 
 
-AuctionHouseCommoditiesBuyFrameMixin = CreateFromMixins(AuctionHouseSortOrderSystemMixin);--- @class AuctionHouseCommoditiesBuyFrameMixin : AuctionHouseSortOrderSystemMixin
+AuctionHouseCommoditiesBuyFrameMixin = CreateFromMixins(AuctionHouseSortOrderSystemMixin); --- @class AuctionHouseCommoditiesBuyFrameMixin : AuctionHouseSortOrderSystemMixin
 
 function AuctionHouseCommoditiesBuyFrameMixin:OnLoad()
 	AuctionHouseSortOrderSystemMixin.OnLoad(self);

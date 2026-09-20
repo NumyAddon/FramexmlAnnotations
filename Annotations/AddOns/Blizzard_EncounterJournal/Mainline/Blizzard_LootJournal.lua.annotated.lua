@@ -11,7 +11,7 @@ local RuneforgePowerFilterOrder = {
 };
 
 
-RuneforgeLegendaryPowerLootJournalMixin = CreateFromMixins(RuneforgePowerBaseMixin);--- @class RuneforgeLegendaryPowerLootJournalMixin : RuneforgePowerBaseMixin
+RuneforgeLegendaryPowerLootJournalMixin = CreateFromMixins(RuneforgePowerBaseMixin); --- @class RuneforgeLegendaryPowerLootJournalMixin : RuneforgePowerBaseMixin
 
 function RuneforgeLegendaryPowerLootJournalMixin:Init(elementData)
 	self:SetPowerID(elementData.powerID);
@@ -66,7 +66,7 @@ function RuneforgeLegendaryPowerLootJournalMixin:ShouldShowUnavailableError()
 end
 
 
-LootJournalMixin = {};--- @class LootJournalMixin
+LootJournalMixin = {}; --- @class LootJournalMixin
 
 local LootJournalEvents = {
 	"NEW_RUNEFORGE_POWER_ADDED",

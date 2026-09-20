@@ -31,7 +31,7 @@ local function RequireObjectType(requiredType)
 	end
 end
 
-CustomAuraButtonSharedMixin = {};--- @class CustomAuraButtonSharedMixin
+CustomAuraButtonSharedMixin = {}; --- @class CustomAuraButtonSharedMixin
 
 function CustomAuraButtonSharedMixin:GetApplicationBar()
 	return ExportDisplayElement(self.applicationBar);
@@ -298,8 +298,8 @@ CustomAuraButtonSharedMixin.GetAuraSymbol = CustomAuraButtonSharedMixin.GetDispe
 CustomAuraButtonSharedMixin.SetAuraSymbol = CustomAuraButtonSharedMixin.SetDispelTypeText;
 CustomAuraButtonSharedMixin.ClearAuraSymbol = CustomAuraButtonSharedMixin.ClearDispelTypeText;
 
-CustomAuraButtonInboundMixin = CreateFromMixins(CustomAuraButtonSharedMixin);--- @class CustomAuraButtonInboundMixin : CustomAuraButtonSharedMixin
-CustomAuraButtonPrivateMixin = CreateFromMixins(AuraButtonPrivateMixin, CustomAuraButtonSharedMixin);--- @class CustomAuraButtonPrivateMixin : AuraButtonPrivateMixin, CustomAuraButtonSharedMixin
+CustomAuraButtonInboundMixin = CreateFromMixins(CustomAuraButtonSharedMixin); --- @class CustomAuraButtonInboundMixin : CustomAuraButtonSharedMixin
+CustomAuraButtonPrivateMixin = CreateFromMixins(AuraButtonPrivateMixin, CustomAuraButtonSharedMixin); --- @class CustomAuraButtonPrivateMixin : AuraButtonPrivateMixin, CustomAuraButtonSharedMixin
 
 function CustomAuraButtonPrivateMixin:OnLoad_Intrinsic()
 	AuraButtonPrivateMixin.OnLoad_Intrinsic(self);

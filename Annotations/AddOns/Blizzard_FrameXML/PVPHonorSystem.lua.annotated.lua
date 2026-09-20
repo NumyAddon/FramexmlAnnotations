@@ -1,4 +1,4 @@
-PVPHonorRewardCodeMixin = {};--- @class PVPHonorRewardCodeMixin
+PVPHonorRewardCodeMixin = {}; --- @class PVPHonorRewardCodeMixin
 
 function PVPHonorRewardCodeMixin:OnLoad()
     self:RegisterEvent("GET_ITEM_INFO_RECEIVED");
@@ -14,7 +14,7 @@ function PVPHonorRewardCodeMixin:OnEvent(event, ...)
     end
 end
 
-PVPHonorRewardInfoMixin = {};--- @class PVPHonorRewardInfoMixin
+PVPHonorRewardInfoMixin = {}; --- @class PVPHonorRewardInfoMixin
 
 function PVPHonorRewardInfoMixin:Set(...)
 	-- Override in your mixin to set self.icon and self.quantity if needed

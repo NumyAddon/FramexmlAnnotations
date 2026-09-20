@@ -1,4 +1,4 @@
-HousingDashboardFrameMixin = {};--- @class HousingDashboardFrameMixin
+HousingDashboardFrameMixin = {}; --- @class HousingDashboardFrameMixin
 
 function HousingDashboardFrameMixin:OnLoad()
 	self:SetPortraitAtlasRaw("housing-dashboard-homestone-icon");

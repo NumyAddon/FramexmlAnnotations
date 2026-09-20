@@ -2,7 +2,7 @@ local sizeScale = 0.8;
 local longSide = 256 * sizeScale;
 local shortSide = 128 * sizeScale;
 
-SpellActivationOverlayMixin = {};--- @class SpellActivationOverlayMixin
+SpellActivationOverlayMixin = {}; --- @class SpellActivationOverlayMixin
 
 function SpellActivationOverlayMixin:OnLoad()
 	self.overlaysInUse = {};
@@ -173,13 +173,13 @@ function SpellActivationOverlayMixin:ReleaseOverlay(overlay)
 	self.overlayPool:Release(overlay);
 end
 
-SpellActivationOverlayTextureMixin = {}--- @class SpellActivationOverlayTextureMixin
+SpellActivationOverlayTextureMixin = {} --- @class SpellActivationOverlayTextureMixin
 
 function SpellActivationOverlayTextureMixin:OnShow()
 	self.animIn:Play();
 end
 
-SpellActivationOverlayFadeInAnimMixin = {};--- @class SpellActivationOverlayFadeInAnimMixin
+SpellActivationOverlayFadeInAnimMixin = {}; --- @class SpellActivationOverlayFadeInAnimMixin
 
 function SpellActivationOverlayFadeInAnimMixin:OnPlay()
 	self:GetParent():SetAlpha(0);
@@ -191,7 +191,7 @@ function SpellActivationOverlayFadeInAnimMixin:OnFinished()
 	overlay.pulse:Play();
 end
 
-SpellActivationOverlayFadeOutAnimMixin = {};--- @class SpellActivationOverlayFadeOutAnimMixin
+SpellActivationOverlayFadeOutAnimMixin = {}; --- @class SpellActivationOverlayFadeOutAnimMixin
 
 function SpellActivationOverlayFadeOutAnimMixin:OnFinished()
 	local overlay = self:GetParent();

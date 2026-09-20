@@ -1,5 +1,5 @@
 
-RuneforgeModifierSlotMixin = CreateFromMixins(RuneforgeEffectOwnerMixin);--- @class RuneforgeModifierSlotMixin : RuneforgeEffectOwnerMixin
+RuneforgeModifierSlotMixin = CreateFromMixins(RuneforgeEffectOwnerMixin); --- @class RuneforgeModifierSlotMixin : RuneforgeEffectOwnerMixin
 
 function RuneforgeModifierSlotMixin:OnLoad()
 	local normalTexture = self:GetNormalTexture();
@@ -124,7 +124,7 @@ function RuneforgeModifierSlotMixin:GetRuneforgeFrame()
 end
 
 
-RuneforgeModifierSelectionMixin = {};--- @class RuneforgeModifierSelectionMixin
+RuneforgeModifierSelectionMixin = {}; --- @class RuneforgeModifierSelectionMixin
 
 local RuneforgeModifierSelectionState = {
 	Available = 1,
@@ -223,7 +223,7 @@ function RuneforgeModifierSelectionMixin:GetModifierFrame()
 end
 
 
-RuneforgeModifierSelectorFrameMixin = {};--- @class RuneforgeModifierSelectorFrameMixin
+RuneforgeModifierSelectorFrameMixin = {}; --- @class RuneforgeModifierSelectorFrameMixin
 
 function RuneforgeModifierSelectorFrameMixin:OnLoad()
 	self.selectionPool = CreateFramePool("ItemButton", self, "RuneforgeModifierSelectionTemplate");
@@ -296,7 +296,7 @@ function RuneforgeModifierSelectorFrameMixin:GetModifierFrame()
 end
 
 
-RuneforgeModifierFrameMixin = CreateFromMixins(RuneforgeSystemMixin);--- @class RuneforgeModifierFrameMixin : RuneforgeSystemMixin
+RuneforgeModifierFrameMixin = CreateFromMixins(RuneforgeSystemMixin); --- @class RuneforgeModifierFrameMixin : RuneforgeSystemMixin
 
 function RuneforgeModifierFrameMixin:OnShow()
 	self:RegisterRefreshMethod(self.Refresh);

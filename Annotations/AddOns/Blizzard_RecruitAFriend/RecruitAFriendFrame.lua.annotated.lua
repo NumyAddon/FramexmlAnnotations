@@ -1,7 +1,7 @@
 local RECRUIT_HEIGHT = 34;
 local DIVIDER_HEIGHT = 16;
 
-RecruitAFriendSystemMixin = {};--- @class RecruitAFriendSystemMixin
+RecruitAFriendSystemMixin = {}; --- @class RecruitAFriendSystemMixin
 
 -- We temporarily have two RecruitAFriendFrames, one for the new Social UI and one for the legacy friend list
 -- Only one of the two will be active at any given time
@@ -22,7 +22,7 @@ function RecruitAFriendSystemMixin:GetRecruitAFriendRewardsFrame()
 	return RecruitAFriendRewardsFrame;
 end
 
-RecruitAFriendFrameMixin = CreateFromMixins(CallbackRegistryMixin);--- @class RecruitAFriendFrameMixin : CallbackRegistryMixin
+RecruitAFriendFrameMixin = CreateFromMixins(CallbackRegistryMixin); --- @class RecruitAFriendFrameMixin : CallbackRegistryMixin
 
 RecruitAFriendFrameMixin:GenerateCallbackEvents(
 {
@@ -464,7 +464,7 @@ function RecruitAFriendFrameMixin:ShouldShowRewardTutorial()
 	return not self:IsShown() and not self.shownRewardTutorial and (hasRafRewardToClaim or self:HasActivityRewardToClaim());
 end
 
-RecruitActivityButtonMixin = {};--- @class RecruitActivityButtonMixin
+RecruitActivityButtonMixin = {}; --- @class RecruitActivityButtonMixin
 
 function RecruitActivityButtonMixin:OnLoad()
 	self.ClaimGlowSpinAnim:Play(); -- Just leave this playing
@@ -622,7 +622,7 @@ function RecruitActivityButtonMixin:Refresh()
 	self:Setup(self.activityInfo, self.recruitInfo);
 end
 
-RecruitActivityButtonModelMixin = {};--- @class RecruitActivityButtonModelMixin
+RecruitActivityButtonModelMixin = {}; --- @class RecruitActivityButtonModelMixin
 
 function RecruitActivityButtonModelMixin:OnLoad()
 	self.parentButton = self:GetParent();
@@ -651,7 +651,7 @@ function RecruitActivityButtonModelMixin:OnAnimFinished()
 	self:Hide();	-- Only play the animation once
 end
 
-RecruitListButtonMixin = {};--- @class RecruitListButtonMixin
+RecruitListButtonMixin = {}; --- @class RecruitListButtonMixin
 
 function RecruitListButtonMixin:Init(elementData)
 	if elementData.isDivider then
@@ -800,7 +800,7 @@ function RecruitListButtonMixin:UpdateBackground(recruitInfo, versionRecruited)
 	end
 end
 
-RecruitAFriendNextRewardInfoButtonMixin = CreateFromMixins(RecruitAFriendSystemMixin);--- @class RecruitAFriendNextRewardInfoButtonMixin : RecruitAFriendSystemMixin
+RecruitAFriendNextRewardInfoButtonMixin = CreateFromMixins(RecruitAFriendSystemMixin); --- @class RecruitAFriendNextRewardInfoButtonMixin : RecruitAFriendSystemMixin
 
 function RecruitAFriendNextRewardInfoButtonMixin:OnEnter()
 	local xOffset, yOffset = 0, 40;
@@ -813,7 +813,7 @@ function RecruitAFriendNextRewardInfoButtonMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-RecruitAFriendVersionInfoButtonMixin = CreateFromMixins(RecruitAFriendSystemMixin);--- @class RecruitAFriendVersionInfoButtonMixin : RecruitAFriendSystemMixin
+RecruitAFriendVersionInfoButtonMixin = CreateFromMixins(RecruitAFriendSystemMixin); --- @class RecruitAFriendVersionInfoButtonMixin : RecruitAFriendSystemMixin
 
 function RecruitAFriendVersionInfoButtonMixin:OnEnter()
 	local recruitAFriendFrame = self:GetRecruitAFriendFrame();
@@ -830,7 +830,7 @@ function RecruitAFriendVersionInfoButtonMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-RecruitAFriendClaimRewardButtonBaseMixin = CreateFromMixins(RecruitAFriendSystemMixin);--- @class RecruitAFriendClaimRewardButtonBaseMixin : RecruitAFriendSystemMixin
+RecruitAFriendClaimRewardButtonBaseMixin = CreateFromMixins(RecruitAFriendSystemMixin); --- @class RecruitAFriendClaimRewardButtonBaseMixin : RecruitAFriendSystemMixin
 
 function RecruitAFriendClaimRewardButtonBaseMixin:OnEnter()
 	if not self:IsEnabled() then
@@ -865,7 +865,7 @@ function RecruitAFriend_TryCancelAutoClaim()
 	RecruitAFriendRewardsFrame.ClaimLegacyRewardsButton:UpdateUnclaimedRewardsAnim();
 end
 
-RecruitAFriendClaimLegacyRewardsButtonMixin = {};--- @class RecruitAFriendClaimLegacyRewardsButtonMixin
+RecruitAFriendClaimLegacyRewardsButtonMixin = {}; --- @class RecruitAFriendClaimLegacyRewardsButtonMixin
 
 function RecruitAFriendClaimLegacyRewardsButtonMixin:OnEvent(event, ...)
 	if event == "RAF_REWARD_CLAIM_FAILED" then
@@ -946,7 +946,7 @@ function RecruitAFriendClaimLegacyRewardsButtonMixin:ClaimNextReward()
 	end
 end
 
-RecruitAFriendClaimOrViewRewardButtonMixin = {};--- @class RecruitAFriendClaimOrViewRewardButtonMixin
+RecruitAFriendClaimOrViewRewardButtonMixin = {}; --- @class RecruitAFriendClaimOrViewRewardButtonMixin
 
 function RecruitAFriendClaimOrViewRewardButtonMixin:OnLoad()
 	self:SetEnabled(false);
@@ -1018,7 +1018,7 @@ function RecruitAFriendClaimOrViewRewardButtonMixin:UpdateUnclaimedRewardsAnim()
 	self.UnclaimedRewardsAnim:SetPlaying(recruitAFriendFrame:AreAnyRewardsAffordable());
 end
 
-RecruitAFriendRewardsFrameMixin = CreateFromMixins(RecruitAFriendSystemMixin);--- @class RecruitAFriendRewardsFrameMixin : RecruitAFriendSystemMixin
+RecruitAFriendRewardsFrameMixin = CreateFromMixins(RecruitAFriendSystemMixin); --- @class RecruitAFriendRewardsFrameMixin : RecruitAFriendSystemMixin
 
 function RecruitAFriendRewardsFrameMixin:OnLoad()
 	self.rewardPool = CreateFramePool("FRAME", self, "RecruitAFriendRewardTemplate");
@@ -1141,7 +1141,7 @@ function RecruitAFriendRewardsFrameMixin:Refresh()
 	SetUIPanelShown(SideDressUpFrame, isUsingDressUp);
 end
 
-RecruitAFriendRewardMixin = {};--- @class RecruitAFriendRewardMixin
+RecruitAFriendRewardMixin = {}; --- @class RecruitAFriendRewardMixin
 
 function RecruitAFriendRewardMixin:Setup(rewardInfo, tooltipRightAligned, isFinal)
 	self.Button:Setup(rewardInfo, tooltipRightAligned);
@@ -1167,7 +1167,7 @@ function RecruitAFriendRewardMixin:Setup(rewardInfo, tooltipRightAligned, isFina
 	self:Show();
 end
 
-RecruitAFriendRewardButtonMixin = {};--- @class RecruitAFriendRewardButtonMixin
+RecruitAFriendRewardButtonMixin = {}; --- @class RecruitAFriendRewardButtonMixin
 
 function RecruitAFriendRewardButtonMixin:OnLoad()
 	self.tooltipXOffset = 5;
@@ -1283,7 +1283,7 @@ function RecruitAFriendRewardButtonMixin:SetCanClaim(canClaim)
 	--overridden in inherited mixins
 end
 
-RecruitAFriendRewardButtonWithCheckMixin = CreateFromMixins(RecruitAFriendRewardButtonMixin);--- @class RecruitAFriendRewardButtonWithCheckMixin : RecruitAFriendRewardButtonMixin
+RecruitAFriendRewardButtonWithCheckMixin = CreateFromMixins(RecruitAFriendRewardButtonMixin); --- @class RecruitAFriendRewardButtonWithCheckMixin : RecruitAFriendRewardButtonMixin
 
 function RecruitAFriendRewardButtonWithCheckMixin:SetClaimed(claimed)
 	self.CheckMark:SetShown(claimed);
@@ -1307,7 +1307,7 @@ end
 
 local RAF_FANFARE_MODEL_SCENE = 253;
 
-RecruitAFriendRewardButtonWithFanfareMixin = CreateFromMixins(RecruitAFriendRewardButtonMixin);--- @class RecruitAFriendRewardButtonWithFanfareMixin : RecruitAFriendRewardButtonMixin
+RecruitAFriendRewardButtonWithFanfareMixin = CreateFromMixins(RecruitAFriendRewardButtonMixin); --- @class RecruitAFriendRewardButtonWithFanfareMixin : RecruitAFriendRewardButtonMixin
 
 function RecruitAFriendRewardButtonWithFanfareMixin:OnLoad()
 	self.tooltipXOffset = 10;
@@ -1406,7 +1406,7 @@ function RecruitAFriendRewardButtonWithFanfareMixin:PlayClaimRewardFanfare()
 	self.ModelScene:StartUnwrapAnimation(OnFinishedCallback);
 end
 
-RecruitAFriendRewardTabMixin = CreateFromMixins(RecruitAFriendSystemMixin);--- @class RecruitAFriendRewardTabMixin : RecruitAFriendSystemMixin
+RecruitAFriendRewardTabMixin = CreateFromMixins(RecruitAFriendSystemMixin); --- @class RecruitAFriendRewardTabMixin : RecruitAFriendSystemMixin
 
 function RecruitAFriendRewardTabMixin:Setup(rafVersion)
 	self.rafVersion = rafVersion;
@@ -1453,7 +1453,7 @@ function RecruitAFriendRewardTabMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 end
 
-RecruitAFriendRecruitmentButtonMixin = {};--- @class RecruitAFriendRecruitmentButtonMixin
+RecruitAFriendRecruitmentButtonMixin = {}; --- @class RecruitAFriendRecruitmentButtonMixin
 
 function RecruitAFriendRecruitmentButtonMixin:OnClick()
 	if RecruitAFriendRecruitmentFrame:IsShown() then
@@ -1478,7 +1478,7 @@ function RecruitAFriendRecruitmentButtonMixin:OnLeave()
 	GetAppropriateTooltip():Hide();
 end
 
-RecruitAFriendRecruitmentFrameMixin = {};--- @class RecruitAFriendRecruitmentFrameMixin
+RecruitAFriendRecruitmentFrameMixin = {}; --- @class RecruitAFriendRecruitmentFrameMixin
 
 function RecruitAFriendRecruitmentFrameMixin:OnLoad()
 	self.EditBox:Disable();
@@ -1554,7 +1554,7 @@ function RecruitAFriendRecruitmentFrameMixin:UpdateRecruitmentInfo(recruitmentIn
 	self.GenerateOrCopyLinkButton:Update(recruitmentInfo, recruitsAreMaxed);
 end
 
-RecruitAFriendGenerateOrCopyLinkButtonMixin = {};--- @class RecruitAFriendGenerateOrCopyLinkButtonMixin
+RecruitAFriendGenerateOrCopyLinkButtonMixin = {}; --- @class RecruitAFriendGenerateOrCopyLinkButtonMixin
 
 function RecruitAFriendGenerateOrCopyLinkButtonMixin:OnClick()
 	if self.recruitmentInfo then
@@ -1607,7 +1607,7 @@ function RecruitAFriendGenerateOrCopyLinkButtonMixin:Update(recruitmentInfo, rec
 	end
 end
 
-RewardClaimingMixin = {}--- @class RewardClaimingMixin
+RewardClaimingMixin = {} --- @class RewardClaimingMixin
 
 function RewardClaimingMixin:GetString(name)
 	local child = self[name]

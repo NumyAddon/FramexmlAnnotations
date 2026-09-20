@@ -13,7 +13,7 @@ end
 RegisterGameMenuEscHandler(GameMenuEscPriority.AddOn, PlayerChoiceFrame_EscapePressed);
 RegisterGameMenuEscHandler(GameMenuEscPriority.AddOn, PlayerChoiceFrame_SuppressesGameMenuToggle);
 
-PlayerChoiceFrameMixin = {};--- @class PlayerChoiceFrameMixin
+PlayerChoiceFrameMixin = {}; --- @class PlayerChoiceFrameMixin
 
 function PlayerChoiceFrameMixin:OnLoad()
 	self.optionPools = CreateFramePoolCollection();

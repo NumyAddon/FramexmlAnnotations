@@ -11,7 +11,7 @@ do
 	addonTable.GetPlayerDebuffFormattedString = CombatAudioAlertUtil.GetPlayerDebuffFormattedString;
 end
 
-CombatAudioAlertManagerMixin = {};--- @class CombatAudioAlertManagerMixin
+CombatAudioAlertManagerMixin = {}; --- @class CombatAudioAlertManagerMixin
 
 function CombatAudioAlertManagerMixin:OnLoad()
 	self.lastUnitHealthPercent = {};

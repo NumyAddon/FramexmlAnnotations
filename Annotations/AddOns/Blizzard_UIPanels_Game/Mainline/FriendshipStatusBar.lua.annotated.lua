@@ -5,7 +5,7 @@ local FRIENDSHIP_BAR_COLORS = {
 	[4] = FACTION_GREEN_COLOR,
 };
 
-NPCFriendshipStatusBarMixin = { };--- @class NPCFriendshipStatusBarMixin
+NPCFriendshipStatusBarMixin = { }; --- @class NPCFriendshipStatusBarMixin
 function NPCFriendshipStatusBarMixin:GetColorIndex(currentRank, numRanks, numColors)
 	if numRanks < numColors then
 		if currentRank == 1 then

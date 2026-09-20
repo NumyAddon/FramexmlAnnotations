@@ -6,7 +6,7 @@ local CategoriesWhileVisibleEvents = {
 	"HOUSING_STORAGE_UPDATED",
 };
 
-HousingCatalogCategoriesMixin = {};--- @class HousingCatalogCategoriesMixin
+HousingCatalogCategoriesMixin = {}; --- @class HousingCatalogCategoriesMixin
 
 function HousingCatalogCategoriesMixin:OnLoad()
 	self.categoryPool = CreateFramePool("BUTTON", self, "HousingCatalogCategoryTemplate");
@@ -527,7 +527,7 @@ end
 
 ----------------- Back Button Mixin -----------------
 
-HousingCategoryBackButtonMixin = {};--- @class HousingCategoryBackButtonMixin
+HousingCategoryBackButtonMixin = {}; --- @class HousingCategoryBackButtonMixin
 
 function HousingCategoryBackButtonMixin:OnClick()
 	self:GetParent():OnCategoryClicked(self);
@@ -545,7 +545,7 @@ local AtlasKeyModifiers = {
 	Parent = "_active-parent",
 };
 
-BaseHousingCatalogCategoryMixin = {};--- @class BaseHousingCatalogCategoryMixin
+BaseHousingCatalogCategoryMixin = {}; --- @class BaseHousingCatalogCategoryMixin
 -- Inherits BaseHousingActionButtonMixin
 
 function BaseHousingCatalogCategoryMixin:OnLoad()
@@ -663,7 +663,7 @@ end
 
 ----------------- Instantiated Category Mixin -----------------
 
-HousingCatalogCategoryMixin = {};--- @class HousingCatalogCategoryMixin
+HousingCatalogCategoryMixin = {}; --- @class HousingCatalogCategoryMixin
 -- Inherits BaseHousingCatalogCategoryMixin
 
 function HousingCatalogCategoryMixin:Init(displayInfo, showingAsParent)

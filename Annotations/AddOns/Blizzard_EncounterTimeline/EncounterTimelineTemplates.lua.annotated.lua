@@ -1,4 +1,4 @@
-EncounterTimelineEventIconMixin = CreateFromMixins(EncounterTimelineOrientedFrameMixin);--- @class EncounterTimelineEventIconMixin : EncounterTimelineOrientedFrameMixin
+EncounterTimelineEventIconMixin = CreateFromMixins(EncounterTimelineOrientedFrameMixin); --- @class EncounterTimelineEventIconMixin : EncounterTimelineOrientedFrameMixin
 
 function EncounterTimelineEventIconMixin:OnLoad()
 	self.isDeadlyEffect = false;
@@ -163,7 +163,7 @@ function EncounterTimelineEventIconMixin:UpdateOverlays()
 	self.NormalOverlay:SetShown(showNormalOverlay);
 end
 
-EncounterTimelineIndicatorIconGridMixin = {};--- @class EncounterTimelineIndicatorIconGridMixin
+EncounterTimelineIndicatorIconGridMixin = {}; --- @class EncounterTimelineIndicatorIconGridMixin
 
 local function GetTextureSetIconMask(textureSetIconMask, wantedIconMask)
 	if wantedIconMask == nil then
@@ -214,7 +214,7 @@ function EncounterTimelineIndicatorIconGridMixin:ApplyLayout(initialAnchor, dire
 	AnchorUtil.GridLayout(self:GetIconTextures(), initialAnchor, layout);
 end
 
-EncounterTimelinePausedIconMixin = {};--- @class EncounterTimelinePausedIconMixin
+EncounterTimelinePausedIconMixin = {}; --- @class EncounterTimelinePausedIconMixin
 
 function EncounterTimelinePausedIconMixin:AnimateShow()
 	self.HideAnimation:Stop();
@@ -236,7 +236,7 @@ function EncounterTimelinePausedIconMixin:AnimateHide()
 	self.HideAnimation:Play();
 end
 
-EncounterTimelineQueuedIconMixin = {};--- @class EncounterTimelineQueuedIconMixin
+EncounterTimelineQueuedIconMixin = {}; --- @class EncounterTimelineQueuedIconMixin
 
 function EncounterTimelineQueuedIconMixin:AnimateShow()
 	self.HideAnimation:Stop();

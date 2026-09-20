@@ -2,7 +2,7 @@ local BaseHouseEditorModesBarShownEvents = {
 	"UPDATE_BINDINGS",
 };
 
-BaseHouseEditorModesBarMixin = {};--- @class BaseHouseEditorModesBarMixin
+BaseHouseEditorModesBarMixin = {}; --- @class BaseHouseEditorModesBarMixin
 
 function BaseHouseEditorModesBarMixin:OnEvent(event, ...)
 	if event == "UPDATE_BINDINGS" then
@@ -42,7 +42,7 @@ local HouseEditorModesBarShownEvents = {
 	"HOUSING_DECOR_PREVIEW_STATE_CHANGED",
 };
 
-HouseEditorModesBarMixin = CreateFromMixins(BaseHouseEditorModesBarMixin);--- @class HouseEditorModesBarMixin : BaseHouseEditorModesBarMixin
+HouseEditorModesBarMixin = CreateFromMixins(BaseHouseEditorModesBarMixin); --- @class HouseEditorModesBarMixin : BaseHouseEditorModesBarMixin
 function HouseEditorModesBarMixin:OnEvent(event, ...)
 	BaseHouseEditorModesBarMixin.OnEvent(self, event, ...);
 	if     event == "HOUSE_INFO_UPDATED"
@@ -72,11 +72,11 @@ function HouseEditorModesBarMixin:OnHide()
 	EventRegistry:UnregisterCallback("HouseEditorStorage.TabChanged", self.UpdateButtonStates);
 end
 
-HouseEditorSubmodesBarMixin = CreateFromMixins(BaseHouseEditorModesBarMixin);--- @class HouseEditorSubmodesBarMixin : BaseHouseEditorModesBarMixin
+HouseEditorSubmodesBarMixin = CreateFromMixins(BaseHouseEditorModesBarMixin); --- @class HouseEditorSubmodesBarMixin : BaseHouseEditorModesBarMixin
 
 
 -- Inherits BaseHousingModeButtonMixin
-BaseHouseEditorModeButtonMixin = {};--- @class BaseHouseEditorModeButtonMixin
+BaseHouseEditorModeButtonMixin = {}; --- @class BaseHouseEditorModeButtonMixin
 
 function BaseHouseEditorModeButtonMixin:IsActive()
 	return C_HouseEditor.IsHouseEditorModeActive(self.editorMode);
@@ -107,7 +107,7 @@ function BaseHouseEditorModeButtonMixin:GetIconColorForState(state)
 	return state.isEnabled and WHITE_FONT_COLOR or DARKGRAY_COLOR;
 end
 
-HouseEditorModeButtonMixin = CreateFromMixins(BaseHouseEditorModeButtonMixin);--- @class HouseEditorModeButtonMixin : BaseHouseEditorModeButtonMixin
+HouseEditorModeButtonMixin = CreateFromMixins(BaseHouseEditorModeButtonMixin); --- @class HouseEditorModeButtonMixin : BaseHouseEditorModeButtonMixin
 
 function HouseEditorModeButtonMixin:CheckEnabled()
 	if not HousingTutorialUtil.IsModeValidForTutorial(self.editorMode) and not HousingTutorialUtil.HousingDecorQuestTutorialComplete() then
@@ -170,7 +170,7 @@ function HouseEditorModeButtonMixin:UpdateCustomVisuals(state)
 	end
 end
 
-HouseEditorSubmodeButtonMixin = CreateFromMixins(BaseHouseEditorModeButtonMixin);--- @class HouseEditorSubmodeButtonMixin : BaseHouseEditorModeButtonMixin
+HouseEditorSubmodeButtonMixin = CreateFromMixins(BaseHouseEditorModeButtonMixin); --- @class HouseEditorSubmodeButtonMixin : BaseHouseEditorModeButtonMixin
 
 function HouseEditorSubmodeButtonMixin:CheckEnabled()
 	return true;
@@ -198,7 +198,7 @@ end
 
 
 -- TODO: Remove this once all submode buttons have been updated or removed
-HouseEditorOLDSubmodeButtonMixin = CreateFromMixins(BaseHouseEditorModeButtonMixin);--- @class HouseEditorOLDSubmodeButtonMixin : BaseHouseEditorModeButtonMixin
+HouseEditorOLDSubmodeButtonMixin = CreateFromMixins(BaseHouseEditorModeButtonMixin); --- @class HouseEditorOLDSubmodeButtonMixin : BaseHouseEditorModeButtonMixin
 
 function HouseEditorOLDSubmodeButtonMixin:CheckEnabled()
 	return true;

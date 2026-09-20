@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.Spacer, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateSpacer"}, GetSpacerVisInfoData);
 
-UIWidgetTemplateSpacerMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateSpacerMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateSpacerMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateSpacerMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateSpacerMixin:Setup(widgetInfo, widgetContainer)
 	UIWidgetBaseTemplateMixin.Setup(self, widgetInfo, widgetContainer);

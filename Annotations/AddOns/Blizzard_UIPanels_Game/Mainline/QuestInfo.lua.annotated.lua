@@ -1174,7 +1174,7 @@ QUEST_TEMPLATE_MAP_REWARDS = { questLog = true, chooseItems = nil, contentWidth 
 	}
 }
 
-QuestInfoRewardItemMixin = {};--- @class QuestInfoRewardItemMixin
+QuestInfoRewardItemMixin = {}; --- @class QuestInfoRewardItemMixin
 
 local function GetBestItemRewardContextDescription(questRewardContextFlags)
 	if (FlagsUtil.IsSet(questRewardContextFlags, Enum.QuestRewardContextFlags.FirstCompletionBonus)) then
@@ -1309,21 +1309,21 @@ function QuestInfoRewardItemMixin:UpdateQuestRewardContextIcon()
 	self.QuestRewardContextIcon:SetShown(contextIcon ~= nil);
 end
 
-SmallQuestInfoRewardItemMixin = CreateFromMixins(QuestInfoRewardItemMixin);--- @class SmallQuestInfoRewardItemMixin : QuestInfoRewardItemMixin
+SmallQuestInfoRewardItemMixin = CreateFromMixins(QuestInfoRewardItemMixin); --- @class SmallQuestInfoRewardItemMixin : QuestInfoRewardItemMixin
 
 function SmallQuestInfoRewardItemMixin:UpdateQuestRewardContextIcon()
 	QuestInfoRewardItemMixin.UpdateQuestRewardContextIcon(self);
 	self.Name:SetWidth(self.QuestRewardContextIcon:IsShown() and 82 or 92);
 end
 
-LargeQuestInfoRewardItemMixin = CreateFromMixins(QuestInfoRewardItemMixin);--- @class LargeQuestInfoRewardItemMixin : QuestInfoRewardItemMixin
+LargeQuestInfoRewardItemMixin = CreateFromMixins(QuestInfoRewardItemMixin); --- @class LargeQuestInfoRewardItemMixin : QuestInfoRewardItemMixin
 
 function LargeQuestInfoRewardItemMixin:UpdateQuestRewardContextIcon()
 	QuestInfoRewardItemMixin.UpdateQuestRewardContextIcon(self);
 	self.Name:SetWidth(self.QuestRewardContextIcon:IsShown() and 86 or 90);
 end
 
-QuestInfoReputationRewardButtonMixin = { };--- @class QuestInfoReputationRewardButtonMixin
+QuestInfoReputationRewardButtonMixin = { }; --- @class QuestInfoReputationRewardButtonMixin
 
 function QuestInfoReputationRewardButtonMixin:SetUpMajorFactionReputationReward(reputationRewardInfo)
 	local majorFactionData = C_MajorFactions.GetMajorFactionData(reputationRewardInfo.factionID);
@@ -1353,7 +1353,7 @@ function QuestInfoReputationRewardButtonMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-QuestInfoRewardSpellCodeMixin = {};--- @class QuestInfoRewardSpellCodeMixin
+QuestInfoRewardSpellCodeMixin = {}; --- @class QuestInfoRewardSpellCodeMixin
 
 function QuestInfoRewardSpellCodeMixin:OnEnter()
 	local isPet = nil;

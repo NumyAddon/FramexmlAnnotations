@@ -1,5 +1,5 @@
 
-RunforgeFrameTooltipMixin = CreateFromMixins(RuneforgeSystemMixin);--- @class RunforgeFrameTooltipMixin : RuneforgeSystemMixin
+RunforgeFrameTooltipMixin = CreateFromMixins(RuneforgeSystemMixin); --- @class RunforgeFrameTooltipMixin : RuneforgeSystemMixin
 
 function RunforgeFrameTooltipMixin:OnLoad()
 	GameTooltip_OnLoad(self);

@@ -1,5 +1,5 @@
 
-BaseTextTimerMixin = {};--- @class BaseTextTimerMixin
+BaseTextTimerMixin = {}; --- @class BaseTextTimerMixin
 
 function BaseTextTimerMixin:StartTimer(timeInSeconds, updateFrequency, hideOnFinish, notAbbreviated, formatString)
 	if not self.TimerText then
@@ -66,7 +66,7 @@ function BaseTextTimerMixin:OnUpdate(elapsed)
 	end
 end
 
-BaseExpandableDialogMixin = {};--- @class BaseExpandableDialogMixin
+BaseExpandableDialogMixin = {}; --- @class BaseExpandableDialogMixin
 
 function BaseExpandableDialogMixin:SetupTextureKit(textureKit, textureKitRegionInfo)
 	SetupTextureKitsFromRegionInfo(textureKit, self, textureKitRegionInfo);
@@ -82,7 +82,7 @@ function BaseExpandableDialogMixin_OnCloseClick(self)
 	self:GetParent():OnCloseClick();
 end
 
-BaseNineSliceDialogMixin = {};--- @class BaseNineSliceDialogMixin
+BaseNineSliceDialogMixin = {}; --- @class BaseNineSliceDialogMixin
 
 local textureKitRegionInfo = {
 	["ParchmentTop"] = {formatString= "%s-Top", useAtlasSize=true},

@@ -97,7 +97,7 @@ function WeeklyRewardsUtil.GetNumUnlockedRewards(activityType)
 	return unlocks;
 end
 
-WeeklyRewardMixin = {};--- @class WeeklyRewardMixin
+WeeklyRewardMixin = {}; --- @class WeeklyRewardMixin
 
 function WeeklyRewardMixin:OnMouseUp(button, upInside)
 	if button == "LeftButton" and upInside then

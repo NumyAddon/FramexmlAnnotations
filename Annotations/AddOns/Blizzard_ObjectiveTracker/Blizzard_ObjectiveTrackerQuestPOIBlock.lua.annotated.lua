@@ -1,7 +1,7 @@
 -- shared pool since there are several modules that can display quests, but a given quest can only appear in a specific module
 local g_questPOIButtonPool = CreateFramePool("BUTTON", nil, "ObjectiveTrackerPOIButtonTemplate");
 
-ObjectiveTrackerQuestPOIBlockMixin = CreateFromMixins(ObjectiveTrackerAnimBlockMixin);--- @class ObjectiveTrackerQuestPOIBlockMixin : ObjectiveTrackerAnimBlockMixin
+ObjectiveTrackerQuestPOIBlockMixin = CreateFromMixins(ObjectiveTrackerAnimBlockMixin); --- @class ObjectiveTrackerQuestPOIBlockMixin : ObjectiveTrackerAnimBlockMixin
 
 -- overrides inherited
 function ObjectiveTrackerQuestPOIBlockMixin:OnLayout()

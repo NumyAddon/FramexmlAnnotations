@@ -1,7 +1,7 @@
 -- Aura sources describe where aura data comes from and how returned aura data
 -- should be prepared before containers process it.
 
-AuraContainerAuraSourceMixin = {};--- @class AuraContainerAuraSourceMixin
+AuraContainerAuraSourceMixin = {}; --- @class AuraContainerAuraSourceMixin
 
 function AuraContainerAuraSourceMixin:IsPrivate()
 	return false;
@@ -24,7 +24,7 @@ function AuraContainerAuraSourceMixin:ApplySourceMetadata(auraData)
 	auraData.isPrivate = self:IsPrivate();
 end
 
-AuraContainerPublicAuraSourceMixin = CreateFromMixins(AuraContainerAuraSourceMixin);--- @class AuraContainerPublicAuraSourceMixin : AuraContainerAuraSourceMixin
+AuraContainerPublicAuraSourceMixin = CreateFromMixins(AuraContainerAuraSourceMixin); --- @class AuraContainerPublicAuraSourceMixin : AuraContainerAuraSourceMixin
 
 function AuraContainerPublicAuraSourceMixin:GetAuraDataByAuraInstanceID(unitToken, auraInstanceID)
 	return C_UnitAuras.GetAuraDataByAuraInstanceID(unitToken, auraInstanceID);
@@ -42,7 +42,7 @@ end
 -- when private auras are applied or removed. Once that's no longer a problem,
 -- we can likely just allow the regular C_UnitAuras APIs handle them.
 
-AuraContainerPrivateAuraSourceMixin = CreateFromMixins(AuraContainerAuraSourceMixin);--- @class AuraContainerPrivateAuraSourceMixin : AuraContainerAuraSourceMixin
+AuraContainerPrivateAuraSourceMixin = CreateFromMixins(AuraContainerAuraSourceMixin); --- @class AuraContainerPrivateAuraSourceMixin : AuraContainerAuraSourceMixin
 
 function AuraContainerPrivateAuraSourceMixin:IsPrivate()
 	return true;
@@ -64,7 +64,7 @@ end
 -- Edit Mode uses AuraUtil so containers can display placeholder/test aura data
 -- instead of live unit aura data (see AuraUtil.SetDataProvider).
 
-AuraContainerEditModeAuraSourceMixin = CreateFromMixins(AuraContainerAuraSourceMixin);--- @class AuraContainerEditModeAuraSourceMixin : AuraContainerAuraSourceMixin
+AuraContainerEditModeAuraSourceMixin = CreateFromMixins(AuraContainerAuraSourceMixin); --- @class AuraContainerEditModeAuraSourceMixin : AuraContainerAuraSourceMixin
 
 function AuraContainerEditModeAuraSourceMixin:GetAuraDataByAuraInstanceID(unitToken, auraInstanceID)
 	return AuraUtil.GetAuraDataByAuraInstanceID(unitToken, auraInstanceID);

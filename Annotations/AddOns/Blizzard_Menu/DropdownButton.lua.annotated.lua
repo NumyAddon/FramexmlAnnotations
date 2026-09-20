@@ -66,7 +66,7 @@ local function CollectSelectionData(menuDescription)
 	return previousRadio, nextRadio, selections;
 end
 
-DropdownButtonMixin = CreateFromMixins(CallbackRegistryMixin);--- @class DropdownButtonMixin : CallbackRegistryMixin
+DropdownButtonMixin = CreateFromMixins(CallbackRegistryMixin); --- @class DropdownButtonMixin : CallbackRegistryMixin
 
 DropdownButtonMixin:GenerateCallbackEvents(
 	{
@@ -394,7 +394,7 @@ end
 -- Routes script calls to a dropdown button and causes the dropdown to respond
 -- as if it were actually pressed. If more scripts are required, feel free to add them;
 -- they'll only be invoked if the element defines the script for it.
-DropdownButtonProxyMixin = {};--- @class DropdownButtonProxyMixin
+DropdownButtonProxyMixin = {}; --- @class DropdownButtonProxyMixin
 
 function DropdownButtonProxyMixin:GetRouteSibling()
 	return self:GetParent()[self.routeToSibling];

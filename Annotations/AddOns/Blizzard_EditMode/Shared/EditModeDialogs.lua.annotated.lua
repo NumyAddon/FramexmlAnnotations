@@ -1,4 +1,4 @@
-EditModeBaseDialogMixin = {};--- @class EditModeBaseDialogMixin
+EditModeBaseDialogMixin = {}; --- @class EditModeBaseDialogMixin
 
 function EditModeBaseDialogMixin:EditModeDialog_OnLoad()
 	self.exclusive = true;
@@ -226,7 +226,7 @@ function EditModeBaseDialogMixin:OnEditModeExit()
 	self:OnManagerExit();
 end
 
-EditModeLayoutDialogMixin = {};--- @class EditModeLayoutDialogMixin
+EditModeLayoutDialogMixin = {}; --- @class EditModeLayoutDialogMixin
 
 function EditModeLayoutDialogMixin:SetupControlsForMode(modeData, layoutName, ...)
 	self.Title:SetText(modeData.title:format(layoutName, ...));
@@ -278,7 +278,7 @@ function EditModeLayoutDialogMixin:ShowDeleteLayoutDialog(layoutIndex, layoutInf
 	self:SetMode("deleteLayout", self:GetLayoutManager():GetLayoutName(layoutInfo));
 end
 
-EditModeImportLayoutDialogMixin = {};--- @class EditModeImportLayoutDialogMixin
+EditModeImportLayoutDialogMixin = {}; --- @class EditModeImportLayoutDialogMixin
 
 function EditModeImportLayoutDialogMixin:GetImportEditBox()
 	return self.ImportBox.EditBox;
@@ -360,7 +360,7 @@ function EditModeImportLayoutDialogMixin:ProcessImportText(text)
 end
 
 --[[
-EditModeImportLayoutLinkDialogMixin = {};--- @class EditModeImportLayoutLinkDialogMixin
+EditModeImportLayoutLinkDialogMixin = {}; --- @class EditModeImportLayoutLinkDialogMixin
 
 function EditModeImportLayoutLinkDialogMixin:OnLoad()
 	self.exclusive = true;
@@ -405,7 +405,7 @@ function EditModeImportLayoutLinkDialogMixin:UpdateAcceptButtonEnabledState()
 end
 --]]
 
-EditModeUnsavedChangesDialogMixin = {};--- @class EditModeUnsavedChangesDialogMixin
+EditModeUnsavedChangesDialogMixin = {}; --- @class EditModeUnsavedChangesDialogMixin
 
 function EditModeUnsavedChangesDialogMixin:OnLoad()
 	self.exclusive = true;
@@ -477,7 +477,7 @@ function EditModeUnsavedChangesDialogMixin:ClearSavedLayoutsCallback()
 	EventRegistry:UnregisterCallback("EditMode.SavedLayouts", self);
 end
 
-EditModeSystemSettingsDialogMixin = {};--- @class EditModeSystemSettingsDialogMixin
+EditModeSystemSettingsDialogMixin = {}; --- @class EditModeSystemSettingsDialogMixin
 
 function EditModeSystemSettingsDialogMixin:OnLoad()
 	local function onCloseCallback()

@@ -57,7 +57,7 @@ local settings = {
 	leftMargin = -20,
 };
 
-ScenarioObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings);--- @class ScenarioObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+ScenarioObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings); --- @class ScenarioObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 
 function ScenarioObjectiveTrackerMixin:InitModule()
 	for i, block in ipairs(self.FixedBlocks) do
@@ -456,7 +456,7 @@ end
 -- ***** STAGE BLOCK
 -- *****************************************************************************************************
 
-ScenarioObjectiveTrackerStageMixin = { };--- @class ScenarioObjectiveTrackerStageMixin
+ScenarioObjectiveTrackerStageMixin = { }; --- @class ScenarioObjectiveTrackerStageMixin
 
 function ScenarioObjectiveTrackerStageMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_NONE");
@@ -649,7 +649,7 @@ end
 -- ***** TIMER
 -- *****************************************************************************************************
 
-ScenarioTimerMixin = { };--- @class ScenarioTimerMixin
+ScenarioTimerMixin = { }; --- @class ScenarioTimerMixin
 
 function ScenarioTimerMixin:OnLoad()
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");
@@ -726,7 +726,7 @@ end
 -- ***** CHALLENGE MODE BLOCK
 -- *****************************************************************************************************
 
-ScenarioObjectiveTrackerChallengeModeMixin = { };--- @class ScenarioObjectiveTrackerChallengeModeMixin
+ScenarioObjectiveTrackerChallengeModeMixin = { }; --- @class ScenarioObjectiveTrackerChallengeModeMixin
 
 function ScenarioObjectiveTrackerChallengeModeMixin:OnLoad()
 	self:RegisterEvent("CHALLENGE_MODE_DEATH_COUNT_UPDATED");
@@ -846,7 +846,7 @@ function ScenarioObjectiveTrackerChallengeModeMixin:SetUpAffixes(affixes)
 	end
 end
 
-ScenarioChallengeModeAffixMixin = {};--- @class ScenarioChallengeModeAffixMixin
+ScenarioChallengeModeAffixMixin = {}; --- @class ScenarioChallengeModeAffixMixin
 
 function ScenarioChallengeModeAffixMixin:SetUp(affixID)
 	local _, _, filedataid = C_ChallengeMode.GetAffixInfo(affixID);
@@ -874,7 +874,7 @@ end
 -- ***** PROVING GROUNDS BLOCK
 -- *****************************************************************************************************
 
-ScenarioObjectiveTrackerProvingGroundsMixin = { };--- @class ScenarioObjectiveTrackerProvingGroundsMixin
+ScenarioObjectiveTrackerProvingGroundsMixin = { }; --- @class ScenarioObjectiveTrackerProvingGroundsMixin
 
 function ScenarioObjectiveTrackerProvingGroundsMixin:OnLoad()
 	self:RegisterEvent("PROVING_GROUNDS_SCORE_UPDATE");
@@ -956,7 +956,7 @@ end
 -- ***** REWARDS FRAME
 -- *****************************************************************************************************
 
-ScenarioRewardsFrameMixin = { };--- @class ScenarioRewardsFrameMixin
+ScenarioRewardsFrameMixin = { }; --- @class ScenarioRewardsFrameMixin
 
 function ScenarioRewardsFrameMixin:OnLoad()
 	self:SetScale(0.9);
@@ -1014,7 +1014,7 @@ end
 -- ***** PROGRESS BARS
 -- *****************************************************************************************************
 
-ScenarioTrackerProgressBarMixin = { };--- @class ScenarioTrackerProgressBarMixin
+ScenarioTrackerProgressBarMixin = { }; --- @class ScenarioTrackerProgressBarMixin
 
 function ScenarioTrackerProgressBarMixin:OnGet(isNew, criteriaIndex)
 	self.Bar.Icon:Hide();
@@ -1120,7 +1120,7 @@ end
 -- ***** SPELLS
 -- *****************************************************************************************************
 
-ScenarioSpellButtonMixin = { };--- @class ScenarioSpellButtonMixin
+ScenarioSpellButtonMixin = { }; --- @class ScenarioSpellButtonMixin
 
 function ScenarioSpellButtonMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
@@ -1153,7 +1153,7 @@ end
 -- ***** LFG EYE
 -- *****************************************************************************************************
 
-ScenarioObjectiveTrackerFindGroupButtonMixin = { };--- @class ScenarioObjectiveTrackerFindGroupButtonMixin
+ScenarioObjectiveTrackerFindGroupButtonMixin = { }; --- @class ScenarioObjectiveTrackerFindGroupButtonMixin
 
 function ScenarioObjectiveTrackerFindGroupButtonMixin:OnMouseDown()
 	if self:IsEnabled() then

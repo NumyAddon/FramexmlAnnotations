@@ -8,7 +8,7 @@ local SpellBookItemEvents = {
 
 local TRAINABLE_FX_ID = 176;
 
-SpellBookItemMixin = {};--- @class SpellBookItemMixin
+SpellBookItemMixin = {}; --- @class SpellBookItemMixin
 
 function SpellBookItemMixin:OnLoad()
 	-- Moved to a container to center all of the text vertically.
@@ -723,7 +723,7 @@ function SpellBookItemMixin:UpdateArtSet()
 end
 
 
-SpellBookItemButtonMixin = {};--- @class SpellBookItemButtonMixin
+SpellBookItemButtonMixin = {}; --- @class SpellBookItemButtonMixin
 
 function SpellBookItemButtonMixin:OnLoad()
 	FlyoutButtonMixin.OnLoad(self);

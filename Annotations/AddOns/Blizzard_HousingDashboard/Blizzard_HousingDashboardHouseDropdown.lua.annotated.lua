@@ -1,4 +1,4 @@
-HousingDashboardHouseDropdownMixin = {};--- @class HousingDashboardHouseDropdownMixin
+HousingDashboardHouseDropdownMixin = {}; --- @class HousingDashboardHouseDropdownMixin
 local HousesDropdownLifetimeEvents =
 {
 	"PLAYER_HOUSE_LIST_UPDATED",

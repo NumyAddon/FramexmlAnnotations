@@ -1,4 +1,4 @@
-ArtifactLevelUpToastMixin = {};--- @class ArtifactLevelUpToastMixin
+ArtifactLevelUpToastMixin = {}; --- @class ArtifactLevelUpToastMixin
 
 function ArtifactLevelUpToastMixin:OnLoad()
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");

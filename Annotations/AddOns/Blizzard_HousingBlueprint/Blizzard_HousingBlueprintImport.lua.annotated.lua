@@ -25,7 +25,7 @@ StaticPopupDialogs["CONFIRM_BLUEPRINT_IMPORT"] = {
 
 ----------------- Top-Level Import Panel -----------------
 -- Inherits HousingBlueprintBaseFrameMixin
-HousingBlueprintImportFrameMixin = {};--- @class HousingBlueprintImportFrameMixin
+HousingBlueprintImportFrameMixin = {}; --- @class HousingBlueprintImportFrameMixin
 
 function HousingBlueprintImportFrameMixin:OnHide()
 	self:ClearData();
@@ -150,7 +150,7 @@ function HousingBlueprintImportFrameMixin:IsOperationInProgress()
 end
 
 ----------------- Input Content -----------------
-HousingBlueprintImportInputContentMixin = {};--- @class HousingBlueprintImportInputContentMixin
+HousingBlueprintImportInputContentMixin = {}; --- @class HousingBlueprintImportInputContentMixin
 
 function HousingBlueprintImportInputContentMixin:OnLoad()
 	self.ShareCodeBox.EditBox:SetAutoFocus(false);
@@ -243,7 +243,7 @@ function HousingBlueprintImportInputContentMixin:SetNoticeText(text, isError)
 end
 
 ----------------- Import Validation Content -----------------
-HousingBlueprintImportValidationContentMixin = {};--- @class HousingBlueprintImportValidationContentMixin
+HousingBlueprintImportValidationContentMixin = {}; --- @class HousingBlueprintImportValidationContentMixin
 
 local ValidationWhileShownEvents = {
 	"HOUSING_NUM_DECOR_PLACED_CHANGED",
@@ -354,7 +354,7 @@ local ImportLoadingWhileShownEvents = {
 	"HOUSING_BLUEPRINT_IMPORT_SUCCESS",
 };
 
-HousingBlueprintImportLoadingFrameMixin = {};--- @class HousingBlueprintImportLoadingFrameMixin
+HousingBlueprintImportLoadingFrameMixin = {}; --- @class HousingBlueprintImportLoadingFrameMixin
 
 function HousingBlueprintImportLoadingFrameMixin:OnLoad()
 	FrameUtil.RegisterForTopLevelParentChanged(self);

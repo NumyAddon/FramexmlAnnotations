@@ -1,4 +1,4 @@
-FieldsAPIMixin = CreateFromMixins(BaseAPIMixin);--- @class FieldsAPIMixin : BaseAPIMixin
+FieldsAPIMixin = CreateFromMixins(BaseAPIMixin); --- @class FieldsAPIMixin : BaseAPIMixin
 
 function FieldsAPIMixin:GetParentName()
 	if self.Function then

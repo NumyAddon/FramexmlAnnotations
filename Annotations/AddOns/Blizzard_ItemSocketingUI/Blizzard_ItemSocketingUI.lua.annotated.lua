@@ -70,7 +70,7 @@ function ItemSocketingSocketButton_OnScrollRangeChanged()
 	ItemSocketingDescription:SetSocketedItem();
 end
 
-GenericSocketButtonMixin = {};--- @class GenericSocketButtonMixin
+GenericSocketButtonMixin = {}; --- @class GenericSocketButtonMixin
 
 function GenericSocketButtonMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -143,7 +143,7 @@ local GENERIC_ITEM_SOCKETING_FRAME_EVENTS = {
 	"SOCKET_INFO_FAILURE",
 };
 
-GenericItemSocketingFrameMixin = {};--- @class GenericItemSocketingFrameMixin
+GenericItemSocketingFrameMixin = {}; --- @class GenericItemSocketingFrameMixin
 
 function GenericItemSocketingFrameMixin:OnLoad()
 	self.socketUIType = Enum.ItemSocketInfoUIType.RemixArtifactUI;

@@ -1,4 +1,4 @@
-QuestSessionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class QuestSessionDataProviderMixin : MapCanvasDataProviderMixin
+QuestSessionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class QuestSessionDataProviderMixin : MapCanvasDataProviderMixin
 
 function QuestSessionDataProviderMixin:OnShow()
 	self:RegisterEvent("QUEST_SESSION_JOINED");

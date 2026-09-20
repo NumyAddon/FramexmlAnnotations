@@ -1,4 +1,4 @@
-local BaseMixin = {};--- @class BaseMixin
+local BaseMixin = {}; --- @class BaseMixin
 
 function BaseMixin:GetTextureKitRegionTable(textureKitRegions)
 	local useTextureRegions = {};
@@ -65,7 +65,7 @@ function BaseMixin:GetOptionFontInfo()
 end
 
 -- Mixin order is important as BaseMixin provides overrides to PlayerChoiceBaseOptionTemplateMixin
-PlayerChoiceNormalOptionTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin, BaseMixin);--- @class PlayerChoiceNormalOptionTemplateMixin : PlayerChoiceBaseOptionTemplateMixin, BaseMixin
+PlayerChoiceNormalOptionTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin, BaseMixin); --- @class PlayerChoiceNormalOptionTemplateMixin : PlayerChoiceBaseOptionTemplateMixin, BaseMixin
 
 local MIN_OPTION_HEIGHT_DEFAULT = 439;
 local MIN_OPTION_HEIGHT_COLUMNS = 260;
@@ -245,7 +245,7 @@ function PlayerChoiceNormalOptionTemplateMixin:SetupRewards()
 	self.Rewards:Setup(self.optionInfo, fontInfo.descriptionColor);
 end
 
-PlayerChoiceNormalOptionGridTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin, BaseMixin);--- @class PlayerChoiceNormalOptionGridTemplateMixin : PlayerChoiceBaseOptionTemplateMixin, BaseMixin
+PlayerChoiceNormalOptionGridTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin, BaseMixin); --- @class PlayerChoiceNormalOptionGridTemplateMixin : PlayerChoiceBaseOptionTemplateMixin, BaseMixin
 
 function PlayerChoiceNormalOptionGridTemplateMixin:Setup(optionInfo, frameTextureKit)
 	self.optionInfo = optionInfo;

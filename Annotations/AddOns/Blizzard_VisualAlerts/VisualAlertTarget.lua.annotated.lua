@@ -1,5 +1,5 @@
 -- Any frame that can display a visual alert needs to include this mixin.
-VisualAlertTargetMixin = {};--- @class VisualAlertTargetMixin
+VisualAlertTargetMixin = {}; --- @class VisualAlertTargetMixin
 
 function VisualAlertTargetMixin:GetOrCreateAlertContainer()
 	local container = GetOrCreateTableEntry(self, "alertContainer");

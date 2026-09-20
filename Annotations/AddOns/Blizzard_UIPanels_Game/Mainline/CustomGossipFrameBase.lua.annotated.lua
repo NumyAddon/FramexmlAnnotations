@@ -1,4 +1,4 @@
-CustomGossipManagerMixin = {};--- @class CustomGossipManagerMixin
+CustomGossipManagerMixin = {}; --- @class CustomGossipManagerMixin
 
 CUSTOM_GOSSIP_FRAME_EVENTS = {
 	"GOSSIP_SHOW",
@@ -79,7 +79,7 @@ function CustomGossipManagerMixin:SetBaseHandler(baseHandler)
 	self.baseHandler = baseHandler;
 end
 
-CustomGossipFrameBaseMixin = {};--- @class CustomGossipFrameBaseMixin
+CustomGossipFrameBaseMixin = {}; --- @class CustomGossipFrameBaseMixin
 
 -- To be overriden
 function CustomGossipFrameBaseMixin:OnLoad()
@@ -111,7 +111,7 @@ function CustomGossipFrameBaseMixin:SetupFrameTextures(textureKitRegions)
 	SetupTextureKitOnRegions(self.textureKit, self, textureKitRegions, TextureKitConstants.SetVisibility, TextureKitConstants.UseAtlasSize);
 end
 
-CustomGossipFrameBaseGridMixin = { }; --- @class CustomGossipFrameBaseGridMixin
+CustomGossipFrameBaseGridMixin = { };  --- @class CustomGossipFrameBaseGridMixin
 
 function CustomGossipFrameBaseGridMixin:LayoutGridInit(anchor, overridePaddingX, overridePaddingY, overrideDirection)
 	if(not self.gossipOptionsPool) then 
@@ -174,7 +174,7 @@ function CustomGossipFrameBaseGridMixin:NextGridPage()
 	
 end 
 
-CustomGossipOptionButtonBaseMixin = {};--- @class CustomGossipOptionButtonBaseMixin
+CustomGossipOptionButtonBaseMixin = {}; --- @class CustomGossipOptionButtonBaseMixin
 
 --Override in custom system.
 function CustomGossipOptionButtonBaseMixin:ShouldOptionBeEnabled(enabled)

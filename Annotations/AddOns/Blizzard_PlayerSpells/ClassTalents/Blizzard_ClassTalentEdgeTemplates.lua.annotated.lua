@@ -1,4 +1,4 @@
-ClassTalentEdgeArrowMixin = {};--- @class ClassTalentEdgeArrowMixin
+ClassTalentEdgeArrowMixin = {}; --- @class ClassTalentEdgeArrowMixin
 
 function ClassTalentEdgeArrowMixin:UpdateState()
 	-- Overrides TalentEdgeArrowMixin

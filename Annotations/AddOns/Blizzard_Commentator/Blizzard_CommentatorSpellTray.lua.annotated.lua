@@ -40,7 +40,7 @@ function CommentatorSpellCache:GetPlayerAuraInfo()
 	return C_Commentator.GetPlayerAuraInfoByUnit(self:GetUnitToken(), self:GetIndirectSpellID());
 end
 
-CommentatorSpellTrayMixin = {};--- @class CommentatorSpellTrayMixin
+CommentatorSpellTrayMixin = {}; --- @class CommentatorSpellTrayMixin
 
 function CommentatorSpellTrayMixin:OnLoad()
 	self.spellCaches = {};

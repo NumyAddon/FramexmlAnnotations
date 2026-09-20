@@ -1,4 +1,4 @@
-ProfessionsQualityDialogMixin = CreateFromMixins(CallbackRegistryMixin);--- @class ProfessionsQualityDialogMixin : CallbackRegistryMixin
+ProfessionsQualityDialogMixin = CreateFromMixins(CallbackRegistryMixin); --- @class ProfessionsQualityDialogMixin : CallbackRegistryMixin
 
 ProfessionsQualityDialogMixin:GenerateCallbackEvents(
 {

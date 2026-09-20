@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedMapDataProviders/StorylineQuestDataProvider.lua#L1)
---- @class StorylineQuestDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class StorylineQuestDataProviderMixin : MapCanvasDataProviderMixin
 StorylineQuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedMapDataProviders/StorylineQuestDataProvider.lua#L36)
---- @class StorylineQuestPinMixin : MapCanvasPinMixin
+ --- @class StorylineQuestPinMixin : MapCanvasPinMixin
 StorylineQuestPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedMapDataProviders/StorylineQuestDataProvider.lua#L3)

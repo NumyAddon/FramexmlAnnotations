@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.lua#L1)
---- @class RaidParentFrameMixin
+ --- @class RaidParentFrameMixin
 RaidParentFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.lua#L2)
---- @class RaidFrameMixin
+ --- @class RaidFrameMixin
 RaidFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.lua#L3)
---- @class RaidInfoFrameMixin
+ --- @class RaidInfoFrameMixin
 RaidInfoFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.lua#L4)
---- @class RaidInstanceFrameMixin
+ --- @class RaidInstanceFrameMixin
 RaidInstanceFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.lua#L6)

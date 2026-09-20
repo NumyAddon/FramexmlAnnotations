@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.lua#L24)
---- @class EclipseBarFrameMixin
+ --- @class EclipseBarFrameMixin
 EclipseBarFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.lua#L26)

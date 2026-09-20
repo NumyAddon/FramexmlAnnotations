@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentArmorSet.lua#L6)
---- @class TalentArmorSetMixin
+ --- @class TalentArmorSetMixin
 TalentArmorSetMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentArmorSet.lua#L8)

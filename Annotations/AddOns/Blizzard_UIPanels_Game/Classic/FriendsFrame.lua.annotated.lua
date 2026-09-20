@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L517)
---- @class FriendsTabHeaderMixin
+ --- @class FriendsTabHeaderMixin
 FriendsTabHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L622)
---- @class FriendsFrameInviteTemplateMixin
+ --- @class FriendsFrameInviteTemplateMixin
 FriendsFrameInviteTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2081)
---- @class FriendsFriendsFrameMixin
+ --- @class FriendsFriendsFrameMixin
 FriendsFriendsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L3375)
---- @class GuildFrameMemberNoteMixin
+ --- @class GuildFrameMemberNoteMixin
 GuildFrameMemberNoteMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L520)

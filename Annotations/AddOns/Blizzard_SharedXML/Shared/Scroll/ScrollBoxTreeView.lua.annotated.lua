@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxTreeView.lua#L2)
---- @class ScrollBoxListTreeListViewMixin : ScrollBoxListLinearViewMixin
+ --- @class ScrollBoxListTreeListViewMixin : ScrollBoxListLinearViewMixin
 ScrollBoxListTreeListViewMixin = CreateFromMixins(ScrollBoxListLinearViewMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxTreeView.lua#L4)

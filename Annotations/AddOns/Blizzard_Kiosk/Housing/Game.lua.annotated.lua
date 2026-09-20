@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Housing/Game.lua#L92)
---- @class GameKioskFrameMixin : KioskFrameMixin
+ --- @class GameKioskFrameMixin : KioskFrameMixin
 GameKioskFrameMixin = CreateFromMixins(KioskFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Housing/Game.lua#L1)
---- @class GameKioskModeSplashMixin
+ --- @class GameKioskModeSplashMixin
 GameKioskModeSplashMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Housing/Game.lua#L55)
---- @class GameKioskSessionStartedDialogMixin
+ --- @class GameKioskSessionStartedDialogMixin
 GameKioskSessionStartedDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Housing/Game.lua#L77)
---- @class GameKioskModeSplashEndMixin
+ --- @class GameKioskModeSplashEndMixin
 GameKioskModeSplashEndMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Kiosk/Housing/Game.lua#L3)

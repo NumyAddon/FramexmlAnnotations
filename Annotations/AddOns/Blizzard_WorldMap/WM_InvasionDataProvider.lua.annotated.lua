@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/WM_InvasionDataProvider.lua#L1)
---- @class WorldMap_InvasionDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class WorldMap_InvasionDataProviderMixin : MapCanvasDataProviderMixin
 WorldMap_InvasionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/WM_InvasionDataProvider.lua#L3)

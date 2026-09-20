@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/SharedTemplates.lua#L21)
---- @class StaticPopupEditBoxMixin : StaticPopupElementMixin
+ --- @class StaticPopupEditBoxMixin : StaticPopupElementMixin
 StaticPopupEditBoxMixin = CreateFromMixins(StaticPopupElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/SharedTemplates.lua#L1)
---- @class StaticPopupElementMixin
+ --- @class StaticPopupElementMixin
 StaticPopupElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_StaticPopup/SharedTemplates.lua#L3)

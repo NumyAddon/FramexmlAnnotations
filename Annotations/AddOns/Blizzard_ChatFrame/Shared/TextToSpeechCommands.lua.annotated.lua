@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechCommands.lua#L9)
---- @class TextToSpeechCommandsMixin
+ --- @class TextToSpeechCommandsMixin
 TextToSpeechCommandsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechCommands.lua#L11)

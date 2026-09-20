@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L2)
---- @class VisibleWhilePlayingAnimGroupMixin
+ --- @class VisibleWhilePlayingAnimGroupMixin
 VisibleWhilePlayingAnimGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L13)
---- @class TargetsVisibleWhilePlayingAnimGroupMixin
+ --- @class TargetsVisibleWhilePlayingAnimGroupMixin
 TargetsVisibleWhilePlayingAnimGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L36)
---- @class SyncedAnimGroupMixin
+ --- @class SyncedAnimGroupMixin
 SyncedAnimGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L71)
---- @class AnimateWhileShownMixin
+ --- @class AnimateWhileShownMixin
 AnimateWhileShownMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L101)
---- @class PointsOffsetAnimationMixin
+ --- @class PointsOffsetAnimationMixin
 PointsOffsetAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L4)

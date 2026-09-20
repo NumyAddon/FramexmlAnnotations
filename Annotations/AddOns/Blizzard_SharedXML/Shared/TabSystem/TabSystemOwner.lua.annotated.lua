@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L2)
---- @class TabSystemTrackerMixin
+ --- @class TabSystemTrackerMixin
 TabSystemTrackerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L72)
---- @class TabSystemOwnerMixin
+ --- @class TabSystemOwnerMixin
 TabSystemOwnerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L4)

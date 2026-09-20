@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L1)
---- @class VignetteDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class VignetteDataProviderMixin : MapCanvasDataProviderMixin
 VignetteDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L124)
---- @class VignettePinMixin : MapCanvasPinMixin
+ --- @class VignettePinMixin : MapCanvasPinMixin
 VignettePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L3)

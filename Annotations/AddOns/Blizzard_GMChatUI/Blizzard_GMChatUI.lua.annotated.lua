@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.lua#L183)
---- @class GMChatStatusMixin
+ --- @class GMChatStatusMixin
 GMChatStatusMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.lua#L185)

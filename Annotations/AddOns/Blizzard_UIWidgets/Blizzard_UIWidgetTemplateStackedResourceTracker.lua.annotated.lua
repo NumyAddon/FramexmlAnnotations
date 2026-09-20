@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateStackedResourceTracker.lua#L10)
---- @class UIWidgetTemplateStackedResourceTrackerMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateStackedResourceTrackerMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateStackedResourceTrackerMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateStackedResourceTracker.lua#L12)

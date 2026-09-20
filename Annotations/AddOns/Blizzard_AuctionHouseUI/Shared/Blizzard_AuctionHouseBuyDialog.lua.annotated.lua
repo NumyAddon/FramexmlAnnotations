@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseBuyDialog.lua#L61)
---- @class AuctionHouseBuyDialogBuyNowButtonMixin : AuctionHouseBuyDialogButtonMixin
+ --- @class AuctionHouseBuyDialogBuyNowButtonMixin : AuctionHouseBuyDialogButtonMixin
 AuctionHouseBuyDialogBuyNowButtonMixin = CreateFromMixins(AuctionHouseBuyDialogButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseBuyDialog.lua#L69)
---- @class AuctionHouseBuyDialogCancelButtonMixin : AuctionHouseBuyDialogButtonMixin
+ --- @class AuctionHouseBuyDialogCancelButtonMixin : AuctionHouseBuyDialogButtonMixin
 AuctionHouseBuyDialogCancelButtonMixin = CreateFromMixins(AuctionHouseBuyDialogButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseBuyDialog.lua#L77)
---- @class AuctionHouseBuyDialogOkayButtonMixin : AuctionHouseBuyDialogButtonMixin
+ --- @class AuctionHouseBuyDialogOkayButtonMixin : AuctionHouseBuyDialogButtonMixin
 AuctionHouseBuyDialogOkayButtonMixin = CreateFromMixins(AuctionHouseBuyDialogButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseBuyDialog.lua#L85)
---- @class AuctionHouseBuyDialogMixin : AuctionHouseSystemMixin
+ --- @class AuctionHouseBuyDialogMixin : AuctionHouseSystemMixin
 AuctionHouseBuyDialogMixin = CreateFromMixins(AuctionHouseSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseBuyDialog.lua#L6)
---- @class AuctionHouseBuyDialogNotificationFrameMixin
+ --- @class AuctionHouseBuyDialogNotificationFrameMixin
 AuctionHouseBuyDialogNotificationFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseBuyDialog.lua#L30)
---- @class AuctionHouseBuyDialogNotificationButtonMixin
+ --- @class AuctionHouseBuyDialogNotificationButtonMixin
 AuctionHouseBuyDialogNotificationButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseBuyDialog.lua#L54)
---- @class AuctionHouseBuyDialogButtonMixin
+ --- @class AuctionHouseBuyDialogButtonMixin
 AuctionHouseBuyDialogButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseBuyDialog.lua#L8)

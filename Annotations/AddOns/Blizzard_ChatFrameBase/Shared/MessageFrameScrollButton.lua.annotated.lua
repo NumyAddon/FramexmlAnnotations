@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrameBase/Shared/MessageFrameScrollButton.lua#L1)
---- @class MessageFrameScrollButtonMixin
+ --- @class MessageFrameScrollButtonMixin
 MessageFrameScrollButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrameBase/Shared/MessageFrameScrollButton.lua#L3)

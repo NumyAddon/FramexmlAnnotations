@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L10)
---- @class UIWidgetTemplateScenarioHeaderDelvesMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateScenarioHeaderDelvesMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateScenarioHeaderDelvesMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L122)
---- @class UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin
+ --- @class UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin
 UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateScenarioHeaderDelves.lua#L20)

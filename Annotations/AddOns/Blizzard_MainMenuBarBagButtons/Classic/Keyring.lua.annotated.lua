@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/Keyring.lua#L2)
---- @class KeyringMixin
+ --- @class KeyringMixin
 KeyringMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/Keyring.lua#L4)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.lua#L320)
---- @class TotemActionBarMixin
+ --- @class TotemActionBarMixin
 TotemActionBarMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.lua#L322)

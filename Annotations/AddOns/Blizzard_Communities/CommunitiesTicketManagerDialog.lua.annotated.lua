@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.lua#L96)
---- @class CommunitiesTicketEntryMixin
+ --- @class CommunitiesTicketEntryMixin
 CommunitiesTicketEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.lua#L185)
---- @class CommunitiesTicketManagerScrollFrameMixin
+ --- @class CommunitiesTicketManagerScrollFrameMixin
 CommunitiesTicketManagerScrollFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.lua#L191)
---- @class CommunitiesTicketManagerDialogMixin
+ --- @class CommunitiesTicketManagerDialogMixin
 CommunitiesTicketManagerDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesTicketManagerDialog.lua#L98)

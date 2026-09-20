@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L4)
---- @class GameMenuFrameMixin
+ --- @class GameMenuFrameMixin
 GameMenuFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L11)

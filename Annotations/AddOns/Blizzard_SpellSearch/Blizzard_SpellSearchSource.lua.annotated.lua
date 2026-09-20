@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchSource.lua#L27)
---- @class TraitSearchSourceMixin : SpellSearchSourceMixin
+ --- @class TraitSearchSourceMixin : SpellSearchSourceMixin
 TraitSearchSourceMixin = CreateFromMixins(SpellSearchSourceMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchSource.lua#L56)
---- @class PvPTalentsSearchSourceMixin : SpellSearchSourceMixin
+ --- @class PvPTalentsSearchSourceMixin : SpellSearchSourceMixin
 PvPTalentsSearchSourceMixin = CreateFromMixins(SpellSearchSourceMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchSource.lua#L73)
---- @class SpellBookItemSearchSourceMixin : SpellSearchSourceMixin
+ --- @class SpellBookItemSearchSourceMixin : SpellSearchSourceMixin
 SpellBookItemSearchSourceMixin = CreateFromMixins(SpellSearchSourceMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchSource.lua#L1)
---- @class SpellSearchSourceMixin
+ --- @class SpellSearchSourceMixin
 SpellSearchSourceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchSource.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/BattlegroundChatFilters.lua#L20)
---- @class BattlegroundChatFiltersMixin
+ --- @class BattlegroundChatFiltersMixin
 BattlegroundChatFiltersMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/BattlegroundChatFilters.lua#L22)

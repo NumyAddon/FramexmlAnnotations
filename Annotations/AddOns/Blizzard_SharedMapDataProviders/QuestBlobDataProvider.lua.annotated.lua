@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestBlobDataProvider.lua#L2)
---- @class QuestBlobDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class QuestBlobDataProviderMixin : MapCanvasDataProviderMixin
 QuestBlobDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestBlobDataProvider.lua#L68)
---- @class QuestBlobPinMixin : MapCanvasPinMixin
+ --- @class QuestBlobPinMixin : MapCanvasPinMixin
 QuestBlobPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestBlobDataProvider.lua#L4)

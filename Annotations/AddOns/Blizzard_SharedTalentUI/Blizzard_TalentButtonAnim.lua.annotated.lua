@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonAnim.lua#L3)
---- @class TalentDisplayAnimationStateControllerMixin
+ --- @class TalentDisplayAnimationStateControllerMixin
 TalentDisplayAnimationStateControllerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonAnim.lua#L140)
---- @class TalentDisplayAnimationMixin
+ --- @class TalentDisplayAnimationMixin
 TalentDisplayAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonAnim.lua#L24)

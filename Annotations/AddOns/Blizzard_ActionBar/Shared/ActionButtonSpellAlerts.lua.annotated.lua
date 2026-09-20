@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonSpellAlerts.lua#L139)
---- @class ActionButtonSpellAlertMixin
+ --- @class ActionButtonSpellAlertMixin
 ActionButtonSpellAlertMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonSpellAlerts.lua#L141)

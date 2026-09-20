@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.lua#L121)
---- @class QuestPOIDisplayLayerMixin
+ --- @class QuestPOIDisplayLayerMixin
 QuestPOIDisplayLayerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.lua#L123)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Shared/ActionBar.lua#L1)
---- @class ActionBarMixin
+ --- @class ActionBarMixin
 ActionBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Shared/ActionBar.lua#L254)
---- @class EditModeActionBarMixin
+ --- @class EditModeActionBarMixin
 EditModeActionBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Shared/ActionBar.lua#L3)

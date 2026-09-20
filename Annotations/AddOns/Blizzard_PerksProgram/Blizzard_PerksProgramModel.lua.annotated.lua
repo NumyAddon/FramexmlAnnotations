@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramModel.lua#L274)
---- @class PerksProgramAlteredFormButtonMixin : SelectableButtonMixin
+ --- @class PerksProgramAlteredFormButtonMixin : SelectableButtonMixin
 PerksProgramAlteredFormButtonMixin = CreateFromMixins(SelectableButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramModel.lua#L305)
---- @class PerksProgramModelSceneContainerFrameMixin
+ --- @class PerksProgramModelSceneContainerFrameMixin
 PerksProgramModelSceneContainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramModel.lua#L275)

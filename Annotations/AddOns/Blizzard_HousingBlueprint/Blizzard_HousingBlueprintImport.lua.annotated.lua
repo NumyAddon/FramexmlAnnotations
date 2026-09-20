@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.lua#L28)
---- @class HousingBlueprintImportFrameMixin
+ --- @class HousingBlueprintImportFrameMixin
 HousingBlueprintImportFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.lua#L153)
---- @class HousingBlueprintImportInputContentMixin
+ --- @class HousingBlueprintImportInputContentMixin
 HousingBlueprintImportInputContentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.lua#L246)
---- @class HousingBlueprintImportValidationContentMixin
+ --- @class HousingBlueprintImportValidationContentMixin
 HousingBlueprintImportValidationContentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.lua#L357)
---- @class HousingBlueprintImportLoadingFrameMixin
+ --- @class HousingBlueprintImportLoadingFrameMixin
 HousingBlueprintImportLoadingFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.lua#L30)

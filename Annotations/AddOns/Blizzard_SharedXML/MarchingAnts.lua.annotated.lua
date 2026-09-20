@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/MarchingAnts.lua#L1)
---- @class MarchingAntsMixin : DirtiableMixin
+ --- @class MarchingAntsMixin : DirtiableMixin
 MarchingAntsMixin = CreateFromMixins(DirtiableMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/MarchingAnts.lua#L3)

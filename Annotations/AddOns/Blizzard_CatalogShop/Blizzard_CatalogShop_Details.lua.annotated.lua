@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Details.lua#L46)
---- @class DetailsProductContainerFrameMixin : ProductContainerFrameMixin
+ --- @class DetailsProductContainerFrameMixin : ProductContainerFrameMixin
 DetailsProductContainerFrameMixin = CreateFromMixins(ProductContainerFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Details.lua#L2)
---- @class CatalogShopProductDetailsContainerFrameMixin
+ --- @class CatalogShopProductDetailsContainerFrameMixin
 CatalogShopProductDetailsContainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Details.lua#L3)

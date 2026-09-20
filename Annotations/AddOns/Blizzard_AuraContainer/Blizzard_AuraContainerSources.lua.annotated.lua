@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSources.lua#L31)
---- @class AuraContainerPublicAuraSourceMixin : AuraContainerAuraSourceMixin
+ --- @class AuraContainerPublicAuraSourceMixin : AuraContainerAuraSourceMixin
 AuraContainerPublicAuraSourceMixin = CreateFromMixins(AuraContainerAuraSourceMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSources.lua#L53)
---- @class AuraContainerPrivateAuraSourceMixin : AuraContainerAuraSourceMixin
+ --- @class AuraContainerPrivateAuraSourceMixin : AuraContainerAuraSourceMixin
 AuraContainerPrivateAuraSourceMixin = CreateFromMixins(AuraContainerAuraSourceMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSources.lua#L79)
---- @class AuraContainerEditModeAuraSourceMixin : AuraContainerAuraSourceMixin
+ --- @class AuraContainerEditModeAuraSourceMixin : AuraContainerAuraSourceMixin
 AuraContainerEditModeAuraSourceMixin = CreateFromMixins(AuraContainerAuraSourceMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSources.lua#L4)
---- @class AuraContainerAuraSourceMixin
+ --- @class AuraContainerAuraSourceMixin
 AuraContainerAuraSourceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSources.lua#L6)

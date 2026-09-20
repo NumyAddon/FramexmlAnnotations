@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.lua#L25)
---- @class MonkLightEnergyMixin
+ --- @class MonkLightEnergyMixin
 MonkLightEnergyMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.lua#L27)

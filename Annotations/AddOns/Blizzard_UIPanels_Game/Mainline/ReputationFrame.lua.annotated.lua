@@ -1,59 +1,59 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L240)
---- @class ReputationEntryMixin : CallbackRegistryMixin
+ --- @class ReputationEntryMixin : CallbackRegistryMixin
 ReputationEntryMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L568)
---- @class ReputationSubHeaderMixin : ReputationEntryMixin
+ --- @class ReputationSubHeaderMixin : ReputationEntryMixin
 ReputationSubHeaderMixin = CreateFromMixins(ReputationEntryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L702)
---- @class ReputationDetailFrameMixin : CallbackRegistryMixin
+ --- @class ReputationDetailFrameMixin : CallbackRegistryMixin
 ReputationDetailFrameMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L25)
---- @class ReputationFrameMixin
+ --- @class ReputationFrameMixin
 ReputationFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L203)
---- @class ReputationHeaderMixin
+ --- @class ReputationHeaderMixin
 ReputationHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L458)
---- @class ReputationEntryAccountWideIconMixin
+ --- @class ReputationEntryAccountWideIconMixin
 ReputationEntryAccountWideIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L596)
---- @class ReputationSubHeaderToggleCollapseButtonMixin
+ --- @class ReputationSubHeaderToggleCollapseButtonMixin
 ReputationSubHeaderToggleCollapseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L612)
---- @class ReputationBarMixin
+ --- @class ReputationBarMixin
 ReputationBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L647)
---- @class ReputationBarBonusIconMixin
+ --- @class ReputationBarBonusIconMixin
 ReputationBarBonusIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L661)
---- @class ReputationBarParagonIconMixin
+ --- @class ReputationBarParagonIconMixin
 ReputationBarParagonIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L755)
---- @class ReputationDetailViewRenownButtonMixin
+ --- @class ReputationDetailViewRenownButtonMixin
 ReputationDetailViewRenownButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L786)
---- @class ReputationDetailAtWarCheckboxMixin
+ --- @class ReputationDetailAtWarCheckboxMixin
 ReputationDetailAtWarCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L808)
---- @class ReputationDetailInactiveCheckboxMixin
+ --- @class ReputationDetailInactiveCheckboxMixin
 ReputationDetailInactiveCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L829)
---- @class ReputationDetailWatchFactionCheckboxMixin
+ --- @class ReputationDetailWatchFactionCheckboxMixin
 ReputationDetailWatchFactionCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.lua#L27)

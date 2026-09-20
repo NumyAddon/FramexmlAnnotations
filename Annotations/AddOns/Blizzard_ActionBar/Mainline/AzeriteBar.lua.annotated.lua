@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/AzeriteBar.lua#L12)
---- @class AzeriteBarMixin
+ --- @class AzeriteBarMixin
 AzeriteBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/AzeriteBar.lua#L14)

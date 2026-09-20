@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitPopupShared/Mainline/UnitPopupSharedButtonMixins.lua#L1)
---- @class UnitPopupGlueInviteButtonMixin : UnitPopupButtonBaseMixin
+ --- @class UnitPopupGlueInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGlueInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitPopupShared/Mainline/UnitPopupSharedButtonMixins.lua#L2)

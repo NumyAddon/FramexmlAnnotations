@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L65)
---- @class CharacterFrameMixin
+ --- @class CharacterFrameMixin
 CharacterFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L392)
---- @class CharacterFrameTabButtonMixin
+ --- @class CharacterFrameTabButtonMixin
 CharacterFrameTabButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L408)
---- @class GearEnchantAnimationMixin
+ --- @class GearEnchantAnimationMixin
 GearEnchantAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.lua#L67)

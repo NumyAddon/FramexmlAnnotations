@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.lua#L93)
---- @class HouseEditorCustomizeModeMixin : BaseHouseEditorModeMixin
+ --- @class HouseEditorCustomizeModeMixin : BaseHouseEditorModeMixin
 HouseEditorCustomizeModeMixin = CreateFromMixins(BaseHouseEditorModeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.lua#L1)
---- @class DecorCustomizationsPaneMixin
+ --- @class DecorCustomizationsPaneMixin
 DecorCustomizationsPaneMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.lua#L334)
---- @class PetCustomizationsPaneExpandButtonMixin
+ --- @class PetCustomizationsPaneExpandButtonMixin
 PetCustomizationsPaneExpandButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.lua#L3)

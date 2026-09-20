@@ -1,47 +1,47 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L357)
---- @class JourneyCardButtonMixin : RenownCardButtonMixin
+ --- @class JourneyCardButtonMixin : RenownCardButtonMixin
 JourneyCardButtonMixin = CreateFromMixins(RenownCardButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L47)
---- @class JourneysFrameMixin
+ --- @class JourneysFrameMixin
 JourneysFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L318)
---- @class RenownCardButtonMixin
+ --- @class RenownCardButtonMixin
 RenownCardButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L360)
---- @class JourneyProgressFrameMixin
+ --- @class JourneyProgressFrameMixin
 JourneyProgressFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L712)
---- @class JourneysLockedStateMixin
+ --- @class JourneysLockedStateMixin
 JourneysLockedStateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L757)
---- @class JourneyOverviewBtnMixin
+ --- @class JourneyOverviewBtnMixin
 JourneyOverviewBtnMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L775)
---- @class JourneyOverviewFrameMixin
+ --- @class JourneyOverviewFrameMixin
 JourneyOverviewFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L820)
---- @class JourneyOverviewHighlightsFrameMixin
+ --- @class JourneyOverviewHighlightsFrameMixin
 JourneyOverviewHighlightsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L866)
---- @class JourneyCompanionConfigBtnMixin
+ --- @class JourneyCompanionConfigBtnMixin
 JourneyCompanionConfigBtnMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L919)
---- @class WatchedFactionToggleFrameMixin
+ --- @class WatchedFactionToggleFrameMixin
 WatchedFactionToggleFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L950)
---- @class JourneysProgressBarMixin
+ --- @class JourneysProgressBarMixin
 JourneysProgressBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.lua#L49)

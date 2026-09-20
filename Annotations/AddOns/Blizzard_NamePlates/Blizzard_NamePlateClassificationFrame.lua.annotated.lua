@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L17)
---- @class NamePlateClassificationFrameMixin : NamePlateComponentMixin
+ --- @class NamePlateClassificationFrameMixin : NamePlateComponentMixin
 NamePlateClassificationFrameMixin = CreateFromMixins(NamePlateComponentMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L19)

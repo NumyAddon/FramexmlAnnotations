@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.lua#L1)
---- @class DruidComboPointBarMixin
+ --- @class DruidComboPointBarMixin
 DruidComboPointBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.lua#L22)
---- @class DruidComboPointMixin
+ --- @class DruidComboPointMixin
 DruidComboPointMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.lua#L3)

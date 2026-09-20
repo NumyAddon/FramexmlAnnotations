@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L251)
---- @class ProfessionsCraftingOutputLogMixin : CallbackRegistryMixin
+ --- @class ProfessionsCraftingOutputLogMixin : CallbackRegistryMixin
 ProfessionsCraftingOutputLogMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L10)
---- @class ProfessionsCraftingOutputLogElementMixin
+ --- @class ProfessionsCraftingOutputLogElementMixin
 ProfessionsCraftingOutputLogElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L12)

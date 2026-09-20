@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L1)
---- @class DefaultAnimOutMixin
+ --- @class DefaultAnimOutMixin
 DefaultAnimOutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L7)
---- @class SocialToastCloseButtonMixin
+ --- @class SocialToastCloseButtonMixin
 SocialToastCloseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L22)
---- @class SocialToastMixin
+ --- @class SocialToastMixin
 SocialToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L3)

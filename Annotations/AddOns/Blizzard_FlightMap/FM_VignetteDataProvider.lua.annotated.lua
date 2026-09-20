@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/FM_VignetteDataProvider.lua#L2)
---- @class FlightMap_VignetteDataProviderMixin : VignetteDataProviderMixin
+ --- @class FlightMap_VignetteDataProviderMixin : VignetteDataProviderMixin
 FlightMap_VignetteDataProviderMixin = CreateFromMixins(VignetteDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/FM_VignetteDataProvider.lua#L13)
---- @class FlightMap_VignettePinMixin : VignettePinMixin
+ --- @class FlightMap_VignettePinMixin : VignettePinMixin
 FlightMap_VignettePinMixin = CreateFromMixins(VignettePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/FM_VignetteDataProvider.lua#L4)

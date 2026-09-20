@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFriendsFrame.lua#L46)
---- @class FriendsFriendsFrameMixin : SocialUIScrollableElementExtentPreviewerMixin
+ --- @class FriendsFriendsFrameMixin : SocialUIScrollableElementExtentPreviewerMixin
 FriendsFriendsFrameMixin = CreateFromMixins(SocialUIScrollableElementExtentPreviewerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFriendsFrame.lua#L7)
---- @class FriendsFriendsButtonMixin
+ --- @class FriendsFriendsButtonMixin
 FriendsFriendsButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFriendsFrame.lua#L278)
---- @class FriendsFriendsWaitFrameMixin
+ --- @class FriendsFriendsWaitFrameMixin
 FriendsFriendsWaitFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFriendsFrame.lua#L9)

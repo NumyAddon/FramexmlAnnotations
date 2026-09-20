@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.lua#L3)
---- @class AchievementDisplayMixin
+ --- @class AchievementDisplayMixin
 AchievementDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.lua#L55)
---- @class AchievementDisplayOverviewBulletMixin
+ --- @class AchievementDisplayOverviewBulletMixin
 AchievementDisplayOverviewBulletMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.lua#L5)

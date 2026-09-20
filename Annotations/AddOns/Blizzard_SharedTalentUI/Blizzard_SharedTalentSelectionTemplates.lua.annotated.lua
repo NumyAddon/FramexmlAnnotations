@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentSelectionTemplates.lua#L585)
---- @class TalentSelectionChoiceArtMixin : TalentSelectionChoiceMixin
+ --- @class TalentSelectionChoiceArtMixin : TalentSelectionChoiceMixin
 TalentSelectionChoiceArtMixin = CreateFromMixins(TalentSelectionChoiceMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentSelectionTemplates.lua#L2)
---- @class TalentSelectionChoiceFrameMixin
+ --- @class TalentSelectionChoiceFrameMixin
 TalentSelectionChoiceFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentSelectionTemplates.lua#L168)
---- @class TalentSelectionChoiceMixin
+ --- @class TalentSelectionChoiceMixin
 TalentSelectionChoiceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentSelectionTemplates.lua#L15)

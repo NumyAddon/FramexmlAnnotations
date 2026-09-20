@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.lua#L32)
---- @class RuneforgeFrameMixin : CallbackRegistryMixin
+ --- @class RuneforgeFrameMixin : CallbackRegistryMixin
 RuneforgeFrameMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeFrame.lua#L58)

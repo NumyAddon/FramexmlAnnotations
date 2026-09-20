@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemSellFrame.lua#L41)
---- @class AuctionHouseItemSellFrameMixin : AuctionHouseSellFrameMixin
+ --- @class AuctionHouseItemSellFrameMixin : AuctionHouseSellFrameMixin
 AuctionHouseItemSellFrameMixin = CreateFromMixins(AuctionHouseSellFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemSellFrame.lua#L5)
---- @class AuctionHouseBuyoutModeCheckButtonMixin
+ --- @class AuctionHouseBuyoutModeCheckButtonMixin
 AuctionHouseBuyoutModeCheckButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemSellFrame.lua#L7)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L20)
---- @class PVPMatchResultsCurrencyRewardMixin
+ --- @class PVPMatchResultsCurrencyRewardMixin
 PVPMatchResultsCurrencyRewardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L39)
---- @class PVPMatchResultsMixin
+ --- @class PVPMatchResultsMixin
 PVPMatchResultsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L507)
---- @class PVPMatchResultsRatingMixin
+ --- @class PVPMatchResultsRatingMixin
 PVPMatchResultsRatingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L21)

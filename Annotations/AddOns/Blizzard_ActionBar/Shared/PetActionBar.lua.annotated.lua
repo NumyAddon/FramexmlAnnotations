@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L16)
---- @class PetActionBarMixin
+ --- @class PetActionBarMixin
 PetActionBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L236)
---- @class PetActionButtonMixin
+ --- @class PetActionButtonMixin
 PetActionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L29)

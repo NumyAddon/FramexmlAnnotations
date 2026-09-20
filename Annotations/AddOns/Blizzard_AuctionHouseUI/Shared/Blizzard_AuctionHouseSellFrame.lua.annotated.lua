@@ -1,51 +1,51 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L257)
---- @class AuctionHouseSellFrameMixin : AuctionHouseSortOrderSystemMixin
+ --- @class AuctionHouseSellFrameMixin : AuctionHouseSortOrderSystemMixin
 AuctionHouseSellFrameMixin = CreateFromMixins(AuctionHouseSortOrderSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L2)
---- @class AuctionHouseSellFrameAlignedControlMixin
+ --- @class AuctionHouseSellFrameAlignedControlMixin
 AuctionHouseSellFrameAlignedControlMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L28)
---- @class AuctionHouseAlignedQuantityInputBoxMixin
+ --- @class AuctionHouseAlignedQuantityInputBoxMixin
 AuctionHouseAlignedQuantityInputBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L52)
---- @class AuctionHouseQuantityInputMaxButtonMixin
+ --- @class AuctionHouseQuantityInputMaxButtonMixin
 AuctionHouseQuantityInputMaxButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L60)
---- @class AuctionHouseAlignedQuantityInputFrameMixin
+ --- @class AuctionHouseAlignedQuantityInputFrameMixin
 AuctionHouseAlignedQuantityInputFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L83)
---- @class AuctionHouseAlignedPriceInputFrameMixin
+ --- @class AuctionHouseAlignedPriceInputFrameMixin
 AuctionHouseAlignedPriceInputFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L127)
---- @class AuctionHousePriceErrorFrameMixin
+ --- @class AuctionHousePriceErrorFrameMixin
 AuctionHousePriceErrorFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L147)
---- @class AuctionHouseAlignedDurationMixin
+ --- @class AuctionHouseAlignedDurationMixin
 AuctionHouseAlignedDurationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L193)
---- @class AuctionHouseAlignedPriceDisplayMixin
+ --- @class AuctionHouseAlignedPriceDisplayMixin
 AuctionHouseAlignedPriceDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L204)
---- @class AuctionHouseSellFramePostButtonMixin
+ --- @class AuctionHouseSellFramePostButtonMixin
 AuctionHouseSellFramePostButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L229)
---- @class AuctionHouseSellFrameOverlayMixin
+ --- @class AuctionHouseSellFrameOverlayMixin
 AuctionHouseSellFrameOverlayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L248)
---- @class AuctionHouseSellFrameItemDisplayMixin
+ --- @class AuctionHouseSellFrameItemDisplayMixin
 AuctionHouseSellFrameItemDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.lua#L4)

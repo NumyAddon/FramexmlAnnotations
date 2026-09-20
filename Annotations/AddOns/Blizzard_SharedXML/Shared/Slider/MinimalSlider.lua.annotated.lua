@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L33)
---- @class MinimalSliderWithSteppersMixin : CallbackRegistryMixin
+ --- @class MinimalSliderWithSteppersMixin : CallbackRegistryMixin
 MinimalSliderWithSteppersMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L4)
---- @class MinimalSliderMixin
+ --- @class MinimalSliderMixin
 MinimalSliderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L6)

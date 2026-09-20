@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L206)
---- @class LayoutMixin : BaseLayoutMixin
+ --- @class LayoutMixin : BaseLayoutMixin
 LayoutMixin = CreateFromMixins(BaseLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L453)
---- @class ResizeLayoutMixin : BaseLayoutMixin
+ --- @class ResizeLayoutMixin : BaseLayoutMixin
 ResizeLayoutMixin = CreateFromMixins(BaseLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L634)
---- @class StaticGridLayoutFrameMixin : BaseLayoutMixin
+ --- @class StaticGridLayoutFrameMixin : BaseLayoutMixin
 StaticGridLayoutFrameMixin = CreateFromMixins(BaseLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L10)
---- @class BaseLayoutMixin
+ --- @class BaseLayoutMixin
 BaseLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L275)
---- @class VerticalLayoutMixin
+ --- @class VerticalLayoutMixin
 VerticalLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L372)
---- @class HorizontalLayoutMixin
+ --- @class HorizontalLayoutMixin
 HorizontalLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L539)
---- @class GridLayoutFrameMixin
+ --- @class GridLayoutFrameMixin
 GridLayoutFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L737)
---- @class OverrideLayoutFrameOnUpdateMixin
+ --- @class OverrideLayoutFrameOnUpdateMixin
 OverrideLayoutFrameOnUpdateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L12)

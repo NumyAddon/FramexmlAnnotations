@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSlotBase.lua#L1)
---- @class ProfessionsRecipeSlotBaseMixin
+ --- @class ProfessionsRecipeSlotBaseMixin
 ProfessionsRecipeSlotBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSlotBase.lua#L3)

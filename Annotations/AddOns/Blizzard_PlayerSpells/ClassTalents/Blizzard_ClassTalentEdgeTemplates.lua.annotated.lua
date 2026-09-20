@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentEdgeTemplates.lua#L1)
---- @class ClassTalentEdgeArrowMixin
+ --- @class ClassTalentEdgeArrowMixin
 ClassTalentEdgeArrowMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentEdgeTemplates.lua#L3)

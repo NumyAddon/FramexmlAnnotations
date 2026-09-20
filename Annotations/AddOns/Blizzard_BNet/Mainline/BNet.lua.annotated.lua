@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BNet/Mainline/BNet.lua#L14)
---- @class BNToastMixin
+ --- @class BNToastMixin
 BNToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BNet/Mainline/BNet.lua#L328)
---- @class BNetTimeAlertMixin
+ --- @class BNetTimeAlertMixin
 BNetTimeAlertMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BNet/Mainline/BNet.lua#L16)

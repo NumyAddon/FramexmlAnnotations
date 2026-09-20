@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/SmoothStatusBar.lua#L29)
---- @class SmoothStatusBarMixin
+ --- @class SmoothStatusBarMixin
 SmoothStatusBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/SmoothStatusBar.lua#L31)

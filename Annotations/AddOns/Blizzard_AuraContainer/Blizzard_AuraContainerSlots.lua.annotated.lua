@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua#L13)
---- @class AuraContainerAuraSlotManagerMixin
+ --- @class AuraContainerAuraSlotManagerMixin
 AuraContainerAuraSlotManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua#L230)
---- @class AuraContainerAuraSlotMixin
+ --- @class AuraContainerAuraSlotMixin
 AuraContainerAuraSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua#L405)
---- @class AuraContainerAuraSlotOwnerMixin
+ --- @class AuraContainerAuraSlotOwnerMixin
 AuraContainerAuraSlotOwnerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua#L15)

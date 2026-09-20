@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/MotionSickness.lua#L1)
---- @class MotionSicknessMixin
+ --- @class MotionSicknessMixin
 MotionSicknessMixin = {
 	landscapeDarkeningMinSpeed = 14,			-- speed at which to start min alpha from 0
 	landscapeDarkeningMinAlpha = 0,				-- alpha at min speed

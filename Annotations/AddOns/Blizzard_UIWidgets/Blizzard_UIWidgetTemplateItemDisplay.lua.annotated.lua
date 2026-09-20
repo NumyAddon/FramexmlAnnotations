@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateItemDisplay.lua#L10)
---- @class UIWidgetTemplateItemDisplayMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateItemDisplayMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateItemDisplayMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateItemDisplay.lua#L12)

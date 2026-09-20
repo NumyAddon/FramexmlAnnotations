@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.lua#L1)
---- @class ProfessionsRecraftSlotMixin
+ --- @class ProfessionsRecraftSlotMixin
 ProfessionsRecraftSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.lua#L72)
---- @class ProfessionsRecraftOutputSlotMixin
+ --- @class ProfessionsRecraftOutputSlotMixin
 ProfessionsRecraftOutputSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.lua#L88)
---- @class ProfessionsRecraftInputSlotMixin
+ --- @class ProfessionsRecraftInputSlotMixin
 ProfessionsRecraftInputSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.lua#L3)

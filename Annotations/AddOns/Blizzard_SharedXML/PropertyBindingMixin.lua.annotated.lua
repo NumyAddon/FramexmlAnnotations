@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/PropertyBindingMixin.lua#L1)
---- @class PropertyBindingMixin
+ --- @class PropertyBindingMixin
 PropertyBindingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/PropertyBindingMixin.lua#L3)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactAppearances.lua#L1)
---- @class ArtifactAppearancesMixin
+ --- @class ArtifactAppearancesMixin
 ArtifactAppearancesMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactAppearances.lua#L148)
---- @class ArtifactAppearanceSlotMixin
+ --- @class ArtifactAppearanceSlotMixin
 ArtifactAppearanceSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactAppearances.lua#L3)

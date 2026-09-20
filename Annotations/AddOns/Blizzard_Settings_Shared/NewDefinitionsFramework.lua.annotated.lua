@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/NewDefinitionsFramework.lua#L152)
---- @class NewDefinitionsCheckerButtonMixin : NewDefinitionsCheckerMixin
+ --- @class NewDefinitionsCheckerButtonMixin : NewDefinitionsCheckerMixin
 NewDefinitionsCheckerButtonMixin = CreateFromMixins(NewDefinitionsCheckerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/NewDefinitionsFramework.lua#L86)
---- @class NewDefinitionsCheckerMixin
+ --- @class NewDefinitionsCheckerMixin
 NewDefinitionsCheckerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/NewDefinitionsFramework.lua#L88)

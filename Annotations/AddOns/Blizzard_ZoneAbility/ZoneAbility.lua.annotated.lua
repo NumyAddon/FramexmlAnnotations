@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L230)
---- @class ZoneAbilityFrameSpellButtonMixin : ContentFrameMixin, BaseActionButtonInfoMixin
+ --- @class ZoneAbilityFrameSpellButtonMixin : ContentFrameMixin, BaseActionButtonInfoMixin
 ZoneAbilityFrameSpellButtonMixin = CreateFromMixins(ContentFrameMixin, BaseActionButtonInfoMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L63)
---- @class ZoneAbilityFrameMixin
+ --- @class ZoneAbilityFrameMixin
 ZoneAbilityFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L65)

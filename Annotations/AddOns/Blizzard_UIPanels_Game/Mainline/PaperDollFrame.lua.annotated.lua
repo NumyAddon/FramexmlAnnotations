@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2758)
---- @class PaperDollItemSlotButtonMixin : PaperDollItemSlotButtonBaseMixin
+ --- @class PaperDollItemSlotButtonMixin : PaperDollItemSlotButtonBaseMixin
 PaperDollItemSlotButtonMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2764)
---- @class PaperDollItemSocketDisplayMixin : PaperDollItemSlotButtonBaseMixin
+ --- @class PaperDollItemSocketDisplayMixin : PaperDollItemSlotButtonBaseMixin
 PaperDollItemSocketDisplayMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2184)
---- @class GearManagerPopupFrameMixin
+ --- @class GearManagerPopupFrameMixin
 GearManagerPopupFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2752)
---- @class PaperDollItemSlotButtonBaseMixin
+ --- @class PaperDollItemSlotButtonBaseMixin
 PaperDollItemSlotButtonBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2186)

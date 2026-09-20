@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateScenarioHeaderCurrenciesAndBackground.lua#L10)
---- @class UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateScenarioHeaderCurrenciesAndBackground.lua#L24)

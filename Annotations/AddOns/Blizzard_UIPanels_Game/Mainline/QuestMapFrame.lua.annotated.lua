@@ -1,47 +1,47 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L198)
---- @class QuestLogMixin
+ --- @class QuestLogMixin
 QuestLogMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L378)
---- @class QuestLogHeaderCodeMixin
+ --- @class QuestLogHeaderCodeMixin
 QuestLogHeaderCodeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L632)
---- @class QuestSessionManagementMixin
+ --- @class QuestSessionManagementMixin
 QuestSessionManagementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L912)
---- @class QuestLogQuestDetailsMixin
+ --- @class QuestLogQuestDetailsMixin
 QuestLogQuestDetailsMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L1154)
---- @class QuestLogScrollFrameMixin
+ --- @class QuestLogScrollFrameMixin
 QuestLogScrollFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L1902)
---- @class CovenantCallingsHeaderMixin
+ --- @class CovenantCallingsHeaderMixin
 CovenantCallingsHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L2229)
---- @class QuestLogTitleMixin
+ --- @class QuestLogTitleMixin
 QuestLogTitleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L2258)
---- @class QuestLogObjectiveMixin
+ --- @class QuestLogObjectiveMixin
 QuestLogObjectiveMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L2394)
---- @class StoryHeaderMixin
+ --- @class StoryHeaderMixin
 StoryHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L2480)
---- @class QuestLogSearchBoxMixin
+ --- @class QuestLogSearchBoxMixin
 QuestLogSearchBoxMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L2503)
---- @class QuestLogSettingsButtonMixin
+ --- @class QuestLogSettingsButtonMixin
 QuestLogSettingsButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L200)

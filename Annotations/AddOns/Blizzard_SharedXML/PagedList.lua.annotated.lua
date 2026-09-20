@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/PagedList.lua#L2)
---- @class PagedListMixin : CallbackRegistryMixin
+ --- @class PagedListMixin : CallbackRegistryMixin
 PagedListMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/PagedList.lua#L105)
---- @class PagedListControlButtonMixin
+ --- @class PagedListControlButtonMixin
 PagedListControlButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/PagedList.lua#L116)
---- @class PagedListControlMixin
+ --- @class PagedListControlMixin
 PagedListControlMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/PagedList.lua#L9)

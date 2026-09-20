@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorSpell.lua#L33)
---- @class CommentatorSpellMixin : CommentatorSpellBaseMixin
+ --- @class CommentatorSpellMixin : CommentatorSpellBaseMixin
 CommentatorSpellMixin = CreateFromMixins(CommentatorSpellBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorSpell.lua#L102)
---- @class CommentatorDebuffMixin : CommentatorSpellBaseMixin
+ --- @class CommentatorDebuffMixin : CommentatorSpellBaseMixin
 CommentatorDebuffMixin = CreateFromMixins(CommentatorSpellBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorSpell.lua#L1)
---- @class CommentatorSpellBaseMixin
+ --- @class CommentatorSpellBaseMixin
 CommentatorSpellBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorSpell.lua#L119)
---- @class CommentatorCooldownMixin
+ --- @class CommentatorCooldownMixin
 CommentatorCooldownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorSpell.lua#L3)

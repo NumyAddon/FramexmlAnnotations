@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L7)
---- @class PVPMatchScoreboardMixin
+ --- @class PVPMatchScoreboardMixin
 PVPMatchScoreboardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L9)

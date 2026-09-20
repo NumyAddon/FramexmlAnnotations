@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L951)
---- @class ProfessionsDetailedSpecPathMixin : ProfessionsSpecPathMixin
+ --- @class ProfessionsDetailedSpecPathMixin : ProfessionsSpecPathMixin
 ProfessionsDetailedSpecPathMixin = CreateFromMixins(ProfessionsSpecPathMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L30)
---- @class ProfessionsSpecFrameMixin
+ --- @class ProfessionsSpecFrameMixin
 ProfessionsSpecFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L32)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/ReputationBar.lua#L40)
---- @class ReputationStatusBarMixin
+ --- @class ReputationStatusBarMixin
 ReputationStatusBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/ReputationBar.lua#L42)

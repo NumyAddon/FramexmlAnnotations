@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarnings.lua#L5)
---- @class EncounterWarningsSystemFrameMixin : EditModeEncounterEventsSystemMixin
+ --- @class EncounterWarningsSystemFrameMixin : EditModeEncounterEventsSystemMixin
 EncounterWarningsSystemFrameMixin = CreateFromMixins(EditModeEncounterEventsSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarnings.lua#L7)

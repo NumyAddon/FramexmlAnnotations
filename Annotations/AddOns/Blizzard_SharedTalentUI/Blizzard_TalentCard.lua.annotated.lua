@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentCard.lua#L5)
---- @class TalentCardMixin
+ --- @class TalentCardMixin
 TalentCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentCard.lua#L25)
---- @class TalentDescriptionCardMixin
+ --- @class TalentDescriptionCardMixin
 TalentDescriptionCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentCard.lua#L34)
---- @class TalentNameCardMixin
+ --- @class TalentNameCardMixin
 TalentNameCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentCard.lua#L7)

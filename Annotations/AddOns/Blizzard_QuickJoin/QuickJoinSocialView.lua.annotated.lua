@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoinSocialView.lua#L1)
---- @class QuickJoinSocialViewJoinButtonMixin : SocialUIActionButtonMixin
+ --- @class QuickJoinSocialViewJoinButtonMixin : SocialUIActionButtonMixin
 QuickJoinSocialViewJoinButtonMixin = CreateFromMixins(SocialUIActionButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoinSocialView.lua#L15)
---- @class QuickJoinSocialViewMixin : QuickJoinMixin, SocialUISystemMixin
+ --- @class QuickJoinSocialViewMixin : QuickJoinMixin, SocialUISystemMixin
 QuickJoinSocialViewMixin = CreateFromMixins(QuickJoinMixin, SocialUISystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoinSocialView.lua#L3)

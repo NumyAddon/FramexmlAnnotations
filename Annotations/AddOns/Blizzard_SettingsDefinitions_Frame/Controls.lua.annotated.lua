@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Controls.lua#L1)
---- @class AutoLootDropdownControlMixin : SettingsDropdownControlMixin
+ --- @class AutoLootDropdownControlMixin : SettingsDropdownControlMixin
 AutoLootDropdownControlMixin = CreateFromMixins(SettingsDropdownControlMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Controls.lua#L3)

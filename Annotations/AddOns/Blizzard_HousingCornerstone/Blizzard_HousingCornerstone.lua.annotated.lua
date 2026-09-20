@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L308)
---- @class HousingCornerstoneVisitorFrameMixin : HousingCornerstoneVisitorFrameSharedMixin
+ --- @class HousingCornerstoneVisitorFrameMixin : HousingCornerstoneVisitorFrameSharedMixin
 HousingCornerstoneVisitorFrameMixin = CreateFromMixins(HousingCornerstoneVisitorFrameSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L341)
---- @class HousingCornerstoneHouseInfoFrameMixin : HousingCornerstoneVisitorFrameSharedMixin
+ --- @class HousingCornerstoneHouseInfoFrameMixin : HousingCornerstoneVisitorFrameSharedMixin
 HousingCornerstoneHouseInfoFrameMixin = CreateFromMixins(HousingCornerstoneVisitorFrameSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L1)
---- @class HousingCornerstoneFrameMixin
+ --- @class HousingCornerstoneFrameMixin
 HousingCornerstoneFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L52)
---- @class HousingCornerstonePurchaseFrameMixin
+ --- @class HousingCornerstonePurchaseFrameMixin
 HousingCornerstonePurchaseFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L291)
---- @class HousingCornerstoneVisitorFrameSharedMixin
+ --- @class HousingCornerstoneVisitorFrameSharedMixin
 HousingCornerstoneVisitorFrameSharedMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L432)
---- @class BuyHouseConfirmationDialogMixin
+ --- @class BuyHouseConfirmationDialogMixin
 BuyHouseConfirmationDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L458)
---- @class MoveHouseConfirmationDialogMixin
+ --- @class MoveHouseConfirmationDialogMixin
 MoveHouseConfirmationDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L514)
---- @class ImportHouseConfirmationDialogMixin
+ --- @class ImportHouseConfirmationDialogMixin
 ImportHouseConfirmationDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L8)

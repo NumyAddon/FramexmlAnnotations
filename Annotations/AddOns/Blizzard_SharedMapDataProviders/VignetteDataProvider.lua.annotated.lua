@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L1)
---- @class VignetteDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class VignetteDataProviderMixin : MapCanvasDataProviderMixin
 VignetteDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L221)
---- @class SuperTrackableVignettePinMixin : SuperTrackablePinMixin
+ --- @class SuperTrackableVignettePinMixin : SuperTrackablePinMixin
 SuperTrackableVignettePinMixin = CreateFromMixins(SuperTrackablePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L246)
---- @class VignettePinBaseMixin : MapCanvasPinMixin
+ --- @class VignettePinBaseMixin : MapCanvasPinMixin
 VignettePinBaseMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L549)
---- @class VignettePinMixin : SuperTrackableVignettePinMixin, VignettePinBaseMixin
+ --- @class VignettePinMixin : SuperTrackableVignettePinMixin, VignettePinBaseMixin
 VignettePinMixin = CreateFromMixins(SuperTrackableVignettePinMixin, VignettePinBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L550)
---- @class VignettePinPOIButtonMixin : VignettePinBaseMixin, POIButtonMixin
+ --- @class VignettePinPOIButtonMixin : VignettePinBaseMixin, POIButtonMixin
 VignettePinPOIButtonMixin = CreateFromMixins(VignettePinBaseMixin, POIButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L580)
---- @class FyrakkFlightVignettePinMixin : VignettePinMixin
+ --- @class FyrakkFlightVignettePinMixin : VignettePinMixin
 FyrakkFlightVignettePinMixin = CreateFromMixins(VignettePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/VignetteDataProvider.lua#L3)

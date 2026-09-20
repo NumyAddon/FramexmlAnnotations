@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCommoditiesBuyFrame.lua#L149)
---- @class AuctionHouseCommoditiesBuyFrameMixin : AuctionHouseSortOrderSystemMixin
+ --- @class AuctionHouseCommoditiesBuyFrameMixin : AuctionHouseSortOrderSystemMixin
 AuctionHouseCommoditiesBuyFrameMixin = CreateFromMixins(AuctionHouseSortOrderSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCommoditiesBuyFrame.lua#L2)
---- @class AuctionHouseCommoditiesBackButtonMixin
+ --- @class AuctionHouseCommoditiesBackButtonMixin
 AuctionHouseCommoditiesBackButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCommoditiesBuyFrame.lua#L10)
---- @class AuctionHouseCommoditiesBuyButtonMixin
+ --- @class AuctionHouseCommoditiesBuyButtonMixin
 AuctionHouseCommoditiesBuyButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCommoditiesBuyFrame.lua#L18)
---- @class AuctionHouseCommoditiesBuyDisplayMixin
+ --- @class AuctionHouseCommoditiesBuyDisplayMixin
 AuctionHouseCommoditiesBuyDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCommoditiesBuyFrame.lua#L4)

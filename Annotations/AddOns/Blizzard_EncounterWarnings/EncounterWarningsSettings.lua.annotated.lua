@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsSettings.lua#L1)
---- @class EncounterWarningsSettingsMixin
+ --- @class EncounterWarningsSettingsMixin
 EncounterWarningsSettingsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsSettings.lua#L3)

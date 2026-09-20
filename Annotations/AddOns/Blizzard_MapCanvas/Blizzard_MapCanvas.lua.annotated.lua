@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1)
---- @class MapCanvasMixin : CallbackRegistryMixin
+ --- @class MapCanvasMixin : CallbackRegistryMixin
 MapCanvasMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L5)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerFrameProviders.lua#L4)
---- @class AuraContainerFramePoolProviderMixin
+ --- @class AuraContainerFramePoolProviderMixin
 AuraContainerFramePoolProviderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerFrameProviders.lua#L24)
---- @class AuraContainerCustomFrameProviderMixin
+ --- @class AuraContainerCustomFrameProviderMixin
 AuraContainerCustomFrameProviderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerFrameProviders.lua#L145)
---- @class AuraContainerSingleFrameProviderMixin
+ --- @class AuraContainerSingleFrameProviderMixin
 AuraContainerSingleFrameProviderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerFrameProviders.lua#L6)

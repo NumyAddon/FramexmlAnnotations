@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTrackEvent.lua#L9)
---- @class EncounterTimelineTrackFrameMixin : EncounterTimelineEventFrameMixin, EncounterTimelineScriptedAnimatableMixin, EncounterTimelineTrackSettingsMixin
+ --- @class EncounterTimelineTrackFrameMixin : EncounterTimelineEventFrameMixin, EncounterTimelineScriptedAnimatableMixin, EncounterTimelineTrackSettingsMixin
 EncounterTimelineTrackFrameMixin = CreateFromMixins(EncounterTimelineEventFrameMixin, EncounterTimelineScriptedAnimatableMixin, EncounterTimelineTrackSettingsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTrackEvent.lua#L167)
---- @class EncounterTimelineTrackEventMixin : EncounterTimelineTrackFrameMixin
+ --- @class EncounterTimelineTrackEventMixin : EncounterTimelineTrackFrameMixin
 EncounterTimelineTrackEventMixin = CreateFromMixins(EncounterTimelineTrackFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineTrackEvent.lua#L11)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Tutorials/BagTutorialUtil.lua#L31)
---- @class BagTutorialBaseMixin : StateMachineBasedTutorialMixin
+ --- @class BagTutorialBaseMixin : StateMachineBasedTutorialMixin
 BagTutorialBaseMixin = CreateFromMixins(StateMachineBasedTutorialMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Tutorials/BagTutorialUtil.lua#L33)

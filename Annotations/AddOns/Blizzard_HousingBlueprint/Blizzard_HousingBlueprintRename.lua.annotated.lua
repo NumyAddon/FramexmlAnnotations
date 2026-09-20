@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintRename.lua#L6)
---- @class HousingBlueprintRenameFrameMixin
+ --- @class HousingBlueprintRenameFrameMixin
 HousingBlueprintRenameFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintRename.lua#L8)

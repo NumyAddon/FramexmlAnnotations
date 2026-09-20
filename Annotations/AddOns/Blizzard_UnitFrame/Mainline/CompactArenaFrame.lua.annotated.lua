@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L96)
---- @class CompactArenaFrameMixin : CompactPartyFrameMixin
+ --- @class CompactArenaFrameMixin : CompactPartyFrameMixin
 CompactArenaFrameMixin = CreateFromMixins(CompactPartyFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L293)
---- @class ArenaPreMatchFramesContainerMixin
+ --- @class ArenaPreMatchFramesContainerMixin
 ArenaPreMatchFramesContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L332)
---- @class PreMatchArenaUnitFrameMixin
+ --- @class PreMatchArenaUnitFrameMixin
 PreMatchArenaUnitFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L352)
---- @class ArenaUnitFrameCcRemoverMixin
+ --- @class ArenaUnitFrameCcRemoverMixin
 ArenaUnitFrameCcRemoverMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L443)
---- @class ArenaUnitFrameDebuffMixin
+ --- @class ArenaUnitFrameDebuffMixin
 ArenaUnitFrameDebuffMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L552)
---- @class StealthedArenaUnitFrameMixin
+ --- @class StealthedArenaUnitFrameMixin
 StealthedArenaUnitFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L98)

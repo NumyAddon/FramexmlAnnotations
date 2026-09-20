@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.lua#L1)
---- @class BattleNetInviteFrameMixin
+ --- @class BattleNetInviteFrameMixin
 BattleNetInviteFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.lua#L105)
---- @class AddFriendFrameMixin
+ --- @class AddFriendFrameMixin
 AddFriendFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.lua#L250)
---- @class AddFriendIconHolderMixin
+ --- @class AddFriendIconHolderMixin
 AddFriendIconHolderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.lua#L258)
---- @class AddFriendEntryFrameInfoButtonMixin
+ --- @class AddFriendEntryFrameInfoButtonMixin
 AddFriendEntryFrameInfoButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.lua#L287)
---- @class AddFriendCloseButtonMixin
+ --- @class AddFriendCloseButtonMixin
 AddFriendCloseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.lua#L3)

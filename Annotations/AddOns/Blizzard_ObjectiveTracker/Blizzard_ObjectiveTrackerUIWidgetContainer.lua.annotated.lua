@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerUIWidgetContainer.lua#L7)
---- @class UIWidgetObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+ --- @class UIWidgetObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 UIWidgetObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerUIWidgetContainer.lua#L38)
---- @class ObjectiveTrackerUIWidgetContainerMixin
+ --- @class ObjectiveTrackerUIWidgetContainerMixin
 ObjectiveTrackerUIWidgetContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerUIWidgetContainer.lua#L9)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/TemplateInfoCache.lua#L4)
---- @class TemplateInfoCacheMixin
+ --- @class TemplateInfoCacheMixin
 TemplateInfoCacheMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/TemplateInfoCache.lua#L6)

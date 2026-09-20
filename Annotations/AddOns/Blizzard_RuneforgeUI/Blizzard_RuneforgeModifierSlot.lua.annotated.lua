@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeModifierSlot.lua#L2)
---- @class RuneforgeModifierSlotMixin : RuneforgeEffectOwnerMixin
+ --- @class RuneforgeModifierSlotMixin : RuneforgeEffectOwnerMixin
 RuneforgeModifierSlotMixin = CreateFromMixins(RuneforgeEffectOwnerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeModifierSlot.lua#L299)
---- @class RuneforgeModifierFrameMixin : RuneforgeSystemMixin
+ --- @class RuneforgeModifierFrameMixin : RuneforgeSystemMixin
 RuneforgeModifierFrameMixin = CreateFromMixins(RuneforgeSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeModifierSlot.lua#L127)
---- @class RuneforgeModifierSelectionMixin
+ --- @class RuneforgeModifierSelectionMixin
 RuneforgeModifierSelectionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeModifierSlot.lua#L226)
---- @class RuneforgeModifierSelectorFrameMixin
+ --- @class RuneforgeModifierSelectorFrameMixin
 RuneforgeModifierSelectorFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeModifierSlot.lua#L4)

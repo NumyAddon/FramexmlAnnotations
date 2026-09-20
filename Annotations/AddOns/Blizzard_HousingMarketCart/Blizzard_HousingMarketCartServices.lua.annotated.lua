@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartServices.lua#L2)
---- @class HousingMarketViewCartButtonMixin
+ --- @class HousingMarketViewCartButtonMixin
 HousingMarketViewCartButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartServices.lua#L8)
---- @class HousingMarketShowCartServiceMixin
+ --- @class HousingMarketShowCartServiceMixin
 HousingMarketShowCartServiceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartServices.lua#L15)
---- @class HousingMarketHideCartServiceMixin
+ --- @class HousingMarketHideCartServiceMixin
 HousingMarketHideCartServiceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartServices.lua#L4)

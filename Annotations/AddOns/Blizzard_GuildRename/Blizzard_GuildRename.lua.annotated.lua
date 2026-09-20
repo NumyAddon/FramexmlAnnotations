@@ -1,35 +1,33 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L371)
---- @class GuildRenameFlowMixin : TimedCallbackMixin, GuildRenameManagedFlowMixin
+ --- @class GuildRenameFlowMixin : TimedCallbackMixin, GuildRenameManagedFlowMixin
 GuildRenameFlowMixin = CreateFromMixins(TimedCallbackMixin, GuildRenameManagedFlowMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L466)
---- @class GuildRenameTitleFlowMixin : GuildRenameManagedFlowMixin, {
-	timeFormatter = timeFormatter,
-}
+ --- @class GuildRenameTitleFlowMixin : GuildRenameManagedFlowMixin
 GuildRenameTitleFlowMixin = CreateFromMixins(GuildRenameManagedFlowMixin, {
 	timeFormatter = timeFormatter,
 })
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L565)
---- @class GuildRenameContextButtonMixin : SimpleTooltipRegionMixin
+ --- @class GuildRenameContextButtonMixin : SimpleTooltipRegionMixin
 GuildRenameContextButtonMixin = CreateFromMixins(SimpleTooltipRegionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L614)
---- @class GuildIconDisplayMixin : SimpleTooltipRegionMixin
+ --- @class GuildIconDisplayMixin : SimpleTooltipRegionMixin
 GuildIconDisplayMixin = CreateFromMixins(SimpleTooltipRegionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L1)
---- @class SimpleTooltipRegionMixin
+ --- @class SimpleTooltipRegionMixin
 SimpleTooltipRegionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L57)
---- @class GuildRenameFrameMixin
+ --- @class GuildRenameFrameMixin
 GuildRenameFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L361)
---- @class GuildRenameManagedFlowMixin
+ --- @class GuildRenameManagedFlowMixin
 GuildRenameManagedFlowMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L3)

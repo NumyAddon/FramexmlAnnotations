@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.lua#L16)
---- @class AccountStoreMixin
+ --- @class AccountStoreMixin
 AccountStoreMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.lua#L66)
---- @class FullscreenAccountStoreContainerMixin
+ --- @class FullscreenAccountStoreContainerMixin
 FullscreenAccountStoreContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.lua#L102)
---- @class FullscreenLeaveAccountStoreButtonMixin
+ --- @class FullscreenLeaveAccountStoreButtonMixin
 FullscreenLeaveAccountStoreButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.lua#L18)

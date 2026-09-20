@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.lua#L3)
---- @class ContributionRewardMixin
+ --- @class ContributionRewardMixin
 ContributionRewardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.lua#L67)
---- @class ContributionRewardMouseOverMixin
+ --- @class ContributionRewardMouseOverMixin
 ContributionRewardMouseOverMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.lua#L77)
---- @class ContributionStatusMixin
+ --- @class ContributionStatusMixin
 ContributionStatusMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.lua#L148)
---- @class ContributeButtonMixin
+ --- @class ContributeButtonMixin
 ContributeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.lua#L270)
---- @class ContributionMixin
+ --- @class ContributionMixin
 ContributionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.lua#L396)
---- @class ContributionCollectionMixin
+ --- @class ContributionCollectionMixin
 ContributionCollectionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.lua#L5)

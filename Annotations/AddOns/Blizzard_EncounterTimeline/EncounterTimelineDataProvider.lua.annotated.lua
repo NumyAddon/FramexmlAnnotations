@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineDataProvider.lua#L1)
---- @class EncounterTimelineDataProviderMixin
+ --- @class EncounterTimelineDataProviderMixin
 EncounterTimelineDataProviderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineDataProvider.lua#L13)

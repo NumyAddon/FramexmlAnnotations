@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedWidgetFrames/Blizzard_UIWidgetCenterDisplayFrame.lua#L8)
---- @class WidgetCenterDisplayFrameMixin
+ --- @class WidgetCenterDisplayFrameMixin
 WidgetCenterDisplayFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedWidgetFrames/Blizzard_UIWidgetCenterDisplayFrame.lua#L97)
---- @class UIWidgetCenterDisplayFrameButtonMixin
+ --- @class UIWidgetCenterDisplayFrameButtonMixin
 UIWidgetCenterDisplayFrameButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedWidgetFrames/Blizzard_UIWidgetCenterDisplayFrame.lua#L104)
---- @class UIWidgetCenterDisplayFrameExtraButtonMixin
+ --- @class UIWidgetCenterDisplayFrameExtraButtonMixin
 UIWidgetCenterDisplayFrameExtraButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedWidgetFrames/Blizzard_UIWidgetCenterDisplayFrame.lua#L10)

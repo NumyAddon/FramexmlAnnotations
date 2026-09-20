@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1190)
---- @class OpenAllMailMixin
+ --- @class OpenAllMailMixin
 OpenAllMailMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1192)

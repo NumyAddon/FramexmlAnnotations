@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitPopup/UnitPopupSlider.lua#L1)
---- @class UnitPopupSliderMixin
+ --- @class UnitPopupSliderMixin
 UnitPopupSliderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitPopup/UnitPopupSlider.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/MainMenuFrameTemplates.lua#L2)
---- @class MainMenuFrameMixin
+ --- @class MainMenuFrameMixin
 MainMenuFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/MainMenuFrameTemplates.lua#L9)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.lua#L8)
---- @class SoulbindTreeNodeLinkMixin
+ --- @class SoulbindTreeNodeLinkMixin
 SoulbindTreeNodeLinkMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.lua#L10)

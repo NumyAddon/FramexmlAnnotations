@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGReadyCheck.lua#L2)
---- @class LFGReadyCheckPopupMixin
+ --- @class LFGReadyCheckPopupMixin
 LFGReadyCheckPopupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGReadyCheck.lua#L4)

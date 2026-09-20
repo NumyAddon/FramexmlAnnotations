@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.lua#L11)
---- @class IslandsQueueWeeklyQuestMixin
+ --- @class IslandsQueueWeeklyQuestMixin
 IslandsQueueWeeklyQuestMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.lua#L115)
---- @class IslandsQueueWeeklyQuestRewardMixin
+ --- @class IslandsQueueWeeklyQuestRewardMixin
 IslandsQueueWeeklyQuestRewardMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.lua#L135)
---- @class IslandsQueueFrameMixin
+ --- @class IslandsQueueFrameMixin
 IslandsQueueFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.lua#L198)
---- @class IslandsQueueFrameDifficultyMixin
+ --- @class IslandsQueueFrameDifficultyMixin
 IslandsQueueFrameDifficultyMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.lua#L29)

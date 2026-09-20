@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L1)
---- @class BaseHouseEditorModeMixin
+ --- @class BaseHouseEditorModeMixin
 BaseHouseEditorModeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L167)
---- @class HouseEditorInstructionsContainerMixin
+ --- @class HouseEditorInstructionsContainerMixin
 HouseEditorInstructionsContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L208)
---- @class HouseEditorInstructionMixin
+ --- @class HouseEditorInstructionMixin
 HouseEditorInstructionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L280)
---- @class HouseEditorBudgetCountMixin
+ --- @class HouseEditorBudgetCountMixin
 HouseEditorBudgetCountMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L308)
---- @class HouseEditorDecorCountMixin
+ --- @class HouseEditorDecorCountMixin
 HouseEditorDecorCountMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L332)
---- @class HouseEditorPetCountMixin
+ --- @class HouseEditorPetCountMixin
 HouseEditorPetCountMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L357)
---- @class HouseEditorRoomCountMixin
+ --- @class HouseEditorRoomCountMixin
 HouseEditorRoomCountMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L3)

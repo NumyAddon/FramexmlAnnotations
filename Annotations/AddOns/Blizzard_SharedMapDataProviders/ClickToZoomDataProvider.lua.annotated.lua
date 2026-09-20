@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ClickToZoomDataProvider.lua#L9)
---- @class ClickToZoomDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class ClickToZoomDataProviderMixin : MapCanvasDataProviderMixin
 ClickToZoomDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ClickToZoomDataProvider.lua#L122)
---- @class ClickToZoomDataProvider_LabelMixin
+ --- @class ClickToZoomDataProvider_LabelMixin
 ClickToZoomDataProvider_LabelMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/ClickToZoomDataProvider.lua#L11)

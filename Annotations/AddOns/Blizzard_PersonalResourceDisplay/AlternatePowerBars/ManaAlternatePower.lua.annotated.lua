@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/ManaAlternatePower.lua#L51)
---- @class PriestAlternatePowerBarMixin : ManaAlternatePowerMixin
+ --- @class PriestAlternatePowerBarMixin : ManaAlternatePowerMixin
 PriestAlternatePowerBarMixin = CreateFromMixins(ManaAlternatePowerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/ManaAlternatePower.lua#L55)
---- @class DruidAlternatePowerBarMixin : ManaAlternatePowerMixin
+ --- @class DruidAlternatePowerBarMixin : ManaAlternatePowerMixin
 DruidAlternatePowerBarMixin = CreateFromMixins(ManaAlternatePowerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/ManaAlternatePower.lua#L4)
---- @class ManaAlternatePowerMixin
+ --- @class ManaAlternatePowerMixin
 ManaAlternatePowerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/ManaAlternatePower.lua#L6)

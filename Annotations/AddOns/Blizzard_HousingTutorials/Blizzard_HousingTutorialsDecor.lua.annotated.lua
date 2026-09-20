@@ -1,47 +1,47 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L166)
---- @class HouseDecorQuestTutorialMixin : HelpTipStateMachineBasedTutorialMixin
+ --- @class HouseDecorQuestTutorialMixin : HelpTipStateMachineBasedTutorialMixin
 HouseDecorQuestTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L528)
---- @class HouseDecorCustomizationsTutorialMixin : HelpTipStateMachineBasedTutorialMixin
+ --- @class HouseDecorCustomizationsTutorialMixin : HelpTipStateMachineBasedTutorialMixin
 HouseDecorCustomizationsTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L556)
---- @class HouseLayoutTutorialMixin : HelpTipStateMachineBasedTutorialMixin
+ --- @class HouseLayoutTutorialMixin : HelpTipStateMachineBasedTutorialMixin
 HouseLayoutTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L4)
---- @class HouseDecorQuestWatcherMixin
+ --- @class HouseDecorQuestWatcherMixin
 HouseDecorQuestWatcherMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L217)
---- @class HouseDecorWatcherMixin
+ --- @class HouseDecorWatcherMixin
 HouseDecorWatcherMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L362)
---- @class HouseClippingAndGridTutorialMixin
+ --- @class HouseClippingAndGridTutorialMixin
 HouseClippingAndGridTutorialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L394)
---- @class HouseModesUnlockedTutorialMixin
+ --- @class HouseModesUnlockedTutorialMixin
 HouseModesUnlockedTutorialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L435)
---- @class HouseExpertModeTutorialMixin
+ --- @class HouseExpertModeTutorialMixin
 HouseExpertModeTutorialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L467)
---- @class HouseCleanupModeTutorialMixin
+ --- @class HouseCleanupModeTutorialMixin
 HouseCleanupModeTutorialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L495)
---- @class HouseMarketTabTutorialMixin
+ --- @class HouseMarketTabTutorialMixin
 HouseMarketTabTutorialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L592)
---- @class HousePetBedTutorialMixin
+ --- @class HousePetBedTutorialMixin
 HousePetBedTutorialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsDecor.lua#L6)

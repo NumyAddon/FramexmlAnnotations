@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L4)
---- @class PossessActionBarMixin
+ --- @class PossessActionBarMixin
 PossessActionBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L65)
---- @class PossessButtonMixin
+ --- @class PossessButtonMixin
 PossessButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L6)

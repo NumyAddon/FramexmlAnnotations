@@ -1,47 +1,47 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L115)
---- @class MinimapZoneTextButtonMixin
+ --- @class MinimapZoneTextButtonMixin
 MinimapZoneTextButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L146)
---- @class MinimapMixin
+ --- @class MinimapMixin
 MinimapMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L307)
---- @class MinimapZoomInButtonMixin
+ --- @class MinimapZoomInButtonMixin
 MinimapZoomInButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L332)
---- @class MinimapZoomOutButtonMixin
+ --- @class MinimapZoomOutButtonMixin
 MinimapZoomOutButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L364)
---- @class MinimapClusterMixin
+ --- @class MinimapClusterMixin
 MinimapClusterMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L473)
---- @class MiniMapMailFrameMixin
+ --- @class MiniMapMailFrameMixin
 MiniMapMailFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L541)
---- @class MinimapMailAnimMixin
+ --- @class MinimapMailAnimMixin
 MinimapMailAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L551)
---- @class MiniMapCraftingOrderFrameMixin
+ --- @class MiniMapCraftingOrderFrameMixin
 MiniMapCraftingOrderFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L614)
---- @class MiniMapTrackingButtonMixin
+ --- @class MiniMapTrackingButtonMixin
 MiniMapTrackingButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L814)
---- @class ExpansionLandingPageMinimapButtonMixin
+ --- @class ExpansionLandingPageMinimapButtonMixin
 ExpansionLandingPageMinimapButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L1296)
---- @class MinimapPlayerCoordsMixin
+ --- @class MinimapPlayerCoordsMixin
 MinimapPlayerCoordsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.lua#L117)

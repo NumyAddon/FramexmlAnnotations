@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineFrameManager.lua#L3)
---- @class EncounterTimelineFrameManagerMixin
+ --- @class EncounterTimelineFrameManagerMixin
 EncounterTimelineFrameManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineFrameManager.lua#L5)

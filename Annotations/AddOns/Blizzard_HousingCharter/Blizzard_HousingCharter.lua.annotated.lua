@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.lua#L1)
---- @class HousingCharterMixin
+ --- @class HousingCharterMixin
 HousingCharterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.lua#L132)
---- @class HousingCharterRequestSignatureFrameMixin
+ --- @class HousingCharterRequestSignatureFrameMixin
 HousingCharterRequestSignatureFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.lua#L11)

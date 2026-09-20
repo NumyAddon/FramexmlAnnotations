@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/ExternalDefensivesFrame.lua#L4)
---- @class ExternalDefensivesFrameMixin : BaseAuraFrameMixin
+ --- @class ExternalDefensivesFrameMixin : BaseAuraFrameMixin
 ExternalDefensivesFrameMixin = CreateFromMixins(BaseAuraFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/ExternalDefensivesFrame.lua#L6)

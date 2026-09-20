@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L2)
---- @class MinimalScrollBarStepperScriptsMixin : ButtonStateBehaviorMixin
+ --- @class MinimalScrollBarStepperScriptsMixin : ButtonStateBehaviorMixin
 MinimalScrollBarStepperScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L28)
---- @class MinimalScrollBarThumbScriptsMixin : ButtonStateBehaviorMixin
+ --- @class MinimalScrollBarThumbScriptsMixin : ButtonStateBehaviorMixin
 MinimalScrollBarThumbScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.lua#L4)

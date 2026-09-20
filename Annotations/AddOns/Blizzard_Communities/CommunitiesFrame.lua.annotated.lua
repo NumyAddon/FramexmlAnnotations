@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L4)
---- @class CommunitiesFrameMixin : CallbackRegistryMixin
+ --- @class CommunitiesFrameMixin : CallbackRegistryMixin
 CommunitiesFrameMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1710)
---- @class CommunitiesControlFrameMixin
+ --- @class CommunitiesControlFrameMixin
 CommunitiesControlFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L90)

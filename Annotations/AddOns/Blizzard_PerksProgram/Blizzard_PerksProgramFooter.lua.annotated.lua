@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L4)
---- @class PerksProgramFooterFrameMixin
+ --- @class PerksProgramFooterFrameMixin
 PerksProgramFooterFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L204)
---- @class PerksProgramErrorIndicatorMixin
+ --- @class PerksProgramErrorIndicatorMixin
 PerksProgramErrorIndicatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L6)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.lua#L1)
---- @class LootItemExtendedMixin
+ --- @class LootItemExtendedMixin
 LootItemExtendedMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.lua#L3)

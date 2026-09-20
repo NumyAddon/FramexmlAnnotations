@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SuperTrackWaypointDataProvider.lua#L1)
---- @class SuperTrackWaypointDataProviderMixin : MapCanvasDataProviderMixin, DirtiableMixin
+ --- @class SuperTrackWaypointDataProviderMixin : MapCanvasDataProviderMixin, DirtiableMixin
 SuperTrackWaypointDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin, DirtiableMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SuperTrackWaypointDataProvider.lua#L47)
---- @class SuperTrackWaypointPinMixin : MapCanvasPinMixin
+ --- @class SuperTrackWaypointPinMixin : MapCanvasPinMixin
 SuperTrackWaypointPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SuperTrackWaypointDataProvider.lua#L3)

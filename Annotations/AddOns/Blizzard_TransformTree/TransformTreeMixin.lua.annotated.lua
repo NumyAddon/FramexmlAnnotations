@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TransformTree/TransformTreeMixin.lua#L1)
---- @class TransformTreeMixin
+ --- @class TransformTreeMixin
 TransformTreeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TransformTree/TransformTreeMixin.lua#L3)

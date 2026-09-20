@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateBulletTextList.lua#L10)
---- @class UIWidgetTemplateBulletTextListMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateBulletTextListMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateBulletTextListMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateBulletTextList.lua#L60)
---- @class UIWidgetTemplateBulletTextListLineMixin
+ --- @class UIWidgetTemplateBulletTextListLineMixin
 UIWidgetTemplateBulletTextListLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateBulletTextList.lua#L12)

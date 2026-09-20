@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L1)
---- @class EventEditBoxMixin : CallbackRegistryMixin
+ --- @class EventEditBoxMixin : CallbackRegistryMixin
 EventEditBoxMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventEditBox.lua#L18)

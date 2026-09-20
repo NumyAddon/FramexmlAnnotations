@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L41)
---- @class PrivateAuraMixin : VisualAlertTargetMixin
+ --- @class PrivateAuraMixin : VisualAlertTargetMixin
 PrivateAuraMixin = CreateFromMixins(VisualAlertTargetMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L1322)
---- @class PrivateRaidBossEmoteFrameMixin : RaidWarningFrameMixin
+ --- @class PrivateRaidBossEmoteFrameMixin : RaidWarningFrameMixin
 PrivateRaidBossEmoteFrameMixin = CreateFromMixins(RaidWarningFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L25)
---- @class CompactDispelDebuffMixin
+ --- @class CompactDispelDebuffMixin
 CompactDispelDebuffMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L299)
---- @class InboundContainerFrameMixin
+ --- @class InboundContainerFrameMixin
 InboundContainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L327)
---- @class PrivateAuraAnchorContainerMixin
+ --- @class PrivateAuraAnchorContainerMixin
 PrivateAuraAnchorContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L1070)
---- @class PrivateAuraAnchorSingleMixin
+ --- @class PrivateAuraAnchorSingleMixin
 PrivateAuraAnchorSingleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L1350)
---- @class CompactUnitFrameDispelOverlayMixin
+ --- @class CompactUnitFrameDispelOverlayMixin
 CompactUnitFrameDispelOverlayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L27)

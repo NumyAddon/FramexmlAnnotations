@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCreateNeighborhood/Blizzard_HousingCreateNeighborhood.lua#L10)
---- @class HousingCreateNeighborhoodMixin
+ --- @class HousingCreateNeighborhoodMixin
 HousingCreateNeighborhoodMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCreateNeighborhood/Blizzard_HousingCreateNeighborhood.lua#L36)
---- @class HousingCreateNeighborhoodConfirmationMixin
+ --- @class HousingCreateNeighborhoodConfirmationMixin
 HousingCreateNeighborhoodConfirmationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCreateNeighborhood/Blizzard_HousingCreateNeighborhood.lua#L43)
---- @class HousingCreateCharterNeighborhoodConfirmationMixin
+ --- @class HousingCreateCharterNeighborhoodConfirmationMixin
 HousingCreateCharterNeighborhoodConfirmationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCreateNeighborhood/Blizzard_HousingCreateNeighborhood.lua#L88)
---- @class HousingCreateGuildNeighborhoodConfirmationMixin
+ --- @class HousingCreateGuildNeighborhoodConfirmationMixin
 HousingCreateGuildNeighborhoodConfirmationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCreateNeighborhood/Blizzard_HousingCreateNeighborhood.lua#L115)
---- @class HousingCreateGuildNeighborhoodMixin
+ --- @class HousingCreateGuildNeighborhoodMixin
 HousingCreateGuildNeighborhoodMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCreateNeighborhood/Blizzard_HousingCreateNeighborhood.lua#L182)
---- @class HousingCreateNeighborhoodCharterMixin
+ --- @class HousingCreateNeighborhoodCharterMixin
 HousingCreateNeighborhoodCharterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCreateNeighborhood/Blizzard_HousingCreateNeighborhood.lua#L12)

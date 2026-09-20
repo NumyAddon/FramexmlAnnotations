@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollectionEntry.lua#L1)
---- @class HousingBlueprintCollectionEntryMixin
+ --- @class HousingBlueprintCollectionEntryMixin
 HousingBlueprintCollectionEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollectionEntry.lua#L3)

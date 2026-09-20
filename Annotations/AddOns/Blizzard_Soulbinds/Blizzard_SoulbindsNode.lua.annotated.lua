@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.lua#L1)
---- @class SoulbindTreeNodeMixin : CallbackRegistryMixin
+ --- @class SoulbindTreeNodeMixin : CallbackRegistryMixin
 SoulbindTreeNodeMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.lua#L212)
---- @class SoulbindTraitNodeMixin : SoulbindTreeNodeMixin
+ --- @class SoulbindTraitNodeMixin : SoulbindTreeNodeMixin
 SoulbindTraitNodeMixin = CreateFromMixins(SoulbindTreeNodeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.lua#L256)
---- @class SoulbindConduitNodeMixin : SoulbindTreeNodeMixin
+ --- @class SoulbindConduitNodeMixin : SoulbindTreeNodeMixin
 SoulbindConduitNodeMixin = CreateFromMixins(SoulbindTreeNodeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.lua#L10)

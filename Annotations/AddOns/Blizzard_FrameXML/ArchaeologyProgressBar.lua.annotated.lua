@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.lua#L7)
---- @class ArcheologyDigsiteProgressBarMixin
+ --- @class ArcheologyDigsiteProgressBarMixin
 ArcheologyDigsiteProgressBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.lua#L113)
---- @class ArcheologyDigsiteProgressFillBarMixin
+ --- @class ArcheologyDigsiteProgressFillBarMixin
 ArcheologyDigsiteProgressFillBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.lua#L123)
---- @class ArcheologyDigsiteProgressBarAnimOutMixin
+ --- @class ArcheologyDigsiteProgressBarAnimOutMixin
 ArcheologyDigsiteProgressBarAnimOutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.lua#L130)
---- @class ArcheologyDigsiteProgressBarAnimOutAndTriggerToastMixin
+ --- @class ArcheologyDigsiteProgressBarAnimOutAndTriggerToastMixin
 ArcheologyDigsiteProgressBarAnimOutAndTriggerToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.lua#L138)
---- @class ArcheologyDigsiteProgressBarFlashAnimInMixin
+ --- @class ArcheologyDigsiteProgressBarFlashAnimInMixin
 ArcheologyDigsiteProgressBarFlashAnimInMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.lua#L9)

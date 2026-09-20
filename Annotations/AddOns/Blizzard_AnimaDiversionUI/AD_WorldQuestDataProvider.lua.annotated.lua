@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AnimaDiversionUI/AD_WorldQuestDataProvider.lua#L1)
---- @class AnimaDiversion_WorldQuestDataProviderMixin : WorldQuestDataProviderMixin
+ --- @class AnimaDiversion_WorldQuestDataProviderMixin : WorldQuestDataProviderMixin
 AnimaDiversion_WorldQuestDataProviderMixin = CreateFromMixins(WorldQuestDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AnimaDiversionUI/AD_WorldQuestDataProvider.lua#L7)
---- @class AnimaDiversion_WorldQuestPinMixin : WorldQuestPinMixin
+ --- @class AnimaDiversion_WorldQuestPinMixin : WorldQuestPinMixin
 AnimaDiversion_WorldQuestPinMixin = CreateFromMixins(WorldQuestPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AnimaDiversionUI/AD_WorldQuestDataProvider.lua#L3)

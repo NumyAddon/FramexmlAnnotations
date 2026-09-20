@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L549)
---- @class KeyBindingButtonMixin : DefaultTooltipMixin
+ --- @class KeyBindingButtonMixin : DefaultTooltipMixin
 KeyBindingButtonMixin = CreateFromMixins(DefaultTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L270)
---- @class KeyBindingFrameBindingTemplateMixin
+ --- @class KeyBindingFrameBindingTemplateMixin
 KeyBindingFrameBindingTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.lua#L276)

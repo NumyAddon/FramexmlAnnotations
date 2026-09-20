@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.lua#L1)
---- @class CovenantRenownToastMixin
+ --- @class CovenantRenownToastMixin
 CovenantRenownToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.lua#L3)

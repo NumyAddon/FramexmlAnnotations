@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L227)
---- @class TutorialSingleKeyMixin : TutorialMainFrameMixin
+ --- @class TutorialSingleKeyMixin : TutorialMainFrameMixin
 TutorialSingleKeyMixin = CreateFromMixins(TutorialMainFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L272)
---- @class TutorialDoubleKeyMixin : TutorialMainFrameMixin
+ --- @class TutorialDoubleKeyMixin : TutorialMainFrameMixin
 TutorialDoubleKeyMixin = CreateFromMixins(TutorialMainFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L1)
---- @class TutorialMainFrameMixin
+ --- @class TutorialMainFrameMixin
 TutorialMainFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.lua#L19)

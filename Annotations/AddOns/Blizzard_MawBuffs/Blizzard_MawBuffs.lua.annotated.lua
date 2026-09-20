@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MawBuffs/Blizzard_MawBuffs.lua#L9)
---- @class MawBuffsContainerMixin
+ --- @class MawBuffsContainerMixin
 MawBuffsContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MawBuffs/Blizzard_MawBuffs.lua#L143)
---- @class MawBuffsListMixin
+ --- @class MawBuffsListMixin
 MawBuffsListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MawBuffs/Blizzard_MawBuffs.lua#L231)
---- @class MawBuffMixin
+ --- @class MawBuffMixin
 MawBuffMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MawBuffs/Blizzard_MawBuffs.lua#L11)

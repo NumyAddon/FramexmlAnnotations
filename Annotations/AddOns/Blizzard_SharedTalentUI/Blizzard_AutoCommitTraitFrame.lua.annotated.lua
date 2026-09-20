@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_AutoCommitTraitFrame.lua#L1)
---- @class AutoCommitTraitFrameMixin
+ --- @class AutoCommitTraitFrameMixin
 AutoCommitTraitFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_AutoCommitTraitFrame.lua#L8)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrame.lua#L1)
---- @class ChatFrameMixin
+ --- @class ChatFrameMixin
 ChatFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrame.lua#L3)

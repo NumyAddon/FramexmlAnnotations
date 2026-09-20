@@ -1,47 +1,47 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L3)
---- @class TokenHeaderMixin
+ --- @class TokenHeaderMixin
 TokenHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L33)
---- @class TokenEntryMixin
+ --- @class TokenEntryMixin
 TokenEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L173)
---- @class TokenEntryAccountWideIconMixin
+ --- @class TokenEntryAccountWideIconMixin
 TokenEntryAccountWideIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L194)
---- @class TokenSubHeaderMixin
+ --- @class TokenSubHeaderMixin
 TokenSubHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L213)
---- @class TokenSubHeaderToggleCollapseButtonMixin
+ --- @class TokenSubHeaderToggleCollapseButtonMixin
 TokenSubHeaderToggleCollapseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L233)
---- @class TokenFrameMixin
+ --- @class TokenFrameMixin
 TokenFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L458)
---- @class TokenFramePopupMixin
+ --- @class TokenFramePopupMixin
 TokenFramePopupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L517)
---- @class InactiveCurrencyCheckboxMixin
+ --- @class InactiveCurrencyCheckboxMixin
 InactiveCurrencyCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L551)
---- @class BackpackCurrencyCheckboxMixin
+ --- @class BackpackCurrencyCheckboxMixin
 BackpackCurrencyCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L580)
---- @class BackpackTokenFrameMixin
+ --- @class BackpackTokenFrameMixin
 BackpackTokenFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L704)
---- @class BackpackTokenMixin
+ --- @class BackpackTokenMixin
 BackpackTokenMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.lua#L5)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L1)
---- @class PartyPoseRewardsMixin
+ --- @class PartyPoseRewardsMixin
 PartyPoseRewardsMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L139)
---- @class PartyPoseMixin
+ --- @class PartyPoseMixin
 PartyPoseMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L6)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxPadding.lua#L42)
---- @class ScrollBoxPaddingMixin : ScrollBoxBasePaddingMixin
+ --- @class ScrollBoxPaddingMixin : ScrollBoxBasePaddingMixin
 ScrollBoxPaddingMixin = CreateFromMixins(ScrollBoxBasePaddingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxPadding.lua#L61)
---- @class ScrollBoxBiaxalPaddingMixin : ScrollBoxBasePaddingMixin
+ --- @class ScrollBoxBiaxalPaddingMixin : ScrollBoxBasePaddingMixin
 ScrollBoxBiaxalPaddingMixin = CreateFromMixins(ScrollBoxBasePaddingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxPadding.lua#L1)
---- @class ScrollBoxBasePaddingMixin
+ --- @class ScrollBoxBasePaddingMixin
 ScrollBoxBasePaddingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxPadding.lua#L3)

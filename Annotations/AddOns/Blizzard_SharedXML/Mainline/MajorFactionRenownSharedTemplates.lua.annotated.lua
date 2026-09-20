@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/MajorFactionRenownSharedTemplates.lua#L7)
---- @class MajorFactionRenownRewardMixin
+ --- @class MajorFactionRenownRewardMixin
 MajorFactionRenownRewardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/MajorFactionRenownSharedTemplates.lua#L9)

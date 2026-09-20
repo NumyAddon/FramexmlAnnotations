@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.lua#L1312)
---- @class SmallQuestInfoRewardItemMixin : QuestInfoRewardItemMixin
+ --- @class SmallQuestInfoRewardItemMixin : QuestInfoRewardItemMixin
 SmallQuestInfoRewardItemMixin = CreateFromMixins(QuestInfoRewardItemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.lua#L1319)
---- @class LargeQuestInfoRewardItemMixin : QuestInfoRewardItemMixin
+ --- @class LargeQuestInfoRewardItemMixin : QuestInfoRewardItemMixin
 LargeQuestInfoRewardItemMixin = CreateFromMixins(QuestInfoRewardItemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.lua#L1177)
---- @class QuestInfoRewardItemMixin
+ --- @class QuestInfoRewardItemMixin
 QuestInfoRewardItemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.lua#L1326)
---- @class QuestInfoReputationRewardButtonMixin
+ --- @class QuestInfoReputationRewardButtonMixin
 QuestInfoReputationRewardButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.lua#L1356)
---- @class QuestInfoRewardSpellCodeMixin
+ --- @class QuestInfoRewardSpellCodeMixin
 QuestInfoRewardSpellCodeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.lua#L1209)

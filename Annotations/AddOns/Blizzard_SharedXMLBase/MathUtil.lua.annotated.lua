@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/MathUtil.lua#L109)
---- @class AccumulatorMixin
+ --- @class AccumulatorMixin
 AccumulatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/MathUtil.lua#L111)

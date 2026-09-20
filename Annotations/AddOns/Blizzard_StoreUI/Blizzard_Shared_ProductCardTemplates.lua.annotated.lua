@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L35)
---- @class StoreCardMixin
+ --- @class StoreCardMixin
 StoreCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_ProductCardTemplates.lua#L36)

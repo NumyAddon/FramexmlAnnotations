@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TextStatusBar/TextStatusBar.lua#L31)
---- @class TextStatusBarMixin
+ --- @class TextStatusBarMixin
 TextStatusBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TextStatusBar/TextStatusBar.lua#L291)
---- @class TextStatusBarSparkMixin
+ --- @class TextStatusBarSparkMixin
 TextStatusBarSparkMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TextStatusBar/TextStatusBar.lua#L33)

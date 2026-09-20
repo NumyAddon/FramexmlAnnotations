@@ -1,103 +1,103 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1172)
---- @class ClubFinderGuildCardMixin : ClubFinderCardMixin
+ --- @class ClubFinderGuildCardMixin : ClubFinderCardMixin
 ClubFinderGuildCardMixin = CreateFromMixins(ClubFinderCardMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1322)
---- @class ClubFinderCommunitiesCardMixin : ClubFinderCardMixin
+ --- @class ClubFinderCommunitiesCardMixin : ClubFinderCardMixin
 ClubFinderCommunitiesCardMixin = CreateFromMixins(ClubFinderCardMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1605)
---- @class ClubFinderCommunitiesCardsMixin : ClubFinderCommunitiesCardsBaseMixin
+ --- @class ClubFinderCommunitiesCardsMixin : ClubFinderCommunitiesCardsBaseMixin
 ClubFinderCommunitiesCardsMixin = CreateFromMixins(ClubFinderCommunitiesCardsBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1615)
---- @class ClubFinderPendingCommunitiesCardsMixin : ClubFinderCommunitiesCardsBaseMixin
+ --- @class ClubFinderPendingCommunitiesCardsMixin : ClubFinderCommunitiesCardsBaseMixin
 ClubFinderPendingCommunitiesCardsMixin = CreateFromMixins(ClubFinderCommunitiesCardsBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1774)
---- @class ClubFinderGuildCardsMixin : ClubFinderGuildCardsBaseMixin
+ --- @class ClubFinderGuildCardsMixin : ClubFinderGuildCardsBaseMixin
 ClubFinderGuildCardsMixin = CreateFromMixins(ClubFinderGuildCardsBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1790)
---- @class ClubFinderPendingGuildCardsMixin : ClubFinderGuildCardsBaseMixin
+ --- @class ClubFinderPendingGuildCardsMixin : ClubFinderGuildCardsBaseMixin
 ClubFinderPendingGuildCardsMixin = CreateFromMixins(ClubFinderGuildCardsBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L16)
---- @class ClubFinderDropdownMixin
+ --- @class ClubFinderDropdownMixin
 ClubFinderDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L103)
---- @class ClubsRecruitmentDialogMixin
+ --- @class ClubsRecruitmentDialogMixin
 ClubsRecruitmentDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L279)
---- @class ClubFinderRequestToJoinMixin
+ --- @class ClubFinderRequestToJoinMixin
 ClubFinderRequestToJoinMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L472)
---- @class ClubFocusDropdownMixin
+ --- @class ClubFocusDropdownMixin
 ClubFocusDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L492)
---- @class ClubLookingForDropdownMixin
+ --- @class ClubLookingForDropdownMixin
 ClubLookingForDropdownMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L635)
---- @class ClubFinderFilterDropdownMixin
+ --- @class ClubFinderFilterDropdownMixin
 ClubFinderFilterDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L762)
---- @class ClubFinderOptionsMixin
+ --- @class ClubFinderOptionsMixin
 ClubFinderOptionsMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L998)
---- @class ClubFinderSearchButtonMixin
+ --- @class ClubFinderSearchButtonMixin
 ClubFinderSearchButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1054)
---- @class ClubFinderSearchEditBoxMixin
+ --- @class ClubFinderSearchEditBoxMixin
 ClubFinderSearchEditBoxMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1081)
---- @class ClubFinderCardMixin
+ --- @class ClubFinderCardMixin
 ClubFinderCardMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1515)
---- @class ClubFinderCommunitiesCardsBaseMixin
+ --- @class ClubFinderCommunitiesCardsBaseMixin
 ClubFinderCommunitiesCardsBaseMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1622)
---- @class ClubFinderGuildCardsBaseMixin
+ --- @class ClubFinderGuildCardsBaseMixin
 ClubFinderGuildCardsBaseMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1798)
---- @class ClubFinderCheckboxMixin
+ --- @class ClubFinderCheckboxMixin
 ClubFinderCheckboxMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L1806)
---- @class ClubFinderGuildAndCommunityMixin
+ --- @class ClubFinderGuildAndCommunityMixin
 ClubFinderGuildAndCommunityMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L2006)
---- @class ClubFinderInvitationsFrameMixin
+ --- @class ClubFinderInvitationsFrameMixin
 ClubFinderInvitationsFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L2168)
---- @class ClubsFinderJoinClubWarningMixin
+ --- @class ClubsFinderJoinClubWarningMixin
 ClubsFinderJoinClubWarningMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L2190)
---- @class ClubFinderTabMixin
+ --- @class ClubFinderTabMixin
 ClubFinderTabMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L2209)
---- @class ClubFinderRoleCheckboxMixin
+ --- @class ClubFinderRoleCheckboxMixin
 ClubFinderRoleCheckboxMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L2234)
---- @class ClubFinderRoleMixin
+ --- @class ClubFinderRoleMixin
 ClubFinderRoleMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/ClubFinder.lua#L18)

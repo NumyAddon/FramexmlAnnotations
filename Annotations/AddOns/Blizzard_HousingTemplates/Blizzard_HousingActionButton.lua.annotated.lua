@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingActionButton.lua#L1)
---- @class BaseHousingActionButtonMixin
+ --- @class BaseHousingActionButtonMixin
 BaseHousingActionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingActionButton.lua#L249)
---- @class BaseHousingModeButtonMixin
+ --- @class BaseHousingModeButtonMixin
 BaseHousingModeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingActionButton.lua#L3)

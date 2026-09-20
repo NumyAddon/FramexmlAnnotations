@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L1)
---- @class BaseMapPoiPinMixin : MapCanvasPinMixin
+ --- @class BaseMapPoiPinMixin : MapCanvasPinMixin
 BaseMapPoiPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L425)
---- @class MapPinPingMixin : MapCanvasPinMixin
+ --- @class MapPinPingMixin : MapCanvasPinMixin
 MapPinPingMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L634)
---- @class SuperTrackablePoiPinMixin : SuperTrackablePinMixin
+ --- @class SuperTrackablePoiPinMixin : SuperTrackablePinMixin
 SuperTrackablePoiPinMixin = CreateFromMixins(SuperTrackablePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L194)
---- @class MapPinAnimatedHighlightMixin
+ --- @class MapPinAnimatedHighlightMixin
 MapPinAnimatedHighlightMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L483)
---- @class MapPinPingDriverAnimationMixin
+ --- @class MapPinPingDriverAnimationMixin
 MapPinPingDriverAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L496)
---- @class SuperTrackablePinMixin
+ --- @class SuperTrackablePinMixin
 SuperTrackablePinMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L645)
---- @class LegendHighlightablePoiPinMixin
+ --- @class LegendHighlightablePoiPinMixin
 LegendHighlightablePoiPinMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L7)

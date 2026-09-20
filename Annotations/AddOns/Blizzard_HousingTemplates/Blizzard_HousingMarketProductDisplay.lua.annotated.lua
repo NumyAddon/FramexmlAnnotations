@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L3)
---- @class HousingMarketProductDisplayMixin
+ --- @class HousingMarketProductDisplayMixin
 HousingMarketProductDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L122)
---- @class HousingMarketSmallProductDisplayMixin
+ --- @class HousingMarketSmallProductDisplayMixin
 HousingMarketSmallProductDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L230)
---- @class HousingMarketBundleDisplayMixin
+ --- @class HousingMarketBundleDisplayMixin
 HousingMarketBundleDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L5)

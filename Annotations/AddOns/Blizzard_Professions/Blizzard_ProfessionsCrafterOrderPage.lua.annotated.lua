@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.lua#L22)
---- @class ProfessionsCrafterOrderListElementMixin : TableBuilderRowMixin
+ --- @class ProfessionsCrafterOrderListElementMixin : TableBuilderRowMixin
 ProfessionsCrafterOrderListElementMixin = CreateFromMixins(TableBuilderRowMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.lua#L102)
---- @class ProfessionsCraftingOrderPageMixin : ProfessionsRecipeListPanelMixin
+ --- @class ProfessionsCraftingOrderPageMixin : ProfessionsRecipeListPanelMixin
 ProfessionsCraftingOrderPageMixin = CreateFromMixins(ProfessionsRecipeListPanelMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.lua#L24)

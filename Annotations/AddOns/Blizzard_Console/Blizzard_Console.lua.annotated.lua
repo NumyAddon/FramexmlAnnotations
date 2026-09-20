@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L13)
---- @class DeveloperConsoleMixin
+ --- @class DeveloperConsoleMixin
 DeveloperConsoleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L16)

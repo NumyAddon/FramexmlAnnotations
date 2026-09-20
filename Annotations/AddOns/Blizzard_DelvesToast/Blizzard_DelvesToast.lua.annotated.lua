@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesToast/Blizzard_DelvesToast.lua#L1)
---- @class DelvesToastMixin
+ --- @class DelvesToastMixin
 DelvesToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesToast/Blizzard_DelvesToast.lua#L9)

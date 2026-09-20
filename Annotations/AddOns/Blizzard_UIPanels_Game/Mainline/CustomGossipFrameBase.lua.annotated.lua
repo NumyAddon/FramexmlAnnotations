@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L1)
---- @class CustomGossipManagerMixin
+ --- @class CustomGossipManagerMixin
 CustomGossipManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L82)
---- @class CustomGossipFrameBaseMixin
+ --- @class CustomGossipFrameBaseMixin
 CustomGossipFrameBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L114)
---- @class CustomGossipFrameBaseGridMixin
+ --- @class CustomGossipFrameBaseGridMixin
 CustomGossipFrameBaseGridMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L177)
---- @class CustomGossipOptionButtonBaseMixin
+ --- @class CustomGossipOptionButtonBaseMixin
 CustomGossipOptionButtonBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L37)

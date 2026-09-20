@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.lua#L1)
---- @class PVPHonorRewardCodeMixin
+ --- @class PVPHonorRewardCodeMixin
 PVPHonorRewardCodeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.lua#L17)
---- @class PVPHonorRewardInfoMixin
+ --- @class PVPHonorRewardInfoMixin
 PVPHonorRewardInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/PVPHonorSystem.lua#L3)

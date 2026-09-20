@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreButtonMixin.lua#L4)
---- @class StoreButtonMixin
+ --- @class StoreButtonMixin
 StoreButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreButtonMixin.lua#L6)

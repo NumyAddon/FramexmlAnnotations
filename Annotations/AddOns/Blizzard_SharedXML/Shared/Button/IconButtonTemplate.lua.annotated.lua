@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Button/IconButtonTemplate.lua#L2)
---- @class IconButtonMixin : UIButtonMixin
+ --- @class IconButtonMixin : UIButtonMixin
 IconButtonMixin = CreateFromMixins(UIButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Button/IconButtonTemplate.lua#L53)
---- @class SquareIconButtonMixin : IconButtonMixin
+ --- @class SquareIconButtonMixin : IconButtonMixin
 SquareIconButtonMixin = CreateFromMixins(IconButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Button/IconButtonTemplate.lua#L4)

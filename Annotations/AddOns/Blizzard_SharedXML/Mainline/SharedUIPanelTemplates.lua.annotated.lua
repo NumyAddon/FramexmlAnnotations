@@ -1,151 +1,151 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L215)
---- @class UIPanelButtonMixin : DisabledTooltipButtonMixin
+ --- @class UIPanelButtonMixin : DisabledTooltipButtonMixin
 UIPanelButtonMixin = CreateFromMixins(DisabledTooltipButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L232)
---- @class UIPanelButtonHeightScaledMixin : UIPanelButtonMixin
+ --- @class UIPanelButtonHeightScaledMixin : UIPanelButtonMixin
 UIPanelButtonHeightScaledMixin = CreateFromMixins(UIPanelButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1197)
---- @class SliderWithButtonsAndLabelMixin : SliderControlFrameMixin
+ --- @class SliderWithButtonsAndLabelMixin : SliderControlFrameMixin
 SliderWithButtonsAndLabelMixin = CreateFromMixins(SliderControlFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1218)
---- @class SliderAndEditControlMixin : SliderControlFrameMixin
+ --- @class SliderAndEditControlMixin : SliderControlFrameMixin
 SliderAndEditControlMixin = CreateFromMixins(SliderControlFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1330)
---- @class DropdownWithSteppersAndLabelMixin : DropdownWithSteppersMixin
+ --- @class DropdownWithSteppersAndLabelMixin : DropdownWithSteppersMixin
 DropdownWithSteppersAndLabelMixin = CreateFromMixins(DropdownWithSteppersMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L137)
---- @class UIPanelCloseButtonNarrationMixin
+ --- @class UIPanelCloseButtonNarrationMixin
 UIPanelCloseButtonNarrationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L243)
---- @class PanelTabButtonMixin
+ --- @class PanelTabButtonMixin
 PanelTabButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L275)
---- @class PanelTopTabButtonMixin
+ --- @class PanelTopTabButtonMixin
 PanelTopTabButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L301)
---- @class SidePanelTabButtonMixin
+ --- @class SidePanelTabButtonMixin
 SidePanelTabButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L589)
---- @class MaximizeMinimizeButtonFrameMixin
+ --- @class MaximizeMinimizeButtonFrameMixin
 MaximizeMinimizeButtonFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L706)
---- @class TruncatedTooltipFontStringMixin
+ --- @class TruncatedTooltipFontStringMixin
 TruncatedTooltipFontStringMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L731)
---- @class TruncatedTooltipFontStringWrapperMixin
+ --- @class TruncatedTooltipFontStringWrapperMixin
 TruncatedTooltipFontStringWrapperMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L753)
---- @class ColumnDisplayMixin
+ --- @class ColumnDisplayMixin
 ColumnDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L828)
---- @class UIMenuButtonStretchMixin
+ --- @class UIMenuButtonStretchMixin
 UIMenuButtonStretchMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L883)
---- @class UIResettableDropdownButtonMixin
+ --- @class UIResettableDropdownButtonMixin
 UIResettableDropdownButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L919)
---- @class NineSliceCheckButtonMixin
+ --- @class NineSliceCheckButtonMixin
 NineSliceCheckButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L986)
---- @class ButtonControllerMixin
+ --- @class ButtonControllerMixin
 ButtonControllerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1006)
---- @class ResizeCheckButtonMixin
+ --- @class ResizeCheckButtonMixin
 ResizeCheckButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1155)
---- @class SharedEditBoxMixin
+ --- @class SharedEditBoxMixin
 SharedEditBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1171)
---- @class SliderControlFrameMixin
+ --- @class SliderControlFrameMixin
 SliderControlFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1251)
---- @class DropdownWithSteppersMixin
+ --- @class DropdownWithSteppersMixin
 DropdownWithSteppersMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1336)
---- @class DefaultScaleFrameMixin
+ --- @class DefaultScaleFrameMixin
 DefaultScaleFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1353)
---- @class TopLevelParentScaleFrameMixin
+ --- @class TopLevelParentScaleFrameMixin
 TopLevelParentScaleFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1391)
---- @class ClickToDragMixin
+ --- @class ClickToDragMixin
 ClickToDragMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1406)
---- @class PanelDragBarMixin
+ --- @class PanelDragBarMixin
 PanelDragBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1503)
---- @class PanelResizeButtonMixin
+ --- @class PanelResizeButtonMixin
 PanelResizeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1648)
---- @class AlphaHighlightButtonMixin
+ --- @class AlphaHighlightButtonMixin
 AlphaHighlightButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1675)
---- @class IconSelectorPopupFrameTemplateMixin
+ --- @class IconSelectorPopupFrameTemplateMixin
 IconSelectorPopupFrameTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1909)
---- @class SelectedIconButtonMixin
+ --- @class SelectedIconButtonMixin
 SelectedIconButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1935)
---- @class IconSelectorEditBoxMixin
+ --- @class IconSelectorEditBoxMixin
 IconSelectorEditBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1968)
---- @class SearchBoxListElementMixin
+ --- @class SearchBoxListElementMixin
 SearchBoxListElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1980)
---- @class SearchBoxListMixin
+ --- @class SearchBoxListMixin
 SearchBoxListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L2239)
---- @class SquareExpandButtonMixin
+ --- @class SquareExpandButtonMixin
 SquareExpandButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L2264)
---- @class ExpandBarMixin
+ --- @class ExpandBarMixin
 ExpandBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L2342)
---- @class UIPanelIconDropdownButtonMixin
+ --- @class UIPanelIconDropdownButtonMixin
 UIPanelIconDropdownButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L2356)
---- @class BarDividerMixin
+ --- @class BarDividerMixin
 BarDividerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L2378)
---- @class ScrollBoxTextContainerMixin
+ --- @class ScrollBoxTextContainerMixin
 ScrollBoxTextContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L139)

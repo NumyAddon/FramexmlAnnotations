@@ -1,83 +1,83 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L28)
---- @class RecruitAFriendFrameMixin : CallbackRegistryMixin
+ --- @class RecruitAFriendFrameMixin : CallbackRegistryMixin
 RecruitAFriendFrameMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L829)
---- @class RecruitAFriendNextRewardInfoButtonMixin : RecruitAFriendSystemMixin
+ --- @class RecruitAFriendNextRewardInfoButtonMixin : RecruitAFriendSystemMixin
 RecruitAFriendNextRewardInfoButtonMixin = CreateFromMixins(RecruitAFriendSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L842)
---- @class RecruitAFriendVersionInfoButtonMixin : RecruitAFriendSystemMixin
+ --- @class RecruitAFriendVersionInfoButtonMixin : RecruitAFriendSystemMixin
 RecruitAFriendVersionInfoButtonMixin = CreateFromMixins(RecruitAFriendSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L859)
---- @class RecruitAFriendClaimRewardButtonBaseMixin : RecruitAFriendSystemMixin
+ --- @class RecruitAFriendClaimRewardButtonBaseMixin : RecruitAFriendSystemMixin
 RecruitAFriendClaimRewardButtonBaseMixin = CreateFromMixins(RecruitAFriendSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1047)
---- @class RecruitAFriendRewardsFrameMixin : RecruitAFriendSystemMixin
+ --- @class RecruitAFriendRewardsFrameMixin : RecruitAFriendSystemMixin
 RecruitAFriendRewardsFrameMixin = CreateFromMixins(RecruitAFriendSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1312)
---- @class RecruitAFriendRewardButtonWithCheckMixin : RecruitAFriendRewardButtonMixin
+ --- @class RecruitAFriendRewardButtonWithCheckMixin : RecruitAFriendRewardButtonMixin
 RecruitAFriendRewardButtonWithCheckMixin = CreateFromMixins(RecruitAFriendRewardButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1336)
---- @class RecruitAFriendRewardButtonWithFanfareMixin : RecruitAFriendRewardButtonMixin
+ --- @class RecruitAFriendRewardButtonWithFanfareMixin : RecruitAFriendRewardButtonMixin
 RecruitAFriendRewardButtonWithFanfareMixin = CreateFromMixins(RecruitAFriendRewardButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1435)
---- @class RecruitAFriendRewardTabMixin : RecruitAFriendSystemMixin
+ --- @class RecruitAFriendRewardTabMixin : RecruitAFriendSystemMixin
 RecruitAFriendRewardTabMixin = CreateFromMixins(RecruitAFriendSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L7)
---- @class RecruitAFriendSystemMixin
+ --- @class RecruitAFriendSystemMixin
 RecruitAFriendSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L493)
---- @class RecruitActivityButtonMixin
+ --- @class RecruitActivityButtonMixin
 RecruitActivityButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L651)
---- @class RecruitActivityButtonModelMixin
+ --- @class RecruitActivityButtonModelMixin
 RecruitActivityButtonModelMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L680)
---- @class RecruitListButtonMixin
+ --- @class RecruitListButtonMixin
 RecruitListButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L894)
---- @class RecruitAFriendClaimLegacyRewardsButtonMixin
+ --- @class RecruitAFriendClaimLegacyRewardsButtonMixin
 RecruitAFriendClaimLegacyRewardsButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L975)
---- @class RecruitAFriendClaimOrViewRewardButtonMixin
+ --- @class RecruitAFriendClaimOrViewRewardButtonMixin
 RecruitAFriendClaimOrViewRewardButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1170)
---- @class RecruitAFriendRewardMixin
+ --- @class RecruitAFriendRewardMixin
 RecruitAFriendRewardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1196)
---- @class RecruitAFriendRewardButtonMixin
+ --- @class RecruitAFriendRewardButtonMixin
 RecruitAFriendRewardButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1482)
---- @class RecruitAFriendRecruitmentButtonMixin
+ --- @class RecruitAFriendRecruitmentButtonMixin
 RecruitAFriendRecruitmentButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1507)
---- @class RecruitAFriendRecruitmentFrameMixin
+ --- @class RecruitAFriendRecruitmentFrameMixin
 RecruitAFriendRecruitmentFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1580)
---- @class RecruitAFriendGenerateOrCopyLinkButtonMixin
+ --- @class RecruitAFriendGenerateOrCopyLinkButtonMixin
 RecruitAFriendGenerateOrCopyLinkButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L1633)
---- @class RewardClaimingMixin
+ --- @class RewardClaimingMixin
 RewardClaimingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.lua#L20)

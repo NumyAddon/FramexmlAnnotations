@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClassTrialSecure/Blizzard_ClassTrialSecure.lua#L23)
---- @class ClassTrialSecureFrameMixin
+ --- @class ClassTrialSecureFrameMixin
 ClassTrialSecureFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClassTrialSecure/Blizzard_ClassTrialSecure.lua#L25)

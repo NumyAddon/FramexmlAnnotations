@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.lua#L32)
---- @class ClassTalentLoadoutEditDialogMixin
+ --- @class ClassTalentLoadoutEditDialogMixin
 ClassTalentLoadoutEditDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.lua#L103)
---- @class ClassTalentLoadoutEditDialogNameControlMixin
+ --- @class ClassTalentLoadoutEditDialogNameControlMixin
 ClassTalentLoadoutEditDialogNameControlMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.lua#L122)
---- @class UseSharedActionBarsMixin
+ --- @class UseSharedActionBarsMixin
 UseSharedActionBarsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutEditDialog.lua#L34)

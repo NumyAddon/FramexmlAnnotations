@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationManager.lua#L23)
---- @class NarrationManagerMixin
+ --- @class NarrationManagerMixin
 NarrationManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationManager.lua#L41)

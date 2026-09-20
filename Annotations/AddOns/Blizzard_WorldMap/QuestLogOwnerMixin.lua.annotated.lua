@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L7)
---- @class QuestLogOwnerMixin
+ --- @class QuestLogOwnerMixin
 QuestLogOwnerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L9)

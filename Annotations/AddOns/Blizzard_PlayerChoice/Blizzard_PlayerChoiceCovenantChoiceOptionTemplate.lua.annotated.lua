@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L1)
---- @class PlayerChoiceCovenantChoiceOptionTemplateMixin : PlayerChoiceBaseOptionTemplateMixin
+ --- @class PlayerChoiceCovenantChoiceOptionTemplateMixin : PlayerChoiceBaseOptionTemplateMixin
 PlayerChoiceCovenantChoiceOptionTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L3)

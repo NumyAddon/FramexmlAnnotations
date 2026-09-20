@@ -1,5 +1,5 @@
 
-BaseButtonTrayMixin = {};--- @class BaseButtonTrayMixin
+BaseButtonTrayMixin = {}; --- @class BaseButtonTrayMixin
 
 function BaseButtonTrayMixin:OnLoad()
 	self:SetFramePoolSetup(self.templateType, self.buttonTemplate);
@@ -33,7 +33,7 @@ function BaseButtonTrayMixin:EnumerateControls()
 end
 
 
-HorizontalButtonTrayMixin = {};--- @class HorizontalButtonTrayMixin
+HorizontalButtonTrayMixin = {}; --- @class HorizontalButtonTrayMixin
 
 function HorizontalButtonTrayMixin:OnLoad()
 	BaseButtonTrayMixin.OnLoad(self);
@@ -54,7 +54,7 @@ function HorizontalButtonTrayMixin:AddControl(label, controlCallback, ...)
 end
 
 
-GridButtonTrayMixin = {};--- @class GridButtonTrayMixin
+GridButtonTrayMixin = {}; --- @class GridButtonTrayMixin
 
 function GridButtonTrayMixin:OnLoad()
 	BaseButtonTrayMixin.OnLoad(self);

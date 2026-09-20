@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.TextWithSubtext, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateTextWithSubtext"}, GetTextWithSubtextVisInfoData);
 
-UIWidgetTemplateTextWithSubtextMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateTextWithSubtextMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateTextWithSubtextMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateTextWithSubtextMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateTextWithSubtextMixin:Setup(widgetInfo, widgetContainer)
 	UIWidgetBaseTemplateMixin.Setup(self, widgetInfo, widgetContainer);

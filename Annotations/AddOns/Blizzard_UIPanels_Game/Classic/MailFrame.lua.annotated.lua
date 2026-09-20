@@ -1101,7 +1101,7 @@ end
 
 local OPEN_ALL_MAIL_MIN_DELAY = 0.15;
 
-OpenAllMailMixin = {};--- @class OpenAllMailMixin
+OpenAllMailMixin = {}; --- @class OpenAllMailMixin
 
 function OpenAllMailMixin:Reset()
 	self.mailIndex = 1;

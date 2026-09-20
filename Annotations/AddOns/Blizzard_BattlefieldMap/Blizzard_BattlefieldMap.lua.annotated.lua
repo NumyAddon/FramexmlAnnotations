@@ -15,7 +15,7 @@ local defaultOptions = {
 	showPlayers = true,
 };
 
-BattlefieldMapTabMixin = {};--- @class BattlefieldMapTabMixin
+BattlefieldMapTabMixin = {}; --- @class BattlefieldMapTabMixin
 
 function BattlefieldMapTabMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonDown", "LeftButtonUp", "RightButtonUp");
@@ -126,7 +126,7 @@ function BattlefieldMapTabMixin:ShowOpacity()
 	OpacityFrameSlider:SetValue(BattlefieldMapOptions.opacity);
 end
 
-BattlefieldMapMixin = {};--- @class BattlefieldMapMixin
+BattlefieldMapMixin = {}; --- @class BattlefieldMapMixin
 
 function BattlefieldMapMixin:Toggle()
 	local instanceType = GetBattlefieldMapInstanceType();

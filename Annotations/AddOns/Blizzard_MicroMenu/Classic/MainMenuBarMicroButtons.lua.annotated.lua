@@ -302,7 +302,7 @@ function LFGMicroButton_OnLoad(self)
 	self.minLevel = SHOW_LFD_LEVEL;
 end
 
-MainMenuBarMicroButtonMixin = {};--- @class MainMenuBarMicroButtonMixin
+MainMenuBarMicroButtonMixin = {}; --- @class MainMenuBarMicroButtonMixin
 
 function MainMenuBarMicroButtonMixin:PostAddButtonCallback()
 	-- Social and Guild buttons have special show/hide logic based on which version of GuildUI they have opted into
@@ -313,7 +313,7 @@ function MainMenuBarMicroButtonMixin:PostAddButtonCallback()
 	end
 end
 
-SocialsMicroButtonMixin = {};--- @class SocialsMicroButtonMixin
+SocialsMicroButtonMixin = {}; --- @class SocialsMicroButtonMixin
 
 function SocialsMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "Socials");
@@ -358,7 +358,7 @@ function SocialsMicroButtonMixin:UpdateMicroButton()
 	end
 end
 
-GuildMicroButtonMixin = {};--- @class GuildMicroButtonMixin
+GuildMicroButtonMixin = {}; --- @class GuildMicroButtonMixin
 
 function GuildMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "Socials");
@@ -726,7 +726,7 @@ function AchievementMicroButton_OnEvent(event, ...)
 	end
 end
 
-CollectionMicroButtonMixin = {};--- @class CollectionMicroButtonMixin
+CollectionMicroButtonMixin = {}; --- @class CollectionMicroButtonMixin
 
 local function SafeSetCollectionJournalTab(tab)
 	if CollectionsJournal_SetTab then
@@ -811,7 +811,7 @@ function CollectionMicroButtonMixin:OnClick(button, down)
 	end
 end
 
-EJMicroButtonMixin = {};--- @class EJMicroButtonMixin
+EJMicroButtonMixin = {}; --- @class EJMicroButtonMixin
 
 function EJMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "EJ");
@@ -900,7 +900,7 @@ function EJMicroButtonMixin:OnClick(button, down)
 	end
 end
 
-StoreMicroButtonMixin = {};--- @class StoreMicroButtonMixin
+StoreMicroButtonMixin = {}; --- @class StoreMicroButtonMixin
 
 function StoreMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "BStore");
@@ -995,7 +995,7 @@ function StoreMicroButtonMixin:UpdateMicroButton()
 	end
 end
 
-MainMenuMicroButtonMixin = {};--- @class MainMenuMicroButtonMixin
+MainMenuMicroButtonMixin = {}; --- @class MainMenuMicroButtonMixin
 
 function MainMenuMicroButtonMixin:OnLoad()
 	LoadMicroButtonTextures(self, "MainMenu");

@@ -1,5 +1,5 @@
 -- All funcions here need a fully qualified name for event handler inheritance to work properly.
-QuickKeybindButtonTemplateMixin = {};--- @class QuickKeybindButtonTemplateMixin
+QuickKeybindButtonTemplateMixin = {}; --- @class QuickKeybindButtonTemplateMixin
 
 function QuickKeybindButtonTemplateMixin:QuickKeybindButtonOnShow(button, down)
 	EventRegistry:RegisterCallback("QuickKeybindFrame.QuickKeybindModeEnabled", self.UpdateMouseWheelHandler, self);
@@ -101,7 +101,7 @@ function QuickKeybindButtonTemplateMixin:DoModeChange(isInQuickbindMode)
 	end
 end
 
-QuickKeybindFrameMixin = {};--- @class QuickKeybindFrameMixin
+QuickKeybindFrameMixin = {}; --- @class QuickKeybindFrameMixin
 
 function QuickKeybindFrameMixin:OnLoad()
 	self.CancelButton:SetText(CANCEL);

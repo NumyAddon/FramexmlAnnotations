@@ -1,4 +1,4 @@
-ScriptBenchmarkMixin = {};--- @class ScriptBenchmarkMixin
+ScriptBenchmarkMixin = {}; --- @class ScriptBenchmarkMixin
 
 function ScriptBenchmarkMixin:OnStart(_iterationCount)
 	-- Derive and implement to run any logic before your benchmark has started.
@@ -20,7 +20,7 @@ function ScriptBenchmarkMixin:RunIteration(...)
 	-- Derive and implement the actual details of your benchmark here.
 end
 
-ScriptBenchmarkGarbageCollectorControlMixin = {};--- @class ScriptBenchmarkGarbageCollectorControlMixin
+ScriptBenchmarkGarbageCollectorControlMixin = {}; --- @class ScriptBenchmarkGarbageCollectorControlMixin
 
 function ScriptBenchmarkGarbageCollectorControlMixin:OnIterationStart(_iteration, _iterationCount)
 	collectgarbage("collect");

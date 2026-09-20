@@ -12,7 +12,7 @@ local function safesecurecall(fn, ...)
 	return securecall(fn, ...);
 end
 
-CircularBufferMixin = {}--- @class CircularBufferMixin
+CircularBufferMixin = {} --- @class CircularBufferMixin
 
 function CreateCircularBuffer(maxElements)
 	local circularBuffer = CreateFromMixins(CircularBufferMixin);

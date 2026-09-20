@@ -40,7 +40,7 @@ local LFGBROWSE_DISPLAYTYPE_PRIORITY = {
 -------------------------------------------------------
 ----------LFGBrowseMixin
 -------------------------------------------------------
-LFGBrowseMixin = {};--- @class LFGBrowseMixin
+LFGBrowseMixin = {}; --- @class LFGBrowseMixin
 
 function LFGBrowseMixin:OnLoad()
 	-- Event for entire list
@@ -883,7 +883,7 @@ end
 -------------------------------------------------------
 ----------LFGBrowseCategoryDropdownMixin
 -------------------------------------------------------
-LFGBrowseCategoryDropdownMixin = {};--- @class LFGBrowseCategoryDropdownMixin
+LFGBrowseCategoryDropdownMixin = {}; --- @class LFGBrowseCategoryDropdownMixin
 
 function LFGBrowseCategoryDropdownMixin:OnLoad()
 	self:SetWidth(118);
@@ -948,7 +948,7 @@ end
 -------------------------------------------------------
 ----------LFGBrowseActivityDropdownMixin
 -------------------------------------------------------
-LFGBrowseActivityDropdownMixin = {};--- @class LFGBrowseActivityDropdownMixin
+LFGBrowseActivityDropdownMixin = {}; --- @class LFGBrowseActivityDropdownMixin
 
 function LFGBrowseActivityDropdownMixin:OnLoad()
 	self.selectedValues = {};

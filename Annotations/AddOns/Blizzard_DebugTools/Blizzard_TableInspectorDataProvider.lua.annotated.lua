@@ -1,5 +1,5 @@
 
-TableInspectorDataProviderMixin = {};--- @class TableInspectorDataProviderMixin
+TableInspectorDataProviderMixin = {}; --- @class TableInspectorDataProviderMixin
 
 function TableInspectorDataProviderMixin:Initialize(tableInspector, parent)
 	self.tableInspector = tableInspector;

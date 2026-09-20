@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.UnitPowerBar, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateUnitPowerBar"}, GetUnitPowerBarVisInfoData);
 
-UIWidgetTemplateUnitPowerBarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin, UIWidgetBaseStatusBarTemplateMixin);--- @class UIWidgetTemplateUnitPowerBarMixin : UIWidgetBaseTemplateMixin, UIWidgetBaseStatusBarTemplateMixin
+UIWidgetTemplateUnitPowerBarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin, UIWidgetBaseStatusBarTemplateMixin); --- @class UIWidgetTemplateUnitPowerBarMixin : UIWidgetBaseTemplateMixin, UIWidgetBaseStatusBarTemplateMixin
 
 local textureKitRegionFormatStrings = {
 	["Frame"] = "%s-Frame",

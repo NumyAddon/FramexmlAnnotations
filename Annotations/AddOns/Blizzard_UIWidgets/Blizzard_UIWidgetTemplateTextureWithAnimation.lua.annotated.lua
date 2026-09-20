@@ -25,7 +25,7 @@ local textureKitRegionInfo = {
 	["Border"] = {formatString = "%s-border", setVisibility = true, useAtlasSize = true},
 };
 
-UIWidgetTemplateTextureWithAnimationMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateTextureWithAnimationMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateTextureWithAnimationMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateTextureWithAnimationMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateTextureWithAnimationMixin:StartAnimations()
 	if ( self.CenterEffect1:IsShown() ) then

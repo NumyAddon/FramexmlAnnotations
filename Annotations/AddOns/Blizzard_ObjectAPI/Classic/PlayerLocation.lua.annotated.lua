@@ -1,5 +1,5 @@
 PlayerLocation = {};
-PlayerLocationMixin = {};--- @class PlayerLocationMixin
+PlayerLocationMixin = {}; --- @class PlayerLocationMixin
 
 --[[static]] function PlayerLocation:CreateFromGUID(guid)
 	local playerLocation = CreateFromMixins(PlayerLocationMixin);

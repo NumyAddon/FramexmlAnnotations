@@ -22,7 +22,7 @@ function MacroFrame_SaveMacro()
 end
 
 
-MacroButtonMixin = {};--- @class MacroButtonMixin
+MacroButtonMixin = {}; --- @class MacroButtonMixin
 
 function MacroButtonMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -43,7 +43,7 @@ function MacroButtonMixin:OnDragStart()
 end
 
 
-MacroFrameMixin = {};--- @class MacroFrameMixin
+MacroFrameMixin = {}; --- @class MacroFrameMixin
 
 function MacroFrameMixin:OnLoad()
 	PanelTemplates_SetNumTabs(self, 2);

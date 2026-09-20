@@ -1,4 +1,4 @@
-ScrollBoxLinearBaseViewMixin = {};--- @class ScrollBoxLinearBaseViewMixin
+ScrollBoxLinearBaseViewMixin = {}; --- @class ScrollBoxLinearBaseViewMixin
 
 function ScrollBoxLinearBaseViewMixin:SetPadding(top, bottom, left, right, spacing)
 	local padding = CreateScrollBoxPadding(top, bottom, left, right, spacing);
@@ -59,7 +59,7 @@ function ScrollBoxLinearBaseViewMixin:HasBiaxalLayout()
 	return false;
 end
 
-ScrollBoxListLinearViewMixin = CreateFromMixins(ScrollBoxListViewMixin, ScrollBoxListStrideMixin, ScrollBoxLinearBaseViewMixin);--- @class ScrollBoxListLinearViewMixin : ScrollBoxListViewMixin, ScrollBoxListStrideMixin, ScrollBoxLinearBaseViewMixin
+ScrollBoxListLinearViewMixin = CreateFromMixins(ScrollBoxListViewMixin, ScrollBoxListStrideMixin, ScrollBoxLinearBaseViewMixin); --- @class ScrollBoxListLinearViewMixin : ScrollBoxListViewMixin, ScrollBoxListStrideMixin, ScrollBoxLinearBaseViewMixin
 
 function ScrollBoxListLinearViewMixin:Init(top, bottom, left, right, spacing)
 	ScrollBoxListViewMixin.Init(self);
@@ -248,7 +248,7 @@ function CreateScrollBoxListLinearView(top, bottom, left, right, spacing)
 end
 
 -- Simple option for scrolling regions without a data provider.
-ScrollBoxLinearViewMixin = CreateFromMixins(ScrollBoxViewMixin, ScrollBoxLinearBaseViewMixin);--- @class ScrollBoxLinearViewMixin : ScrollBoxViewMixin, ScrollBoxLinearBaseViewMixin
+ScrollBoxLinearViewMixin = CreateFromMixins(ScrollBoxViewMixin, ScrollBoxLinearBaseViewMixin); --- @class ScrollBoxLinearViewMixin : ScrollBoxViewMixin, ScrollBoxLinearBaseViewMixin
 
 function ScrollBoxLinearViewMixin:Init(top, bottom, left, right, spacing)
 	ScrollBoxViewMixin.Init(self);

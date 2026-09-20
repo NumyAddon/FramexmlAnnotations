@@ -1,7 +1,7 @@
 
 G_GameMenuFrameContextKey = "GameMenuFrame";
 
-GameMenuFrameMixin = {};--- @class GameMenuFrameMixin
+GameMenuFrameMixin = {}; --- @class GameMenuFrameMixin
 
 local GameMenuFrameEvents = {
 	"STORE_STATUS_CHANGED",

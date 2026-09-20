@@ -72,7 +72,7 @@ CastingBarTypeInfo = {
 	},
 };
 
-CastingBarMixin = {};--- @class CastingBarMixin
+CastingBarMixin = {}; --- @class CastingBarMixin
 
 --[[
 	Event Handlers
@@ -1344,7 +1344,7 @@ function CastingBarMixin:SimulateCast(castData)
 	self:UpdateShownState(true);
 end
 
-PlayerCastingBarMixin = {};--- @class PlayerCastingBarMixin
+PlayerCastingBarMixin = {}; --- @class PlayerCastingBarMixin
 
 function PlayerCastingBarMixin:OnLoad()
 	local showTradeSkills = true;
@@ -1363,7 +1363,7 @@ function PlayerCastingBarMixin:IsAttachedToPlayerFrame()
 end
 
 -- Alternate Player Casting Bar for use over frames whose content triggers contextual player casts
-OverlayPlayerCastingBarMixin = {};--- @class OverlayPlayerCastingBarMixin
+OverlayPlayerCastingBarMixin = {}; --- @class OverlayPlayerCastingBarMixin
 
 function OverlayPlayerCastingBarMixin:OnLoad()
 	local showTradeSkills = true;

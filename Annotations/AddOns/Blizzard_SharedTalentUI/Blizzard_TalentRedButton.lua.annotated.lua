@@ -1,6 +1,6 @@
 
 -- This is a display template so it doesn't dictate the functionality of the button.
-TalentRedButtonMixin = {};--- @class TalentRedButtonMixin
+TalentRedButtonMixin = {}; --- @class TalentRedButtonMixin
 
 function TalentRedButtonMixin:SetAndApplySize(_width, _height)
 	-- Overrides TalentDisplayMixin.

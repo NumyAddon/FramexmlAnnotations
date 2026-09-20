@@ -1,5 +1,5 @@
 
-SimpleCheckoutMixin = {};--- @class SimpleCheckoutMixin
+SimpleCheckoutMixin = {}; --- @class SimpleCheckoutMixin
 
 function SimpleCheckoutMixin:OnLoad()
 	self:RegisterEvent("STORE_OPEN_SIMPLE_CHECKOUT");
@@ -167,7 +167,7 @@ function SimpleCheckoutMixin:RecalculateSize()
 	SetOffsets(self.TopOutside, self.LeftOutside, self.BottomOutside, self.RightOutside, pixelSize, 0, 0, 0, 0);
 end
 
-SimpleCheckoutBackgroundMixin = {};--- @class SimpleCheckoutBackgroundMixin
+SimpleCheckoutBackgroundMixin = {}; --- @class SimpleCheckoutBackgroundMixin
 function SimpleCheckoutBackgroundMixin:OnLoad()
 	self:FixupToParent(UIParent);
 end

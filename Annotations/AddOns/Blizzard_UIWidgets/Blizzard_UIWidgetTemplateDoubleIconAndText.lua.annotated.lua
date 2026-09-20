@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.DoubleIconAndText, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateDoubleIconAndText"}, GetDoubleIconAndTextVisInfoData);
 
-UIWidgetTemplateDoubleIconAndTextMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateDoubleIconAndTextMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateDoubleIconAndTextMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateDoubleIconAndTextMixin : UIWidgetBaseTemplateMixin
 
 local textureKitRegions = {
 	["LeftIcon"] = "%s-leftIcon",

@@ -1,7 +1,7 @@
 
 -- Talent frame lists display talents in a vertical list, with each talent button stacked on top of the next.
 
-TalentFrameListMixin = {};--- @class TalentFrameListMixin
+TalentFrameListMixin = {}; --- @class TalentFrameListMixin
 
 function TalentFrameListMixin:UpdateAllTalentButtonPositions()
 	-- Overrides TalentFrameBaseMixin.

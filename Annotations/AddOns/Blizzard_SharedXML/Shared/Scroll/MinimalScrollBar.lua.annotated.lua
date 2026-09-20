@@ -1,5 +1,5 @@
 
-MinimalScrollBarStepperScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class MinimalScrollBarStepperScriptsMixin : ButtonStateBehaviorMixin
+MinimalScrollBarStepperScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class MinimalScrollBarStepperScriptsMixin : ButtonStateBehaviorMixin
 
 function MinimalScrollBarStepperScriptsMixin:OnLoad()
 	ButtonStateBehaviorMixin.OnLoad(self);
@@ -25,7 +25,7 @@ function MinimalScrollBarStepperScriptsMixin:OnButtonStateChanged()
 	self.Texture:SetAtlas(self:GetAtlas(), TextureKitConstants.UseAtlasSize);
 end
 
-MinimalScrollBarThumbScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class MinimalScrollBarThumbScriptsMixin : ButtonStateBehaviorMixin
+MinimalScrollBarThumbScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class MinimalScrollBarThumbScriptsMixin : ButtonStateBehaviorMixin
 
 function MinimalScrollBarThumbScriptsMixin:OnLoad()
 	ButtonStateBehaviorMixin.OnLoad(self);

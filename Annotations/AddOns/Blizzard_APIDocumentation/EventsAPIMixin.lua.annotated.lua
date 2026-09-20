@@ -1,4 +1,4 @@
-EventsAPIMixin = CreateFromMixins(BaseAPIMixin);--- @class EventsAPIMixin : BaseAPIMixin
+EventsAPIMixin = CreateFromMixins(BaseAPIMixin); --- @class EventsAPIMixin : BaseAPIMixin
 
 function EventsAPIMixin:GetParentName() -- override
 	if self.System then

@@ -1,5 +1,5 @@
 
-ButtonStateBehaviorMixin = {};--- @class ButtonStateBehaviorMixin
+ButtonStateBehaviorMixin = {}; --- @class ButtonStateBehaviorMixin
 
 function ButtonStateBehaviorMixin:OnLoad()
 	self:OnButtonStateChanged();

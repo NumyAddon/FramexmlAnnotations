@@ -9,7 +9,7 @@ local frameCreationSpecifiers = {
 }
 
 --Widget Handlers
-CompactRaidFrameContainerMixin = {};--- @class CompactRaidFrameContainerMixin
+CompactRaidFrameContainerMixin = {}; --- @class CompactRaidFrameContainerMixin
 
 function CompactRaidFrameContainerMixin:OnLoad()
 	FlowContainer_Initialize(self);	--Congrats! We are now a certified FlowContainer.

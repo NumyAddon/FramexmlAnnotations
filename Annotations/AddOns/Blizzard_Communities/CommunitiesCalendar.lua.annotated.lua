@@ -2,7 +2,7 @@
 local DEFAULT_NUM_DAYS_TO_PREVIEW = 4;
 local TOOLTIP_MAX_NUM_OF_CALENDER_EVENTS = 5;
 
-CommunitiesCalendarButtonMixin = {};--- @class CommunitiesCalendarButtonMixin
+CommunitiesCalendarButtonMixin = {}; --- @class CommunitiesCalendarButtonMixin
 
 function CommunitiesCalendarButtonMixin:ShouldEverShow()
 	return C_GuildInfo.AreGuildEventsEnabled();

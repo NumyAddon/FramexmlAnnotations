@@ -202,7 +202,7 @@ function AuctionFrame_CreateCategory(name)
 	return category;
 end
 
-AuctionCategoryMixin = {};--- @class AuctionCategoryMixin
+AuctionCategoryMixin = {}; --- @class AuctionCategoryMixin
 
 function AuctionCategoryMixin:SetDetailColumnString(detailColumnString)
 	self.detailColumnString = detailColumnString;

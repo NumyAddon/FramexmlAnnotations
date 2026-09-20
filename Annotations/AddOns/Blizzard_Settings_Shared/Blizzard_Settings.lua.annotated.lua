@@ -21,10 +21,10 @@ Settings.Default =
 	False = false,
 };
 
-Settings.CategorySet = EnumUtil.MakeEnum("Game", "AddOns");--- @type {["Game"]: 1, ["AddOns"]: 2} See [Settings.CategorySet](lua://Settings.CategorySet)
+Settings.CategorySet = EnumUtil.MakeEnum("Game", "AddOns"); --- @type {["Game"]: 1, ["AddOns"]: 2} # See [Settings.CategorySet](lua://Settings.CategorySet)
 
 -- Used for adding different types of controls to SettingsControlTextContainerMixin.
-Settings.ControlType = EnumUtil.MakeEnum("Radio", "Checkbox");--- @type {["Radio"]: 1, ["Checkbox"]: 2} See [Settings.ControlType](lua://Settings.ControlType)
+Settings.ControlType = EnumUtil.MakeEnum("Radio", "Checkbox"); --- @type {["Radio"]: 1, ["Checkbox"]: 2} # See [Settings.ControlType](lua://Settings.ControlType)
 
 Settings.CommitFlag = FlagsUtil.MakeFlags(
 	"ClientRestart",
@@ -47,7 +47,7 @@ SettingsCallbackRegistry:GenerateCallbackEvents(
 );
 SettingsCallbackRegistry:OnLoad();
 
-SettingsSearchableElementMixin = {};--- @class SettingsSearchableElementMixin
+SettingsSearchableElementMixin = {}; --- @class SettingsSearchableElementMixin
 
 function SettingsSearchableElementMixin:AddSearchTags(...)
 	if not self.searchTags then
@@ -231,7 +231,7 @@ function Settings.SetValue(variable, value, force)
 	end
 end
 
-local SettingsControlTextContainerMixin = {};--- @class SettingsControlTextContainerMixin
+local SettingsControlTextContainerMixin = {}; --- @class SettingsControlTextContainerMixin
 
 function SettingsControlTextContainerMixin:Init()
 	self.data = {};
@@ -296,7 +296,7 @@ function Settings.InitTooltip(name, tooltip)
 	end
 end
 
-SettingsSliderOptionsMixin = {};--- @class SettingsSliderOptionsMixin
+SettingsSliderOptionsMixin = {}; --- @class SettingsSliderOptionsMixin
 
 function SettingsSliderOptionsMixin:SetLabelFormatter(labelType, value)
 	if not self.formatters then
@@ -667,7 +667,7 @@ function Settings.IsCommitInProgress()
 	return SettingsPanel:IsCommitInProgress();
 end
 
-SettingsCallbackHandleContainerMixin = CreateFromMixins(CallbackHandleContainerMixin);--- @class SettingsCallbackHandleContainerMixin : CallbackHandleContainerMixin
+SettingsCallbackHandleContainerMixin = CreateFromMixins(CallbackHandleContainerMixin); --- @class SettingsCallbackHandleContainerMixin : CallbackHandleContainerMixin
 
 function SettingsCallbackHandleContainerMixin:Init()
 	CallbackHandleContainerMixin.Init(self);

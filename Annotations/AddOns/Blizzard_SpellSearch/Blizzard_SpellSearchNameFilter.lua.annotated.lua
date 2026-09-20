@@ -1,5 +1,5 @@
 -- Very similar search filter to SpellSearchTextFilterMixin, but super slimmed down as it only evaluates names
-SpellSearchNameFilterMixin = CreateFromMixins(BaseSpellSearchFilterMixin);--- @class SpellSearchNameFilterMixin : BaseSpellSearchFilterMixin
+SpellSearchNameFilterMixin = CreateFromMixins(BaseSpellSearchFilterMixin); --- @class SpellSearchNameFilterMixin : BaseSpellSearchFilterMixin
 
 -------------------------------- Public Functions -------------------------------
 

@@ -1,4 +1,4 @@
-RTTSMixin = CreateFromMixins(SettingsDropdownControlMixin);--- @class RTTSMixin : SettingsDropdownControlMixin
+RTTSMixin = CreateFromMixins(SettingsDropdownControlMixin); --- @class RTTSMixin : SettingsDropdownControlMixin
 
 function RTTSMixin:OnLoad()
 	SettingsDropdownControlMixin.OnLoad(self);

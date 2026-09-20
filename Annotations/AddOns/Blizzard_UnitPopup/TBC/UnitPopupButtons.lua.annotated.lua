@@ -1,4 +1,4 @@
-UnitPopupTeamPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupTeamPromoteButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupTeamPromoteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupTeamPromoteButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupTeamPromoteButtonMixin:GetText(contextData)
 	return TEAM_PROMOTE; 
@@ -30,7 +30,7 @@ function UnitPopupTeamPromoteButtonMixin:OnClick(contextData)
 	end
 end
 
-UnitPopupTeamKickButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupTeamKickButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupTeamKickButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupTeamKickButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupTeamKickButtonMixin:GetText(contextData)
 	return TEAM_KICK; 
@@ -62,7 +62,7 @@ function UnitPopupTeamKickButtonMixin:OnClick(contextData)
 	end
 end
 
-UnitPopupTeamLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupTeamLeaveButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupTeamLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupTeamLeaveButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupTeamLeaveButtonMixin:GetText(contextData)
 	return TEAM_LEAVE; 
@@ -86,7 +86,7 @@ function UnitPopupTeamLeaveButtonMixin:OnClick(contextData)
 	StaticPopup_Show("CONFIRM_TEAM_LEAVE", arenaName, nil, team);
 end
 
-UnitPopupTeamDisbandButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupTeamDisbandButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupTeamDisbandButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin); --- @class UnitPopupTeamDisbandButtonMixin : UnitPopupButtonBaseMixin
 
 function UnitPopupTeamDisbandButtonMixin:GetText(contextData)
 	return TEAM_DISBAND; 

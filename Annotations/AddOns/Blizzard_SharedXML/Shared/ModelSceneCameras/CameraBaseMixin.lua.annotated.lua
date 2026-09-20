@@ -1,5 +1,5 @@
 
-CameraBaseMixin = {};--- @class CameraBaseMixin
+CameraBaseMixin = {}; --- @class CameraBaseMixin
 
 function CameraBaseMixin:SetOwningScene(owningScene)
 	if self.owningScene ~= owningScene then

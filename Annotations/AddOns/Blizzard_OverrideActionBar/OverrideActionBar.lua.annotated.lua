@@ -41,7 +41,7 @@ local xpBarTextureList = {
 
 local MAX_ALT_SPELLBUTTONS = 6;
 
-OverrideActionBarMixin = {};--- @class OverrideActionBarMixin
+OverrideActionBarMixin = {}; --- @class OverrideActionBarMixin
 
 function OverrideActionBarMixin:OnLoad()
 	-- Overriding is shown so that it returns false if the frame is animating out as well
@@ -308,7 +308,7 @@ function OverrideActionBarMixin:IsShownOverride()
 	return self:IsShownBase() and (not self.slideOut:IsPlaying() or self.slideOut:IsReverse());
 end
 
-OverrideActionBarButtonMixin = {};--- @class OverrideActionBarButtonMixin
+OverrideActionBarButtonMixin = {}; --- @class OverrideActionBarButtonMixin
 
 local START_JOB_SPELL_ID = 455055;
 

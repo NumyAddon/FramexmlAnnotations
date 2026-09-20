@@ -14,7 +14,7 @@
 -- TalentButtonSelectMixin. These Mixins expect to be applied on top of a frame template that is derived
 -- from TalentDisplayTemplate.
 
-TalentButtonBaseMixin = {};--- @class TalentButtonBaseMixin
+TalentButtonBaseMixin = {}; --- @class TalentButtonBaseMixin
 
 function TalentButtonBaseMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");

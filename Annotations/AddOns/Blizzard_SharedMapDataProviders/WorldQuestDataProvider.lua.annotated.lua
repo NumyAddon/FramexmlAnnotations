@@ -1,4 +1,4 @@
-WorldQuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class WorldQuestDataProviderMixin : MapCanvasDataProviderMixin
+WorldQuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class WorldQuestDataProviderMixin : MapCanvasDataProviderMixin
 
 function WorldQuestDataProviderMixin:SetMatchWorldMapFilters(matchWorldMapFilters)
 	local wasMatchingWorldMapFilters = self:IsMatchingWorldMapFilters();
@@ -338,7 +338,7 @@ function WorldQuestDataProviderMixin:IsQuestSuppressed(questID)
 end
 
 --[[ World Quest Pin ]]--
-WorldQuestPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class WorldQuestPinMixin : MapCanvasPinMixin
+WorldQuestPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class WorldQuestPinMixin : MapCanvasPinMixin
 
 function WorldQuestPinMixin:OnLoad()
 	self.UpdateTooltip = self.OnMouseEnter;
@@ -439,7 +439,7 @@ function WorldQuestPinMixin:OnMouseUp()
 end
 
 --[[ World Quest Spell Effect Pin ]]--
-WorldQuestSpellEffectPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class WorldQuestSpellEffectPinMixin : MapCanvasPinMixin
+WorldQuestSpellEffectPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class WorldQuestSpellEffectPinMixin : MapCanvasPinMixin
 
 function WorldQuestSpellEffectPinMixin:OnLoad()
 	self:SetDisplayInfo(11686); 	-- 11686 is invisible stalker
@@ -476,7 +476,7 @@ function WorldQuestSpellEffectPinMixin:CastSpell(questID)
 end
 
 --[[ World Quest Ping Pin ]]--
-WorldQuestPingPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class WorldQuestPingPinMixin : MapCanvasPinMixin
+WorldQuestPingPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class WorldQuestPingPinMixin : MapCanvasPinMixin
 
 function WorldQuestPingPinMixin:OnLoad()
 	self:SetScalingLimits(1, 0.5, 0.5);
@@ -512,7 +512,7 @@ function WorldQuestPingPinMixin:IsAttachedToQuest(questID)
 	return self.questID == questID;
 end
 
-WorldQuestPinPingDriverAnimationMixin = {};--- @class WorldQuestPinPingDriverAnimationMixin
+WorldQuestPinPingDriverAnimationMixin = {}; --- @class WorldQuestPinPingDriverAnimationMixin
 
 function WorldQuestPinPingDriverAnimationMixin:OnFinished()
 	local ping = self:GetParent();

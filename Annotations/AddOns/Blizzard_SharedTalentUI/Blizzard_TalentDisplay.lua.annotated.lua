@@ -24,7 +24,7 @@ local SubTypeToColor = {
 };
 
 
-TalentDisplayMixin = CreateFromMixins(TalentDisplayAnimationStateControllerMixin);--- @class TalentDisplayMixin : TalentDisplayAnimationStateControllerMixin
+TalentDisplayMixin = CreateFromMixins(TalentDisplayAnimationStateControllerMixin); --- @class TalentDisplayMixin : TalentDisplayAnimationStateControllerMixin
 
 function TalentDisplayMixin:OnEnter()
 	local spellID = self:GetSpellID();

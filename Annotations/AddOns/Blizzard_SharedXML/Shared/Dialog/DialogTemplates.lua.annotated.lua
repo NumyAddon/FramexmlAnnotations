@@ -1,5 +1,5 @@
 
-DialogHeaderMixin = {};--- @class DialogHeaderMixin
+DialogHeaderMixin = {}; --- @class DialogHeaderMixin
 
 function DialogHeaderMixin:OnLoad()
 	if self.textString then

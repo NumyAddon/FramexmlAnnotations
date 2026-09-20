@@ -1,5 +1,5 @@
 ItemLocation = {};
-ItemLocationMixin = {};--- @class ItemLocationMixin
+ItemLocationMixin = {}; --- @class ItemLocationMixin
 
 --[[static]] function ItemLocation:CreateEmpty()
 	local itemLocation = CreateFromMixins(ItemLocationMixin);

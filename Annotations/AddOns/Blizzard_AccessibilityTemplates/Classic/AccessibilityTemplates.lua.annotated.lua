@@ -1,4 +1,4 @@
-UIThemeContainerMixin = {};--- @class UIThemeContainerMixin
+UIThemeContainerMixin = {}; --- @class UIThemeContainerMixin
 
 function UIThemeContainerMixin:UIThemeContainerFrame_OnPreLoad()
 end

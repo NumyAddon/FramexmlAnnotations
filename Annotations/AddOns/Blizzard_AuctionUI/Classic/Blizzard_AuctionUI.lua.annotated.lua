@@ -2298,7 +2298,7 @@ function CloseAuctionStaticPopups()
 	StaticPopup_Hide("AUCTION_HOUSE_POST_ERROR");
 end
 
-AuctionPostMixin = {};--- @class AuctionPostMixin
+AuctionPostMixin = {}; --- @class AuctionPostMixin
 
 function AuctionPostMixin:OnClick()
 	local itemId, itemGUID = select(10, GetAuctionSellItemInfo());

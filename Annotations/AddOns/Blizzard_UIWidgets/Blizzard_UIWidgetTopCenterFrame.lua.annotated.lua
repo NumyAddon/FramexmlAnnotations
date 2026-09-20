@@ -1,4 +1,4 @@
-UIWidgetTopCenterContainerMixin = {}--- @class UIWidgetTopCenterContainerMixin
+UIWidgetTopCenterContainerMixin = {} --- @class UIWidgetTopCenterContainerMixin
 
 function UIWidgetTopCenterContainerMixin:OnLoad()
 	UIWidgetContainerMixin.OnLoad(self);

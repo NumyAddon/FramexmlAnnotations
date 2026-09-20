@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.DoubleStateIconRow, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateDoubleStateIconRow"}, GetDoubleStateIconRowVisInfoData);
 
-UIWidgetTemplateDoubleStateIconRowMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateDoubleStateIconRowMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateDoubleStateIconRowMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateDoubleStateIconRowMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateDoubleStateIconRowMixin:Setup(widgetInfo, widgetContainer)
 	UIWidgetBaseTemplateMixin.Setup(self, widgetInfo, widgetContainer);

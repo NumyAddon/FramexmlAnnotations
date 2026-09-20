@@ -50,7 +50,7 @@ function Vector2D_RotateDirection(rotationRadians, x, y)
 	return x * cosValue - y * sinValue, x * sinValue + y * cosValue;
 end
 
-Vector2DMixin = {};--- @class Vector2DMixin
+Vector2DMixin = {}; --- @class Vector2DMixin
 
 function CreateVector2D(x, y)
 	local vector = CreateFromMixins(Vector2DMixin);

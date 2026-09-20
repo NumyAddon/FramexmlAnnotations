@@ -3,7 +3,7 @@ local DialogPopupEvent_Hidden = "DialogPopupEvent.Hidden";
 ---------------------------------------------------------------------------------------------------
 -- DialogButtonMixin is the button used to toggle on and off a DialogPopupMixin.
 
-DialogButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class DialogButtonMixin : ButtonStateBehaviorMixin
+DialogButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class DialogButtonMixin : ButtonStateBehaviorMixin
 
 function DialogButtonMixin:OnLoad()
 	ButtonStateBehaviorMixin.OnLoad(self);
@@ -104,7 +104,7 @@ end
 -- DialogPopupMixin is the container that is shown or hidden as the result of clicking a DialogButtonMixin
 -- It is responsible for positioning itself relative to the DialogButtonMixin and updating its background.
 
-DialogPopupMixin = {};--- @class DialogPopupMixin
+DialogPopupMixin = {}; --- @class DialogPopupMixin
 
 function DialogPopupMixin:IsAttachedToButton(dialogButton)
 	return self.dialogButton == dialogButton;

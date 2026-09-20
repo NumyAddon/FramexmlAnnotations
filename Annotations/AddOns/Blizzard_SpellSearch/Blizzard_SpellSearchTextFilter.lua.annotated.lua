@@ -1,5 +1,5 @@
 -- Spell search filter for finding spells based on evaluating search text against names and descriptions
-SpellSearchTextFilterMixin = CreateFromMixins(BaseSpellSearchFilterMixin);--- @class SpellSearchTextFilterMixin : BaseSpellSearchFilterMixin
+SpellSearchTextFilterMixin = CreateFromMixins(BaseSpellSearchFilterMixin); --- @class SpellSearchTextFilterMixin : BaseSpellSearchFilterMixin
 
 -------------------------------- Public Functions -------------------------------
 

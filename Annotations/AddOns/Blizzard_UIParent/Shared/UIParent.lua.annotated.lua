@@ -116,7 +116,7 @@ function ReverseQuestObjective(text, objectiveType)
   end
 end
 
-UIParentManagedFrameMixin = { };--- @class UIParentManagedFrameMixin
+UIParentManagedFrameMixin = { }; --- @class UIParentManagedFrameMixin
 function UIParentManagedFrameMixin:OnShow()
 	self.layoutParent:AddManagedFrame(self);
 end
@@ -142,7 +142,7 @@ local function UpdateFrameAlphaState(frame, isActionBarOverriden)
 	end
 end
 
-UIParentManagedFrameContainerMixin = {};--- @class UIParentManagedFrameContainerMixin
+UIParentManagedFrameContainerMixin = {}; --- @class UIParentManagedFrameContainerMixin
 
 function UIParentManagedFrameContainerMixin:OnLoad()
 	self.showingFrames = {};

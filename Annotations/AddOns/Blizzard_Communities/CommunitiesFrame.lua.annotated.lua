@@ -1,7 +1,7 @@
 
 g_clubIdToSeenApplicants = g_clubIdToSeenApplicants or nil;
 
-CommunitiesFrameMixin = CreateFromMixins(CallbackRegistryMixin);--- @class CommunitiesFrameMixin : CallbackRegistryMixin
+CommunitiesFrameMixin = CreateFromMixins(CallbackRegistryMixin); --- @class CommunitiesFrameMixin : CallbackRegistryMixin
 
 CommunitiesFrameMixin:GenerateCallbackEvents(
 {
@@ -1651,7 +1651,7 @@ function CommunitiesFrameMaximizeMinimizeButton_OnLoad(self)
 	self:SetMinimizedCVar("miniCommunitiesFrame");
 end
 
-CommunitiesControlFrameMixin = {};--- @class CommunitiesControlFrameMixin
+CommunitiesControlFrameMixin = {}; --- @class CommunitiesControlFrameMixin
 
 function CommunitiesControlFrameMixin:OnShow()
 	self:Update();

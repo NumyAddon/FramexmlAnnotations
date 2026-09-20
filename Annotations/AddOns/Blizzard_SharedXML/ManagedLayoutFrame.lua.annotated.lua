@@ -1,5 +1,5 @@
 
-ManagedLayoutFrameMixin = {};--- @class ManagedLayoutFrameMixin
+ManagedLayoutFrameMixin = {}; --- @class ManagedLayoutFrameMixin
 
 function ManagedLayoutFrameMixin:OnLoad()
 	if self.templateType then
@@ -34,7 +34,7 @@ function ManagedLayoutFrameMixin:EnumerateActive()
 	return self.contentFramePool:EnumerateActive();
 end
 
-ContentFrameMixin = {}--- @class ContentFrameMixin
+ContentFrameMixin = {} --- @class ContentFrameMixin
 
 function ContentFrameMixin:SetContent(content)
 	-- Override in your mixin.

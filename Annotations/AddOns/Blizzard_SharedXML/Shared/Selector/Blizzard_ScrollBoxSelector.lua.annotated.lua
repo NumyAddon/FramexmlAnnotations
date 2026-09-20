@@ -1,5 +1,5 @@
 
-ScrollBoxSelectorMixin = {};--- @class ScrollBoxSelectorMixin
+ScrollBoxSelectorMixin = {}; --- @class ScrollBoxSelectorMixin
 
 function ScrollBoxSelectorMixin:OnShow()
 	if not self.initialized then

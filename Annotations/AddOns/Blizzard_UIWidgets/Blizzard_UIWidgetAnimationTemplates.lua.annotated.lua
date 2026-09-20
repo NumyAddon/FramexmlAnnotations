@@ -1,4 +1,4 @@
-TorghastGemsAnimationMixin = {};--- @class TorghastGemsAnimationMixin
+TorghastGemsAnimationMixin = {}; --- @class TorghastGemsAnimationMixin
 
 function TorghastGemsAnimationMixin:Reset()
 	self.Anim:Stop();	

@@ -514,7 +514,7 @@ function FriendsFrame_OnHide()
 	FriendsFriendsFrame:Hide();
 end
 
-FriendsTabHeaderMixin = {};--- @class FriendsTabHeaderMixin
+FriendsTabHeaderMixin = {}; --- @class FriendsTabHeaderMixin
 
 
 function FriendsTabHeaderMixin:OnLoad()
@@ -619,7 +619,7 @@ function FriendsListFrame_ToggleInvites()
 	FriendsList_Update();
 end
 
-FriendsFrameInviteTemplateMixin = {};--- @class FriendsFrameInviteTemplateMixin
+FriendsFrameInviteTemplateMixin = {}; --- @class FriendsFrameInviteTemplateMixin
 
 function FriendsFrameInviteTemplateMixin:OnLoad()
 	self.DeclineButton:SetupMenu(function(dropdown, rootDescription)
@@ -2078,7 +2078,7 @@ function FriendsFriendsFrame_Close()
 	StaticPopupSpecial_Hide(FriendsFriendsFrame);
 end
 
-FriendsFriendsFrameMixin = {};--- @class FriendsFriendsFrameMixin
+FriendsFriendsFrameMixin = {}; --- @class FriendsFriendsFrameMixin
 
 function FriendsFriendsFrameMixin:OnLoad()
 	self:RegisterEvent("BN_REQUEST_FOF_SUCCEEDED");
@@ -3372,7 +3372,7 @@ function GuildFrame_CheckName()
 	end
 end
 
-GuildFrameMemberNoteMixin = {};--- @class GuildFrameMemberNoteMixin
+GuildFrameMemberNoteMixin = {}; --- @class GuildFrameMemberNoteMixin
 
 function GuildFrameMemberNoteMixin:GetStaticPopupDialog()
 	if self:IsPublicNote() then

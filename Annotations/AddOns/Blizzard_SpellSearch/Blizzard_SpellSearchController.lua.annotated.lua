@@ -1,4 +1,4 @@
-SpellSearchControllerMixin = {}--- @class SpellSearchControllerMixin
+SpellSearchControllerMixin = {} --- @class SpellSearchControllerMixin
 
 -- Initializes search controller instance with the provided SpellSearchSource instances
 function SpellSearchControllerMixin:Init(searchSourceInstances)

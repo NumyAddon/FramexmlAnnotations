@@ -30,7 +30,7 @@
 ----------------------------------------------------------------------------------
 -- AsyncRequestMixin
 ----------------------------------------------------------------------------------
-local AsyncRequestMixin = {};--- @class AsyncRequestMixin
+local AsyncRequestMixin = {}; --- @class AsyncRequestMixin
 
 function AsyncRequestMixin:Init(asyncRequestInput)
 	Mixin(self, asyncRequestInput);

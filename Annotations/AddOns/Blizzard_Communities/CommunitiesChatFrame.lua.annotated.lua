@@ -17,7 +17,7 @@ function GetCommunitiesChatPermissionOptions()
 	};
 end
 
-CommunitiesChatMixin = {}--- @class CommunitiesChatMixin
+CommunitiesChatMixin = {} --- @class CommunitiesChatMixin
 
 function CommunitiesChatMixin:OnLoad()
 	self.MessageFrame:SetMaxLines(MAX_NUM_CHAT_LINES);

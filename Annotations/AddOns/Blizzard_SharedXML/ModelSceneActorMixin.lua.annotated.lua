@@ -1,5 +1,5 @@
 
-ModelSceneActorMixin = {};--- @class ModelSceneActorMixin
+ModelSceneActorMixin = {}; --- @class ModelSceneActorMixin
 
 -- "public" methods
 function ModelSceneActorMixin:ApplyFromModelSceneActorInfo(actorInfo)

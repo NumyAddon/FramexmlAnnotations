@@ -6,7 +6,7 @@ local WIDGET_CONTAINER_DEBUG_TEXTURE_SHOW = false;
 local WIDGET_CONTAINER_DEBUG_TEXTURE_COLOR = CreateColor(1.0, 0.1, 0.1, 0.6);
 local WIDGET_DEBUG_CUSTOM_TEXTURE_COLOR = CreateColor(1.0, 1.0, 0.0, 0.6);
 
-UIWidgetHorizontalWidgetContainerMixin = {};--- @class UIWidgetHorizontalWidgetContainerMixin
+UIWidgetHorizontalWidgetContainerMixin = {}; --- @class UIWidgetHorizontalWidgetContainerMixin
 
 function UIWidgetHorizontalWidgetContainerMixin:OnLoad()
 	self.parentWidgetContainer = self:GetParent();
@@ -26,7 +26,7 @@ function UIWidgetHorizontalWidgetContainerMixin:AddChildWidget(widgetFrame)
 	widgetFrame:SetParent(self);
 end
 
-UIWidgetContainerMixin = {};--- @class UIWidgetContainerMixin
+UIWidgetContainerMixin = {}; --- @class UIWidgetContainerMixin
 
 local function ResetHorizontalWidgetContainer(framePool, frame)
 	frame:ResetChildWidgets();
@@ -607,7 +607,7 @@ function UIWidgetContainerMixin:UpdateWidgetLayout()
 	self:MarkCleanLayout();
 end
 
-UIWidgetContainerResizeMixin = CreateFromMixins(OverrideLayoutFrameOnUpdateMixin);--- @class UIWidgetContainerResizeMixin : OverrideLayoutFrameOnUpdateMixin
+UIWidgetContainerResizeMixin = CreateFromMixins(OverrideLayoutFrameOnUpdateMixin); --- @class UIWidgetContainerResizeMixin : OverrideLayoutFrameOnUpdateMixin
 
 -- Override and call the base in your derived mixin.
 function UIWidgetContainerResizeMixin:NeedsOnUpdate()
@@ -630,7 +630,7 @@ function UIWidgetContainerResizeMixin:OverrideOnUpdate(_elapsed)
 	self:UpdateWidgetLayout();
 end
 
-UIWidgetManagerMixin = {};--- @class UIWidgetManagerMixin
+UIWidgetManagerMixin = {}; --- @class UIWidgetManagerMixin
 
 function UIWidgetManagerMixin:OnLoad()
 	self.widgetVisTypeInfo = {};

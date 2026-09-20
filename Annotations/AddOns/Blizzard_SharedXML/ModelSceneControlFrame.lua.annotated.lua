@@ -4,7 +4,7 @@ local DEFAULT_ROTATE_INCREMENT = 0.05;
 
 --------------------------------------------------
 -- MODEL SCENE CONTROL FRAME MIXIN
-ModelSceneControlFrameMixin = {};--- @class ModelSceneControlFrameMixin
+ModelSceneControlFrameMixin = {}; --- @class ModelSceneControlFrameMixin
 function ModelSceneControlFrameMixin:OnLoad()
 	if self.enableZoom then
 		local increment = self:GetZoomIncrement();
@@ -121,7 +121,7 @@ end
 
 --------------------------------------------------
 -- MODEL SCENE CONTROL BUTTON MIXIN
-ModelSceneControlButtonMixin = {};--- @class ModelSceneControlButtonMixin
+ModelSceneControlButtonMixin = {}; --- @class ModelSceneControlButtonMixin
 function ModelSceneControlButtonMixin:Init(clickTypes, atlas, tooltip, tooltipText)
 	self:RegisterForClicks(clickTypes);
 	if atlas then
@@ -172,7 +172,7 @@ end
 
 --------------------------------------------------
 -- MODEL ZOOM BUTTON MIXIN
-ModelSceneZoomButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin);--- @class ModelSceneZoomButtonMixin : ModelSceneControlButtonMixin
+ModelSceneZoomButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin); --- @class ModelSceneZoomButtonMixin : ModelSceneControlButtonMixin
 function ModelSceneZoomButtonMixin:OnLoad()
 	self.zoomAmount = 0;
 end
@@ -200,7 +200,7 @@ end
 
 --------------------------------------------------
 -- MODEL SCENE ROTATE BUTTON MIXIN
-ModelScenelRotateButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin);--- @class ModelScenelRotateButtonMixin : ModelSceneControlButtonMixin
+ModelScenelRotateButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin); --- @class ModelScenelRotateButtonMixin : ModelSceneControlButtonMixin
 function ModelScenelRotateButtonMixin:OnLoad()
 	ModelSceneControlButtonMixin.OnLoad(self);
 	self.rotateDirection = "none";
@@ -243,7 +243,7 @@ end
 
 --------------------------------------------------
 -- MODEL SCENE RESET BUTTON MIXIN
-ModelSceneResetButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin);--- @class ModelSceneResetButtonMixin : ModelSceneControlButtonMixin
+ModelSceneResetButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin); --- @class ModelSceneResetButtonMixin : ModelSceneControlButtonMixin
 function ModelSceneResetButtonMixin:OnLoad()
 	ModelSceneControlButtonMixin.OnLoad(self);
 end

@@ -1,4 +1,4 @@
-PredictedSettingBaseMixin = {};--- @class PredictedSettingBaseMixin
+PredictedSettingBaseMixin = {}; --- @class PredictedSettingBaseMixin
 
 -- The wrapTable here should have functions to specific keys based on which type of setting you are wrapping.
 -- All tables must have a getFunction key that returns the "real" value.
@@ -20,7 +20,7 @@ function PredictedSettingBaseMixin:Get()
 	return self.wrapTable.getFunction();
 end
 
-PredictedSettingMixin = CreateFromMixins(PredictedSettingBaseMixin);--- @class PredictedSettingMixin : PredictedSettingBaseMixin
+PredictedSettingMixin = CreateFromMixins(PredictedSettingBaseMixin); --- @class PredictedSettingMixin : PredictedSettingBaseMixin
 
 function PredictedSettingMixin:Set(value)
 	local validated = self.wrapTable.setFunction(value);
@@ -35,7 +35,7 @@ function CreatePredictedSetting(wrapTable)
 	return predictedSetting;
 end
 
-PredictedToggleMixin = CreateFromMixins(PredictedSettingBaseMixin)--- @class PredictedToggleMixin : PredictedSettingBaseMixin
+PredictedToggleMixin = CreateFromMixins(PredictedSettingBaseMixin) --- @class PredictedToggleMixin : PredictedSettingBaseMixin
 
 function PredictedToggleMixin:SetUp(wrapTable)
 	PredictedSettingBaseMixin.SetUp(self, wrapTable);

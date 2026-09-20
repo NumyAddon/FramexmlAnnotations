@@ -1,5 +1,5 @@
 
-SpinnerMixin = {};--- @class SpinnerMixin
+SpinnerMixin = {}; --- @class SpinnerMixin
 
 function SpinnerMixin:OnShow()
 	if self.Shadow then
@@ -71,7 +71,7 @@ function SpinnerMixin:UpdateTheme(useDarkMode)
 	self:SetShadowEnabled(not useDarkMode);
 end
 
-SpinnerWithShadowMixin = {};--- @class SpinnerWithShadowMixin
+SpinnerWithShadowMixin = {}; --- @class SpinnerWithShadowMixin
 
 function SpinnerWithShadowMixin:SpinnerWithShadow_OnLoad()
 	self:SetShadowEnabled(true);

@@ -24,7 +24,7 @@ local PENDING_LISTING_UPDATE = false; -- Will be true after the player fires off
 -------------------------------------------------------
 ----------LFGListingMixin
 -------------------------------------------------------
-LFGListingMixin = {};--- @class LFGListingMixin
+LFGListingMixin = {}; --- @class LFGListingMixin
 
 function LFGListingMixin:OnLoad()
 	self:RegisterEvent("CVAR_UPDATE");

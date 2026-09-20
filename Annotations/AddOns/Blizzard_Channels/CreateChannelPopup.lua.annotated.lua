@@ -1,4 +1,4 @@
-CreateChannelPopupMixin = {};--- @class CreateChannelPopupMixin
+CreateChannelPopupMixin = {}; --- @class CreateChannelPopupMixin
 
 function CreateChannelPopupMixin:OnLoad()
 	self.tabGroup = CreateTabGroup(self.Name, self.Password);

@@ -3,9 +3,9 @@ local SPELLFLYOUT_DEFAULT_SPACING = 4;
 local SPELLFLYOUT_INITIAL_SPACING = 9;
 local SPELLFLYOUT_FINAL_SPACING = 9;
 
-SpellFlyoutOpenReason = EnumUtil.MakeEnum("GlyphPending", "GlyphActivated");--- @type {["GlyphPending"]: 1, ["GlyphActivated"]: 2} See [SpellFlyoutOpenReason](lua://SpellFlyoutOpenReason)
+SpellFlyoutOpenReason = EnumUtil.MakeEnum("GlyphPending", "GlyphActivated"); --- @type {["GlyphPending"]: 1, ["GlyphActivated"]: 2} # See [SpellFlyoutOpenReason](lua://SpellFlyoutOpenReason)
 
-SpellFlyoutPopupButtonMixin = {};--- @class SpellFlyoutPopupButtonMixin
+SpellFlyoutPopupButtonMixin = {}; --- @class SpellFlyoutPopupButtonMixin
 
 function SpellFlyoutPopupButtonMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -148,7 +148,7 @@ function SpellFlyoutPopupButtonMixin:UpdateCount()
 	text:SetText(C_Spell.GetSpellDisplayCount(self.spellID, self.maxDisplayCount));
 end
 
-SpellFlyoutMixin = {};--- @class SpellFlyoutMixin
+SpellFlyoutMixin = {}; --- @class SpellFlyoutMixin
 
 function SpellFlyoutMixin:OnLoad()
 	self.eventsRegistered = false;

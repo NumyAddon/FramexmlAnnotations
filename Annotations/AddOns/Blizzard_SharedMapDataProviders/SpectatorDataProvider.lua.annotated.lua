@@ -1,4 +1,4 @@
-SpectatorDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class SpectatorDataProviderMixin : MapCanvasDataProviderMixin
+SpectatorDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class SpectatorDataProviderMixin : MapCanvasDataProviderMixin
 
 function SpectatorDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -56,7 +56,7 @@ function SpectatorDataProviderMixin:GetUnitPinSizesTable()
 end
 
 --[[ Spectator Pin ]]--
-SpectatorPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class SpectatorPinMixin : MapCanvasPinMixin
+SpectatorPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class SpectatorPinMixin : MapCanvasPinMixin
 
 function SpectatorPinMixin:OnLoad()
 	UnitPositionFrameMixin.OnLoad(self);

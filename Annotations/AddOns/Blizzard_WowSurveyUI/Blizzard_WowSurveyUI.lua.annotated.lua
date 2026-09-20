@@ -29,7 +29,7 @@ StaticPopupDialogs["WOW_SURVEY"] = {
 	hideOnEscape = 1
 };
 
-WowSurveyStatusMixin = {};--- @class WowSurveyStatusMixin
+WowSurveyStatusMixin = {}; --- @class WowSurveyStatusMixin
 
 function WowSurveyStatusMixin:OnLoad()
 	self.TitleText:SetText(USER_SURVEY_STATUS_READY);

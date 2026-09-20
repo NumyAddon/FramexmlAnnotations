@@ -1,5 +1,5 @@
 
-CatalogShopHeaderFrameMixin = {};--- @class CatalogShopHeaderFrameMixin
+CatalogShopHeaderFrameMixin = {}; --- @class CatalogShopHeaderFrameMixin
 function CatalogShopHeaderFrameMixin:OnLoad()
 end
 

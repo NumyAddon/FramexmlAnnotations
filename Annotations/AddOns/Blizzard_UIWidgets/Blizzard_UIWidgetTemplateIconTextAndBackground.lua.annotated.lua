@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.IconTextAndBackground, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateIconTextAndBackground"}, GetIconTextAndBackgroundVisInfoData);
 
-UIWidgetTemplateIconTextAndBackgroundMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateIconTextAndBackgroundMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateIconTextAndBackgroundMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateIconTextAndBackgroundMixin : UIWidgetBaseTemplateMixin
 
 local textureKitRegions = {
 	["Icon"] = "%s-icon",

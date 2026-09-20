@@ -15,7 +15,7 @@ timeRemainingFormatter:SetStripIntervalWhitespace(true);
 -----------------------------------------------------------------------------------
 --- NavigationBarButtonMixin
 -----------------------------------------------------------------------------------
-NavigationBarButtonMixin = {};--- @class NavigationBarButtonMixin
+NavigationBarButtonMixin = {}; --- @class NavigationBarButtonMixin
 function NavigationBarButtonMixin:Init(sectionInfo, isSelected)
 	self:UpdateVisuals();
 	self.Label:SetText(sectionInfo.label);
@@ -75,7 +75,7 @@ end
 -----------------------------------------------------------------------------------
 --- NavigationBarNavigationButtonMixin
 -----------------------------------------------------------------------------------
-NavigationBarNavigationButtonMixin = {};--- @class NavigationBarNavigationButtonMixin
+NavigationBarNavigationButtonMixin = {}; --- @class NavigationBarNavigationButtonMixin
 function NavigationBarNavigationButtonMixin:OnLoad()
 	if self.atlas then
 		self.Arrow:SetAtlas(self.atlas, true);
@@ -111,7 +111,7 @@ local function IsElementDataSectionInfo(elementData)
 	return true;
 end
 
-NavigationBarMixin = {--- @class NavigationBarMixin
+NavigationBarMixin = { --- @class NavigationBarMixin
 	NavBarButtonWidthBuffer = 70,
 };
 
@@ -317,7 +317,7 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopButtonMixin
 ----------------------------------------------------------------------------------
-CatalogShopButtonMixin = {};--- @class CatalogShopButtonMixin
+CatalogShopButtonMixin = {}; --- @class CatalogShopButtonMixin
 function CatalogShopButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.CATALOG_SHOP_SELECT_GENERIC_UI_BUTTON);
 	if self.catalogShopOnClickMethod then
@@ -336,7 +336,7 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopPurchaseButtonMixin
 ----------------------------------------------------------------------------------
-CatalogShopPurchaseButtonMixin = {};--- @class CatalogShopPurchaseButtonMixin
+CatalogShopPurchaseButtonMixin = {}; --- @class CatalogShopPurchaseButtonMixin
 function CatalogShopPurchaseButtonMixin:OnLoad()
 end
 
@@ -349,7 +349,7 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopDetailsButtonMixin
 ----------------------------------------------------------------------------------
-CatalogShopDetailsButtonMixin = {};--- @class CatalogShopDetailsButtonMixin
+CatalogShopDetailsButtonMixin = {}; --- @class CatalogShopDetailsButtonMixin
 function CatalogShopDetailsButtonMixin:OnLoad()
 end
 
@@ -361,7 +361,7 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopErrorFrameMixin
 ----------------------------------------------------------------------------------
-CatalogShopErrorFrameMixin = {};--- @class CatalogShopErrorFrameMixin
+CatalogShopErrorFrameMixin = {}; --- @class CatalogShopErrorFrameMixin
 function CatalogShopErrorFrameMixin:OnShow()
 	-- TODO update whatever states are required
 	self.ActiveURLIndex = nil;
@@ -411,7 +411,7 @@ end
 ----------------------------------------------------------------------------------
 -- WoWTokenContainerFrameMixin
 ----------------------------------------------------------------------------------
-WoWTokenContainerFrameMixin = {};--- @class WoWTokenContainerFrameMixin
+WoWTokenContainerFrameMixin = {}; --- @class WoWTokenContainerFrameMixin
 function WoWTokenContainerFrameMixin:OnLoad()
 end
 
@@ -429,7 +429,7 @@ end
 ----------------------------------------------------------------------------------
 -- ToyContainerFrameMixin
 ----------------------------------------------------------------------------------
-ToyContainerFrameMixin = {};--- @class ToyContainerFrameMixin
+ToyContainerFrameMixin = {}; --- @class ToyContainerFrameMixin
 function ToyContainerFrameMixin:OnLoad()
 end
 
@@ -447,7 +447,7 @@ end
 ----------------------------------------------------------------------------------
 -- ServicesContainerFrameMixin
 ----------------------------------------------------------------------------------
-ServicesContainerFrameMixin = {};--- @class ServicesContainerFrameMixin
+ServicesContainerFrameMixin = {}; --- @class ServicesContainerFrameMixin
 function ServicesContainerFrameMixin:OnLoad()
 end
 
@@ -464,7 +464,7 @@ end
 ----------------------------------------------------------------------------------
 -- PMTImageContainerFrameMixin
 ----------------------------------------------------------------------------------
-PMTImageContainerFrameMixin = {};--- @class PMTImageContainerFrameMixin
+PMTImageContainerFrameMixin = {}; --- @class PMTImageContainerFrameMixin
 function PMTImageContainerFrameMixin:OnLoad()
 	EventRegistry:RegisterCallback("CatalogShop.PMTImageFrame.OnCarouselSelectionSet", self.OnCarouselSelectionSet, self);
 	self:RegisterEvent("URL_TEXTURE_REQUEST_RESULT");
@@ -632,13 +632,13 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopDetailsRaceButtonMixin
 ----------------------------------------------------------------------------------
-CatalogShopDetailsRaceButtonMixin = {};--- @class CatalogShopDetailsRaceButtonMixin
+CatalogShopDetailsRaceButtonMixin = {}; --- @class CatalogShopDetailsRaceButtonMixin
 
 
 ----------------------------------------------------------------------------------
 -- RaceChoiceMixin
 ----------------------------------------------------------------------------------
-CatalogShopRaceChoiceMixin = {};--- @class CatalogShopRaceChoiceMixin
+CatalogShopRaceChoiceMixin = {}; --- @class CatalogShopRaceChoiceMixin
 
 function CatalogShopRaceChoiceMixin:OnLoad()
 end
@@ -655,7 +655,7 @@ end
 ----------------------------------------------------------------------------------
 -- GlowPulseAnimContainerMixin
 ----------------------------------------------------------------------------------
-GlowPulseAnimContainerMixin = {};--- @class GlowPulseAnimContainerMixin
+GlowPulseAnimContainerMixin = {}; --- @class GlowPulseAnimContainerMixin
 function GlowPulseAnimContainerMixin:OnLoad()
 	if self.playLoopingSoundFX == true then
 		self.loopingSoundEmitter = self:CreateLoopingSoundFX();
@@ -693,7 +693,7 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopLoadingScreenMixin
 ----------------------------------------------------------------------------------
-CatalogShopLoadingScreenMixin = {};--- @class CatalogShopLoadingScreenMixin
+CatalogShopLoadingScreenMixin = {}; --- @class CatalogShopLoadingScreenMixin
 function CatalogShopLoadingScreenMixin:OnLoad()
 	local startingSound = SOUNDKIT.CATALOG_SHOP_OPEN_LOADING_SCREEN;
 	local loopingSound = SOUNDKIT.CATALOG_SHOP_LOADING_SCREEN_LOOP;
@@ -722,7 +722,7 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopUnavailableScreenMixin
 ----------------------------------------------------------------------------------
-CatalogShopUnavailableScreenMixin = {};--- @class CatalogShopUnavailableScreenMixin
+CatalogShopUnavailableScreenMixin = {}; --- @class CatalogShopUnavailableScreenMixin
 function CatalogShopUnavailableScreenMixin:OnLoad()
 end
 
@@ -736,7 +736,7 @@ end
 ----------------------------------------------------------------------------------
 -- CarouselControlMixin
 ----------------------------------------------------------------------------------
-CarouselControlMixin = {};--- @class CarouselControlMixin
+CarouselControlMixin = {}; --- @class CarouselControlMixin
 function CarouselControlMixin:OnLoad()
 	EventRegistry:RegisterCallback("CatalogShopModel.TransmogLoaded.CheckCarousel", self.CheckCarousel, self);
 	EventRegistry:RegisterCallback("CatalogShopModel.TransmogLoaded.HideCarousel", self.HideCarousel, self);
@@ -813,7 +813,7 @@ end
 ----------------------------------------------------------------------------------
 -- ImageCarouselElementTemplateMixin
 ----------------------------------------------------------------------------------
-ImageCarouselElementTemplateMixin={}--- @class ImageCarouselElementTemplateMixin
+ImageCarouselElementTemplateMixin={} --- @class ImageCarouselElementTemplateMixin
 function ImageCarouselElementTemplateMixin:Init(data, isSelected)
 
 	local function SetPMTURLImage(url)
@@ -861,7 +861,7 @@ end
 ----------------------------------------------------------------------------------
 local PMT_IMAGE_CAROUSEL_BUTTON_WIDTH = 138;
 
-ImageCarouselControlMixin={}--- @class ImageCarouselControlMixin
+ImageCarouselControlMixin={} --- @class ImageCarouselControlMixin
 function ImageCarouselControlMixin:OnLoad()
 	self.LeftButton:SetScript("OnClick", function(button, buttonName)
 		self:SelectPreviousImage();
@@ -1044,7 +1044,7 @@ end
 ----------------------------------------------------------------------------------
 -- CatalogShopPersistentRefundContainerFrameMixin
 ----------------------------------------------------------------------------------
-CatalogShopPersistentRefundContainerFrameMixin = {};--- @class CatalogShopPersistentRefundContainerFrameMixin
+CatalogShopPersistentRefundContainerFrameMixin = {}; --- @class CatalogShopPersistentRefundContainerFrameMixin
 function CatalogShopPersistentRefundContainerFrameMixin:OnHide()
 	if self.UpdateTimer then
 		self.UpdateTimer:Cancel();
@@ -1092,7 +1092,7 @@ end
 ----------------------------------------------------------------------------------
 -- ProductRefundContainerMixin
 ----------------------------------------------------------------------------------
-ProductRefundContainerMixin = {};--- @class ProductRefundContainerMixin
+ProductRefundContainerMixin = {}; --- @class ProductRefundContainerMixin
 function ProductRefundContainerMixin:OnHide()
 	if self.UpdateTimer then
 		self.UpdateTimer:Cancel();
@@ -1130,7 +1130,7 @@ end
 ----------------------------------------------------------------------------------
 -- ProductsHeaderMixin
 ----------------------------------------------------------------------------------
-ProductsHeaderMixin = {};--- @class ProductsHeaderMixin
+ProductsHeaderMixin = {}; --- @class ProductsHeaderMixin
 function ProductsHeaderMixin:Init(headerData)
 	self.headerData = headerData;
 	-- Set up ProductsHeader
@@ -1159,7 +1159,7 @@ end
 ----------------------------------------------------------------------------------
 -- ProductDescriptionMixin
 ----------------------------------------------------------------------------------
-ProductDescriptionMixin = {};--- @class ProductDescriptionMixin
+ProductDescriptionMixin = {}; --- @class ProductDescriptionMixin
 function ProductDescriptionMixin:OnEnter()
 	local parent = self:GetParent();
 	if parent.headerData and self:IsShown() then
@@ -1174,7 +1174,7 @@ end
 ----------------------------------------------------------------------------------
 -- IconTrainMixin
 ----------------------------------------------------------------------------------
-IconTrainMixin = {};--- @class IconTrainMixin
+IconTrainMixin = {}; --- @class IconTrainMixin
 
 function IconTrainMixin:SetupIconTrainScrollView()
 	local DefaultPad = 0;
@@ -1268,7 +1268,7 @@ end
 ----------------------------------------------------------------------------------
 -- IconTrainFrameChildMixin
 ----------------------------------------------------------------------------------
-IconTrainFrameChildMixin = {};--- @class IconTrainFrameChildMixin
+IconTrainFrameChildMixin = {}; --- @class IconTrainFrameChildMixin
 function IconTrainFrameChildMixin:Init(info)
 	if info.atlas then
 		self.Icon:SetAtlas(info.atlas);

@@ -1,4 +1,4 @@
-MinimalTabMixin = {};--- @class MinimalTabMixin
+MinimalTabMixin = {}; --- @class MinimalTabMixin
 
 function MinimalTabMixin:OnLoad()
 	SelectableButtonMixin.OnLoad(self);

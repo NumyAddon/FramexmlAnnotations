@@ -1,4 +1,4 @@
-BonusObjectiveDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class BonusObjectiveDataProviderMixin : MapCanvasDataProviderMixin
+BonusObjectiveDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class BonusObjectiveDataProviderMixin : MapCanvasDataProviderMixin
 
 function BonusObjectiveDataProviderMixin:RemoveAllData()
 	self:GetMap():RemoveAllPinsByTemplate("BonusObjectivePinTemplate");
@@ -25,7 +25,7 @@ function BonusObjectiveDataProviderMixin:RefreshAllData(fromOnShow)
 end
 
 --[[ Bonus Objective Pin ]]--
-BonusObjectivePinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class BonusObjectivePinMixin : MapCanvasPinMixin
+BonusObjectivePinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class BonusObjectivePinMixin : MapCanvasPinMixin
 
 function BonusObjectivePinMixin:OnLoad()
 	self:SetScalingLimits(1, 0.825, 0.85);

@@ -1,6 +1,6 @@
 local PROJECT_IMPL_REQUIRED = "Add implementation in UnitPopupUtils.lua";
 
-UnitPopupTopLevelMenuMixin = { };--- @class UnitPopupTopLevelMenuMixin
+UnitPopupTopLevelMenuMixin = { }; --- @class UnitPopupTopLevelMenuMixin
 
 --[[
 Inline menus' children are inserted into their parent. Inline menus can be used

@@ -1,4 +1,4 @@
-AccessibilitySettingsPreviewMixin = { };--- @class AccessibilitySettingsPreviewMixin
+AccessibilitySettingsPreviewMixin = { }; --- @class AccessibilitySettingsPreviewMixin
 
 function AccessibilitySettingsPreviewMixin:SetValueAccessor(accessor)
 	self.accessor = accessor;

@@ -10,7 +10,7 @@ and implement Attach() for any custom position handling.
 See GlowEmitter.lua as an example.
 ]]--
 
-EffectFactoryMixin = {};--- @class EffectFactoryMixin
+EffectFactoryMixin = {}; --- @class EffectFactoryMixin
 
 -- Derive
 function EffectFactoryMixin:Init(frameType, template)

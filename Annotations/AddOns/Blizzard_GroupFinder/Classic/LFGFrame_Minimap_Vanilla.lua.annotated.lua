@@ -9,7 +9,7 @@ local MAX_VERBOSE_LFG_ACTIVITIES_MINIMAP_TOOLTIP = 20;
 -------------------------------------------------------
 ----------LFGMinimapMixin
 -------------------------------------------------------
-LFGMinimapMixin = {};--- @class LFGMinimapMixin
+LFGMinimapMixin = {}; --- @class LFGMinimapMixin
 
 function LFGMinimapMixin:OnLoad()
 	self:RegisterEvent("LFG_LIST_ACTIVE_ENTRY_UPDATE");

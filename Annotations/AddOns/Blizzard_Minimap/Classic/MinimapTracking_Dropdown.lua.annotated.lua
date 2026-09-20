@@ -1,5 +1,5 @@
 
-MinimapTrackingDropdownMixin = { };--- @class MinimapTrackingDropdownMixin
+MinimapTrackingDropdownMixin = { }; --- @class MinimapTrackingDropdownMixin
 
 function MinimapTrackingDropdownMixin:OnLoad()
 	self:RegisterEvent("MINIMAP_UPDATE_TRACKING");

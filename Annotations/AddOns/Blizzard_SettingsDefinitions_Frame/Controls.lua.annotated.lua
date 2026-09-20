@@ -1,4 +1,4 @@
-AutoLootDropdownControlMixin = CreateFromMixins(SettingsDropdownControlMixin);--- @class AutoLootDropdownControlMixin : SettingsDropdownControlMixin
+AutoLootDropdownControlMixin = CreateFromMixins(SettingsDropdownControlMixin); --- @class AutoLootDropdownControlMixin : SettingsDropdownControlMixin
 
 function AutoLootDropdownControlMixin:Init(initializer)
 	SettingsDropdownControlMixin.Init(self, initializer);

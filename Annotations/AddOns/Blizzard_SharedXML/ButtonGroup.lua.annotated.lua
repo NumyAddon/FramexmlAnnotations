@@ -3,7 +3,7 @@
 	and have the OnClick handler defined in XML
 ]]
 
-ButtonGroupBaseMixin = CreateFromMixins(CallbackRegistryMixin);--- @class ButtonGroupBaseMixin : CallbackRegistryMixin
+ButtonGroupBaseMixin = CreateFromMixins(CallbackRegistryMixin); --- @class ButtonGroupBaseMixin : CallbackRegistryMixin
 
 ButtonGroupBaseMixin:GenerateCallbackEvents(
 	{
@@ -169,7 +169,7 @@ function ButtonGroupBaseMixin:GetAtIndex(index)
 	return self.buttons[index];
 end
 
-ButtonGroupMixin = CreateFromMixins(ButtonGroupBaseMixin);--- @class ButtonGroupMixin : ButtonGroupBaseMixin
+ButtonGroupMixin = CreateFromMixins(ButtonGroupBaseMixin); --- @class ButtonGroupMixin : ButtonGroupBaseMixin
 
 function ButtonGroupMixin:OnSelectionChange(button, newSelected)
 	local event = newSelected and ButtonGroupBaseMixin.Event.Selected or ButtonGroupBaseMixin.Event.Unselected;
@@ -184,7 +184,7 @@ function CreateButtonGroup()
 	return CreateAndInitFromMixin(ButtonGroupMixin);
 end
 
-RadioButtonGroupMixin = CreateFromMixins(ButtonGroupBaseMixin);--- @class RadioButtonGroupMixin : ButtonGroupBaseMixin
+RadioButtonGroupMixin = CreateFromMixins(ButtonGroupBaseMixin); --- @class RadioButtonGroupMixin : ButtonGroupBaseMixin
 
 function RadioButtonGroupMixin:CanChangeSelection(button, newSelected)
 	return not (not newSelected and #self:GetSelectedButtons() == 1);
@@ -217,7 +217,7 @@ function RadioButtonGroupMixin:RemoveInternal(button)
 	ButtonGroupBaseMixin.RemoveInternal(self, button);
 end
 
-DeselectableRadioButtonGroupMixin = CreateFromMixins(RadioButtonGroupMixin);--- @class DeselectableRadioButtonGroupMixin : RadioButtonGroupMixin
+DeselectableRadioButtonGroupMixin = CreateFromMixins(RadioButtonGroupMixin); --- @class DeselectableRadioButtonGroupMixin : RadioButtonGroupMixin
 
 function DeselectableRadioButtonGroupMixin:CanChangeSelection(button, newSelected)
 	return true;

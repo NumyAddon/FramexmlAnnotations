@@ -1,5 +1,5 @@
 -- Base mixin for different kinds of spell-specific search filters
-BaseSpellSearchFilterMixin = {}--- @class BaseSpellSearchFilterMixin
+BaseSpellSearchFilterMixin = {} --- @class BaseSpellSearchFilterMixin
 
 local function DefaultResultSort(reverseMatchTypeCompare, resultA, resultB)
 	local matchTypeA = resultA.matchType;

@@ -61,7 +61,7 @@ function Vector4D_ScaleVector(scalar, vector)
 	return clone;
 end
 
-Vector4DMixin = {};--- @class Vector4DMixin
+Vector4DMixin = {}; --- @class Vector4DMixin
 
 function CreateVector4D(x, y, z, w)
 	local vector = CreateFromMixins(Vector4DMixin);

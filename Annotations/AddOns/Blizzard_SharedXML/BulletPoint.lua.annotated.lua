@@ -1,5 +1,5 @@
 
-BulletPointMixin = CreateFromMixins(ContentFrameMixin);--- @class BulletPointMixin : ContentFrameMixin
+BulletPointMixin = CreateFromMixins(ContentFrameMixin); --- @class BulletPointMixin : ContentFrameMixin
 
 function BulletPointMixin:MarkDirty()
 	self.dirty = true;
@@ -35,7 +35,7 @@ function BulletPointMixin:OnUpdate()
 	end
 end
 
-BulletPointWithTextureMixin = CreateFromMixins(BulletPointMixin)--- @class BulletPointWithTextureMixin : BulletPointMixin
+BulletPointWithTextureMixin = CreateFromMixins(BulletPointMixin) --- @class BulletPointWithTextureMixin : BulletPointMixin
 
 function BulletPointWithTextureMixin:OnLoad()
 	self.Text:ClearAllPoints();

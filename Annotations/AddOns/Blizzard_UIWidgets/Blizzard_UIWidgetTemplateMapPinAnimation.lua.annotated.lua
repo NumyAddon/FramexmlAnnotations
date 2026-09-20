@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.MapPinAnimation, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateMapPinAnimation"}, GetMapPinAnimationVisInfoData);
 
-UIWidgetTemplateMapPinAnimationMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateMapPinAnimationMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateMapPinAnimationMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateMapPinAnimationMixin : UIWidgetBaseTemplateMixin
 
 local textureKitRegions = {
 	["Background"] = "%s-background",

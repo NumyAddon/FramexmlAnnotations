@@ -1,4 +1,4 @@
-AreaPOIDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class AreaPOIDataProviderMixin : MapCanvasDataProviderMixin
+AreaPOIDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class AreaPOIDataProviderMixin : MapCanvasDataProviderMixin
 
 function AreaPOIDataProviderMixin:GetPinTemplate()
 	return "AreaPOIPinTemplate";

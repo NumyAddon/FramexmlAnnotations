@@ -1,5 +1,5 @@
 
-CatalogShopProductDetailsContainerFrameMixin = {};--- @class CatalogShopProductDetailsContainerFrameMixin
+CatalogShopProductDetailsContainerFrameMixin = {}; --- @class CatalogShopProductDetailsContainerFrameMixin
 function CatalogShopProductDetailsContainerFrameMixin:OnLoad()
 	--RaceButton:SetDialog(CatalogShopFrame.ProductDetailsContainerFrame.RaceChoiceDialog);
 end
@@ -43,7 +43,7 @@ end
 -----------------------------------------------------------------------------------
 --- DetailsProductContainerFrameMixin
 -----------------------------------------------------------------------------------
-DetailsProductContainerFrameMixin = CreateFromMixins(ProductContainerFrameMixin);--- @class DetailsProductContainerFrameMixin : ProductContainerFrameMixin
+DetailsProductContainerFrameMixin = CreateFromMixins(ProductContainerFrameMixin); --- @class DetailsProductContainerFrameMixin : ProductContainerFrameMixin
 function DetailsProductContainerFrameMixin:OnLoad()
 	CatalogShopProductContainerFrameMixin.OnLoad(self);
 end

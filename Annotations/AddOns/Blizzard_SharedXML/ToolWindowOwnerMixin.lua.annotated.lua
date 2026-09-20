@@ -1,4 +1,4 @@
-ToolWindowOwnerMixin = {};--- @class ToolWindowOwnerMixin
+ToolWindowOwnerMixin = {}; --- @class ToolWindowOwnerMixin
 
 function ToolWindowOwnerMixin:MoveToNewWindow(title, width, height, minWidth, minHeight, topMost)
 	local popupStyle = true; -- No window title bar or window borders

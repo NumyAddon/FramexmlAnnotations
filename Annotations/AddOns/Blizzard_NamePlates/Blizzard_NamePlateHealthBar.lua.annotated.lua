@@ -1,6 +1,6 @@
 CVarCallbackRegistry:SetCVarCachable(NamePlateConstants.INFO_DISPLAY_CVAR);
 
-NamePlateHealthBarMixin = CreateFromMixins(TextStatusBarMixin, NamePlateComponentMixin);--- @class NamePlateHealthBarMixin : TextStatusBarMixin, NamePlateComponentMixin
+NamePlateHealthBarMixin = CreateFromMixins(TextStatusBarMixin, NamePlateComponentMixin); --- @class NamePlateHealthBarMixin : TextStatusBarMixin, NamePlateComponentMixin
 
 function NamePlateHealthBarMixin:OnLoad()
 	-- Disable the TextStatusBarMixin behavior to force show text when hovering over the bar.

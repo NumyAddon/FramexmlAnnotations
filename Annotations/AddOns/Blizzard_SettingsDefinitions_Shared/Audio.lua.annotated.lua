@@ -1,4 +1,4 @@
-VoiceTestMicrophoneMixin = CreateFromMixins(SettingsListElementMixin);--- @class VoiceTestMicrophoneMixin : SettingsListElementMixin
+VoiceTestMicrophoneMixin = CreateFromMixins(SettingsListElementMixin); --- @class VoiceTestMicrophoneMixin : SettingsListElementMixin
 
 function VoiceTestMicrophoneMixin:OnLoad()
 	SettingsListElementMixin.OnLoad(self);
@@ -97,7 +97,7 @@ end
 function VoiceTestMicrophoneMixin:EvaluateState()
 end
 
-VoicePushToTalkMixin = CreateFromMixins(SettingsListElementMixin);--- @class VoicePushToTalkMixin : SettingsListElementMixin
+VoicePushToTalkMixin = CreateFromMixins(SettingsListElementMixin); --- @class VoicePushToTalkMixin : SettingsListElementMixin
 
 
 function VoicePushToTalkMixin:OnLoad()
@@ -192,7 +192,7 @@ local function FormatScaledPercentage(value)
 	return FormatPercentage(value/VoiceMaxValue);
 end
 
-MacMicrophoneAccessWarningMixin = {};--- @class MacMicrophoneAccessWarningMixin
+MacMicrophoneAccessWarningMixin = {}; --- @class MacMicrophoneAccessWarningMixin
 
 function MacMicrophoneAccessWarningMixin:OnLoad()
 	self.OpenAccessButton:SetScript("OnClick", function(button, buttonName, down)

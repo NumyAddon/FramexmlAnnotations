@@ -1,5 +1,5 @@
 
-EventFrameMixin = CreateFromMixins(CallbackRegistryMixin);--- @class EventFrameMixin : CallbackRegistryMixin
+EventFrameMixin = CreateFromMixins(CallbackRegistryMixin); --- @class EventFrameMixin : CallbackRegistryMixin
 
 EventFrameMixin:GenerateCallbackEvents(
 	{

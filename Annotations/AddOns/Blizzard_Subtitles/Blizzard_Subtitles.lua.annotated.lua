@@ -3,7 +3,7 @@ local SUBTITLES_BACKGROUND_CVAR = "movieSubtitleBackground";
 local SUBTITLES_BACKGROUND_OPACITY_CVAR = "movieSubtitleBackgroundAlpha";
 local BACKGROUND_TYPE_DEFAULT = 1; -- NONE
 
-SubtitlesFrameMixin = {};--- @class SubtitlesFrameMixin
+SubtitlesFrameMixin = {}; --- @class SubtitlesFrameMixin
 
 function SubtitlesFrameMixin:OnLoad()
 	self:RegisterEvent("SHOW_SUBTITLE");

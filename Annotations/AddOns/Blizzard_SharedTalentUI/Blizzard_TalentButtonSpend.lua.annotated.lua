@@ -1,5 +1,5 @@
 
-TalentButtonSpendMixin = CreateFromMixins(TalentButtonBaseMixin);--- @class TalentButtonSpendMixin : TalentButtonBaseMixin
+TalentButtonSpendMixin = CreateFromMixins(TalentButtonBaseMixin); --- @class TalentButtonSpendMixin : TalentButtonBaseMixin
 
 function TalentButtonSpendMixin:OnClick(button)
 	EventRegistry:TriggerEvent("TalentButton.OnClick", self, button);

@@ -1,4 +1,4 @@
-GameTooltipMixin = {};--- @class GameTooltipMixin
+GameTooltipMixin = {}; --- @class GameTooltipMixin
 
 function GameTooltipMixin:OnLoadGameTooltip()
 	GameTooltip_OnLoad(self);
@@ -22,19 +22,19 @@ function GameTooltipMixin:OnTooltipCleared()
 	GameTooltip_ClearInsertedFrames(self);
 end
 
-GameTooltipStatusBarMixin = {};--- @class GameTooltipStatusBarMixin
+GameTooltipStatusBarMixin = {}; --- @class GameTooltipStatusBarMixin
 
 function GameTooltipStatusBarMixin:OnValueChanged(value)
 	HealthBar_OnValueChanged(self, value);
 end
 
-TooltipStatusBarMixin = {};--- @class TooltipStatusBarMixin
+TooltipStatusBarMixin = {}; --- @class TooltipStatusBarMixin
 
 function TooltipStatusBarMixin:OnLoad()
 	self:SetStatusBarColor(0, 1.0, 0);
 end
 
-ShoppingTooltipMixin = {};--- @class ShoppingTooltipMixin
+ShoppingTooltipMixin = {}; --- @class ShoppingTooltipMixin
 
 function ShoppingTooltipMixin:OnTooltipCleared()
 	GameTooltip_ClearMoney(self);

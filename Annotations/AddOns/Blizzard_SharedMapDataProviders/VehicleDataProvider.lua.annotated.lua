@@ -1,4 +1,4 @@
-VehicleDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class VehicleDataProviderMixin : MapCanvasDataProviderMixin
+VehicleDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class VehicleDataProviderMixin : MapCanvasDataProviderMixin
 
 function VehicleDataProviderMixin:OnShow()
 	self:RegisterEvent("PVP_VEHICLE_INFO_UPDATED");
@@ -39,7 +39,7 @@ function VehicleDataProviderMixin:RefreshAllData(fromOnShow)
 end
 
 --[[ Pin ]]--
-VehiclePinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class VehiclePinMixin : MapCanvasPinMixin
+VehiclePinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class VehiclePinMixin : MapCanvasPinMixin
 
 function VehiclePinMixin:OnLoad()
 	self:SetScalingLimits(1, 0.825, 0.85);

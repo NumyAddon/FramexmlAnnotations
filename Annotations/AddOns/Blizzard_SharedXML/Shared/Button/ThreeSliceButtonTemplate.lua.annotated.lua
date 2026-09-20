@@ -1,5 +1,5 @@
 
-ThreeSliceButtonMixin = CreateFromMixins(UIButtonMixin);--- @class ThreeSliceButtonMixin : UIButtonMixin
+ThreeSliceButtonMixin = CreateFromMixins(UIButtonMixin); --- @class ThreeSliceButtonMixin : UIButtonMixin
 
 function ThreeSliceButtonMixin:GetLeftAtlasName()
 	return self.atlasName.."-Left";

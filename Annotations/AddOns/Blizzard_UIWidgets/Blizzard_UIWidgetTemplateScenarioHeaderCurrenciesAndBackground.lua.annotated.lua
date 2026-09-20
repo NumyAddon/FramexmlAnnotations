@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.ScenarioHeaderCurrenciesAndBackground, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateScenarioHeaderCurrenciesAndBackground"}, GetScenarioHeaderCurrenciesAndBackgroundVisInfoData);
 
-UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin : UIWidgetBaseTemplateMixin
 
 local textureKitInfo =
 {

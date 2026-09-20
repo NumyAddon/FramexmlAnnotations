@@ -53,7 +53,7 @@
 
 ----------------- DataGroup Progress Helper -----------------
 
-local VerticalDataGroupMixin = {};--- @class VerticalDataGroupMixin
+local VerticalDataGroupMixin = {}; --- @class VerticalDataGroupMixin
 
 function VerticalDataGroupMixin:Init()
 	self:Reset(0);
@@ -79,7 +79,7 @@ end
 
 ----------------- ElementSet Progress Helper -----------------
 
-local VerticalElementSetMixin = {};--- @class VerticalElementSetMixin
+local VerticalElementSetMixin = {}; --- @class VerticalElementSetMixin
 
 function VerticalElementSetMixin:Init(columnsPerRow)
 	self.columnsPerRow = columnsPerRow;
@@ -154,7 +154,7 @@ end
 
 ----------------- Condensed Vertical Grid Layout -----------------
 
-PagedCondensedVerticalGridContentFrameMixin = CreateFromMixins(PagedContentFrameBaseMixin);--- @class PagedCondensedVerticalGridContentFrameMixin : PagedContentFrameBaseMixin
+PagedCondensedVerticalGridContentFrameMixin = CreateFromMixins(PagedContentFrameBaseMixin); --- @class PagedCondensedVerticalGridContentFrameMixin : PagedContentFrameBaseMixin
 
 function PagedCondensedVerticalGridContentFrameMixin:InitializeElementSplit(splitData, viewFrame)
 	if not viewFrame.IsLayoutFrame or not viewFrame:IsLayoutFrame() then

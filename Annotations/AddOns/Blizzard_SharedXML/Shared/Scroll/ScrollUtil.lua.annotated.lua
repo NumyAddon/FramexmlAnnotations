@@ -278,7 +278,7 @@ end
 
 -- Utility for managing the visibility of a ScrollBar and reanchoring of the
 -- ScrollBox as the visibility changes.
-ManagedScrollBarVisibilityBehaviorMixin = CreateFromMixins(CallbackRegistryMixin);--- @class ManagedScrollBarVisibilityBehaviorMixin : CallbackRegistryMixin
+ManagedScrollBarVisibilityBehaviorMixin = CreateFromMixins(CallbackRegistryMixin); --- @class ManagedScrollBarVisibilityBehaviorMixin : CallbackRegistryMixin
 
 ManagedScrollBarVisibilityBehaviorMixin:GenerateCallbackEvents(
 	{
@@ -353,7 +353,7 @@ function ScrollUtil.AddManagedScrollBarVisibilityBehavior(scrollBox, scrollBar, 
 	return behavior;
 end
 
-SelectionBehaviorMixin = CreateFromMixins(CallbackRegistryMixin);--- @class SelectionBehaviorMixin : CallbackRegistryMixin
+SelectionBehaviorMixin = CreateFromMixins(CallbackRegistryMixin); --- @class SelectionBehaviorMixin : CallbackRegistryMixin
 
 SelectionBehaviorFlags = FlagsUtil.MakeFlags("Deselectable", "Intrusive", "MultiSelect");
 
@@ -1670,7 +1670,7 @@ function ScrollUtil.CalculateScrollBoxElementExtent(count, frameExtent, spacing)
 	return (count * frameExtent) + (math.max(0, count-1) * spacing);
 end
 
-ScrollBoxFactoryInitializerMixin = {};--- @class ScrollBoxFactoryInitializerMixin
+ScrollBoxFactoryInitializerMixin = {}; --- @class ScrollBoxFactoryInitializerMixin
 
 function ScrollBoxFactoryInitializerMixin:Init(frameTemplate, data)
 	self.frameTemplate = frameTemplate;

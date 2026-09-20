@@ -1048,7 +1048,7 @@ end
 
 -- [[ ItemAlertFrame (template) ]] ---
 
-ItemAlertFrameMixin = {};--- @class ItemAlertFrameMixin
+ItemAlertFrameMixin = {}; --- @class ItemAlertFrameMixin
 
 function ItemAlertFrameMixin:SetUpDisplay(icon, itemQuality, name, label)
 	self.Icon:SetTexture(icon);
@@ -1063,7 +1063,7 @@ function NewPetAlertFrame_SetUp(frame, petID)
 	frame:SetUp(petID);
 end
 
-NewPetAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin);--- @class NewPetAlertFrameMixin : ItemAlertFrameMixin
+NewPetAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin); --- @class NewPetAlertFrameMixin : ItemAlertFrameMixin
 
 function NewPetAlertFrameMixin:SetUp(petID)
 	self.petID = petID;
@@ -1089,7 +1089,7 @@ function NewMountAlertFrame_SetUp(frame, mountID)
 	frame:SetUp(mountID);
 end
 
-NewMountAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin);--- @class NewMountAlertFrameMixin : ItemAlertFrameMixin
+NewMountAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin); --- @class NewMountAlertFrameMixin : ItemAlertFrameMixin
 
 function NewMountAlertFrameMixin:SetUp(mountID)
 	self.mountID = mountID;
@@ -1114,7 +1114,7 @@ function NewToyAlertFrame_SetUp(frame, toyID)
 	frame:SetUp(toyID);
 end
 
-NewToyAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin);--- @class NewToyAlertFrameMixin : ItemAlertFrameMixin
+NewToyAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin); --- @class NewToyAlertFrameMixin : ItemAlertFrameMixin
 
 function NewToyAlertFrameMixin:SetUp(toyID)
 	self.toyID = toyID;
@@ -1131,8 +1131,8 @@ function NewToyAlertFrameMixin:OnClick(button, down)
 	ToggleToyCollection(self.toyID);
 end
 
-ChallengeModeAlertFrameRewardMixin = {}--- @class ChallengeModeAlertFrameRewardMixin
-ChallengeModeAlertFrameMixin = {}--- @class ChallengeModeAlertFrameMixin
+ChallengeModeAlertFrameRewardMixin = {} --- @class ChallengeModeAlertFrameRewardMixin
+ChallengeModeAlertFrameMixin = {} --- @class ChallengeModeAlertFrameMixin
 
 -- [[ ChallengeModeAlertFrame ]] --
 CHALLENGE_MODE_MAX_REWARDS = 2;

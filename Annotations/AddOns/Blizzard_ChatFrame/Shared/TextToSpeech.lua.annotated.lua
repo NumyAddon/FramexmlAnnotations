@@ -1,4 +1,4 @@
-SpeechToTextMixin = {};--- @class SpeechToTextMixin
+SpeechToTextMixin = {}; --- @class SpeechToTextMixin
 
 function SpeechToTextMixin:OnLoad()
 	SettingsCheckboxControlMixin.OnLoad(self);
@@ -8,7 +8,7 @@ function SpeechToTextMixin:OnLoad()
 	self.SubTextContainer.SubText:SetPoint("LEFT", self.Checkbox, "RIGHT", 8, 0);
 end
 
-TextToSpeechButtonMixin = {};--- @class TextToSpeechButtonMixin
+TextToSpeechButtonMixin = {}; --- @class TextToSpeechButtonMixin
 
 function TextToSpeechButtonFrame_OnLoad(self)
 	local alertSystem = ChatAlertFrame:AddAutoAnchoredSubSystem(self);

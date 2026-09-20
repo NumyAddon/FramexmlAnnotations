@@ -40,7 +40,7 @@ local textureKitTooltipBackdropStyles = {
 	["eyeofthejailer"] = GAME_TOOLTIP_BACKDROP_STYLE_RUNEFORGE_LEGENDARY,
 };
 
-UIWidgetTemplateDiscreteProgressStepsMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateDiscreteProgressStepsMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateDiscreteProgressStepsMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateDiscreteProgressStepsMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateDiscreteProgressStepsMixin:SetupStepAnchors(stepIndex, positionVector, rotationDegrees)
 	positionVector:RotateDirection(math.rad(rotationDegrees));

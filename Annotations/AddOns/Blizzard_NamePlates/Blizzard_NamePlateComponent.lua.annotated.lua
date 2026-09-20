@@ -1,6 +1,6 @@
 -- Used to mix in with the Mixins for pieces of nameplates such as the health bar, auras frame,
 -- raid target frame, classification frame, etc. Has common functionality for some/all of the various pieces.
-NamePlateComponentMixin = {};--- @class NamePlateComponentMixin
+NamePlateComponentMixin = {}; --- @class NamePlateComponentMixin
 
 function NamePlateComponentMixin:IsShowOnlyName()
 	return self.showOnlyName == true;

@@ -15,7 +15,7 @@ INVENTORY_ALERT_COLORS = {};
 INVENTORY_ALERT_COLORS[1] = {r = 1, g = 0.82, b = 0.18};
 INVENTORY_ALERT_COLORS[2] = {r = 0.93, g = 0.07, b = 0.07};
 
-DurabilityFrameMixin = {};--- @class DurabilityFrameMixin
+DurabilityFrameMixin = {}; --- @class DurabilityFrameMixin
 
 function DurabilityFrameMixin:OnLoad()
 	self:SetFrameLevel(self:GetFrameLevel() - 1);

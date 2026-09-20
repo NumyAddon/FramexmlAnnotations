@@ -1,4 +1,4 @@
-MessageFrameScrollButtonMixin = {};--- @class MessageFrameScrollButtonMixin
+MessageFrameScrollButtonMixin = {}; --- @class MessageFrameScrollButtonMixin
 
 function MessageFrameScrollButtonMixin:OnLoad()
 	self.clickDelay = MessageFrameScrollButtonConstants.InitialScrollDelay;

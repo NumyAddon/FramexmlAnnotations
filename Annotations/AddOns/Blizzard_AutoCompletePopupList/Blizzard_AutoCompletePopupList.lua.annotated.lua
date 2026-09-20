@@ -1,5 +1,5 @@
 
-AutoCompletePopupListResultMixin = {};--- @class AutoCompletePopupListResultMixin
+AutoCompletePopupListResultMixin = {}; --- @class AutoCompletePopupListResultMixin
 
 function AutoCompletePopupListResultMixin:Init(elementData)
 	self.resultInfo = elementData.resultInfo;
@@ -71,7 +71,7 @@ function AutoCompletePopupListResultMixin:GetResultInfo()
 	return self.resultInfo;
 end
 
-AutoCompletePopupListMixin = {};--- @class AutoCompletePopupListMixin
+AutoCompletePopupListMixin = {}; --- @class AutoCompletePopupListMixin
 
 function AutoCompletePopupListMixin:OnLoad()
 	local view = CreateScrollBoxListLinearView(1, 3, 0, 0, 1);

@@ -12,7 +12,7 @@ MAX_PARTY_TOOLTIP_DEBUFFS = 8;
 CVarCallbackRegistry:SetCVarCachable("showPartyPets");
 CVarCallbackRegistry:SetCVarCachable("showDispelDebuffs");
 
-PartyMemberAuraMixin={};--- @class PartyMemberAuraMixin
+PartyMemberAuraMixin={}; --- @class PartyMemberAuraMixin
 
 function PartyMemberAuraMixin:UpdateMemberAuras(unitAuraUpdateInfo)
 	self:UpdateAurasInternal(unitAuraUpdateInfo);
@@ -143,7 +143,7 @@ function PartyMemberAuraMixin:ParseAllAuras(displayOnlyDispellableDebuffs, ignor
 	AuraUtil.ForEachAura(self.unit, AuraUtil.CreateFilterString(AuraUtil.AuraFilters.Harmful, AuraUtil.AuraFilters.Raid), batchCount, HandleAura, usePackedAura);
 end
 
-PartyAuraFrameMixin = {};--- @class PartyAuraFrameMixin
+PartyAuraFrameMixin = {}; --- @class PartyAuraFrameMixin
 function PartyAuraFrameMixin:Setup(unit, aura, isBuff)
 	self.unit = unit;
 	self.auraInstanceID = aura.auraInstanceID;
@@ -207,7 +207,7 @@ function PartyAuraFrameMixin:UpdateTooltip()
 	end
 end
 
-ResurrectableIndicatorMixin = {};--- @class ResurrectableIndicatorMixin
+ResurrectableIndicatorMixin = {}; --- @class ResurrectableIndicatorMixin
 function ResurrectableIndicatorMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
 	GameTooltip_AddNormalLine(GameTooltip, PARTY_FRAME_RESURRECTABLE_TOOLTIP);

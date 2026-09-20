@@ -30,7 +30,7 @@ local function ShouldHideErrorFrame(errorTypeCVar)
 	return not GetCVarBool(errorTypeCVar);
 end
 
-ScriptErrorsFrameMixin = {};--- @class ScriptErrorsFrameMixin
+ScriptErrorsFrameMixin = {}; --- @class ScriptErrorsFrameMixin
 
 function ScriptErrorsFrameMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -265,7 +265,7 @@ end
 -- Any method that accepts no parameters or simple scalar values should be 
 -- safe to elevate.
 
-ScriptErrorsFrameSecureMixin = {};--- @class ScriptErrorsFrameSecureMixin
+ScriptErrorsFrameSecureMixin = {}; --- @class ScriptErrorsFrameSecureMixin
 
 function ScriptErrorsFrameSecureMixin:SetDisplayedIndex(index)
 	ScriptErrorsFrameMixin.SetDisplayedIndex(self, index);

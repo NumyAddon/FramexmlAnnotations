@@ -6,7 +6,7 @@ AUTOCAST_SHINE_B = .32;
 
 local AUTOCAST_SHINES = {};
 
-AutoCastOverlayMixin = {};--- @class AutoCastOverlayMixin
+AutoCastOverlayMixin = {}; --- @class AutoCastOverlayMixin
 
 function AutoCastOverlayMixin:OnLoad()
 	for _, sparkle in ipairs(self.sparkles) do
@@ -26,7 +26,7 @@ function AutoCastOverlayMixin:ShowAutoCastEnabled(isEnabled)
 	end
 end
 
-AutoCastOverlayManagerMixin = {};--- @class AutoCastOverlayManagerMixin
+AutoCastOverlayManagerMixin = {}; --- @class AutoCastOverlayManagerMixin
 
 function AutoCastOverlayManagerMixin:OnLoad()
 	self.autocastShineSpeeds = { 2, 4, 6, 8 };

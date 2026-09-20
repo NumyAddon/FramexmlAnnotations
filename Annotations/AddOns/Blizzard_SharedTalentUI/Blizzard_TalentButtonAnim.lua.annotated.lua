@@ -1,6 +1,6 @@
 
 -- This mixin depends on the talentFrame member value being set on the TalentDisplayMixin, as we don't initialize it here
-TalentDisplayAnimationStateControllerMixin = {};--- @class TalentDisplayAnimationStateControllerMixin
+TalentDisplayAnimationStateControllerMixin = {}; --- @class TalentDisplayAnimationStateControllerMixin
 
 local function NodeHasNoAnims(talentButton)
 	local excludeNoneAnimations = true;
@@ -137,7 +137,7 @@ function TalentDisplayAnimationStateControllerMixin:SetAnimationConditionCheck(a
 	self.animStateActiveConditions[animState] = conditionFunc;
 end
 
-TalentDisplayAnimationMixin = {};--- @class TalentDisplayAnimationMixin
+TalentDisplayAnimationMixin = {}; --- @class TalentDisplayAnimationMixin
 
 function TalentDisplayAnimationMixin:Init(parent, template, animState)
 	self.template = template;

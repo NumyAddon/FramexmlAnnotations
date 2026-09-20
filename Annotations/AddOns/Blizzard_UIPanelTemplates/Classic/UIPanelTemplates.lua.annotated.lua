@@ -212,7 +212,7 @@ function InlineHyperlinkFrame_OnClick(self, link, text, button)
 	SetItemRef(link, text, button);
 end
 
-CurrencyTemplateMixin = {};--- @class CurrencyTemplateMixin
+CurrencyTemplateMixin = {}; --- @class CurrencyTemplateMixin
 
 function CurrencyTemplateMixin:SetCurrencyFromID(currencyID, amount, formatString, colorCode)
 	local currencyInfo = C_CurrencyInfo.GetCurrencyInfo(currencyID);
@@ -228,7 +228,7 @@ function CurrencyTemplateMixin:SetCurrencyFromID(currencyID, amount, formatStrin
 	end
 end
 
-UIExpandingButtonMixin = {};--- @class UIExpandingButtonMixin
+UIExpandingButtonMixin = {}; --- @class UIExpandingButtonMixin
 
 function UIExpandingButtonMixin:SetUp(expanded, expansionDirection)
 	self.expansionDirection = expansionDirection;
@@ -285,7 +285,7 @@ function UIExpandingButtonMixin:OnClick(button, down)
 	self:Update();
 end
 
-ButtonWithDisableMixin = {};--- @class ButtonWithDisableMixin
+ButtonWithDisableMixin = {}; --- @class ButtonWithDisableMixin
 
 function ButtonWithDisableMixin:SetDisableTooltip(tooltipTitle, tooltipText)
 	self.disableTooltipTitle = tooltipTitle;
@@ -308,7 +308,7 @@ function ButtonWithDisableMixin:OnEnter()
 	end
 end
 
-AnimatedShineMixin = {};--- @class AnimatedShineMixin
+AnimatedShineMixin = {}; --- @class AnimatedShineMixin
 
 local NUM_SHINES = 4;
 

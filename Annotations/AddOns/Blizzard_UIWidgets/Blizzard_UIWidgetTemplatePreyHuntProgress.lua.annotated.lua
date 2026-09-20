@@ -16,7 +16,7 @@ local stateAtlases = {
 	[Enum.PreyHuntProgressState.Final] = "ui-prey-targeticon-final",
 };
 
-UIWidgetTemplatePreyHuntProgressMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplatePreyHuntProgressMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplatePreyHuntProgressMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplatePreyHuntProgressMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplatePreyHuntProgressMixin:Setup(widgetInfo, widgetContainer)
 	-- only want effect for final state

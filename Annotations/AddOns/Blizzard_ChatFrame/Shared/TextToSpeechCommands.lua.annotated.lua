@@ -6,7 +6,7 @@ TEXTTOSPEECH_VOLUME_MAX = 100;
 
 local VALIDATE_RANGE_YES = true;
 
-local TextToSpeechCommandsMixin = {};--- @class TextToSpeechCommandsMixin
+local TextToSpeechCommandsMixin = {}; --- @class TextToSpeechCommandsMixin
 
 function TextToSpeechCommandsMixin:Init()
 	self.commands = {};

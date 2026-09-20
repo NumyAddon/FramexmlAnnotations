@@ -139,7 +139,7 @@ BACKDROP_TUTORIAL_16_16 = {
 	insets = { left = 3, right = 5, top = 3, bottom = 5 },
 };
 
-BackdropTemplateMixin = { };--- @class BackdropTemplateMixin
+BackdropTemplateMixin = { }; --- @class BackdropTemplateMixin
 
 local coordStart = 0.0625;
 local coordEnd = 1 - coordStart;

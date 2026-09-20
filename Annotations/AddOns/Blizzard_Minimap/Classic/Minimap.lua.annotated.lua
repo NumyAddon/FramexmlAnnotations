@@ -148,7 +148,7 @@ function Minimap_ZoomOut()
 	MinimapZoomOut:Click();
 end
 
-MinimapClusterMixin = { };--- @class MinimapClusterMixin
+MinimapClusterMixin = { }; --- @class MinimapClusterMixin
 
 function MinimapClusterMixin:OnLoad()
 	Minimap.timer = 0;

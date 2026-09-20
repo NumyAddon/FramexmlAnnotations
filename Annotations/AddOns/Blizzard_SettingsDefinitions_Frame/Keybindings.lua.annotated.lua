@@ -31,7 +31,7 @@ end
 
 local KeybindingSpacer = {};
 
-SettingsKeybindingSectionMixin = CreateFromMixins(SettingsExpandableSectionMixin);--- @class SettingsKeybindingSectionMixin : SettingsExpandableSectionMixin
+SettingsKeybindingSectionMixin = CreateFromMixins(SettingsExpandableSectionMixin); --- @class SettingsKeybindingSectionMixin : SettingsExpandableSectionMixin
 
 function SettingsKeybindingSectionMixin:OnLoad()
 	SettingsExpandableSectionMixin.OnLoad(self);
@@ -323,7 +323,7 @@ EventRegistry:RegisterFrameEventAndCallback("ADDON_LOADED", function(o, ...)
 end);
 
 
-SettingsKeybindingPrefaceMixin = {};--- @class SettingsKeybindingPrefaceMixin
+SettingsKeybindingPrefaceMixin = {}; --- @class SettingsKeybindingPrefaceMixin
 
 function SettingsKeybindingPrefaceMixin:Init(prefaceText)
 	self.text:SetText(_G[prefaceText]);

@@ -1,7 +1,7 @@
 local Delegate = CreateFrame("FRAME");
 Delegate:SetForbidden();
 
-TemplateInfoCacheMixin = {};--- @class TemplateInfoCacheMixin
+TemplateInfoCacheMixin = {}; --- @class TemplateInfoCacheMixin
 
 function TemplateInfoCacheMixin:Init()
 	self.templateInfos = {};

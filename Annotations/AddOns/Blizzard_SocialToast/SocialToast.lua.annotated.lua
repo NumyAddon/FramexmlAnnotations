@@ -1,10 +1,10 @@
-DefaultAnimOutMixin = {};--- @class DefaultAnimOutMixin
+DefaultAnimOutMixin = {}; --- @class DefaultAnimOutMixin
 
 function DefaultAnimOutMixin:OnFinished()
 	self:GetParent():Hide();
 end
 
-SocialToastCloseButtonMixin = {};--- @class SocialToastCloseButtonMixin
+SocialToastCloseButtonMixin = {}; --- @class SocialToastCloseButtonMixin
 
 function SocialToastCloseButtonMixin:OnEnter()
 	self:GetParent():OnEnter();
@@ -19,7 +19,7 @@ function SocialToastCloseButtonMixin:OnClick()
 	self:GetParent():Hide();
 end
 
-SocialToastMixin = {};--- @class SocialToastMixin
+SocialToastMixin = {}; --- @class SocialToastMixin
 
 function SocialToastMixin:OnEnter()
 	AlertFrame_PauseOutAnimation(self);

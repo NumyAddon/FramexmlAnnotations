@@ -1,4 +1,4 @@
-SharedReportFrameMixin = { };--- @class SharedReportFrameMixin
+SharedReportFrameMixin = { }; --- @class SharedReportFrameMixin
 
 function SharedReportFrameMixin:OnLoad()
 	NineSliceUtil.ApplyLayoutByName(self.Border, "Dialog");
@@ -237,7 +237,7 @@ function SharedReportFrameMixin:SetMinorCategoryFlag(flag, flagValue)
 	self.minorCategoryFlags:SetOrClear(flag, flagValue);
 end
 
-ScreenshotModeFrameMixin = {};--- @class ScreenshotModeFrameMixin
+ScreenshotModeFrameMixin = {}; --- @class ScreenshotModeFrameMixin
 
 function ScreenshotModeFrameMixin:OnShow()
 	SetAlternateTopLevelParent(self);
@@ -273,7 +273,7 @@ function ScreenshotModeFrameMixin:OnMouseUp(button)
 	end
 end
 
-ReportingFrameMinorCategoryButtonMixin = { };--- @class ReportingFrameMinorCategoryButtonMixin
+ReportingFrameMinorCategoryButtonMixin = { }; --- @class ReportingFrameMinorCategoryButtonMixin
 
 function ReportingFrameMinorCategoryButtonMixin:SetupButton(minorCategory)
 	if(not minorCategory) then
@@ -338,7 +338,7 @@ function ReportingFrameMinorCategoryButtonMixin:SetMinorCategoryEnabled(enabled)
 	parent.ReportButton:UpdateButtonState();
 end
 
-ReportButtonMixin = { };--- @class ReportButtonMixin
+ReportButtonMixin = { }; --- @class ReportButtonMixin
 function ReportButtonMixin:OnClick()
 	self:GetParent():SendReport();
 	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_CLOSE);
@@ -437,7 +437,7 @@ function ReportInfo:CreateDecorReportInfo(reportType, plotIndex, neighborhoodGUI
 	return reportInfo;
 end
 
-ReportInfoMixin = { };--- @class ReportInfoMixin
+ReportInfoMixin = { }; --- @class ReportInfoMixin
 function ReportInfoMixin:Clear()
 	self.reportType = nil;
 	self.majorCategory = nil;

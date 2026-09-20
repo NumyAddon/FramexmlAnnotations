@@ -1,5 +1,5 @@
 
-CommunitiesAddDialogMixin = {};--- @class CommunitiesAddDialogMixin
+CommunitiesAddDialogMixin = {}; --- @class CommunitiesAddDialogMixin
 
 function CommunitiesAddDialogMixin:OnShow()
 	self:SetAttribute("shown", true);
@@ -36,7 +36,7 @@ function CommunitiesAddDialogMixin:OnHide()
 	self.InviteLinkBox:SetText("");
 end
 
-CommunitiesCreateDialogMixin = {};--- @class CommunitiesCreateDialogMixin
+CommunitiesCreateDialogMixin = {}; --- @class CommunitiesCreateDialogMixin
 
 function CommunitiesCreateDialogMixin:ClearText()
 	self.NameBox:SetText("");

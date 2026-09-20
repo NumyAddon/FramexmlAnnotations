@@ -1,5 +1,5 @@
 -- Spell search filter for finding Assisted Combat spells
-SpellSearchAssistedCombatFilterMixin = CreateFromMixins(BaseSpellSearchFilterMixin);--- @class SpellSearchAssistedCombatFilterMixin : BaseSpellSearchFilterMixin
+SpellSearchAssistedCombatFilterMixin = CreateFromMixins(BaseSpellSearchFilterMixin); --- @class SpellSearchAssistedCombatFilterMixin : BaseSpellSearchFilterMixin
 
 -------------------------------- Derived Implementations -------------------------------
 

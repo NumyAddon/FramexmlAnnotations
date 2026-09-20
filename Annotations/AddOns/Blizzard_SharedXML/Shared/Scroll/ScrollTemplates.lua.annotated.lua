@@ -1,4 +1,4 @@
-ScrollingEditBoxMixin = CreateFromMixins(CallbackRegistryMixin);--- @class ScrollingEditBoxMixin : CallbackRegistryMixin
+ScrollingEditBoxMixin = CreateFromMixins(CallbackRegistryMixin); --- @class ScrollingEditBoxMixin : CallbackRegistryMixin
 ScrollingEditBoxMixin:GenerateCallbackEvents(
 	{
 		"OnTabPressed",
@@ -288,7 +288,7 @@ function ScrollingEditBoxMixin:ScrollCursorIntoView(allowCursorClipping)
 	end
 end
 
-ScrollingFontMixin = {};--- @class ScrollingFontMixin
+ScrollingFontMixin = {}; --- @class ScrollingFontMixin
 
 function ScrollingFontMixin:OnLoad()
 	CallbackRegistryMixin.OnLoad(self);

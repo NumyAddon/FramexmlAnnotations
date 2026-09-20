@@ -1,4 +1,4 @@
-ZoneLabelDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class ZoneLabelDataProviderMixin : MapCanvasDataProviderMixin
+ZoneLabelDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class ZoneLabelDataProviderMixin : MapCanvasDataProviderMixin
 
 function ZoneLabelDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);

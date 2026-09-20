@@ -1,5 +1,5 @@
 
-IconButtonMixin = CreateFromMixins(UIButtonMixin);--- @class IconButtonMixin : UIButtonMixin
+IconButtonMixin = CreateFromMixins(UIButtonMixin); --- @class IconButtonMixin : UIButtonMixin
 
 function IconButtonMixin:OnLoad()
 	if self.icon then
@@ -50,7 +50,7 @@ function IconButtonMixin:SetEnabledState(enabled)
 	self.Icon:SetDesaturated(not enabled);
 end
 
-SquareIconButtonMixin = CreateFromMixins(IconButtonMixin);--- @class SquareIconButtonMixin : IconButtonMixin
+SquareIconButtonMixin = CreateFromMixins(IconButtonMixin); --- @class SquareIconButtonMixin : IconButtonMixin
 
 function SquareIconButtonMixin:OnMouseDown()
 	-- Overrides IconButtonMixin.

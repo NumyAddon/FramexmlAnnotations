@@ -1,5 +1,5 @@
 
-BagsBarMixin = {};--- @class BagsBarMixin
+BagsBarMixin = {}; --- @class BagsBarMixin
 
 function BagsBarMixin:OnLoad()
 	self.initialHeight = self:GetHeight(); -- "Short axis" length. Store this off for layout later.

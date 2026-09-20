@@ -1,4 +1,4 @@
-BaseAPIMixin = {};--- @class BaseAPIMixin
+BaseAPIMixin = {}; --- @class BaseAPIMixin
 
 function BaseAPIMixin:GetType()
 	return assert(false);

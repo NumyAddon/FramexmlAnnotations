@@ -40,7 +40,7 @@ local TANK_SORT_VALUE = 4;
 local HEALER_SORT_VALUE = 2; 
 local DPS_SORT_VALUE = 1; 
 
-ClubFinderApplicantEntryMixin = { };--- @class ClubFinderApplicantEntryMixin
+ClubFinderApplicantEntryMixin = { }; --- @class ClubFinderApplicantEntryMixin
 
 function ClubFinderApplicantEntryMixin:GetApplicantName()
 	return self.Info.name;
@@ -249,7 +249,7 @@ function ClubFinderApplicantReport(clubFinderGUID, playerName, playerGUID)
 	ReportFrame:InitiateReport(reportInfo, playerName); 
 end
 
-ClubFinderApplicantListMixin = { };--- @class ClubFinderApplicantListMixin
+ClubFinderApplicantListMixin = { }; --- @class ClubFinderApplicantListMixin
 
 function ClubFinderApplicantListMixin:OnLoad()
 	self.ColumnDisplay:LayoutColumns(APPLICANT_COLUMN_INFO);
@@ -505,7 +505,7 @@ function ClubFinderApplicantListMixin:RefreshLayout()
 	self.ScrollBox:SetDataProvider(dataProvider);
 end 
 
-ClubFinderApplicantInviteButtonMixin = { }; --- @class ClubFinderApplicantInviteButtonMixin
+ClubFinderApplicantInviteButtonMixin = { };  --- @class ClubFinderApplicantInviteButtonMixin
 function ClubFinderApplicantInviteButtonMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_BOTTOMLEFT");
 	if (self:IsEnabled()) then 
@@ -567,7 +567,7 @@ function ClubFinderApplicantInviteButtonMixin:OnClick()
 	ClubFinderCancelOrAcceptApplicant(self, true, false);
 end 
 
-ClubFinderApplicantCancelButtonMixin = { }; --- @class ClubFinderApplicantCancelButtonMixin
+ClubFinderApplicantCancelButtonMixin = { };  --- @class ClubFinderApplicantCancelButtonMixin
 function ClubFinderApplicantCancelButtonMixin:OnEnter()
 	GameTooltip:SetOwner(self);
 	GameTooltip:SetText(DECLINE);

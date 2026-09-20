@@ -17,7 +17,7 @@ local FILTERED_BG_CHAT_END = {};
 local ADDED_PLAYERS = {};
 local SUBTRACTED_PLAYERS = {};
 
-BattlegroundChatFiltersMixin = {}--- @class BattlegroundChatFiltersMixin
+BattlegroundChatFiltersMixin = {} --- @class BattlegroundChatFiltersMixin
 
 function BattlegroundChatFiltersMixin:OnLoad()
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");

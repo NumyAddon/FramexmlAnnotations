@@ -1,4 +1,4 @@
-PlayerReportFrameMixin = {};--- @class PlayerReportFrameMixin
+PlayerReportFrameMixin = {}; --- @class PlayerReportFrameMixin
 
 function PlayerReportFrameMixin:OnLoad()
 	self.CommentBox = self.Comment.ScrollFrame.CommentBox;

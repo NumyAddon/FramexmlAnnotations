@@ -1,4 +1,4 @@
-CommunitiesFrameTabMixin = {};--- @class CommunitiesFrameTabMixin
+CommunitiesFrameTabMixin = {}; --- @class CommunitiesFrameTabMixin
 
 function CommunitiesFrameTabMixin:OnLoad()
 	self.Icon:SetTexture(self.iconTexture);
@@ -26,7 +26,7 @@ function CommunitiesFrameTabMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-CommunitiesChatTabMixin = CreateFromMixins(CommunitiesFrameTabMixin);--- @class CommunitiesChatTabMixin : CommunitiesFrameTabMixin
+CommunitiesChatTabMixin = CreateFromMixins(CommunitiesFrameTabMixin); --- @class CommunitiesChatTabMixin : CommunitiesFrameTabMixin
 
 function CommunitiesChatTabMixin:OnClick(buttonName, down)
 	if IsShiftKeyDown() then

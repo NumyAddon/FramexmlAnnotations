@@ -191,7 +191,7 @@ local function AnchorHighlight(frame, highlight, relativePoint)
 	end
 end
 
-AnchorHighlightMixin = {};--- @class AnchorHighlightMixin
+AnchorHighlightMixin = {}; --- @class AnchorHighlightMixin
 
 function AnchorHighlightMixin:RetrieveAnchorHighlight(pointIndex)
 	if not self.AnchorHighlights then

@@ -1,4 +1,4 @@
-DungeonEntranceDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class DungeonEntranceDataProviderMixin : MapCanvasDataProviderMixin
+DungeonEntranceDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class DungeonEntranceDataProviderMixin : MapCanvasDataProviderMixin
 
 function DungeonEntranceDataProviderMixin:RemoveAllData()
 	self:GetMap():RemoveAllPinsByTemplate("DungeonEntrancePinTemplate");

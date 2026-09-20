@@ -1,4 +1,4 @@
-QuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class QuestDataProviderMixin : MapCanvasDataProviderMixin
+QuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class QuestDataProviderMixin : MapCanvasDataProviderMixin
 
 function QuestDataProviderMixin:GetPinTemplate()
 	return "QuestPinTemplate";
@@ -219,7 +219,7 @@ function QuestDataProviderMixin:AddQuest(questID, x, y, frameLevelOffset)
 end
 
 --[[ Quest Pin ]]--
-QuestPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class QuestPinMixin : MapCanvasPinMixin
+QuestPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class QuestPinMixin : MapCanvasPinMixin
 
 function QuestPinMixin:OnLoad()
 	self:SetScalingLimits(1, 0.4125, 0.4125);

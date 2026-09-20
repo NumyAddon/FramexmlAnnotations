@@ -1,4 +1,4 @@
-EventEditBoxMixin = CreateFromMixins(CallbackRegistryMixin);--- @class EventEditBoxMixin : CallbackRegistryMixin
+EventEditBoxMixin = CreateFromMixins(CallbackRegistryMixin); --- @class EventEditBoxMixin : CallbackRegistryMixin
 
 EventEditBoxMixin:GenerateCallbackEvents(
 	{

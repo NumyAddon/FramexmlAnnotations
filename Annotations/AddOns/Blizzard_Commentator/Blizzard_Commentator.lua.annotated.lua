@@ -55,7 +55,7 @@ function SetSpectatorModeForOtherFrames(spectatorMode)
 	end
 end
 
-CommentatorMixin = {}--- @class CommentatorMixin
+CommentatorMixin = {} --- @class CommentatorMixin
 
 function CommentatorMixin:OnLoad()
 	self.cameraMoveSpeed = 7;

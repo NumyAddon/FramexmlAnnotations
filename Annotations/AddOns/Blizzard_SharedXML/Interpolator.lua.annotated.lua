@@ -10,7 +10,7 @@ function InterpolatorUtil.InterpolateEaseOut(v1, v2, t)
 	return (v1 * (1 - y)) + (v2 * y);
 end
 
-InterpolatorMixin = {}--- @class InterpolatorMixin
+InterpolatorMixin = {} --- @class InterpolatorMixin
 
 function InterpolatorMixin:Interpolate(v1, v2, time, setter, finished)
 	if self.interpolateTo and ApproximatelyEqual(v1, v2) then

@@ -1,5 +1,5 @@
 
-StatusUIMixin = {};--- @class StatusUIMixin
+StatusUIMixin = {}; --- @class StatusUIMixin
 
 function StatusUIMixin:OnLoad()
 	NineSliceUtil.ApplyUniqueCornersLayout(self.Pulse, "gmglow");

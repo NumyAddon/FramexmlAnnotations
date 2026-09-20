@@ -5,7 +5,7 @@ local RotationWhileShownEvents =
 	"HOUSING_DECOR_PRECISION_MANIPULATION_STATUS_CHANGED",
 };
 
-RotateControlFrameMixin = {};--- @class RotateControlFrameMixin
+RotateControlFrameMixin = {}; --- @class RotateControlFrameMixin
 
 function RotateControlFrameMixin:OnLoad()
 	FrameUtil.RegisterForTopLevelParentChanged(self);
@@ -56,7 +56,7 @@ function RotateControlFrameMixin:UpdateActiveState()
 end
 
 
-RotateControlArrowButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class RotateControlArrowButtonMixin : ButtonStateBehaviorMixin
+RotateControlArrowButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class RotateControlArrowButtonMixin : ButtonStateBehaviorMixin
 
 function RotateControlArrowButtonMixin:OnLoad()
 	self.Icon:SetAtlas(self.atlas);

@@ -1,7 +1,7 @@
 -- A segment of fill that displays on top of a status bar
 -- Ex: Heal prediction bar, which displays on top of a unit's health bar
 
-StatusBarOverlaySegmentMixin = {};--- @class StatusBarOverlaySegmentMixin
+StatusBarOverlaySegmentMixin = {}; --- @class StatusBarOverlaySegmentMixin
 
 function StatusBarOverlaySegmentMixin:OnLoad()
 	if self.fillAtlas then

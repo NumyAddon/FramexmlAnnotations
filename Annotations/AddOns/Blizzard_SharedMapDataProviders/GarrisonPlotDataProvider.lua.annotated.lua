@@ -1,4 +1,4 @@
-GarrisonPlotDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class GarrisonPlotDataProviderMixin : MapCanvasDataProviderMixin
+GarrisonPlotDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class GarrisonPlotDataProviderMixin : MapCanvasDataProviderMixin
 
 function GarrisonPlotDataProviderMixin:RemoveAllData()
 	self:GetMap():RemoveAllPinsByTemplate("GarrisonPlotPinTemplate");

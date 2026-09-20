@@ -26,7 +26,7 @@ end
 
 C_Timer.NewTicker(0, ProcessSmoothStatusBars);
 
-SmoothStatusBarMixin = {};--- @class SmoothStatusBarMixin
+SmoothStatusBarMixin = {}; --- @class SmoothStatusBarMixin
 
 function SmoothStatusBarMixin:ResetSmoothedValue(value) --If nil, tries to set to the last target value
 	local targetValue = g_updatingBars[self];

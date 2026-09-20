@@ -1,4 +1,4 @@
-TimedCallbackMixin = {};--- @class TimedCallbackMixin
+TimedCallbackMixin = {}; --- @class TimedCallbackMixin
 
 function TimedCallbackMixin:SetCheckDelaySeconds(delay)
 	self.delay = delay;

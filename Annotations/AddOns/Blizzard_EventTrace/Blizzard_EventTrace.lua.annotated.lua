@@ -48,7 +48,7 @@ EventTraceSavedVars =
 	},
 };
 
-EventTraceButtonBehaviorMixin = {};--- @class EventTraceButtonBehaviorMixin
+EventTraceButtonBehaviorMixin = {}; --- @class EventTraceButtonBehaviorMixin
 
 function EventTraceButtonBehaviorMixin:OnEnter()
 	self.MouseoverOverlay:Show();
@@ -62,13 +62,13 @@ function EventTraceButtonBehaviorMixin:SetAlternateOverlayShown(alternate)
 	self.Alternate:SetShown(alternate);
 end
 
-EventTraceScrollBoxButtonMixin = {};--- @class EventTraceScrollBoxButtonMixin
+EventTraceScrollBoxButtonMixin = {}; --- @class EventTraceScrollBoxButtonMixin
 
 function EventTraceScrollBoxButtonMixin:Flash()
 	self.FlashOverlay.Anim:Play();
 end
 
-EventTracePanelMixin = CreateFromMixins(ToolWindowOwnerMixin);--- @class EventTracePanelMixin : ToolWindowOwnerMixin
+EventTracePanelMixin = CreateFromMixins(ToolWindowOwnerMixin); --- @class EventTracePanelMixin : ToolWindowOwnerMixin
 
 function EventTracePanelMixin:OnSetDebugToolVisible(addonName, showTool)
 	if addonName == "Blizzard_EventTrace" then
@@ -808,7 +808,7 @@ local function FormatLine(id, message)
 	return string.format("%s %s", id, message);
 end
 
-EventTraceLogEventButtonMixin = {};--- @class EventTraceLogEventButtonMixin
+EventTraceLogEventButtonMixin = {}; --- @class EventTraceLogEventButtonMixin
 
 local function AddTooltipArguments(showSecretValues, ...)
 	local count = select("#", ...);
@@ -925,7 +925,7 @@ function EventTraceLogEventButtonMixin:OnShowSecretValuesChanged(elementData, sh
 	self:SetLeftText(elementData, self:IsShowingArguments());
 end
 
-EventTraceLogMessageButtonMixin = {};--- @class EventTraceLogMessageButtonMixin
+EventTraceLogMessageButtonMixin = {}; --- @class EventTraceLogMessageButtonMixin
 
 function EventTraceLogMessageButtonMixin:Init(elementData)
 	local id = FormatLogID(elementData);
@@ -952,7 +952,7 @@ end
 function EventTraceLogMessageButtonMixin:SetRightText(elementData)
 end
 
-EventTraceFilterButtonMixin = {};--- @class EventTraceFilterButtonMixin
+EventTraceFilterButtonMixin = {}; --- @class EventTraceFilterButtonMixin
 
 function EventTraceFilterButtonMixin:Init(elementData, hideCb)
 	self.Label:SetText(GetDisplayEvent(elementData));

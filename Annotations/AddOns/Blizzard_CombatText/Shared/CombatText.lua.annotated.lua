@@ -1,6 +1,6 @@
 local PLUNDERSTORM_CURRENCY = 3011;
 
-CombatTextMixin = {};--- @class CombatTextMixin
+CombatTextMixin = {}; --- @class CombatTextMixin
 
 function CombatTextMixin:OnLoad()
 	self.fontStringPool = CreateFontStringPool(self, "BACKGROUND", nil, nil, Pool_HideAndSetToDefaults, CombatTextConstants.NumCombatTextLines);

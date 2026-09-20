@@ -1,4 +1,4 @@
-GossipFrameMixin = CreateFromMixins(GossipFrameSharedMixin);--- @class GossipFrameMixin : GossipFrameSharedMixin
+GossipFrameMixin = CreateFromMixins(GossipFrameSharedMixin); --- @class GossipFrameMixin : GossipFrameSharedMixin
 
 function GossipFrameMixin:OnLoad()
 	self:RegisterEvent("GOSSIP_SHOW");
@@ -27,7 +27,7 @@ local function IsFrequentRecurring(meta, frequency)
 	return not meta and (frequency == Enum.QuestFrequency.Daily or frequency == Enum.QuestFrequency.Weekly or frequency == Enum.QuestFrequency.ResetByScheduler);
 end
 
-GossipAvailableQuestButtonMixin = CreateFromMixins(GossipSharedAvailableQuestButtonMixin);--- @class GossipAvailableQuestButtonMixin : GossipSharedAvailableQuestButtonMixin
+GossipAvailableQuestButtonMixin = CreateFromMixins(GossipSharedAvailableQuestButtonMixin); --- @class GossipAvailableQuestButtonMixin : GossipSharedAvailableQuestButtonMixin
 function GossipAvailableQuestButtonMixin:Setup(questInfo)
 	if (questInfo.isLegendary) then
 		self.Icon:SetTexture("Interface\\GossipFrame\\AvailableLegendaryQuestIcon");
@@ -39,7 +39,7 @@ function GossipAvailableQuestButtonMixin:Setup(questInfo)
 	GossipSharedAvailableQuestButtonMixin.Setup(self, questInfo);
 end
 
-GossipActiveQuestButtonMixin = CreateFromMixins(GossipSharedActiveQuestButtonMixin);--- @class GossipActiveQuestButtonMixin : GossipSharedActiveQuestButtonMixin
+GossipActiveQuestButtonMixin = CreateFromMixins(GossipSharedActiveQuestButtonMixin); --- @class GossipActiveQuestButtonMixin : GossipSharedActiveQuestButtonMixin
 function GossipActiveQuestButtonMixin:Setup(questInfo)
 	if (questInfo.isLegendary) then
 		self.Icon:SetTexture("Interface\\GossipFrame\\ActiveLegendaryQuestIcon");

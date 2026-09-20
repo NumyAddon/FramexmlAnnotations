@@ -1,5 +1,5 @@
 
-MainMenuFrameMixin = {};--- @class MainMenuFrameMixin
+MainMenuFrameMixin = {}; --- @class MainMenuFrameMixin
 
 local function HideAndClearAnchorsAndLayoutIndex(framePool, frame)
 	Pool_HideAndClearAnchors(framePool, frame);

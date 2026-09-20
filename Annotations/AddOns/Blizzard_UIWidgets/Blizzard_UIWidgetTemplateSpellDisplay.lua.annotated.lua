@@ -16,7 +16,7 @@ local colorBlindNumPipsByBorderColor = {
 	[Enum.SpellDisplayBorderColor.Blue] = 3,
 }
 
-UIWidgetTemplateSpellDisplayMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateSpellDisplayMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateSpellDisplayMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateSpellDisplayMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateSpellDisplayMixin:OnLoad()
 	UIWidgetBaseTemplateMixin.OnLoad(self);
@@ -120,7 +120,7 @@ function UIWidgetTemplateSpellDisplayMixin:OnMouseDown(button)
 	end
 end
 
-UIWidgetTemplateSpellDisplaySpellMixin = {}--- @class UIWidgetTemplateSpellDisplaySpellMixin
+UIWidgetTemplateSpellDisplaySpellMixin = {} --- @class UIWidgetTemplateSpellDisplaySpellMixin
 
 -- Registered dynamically
 function UIWidgetTemplateSpellDisplaySpellMixin:OnUpdate(dt)

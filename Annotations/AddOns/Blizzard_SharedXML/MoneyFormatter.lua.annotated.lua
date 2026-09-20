@@ -16,7 +16,7 @@ MoneyFormatterZeroDisplayMode = {
 	ShowAll = 3, -- Show zero values for all denominations (0 -> '0g 0s 0c').
 };
 
-MoneyFormatterConfigMixin = {};--- @class MoneyFormatterConfigMixin
+MoneyFormatterConfigMixin = {}; --- @class MoneyFormatterConfigMixin
 
 MoneyFormatterConfigMixin.DenominationAtlases = {
 	[Enum.CurrencyType.Copper] = "coin-copper",

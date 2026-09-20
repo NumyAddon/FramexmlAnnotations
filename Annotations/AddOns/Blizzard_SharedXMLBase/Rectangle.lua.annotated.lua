@@ -1,4 +1,4 @@
-RectangleMixin = {};--- @class RectangleMixin
+RectangleMixin = {}; --- @class RectangleMixin
 
 function CreateRectangle(left, right, top, bottom)
 	local rectangle = CreateFromMixins(RectangleMixin);

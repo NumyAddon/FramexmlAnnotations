@@ -7,7 +7,7 @@
 	Use the Natural Grid or Cell Size Grid templates instead
 ]]
 
-BasePagedGridContentFrameMixin = CreateFromMixins(PagedContentFrameBaseMixin);--- @class BasePagedGridContentFrameMixin : PagedContentFrameBaseMixin
+BasePagedGridContentFrameMixin = CreateFromMixins(PagedContentFrameBaseMixin); --- @class BasePagedGridContentFrameMixin : PagedContentFrameBaseMixin
 
 function BasePagedGridContentFrameMixin:InitializeElementSplit(splitData, viewFrame)
 	splitData.filledStrideInCurrentRow = 0;
@@ -81,7 +81,7 @@ end
 ----------------- Cell Size Grid -----------------
 -- Elements take up a specified cell size out of available cellsPerRow
 
-PagedCellSizeGridContentFrameMixin = CreateFromMixins(BasePagedGridContentFrameMixin);--- @class PagedCellSizeGridContentFrameMixin : BasePagedGridContentFrameMixin
+PagedCellSizeGridContentFrameMixin = CreateFromMixins(BasePagedGridContentFrameMixin); --- @class PagedCellSizeGridContentFrameMixin : BasePagedGridContentFrameMixin
 
 function PagedCellSizeGridContentFrameMixin:InitializeElementSplit(splitData, viewFrame)
 	BasePagedGridContentFrameMixin.InitializeElementSplit(self, splitData, viewFrame);
@@ -135,7 +135,7 @@ end
 ----------------- Natural Size Grid -----------------
 -- Elements take up actual frame width out of available view width per row
 
-PagedNaturalSizeGridContentFrameMixin = CreateFromMixins(BasePagedGridContentFrameMixin);--- @class PagedNaturalSizeGridContentFrameMixin : BasePagedGridContentFrameMixin
+PagedNaturalSizeGridContentFrameMixin = CreateFromMixins(BasePagedGridContentFrameMixin); --- @class PagedNaturalSizeGridContentFrameMixin : BasePagedGridContentFrameMixin
 
 function PagedNaturalSizeGridContentFrameMixin:InitializeElementSplit(splitData, viewFrame)
 	BasePagedGridContentFrameMixin.InitializeElementSplit(self, splitData, viewFrame);

@@ -1,4 +1,4 @@
-WowTrimScrollBarMixin = {};--- @class WowTrimScrollBarMixin
+WowTrimScrollBarMixin = {}; --- @class WowTrimScrollBarMixin
 
 function WowTrimScrollBarMixin:OnLoad()
 	ScrollBarMixin.OnLoad(self);
@@ -16,7 +16,7 @@ function WowTrimScrollBarMixin:OnLoad()
 	end
 end
 
-WowTrimScrollBarStepperMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class WowTrimScrollBarStepperMixin : ButtonStateBehaviorMixin
+WowTrimScrollBarStepperMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class WowTrimScrollBarStepperMixin : ButtonStateBehaviorMixin
 
 function WowTrimScrollBarStepperMixin:OnLoad()
 	local x, y = 1, -1;
@@ -38,7 +38,7 @@ function WowTrimScrollBarStepperMixin:OnButtonStateChanged()
 	self.Overlay:SetShown(self:IsOver());
 end
 
-WowScrollBarThumbScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class WowScrollBarThumbScriptsMixin : ButtonStateBehaviorMixin
+WowScrollBarThumbScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class WowScrollBarThumbScriptsMixin : ButtonStateBehaviorMixin
 
 function WowScrollBarThumbScriptsMixin:OnLoad()
 	self:OnButtonStateChanged();

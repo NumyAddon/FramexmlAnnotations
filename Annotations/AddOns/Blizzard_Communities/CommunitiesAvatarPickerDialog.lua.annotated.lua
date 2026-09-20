@@ -22,7 +22,7 @@ function CommunitiesAvatarPicker_IsShown()
 	return CommunitiesAvatarPickerDialog:IsShown();
 end
 
-CommunitiesAvatarPickerDialogMixin = {};--- @class CommunitiesAvatarPickerDialogMixin
+CommunitiesAvatarPickerDialogMixin = {}; --- @class CommunitiesAvatarPickerDialogMixin
 
 function CommunitiesAvatarPickerDialogMixin:OnLoad()
 	local stride = 6;
@@ -88,7 +88,7 @@ function CommunitiesAvatarPickerDialogMixin:Refresh()
 	self.ScrollBox:SetDataProvider(dataProvider, ScrollBoxConstants.RetainScrollPosition);
 end
 
-CommunitiesAvatarButtonMixin = {};--- @class CommunitiesAvatarButtonMixin
+CommunitiesAvatarButtonMixin = {}; --- @class CommunitiesAvatarButtonMixin
 
 function CommunitiesAvatarButtonMixin:Init(avatarIndex)
 	local avatarId = CommunitiesAvatarPickerDialog.avatarIdList[avatarIndex];

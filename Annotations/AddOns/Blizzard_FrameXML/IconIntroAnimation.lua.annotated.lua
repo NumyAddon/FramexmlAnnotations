@@ -3,7 +3,7 @@
 --This File is responsible for animating spells to the actionbar
 MULTIBOTTOMLEFTINDEX = 6;
 
-IconIntroTrackerMixin = {};--- @class IconIntroTrackerMixin
+IconIntroTrackerMixin = {}; --- @class IconIntroTrackerMixin
 
 function IconIntroTrackerMixin:OnLoad()
 	self.iconList = {};
@@ -90,7 +90,7 @@ function IconIntroTrackerMixin:ResetAll()
 	end
 end
 
-IconIntroFlyinAnimMixin = {};--- @class IconIntroFlyinAnimMixin
+IconIntroFlyinAnimMixin = {}; --- @class IconIntroFlyinAnimMixin
 
 function IconIntroFlyinAnimMixin:OnAnimPlay()
 	local iconFrame = self:GetParent();

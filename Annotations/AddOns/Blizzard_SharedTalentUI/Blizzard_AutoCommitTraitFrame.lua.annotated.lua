@@ -1,4 +1,4 @@
-AutoCommitTraitFrameMixin = { };--- @class AutoCommitTraitFrameMixin
+AutoCommitTraitFrameMixin = { }; --- @class AutoCommitTraitFrameMixin
 
 local FrameLevelPerRow = 10;
 local BaseYOffset = 1500;

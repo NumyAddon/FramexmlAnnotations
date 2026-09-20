@@ -2,7 +2,7 @@
 local COMMENTATOR_VICTORY_FANFARE_MODEL_SCENE_ID = 59;
 local COMMENTATOR_VICTORY_FANFARE_EFFECT_MODEL_ID = 382335;--"SPELLS\\EASTERN_PLAGUELANDS_BEAM_EFFECT.M2";
 
-CommentatorVictoryFanfareFrameMixin = {};--- @class CommentatorVictoryFanfareFrameMixin
+CommentatorVictoryFanfareFrameMixin = {}; --- @class CommentatorVictoryFanfareFrameMixin
 
 function CommentatorVictoryFanfareFrameMixin:OnLoad()
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");

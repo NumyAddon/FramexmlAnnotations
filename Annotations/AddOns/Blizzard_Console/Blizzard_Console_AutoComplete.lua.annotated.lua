@@ -1,4 +1,4 @@
-DeveloperConsoleAutoCompleteMixin = {};--- @class DeveloperConsoleAutoCompleteMixin
+DeveloperConsoleAutoCompleteMixin = {}; --- @class DeveloperConsoleAutoCompleteMixin
 
 function DeveloperConsoleAutoCompleteMixin:OnLoad()
 	self:MarkDirty();

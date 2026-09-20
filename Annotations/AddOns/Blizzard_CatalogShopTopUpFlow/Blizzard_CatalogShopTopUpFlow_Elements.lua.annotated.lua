@@ -8,7 +8,7 @@ end
 ----------------------------------------------------------------------------------
 -- TopUpProductContainerFrameMixin
 ----------------------------------------------------------------------------------
-TopUpProductContainerFrameMixin = {};--- @class TopUpProductContainerFrameMixin
+TopUpProductContainerFrameMixin = {}; --- @class TopUpProductContainerFrameMixin
 function TopUpProductContainerFrameMixin:OnLoad()
 end
 

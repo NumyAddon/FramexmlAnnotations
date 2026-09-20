@@ -13,7 +13,7 @@ local APPLICATION_EXPIRATION_DAYS = 7;
 
 CLUB_FINDER_SEARCH_BUTTON_MIN_TEXT_LENGTH = 3; -- Localization.lua
 
-ClubFinderDropdownMixin = {};--- @class ClubFinderDropdownMixin
+ClubFinderDropdownMixin = {}; --- @class ClubFinderDropdownMixin
 
 function ClubFinderDropdownMixin:OnLoad()
 	WowStyle1DropdownMixin.OnLoad(self);
@@ -100,7 +100,7 @@ local CLUB_FINDER_FRAME_EVENTS = {
 	"CLUB_FINDER_GUILD_REALM_NAME_UPDATED",
 };
 
-ClubsRecruitmentDialogMixin = {};--- @class ClubsRecruitmentDialogMixin
+ClubsRecruitmentDialogMixin = {}; --- @class ClubsRecruitmentDialogMixin
 
 
 function ClubsRecruitmentDialogMixin:UpdatedPostingInformationInit()
@@ -276,7 +276,7 @@ function ClubsRecruitmentDialogMixin:PostClub()
 	end
 end
 
-ClubFinderRequestToJoinMixin = {};--- @class ClubFinderRequestToJoinMixin
+ClubFinderRequestToJoinMixin = {}; --- @class ClubFinderRequestToJoinMixin
 
 function ClubFinderRequestToJoinMixin:OnShow()
 	self:GetCommunitiesFrame():RegisterDialogShown(self);
@@ -469,7 +469,7 @@ local FocusRoleFlags = {
 	{flag = Enum.ClubFinderSettingFlags.PvP, text = PVP_ENABLED },
 	{flag = Enum.ClubFinderSettingFlags.RP, text = GUILD_INTEREST_RP },
 }
-ClubFocusDropdownMixin = {};--- @class ClubFocusDropdownMixin
+ClubFocusDropdownMixin = {}; --- @class ClubFocusDropdownMixin
 
 function ClubFocusDropdownMixin:SetupMenu()
 	DropdownButtonMixin.SetupMenu(self, function(dropdown, rootDescription)
@@ -489,7 +489,7 @@ function ClubFocusDropdownMixin:SetupMenu()
 	end);
 end
 
-ClubLookingForDropdownMixin = { };--- @class ClubLookingForDropdownMixin
+ClubLookingForDropdownMixin = { }; --- @class ClubLookingForDropdownMixin
 
 local ClubRoles = {
 	{role = "TANK", text = CLUB_FINDER_TANK},
@@ -632,7 +632,7 @@ function ClubLookingForDropdownMixin:CheckOrUncheckAll(info, roleToMatch, checkA
 	end
 end
 
-ClubFinderFilterDropdownMixin = {};--- @class ClubFinderFilterDropdownMixin
+ClubFinderFilterDropdownMixin = {}; --- @class ClubFinderFilterDropdownMixin
 
 function ClubFinderFilterDropdownMixin:SetLocaleFlag(localeFlag, checked)
 	self.locales:SetOrClear(localeFlag, checked);
@@ -759,7 +759,7 @@ function ClubFinderFilterDropdownMixin:SetupMenu(localeFlags)
 	end);
 end
 
-ClubFinderOptionsMixin = { };--- @class ClubFinderOptionsMixin
+ClubFinderOptionsMixin = { }; --- @class ClubFinderOptionsMixin
 
 function ClubFinderOptionsMixin:OnLoad()
 	self.ClubFilterDropdown:SetWidth(215);
@@ -995,7 +995,7 @@ function ClubFinderOptionsMixin:SetupCommunityFinderOptions()
 	self.ClubSizeDropdown:Hide();
 end
 
-ClubFinderSearchButtonMixin = { };--- @class ClubFinderSearchButtonMixin
+ClubFinderSearchButtonMixin = { }; --- @class ClubFinderSearchButtonMixin
 
 function ClubFinderSearchButtonMixin:SetSearchBox(searchBox)
 	self.searchBox = searchBox;
@@ -1051,7 +1051,7 @@ function ClubFinderSearchButtonMixin:HideTooltip()
 	GameTooltip:Hide();
 end
 
-ClubFinderSearchEditBoxMixin = { };--- @class ClubFinderSearchEditBoxMixin
+ClubFinderSearchEditBoxMixin = { }; --- @class ClubFinderSearchEditBoxMixin
 
 function ClubFinderSearchEditBoxMixin:OnEnterPressed()
 	if (self:GetParent().Search:ShouldBeEnabled()) then
@@ -1078,7 +1078,7 @@ function ClubFinderCreateRecruitingSpecsMap(specIds)
 	return recruitingSpecIds;
 end
 
-ClubFinderCardMixin = { };--- @class ClubFinderCardMixin
+ClubFinderCardMixin = { }; --- @class ClubFinderCardMixin
 
 function ClubFinderCardMixin:OnClick(button, down)
 	if button == "RightButton" then
@@ -1169,7 +1169,7 @@ function ClubFinderCardMixin:GetCardStatus()
 	return C_ClubFinder.GetPlayerClubApplicationStatus(self.cardInfo.clubFinderGUID);
 end
 
-ClubFinderGuildCardMixin = CreateFromMixins(ClubFinderCardMixin);--- @class ClubFinderGuildCardMixin : ClubFinderCardMixin
+ClubFinderGuildCardMixin = CreateFromMixins(ClubFinderCardMixin); --- @class ClubFinderGuildCardMixin : ClubFinderCardMixin
 
 function ClubFinderGuildCardMixin:RequestToJoinClub()
 	self:GetParent():GetParent().RequestToJoinFrame.card = self;
@@ -1319,7 +1319,7 @@ function ClubFinderGuildCardMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-ClubFinderCommunitiesCardMixin = CreateFromMixins(ClubFinderCardMixin);--- @class ClubFinderCommunitiesCardMixin : ClubFinderCardMixin
+ClubFinderCommunitiesCardMixin = CreateFromMixins(ClubFinderCardMixin); --- @class ClubFinderCommunitiesCardMixin : ClubFinderCardMixin
 
 function ClubFinderCommunitiesCardMixin:Init(cardInfo)
 	self.cardInfo = cardInfo;
@@ -1512,7 +1512,7 @@ function ClubFinderGetPlayerSpecIds()
 	return playerSpecs;
 end
 
-ClubFinderCommunitiesCardsBaseMixin = { };--- @class ClubFinderCommunitiesCardsBaseMixin
+ClubFinderCommunitiesCardsBaseMixin = { }; --- @class ClubFinderCommunitiesCardsBaseMixin
 
 function ClubFinderCommunitiesCardsBaseMixin:ClearCardList()
 	self.CardList = { };
@@ -1602,7 +1602,7 @@ function ClubFinderCommunitiesCardsBaseMixin:OnScrollBoxScroll(scrollPercentage,
 	end
 end
 
-ClubFinderCommunitiesCardsMixin = CreateFromMixins(ClubFinderCommunitiesCardsBaseMixin);--- @class ClubFinderCommunitiesCardsMixin : ClubFinderCommunitiesCardsBaseMixin
+ClubFinderCommunitiesCardsMixin = CreateFromMixins(ClubFinderCommunitiesCardsBaseMixin); --- @class ClubFinderCommunitiesCardsMixin : ClubFinderCommunitiesCardsBaseMixin
 
 function ClubFinderCommunitiesCardsMixin:BuildCardList()
 	self.pagingEnabled = true;
@@ -1612,14 +1612,14 @@ function ClubFinderCommunitiesCardsMixin:BuildCardList()
 	self:GetParent().InsetFrame.GuildDescription:SetText(CLUB_FINDER_SEARCH_NOTHING_FOUND);
 end
 
-ClubFinderPendingCommunitiesCardsMixin = CreateFromMixins(ClubFinderCommunitiesCardsBaseMixin);--- @class ClubFinderPendingCommunitiesCardsMixin : ClubFinderCommunitiesCardsBaseMixin
+ClubFinderPendingCommunitiesCardsMixin = CreateFromMixins(ClubFinderCommunitiesCardsBaseMixin); --- @class ClubFinderPendingCommunitiesCardsMixin : ClubFinderCommunitiesCardsBaseMixin
 function ClubFinderPendingCommunitiesCardsMixin:BuildCardList()
 	self.pagingEnabled = false;
 	self.isPendingCardList = true;
 	self.CardList = C_ClubFinder.PlayerReturnPendingCommunitiesList();
 end
 
-ClubFinderGuildCardsBaseMixin = { };--- @class ClubFinderGuildCardsBaseMixin
+ClubFinderGuildCardsBaseMixin = { }; --- @class ClubFinderGuildCardsBaseMixin
 
 function ClubFinderGuildCardsBaseMixin:ClearCardList()
 	self.CardList = { };
@@ -1771,7 +1771,7 @@ function ClubFinderGuildCardsBaseMixin:RefreshLayout(cardPage)
 	end
 end
 
-ClubFinderGuildCardsMixin = CreateFromMixins(ClubFinderGuildCardsBaseMixin);--- @class ClubFinderGuildCardsMixin : ClubFinderGuildCardsBaseMixin
+ClubFinderGuildCardsMixin = CreateFromMixins(ClubFinderGuildCardsBaseMixin); --- @class ClubFinderGuildCardsMixin : ClubFinderGuildCardsBaseMixin
 
 function ClubFinderGuildCardsMixin:BuildCardList()
 	self.pagingEnabled = true;
@@ -1787,7 +1787,7 @@ function ClubFinderGuildCardsMixin:BuildCardList()
 	end
 end
 
-ClubFinderPendingGuildCardsMixin = CreateFromMixins(ClubFinderGuildCardsBaseMixin);--- @class ClubFinderPendingGuildCardsMixin : ClubFinderGuildCardsBaseMixin
+ClubFinderPendingGuildCardsMixin = CreateFromMixins(ClubFinderGuildCardsBaseMixin); --- @class ClubFinderPendingGuildCardsMixin : ClubFinderGuildCardsBaseMixin
 function ClubFinderPendingGuildCardsMixin:BuildCardList()
 	self.numPages = 0;
 	self.pagingEnabled = false;
@@ -1795,7 +1795,7 @@ function ClubFinderPendingGuildCardsMixin:BuildCardList()
 	self.numPages = math.ceil(#self.CardList / GUILD_CARDS_PER_PAGE);
 end
 
-ClubFinderCheckboxMixin = { };--- @class ClubFinderCheckboxMixin
+ClubFinderCheckboxMixin = { }; --- @class ClubFinderCheckboxMixin
 function ClubFinderCheckboxMixin:OnClick()
 	if (self:GetChecked()) then
 		PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
@@ -1803,7 +1803,7 @@ function ClubFinderCheckboxMixin:OnClick()
 		PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_OFF);
 	end
 end
-ClubFinderGuildAndCommunityMixin = { };--- @class ClubFinderGuildAndCommunityMixin
+ClubFinderGuildAndCommunityMixin = { }; --- @class ClubFinderGuildAndCommunityMixin
 function ClubFinderGuildAndCommunityMixin:OnLoad()
 	self:RegisterEvent("CLUB_FINDER_LINKED_CLUB_RETURNED");
 	self:RegisterEvent("CLUB_FINDER_POST_UPDATED");
@@ -2003,7 +2003,7 @@ function ClubFinderGuildAndCommunityMixin:GetDisplayModeBasedOnSelectedTab()
 	end
 end
 
-ClubFinderInvitationsFrameMixin = { };--- @class ClubFinderInvitationsFrameMixin
+ClubFinderInvitationsFrameMixin = { }; --- @class ClubFinderInvitationsFrameMixin
 
 function ClubFinderInvitationsFrameMixin:OnShow()
 	self:RegisterEvent("PLAYER_GUILD_UPDATE");
@@ -2165,7 +2165,7 @@ function ClubFinderInvitationsFrameMixin:DeclineInvitation()
 	end
 end
 
-ClubsFinderJoinClubWarningMixin = { };--- @class ClubsFinderJoinClubWarningMixin
+ClubsFinderJoinClubWarningMixin = { }; --- @class ClubsFinderJoinClubWarningMixin
 
 function ClubsFinderJoinClubWarningMixin:OnShow()
 	if (IsInGuild()) then
@@ -2187,7 +2187,7 @@ function ClubsFinderJoinClubWarningMixin:OnCancelButtonClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_CLOSE);
 end
 
-ClubFinderTabMixin = { };--- @class ClubFinderTabMixin
+ClubFinderTabMixin = { }; --- @class ClubFinderTabMixin
 
 function ClubFinderTabMixin:OnClick(buttonName, down)
 	self:SetTab();
@@ -2206,7 +2206,7 @@ function ClubFinderTabMixin:SetTab()
 
 end
 
-ClubFinderRoleCheckboxMixin = { };--- @class ClubFinderRoleCheckboxMixin
+ClubFinderRoleCheckboxMixin = { }; --- @class ClubFinderRoleCheckboxMixin
 
 function ClubFinderRoleCheckboxMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT", 0, 5);
@@ -2231,7 +2231,7 @@ function ClubFinderRoleCheckboxMixin:OnLeave()
 end
 
 
-ClubFinderRoleMixin = { };--- @class ClubFinderRoleMixin
+ClubFinderRoleMixin = { }; --- @class ClubFinderRoleMixin
 
 function ClubFinderRoleMixin:OnEnter()
 	self.Checkbox:OnEnter();

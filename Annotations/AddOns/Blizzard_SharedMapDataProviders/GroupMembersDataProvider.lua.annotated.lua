@@ -1,4 +1,4 @@
-GroupMembersDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class GroupMembersDataProviderMixin : MapCanvasDataProviderMixin
+GroupMembersDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class GroupMembersDataProviderMixin : MapCanvasDataProviderMixin
 
 function GroupMembersDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -60,7 +60,7 @@ function GroupMembersDataProviderMixin:GetUnitPinSizesTable()
 end
 
 --[[ Group Members Pin ]]--
-GroupMembersPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class GroupMembersPinMixin : MapCanvasPinMixin
+GroupMembersPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class GroupMembersPinMixin : MapCanvasPinMixin
 
 function GroupMembersPinMixin:OnLoad()
 	UnitPositionFrameMixin.OnLoad(self);

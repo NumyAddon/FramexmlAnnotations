@@ -1,4 +1,4 @@
-DropdownLoadSystemMixin = {};--- @class DropdownLoadSystemMixin
+DropdownLoadSystemMixin = {}; --- @class DropdownLoadSystemMixin
 
 function DropdownLoadSystemMixin:OnLoad()
 	self.sentinelInfos = {};

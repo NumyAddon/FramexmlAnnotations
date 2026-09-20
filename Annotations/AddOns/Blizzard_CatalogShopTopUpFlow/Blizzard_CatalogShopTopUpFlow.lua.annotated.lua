@@ -8,7 +8,7 @@ local ScreenPadding =
 ----------------------------------------------------------------------------------
 -- CatalogShopTopUpFrameMixin
 ----------------------------------------------------------------------------------
-CatalogShopTopUpFrameMixin = {};--- @class CatalogShopTopUpFrameMixin
+CatalogShopTopUpFrameMixin = {}; --- @class CatalogShopTopUpFrameMixin
 function CatalogShopTopUpFrameMixin:OnLoad()
 	if ( C_Glue.IsOnGlueScreen() ) then
 		self:SetFrameStrata("FULLSCREEN_DIALOG");

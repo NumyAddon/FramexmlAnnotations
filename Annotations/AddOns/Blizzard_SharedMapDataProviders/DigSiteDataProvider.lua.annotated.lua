@@ -1,4 +1,4 @@
-DigSiteDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin);--- @class DigSiteDataProviderMixin : CVarMapCanvasDataProviderMixin
+DigSiteDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin); --- @class DigSiteDataProviderMixin : CVarMapCanvasDataProviderMixin
 DigSiteDataProviderMixin:Init("digSites");
 
 function DigSiteDataProviderMixin:RemoveAllData()
@@ -61,7 +61,7 @@ function DigSiteDataProviderMixin:IsZoneMapType()
 end
 
 --[[ Blob Pin ]]--
-DigSiteBlobPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class DigSiteBlobPinMixin : MapCanvasPinMixin
+DigSiteBlobPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class DigSiteBlobPinMixin : MapCanvasPinMixin
 
 function DigSiteBlobPinMixin:OnLoad()
 	self:SetFillTexture("Interface\\WorldMap\\UI-ArchaeologyBlob-Inside");

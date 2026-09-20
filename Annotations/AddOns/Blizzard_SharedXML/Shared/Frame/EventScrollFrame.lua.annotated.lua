@@ -1,5 +1,5 @@
 
-EventScrollFrameMixin = CreateFromMixins(CallbackRegistryMixin);--- @class EventScrollFrameMixin : CallbackRegistryMixin
+EventScrollFrameMixin = CreateFromMixins(CallbackRegistryMixin); --- @class EventScrollFrameMixin : CallbackRegistryMixin
 
 EventScrollFrameMixin:GenerateCallbackEvents(
 	{

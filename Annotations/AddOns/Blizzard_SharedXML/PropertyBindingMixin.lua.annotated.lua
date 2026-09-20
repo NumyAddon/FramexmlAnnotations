@@ -1,4 +1,4 @@
-PropertyBindingMixin = {};--- @class PropertyBindingMixin
+PropertyBindingMixin = {}; --- @class PropertyBindingMixin
 
 function PropertyBindingMixin:RegisterStateUpdateEvent(event, optionalCallback)
 	self.stateUpdateEvents = self.stateUpdateEvents or {};

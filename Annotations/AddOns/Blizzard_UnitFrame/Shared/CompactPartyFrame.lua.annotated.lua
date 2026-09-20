@@ -12,7 +12,7 @@ function CompactPartyFrame_Generate()
 	return frame, didCreate;
 end
 
-CompactPartyFrameMixin = {};--- @class CompactPartyFrameMixin
+CompactPartyFrameMixin = {}; --- @class CompactPartyFrameMixin
 
 function CompactPartyFrameMixin:OnLoad()
 	self.applyFunc = self.ApplyFunctionToAllFrames;

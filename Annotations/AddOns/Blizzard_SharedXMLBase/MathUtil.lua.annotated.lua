@@ -129,7 +129,7 @@ function CalculateAngleBetween(x1, y1, x2, y2)
 	return math.atan2(y2 - y1, x2 - x1);
 end
 
-AccumulatorMixin = {};--- @class AccumulatorMixin
+AccumulatorMixin = {}; --- @class AccumulatorMixin
 
 function AccumulatorMixin:Init(initialCount)
 	self.count = initialCount or 0;

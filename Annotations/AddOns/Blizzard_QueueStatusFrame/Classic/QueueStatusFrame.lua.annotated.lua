@@ -2,7 +2,7 @@
 ------------QueueStatusFrame------------------
 ----------------------------------------------
 
-QueueStatusFrameMixin = {}--- @class QueueStatusFrameMixin
+QueueStatusFrameMixin = {} --- @class QueueStatusFrameMixin
 function QueueStatusFrameMixin:OnLoad()
 	--For everything
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");

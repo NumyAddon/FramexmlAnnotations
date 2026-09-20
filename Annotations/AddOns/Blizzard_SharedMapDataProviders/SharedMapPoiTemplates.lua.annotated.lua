@@ -1,4 +1,4 @@
-BaseMapPoiPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class BaseMapPoiPinMixin : MapCanvasPinMixin
+BaseMapPoiPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class BaseMapPoiPinMixin : MapCanvasPinMixin
 
 --[[static]] function BaseMapPoiPinMixin:CreateSubPin(pinFrameLevel)
 	local subPin = CreateFromMixins(self);

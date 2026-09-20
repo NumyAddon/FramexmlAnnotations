@@ -1,4 +1,4 @@
-WorldMapFloorNavigationFrameMixin = { }--- @class WorldMapFloorNavigationFrameMixin
+WorldMapFloorNavigationFrameMixin = { } --- @class WorldMapFloorNavigationFrameMixin
 
 function WorldMapFloorNavigationFrameMixin:RefreshMenu(mapID)
 	if not mapID then
@@ -40,7 +40,7 @@ function WorldMapFloorNavigationFrameMixin:Refresh()
 	self:SetShown(shown);
 end
 
-WorldMapTrackingOptionsButtonMixin = { };--- @class WorldMapTrackingOptionsButtonMixin
+WorldMapTrackingOptionsButtonMixin = { }; --- @class WorldMapTrackingOptionsButtonMixin
 
 function WorldMapTrackingOptionsButtonMixin:OnShow()
 	local function IsSelected(cvar)
@@ -117,7 +117,7 @@ function WorldMapTrackingOptionsButtonMixin:OnSelection(cvar, checked)
 	self:GetParent():RefreshAllDataProviders();
 end
 
-WorldMapNavBarMixin = { };--- @class WorldMapNavBarMixin
+WorldMapNavBarMixin = { }; --- @class WorldMapNavBarMixin
 
 local function IsMapValidForNavBarDropdown(mapInfo)
 	return mapInfo.mapType == Enum.UIMapType.World or mapInfo.mapType == Enum.UIMapType.Continent or mapInfo.mapType == Enum.UIMapType.Zone;
@@ -163,7 +163,7 @@ function WorldMapNavBarMixin:Refresh()
 	end
 end
 
-WorldMapNavBarButtonMixin = { };--- @class WorldMapNavBarButtonMixin
+WorldMapNavBarButtonMixin = { }; --- @class WorldMapNavBarButtonMixin
 
 function WorldMapNavBarButtonMixin:GetDropdownList()
 	local list = { };
@@ -187,7 +187,7 @@ function WorldMapNavBarButtonMixin:OnClick()
 	self:GetParent():GoToMap(self.data.id)
 end
 
-WorldMapSidePanelToggleMixin = { };--- @class WorldMapSidePanelToggleMixin
+WorldMapSidePanelToggleMixin = { }; --- @class WorldMapSidePanelToggleMixin
 
 function WorldMapSidePanelToggleMixin:OnClick()
 	self:GetParent():HandleUserActionToggleSidePanel();
@@ -204,7 +204,7 @@ function WorldMapSidePanelToggleMixin:Refresh()
 	--end
 end
 
-WorldMapZoneTimerMixin = {};--- @class WorldMapZoneTimerMixin
+WorldMapZoneTimerMixin = {}; --- @class WorldMapZoneTimerMixin
 
 function WorldMapZoneTimerMixin:OnUpdate(elapsed)
 	local nextBattleTime = C_PvP.GetOutdoorPvPWaitTime(self:GetParent():GetMapID());

@@ -1,5 +1,5 @@
 
-MainMenuBarVehicleLeaveButtonMixin = {};--- @class MainMenuBarVehicleLeaveButtonMixin
+MainMenuBarVehicleLeaveButtonMixin = {}; --- @class MainMenuBarVehicleLeaveButtonMixin
 
 function MainMenuBarVehicleLeaveButtonMixin:OnLoad()
 	self:RegisterEvent("UPDATE_BONUS_ACTIONBAR");

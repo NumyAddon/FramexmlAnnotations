@@ -11,7 +11,7 @@ GB_ICON_FILENAMES = nil;
 
 UIPanelWindows["GuildBankFrame"] = { area = "doublewide", pushable = 0, width = 769, xoffset = -16, yoffset = 12 };
 
-GuildBankFrameMixin = {};--- @class GuildBankFrameMixin
+GuildBankFrameMixin = {}; --- @class GuildBankFrameMixin
 
 function GuildBankFrameMixin:OnLoad()
 	NUM_GUILDBANK_ICONS_SHOWN = NUM_GUILDBANK_ICONS_PER_ROW * NUM_GUILDBANK_ICON_ROWS;
@@ -557,7 +557,7 @@ function GuildBankFrameMixin:IsTabViewable(tab)
 end
 
 
-GuildBankTabButtonMixin = {};--- @class GuildBankTabButtonMixin
+GuildBankTabButtonMixin = {}; --- @class GuildBankTabButtonMixin
 
 function GuildBankTabButtonMixin:OnLoad()
 	self:RegisterEvent("INVENTORY_SEARCH_UPDATE");
@@ -597,7 +597,7 @@ function GuildBankTabButtonMixin:UpdateFiltered()
 	end
 end
 
-GuildBankFrameTabMixin = {};--- @class GuildBankFrameTabMixin
+GuildBankFrameTabMixin = {}; --- @class GuildBankFrameTabMixin
 
 function GuildBankFrameTabMixin:OnClick(button, down)
 	local id = self:GetID();
@@ -635,7 +635,7 @@ function GuildBankFrameTabMixin:OnClick(button, down)
 end
 
 
-GuildBankTabMixin = {};--- @class GuildBankTabMixin
+GuildBankTabMixin = {}; --- @class GuildBankTabMixin
 
 function GuildBankTabMixin:OnClick(button, down)
 	local guildBankFrame = self:GetParent();
@@ -668,7 +668,7 @@ function GuildBankTabMixin:OnClick(button, down)
 end
 
 
-GuildBankFrameDepositButtonMixin = {};--- @class GuildBankFrameDepositButtonMixin
+GuildBankFrameDepositButtonMixin = {}; --- @class GuildBankFrameDepositButtonMixin
 
 function GuildBankFrameDepositButtonMixin:OnClick(button, down)
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION);
@@ -681,7 +681,7 @@ function GuildBankFrameDepositButtonMixin:OnClick(button, down)
 end
 
 
-GuildBankFrameWithdrawButtonMixin = {};--- @class GuildBankFrameWithdrawButtonMixin
+GuildBankFrameWithdrawButtonMixin = {}; --- @class GuildBankFrameWithdrawButtonMixin
 
 function GuildBankFrameWithdrawButtonMixin:OnClick(button, down)
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION);
@@ -694,7 +694,7 @@ function GuildBankFrameWithdrawButtonMixin:OnClick(button, down)
 end
 
 
-GuildBankItemButtonMixin = {};--- @class GuildBankItemButtonMixin
+GuildBankItemButtonMixin = {}; --- @class GuildBankItemButtonMixin
 
 function GuildBankItemButtonMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonUp", "RightButtonUp");
@@ -850,7 +850,7 @@ function GuildBankLogScroll()
 end
 
 
-GuildBankPopupFrameMixin = {};--- @class GuildBankPopupFrameMixin
+GuildBankPopupFrameMixin = {}; --- @class GuildBankPopupFrameMixin
 
 function GuildBankPopupFrameMixin:RefreshIconList()
 	if ( GB_ICON_FILENAMES ) then
@@ -970,7 +970,7 @@ function GuildBankPopupFrameMixin:CancelEdit()
 end
 
 
-GuildBankPopupButtonMixin = {};--- @class GuildBankPopupButtonMixin
+GuildBankPopupButtonMixin = {}; --- @class GuildBankPopupButtonMixin
 
 function GuildBankPopupButtonMixin:OnClick(button, down)
 	local popupFrame = self:GetParent();
@@ -981,7 +981,7 @@ function GuildBankPopupButtonMixin:OnClick(button, down)
 end
 
 
-GuildBankPopupCancelButtonMixin = {};--- @class GuildBankPopupCancelButtonMixin
+GuildBankPopupCancelButtonMixin = {}; --- @class GuildBankPopupCancelButtonMixin
 
 function GuildBankPopupCancelButtonMixin:OnClick(button, down)
 	self:GetParent():CancelEdit();
@@ -989,7 +989,7 @@ function GuildBankPopupCancelButtonMixin:OnClick(button, down)
 end
 
 
-GuildBankPopupOkayButtonMixin = {};--- @class GuildBankPopupOkayButtonMixin
+GuildBankPopupOkayButtonMixin = {}; --- @class GuildBankPopupOkayButtonMixin
 
 function GuildBankPopupOkayButtonMixin:OnClick(button, down)
 	self:GetParent():ConfirmEdit();
@@ -997,7 +997,7 @@ function GuildBankPopupOkayButtonMixin:OnClick(button, down)
 end
 
 
-GuildBankPopupEditBoxMixin = {};--- @class GuildBankPopupEditBoxMixin
+GuildBankPopupEditBoxMixin = {}; --- @class GuildBankPopupEditBoxMixin
 
 function GuildBankPopupEditBoxMixin:OnEscapePressed()
 	self:GetParent():CancelEdit();
@@ -1011,7 +1011,7 @@ function GuildBankPopupEditBoxMixin:OnEnterPressed()
 	self:ClearFocus();
 end
 
-GuildItemSearchBoxMixin = {};--- @class GuildItemSearchBoxMixin
+GuildItemSearchBoxMixin = {}; --- @class GuildItemSearchBoxMixin
 
 function GuildItemSearchBoxMixin:OnLoad()
 	if not ClassicExpansionAtLeast(LE_EXPANSION_CATACLYSM) then

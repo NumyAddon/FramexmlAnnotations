@@ -1,4 +1,4 @@
-ChatFrameMixin = {};--- @class ChatFrameMixin
+ChatFrameMixin = {}; --- @class ChatFrameMixin
 
 function ChatFrameMixin:OnEvent(event, ...)
 	if ( self.customEventHandler and self.customEventHandler(self, event, ...) ) then

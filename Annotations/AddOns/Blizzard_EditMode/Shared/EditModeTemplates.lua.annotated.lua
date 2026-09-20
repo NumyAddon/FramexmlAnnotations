@@ -1,4 +1,4 @@
-EditModeUnsavedChangesCheckerMixin = {};--- @class EditModeUnsavedChangesCheckerMixin
+EditModeUnsavedChangesCheckerMixin = {}; --- @class EditModeUnsavedChangesCheckerMixin
 
 function EditModeUnsavedChangesCheckerMixin:OnEnter()
 	if EditModeManagerFrame:TryShowUnsavedChangesGlow() then
@@ -13,7 +13,7 @@ function EditModeUnsavedChangesCheckerMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-EditModeSettingDropdownMixin = {};--- @class EditModeSettingDropdownMixin
+EditModeSettingDropdownMixin = {}; --- @class EditModeSettingDropdownMixin
 
 function EditModeSettingDropdownMixin:OnLoad()
 	self.Dropdown:SetWidth(225);
@@ -62,7 +62,7 @@ function EditModeSettingDropdownMixin:EditModeSettingDropdown_OnLeave()
 	EditModeSystemSettingsDialog:OnSettingInteractEnd(self.setting);
 end
 
-EditModeSettingSliderMixin = CreateFromMixins(CallbackRegistryMixin);--- @class EditModeSettingSliderMixin : CallbackRegistryMixin
+EditModeSettingSliderMixin = CreateFromMixins(CallbackRegistryMixin); --- @class EditModeSettingSliderMixin : CallbackRegistryMixin
 
 function EditModeSettingSliderMixin:OnLoad()
 	CallbackRegistryMixin.OnLoad(self);
@@ -128,7 +128,7 @@ function EditModeSettingSliderMixin:OnSliderInteractEnd()
 	EditModeSystemSettingsDialog:OnSettingInteractEnd(self.setting);
 end
 
-EditModeSettingCheckboxMixin = {};--- @class EditModeSettingCheckboxMixin
+EditModeSettingCheckboxMixin = {}; --- @class EditModeSettingCheckboxMixin
 
 function EditModeSettingCheckboxMixin:SetupSetting(settingData)
 	self.setting = settingData.displayInfo.setting;
@@ -166,7 +166,7 @@ function EditModeSettingCheckboxMixin:OnCheckButtonClick()
 	EditModeSystemSettingsDialog:OnSettingValueChanged(self.setting, self.checked and 1 or 0);
 end
 
-EditModeGridLineMixin = {};--- @class EditModeGridLineMixin
+EditModeGridLineMixin = {}; --- @class EditModeGridLineMixin
 
 local editModeGridLinePixelWidth = 1.2;
 
@@ -187,7 +187,7 @@ function EditModeGridLineMixin:SetupLine(centerLine, verticalLine, xOffset, yOff
 	EditModeMagnetismManager:RegisterGridLine(self, verticalLine, verticalLine and xOffset or yOffset);
 end
 
-MagnetismPreviewLineMixin = {};--- @class MagnetismPreviewLineMixin
+MagnetismPreviewLineMixin = {}; --- @class MagnetismPreviewLineMixin
 
 local magnetismPreviewLinePixelWidth = 1.5;
 
@@ -259,7 +259,7 @@ function MagnetismPreviewLineMixin:Setup(magneticFrameInfo, lineAnchor)
 	self:Show();
 end
 
-EditModeCheckButtonMixin = {};--- @class EditModeCheckButtonMixin
+EditModeCheckButtonMixin = {}; --- @class EditModeCheckButtonMixin
 
 function EditModeCheckButtonMixin:EditModeCheckButton_OnLoad()
 	self.Button:SetScript("OnClick", function(_button, _mouseButton, _isDown)
@@ -372,7 +372,7 @@ function EditModeCheckButtonMixin:ShouldEnable()
 	return true;
 end
 
-EditModeManagerSettingCheckButtonMixin = {};--- @class EditModeManagerSettingCheckButtonMixin
+EditModeManagerSettingCheckButtonMixin = {}; --- @class EditModeManagerSettingCheckButtonMixin
 
 function EditModeManagerSettingCheckButtonMixin:EditModeManagerSettingCheckButton_OnLoad()
 	local width = self:GetWidth() - self.Button:GetWidth() - select(4, self.Label:GetPoint(1));

@@ -1,4 +1,4 @@
-UserScaledElementMixin = {};--- @class UserScaledElementMixin
+UserScaledElementMixin = {}; --- @class UserScaledElementMixin
 
 function UserScaledElementMixin:OnLoad_UserScaledElement()
 	TextSizeManager:RegisterObject(self);

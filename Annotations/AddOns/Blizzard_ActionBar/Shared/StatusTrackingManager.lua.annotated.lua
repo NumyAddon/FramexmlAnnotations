@@ -21,7 +21,7 @@ StatusTrackingBarInfo.BarPriorities = {
 	[StatusTrackingBarInfo.BarsEnum.HouseFavor] = 5,
 }
 
-StatusTrackingManagerMixin = { };--- @class StatusTrackingManagerMixin
+StatusTrackingManagerMixin = { }; --- @class StatusTrackingManagerMixin
 
 function StatusTrackingManagerMixin:OnLoad()
 	self.shownBarIndices = {};
@@ -165,7 +165,7 @@ function StatusTrackingManagerMixin:GetNumBarsInDefaultPosition()
 	return count;
 end
 
-StatusTrackingBarContainerMixin = {};--- @class StatusTrackingBarContainerMixin
+StatusTrackingBarContainerMixin = {}; --- @class StatusTrackingBarContainerMixin
 
 function StatusTrackingBarContainerMixin:StatusTrackingBarContainer_OnLoad()
 	self.bars = {};
@@ -382,13 +382,13 @@ function StatusTrackingBarContainerMixin:HideText()
 	end
 end
 
-StatusTrackingBarContainerAnimationMixin = {};--- @class StatusTrackingBarContainerAnimationMixin
+StatusTrackingBarContainerAnimationMixin = {}; --- @class StatusTrackingBarContainerAnimationMixin
 
 function StatusTrackingBarContainerAnimationMixin:OnFinished()
 	self:GetParent():CheckIfStillAnimating();
 end
 
-StatusTrackingBarContainerFadeOutAnimationMixin = CreateFromMixins(StatusTrackingBarContainerAnimationMixin);--- @class StatusTrackingBarContainerFadeOutAnimationMixin : StatusTrackingBarContainerAnimationMixin
+StatusTrackingBarContainerFadeOutAnimationMixin = CreateFromMixins(StatusTrackingBarContainerAnimationMixin); --- @class StatusTrackingBarContainerFadeOutAnimationMixin : StatusTrackingBarContainerAnimationMixin
 
 function StatusTrackingBarContainerFadeOutAnimationMixin:OnFinished()
 	local barContainer = self:GetParent();
@@ -404,7 +404,7 @@ function StatusTrackingBarContainerFadeOutAnimationMixin:OnFinished()
 	StatusTrackingBarContainerAnimationMixin.OnFinished(self);
 end
 
-EditModeStatusTrackingBarContainerMixin = {};--- @class EditModeStatusTrackingBarContainerMixin
+EditModeStatusTrackingBarContainerMixin = {}; --- @class EditModeStatusTrackingBarContainerMixin
 
 function EditModeStatusTrackingBarContainerMixin:OnLoad()
 	self:StatusTrackingBarContainer_OnLoad();

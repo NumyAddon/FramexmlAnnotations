@@ -1,7 +1,7 @@
 
 -- Talent frame grids display talents in a fixed grid.
 
-TalentFrameGridMixin = {};--- @class TalentFrameGridMixin
+TalentFrameGridMixin = {}; --- @class TalentFrameGridMixin
 
 function TalentFrameGridMixin:UpdateAllTalentButtonPositions()
 	-- Overrides TalentFrameBaseMixin.

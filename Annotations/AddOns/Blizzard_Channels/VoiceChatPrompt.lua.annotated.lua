@@ -61,7 +61,7 @@ function Voice_GetCommunicationModeNotification(channel)
 	return "";
 end
 
-VoiceChatActivateChannelPromptMixin = {};--- @class VoiceChatActivateChannelPromptMixin
+VoiceChatActivateChannelPromptMixin = {}; --- @class VoiceChatActivateChannelPromptMixin
 
 function VoiceChatActivateChannelPromptMixin:OnShow()
 	self:RegisterEvent("VOICE_CHAT_CHANNEL_ACTIVATED");
@@ -132,7 +132,7 @@ function VoiceChatActivateChannelPromptMixin:ActivateChannel()
 	self:UnregisterEvent("VOICE_CHAT_CHANNEL_ACTIVATED");
 end
 
-VoiceChatActivateChannelPromptButtonMixin = {};--- @class VoiceChatActivateChannelPromptButtonMixin
+VoiceChatActivateChannelPromptButtonMixin = {}; --- @class VoiceChatActivateChannelPromptButtonMixin
 
 function VoiceChatActivateChannelPromptButtonMixin:OnClick()
 	local parent = self:GetParent();
@@ -140,7 +140,7 @@ function VoiceChatActivateChannelPromptButtonMixin:OnClick()
 	parent:Hide();
 end
 
-VoiceChatChannelActivatedNotificationMixin = {};--- @class VoiceChatChannelActivatedNotificationMixin
+VoiceChatChannelActivatedNotificationMixin = {}; --- @class VoiceChatChannelActivatedNotificationMixin
 
 function VoiceChatChannelActivatedNotificationMixin:OnEvent(event, ...)
 	if event == "VOICE_CHAT_CHANNEL_ACTIVATED" then

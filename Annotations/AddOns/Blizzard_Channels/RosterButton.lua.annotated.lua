@@ -1,4 +1,4 @@
-ChannelRosterButtonMixin = {};--- @class ChannelRosterButtonMixin
+ChannelRosterButtonMixin = {}; --- @class ChannelRosterButtonMixin
 
 function ChannelRosterButtonMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonUp", "RightButtonUp");

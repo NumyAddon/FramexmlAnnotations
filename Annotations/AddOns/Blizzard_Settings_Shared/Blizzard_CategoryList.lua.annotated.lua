@@ -16,7 +16,7 @@ local function CreateSpacerInitializer()
 	return initializer;
 end
 
-local CategoryButtonInitializerMixin = CreateFromMixins(ScrollBoxFactoryInitializerMixin);--- @class CategoryButtonInitializerMixin : ScrollBoxFactoryInitializerMixin
+local CategoryButtonInitializerMixin = CreateFromMixins(ScrollBoxFactoryInitializerMixin); --- @class CategoryButtonInitializerMixin : ScrollBoxFactoryInitializerMixin
 
 local function CreateCategoryButtonInitializer(category, indent)
 	local initializer = CreateFromMixins(CategoryButtonInitializerMixin);
@@ -25,7 +25,7 @@ local function CreateCategoryButtonInitializer(category, indent)
 	return initializer;
 end
 
-SettingsCategoryListHeaderMixin = {};--- @class SettingsCategoryListHeaderMixin
+SettingsCategoryListHeaderMixin = {}; --- @class SettingsCategoryListHeaderMixin
 
 function SettingsCategoryListHeaderMixin:Init(initializer)
 	self.Label:SetText(initializer.data.label);
@@ -33,7 +33,7 @@ function SettingsCategoryListHeaderMixin:Init(initializer)
 	self.Background:SetAtlas(atlas, TextureKitConstants.UseAtlasSize);
 end
 
-SettingsCategoryListButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class SettingsCategoryListButtonMixin : ButtonStateBehaviorMixin
+SettingsCategoryListButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class SettingsCategoryListButtonMixin : ButtonStateBehaviorMixin
 
 function SettingsCategoryListButtonMixin:OnLoad()
 	self.Toggle:SetScript("OnClick", function(button, buttonName, down)
@@ -132,7 +132,7 @@ function SettingsCategoryListButtonMixin:RefreshNewFeature()
 	self.NewFeature:SetShown(showNewFeature);
 end
 
-SettingsCategoryListMixin = CreateFromMixins(CallbackRegistryMixin);--- @class SettingsCategoryListMixin : CallbackRegistryMixin
+SettingsCategoryListMixin = CreateFromMixins(CallbackRegistryMixin); --- @class SettingsCategoryListMixin : CallbackRegistryMixin
 
 SettingsCategoryListMixin:GenerateCallbackEvents(
 	{

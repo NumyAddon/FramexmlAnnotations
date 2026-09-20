@@ -79,7 +79,7 @@ function ExtraActionButtonKey(id, isDown)
 	end
 end
 
-ExtraActionButtonMixin = {};--- @class ExtraActionButtonMixin
+ExtraActionButtonMixin = {}; --- @class ExtraActionButtonMixin
 
 function ExtraActionButtonMixin:ExtraActionButton_OnLoad()
 	self.QuickKeybindHighlightTexture:ClearAllPoints();

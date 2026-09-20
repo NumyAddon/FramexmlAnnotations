@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.CaptureBar, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateCaptureBar"}, GetCaptureBarVisInfoData);
 
-UIWidgetTemplateCaptureBarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateCaptureBarMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateCaptureBarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateCaptureBarMixin : UIWidgetBaseTemplateMixin
 
 local textureKitRegionInfo = {
 	["BarBackground"] = {formatString = "%s-frame-%s", useAtlasSize = true, setVisibility = true},

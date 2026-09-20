@@ -1,5 +1,5 @@
 
-CallbackRegistrantMixin = {};--- @class CallbackRegistrantMixin
+CallbackRegistrantMixin = {}; --- @class CallbackRegistrantMixin
 
 function CallbackRegistrantMixin:OnShow()
 	for i, eventRegistrationInfo in ipairs(self:GetDynamicCallbackRegistrantHandlers()) do

@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.ScenarioHeaderDelves, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateScenarioHeaderDelves"}, GetScenarioHeaderDelvesVisInfoData);
 
-UIWidgetTemplateScenarioHeaderDelvesMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateScenarioHeaderDelvesMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateScenarioHeaderDelvesMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateScenarioHeaderDelvesMixin : UIWidgetBaseTemplateMixin
 
 local tierFlagTextureKitString = "%s-flag";
 local spellRingTextureKitString = "%s-affix-ring";
@@ -119,7 +119,7 @@ function UIWidgetTemplateScenarioHeaderDelvesMixin:OnReset()
 	UIWidgetBaseSpellPoolOnReset(self.spellPool);
 end
 
-UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin = {};--- @class UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin
+UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin = {}; --- @class UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin
 
 function UIWidgetTemplateScenarioHeaderDelvesTierFrameMixin:OnEnter()
 	if self.tooltipSpellID then

@@ -1,4 +1,4 @@
-SettingsCategoryMixin = {};--- @class SettingsCategoryMixin
+SettingsCategoryMixin = {}; --- @class SettingsCategoryMixin
 
 local idCounter = CreateCounter();
 

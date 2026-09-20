@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.DoubleStatusBar, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateDoubleStatusBar"}, GetDoubleStatusBarVisInfoData);
 
-UIWidgetTemplateDoubleStatusBarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateDoubleStatusBarMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateDoubleStatusBarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateDoubleStatusBarMixin : UIWidgetBaseTemplateMixin
 
 local leftBarTextureKitRegions = {
 	["BG"] = "%s-bar-background",

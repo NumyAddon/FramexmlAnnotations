@@ -2,7 +2,7 @@ COMMUNITIES_GUILD_REWARDS_BUTTON_OFFSET = 0;
 COMMUNITIES_GUILD_REWARDS_BUTTON_HEIGHT = 47;
 COMMUNITIES_GUILD_REWARDS_ACHIEVEMENT_ICON = " |TInterface\\AchievementFrame\\UI-Achievement-Guild:18:16:0:1:512:512:324:344:67:85|t ";
 
-CommunitiesGuildRewardsButtonMixin = {};--- @class CommunitiesGuildRewardsButtonMixin
+CommunitiesGuildRewardsButtonMixin = {}; --- @class CommunitiesGuildRewardsButtonMixin
 
 function CommunitiesGuildRewardsButtonMixin:Init(elementData)
 	local index = elementData.index;
@@ -56,7 +56,7 @@ function CommunitiesGuildRewardsButtonMixin:Init(elementData)
 	self.index = index;
 end
 
-CommunitiesGuildRewardsFrameMixin = { };--- @class CommunitiesGuildRewardsFrameMixin
+CommunitiesGuildRewardsFrameMixin = { }; --- @class CommunitiesGuildRewardsFrameMixin
 
 function CommunitiesGuildRewardsFrameMixin:OnLoad()
 	local view = CreateScrollBoxListLinearView();
@@ -165,7 +165,7 @@ function CommunitiesGuildRewardsButton_OnClick(self, button)
 	end
 end
 
-CommunitiesGuildFactionBarMixin = {};--- @class CommunitiesGuildFactionBarMixin
+CommunitiesGuildFactionBarMixin = {}; --- @class CommunitiesGuildFactionBarMixin
 
 function CommunitiesGuildFactionBarMixin:OnShow()
 	self:UpdateFaction();
@@ -250,7 +250,7 @@ function CommunitiesGuildFactionBarMixin:SetProgress(currentValue, maxValue)
 	end
 end
 
-GuildAchievementPointDisplayMixin = {};--- @class GuildAchievementPointDisplayMixin
+GuildAchievementPointDisplayMixin = {}; --- @class GuildAchievementPointDisplayMixin
 
 function GuildAchievementPointDisplayMixin:OnShow()
 	local ap = GetTotalAchievementPoints(true);

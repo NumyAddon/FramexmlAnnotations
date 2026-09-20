@@ -3,7 +3,7 @@
 	Can be used with a PagedContentFrame template or on its own.
 ]]
 
-PagingControlsMixin = {}--- @class PagingControlsMixin
+PagingControlsMixin = {} --- @class PagingControlsMixin
 
 function PagingControlsMixin:OnLoad()
 	self.currentPage = 1;

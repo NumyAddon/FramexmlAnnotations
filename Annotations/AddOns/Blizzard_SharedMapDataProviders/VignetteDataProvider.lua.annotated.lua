@@ -1,4 +1,4 @@
-VignetteDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class VignetteDataProviderMixin : MapCanvasDataProviderMixin
+VignetteDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class VignetteDataProviderMixin : MapCanvasDataProviderMixin
 
 function VignetteDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -121,7 +121,7 @@ function VignetteDataProviderMixin:RemoveUniquePin(pin)
 end
 
 --[[ Pin ]]--
-VignettePinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class VignettePinMixin : MapCanvasPinMixin
+VignettePinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class VignettePinMixin : MapCanvasPinMixin
 
 function VignettePinMixin:OnLoad()
 	self:SetScalingLimits(1, 1.0, 1.2);

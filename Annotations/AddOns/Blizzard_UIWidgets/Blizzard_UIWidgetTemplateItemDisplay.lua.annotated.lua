@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.ItemDisplay, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateItemDisplay"}, GetItemDisplayVisInfoData);
 
-UIWidgetTemplateItemDisplayMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateItemDisplayMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateItemDisplayMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateItemDisplayMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateItemDisplayMixin:Setup(widgetInfo, widgetContainer)
 	if self.continuableContainer then

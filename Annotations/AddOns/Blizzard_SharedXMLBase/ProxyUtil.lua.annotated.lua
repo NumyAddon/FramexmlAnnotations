@@ -57,7 +57,7 @@ end
 Helper to convert from an object to it's proxy equivalent, and to provide
 an API as an alternative to using '.proxy' references.
 ]]--
-ProxyConvertableMixin = {};--- @class ProxyConvertableMixin
+ProxyConvertableMixin = {}; --- @class ProxyConvertableMixin
 
 function ProxyConvertableMixin:Init(proxy, proxies, permitOverwrite)
 	--assert(proxy ~= nil, "ProxyConvertableMixin:Init(): Proxy was nil");

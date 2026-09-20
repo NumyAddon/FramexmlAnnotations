@@ -1,6 +1,6 @@
 -- NOTE: This is a read-only property, it reflects the state of a property with text output.
 
-PropertyFontStringMixin = {};--- @class PropertyFontStringMixin
+PropertyFontStringMixin = {}; --- @class PropertyFontStringMixin
 
 function PropertyFontStringMixin:SetMutator()
 	error("PropertyFontStringMixin cannot change a property, only read it.");

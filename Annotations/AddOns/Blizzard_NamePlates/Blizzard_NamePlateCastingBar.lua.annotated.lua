@@ -1,6 +1,6 @@
 -- Displays the info about the unit to which the nameplate is attached.
 -- This mixin is a child of a frame that has been created in code and is using NamePlateBaseMixin.
-NamePlateCastingBarMixin = CreateFromMixins(CastingBarMixin, NamePlateComponentMixin);--- @class NamePlateCastingBarMixin : CastingBarMixin, NamePlateComponentMixin
+NamePlateCastingBarMixin = CreateFromMixins(CastingBarMixin, NamePlateComponentMixin); --- @class NamePlateCastingBarMixin : CastingBarMixin, NamePlateComponentMixin
 
 function NamePlateCastingBarMixin:OnLoad()
 	local unit = nil;

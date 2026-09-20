@@ -1,4 +1,4 @@
-APIDocumentationMixin = {};--- @class APIDocumentationMixin
+APIDocumentationMixin = {}; --- @class APIDocumentationMixin
 
 -- "public"
 function APIDocumentationMixin:OnLoad()

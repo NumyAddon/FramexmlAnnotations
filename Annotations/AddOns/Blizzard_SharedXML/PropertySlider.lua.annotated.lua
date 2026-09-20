@@ -1,4 +1,4 @@
-PropertySliderMixin = {};--- @class PropertySliderMixin
+PropertySliderMixin = {}; --- @class PropertySliderMixin
 
 function PropertySliderMixin:OnValueChanged(value, isMouse)
 	if isMouse then

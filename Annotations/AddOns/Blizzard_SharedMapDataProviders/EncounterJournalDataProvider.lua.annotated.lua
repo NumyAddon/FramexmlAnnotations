@@ -1,5 +1,5 @@
 
-EncounterJournalDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin);--- @class EncounterJournalDataProviderMixin : CVarMapCanvasDataProviderMixin
+EncounterJournalDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin); --- @class EncounterJournalDataProviderMixin : CVarMapCanvasDataProviderMixin
 EncounterJournalDataProviderMixin:Init("showBosses");
 
 function EncounterJournalDataProviderMixin:OnShow()
@@ -40,7 +40,7 @@ function EncounterJournalDataProviderMixin:RefreshAllData(fromOnShow)
 end
 
 --[[ Pin ]]--
-EncounterJournalPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class EncounterJournalPinMixin : MapCanvasPinMixin
+EncounterJournalPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class EncounterJournalPinMixin : MapCanvasPinMixin
 
 function EncounterJournalPinMixin:OnLoad()
 	self:SetScalingLimits(1, 0.7, 1.3);

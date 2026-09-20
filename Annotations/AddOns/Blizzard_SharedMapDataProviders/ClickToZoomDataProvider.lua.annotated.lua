@@ -6,7 +6,7 @@ local ClickToZoomStyles = {
 	[Enum.MapCanvasPosition.TopRight] = { point="TOPRIGHT", x = -75, y = -65, textPoint="RIGHT" };
 };
 
-ClickToZoomDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class ClickToZoomDataProviderMixin : MapCanvasDataProviderMixin
+ClickToZoomDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class ClickToZoomDataProviderMixin : MapCanvasDataProviderMixin
 
 function ClickToZoomDataProviderMixin:FadeIn()
 	self.MapLabel.FadeInAnim:Play();

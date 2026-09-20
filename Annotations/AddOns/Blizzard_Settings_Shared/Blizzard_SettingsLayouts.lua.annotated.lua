@@ -1,6 +1,6 @@
-SettingsLayoutMixin = {};--- @class SettingsLayoutMixin
+SettingsLayoutMixin = {}; --- @class SettingsLayoutMixin
 
-SettingsLayoutMixin.LayoutType = EnumUtil.MakeEnum("Vertical", "Canvas");--- @type {["Vertical"]: 1, ["Canvas"]: 2} See [SettingsLayoutMixin.LayoutType](lua://SettingsLayoutMixin.LayoutType)
+SettingsLayoutMixin.LayoutType = EnumUtil.MakeEnum("Vertical", "Canvas"); --- @type {["Vertical"]: 1, ["Canvas"]: 2} # See [SettingsLayoutMixin.LayoutType](lua://SettingsLayoutMixin.LayoutType)
 
 function SettingsLayoutMixin:Init(layoutType)
 	self.layoutType = layoutType;
@@ -14,7 +14,7 @@ function SettingsLayoutMixin:IsVerticalLayout()
 	return self:GetLayoutType() == SettingsLayoutMixin.LayoutType.Vertical;
 end
 
-local SettingsVerticalLayoutMixin = CreateFromMixins(SettingsLayoutMixin);--- @class SettingsVerticalLayoutMixin : SettingsLayoutMixin
+local SettingsVerticalLayoutMixin = CreateFromMixins(SettingsLayoutMixin); --- @class SettingsVerticalLayoutMixin : SettingsLayoutMixin
 
 function SettingsVerticalLayoutMixin:Init()
 	SettingsLayoutMixin.Init(self, SettingsLayoutMixin.LayoutType.Vertical)
@@ -58,7 +58,7 @@ function CreateVerticalLayout()
 	return CreateAndInitFromMixin(SettingsVerticalLayoutMixin);
 end
 
-local SettingsCanvasLayoutMixin = CreateFromMixins(SettingsLayoutMixin);--- @class SettingsCanvasLayoutMixin : SettingsLayoutMixin
+local SettingsCanvasLayoutMixin = CreateFromMixins(SettingsLayoutMixin); --- @class SettingsCanvasLayoutMixin : SettingsLayoutMixin
 
 function SettingsCanvasLayoutMixin:Init(frame)
 	SettingsLayoutMixin.Init(self, SettingsLayoutMixin.LayoutType.Canvas);

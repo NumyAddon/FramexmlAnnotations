@@ -1,5 +1,5 @@
 CustomBindingHandler = {};
-CustomBindingHandlerMixin = {};--- @class CustomBindingHandlerMixin
+CustomBindingHandlerMixin = {}; --- @class CustomBindingHandlerMixin
 
 --[[static]] function CustomBindingHandler:CreateHandler(customBindingType)
 	local handler = CreateFromMixins(CustomBindingHandlerMixin);

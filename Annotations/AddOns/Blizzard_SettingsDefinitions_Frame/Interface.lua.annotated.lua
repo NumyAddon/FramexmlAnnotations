@@ -1,4 +1,4 @@
-RaidFramePreviewMixin = { };--- @class RaidFramePreviewMixin
+RaidFramePreviewMixin = { }; --- @class RaidFramePreviewMixin
 
 function RaidFramePreviewMixin:OnLoad()
 	CompactUnitFrame_SetUpFrame(self.RaidFrame, DefaultCompactUnitFrameSetup);

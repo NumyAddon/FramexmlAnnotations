@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Camelot/ProgressBars/ColoredProgressBar.lua#L1)
---- @class ColoredProgressBarMixin
+ --- @class ColoredProgressBarMixin
 ColoredProgressBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Camelot/ProgressBars/ColoredProgressBar.lua#L11)

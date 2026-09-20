@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerFlowLayout.lua#L73)
---- @class AuraContainerFlowLayoutInboundMixin : AuraContainerFlowLayoutSharedMixin
+ --- @class AuraContainerFlowLayoutInboundMixin : AuraContainerFlowLayoutSharedMixin
 AuraContainerFlowLayoutInboundMixin = CreateFromMixins(AuraContainerFlowLayoutSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerFlowLayout.lua#L74)
---- @class AuraContainerFlowLayoutPrivateMixin : AuraContainerFlowLayoutSharedMixin
+ --- @class AuraContainerFlowLayoutPrivateMixin : AuraContainerFlowLayoutSharedMixin
 AuraContainerFlowLayoutPrivateMixin = CreateFromMixins(AuraContainerFlowLayoutSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerFlowLayout.lua#L1)
---- @class AuraContainerFlowLayoutSharedMixin
+ --- @class AuraContainerFlowLayoutSharedMixin
 AuraContainerFlowLayoutSharedMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerFlowLayout.lua#L3)

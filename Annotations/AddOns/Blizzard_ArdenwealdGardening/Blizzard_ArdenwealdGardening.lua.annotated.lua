@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ArdenwealdGardening/Blizzard_ArdenwealdGardening.lua#L18)
---- @class ArdenwealdGardeningButtonMixin
+ --- @class ArdenwealdGardeningButtonMixin
 ArdenwealdGardeningButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ArdenwealdGardening/Blizzard_ArdenwealdGardening.lua#L20)

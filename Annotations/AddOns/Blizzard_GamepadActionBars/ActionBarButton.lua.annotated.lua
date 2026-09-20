@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua#L1017)
---- @class GamepadActionBarStandardButtonMixin : GamepadActionBarButtonMixin, GamepadActionBarButtonFlyoutMixin
+ --- @class GamepadActionBarStandardButtonMixin : GamepadActionBarButtonMixin, GamepadActionBarButtonFlyoutMixin
 GamepadActionBarStandardButtonMixin = CreateFromMixins(GamepadActionBarButtonMixin, GamepadActionBarButtonFlyoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua#L1114)
---- @class GamepadActionBarPetButtonMixin : PetActionButtonMixin, GamepadActionBarButtonMixin
+ --- @class GamepadActionBarPetButtonMixin : PetActionButtonMixin, GamepadActionBarButtonMixin
 GamepadActionBarPetButtonMixin = CreateFromMixins(PetActionButtonMixin, GamepadActionBarButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua#L1)
---- @class InputDeviceActionButtonTextureSetMixin
+ --- @class InputDeviceActionButtonTextureSetMixin
 InputDeviceActionButtonTextureSetMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua#L233)
---- @class GamepadActionBarButtonMixin
+ --- @class GamepadActionBarButtonMixin
 GamepadActionBarButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua#L687)
---- @class GamepadActionBarButtonFlyoutMixin
+ --- @class GamepadActionBarButtonFlyoutMixin
 GamepadActionBarButtonFlyoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarButton.lua#L3)

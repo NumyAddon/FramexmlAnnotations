@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickJoin/QuickJoinToast.lua#L3)
---- @class QuickJoinToastMixin
+ --- @class QuickJoinToastMixin
 QuickJoinToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickJoin/QuickJoinToast.lua#L491)
---- @class QuickJoinToastGroupMixin
+ --- @class QuickJoinToastGroupMixin
 QuickJoinToastGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickJoin/QuickJoinToast.lua#L712)
---- @class QuickJoinToastThrottleMixin
+ --- @class QuickJoinToastThrottleMixin
 QuickJoinToastThrottleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickJoin/QuickJoinToast.lua#L5)

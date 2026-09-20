@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.lua#L413)
---- @class OrderHallFollowerMissionPageMixin
+ --- @class OrderHallFollowerMissionPageMixin
 OrderHallFollowerMissionPageMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.lua#L443)
---- @class OrderHallMissionPageEnemyMixin
+ --- @class OrderHallMissionPageEnemyMixin
 OrderHallMissionPageEnemyMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.lua#L574)
---- @class OrderHallMissionAdventureMapMixin
+ --- @class OrderHallMissionAdventureMapMixin
 OrderHallMissionAdventureMapMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.lua#L610)
---- @class ZoneSupportMissionPageMixin
+ --- @class ZoneSupportMissionPageMixin
 ZoneSupportMissionPageMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.lua#L631)
---- @class OrderHallMissionListMixin
+ --- @class OrderHallMissionListMixin
 OrderHallMissionListMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.lua#L646)
---- @class OrderHallCombatAllyMixin
+ --- @class OrderHallCombatAllyMixin
 OrderHallCombatAllyMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.lua#L415)

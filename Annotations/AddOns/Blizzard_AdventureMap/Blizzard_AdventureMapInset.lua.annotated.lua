@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMapInset.lua#L1)
---- @class AdventureMapInsetMixin
+ --- @class AdventureMapInsetMixin
 AdventureMapInsetMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMapInset.lua#L12)

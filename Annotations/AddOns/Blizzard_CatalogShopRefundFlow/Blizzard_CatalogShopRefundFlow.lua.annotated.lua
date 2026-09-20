@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow.lua#L22)
---- @class CatalogShopRefundFrameMixin
+ --- @class CatalogShopRefundFrameMixin
 CatalogShopRefundFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow.lua#L386)
---- @class CatalogShopRefundFlowProcessingContainerMixin
+ --- @class CatalogShopRefundFlowProcessingContainerMixin
 CatalogShopRefundFlowProcessingContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow.lua#L23)

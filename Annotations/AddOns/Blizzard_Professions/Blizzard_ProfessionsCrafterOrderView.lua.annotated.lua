@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.lua#L2)
---- @class ProfessionsCrafterOrderRewardMixin : ProfessionsReagentSlotButtonMixin
+ --- @class ProfessionsCrafterOrderRewardMixin : ProfessionsReagentSlotButtonMixin
 ProfessionsCrafterOrderRewardMixin = CreateFromMixins(ProfessionsReagentSlotButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.lua#L49)
---- @class ProfessionsCrafterOrderRewardTooltipMixin
+ --- @class ProfessionsCrafterOrderRewardTooltipMixin
 ProfessionsCrafterOrderRewardTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.lua#L79)
---- @class ProfessionsCrafterOrderViewMixin
+ --- @class ProfessionsCrafterOrderViewMixin
 ProfessionsCrafterOrderViewMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.lua#L4)

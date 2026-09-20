@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua#L33)
---- @class ScriptErrorsFrameMixin
+ --- @class ScriptErrorsFrameMixin
 ScriptErrorsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua#L321)
---- @class ScriptErrorsFrameSecureMixin
+ --- @class ScriptErrorsFrameSecureMixin
 ScriptErrorsFrameSecureMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.lua#L35)

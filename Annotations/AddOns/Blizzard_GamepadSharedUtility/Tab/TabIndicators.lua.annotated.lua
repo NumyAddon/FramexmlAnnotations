@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L2)
---- @class GamepadTabIndicatorsMixin
+ --- @class GamepadTabIndicatorsMixin
 GamepadTabIndicatorsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L172)
---- @class GamepadTabIndicatorButtonMixin
+ --- @class GamepadTabIndicatorButtonMixin
 GamepadTabIndicatorButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L4)

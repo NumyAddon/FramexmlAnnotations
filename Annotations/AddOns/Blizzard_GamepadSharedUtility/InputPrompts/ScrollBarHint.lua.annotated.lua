@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/InputPrompts/ScrollBarHint.lua#L1)
---- @class GamepadScrollBarHintMixin
+ --- @class GamepadScrollBarHintMixin
 GamepadScrollBarHintMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/InputPrompts/ScrollBarHint.lua#L3)

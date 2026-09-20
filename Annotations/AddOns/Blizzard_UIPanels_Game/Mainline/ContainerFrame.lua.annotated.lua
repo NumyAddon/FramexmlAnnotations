@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L842)
---- @class ContainerFrameMixin : BaseContainerFrameMixin
+ --- @class ContainerFrameMixin : BaseContainerFrameMixin
 ContainerFrameMixin = CreateFromMixins(BaseContainerFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L2650)
---- @class ContainerFrameTokenWatcherMixin : ContainerFrameMixin
+ --- @class ContainerFrameTokenWatcherMixin : ContainerFrameMixin
 ContainerFrameTokenWatcherMixin = CreateFromMixins(ContainerFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L2710)
---- @class ContainerFrameBackpackMixin : ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack
+ --- @class ContainerFrameBackpackMixin : ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack
 ContainerFrameBackpackMixin = CreateFromMixins(ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L2742)
---- @class ContainerFrameCombinedBagsMixin : ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack
+ --- @class ContainerFrameCombinedBagsMixin : ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack
 ContainerFrameCombinedBagsMixin = CreateFromMixins(ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L45)
---- @class BagUpdaterMixin
+ --- @class BagUpdaterMixin
 BagUpdaterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L518)
---- @class BaseContainerFrameMixin
+ --- @class BaseContainerFrameMixin
 BaseContainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L1629)
---- @class ContainerFrameItemButtonMixin
+ --- @class ContainerFrameItemButtonMixin
 ContainerFrameItemButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L1990)
---- @class ContainerFramePortraitButtonMixin
+ --- @class ContainerFramePortraitButtonMixin
 ContainerFramePortraitButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L3386)
---- @class ContainerFrameCurrencyBorderMixin
+ --- @class ContainerFrameCurrencyBorderMixin
 ContainerFrameCurrencyBorderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L47)

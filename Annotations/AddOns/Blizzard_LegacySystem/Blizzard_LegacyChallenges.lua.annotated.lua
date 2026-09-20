@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallenges.lua#L1)
---- @class LegacyChallengesPageMixin
+ --- @class LegacyChallengesPageMixin
 LegacyChallengesPageMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallenges.lua#L221)
---- @class LegacyChallengePointSummaryMixin
+ --- @class LegacyChallengePointSummaryMixin
 LegacyChallengePointSummaryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallenges.lua#L240)
---- @class ChallengePointBarMixin
+ --- @class ChallengePointBarMixin
 ChallengePointBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallenges.lua#L3)

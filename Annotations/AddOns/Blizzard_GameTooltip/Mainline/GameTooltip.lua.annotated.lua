@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua#L955)
---- @class GameTooltipDataMixin : TooltipDataHandlerMixin
+ --- @class GameTooltipDataMixin : TooltipDataHandlerMixin
 GameTooltipDataMixin = CreateFromMixins(TooltipDataHandlerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua#L1043)
---- @class GameTooltipUnitHealthBarMixin
+ --- @class GameTooltipUnitHealthBarMixin
 GameTooltipUnitHealthBarMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua#L1097)
---- @class GameTooltipUnitHealthBarSecureMixin
+ --- @class GameTooltipUnitHealthBarSecureMixin
 GameTooltipUnitHealthBarSecureMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.lua#L957)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.lua#L1)
---- @class MatchCelebrationPartyPoseMixin : PartyPoseMixin
+ --- @class MatchCelebrationPartyPoseMixin : PartyPoseMixin
 MatchCelebrationPartyPoseMixin = CreateFromMixins(PartyPoseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.lua#L70)
---- @class MatchCelebrationExtraButtonMixin
+ --- @class MatchCelebrationExtraButtonMixin
 MatchCelebrationExtraButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.lua#L9)

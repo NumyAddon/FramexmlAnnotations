@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/GamepadOverrideBarMixin.lua#L18)
---- @class GamepadOverrideBarMixin : GamepadActionBarMixin
+ --- @class GamepadOverrideBarMixin : GamepadActionBarMixin
 GamepadOverrideBarMixin = CreateFromMixins(GamepadActionBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/GamepadOverrideBarMixin.lua#L20)

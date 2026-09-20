@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NamePlates/Mainline/Blizzard_ClassNameplateAlternatePowerBarBase.lua#L2)
---- @class ClassNameplateAlternatePowerBarBaseMixin : AlternatePowerBarBaseMixin
+ --- @class ClassNameplateAlternatePowerBarBaseMixin : AlternatePowerBarBaseMixin
 ClassNameplateAlternatePowerBarBaseMixin = CreateFromMixins(AlternatePowerBarBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NamePlates/Mainline/Blizzard_ClassNameplateAlternatePowerBarBase.lua#L6)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L17)
---- @class TalentButtonBaseMixin
+ --- @class TalentButtonBaseMixin
 TalentButtonBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L19)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/HonorBar.lua#L5)
---- @class HonorBarMixin
+ --- @class HonorBarMixin
 HonorBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/HonorBar.lua#L7)

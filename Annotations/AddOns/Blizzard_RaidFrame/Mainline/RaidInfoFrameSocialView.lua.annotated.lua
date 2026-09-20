@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.lua#L121)
---- @class SocialUIRaidInfoExtendMixin : UIButtonFitToTextBehaviorMixin
+ --- @class SocialUIRaidInfoExtendMixin : UIButtonFitToTextBehaviorMixin
 SocialUIRaidInfoExtendMixin = CreateFromMixins(UIButtonFitToTextBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.lua#L1)
---- @class SocialUIRaidInfoFrameMixin
+ --- @class SocialUIRaidInfoFrameMixin
 SocialUIRaidInfoFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.lua#L136)
---- @class SocialUIRaidInfoContentFrameMixin
+ --- @class SocialUIRaidInfoContentFrameMixin
 SocialUIRaidInfoContentFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.lua#L9)

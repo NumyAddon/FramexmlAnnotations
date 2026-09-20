@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUIShared/SocialUIUtil.lua#L190)
---- @class SocialUIScrollableElementExtentPreviewerMixin
+ --- @class SocialUIScrollableElementExtentPreviewerMixin
 SocialUIScrollableElementExtentPreviewerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUIShared/SocialUIUtil.lua#L192)

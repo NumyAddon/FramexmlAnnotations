@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L226)
---- @class TooltipBackdropTemplateMixin
+ --- @class TooltipBackdropTemplateMixin
 TooltipBackdropTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L266)
---- @class NarratableTooltipMixin
+ --- @class NarratableTooltipMixin
 NarratableTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L314)
---- @class DisabledTooltipButtonMixin
+ --- @class DisabledTooltipButtonMixin
 DisabledTooltipButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L228)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/VoiceChatPrompt.lua#L64)
---- @class VoiceChatActivateChannelPromptMixin
+ --- @class VoiceChatActivateChannelPromptMixin
 VoiceChatActivateChannelPromptMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/VoiceChatPrompt.lua#L135)
---- @class VoiceChatActivateChannelPromptButtonMixin
+ --- @class VoiceChatActivateChannelPromptButtonMixin
 VoiceChatActivateChannelPromptButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/VoiceChatPrompt.lua#L143)
---- @class VoiceChatChannelActivatedNotificationMixin
+ --- @class VoiceChatChannelActivatedNotificationMixin
 VoiceChatChannelActivatedNotificationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/VoiceChatPrompt.lua#L66)

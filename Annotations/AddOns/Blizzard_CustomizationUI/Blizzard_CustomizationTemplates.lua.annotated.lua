@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L15)
---- @class CustomizationBaseButtonMixin : CustomizationContentFrameMixin
+ --- @class CustomizationBaseButtonMixin : CustomizationContentFrameMixin
 CustomizationBaseButtonMixin = CreateFromMixins(CustomizationContentFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L25)
---- @class CustomizationFrameWithTooltipMixin : RingedFrameWithTooltipMixin
+ --- @class CustomizationFrameWithTooltipMixin : RingedFrameWithTooltipMixin
 CustomizationFrameWithTooltipMixin = CreateFromMixins(RingedFrameWithTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L33)
---- @class CustomizationMaskedButtonMixin : RingedMaskedButtonMixin
+ --- @class CustomizationMaskedButtonMixin : RingedMaskedButtonMixin
 CustomizationMaskedButtonMixin = CreateFromMixins(RingedMaskedButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L102)
---- @class CustomizationSmallButtonMixin : CustomizationFrameWithTooltipMixin, CustomizationContentFrameMixin
+ --- @class CustomizationSmallButtonMixin : CustomizationFrameWithTooltipMixin, CustomizationContentFrameMixin
 CustomizationSmallButtonMixin = CreateFromMixins(CustomizationFrameWithTooltipMixin, CustomizationContentFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L3)
---- @class CustomizationContentFrameMixin
+ --- @class CustomizationContentFrameMixin
 CustomizationContentFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L40)
---- @class CustomizationFrameWithExpandableTooltipMixin
+ --- @class CustomizationFrameWithExpandableTooltipMixin
 CustomizationFrameWithExpandableTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L128)
---- @class CustomizationClickOrHoldButtonMixin
+ --- @class CustomizationClickOrHoldButtonMixin
 CustomizationClickOrHoldButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L178)
---- @class CustomizationNoHeaderTooltipMixin
+ --- @class CustomizationNoHeaderTooltipMixin
 CustomizationNoHeaderTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L5)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/WM_WorldQuestDataProvider.lua#L1)
---- @class WorldMap_WorldQuestDataProviderMixin : WorldQuestDataProviderMixin
+ --- @class WorldMap_WorldQuestDataProviderMixin : WorldQuestDataProviderMixin
 WorldMap_WorldQuestDataProviderMixin = CreateFromMixins(WorldQuestDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/WM_WorldQuestDataProvider.lua#L40)
---- @class WorldMap_WorldQuestPinMixin : WorldQuestPinMixin
+ --- @class WorldMap_WorldQuestPinMixin : WorldQuestPinMixin
 WorldMap_WorldQuestPinMixin = CreateFromMixins(WorldQuestPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/WM_WorldQuestDataProvider.lua#L3)

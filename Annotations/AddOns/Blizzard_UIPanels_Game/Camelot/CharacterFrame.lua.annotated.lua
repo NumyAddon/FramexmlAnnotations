@@ -1,55 +1,55 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L959)
---- @class CharacterModeTabButtonMixin : SidePanelTabButtonMixin
+ --- @class CharacterModeTabButtonMixin : SidePanelTabButtonMixin
 CharacterModeTabButtonMixin = CreateFromMixins(SidePanelTabButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L1239)
---- @class CharacterStatFrameScrollBoxBaseElementMixin : CharacterStatFrameMixin
+ --- @class CharacterStatFrameScrollBoxBaseElementMixin : CharacterStatFrameMixin
 CharacterStatFrameScrollBoxBaseElementMixin = CreateFromMixins(CharacterStatFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L1279)
---- @class CharacterStatFrameScrollBoxIconElementMixin : CharacterStatFrameScrollBoxBaseElementMixin
+ --- @class CharacterStatFrameScrollBoxIconElementMixin : CharacterStatFrameScrollBoxBaseElementMixin
 CharacterStatFrameScrollBoxIconElementMixin = CreateFromMixins(CharacterStatFrameScrollBoxBaseElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L1300)
---- @class CharacterStatsPanePetScrollBoxMixin : CharacterStatsPaneScrollBoxMixin
+ --- @class CharacterStatsPanePetScrollBoxMixin : CharacterStatsPaneScrollBoxMixin
 CharacterStatsPanePetScrollBoxMixin = CreateFromMixins(CharacterStatsPaneScrollBoxMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L84)
---- @class CharacterFrameMixin
+ --- @class CharacterFrameMixin
 CharacterFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L349)
---- @class CharacterFrameRightPaneToggleButtonMixin
+ --- @class CharacterFrameRightPaneToggleButtonMixin
 CharacterFrameRightPaneToggleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L832)
---- @class CharacterFrameSidePaneMixin
+ --- @class CharacterFrameSidePaneMixin
 CharacterFrameSidePaneMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L971)
---- @class GearEnchantAnimationMixin
+ --- @class GearEnchantAnimationMixin
 GearEnchantAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L1018)
---- @class CharacterStatFrameCategoryMixin
+ --- @class CharacterStatFrameCategoryMixin
 CharacterStatFrameCategoryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L1024)
---- @class CharacterStatFrameMixin
+ --- @class CharacterStatFrameMixin
 CharacterStatFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L1041)
---- @class CharacterStatsPaneScrollBoxBaseMixin
+ --- @class CharacterStatsPaneScrollBoxBaseMixin
 CharacterStatsPaneScrollBoxBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L1047)
---- @class CharacterStatsPaneScrollBoxMixin
+ --- @class CharacterStatsPaneScrollBoxMixin
 CharacterStatsPaneScrollBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L1233)
---- @class CharacterStatFrameCategoryScrollBoxElementMixin
+ --- @class CharacterStatFrameCategoryScrollBoxElementMixin
 CharacterStatFrameCategoryScrollBoxElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.lua#L86)

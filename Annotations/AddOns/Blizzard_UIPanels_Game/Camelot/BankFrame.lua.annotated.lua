@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.lua#L264)
---- @class BankPageTabMixin : SidePanelTabButtonMixin
+ --- @class BankPageTabMixin : SidePanelTabButtonMixin
 BankPageTabMixin = CreateFromMixins(SidePanelTabButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.lua#L34)
---- @class BankFrameMixin
+ --- @class BankFrameMixin
 BankFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.lua#L252)
---- @class CamelotBankPanelItemButtonMixin
+ --- @class CamelotBankPanelItemButtonMixin
 CamelotBankPanelItemButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.lua#L302)
---- @class BankItemButtonBagMixin
+ --- @class BankItemButtonBagMixin
 BankItemButtonBagMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.lua#L398)
---- @class BankBagCostMoneyDisplayMixin
+ --- @class BankBagCostMoneyDisplayMixin
 BankBagCostMoneyDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.lua#L436)
---- @class BankFramePurchaseButtonMixin
+ --- @class BankFramePurchaseButtonMixin
 BankFramePurchaseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.lua#L36)

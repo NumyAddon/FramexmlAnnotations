@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraButton.lua#L70)
---- @class AuraButtonInboundMixin : AuraButtonSharedMixin
+ --- @class AuraButtonInboundMixin : AuraButtonSharedMixin
 AuraButtonInboundMixin = CreateFromMixins(AuraButtonSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraButton.lua#L71)
---- @class AuraButtonPrivateMixin : AuraButtonSharedMixin
+ --- @class AuraButtonPrivateMixin : AuraButtonSharedMixin
 AuraButtonPrivateMixin = CreateFromMixins(AuraButtonSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraButton.lua#L243)
---- @class AuraButtonTooltipMixin : PrivateAurasTooltipMixin
+ --- @class AuraButtonTooltipMixin : PrivateAurasTooltipMixin
 AuraButtonTooltipMixin = CreateFromMixins(PrivateAurasTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraButton.lua#L1)
---- @class AuraButtonSharedMixin
+ --- @class AuraButtonSharedMixin
 AuraButtonSharedMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraButton.lua#L22)

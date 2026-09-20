@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L60)
---- @class SpaceToFitVerticalLayoutMixin : SpaceToFitDirectionalLayoutMixin
+ --- @class SpaceToFitVerticalLayoutMixin : SpaceToFitDirectionalLayoutMixin
 SpaceToFitVerticalLayoutMixin = CreateFromMixins(SpaceToFitDirectionalLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L109)
---- @class SpaceToFitHorizontalLayoutMixin : SpaceToFitDirectionalLayoutMixin
+ --- @class SpaceToFitHorizontalLayoutMixin : SpaceToFitDirectionalLayoutMixin
 SpaceToFitHorizontalLayoutMixin = CreateFromMixins(SpaceToFitDirectionalLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L7)
---- @class SpaceToFitDirectionalLayoutMixin
+ --- @class SpaceToFitDirectionalLayoutMixin
 SpaceToFitDirectionalLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L9)

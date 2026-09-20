@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ActionBar/Camelot/MainMenuBarEndCaps.lua#L2)
---- @class MainMenuBarEndCapMixin
+ --- @class MainMenuBarEndCapMixin
 MainMenuBarEndCapMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ActionBar/Camelot/MainMenuBarEndCaps.lua#L4)

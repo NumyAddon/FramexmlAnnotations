@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.lua#L50)
---- @class AutoQuestPopupBlockMixin : ObjectiveTrackerBlockMixin
+ --- @class AutoQuestPopupBlockMixin : ObjectiveTrackerBlockMixin
 AutoQuestPopupBlockMixin = CreateFromMixins(ObjectiveTrackerBlockMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.lua#L3)
---- @class AutoQuestPopupTrackerMixin
+ --- @class AutoQuestPopupTrackerMixin
 AutoQuestPopupTrackerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.lua#L174)
---- @class AutoQuestPopupFlashFrameMixin
+ --- @class AutoQuestPopupFlashFrameMixin
 AutoQuestPopupFlashFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.lua#L5)

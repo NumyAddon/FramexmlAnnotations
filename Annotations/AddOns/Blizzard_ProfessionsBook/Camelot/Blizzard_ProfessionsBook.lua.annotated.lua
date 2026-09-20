@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBook.lua#L1)
---- @class ProfessionsUnlearnButtonMixin : ButtonStateBehaviorMixin
+ --- @class ProfessionsUnlearnButtonMixin : ButtonStateBehaviorMixin
 ProfessionsUnlearnButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBook.lua#L3)

@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L49)
---- @class GamepadActionBarPageTrackerSlotImageMixin : GamepadActionBarPageTrackerSlotMixin
+ --- @class GamepadActionBarPageTrackerSlotImageMixin : GamepadActionBarPageTrackerSlotMixin
 GamepadActionBarPageTrackerSlotImageMixin = CreateFromMixins(GamepadActionBarPageTrackerSlotMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L77)
---- @class GamepadActionBarPageTrackerSlotTextMixin : GamepadActionBarPageTrackerSlotMixin
+ --- @class GamepadActionBarPageTrackerSlotTextMixin : GamepadActionBarPageTrackerSlotMixin
 GamepadActionBarPageTrackerSlotTextMixin = CreateFromMixins(GamepadActionBarPageTrackerSlotMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L106)
---- @class GamepadActionBarPageUnitMixin : CallbackRegistryMixin
+ --- @class GamepadActionBarPageUnitMixin : CallbackRegistryMixin
 GamepadActionBarPageUnitMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L22)
---- @class GamepadActionBarPageTrackerSlotMixin
+ --- @class GamepadActionBarPageTrackerSlotMixin
 GamepadActionBarPageTrackerSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L24)

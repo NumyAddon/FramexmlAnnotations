@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.lua#L292)
---- @class InspectTabButtonMixin : SidePanelTabButtonMixin
+ --- @class InspectTabButtonMixin : SidePanelTabButtonMixin
 InspectTabButtonMixin = CreateFromMixins(SidePanelTabButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.lua#L54)
---- @class InspectFrameMixin
+ --- @class InspectFrameMixin
 InspectFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.lua#L70)

@@ -1,63 +1,63 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L363)
---- @class MainMenuBarMicroButtonMixin : CallbackRegistryMixin
+ --- @class MainMenuBarMicroButtonMixin : CallbackRegistryMixin
 MainMenuBarMicroButtonMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L692)
---- @class PlayerSpellsMicroButtonMixin : DirtiableMixin
+ --- @class PlayerSpellsMicroButtonMixin : DirtiableMixin
 PlayerSpellsMicroButtonMixin = CreateFromMixins(DirtiableMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L532)
---- @class CharacterMicroButtonMixin
+ --- @class CharacterMicroButtonMixin
 CharacterMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L658)
---- @class ProfessionMicroButtonMixin
+ --- @class ProfessionMicroButtonMixin
 ProfessionMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L958)
---- @class AchievementMicroButtonMixin
+ --- @class AchievementMicroButtonMixin
 AchievementMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1023)
---- @class LegacyMicroButtonMixin
+ --- @class LegacyMicroButtonMixin
 LegacyMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1088)
---- @class QuestLogMicroButtonMixin
+ --- @class QuestLogMicroButtonMixin
 QuestLogMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1124)
---- @class HousingMicroButtonMixin
+ --- @class HousingMicroButtonMixin
 HousingMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1195)
---- @class GuildMicroButtonMixin
+ --- @class GuildMicroButtonMixin
 GuildMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1413)
---- @class LFDMicroButtonMixin
+ --- @class LFDMicroButtonMixin
 LFDMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1491)
---- @class CollectionMicroButtonMixin
+ --- @class CollectionMicroButtonMixin
 CollectionMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1624)
---- @class EJMicroButtonMixin
+ --- @class EJMicroButtonMixin
 EJMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1806)
---- @class StoreMicroButtonMixin
+ --- @class StoreMicroButtonMixin
 StoreMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1917)
---- @class HelpMicroButtonMixin
+ --- @class HelpMicroButtonMixin
 HelpMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L1930)
---- @class MainMenuMicroButtonMixin
+ --- @class MainMenuMicroButtonMixin
 MainMenuMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.lua#L365)

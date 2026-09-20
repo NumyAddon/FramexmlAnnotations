@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/Shared.lua#L123)
---- @class SharedBarStateMixin
+ --- @class SharedBarStateMixin
 SharedBarStateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/Shared.lua#L127)

@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L34)
---- @class AnimaDiversionDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class AnimaDiversionDataProviderMixin : MapCanvasDataProviderMixin
 AnimaDiversionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L183)
---- @class AnimaDiversionModelScenePinMixin : MapCanvasPinMixin
+ --- @class AnimaDiversionModelScenePinMixin : MapCanvasPinMixin
 AnimaDiversionModelScenePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L188)
---- @class AnimaDiversionPinMixin : MapCanvasPinMixin
+ --- @class AnimaDiversionPinMixin : MapCanvasPinMixin
 AnimaDiversionPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L381)
---- @class AnimaDiversionConnectionMixin
+ --- @class AnimaDiversionConnectionMixin
 AnimaDiversionConnectionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AnimaDiversionUI/AnimaDiversionDataProvider.lua#L36)

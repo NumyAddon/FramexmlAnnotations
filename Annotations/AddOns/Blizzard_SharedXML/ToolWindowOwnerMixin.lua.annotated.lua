@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/ToolWindowOwnerMixin.lua#L1)
---- @class ToolWindowOwnerMixin
+ --- @class ToolWindowOwnerMixin
 ToolWindowOwnerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/ToolWindowOwnerMixin.lua#L3)

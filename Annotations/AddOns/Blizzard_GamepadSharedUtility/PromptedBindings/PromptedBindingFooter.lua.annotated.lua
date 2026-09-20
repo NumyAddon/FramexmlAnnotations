@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L1)
---- @class PromptedBindingFooterMixin
+ --- @class PromptedBindingFooterMixin
 PromptedBindingFooterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L46)

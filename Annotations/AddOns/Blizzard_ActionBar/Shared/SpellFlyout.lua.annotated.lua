@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L22)
---- @class SpellFlyoutPopupButtonMixin
+ --- @class SpellFlyoutPopupButtonMixin
 SpellFlyoutPopupButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L178)
---- @class SpellFlyoutMixin
+ --- @class SpellFlyoutMixin
 SpellFlyoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L24)

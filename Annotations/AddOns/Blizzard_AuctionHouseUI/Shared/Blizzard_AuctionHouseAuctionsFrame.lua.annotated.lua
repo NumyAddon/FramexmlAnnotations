@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseAuctionsFrame.lua#L128)
---- @class AuctionHouseAuctionsFrameMixin : AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin
+ --- @class AuctionHouseAuctionsFrameMixin : AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin
 AuctionHouseAuctionsFrameMixin = CreateFromMixins(AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseAuctionsFrame.lua#L5)
---- @class AuctionHouseAuctionsFrameTabMixin
+ --- @class AuctionHouseAuctionsFrameTabMixin
 AuctionHouseAuctionsFrameTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseAuctionsFrame.lua#L13)
---- @class AuctionHouseAuctionsSummaryListMixin
+ --- @class AuctionHouseAuctionsSummaryListMixin
 AuctionHouseAuctionsSummaryListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseAuctionsFrame.lua#L56)
---- @class AuctionHouseAuctionsSummaryLineMixin
+ --- @class AuctionHouseAuctionsSummaryLineMixin
 AuctionHouseAuctionsSummaryLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseAuctionsFrame.lua#L119)
---- @class CancelAuctionButtonMixin
+ --- @class CancelAuctionButtonMixin
 CancelAuctionButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseAuctionsFrame.lua#L7)

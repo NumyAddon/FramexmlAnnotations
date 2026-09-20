@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L42)
---- @class ClassTrainerFrameMixin
+ --- @class ClassTrainerFrameMixin
 ClassTrainerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L759)
---- @class ClassTrainerCategoryButtonMixin
+ --- @class ClassTrainerCategoryButtonMixin
 ClassTrainerCategoryButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L766)
---- @class ClassTrainerSkillButtonMixin
+ --- @class ClassTrainerSkillButtonMixin
 ClassTrainerSkillButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L60)

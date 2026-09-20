@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L6)
---- @class CommentatorNamePlateMixin
+ --- @class CommentatorNamePlateMixin
 CommentatorNamePlateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L8)

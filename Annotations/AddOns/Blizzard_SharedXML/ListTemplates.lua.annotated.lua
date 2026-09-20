@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L161)
---- @class ListHeaderThreeSliceMixin : ListHeaderVisualMixin
+ --- @class ListHeaderThreeSliceMixin : ListHeaderVisualMixin
 ListHeaderThreeSliceMixin = CreateFromMixins(ListHeaderVisualMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L1)
---- @class CollapseButtonMixin
+ --- @class CollapseButtonMixin
 CollapseButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L18)
---- @class ListHeaderVisualMixin
+ --- @class ListHeaderVisualMixin
 ListHeaderVisualMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L71)
---- @class ListHeaderMixin
+ --- @class ListHeaderMixin
 ListHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L3)

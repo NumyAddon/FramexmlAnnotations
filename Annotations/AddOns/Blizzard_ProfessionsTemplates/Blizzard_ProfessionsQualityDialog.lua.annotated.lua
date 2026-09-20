@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.lua#L1)
---- @class ProfessionsQualityDialogMixin : CallbackRegistryMixin
+ --- @class ProfessionsQualityDialogMixin : CallbackRegistryMixin
 ProfessionsQualityDialogMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.lua#L8)

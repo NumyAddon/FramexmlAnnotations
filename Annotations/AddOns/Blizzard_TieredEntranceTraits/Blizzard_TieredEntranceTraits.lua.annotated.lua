@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TieredEntranceTraits/Blizzard_TieredEntranceTraits.lua#L4)
---- @class TieredEntranceTraitsContainerMixin
+ --- @class TieredEntranceTraitsContainerMixin
 TieredEntranceTraitsContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TieredEntranceTraits/Blizzard_TieredEntranceTraits.lua#L106)
---- @class TieredEntranceTraitsListMixin
+ --- @class TieredEntranceTraitsListMixin
 TieredEntranceTraitsListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TieredEntranceTraits/Blizzard_TieredEntranceTraits.lua#L179)
---- @class TieredEntranceTraitSpellMixin
+ --- @class TieredEntranceTraitSpellMixin
 TieredEntranceTraitSpellMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TieredEntranceTraits/Blizzard_TieredEntranceTraits.lua#L6)

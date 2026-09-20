@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_GridSelectorUI.lua#L2)
---- @class GridSelectorFrameMixin
+ --- @class GridSelectorFrameMixin
 GridSelectorFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Shared/Selector/Blizzard_GridSelectorUI.lua#L4)

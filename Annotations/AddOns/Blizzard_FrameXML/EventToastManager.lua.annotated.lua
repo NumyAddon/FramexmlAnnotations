@@ -1,103 +1,103 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L144)
---- @class EventToastManagerFrameMixin : EventToastManagerMixin, OverrideLayoutFrameOnUpdateMixin
+ --- @class EventToastManagerFrameMixin : EventToastManagerMixin, OverrideLayoutFrameOnUpdateMixin
 EventToastManagerFrameMixin = CreateFromMixins(EventToastManagerMixin, OverrideLayoutFrameOnUpdateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L400)
---- @class EventToastManagerSideDisplayMixin : EventToastManagerMixin
+ --- @class EventToastManagerSideDisplayMixin : EventToastManagerMixin
 EventToastManagerSideDisplayMixin = CreateFromMixins(EventToastManagerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L638)
---- @class EventToastWeeklyRewardUpgradeToastMixin : EventToastWeeklyRewardToastMixin, ItemMixin
+ --- @class EventToastWeeklyRewardUpgradeToastMixin : EventToastWeeklyRewardToastMixin, ItemMixin
 EventToastWeeklyRewardUpgradeToastMixin = CreateFromMixins(EventToastWeeklyRewardToastMixin, ItemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L788)
---- @class EventToastManagerNormalTitleAndSubtitleMixin : EventToastManagerNormalMixin
+ --- @class EventToastManagerNormalTitleAndSubtitleMixin : EventToastManagerNormalMixin
 EventToastManagerNormalTitleAndSubtitleMixin = CreateFromMixins(EventToastManagerNormalMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L969)
---- @class EventToastManagerNormalSingleLineMixin : EventToastManagerNormalMixin
+ --- @class EventToastManagerNormalSingleLineMixin : EventToastManagerNormalMixin
 EventToastManagerNormalSingleLineMixin = CreateFromMixins(EventToastManagerNormalMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L979)
---- @class EventToastManagerNormalBlockTextMixin : EventToastManagerNormalMixin
+ --- @class EventToastManagerNormalBlockTextMixin : EventToastManagerNormalMixin
 EventToastManagerNormalBlockTextMixin = CreateFromMixins(EventToastManagerNormalMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L989)
---- @class EventToastManagerCapstoneUnlockedMixin : EventToastManagerNormalMixin
+ --- @class EventToastManagerCapstoneUnlockedMixin : EventToastManagerNormalMixin
 EventToastManagerCapstoneUnlockedMixin = CreateFromMixins(EventToastManagerNormalMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1012)
---- @class EventToastManagerSingleLineWithIconMixin : EventToastManagerNormalMixin
+ --- @class EventToastManagerSingleLineWithIconMixin : EventToastManagerNormalMixin
 EventToastManagerSingleLineWithIconMixin = CreateFromMixins(EventToastManagerNormalMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L104)
---- @class EventToastManagerMixin
+ --- @class EventToastManagerMixin
 EventToastManagerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L468)
---- @class EventToastScenarioBaseToastMixin
+ --- @class EventToastScenarioBaseToastMixin
 EventToastScenarioBaseToastMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L525)
---- @class EventToastScenarioToastMixin
+ --- @class EventToastScenarioToastMixin
 EventToastScenarioToastMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L551)
---- @class EventToastScenarioExpandToastMixin
+ --- @class EventToastScenarioExpandToastMixin
 EventToastScenarioExpandToastMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L621)
---- @class EventToastWeeklyRewardToastMixin
+ --- @class EventToastWeeklyRewardToastMixin
 EventToastWeeklyRewardToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L652)
---- @class EventToastWithIconBaseMixin
+ --- @class EventToastWithIconBaseMixin
 EventToastWithIconBaseMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L691)
---- @class EventToastWithIconNormalMixin
+ --- @class EventToastWithIconNormalMixin
 EventToastWithIconNormalMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L698)
---- @class EventToastWithIconLargeTextMixin
+ --- @class EventToastWithIconLargeTextMixin
 EventToastWithIconLargeTextMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L707)
---- @class EventToastFlightpointDiscoveredMixin
+ --- @class EventToastFlightpointDiscoveredMixin
 EventToastFlightpointDiscoveredMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L728)
---- @class EventToastWithIconWithRarityMixin
+ --- @class EventToastWithIconWithRarityMixin
 EventToastWithIconWithRarityMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L750)
---- @class EventToastChallengeModeToastMixin
+ --- @class EventToastChallengeModeToastMixin
 EventToastChallengeModeToastMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L764)
---- @class EventToastManagerNormalMixin
+ --- @class EventToastManagerNormalMixin
 EventToastManagerNormalMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1023)
---- @class EventToastAnimationsMixin
+ --- @class EventToastAnimationsMixin
 EventToastAnimationsMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1251)
---- @class EventToastHideButtonMixin
+ --- @class EventToastHideButtonMixin
 EventToastHideButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1257)
---- @class EventToastWeeklyContentsMixin
+ --- @class EventToastWeeklyContentsMixin
 EventToastWeeklyContentsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1263)
---- @class EventToastScoreboardMixin
+ --- @class EventToastScoreboardMixin
 EventToastScoreboardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1303)
---- @class EventToastHouseUpgradeAvailableMixin
+ --- @class EventToastHouseUpgradeAvailableMixin
 EventToastHouseUpgradeAvailableMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L105)

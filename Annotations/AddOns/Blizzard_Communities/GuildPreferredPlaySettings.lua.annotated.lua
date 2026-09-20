@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L1)
---- @class CommunitiesGuildPreferredPlaySettingsFrameMixin
+ --- @class CommunitiesGuildPreferredPlaySettingsFrameMixin
 CommunitiesGuildPreferredPlaySettingsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L37)

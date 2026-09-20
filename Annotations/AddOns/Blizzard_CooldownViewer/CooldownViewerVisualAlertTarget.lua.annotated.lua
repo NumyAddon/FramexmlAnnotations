@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerVisualAlertTarget.lua#L1)
---- @class CooldownViewerVisualAlertTargetMixin : VisualAlertTargetMixin
+ --- @class CooldownViewerVisualAlertTargetMixin : VisualAlertTargetMixin
 CooldownViewerVisualAlertTargetMixin = CreateFromMixins(VisualAlertTargetMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerVisualAlertTarget.lua#L50)

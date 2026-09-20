@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L5)
---- @class QuestTimerMixin
+ --- @class QuestTimerMixin
 QuestTimerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L7)

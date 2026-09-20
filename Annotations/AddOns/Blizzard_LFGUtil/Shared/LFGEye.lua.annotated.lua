@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Shared/LFGEye.lua#L11)
---- @class LFGEyeTemplateMixin
+ --- @class LFGEyeTemplateMixin
 LFGEyeTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Shared/LFGEye.lua#L13)

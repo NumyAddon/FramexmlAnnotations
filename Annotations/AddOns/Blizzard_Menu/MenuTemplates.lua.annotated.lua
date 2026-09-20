@@ -1,55 +1,55 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L743)
---- @class DropdownSelectionTextMixin : DropdownTextMixin
+ --- @class DropdownSelectionTextMixin : DropdownTextMixin
 DropdownSelectionTextMixin = CreateFromMixins(DropdownTextMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L942)
---- @class WowFilterButtonMixin : WowDropdownFilterBehaviorMixin
+ --- @class WowFilterButtonMixin : WowDropdownFilterBehaviorMixin
 WowFilterButtonMixin = CreateFromMixins(WowDropdownFilterBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L954)
---- @class WowStyle1DropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin
+ --- @class WowStyle1DropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin
 WowStyle1DropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownSelectionTextMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L977)
---- @class WowStyle1FilterDropdownMixin : ButtonStateBehaviorMixin, DropdownTextMixin, WowFilterButtonMixin
+ --- @class WowStyle1FilterDropdownMixin : ButtonStateBehaviorMixin, DropdownTextMixin, WowFilterButtonMixin
 WowStyle1FilterDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownTextMixin, WowFilterButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L1033)
---- @class WowStyle2DropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin, WowFilterButtonMixin
+ --- @class WowStyle2DropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin, WowFilterButtonMixin
 WowStyle2DropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownSelectionTextMixin, WowFilterButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L1093)
---- @class WowStyle1ArrowDropdownMixin : ButtonStateBehaviorMixin
+ --- @class WowStyle1ArrowDropdownMixin : ButtonStateBehaviorMixin
 WowStyle1ArrowDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L1138)
---- @class RandomColorStyleMenuMixin : MenuStyleMixin
+ --- @class RandomColorStyleMenuMixin : MenuStyleMixin
 RandomColorStyleMenuMixin = CreateFromMixins(MenuStyleMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L1149)
---- @class BlackColorStyleMenuMixin : MenuStyleMixin
+ --- @class BlackColorStyleMenuMixin : MenuStyleMixin
 BlackColorStyleMenuMixin = CreateFromMixins(MenuStyleMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L1158)
---- @class MenuStyle2Mixin : MenuStyleMixin
+ --- @class MenuStyle2Mixin : MenuStyleMixin
 MenuStyle2Mixin = CreateFromMixins(MenuStyleMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L1182)
---- @class WowStyle2IconButtonMixin : ButtonStateBehaviorMixin
+ --- @class WowStyle2IconButtonMixin : ButtonStateBehaviorMixin
 WowStyle2IconButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L691)
---- @class DropdownTextMixin
+ --- @class DropdownTextMixin
 DropdownTextMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L882)
---- @class WowDropdownFilterBehaviorMixin
+ --- @class WowDropdownFilterBehaviorMixin
 WowDropdownFilterBehaviorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L1101)
---- @class MenuStyleMixin
+ --- @class MenuStyleMixin
 MenuStyleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L693)

@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.lua#L3)
---- @class CustomizationOptionFrameBaseMixin : CustomizationContentFrameMixin
+ --- @class CustomizationOptionFrameBaseMixin : CustomizationContentFrameMixin
 CustomizationOptionFrameBaseMixin = CreateFromMixins(CustomizationContentFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.lua#L99)
---- @class CustomizationOptionSliderMixin : CustomizationOptionFrameBaseMixin, SliderWithButtonsAndLabelMixin, CustomizationFrameWithTooltipMixin
+ --- @class CustomizationOptionSliderMixin : CustomizationOptionFrameBaseMixin, SliderWithButtonsAndLabelMixin, CustomizationFrameWithTooltipMixin
 CustomizationOptionSliderMixin = CreateFromMixins(CustomizationOptionFrameBaseMixin, SliderWithButtonsAndLabelMixin, CustomizationFrameWithTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.lua#L163)
---- @class CustomizationOptionCheckButtonMixin : CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin
+ --- @class CustomizationOptionCheckButtonMixin : CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin
 CustomizationOptionCheckButtonMixin = CreateFromMixins(CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.lua#L246)
---- @class CustomizationDropdownWithSteppersAndLabelMixin : CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin
+ --- @class CustomizationDropdownWithSteppersAndLabelMixin : CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin
 CustomizationDropdownWithSteppersAndLabelMixin = CreateFromMixins(CustomizationOptionFrameBaseMixin, CustomizationFrameWithTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.lua#L525)
---- @class CustomizationElementDetailsMixin
+ --- @class CustomizationElementDetailsMixin
 CustomizationElementDetailsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.lua#L767)
---- @class CustomizationDropdownMixin
+ --- @class CustomizationDropdownMixin
 CustomizationDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.lua#L794)
---- @class CustomizationElementMixin
+ --- @class CustomizationElementMixin
 CustomizationElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.lua#L884)
---- @class CustomizationDropdownElementMixin
+ --- @class CustomizationDropdownElementMixin
 CustomizationDropdownElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.lua#L5)

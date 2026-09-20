@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/AlternatePowerBarBase.lua#L171)
---- @class PlayerFrameAlternatePowerBarBaseMixin : AlternatePowerBarBaseMixin
+ --- @class PlayerFrameAlternatePowerBarBaseMixin : AlternatePowerBarBaseMixin
 PlayerFrameAlternatePowerBarBaseMixin = CreateFromMixins(AlternatePowerBarBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/AlternatePowerBarBase.lua#L4)
---- @class AlternatePowerBarBaseMixin
+ --- @class AlternatePowerBarBaseMixin
 AlternatePowerBarBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/AlternatePowerBarBase.lua#L6)

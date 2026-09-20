@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.lua#L1)
---- @class ItemTextFrameMixin
+ --- @class ItemTextFrameMixin
 ItemTextFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.lua#L3)

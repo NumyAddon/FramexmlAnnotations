@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.lua#L132)
---- @class SoftCursorCircleBoundsMixin : SoftCursorBoundsMixin
+ --- @class SoftCursorCircleBoundsMixin : SoftCursorBoundsMixin
 SoftCursorCircleBoundsMixin = CreateFromMixins(SoftCursorBoundsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.lua#L162)
---- @class SoftCursorRectBoundsMixin : SoftCursorBoundsMixin
+ --- @class SoftCursorRectBoundsMixin : SoftCursorBoundsMixin
 SoftCursorRectBoundsMixin = CreateFromMixins(SoftCursorBoundsMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.lua#L3)
---- @class SoftCursorMixin
+ --- @class SoftCursorMixin
 SoftCursorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.lua#L121)
---- @class SoftCursorBoundsMixin
+ --- @class SoftCursorBoundsMixin
 SoftCursorBoundsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.lua#L5)

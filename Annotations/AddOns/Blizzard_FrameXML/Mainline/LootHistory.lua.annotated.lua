@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.lua#L5)
---- @class LootHistoryElementMixin
+ --- @class LootHistoryElementMixin
 LootHistoryElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.lua#L217)
---- @class LootHistoryElementAnimationMixin
+ --- @class LootHistoryElementAnimationMixin
 LootHistoryElementAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.lua#L241)
---- @class LootHistoryRollTooltipLineMixin
+ --- @class LootHistoryRollTooltipLineMixin
 LootHistoryRollTooltipLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.lua#L299)
---- @class LootHistoryFrameMixin
+ --- @class LootHistoryFrameMixin
 LootHistoryFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.lua#L12)

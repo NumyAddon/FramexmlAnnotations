@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PossessBar.lua#L34)
---- @class GamepadPossessBarMixin : GamepadOverrideBarMixin
+ --- @class GamepadPossessBarMixin : GamepadOverrideBarMixin
 GamepadPossessBarMixin = CreateFromMixins(GamepadOverrideBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PossessBar.lua#L36)

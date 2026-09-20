@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingSoulbindButton.lua#L1)
---- @class LandingPageSoulbindButtonMixin
+ --- @class LandingPageSoulbindButtonMixin
 LandingPageSoulbindButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LandingSoulbinds/Blizzard_LandingSoulbindButton.lua#L8)

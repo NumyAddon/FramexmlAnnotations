@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L17)
---- @class MainHelpPlateButtonMixin
+ --- @class MainHelpPlateButtonMixin
 MainHelpPlateButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L49)
---- @class HelpPlateButtonMixin
+ --- @class HelpPlateButtonMixin
 HelpPlateButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L131)
---- @class HelpPlateBoxMixin
+ --- @class HelpPlateBoxMixin
 HelpPlateBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L139)
---- @class HelpPlateTileMixin
+ --- @class HelpPlateTileMixin
 HelpPlateTileMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L159)
---- @class HelpPlateTooltipMixin
+ --- @class HelpPlateTooltipMixin
 HelpPlateTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L19)

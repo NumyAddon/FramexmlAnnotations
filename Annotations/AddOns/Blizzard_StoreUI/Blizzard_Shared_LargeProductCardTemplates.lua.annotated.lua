@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_LargeProductCardTemplates.lua#L9)
---- @class VerticalLargeStoreCardMixin : StoreCardMixin
+ --- @class VerticalLargeStoreCardMixin : StoreCardMixin
 VerticalLargeStoreCardMixin = CreateFromMixins(StoreCardMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_LargeProductCardTemplates.lua#L260)
---- @class VerticalLargeStoreCardWithBuyButtonMixin : VerticalLargeStoreCardMixin, ProductCardBuyButtonMixin, LargeProductCardBuyButtonMixin
+ --- @class VerticalLargeStoreCardWithBuyButtonMixin : VerticalLargeStoreCardMixin, ProductCardBuyButtonMixin, LargeProductCardBuyButtonMixin
 VerticalLargeStoreCardWithBuyButtonMixin = CreateFromMixins(VerticalLargeStoreCardMixin, ProductCardBuyButtonMixin, LargeProductCardBuyButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_LargeProductCardTemplates.lua#L338)
---- @class VerticalLargePageableStoreCardWithBuyButtonMixin : VerticalLargeStoreCardWithBuyButtonMixin
+ --- @class VerticalLargePageableStoreCardWithBuyButtonMixin : VerticalLargeStoreCardWithBuyButtonMixin
 VerticalLargePageableStoreCardWithBuyButtonMixin = CreateFromMixins(VerticalLargeStoreCardWithBuyButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_LargeProductCardTemplates.lua#L363)
---- @class HorizontalLargeStoreCardMixin : VerticalLargeStoreCardMixin
+ --- @class HorizontalLargeStoreCardMixin : VerticalLargeStoreCardMixin
 HorizontalLargeStoreCardMixin = CreateFromMixins(VerticalLargeStoreCardMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_LargeProductCardTemplates.lua#L432)
---- @class HorizontalLargeStoreCardWithBuyButtonMixin : VerticalLargeStoreCardWithBuyButtonMixin
+ --- @class HorizontalLargeStoreCardWithBuyButtonMixin : VerticalLargeStoreCardWithBuyButtonMixin
 HorizontalLargeStoreCardWithBuyButtonMixin = CreateFromMixins(VerticalLargeStoreCardWithBuyButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_LargeProductCardTemplates.lua#L10)

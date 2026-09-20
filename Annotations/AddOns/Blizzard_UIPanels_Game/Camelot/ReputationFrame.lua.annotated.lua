@@ -1,59 +1,59 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L313)
---- @class ReputationEntryMixin : CallbackRegistryMixin
+ --- @class ReputationEntryMixin : CallbackRegistryMixin
 ReputationEntryMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L595)
---- @class ReputationSubHeaderMixin : ReputationEntryMixin
+ --- @class ReputationSubHeaderMixin : ReputationEntryMixin
 ReputationSubHeaderMixin = CreateFromMixins(ReputationEntryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L733)
---- @class ReputationDetailFrameMixin : CharacterFrameSidePaneMixin, CallbackRegistryMixin
+ --- @class ReputationDetailFrameMixin : CharacterFrameSidePaneMixin, CallbackRegistryMixin
 ReputationDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin, CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L28)
---- @class ReputationFrameMixin
+ --- @class ReputationFrameMixin
 ReputationFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L272)
---- @class ReputationHeaderMixin
+ --- @class ReputationHeaderMixin
 ReputationHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L485)
---- @class ReputationEntryAccountWideIconMixin
+ --- @class ReputationEntryAccountWideIconMixin
 ReputationEntryAccountWideIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L623)
---- @class ReputationSubHeaderToggleCollapseButtonMixin
+ --- @class ReputationSubHeaderToggleCollapseButtonMixin
 ReputationSubHeaderToggleCollapseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L639)
---- @class ReputationBarMixin
+ --- @class ReputationBarMixin
 ReputationBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L678)
---- @class ReputationBarBonusIconMixin
+ --- @class ReputationBarBonusIconMixin
 ReputationBarBonusIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L692)
---- @class ReputationBarParagonIconMixin
+ --- @class ReputationBarParagonIconMixin
 ReputationBarParagonIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L833)
---- @class ReputationDetailViewRenownButtonMixin
+ --- @class ReputationDetailViewRenownButtonMixin
 ReputationDetailViewRenownButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L864)
---- @class ReputationDetailAtWarCheckboxMixin
+ --- @class ReputationDetailAtWarCheckboxMixin
 ReputationDetailAtWarCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L886)
---- @class ReputationDetailInactiveCheckboxMixin
+ --- @class ReputationDetailInactiveCheckboxMixin
 ReputationDetailInactiveCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L914)
---- @class ReputationDetailWatchFactionCheckboxMixin
+ --- @class ReputationDetailWatchFactionCheckboxMixin
 ReputationDetailWatchFactionCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/ReputationFrame.lua#L30)

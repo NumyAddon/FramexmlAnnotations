@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ArtifactBar.lua#L5)
---- @class ArtifactBarMixin
+ --- @class ArtifactBarMixin
 ArtifactBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ArtifactBar.lua#L110)
---- @class ArtifactTickMixin
+ --- @class ArtifactTickMixin
 ArtifactTickMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Mainline/ArtifactBar.lua#L7)

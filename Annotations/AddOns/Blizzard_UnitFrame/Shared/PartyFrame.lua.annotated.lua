@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyFrame.lua#L6)
---- @class PartyFrameMixin
+ --- @class PartyFrameMixin
 PartyFrameMixin={}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyFrame.lua#L179)
---- @class PartyMemberBuffTooltipMixin
+ --- @class PartyMemberBuffTooltipMixin
 PartyMemberBuffTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyFrame.lua#L270)
---- @class PartyMemberBackgroundMixin
+ --- @class PartyMemberBackgroundMixin
 PartyMemberBackgroundMixin={}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyFrame.lua#L8)

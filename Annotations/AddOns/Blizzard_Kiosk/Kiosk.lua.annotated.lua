@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Kiosk/Kiosk.lua#L1)
---- @class KioskModeSplashEndMixin
+ --- @class KioskModeSplashEndMixin
 KioskModeSplashEndMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Kiosk/Kiosk.lua#L14)
---- @class KioskFrameMixin
+ --- @class KioskFrameMixin
 KioskFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Kiosk/Kiosk.lua#L3)

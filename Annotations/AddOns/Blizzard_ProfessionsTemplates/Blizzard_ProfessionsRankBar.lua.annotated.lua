@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRankBar.lua#L23)
---- @class ProfessionsRankBarDropdownMixin : ButtonStateBehaviorMixin
+ --- @class ProfessionsRankBarDropdownMixin : ButtonStateBehaviorMixin
 ProfessionsRankBarDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRankBar.lua#L83)
---- @class ProfessionsRankBarMixin
+ --- @class ProfessionsRankBarMixin
 ProfessionsRankBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRankBar.lua#L34)

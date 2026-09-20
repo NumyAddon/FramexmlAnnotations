@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.lua#L2255)
---- @class GarrisonMissionPageMixin
+ --- @class GarrisonMissionPageMixin
 GarrisonMissionPageMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.lua#L2943)
---- @class GarrisonMissionCompleteModelClusterMixin
+ --- @class GarrisonMissionCompleteModelClusterMixin
 GarrisonMissionCompleteModelClusterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.lua#L2959)
---- @class GarrisonMissionPageCostWithTooltipMixin
+ --- @class GarrisonMissionPageCostWithTooltipMixin
 GarrisonMissionPageCostWithTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.lua#L2258)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/Page/PageIndicators.lua#L2)
---- @class GamepadPageIndicatorMixin
+ --- @class GamepadPageIndicatorMixin
 GamepadPageIndicatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/Page/PageIndicators.lua#L4)

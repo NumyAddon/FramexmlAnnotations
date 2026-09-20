@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L22)
---- @class CovenantMissionPageEnemyMixin
+ --- @class CovenantMissionPageEnemyMixin
 CovenantMissionPageEnemyMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L81)
---- @class CovenantFollowerTabMixin
+ --- @class CovenantFollowerTabMixin
 CovenantFollowerTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L254)
---- @class CovenantMissionListMixin
+ --- @class CovenantMissionListMixin
 CovenantMissionListMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L540)
---- @class CovenantMissionEncounterIconMixin
+ --- @class CovenantMissionEncounterIconMixin
 CovenantMissionEncounterIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L566)
---- @class AdventuresTargetingIndicatorMixin
+ --- @class AdventuresTargetingIndicatorMixin
 AdventuresTargetingIndicatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L625)
---- @class AdventuresFriendlyTargetingIndicatorMixin
+ --- @class AdventuresFriendlyTargetingIndicatorMixin
 AdventuresFriendlyTargetingIndicatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L675)
---- @class SupportColorationAnimatorMixin
+ --- @class SupportColorationAnimatorMixin
 SupportColorationAnimatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L763)
---- @class CovenantPortraitMixin
+ --- @class CovenantPortraitMixin
 CovenantPortraitMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L800)
---- @class AdventuresPuckHealthBarMixin
+ --- @class AdventuresPuckHealthBarMixin
 AdventuresPuckHealthBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L24)

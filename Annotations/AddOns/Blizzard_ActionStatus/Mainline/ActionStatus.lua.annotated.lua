@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ActionStatus/Mainline/ActionStatus.lua#L1)
---- @class ActionStatusMixin
+ --- @class ActionStatusMixin
 ActionStatusMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ActionStatus/Mainline/ActionStatus.lua#L5)

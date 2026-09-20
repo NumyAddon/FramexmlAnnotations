@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.lua#L110)
---- @class TalentFrameBaseMixin : CallbackRegistryMixin
+ --- @class TalentFrameBaseMixin : CallbackRegistryMixin
 TalentFrameBaseMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.lua#L14)
---- @class TalentFrameBaseButtonsParentMixin
+ --- @class TalentFrameBaseButtonsParentMixin
 TalentFrameBaseButtonsParentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.lua#L2088)
---- @class TalentFrameFixedPositionsMixin
+ --- @class TalentFrameFixedPositionsMixin
 TalentFrameFixedPositionsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.lua#L2124)
---- @class TalentFrameDisplayOnlyMixin
+ --- @class TalentFrameDisplayOnlyMixin
 TalentFrameDisplayOnlyMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.lua#L16)

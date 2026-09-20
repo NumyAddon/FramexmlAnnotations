@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideCriteriaFrame.lua#L1)
---- @class CriterionMixin
+ --- @class CriterionMixin
 CriterionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideCriteriaFrame.lua#L25)
---- @class CriteriaDisplayMixin
+ --- @class CriteriaDisplayMixin
 CriteriaDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideCriteriaFrame.lua#L75)
---- @class CriteriaBulletMixin
+ --- @class CriteriaBulletMixin
 CriteriaBulletMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideCriteriaFrame.lua#L3)

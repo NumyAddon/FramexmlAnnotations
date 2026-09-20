@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Shared/Tabs/RightSideTab.lua#L1)
---- @class RightSideTabMixin
+ --- @class RightSideTabMixin
 RightSideTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Shared/Tabs/RightSideTab.lua#L3)

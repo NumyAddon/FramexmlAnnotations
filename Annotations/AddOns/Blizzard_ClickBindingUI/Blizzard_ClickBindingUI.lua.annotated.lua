@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L235)
---- @class ClickBindingLineMixin
+ --- @class ClickBindingLineMixin
 ClickBindingLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L277)
---- @class ClickBindingHeaderMixin
+ --- @class ClickBindingHeaderMixin
 ClickBindingHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L285)
---- @class ClickBindingFramePortraitMixin
+ --- @class ClickBindingFramePortraitMixin
 ClickBindingFramePortraitMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L335)
---- @class ClickBindingFrameMixin
+ --- @class ClickBindingFrameMixin
 ClickBindingFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L809)
---- @class ClickBindingTutorialMixin
+ --- @class ClickBindingTutorialMixin
 ClickBindingTutorialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L828)
---- @class ClickableBindingsEnableMouseoverCastCheckboxMixin
+ --- @class ClickableBindingsEnableMouseoverCastCheckboxMixin
 ClickableBindingsEnableMouseoverCastCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.lua#L237)

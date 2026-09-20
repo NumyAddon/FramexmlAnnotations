@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeDetailPane.lua#L3)
---- @class LegacyChallengeDetailPaneMixin
+ --- @class LegacyChallengeDetailPaneMixin
 LegacyChallengeDetailPaneMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeDetailPane.lua#L5)

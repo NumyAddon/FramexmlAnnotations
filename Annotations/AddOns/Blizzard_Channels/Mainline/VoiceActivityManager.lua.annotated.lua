@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/VoiceActivityManager.lua#L1)
---- @class VoiceActivityManagerMixin
+ --- @class VoiceActivityManagerMixin
 VoiceActivityManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/VoiceActivityManager.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.lua#L208)
---- @class PetJournalSummonRandomPetSpellFrameMixin
+ --- @class PetJournalSummonRandomPetSpellFrameMixin
 PetJournalSummonRandomPetSpellFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.lua#L210)

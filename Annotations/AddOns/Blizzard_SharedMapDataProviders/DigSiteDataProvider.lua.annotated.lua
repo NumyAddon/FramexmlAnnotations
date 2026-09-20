@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/DigSiteDataProvider.lua#L1)
---- @class DigSiteDataProviderMixin : CVarMapCanvasDataProviderMixin
+ --- @class DigSiteDataProviderMixin : CVarMapCanvasDataProviderMixin
 DigSiteDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/DigSiteDataProvider.lua#L4)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/WardrobeCustomSets.lua#L17)
---- @class WardrobeCustomSetDropdownMixin
+ --- @class WardrobeCustomSetDropdownMixin
 WardrobeCustomSetDropdownMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/WardrobeCustomSets.lua#L463)
---- @class WardrobeCustomSetEditFrameMixin
+ --- @class WardrobeCustomSetEditFrameMixin
 WardrobeCustomSetEditFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/WardrobeCustomSets.lua#L490)
---- @class WardrobeCustomSetCheckAppearancesMixin
+ --- @class WardrobeCustomSetCheckAppearancesMixin
 WardrobeCustomSetCheckAppearancesMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/WardrobeCustomSets.lua#L19)

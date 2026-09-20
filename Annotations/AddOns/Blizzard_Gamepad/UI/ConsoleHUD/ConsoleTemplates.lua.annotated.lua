@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/ConsoleHUD/ConsoleTemplates.lua#L5)
---- @class GamepadButtonIconWithTextMixin
+ --- @class GamepadButtonIconWithTextMixin
 GamepadButtonIconWithTextMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/ConsoleHUD/ConsoleTemplates.lua#L123)
---- @class GamepadPressAndHoldButtonMixin
+ --- @class GamepadPressAndHoldButtonMixin
 GamepadPressAndHoldButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/ConsoleHUD/ConsoleTemplates.lua#L7)

@@ -1,43 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.lua#L450)
---- @class RecentAlliesSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
+ --- @class RecentAlliesSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
 RecentAlliesSocialViewMixin = CreateFromMixins(SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.lua#L1)
---- @class RecentAlliesListMixin
+ --- @class RecentAlliesListMixin
 RecentAlliesListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.lua#L119)
---- @class RecentAlliesEntryMixin
+ --- @class RecentAlliesEntryMixin
 RecentAlliesEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.lua#L361)
---- @class RecentAlliesEntryPartyButtonMixin
+ --- @class RecentAlliesEntryPartyButtonMixin
 RecentAlliesEntryPartyButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.lua#L386)
---- @class RecentAlliesEntryPinDisplayMixin
+ --- @class RecentAlliesEntryPinDisplayMixin
 RecentAlliesEntryPinDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.lua#L728)
---- @class RecentAlliesSocialCardMixin
+ --- @class RecentAlliesSocialCardMixin
 RecentAlliesSocialCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.lua#L1200)
---- @class RecentAlliesCardStateDisplayMixin
+ --- @class RecentAlliesCardStateDisplayMixin
 RecentAlliesCardStateDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.lua#L1242)
---- @class RecentAlliesSocialCardPartyButtonMixin
+ --- @class RecentAlliesSocialCardPartyButtonMixin
 RecentAlliesSocialCardPartyButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.lua#L1265)
---- @class RecentAlliesSocialCardPinDisplayMixin
+ --- @class RecentAlliesSocialCardPinDisplayMixin
 RecentAlliesSocialCardPinDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.lua#L1308)
---- @class RecentAlliesSocialCardFriendRequestSentDisplayMixin
+ --- @class RecentAlliesSocialCardFriendRequestSentDisplayMixin
 RecentAlliesSocialCardFriendRequestSentDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.lua#L7)

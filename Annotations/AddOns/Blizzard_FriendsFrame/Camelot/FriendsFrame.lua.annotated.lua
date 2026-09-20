@@ -1,47 +1,47 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L660)
---- @class FriendsTabMixin : TabSystemButtonMixin
+ --- @class FriendsTabMixin : TabSystemButtonMixin
 FriendsTabMixin = CreateFromMixins(TabSystemButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L518)
---- @class FriendsTabHeaderMixin
+ --- @class FriendsTabHeaderMixin
 FriendsTabHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L674)
---- @class FriendsFrameTabMixin
+ --- @class FriendsFrameTabMixin
 FriendsFrameTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L718)
---- @class FriendsFrameInviteTemplateMixin
+ --- @class FriendsFrameInviteTemplateMixin
 FriendsFrameInviteTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L979)
---- @class SummonButtonMixin
+ --- @class SummonButtonMixin
 SummonButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L1838)
---- @class FriendsBroadcastFrameMixin
+ --- @class FriendsBroadcastFrameMixin
 FriendsBroadcastFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L1904)
---- @class IgnoreListButtonMixin
+ --- @class IgnoreListButtonMixin
 IgnoreListButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L1911)
---- @class FriendsListButtonMixin
+ --- @class FriendsListButtonMixin
 FriendsListButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L2442)
---- @class FriendsIgnoreListMixin
+ --- @class FriendsIgnoreListMixin
 FriendsIgnoreListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L2478)
---- @class ContactsMenuMixin
+ --- @class ContactsMenuMixin
 ContactsMenuMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L2511)
---- @class FriendsFrameAddFriendButtonMixin
+ --- @class FriendsFrameAddFriendButtonMixin
 FriendsFrameAddFriendButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Camelot/FriendsFrame.lua#L520)

@@ -1,43 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4741)
---- @class LFGEditBoxMixin : LFGAuthenticatorMessagingMixin
+ --- @class LFGEditBoxMixin : LFGAuthenticatorMessagingMixin
 LFGEditBoxMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4788)
---- @class LFGListLockButtonMixin : LFGAuthenticatorMessagingMixin
+ --- @class LFGListLockButtonMixin : LFGAuthenticatorMessagingMixin
 LFGListLockButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4798)
---- @class LFGListCreationNameMixin : LFGEditBoxMixin
+ --- @class LFGListCreationNameMixin : LFGEditBoxMixin
 LFGListCreationNameMixin = CreateFromMixins(LFGEditBoxMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4811)
---- @class LFGListCreationDescriptionMixin : LFGEditBoxMixin
+ --- @class LFGListCreationDescriptionMixin : LFGEditBoxMixin
 LFGListCreationDescriptionMixin = CreateFromMixins(LFGEditBoxMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4839)
---- @class LFGListCreateGroupDisabledStateButtonMixin : LFGAuthenticatorMessagingMixin
+ --- @class LFGListCreateGroupDisabledStateButtonMixin : LFGAuthenticatorMessagingMixin
 LFGListCreateGroupDisabledStateButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L2141)
---- @class LFGApplicationBrowseGroupsButtonMixin
+ --- @class LFGApplicationBrowseGroupsButtonMixin
 LFGApplicationBrowseGroupsButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4718)
---- @class LFGAuthenticatorMessagingMixin
+ --- @class LFGAuthenticatorMessagingMixin
 LFGAuthenticatorMessagingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4856)
---- @class LFGListSearchBackToGroupButtonMixin
+ --- @class LFGListSearchBackToGroupButtonMixin
 LFGListSearchBackToGroupButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4864)
---- @class LFGListSearchBackButtonMixin
+ --- @class LFGListSearchBackButtonMixin
 LFGListSearchBackButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L4873)
---- @class LfgListLeaverBadgeMixin
+ --- @class LfgListLeaverBadgeMixin
 LfgListLeaverBadgeMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.lua#L2142)

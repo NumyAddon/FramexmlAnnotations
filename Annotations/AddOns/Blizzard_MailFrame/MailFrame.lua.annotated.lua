@@ -1,55 +1,55 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L23)
---- @class MailMixin
+ --- @class MailMixin
 MailMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L259)
---- @class InboxMixin
+ --- @class InboxMixin
 InboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L515)
---- @class InboxNextPageMixin
+ --- @class InboxNextPageMixin
 InboxNextPageMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L535)
---- @class InboxPrevPageMixin
+ --- @class InboxPrevPageMixin
 InboxPrevPageMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L557)
---- @class OpenMailMixin
+ --- @class OpenMailMixin
 OpenMailMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1080)
---- @class OpenMailReplyMixin
+ --- @class OpenMailReplyMixin
 OpenMailReplyMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1102)
---- @class OpenMailDeleteMixin
+ --- @class OpenMailDeleteMixin
 OpenMailDeleteMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1127)
---- @class OpenMailReportSpamMixin
+ --- @class OpenMailReportSpamMixin
 OpenMailReportSpamMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1178)
---- @class SendMailMixin
+ --- @class SendMailMixin
 SendMailMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1234)
---- @class SendMailScrollChildMixin
+ --- @class SendMailScrollChildMixin
 SendMailScrollChildMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1243)
---- @class SendMailScrollFrameGamepadFocusAreaMixin
+ --- @class SendMailScrollFrameGamepadFocusAreaMixin
 SendMailScrollFrameGamepadFocusAreaMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1249)
---- @class SendMailButtonMixin
+ --- @class SendMailButtonMixin
 SendMailButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1512)
---- @class OpenAllMailMixin
+ --- @class OpenAllMailMixin
 OpenAllMailMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L25)

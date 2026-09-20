@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L1)
---- @class TalkingHeadFrameMixin
+ --- @class TalkingHeadFrameMixin
 TalkingHeadFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L251)
---- @class TalkingHeadFrameModelMixin
+ --- @class TalkingHeadFrameModelMixin
 TalkingHeadFrameModelMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L3)

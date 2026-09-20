@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.lua#L1)
---- @class ColorPickerFrameMixin
+ --- @class ColorPickerFrameMixin
 ColorPickerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.lua#L120)
---- @class ColorPickerHexBoxMixin
+ --- @class ColorPickerHexBoxMixin
 ColorPickerHexBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.lua#L3)

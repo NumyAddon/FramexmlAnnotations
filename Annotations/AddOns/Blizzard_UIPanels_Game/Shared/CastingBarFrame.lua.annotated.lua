@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L86)
---- @class CastingBarMixin
+ --- @class CastingBarMixin
 CastingBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1365)
---- @class PlayerCastingBarMixin
+ --- @class PlayerCastingBarMixin
 PlayerCastingBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1384)
---- @class PlayerCastingBarFrameMixin
+ --- @class PlayerCastingBarFrameMixin
 PlayerCastingBarFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1392)
---- @class GamepadPlayerCastingBarFrameMixin
+ --- @class GamepadPlayerCastingBarFrameMixin
 GamepadPlayerCastingBarFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1401)
---- @class OverlayPlayerCastingBarMixin
+ --- @class OverlayPlayerCastingBarMixin
 OverlayPlayerCastingBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L91)

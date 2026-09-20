@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.lua#L275)
---- @class DelvesCompanionAbilityMixin : TalentDisplayMixin
+ --- @class DelvesCompanionAbilityMixin : TalentDisplayMixin
 DelvesCompanionAbilityMixin = CreateFromMixins(TalentDisplayMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.lua#L44)
---- @class DelvesCompanionAbilityListFrameMixin
+ --- @class DelvesCompanionAbilityListFrameMixin
 DelvesCompanionAbilityListFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.lua#L336)
---- @class DelvesCompanionRoleDropdownMixin
+ --- @class DelvesCompanionRoleDropdownMixin
 DelvesCompanionRoleDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.lua#L417)
---- @class DelvesCompanionAbilityListPagingControlsMixin
+ --- @class DelvesCompanionAbilityListPagingControlsMixin
 DelvesCompanionAbilityListPagingControlsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.lua#L46)

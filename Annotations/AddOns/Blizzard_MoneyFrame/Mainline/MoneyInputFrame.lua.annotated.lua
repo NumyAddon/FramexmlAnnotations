@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L252)
---- @class LargeMoneyInputBoxMixin
+ --- @class LargeMoneyInputBoxMixin
 LargeMoneyInputBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L331)
---- @class MoneyFrameEditBoxMixin
+ --- @class MoneyFrameEditBoxMixin
 MoneyFrameEditBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L363)
---- @class MoneyInputFrameMixin
+ --- @class MoneyInputFrameMixin
 MoneyInputFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L254)

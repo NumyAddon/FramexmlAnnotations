@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_InitiativeTasksObjectiveTracker.lua#L12)
---- @class InitiativeTasksObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
+ --- @class InitiativeTasksObjectiveTrackerMixin : ObjectiveTrackerModuleMixin, settings
 InitiativeTasksObjectiveTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_InitiativeTasksObjectiveTracker.lua#L14)

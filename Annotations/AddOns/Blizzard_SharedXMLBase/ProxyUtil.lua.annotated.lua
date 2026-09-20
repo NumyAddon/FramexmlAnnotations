@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXMLBase/ProxyUtil.lua#L60)
---- @class ProxyConvertableMixin
+ --- @class ProxyConvertableMixin
 ProxyConvertableMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXMLBase/ProxyUtil.lua#L62)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L20)
---- @class CommunitiesChatMixin
+ --- @class CommunitiesChatMixin
 CommunitiesChatMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesChatFrame.lua#L22)

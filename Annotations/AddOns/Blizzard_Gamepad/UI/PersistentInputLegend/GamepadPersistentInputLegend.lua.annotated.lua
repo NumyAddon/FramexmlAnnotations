@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/PersistentInputLegend/GamepadPersistentInputLegend.lua#L34)
---- @class GamepadPersistentInputLegendEntryMixin
+ --- @class GamepadPersistentInputLegendEntryMixin
 GamepadPersistentInputLegendEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/PersistentInputLegend/GamepadPersistentInputLegend.lua#L74)
---- @class GamepadPersistentInputLegendMixin
+ --- @class GamepadPersistentInputLegendMixin
 GamepadPersistentInputLegendMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/PersistentInputLegend/GamepadPersistentInputLegend.lua#L36)

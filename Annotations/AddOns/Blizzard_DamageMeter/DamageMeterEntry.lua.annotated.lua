@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.lua#L1)
---- @class DamageMeterEntryMixin
+ --- @class DamageMeterEntryMixin
 DamageMeterEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.lua#L500)
---- @class DamageMeterSourceEntryMixin
+ --- @class DamageMeterSourceEntryMixin
 DamageMeterSourceEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.lua#L624)
---- @class DamageMeterSpellEntryMixin
+ --- @class DamageMeterSpellEntryMixin
 DamageMeterSpellEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.lua#L3)

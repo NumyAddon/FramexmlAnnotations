@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L1)
---- @class DeathMapDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class DeathMapDataProviderMixin : MapCanvasDataProviderMixin
 DeathMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L29)
---- @class CorpsePinMixin : MapCanvasPinMixin
+ --- @class CorpsePinMixin : MapCanvasPinMixin
 CorpsePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L55)
---- @class DeathReleasePinMixin : CorpsePinMixin
+ --- @class DeathReleasePinMixin : CorpsePinMixin
 DeathReleasePinMixin = CreateFromMixins(CorpsePinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/DeathMapDataProvider.lua#L3)

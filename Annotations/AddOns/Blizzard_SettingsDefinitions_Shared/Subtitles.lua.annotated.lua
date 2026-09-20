@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Subtitles.lua#L11)
---- @class SubtitlesPreviewMixin
+ --- @class SubtitlesPreviewMixin
 SubtitlesPreviewMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Subtitles.lua#L14)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateDoubleStateIconRow.lua#L10)
---- @class UIWidgetTemplateDoubleStateIconRowMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateDoubleStateIconRowMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateDoubleStateIconRowMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateDoubleStateIconRow.lua#L12)

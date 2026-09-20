@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Shared/StatusTrackingBar.lua#L1)
---- @class StatusTrackingBarMixin
+ --- @class StatusTrackingBarMixin
 StatusTrackingBarMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Shared/StatusTrackingBar.lua#L4)

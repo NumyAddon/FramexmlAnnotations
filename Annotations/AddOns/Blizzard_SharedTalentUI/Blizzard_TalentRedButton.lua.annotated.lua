@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentRedButton.lua#L3)
---- @class TalentRedButtonMixin
+ --- @class TalentRedButtonMixin
 TalentRedButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentRedButton.lua#L5)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_WarbandSceneCollection.lua#L1)
---- @class WarbandSceneJounalMixin
+ --- @class WarbandSceneJounalMixin
 WarbandSceneJounalMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_WarbandSceneCollection.lua#L7)

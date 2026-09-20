@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.lua#L2)
---- @class AdventuresPuckAbilityMixin
+ --- @class AdventuresPuckAbilityMixin
 AdventuresPuckAbilityMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.lua#L90)
---- @class AdventuresPuckMixin
+ --- @class AdventuresPuckMixin
 AdventuresPuckMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.lua#L268)
---- @class AdventuresFollowerPuckMixin
+ --- @class AdventuresFollowerPuckMixin
 AdventuresFollowerPuckMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.lua#L369)
---- @class AdventuresEnemyPuckMixin
+ --- @class AdventuresEnemyPuckMixin
 AdventuresEnemyPuckMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.lua#L429)
---- @class AdventuresMissionPageFollowerPuckMixin
+ --- @class AdventuresMissionPageFollowerPuckMixin
 AdventuresMissionPageFollowerPuckMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresPuck.lua#L4)

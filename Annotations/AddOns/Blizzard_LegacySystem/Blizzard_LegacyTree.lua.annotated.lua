@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.lua#L28)
---- @class LegacyTreeTraitPanelMixin : ClassTalentSearchMixin
+ --- @class LegacyTreeTraitPanelMixin : ClassTalentSearchMixin
 LegacyTreeTraitPanelMixin = CreateFromMixins(ClassTalentSearchMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.lua#L233)
---- @class LegacyTreeButtonMixin : SelectableButtonMixin
+ --- @class LegacyTreeButtonMixin : SelectableButtonMixin
 LegacyTreeButtonMixin = CreateFromMixins(SelectableButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.lua#L275)
---- @class LegacyTreeIconMixin : SelectableButtonMixin
+ --- @class LegacyTreeIconMixin : SelectableButtonMixin
 LegacyTreeIconMixin = CreateFromMixins(SelectableButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.lua#L22)
---- @class LegacyTreePageMixin
+ --- @class LegacyTreePageMixin
 LegacyTreePageMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.lua#L198)
---- @class LegacyTreeSelectionPanelMixin
+ --- @class LegacyTreeSelectionPanelMixin
 LegacyTreeSelectionPanelMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.lua#L291)
---- @class LegacyTreePointSummaryMixin
+ --- @class LegacyTreePointSummaryMixin
 LegacyTreePointSummaryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.lua#L24)

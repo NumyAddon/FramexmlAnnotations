@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.lua#L352)
---- @class OrderHallTalentFrameMixin
+ --- @class OrderHallTalentFrameMixin
 OrderHallTalentFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.lua#L1058)
---- @class GarrisonTalentButtonMixin
+ --- @class GarrisonTalentButtonMixin
 GarrisonTalentButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.lua#L1337)
---- @class GarrisonTalentButtonAnimationMixin
+ --- @class GarrisonTalentButtonAnimationMixin
 GarrisonTalentButtonAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.lua#L1416)
---- @class CypherEquipmentLevelMixin
+ --- @class CypherEquipmentLevelMixin
 CypherEquipmentLevelMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.lua#L440)

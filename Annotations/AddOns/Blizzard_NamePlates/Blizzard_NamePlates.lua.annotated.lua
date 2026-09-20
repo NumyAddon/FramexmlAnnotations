@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L9)
---- @class NamePlateDriverMixin
+ --- @class NamePlateDriverMixin
 NamePlateDriverMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L643)
---- @class NamePlateBorderTemplateMixin
+ --- @class NamePlateBorderTemplateMixin
 NamePlateBorderTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L694)
---- @class NamePlateScriptBaseMixin
+ --- @class NamePlateScriptBaseMixin
 NamePlateScriptBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L11)

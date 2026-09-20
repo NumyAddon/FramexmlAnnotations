@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/WhoList.lua#L12)
---- @class LFGWhoListButtonMixin
+ --- @class LFGWhoListButtonMixin
 LFGWhoListButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/WhoList.lua#L93)
---- @class WhoFrameEditBoxMixin
+ --- @class WhoFrameEditBoxMixin
 WhoFrameEditBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/WhoList.lua#L152)
---- @class WhoSearchMixin
+ --- @class WhoSearchMixin
 WhoSearchMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/WhoList.lua#L162)
---- @class LFGWhoListMixin
+ --- @class LFGWhoListMixin
 LFGWhoListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/WhoList.lua#L14)

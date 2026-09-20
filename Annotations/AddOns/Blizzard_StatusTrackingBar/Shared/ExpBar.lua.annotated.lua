@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua#L2)
---- @class ExpBarMixin
+ --- @class ExpBarMixin
 ExpBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua#L111)
---- @class ExhaustionTickMixin
+ --- @class ExhaustionTickMixin
 ExhaustionTickMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Shared/ExpBar.lua#L4)

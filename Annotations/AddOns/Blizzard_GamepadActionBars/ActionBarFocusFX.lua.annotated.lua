@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarFocusFX.lua#L204)
---- @class GamepadActionBarSequenceCollapseMixin : GamepadActionBarSequenceMixin
+ --- @class GamepadActionBarSequenceCollapseMixin : GamepadActionBarSequenceMixin
 GamepadActionBarSequenceCollapseMixin = CreateFromMixins(GamepadActionBarSequenceMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarFocusFX.lua#L230)
---- @class GamepadActionBarSequenceGameplayCollapseMixin : GamepadActionBarSequenceCollapseMixin
+ --- @class GamepadActionBarSequenceGameplayCollapseMixin : GamepadActionBarSequenceCollapseMixin
 GamepadActionBarSequenceGameplayCollapseMixin = CreateFromMixins(GamepadActionBarSequenceCollapseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarFocusFX.lua#L240)
---- @class GamepadActionBarSequenceEditModeCollapseMixin : GamepadActionBarSequenceCollapseMixin
+ --- @class GamepadActionBarSequenceEditModeCollapseMixin : GamepadActionBarSequenceCollapseMixin
 GamepadActionBarSequenceEditModeCollapseMixin = CreateFromMixins(GamepadActionBarSequenceCollapseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarFocusFX.lua#L254)
---- @class GamepadActionBarSequenceExpandMixin : GamepadActionBarSequenceMixin
+ --- @class GamepadActionBarSequenceExpandMixin : GamepadActionBarSequenceMixin
 GamepadActionBarSequenceExpandMixin = CreateFromMixins(GamepadActionBarSequenceMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarFocusFX.lua#L296)
---- @class GamepadActionBarSequenceGameplayExpandMixin : GamepadActionBarSequenceExpandMixin
+ --- @class GamepadActionBarSequenceGameplayExpandMixin : GamepadActionBarSequenceExpandMixin
 GamepadActionBarSequenceGameplayExpandMixin = CreateFromMixins(GamepadActionBarSequenceExpandMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarFocusFX.lua#L328)
---- @class GamepadActionBarSequenceEditModeExpandMixin : GamepadActionBarSequenceExpandMixin
+ --- @class GamepadActionBarSequenceEditModeExpandMixin : GamepadActionBarSequenceExpandMixin
 GamepadActionBarSequenceEditModeExpandMixin = CreateFromMixins(GamepadActionBarSequenceExpandMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarFocusFX.lua#L73)
---- @class GamepadActionBarSequenceMixin
+ --- @class GamepadActionBarSequenceMixin
 GamepadActionBarSequenceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarFocusFX.lua#L75)

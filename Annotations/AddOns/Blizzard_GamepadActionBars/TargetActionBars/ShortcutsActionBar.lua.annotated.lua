@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/ShortcutsActionBar.lua#L4)
---- @class GamepadShortcutsActionBarMixin : StaticOverrideActionBarMixin
+ --- @class GamepadShortcutsActionBarMixin : StaticOverrideActionBarMixin
 GamepadShortcutsActionBarMixin = CreateFromMixins(StaticOverrideActionBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/ShortcutsActionBar.lua#L6)

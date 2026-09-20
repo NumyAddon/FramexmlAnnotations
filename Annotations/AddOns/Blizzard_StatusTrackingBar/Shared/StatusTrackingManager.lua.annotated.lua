@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Shared/StatusTrackingManager.lua#L386)
---- @class StatusTrackingBarContainerFadeOutAnimationMixin : StatusTrackingBarContainerAnimationMixin
+ --- @class StatusTrackingBarContainerFadeOutAnimationMixin : StatusTrackingBarContainerAnimationMixin
 StatusTrackingBarContainerFadeOutAnimationMixin = CreateFromMixins(StatusTrackingBarContainerAnimationMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Shared/StatusTrackingManager.lua#L4)
---- @class StatusTrackingManagerMixin
+ --- @class StatusTrackingManagerMixin
 StatusTrackingManagerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Shared/StatusTrackingManager.lua#L157)
---- @class StatusTrackingBarContainerMixin
+ --- @class StatusTrackingBarContainerMixin
 StatusTrackingBarContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Shared/StatusTrackingManager.lua#L380)
---- @class StatusTrackingBarContainerAnimationMixin
+ --- @class StatusTrackingBarContainerAnimationMixin
 StatusTrackingBarContainerAnimationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Shared/StatusTrackingManager.lua#L402)
---- @class EditModeStatusTrackingBarContainerMixin
+ --- @class EditModeStatusTrackingBarContainerMixin
 EditModeStatusTrackingBarContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Shared/StatusTrackingManager.lua#L6)

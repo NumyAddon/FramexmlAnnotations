@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L46)
---- @class FriendsListSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
+ --- @class FriendsListSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
 FriendsListSocialViewMixin = CreateFromMixins(SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L446)
---- @class FriendsListSocialCardMixin
+ --- @class FriendsListSocialCardMixin
 FriendsListSocialCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L1142)
---- @class FriendsListSocialCardStateDisplayMixin
+ --- @class FriendsListSocialCardStateDisplayMixin
 FriendsListSocialCardStateDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L1155)
---- @class FriendsListSocialCardFavoriteDisplayMixin
+ --- @class FriendsListSocialCardFavoriteDisplayMixin
 FriendsListSocialCardFavoriteDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L1190)
---- @class FriendsListSocialCardRAFSummonButtonMixin
+ --- @class FriendsListSocialCardRAFSummonButtonMixin
 FriendsListSocialCardRAFSummonButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L1299)
---- @class FriendsListSocialCardPartyButtonMixin
+ --- @class FriendsListSocialCardPartyButtonMixin
 FriendsListSocialCardPartyButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.lua#L56)

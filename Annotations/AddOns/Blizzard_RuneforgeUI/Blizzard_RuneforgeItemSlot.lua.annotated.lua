@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeItemSlot.lua#L2)
---- @class RuneforgeItemSlotMixin : RuneforgeSystemMixin
+ --- @class RuneforgeItemSlotMixin : RuneforgeSystemMixin
 RuneforgeItemSlotMixin = CreateFromMixins(RuneforgeSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeItemSlot.lua#L279)
---- @class RuneforgeUpgradeItemSlotMixin : RuneforgeItemSlotMixin
+ --- @class RuneforgeUpgradeItemSlotMixin : RuneforgeItemSlotMixin
 RuneforgeUpgradeItemSlotMixin = CreateFromMixins(RuneforgeItemSlotMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeItemSlot.lua#L8)

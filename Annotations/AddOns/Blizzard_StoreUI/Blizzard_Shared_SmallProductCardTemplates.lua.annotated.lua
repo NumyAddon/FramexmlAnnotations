@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_SmallProductCardTemplates.lua#L7)
---- @class SmallStoreCardMixin : StoreCardMixin
+ --- @class SmallStoreCardMixin : StoreCardMixin
 SmallStoreCardMixin = CreateFromMixins(StoreCardMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_SmallProductCardTemplates.lua#L117)
---- @class MediumStoreCardMixin : SmallStoreCardMixin
+ --- @class MediumStoreCardMixin : SmallStoreCardMixin
 MediumStoreCardMixin = CreateFromMixins(SmallStoreCardMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_SmallProductCardTemplates.lua#L192)
---- @class MediumStoreCardWithBuyButtonMixin : MediumStoreCardMixin, ProductCardBuyButtonMixin
+ --- @class MediumStoreCardWithBuyButtonMixin : MediumStoreCardMixin, ProductCardBuyButtonMixin
 MediumStoreCardWithBuyButtonMixin = CreateFromMixins(MediumStoreCardMixin, ProductCardBuyButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_SmallProductCardTemplates.lua#L9)

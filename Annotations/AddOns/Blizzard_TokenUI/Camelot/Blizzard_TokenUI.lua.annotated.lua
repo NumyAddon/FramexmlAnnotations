@@ -1,47 +1,47 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L474)
---- @class TokenDetailFrameMixin : CharacterFrameSidePaneMixin
+ --- @class TokenDetailFrameMixin : CharacterFrameSidePaneMixin
 TokenDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L3)
---- @class TokenHeaderMixin
+ --- @class TokenHeaderMixin
 TokenHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L40)
---- @class TokenEntryMixin
+ --- @class TokenEntryMixin
 TokenEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L192)
---- @class TokenEntryAccountWideIconMixin
+ --- @class TokenEntryAccountWideIconMixin
 TokenEntryAccountWideIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L213)
---- @class TokenSubHeaderMixin
+ --- @class TokenSubHeaderMixin
 TokenSubHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L232)
---- @class TokenSubHeaderToggleCollapseButtonMixin
+ --- @class TokenSubHeaderToggleCollapseButtonMixin
 TokenSubHeaderToggleCollapseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L252)
---- @class TokenFrameMixin
+ --- @class TokenFrameMixin
 TokenFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L579)
---- @class InactiveCurrencyCheckboxMixin
+ --- @class InactiveCurrencyCheckboxMixin
 InactiveCurrencyCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L608)
---- @class BackpackCurrencyCheckboxMixin
+ --- @class BackpackCurrencyCheckboxMixin
 BackpackCurrencyCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L632)
---- @class BackpackTokenFrameMixin
+ --- @class BackpackTokenFrameMixin
 BackpackTokenFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L756)
---- @class BackpackTokenMixin
+ --- @class BackpackTokenMixin
 BackpackTokenMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_TokenUI/Camelot/Blizzard_TokenUI.lua#L5)

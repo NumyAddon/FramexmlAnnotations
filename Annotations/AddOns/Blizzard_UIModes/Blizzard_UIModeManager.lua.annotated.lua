@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIModes/Blizzard_UIModeManager.lua#L10)
---- @class UIModeManagerMixin
+ --- @class UIModeManagerMixin
 UIModeManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIModes/Blizzard_UIModeManager.lua#L12)

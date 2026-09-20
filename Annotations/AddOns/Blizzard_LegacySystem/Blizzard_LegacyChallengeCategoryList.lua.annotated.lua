@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeCategoryList.lua#L2)
---- @class LegacyChallengeCategoryListMixin : CallbackRegistryMixin
+ --- @class LegacyChallengeCategoryListMixin : CallbackRegistryMixin
 LegacyChallengeCategoryListMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeCategoryList.lua#L162)
---- @class LegacyChallengeCategoryMixin
+ --- @class LegacyChallengeCategoryMixin
 LegacyChallengeCategoryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeCategoryList.lua#L4)

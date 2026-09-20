@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FullscreenBrowser/Blizzard_FullscreenBrowserSpinner.lua#L1)
---- @class FullscreenBrowserSpinnerMixin
+ --- @class FullscreenBrowserSpinnerMixin
 FullscreenBrowserSpinnerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FullscreenBrowser/Blizzard_FullscreenBrowserSpinner.lua#L46)
---- @class FullscreenBrowserSpinnerFadeOutAnimMixin
+ --- @class FullscreenBrowserSpinnerFadeOutAnimMixin
 FullscreenBrowserSpinnerFadeOutAnimMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FullscreenBrowser/Blizzard_FullscreenBrowserSpinner.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarStyles.lua#L5)
---- @class GamepadActionBarStyleInfoMixin
+ --- @class GamepadActionBarStyleInfoMixin
 GamepadActionBarStyleInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarStyles.lua#L26)

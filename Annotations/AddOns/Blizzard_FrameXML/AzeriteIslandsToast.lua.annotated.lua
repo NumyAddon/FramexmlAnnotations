@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.lua#L1)
---- @class AzeriteIslandsToastMixin
+ --- @class AzeriteIslandsToastMixin
 AzeriteIslandsToastMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.lua#L117)
---- @class AzeriteIslandsToastAccumulatorMixin
+ --- @class AzeriteIslandsToastAccumulatorMixin
 AzeriteIslandsToastAccumulatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/AzeriteIslandsToast.lua#L3)

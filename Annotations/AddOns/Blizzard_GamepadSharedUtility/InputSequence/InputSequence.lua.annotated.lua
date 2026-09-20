@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/InputSequence/InputSequence.lua#L1)
---- @class GamepadInputSequenceMixin
+ --- @class GamepadInputSequenceMixin
 GamepadInputSequenceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/InputSequence/InputSequence.lua#L3)

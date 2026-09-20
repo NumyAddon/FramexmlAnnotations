@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUISecure.lua#L834)
---- @class StoreLayoutGridMixin
+ --- @class StoreLayoutGridMixin
 StoreLayoutGridMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StoreUI/Blizzard_Shared_StoreUISecure.lua#L835)

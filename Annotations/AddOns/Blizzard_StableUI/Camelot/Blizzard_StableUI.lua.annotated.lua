@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.lua#L4)
---- @class StableFrameMixin
+ --- @class StableFrameMixin
 StableFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.lua#L172)
---- @class PetStableSlotMixin
+ --- @class PetStableSlotMixin
 PetStableSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.lua#L239)
---- @class PetStablePurchaseButtonMixin
+ --- @class PetStablePurchaseButtonMixin
 PetStablePurchaseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.lua#L273)
---- @class PetStableLoyaltyLevelMixin
+ --- @class PetStableLoyaltyLevelMixin
 PetStableLoyaltyLevelMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.lua#L6)

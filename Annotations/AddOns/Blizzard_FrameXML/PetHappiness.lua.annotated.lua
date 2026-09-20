@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/PetHappiness.lua#L1)
---- @class PetHappinessIndicatorMixin
+ --- @class PetHappinessIndicatorMixin
 PetHappinessIndicatorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/PetHappiness.lua#L9)

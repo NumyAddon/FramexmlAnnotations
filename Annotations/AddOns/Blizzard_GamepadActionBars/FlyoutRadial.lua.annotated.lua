@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/FlyoutRadial.lua#L54)
---- @class GamepadSpellFlyoutPopupButtonMixin : SpellFlyoutPopupButtonMixin
+ --- @class GamepadSpellFlyoutPopupButtonMixin : SpellFlyoutPopupButtonMixin
 GamepadSpellFlyoutPopupButtonMixin = CreateFromMixins(SpellFlyoutPopupButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/FlyoutRadial.lua#L186)
---- @class GamepadSpellFlyoutMixin : LayoutMixin, SpellFlyoutMixin
+ --- @class GamepadSpellFlyoutMixin : LayoutMixin, SpellFlyoutMixin
 GamepadSpellFlyoutMixin = CreateFromMixins(LayoutMixin, SpellFlyoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/FlyoutRadial.lua#L57)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.lua#L63)
---- @class ProfessionsCrafterDetailsStatLineMixin
+ --- @class ProfessionsCrafterDetailsStatLineMixin
 ProfessionsCrafterDetailsStatLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.lua#L136)
---- @class ProfessionsRecipeCrafterDetailsMixin
+ --- @class ProfessionsRecipeCrafterDetailsMixin
 ProfessionsRecipeCrafterDetailsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.lua#L457)
---- @class ProfessionsQualityMeterMixin
+ --- @class ProfessionsQualityMeterMixin
 ProfessionsQualityMeterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.lua#L65)

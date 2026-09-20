@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L2)
---- @class TableInspectorDataProviderMixin
+ --- @class TableInspectorDataProviderMixin
 TableInspectorDataProviderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorDataProvider.lua#L4)

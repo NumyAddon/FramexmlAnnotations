@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AdventureMap/AM_ZoneSummaryDataProvider.lua#L1)
---- @class AdventureMap_ZoneSummaryProviderMixin : MapCanvasDataProviderMixin
+ --- @class AdventureMap_ZoneSummaryProviderMixin : MapCanvasDataProviderMixin
 AdventureMap_ZoneSummaryProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AdventureMap/AM_ZoneSummaryDataProvider.lua#L124)
---- @class AdventureMap_ZoneSummaryPinMixin : MapCanvasPinMixin
+ --- @class AdventureMap_ZoneSummaryPinMixin : MapCanvasPinMixin
 AdventureMap_ZoneSummaryPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AdventureMap/AM_ZoneSummaryDataProvider.lua#L167)
---- @class AdventureMap_ZoneSummaryInsetPinMixin : AdventureMap_ZoneSummaryPinMixin
+ --- @class AdventureMap_ZoneSummaryInsetPinMixin : AdventureMap_ZoneSummaryPinMixin
 AdventureMap_ZoneSummaryInsetPinMixin = CreateFromMixins(AdventureMap_ZoneSummaryPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AdventureMap/AM_ZoneSummaryDataProvider.lua#L3)

@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.lua#L295)
---- @class RadialWheelButtonMixin
+ --- @class RadialWheelButtonMixin
 RadialWheelButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.lua#L486)
---- @class RadialWheelButtonCooldownDoneAnimMixin
+ --- @class RadialWheelButtonCooldownDoneAnimMixin
 RadialWheelButtonCooldownDoneAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.lua#L496)
---- @class RadialWheelCooldownMixin
+ --- @class RadialWheelCooldownMixin
 RadialWheelCooldownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.lua#L540)
---- @class RadialWheelCooldownOutroAnimMixin
+ --- @class RadialWheelCooldownOutroAnimMixin
 RadialWheelCooldownOutroAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.lua#L13)
---- @class RadialWheelFrameMixin
+ --- @class RadialWheelFrameMixin
 RadialWheelFrameMixin = {
     MinimumWedgeDistanceSquared = 500;
     MinimumWedgeDistanceSquaredSmall = 150;

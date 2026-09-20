@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuestTimer/Mainline/Blizzard_QuestTimerOverrides.lua#L3)
---- @class QuestTimerButtonMixin
+ --- @class QuestTimerButtonMixin
 QuestTimerButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuestTimer/Mainline/Blizzard_QuestTimerOverrides.lua#L5)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramProducts.lua#L12)
---- @class PerksProgramProductsFrameMixin
+ --- @class PerksProgramProductsFrameMixin
 PerksProgramProductsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramProducts.lua#L710)
---- @class PerksProgramCurrencyFrameMixin
+ --- @class PerksProgramCurrencyFrameMixin
 PerksProgramCurrencyFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramProducts.lua#L836)
---- @class FrozenProductContainerMixin
+ --- @class FrozenProductContainerMixin
 FrozenProductContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramProducts.lua#L13)

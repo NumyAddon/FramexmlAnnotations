@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L694)
---- @class EncounterJournalLinkButtonMixin
+ --- @class EncounterJournalLinkButtonMixin
 EncounterJournalLinkButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1041)
---- @class GamepadGroupLootRollFrameMixin
+ --- @class GamepadGroupLootRollFrameMixin
 GamepadGroupLootRollFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L696)

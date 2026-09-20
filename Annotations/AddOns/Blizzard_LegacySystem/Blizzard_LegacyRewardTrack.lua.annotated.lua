@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.lua#L1)
---- @class LegacyRewardTrackPageMixin
+ --- @class LegacyRewardTrackPageMixin
 LegacyRewardTrackPageMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.lua#L11)

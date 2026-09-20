@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationUtil.lua#L239)
---- @class NarrationForwardToParentMixin
+ --- @class NarrationForwardToParentMixin
 NarrationForwardToParentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationUtil.lua#L246)
---- @class NarrationStaticNameMixin
+ --- @class NarrationStaticNameMixin
 NarrationStaticNameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationUtil.lua#L263)
---- @class NarrationStaticDescriptionMixin
+ --- @class NarrationStaticDescriptionMixin
 NarrationStaticDescriptionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationUtil.lua#L280)
---- @class NarrationSkipTooltipsMixin
+ --- @class NarrationSkipTooltipsMixin
 NarrationSkipTooltipsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationUtil.lua#L288)
---- @class NarrationForwardNameToParentMixin
+ --- @class NarrationForwardNameToParentMixin
 NarrationForwardNameToParentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationUtil.lua#L296)
---- @class NarrationForwardDescriptionToParentMixin
+ --- @class NarrationForwardDescriptionToParentMixin
 NarrationForwardDescriptionToParentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Narration/Blizzard_NarrationUtil.lua#L241)

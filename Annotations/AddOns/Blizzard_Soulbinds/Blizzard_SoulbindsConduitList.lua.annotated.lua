@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L3)
---- @class ConduitListCategoryButtonMixin
+ --- @class ConduitListCategoryButtonMixin
 ConduitListCategoryButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L74)
---- @class ConduitListConduitButtonMixin
+ --- @class ConduitListConduitButtonMixin
 ConduitListConduitButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L344)
---- @class ConduitListSectionMixin
+ --- @class ConduitListSectionMixin
 ConduitListSectionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L482)
---- @class ConduitListMixin
+ --- @class ConduitListMixin
 ConduitListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.lua#L15)

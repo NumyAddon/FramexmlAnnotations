@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/InputPrompts/InputPrompts.lua#L23)
---- @class InputPromptMixin
+ --- @class InputPromptMixin
 InputPromptMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSharedUtility/InputPrompts/InputPrompts.lua#L25)

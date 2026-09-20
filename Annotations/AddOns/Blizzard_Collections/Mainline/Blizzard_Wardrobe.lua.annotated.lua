@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.lua#L1388)
---- @class WardrobeItemModelMixin : ItemModelBaseMixin
+ --- @class WardrobeItemModelMixin : ItemModelBaseMixin
 WardrobeItemModelMixin = CreateFromMixins(ItemModelBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.lua#L5)
---- @class WardrobeCollectionFrameMixin
+ --- @class WardrobeCollectionFrameMixin
 WardrobeCollectionFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.lua#L423)
---- @class WardrobeItemsCollectionSlotButtonMixin
+ --- @class WardrobeItemsCollectionSlotButtonMixin
 WardrobeItemsCollectionSlotButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.lua#L1547)
---- @class WardrobeCollectionTutorialMixin
+ --- @class WardrobeCollectionTutorialMixin
 WardrobeCollectionTutorialMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.lua#L1571)
---- @class WardrobeCollectionClassDropdownMixin
+ --- @class WardrobeCollectionClassDropdownMixin
 WardrobeCollectionClassDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.lua#L1653)
---- @class WardrobeCollectionFrameSearchBoxProgressMixin
+ --- @class WardrobeCollectionFrameSearchBoxProgressMixin
 WardrobeCollectionFrameSearchBoxProgressMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.lua#L1696)
---- @class WardrobeCollectionFrameSearchBoxMixin
+ --- @class WardrobeCollectionFrameSearchBoxMixin
 WardrobeCollectionFrameSearchBoxMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.lua#L452)
---- @class WardrobeItemsCollectionMixin
+ --- @class WardrobeItemsCollectionMixin
 WardrobeItemsCollectionMixin = {
 	spacingNoSmallButton = 2;
 	spacingWithSmallButton = 12;

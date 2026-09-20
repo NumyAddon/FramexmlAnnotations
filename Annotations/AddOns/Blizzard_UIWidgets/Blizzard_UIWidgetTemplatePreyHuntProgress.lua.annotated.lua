@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplatePreyHuntProgress.lua#L19)
---- @class UIWidgetTemplatePreyHuntProgressMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplatePreyHuntProgressMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplatePreyHuntProgressMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplatePreyHuntProgress.lua#L21)

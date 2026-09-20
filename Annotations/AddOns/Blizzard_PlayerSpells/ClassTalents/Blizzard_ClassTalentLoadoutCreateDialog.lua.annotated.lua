@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutCreateDialog.lua#L1)
---- @class ClassTalentLoadoutCreateDialogMixin
+ --- @class ClassTalentLoadoutCreateDialogMixin
 ClassTalentLoadoutCreateDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutCreateDialog.lua#L39)
---- @class ClassTalentLoadoutCreateDialogNameControlMixin
+ --- @class ClassTalentLoadoutCreateDialogNameControlMixin
 ClassTalentLoadoutCreateDialogNameControlMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutCreateDialog.lua#L3)

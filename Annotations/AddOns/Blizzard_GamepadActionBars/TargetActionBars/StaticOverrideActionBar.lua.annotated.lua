@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L48)
---- @class StaticOverrideActionBarMixin : GamepadActionBarMixin
+ --- @class StaticOverrideActionBarMixin : GamepadActionBarMixin
 StaticOverrideActionBarMixin = CreateFromMixins(GamepadActionBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L50)

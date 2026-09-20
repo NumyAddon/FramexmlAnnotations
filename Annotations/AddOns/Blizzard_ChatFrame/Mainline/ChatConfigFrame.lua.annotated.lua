@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2357)
---- @class ChatWindowTabMixin
+ --- @class ChatWindowTabMixin
 ChatWindowTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2379)
---- @class ChatConfigFrameTabManagerMixin
+ --- @class ChatConfigFrameTabManagerMixin
 ChatConfigFrameTabManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2475)
---- @class ChatConfigWideCheckboxManagerMixin
+ --- @class ChatConfigWideCheckboxManagerMixin
 ChatConfigWideCheckboxManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2563)
---- @class ChatConfigWideCheckboxMixin
+ --- @class ChatConfigWideCheckboxMixin
 ChatConfigWideCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2630)
---- @class TextToSpeechCharacterSpecificButtonMixin
+ --- @class TextToSpeechCharacterSpecificButtonMixin
 TextToSpeechCharacterSpecificButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2359)

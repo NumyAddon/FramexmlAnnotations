@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarEditFrame.lua#L1)
---- @class GamepadActionBarEditFrameMixin
+ --- @class GamepadActionBarEditFrameMixin
 GamepadActionBarEditFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarEditFrame.lua#L983)
---- @class GamepadActionBarEditFrameInfoFrameTitleBoxMixin
+ --- @class GamepadActionBarEditFrameInfoFrameTitleBoxMixin
 GamepadActionBarEditFrameInfoFrameTitleBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarEditFrame.lua#L26)

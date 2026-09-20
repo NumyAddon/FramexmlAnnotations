@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/StackSplitFrame.lua#L1)
---- @class StackSplitMixin
+ --- @class StackSplitMixin
 StackSplitMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/StackSplitFrame.lua#L3)

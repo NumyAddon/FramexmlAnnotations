@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/SkillsFrame.lua#L218)
---- @class SkillDetailFrameMixin : CharacterFrameSidePaneMixin, CallbackRegistryMixin
+ --- @class SkillDetailFrameMixin : CharacterFrameSidePaneMixin, CallbackRegistryMixin
 SkillDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin, CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/SkillsFrame.lua#L359)
---- @class SkillsEntryMixin : CallbackRegistryMixin
+ --- @class SkillsEntryMixin : CallbackRegistryMixin
 SkillsEntryMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/SkillsFrame.lua#L475)
---- @class SkillsSubHeaderMixin : SkillsEntryMixin
+ --- @class SkillsSubHeaderMixin : SkillsEntryMixin
 SkillsSubHeaderMixin = CreateFromMixins(SkillsEntryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/SkillsFrame.lua#L519)
---- @class SkillsBarMixin : ColoredProgressBarMixin
+ --- @class SkillsBarMixin : ColoredProgressBarMixin
 SkillsBarMixin = CreateFromMixins(ColoredProgressBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/SkillsFrame.lua#L103)
---- @class SkillsFrameMixin
+ --- @class SkillsFrameMixin
 SkillsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/SkillsFrame.lua#L319)
---- @class SkillsHeaderMixin
+ --- @class SkillsHeaderMixin
 SkillsHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/SkillsFrame.lua#L503)
---- @class SkillsSubHeaderToggleCollapseButtonMixin
+ --- @class SkillsSubHeaderToggleCollapseButtonMixin
 SkillsSubHeaderToggleCollapseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/SkillsFrame.lua#L105)

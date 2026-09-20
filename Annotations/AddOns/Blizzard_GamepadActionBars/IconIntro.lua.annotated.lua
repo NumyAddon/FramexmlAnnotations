@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/IconIntro.lua#L1)
---- @class GamepadIconIntroTrackerMixin
+ --- @class GamepadIconIntroTrackerMixin
 GamepadIconIntroTrackerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/IconIntro.lua#L39)

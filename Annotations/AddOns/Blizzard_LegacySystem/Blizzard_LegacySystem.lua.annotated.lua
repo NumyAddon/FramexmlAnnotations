@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.lua#L575)
---- @class LegacySystemFrameTabMixin : SidePanelTabButtonMixin
+ --- @class LegacySystemFrameTabMixin : SidePanelTabButtonMixin
 LegacySystemFrameTabMixin = CreateFromMixins(SidePanelTabButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.lua#L3)
---- @class LegacySystemFrameMixin
+ --- @class LegacySystemFrameMixin
 LegacySystemFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.lua#L5)

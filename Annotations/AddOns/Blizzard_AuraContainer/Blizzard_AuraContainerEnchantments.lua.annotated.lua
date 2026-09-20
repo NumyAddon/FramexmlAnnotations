@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L25)
---- @class AuraContainerItemEnchantmentManagerMixin
+ --- @class AuraContainerItemEnchantmentManagerMixin
 AuraContainerItemEnchantmentManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L264)
---- @class AuraContainerItemEnchantmentMixin
+ --- @class AuraContainerItemEnchantmentMixin
 AuraContainerItemEnchantmentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L394)
---- @class AuraContainerItemEnchantmentOwnerMixin
+ --- @class AuraContainerItemEnchantmentOwnerMixin
 AuraContainerItemEnchantmentOwnerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L27)

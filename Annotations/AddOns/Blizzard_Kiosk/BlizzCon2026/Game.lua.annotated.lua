@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Kiosk/BlizzCon2026/Game.lua#L25)
---- @class GameKioskFrameMixin : KioskFrameMixin
+ --- @class GameKioskFrameMixin : KioskFrameMixin
 GameKioskFrameMixin = CreateFromMixins(KioskFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Kiosk/BlizzCon2026/Game.lua#L1)
---- @class GameKioskTimerMixin
+ --- @class GameKioskTimerMixin
 GameKioskTimerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Kiosk/BlizzCon2026/Game.lua#L3)

@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua#L5)
---- @class ProfessionsGearSlotTemplateMixin : PaperDollItemSlotButtonMixin
+ --- @class ProfessionsGearSlotTemplateMixin : PaperDollItemSlotButtonMixin
 ProfessionsGearSlotTemplateMixin = CreateFromMixins(PaperDollItemSlotButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua#L14)
---- @class ProfessionsLinkButtonMixin : ButtonStateBehaviorMixin
+ --- @class ProfessionsLinkButtonMixin : ButtonStateBehaviorMixin
 ProfessionsLinkButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua#L53)
---- @class ProfessionsCraftingPageMixin : ProfessionsRecipeListPanelMixin
+ --- @class ProfessionsCraftingPageMixin : ProfessionsRecipeListPanelMixin
 ProfessionsCraftingPageMixin = CreateFromMixins(ProfessionsRecipeListPanelMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua#L1580)
---- @class ProfessionsBookPageFrameMixin : ProfessionsBookFrameMixin
+ --- @class ProfessionsBookPageFrameMixin : ProfessionsBookFrameMixin
 ProfessionsBookPageFrameMixin = CreateFromMixins(ProfessionsBookFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua#L7)
---- @class CraftingSearchLGMixin
+ --- @class CraftingSearchLGMixin
 CraftingSearchLGMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.lua#L9)

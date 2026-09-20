@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeButton.lua#L202)
---- @class LegacyChallengeTemplateMixin : AchievementTemplateMixin
+ --- @class LegacyChallengeTemplateMixin : AchievementTemplateMixin
 LegacyChallengeTemplateMixin = CreateFromMixins(AchievementTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeButton.lua#L82)
---- @class LegacyChallengeShieldMixin
+ --- @class LegacyChallengeShieldMixin
 LegacyChallengeShieldMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeButton.lua#L90)
---- @class LegacyChallengeIconFrameMixin
+ --- @class LegacyChallengeIconFrameMixin
 LegacyChallengeIconFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeButton.lua#L100)
---- @class LegacyChallengeCriteriaMixin
+ --- @class LegacyChallengeCriteriaMixin
 LegacyChallengeCriteriaMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeButton.lua#L129)
---- @class LegacyChallengeObjectivesMixin
+ --- @class LegacyChallengeObjectivesMixin
 LegacyChallengeObjectivesMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeButton.lua#L84)

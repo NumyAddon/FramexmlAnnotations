@@ -1,91 +1,91 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L87)
---- @class PVPSpecialEventButtonMixin : PVPCasualActivityButtonMixin
+ --- @class PVPSpecialEventButtonMixin : PVPCasualActivityButtonMixin
 PVPSpecialEventButtonMixin = CreateFromMixins(PVPCasualActivityButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L99)
---- @class PVPSpecialEventLabelMixin : NewFeatureLabelMixin
+ --- @class PVPSpecialEventLabelMixin : NewFeatureLabelMixin
 PVPSpecialEventLabelMixin = CreateFromMixins(NewFeatureLabelMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1699)
---- @class PVPStandardRewardMixin : CallbackRegistryMixin
+ --- @class PVPStandardRewardMixin : CallbackRegistryMixin
 PVPStandardRewardMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2887)
---- @class TrainingGroundActivityButtonMixin : PVPCasualActivityButtonMixin
+ --- @class TrainingGroundActivityButtonMixin : PVPCasualActivityButtonMixin
 TrainingGroundActivityButtonMixin = CreateFromMixins(PVPCasualActivityButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L37)
---- @class PVPCasualActivityButtonMixin
+ --- @class PVPCasualActivityButtonMixin
 PVPCasualActivityButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1780)
---- @class PVPUIHonorInsetMixin
+ --- @class PVPUIHonorInsetMixin
 PVPUIHonorInsetMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1844)
---- @class PVPUIHonorLevelDisplayMixin
+ --- @class PVPUIHonorLevelDisplayMixin
 PVPUIHonorLevelDisplayMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1954)
---- @class PVPAchievementRewardMixin
+ --- @class PVPAchievementRewardMixin
 PVPAchievementRewardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2068)
---- @class PVPConquestBarMixin
+ --- @class PVPConquestBarMixin
 PVPConquestBarMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2171)
---- @class NewPvpSeasonMixin
+ --- @class NewPvpSeasonMixin
 NewPvpSeasonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2235)
---- @class PVPWeeklyCasualPanelMixin
+ --- @class PVPWeeklyCasualPanelMixin
 PVPWeeklyCasualPanelMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2241)
---- @class PVPWeeklyRatedPanelMixin
+ --- @class PVPWeeklyRatedPanelMixin
 PVPWeeklyRatedPanelMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2306)
---- @class PlunderstormQueueFrameMixin
+ --- @class PlunderstormQueueFrameMixin
 PlunderstormQueueFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2335)
---- @class StartPlunderstormQueueButtonMixin
+ --- @class StartPlunderstormQueueButtonMixin
 StartPlunderstormQueueButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2406)
---- @class PlunderstormPanelMixin
+ --- @class PlunderstormPanelMixin
 PlunderstormPanelMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2474)
---- @class PVPQuestRewardMixin
+ --- @class PVPQuestRewardMixin
 PVPQuestRewardMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2592)
---- @class PVPTalentPrestigeLevelDialogCloseButtonMixin
+ --- @class PVPTalentPrestigeLevelDialogCloseButtonMixin
 PVPTalentPrestigeLevelDialogCloseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2598)
---- @class PVPRewardRoleShortageBonusMixin
+ --- @class PVPRewardRoleShortageBonusMixin
 PVPRewardRoleShortageBonusMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2643)
---- @class TrainingGroundsFrameMixin
+ --- @class TrainingGroundsFrameMixin
 TrainingGroundsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L2814)
---- @class BonusTrainingGroundListMixin
+ --- @class BonusTrainingGroundListMixin
 BonusTrainingGroundListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L3004)
---- @class SpecificTrainingGroundListMixin
+ --- @class SpecificTrainingGroundListMixin
 SpecificTrainingGroundListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L3092)
---- @class PVPSpecificTrainingGroundButtonMixin
+ --- @class PVPSpecificTrainingGroundButtonMixin
 PVPSpecificTrainingGroundButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L39)

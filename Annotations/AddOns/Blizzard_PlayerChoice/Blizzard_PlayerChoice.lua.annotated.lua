@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.lua#L16)
---- @class PlayerChoiceFrameMixin
+ --- @class PlayerChoiceFrameMixin
 PlayerChoiceFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.lua#L18)

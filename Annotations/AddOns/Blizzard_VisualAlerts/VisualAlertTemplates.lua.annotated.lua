@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertTemplates.lua#L1)
---- @class VisualAlertBaseMixin : VisualAlertMixin
+ --- @class VisualAlertBaseMixin : VisualAlertMixin
 VisualAlertBaseMixin = CreateFromMixins(VisualAlertMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertTemplates.lua#L50)
---- @class VisualAlertMarchingAntsBaseMixin
+ --- @class VisualAlertMarchingAntsBaseMixin
 VisualAlertMarchingAntsBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertTemplates.lua#L63)
---- @class VisualAlertFlashBaseMixin
+ --- @class VisualAlertFlashBaseMixin
 VisualAlertFlashBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertTemplates.lua#L3)

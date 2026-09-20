@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusUI/Blizzard_StatusUI.lua#L2)
---- @class StatusUIMixin
+ --- @class StatusUIMixin
 StatusUIMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusUI/Blizzard_StatusUI.lua#L4)

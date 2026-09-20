@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Camelot/PetExpBar.lua#L5)
---- @class PetExpBarMixin
+ --- @class PetExpBarMixin
 PetExpBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StatusTrackingBar/Camelot/PetExpBar.lua#L7)

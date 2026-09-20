@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.lua#L1)
---- @class InstanceAbandonMixin
+ --- @class InstanceAbandonMixin
 InstanceAbandonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.lua#L63)

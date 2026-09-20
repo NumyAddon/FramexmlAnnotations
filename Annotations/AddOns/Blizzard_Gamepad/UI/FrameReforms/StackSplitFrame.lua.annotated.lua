@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/FrameReforms/StackSplitFrame.lua#L7)
---- @class StackSplitGamepadMixin
+ --- @class StackSplitGamepadMixin
 StackSplitGamepadMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/FrameReforms/StackSplitFrame.lua#L10)

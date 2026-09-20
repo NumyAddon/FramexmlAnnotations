@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertsManager.lua#L3)
---- @class VisualAlertsManagerMixin
+ --- @class VisualAlertsManagerMixin
 VisualAlertsManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertsManager.lua#L5)

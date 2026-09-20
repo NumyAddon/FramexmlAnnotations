@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.lua#L346)
---- @class AdventuresBoardCombatMixin : AdventuresBoardMixin
+ --- @class AdventuresBoardCombatMixin : AdventuresBoardMixin
 AdventuresBoardCombatMixin = CreateFromMixins(AdventuresBoardMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.lua#L43)
---- @class AdventuresBoardMixin
+ --- @class AdventuresBoardMixin
 AdventuresBoardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.lua#L478)
---- @class AdventuresSocketMixin
+ --- @class AdventuresSocketMixin
 AdventuresSocketMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.lua#L640)
---- @class AdventuresBoardAuraIconMixin
+ --- @class AdventuresBoardAuraIconMixin
 AdventuresBoardAuraIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.lua#L670)
---- @class AdventuresBoardAuraContainerMixin
+ --- @class AdventuresBoardAuraContainerMixin
 AdventuresBoardAuraContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.lua#L45)

@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Templates.lua#L31)
---- @class LFGVanillaListTabButtonMixin : LFGVanillaTabButtonMixin
+ --- @class LFGVanillaListTabButtonMixin : LFGVanillaTabButtonMixin
 LFGVanillaListTabButtonMixin = CreateFromMixins(LFGVanillaTabButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Templates.lua#L42)
---- @class LFGVanillaBrowserTabButtonMixin : LFGVanillaTabButtonMixin
+ --- @class LFGVanillaBrowserTabButtonMixin : LFGVanillaTabButtonMixin
 LFGVanillaBrowserTabButtonMixin = CreateFromMixins(LFGVanillaTabButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Templates.lua#L49)
---- @class LFGVanillaWhoListTabButtonMixin : LFGVanillaTabButtonMixin
+ --- @class LFGVanillaWhoListTabButtonMixin : LFGVanillaTabButtonMixin
 LFGVanillaWhoListTabButtonMixin = CreateFromMixins(LFGVanillaTabButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Templates.lua#L4)
---- @class LFGVanillaTabButtonMixin
+ --- @class LFGVanillaTabButtonMixin
 LFGVanillaTabButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Templates.lua#L5)

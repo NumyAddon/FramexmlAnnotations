@@ -1,31 +1,31 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.lua#L40)
---- @class AlertMountEquipmentFeatureMixin : NewFeatureLabelMixin
+ --- @class AlertMountEquipmentFeatureMixin : NewFeatureLabelMixin
 AlertMountEquipmentFeatureMixin = CreateFromMixins(NewFeatureLabelMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.lua#L1130)
---- @class MountJournalToggleDynamicFlightFlyoutButtonMixin : FlyoutButtonMixin
+ --- @class MountJournalToggleDynamicFlightFlyoutButtonMixin : FlyoutButtonMixin
 MountJournalToggleDynamicFlightFlyoutButtonMixin = CreateFromMixins(FlyoutButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.lua#L29)
---- @class SuppressedMountEquipmentButtonMixin
+ --- @class SuppressedMountEquipmentButtonMixin
 SuppressedMountEquipmentButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.lua#L52)
---- @class MountEquipmentButtonMixin
+ --- @class MountEquipmentButtonMixin
 MountEquipmentButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.lua#L1027)
---- @class MountJournalSummonRandomFavoriteSpellFrameMixin
+ --- @class MountJournalSummonRandomFavoriteSpellFrameMixin
 MountJournalSummonRandomFavoriteSpellFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.lua#L1048)
---- @class MountJournalDynamicFlightModeButtonMixin
+ --- @class MountJournalDynamicFlightModeButtonMixin
 MountJournalDynamicFlightModeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.lua#L1103)
---- @class MountJournalOpenDynamicFlightSkillTreeButtonMixin
+ --- @class MountJournalOpenDynamicFlightSkillTreeButtonMixin
 MountJournalOpenDynamicFlightSkillTreeButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.lua#L30)

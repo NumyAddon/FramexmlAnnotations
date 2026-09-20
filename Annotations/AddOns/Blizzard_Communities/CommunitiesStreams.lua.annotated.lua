@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L25)
---- @class CommunitiesStreamDropdownMixin
+ --- @class CommunitiesStreamDropdownMixin
 CommunitiesStreamDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L136)
---- @class CommunitiesEditStreamDialogMixin
+ --- @class CommunitiesEditStreamDialogMixin
 CommunitiesEditStreamDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L222)
---- @class CommunitiesNotificationSettingsStreamEntryMixin
+ --- @class CommunitiesNotificationSettingsStreamEntryMixin
 CommunitiesNotificationSettingsStreamEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L247)
---- @class CommunitiesNotificationSettingsDialogMixin
+ --- @class CommunitiesNotificationSettingsDialogMixin
 CommunitiesNotificationSettingsDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L359)
---- @class CommunitiesAddToChatMixin
+ --- @class CommunitiesAddToChatMixin
 CommunitiesAddToChatMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L27)

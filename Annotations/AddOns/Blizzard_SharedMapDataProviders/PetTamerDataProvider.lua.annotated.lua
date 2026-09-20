@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/PetTamerDataProvider.lua#L1)
---- @class PetTamerDataProviderMixin : CVarMapCanvasDataProviderMixin
+ --- @class PetTamerDataProviderMixin : CVarMapCanvasDataProviderMixin
 PetTamerDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/PetTamerDataProvider.lua#L4)

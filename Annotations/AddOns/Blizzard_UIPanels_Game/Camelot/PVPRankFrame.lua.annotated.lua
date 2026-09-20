@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PVPRankFrame.lua#L124)
---- @class PVPRankDetailFrameMixin : CharacterFrameSidePaneMixin
+ --- @class PVPRankDetailFrameMixin : CharacterFrameSidePaneMixin
 PVPRankDetailFrameMixin = CreateFromMixins(CharacterFrameSidePaneMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PVPRankFrame.lua#L28)
---- @class PVPRankFrameMixin
+ --- @class PVPRankFrameMixin
 PVPRankFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PVPRankFrame.lua#L220)
---- @class RankProgressBarDisplayMixin
+ --- @class RankProgressBarDisplayMixin
 RankProgressBarDisplayMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PVPRankFrame.lua#L284)
---- @class RewardBadgeMixin
+ --- @class RewardBadgeMixin
 RewardBadgeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PVPRankFrame.lua#L30)

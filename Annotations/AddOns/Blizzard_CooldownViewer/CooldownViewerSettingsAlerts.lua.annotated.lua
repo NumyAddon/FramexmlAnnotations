@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L1)
---- @class CooldownViewerSettingsEditAlertMixin : CooldownViewerEditAlertBaseMixin
+ --- @class CooldownViewerSettingsEditAlertMixin : CooldownViewerEditAlertBaseMixin
 CooldownViewerSettingsEditAlertMixin = CreateFromMixins(CooldownViewerEditAlertBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L3)

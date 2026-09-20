@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.lua#L409)
---- @class PVEFrameMixin
+ --- @class PVEFrameMixin
 PVEFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.lua#L497)
---- @class PlunderstormQueueTutorialMixin
+ --- @class PlunderstormQueueTutorialMixin
 PlunderstormQueueTutorialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.lua#L410)

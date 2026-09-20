@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainer.lua#L56)
---- @class AuraContainerInboundMixin : AuraContainerSharedMixin
+ --- @class AuraContainerInboundMixin : AuraContainerSharedMixin
 AuraContainerInboundMixin = CreateFromMixins(AuraContainerSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainer.lua#L57)
---- @class AuraContainerPrivateMixin : AuraContainerSharedMixin
+ --- @class AuraContainerPrivateMixin : AuraContainerSharedMixin
 AuraContainerPrivateMixin = CreateFromMixins(AuraContainerSharedMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainer.lua#L22)
---- @class AuraContainerSharedMixin
+ --- @class AuraContainerSharedMixin
 AuraContainerSharedMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainer.lua#L24)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ClientSceneVisManager/Blizzard_ClientSceneVisManager.lua#L9)
---- @class ClientSceneVisManagerMixin
+ --- @class ClientSceneVisManagerMixin
 ClientSceneVisManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ClientSceneVisManager/Blizzard_ClientSceneVisManager.lua#L11)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentSlotTemplates.lua#L2)
---- @class PvPTalentSlotButtonMixin
+ --- @class PvPTalentSlotButtonMixin
 PvPTalentSlotButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentSlotTemplates.lua#L218)
---- @class PvPTalentSlotTrayMixin
+ --- @class PvPTalentSlotTrayMixin
 PvPTalentSlotTrayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_PvPTalentSlotTemplates.lua#L8)

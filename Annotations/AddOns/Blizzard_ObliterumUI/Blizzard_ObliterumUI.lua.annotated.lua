@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.lua#L9)
---- @class ObliterumForgeMixin
+ --- @class ObliterumForgeMixin
 ObliterumForgeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.lua#L59)
---- @class ObliterumForgeItemSlotMixin
+ --- @class ObliterumForgeItemSlotMixin
 ObliterumForgeItemSlotMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.lua#L11)

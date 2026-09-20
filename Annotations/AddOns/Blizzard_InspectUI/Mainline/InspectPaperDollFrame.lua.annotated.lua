@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Mainline/InspectPaperDollFrame.lua#L1)
---- @class InspectPaperDollFrameMixin
+ --- @class InspectPaperDollFrameMixin
 InspectPaperDollFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Mainline/InspectPaperDollFrame.lua#L274)
---- @class InspectPaperDollFrameTalentsButtonMixin
+ --- @class InspectPaperDollFrameTalentsButtonMixin
 InspectPaperDollFrameTalentsButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Mainline/InspectPaperDollFrame.lua#L299)
---- @class LevelTextMixin
+ --- @class LevelTextMixin
 LevelTextMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Mainline/InspectPaperDollFrame.lua#L3)

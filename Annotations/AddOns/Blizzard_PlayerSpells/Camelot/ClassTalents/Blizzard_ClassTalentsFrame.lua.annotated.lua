@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.lua#L21)
---- @class ClassTalentsFrameTabMixin
+ --- @class ClassTalentsFrameTabMixin
 ClassTalentsFrameTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.lua#L308)
---- @class ClassTalentTreeHeaderMixin
+ --- @class ClassTalentTreeHeaderMixin
 ClassTalentTreeHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.lua#L325)
---- @class ClassTalentActiveSpecMixin
+ --- @class ClassTalentActiveSpecMixin
 ClassTalentActiveSpecMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.lua#L23)

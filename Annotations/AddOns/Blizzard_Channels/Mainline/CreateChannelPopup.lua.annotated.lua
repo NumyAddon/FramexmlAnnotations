@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/CreateChannelPopup.lua#L1)
---- @class CreateChannelPopupMixin
+ --- @class CreateChannelPopupMixin
 CreateChannelPopupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/CreateChannelPopup.lua#L3)

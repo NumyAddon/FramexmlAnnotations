@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUI.lua#L17)
---- @class SocialUIFrameMixin : CallbackRegistryMixin
+ --- @class SocialUIFrameMixin : CallbackRegistryMixin
 SocialUIFrameMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUI.lua#L35)

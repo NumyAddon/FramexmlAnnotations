@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L458)
---- @class LootFrameElementMixin : LootFrameBaseElementMixin
+ --- @class LootFrameElementMixin : LootFrameBaseElementMixin
 LootFrameElementMixin = CreateFromMixins(LootFrameBaseElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L619)
---- @class LootFrameItemElementMixin : LootFrameElementMixin
+ --- @class LootFrameItemElementMixin : LootFrameElementMixin
 LootFrameItemElementMixin = CreateFromMixins(LootFrameElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L40)
---- @class LootFrameMixin
+ --- @class LootFrameMixin
 LootFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L439)
---- @class LootFrameBaseElementMixin
+ --- @class LootFrameBaseElementMixin
 LootFrameBaseElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L612)
---- @class LootFrameElementSlideOutRightAnimMixin
+ --- @class LootFrameElementSlideOutRightAnimMixin
 LootFrameElementSlideOutRightAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L55)

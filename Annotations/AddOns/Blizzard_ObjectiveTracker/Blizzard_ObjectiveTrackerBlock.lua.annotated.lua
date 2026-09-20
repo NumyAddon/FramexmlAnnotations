@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerBlock.lua#L1)
---- @class ObjectiveTrackerBlockMixin : ObjectiveTrackerSlidingMixin
+ --- @class ObjectiveTrackerBlockMixin : ObjectiveTrackerSlidingMixin
 ObjectiveTrackerBlockMixin = CreateFromMixins(ObjectiveTrackerSlidingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerBlock.lua#L380)
---- @class ObjectiveTrackerBlockHeaderMixin
+ --- @class ObjectiveTrackerBlockHeaderMixin
 ObjectiveTrackerBlockHeaderMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerBlock.lua#L4)

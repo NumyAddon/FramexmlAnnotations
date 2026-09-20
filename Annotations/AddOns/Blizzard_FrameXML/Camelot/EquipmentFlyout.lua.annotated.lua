@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Camelot/EquipmentFlyout.lua#L53)
---- @class EquipmentFlyoutMixin
+ --- @class EquipmentFlyoutMixin
 EquipmentFlyoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Camelot/EquipmentFlyout.lua#L55)

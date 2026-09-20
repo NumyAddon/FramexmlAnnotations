@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Shared/Blizzard_StableUI_Shared.lua#L25)
---- @class StablePetModelSceneMixin : PanningModelSceneMixin
+ --- @class StablePetModelSceneMixin : PanningModelSceneMixin
 StablePetModelSceneMixin = CreateFromMixins(PanningModelSceneMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Shared/Blizzard_StableUI_Shared.lua#L27)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L5)
---- @class GamepadTargetLogicMixin
+ --- @class GamepadTargetLogicMixin
 GamepadTargetLogicMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L7)

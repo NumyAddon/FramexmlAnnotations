@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L4)
---- @class GamepadFriendlyTargetingActionBarMixin : StaticOverrideActionBarMixin
+ --- @class GamepadFriendlyTargetingActionBarMixin : StaticOverrideActionBarMixin
 GamepadFriendlyTargetingActionBarMixin = CreateFromMixins(StaticOverrideActionBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L6)

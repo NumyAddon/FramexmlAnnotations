@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.lua#L36)
---- @class SpellBookFrameMixin : SpellBookFrameTutorialsMixin, SpellBookSearchMixin
+ --- @class SpellBookFrameMixin : SpellBookFrameTutorialsMixin, SpellBookSearchMixin
 SpellBookFrameMixin = CreateFromMixins(SpellBookFrameTutorialsMixin, SpellBookSearchMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.lua#L850)
---- @class AssistedCombatRotationSpellFrameMixin
+ --- @class AssistedCombatRotationSpellFrameMixin
 AssistedCombatRotationSpellFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.lua#L38)

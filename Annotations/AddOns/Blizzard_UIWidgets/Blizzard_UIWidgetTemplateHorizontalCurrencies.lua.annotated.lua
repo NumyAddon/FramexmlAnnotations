@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateHorizontalCurrencies.lua#L10)
---- @class UIWidgetTemplateHorizontalCurrenciesMixin : UIWidgetBaseTemplateMixin
+ --- @class UIWidgetTemplateHorizontalCurrenciesMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateHorizontalCurrenciesMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateHorizontalCurrencies.lua#L12)

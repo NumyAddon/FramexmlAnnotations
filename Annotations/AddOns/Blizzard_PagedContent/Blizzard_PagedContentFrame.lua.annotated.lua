@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L26)
---- @class PagedContentFrameBaseMixin : CallbackRegistryMixin
+ --- @class PagedContentFrameBaseMixin : CallbackRegistryMixin
 PagedContentFrameBaseMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L34)

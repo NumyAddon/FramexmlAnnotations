@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXMLBase/FocusEffects.lua#L5)
---- @class FrameGlowMixin
+ --- @class FrameGlowMixin
 FrameGlowMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXMLBase/FocusEffects.lua#L63)
---- @class FocusFramesInterfaceMixin
+ --- @class FocusFramesInterfaceMixin
 FocusFramesInterfaceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXMLBase/FocusEffects.lua#L18)

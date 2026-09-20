@@ -1,43 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua#L3497)
---- @class PaperDollItemSlotButtonMixin : PaperDollItemSlotButtonBaseMixin
+ --- @class PaperDollItemSlotButtonMixin : PaperDollItemSlotButtonBaseMixin
 PaperDollItemSlotButtonMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua#L3503)
---- @class PaperDollItemSocketDisplayMixin : PaperDollItemSlotButtonBaseMixin
+ --- @class PaperDollItemSocketDisplayMixin : PaperDollItemSlotButtonBaseMixin
 PaperDollItemSocketDisplayMixin = CreateFromMixins(PaperDollItemSlotButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua#L3609)
---- @class PaperDollTertiaryButtonMixin : ButtonStateBehaviorMixin
+ --- @class PaperDollTertiaryButtonMixin : ButtonStateBehaviorMixin
 PaperDollTertiaryButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua#L3626)
---- @class PetExpColoredProgressBarMixin : ColoredProgressBarMixin
+ --- @class PetExpColoredProgressBarMixin : ColoredProgressBarMixin
 PetExpColoredProgressBarMixin = CreateFromMixins(ColoredProgressBarMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua#L1575)
---- @class PaperDollFrameMixin
+ --- @class PaperDollFrameMixin
 PaperDollFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua#L2551)
---- @class GearSetButtonMixin
+ --- @class GearSetButtonMixin
 GearSetButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua#L2670)
---- @class GearManagerPopupFrameMixin
+ --- @class GearManagerPopupFrameMixin
 GearManagerPopupFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua#L2763)
---- @class PaperDollEquipmentManagerPaneMixin
+ --- @class PaperDollEquipmentManagerPaneMixin
 PaperDollEquipmentManagerPaneMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua#L3491)
---- @class PaperDollItemSlotButtonBaseMixin
+ --- @class PaperDollItemSlotButtonBaseMixin
 PaperDollItemSlotButtonBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua#L3543)
---- @class PaperDollSidebarTabMixin
+ --- @class PaperDollSidebarTabMixin
 PaperDollSidebarTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.lua#L1577)

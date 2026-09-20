@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPowerButton.lua#L5)
---- @class ArtifactPowerButtonMixin
+ --- @class ArtifactPowerButtonMixin
 ArtifactPowerButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactPowerButton.lua#L31)

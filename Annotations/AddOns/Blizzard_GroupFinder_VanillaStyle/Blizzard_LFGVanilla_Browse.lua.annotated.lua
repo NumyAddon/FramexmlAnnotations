@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.lua#L49)
---- @class LFGBrowseMixin
+ --- @class LFGBrowseMixin
 LFGBrowseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.lua#L986)
---- @class LFGBrowseCategoryDropdownMixin
+ --- @class LFGBrowseCategoryDropdownMixin
 LFGBrowseCategoryDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.lua#L1051)
---- @class LFGBrowseActivityDropdownMixin
+ --- @class LFGBrowseActivityDropdownMixin
 LFGBrowseActivityDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.lua#L1234)
---- @class LFGBrowseDelistButtonMixin
+ --- @class LFGBrowseDelistButtonMixin
 LFGBrowseDelistButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.lua#L1248)
---- @class LFGBrowseGroupInviteButtonMixin
+ --- @class LFGBrowseGroupInviteButtonMixin
 LFGBrowseGroupInviteButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.lua#L1257)
---- @class LFGBrowseSendMessageButtonMixin
+ --- @class LFGBrowseSendMessageButtonMixin
 LFGBrowseSendMessageButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.lua#L51)

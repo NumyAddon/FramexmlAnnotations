@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L1)
---- @class DefaultAnimOutMixin
+ --- @class DefaultAnimOutMixin
 DefaultAnimOutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L7)
---- @class SocialToastCloseButtonMixin
+ --- @class SocialToastCloseButtonMixin
 SocialToastCloseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L22)
---- @class SocialToastMixin
+ --- @class SocialToastMixin
 SocialToastMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L33)
---- @class ShardTransferImminentMixin
+ --- @class ShardTransferImminentMixin
 ShardTransferImminentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L88)
---- @class ShardTransferImminentMinimizeMixin
+ --- @class ShardTransferImminentMinimizeMixin
 ShardTransferImminentMinimizeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L3)

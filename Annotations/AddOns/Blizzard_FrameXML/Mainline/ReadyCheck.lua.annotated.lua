@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.lua#L63)
---- @class ReadyCheckListenerFrameMixin
+ --- @class ReadyCheckListenerFrameMixin
 ReadyCheckListenerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.lua#L65)

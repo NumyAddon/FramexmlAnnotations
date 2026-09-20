@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.lua#L7)
---- @class ProfessionsRecipeListMixin : CallbackRegistryMixin
+ --- @class ProfessionsRecipeListMixin : CallbackRegistryMixin
 ProfessionsRecipeListMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.lua#L178)
---- @class ProfessionsRecipeListCategoryMixin : ListHeaderMixin
+ --- @class ProfessionsRecipeListCategoryMixin : ListHeaderMixin
 ProfessionsRecipeListCategoryMixin = CreateFromMixins(ListHeaderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.lua#L227)
---- @class ProfessionsRecipeListRecipeMixin
+ --- @class ProfessionsRecipeListRecipeMixin
 ProfessionsRecipeListRecipeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.lua#L13)

@@ -1,95 +1,95 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L5)
---- @class BankFrameBaseMixin : CallbackRegistryMixin
+ --- @class BankFrameBaseMixin : CallbackRegistryMixin
 BankFrameBaseMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L268)
---- @class BankPanelTabMixin : BankPanelSystemMixin
+ --- @class BankPanelTabMixin : BankPanelSystemMixin
 BankPanelTabMixin = CreateFromMixins(BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L606)
---- @class BankPanelMixin : CallbackRegistryMixin
+ --- @class BankPanelMixin : CallbackRegistryMixin
 BankPanelMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1164)
---- @class BankPanelPromptMixin : BankPanelSystemMixin
+ --- @class BankPanelPromptMixin : BankPanelSystemMixin
 BankPanelPromptMixin = CreateFromMixins(BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1194)
---- @class BankPanelLockPromptMixin : BankPanelPromptMixin
+ --- @class BankPanelLockPromptMixin : BankPanelPromptMixin
 BankPanelLockPromptMixin = CreateFromMixins(BankPanelPromptMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1211)
---- @class BankPanelPurchasePromptMixin : BankPanelPromptMixin
+ --- @class BankPanelPurchasePromptMixin : BankPanelPromptMixin
 BankPanelPurchasePromptMixin = CreateFromMixins(BankPanelPromptMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1249)
---- @class BankPanelAutoDepositFrameMixin : BankPanelSystemMixin
+ --- @class BankPanelAutoDepositFrameMixin : BankPanelSystemMixin
 BankPanelAutoDepositFrameMixin = CreateFromMixins(BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1258)
---- @class BankPanelItemDepositButtonMixin : BankPanelSystemMixin
+ --- @class BankPanelItemDepositButtonMixin : BankPanelSystemMixin
 BankPanelItemDepositButtonMixin = CreateFromMixins(BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1310)
---- @class BankPanelPurchaseTabButtonMixin : BankPanelSystemMixin
+ --- @class BankPanelPurchaseTabButtonMixin : BankPanelSystemMixin
 BankPanelPurchaseTabButtonMixin = CreateFromMixins(BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1328)
---- @class BankPanelMoneyFrameMixin : BankPanelSystemMixin
+ --- @class BankPanelMoneyFrameMixin : BankPanelSystemMixin
 BankPanelMoneyFrameMixin = CreateFromMixins(BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1359)
---- @class BankPanelMoneyFrameMoneyDisplayMixin : BankPanelSystemMixin
+ --- @class BankPanelMoneyFrameMoneyDisplayMixin : BankPanelSystemMixin
 BankPanelMoneyFrameMoneyDisplayMixin = CreateFromMixins(BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1384)
---- @class BankPanelWithdrawMoneyButtonMixin : BankPanelSystemMixin
+ --- @class BankPanelWithdrawMoneyButtonMixin : BankPanelSystemMixin
 BankPanelWithdrawMoneyButtonMixin = CreateFromMixins(BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1412)
---- @class BankPanelDepositMoneyButtonMixin : BankPanelSystemMixin
+ --- @class BankPanelDepositMoneyButtonMixin : BankPanelSystemMixin
 BankPanelDepositMoneyButtonMixin = CreateFromMixins(BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1440)
---- @class BankPanelTabSettingsMenuMixin : CallbackRegistryMixin, BankPanelSystemMixin
+ --- @class BankPanelTabSettingsMenuMixin : CallbackRegistryMixin, BankPanelSystemMixin
 BankPanelTabSettingsMenuMixin = CreateFromMixins(CallbackRegistryMixin, BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1770)
---- @class BankPanelIncludeReagentsCheckboxMixin : BankPanelCheckboxMixin
+ --- @class BankPanelIncludeReagentsCheckboxMixin : BankPanelCheckboxMixin
 BankPanelIncludeReagentsCheckboxMixin = CreateFromMixins(BankPanelCheckboxMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1791)
---- @class BankCleanUpConfirmationPopupMixin : BankPanelSystemMixin
+ --- @class BankCleanUpConfirmationPopupMixin : BankPanelSystemMixin
 BankCleanUpConfirmationPopupMixin = CreateFromMixins(BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1825)
---- @class BankAutoSortButtonMixin : BankPanelSystemMixin
+ --- @class BankAutoSortButtonMixin : BankPanelSystemMixin
 BankAutoSortButtonMixin = CreateFromMixins(BankPanelSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L126)
---- @class BankPanelSystemMixin
+ --- @class BankPanelSystemMixin
 BankPanelSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L388)
---- @class BankPanelItemButtonMixin
+ --- @class BankPanelItemButtonMixin
 BankPanelItemButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1303)
---- @class BankPanelTabCostMoneyDisplayMixin
+ --- @class BankPanelTabCostMoneyDisplayMixin
 BankPanelTabCostMoneyDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1683)
---- @class BankTabDepositSettingsMenuMixin
+ --- @class BankTabDepositSettingsMenuMixin
 BankTabDepositSettingsMenuMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1693)
---- @class BankPanelTabSettingsExpansionFilterDropdownMixin
+ --- @class BankPanelTabSettingsExpansionFilterDropdownMixin
 BankPanelTabSettingsExpansionFilterDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L1741)
---- @class BankPanelCheckboxMixin
+ --- @class BankPanelCheckboxMixin
 BankPanelCheckboxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrameTemplates.lua#L12)

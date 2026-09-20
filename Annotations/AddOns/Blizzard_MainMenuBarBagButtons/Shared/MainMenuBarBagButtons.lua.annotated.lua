@@ -1,43 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/MainMenuBarBagButtons.lua#L234)
---- @class GamepadBagSlotButtonMixin : BaseBagSlotButtonMixin
+ --- @class GamepadBagSlotButtonMixin : BaseBagSlotButtonMixin
 GamepadBagSlotButtonMixin = CreateFromMixins(BaseBagSlotButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/MainMenuBarBagButtons.lua#L263)
---- @class MainMenuBarBackpackMixin : BaseBagSlotButtonMixin
+ --- @class MainMenuBarBackpackMixin : BaseBagSlotButtonMixin
 MainMenuBarBackpackMixin = CreateFromMixins(BaseBagSlotButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/MainMenuBarBagButtons.lua#L413)
---- @class GamepadBackpackButtonMixin : MainMenuBarBackpackMixin
+ --- @class GamepadBackpackButtonMixin : MainMenuBarBackpackMixin
 GamepadBackpackButtonMixin = CreateFromMixins(MainMenuBarBackpackMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/MainMenuBarBagButtons.lua#L448)
---- @class GamepadCharacterReagentBagMixin : CharacterReagentBagMixin
+ --- @class GamepadCharacterReagentBagMixin : CharacterReagentBagMixin
 GamepadCharacterReagentBagMixin = CreateFromMixins(CharacterReagentBagMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/MainMenuBarBagButtons.lua#L1)
---- @class BagSlotItemFlyInMixin
+ --- @class BagSlotItemFlyInMixin
 BagSlotItemFlyInMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/MainMenuBarBagButtons.lua#L11)
---- @class BaseBagSlotButtonMixin
+ --- @class BaseBagSlotButtonMixin
 BaseBagSlotButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/MainMenuBarBagButtons.lua#L205)
---- @class GamepadBagBarMixin
+ --- @class GamepadBagBarMixin
 GamepadBagBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/MainMenuBarBagButtons.lua#L442)
---- @class CharacterReagentBagMixin
+ --- @class CharacterReagentBagMixin
 CharacterReagentBagMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/MainMenuBarBagButtons.lua#L468)
---- @class GamepadKeyRingMixin
+ --- @class GamepadKeyRingMixin
 GamepadKeyRingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/MainMenuBarBagButtons.lua#L497)
---- @class BagBarExpandToggleMixin
+ --- @class BagBarExpandToggleMixin
 BagBarExpandToggleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/MainMenuBarBagButtons.lua#L3)

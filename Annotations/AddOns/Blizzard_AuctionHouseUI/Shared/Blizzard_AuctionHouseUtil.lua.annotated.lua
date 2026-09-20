@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseUtil.lua#L58)
---- @class AuctionHouseSortOrderSystemMixin : AuctionHouseSystemMixin
+ --- @class AuctionHouseSortOrderSystemMixin : AuctionHouseSystemMixin
 AuctionHouseSortOrderSystemMixin = CreateFromMixins(AuctionHouseSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseUtil.lua#L103)
---- @class AuctionHouseBuySystemMixin : AuctionHouseSystemMixin
+ --- @class AuctionHouseBuySystemMixin : AuctionHouseSystemMixin
 AuctionHouseBuySystemMixin = CreateFromMixins(AuctionHouseSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseUtil.lua#L51)
---- @class AuctionHouseSystemMixin
+ --- @class AuctionHouseSystemMixin
 AuctionHouseSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseUtil.lua#L53)

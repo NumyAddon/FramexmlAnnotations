@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MirrorTimer/Mainline/MirrorTimer.lua#L10)
---- @class MirrorTimerContainerMixin
+ --- @class MirrorTimerContainerMixin
 MirrorTimerContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MirrorTimer/Mainline/MirrorTimer.lua#L128)
---- @class MirrorTimerMixin
+ --- @class MirrorTimerMixin
 MirrorTimerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MirrorTimer/Mainline/MirrorTimer.lua#L16)

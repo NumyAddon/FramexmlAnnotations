@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1538)
---- @class GuildMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
+ --- @class GuildMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
 GuildMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1654)
---- @class CommunityMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
+ --- @class CommunityMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
 CommunityMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L194)
---- @class CommunitiesMemberListMixin
+ --- @class CommunitiesMemberListMixin
 CommunitiesMemberListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L925)
---- @class CommunitiesMemberListEntryMixin
+ --- @class CommunitiesMemberListEntryMixin
 CommunitiesMemberListEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1511)
---- @class CommunitiesFrameMemberListDropdownMixin
+ --- @class CommunitiesFrameMemberListDropdownMixin
 CommunitiesFrameMemberListDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1761)
---- @class CommunitiesMemberListFactionButtonMixin
+ --- @class CommunitiesMemberListFactionButtonMixin
 CommunitiesMemberListFactionButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L196)

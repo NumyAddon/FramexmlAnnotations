@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.lua#L73)
---- @class CollectionsJournalMixin
+ --- @class CollectionsJournalMixin
 CollectionsJournalMixin =
 {
 	TABS_DATA = {

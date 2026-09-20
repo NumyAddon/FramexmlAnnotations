@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L5)
---- @class GamepadReticleMixin
+ --- @class GamepadReticleMixin
 GamepadReticleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L7)

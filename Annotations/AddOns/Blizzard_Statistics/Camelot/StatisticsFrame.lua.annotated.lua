@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Statistics/Camelot/StatisticsFrame.lua#L285)
---- @class StatisticsSubHeaderMixin : StatisticsEntryMixin
+ --- @class StatisticsSubHeaderMixin : StatisticsEntryMixin
 StatisticsSubHeaderMixin = CreateFromMixins(StatisticsEntryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Statistics/Camelot/StatisticsFrame.lua#L68)
---- @class StatisticsFrameMixin
+ --- @class StatisticsFrameMixin
 StatisticsFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Statistics/Camelot/StatisticsFrame.lua#L194)
---- @class StatisticsHeaderMixin
+ --- @class StatisticsHeaderMixin
 StatisticsHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Statistics/Camelot/StatisticsFrame.lua#L229)
---- @class StatisticsEntryMixin
+ --- @class StatisticsEntryMixin
 StatisticsEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Statistics/Camelot/StatisticsFrame.lua#L303)
---- @class StatisticsSubHeaderToggleCollapseButtonMixin
+ --- @class StatisticsSubHeaderToggleCollapseButtonMixin
 StatisticsSubHeaderToggleCollapseButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Statistics/Camelot/StatisticsFrame.lua#L70)

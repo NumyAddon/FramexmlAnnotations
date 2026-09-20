@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L445)
---- @class GarrisonFollowerPortraitMixin
+ --- @class GarrisonFollowerPortraitMixin
 GarrisonFollowerPortraitMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonBase/GarrisonBaseUtils.lua#L447)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Radials/GamepadRadial.lua#L482)
---- @class GamepadRadialMixin
+ --- @class GamepadRadialMixin
 GamepadRadialMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Radials/GamepadRadial.lua#L1046)
---- @class GamepadRadialSegmentMixin
+ --- @class GamepadRadialSegmentMixin
 GamepadRadialSegmentMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Radials/GamepadRadial.lua#L1135)
---- @class GamepadRadialContextMenuMixin
+ --- @class GamepadRadialContextMenuMixin
 GamepadRadialContextMenuMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Radials/GamepadRadial.lua#L484)

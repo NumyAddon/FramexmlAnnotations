@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L175)
---- @class SpellBookClassCategoryMixin : BaseSpellBookCategoryMixin
+ --- @class SpellBookClassCategoryMixin : BaseSpellBookCategoryMixin
 SpellBookClassCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L257)
---- @class SpellBookGeneralCategoryMixin : BaseSpellBookCategoryMixin
+ --- @class SpellBookGeneralCategoryMixin : BaseSpellBookCategoryMixin
 SpellBookGeneralCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L310)
---- @class SpellBookPetCategoryMixin : BaseSpellBookCategoryMixin
+ --- @class SpellBookPetCategoryMixin : BaseSpellBookCategoryMixin
 SpellBookPetCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L354)
---- @class SpellBookSingleSkillLineCategoryMixin : BaseSpellBookCategoryMixin
+ --- @class SpellBookSingleSkillLineCategoryMixin : BaseSpellBookCategoryMixin
 SpellBookSingleSkillLineCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L408)
---- @class SpellBookTransmogCategoryMixin : BaseSpellBookCategoryMixin
+ --- @class SpellBookTransmogCategoryMixin : BaseSpellBookCategoryMixin
 SpellBookTransmogCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L11)
---- @class BaseSpellBookCategoryMixin
+ --- @class BaseSpellBookCategoryMixin
 BaseSpellBookCategoryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L13)

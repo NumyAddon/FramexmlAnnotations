@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.lua#L216)
---- @class ProfessionsBookFrameStandaloneMixin : ProfessionsBookFrameMixin
+ --- @class ProfessionsBookFrameStandaloneMixin : ProfessionsBookFrameMixin
 ProfessionsBookFrameStandaloneMixin = CreateFromMixins(ProfessionsBookFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.lua#L16)
---- @class ProfessionsBookFrameMixin
+ --- @class ProfessionsBookFrameMixin
 ProfessionsBookFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.lua#L230)
---- @class ProfessionSpellButtonMixin
+ --- @class ProfessionSpellButtonMixin
 ProfessionSpellButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.lua#L517)
---- @class ProfessionsUnlearnButtonMixin
+ --- @class ProfessionsUnlearnButtonMixin
 ProfessionsUnlearnButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.lua#L18)

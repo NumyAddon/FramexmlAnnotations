@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Tutorials/Blizzard_TutorialSupertrack.lua#L1)
---- @class SupertrackTutorialMixin : StateMachineBasedTutorialMixin
+ --- @class SupertrackTutorialMixin : StateMachineBasedTutorialMixin
 SupertrackTutorialMixin = CreateFromMixins(StateMachineBasedTutorialMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Tutorials/Blizzard_TutorialSupertrack.lua#L3)

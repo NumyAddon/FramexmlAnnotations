@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddOnList/AddonList.lua#L997)
---- @class AddonListCategoryMixin : AddonListNodeMixin
+ --- @class AddonListCategoryMixin : AddonListNodeMixin
 AddonListCategoryMixin = CreateFromMixins(AddonListNodeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddOnList/AddonList.lua#L998)
---- @class AddonListEntryMixin : AddonListNodeMixin
+ --- @class AddonListEntryMixin : AddonListNodeMixin
 AddonListEntryMixin = CreateFromMixins(AddonListNodeMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddOnList/AddonList.lua#L39)
---- @class AddonDialogMixin
+ --- @class AddonDialogMixin
 AddonDialogMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddOnList/AddonList.lua#L186)
---- @class AddonListMixin
+ --- @class AddonListMixin
 AddonListMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddOnList/AddonList.lua#L899)
---- @class AddonCategoryCollapseExpandMixin
+ --- @class AddonCategoryCollapseExpandMixin
 AddonCategoryCollapseExpandMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddOnList/AddonList.lua#L926)
---- @class AddonListNodeMixin
+ --- @class AddonListNodeMixin
 AddonListNodeMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddOnList/AddonList.lua#L41)

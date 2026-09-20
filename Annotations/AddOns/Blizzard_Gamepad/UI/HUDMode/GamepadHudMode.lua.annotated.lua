@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/HUDMode/GamepadHudMode.lua#L1)
---- @class GamepadHudModeMixin : CallbackRegistryMixin
+ --- @class GamepadHudModeMixin : CallbackRegistryMixin
 GamepadHudModeMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/HUDMode/GamepadHudMode.lua#L327)
---- @class GamepadHudInfoMixin
+ --- @class GamepadHudInfoMixin
 GamepadHudInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/HUDMode/GamepadHudMode.lua#L37)

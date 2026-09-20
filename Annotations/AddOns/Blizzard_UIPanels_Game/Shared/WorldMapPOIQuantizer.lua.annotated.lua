@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/WorldMapPOIQuantizer.lua#L1)
---- @class WorldMapPOIQuantizerMixin
+ --- @class WorldMapPOIQuantizerMixin
 WorldMapPOIQuantizerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/WorldMapPOIQuantizer.lua#L3)

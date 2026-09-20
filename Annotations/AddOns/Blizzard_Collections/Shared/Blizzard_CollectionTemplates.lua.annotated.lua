@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_CollectionTemplates.lua#L49)
---- @class CollectionsPagingMixin
+ --- @class CollectionsPagingMixin
 CollectionsPagingMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_CollectionTemplates.lua#L142)
---- @class CollectionsCountTemplateMixin
+ --- @class CollectionsCountTemplateMixin
 CollectionsCountTemplateMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_CollectionTemplates.lua#L51)

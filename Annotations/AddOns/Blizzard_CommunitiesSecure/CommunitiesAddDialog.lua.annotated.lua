@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L2)
---- @class CommunitiesAddDialogMixin
+ --- @class CommunitiesAddDialogMixin
 CommunitiesAddDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L39)
---- @class CommunitiesCreateDialogMixin
+ --- @class CommunitiesCreateDialogMixin
 CommunitiesCreateDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L4)

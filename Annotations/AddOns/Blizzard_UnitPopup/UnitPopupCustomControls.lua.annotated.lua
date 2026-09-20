@@ -1,43 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L45)
---- @class UnitPopupVoiceLevelsMixin : UnitPopupAttachableFrameMixin
+ --- @class UnitPopupVoiceLevelsMixin : UnitPopupAttachableFrameMixin
 UnitPopupVoiceLevelsMixin = CreateFromMixins(UnitPopupAttachableFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L1)
---- @class UnitPopupAttachableFrameMixin
+ --- @class UnitPopupAttachableFrameMixin
 UnitPopupAttachableFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L19)
---- @class UnitPopupVoiceMemberInfoMixin
+ --- @class UnitPopupVoiceMemberInfoMixin
 UnitPopupVoiceMemberInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L33)
---- @class UnitPopupVoiceToggleButtonMixin
+ --- @class UnitPopupVoiceToggleButtonMixin
 UnitPopupVoiceToggleButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L80)
---- @class UnitPopupToggleMuteMixin
+ --- @class UnitPopupToggleMuteMixin
 UnitPopupToggleMuteMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L112)
---- @class UnitPopupVoiceMicrophoneVolumeSliderMixin
+ --- @class UnitPopupVoiceMicrophoneVolumeSliderMixin
 UnitPopupVoiceMicrophoneVolumeSliderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L119)
---- @class UnitPopupToggleDeafenMixin
+ --- @class UnitPopupToggleDeafenMixin
 UnitPopupToggleDeafenMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L141)
---- @class UnitPopupVoiceSpeakerVolumeSliderMixin
+ --- @class UnitPopupVoiceSpeakerVolumeSliderMixin
 UnitPopupVoiceSpeakerVolumeSliderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L148)
---- @class UnitPopupToggleUserMuteMixin
+ --- @class UnitPopupToggleUserMuteMixin
 UnitPopupToggleUserMuteMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L197)
---- @class UnitPopupVoiceUserVolumeSliderMixin
+ --- @class UnitPopupVoiceUserVolumeSliderMixin
 UnitPopupVoiceUserVolumeSliderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L3)

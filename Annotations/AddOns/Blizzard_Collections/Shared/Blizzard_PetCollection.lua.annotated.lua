@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.lua#L1063)
---- @class PetJournalLoadoutDragButtonMixin : PetJournalDragButtonMixin
+ --- @class PetJournalLoadoutDragButtonMixin : PetJournalDragButtonMixin
 PetJournalLoadoutDragButtonMixin = CreateFromMixins(PetJournalDragButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.lua#L325)
---- @class PetJournalHealPetSpellFrameMixin
+ --- @class PetJournalHealPetSpellFrameMixin
 PetJournalHealPetSpellFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.lua#L353)
---- @class PetJournalSummonRandomPetSpellFrameMixin
+ --- @class PetJournalSummonRandomPetSpellFrameMixin
 PetJournalSummonRandomPetSpellFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.lua#L952)
---- @class PetJournalListItemMixin
+ --- @class PetJournalListItemMixin
 PetJournalListItemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.lua#L991)
---- @class PetJournalDragButtonMixin
+ --- @class PetJournalDragButtonMixin
 PetJournalDragButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.lua#L327)

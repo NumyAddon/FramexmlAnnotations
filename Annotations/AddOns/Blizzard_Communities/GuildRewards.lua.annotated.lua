@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L5)
---- @class CommunitiesGuildRewardsButtonMixin
+ --- @class CommunitiesGuildRewardsButtonMixin
 CommunitiesGuildRewardsButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L63)
---- @class CommunitiesGuildRewardsFrameMixin
+ --- @class CommunitiesGuildRewardsFrameMixin
 CommunitiesGuildRewardsFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L172)
---- @class CommunitiesGuildFactionBarMixin
+ --- @class CommunitiesGuildFactionBarMixin
 CommunitiesGuildFactionBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L257)
---- @class GuildAchievementPointDisplayMixin
+ --- @class GuildAchievementPointDisplayMixin
 GuildAchievementPointDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/GuildRewards.lua#L7)

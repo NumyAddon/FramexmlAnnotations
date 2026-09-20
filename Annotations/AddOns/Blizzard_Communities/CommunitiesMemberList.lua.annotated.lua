@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1521)
---- @class GuildMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
+ --- @class GuildMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
 GuildMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1630)
---- @class CommunityMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
+ --- @class CommunityMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
 CommunityMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L194)
---- @class CommunitiesMemberListMixin
+ --- @class CommunitiesMemberListMixin
 CommunitiesMemberListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L908)
---- @class CommunitiesMemberListEntryMixin
+ --- @class CommunitiesMemberListEntryMixin
 CommunitiesMemberListEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1494)
---- @class CommunitiesFrameMemberListDropdownMixin
+ --- @class CommunitiesFrameMemberListDropdownMixin
 CommunitiesFrameMemberListDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1737)
---- @class CommunitiesMemberListFactionButtonMixin
+ --- @class CommunitiesMemberListFactionButtonMixin
 CommunitiesMemberListFactionButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L196)

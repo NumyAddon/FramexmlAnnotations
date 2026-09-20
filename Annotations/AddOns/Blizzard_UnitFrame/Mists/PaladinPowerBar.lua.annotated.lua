@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Mists/PaladinPowerBar.lua#L4)
---- @class PaladinPowerBarMixin
+ --- @class PaladinPowerBarMixin
 PaladinPowerBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Mists/PaladinPowerBar.lua#L6)

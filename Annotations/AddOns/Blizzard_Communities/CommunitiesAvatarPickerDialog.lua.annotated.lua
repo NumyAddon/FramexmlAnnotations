@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.lua#L25)
---- @class CommunitiesAvatarPickerDialogMixin
+ --- @class CommunitiesAvatarPickerDialogMixin
 CommunitiesAvatarPickerDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.lua#L91)
---- @class CommunitiesAvatarButtonMixin
+ --- @class CommunitiesAvatarButtonMixin
 CommunitiesAvatarButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.lua#L27)

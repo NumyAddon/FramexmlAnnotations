@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L13)
---- @class EffectFactoryMixin
+ --- @class EffectFactoryMixin
 EffectFactoryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L16)

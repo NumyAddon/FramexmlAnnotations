@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L662)
---- @class SettingsCallbackHandleContainerMixin : CallbackHandleContainerMixin
+ --- @class SettingsCallbackHandleContainerMixin : CallbackHandleContainerMixin
 SettingsCallbackHandleContainerMixin = CreateFromMixins(CallbackHandleContainerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L46)
---- @class SettingsSearchableElementMixin
+ --- @class SettingsSearchableElementMixin
 SettingsSearchableElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L230)
---- @class SettingsControlTextContainerMixin
+ --- @class SettingsControlTextContainerMixin
 SettingsControlTextContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L274)
---- @class SettingsSliderOptionsMixin
+ --- @class SettingsSliderOptionsMixin
 SettingsSliderOptionsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L48)

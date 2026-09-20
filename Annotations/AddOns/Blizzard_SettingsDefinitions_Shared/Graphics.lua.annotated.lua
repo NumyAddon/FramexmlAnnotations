@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L356)
---- @class SettingsAdvancedQualitySectionMixin : SettingsExpandableSectionMixin
+ --- @class SettingsAdvancedQualitySectionMixin : SettingsExpandableSectionMixin
 SettingsAdvancedQualitySectionMixin = CreateFromMixins(SettingsExpandableSectionMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L402)
---- @class SettingsAdvancedSliderMixin : DefaultTooltipMixin
+ --- @class SettingsAdvancedSliderMixin : DefaultTooltipMixin
 SettingsAdvancedSliderMixin = CreateFromMixins(DefaultTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L412)
---- @class SettingsAdvancedCheckboxSliderMixin : DefaultTooltipMixin
+ --- @class SettingsAdvancedCheckboxSliderMixin : DefaultTooltipMixin
 SettingsAdvancedCheckboxSliderMixin = CreateFromMixins(DefaultTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L422)
---- @class SettingsAdvancedDropdownMixin : DefaultTooltipMixin
+ --- @class SettingsAdvancedDropdownMixin : DefaultTooltipMixin
 SettingsAdvancedDropdownMixin = CreateFromMixins(DefaultTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L83)
---- @class SettingsAdvancedQualityControlsMixin
+ --- @class SettingsAdvancedQualityControlsMixin
 SettingsAdvancedQualityControlsMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L85)

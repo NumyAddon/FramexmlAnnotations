@@ -1,39 +1,39 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.lua#L1183)
---- @class TalentButtonSpendMixin : TalentButtonBaseMixin
+ --- @class TalentButtonSpendMixin : TalentButtonBaseMixin
 TalentButtonSpendMixin = CreateFromMixins(TalentButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.lua#L1288)
---- @class TalentButtonSelectMixin : TalentButtonBaseMixin
+ --- @class TalentButtonSelectMixin : TalentButtonBaseMixin
 TalentButtonSelectMixin = CreateFromMixins(TalentButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.lua#L1625)
---- @class TalentButtonSplitSelectMixin : TalentButtonSelectMixin, TalentButtonSplitIconMixin
+ --- @class TalentButtonSplitSelectMixin : TalentButtonSelectMixin, TalentButtonSplitIconMixin
 TalentButtonSplitSelectMixin = CreateFromMixins(TalentButtonSelectMixin, TalentButtonSplitIconMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.lua#L27)
---- @class TalentDisplayMixin
+ --- @class TalentDisplayMixin
 TalentDisplayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.lua#L434)
---- @class TalentButtonBaseMixin
+ --- @class TalentButtonBaseMixin
 TalentButtonBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.lua#L764)
---- @class TalentButtonBasicArtMixin
+ --- @class TalentButtonBasicArtMixin
 TalentButtonBasicArtMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.lua#L861)
---- @class TalentButtonArtMixin
+ --- @class TalentButtonArtMixin
 TalentButtonArtMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.lua#L1168)
---- @class TalentButtonSplitIconMixin
+ --- @class TalentButtonSplitIconMixin
 TalentButtonSplitIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.lua#L1669)
---- @class TalentButtonSearchIconMixin
+ --- @class TalentButtonSearchIconMixin
 TalentButtonSearchIconMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.lua#L29)

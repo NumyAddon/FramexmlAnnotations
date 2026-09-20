@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L1)
---- @class ScrollBoxGridPaddingMixin : ScrollBoxPaddingMixin
+ --- @class ScrollBoxGridPaddingMixin : ScrollBoxPaddingMixin
 ScrollBoxGridPaddingMixin = CreateFromMixins(ScrollBoxPaddingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L29)
---- @class ScrollBoxListGridViewMixin : ScrollBoxListViewMixin
+ --- @class ScrollBoxListGridViewMixin : ScrollBoxListViewMixin
 ScrollBoxListGridViewMixin = CreateFromMixins(ScrollBoxListViewMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxGridView.lua#L3)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.lua#L543)
---- @class ProfessionsUnlearnButtonMixin
+ --- @class ProfessionsUnlearnButtonMixin
 ProfessionsUnlearnButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.lua#L851)
---- @class SpellBookCoreAbilitiesMixin
+ --- @class SpellBookCoreAbilitiesMixin
 SpellBookCoreAbilitiesMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.lua#L545)

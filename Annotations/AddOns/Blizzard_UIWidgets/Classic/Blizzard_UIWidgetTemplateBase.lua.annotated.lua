@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateBase.lua#L1)
---- @class UIWidgetTemplateTooltipFrameMixin
+ --- @class UIWidgetTemplateTooltipFrameMixin
 UIWidgetTemplateTooltipFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateBase.lua#L40)
---- @class UIWidgetBaseTemplateMixin
+ --- @class UIWidgetBaseTemplateMixin
 UIWidgetBaseTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateBase.lua#L57)
---- @class UIWidgetBaseResourceTemplateMixin
+ --- @class UIWidgetBaseResourceTemplateMixin
 UIWidgetBaseResourceTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateBase.lua#L86)
---- @class UIWidgetBaseCurrencyTemplateMixin
+ --- @class UIWidgetBaseCurrencyTemplateMixin
 UIWidgetBaseCurrencyTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateBase.lua#L118)
---- @class UIWidgetBaseColoredTextMixin
+ --- @class UIWidgetBaseColoredTextMixin
 UIWidgetBaseColoredTextMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetTemplateBase.lua#L3)

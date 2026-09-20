@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua#L205)
---- @class RaidProfilesMixin : SettingsDropdownControlMixin
+ --- @class RaidProfilesMixin : SettingsDropdownControlMixin
 RaidProfilesMixin = CreateFromMixins(SettingsDropdownControlMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua#L207)

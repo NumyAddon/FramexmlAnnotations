@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ObjectAPI/Classic/PlayerLocation.lua#L2)
---- @class PlayerLocationMixin
+ --- @class PlayerLocationMixin
 PlayerLocationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ObjectAPI/Classic/PlayerLocation.lua#L59)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.lua#L6)
---- @class SpellFlyoutMixin
+ --- @class SpellFlyoutMixin
 SpellFlyoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.lua#L7)
---- @class SpellFlyoutButtonMixin
+ --- @class SpellFlyoutButtonMixin
 SpellFlyoutButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.lua#L9)

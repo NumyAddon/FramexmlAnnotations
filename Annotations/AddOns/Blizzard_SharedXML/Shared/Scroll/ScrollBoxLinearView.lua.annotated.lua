@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L2)
---- @class ScrollBoxLinearPaddingMixin : ScrollBoxPaddingMixin
+ --- @class ScrollBoxLinearPaddingMixin : ScrollBoxPaddingMixin
 ScrollBoxLinearPaddingMixin = CreateFromMixins(ScrollBoxPaddingMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L21)
---- @class ScrollBoxLinearBaseViewMixin : ScrollBoxViewMixin
+ --- @class ScrollBoxLinearBaseViewMixin : ScrollBoxViewMixin
 ScrollBoxLinearBaseViewMixin = CreateFromMixins(ScrollBoxViewMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L104)
---- @class ScrollBoxListLinearViewMixin : ScrollBoxListViewMixin, ScrollBoxLinearBaseViewMixin
+ --- @class ScrollBoxListLinearViewMixin : ScrollBoxListViewMixin, ScrollBoxLinearBaseViewMixin
 ScrollBoxListLinearViewMixin = CreateFromMixins(ScrollBoxListViewMixin, ScrollBoxLinearBaseViewMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L147)
---- @class ScrollBoxLinearViewMixin : ScrollBoxLinearBaseViewMixin
+ --- @class ScrollBoxLinearViewMixin : ScrollBoxLinearBaseViewMixin
 ScrollBoxLinearViewMixin = CreateFromMixins(ScrollBoxLinearBaseViewMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxLinearView.lua#L4)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Shared/MainMenuBarMicroButtons.lua#L230)
---- @class SocialsMicroButtonMixin
+ --- @class SocialsMicroButtonMixin
 SocialsMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Shared/MainMenuBarMicroButtons.lua#L275)
---- @class GuildMicroButtonMixin
+ --- @class GuildMicroButtonMixin
 GuildMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Shared/MainMenuBarMicroButtons.lua#L232)

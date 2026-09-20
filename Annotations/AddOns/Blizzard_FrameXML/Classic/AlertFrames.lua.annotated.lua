@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L28)
---- @class AlertFrameExternallyAnchoredMixin : ContainedAlertSubSystemMixin
+ --- @class AlertFrameExternallyAnchoredMixin : ContainedAlertSubSystemMixin
 AlertFrameExternallyAnchoredMixin = CreateFromMixins(ContainedAlertSubSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L50)
---- @class AlertFrameAutoAnchoredMixin : ContainedAlertSubSystemMixin
+ --- @class AlertFrameAutoAnchoredMixin : ContainedAlertSubSystemMixin
 AlertFrameAutoAnchoredMixin = CreateFromMixins(ContainedAlertSubSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L82)
---- @class AlertFrameQueueMixin : ContainedAlertSubSystemMixin
+ --- @class AlertFrameQueueMixin : ContainedAlertSubSystemMixin
 AlertFrameQueueMixin = CreateFromMixins(ContainedAlertSubSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L6)
---- @class ContainedAlertSubSystemMixin
+ --- @class ContainedAlertSubSystemMixin
 ContainedAlertSubSystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L254)
---- @class AlertContainerMixin
+ --- @class AlertContainerMixin
 AlertContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L415)
---- @class AlertFrameMixin
+ --- @class AlertFrameMixin
 AlertFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L8)

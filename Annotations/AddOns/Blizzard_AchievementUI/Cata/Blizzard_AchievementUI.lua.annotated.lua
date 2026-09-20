@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1152)
---- @class AchievementsObjectivesMixin
+ --- @class AchievementsObjectivesMixin
 AchievementsObjectivesMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.lua#L1154)

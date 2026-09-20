@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L140)
---- @class EncounterJournalItemMixin
+ --- @class EncounterJournalItemMixin
 EncounterJournalItemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L205)
---- @class EncounterJournalItemHeaderMixin
+ --- @class EncounterJournalItemHeaderMixin
 EncounterJournalItemHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L217)
---- @class EncounterBossButtonMixin
+ --- @class EncounterBossButtonMixin
 EncounterBossButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2106)
---- @class EncounterSearchResultLGMixin
+ --- @class EncounterSearchResultLGMixin
 EncounterSearchResultLGMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2535)
---- @class EncounterJournalScrollBarOldMixin
+ --- @class EncounterJournalScrollBarOldMixin
 EncounterJournalScrollBarOldMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2541)
---- @class ModifiedInstanceIconMixin
+ --- @class ModifiedInstanceIconMixin
 ModifiedInstanceIconMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L142)

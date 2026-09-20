@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookProfessions.lua#L1)
---- @class ProfessionsUnlearnButtonMixin
+ --- @class ProfessionsUnlearnButtonMixin
 ProfessionsUnlearnButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookProfessions.lua#L3)

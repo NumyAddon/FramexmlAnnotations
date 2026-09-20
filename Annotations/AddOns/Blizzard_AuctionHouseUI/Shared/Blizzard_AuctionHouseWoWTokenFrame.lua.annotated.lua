@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.lua#L184)
---- @class WoWTokenSellFrameMixin : AuctionHouseSystemMixin
+ --- @class WoWTokenSellFrameMixin : AuctionHouseSystemMixin
 WoWTokenSellFrameMixin = CreateFromMixins(AuctionHouseSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.lua#L283)
---- @class WoWTokenDisplayMixin : AuctionHouseItemDisplayMixin
+ --- @class WoWTokenDisplayMixin : AuctionHouseItemDisplayMixin
 WoWTokenDisplayMixin = CreateFromMixins(AuctionHouseItemDisplayMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.lua#L186)

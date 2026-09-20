@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Minimap/Mists/Minimap.lua#L377)
---- @class MiniMapTrackingButtonMixin
+ --- @class MiniMapTrackingButtonMixin
 MiniMapTrackingButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Minimap/Mists/Minimap.lua#L379)

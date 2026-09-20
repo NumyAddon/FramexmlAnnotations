@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.lua#L3422)
---- @class GearManagerPopupFrameMixin
+ --- @class GearManagerPopupFrameMixin
 GearManagerPopupFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.lua#L3961)
---- @class PaperDollItemSlotButtonMixin
+ --- @class PaperDollItemSlotButtonMixin
 PaperDollItemSlotButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.lua#L3424)

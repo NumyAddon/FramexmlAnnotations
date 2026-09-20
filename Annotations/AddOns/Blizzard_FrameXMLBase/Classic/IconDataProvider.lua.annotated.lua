@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L43)
---- @class IconDataProviderMixin
+ --- @class IconDataProviderMixin
 IconDataProviderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L127)

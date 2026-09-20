@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.lua#L2)
---- @class TableInspectorAttributeDataProviderMixin : TableInspectorDataProviderMixin
+ --- @class TableInspectorAttributeDataProviderMixin : TableInspectorDataProviderMixin
 TableInspectorAttributeDataProviderMixin = CreateFromMixins(TableInspectorDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.lua#L165)
---- @class TableAttributeLineEditableMixin : TableAttributeLineMixin
+ --- @class TableAttributeLineEditableMixin : TableAttributeLineMixin
 TableAttributeLineEditableMixin = CreateFromMixins(TableAttributeLineMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.lua#L172)
---- @class TableAttributeLineReferenceMixin : TableAttributeLineMixin
+ --- @class TableAttributeLineReferenceMixin : TableAttributeLineMixin
 TableAttributeLineReferenceMixin = CreateFromMixins(TableAttributeLineMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.lua#L179)
---- @class TableAttributeLineFixedValueMixin : TableAttributeLineMixin
+ --- @class TableAttributeLineFixedValueMixin : TableAttributeLineMixin
 TableAttributeLineFixedValueMixin = CreateFromMixins(TableAttributeLineMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.lua#L140)
---- @class TableAttributeLineMixin
+ --- @class TableAttributeLineMixin
 TableAttributeLineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.lua#L186)
---- @class TableAttributeLineTitleMixin
+ --- @class TableAttributeLineTitleMixin
 TableAttributeLineTitleMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspectorAttributeDataProvider.lua#L4)

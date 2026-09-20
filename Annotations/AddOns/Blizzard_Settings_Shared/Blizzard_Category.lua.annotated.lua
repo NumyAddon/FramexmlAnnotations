@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Category.lua#L1)
---- @class SettingsCategoryMixin
+ --- @class SettingsCategoryMixin
 SettingsCategoryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Category.lua#L6)

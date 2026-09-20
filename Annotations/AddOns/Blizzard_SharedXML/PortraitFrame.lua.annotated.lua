@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L35)
---- @class DefaultPanelMixin : TitledPanelMixin
+ --- @class DefaultPanelMixin : TitledPanelMixin
 DefaultPanelMixin = CreateFromMixins(TitledPanelMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L37)
---- @class PortraitFrameMixin : TitledPanelMixin
+ --- @class PortraitFrameMixin : TitledPanelMixin
 PortraitFrameMixin = CreateFromMixins(TitledPanelMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L2)
---- @class TitledPanelMixin
+ --- @class TitledPanelMixin
 TitledPanelMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L104)
---- @class PortraitFrameFlatBaseMixin
+ --- @class PortraitFrameFlatBaseMixin
 PortraitFrameFlatBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L4)

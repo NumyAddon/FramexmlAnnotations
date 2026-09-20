@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L3)
---- @class CommentatorNamePlateMixin
+ --- @class CommentatorNamePlateMixin
 CommentatorNamePlateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L251)
---- @class CommentatorNamePlateBorderTemplateMixin
+ --- @class CommentatorNamePlateBorderTemplateMixin
 CommentatorNamePlateBorderTemplateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L5)

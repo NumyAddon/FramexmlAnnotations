@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Menu/Menu.lua#L117)
---- @class SharedMenuPropertiesMixin
+ --- @class SharedMenuPropertiesMixin
 SharedMenuPropertiesMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Menu/Menu.lua#L120)

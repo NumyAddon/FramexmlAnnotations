@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L314)
---- @class TransmogPendingInfoMixin
+ --- @class TransmogPendingInfoMixin
 TransmogPendingInfoMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L325)
---- @class TransmogLocationMixin
+ --- @class TransmogLocationMixin
 TransmogLocationMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXMLUtil/Classic/TransmogUtil.lua#L316)

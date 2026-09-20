@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Cata/InspectGuildFrame.lua#L2)
---- @class InspectGuildFrameMixin
+ --- @class InspectGuildFrameMixin
 InspectGuildFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Cata/InspectGuildFrame.lua#L4)

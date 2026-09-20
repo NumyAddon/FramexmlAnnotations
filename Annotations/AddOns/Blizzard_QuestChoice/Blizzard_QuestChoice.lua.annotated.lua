@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_QuestChoice/Blizzard_QuestChoice.lua#L11)
---- @class QuestChoiceMixin
+ --- @class QuestChoiceMixin
 QuestChoiceMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_QuestChoice/Blizzard_QuestChoice.lua#L13)

@@ -1,51 +1,51 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L5)
---- @class WardrobeFrameMixin : CallbackRegistryMixin
+ --- @class WardrobeFrameMixin : CallbackRegistryMixin
 WardrobeFrameMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L22)
---- @class TransmogFrameMixin
+ --- @class TransmogFrameMixin
 TransmogFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L457)
---- @class WardrobeOutfitDropdownOverrideMixin
+ --- @class WardrobeOutfitDropdownOverrideMixin
 WardrobeOutfitDropdownOverrideMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L477)
---- @class TransmogSlotButtonMixin
+ --- @class TransmogSlotButtonMixin
 TransmogSlotButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L836)
---- @class WardrobeTransmogClearAllPendingButtonMixin
+ --- @class WardrobeTransmogClearAllPendingButtonMixin
 WardrobeTransmogClearAllPendingButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L903)
---- @class WardrobeCollectionFrameMixin
+ --- @class WardrobeCollectionFrameMixin
 WardrobeCollectionFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L1247)
---- @class WardrobeItemsCollectionSlotButtonMixin
+ --- @class WardrobeItemsCollectionSlotButtonMixin
 WardrobeItemsCollectionSlotButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L1271)
---- @class WardrobeItemsCollectionMixin
+ --- @class WardrobeItemsCollectionMixin
 WardrobeItemsCollectionMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L2129)
---- @class TransmogToggleSecondaryAppearanceCheckboxMixin
+ --- @class TransmogToggleSecondaryAppearanceCheckboxMixin
 TransmogToggleSecondaryAppearanceCheckboxMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L2143)
---- @class WardrobeItemsModelMixin
+ --- @class WardrobeItemsModelMixin
 WardrobeItemsModelMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L2351)
---- @class WardrobeCollectionFrameSearchBoxProgressMixin
+ --- @class WardrobeCollectionFrameSearchBoxProgressMixin
 WardrobeCollectionFrameSearchBoxProgressMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L2394)
---- @class WardrobeCollectionFrameSearchBoxMixin
+ --- @class WardrobeCollectionFrameSearchBoxMixin
 WardrobeCollectionFrameSearchBoxMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.lua#L12)

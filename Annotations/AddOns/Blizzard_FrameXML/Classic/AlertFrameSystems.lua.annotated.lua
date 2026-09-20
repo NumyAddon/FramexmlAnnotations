@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.lua#L1066)
---- @class NewPetAlertFrameMixin : ItemAlertFrameMixin
+ --- @class NewPetAlertFrameMixin : ItemAlertFrameMixin
 NewPetAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.lua#L1092)
---- @class NewMountAlertFrameMixin : ItemAlertFrameMixin
+ --- @class NewMountAlertFrameMixin : ItemAlertFrameMixin
 NewMountAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.lua#L1117)
---- @class NewToyAlertFrameMixin : ItemAlertFrameMixin
+ --- @class NewToyAlertFrameMixin : ItemAlertFrameMixin
 NewToyAlertFrameMixin = CreateFromMixins(ItemAlertFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.lua#L1051)
---- @class ItemAlertFrameMixin
+ --- @class ItemAlertFrameMixin
 ItemAlertFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.lua#L1134)
---- @class ChallengeModeAlertFrameRewardMixin
+ --- @class ChallengeModeAlertFrameRewardMixin
 ChallengeModeAlertFrameRewardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.lua#L1135)
---- @class ChallengeModeAlertFrameMixin
+ --- @class ChallengeModeAlertFrameMixin
 ChallengeModeAlertFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.lua#L1053)

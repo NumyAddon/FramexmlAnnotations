@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetManager.lua#L9)
---- @class UIWidgetManagerMixin
+ --- @class UIWidgetManagerMixin
 UIWidgetManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIWidgets/Classic/Blizzard_UIWidgetManager.lua#L11)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendshipStatusBar.lua#L1)
---- @class NPCFriendshipStatusBarMixin
+ --- @class NPCFriendshipStatusBarMixin
 NPCFriendshipStatusBarMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendshipStatusBar.lua#L3)

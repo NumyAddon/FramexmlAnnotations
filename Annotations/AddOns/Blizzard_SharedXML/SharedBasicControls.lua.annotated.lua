@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L7)
---- @class BaseTextTimerMixin
+ --- @class BaseTextTimerMixin
 BaseTextTimerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L74)
---- @class BaseExpandableDialogMixin
+ --- @class BaseExpandableDialogMixin
 BaseExpandableDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L90)
---- @class BaseNineSliceDialogMixin
+ --- @class BaseNineSliceDialogMixin
 BaseNineSliceDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L9)

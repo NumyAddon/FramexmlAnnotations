@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.lua#L1048)
---- @class QuestInfoRewardSpellCodeMixin
+ --- @class QuestInfoRewardSpellCodeMixin
 QuestInfoRewardSpellCodeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.lua#L1050)

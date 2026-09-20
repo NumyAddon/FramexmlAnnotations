@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L164)
---- @class ModelSceneZoomButtonMixin : ModelSceneControlButtonMixin
+ --- @class ModelSceneZoomButtonMixin : ModelSceneControlButtonMixin
 ModelSceneZoomButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L192)
---- @class ModelScenelRotateButtonMixin : ModelSceneControlButtonMixin
+ --- @class ModelScenelRotateButtonMixin : ModelSceneControlButtonMixin
 ModelScenelRotateButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L235)
---- @class ModelSceneResetButtonMixin : ModelSceneControlButtonMixin
+ --- @class ModelSceneResetButtonMixin : ModelSceneControlButtonMixin
 ModelSceneResetButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L7)
---- @class ModelSceneControlFrameMixin
+ --- @class ModelSceneControlFrameMixin
 ModelSceneControlFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L113)
---- @class ModelSceneControlButtonMixin
+ --- @class ModelSceneControlButtonMixin
 ModelSceneControlButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L8)

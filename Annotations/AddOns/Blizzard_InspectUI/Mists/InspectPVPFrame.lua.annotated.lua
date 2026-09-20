@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Mists/InspectPVPFrame.lua#L3)
---- @class InspectPVPFrameMixin
+ --- @class InspectPVPFrameMixin
 InspectPVPFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Mists/InspectPVPFrame.lua#L5)

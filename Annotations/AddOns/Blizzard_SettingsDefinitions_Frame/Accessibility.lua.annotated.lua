@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Accessibility.lua#L1)
---- @class QuestTextPreviewMixin
+ --- @class QuestTextPreviewMixin
 QuestTextPreviewMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Accessibility.lua#L21)
---- @class ArachnophobiaMixin
+ --- @class ArachnophobiaMixin
 ArachnophobiaMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Accessibility.lua#L3)

@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedMapDataProviders/GroupMembersDataProvider.lua#L1)
---- @class GroupMembersDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class GroupMembersDataProviderMixin : MapCanvasDataProviderMixin
 GroupMembersDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedMapDataProviders/GroupMembersDataProvider.lua#L63)
---- @class GroupMembersPinMixin : MapCanvasPinMixin
+ --- @class GroupMembersPinMixin : MapCanvasPinMixin
 GroupMembersPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedMapDataProviders/GroupMembersDataProvider.lua#L3)

@@ -1,55 +1,55 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L14)
---- @class GuildBankFrameMixin
+ --- @class GuildBankFrameMixin
 GuildBankFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L560)
---- @class GuildBankTabButtonMixin
+ --- @class GuildBankTabButtonMixin
 GuildBankTabButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L600)
---- @class GuildBankFrameTabMixin
+ --- @class GuildBankFrameTabMixin
 GuildBankFrameTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L638)
---- @class GuildBankTabMixin
+ --- @class GuildBankTabMixin
 GuildBankTabMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L671)
---- @class GuildBankFrameDepositButtonMixin
+ --- @class GuildBankFrameDepositButtonMixin
 GuildBankFrameDepositButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L684)
---- @class GuildBankFrameWithdrawButtonMixin
+ --- @class GuildBankFrameWithdrawButtonMixin
 GuildBankFrameWithdrawButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L697)
---- @class GuildBankItemButtonMixin
+ --- @class GuildBankItemButtonMixin
 GuildBankItemButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L853)
---- @class GuildBankPopupFrameMixin
+ --- @class GuildBankPopupFrameMixin
 GuildBankPopupFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L973)
---- @class GuildBankPopupButtonMixin
+ --- @class GuildBankPopupButtonMixin
 GuildBankPopupButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L984)
---- @class GuildBankPopupCancelButtonMixin
+ --- @class GuildBankPopupCancelButtonMixin
 GuildBankPopupCancelButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L992)
---- @class GuildBankPopupOkayButtonMixin
+ --- @class GuildBankPopupOkayButtonMixin
 GuildBankPopupOkayButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L1000)
---- @class GuildBankPopupEditBoxMixin
+ --- @class GuildBankPopupEditBoxMixin
 GuildBankPopupEditBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L1014)
---- @class GuildItemSearchBoxMixin
+ --- @class GuildItemSearchBoxMixin
 GuildItemSearchBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.lua#L16)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxPadding.lua#L2)
---- @class ScrollBoxPaddingMixin
+ --- @class ScrollBoxPaddingMixin
 ScrollBoxPaddingMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxPadding.lua#L4)

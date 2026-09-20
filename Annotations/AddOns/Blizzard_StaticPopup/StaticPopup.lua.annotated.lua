@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_StaticPopup/StaticPopup.lua#L914)
---- @class StaticPopupEditBoxMixin
+ --- @class StaticPopupEditBoxMixin
 StaticPopupEditBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_StaticPopup/StaticPopup.lua#L1335)
---- @class StaticPopupItemFrameMixin
+ --- @class StaticPopupItemFrameMixin
 StaticPopupItemFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_StaticPopup/StaticPopup.lua#L920)

@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L5)
---- @class SpellActivationOverlayMixin
+ --- @class SpellActivationOverlayMixin
 SpellActivationOverlayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L176)
---- @class SpellActivationOverlayTextureMixin
+ --- @class SpellActivationOverlayTextureMixin
 SpellActivationOverlayTextureMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L182)
---- @class SpellActivationOverlayFadeInAnimMixin
+ --- @class SpellActivationOverlayFadeInAnimMixin
 SpellActivationOverlayFadeInAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L194)
---- @class SpellActivationOverlayFadeOutAnimMixin
+ --- @class SpellActivationOverlayFadeOutAnimMixin
 SpellActivationOverlayFadeOutAnimMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L7)

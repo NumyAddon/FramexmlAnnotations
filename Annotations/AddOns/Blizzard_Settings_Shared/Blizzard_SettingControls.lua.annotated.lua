@@ -1,75 +1,75 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L64)
---- @class SettingsListSectionHeaderMixin : DefaultTooltipMixin
+ --- @class SettingsListSectionHeaderMixin : DefaultTooltipMixin
 SettingsListSectionHeaderMixin = CreateFromMixins(DefaultTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L138)
---- @class SettingsListPanelInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin, SettingsNewTagMixin
+ --- @class SettingsListPanelInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin, SettingsNewTagMixin
 SettingsListPanelInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin, SettingsNewTagMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L140)
---- @class SettingsListElementInitializer : ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin
+ --- @class SettingsListElementInitializer : ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin
 SettingsListElementInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L291)
---- @class SettingsControlMixin : SettingsListElementMixin
+ --- @class SettingsControlMixin : SettingsListElementMixin
 SettingsControlMixin = CreateFromMixins(SettingsListElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L349)
---- @class SettingsCheckboxMixin : CallbackRegistryMixin, DefaultTooltipMixin
+ --- @class SettingsCheckboxMixin : CallbackRegistryMixin, DefaultTooltipMixin
 SettingsCheckboxMixin = CreateFromMixins(CallbackRegistryMixin, DefaultTooltipMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L379)
---- @class SettingsCheckboxControlMixin : SettingsControlMixin
+ --- @class SettingsCheckboxControlMixin : SettingsControlMixin
 SettingsCheckboxControlMixin = CreateFromMixins(SettingsControlMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L456)
---- @class SettingsSliderControlMixin : SettingsControlMixin
+ --- @class SettingsSliderControlMixin : SettingsControlMixin
 SettingsSliderControlMixin = CreateFromMixins(SettingsControlMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L513)
---- @class SettingsDropdownControlMixin : SettingsControlMixin
+ --- @class SettingsDropdownControlMixin : SettingsControlMixin
 SettingsDropdownControlMixin = CreateFromMixins(SettingsControlMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L589)
---- @class SettingsButtonControlMixin : SettingsListElementMixin, SettingsNewTagMixin
+ --- @class SettingsButtonControlMixin : SettingsListElementMixin, SettingsNewTagMixin
 SettingsButtonControlMixin = CreateFromMixins(SettingsListElementMixin, SettingsNewTagMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L672)
---- @class SettingsCheckboxWithButtonControlMixin : SettingsControlMixin
+ --- @class SettingsCheckboxWithButtonControlMixin : SettingsControlMixin
 SettingsCheckboxWithButtonControlMixin = CreateFromMixins(SettingsControlMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L767)
---- @class SettingsCheckboxSliderControlMixin : SettingsListElementMixin
+ --- @class SettingsCheckboxSliderControlMixin : SettingsListElementMixin
 SettingsCheckboxSliderControlMixin = CreateFromMixins(SettingsListElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L878)
---- @class SettingsCheckboxDropdownControlMixin : SettingsListElementMixin
+ --- @class SettingsCheckboxDropdownControlMixin : SettingsListElementMixin
 SettingsCheckboxDropdownControlMixin = CreateFromMixins(SettingsListElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L980)
---- @class SettingsExpandableSectionInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin
+ --- @class SettingsExpandableSectionInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin
 SettingsExpandableSectionInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L3)
---- @class DefaultTooltipMixin
+ --- @class DefaultTooltipMixin
 DefaultTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L84)
---- @class SettingsElementHierarchyMixin
+ --- @class SettingsElementHierarchyMixin
 SettingsElementHierarchyMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L126)
---- @class SettingsNewTagMixin
+ --- @class SettingsNewTagMixin
 SettingsNewTagMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L222)
---- @class SettingsListElementMixin
+ --- @class SettingsListElementMixin
 SettingsListElementMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L957)
---- @class SettingsExpandableSectionMixin
+ --- @class SettingsExpandableSectionMixin
 SettingsExpandableSectionMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L5)

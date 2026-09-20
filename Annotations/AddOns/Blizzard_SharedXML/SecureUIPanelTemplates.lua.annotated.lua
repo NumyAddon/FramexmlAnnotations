@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L210)
---- @class UIButtonFitToTextBehaviorMixin
+ --- @class UIButtonFitToTextBehaviorMixin
 UIButtonFitToTextBehaviorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L222)
---- @class UIPanelButtonNoTooltipResizeToFitMixin
+ --- @class UIPanelButtonNoTooltipResizeToFitMixin
 UIPanelButtonNoTooltipResizeToFitMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L251)
---- @class LoadingSpinnerMixin
+ --- @class LoadingSpinnerMixin
 LoadingSpinnerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua#L212)

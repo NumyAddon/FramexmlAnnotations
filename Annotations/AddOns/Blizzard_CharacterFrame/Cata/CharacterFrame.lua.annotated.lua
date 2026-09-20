@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.lua#L52)
---- @class CharacterFrameMixin
+ --- @class CharacterFrameMixin
 CharacterFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.lua#L291)
---- @class CharacterFrameTabButtonMixin
+ --- @class CharacterFrameTabButtonMixin
 CharacterFrameTabButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.lua#L54)

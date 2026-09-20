@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.lua#L36)
---- @class HelpFrameMixin
+ --- @class HelpFrameMixin
 HelpFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.lua#L38)

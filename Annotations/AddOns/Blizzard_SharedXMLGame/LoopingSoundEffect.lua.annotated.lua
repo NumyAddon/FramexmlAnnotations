@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXMLGame/LoopingSoundEffect.lua#L2)
---- @class LoopingSoundEffectMixin
+ --- @class LoopingSoundEffectMixin
 LoopingSoundEffectMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXMLGame/LoopingSoundEffect.lua#L10)

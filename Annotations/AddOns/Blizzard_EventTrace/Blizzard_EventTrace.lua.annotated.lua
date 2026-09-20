@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.lua#L70)
---- @class EventTracePanelMixin : ToolWindowOwnerMixin
+ --- @class EventTracePanelMixin : ToolWindowOwnerMixin
 EventTracePanelMixin = CreateFromMixins(ToolWindowOwnerMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.lua#L50)
---- @class EventTraceButtonBehaviorMixin
+ --- @class EventTraceButtonBehaviorMixin
 EventTraceButtonBehaviorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.lua#L64)
---- @class EventTraceScrollBoxButtonMixin
+ --- @class EventTraceScrollBoxButtonMixin
 EventTraceScrollBoxButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.lua#L775)
---- @class EventTraceLogEventButtonMixin
+ --- @class EventTraceLogEventButtonMixin
 EventTraceLogEventButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.lua#L864)
---- @class EventTraceLogMessageButtonMixin
+ --- @class EventTraceLogMessageButtonMixin
 EventTraceLogMessageButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.lua#L888)
---- @class EventTraceFilterButtonMixin
+ --- @class EventTraceFilterButtonMixin
 EventTraceFilterButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.lua#L52)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.lua#L46)
---- @class KioskSessionFinishedDialogMixin : BaseExpandableDialogMixin
+ --- @class KioskSessionFinishedDialogMixin : BaseExpandableDialogMixin
 KioskSessionFinishedDialogMixin = CreateFromMixins(BaseExpandableDialogMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.lua#L4)
---- @class KioskFrameMixin
+ --- @class KioskFrameMixin
 KioskFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.lua#L40)
---- @class KioskSessionStartedDialogButtonMixin
+ --- @class KioskSessionStartedDialogButtonMixin
 KioskSessionStartedDialogButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Kiosk/Blizzard_Kiosk.lua#L6)

@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Mists/InspectTalentFrame.lua#L2)
---- @class InspectTalentFrameMixin
+ --- @class InspectTalentFrameMixin
 InspectTalentFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Mists/InspectTalentFrame.lua#L29)
---- @class InspectGlyphFrameGlyphMixin
+ --- @class InspectGlyphFrameGlyphMixin
 InspectGlyphFrameGlyphMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Mists/InspectTalentFrame.lua#L177)
---- @class InspectTalentFrameSpecMixin
+ --- @class InspectTalentFrameSpecMixin
 InspectTalentFrameSpecMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Mists/InspectTalentFrame.lua#L202)
---- @class InspectTalentButtonMixin
+ --- @class InspectTalentButtonMixin
 InspectTalentButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Mists/InspectTalentFrame.lua#L4)

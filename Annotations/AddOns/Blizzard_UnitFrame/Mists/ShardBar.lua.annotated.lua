@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Mists/ShardBar.lua#L7)
---- @class WarlockPowerFrameMixin
+ --- @class WarlockPowerFrameMixin
 WarlockPowerFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Mists/ShardBar.lua#L8)
---- @class ShardBarMixin
+ --- @class ShardBarMixin
 ShardBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Mists/ShardBar.lua#L9)
---- @class DemonicFuryBarMixin
+ --- @class DemonicFuryBarMixin
 DemonicFuryBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Mists/ShardBar.lua#L10)
---- @class BurningEmbersBarMixin
+ --- @class BurningEmbersBarMixin
 BurningEmbersBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Mists/ShardBar.lua#L13)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L1)
---- @class WardrobeOutfitDropdownMixin
+ --- @class WardrobeOutfitDropdownMixin
 WardrobeOutfitDropdownMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L423)
---- @class WardrobeOutfitEditFrameMixin
+ --- @class WardrobeOutfitEditFrameMixin
 WardrobeOutfitEditFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L446)
---- @class WardrobeOutfitCheckAppearancesMixin
+ --- @class WardrobeOutfitCheckAppearancesMixin
 WardrobeOutfitCheckAppearancesMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/WardrobeOutfits.lua#L3)

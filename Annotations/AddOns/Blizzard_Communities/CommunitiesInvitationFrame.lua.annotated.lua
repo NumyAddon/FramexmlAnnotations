@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.lua#L7)
---- @class CommunitiesInvitationFrameMixin
+ --- @class CommunitiesInvitationFrameMixin
 CommunitiesInvitationFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.lua#L129)
---- @class CommunitiesTicketFrameMixin
+ --- @class CommunitiesTicketFrameMixin
 CommunitiesTicketFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Communities/CommunitiesInvitationFrame.lua#L9)

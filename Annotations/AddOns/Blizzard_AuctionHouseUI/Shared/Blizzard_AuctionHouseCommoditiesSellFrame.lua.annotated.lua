@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCommoditiesSellFrame.lua#L2)
---- @class AuctionHouseCommoditiesSellFrameMixin : AuctionHouseSellFrameMixin
+ --- @class AuctionHouseCommoditiesSellFrameMixin : AuctionHouseSellFrameMixin
 AuctionHouseCommoditiesSellFrameMixin = CreateFromMixins(AuctionHouseSellFrameMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseCommoditiesSellFrame.lua#L8)

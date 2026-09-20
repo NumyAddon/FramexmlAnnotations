@@ -1,35 +1,35 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L197)
---- @class LayoutMixin : BaseLayoutMixin
+ --- @class LayoutMixin : BaseLayoutMixin
 LayoutMixin = CreateFromMixins(BaseLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L442)
---- @class ResizeLayoutMixin : BaseLayoutMixin
+ --- @class ResizeLayoutMixin : BaseLayoutMixin
 ResizeLayoutMixin = CreateFromMixins(BaseLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L619)
---- @class StaticGridLayoutFrameMixin : BaseLayoutMixin
+ --- @class StaticGridLayoutFrameMixin : BaseLayoutMixin
 StaticGridLayoutFrameMixin = CreateFromMixins(BaseLayoutMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L10)
---- @class BaseLayoutMixin
+ --- @class BaseLayoutMixin
 BaseLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L264)
---- @class VerticalLayoutMixin
+ --- @class VerticalLayoutMixin
 VerticalLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L361)
---- @class HorizontalLayoutMixin
+ --- @class HorizontalLayoutMixin
 HorizontalLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L528)
---- @class GridLayoutFrameMixin
+ --- @class GridLayoutFrameMixin
 GridLayoutFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L722)
---- @class OverrideLayoutFrameOnUpdateMixin
+ --- @class OverrideLayoutFrameOnUpdateMixin
 OverrideLayoutFrameOnUpdateMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L12)

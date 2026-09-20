@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.lua#L529)
---- @class PanningModelSceneMixin : ModelSceneMixin
+ --- @class PanningModelSceneMixin : ModelSceneMixin
 PanningModelSceneMixin = CreateFromMixins(ModelSceneMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.lua#L541)
---- @class NoCameraControlModelSceneMixin : ModelSceneMixin
+ --- @class NoCameraControlModelSceneMixin : ModelSceneMixin
 NoCameraControlModelSceneMixin = CreateFromMixins(ModelSceneMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.lua#L554)
---- @class NoZoomModelSceneMixin : ModelSceneMixin
+ --- @class NoZoomModelSceneMixin : ModelSceneMixin
 NoZoomModelSceneMixin = CreateFromMixins(ModelSceneMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.lua#L2)
---- @class ModelSceneMixin
+ --- @class ModelSceneMixin
 ModelSceneMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.lua#L5)

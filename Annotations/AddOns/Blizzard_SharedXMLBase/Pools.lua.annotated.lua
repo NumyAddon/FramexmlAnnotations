@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L16)
---- @class ObjectPoolBaseMixin
+ --- @class ObjectPoolBaseMixin
 ObjectPoolBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L253)
---- @class PoolCollectionBaseMixin
+ --- @class PoolCollectionBaseMixin
 PoolCollectionBaseMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L568)
---- @class FramePoolCollectionConverterMixin
+ --- @class FramePoolCollectionConverterMixin
 FramePoolCollectionConverterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L37)

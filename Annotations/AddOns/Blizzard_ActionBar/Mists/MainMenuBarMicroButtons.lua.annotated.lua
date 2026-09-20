@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Mists/MainMenuBarMicroButtons.lua#L189)
---- @class CollectionMicroButtonMixin
+ --- @class CollectionMicroButtonMixin
 CollectionMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Mists/MainMenuBarMicroButtons.lua#L274)
---- @class EJMicroButtonMixin
+ --- @class EJMicroButtonMixin
 EJMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Mists/MainMenuBarMicroButtons.lua#L363)
---- @class StoreMicroButtonMixin
+ --- @class StoreMicroButtonMixin
 StoreMicroButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Mists/MainMenuBarMicroButtons.lua#L199)

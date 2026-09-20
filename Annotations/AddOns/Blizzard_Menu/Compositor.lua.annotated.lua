@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Menu/Compositor.lua#L341)
---- @class CompositorMixin
+ --- @class CompositorMixin
 CompositorMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Menu/Compositor.lua#L379)

@@ -11,7 +11,7 @@ local CAST_BAR_SPARK_EXTRA_HEIGHT = 8;
 
 -- Displays the info about the unit to which the nameplate is attached.
 -- This mixin is a child of a frame that has been created in code and is using NamePlateBaseMixin.
-NamePlateUnitFrameMixin = {};--- @class NamePlateUnitFrameMixin
+NamePlateUnitFrameMixin = {}; --- @class NamePlateUnitFrameMixin
 
 function NamePlateUnitFrameMixin:OnLoad()
 	CompactUnitFrame_OnLoad(self);

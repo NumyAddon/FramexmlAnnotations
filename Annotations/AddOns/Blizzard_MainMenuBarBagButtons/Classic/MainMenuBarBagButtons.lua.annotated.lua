@@ -228,7 +228,7 @@ function MainMenuBarBackpackButton_UpdateFreeSlots()
 	MainMenuBarBackpackButtonCount:SetText(string.format(BACKPACK_FREESLOTS_FORMAT, totalFree));
 end
 
-BagSlotButtonMixin = {};--- @class BagSlotButtonMixin
+BagSlotButtonMixin = {}; --- @class BagSlotButtonMixin
 
 function BagSlotButtonMixin:OnLoad()
 	MainMenuBarBagManager:RegisterBagButton(self);

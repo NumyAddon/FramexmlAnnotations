@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.TugOfWar, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateTugOfWar"}, GetTugOfWarVisInfoData);
 
-UIWidgetTemplateTugOfWarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateTugOfWarMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateTugOfWarMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateTugOfWarMixin : UIWidgetBaseTemplateMixin
 
 local textureKitRegionInfo = {
 	["BarBackgroundMiddle"] = {formatString = "%s-Background-Middle", useAtlasSize = true, setVisibility = true},

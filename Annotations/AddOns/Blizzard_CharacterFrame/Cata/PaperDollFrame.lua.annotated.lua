@@ -3436,7 +3436,7 @@ function GearSetButton_OpenPopup(self)
 	GearManagerPopupFrame:Show();
 end
 
-GearManagerPopupFrameMixin = {};--- @class GearManagerPopupFrameMixin
+GearManagerPopupFrameMixin = {}; --- @class GearManagerPopupFrameMixin
 
 function GearManagerPopupFrameMixin:OnShow()
 	GearManagerPopupFrame.IconSelector:SetSize(494, 362);
@@ -3972,7 +3972,7 @@ function PaperDollFrame_SidebarTab_OnEnter(self)
 	GameTooltip:Show();
 end
 
-PaperDollItemSlotButtonMixin = {}--- @class PaperDollItemSlotButtonMixin
+PaperDollItemSlotButtonMixin = {} --- @class PaperDollItemSlotButtonMixin
 
 function PaperDollItemSlotButtonMixin:GetItemContextMatchResult()
 	return ItemButtonUtil.GetItemContextMatchResultForItem(ItemLocation:CreateFromEquipmentSlot(self:GetID()));

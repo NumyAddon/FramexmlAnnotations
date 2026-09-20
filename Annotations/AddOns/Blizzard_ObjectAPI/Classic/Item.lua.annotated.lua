@@ -1,5 +1,5 @@
 Item = {};
-ItemMixin = {};--- @class ItemMixin
+ItemMixin = {}; --- @class ItemMixin
 
 local ItemEventListener;
 

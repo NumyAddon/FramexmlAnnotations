@@ -1,4 +1,4 @@
-MapExplorationDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class MapExplorationDataProviderMixin : MapCanvasDataProviderMixin
+MapExplorationDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class MapExplorationDataProviderMixin : MapCanvasDataProviderMixin
 
 function MapExplorationDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -47,7 +47,7 @@ function MapExplorationDataProviderMixin:OnGlobalAlphaChanged()
 end
 
 --[[ THE Pin ]]--
-MapExplorationPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class MapExplorationPinMixin : MapCanvasPinMixin
+MapExplorationPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class MapExplorationPinMixin : MapCanvasPinMixin
 
 function MapExplorationPinMixin:OnLoad()
 	self:SetIgnoreGlobalPinScale(true);

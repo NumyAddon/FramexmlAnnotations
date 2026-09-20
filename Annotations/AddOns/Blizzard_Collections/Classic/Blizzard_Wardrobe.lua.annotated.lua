@@ -2,7 +2,7 @@ WARDROBE_TAB_ITEMS = 1;
 WARDROBE_TAB_SETS = 2;
 WARDROBE_TABS_MAX_WIDTH = 185;
 
-WardrobeCollectionFrameMixin = { };--- @class WardrobeCollectionFrameMixin
+WardrobeCollectionFrameMixin = { }; --- @class WardrobeCollectionFrameMixin
 
 function WardrobeCollectionFrameMixin:ClickTab(tab)
 	self:SetTab(tab:GetID());
@@ -286,7 +286,7 @@ function WardrobeCollectionFrameMixin:GetTooltipSourceIndex()
 	return self.tooltipSourceIndex;
 end
 
-WardrobeItemsCollectionSlotButtonMixin = { }--- @class WardrobeItemsCollectionSlotButtonMixin
+WardrobeItemsCollectionSlotButtonMixin = { } --- @class WardrobeItemsCollectionSlotButtonMixin
 
 function WardrobeItemsCollectionSlotButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.UI_TRANSMOG_GEAR_SLOT_CLICK);
@@ -310,7 +310,7 @@ function WardrobeItemsCollectionSlotButtonMixin:OnEnter()
 	GameTooltip:SetText(slotName);
 end
 
-WardrobeItemsCollectionMixin = { };--- @class WardrobeItemsCollectionMixin
+WardrobeItemsCollectionMixin = { }; --- @class WardrobeItemsCollectionMixin
 
 local spacingNoSmallButton = 2;
 local spacingWithSmallButton = 12;
@@ -1031,7 +1031,7 @@ end
 
 -- ***** MODELS
 
-WardrobeItemModelMixin = CreateFromMixins(ItemModelBaseMixin);--- @class WardrobeItemModelMixin : ItemModelBaseMixin
+WardrobeItemModelMixin = CreateFromMixins(ItemModelBaseMixin); --- @class WardrobeItemModelMixin : ItemModelBaseMixin
 
 -- Overridden.
 function WardrobeItemModelMixin:OnEnter()
@@ -1091,7 +1091,7 @@ function WardrobeItemModelMixin:GetAppearanceLink()
 	return link;
 end
 
-WardrobeCollectionFrameSearchBoxProgressMixin = { };--- @class WardrobeCollectionFrameSearchBoxProgressMixin
+WardrobeCollectionFrameSearchBoxProgressMixin = { }; --- @class WardrobeCollectionFrameSearchBoxProgressMixin
 
 function WardrobeCollectionFrameSearchBoxProgressMixin:OnLoad()
 	self:SetFrameLevel(self:GetParent():GetFrameLevel() + 15);
@@ -1134,7 +1134,7 @@ function WardrobeCollectionFrameSearchBoxProgressMixin:ShowProgressBar()
 	self:Show();
 end
 
-WardrobeCollectionFrameSearchBoxMixin = { }--- @class WardrobeCollectionFrameSearchBoxMixin
+WardrobeCollectionFrameSearchBoxMixin = { } --- @class WardrobeCollectionFrameSearchBoxMixin
 
 function WardrobeCollectionFrameSearchBoxMixin:OnLoad()
 	SearchBoxTemplate_OnLoad(self);

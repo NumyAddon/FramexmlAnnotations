@@ -2,7 +2,7 @@
 local ITEM_BUY_SCROLL_OFFSET_REFRESH_THRESHOLD = 30;
 
 
-AuctionHouseItemBuyFrameMixin = CreateFromMixins(AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin);--- @class AuctionHouseItemBuyFrameMixin : AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin
+AuctionHouseItemBuyFrameMixin = CreateFromMixins(AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin); --- @class AuctionHouseItemBuyFrameMixin : AuctionHouseBuySystemMixin, AuctionHouseSortOrderSystemMixin
 
 local AUCTION_HOUSE_ITEM_BUY_FRAME_EVENTS = {
 	"ITEM_SEARCH_RESULTS_UPDATED",
@@ -126,7 +126,7 @@ function AuctionHouseItemBuyFrameMixin:HasAuctionSelected()
 	return self.ItemList:GetSelectedEntry() ~= nil;
 end
 
-AuctionHouseItemBuyItemDisplayMixin = CreateFromMixins(AuctionHouseItemDisplayMixin);--- @class AuctionHouseItemBuyItemDisplayMixin : AuctionHouseItemDisplayMixin
+AuctionHouseItemBuyItemDisplayMixin = CreateFromMixins(AuctionHouseItemDisplayMixin); --- @class AuctionHouseItemBuyItemDisplayMixin : AuctionHouseItemDisplayMixin
 
 function AuctionHouseItemBuyItemDisplayMixin:OnLoad() 
 	AuctionHouseItemDisplayMixin.OnLoad(self);

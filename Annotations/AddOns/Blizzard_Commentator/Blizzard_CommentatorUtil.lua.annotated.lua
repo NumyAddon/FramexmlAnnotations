@@ -1,4 +1,4 @@
-FunctionThrottleMixin = {}--- @class FunctionThrottleMixin
+FunctionThrottleMixin = {} --- @class FunctionThrottleMixin
 
 function FunctionThrottleMixin:Init(threshold, func, owner)
 	self.elapsed = 0;

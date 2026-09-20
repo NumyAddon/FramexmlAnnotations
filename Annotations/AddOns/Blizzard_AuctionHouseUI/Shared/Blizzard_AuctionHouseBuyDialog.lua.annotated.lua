@@ -3,7 +3,7 @@ local REMAINING_QUOTE_DURATION_THRESHOLD = 10; -- seconds
 local MAXIMUM_PREVIEW_PRICE_DIFFERENTIAL = 1.05;
 
 
-AuctionHouseBuyDialogNotificationFrameMixin = {};--- @class AuctionHouseBuyDialogNotificationFrameMixin
+AuctionHouseBuyDialogNotificationFrameMixin = {}; --- @class AuctionHouseBuyDialogNotificationFrameMixin
 
 function AuctionHouseBuyDialogNotificationFrameMixin:SetNotificationText(notificationText, fontObject, showNotificationIcon)
 	self.Button:SetShown(showNotificationIcon);
@@ -27,7 +27,7 @@ function AuctionHouseBuyDialogNotificationFrameMixin:GetPriceIncreases()
 end
 
 
-AuctionHouseBuyDialogNotificationButtonMixin = {};--- @class AuctionHouseBuyDialogNotificationButtonMixin
+AuctionHouseBuyDialogNotificationButtonMixin = {}; --- @class AuctionHouseBuyDialogNotificationButtonMixin
 
 function AuctionHouseBuyDialogNotificationButtonMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
@@ -51,14 +51,14 @@ function AuctionHouseBuyDialogNotificationButtonMixin:OnLeave()
 end
 
 
-AuctionHouseBuyDialogButtonMixin = {};--- @class AuctionHouseBuyDialogButtonMixin
+AuctionHouseBuyDialogButtonMixin = {}; --- @class AuctionHouseBuyDialogButtonMixin
 
 function AuctionHouseBuyDialogButtonMixin:OnClick()
 	-- Implement in your derived mixin.
 end
 
 
-AuctionHouseBuyDialogBuyNowButtonMixin = CreateFromMixins(AuctionHouseBuyDialogButtonMixin);--- @class AuctionHouseBuyDialogBuyNowButtonMixin : AuctionHouseBuyDialogButtonMixin
+AuctionHouseBuyDialogBuyNowButtonMixin = CreateFromMixins(AuctionHouseBuyDialogButtonMixin); --- @class AuctionHouseBuyDialogBuyNowButtonMixin : AuctionHouseBuyDialogButtonMixin
 
 function AuctionHouseBuyDialogBuyNowButtonMixin:OnClick()
 	self:GetParent():BuyNow();
@@ -66,7 +66,7 @@ function AuctionHouseBuyDialogBuyNowButtonMixin:OnClick()
 end
 
 
-AuctionHouseBuyDialogCancelButtonMixin = CreateFromMixins(AuctionHouseBuyDialogButtonMixin);--- @class AuctionHouseBuyDialogCancelButtonMixin : AuctionHouseBuyDialogButtonMixin
+AuctionHouseBuyDialogCancelButtonMixin = CreateFromMixins(AuctionHouseBuyDialogButtonMixin); --- @class AuctionHouseBuyDialogCancelButtonMixin : AuctionHouseBuyDialogButtonMixin
 
 function AuctionHouseBuyDialogCancelButtonMixin:OnClick()
 	self:GetParent():Cancel();
@@ -74,7 +74,7 @@ function AuctionHouseBuyDialogCancelButtonMixin:OnClick()
 end
 
 
-AuctionHouseBuyDialogOkayButtonMixin = CreateFromMixins(AuctionHouseBuyDialogButtonMixin);--- @class AuctionHouseBuyDialogOkayButtonMixin : AuctionHouseBuyDialogButtonMixin
+AuctionHouseBuyDialogOkayButtonMixin = CreateFromMixins(AuctionHouseBuyDialogButtonMixin); --- @class AuctionHouseBuyDialogOkayButtonMixin : AuctionHouseBuyDialogButtonMixin
 
 function AuctionHouseBuyDialogOkayButtonMixin:OnClick()
 	self:GetParent():Cancel();
@@ -82,7 +82,7 @@ function AuctionHouseBuyDialogOkayButtonMixin:OnClick()
 end
 
 
-AuctionHouseBuyDialogMixin = CreateFromMixins(AuctionHouseSystemMixin);--- @class AuctionHouseBuyDialogMixin : AuctionHouseSystemMixin
+AuctionHouseBuyDialogMixin = CreateFromMixins(AuctionHouseSystemMixin); --- @class AuctionHouseBuyDialogMixin : AuctionHouseSystemMixin
 
 local AUCTION_HOUSE_BUY_DIALOG_EVENTS = {
 	"COMMODITY_PRICE_UPDATED",
@@ -91,7 +91,7 @@ local AUCTION_HOUSE_BUY_DIALOG_EVENTS = {
 	"COMMODITY_PURCHASE_FAILED",
 };
 
-local BuyState = EnumUtil.MakeEnum(--- @type {["WaitingForQuote"]: 1, ["PriceConfirmed"]: 2, ["PriceUpdated"]: 3, ["PriceUnavailable"]: 4, ["Purchasing"]: 5, ["Waiting"]: 6}
+local BuyState = EnumUtil.MakeEnum( --- @type {["WaitingForQuote"]: 1, ["PriceConfirmed"]: 2, ["PriceUpdated"]: 3, ["PriceUnavailable"]: 4, ["Purchasing"]: 5, ["Waiting"]: 6}
 	"WaitingForQuote",
 	"PriceConfirmed",
 	"PriceUpdated",

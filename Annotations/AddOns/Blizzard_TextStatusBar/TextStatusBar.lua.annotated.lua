@@ -28,7 +28,7 @@ STATUS_TEXT_DISPLAY_MODE = {
 	NONE = "NONE",
 };
 
-TextStatusBarMixin = {};--- @class TextStatusBarMixin
+TextStatusBarMixin = {}; --- @class TextStatusBarMixin
 
 function TextStatusBarMixin:InitializeTextStatusBar()
 	self:RegisterEvent("CVAR_UPDATE");
@@ -288,7 +288,7 @@ end
 
 -- Optional spark frame, shows at the end of a TextStatusBar's fill texture
 -- Essentially an endcap whose position follows current fill amount
-TextStatusBarSparkMixin = {};--- @class TextStatusBarSparkMixin
+TextStatusBarSparkMixin = {}; --- @class TextStatusBarSparkMixin
 
 function TextStatusBarSparkMixin:Initialize(statusBar)
 	self.statusBar = statusBar;

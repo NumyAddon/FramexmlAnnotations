@@ -1,4 +1,4 @@
-WorldMap_WorldQuestDataProviderMixin = CreateFromMixins(WorldQuestDataProviderMixin);--- @class WorldMap_WorldQuestDataProviderMixin : WorldQuestDataProviderMixin
+WorldMap_WorldQuestDataProviderMixin = CreateFromMixins(WorldQuestDataProviderMixin); --- @class WorldMap_WorldQuestDataProviderMixin : WorldQuestDataProviderMixin
 
 function WorldMap_WorldQuestDataProviderMixin:GetPinTemplate()
 	return "WorldMap_WorldQuestPinTemplate";
@@ -37,7 +37,7 @@ function WorldMap_WorldQuestDataProviderMixin:OnCanvasSizeChanged()
 	self.poiQuantizer:Resize(math.ceil(self.poiQuantizer.size * ratio), self.poiQuantizer.size);
 end
 
-WorldMap_WorldQuestPinMixin = CreateFromMixins(WorldQuestPinMixin);--- @class WorldMap_WorldQuestPinMixin : WorldQuestPinMixin
+WorldMap_WorldQuestPinMixin = CreateFromMixins(WorldQuestPinMixin); --- @class WorldMap_WorldQuestPinMixin : WorldQuestPinMixin
 
 function WorldMap_WorldQuestPinMixin:OnLoad()
 	WorldQuestPinMixin.OnLoad(self);

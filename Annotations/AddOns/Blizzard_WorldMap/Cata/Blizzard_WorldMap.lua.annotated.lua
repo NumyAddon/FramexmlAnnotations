@@ -1,4 +1,4 @@
-WorldMapMixin = {};--- @class WorldMapMixin
+WorldMapMixin = {}; --- @class WorldMapMixin
 
 function WorldMapMixin:SynchronizeDisplayState()
 	if self:IsMaximized() then

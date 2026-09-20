@@ -1,5 +1,5 @@
 
-GridSelectorFrameMixin = {};--- @class GridSelectorFrameMixin
+GridSelectorFrameMixin = {}; --- @class GridSelectorFrameMixin
 
 function GridSelectorFrameMixin:SetLayout(initialAnchor, layout, count)
 	if (self.initialAnchor ~= initialAnchor) or (self.layout ~= layout) or (self.count ~= count) then

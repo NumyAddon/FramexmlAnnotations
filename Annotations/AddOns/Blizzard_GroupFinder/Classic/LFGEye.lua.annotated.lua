@@ -8,7 +8,7 @@ LFG_EYE_TEXTURES["unknown"] = { file = "Interface\\LFGFrame\\WaitAnim", width = 
 -------------------------------------------------------
 ----------LFGEyeTemplateMixin
 -------------------------------------------------------
-LFGEyeTemplateMixin = {};--- @class LFGEyeTemplateMixin
+LFGEyeTemplateMixin = {}; --- @class LFGEyeTemplateMixin
 
 function LFGEyeTemplateMixin:OnLoad()
 	self:StopAnimating();

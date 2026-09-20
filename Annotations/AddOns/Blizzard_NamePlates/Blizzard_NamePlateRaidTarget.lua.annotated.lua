@@ -1,6 +1,6 @@
 -- Displays the info about the unit to which the nameplate is attached.
 -- This mixin is a child of a frame that has been created in code and is using NamePlateBaseMixin.
-NamePlateRaidTargetMixin = CreateFromMixins(NamePlateComponentMixin);--- @class NamePlateRaidTargetMixin : NamePlateComponentMixin
+NamePlateRaidTargetMixin = CreateFromMixins(NamePlateComponentMixin); --- @class NamePlateRaidTargetMixin : NamePlateComponentMixin
 
 function NamePlateRaidTargetMixin:SetRaidTargetIndex(raidTargetIndex)
 	if self.raidTargetIndex == raidTargetIndex then

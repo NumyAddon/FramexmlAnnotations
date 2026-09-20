@@ -1,4 +1,4 @@
-ArachnophobiaMixin = {};--- @class ArachnophobiaMixin
+ArachnophobiaMixin = {}; --- @class ArachnophobiaMixin
 
 function ArachnophobiaMixin:OnLoad()
 	SettingsCheckboxControlMixin.OnLoad(self);

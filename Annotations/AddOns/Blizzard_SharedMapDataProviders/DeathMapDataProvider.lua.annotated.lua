@@ -1,4 +1,4 @@
-DeathMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class DeathMapDataProviderMixin : MapCanvasDataProviderMixin
+DeathMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class DeathMapDataProviderMixin : MapCanvasDataProviderMixin
 
 function DeathMapDataProviderMixin:OnShow() 
 	self:RegisterEvent("CORPSE_POSITION_UPDATE");
@@ -40,7 +40,7 @@ function DeathMapDataProviderMixin:RefreshAllData(fromOnShow)
 	]]
 end
 
-CorpsePinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class CorpsePinMixin : MapCanvasPinMixin
+CorpsePinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class CorpsePinMixin : MapCanvasPinMixin
 
 function CorpsePinMixin:OnLoad()
 	WorldQuestPinMixin.OnLoad(self);
@@ -67,7 +67,7 @@ function CorpsePinMixin:OnMouseLeave()
 	WorldMapTooltip:Hide();
 end
 
-DeathReleasePinMixin = CreateFromMixins(CorpsePinMixin);--- @class DeathReleasePinMixin : CorpsePinMixin
+DeathReleasePinMixin = CreateFromMixins(CorpsePinMixin); --- @class DeathReleasePinMixin : CorpsePinMixin
 
 function DeathReleasePinMixin:OnMouseEnter()
 	local x, y = self:GetCenter();

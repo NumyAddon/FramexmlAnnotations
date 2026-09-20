@@ -1,5 +1,5 @@
 
-TalentSelectionChoiceFrameMixin = {};--- @class TalentSelectionChoiceFrameMixin
+TalentSelectionChoiceFrameMixin = {}; --- @class TalentSelectionChoiceFrameMixin
 
 local TALENT_SELECTION_FRAME_DIALOG_STYLE_EVENTS = {
 	"GLOBAL_MOUSE_DOWN",
@@ -165,7 +165,7 @@ function TalentSelectionChoiceFrameMixin:GetTalentFrame()
 end
 
 
-TalentSelectionChoiceMixin = {};--- @class TalentSelectionChoiceMixin
+TalentSelectionChoiceMixin = {}; --- @class TalentSelectionChoiceMixin
 
 function TalentSelectionChoiceMixin:Init(talentFrame)
 	TalentDisplayMixin.Init(self, talentFrame);
@@ -582,7 +582,7 @@ function TalentSelectionChoiceMixin:ShouldShowTooltipErrors()
 	return selectionBaseButton:ShouldShowTooltipErrors();
 end
 
-TalentSelectionChoiceArtMixin = CreateFromMixins(TalentSelectionChoiceMixin);--- @class TalentSelectionChoiceArtMixin : TalentSelectionChoiceMixin
+TalentSelectionChoiceArtMixin = CreateFromMixins(TalentSelectionChoiceMixin); --- @class TalentSelectionChoiceArtMixin : TalentSelectionChoiceMixin
 
 function TalentSelectionChoiceArtMixin:UpdateSearchIcon()
 	-- Overrides TalentButtonArtMixin.

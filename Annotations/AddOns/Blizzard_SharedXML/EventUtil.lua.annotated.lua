@@ -1,7 +1,7 @@
 
 EventUtil = {};
 
-local ContinueAfterAllEventsMixin = {};--- @class ContinueAfterAllEventsMixin
+local ContinueAfterAllEventsMixin = {}; --- @class ContinueAfterAllEventsMixin
 
 function ContinueAfterAllEventsMixin:Init(callback, ...)
 	self.events = {};
@@ -105,7 +105,7 @@ function EventUtil.RegisterOnceFrameEventAndCallback(frameEvent, callback, ...)
 	handle = EventRegistry:RegisterFrameEventAndCallbackWithHandle(frameEvent, CallbackWrapper);
 end
 
-CallbackHandleContainerMixin = {};--- @class CallbackHandleContainerMixin
+CallbackHandleContainerMixin = {}; --- @class CallbackHandleContainerMixin
 
 function CallbackHandleContainerMixin:Init()
 	self.handles = {};

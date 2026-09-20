@@ -4,7 +4,7 @@
 -------------------------------------------------------
 ----------LFGMinimapMixin
 -------------------------------------------------------
-LFGMinimapMixin = {};--- @class LFGMinimapMixin
+LFGMinimapMixin = {}; --- @class LFGMinimapMixin
 
 function LFGMinimapMixin:OnLoad()
 	self:RegisterEvent("PLAYER_ENTERING_WORLD");

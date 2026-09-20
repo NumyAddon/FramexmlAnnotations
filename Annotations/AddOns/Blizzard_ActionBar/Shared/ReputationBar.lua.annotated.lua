@@ -37,7 +37,7 @@ local levelUpAtlases =
 	"UI-HUD-ExperienceBar-Fill-Reputation-2x-Flipbook",
 };
 
-ReputationStatusBarMixin = {};--- @class ReputationStatusBarMixin
+ReputationStatusBarMixin = {}; --- @class ReputationStatusBarMixin
 
 function ReputationStatusBarMixin:UpdateCurrentText()
 	local maxLevel = self:GetMaxLevel();

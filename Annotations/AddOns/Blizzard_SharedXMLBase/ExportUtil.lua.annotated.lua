@@ -88,7 +88,7 @@ function ExportUtil.MakeImportDataStream(exportString)
 end
 
 
-ExportDataStreamMixin = {};--- @class ExportDataStreamMixin
+ExportDataStreamMixin = {}; --- @class ExportDataStreamMixin
 
 function ExportDataStreamMixin:Init()
 	self.dataEntries = {};
@@ -102,7 +102,7 @@ function ExportDataStreamMixin:GetExportString()
 	return ExportUtil.ConvertToBase64(self.dataEntries);
 end
 
-ImportDataStreamMixin = {};--- @class ImportDataStreamMixin
+ImportDataStreamMixin = {}; --- @class ImportDataStreamMixin
 
 function ImportDataStreamMixin:Init(exportString)
 	self.dataValues = ExportUtil.ConvertFromBase64(exportString);

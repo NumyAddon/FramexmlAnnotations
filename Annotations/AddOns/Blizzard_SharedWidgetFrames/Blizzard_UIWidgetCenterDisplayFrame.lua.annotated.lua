@@ -5,7 +5,7 @@ local widgetContainerYOffsetsByTextureKit = {
 	["completiondialog-warwithincampaign"] = 43,
 };
 
-WidgetCenterDisplayFrameMixin = { };--- @class WidgetCenterDisplayFrameMixin
+WidgetCenterDisplayFrameMixin = { }; --- @class WidgetCenterDisplayFrameMixin
 
 function WidgetCenterDisplayFrameMixin:OnLoad()
 	self:RegisterEvent("GENERIC_WIDGET_DISPLAY_SHOW");
@@ -94,14 +94,14 @@ function WidgetCenterDisplayFrameMixin:SetupButtons(displayInfo)
 	end 
 end
 
-UIWidgetCenterDisplayFrameButtonMixin = { };--- @class UIWidgetCenterDisplayFrameButtonMixin
+UIWidgetCenterDisplayFrameButtonMixin = { }; --- @class UIWidgetCenterDisplayFrameButtonMixin
 
 function UIWidgetCenterDisplayFrameButtonMixin:OnClick()
 	self:GetParent():Hide();
 	C_GenericWidgetDisplay.Close();
 end
 
-UIWidgetCenterDisplayFrameExtraButtonMixin = { };--- @class UIWidgetCenterDisplayFrameExtraButtonMixin
+UIWidgetCenterDisplayFrameExtraButtonMixin = { }; --- @class UIWidgetCenterDisplayFrameExtraButtonMixin
 
 function UIWidgetCenterDisplayFrameExtraButtonMixin:OnClick()
 	C_GenericWidgetDisplay.Acknowledge();

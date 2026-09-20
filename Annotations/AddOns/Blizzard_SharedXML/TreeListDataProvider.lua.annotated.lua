@@ -13,7 +13,7 @@ TreeDataProviderConstants =
 	IncludeCollapsed = false,
 };
 
-local TreeNodeMixin = {};--- @class TreeNodeMixin
+local TreeNodeMixin = {}; --- @class TreeNodeMixin
 
 local function CreateTreeNode(dataProvider, parent, data)
 	local node = CreateFromMixins(TreeNodeMixin);
@@ -211,7 +211,7 @@ local function EnumerateTreeListNode(root, excludeCollapsed)
 	return Enumerator;
 end
 
-TreeDataProviderMixin = CreateFromMixins(CallbackRegistryMixin);--- @class TreeDataProviderMixin : CallbackRegistryMixin
+TreeDataProviderMixin = CreateFromMixins(CallbackRegistryMixin); --- @class TreeDataProviderMixin : CallbackRegistryMixin
 
 TreeDataProviderMixin:GenerateCallbackEvents(
 	{
@@ -424,7 +424,7 @@ This was originally written as an optimization for larger tree data providers, b
 performance cost of linearizing the uncollapsed elements of small trees is neglibile by comparison,
 this has become the only variant expected to be used.
 --]]
-LinearizedTreeDataProviderMixin = CreateFromMixins(TreeDataProviderMixin);--- @class LinearizedTreeDataProviderMixin : TreeDataProviderMixin
+LinearizedTreeDataProviderMixin = CreateFromMixins(TreeDataProviderMixin); --- @class LinearizedTreeDataProviderMixin : TreeDataProviderMixin
 
 function LinearizedTreeDataProviderMixin:GetSize(excludeCollapsed)
 	assert(excludeCollapsed ~= nil, explicitParameterMsg);

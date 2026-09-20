@@ -1,5 +1,5 @@
 
-KeyringMixin = {};--- @class KeyringMixin
+KeyringMixin = {}; --- @class KeyringMixin
 
 function KeyringMixin:OnLoad()
 	if(not IsKeyRingEnabled()) then

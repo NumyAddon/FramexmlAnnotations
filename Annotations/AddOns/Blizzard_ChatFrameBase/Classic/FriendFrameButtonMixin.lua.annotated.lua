@@ -1,4 +1,4 @@
-FriendFrameButtonMixin = {};--- @class FriendFrameButtonMixin
+FriendFrameButtonMixin = {}; --- @class FriendFrameButtonMixin
 
 function FriendFrameButtonMixin:OnLoad()
 	local _, numBNetOnline = BNGetNumFriends();

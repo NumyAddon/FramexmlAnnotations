@@ -298,7 +298,7 @@ local function GetActiveBidList()
 end
 
 
-AuctionHouseFrameMixin = CreateFromMixins(CallbackRegistryMixin);--- @class AuctionHouseFrameMixin : CallbackRegistryMixin
+AuctionHouseFrameMixin = CreateFromMixins(CallbackRegistryMixin); --- @class AuctionHouseFrameMixin : CallbackRegistryMixin
 
 AuctionHouseFrameMixin:GenerateCallbackEvents(
 {

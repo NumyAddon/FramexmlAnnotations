@@ -180,7 +180,7 @@ function GMChatFrame_Close()
 	GMChatFrame:Hide();
 end
 
-GMChatStatusMixin = {};--- @class GMChatStatusMixin
+GMChatStatusMixin = {}; --- @class GMChatStatusMixin
 
 function GMChatStatusMixin:OnLoad()
 	self.TitleText:SetText(GM_CHAT_STATUS_READY);

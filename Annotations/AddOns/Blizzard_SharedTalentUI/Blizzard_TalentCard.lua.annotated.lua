@@ -2,7 +2,7 @@
 -- Talent cards are expanded displays attached to talent buttons for use in alternate displays
 -- like TalentFrameList to surface info like name/rank/description/etc.
 
-TalentCardMixin = {};--- @class TalentCardMixin
+TalentCardMixin = {}; --- @class TalentCardMixin
 
 function TalentCardMixin:Attach(talentButton)
 	self.talentButton = talentButton;
@@ -22,7 +22,7 @@ function TalentCardMixin:Update()
 	-- Override in your derived Mixin.
 end
 
-TalentDescriptionCardMixin = {};--- @class TalentDescriptionCardMixin
+TalentDescriptionCardMixin = {}; --- @class TalentDescriptionCardMixin
 
 function TalentDescriptionCardMixin:Update()
 	-- Overrides TalentCardMixin.
@@ -31,7 +31,7 @@ function TalentDescriptionCardMixin:Update()
 	self.Description:SetText(definitionInfo and TalentUtil.GetTalentDescriptionFromInfo(definitionInfo) or "");
 end
 
-TalentNameCardMixin = {};--- @class TalentNameCardMixin
+TalentNameCardMixin = {}; --- @class TalentNameCardMixin
 
 function TalentNameCardMixin:Update()
 	-- Overrides TalentCardMixin.

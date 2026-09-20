@@ -1,5 +1,5 @@
 
-TempMaxHealthLossMixin = {};--- @class TempMaxHealthLossMixin
+TempMaxHealthLossMixin = {}; --- @class TempMaxHealthLossMixin
 
 function TempMaxHealthLossMixin:InitializeMaxHealthLossBar(healthBarsContainer, healthBar, optionalTempMaxHealthLossDivider)
 	self.myHealthBarContainer = healthBarsContainer;

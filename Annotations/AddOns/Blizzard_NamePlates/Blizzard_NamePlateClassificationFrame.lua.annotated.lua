@@ -14,7 +14,7 @@ local PVP_CLASSIFICATION_ATLAS_ELEMENTS = {
 	[Enum.PvPUnitClassification.OrbCarrierPurple] = "nameplates-icon-orb-purple",
 }
 
-NamePlateClassificationFrameMixin = CreateFromMixins(NamePlateComponentMixin);--- @class NamePlateClassificationFrameMixin : NamePlateComponentMixin
+NamePlateClassificationFrameMixin = CreateFromMixins(NamePlateComponentMixin); --- @class NamePlateClassificationFrameMixin : NamePlateComponentMixin
 
 function NamePlateClassificationFrameMixin:OnLoad()
 	CVarCallbackRegistry:RegisterCallback(NamePlateConstants.INFO_DISPLAY_CVAR, self.OnInfoDisplayCVarChanged, self);

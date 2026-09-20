@@ -1,4 +1,4 @@
-QuestTimerMixin = {};--- @class QuestTimerMixin
+QuestTimerMixin = {}; --- @class QuestTimerMixin
 
 function QuestTimerMixin:OnLoad()
 	self.numTimers = 0;
@@ -47,7 +47,7 @@ function QuestTimerMixin:OnUpdate()
 	end
 end
 
-QuestTimerButtonMixin = {};--- @class QuestTimerButtonMixin
+QuestTimerButtonMixin = {}; --- @class QuestTimerButtonMixin
 
 function QuestTimerButtonMixin:OnClick()
 	ShowUIPanel(QuestLogFrame);

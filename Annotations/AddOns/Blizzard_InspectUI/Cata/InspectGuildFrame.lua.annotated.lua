@@ -1,5 +1,5 @@
 
-InspectGuildFrameMixin = {};--- @class InspectGuildFrameMixin
+InspectGuildFrameMixin = {}; --- @class InspectGuildFrameMixin
 
 function InspectGuildFrameMixin:OnLoad()
 	self:RegisterEvent("INSPECT_READY");

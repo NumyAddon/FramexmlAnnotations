@@ -1,4 +1,4 @@
-ChatAlertFrameMixin = {};--- @class ChatAlertFrameMixin
+ChatAlertFrameMixin = {}; --- @class ChatAlertFrameMixin
 
 function ChatAlertFrameMixin:OnLoad()
 	AlertContainerMixin.OnLoad(self);

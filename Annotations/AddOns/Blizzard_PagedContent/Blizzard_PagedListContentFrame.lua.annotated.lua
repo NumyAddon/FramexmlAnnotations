@@ -3,7 +3,7 @@
 	Relies on ViewFrames inheriting the appropriate LayoutFrames to arrange elements
 ]]
 
-BasePagedListContentFrameMixin = CreateFromMixins(PagedContentFrameBaseMixin);--- @class BasePagedListContentFrameMixin : PagedContentFrameBaseMixin
+BasePagedListContentFrameMixin = CreateFromMixins(PagedContentFrameBaseMixin); --- @class BasePagedListContentFrameMixin : PagedContentFrameBaseMixin
 
 function BasePagedListContentFrameMixin:InitializeElementSplit(splitData, viewFrame)
 	if not viewFrame.IsLayoutFrame or not viewFrame:IsLayoutFrame() then
@@ -49,7 +49,7 @@ end
 ----------------- Vertical List -----------------
 -- Vertical, single-column list of elements
 
-PagedVerticalListContentFrameMixin = CreateFromMixins(BasePagedListContentFrameMixin);--- @class PagedVerticalListContentFrameMixin : BasePagedListContentFrameMixin
+PagedVerticalListContentFrameMixin = CreateFromMixins(BasePagedListContentFrameMixin); --- @class PagedVerticalListContentFrameMixin : BasePagedListContentFrameMixin
 
 function PagedVerticalListContentFrameMixin:ProcessTemplateInfo(templateInfo)
 	templateInfo.verticalPadding = 0;
@@ -84,7 +84,7 @@ end
 ----------------- Horizontal List -----------------
 -- Horizontal, single-column list of elements
 
-PagedHorizontalListContentFrameMixin = CreateFromMixins(BasePagedListContentFrameMixin);--- @class PagedHorizontalListContentFrameMixin : BasePagedListContentFrameMixin
+PagedHorizontalListContentFrameMixin = CreateFromMixins(BasePagedListContentFrameMixin); --- @class PagedHorizontalListContentFrameMixin : BasePagedListContentFrameMixin
 
 function PagedHorizontalListContentFrameMixin:ProcessTemplateInfo(templateInfo)
 	templateInfo.horizontalPadding = 0;

@@ -1,4 +1,4 @@
-ProfessionsUnlearnButtonMixin = {};--- @class ProfessionsUnlearnButtonMixin
+ProfessionsUnlearnButtonMixin = {}; --- @class ProfessionsUnlearnButtonMixin
 
 function ProfessionsUnlearnButtonMixin:OnEnter()
     self.Icon:SetAlpha(1.0);

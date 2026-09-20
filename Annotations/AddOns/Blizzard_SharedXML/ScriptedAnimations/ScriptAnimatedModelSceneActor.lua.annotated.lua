@@ -1,5 +1,5 @@
 
-ScriptAnimatedModelSceneActorMixin = {};--- @class ScriptAnimatedModelSceneActorMixin
+ScriptAnimatedModelSceneActorMixin = {}; --- @class ScriptAnimatedModelSceneActorMixin
 
 function ScriptAnimatedModelSceneActorMixin:IsActive()
 	-- A duration of 0 is used for effects that last until canceled.

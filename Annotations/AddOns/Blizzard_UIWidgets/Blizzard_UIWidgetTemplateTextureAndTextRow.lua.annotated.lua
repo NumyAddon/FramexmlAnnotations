@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.TextureAndTextRow, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateTextureAndTextRow"}, GetTextureAndTextRowVisInfoData);
 
-UIWidgetTemplateTextureAndTextRowMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateTextureAndTextRowMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateTextureAndTextRowMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateTextureAndTextRowMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateTextureAndTextRowMixin:OnLoad()
 	UIWidgetBaseTemplateMixin.OnLoad(self); 

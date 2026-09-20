@@ -1,5 +1,5 @@
 
-TalentButtonSelectMixin = CreateFromMixins(TalentButtonBaseMixin);--- @class TalentButtonSelectMixin : TalentButtonBaseMixin
+TalentButtonSelectMixin = CreateFromMixins(TalentButtonBaseMixin); --- @class TalentButtonSelectMixin : TalentButtonBaseMixin
 
 function TalentButtonSelectMixin:OnLoad()
 	TalentButtonBaseMixin.OnLoad(self);
@@ -369,7 +369,7 @@ end
 
 -- This breaks the usual pattern of talent button's two hierarchies and
 -- inherits TalentButtonSplitIconMixin directly so that overrides are handled properly.
-TalentButtonSplitSelectMixin = CreateFromMixins(TalentButtonSelectMixin, TalentButtonSplitIconMixin);--- @class TalentButtonSplitSelectMixin : TalentButtonSelectMixin, TalentButtonSplitIconMixin
+TalentButtonSplitSelectMixin = CreateFromMixins(TalentButtonSelectMixin, TalentButtonSplitIconMixin); --- @class TalentButtonSplitSelectMixin : TalentButtonSelectMixin, TalentButtonSplitIconMixin
 
 function TalentButtonSplitSelectMixin:UpdateIconTexture()
 	-- Overrides TalentDisplayMixin.

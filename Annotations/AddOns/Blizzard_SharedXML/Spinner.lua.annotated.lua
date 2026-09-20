@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L2)
---- @class SpinnerMixin
+ --- @class SpinnerMixin
 SpinnerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L74)
---- @class SpinnerWithShadowMixin
+ --- @class SpinnerWithShadowMixin
 SpinnerWithShadowMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L4)

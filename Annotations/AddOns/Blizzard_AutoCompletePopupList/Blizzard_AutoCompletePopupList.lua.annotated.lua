@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AutoCompletePopupList/Blizzard_AutoCompletePopupList.lua#L2)
---- @class AutoCompletePopupListResultMixin
+ --- @class AutoCompletePopupListResultMixin
 AutoCompletePopupListResultMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AutoCompletePopupList/Blizzard_AutoCompletePopupList.lua#L74)
---- @class AutoCompletePopupListMixin
+ --- @class AutoCompletePopupListMixin
 AutoCompletePopupListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AutoCompletePopupList/Blizzard_AutoCompletePopupList.lua#L4)

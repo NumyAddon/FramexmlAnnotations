@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/AutoCastTemplates.lua#L9)
---- @class AutoCastOverlayMixin
+ --- @class AutoCastOverlayMixin
 AutoCastOverlayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/AutoCastTemplates.lua#L29)
---- @class AutoCastOverlayManagerMixin
+ --- @class AutoCastOverlayManagerMixin
 AutoCastOverlayManagerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/AutoCastTemplates.lua#L11)

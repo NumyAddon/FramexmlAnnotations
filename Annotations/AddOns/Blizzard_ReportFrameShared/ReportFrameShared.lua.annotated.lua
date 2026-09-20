@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L1)
---- @class SharedReportFrameMixin
+ --- @class SharedReportFrameMixin
 SharedReportFrameMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L240)
---- @class ScreenshotModeFrameMixin
+ --- @class ScreenshotModeFrameMixin
 ScreenshotModeFrameMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L276)
---- @class ReportingFrameMinorCategoryButtonMixin
+ --- @class ReportingFrameMinorCategoryButtonMixin
 ReportingFrameMinorCategoryButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L341)
---- @class ReportButtonMixin
+ --- @class ReportButtonMixin
 ReportButtonMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L440)
---- @class ReportInfoMixin
+ --- @class ReportInfoMixin
 ReportInfoMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.lua#L3)

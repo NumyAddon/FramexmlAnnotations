@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L44)
---- @class OverrideActionBarMixin
+ --- @class OverrideActionBarMixin
 OverrideActionBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L311)
---- @class OverrideActionBarButtonMixin
+ --- @class OverrideActionBarButtonMixin
 OverrideActionBarButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L46)

@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L17)
---- @class MainHelpPlateButtonMixin
+ --- @class MainHelpPlateButtonMixin
 MainHelpPlateButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L45)
---- @class HelpPlateButtonMixin
+ --- @class HelpPlateButtonMixin
 HelpPlateButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L127)
---- @class HelpPlateBoxMixin
+ --- @class HelpPlateBoxMixin
 HelpPlateBoxMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L135)
---- @class HelpPlateTileMixin
+ --- @class HelpPlateTileMixin
 HelpPlateTileMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L155)
---- @class HelpPlateTooltipMixin
+ --- @class HelpPlateTooltipMixin
 HelpPlateTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.lua#L19)

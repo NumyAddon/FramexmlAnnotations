@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateRaidTarget.lua#L3)
---- @class NamePlateRaidTargetMixin : NamePlateComponentMixin
+ --- @class NamePlateRaidTargetMixin : NamePlateComponentMixin
 NamePlateRaidTargetMixin = CreateFromMixins(NamePlateComponentMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateRaidTarget.lua#L5)

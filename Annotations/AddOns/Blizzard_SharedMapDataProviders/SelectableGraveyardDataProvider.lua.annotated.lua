@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SelectableGraveyardDataProvider.lua#L1)
---- @class SelectableGraveyardDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class SelectableGraveyardDataProviderMixin : MapCanvasDataProviderMixin
 SelectableGraveyardDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SelectableGraveyardDataProvider.lua#L3)

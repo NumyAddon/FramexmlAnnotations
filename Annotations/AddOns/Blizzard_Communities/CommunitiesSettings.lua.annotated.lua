@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.lua#L11)
---- @class CommunitiesSettingsDialogMixin
+ --- @class CommunitiesSettingsDialogMixin
 CommunitiesSettingsDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.lua#L416)
---- @class CommunitiesSettingsCrossFactionToggleMixin
+ --- @class CommunitiesSettingsCrossFactionToggleMixin
 CommunitiesSettingsCrossFactionToggleMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.lua#L13)

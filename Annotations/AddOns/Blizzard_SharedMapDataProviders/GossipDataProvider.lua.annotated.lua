@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/GossipDataProvider.lua#L1)
---- @class GossipDataProviderMixin : MapCanvasDataProviderMixin
+ --- @class GossipDataProviderMixin : MapCanvasDataProviderMixin
 GossipDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/GossipDataProvider.lua#L3)

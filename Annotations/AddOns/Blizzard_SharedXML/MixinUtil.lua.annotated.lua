@@ -1,23 +1,23 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L74)
---- @class LineMixin
+ --- @class LineMixin
 LineMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L97)
---- @class AnimatedNumericFontStringMixin
+ --- @class AnimatedNumericFontStringMixin
 AnimatedNumericFontStringMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L140)
---- @class SparseGridMixin
+ --- @class SparseGridMixin
 SparseGridMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L302)
---- @class TextureLoadingGroupMixin
+ --- @class TextureLoadingGroupMixin
 TextureLoadingGroupMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L337)
---- @class DirtiableMixin
+ --- @class DirtiableMixin
 DirtiableMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L76)

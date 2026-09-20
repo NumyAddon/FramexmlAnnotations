@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.lua#L2)
---- @class PetFrameMixin : PartyMemberAuraMixin
+ --- @class PetFrameMixin : PartyMemberAuraMixin
 PetFrameMixin = CreateFromMixins(PartyMemberAuraMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.lua#L4)

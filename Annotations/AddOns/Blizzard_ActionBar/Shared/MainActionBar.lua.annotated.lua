@@ -1,19 +1,19 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MainActionBar.lua#L3)
---- @class MainActionBarMixin
+ --- @class MainActionBarMixin
 MainActionBarMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MainActionBar.lua#L131)
---- @class MainActionBarUpButtonMixin
+ --- @class MainActionBarUpButtonMixin
 MainActionBarUpButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MainActionBar.lua#L144)
---- @class MainActionBarDownButtonMixin
+ --- @class MainActionBarDownButtonMixin
 MainActionBarDownButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MainActionBar.lua#L159)
---- @class MainActionBarSwappableButtonMixin
+ --- @class MainActionBarSwappableButtonMixin
 MainActionBarSwappableButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MainActionBar.lua#L5)

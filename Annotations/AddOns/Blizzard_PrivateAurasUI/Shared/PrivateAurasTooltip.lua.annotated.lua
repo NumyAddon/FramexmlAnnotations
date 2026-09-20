@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_PrivateAurasUI/Shared/PrivateAurasTooltip.lua#L1)
---- @class PrivateAurasTooltipMixin
+ --- @class PrivateAurasTooltipMixin
 PrivateAurasTooltipMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_PrivateAurasUI/Shared/PrivateAurasTooltip.lua#L3)

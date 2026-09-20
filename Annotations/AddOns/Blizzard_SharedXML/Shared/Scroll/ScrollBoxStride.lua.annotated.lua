@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxStride.lua#L1)
---- @class ScrollBoxListStrideMixin
+ --- @class ScrollBoxListStrideMixin
 ScrollBoxListStrideMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxStride.lua#L3)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/ButtonTray/ButtonTray.lua#L2)
---- @class BaseButtonTrayMixin
+ --- @class BaseButtonTrayMixin
 BaseButtonTrayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/ButtonTray/ButtonTray.lua#L36)
---- @class HorizontalButtonTrayMixin
+ --- @class HorizontalButtonTrayMixin
 HorizontalButtonTrayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/ButtonTray/ButtonTray.lua#L57)
---- @class GridButtonTrayMixin
+ --- @class GridButtonTrayMixin
 GridButtonTrayMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/ButtonTray/ButtonTray.lua#L4)

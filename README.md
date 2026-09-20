@@ -23,7 +23,7 @@ Generated annotations are limited to
     - Global frames
     - Frame Templates
     - Intrinsic Frame Templates
-    - Limited support for inheritance, children, and <KeyValues>
+    - Limited support for inheritance, children, and `<KeyValues>`
   - Mixins - some mixins, especially local ones, may be missing
     - "methods" for a given mixin
     - inheritance through `CreateFromMixins`

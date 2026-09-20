@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WowSurveyUI/Blizzard_WowSurveyUI.lua#L32)
---- @class WowSurveyStatusMixin
+ --- @class WowSurveyStatusMixin
 WowSurveyStatusMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WowSurveyUI/Blizzard_WowSurveyUI.lua#L34)

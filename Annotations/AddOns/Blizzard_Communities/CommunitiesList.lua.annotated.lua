@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesList.lua#L18)
---- @class CommunitiesListMixin
+ --- @class CommunitiesListMixin
 CommunitiesListMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesList.lua#L388)
---- @class CommunitiesListEntryMixin
+ --- @class CommunitiesListEntryMixin
 CommunitiesListEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesList.lua#L807)
---- @class CommunitiesListDropdownMixin
+ --- @class CommunitiesListDropdownMixin
 CommunitiesListDropdownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesList.lua#L20)

@@ -1,15 +1,15 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.lua#L24)
---- @class LargeDropDownMenuButtonMixin : DropDownMenuButtonMixin
+ --- @class LargeDropDownMenuButtonMixin : DropDownMenuButtonMixin
 LargeDropDownMenuButtonMixin = CreateFromMixins(DropDownMenuButtonMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.lua#L7)
---- @class DropDownMenuButtonMixin
+ --- @class DropDownMenuButtonMixin
 DropDownMenuButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.lua#L34)
---- @class UIDropDownCustomMenuEntryMixin
+ --- @class UIDropDownCustomMenuEntryMixin
 UIDropDownCustomMenuEntryMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.lua#L9)

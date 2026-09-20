@@ -1,11 +1,11 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L69)
---- @class DropdownButtonMixin : CallbackRegistryMixin
+ --- @class DropdownButtonMixin : CallbackRegistryMixin
 DropdownButtonMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L397)
---- @class DropdownButtonProxyMixin
+ --- @class DropdownButtonProxyMixin
 DropdownButtonProxyMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L79)

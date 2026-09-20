@@ -1,99 +1,99 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L3)
---- @class CatalogShopSectionHeaderMixin
+ --- @class CatalogShopSectionHeaderMixin
 CatalogShopSectionHeaderMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L27)
---- @class CatalogShopSectionHeaderOptOutLinkMixin
+ --- @class CatalogShopSectionHeaderOptOutLinkMixin
 CatalogShopSectionHeaderOptOutLinkMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L71)
---- @class SmallCatalogShopServicesCardMixin
+ --- @class SmallCatalogShopServicesCardMixin
 SmallCatalogShopServicesCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L106)
---- @class SmallCatalogShopSubscriptionCardMixin
+ --- @class SmallCatalogShopSubscriptionCardMixin
 SmallCatalogShopSubscriptionCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L146)
---- @class SmallCatalogShopGameTimeCardMixin
+ --- @class SmallCatalogShopGameTimeCardMixin
 SmallCatalogShopGameTimeCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L159)
---- @class SmallCatalogShopTenderCardMixin
+ --- @class SmallCatalogShopTenderCardMixin
 SmallCatalogShopTenderCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L200)
---- @class SmallCatalogShopToysCardMixin
+ --- @class SmallCatalogShopToysCardMixin
 SmallCatalogShopToysCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L231)
---- @class SmallCatalogShopDecorCardMixin
+ --- @class SmallCatalogShopDecorCardMixin
 SmallCatalogShopDecorCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L261)
---- @class SmallCatalogShopRoomCardMixin
+ --- @class SmallCatalogShopRoomCardMixin
 SmallCatalogShopRoomCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L291)
---- @class SmallCatalogShopExteriorTypeCardMixin
+ --- @class SmallCatalogShopExteriorTypeCardMixin
 SmallCatalogShopExteriorTypeCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L322)
---- @class SmallCatalogShopAccessCardMixin
+ --- @class SmallCatalogShopAccessCardMixin
 SmallCatalogShopAccessCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L360)
---- @class DetailsCatalogShopProductCardMixin
+ --- @class DetailsCatalogShopProductCardMixin
 DetailsCatalogShopProductCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L404)
---- @class DetailsCatalogShopServicesCardMixin
+ --- @class DetailsCatalogShopServicesCardMixin
 DetailsCatalogShopServicesCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L416)
---- @class DetailsCatalogShopSubscriptionCardMixin
+ --- @class DetailsCatalogShopSubscriptionCardMixin
 DetailsCatalogShopSubscriptionCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L428)
---- @class DetailsCatalogShopGameTimeCardMixin
+ --- @class DetailsCatalogShopGameTimeCardMixin
 DetailsCatalogShopGameTimeCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L440)
---- @class DetailsCatalogShopTenderCardMixin
+ --- @class DetailsCatalogShopTenderCardMixin
 DetailsCatalogShopTenderCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L452)
---- @class DetailsCatalogShopToysCardMixin
+ --- @class DetailsCatalogShopToysCardMixin
 DetailsCatalogShopToysCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L464)
---- @class DetailsCatalogShopDecorCardMixin
+ --- @class DetailsCatalogShopDecorCardMixin
 DetailsCatalogShopDecorCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L476)
---- @class DetailsCatalogShopRoomCardMixin
+ --- @class DetailsCatalogShopRoomCardMixin
 DetailsCatalogShopRoomCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L488)
---- @class DetailsCatalogShopExteriorTypeCardMixin
+ --- @class DetailsCatalogShopExteriorTypeCardMixin
 DetailsCatalogShopExteriorTypeCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L500)
---- @class DetailsCatalogShopAccessCardMixin
+ --- @class DetailsCatalogShopAccessCardMixin
 DetailsCatalogShopAccessCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L513)
---- @class WideSubscriptionCatalogShopCardMixin
+ --- @class WideSubscriptionCatalogShopCardMixin
 WideSubscriptionCatalogShopCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L526)
---- @class WideGameTimeCatalogShopCardMixin
+ --- @class WideGameTimeCatalogShopCardMixin
 WideGameTimeCatalogShopCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L539)
---- @class WideWoWTokenCatalogShopCardMixin
+ --- @class WideWoWTokenCatalogShopCardMixin
 WideWoWTokenCatalogShopCardMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.lua#L4)

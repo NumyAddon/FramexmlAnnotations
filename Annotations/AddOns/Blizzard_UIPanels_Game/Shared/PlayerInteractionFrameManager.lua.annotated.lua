@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L229)
---- @class PlayerInteractionFrameManagerMixin
+ --- @class PlayerInteractionFrameManagerMixin
 PlayerInteractionFrameManagerMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L231)

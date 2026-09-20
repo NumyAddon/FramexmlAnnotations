@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventFrame.lua#L2)
---- @class EventFrameMixin : CallbackRegistryMixin
+ --- @class EventFrameMixin : CallbackRegistryMixin
 EventFrameMixin = CreateFromMixins(CallbackRegistryMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/EventFrame.lua#L12)

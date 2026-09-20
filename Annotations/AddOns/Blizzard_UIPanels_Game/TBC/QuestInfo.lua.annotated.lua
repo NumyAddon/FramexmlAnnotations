@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.lua#L1018)
---- @class QuestInfoRewardSpellCodeMixin
+ --- @class QuestInfoRewardSpellCodeMixin
 QuestInfoRewardSpellCodeMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestInfo.lua#L1020)

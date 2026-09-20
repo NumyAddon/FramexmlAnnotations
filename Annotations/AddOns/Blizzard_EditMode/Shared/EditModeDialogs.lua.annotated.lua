@@ -1,27 +1,27 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.lua#L1)
---- @class EditModeBaseDialogMixin
+ --- @class EditModeBaseDialogMixin
 EditModeBaseDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.lua#L229)
---- @class EditModeLayoutDialogMixin
+ --- @class EditModeLayoutDialogMixin
 EditModeLayoutDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.lua#L281)
---- @class EditModeImportLayoutDialogMixin
+ --- @class EditModeImportLayoutDialogMixin
 EditModeImportLayoutDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.lua#L363)
---- @class EditModeImportLayoutLinkDialogMixin
+ --- @class EditModeImportLayoutLinkDialogMixin
 EditModeImportLayoutLinkDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.lua#L408)
---- @class EditModeUnsavedChangesDialogMixin
+ --- @class EditModeUnsavedChangesDialogMixin
 EditModeUnsavedChangesDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.lua#L480)
---- @class EditModeSystemSettingsDialogMixin
+ --- @class EditModeSystemSettingsDialogMixin
 EditModeSystemSettingsDialogMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.lua#L3)

@@ -1,7 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/ObjectUpdater.lua#L4)
---- @class ObjectUpdaterMixin
+ --- @class ObjectUpdaterMixin
 ObjectUpdaterMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/ObjectUpdater.lua#L5)

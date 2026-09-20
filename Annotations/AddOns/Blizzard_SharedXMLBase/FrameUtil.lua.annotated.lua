@@ -591,7 +591,7 @@ AnimTransitionMixinTransitionType = {
 	SlideBottom = 4,
 };
 
-AnimTransitionMixin = {};--- @class AnimTransitionMixin
+AnimTransitionMixin = {}; --- @class AnimTransitionMixin
 
 local DEFAULT_ANIM_TRANSITION_CONFIG = {
 	distanceX = nil, -- If nil, uses frame width

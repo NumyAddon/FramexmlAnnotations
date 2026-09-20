@@ -1,5 +1,5 @@
 
-UIButtonMixin = {}--- @class UIButtonMixin
+UIButtonMixin = {} --- @class UIButtonMixin
 
 function UIButtonMixin:InitButton()
 	if self.buttonArtKit then

@@ -1,6 +1,6 @@
 LOSS_OF_CONTROL_ACTIVE_INDEX = 1;
 
-CooldownCircleTrackerMixin = {};--- @class CooldownCircleTrackerMixin
+CooldownCircleTrackerMixin = {}; --- @class CooldownCircleTrackerMixin
 
 function CooldownCircleTrackerMixin:OnLoad()
 	local seconds = 60;
@@ -8,7 +8,7 @@ function CooldownCircleTrackerMixin:OnLoad()
 	self.Cooldown:SetSwipeColor(0, 0, 0, .7);
 end
 
-CommentatorUnitFrameMixin = {};--- @class CommentatorUnitFrameMixin
+CommentatorUnitFrameMixin = {}; --- @class CommentatorUnitFrameMixin
 
 local CommentatorUnitFrameEvents =
 {

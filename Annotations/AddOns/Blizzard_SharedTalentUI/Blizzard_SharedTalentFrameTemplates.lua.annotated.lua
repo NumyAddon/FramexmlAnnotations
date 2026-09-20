@@ -2,7 +2,7 @@
 -- A simple limit to avoid infinite loops
 local MAX_DISPLAYED_CURRENCIES = 10;
 
-TalentFrameCurrencyDisplayMixin = {};--- @class TalentFrameCurrencyDisplayMixin
+TalentFrameCurrencyDisplayMixin = {}; --- @class TalentFrameCurrencyDisplayMixin
 
 function TalentFrameCurrencyDisplayMixin:OnShow()
 	CallbackRegistrantMixin.OnShow(self);
@@ -43,7 +43,7 @@ function TalentFrameCurrencyDisplayMixin:Update()
 	self:MarkDirty();
 end
 
-TalentFrameGateMixin = {};--- @class TalentFrameGateMixin
+TalentFrameGateMixin = {}; --- @class TalentFrameGateMixin
 
 function TalentFrameGateMixin:Init(talentFrame, anchorButton, condInfo)
 	self.talentFrame = talentFrame;
@@ -78,7 +78,7 @@ function TalentFrameGateMixin:GetTalentFrame()
 	return self.talentFrame;
 end
 
-TraitsCommitControlsContainerMixin = {};--- @class TraitsCommitControlsContainerMixin
+TraitsCommitControlsContainerMixin = {}; --- @class TraitsCommitControlsContainerMixin
 
 -- If no frame is specified we'll use the direct parent
 function TraitsCommitControlsContainerMixin:Init()
@@ -156,7 +156,7 @@ function TraitsCommitControlsContainerMixin:ShouldShowResetButton()
 	return self.resetPopupData ~= nil;
 end
 
-TalentSubTreeHeaderMixin = {};--- @class TalentSubTreeHeaderMixin
+TalentSubTreeHeaderMixin = {}; --- @class TalentSubTreeHeaderMixin
 
 function TalentSubTreeHeaderMixin:OnLoad()
 	self:AddDynamicEventMethod(EventRegistry, "TalentFrameBase.ButtonsUpdated", self.OnButtonsUpdated);
@@ -183,13 +183,13 @@ function TalentSubTreeHeaderMixin:Update()
 	self.Info:SetText(subTreeInfo or "");
 end
 
-TalentFrameHeaderMixin = {};--- @class TalentFrameHeaderMixin
+TalentFrameHeaderMixin = {}; --- @class TalentFrameHeaderMixin
 
 function TalentFrameHeaderMixin:SetHeaderText(text)
 	self.Text:SetText(text);
 end
 
-TalentTreeSelectableButtonMixin = {};--- @class TalentTreeSelectableButtonMixin
+TalentTreeSelectableButtonMixin = {}; --- @class TalentTreeSelectableButtonMixin
 
 function SelectableButtonMixin:SetTreeID(treeID)
 	self.treeID = treeID;
@@ -209,7 +209,7 @@ function TalentTreeSelectableButtonMixin:SetSelectedState(isSelected)
 	SelectableButtonMixin.SetSelectedState(self, isSelected);
 end
 
-TalentFrameTreeSelectorMixin = {};--- @class TalentFrameTreeSelectorMixin
+TalentFrameTreeSelectorMixin = {}; --- @class TalentFrameTreeSelectorMixin
 
 function TalentFrameTreeSelectorMixin:OnLoad()
 	assert(self.buttonTemplate, "TalentFrameTreeSelectorMixin requires a buttonTemplate to be set as a key-value.");
@@ -245,14 +245,14 @@ function TalentFrameTreeSelectorMixin:SetTreeIDs(treeIDs, selectedTreeID)
 	end
 end
 
-TalentFrameTreeSelectorHorizontalMixin = {};--- @class TalentFrameTreeSelectorHorizontalMixin
+TalentFrameTreeSelectorHorizontalMixin = {}; --- @class TalentFrameTreeSelectorHorizontalMixin
 
 function TalentFrameTreeSelectorHorizontalMixin:OnShow()
 	BaseLayoutMixin.OnShow(self);
 	CallbackRegistrantMixin.OnShow(self);
 end
 
-TalentFrameStarGridMixin = {};--- @class TalentFrameStarGridMixin
+TalentFrameStarGridMixin = {}; --- @class TalentFrameStarGridMixin
 
 function TalentFrameStarGridMixin:OnLoad()
 	self.starPool = CreateTexturePool(self, "ARTWORK");

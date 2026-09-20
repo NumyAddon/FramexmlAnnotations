@@ -1,4 +1,4 @@
-InvasionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class InvasionDataProviderMixin : MapCanvasDataProviderMixin
+InvasionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class InvasionDataProviderMixin : MapCanvasDataProviderMixin
 
 function InvasionDataProviderMixin:OnShow()
 	self:RegisterEvent("QUEST_LOG_UPDATE");

@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.ZoneControl, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateZoneControl"}, GetZoneControlVisInfoData);
 
-UIWidgetTemplateZoneControlMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateZoneControlMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateZoneControlMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateZoneControlMixin : UIWidgetBaseTemplateMixin
 
 function UIWidgetTemplateZoneControlMixin:OnLoad()
 	UIWidgetBaseTemplateMixin.OnLoad(self);

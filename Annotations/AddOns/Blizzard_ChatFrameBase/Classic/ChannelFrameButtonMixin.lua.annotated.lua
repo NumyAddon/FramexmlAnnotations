@@ -1,4 +1,4 @@
-ChannelFrameButtonMixin = {};--- @class ChannelFrameButtonMixin
+ChannelFrameButtonMixin = {}; --- @class ChannelFrameButtonMixin
 
 function ToggleChannelFrame()
 	PlaySound(SOUNDKIT.IG_CHAT_EMOTE_BUTTON);

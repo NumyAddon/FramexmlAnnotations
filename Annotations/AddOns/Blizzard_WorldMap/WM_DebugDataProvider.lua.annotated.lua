@@ -2,7 +2,7 @@ if not IsGMClient() then
 	return;
 end
 
-WorldMap_DebugDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class WorldMap_DebugDataProviderMixin : MapCanvasDataProviderMixin
+WorldMap_DebugDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class WorldMap_DebugDataProviderMixin : MapCanvasDataProviderMixin
 
 function WorldMap_DebugDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -84,7 +84,7 @@ function WorldMap_DebugDataProviderMixin:OnCanvasClicked(button, cursorX, cursor
 	return false;
 end
 
-WorldMap_DebugObjectPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class WorldMap_DebugObjectPinMixin : MapCanvasPinMixin
+WorldMap_DebugObjectPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class WorldMap_DebugObjectPinMixin : MapCanvasPinMixin
 
 function WorldMap_DebugObjectPinMixin:OnAcquired(debugObjectInfo)
 	self.index = debugObjectInfo.index;

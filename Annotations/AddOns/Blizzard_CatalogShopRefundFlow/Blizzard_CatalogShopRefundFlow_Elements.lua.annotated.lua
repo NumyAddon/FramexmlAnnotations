@@ -14,7 +14,7 @@ local RED_TEXT_SECONDS_THRESHOLD = 1800;
 ----------------------------------------------------------------------------------
 -- CatalogShopRefundButtonMixin
 ----------------------------------------------------------------------------------
-CatalogShopRefundButtonMixin = CreateFromMixins(UIButtonFitToTextBehaviorMixin);--- @class CatalogShopRefundButtonMixin : UIButtonFitToTextBehaviorMixin
+CatalogShopRefundButtonMixin = CreateFromMixins(UIButtonFitToTextBehaviorMixin); --- @class CatalogShopRefundButtonMixin : UIButtonFitToTextBehaviorMixin
 
 function CatalogShopRefundButtonMixin:OnLoad()
 	self:FitToText();
@@ -37,7 +37,7 @@ end
 ----------------------------------------------------------------------------------
 -- RefundHeaderSortButtonMixin
 ----------------------------------------------------------------------------------
-RefundHeaderSortButtonMixin = {};--- @class RefundHeaderSortButtonMixin
+RefundHeaderSortButtonMixin = {}; --- @class RefundHeaderSortButtonMixin
 function RefundHeaderSortButtonMixin:OnLoad()
 	self.labelSet = false;
 	if self.iconAtlas then
@@ -116,7 +116,7 @@ end
 ----------------------------------------------------------------------------------
 -- RefundFlowDecorButtonMixin
 ----------------------------------------------------------------------------------
-RefundFlowDecorButtonMixin = {};--- @class RefundFlowDecorButtonMixin
+RefundFlowDecorButtonMixin = {}; --- @class RefundFlowDecorButtonMixin
 function RefundFlowDecorButtonMixin:OnLoad()
 	self.ContentsContainer.RefundCheckbox:SetScript("OnEnter", function() self:OnEnter(); end);
 	self.ContentsContainer.RefundCheckbox:SetScript("OnLeave", function() self:OnLeave(); end);

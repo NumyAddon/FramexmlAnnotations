@@ -1,4 +1,4 @@
-UIWidgetTemplateTooltipFrameMixin = {}--- @class UIWidgetTemplateTooltipFrameMixin
+UIWidgetTemplateTooltipFrameMixin = {} --- @class UIWidgetTemplateTooltipFrameMixin
 
 function UIWidgetTemplateTooltipFrameMixin:SetMouse(disableMouse)
 	local useMouse = (self.tooltip and self.tooltip ~= "" and not disableMouse) or false;
@@ -134,7 +134,7 @@ local function GetTextColorForEnabledState(enabledState, overrideNormalFontColor
 	end
 end
 
-UIWidgetBaseEnabledFrameMixin = {}--- @class UIWidgetBaseEnabledFrameMixin
+UIWidgetBaseEnabledFrameMixin = {} --- @class UIWidgetBaseEnabledFrameMixin
 
 function UIWidgetBaseEnabledFrameMixin:SetOverrideNormalFontColor(overrideNormalFontColor)
 	self.overrideNormalFontColor = overrideNormalFontColor;
@@ -163,7 +163,7 @@ function UIWidgetBaseEnabledFrameMixin:SetEnabledState(enabledState)
 	self:UpdateFontColors();
 end
 
-UIWidgetBaseTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin);--- @class UIWidgetBaseTemplateMixin : UIWidgetTemplateTooltipFrameMixin
+UIWidgetBaseTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin); --- @class UIWidgetBaseTemplateMixin : UIWidgetTemplateTooltipFrameMixin
 
 function UIWidgetBaseTemplateMixin:ShouldApplyEffectsToSubFrames()
 	return false;
@@ -308,7 +308,7 @@ function UIWidgetBaseTemplateMixin:OnReset()
 	self:ClearEffects();
 end
 
-UIWidgetBaseResourceTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin);--- @class UIWidgetBaseResourceTemplateMixin : UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin
+UIWidgetBaseResourceTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin); --- @class UIWidgetBaseResourceTemplateMixin : UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin
 
 function UIWidgetBaseResourceTemplateMixin:Setup(widgetContainer, resourceInfo, tooltipLoc)
 	UIWidgetTemplateTooltipFrameMixin.Setup(self, widgetContainer, tooltipLoc);
@@ -342,7 +342,7 @@ function UIWidgetBaseCurrencyPoolOnReset(currencyPool)
 	end
 end
 
-UIWidgetBaseCurrencyTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin);--- @class UIWidgetBaseCurrencyTemplateMixin : UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin
+UIWidgetBaseCurrencyTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin); --- @class UIWidgetBaseCurrencyTemplateMixin : UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin
 
 function UIWidgetBaseCurrencyTemplateMixin:Setup(widgetContainer, currencyInfo, enabledState, tooltipEnabledState, hideIcon, customFont, overrideFontColor, tooltipLoc)
 	UIWidgetTemplateTooltipFrameMixin.Setup(self, widgetContainer, tooltipLoc);
@@ -414,7 +414,7 @@ local function GetWidgetIconSize(iconSizeType)
 	return iconSizes[iconSizeType];
 end
 
-UIWidgetBaseSpellTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin);--- @class UIWidgetBaseSpellTemplateMixin : UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin
+UIWidgetBaseSpellTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin); --- @class UIWidgetBaseSpellTemplateMixin : UIWidgetTemplateTooltipFrameMixin, UIWidgetBaseEnabledFrameMixin
 
 local spellTextureKitRegionInfo = {
 	["Border"] = {formatString = "%s-frame", setVisibility = true, useAtlasSize = true},
@@ -745,7 +745,7 @@ function UIWidgetBaseSpellTemplateMixin:OnReset()
 	end
 end
 
-UIWidgetBaseStatusBarPartitionTemplateMixin = {};--- @class UIWidgetBaseStatusBarPartitionTemplateMixin
+UIWidgetBaseStatusBarPartitionTemplateMixin = {}; --- @class UIWidgetBaseStatusBarPartitionTemplateMixin
 
 local partitionTextureKitString = "%s-BorderTick";
 local partitionFullTextureKitString = "%s-BorderTick-Full";
@@ -799,7 +799,7 @@ function UIWidgetBaseStatusBarPartitionTemplateMixin:UpdateForBarValue(barValue)
 	self:SetSize(self.Tex:GetWidth(), self.Tex:GetHeight());
 end
 
-UIWidgetBaseStatusBarTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin);--- @class UIWidgetBaseStatusBarTemplateMixin : UIWidgetTemplateTooltipFrameMixin
+UIWidgetBaseStatusBarTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin); --- @class UIWidgetBaseStatusBarTemplateMixin : UIWidgetTemplateTooltipFrameMixin
 
 function UIWidgetBaseStatusBarTemplateMixin:SanitizeAndSetStatusBarValues(barInfo)
 	self.value = barInfo.barValue;
@@ -1050,7 +1050,7 @@ function UIWidgetBaseStatusBarTemplateMixin:OnReset()
 	self.displayedValue = nil;
 end
 
-UIWidgetBaseStateIconTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin);--- @class UIWidgetBaseStateIconTemplateMixin : UIWidgetTemplateTooltipFrameMixin
+UIWidgetBaseStateIconTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin); --- @class UIWidgetBaseStateIconTemplateMixin : UIWidgetTemplateTooltipFrameMixin
 
 function UIWidgetBaseStateIconTemplateMixin:Setup(widgetContainer, textureKit, textureKitFormatter, captureIconInfo, tooltipLoc)
 	UIWidgetTemplateTooltipFrameMixin.Setup(self, widgetContainer, tooltipLoc);
@@ -1073,7 +1073,7 @@ function UIWidgetBaseStateIconTemplateMixin:Setup(widgetContainer, textureKit, t
 	return iconShown;
 end
 
-UIWidgetBaseTextureAndTextTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin);--- @class UIWidgetBaseTextureAndTextTemplateMixin : UIWidgetTemplateTooltipFrameMixin
+UIWidgetBaseTextureAndTextTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin); --- @class UIWidgetBaseTextureAndTextTemplateMixin : UIWidgetTemplateTooltipFrameMixin
 
 local textFontSizes =
 {
@@ -1126,7 +1126,7 @@ function UIWidgetBaseTextureAndTextTemplateMixin:Setup(widgetContainer, text, to
 	self:MarkDirty(); -- The widget needs to resize based on whether the textures are shown or hidden
 end
 
-UIWidgetBaseControlZoneTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin);--- @class UIWidgetBaseControlZoneTemplateMixin : UIWidgetTemplateTooltipFrameMixin
+UIWidgetBaseControlZoneTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin); --- @class UIWidgetBaseControlZoneTemplateMixin : UIWidgetTemplateTooltipFrameMixin
 
 function UIWidgetBaseControlZoneTemplateMixin:OnLoad()
 	UIWidgetTemplateTooltipFrameMixin.OnLoad(self);
@@ -1325,7 +1325,7 @@ function UIWidgetBaseControlZoneTemplateMixin:Setup(widgetContainer, zoneIndex, 
 	self:MarkDirty(); -- The widget needs to resize based on whether the textures are shown or hidden
 end
 
-UIWidgetBaseScenarioHeaderTemplateMixin = {};--- @class UIWidgetBaseScenarioHeaderTemplateMixin
+UIWidgetBaseScenarioHeaderTemplateMixin = {}; --- @class UIWidgetBaseScenarioHeaderTemplateMixin
 
 local scenarioHeaderTextureKitRegions = {
 	["Frame"] = "%s-frame",
@@ -1429,7 +1429,7 @@ function UIWidgetBaseScenarioHeaderTemplateMixin:OnReset()
 	self.latestWidgetInfo = nil;
 end
 
-UIWidgetBaseCircularStatusBarTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin);--- @class UIWidgetBaseCircularStatusBarTemplateMixin : UIWidgetTemplateTooltipFrameMixin
+UIWidgetBaseCircularStatusBarTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin); --- @class UIWidgetBaseCircularStatusBarTemplateMixin : UIWidgetTemplateTooltipFrameMixin
 
 local circularBarSwipeTextureFormatString = "Interface\\UnitPowerBarAlt\\%s-fill";
 
@@ -1458,7 +1458,7 @@ function UIWidgetBaseCircularStatusBarTemplateMixin:Setup(widgetContainer, barMi
 	CooldownFrame_SetDisplayAsPercentage(self.Progress, 1 - currentPercent);
 end
 
-UIWidgetBaseTextMixin = CreateFromMixins(UIWidgetBaseEnabledFrameMixin);--- @class UIWidgetBaseTextMixin : UIWidgetBaseEnabledFrameMixin
+UIWidgetBaseTextMixin = CreateFromMixins(UIWidgetBaseEnabledFrameMixin); --- @class UIWidgetBaseTextMixin : UIWidgetBaseEnabledFrameMixin
 
 local normalFonts =
 {
@@ -1534,7 +1534,7 @@ function UIWidgetBaseTextMixin:Setup(text, fontType, textSizeType, enabledState,
 end
 
 
-UIWidgetBaseItemTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin);--- @class UIWidgetBaseItemTemplateMixin : UIWidgetTemplateTooltipFrameMixin
+UIWidgetBaseItemTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin); --- @class UIWidgetBaseItemTemplateMixin : UIWidgetTemplateTooltipFrameMixin
 
 local stackCountTextFontSizes =
 {
@@ -1738,7 +1738,7 @@ function UIWidgetBaseItemTemplateMixin:OnReset()
 	EventRegistry:UnregisterCallback("ColorManager.OnColorDataUpdated", self);
 end
 
-UIWidgetBaseIconTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin);--- @class UIWidgetBaseIconTemplateMixin : UIWidgetTemplateTooltipFrameMixin
+UIWidgetBaseIconTemplateMixin = CreateFromMixins(UIWidgetTemplateTooltipFrameMixin); --- @class UIWidgetBaseIconTemplateMixin : UIWidgetTemplateTooltipFrameMixin
 
 local iconTextureKitRegions = {
 	Glow = "%s-spell-glow",
@@ -1842,7 +1842,7 @@ function UIWidgetBaseIconTemplateMixin:StopAnims()
 	self.Glow:Hide();
 end
 
-UIWidgetBaseButtonTemplateMixin = {};--- @class UIWidgetBaseButtonTemplateMixin
+UIWidgetBaseButtonTemplateMixin = {}; --- @class UIWidgetBaseButtonTemplateMixin
 
 function UIWidgetBaseButtonTemplateMixin:OnShow()
 	self:UpdateWatchCooldownState();

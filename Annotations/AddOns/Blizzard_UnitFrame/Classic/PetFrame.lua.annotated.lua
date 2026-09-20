@@ -1,5 +1,5 @@
 
-PetFrameMixin = CreateFromMixins(PartyMemberAuraMixin);--- @class PetFrameMixin : PartyMemberAuraMixin
+PetFrameMixin = CreateFromMixins(PartyMemberAuraMixin); --- @class PetFrameMixin : PartyMemberAuraMixin
 
 function PetFrameMixin:UpdateAuras(unitAuraUpdateInfo)
 	self:UpdateMemberAuras(unitAuraUpdateInfo);

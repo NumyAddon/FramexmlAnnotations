@@ -1,7 +1,7 @@
 
 --------------------------------------------------
 -- CHARACTER MODEL SCENE MIXIN
-CharacterModelSceneMixin = CreateFromMixins(PanningModelSceneMixin);--- @class CharacterModelSceneMixin : PanningModelSceneMixin
+CharacterModelSceneMixin = CreateFromMixins(PanningModelSceneMixin); --- @class CharacterModelSceneMixin : PanningModelSceneMixin
 
 local ProfessionEquipError =
 {

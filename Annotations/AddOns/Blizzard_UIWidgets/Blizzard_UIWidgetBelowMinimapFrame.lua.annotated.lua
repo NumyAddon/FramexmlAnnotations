@@ -1,4 +1,4 @@
-UIWidgetBelowMinimapContainerMixin = {}--- @class UIWidgetBelowMinimapContainerMixin
+UIWidgetBelowMinimapContainerMixin = {} --- @class UIWidgetBelowMinimapContainerMixin
 
 local function WidgetsLayout(widgetContainer, sortedWidgets)
 	DefaultWidgetLayout(widgetContainer, sortedWidgets);

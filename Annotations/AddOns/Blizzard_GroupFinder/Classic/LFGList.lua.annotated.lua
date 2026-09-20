@@ -1787,7 +1787,7 @@ function LFGListApplicationViewerEditButton_OnClick(self)
 	LFGListFrame_SetActivePanel(panel:GetParent(), entryCreation);
 end
 
-LFGApplicationBrowseGroupsButtonMixin = { };--- @class LFGApplicationBrowseGroupsButtonMixin
+LFGApplicationBrowseGroupsButtonMixin = { }; --- @class LFGApplicationBrowseGroupsButtonMixin
 function LFGApplicationBrowseGroupsButtonMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 	local panel = self:GetParent();
@@ -3694,7 +3694,7 @@ function LFGListEditBox_OnTabPressed(self)
 	end
 end
 
-LFGAuthenticatorMessagingMixin = {}--- @class LFGAuthenticatorMessagingMixin
+LFGAuthenticatorMessagingMixin = {} --- @class LFGAuthenticatorMessagingMixin
 function LFGAuthenticatorMessagingMixin:DisplayTooltip()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
 	GameTooltip_AddNormalLine(GameTooltip, LFG_AUTHENTICATOR_BUTTON_TOOLTIP);
@@ -3705,7 +3705,7 @@ function LFGAuthenticatorMessagingMixin:DisplayStaticPopup()
 	StaticPopup_Show("GROUP_FINDER_AUTHENTICATOR_POPUP");
 end
 
-LFGEditBoxMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin);--- @class LFGEditBoxMixin : LFGAuthenticatorMessagingMixin
+LFGEditBoxMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin); --- @class LFGEditBoxMixin : LFGAuthenticatorMessagingMixin
 function LFGEditBoxMixin:AddToTabCategory(tabCategory, editBox)
 	local addToTab = editBox or self;
 	LFGListEditBox_AddToTabCategory(addToTab, tabCategory);
@@ -3757,7 +3757,7 @@ function LFGEditBoxMixin:OnTabPressed()
 	LFGListEditBox_OnTabPressed(self);
 end
 
-LFGListLockButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin);--- @class LFGListLockButtonMixin : LFGAuthenticatorMessagingMixin
+LFGListLockButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin); --- @class LFGListLockButtonMixin : LFGAuthenticatorMessagingMixin
 
 function LFGListLockButtonMixin:OnClick()
 	self:DisplayStaticPopup();
@@ -3767,7 +3767,7 @@ function LFGListLockButtonMixin:OnEnter()
 	self:DisplayTooltip();
 end
 
-LFGListCreationDescriptionMixin = CreateFromMixins(LFGEditBoxMixin);--- @class LFGListCreationDescriptionMixin : LFGEditBoxMixin
+LFGListCreationDescriptionMixin = CreateFromMixins(LFGEditBoxMixin); --- @class LFGListCreationDescriptionMixin : LFGEditBoxMixin
 
 function LFGListCreationDescriptionMixin:OnLoad()
 	StoreSecureReference("LFGListCreationDescription", self.EditBox);
@@ -3793,7 +3793,7 @@ function LFGListCreationDescriptionMixin:OnShow()
 	self.editBoxEnabled = isAccountSecured;
 end
 
-LFGListCreateGroupDisabledStateButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin);--- @class LFGListCreateGroupDisabledStateButtonMixin : LFGAuthenticatorMessagingMixin
+LFGListCreateGroupDisabledStateButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin); --- @class LFGListCreateGroupDisabledStateButtonMixin : LFGAuthenticatorMessagingMixin
 
 function LFGListCreateGroupDisabledStateButtonMixin:OnClick()
 	if(not C_LFGList.IsPlayerAuthenticatedForLFG(self:GetParent().selectedCategory)) then
@@ -3810,7 +3810,7 @@ function LFGListCreateGroupDisabledStateButtonMixin:OnEnter()
 	end
 end
 
-LFGListSearchBackToGroupButtonMixin = { };--- @class LFGListSearchBackToGroupButtonMixin
+LFGListSearchBackToGroupButtonMixin = { }; --- @class LFGListSearchBackToGroupButtonMixin
 
 function LFGListSearchBackToGroupButtonMixin:OnClick()
 	local frame = self:GetParent():GetParent();
@@ -3818,7 +3818,7 @@ function LFGListSearchBackToGroupButtonMixin:OnClick()
 	LFGListFrame_SetActivePanel(frame, frame.ApplicationViewer);
 end
 
-LFGListSearchBackButtonMixin = { };--- @class LFGListSearchBackButtonMixin
+LFGListSearchBackButtonMixin = { }; --- @class LFGListSearchBackButtonMixin
 
 function LFGListSearchBackButtonMixin:OnClick()
 	local frame = self:GetParent():GetParent();

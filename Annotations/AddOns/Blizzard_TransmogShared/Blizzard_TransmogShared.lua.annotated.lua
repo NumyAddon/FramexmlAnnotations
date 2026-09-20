@@ -527,7 +527,7 @@ function TransmogUtil.IsCustomSetCollected(customSetID)
 end
 
 
-TransmogLocationMixin = {};--- @class TransmogLocationMixin
+TransmogLocationMixin = {}; --- @class TransmogLocationMixin
 
 function TransmogLocationMixin:Set(locationData)
 	self.slot = locationData.slot;
@@ -649,7 +649,7 @@ end
 
 -- This base mixin assumes that it is associated with a DressUpModel.
 -- The intent is to make a mixin that inherits this, do not use directly.
-ItemModelBaseMixin = { };--- @class ItemModelBaseMixin
+ItemModelBaseMixin = { }; --- @class ItemModelBaseMixin
 
 function ItemModelBaseMixin:OnLoad()
 	self:SetAutoDress(false);
@@ -917,7 +917,7 @@ function ItemModelBaseMixin:CanCheckDressUpClick()
 end
 
 
-WardrobeSetsDataProviderMixin = {};--- @class WardrobeSetsDataProviderMixin
+WardrobeSetsDataProviderMixin = {}; --- @class WardrobeSetsDataProviderMixin
 
 function WardrobeSetsDataProviderMixin:SortSets(sets, reverseUIOrder, ignorePatchID, ignoreCollected)
 	local comparison = function(set1, set2)

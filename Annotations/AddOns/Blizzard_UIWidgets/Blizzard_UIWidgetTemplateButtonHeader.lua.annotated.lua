@@ -7,7 +7,7 @@ end
 
 UIWidgetManager:RegisterWidgetVisTypeTemplate(Enum.UIWidgetVisualizationType.ButtonHeader, {frameType = "FRAME", frameTemplate = "UIWidgetTemplateButtonHeader"}, GetButtonHeaderVisInfoData);
 
-UIWidgetTemplateButtonHeaderMixin = CreateFromMixins(UIWidgetBaseTemplateMixin);--- @class UIWidgetTemplateButtonHeaderMixin : UIWidgetBaseTemplateMixin
+UIWidgetTemplateButtonHeaderMixin = CreateFromMixins(UIWidgetBaseTemplateMixin); --- @class UIWidgetTemplateButtonHeaderMixin : UIWidgetBaseTemplateMixin
 
 local buttonHeaderTextureKitRegions = {
 	["Frame"] = "%s-frame",

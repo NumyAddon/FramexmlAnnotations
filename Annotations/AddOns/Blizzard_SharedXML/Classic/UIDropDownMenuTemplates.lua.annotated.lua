@@ -4,7 +4,7 @@
 -- to that button and assumes responsibility for all relevant dropdown menu operations.
 -- The hidden button will request a size that it should become from the custom frame.
 
-DropDownMenuButtonMixin = {}--- @class DropDownMenuButtonMixin
+DropDownMenuButtonMixin = {} --- @class DropDownMenuButtonMixin
 
 function DropDownMenuButtonMixin:OnEnter(...)
 	ExecuteFrameScript(self:GetParent(), "OnEnter", ...);
@@ -21,7 +21,7 @@ function DropDownMenuButtonMixin:OnMouseDown(button)
 	end
 end
 
-LargeDropDownMenuButtonMixin = CreateFromMixins(DropDownMenuButtonMixin);--- @class LargeDropDownMenuButtonMixin : DropDownMenuButtonMixin
+LargeDropDownMenuButtonMixin = CreateFromMixins(DropDownMenuButtonMixin); --- @class LargeDropDownMenuButtonMixin : DropDownMenuButtonMixin
 
 function LargeDropDownMenuButtonMixin:OnMouseDown(button)
 	if self:IsEnabled() then
@@ -31,7 +31,7 @@ function LargeDropDownMenuButtonMixin:OnMouseDown(button)
 	end
 end
 
-UIDropDownCustomMenuEntryMixin = {};--- @class UIDropDownCustomMenuEntryMixin
+UIDropDownCustomMenuEntryMixin = {}; --- @class UIDropDownCustomMenuEntryMixin
 
 function UIDropDownCustomMenuEntryMixin:GetPreferredEntryWidth()
 	-- NOTE: Only width is currently supported, dropdown menus size vertically based on how many buttons are present.

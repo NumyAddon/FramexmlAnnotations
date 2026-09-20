@@ -1,4 +1,4 @@
-CommentatorEventAlertsMixin = {};--- @class CommentatorEventAlertsMixin
+CommentatorEventAlertsMixin = {}; --- @class CommentatorEventAlertsMixin
 
 function CommentatorEventAlertsMixin:OnLoad()
 	RaidNotice_FadeInit(self.slot1);

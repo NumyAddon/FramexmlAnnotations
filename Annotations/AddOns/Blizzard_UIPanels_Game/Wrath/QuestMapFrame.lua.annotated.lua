@@ -1,8 +1,8 @@
 local tooltipButton;
 
-QuestLogButtonTypes = EnumUtil.MakeEnum("None", "Any", "Header", "Quest");--- @type {["None"]: 1, ["Any"]: 2, ["Header"]: 3, ["Quest"]: 4} See [QuestLogButtonTypes](lua://QuestLogButtonTypes)
+QuestLogButtonTypes = EnumUtil.MakeEnum("None", "Any", "Header", "Quest"); --- @type {["None"]: 1, ["Any"]: 2, ["Header"]: 3, ["Quest"]: 4} # See [QuestLogButtonTypes](lua://QuestLogButtonTypes)
 
-QuestLogMixin = { };--- @class QuestLogMixin
+QuestLogMixin = { }; --- @class QuestLogMixin
 
 function QuestLogMixin:GetCurrentMapID()
 	if self:GetParent():IsShown() then
@@ -63,7 +63,7 @@ function QuestLogMixin:OnMapPinClick(pin, questID)
 	end
 end
 
-QuestLogHeaderCodeMixin = {};--- @class QuestLogHeaderCodeMixin
+QuestLogHeaderCodeMixin = {}; --- @class QuestLogHeaderCodeMixin
 
 function QuestLogHeaderCodeMixin:GetButtonType()
 	return QuestLogButtonTypes.Header;
@@ -1113,13 +1113,13 @@ function QuestMapLogTitleButton_OnLeave(self)
 	tooltipButton = nil;
 end
 
-QuestLogTitleMixin = {};--- @class QuestLogTitleMixin
+QuestLogTitleMixin = {}; --- @class QuestLogTitleMixin
 
 function QuestLogTitleMixin:GetButtonType()
 	return QuestLogButtonTypes.Quest;
 end
 
-QuestLogObjectiveMixin = {};--- @class QuestLogObjectiveMixin
+QuestLogObjectiveMixin = {}; --- @class QuestLogObjectiveMixin
 
 function QuestLogObjectiveMixin:GetButtonType()
 	return QuestLogButtonTypes.Quest;

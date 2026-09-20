@@ -1,4 +1,4 @@
-AnimatedStatusBarMixin = {};--- @class AnimatedStatusBarMixin
+AnimatedStatusBarMixin = {}; --- @class AnimatedStatusBarMixin
 
 local DEFAULT_ACCUMULATION_TIMEOUT_SEC = .1;
 

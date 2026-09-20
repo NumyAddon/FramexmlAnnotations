@@ -1,4 +1,4 @@
-GameKioskModeSplashMixin = {};--- @class GameKioskModeSplashMixin
+GameKioskModeSplashMixin = {}; --- @class GameKioskModeSplashMixin
 
 function GameKioskModeSplashMixin:ShowSpinnerTooltip(tooltip)
 	GameTooltip:SetOwner(self.Spinner, "ANCHOR_RIGHT");
@@ -52,7 +52,7 @@ function GameKioskModeSplashMixin:SetButtonEnabled(enabled)
 	self.Spinner:SetShown(not enabled);
 end
 
-GameKioskSessionStartedDialogMixin = {};--- @class GameKioskSessionStartedDialogMixin
+GameKioskSessionStartedDialogMixin = {}; --- @class GameKioskSessionStartedDialogMixin
 
 function GameKioskSessionStartedDialogMixin:OnLoad()
 	self:SetParent(GetAppropriateTopLevelParent());
@@ -74,7 +74,7 @@ function GameKioskSessionStartedDialogMixin:OnLoad()
 	end);
 end
 
-GameKioskModeSplashEndMixin = {};--- @class GameKioskModeSplashEndMixin
+GameKioskModeSplashEndMixin = {}; --- @class GameKioskModeSplashEndMixin
 
 function GameKioskModeSplashEndMixin:OnLoad()
 	self:SetParent(GetAppropriateTopLevelParent());
@@ -89,7 +89,7 @@ function GameKioskModeSplashEndMixin:OnLoad()
 	self.FooterText:SetText(KIOSK_HOUSING_END_FOOTER);
 end
 
-GameKioskFrameMixin = CreateFromMixins(KioskFrameMixin);--- @class GameKioskFrameMixin : KioskFrameMixin
+GameKioskFrameMixin = CreateFromMixins(KioskFrameMixin); --- @class GameKioskFrameMixin : KioskFrameMixin
 
 function GameKioskFrameMixin:OnLoad()
 	KioskFrameMixin.OnLoad(self);

@@ -1,5 +1,5 @@
 
-AuctionHouseCommoditiesSellFrameMixin = CreateFromMixins(AuctionHouseSellFrameMixin);--- @class AuctionHouseCommoditiesSellFrameMixin : AuctionHouseSellFrameMixin
+AuctionHouseCommoditiesSellFrameMixin = CreateFromMixins(AuctionHouseSellFrameMixin); --- @class AuctionHouseCommoditiesSellFrameMixin : AuctionHouseSellFrameMixin
 
 local COMMODITIES_SELL_FRAME_EVENTS = {
 	"COMMODITY_SEARCH_RESULTS_UPDATED",

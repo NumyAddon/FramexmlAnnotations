@@ -1,4 +1,4 @@
-CharacterFrameTabButtonMixin = {};--- @class CharacterFrameTabButtonMixin
+CharacterFrameTabButtonMixin = {}; --- @class CharacterFrameTabButtonMixin
 
 function CharacterFrameTabButtonMixin:OnClick(button)
 	PanelTemplates_Tab_OnClick(self, CharacterFrame);

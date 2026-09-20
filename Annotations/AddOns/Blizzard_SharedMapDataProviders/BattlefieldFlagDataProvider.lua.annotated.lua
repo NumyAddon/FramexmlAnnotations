@@ -1,4 +1,4 @@
-BattlefieldFlagDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class BattlefieldFlagDataProviderMixin : MapCanvasDataProviderMixin
+BattlefieldFlagDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class BattlefieldFlagDataProviderMixin : MapCanvasDataProviderMixin
 
 function BattlefieldFlagDataProviderMixin:OnShow()
 	self:RegisterEvent("UNIT_AURA");
@@ -27,7 +27,7 @@ function BattlefieldFlagDataProviderMixin:RefreshAllData(fromOnShow)
 end
 
 --[[ Battlefield Flag Pin ]]--
-BattlefieldFlagMixin = CreateFromMixins(MapCanvasPinMixin);--- @class BattlefieldFlagMixin : MapCanvasPinMixin
+BattlefieldFlagMixin = CreateFromMixins(MapCanvasPinMixin); --- @class BattlefieldFlagMixin : MapCanvasPinMixin
 
 function BattlefieldFlagMixin:OnLoad()	
 	self:SetScalingLimits(1, 0.825, 0.85);

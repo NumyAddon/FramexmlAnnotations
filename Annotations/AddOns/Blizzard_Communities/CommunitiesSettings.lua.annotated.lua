@@ -8,7 +8,7 @@ function CloseCommunitiesSettingsDialog()
 	CommunitiesSettingsDialog:Hide();
 end
 
-CommunitiesSettingsDialogMixin = {}--- @class CommunitiesSettingsDialogMixin
+CommunitiesSettingsDialogMixin = {} --- @class CommunitiesSettingsDialogMixin
 
 function CommunitiesSettingsDialogMixin:UpdatedPostingInformationInit()
 	self:RegisterEvent("CLUB_FINDER_RECRUITMENT_POST_RETURNED"); 
@@ -413,7 +413,7 @@ function CommunitiesSettingsButton_OnClick(self)
 	end
 end
 
-CommunitiesSettingsCrossFactionToggleMixin = { };--- @class CommunitiesSettingsCrossFactionToggleMixin
+CommunitiesSettingsCrossFactionToggleMixin = { }; --- @class CommunitiesSettingsCrossFactionToggleMixin
 
 function CommunitiesSettingsCrossFactionToggleMixin:OnEnter()
 	GameTooltip:SetOwner(self.Label, "ANCHOR_TOPLEFT", 90); 

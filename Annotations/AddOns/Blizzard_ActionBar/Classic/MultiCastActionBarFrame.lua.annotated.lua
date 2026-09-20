@@ -317,7 +317,7 @@ function MultiCastActionBarFrame_Update(self)
 	end
 end
 
-TotemActionBarMixin = { }--- @class TotemActionBarMixin
+TotemActionBarMixin = { } --- @class TotemActionBarMixin
 
 function TotemActionBarMixin:OnLoad()
 	self.inMainActionBarState = true;  -- We expect ValidateActionBarTransition() in ActionBarController to get called on startup that might change this

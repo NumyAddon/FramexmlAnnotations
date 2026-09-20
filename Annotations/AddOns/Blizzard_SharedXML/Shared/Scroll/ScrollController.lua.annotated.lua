@@ -1,5 +1,5 @@
 
-ScrollDirectionMixin = {};--- @class ScrollDirectionMixin
+ScrollDirectionMixin = {}; --- @class ScrollDirectionMixin
 
 ScrollDirectionUtil = {};
 
@@ -66,7 +66,7 @@ function ScrollDirectionMixin:SelectPointComponent(frame)
 	return ScrollDirectionUtil.SelectPointComponent(frame, self.isHorizontal);
 end
 
-ScrollControllerMixin = CreateFromMixins(ScrollDirectionMixin);--- @class ScrollControllerMixin : ScrollDirectionMixin
+ScrollControllerMixin = CreateFromMixins(ScrollDirectionMixin); --- @class ScrollControllerMixin : ScrollDirectionMixin
 
 ScrollControllerMixin.Directions = 
 {

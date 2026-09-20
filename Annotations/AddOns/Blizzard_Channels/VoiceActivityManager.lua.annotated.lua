@@ -1,4 +1,4 @@
-VoiceActivityManagerMixin = {};--- @class VoiceActivityManagerMixin
+VoiceActivityManagerMixin = {}; --- @class VoiceActivityManagerMixin
 
 function VoiceActivityManagerMixin:OnLoad()
 	self:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_SPEAKING_STATE_CHANGED");

@@ -1,4 +1,4 @@
-PropertyButtonMixin = {};--- @class PropertyButtonMixin
+PropertyButtonMixin = {}; --- @class PropertyButtonMixin
 
 function PropertyButtonMixin:OnLoad()
 	if self.fixedWidth then

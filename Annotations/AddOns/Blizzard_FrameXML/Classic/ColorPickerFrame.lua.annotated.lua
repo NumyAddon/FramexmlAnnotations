@@ -1,4 +1,4 @@
-ColorPickerFrameMixin = {}--- @class ColorPickerFrameMixin
+ColorPickerFrameMixin = {} --- @class ColorPickerFrameMixin
 
 function ColorPickerFrameMixin:SetupColorPickerAndShow(info)
     self.swatchFunc = info.swatchFunc;

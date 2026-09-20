@@ -1,4 +1,4 @@
-ChannelRosterMixin = {};--- @class ChannelRosterMixin
+ChannelRosterMixin = {}; --- @class ChannelRosterMixin
 
 function ChannelRosterMixin:OnLoad()
 	self:InitializeScrollFrame();

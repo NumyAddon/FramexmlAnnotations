@@ -1,7 +1,7 @@
 
 local TabSideExtraSpacing = 20;
 
-TabSystemButtonArtMixin = {};--- @class TabSystemButtonArtMixin
+TabSystemButtonArtMixin = {}; --- @class TabSystemButtonArtMixin
 
 function TabSystemButtonArtMixin:HandleRotation()
 	if self.isTabOnTop then
@@ -71,7 +71,7 @@ function TabSystemButtonArtMixin:IsForceDisabled()
 	return false, nil;
 end
 
-TabSystemButtonMixin = {};--- @class TabSystemButtonMixin
+TabSystemButtonMixin = {}; --- @class TabSystemButtonMixin
 
 function TabSystemButtonMixin:OnEnter()
 	local showErrorText = not self:IsEnabled() and self.errorReason ~= nil and self:GetTabID() ~= self:GetTabSystem().selectedTabID;
@@ -202,7 +202,7 @@ function TabSystemButtonMixin:GetTabSystem()
 end
 
 
-TabSystemMixin = {};--- @class TabSystemMixin
+TabSystemMixin = {}; --- @class TabSystemMixin
 
 function TabSystemMixin:OnLoad()
 	self.tabs = {};

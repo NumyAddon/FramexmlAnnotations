@@ -1,4 +1,4 @@
-WorldMap_InvasionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class WorldMap_InvasionDataProviderMixin : MapCanvasDataProviderMixin
+WorldMap_InvasionDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class WorldMap_InvasionDataProviderMixin : MapCanvasDataProviderMixin
 
 function WorldMap_InvasionDataProviderMixin:ShowOverlay()
 	self.InvasionOverlay:Show();

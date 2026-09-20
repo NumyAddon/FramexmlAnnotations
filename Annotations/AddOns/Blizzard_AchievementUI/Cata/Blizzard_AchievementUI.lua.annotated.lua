@@ -1149,7 +1149,7 @@ function AchievementButton_DisplayObjectives (button, id, completed)
 	return height;
 end
 
-AchievementsObjectivesMixin = {};--- @class AchievementsObjectivesMixin
+AchievementsObjectivesMixin = {}; --- @class AchievementsObjectivesMixin
 
 function AchievementsObjectivesMixin:OnLoad()
 	self.pools = CreateFramePoolCollection();

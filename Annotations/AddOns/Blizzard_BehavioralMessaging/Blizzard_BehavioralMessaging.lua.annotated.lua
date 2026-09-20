@@ -20,7 +20,7 @@ InsertDisplayData("ComplaintWarning_Social", BEHAVIORAL_NOTIFICATION_WARNING, "g
 InsertDisplayData("ComplaintThankYou_Social", BEHAVIORAL_NOTIFICATION_TY, "gmchat-icon-wow", 
 	SOUNDKIT.BEHAVIORAL_NOTIFICATION_TY, BEHAVIORAL_DETAILS_TY_TITLE, BEHAVIORAL_DETAILS_TY_MESSAGE);
 
-BehavioralMessagingNotificationMixin = {}--- @class BehavioralMessagingNotificationMixin
+BehavioralMessagingNotificationMixin = {} --- @class BehavioralMessagingNotificationMixin
 
 function BehavioralMessagingNotificationMixin:OnLoad()
 	self.backgroundsPool = CreateFramePool("Frame", self, "BehaviorMessagingBackgroundTemplate");
@@ -100,7 +100,7 @@ function BehavioralMessagingNotificationMixin:PeekInstance()
 	return self.instances[#self.instances];
 end
 
-BehavioralMessagingTrayMixin = {};--- @class BehavioralMessagingTrayMixin
+BehavioralMessagingTrayMixin = {}; --- @class BehavioralMessagingTrayMixin
 
 function BehavioralMessagingTrayMixin:OnLoad()
 	self:RegisterEvent("BEHAVIORAL_NOTIFICATION");
@@ -174,7 +174,7 @@ function BehavioralMessagingTrayMixin:OnNotificationAchknowledged(notification)
 	self:EvaluateLayout();
 end
 
-BehavioralMessagingDetailsMixin = {};--- @class BehavioralMessagingDetailsMixin
+BehavioralMessagingDetailsMixin = {}; --- @class BehavioralMessagingDetailsMixin
 
 function BehavioralMessagingDetailsMixin:OnLoad()
 	NineSliceUtil.ApplyLayoutByName(self.Border, "Dialog");

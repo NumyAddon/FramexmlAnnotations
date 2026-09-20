@@ -1,5 +1,5 @@
 
-AnchorMixin = {};--- @class AnchorMixin
+AnchorMixin = {}; --- @class AnchorMixin
 
 function AnchorMixin:Init(point, relativeTo, relativePoint, x, y)
 	self:Set(point, relativeTo, relativePoint, x, y);
@@ -59,7 +59,7 @@ function CreateAnchor(point, relativeTo, relativePoint, x, y)
 	return CreateAndInitFromMixin(AnchorMixin, point, relativeTo, relativePoint or point, x or 0, y or 0);
 end
 
-GridLayoutMixin = {};--- @class GridLayoutMixin
+GridLayoutMixin = {}; --- @class GridLayoutMixin
 
 -- If isVertical is true lay out columns first then rows, otherwise we lay out rows then columns
 -- So for example with a stride of 2 and 6 frames this is how they would look using TopLeftToBottomRight and TopLeftToBottomRightVertical:

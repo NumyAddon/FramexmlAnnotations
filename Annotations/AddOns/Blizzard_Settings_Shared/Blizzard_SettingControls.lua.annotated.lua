@@ -1,6 +1,6 @@
 local indentSize = 15;
 
-DefaultTooltipMixin = {};--- @class DefaultTooltipMixin
+DefaultTooltipMixin = {}; --- @class DefaultTooltipMixin
 
 function DefaultTooltipMixin:InitDefaultTooltipScriptHandlers()
 	self:SetScript("OnEnter", self.OnEnter);
@@ -61,7 +61,7 @@ local function InitializeSettingTooltip(initializer)
 	Settings.InitTooltip(initializer:GetName(), initializer:GetTooltip());
 end
 
-SettingsNewTagMixin = { };--- @class SettingsNewTagMixin
+SettingsNewTagMixin = { }; --- @class SettingsNewTagMixin
 
 function SettingsNewTagMixin:IsNewTagShown()
 	if self.data.newTagID then
@@ -76,7 +76,7 @@ function SettingsNewTagMixin:MarkSettingAsSeen()
 	end
 end
 
-SettingsListSectionHeaderMixin = CreateFromMixins(DefaultTooltipMixin, SettingsNewTagMixin);--- @class SettingsListSectionHeaderMixin : DefaultTooltipMixin, SettingsNewTagMixin
+SettingsListSectionHeaderMixin = CreateFromMixins(DefaultTooltipMixin, SettingsNewTagMixin); --- @class SettingsListSectionHeaderMixin : DefaultTooltipMixin, SettingsNewTagMixin
 
 function SettingsListSectionHeaderMixin:OnLoad()
 	DefaultTooltipMixin.OnLoad(self);
@@ -102,7 +102,7 @@ function CreateSettingsListSectionHeaderInitializer(name, tooltip, newTagID)
 	return Settings.CreateElementInitializer("SettingsListSectionHeaderTemplate", data);
 end
 
-SettingsElementHierarchyMixin = {};--- @class SettingsElementHierarchyMixin
+SettingsElementHierarchyMixin = {}; --- @class SettingsElementHierarchyMixin
 
 -- When adding a parent setting that is informed by children settings, set commit orders so that the parent setting is committed last. See CLASS-35305.
 function SettingsElementHierarchyMixin:SetParentInitializer(parentInitializer, modifyPredicate)
@@ -167,9 +167,9 @@ function SettingsElementHierarchyMixin:AddEvaluateStateCVar(cvar)
 	table.insert(self.evaluateStateCVars, cvar);
 end
 
-SettingsListPanelInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin, SettingsNewTagMixin);--- @class SettingsListPanelInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin, SettingsNewTagMixin
+SettingsListPanelInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin, SettingsNewTagMixin); --- @class SettingsListPanelInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin, SettingsNewTagMixin
 
-SettingsListElementInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin);--- @class SettingsListElementInitializer : ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin
+SettingsListElementInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin); --- @class SettingsListElementInitializer : ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin
 
 function SettingsListElementInitializer:Init(frameTemplate, data)
 	ScrollBoxFactoryInitializerMixin.Init(self, frameTemplate);
@@ -269,7 +269,7 @@ function SettingsListElementInitializer:SetParentInitializer(parentInitializer, 
 	SettingsElementHierarchyMixin.SetParentInitializer(self, parentInitializer, modifyPredicate);
 end
 
-SettingsListElementMixin = {};--- @class SettingsListElementMixin
+SettingsListElementMixin = {}; --- @class SettingsListElementMixin
 
 function SettingsListElementMixin:OnLoad()
 	self.cbrHandles = Settings.CreateCallbackHandleContainer();
@@ -375,7 +375,7 @@ function SettingsListElementMixin:EvaluateState()
 	self:SetShown(initializer:ShouldShow());
 end
 
-SettingsControlMixin = CreateFromMixins(SettingsListElementMixin);--- @class SettingsControlMixin : SettingsListElementMixin
+SettingsControlMixin = CreateFromMixins(SettingsListElementMixin); --- @class SettingsControlMixin : SettingsListElementMixin
 
 function SettingsControlMixin:OnLoad()
 	SettingsListElementMixin.OnLoad(self);
@@ -435,7 +435,7 @@ function SettingsControlMixin:ShouldInterceptSetting(value)
 	return false;
 end
 
-SettingsCheckboxMixin = CreateFromMixins(CallbackRegistryMixin, DefaultTooltipMixin);--- @class SettingsCheckboxMixin : CallbackRegistryMixin, DefaultTooltipMixin
+SettingsCheckboxMixin = CreateFromMixins(CallbackRegistryMixin, DefaultTooltipMixin); --- @class SettingsCheckboxMixin : CallbackRegistryMixin, DefaultTooltipMixin
 SettingsCheckboxMixin:GenerateCallbackEvents(
 	{
 		"OnValueChanged",
@@ -465,7 +465,7 @@ function SettingsCheckboxMixin:SetValue(value)
 	self:SetChecked(value);
 end
 
-SettingsCheckboxControlMixin = CreateFromMixins(SettingsControlMixin);--- @class SettingsCheckboxControlMixin : SettingsControlMixin
+SettingsCheckboxControlMixin = CreateFromMixins(SettingsControlMixin); --- @class SettingsCheckboxControlMixin : SettingsControlMixin
 
 function SettingsCheckboxControlMixin:OnLoad()
 	SettingsControlMixin.OnLoad(self);
@@ -542,7 +542,7 @@ function SettingsCheckboxControlMixin:Release()
 	SettingsControlMixin.Release(self);
 end
 
-SettingsSliderControlMixin = CreateFromMixins(SettingsControlMixin);--- @class SettingsSliderControlMixin : SettingsControlMixin
+SettingsSliderControlMixin = CreateFromMixins(SettingsControlMixin); --- @class SettingsSliderControlMixin : SettingsControlMixin
 
 function SettingsSliderControlMixin:OnLoad()
 	SettingsControlMixin.OnLoad(self);
@@ -599,7 +599,7 @@ function SettingsSliderControlMixin:EvaluateState()
 	self:DisplayEnabled(enabled);
 end
 
-SettingsDropdownControlMixin = CreateFromMixins(SettingsControlMixin);--- @class SettingsDropdownControlMixin : SettingsControlMixin
+SettingsDropdownControlMixin = CreateFromMixins(SettingsControlMixin); --- @class SettingsDropdownControlMixin : SettingsControlMixin
 
 function SettingsDropdownControlMixin:OnLoad()
 	SettingsControlMixin.OnLoad(self);
@@ -687,7 +687,7 @@ function SettingsDropdownControlMixin:EvaluateState()
 	return enabled;
 end
 
-SettingsButtonControlMixin = CreateFromMixins(SettingsListElementMixin, SettingsNewTagMixin);--- @class SettingsButtonControlMixin : SettingsListElementMixin, SettingsNewTagMixin
+SettingsButtonControlMixin = CreateFromMixins(SettingsListElementMixin, SettingsNewTagMixin); --- @class SettingsButtonControlMixin : SettingsListElementMixin, SettingsNewTagMixin
 
 function SettingsButtonControlMixin:OnLoad()
 	SettingsListElementMixin.OnLoad(self);
@@ -777,7 +777,7 @@ function CreateSettingsButtonInitializer(name, buttonText, buttonClick, tooltip,
 	return initializer;
 end
 
-SettingsColorSwatchMixin = CreateFromMixins(CallbackRegistryMixin, DefaultTooltipMixin, ColorSwatchMixin);--- @class SettingsColorSwatchMixin : CallbackRegistryMixin, DefaultTooltipMixin, ColorSwatchMixin
+SettingsColorSwatchMixin = CreateFromMixins(CallbackRegistryMixin, DefaultTooltipMixin, ColorSwatchMixin); --- @class SettingsColorSwatchMixin : CallbackRegistryMixin, DefaultTooltipMixin, ColorSwatchMixin
 SettingsColorSwatchMixin:GenerateCallbackEvents(
 	{
 		"OnValueChanged",
@@ -844,7 +844,7 @@ function SettingsColorSwatchMixin:OnLeave()
 	ColorSwatchMixin.OnLeave(self);
 end
 
-SettingsColorSwatchControlMixin = CreateFromMixins(SettingsControlMixin);--- @class SettingsColorSwatchControlMixin : SettingsControlMixin
+SettingsColorSwatchControlMixin = CreateFromMixins(SettingsControlMixin); --- @class SettingsColorSwatchControlMixin : SettingsControlMixin
 
 function SettingsColorSwatchControlMixin:OnLoad()
 	SettingsControlMixin.OnLoad(self);
@@ -907,7 +907,7 @@ function SettingsColorSwatchControlMixin:EvaluateState()
 	self:DisplayEnabled(enabled);
 end
 
-SettingsCheckboxWithButtonControlMixin = CreateFromMixins(SettingsControlMixin);--- @class SettingsCheckboxWithButtonControlMixin : SettingsControlMixin
+SettingsCheckboxWithButtonControlMixin = CreateFromMixins(SettingsControlMixin); --- @class SettingsCheckboxWithButtonControlMixin : SettingsControlMixin
 
 function SettingsCheckboxWithButtonControlMixin:OnLoad()
 	SettingsControlMixin.OnLoad(self);
@@ -1016,7 +1016,7 @@ function CreateSettingsCheckboxWithButtonInitializer(setting, buttonText, button
 	return initializer;
 end
 
-SettingsCheckboxSliderControlMixin = CreateFromMixins(SettingsListElementMixin);--- @class SettingsCheckboxSliderControlMixin : SettingsListElementMixin
+SettingsCheckboxSliderControlMixin = CreateFromMixins(SettingsListElementMixin); --- @class SettingsCheckboxSliderControlMixin : SettingsListElementMixin
 
 function SettingsCheckboxSliderControlMixin:OnLoad()
 	SettingsListElementMixin.OnLoad(self);
@@ -1136,7 +1136,7 @@ function CreateSettingsCheckboxSliderInitializer(cbSetting, cbLabel, cbTooltip, 
 	return initializer;
 end
 
-SettingsCheckboxDropdownControlMixin = CreateFromMixins(SettingsListElementMixin);--- @class SettingsCheckboxDropdownControlMixin : SettingsListElementMixin
+SettingsCheckboxDropdownControlMixin = CreateFromMixins(SettingsListElementMixin); --- @class SettingsCheckboxDropdownControlMixin : SettingsListElementMixin
 
 function SettingsCheckboxDropdownControlMixin:OnLoad()
 	SettingsListElementMixin.OnLoad(self);
@@ -1259,7 +1259,7 @@ function CreateSettingsCheckboxDropdownInitializer(cbSetting, cbLabel, cbTooltip
 	return Settings.CreateSettingInitializer("SettingsCheckboxDropdownControlTemplate", data);
 end
 
-SettingsCheckboxWithColorSwatchControlMixin = CreateFromMixins(SettingsControlMixin);--- @class SettingsCheckboxWithColorSwatchControlMixin : SettingsControlMixin
+SettingsCheckboxWithColorSwatchControlMixin = CreateFromMixins(SettingsControlMixin); --- @class SettingsCheckboxWithColorSwatchControlMixin : SettingsControlMixin
 
 function SettingsCheckboxWithColorSwatchControlMixin:OnLoad()
 	SettingsControlMixin.OnLoad(self);
@@ -1370,7 +1370,7 @@ function CreateSettingsCheckboxWithColorSwatchInitializer(setting, checkboxToolt
 	return initializer;
 end
 
-SettingsExpandableSectionMixin = {};--- @class SettingsExpandableSectionMixin
+SettingsExpandableSectionMixin = {}; --- @class SettingsExpandableSectionMixin
 
 function SettingsExpandableSectionMixin:OnLoad()
 	self.Button:SetScript("OnClick", function(button, buttonName, down)
@@ -1393,7 +1393,7 @@ function SettingsExpandableSectionMixin:Init(initializer)
 	self.Button.Text:SetText(name);
 end
 
-SettingsExpandableSectionInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin);--- @class SettingsExpandableSectionInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin
+SettingsExpandableSectionInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin); --- @class SettingsExpandableSectionInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin
 
 function SettingsExpandableSectionInitializer:GetExtent()
 	error("Implement GetExtent");

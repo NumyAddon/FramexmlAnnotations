@@ -5,7 +5,7 @@ SoulbindTreeLinkDirections =
 	Diverge = 3,
 };
 
-SoulbindTreeNodeLinkMixin = {}--- @class SoulbindTreeNodeLinkMixin
+SoulbindTreeNodeLinkMixin = {} --- @class SoulbindTreeNodeLinkMixin
 
 function SoulbindTreeNodeLinkMixin:Init(direction, angle)
 	if direction == SoulbindTreeLinkDirections.Vertical then

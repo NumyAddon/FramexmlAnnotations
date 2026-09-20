@@ -1,4 +1,4 @@
-VoiceChatTranscriptionButtonMixin = {};--- @class VoiceChatTranscriptionButtonMixin
+VoiceChatTranscriptionButtonMixin = {}; --- @class VoiceChatTranscriptionButtonMixin
 
 function VoiceChatTranscriptionButtonMixin:OnLoad()
 	self:RegisterEvent("VOICE_CHAT_CHANNEL_REMOVED");
@@ -236,7 +236,7 @@ function VoiceChatTranscriptionButtonMixin:Update()
 	end
 end
 
-VoiceChatTranscriptionMixin = {};--- @class VoiceChatTranscriptionMixin
+VoiceChatTranscriptionMixin = {}; --- @class VoiceChatTranscriptionMixin
 
 function VoiceChatTranscriptionMixin:SetVoiceChannel(...)
 	self.Button:SetVoiceChannel(...);

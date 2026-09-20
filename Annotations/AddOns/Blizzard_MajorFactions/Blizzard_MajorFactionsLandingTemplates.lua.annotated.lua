@@ -34,7 +34,7 @@ end
 
 ----------------------------------- Major Faction List -----------------------------------
 
-MajorFactionListMixin = {};--- @class MajorFactionListMixin
+MajorFactionListMixin = {}; --- @class MajorFactionListMixin
 
 local MAJOR_FACTION_LIST_EVENTS = {
 	"MAJOR_FACTION_UNLOCKED",
@@ -146,7 +146,7 @@ function MajorFactionListMixin:ScrollToSelectedFaction()
 end
 
 ----------------------------------- Major Faction Button Base -----------------------------------
-MajorFactionButtonMixin = {};--- @class MajorFactionButtonMixin
+MajorFactionButtonMixin = {}; --- @class MajorFactionButtonMixin
 
 function MajorFactionButtonMixin:Init(majorFactionData)
 	self.isUnlocked = majorFactionData.isUnlocked;
@@ -208,7 +208,7 @@ end
 
 ----------------------------------- Major Faction Button Locked State -----------------------------------
 
-MajorFactionButtonLockedStateMixin = {};--- @class MajorFactionButtonLockedStateMixin
+MajorFactionButtonLockedStateMixin = {}; --- @class MajorFactionButtonLockedStateMixin
 
 function MajorFactionButtonLockedStateMixin:OnEnter()
 	if self.unlockDescription then
@@ -233,7 +233,7 @@ local MAJOR_FACTION_BUTTON_UNLOCKED_STATE_EVENTS = {
 	"UPDATE_FACTION",
 };
 
-MajorFactionButtonUnlockedStateMixin = {};--- @class MajorFactionButtonUnlockedStateMixin
+MajorFactionButtonUnlockedStateMixin = {}; --- @class MajorFactionButtonUnlockedStateMixin
 
 function MajorFactionButtonUnlockedStateMixin:Refresh(majorFactionData)
 	self.Title:SetText(majorFactionData.name or "");
@@ -408,7 +408,7 @@ end
 
 ----------------------------------- Major Faction Button Unlocked State Renown Progress Bar -----------------------------------
 
-MajorFactionRenownProgressBarMixin = {};--- @class MajorFactionRenownProgressBarMixin
+MajorFactionRenownProgressBarMixin = {}; --- @class MajorFactionRenownProgressBarMixin
 
 function MajorFactionRenownProgressBarMixin:UpdateBar(currentValue, maxValue)
 	if not currentValue or not maxValue or maxValue == 0 then
@@ -424,7 +424,7 @@ local MAJOR_FACTION_WATCH_FACTION_BUTTON_EVENTS = {
 	"UPDATE_FACTION",
 }
 
-MajorFactionWatchFactionButtonMixin = {};--- @class MajorFactionWatchFactionButtonMixin
+MajorFactionWatchFactionButtonMixin = {}; --- @class MajorFactionWatchFactionButtonMixin
 
 function MajorFactionWatchFactionButtonMixin:OnLoad()
 	-- Need to make sure the checkbox + label fit in the top right corner

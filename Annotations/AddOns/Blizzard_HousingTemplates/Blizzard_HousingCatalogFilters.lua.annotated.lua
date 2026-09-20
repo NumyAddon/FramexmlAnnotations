@@ -1,4 +1,4 @@
-HousingCatalogFiltersMixin = {};--- @class HousingCatalogFiltersMixin
+HousingCatalogFiltersMixin = {}; --- @class HousingCatalogFiltersMixin
 
 function HousingCatalogFiltersMixin:Initialize(catalogSearcher)
 	self.catalogSearcher = catalogSearcher;
@@ -263,7 +263,7 @@ function HousingCatalogFiltersMixin:RestoreFilterState(key)
 	self.FilterDropdown:ValidateResetState();
 end
 
-HousingCatalogSearchBoxMixin = {};--- @class HousingCatalogSearchBoxMixin
+HousingCatalogSearchBoxMixin = {}; --- @class HousingCatalogSearchBoxMixin
 
 function HousingCatalogSearchBoxMixin:OnLoad()
 	SearchBoxTemplate_OnLoad(self);

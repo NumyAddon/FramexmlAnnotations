@@ -1,4 +1,4 @@
-AutoCastOverlayMixin = {};--- @class AutoCastOverlayMixin
+AutoCastOverlayMixin = {}; --- @class AutoCastOverlayMixin
 
 function AutoCastOverlayMixin:ShowAutoCastEnabled(isEnabled)
 	self.autoCastEnabled = isEnabled;

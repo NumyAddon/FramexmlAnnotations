@@ -78,7 +78,7 @@ local abilityTypeText = {
 	[Enum.CovenantAbilityType.Signature] = COVENANT_PREVIEW_RACIAL_ABILITY, 
 }
 
-CovenantPreviewFrameMixin = { }; --- @class CovenantPreviewFrameMixin
+CovenantPreviewFrameMixin = { };  --- @class CovenantPreviewFrameMixin
 function CovenantPreviewFrameMixin:OnLoad() 
 	self.AbilityButtonsPool = CreateFramePool("BUTTON", self.InfoPanel, "CovenantAbilityButtonTemplate");
 	self.SoulbindButtonsPool = CreateFramePool("BUTTON", self.InfoPanel, "CovenantSoulbindButtonTemplate");
@@ -267,7 +267,7 @@ function CovenantPreviewFrameMixin:SetupCovenantInfoPanel(covenantInfo)
 	infoPanel.Description:SetText(covenantInfo.description);
 end 
 
-CovenantAbilityButtonMixin = { }; --- @class CovenantAbilityButtonMixin
+CovenantAbilityButtonMixin = { };  --- @class CovenantAbilityButtonMixin
 function CovenantAbilityButtonMixin:OnEnter() 
 	EmbeddedItemTooltip:Hide();
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
@@ -287,7 +287,7 @@ function CovenantAbilityButtonMixin:SetupButton(abilityInfo)
 	self:Show();
 end 
 
-CovenantFeatureButtonMixin = { };--- @class CovenantFeatureButtonMixin
+CovenantFeatureButtonMixin = { }; --- @class CovenantFeatureButtonMixin
 
 function CovenantFeatureButtonMixin:Setup(covenantFeatureInfo)
 	self.Icon:SetTexture(covenantFeatureInfo.texture);
@@ -307,7 +307,7 @@ function CovenantFeatureButtonMixin:OnLeave()
 	GameTooltip:Hide(); 
 end 
 
-CovenantSoulbindButtonMixin = { };--- @class CovenantSoulbindButtonMixin
+CovenantSoulbindButtonMixin = { }; --- @class CovenantSoulbindButtonMixin
 function CovenantSoulbindButtonMixin:SetupButton(soulbindInfo) 
 	self.spellID = soulbindInfo.spellID; 
 	self.name = soulbindInfo.name
@@ -342,7 +342,7 @@ function CovenantSoulbindButtonMixin:OnLeave()
 	end
 end
 
-CovenantPreviewModelSceneContainerMixin = { };--- @class CovenantPreviewModelSceneContainerMixin
+CovenantPreviewModelSceneContainerMixin = { }; --- @class CovenantPreviewModelSceneContainerMixin
 function CovenantPreviewModelSceneContainerMixin:ShouldAcceptDressUp()
 	return false;
 end

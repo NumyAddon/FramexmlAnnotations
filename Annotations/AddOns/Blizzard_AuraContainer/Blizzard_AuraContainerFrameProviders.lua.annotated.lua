@@ -1,7 +1,7 @@
 -- Frame providers let containers decide how aura frames are supplied for each
 -- aura group.
 
-AuraContainerFramePoolProviderMixin = {};--- @class AuraContainerFramePoolProviderMixin
+AuraContainerFramePoolProviderMixin = {}; --- @class AuraContainerFramePoolProviderMixin
 
 function AuraContainerFramePoolProviderMixin:Init(framePool)
 	self.framePool = framePool;
@@ -21,7 +21,7 @@ function AuraContainerUtil.CreateFramePoolProvider(framePool)
 	return provider;
 end
 
-AuraContainerCustomFrameProviderMixin = {};--- @class AuraContainerCustomFrameProviderMixin
+AuraContainerCustomFrameProviderMixin = {}; --- @class AuraContainerCustomFrameProviderMixin
 
 function AuraContainerCustomFrameProviderMixin:Init(parent, description)
 	assert(parent ~= nil, "Custom aura frame providers require a parent.");
@@ -142,7 +142,7 @@ function AuraContainerUtil.CreateCustomFrameProvider(parent, description)
 	return provider;
 end
 
-AuraContainerSingleFrameProviderMixin = {};--- @class AuraContainerSingleFrameProviderMixin
+AuraContainerSingleFrameProviderMixin = {}; --- @class AuraContainerSingleFrameProviderMixin
 
 function AuraContainerSingleFrameProviderMixin:Init(auraFrame)
 	assert(auraFrame ~= nil, "Single frame providers require a frame.");

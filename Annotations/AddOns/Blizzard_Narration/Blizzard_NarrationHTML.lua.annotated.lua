@@ -5,7 +5,7 @@
 -- Narrates as: concatenated text of all text entries in GetTextData
 ---------------------------------------------------------------------------
 
-NarrationHTMLMixin = {};--- @class NarrationHTMLMixin
+NarrationHTMLMixin = {}; --- @class NarrationHTMLMixin
 
 function NarrationHTMLMixin:NarrationGetName()
 	local textData = self:GetTextData();

@@ -1,5 +1,5 @@
 
-MapCanvasDetailLayerMixin = {};--- @class MapCanvasDetailLayerMixin
+MapCanvasDetailLayerMixin = {}; --- @class MapCanvasDetailLayerMixin
 
 function MapCanvasDetailLayerMixin:OnLoad()
 	self.detailTilePool = CreateTexturePool(self, "BACKGROUND", -7, "MapCanvasDetailTileTemplate");

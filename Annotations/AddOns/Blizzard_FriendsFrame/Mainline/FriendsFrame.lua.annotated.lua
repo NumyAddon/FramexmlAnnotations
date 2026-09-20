@@ -545,7 +545,7 @@ function FriendsFrame_OnHide(self)
 	EventRegistry:UnregisterCallback("FriendsFrame.IgnoreListVisibilityChanged", self);
 end
 
-FriendsTabHeaderMixin = {};--- @class FriendsTabHeaderMixin
+FriendsTabHeaderMixin = {}; --- @class FriendsTabHeaderMixin
 
 function FriendsTabHeaderMixin:OnLoad()
 	TabSystemOwnerMixin.OnLoad(self);
@@ -687,7 +687,7 @@ function FriendsTabHeaderMixin:SelectFirstAvailableTab()
 end
 
 -- Used for the sub-tabs within Friends
-FriendsTabMixin = CreateFromMixins(TabSystemButtonMixin);--- @class FriendsTabMixin : TabSystemButtonMixin
+FriendsTabMixin = CreateFromMixins(TabSystemButtonMixin); --- @class FriendsTabMixin : TabSystemButtonMixin
 
 function FriendsTabMixin:OnLoad()
 	for _, tabTexture in ipairs(self.RotatedTextures) do
@@ -701,7 +701,7 @@ function FriendsTabMixin:OnClick()
 end
 
 -- Used for the tabs at the bottom
-FriendsFrameTabMixin = {};--- @class FriendsFrameTabMixin
+FriendsFrameTabMixin = {}; --- @class FriendsFrameTabMixin
 
 function FriendsFrameTabMixin:OnClick()
 	PanelTemplates_Tab_OnClick(self, FriendsFrame);
@@ -745,7 +745,7 @@ function FriendsListFrame_ToggleInvites()
 	FriendsList_Update();
 end
 
-FriendsFrameInviteTemplateMixin = {};--- @class FriendsFrameInviteTemplateMixin
+FriendsFrameInviteTemplateMixin = {}; --- @class FriendsFrameInviteTemplateMixin
 
 function FriendsFrameInviteTemplateMixin:OnLoad()
 	self.DeclineButton:SetupMenu(function(dropdown, rootDescription)
@@ -1172,7 +1172,7 @@ function WhoFrameDropdown_OnLeave(self)
 	self.TabHighlight:Hide();
 end
 
-SummonButtonMixin = {};--- @class SummonButtonMixin
+SummonButtonMixin = {}; --- @class SummonButtonMixin
 
 function SummonButtonMixin:OnLoad()
 	-- GAME RULES TODO:: This should be an explicit game rule.
@@ -1558,7 +1558,7 @@ function OpenFriendsFrame(tab)
 	end
 end
 
-WhoFrameEditBoxMixin = {};--- @class WhoFrameEditBoxMixin
+WhoFrameEditBoxMixin = {}; --- @class WhoFrameEditBoxMixin
 
 function WhoFrameEditBoxMixin:OnLoad()
 	-- Hiding this art so we can show the backdrop instead
@@ -2093,7 +2093,7 @@ function FriendsFrame_UpdateFriendButton(button, elementData)
 	return height;
 end
 
-FriendsBroadcastFrameMixin = {};--- @class FriendsBroadcastFrameMixin
+FriendsBroadcastFrameMixin = {}; --- @class FriendsBroadcastFrameMixin
 
 function FriendsBroadcastFrameMixin:ShowFrame()
 	self:UpdateBroadcast();
@@ -2159,14 +2159,14 @@ function FriendsFrameTooltip_SetLine(line, anchor, text, yOffset)
 	return line;
 end
 
-IgnoreListButtonMixin = {};--- @class IgnoreListButtonMixin
+IgnoreListButtonMixin = {}; --- @class IgnoreListButtonMixin
 
 function IgnoreListButtonMixin:OnClick()
 	FriendsFrame_SelectSquelched(self.type, self.index);
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON);
 end
 
-WhoListButtonMixin = {};--- @class WhoListButtonMixin
+WhoListButtonMixin = {}; --- @class WhoListButtonMixin
 
 function WhoListButtonMixin:OnClick(button)
 	if button == "LeftButton" then
@@ -2188,7 +2188,7 @@ function WhoListButtonMixin:OnEnter()
 	end
 end
 
-FriendsListButtonMixin = {};--- @class FriendsListButtonMixin
+FriendsListButtonMixin = {}; --- @class FriendsListButtonMixin
 
 function FriendsListButtonMixin:OnLoad()
 	self.highlight:SetVertexColor(HIGHLIGHT_LIGHT_BLUE:GetRGB());
@@ -2719,7 +2719,7 @@ function TravelPassButton_OnEnter(self)
 	GameTooltip:Show();
 end
 
-WhoFrameColumnHeaderMixin = {};--- @class WhoFrameColumnHeaderMixin
+WhoFrameColumnHeaderMixin = {}; --- @class WhoFrameColumnHeaderMixin
 
 function WhoFrameColumnHeaderMixin:OnClick()
 	if self.sortType then
@@ -2739,7 +2739,7 @@ end
 function WhoFrameColumnHeaderMixin:OnLeave()
 	GameTooltip:Hide();
 end
-FriendsIgnoreListMixin = {};--- @class FriendsIgnoreListMixin
+FriendsIgnoreListMixin = {}; --- @class FriendsIgnoreListMixin
 
 function FriendsIgnoreListMixin:OnLoad()
 	self:InitializeFrameVisuals();
@@ -2775,7 +2775,7 @@ function FriendsIgnoreListMixin:ToggleFrame()
 	PlaySound(SOUNDKIT.IG_CHAT_EMOTE_BUTTON);
 end
 
-ContactsMenuMixin = {};--- @class ContactsMenuMixin
+ContactsMenuMixin = {}; --- @class ContactsMenuMixin
 
 function ContactsMenuMixin:OnShow()
 	self:Refresh();
@@ -2808,7 +2808,7 @@ function ContactsMenuMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-FriendsFrameAddFriendButtonMixin = {};--- @class FriendsFrameAddFriendButtonMixin
+FriendsFrameAddFriendButtonMixin = {}; --- @class FriendsFrameAddFriendButtonMixin
 
 function FriendsFrameAddFriendButtonMixin:OnClick()
 	AddFriendFrame_Show();

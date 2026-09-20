@@ -47,7 +47,7 @@ function BlackMarketFrame_OnLoad(self)
 	BlackMarketBidPrice.onValueChangedFunc = BlackMarketFrame_UpdateBidButton;
 end
 
-BlackMarketItemMixin = {};--- @class BlackMarketItemMixin
+BlackMarketItemMixin = {}; --- @class BlackMarketItemMixin
 
 function BlackMarketItemMixin:OnClick(buttonName, down)
 	if ( IsModifiedClick() ) then

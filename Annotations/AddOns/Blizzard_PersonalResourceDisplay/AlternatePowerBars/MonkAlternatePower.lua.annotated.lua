@@ -1,7 +1,7 @@
 -- NOTE: If you make changes here, you likely need to make changes to MonkStaggerBar.lua
 
 -- Monk Alternate Power Bar: Stagger
-MonkAlternatePowerBarMixin = {};--- @class MonkAlternatePowerBarMixin
+MonkAlternatePowerBarMixin = {}; --- @class MonkAlternatePowerBarMixin
 
 -- percentages at which bar should change color
 local STAGGER_STATES = {

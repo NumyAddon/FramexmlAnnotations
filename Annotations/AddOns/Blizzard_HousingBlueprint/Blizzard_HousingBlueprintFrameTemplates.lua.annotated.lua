@@ -1,4 +1,4 @@
-HousingBlueprintBaseFrameMixin = {};--- @class HousingBlueprintBaseFrameMixin
+HousingBlueprintBaseFrameMixin = {}; --- @class HousingBlueprintBaseFrameMixin
 
 function HousingBlueprintBaseFrameMixin:BaseOnLoad()
 	self.HeaderText:SetText(self.headerText);

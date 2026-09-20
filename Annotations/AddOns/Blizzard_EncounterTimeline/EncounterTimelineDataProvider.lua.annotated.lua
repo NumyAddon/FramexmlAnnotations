@@ -1,4 +1,4 @@
-EncounterTimelineDataProviderMixin = {};--- @class EncounterTimelineDataProviderMixin
+EncounterTimelineDataProviderMixin = {}; --- @class EncounterTimelineDataProviderMixin
 
 EncounterTimelineDataProviderMixin.DynamicEvents = {
 	"ENCOUNTER_TIMELINE_EVENT_ADDED",

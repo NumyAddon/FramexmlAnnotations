@@ -9,7 +9,7 @@ local MAX_ADDON_MESSAGE_LENGTH = 250;
 local THIRD_DECIMAL = "%.3f";
 local TRUNCATE_ZEROS = "%.?0+$";
 
-local CooldownSyncRelayMixin = {};--- @class CooldownSyncRelayMixin
+local CooldownSyncRelayMixin = {}; --- @class CooldownSyncRelayMixin
 
 
 local function PackRowsIntoMessages(rows, header)

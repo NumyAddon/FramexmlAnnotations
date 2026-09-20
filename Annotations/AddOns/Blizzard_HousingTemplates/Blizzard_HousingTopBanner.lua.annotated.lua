@@ -1,5 +1,5 @@
 --////////////////////////////Top Banner Toast//////////////////////////////////////////
-HousingTopBannerMixin = {}--- @class HousingTopBannerMixin
+HousingTopBannerMixin = {} --- @class HousingTopBannerMixin
 
 function HousingTopBannerMixin:OnLoad()
 	self.PopinAnim:SetScript("OnFinished", GenerateClosure(self.OnPopinInAnimFinished, self));

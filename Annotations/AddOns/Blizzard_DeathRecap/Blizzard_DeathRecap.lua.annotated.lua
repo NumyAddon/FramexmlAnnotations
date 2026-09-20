@@ -1,4 +1,4 @@
-DeathRecapEntryMixin = {};--- @class DeathRecapEntryMixin
+DeathRecapEntryMixin = {}; --- @class DeathRecapEntryMixin
 
 function DeathRecapEntryMixin:GetDamageInfo()
 	return self.DamageInfo;
@@ -230,7 +230,7 @@ function DeathRecapEntryMixin:GetTimeBeforeDeath()
 	return self.timeBeforeDeath;
 end
 
-DeathRecapMixin = {};--- @class DeathRecapMixin
+DeathRecapMixin = {}; --- @class DeathRecapMixin
 
 function DeathRecapMixin:GetCloseButton()
 	return self.CloseButton;

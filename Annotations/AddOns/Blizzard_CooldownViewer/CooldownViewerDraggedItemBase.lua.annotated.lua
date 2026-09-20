@@ -1,4 +1,4 @@
-CooldownViewerDraggedItemBaseMixin = {};--- @class CooldownViewerDraggedItemBaseMixin
+CooldownViewerDraggedItemBaseMixin = {}; --- @class CooldownViewerDraggedItemBaseMixin
 
 local draggedItemInstance;
 

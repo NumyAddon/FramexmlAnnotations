@@ -1067,7 +1067,7 @@ end
 --- Mission Page Follower Mixin                                               ---
 ---------------------------------------------------------------------------------
 
-CovenantFollowerMissionPageMixin = { }--- @class CovenantFollowerMissionPageMixin
+CovenantFollowerMissionPageMixin = { } --- @class CovenantFollowerMissionPageMixin
 
 function CovenantFollowerMissionPageMixin:AddFollower(followerID)
 	local missionFrame = self:GetParent():GetParent();
@@ -1131,7 +1131,7 @@ end
 --- Mission Page Environment Effect Mixin                                     ---
 ---------------------------------------------------------------------------------
 
-CovenantMissionEnvironmentEffectMixin = {};--- @class CovenantMissionEnvironmentEffectMixin
+CovenantMissionEnvironmentEffectMixin = {}; --- @class CovenantMissionEnvironmentEffectMixin
 
 function CovenantMissionEnvironmentEffectMixin:SetEnvironmentEffect(environmentEffect)
 	if not environmentEffect then
@@ -1171,7 +1171,7 @@ end
 --- Covenant Follower List Heal All support Mixin                             ---
 ---------------------------------------------------------------------------------
 
-CovenantFollowerListMixin = {}--- @class CovenantFollowerListMixin
+CovenantFollowerListMixin = {} --- @class CovenantFollowerListMixin
 
 function CovenantFollowerListMixin:OnShow() 
 	GarrisonFollowerList.OnShow(self);
@@ -1234,7 +1234,7 @@ function CovenantMissionHealAllButton_OnClick(self)
 	StaticPopup_Show("COVENANT_MISSIONS_HEAL_ALL_CONFIRMATION", currencyString, "", {followerType = self.followerType});
 end
 
-ConvenantMissionPageMouseOverTitleMixin = { };--- @class ConvenantMissionPageMouseOverTitleMixin
+ConvenantMissionPageMouseOverTitleMixin = { }; --- @class ConvenantMissionPageMouseOverTitleMixin
 function ConvenantMissionPageMouseOverTitleMixin:OnEnter()
 	self.info = self:GetParent().info; 
 	GameTooltip:SetOwner(self, "ANCHOR_CENTER", 320, 0);

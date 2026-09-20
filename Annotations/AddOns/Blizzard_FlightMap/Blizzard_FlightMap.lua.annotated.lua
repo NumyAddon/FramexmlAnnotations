@@ -1,6 +1,6 @@
 UIPanelWindows["FlightMapFrame"] = { area = "center", pushable = 1, showFailedFunc = CloseTaxiMap, allowOtherPanels = 1 };
 
-FlightMapMixin = {};--- @class FlightMapMixin
+FlightMapMixin = {}; --- @class FlightMapMixin
 
 function FlightMapMixin:SetupTitle()
 	self.BorderFrame.Bg:SetColorTexture(0, 0, 0, 1);

@@ -8,7 +8,7 @@ local SEE_YOU_LATER_BUNDLE_PRODUCT_ID = 488;
 
 --------------------------------------------------
 -- FULL STORE CARD MIXIN
-FullStoreCardMixin = CreateFromMixins(StoreCardMixin);--- @class FullStoreCardMixin : StoreCardMixin
+FullStoreCardMixin = CreateFromMixins(StoreCardMixin); --- @class FullStoreCardMixin : StoreCardMixin
 
 function FullStoreCardMixin:OnLoad()
 	StoreCardMixin.OnLoad(self);
@@ -329,7 +329,7 @@ end
 
 --------------------------------------------------
 -- HORIZONTAL FULL STORE CARD MIXIN
-HorizontalFullStoreCardMixin = CreateFromMixins(FullStoreCardMixin, ProductCardBuyButtonMixin);--- @class HorizontalFullStoreCardMixin : FullStoreCardMixin, ProductCardBuyButtonMixin
+HorizontalFullStoreCardMixin = CreateFromMixins(FullStoreCardMixin, ProductCardBuyButtonMixin); --- @class HorizontalFullStoreCardMixin : FullStoreCardMixin, ProductCardBuyButtonMixin
 
 function HorizontalFullStoreCardMixin:Layout()
 	FullStoreCardMixin.Layout(self);
@@ -389,7 +389,7 @@ end
 
 --------------------------------------------------
 -- HORIZONTAL FULL STORE CARD WITH NYDUS LINK MIXIN 
-HorizontalFullStoreCardWithNydusLinkMixin = CreateFromMixins(FullStoreCardMixin);--- @class HorizontalFullStoreCardWithNydusLinkMixin : FullStoreCardMixin
+HorizontalFullStoreCardWithNydusLinkMixin = CreateFromMixins(FullStoreCardMixin); --- @class HorizontalFullStoreCardWithNydusLinkMixin : FullStoreCardMixin
 
 function HorizontalFullStoreCardWithNydusLinkMixin:Layout()
 	FullStoreCardMixin.Layout(self);
@@ -447,7 +447,7 @@ end
 
 --------------------------------------------------
 -- VERTICAL FULL STORE CARD MIXIN
-VerticalFullStoreCardMixin = CreateFromMixins(FullStoreCardMixin, ProductCardBuyButtonMixin);--- @class VerticalFullStoreCardMixin : FullStoreCardMixin, ProductCardBuyButtonMixin
+VerticalFullStoreCardMixin = CreateFromMixins(FullStoreCardMixin, ProductCardBuyButtonMixin); --- @class VerticalFullStoreCardMixin : FullStoreCardMixin, ProductCardBuyButtonMixin
 
 function VerticalFullStoreCardMixin:Layout()
 	FullStoreCardMixin.Layout(self);

@@ -1,4 +1,4 @@
-AzeriteEmpoweredItemChannelMixin = {};--- @class AzeriteEmpoweredItemChannelMixin
+AzeriteEmpoweredItemChannelMixin = {}; --- @class AzeriteEmpoweredItemChannelMixin
 
 local REVEAL_SIZE_BY_TIER = {
 	[3] = {

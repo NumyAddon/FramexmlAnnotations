@@ -47,7 +47,7 @@
 -- Choice Entry Index, 2 bits.
 -- (Only written if isChoiceNode is true). The index of selected entry for the choice node. Zero-based index (first entry is index 0).
 
-ClassTalentImportExportMixin = {};--- @class ClassTalentImportExportMixin
+ClassTalentImportExportMixin = {}; --- @class ClassTalentImportExportMixin
 
 ClassTalentImportExportMixin.bitWidthHeaderVersion = 8;
 ClassTalentImportExportMixin.bitWidthSpecID = 16;

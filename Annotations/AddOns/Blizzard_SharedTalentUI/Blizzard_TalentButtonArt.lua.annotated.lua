@@ -1,5 +1,5 @@
 
-TalentButtonArtMixin = {};--- @class TalentButtonArtMixin
+TalentButtonArtMixin = {}; --- @class TalentButtonArtMixin
 
 -- Split out for easier adjustment.
 local RefundInvalidOverlayAlpha = 0.3;
@@ -468,7 +468,7 @@ function TalentButtonArtMixin:ResetActiveVisuals()
 end
 
 -- This Mixin is not used directly here but included for derived mixins to inherit from.
-TalentButtonSplitIconMixin = {};--- @class TalentButtonSplitIconMixin
+TalentButtonSplitIconMixin = {}; --- @class TalentButtonSplitIconMixin
 
 function TalentButtonSplitIconMixin:ApplyVisualState(visualState)
 	TalentButtonArtMixin.ApplyVisualState(self, visualState);

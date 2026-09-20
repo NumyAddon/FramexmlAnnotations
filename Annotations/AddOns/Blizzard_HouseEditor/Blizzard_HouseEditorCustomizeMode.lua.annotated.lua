@@ -1,4 +1,4 @@
-DecorCustomizationsPaneMixin = {};--- @class DecorCustomizationsPaneMixin
+DecorCustomizationsPaneMixin = {}; --- @class DecorCustomizationsPaneMixin
 
 function DecorCustomizationsPaneMixin:OnLoad()
 	local function CloseDecorCustomizationsPane()
@@ -90,7 +90,7 @@ local CustomizeModeShownEvents = {
 	"UPDATE_BINDINGS",
 };
 
-HouseEditorCustomizeModeMixin = CreateFromMixins(BaseHouseEditorModeMixin);--- @class HouseEditorCustomizeModeMixin : BaseHouseEditorModeMixin
+HouseEditorCustomizeModeMixin = CreateFromMixins(BaseHouseEditorModeMixin); --- @class HouseEditorCustomizeModeMixin : BaseHouseEditorModeMixin
 
 function HouseEditorCustomizeModeMixin:OnLoad()
 	self.PetCustomizationsPane:SetCustomizationPetPane(self.DecorCustomizationsPane:GetPetPane());
@@ -331,7 +331,7 @@ function HouseEditorCustomizeModeMixin:HideSelectedRoomComponentInfo()
 	end
 end 
 
-PetCustomizationsPaneExpandButtonMixin = {}--- @class PetCustomizationsPaneExpandButtonMixin
+PetCustomizationsPaneExpandButtonMixin = {} --- @class PetCustomizationsPaneExpandButtonMixin
 
 function PetCustomizationsPaneExpandButtonMixin:OnEnter()
 	self.OverlayIcon:Show();

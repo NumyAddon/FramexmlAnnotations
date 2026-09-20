@@ -1,4 +1,4 @@
-SocialUIRaidInfoFrameMixin = {};--- @class SocialUIRaidInfoFrameMixin
+SocialUIRaidInfoFrameMixin = {}; --- @class SocialUIRaidInfoFrameMixin
 
 local RAID_INFO_FRAME_EVENTS =
 {
@@ -113,7 +113,7 @@ function SocialUIRaidInfoFrameMixin:SetButtonSelected(button, selected)
 	button:SetHighlightLocked(selected);
 end
 
-SocialUIRaidInfoExtendMixin = CreateFromMixins(UIButtonFitToTextBehaviorMixin);--- @class SocialUIRaidInfoExtendMixin : UIButtonFitToTextBehaviorMixin
+SocialUIRaidInfoExtendMixin = CreateFromMixins(UIButtonFitToTextBehaviorMixin); --- @class SocialUIRaidInfoExtendMixin : UIButtonFitToTextBehaviorMixin
 
 function SocialUIRaidInfoExtendMixin:OnShow()
 	self:FitToText();
@@ -128,7 +128,7 @@ function SocialUIRaidInfoExtendMixin:OnClick()
 	end
 end
 
-SocialUIRaidInfoContentFrameMixin = {};--- @class SocialUIRaidInfoContentFrameMixin
+SocialUIRaidInfoContentFrameMixin = {}; --- @class SocialUIRaidInfoContentFrameMixin
 
 function SocialUIRaidInfoContentFrameMixin:OnMouseUp()
 	self.name:SetPoint("TOPLEFT", 5, -10);

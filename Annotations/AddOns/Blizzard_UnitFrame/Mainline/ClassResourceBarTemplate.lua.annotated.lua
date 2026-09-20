@@ -18,7 +18,7 @@
 	hideBarFunc [global] - custom function for hiding the bar
 	requiredShownLevel [number] - If the bar needs a certain level to show this will handle showing the bar on level up, etc
 ]]
-ClassResourceBarMixin = {};--- @class ClassResourceBarMixin
+ClassResourceBarMixin = {}; --- @class ClassResourceBarMixin
 
 function ClassResourceBarMixin:OnLoad()
 	if self.usePooledResourceButtons then

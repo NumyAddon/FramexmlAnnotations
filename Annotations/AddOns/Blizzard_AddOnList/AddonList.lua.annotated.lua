@@ -36,7 +36,7 @@ end
 AddonTooltip = nil;
 AddonDialog = nil;
 
-AddonDialogMixin = { };--- @class AddonDialogMixin
+AddonDialogMixin = { }; --- @class AddonDialogMixin
 
 function AddonDialogMixin:OnLoad()
 	-- Overridden only for Glue
@@ -183,7 +183,7 @@ else
 	AddonTooltip = GameTooltip
 end
 
-AddonListMixin = { };--- @class AddonListMixin
+AddonListMixin = { }; --- @class AddonListMixin
 
 function AddonList_ClearCharacterDropdown()
 	addonCharacter = ALL_CHARACTERS;
@@ -896,7 +896,7 @@ function AddonTooltip_ActionBlocked(addon)
 	ADDON_ACTIONS_BLOCKED[addon] = (ADDON_ACTIONS_BLOCKED[addon] or 0) + 1;
 end
 
-AddonCategoryCollapseExpandMixin = {};--- @class AddonCategoryCollapseExpandMixin
+AddonCategoryCollapseExpandMixin = {}; --- @class AddonCategoryCollapseExpandMixin
 
 function AddonCategoryCollapseExpandMixin:SetTreeNode(treeNode)
 	self.treeNode = treeNode;
@@ -923,7 +923,7 @@ function AddonCategoryCollapseExpandMixin:UpdateState()
 	self.Pushed:SetRotation(arrowRotation);
 end
 
-AddonListNodeMixin = { };--- @class AddonListNodeMixin
+AddonListNodeMixin = { }; --- @class AddonListNodeMixin
 
 function AddonListNodeMixin:OnClick(button)
 	if button == "LeftButton" then
@@ -994,8 +994,8 @@ function AddonListNodeMixin:SetEnabledAll(enabled)
 	AddonList_Update();
 end
 
-AddonListCategoryMixin = CreateFromMixins(AddonListNodeMixin);--- @class AddonListCategoryMixin : AddonListNodeMixin
-AddonListEntryMixin = CreateFromMixins(AddonListNodeMixin);--- @class AddonListEntryMixin : AddonListNodeMixin
+AddonListCategoryMixin = CreateFromMixins(AddonListNodeMixin); --- @class AddonListCategoryMixin : AddonListNodeMixin
+AddonListEntryMixin = CreateFromMixins(AddonListNodeMixin); --- @class AddonListEntryMixin : AddonListNodeMixin
 
 function AddonListEntryMixin:OnLoad()
 	self:SetScript("OnEnter", function()

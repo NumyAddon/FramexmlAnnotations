@@ -778,7 +778,7 @@ end
 --- Mission List                                                              ---
 ---------------------------------------------------------------------------------
 
-GarrisonMissionListMixin = { }--- @class GarrisonMissionListMixin
+GarrisonMissionListMixin = { } --- @class GarrisonMissionListMixin
 
 function GarrisonMissionListMixin:OnLoad()
 	self.inProgressMissions = {};
@@ -1237,7 +1237,7 @@ function GarrisonMissionPageEnvironment_OnEnter(self)
 	end
 end
 
-GarrisonFollowerMissionPageMixin = { }--- @class GarrisonFollowerMissionPageMixin
+GarrisonFollowerMissionPageMixin = { } --- @class GarrisonFollowerMissionPageMixin
 
 function GarrisonFollowerMissionPageMixin:SetCounters(followers, enemies, missionID)
 	GarrisonMissionPageMixin.SetCounters(self, followers, enemies, missionID);

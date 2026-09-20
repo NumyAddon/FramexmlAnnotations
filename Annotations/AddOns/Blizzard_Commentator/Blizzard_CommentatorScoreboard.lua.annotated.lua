@@ -1,7 +1,7 @@
 -- Can be overridden in external addons.
 COMMENTATOR_SCORE_LIMIT = COMMENTATOR_SCORE_LIMIT or 3;
 
-CommentatorScoreboardMixin = {};--- @class CommentatorScoreboardMixin
+CommentatorScoreboardMixin = {}; --- @class CommentatorScoreboardMixin
 
 function CommentatorScoreboardMixin:OnLoad()
 	self.ScoreLabels = {self.ScoreLeft.Label, self.ScoreRight.Label};

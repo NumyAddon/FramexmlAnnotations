@@ -1,5 +1,5 @@
 ----------------- Base Room Component Dropdown -----------------
-HousingRoomComponentOptionMixin = {};--- @class HousingRoomComponentOptionMixin
+HousingRoomComponentOptionMixin = {}; --- @class HousingRoomComponentOptionMixin
 
 function HousingRoomComponentOptionMixin:OnLoad()
 	if self.labelText then
@@ -60,7 +60,7 @@ end
 
 ----------------- Theme Dropdown -----------------
 
-HousingRoomComponentThemeMixin = CreateFromMixins(HousingRoomComponentOptionMixin);--- @class HousingRoomComponentThemeMixin : HousingRoomComponentOptionMixin
+HousingRoomComponentThemeMixin = CreateFromMixins(HousingRoomComponentOptionMixin); --- @class HousingRoomComponentThemeMixin : HousingRoomComponentOptionMixin
 
 function HousingRoomComponentThemeMixin:GetSupportsComponent(roomComponentInfo)
 	local labelByType = {
@@ -133,7 +133,7 @@ end
 
 ----------------- Wallpaper Dropdown -----------------
 
-HousingRoomComponentWallpaperMixin = CreateFromMixins(HousingRoomComponentOptionMixin);--- @class HousingRoomComponentWallpaperMixin : HousingRoomComponentOptionMixin
+HousingRoomComponentWallpaperMixin = CreateFromMixins(HousingRoomComponentOptionMixin); --- @class HousingRoomComponentWallpaperMixin : HousingRoomComponentOptionMixin
 
 function HousingRoomComponentWallpaperMixin:GetSupportsComponent(roomComponentInfo)
 	local labelByType = {
@@ -204,7 +204,7 @@ end
 
 ----------------- Ceiling Type Dropdown -----------------
 
-HousingRoomComponentCeilingTypeMixin = CreateFromMixins(HousingRoomComponentOptionMixin);--- @class HousingRoomComponentCeilingTypeMixin : HousingRoomComponentOptionMixin
+HousingRoomComponentCeilingTypeMixin = CreateFromMixins(HousingRoomComponentOptionMixin); --- @class HousingRoomComponentCeilingTypeMixin : HousingRoomComponentOptionMixin
 
 function HousingRoomComponentCeilingTypeMixin:GetSupportsComponent(roomComponentInfo)
 	-- Only supports ceilings, no special labels needed
@@ -238,7 +238,7 @@ end
 
 ----------------- Door Type Dropdown -----------------
 
-HousingRoomComponentDoorTypeMixin = CreateFromMixins(HousingRoomComponentOptionMixin);--- @class HousingRoomComponentDoorTypeMixin : HousingRoomComponentOptionMixin
+HousingRoomComponentDoorTypeMixin = CreateFromMixins(HousingRoomComponentOptionMixin); --- @class HousingRoomComponentDoorTypeMixin : HousingRoomComponentOptionMixin
 
 function HousingRoomComponentDoorTypeMixin:GetSupportsComponent(roomComponentInfo)
 	-- Only supports walls that are already some kind of door, no special labels needed
@@ -271,7 +271,7 @@ end
 
 ----------------- Base Apply All Button -----------------
 
-HousingRoomComponentApplyToAllButtonMixin = CreateFromMixins(UIButtonMixin);--- @class HousingRoomComponentApplyToAllButtonMixin : UIButtonMixin
+HousingRoomComponentApplyToAllButtonMixin = CreateFromMixins(UIButtonMixin); --- @class HousingRoomComponentApplyToAllButtonMixin : UIButtonMixin
 
 function HousingRoomComponentApplyToAllButtonMixin:OnEnter()
 	self.HoverIcon:Show();
@@ -285,7 +285,7 @@ end
 
 ----------------- Full Options Pane -----------------
 
-RoomComponentPaneMixin = {};--- @class RoomComponentPaneMixin
+RoomComponentPaneMixin = {}; --- @class RoomComponentPaneMixin
 
 function RoomComponentPaneMixin:OnLoad()
 	self.CloseButton:SetScript("OnClick", function() 

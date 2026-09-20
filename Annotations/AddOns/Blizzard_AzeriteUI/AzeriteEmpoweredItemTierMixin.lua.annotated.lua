@@ -1,4 +1,4 @@
-AzeriteEmpoweredItemTierMixin = {};--- @class AzeriteEmpoweredItemTierMixin
+AzeriteEmpoweredItemTierMixin = {}; --- @class AzeriteEmpoweredItemTierMixin
 
 AzeriteEmpoweredItemTierMixin.BACKGROUND_GLOW_STATE_NONE = nil;
 AzeriteEmpoweredItemTierMixin.BACKGROUND_GLOW_STATE_SELECTION_ACTIVE = 1;

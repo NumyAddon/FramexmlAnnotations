@@ -1,4 +1,4 @@
-HousingExteriorFixturePointMixin = {};--- @class HousingExteriorFixturePointMixin
+HousingExteriorFixturePointMixin = {}; --- @class HousingExteriorFixturePointMixin
 
 function HousingExteriorFixturePointMixin:Initialize(pointFrame)
 	self.pointFrame = pointFrame;

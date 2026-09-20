@@ -1,4 +1,4 @@
-UIPanelSpellButtonFrameMixin = {};--- @class UIPanelSpellButtonFrameMixin
+UIPanelSpellButtonFrameMixin = {}; --- @class UIPanelSpellButtonFrameMixin
 
 function UIPanelSpellButtonFrameMixin:OnLoad()
 	self.events = { "SPELL_UPDATE_COOLDOWN", "SPELLS_CHANGED" };

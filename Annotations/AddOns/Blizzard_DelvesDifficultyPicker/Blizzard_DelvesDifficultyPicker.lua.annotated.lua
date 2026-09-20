@@ -28,12 +28,12 @@ local TIER_SELECT_DROPDOWN_MENU_BTN_WIDTH = 130;
 local TIER_SELECT_DROPDOWN_MAX_WIDTH = 280;
 local TIER_SELECT_DROPDOWN_DYNAMIC_PADDING = 34;	-- used when the dropdown resizes based on the longest option text
 
-local DelvesKeyState = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["Normal"]: 2}
+local DelvesKeyState = EnumUtil.MakeEnum( --- @type {["None"]: 1, ["Normal"]: 2}
 	"None",
 	"Normal"
 );
 
-local DelvesDisplayMode = EnumUtil.MakeEnum(--- @type {["Default"]: 1, ["Traits"]: 2}
+local DelvesDisplayMode = EnumUtil.MakeEnum( --- @type {["Default"]: 1, ["Traits"]: 2}
 	"Default",
 	"Traits"
 );
@@ -82,7 +82,7 @@ local LAIRS_TIERED_ENTRANCE_TYPE_DATA = {
 };
 
 --[[ Difficulty Picker ]]
-DelvesDifficultyPickerFrameMixin = {};--- @class DelvesDifficultyPickerFrameMixin
+DelvesDifficultyPickerFrameMixin = {}; --- @class DelvesDifficultyPickerFrameMixin
 
 -- Required function, unused.
 function DelvesDifficultyPickerFrameMixin:SetStartingPage()
@@ -245,7 +245,7 @@ function DelvesDifficultyPickerFrameMixin:OnChallengesCommitStatusChanged()
 	self:UpdatePortalButtonState();
 end
 
-DelveChallengesContainerFrameMixin = { };--- @class DelveChallengesContainerFrameMixin
+DelveChallengesContainerFrameMixin = { }; --- @class DelveChallengesContainerFrameMixin
 
 function DelveChallengesContainerFrameMixin:OnLoad()
 	TalentFrameBaseMixin.OnLoad(self);
@@ -723,7 +723,7 @@ function DelvesDifficultyPickerFrameMixin:OnHide()
 end
 
 --[[ Enter Button ]]
-DelvesDifficultyPickerEnterDelveButtonMixin = {};--- @class DelvesDifficultyPickerEnterDelveButtonMixin
+DelvesDifficultyPickerEnterDelveButtonMixin = {}; --- @class DelvesDifficultyPickerEnterDelveButtonMixin
 
 function DelvesDifficultyPickerEnterDelveButtonMixin:OnEnter()
 	local selectedTierInfo = self:GetParent():GetSelectedTierInfo();
@@ -810,7 +810,7 @@ function DelvesDifficultyPickerFrameMixin:GetPartyTierEligibility()
 end
 
 --[[ Rewards Container + Buttons ]]
-DelveRewardsContainerFrameMixin = {};--- @class DelveRewardsContainerFrameMixin
+DelveRewardsContainerFrameMixin = {}; --- @class DelveRewardsContainerFrameMixin
 
 local REWARDS_SCROLL_SPACING = 5;
 
@@ -918,7 +918,7 @@ function DelveRewardsContainerFrameMixin:SetRewards()
 	end);
 end
 
-DelveRewardsButtonMixin = {};--- @class DelveRewardsButtonMixin
+DelveRewardsButtonMixin = {}; --- @class DelveRewardsButtonMixin
 
 function DelveRewardsButtonMixin:OnEnter()
 	if not self.id then
@@ -967,7 +967,7 @@ function DelveRewardsButtonMixin:OnLeave()
 end
 
 --[[ Difficulty Dropdown ]]
-DelvesDifficultyPickerDropdownMixin = {};--- @class DelvesDifficultyPickerDropdownMixin
+DelvesDifficultyPickerDropdownMixin = {}; --- @class DelvesDifficultyPickerDropdownMixin
 
 function DelvesDifficultyPickerDropdownMixin:OnEnter()
 	if not self:IsEnabled() then
@@ -986,7 +986,7 @@ end
 
 
 --[[ TieredEntranceViewRewards Button ]]
-TieredEntranceViewRewardsMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class TieredEntranceViewRewardsMixin : ButtonStateBehaviorMixin
+TieredEntranceViewRewardsMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class TieredEntranceViewRewardsMixin : ButtonStateBehaviorMixin
 function TieredEntranceViewRewardsMixin:OnClick()
 	local mapID = C_DelvesUI.GetDelveEntranceMapID();
 	local instanceID = C_EncounterJournal.GetInstanceForGameMap(mapID)

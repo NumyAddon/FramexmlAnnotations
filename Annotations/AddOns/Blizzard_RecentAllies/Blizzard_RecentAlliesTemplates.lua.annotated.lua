@@ -1,4 +1,4 @@
-RecentAlliesListMixin = {};--- @class RecentAlliesListMixin
+RecentAlliesListMixin = {}; --- @class RecentAlliesListMixin
 
 local RecentAlliesListEvents = {
 	"RECENT_ALLIES_CACHE_UPDATE",
@@ -116,7 +116,7 @@ function RecentAlliesListMixin:SetLoadingSpinnerShown(shown)
 	self.ScrollBar:SetShown(not shown);
 end
 
-RecentAlliesEntryMixin = {};--- @class RecentAlliesEntryMixin
+RecentAlliesEntryMixin = {}; --- @class RecentAlliesEntryMixin
 
 function RecentAlliesEntryMixin:OnLoad()
 	self.PartyButton:SetScript("OnClick", function()
@@ -358,7 +358,7 @@ function RecentAlliesEntryMixin:OpenMenu()
 	UnitPopup_OpenMenu(bestMenu, contextData);
 end
 
-RecentAlliesEntryPartyButtonMixin = {};--- @class RecentAlliesEntryPartyButtonMixin
+RecentAlliesEntryPartyButtonMixin = {}; --- @class RecentAlliesEntryPartyButtonMixin
 
 function RecentAlliesEntryPartyButtonMixin:OnEnter()
 	self:ShowTooltip();
@@ -383,7 +383,7 @@ function RecentAlliesEntryPartyButtonMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-RecentAlliesEntryPinDisplayMixin = {};--- @class RecentAlliesEntryPinDisplayMixin
+RecentAlliesEntryPinDisplayMixin = {}; --- @class RecentAlliesEntryPinDisplayMixin
 
 function RecentAlliesEntryPinDisplayMixin:Init(stateData)
 	self.pinExpirationDate = stateData.pinExpirationDate;
@@ -435,7 +435,7 @@ local RecentAlliesSearchFilterOptions = {
 	{ label = SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_QUESTING,        searchInfo = { interests = { Enum.RecentAlliesFriendTag.Questing } } },
 };
 
-RecentAlliesSocialViewMixin = CreateFromMixins(SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin);--- @class RecentAlliesSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
+RecentAlliesSocialViewMixin = CreateFromMixins(SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin); --- @class RecentAlliesSocialViewMixin : SocialUISystemMixin, SocialUIScrollableElementExtentPreviewerMixin
 
 local RecentAlliesSocialViewEvents =
 {
@@ -717,7 +717,7 @@ function RecentAlliesSocialViewMixin:GenerateDataProvider()
 	return dataProvider;
 end
 
-RecentAlliesSocialCardMixin = {};--- @class RecentAlliesSocialCardMixin
+RecentAlliesSocialCardMixin = {}; --- @class RecentAlliesSocialCardMixin
 
 function RecentAlliesSocialCardMixin:OnLoad()
 	self.PartyButton:SetScript("OnClick", function()
@@ -1176,7 +1176,7 @@ function RecentAlliesSocialCardMixin:HideTooltip()
 	GetAppropriateTooltip():Hide();
 end
 
-RecentAlliesCardStateDisplayMixin = {};--- @class RecentAlliesCardStateDisplayMixin
+RecentAlliesCardStateDisplayMixin = {}; --- @class RecentAlliesCardStateDisplayMixin
 
 function RecentAlliesCardStateDisplayMixin:Initialize(stateData)
 	self.PinDisplay:Initialize(stateData);
@@ -1218,7 +1218,7 @@ function RecentAlliesCardStateDisplayMixin:LayoutContent()
 	self:SetDesiredWidth(finalDesiredWidth);
 end
 
-RecentAlliesSocialCardPartyButtonMixin = {};--- @class RecentAlliesSocialCardPartyButtonMixin
+RecentAlliesSocialCardPartyButtonMixin = {}; --- @class RecentAlliesSocialCardPartyButtonMixin
 
 function RecentAlliesSocialCardPartyButtonMixin:RefreshIcon()
 	local icon = self:IsEnabled() and "friends-icon-friendsAvailable" or "friends-icon-friendsAvailable-dis";
@@ -1241,7 +1241,7 @@ function RecentAlliesSocialCardPartyButtonMixin:GetBestDisabledTooltip()
 	return RECENT_ALLIES_PARTY_BUTTON_OFFLINE_TOOLTIP;
 end
 
-RecentAlliesSocialCardPinDisplayMixin = {};--- @class RecentAlliesSocialCardPinDisplayMixin
+RecentAlliesSocialCardPinDisplayMixin = {}; --- @class RecentAlliesSocialCardPinDisplayMixin
 
 function RecentAlliesSocialCardPinDisplayMixin:Initialize(stateData)
 	self.pinExpirationDate = stateData.pinExpirationDate;
@@ -1284,7 +1284,7 @@ function RecentAlliesSocialCardPinDisplayMixin:HideTooltip()
 	GetAppropriateTooltip():Hide();
 end
 
-RecentAlliesSocialCardFriendRequestSentDisplayMixin = {};--- @class RecentAlliesSocialCardFriendRequestSentDisplayMixin
+RecentAlliesSocialCardFriendRequestSentDisplayMixin = {}; --- @class RecentAlliesSocialCardFriendRequestSentDisplayMixin
 
 function RecentAlliesSocialCardFriendRequestSentDisplayMixin:Initialize(stateData)
 	self:SetShown(stateData.friendRequestSentThisSession);

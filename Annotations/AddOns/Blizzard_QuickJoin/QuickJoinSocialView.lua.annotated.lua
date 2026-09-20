@@ -1,4 +1,4 @@
-QuickJoinSocialViewJoinButtonMixin = CreateFromMixins(SocialUIActionButtonMixin);--- @class QuickJoinSocialViewJoinButtonMixin : SocialUIActionButtonMixin
+QuickJoinSocialViewJoinButtonMixin = CreateFromMixins(SocialUIActionButtonMixin); --- @class QuickJoinSocialViewJoinButtonMixin : SocialUIActionButtonMixin
 
 function QuickJoinSocialViewJoinButtonMixin:ShowDisabledTooltip()
 	if not self.tooltip then
@@ -12,7 +12,7 @@ function QuickJoinSocialViewJoinButtonMixin:ShowDisabledTooltip()
 	tooltip:Show();
 end
 
-QuickJoinSocialViewMixin = CreateFromMixins(QuickJoinMixin, SocialUISystemMixin);--- @class QuickJoinSocialViewMixin : QuickJoinMixin, SocialUISystemMixin
+QuickJoinSocialViewMixin = CreateFromMixins(QuickJoinMixin, SocialUISystemMixin); --- @class QuickJoinSocialViewMixin : QuickJoinMixin, SocialUISystemMixin
 
 function QuickJoinSocialViewMixin:OnLoad()
 	QuickJoinMixin.OnLoad(self);

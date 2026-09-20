@@ -1,6 +1,6 @@
 ----------------- Base choice entry for dropdown use -----------------
 -- Inherits CustomizationElementTemplate
-HouseExteriorOptionDropdownElementMixin = {};--- @class HouseExteriorOptionDropdownElementMixin
+HouseExteriorOptionDropdownElementMixin = {}; --- @class HouseExteriorOptionDropdownElementMixin
 
 function HouseExteriorOptionDropdownElementMixin:Init(choiceData, choiceIndex, selected, hasAFailedReq, hasALockedChoice)
 	self.SelectionDetails:SetSkipLockedTextFormat(true);
@@ -29,7 +29,7 @@ end
 
 
 ----------------- Base Dropdown -----------------
-HouseExteriorOptionDropdownMixin = {};--- @class HouseExteriorOptionDropdownMixin
+HouseExteriorOptionDropdownMixin = {}; --- @class HouseExteriorOptionDropdownMixin
 
 function HouseExteriorOptionDropdownMixin:OnLoad()
 	self.Label:SetText(self.label);
@@ -172,7 +172,7 @@ end
 
 ----------------- Exterior Type Dropdown -----------------
 -- Inherits HouseExteriorOptionDropdownTemplate
-HouseExteriorTypeDropdownMixin = {};--- @class HouseExteriorTypeDropdownMixin
+HouseExteriorTypeDropdownMixin = {}; --- @class HouseExteriorTypeDropdownMixin
 
 function HouseExteriorTypeDropdownMixin:GetDropdownTag()
 	return "HOUSE_EXTERIOR_TYPE_OPTIONS_MENU";
@@ -208,7 +208,7 @@ end
 
 ----------------- Exterior Size Dropdown -----------------
 -- Inherits HouseExteriorOptionDropdownTemplate
-HouseExteriorSizeDropdownMixin = {};--- @class HouseExteriorSizeDropdownMixin
+HouseExteriorSizeDropdownMixin = {}; --- @class HouseExteriorSizeDropdownMixin
 
 function HouseExteriorSizeDropdownMixin:GetDropdownTag()
 	return "HOUSE_EXTERIOR_TYPE_OPTIONS_MENU";
@@ -244,7 +244,7 @@ end
 
 ----------------- Core Fixture Dropdown -----------------
 -- Inherits HouseExteriorOptionDropdownTemplate
-HouseExteriorCoreFixtureDropdownMixin = {};--- @class HouseExteriorCoreFixtureDropdownMixin
+HouseExteriorCoreFixtureDropdownMixin = {}; --- @class HouseExteriorCoreFixtureDropdownMixin
 
 function HouseExteriorCoreFixtureDropdownMixin:GetDropdownTag()
 	return "HOUSE_EXTERIOR_CORE_FIXTURE_OPTIONS_MENU";
@@ -297,7 +297,7 @@ end
 
 ----------------- Base choice entry for non-dropdown use -----------------
 -- Inherits CustomizationElementTemplate
-HouseExteriorOptionElementMixin = {};--- @class HouseExteriorOptionElementMixin
+HouseExteriorOptionElementMixin = {}; --- @class HouseExteriorOptionElementMixin
 
 function HouseExteriorOptionElementMixin:ExteriorEntryOnLoad()
 	self.SelectionDetails:ClearAllPoints();
@@ -388,7 +388,7 @@ function HouseExteriorOptionElementMixin:GetAppropriateTooltip()
 end
 
 ----------------- Non-dropdown Choice List Mixin -----------------
-HouseExteriorFixtureOptionListMixin = {};--- @class HouseExteriorFixtureOptionListMixin
+HouseExteriorFixtureOptionListMixin = {}; --- @class HouseExteriorFixtureOptionListMixin
 
 function HouseExteriorFixtureOptionListMixin:OnLoad()
 	self.CloseButton:SetScript("OnClick", function() 
@@ -515,7 +515,7 @@ function HouseExteriorFixtureOptionListMixin:ClearAndHide()
 end
 
 ----------------- Checkbox Option Mixin -----------------
-HouseExteriorCheckboxOptionMixin = {};--- @class HouseExteriorCheckboxOptionMixin
+HouseExteriorCheckboxOptionMixin = {}; --- @class HouseExteriorCheckboxOptionMixin
 
 function HouseExteriorCheckboxOptionMixin:OnLoad()
 	self.Label:SetText(self.label);

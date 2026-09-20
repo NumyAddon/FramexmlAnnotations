@@ -1,4 +1,4 @@
-CooldownViewerEditAlertBaseMixin = {};--- @class CooldownViewerEditAlertBaseMixin
+CooldownViewerEditAlertBaseMixin = {}; --- @class CooldownViewerEditAlertBaseMixin
 
 function CooldownViewerEditAlertBaseMixin:GetIcon()
 	return self.Icon;

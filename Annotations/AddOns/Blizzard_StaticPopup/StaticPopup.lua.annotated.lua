@@ -33,7 +33,7 @@ function StaticPopup_SetButtonText(which, buttonIndex, text)
 	StaticPopupDialogs[which]["button"..buttonIndex] = text;
 end
 
-StaticPopupDialogNarrationMixin = {};--- @class StaticPopupDialogNarrationMixin
+StaticPopupDialogNarrationMixin = {}; --- @class StaticPopupDialogNarrationMixin
 
 function StaticPopupDialogNarrationMixin:NarrationShouldIgnoreFocus()
 	-- We don't want static popups to narrate on mouse over.

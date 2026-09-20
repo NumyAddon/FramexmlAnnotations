@@ -1,4 +1,4 @@
-CommentatorModelSceneMixin = {}--- @class CommentatorModelSceneMixin
+CommentatorModelSceneMixin = {} --- @class CommentatorModelSceneMixin
 
 local CommentatorModelSceneEvents =
 {

@@ -1,6 +1,6 @@
 local scanUnits = { "player", "target" };
 
-CooldownViewerItemDataMixin = {};--- @class CooldownViewerItemDataMixin
+CooldownViewerItemDataMixin = {}; --- @class CooldownViewerItemDataMixin
 
 function CooldownViewerItemDataMixin:SetCooldownID(cooldownID, forceSet)
 	if forceSet or self.cooldownID ~= cooldownID then

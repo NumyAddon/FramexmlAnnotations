@@ -1,7 +1,7 @@
-HouseLevelTrackFrameMixin = CreateFromMixins(RewardTrackFrameMixin)--- @class HouseLevelTrackFrameMixin : RewardTrackFrameMixin
+HouseLevelTrackFrameMixin = CreateFromMixins(RewardTrackFrameMixin) --- @class HouseLevelTrackFrameMixin : RewardTrackFrameMixin
 HouseLevelTrackFrameMixin.elementWidth = 72;
 
-HousingUpgradeFrameMixin = {};--- @class HousingUpgradeFrameMixin
+HousingUpgradeFrameMixin = {}; --- @class HousingUpgradeFrameMixin
 
 HousingUpgradeFrameMixinEvents = {
 	"HOUSE_LEVEL_FAVOR_UPDATED",
@@ -305,7 +305,7 @@ function HousingUpgradeFrameMixin:CancelLevelEffect()
 	--intentionally blank
 end
 
-HouseUpgradeLevelFrameMixin = {};--- @class HouseUpgradeLevelFrameMixin
+HouseUpgradeLevelFrameMixin = {}; --- @class HouseUpgradeLevelFrameMixin
 
 function HouseUpgradeLevelFrameMixin:SetInfo(info)
 	self.info = info;
@@ -338,7 +338,7 @@ function HouseUpgradeLevelFrameMixin:Refresh(actualLevel, displayLevel, selected
 	end
 end
 
-HousingTeleportToHouseMixin = {};--- @class HousingTeleportToHouseMixin
+HousingTeleportToHouseMixin = {}; --- @class HousingTeleportToHouseMixin
 
 local TeleportToHouseEvents = {
 	"HOUSE_PLOT_ENTERED",
@@ -442,7 +442,7 @@ function HousingTeleportToHouseMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-HouseUpgradeRewardFrameMixin = {};--- @class HouseUpgradeRewardFrameMixin
+HouseUpgradeRewardFrameMixin = {}; --- @class HouseUpgradeRewardFrameMixin
 
 function HouseUpgradeRewardFrameMixin:OnEnter()
 	self.Background:SetAtlas("house-upgrade-reward-large-tile-bg-highlight")
@@ -456,7 +456,7 @@ function HouseUpgradeRewardFrameMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-HouseUpgradeCurrentLevelFrameMixin = {}--- @class HouseUpgradeCurrentLevelFrameMixin
+HouseUpgradeCurrentLevelFrameMixin = {} --- @class HouseUpgradeCurrentLevelFrameMixin
 
 function HouseUpgradeCurrentLevelFrameMixin:OnEnter()
 	local parent = self:GetParent();
@@ -483,7 +483,7 @@ function HouseUpgradeCurrentLevelFrameMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-HouseWatchFavorButtonMixin = {}--- @class HouseWatchFavorButtonMixin
+HouseWatchFavorButtonMixin = {} --- @class HouseWatchFavorButtonMixin
 
 function HouseWatchFavorButtonMixin:OnShow()
 	self:UpdateState();
@@ -509,7 +509,7 @@ function HouseWatchFavorButtonMixin:UpdateState()
 	self:SetChecked(self.houseGUID and (C_Housing.GetTrackedHouseGuid() == self.houseGUID));
 end
 
-HouseUpgradeProgressBarMixin = {}--- @class HouseUpgradeProgressBarMixin
+HouseUpgradeProgressBarMixin = {} --- @class HouseUpgradeProgressBarMixin
 
 local BAR_PERCENTAGE_COVERED = 0.22;
 local BAR_ANIM_TIME = 1.0;

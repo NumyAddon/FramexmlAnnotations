@@ -11,7 +11,7 @@ local SoulbindViewerEvents =
 	"BAG_UPDATE",
 };
 
-SoulbindViewerMixin = CreateFromMixins(CallbackRegistryMixin);--- @class SoulbindViewerMixin : CallbackRegistryMixin
+SoulbindViewerMixin = CreateFromMixins(CallbackRegistryMixin); --- @class SoulbindViewerMixin : CallbackRegistryMixin
 
 SoulbindViewerMixin:GenerateCallbackEvents(
 	{

@@ -5,7 +5,7 @@ ShoppingCartVisualServices = {
 	OnCartItemInteraction = "OnCartItemInteraction",
 };
 
-ShoppingCartVisualsFrameMixin = CreateFromMixins(ShoppingCartServiceRegistrantMixin);--- @class ShoppingCartVisualsFrameMixin : ShoppingCartServiceRegistrantMixin
+ShoppingCartVisualsFrameMixin = CreateFromMixins(ShoppingCartServiceRegistrantMixin); --- @class ShoppingCartVisualsFrameMixin : ShoppingCartServiceRegistrantMixin
 
 function ShoppingCartVisualsFrameMixin:OnLoad()
 	self.itemList = {};
@@ -291,7 +291,7 @@ function ShoppingCartVisualsFrameMixin:SetupDividerPredicates()
 	self.FooterInsertionPredicate = nil;
 end
 
-ShoppingCartPriceContainerMixin = {};--- @class ShoppingCartPriceContainerMixin
+ShoppingCartPriceContainerMixin = {}; --- @class ShoppingCartPriceContainerMixin
 
 function ShoppingCartPriceContainerMixin:OnLoad()
 	self.Price = self.PriceContainer.Price;
@@ -370,7 +370,7 @@ function ShoppingCartPriceContainerMixin:GetCurrencyInfo()
 	return playerCurrencyAmount, currencyIcon, iconIsAtlas;
 end
 
-ShoppingCartViewCartButtonMixin = {};--- @class ShoppingCartViewCartButtonMixin
+ShoppingCartViewCartButtonMixin = {}; --- @class ShoppingCartViewCartButtonMixin
 
 function ShoppingCartViewCartButtonMixin:UpdateNumItemsInCart(numItemsInCart)
 	local buttonEnabled = numItemsInCart ~= 0;
@@ -382,21 +382,21 @@ function ShoppingCartViewCartButtonMixin:UpdateNumItemsInCart(numItemsInCart)
 	self:SetEnabled(buttonEnabled);
 end
 
-ShoppingCartShowCartServiceMixin = {};--- @class ShoppingCartShowCartServiceMixin
+ShoppingCartShowCartServiceMixin = {}; --- @class ShoppingCartShowCartServiceMixin
 
 function ShoppingCartShowCartServiceMixin:GetEventData()
 	local shown = true;
 	return shown;
 end
 
-ShoppingCartHideCartServiceMixin = {};--- @class ShoppingCartHideCartServiceMixin
+ShoppingCartHideCartServiceMixin = {}; --- @class ShoppingCartHideCartServiceMixin
 
 function ShoppingCartHideCartServiceMixin:GetEventData()
 	local shown = false;
 	return shown;
 end
 
-ShoppingCartRemoveFromCartItemButtonContainerMixin = {}--- @class ShoppingCartRemoveFromCartItemButtonContainerMixin
+ShoppingCartRemoveFromCartItemButtonContainerMixin = {} --- @class ShoppingCartRemoveFromCartItemButtonContainerMixin
 
 function ShoppingCartRemoveFromCartItemButtonContainerMixin:OnEnter()
 	self.mouseOver = true;
@@ -410,7 +410,7 @@ function ShoppingCartRemoveFromCartItemButtonContainerMixin:OnLeave()
 	end
 end
 
-ShoppingCartRemoveFromCartItemButtonMixin = {}--- @class ShoppingCartRemoveFromCartItemButtonMixin
+ShoppingCartRemoveFromCartItemButtonMixin = {} --- @class ShoppingCartRemoveFromCartItemButtonMixin
 
 function ShoppingCartRemoveFromCartItemButtonMixin:OnEnter()
 	self.mouseOver = true;
@@ -424,7 +424,7 @@ function ShoppingCartRemoveFromCartItemButtonMixin:OnLeave()
 	end
 end
 
-ShoppingCartPlayerTotalCurrencyMixin = {};--- @class ShoppingCartPlayerTotalCurrencyMixin
+ShoppingCartPlayerTotalCurrencyMixin = {}; --- @class ShoppingCartPlayerTotalCurrencyMixin
 
 function ShoppingCartPlayerTotalCurrencyMixin:OnEnter()
 	if self.tooltip then

@@ -405,7 +405,7 @@ function DressUpItemTransmogInfoList(itemTransmogInfoList, showCustomSetDetails,
 	end
 end
 
-DressUpCustomSetMixin = { };--- @class DressUpCustomSetMixin
+DressUpCustomSetMixin = { }; --- @class DressUpCustomSetMixin
 
 function DressUpCustomSetMixin:GetItemTransmogInfoList()
 	local playerActor = DressUpFrame.ModelScene:GetPlayerActor();
@@ -458,7 +458,7 @@ function SetUpTransmogAndMountDressupFrame(parentFrame, transmogSetID, mountID, 
 	self:SetPoint(point, parentFrame, relativePoint, offsetX, offsetY);
 end
 
-DressUpCustomSetDetailsPanelMixin = { };--- @class DressUpCustomSetDetailsPanelMixin
+DressUpCustomSetDetailsPanelMixin = { }; --- @class DressUpCustomSetDetailsPanelMixin
 
 local CLASS_BACKGROUND_SETTINGS = {
 	["DEFAULT"] = { desaturation = 0.5, alpha = 0.25 },
@@ -638,7 +638,7 @@ function DressUpCustomSetDetailsPanelMixin:AddSlotFrame(slotID, transmogInfo, fi
 	end
 end
 
-DressUpCustomSetDetailsSlotMixin = { };--- @class DressUpCustomSetDetailsSlotMixin
+DressUpCustomSetDetailsSlotMixin = { }; --- @class DressUpCustomSetDetailsSlotMixin
 
 function DressUpCustomSetDetailsSlotMixin:OnHide()
 	if self.itemDataLoadedCancelFunc then

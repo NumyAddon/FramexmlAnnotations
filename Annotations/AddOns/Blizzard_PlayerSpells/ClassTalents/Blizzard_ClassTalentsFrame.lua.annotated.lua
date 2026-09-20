@@ -8,7 +8,7 @@ local NODE_PURCHASE_IN_PROGRESS_FX_1 = 166;
 local NODE_PURCHASE_COMPLETE_FX_1 = 150;
 
 
-ClassTalentCurrencyDisplayMixin = {};--- @class ClassTalentCurrencyDisplayMixin
+ClassTalentCurrencyDisplayMixin = {}; --- @class ClassTalentCurrencyDisplayMixin
 
 function ClassTalentCurrencyDisplayMixin:SetPointTypeText(text)
 	self.CurrencyLabel:SetText(TALENT_FRAME_CURRENCY_DISPLAY_FORMAT_NAME_ONLY:format(text));
@@ -34,7 +34,7 @@ function ClassTalentCurrencyDisplayMixin:GetTalentFrame()
 end
 
 
-ClassTalentsFrameMixin = CreateFromMixins(TalentFrameBaseMixin, ClassTalentImportExportMixin, ClassTalentSearchMixin);--- @class ClassTalentsFrameMixin : TalentFrameBaseMixin, ClassTalentImportExportMixin, ClassTalentSearchMixin
+ClassTalentsFrameMixin = CreateFromMixins(TalentFrameBaseMixin, ClassTalentImportExportMixin, ClassTalentSearchMixin); --- @class ClassTalentsFrameMixin : TalentFrameBaseMixin, ClassTalentImportExportMixin, ClassTalentSearchMixin
 
 local ClassTalentsFrameEvents = {
 	"TRAIT_CONFIG_CREATED",

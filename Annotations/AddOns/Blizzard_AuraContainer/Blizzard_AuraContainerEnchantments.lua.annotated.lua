@@ -22,7 +22,7 @@ local function GetDurationSeconds(enchantmentInfo)
 	return 0;
 end
 
-AuraContainerItemEnchantmentManagerMixin = {};--- @class AuraContainerItemEnchantmentManagerMixin
+AuraContainerItemEnchantmentManagerMixin = {}; --- @class AuraContainerItemEnchantmentManagerMixin
 
 function AuraContainerItemEnchantmentManagerMixin:Init(owner)
 	self.owner = owner;
@@ -261,7 +261,7 @@ function AuraContainerItemEnchantmentManagerMixin:ResetFrameAssignments()
 	self.activeItemEnchantmentFrames = {};
 end
 
-AuraContainerItemEnchantmentMixin = {};--- @class AuraContainerItemEnchantmentMixin
+AuraContainerItemEnchantmentMixin = {}; --- @class AuraContainerItemEnchantmentMixin
 
 function AuraContainerItemEnchantmentMixin:Init(itemEnchantmentSlot, description)
 	assert(description.auraFrame ~= nil, "Item enchantments must have an aura frame.");
@@ -391,7 +391,7 @@ function AuraContainerItemEnchantmentMixin:CreateAuraData()
 	};
 end
 
-AuraContainerItemEnchantmentOwnerMixin = {};--- @class AuraContainerItemEnchantmentOwnerMixin
+AuraContainerItemEnchantmentOwnerMixin = {}; --- @class AuraContainerItemEnchantmentOwnerMixin
 
 function AuraContainerItemEnchantmentOwnerMixin:OnItemEnchantmentsChanged()
 	-- Override in the owner to be notified when the list of configured item

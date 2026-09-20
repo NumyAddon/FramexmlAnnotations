@@ -22,7 +22,7 @@ function CommunitiesAddLanguageInitializer(description, localeInfo)
 	end);
 end
 
-CommunitiesLanguageDropdownMixin = {};--- @class CommunitiesLanguageDropdownMixin
+CommunitiesLanguageDropdownMixin = {}; --- @class CommunitiesLanguageDropdownMixin
 
 function CommunitiesLanguageDropdownMixin:SetLocale(localeId)
 	self.currentLocaleId = localeId;

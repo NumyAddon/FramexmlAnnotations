@@ -1,6 +1,6 @@
 local FRAMERATE_FREQUENCY = 0.25;
 
-FramerateFrameMixin = {};--- @class FramerateFrameMixin
+FramerateFrameMixin = {}; --- @class FramerateFrameMixin
 
 function FramerateFrameMixin:OnLoad()
 	-- Position is based on position of micro menu

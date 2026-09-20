@@ -9,7 +9,7 @@ EncounterTimelineDirtyFlag = {
 
 EncounterTimelineDirtyFlag.All = Flags_CreateMaskFromTable(EncounterTimelineDirtyFlag);
 
-EncounterTimelineMixin = CreateFromMixins(EditModeEncounterEventsSystemMixin, EncounterTimelineScriptedAnimatableMixin);--- @class EncounterTimelineMixin : EditModeEncounterEventsSystemMixin, EncounterTimelineScriptedAnimatableMixin
+EncounterTimelineMixin = CreateFromMixins(EditModeEncounterEventsSystemMixin, EncounterTimelineScriptedAnimatableMixin); --- @class EncounterTimelineMixin : EditModeEncounterEventsSystemMixin, EncounterTimelineScriptedAnimatableMixin
 
 function EncounterTimelineMixin:OnLoad()
 	EditModeEncounterEventsSystemMixin.OnSystemLoad(self);

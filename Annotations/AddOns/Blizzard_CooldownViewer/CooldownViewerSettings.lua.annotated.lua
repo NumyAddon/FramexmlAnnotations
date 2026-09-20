@@ -50,7 +50,7 @@ local function MatchesCooldownCategory(cooldownInfo, displayCategory)
 	return not isInvisible and displayCategory:MatchesCategory(cooldownInfo.category) and (cooldownInfo.isKnown or IsShowingUnlearned());
 end
 
-local CooldownViewerCategoryMixin = {};--- @class CooldownViewerCategoryMixin
+local CooldownViewerCategoryMixin = {}; --- @class CooldownViewerCategoryMixin
 function CooldownViewerCategoryMixin:Init(category, title, filter)
 	self.category = category; -- It's possible to use multiple categories, the first one is the "main" category
 	self.title = title;
@@ -140,7 +140,7 @@ function CreateCategoryObjectLookup()
 	return lookup;
 end
 
-CooldownViewerBaseReorderTargetMixin = {};--- @class CooldownViewerBaseReorderTargetMixin
+CooldownViewerBaseReorderTargetMixin = {}; --- @class CooldownViewerBaseReorderTargetMixin
 
 function CooldownViewerBaseReorderTargetMixin:OnEnter()
 	EventRegistry:TriggerEvent("CooldownViewerSettings.OnEnterItem", self);
@@ -151,7 +151,7 @@ function CooldownViewerBaseReorderTargetMixin:GetBestCooldownItemTarget(_mouseX,
 	return self;
 end
 
-CooldownViewerSettingsItemMixin = CreateFromMixins(CooldownViewerItemDataMixin, CooldownViewerBaseReorderTargetMixin, CooldownViewerVisualAlertTargetMixin);--- @class CooldownViewerSettingsItemMixin : CooldownViewerItemDataMixin, CooldownViewerBaseReorderTargetMixin, CooldownViewerVisualAlertTargetMixin
+CooldownViewerSettingsItemMixin = CreateFromMixins(CooldownViewerItemDataMixin, CooldownViewerBaseReorderTargetMixin, CooldownViewerVisualAlertTargetMixin); --- @class CooldownViewerSettingsItemMixin : CooldownViewerItemDataMixin, CooldownViewerBaseReorderTargetMixin, CooldownViewerVisualAlertTargetMixin
 
 function CooldownViewerSettingsItemMixin:RefreshData()
 	if not self:IsEmptyCategory() then
@@ -576,7 +576,7 @@ function CooldownViewerSettingsItemMixin:UsesDynamicAppearance()
 	return false;
 end
 
-CooldownViewerSettingsBarItemMixin = CreateFromMixins(CooldownViewerSettingsItemMixin);--- @class CooldownViewerSettingsBarItemMixin : CooldownViewerSettingsItemMixin
+CooldownViewerSettingsBarItemMixin = CreateFromMixins(CooldownViewerSettingsItemMixin); --- @class CooldownViewerSettingsBarItemMixin : CooldownViewerSettingsItemMixin
 
 function CooldownViewerSettingsBarItemMixin:RefreshData()
 	CooldownViewerSettingsItemMixin.RefreshData(self);
@@ -627,13 +627,13 @@ function CooldownViewerSettingsBarItemMixin:GetAlertTargetFrame()
 	return self.AlertTarget;
 end
 
-CooldownViewerContainerReorderTargetMixin = CreateFromMixins(CooldownViewerBaseReorderTargetMixin);--- @class CooldownViewerContainerReorderTargetMixin : CooldownViewerBaseReorderTargetMixin
+CooldownViewerContainerReorderTargetMixin = CreateFromMixins(CooldownViewerBaseReorderTargetMixin); --- @class CooldownViewerContainerReorderTargetMixin : CooldownViewerBaseReorderTargetMixin
 
 function CooldownViewerContainerReorderTargetMixin:GetBestCooldownItemTarget(cursorX, cursorY)
 	return self:GetNearestItemToCursorWeighted(cursorX, cursorY);
 end
 
-CooldownViewerSettingsCategoryMixin = CreateFromMixins(CooldownViewerContainerReorderTargetMixin);--- @class CooldownViewerSettingsCategoryMixin : CooldownViewerContainerReorderTargetMixin
+CooldownViewerSettingsCategoryMixin = CreateFromMixins(CooldownViewerContainerReorderTargetMixin); --- @class CooldownViewerSettingsCategoryMixin : CooldownViewerContainerReorderTargetMixin
 
 function CooldownViewerSettingsCategoryMixin:OnLoad()
 	local itemResetCallback = function(pool, itemFrame)
@@ -791,7 +791,7 @@ function CooldownViewerSettingsCategoryMixin:IsDisplayingAnyItems()
 	return self.itemPool:GetNumActive() > 0;
 end
 
-CooldownViewerSettingsBarCategoryMixin = CreateFromMixins(CooldownViewerSettingsCategoryMixin);--- @class CooldownViewerSettingsBarCategoryMixin : CooldownViewerSettingsCategoryMixin
+CooldownViewerSettingsBarCategoryMixin = CreateFromMixins(CooldownViewerSettingsCategoryMixin); --- @class CooldownViewerSettingsBarCategoryMixin : CooldownViewerSettingsCategoryMixin
 
 function CooldownViewerSettingsBarCategoryMixin:GetItemTemplate()
 	return  "CooldownViewerSettingsBarItemTemplate";
@@ -808,9 +808,9 @@ function CooldownViewerSettingsBarCategoryMixin:SetupGridLayoutParams()
 	container.alwaysUpdateLayout = true;
 end
 
-CooldownViewerSettingsContentMixin = {};--- @class CooldownViewerSettingsContentMixin
+CooldownViewerSettingsContentMixin = {}; --- @class CooldownViewerSettingsContentMixin
 
-CooldownViewerSettingsMixin = {};--- @class CooldownViewerSettingsMixin
+CooldownViewerSettingsMixin = {}; --- @class CooldownViewerSettingsMixin
 
 function CooldownViewerSettingsMixin:GetExtraPanelWidth()
 	return 50;
@@ -1811,14 +1811,14 @@ function CooldownViewerSettingsMixin:ShowOptionsPanel(fromEditMode)
 	Settings.OpenToCategory(Settings.ADVANCED_OPTIONS_CATEGORY_ID);
 end
 
-CooldownViewerSettingsSearchBoxMixin = {}--- @class CooldownViewerSettingsSearchBoxMixin
+CooldownViewerSettingsSearchBoxMixin = {} --- @class CooldownViewerSettingsSearchBoxMixin
 
 function CooldownViewerSettingsSearchBoxMixin:CooldownViewerSettingsSearch_OnTextChanged(_userChange)
 	CooldownViewerSettings:SetFilterText(self:GetText());
 end
 
 
-CooldownViewerSettingsReorderMarkerMixin = {};--- @class CooldownViewerSettingsReorderMarkerMixin
+CooldownViewerSettingsReorderMarkerMixin = {}; --- @class CooldownViewerSettingsReorderMarkerMixin
 
 function CooldownViewerSettingsReorderMarkerMixin:SetHorizontal()
 	self.Texture:SetAtlas("cdm-horizontal", true);
@@ -1836,7 +1836,7 @@ function CooldownViewerSettingsReorderMarkerMixin:SetIsLegalTarget(isLegal)
 	end
 end
 
-CooldownViewerSettingsTabWithNewOptionMixin = CreateFromMixins(NewDefinitionsCheckerMixin);--- @class CooldownViewerSettingsTabWithNewOptionMixin : NewDefinitionsCheckerMixin
+CooldownViewerSettingsTabWithNewOptionMixin = CreateFromMixins(NewDefinitionsCheckerMixin); --- @class CooldownViewerSettingsTabWithNewOptionMixin : NewDefinitionsCheckerMixin
 
 function CooldownViewerSettingsTabWithNewOptionMixin:SetNewOptionAnchor()
 	local newOptionFrame = self:GetNewOptionDisplay();
@@ -1845,7 +1845,7 @@ function CooldownViewerSettingsTabWithNewOptionMixin:SetNewOptionAnchor()
 	end
 end
 
-CooldownViewerSettingsCategoryNewOptionMixin = CreateFromMixins(NewDefinitionsCheckerButtonMixin);--- @class CooldownViewerSettingsCategoryNewOptionMixin : NewDefinitionsCheckerButtonMixin
+CooldownViewerSettingsCategoryNewOptionMixin = CreateFromMixins(NewDefinitionsCheckerButtonMixin); --- @class CooldownViewerSettingsCategoryNewOptionMixin : NewDefinitionsCheckerButtonMixin
 
 function CooldownViewerSettingsCategoryNewOptionMixin:SetNewOptionAnchor()
 	local newOptionFrame = self:GetNewOptionDisplay();
@@ -1856,7 +1856,7 @@ function CooldownViewerSettingsCategoryNewOptionMixin:SetNewOptionAnchor()
 end
 
 
-CooldownViewerSettingsTabMixin = {};--- @class CooldownViewerSettingsTabMixin
+CooldownViewerSettingsTabMixin = {}; --- @class CooldownViewerSettingsTabMixin
 
 function CooldownViewerSettingsTabMixin:SetTooltipTextSetupFunction(fn)
 	self.tooltipTextSetupFn = fn;

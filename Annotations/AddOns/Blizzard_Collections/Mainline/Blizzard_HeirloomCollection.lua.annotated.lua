@@ -1,7 +1,7 @@
 local VIEW_MODE_FULL = 1; -- Shows everything and isn't filtered by class/spec
 local VIEW_MODE_CLASS = 2; -- Only shows items valid for the selected class/spec
 
-HeirloomsMixin = {}--- @class HeirloomsMixin
+HeirloomsMixin = {} --- @class HeirloomsMixin
 
 function HeirloomsJournal_OnEvent(self, event, ...)
 	if event == "HEIRLOOMS_UPDATED" then

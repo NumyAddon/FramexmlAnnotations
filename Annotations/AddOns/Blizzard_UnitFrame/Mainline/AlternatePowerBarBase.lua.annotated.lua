@@ -1,7 +1,7 @@
 ----------------- Alternate Power Bar Base -----------------
 
 -- Base mixin for an alternate unit power bar, typically shown as a 3rd bar under the primary power bar
-AlternatePowerBarBaseMixin = {};--- @class AlternatePowerBarBaseMixin
+AlternatePowerBarBaseMixin = {}; --- @class AlternatePowerBarBaseMixin
 
 function AlternatePowerBarBaseMixin:OnLoad()
 	self.isEnabled = nil;
@@ -168,7 +168,7 @@ end
 ----------------- Player Frame Alternate Power Base -----------------
 
 -- Base mixin for alternate power bars attached to the Player Unit Frame
-PlayerFrameAlternatePowerBarBaseMixin = CreateFromMixins(AlternatePowerBarBaseMixin);--- @class PlayerFrameAlternatePowerBarBaseMixin : AlternatePowerBarBaseMixin
+PlayerFrameAlternatePowerBarBaseMixin = CreateFromMixins(AlternatePowerBarBaseMixin); --- @class PlayerFrameAlternatePowerBarBaseMixin : AlternatePowerBarBaseMixin
 
 function PlayerFrameAlternatePowerBarBaseMixin:Initialize()
 	self.textLockable = 1;

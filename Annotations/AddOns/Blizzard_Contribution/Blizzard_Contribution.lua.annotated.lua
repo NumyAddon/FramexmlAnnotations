@@ -1,6 +1,6 @@
 UIPanelWindows["ContributionCollectionFrame"] = { area = "center", allowOtherPanels = 1, showFailedFunc = C_ContributionCollector.Close, };
 
-ContributionRewardMixin = {};--- @class ContributionRewardMixin
+ContributionRewardMixin = {}; --- @class ContributionRewardMixin
 
 function ContributionRewardMixin:Setup(rewardID, isEnabled)
 	self.rewardID = rewardID;
@@ -64,7 +64,7 @@ function ContributionRewardMixin:OnLeave()
 	ContributionBuffTooltip:Hide();
 end
 
-ContributionRewardMouseOverMixin = {}--- @class ContributionRewardMouseOverMixin
+ContributionRewardMouseOverMixin = {} --- @class ContributionRewardMouseOverMixin
 
 function ContributionRewardMouseOverMixin:OnEnter()
 	self:GetParent():OnEnter();
@@ -74,7 +74,7 @@ function ContributionRewardMouseOverMixin:OnLeave()
 	self:GetParent():OnLeave();
 end
 
-ContributionStatusMixin = {}--- @class ContributionStatusMixin
+ContributionStatusMixin = {} --- @class ContributionStatusMixin
 
 function ContributionStatusMixin:OnLoad()
 	self:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar"); -- Set to some default texture just to instantiate the bar
@@ -145,7 +145,7 @@ function ContributionStatusMixin:UpdateTextVisibility()
 	self.Text:SetShown(shouldShowText);
 end
 
-ContributeButtonMixin = {};--- @class ContributeButtonMixin
+ContributeButtonMixin = {}; --- @class ContributeButtonMixin
 
 function ContributeButtonMixin:OnShow()
 	self:RegisterEvent("CURRENCY_DISPLAY_UPDATE");
@@ -267,7 +267,7 @@ function ContributeButtonMixin:Update()
 	end
 end
 
-ContributionMixin = {};--- @class ContributionMixin
+ContributionMixin = {}; --- @class ContributionMixin
 
 function ContributionMixin:OnHide()
 	self:StopAnimations();
@@ -393,7 +393,7 @@ function ContributionMixin:StopAnimations()
 	self:QueueAnimation(false);
 end
 
-ContributionCollectionMixin = {};--- @class ContributionCollectionMixin
+ContributionCollectionMixin = {}; --- @class ContributionCollectionMixin
 
 function ContributionCollectionMixin:OnLoad()
 	self.contributionPool = CreateFramePool("FRAME", self, "ContributionTemplate", function(pool, contribution) contribution:OnReset(pool); end);

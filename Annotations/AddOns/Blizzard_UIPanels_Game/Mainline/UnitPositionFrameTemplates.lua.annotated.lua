@@ -78,7 +78,7 @@ function CheckColorOverrideForPVPInactive(unit, timeNow, r, g, b)
 	return r, g, b;
 end
 
-UnitPositionFrameMixin = {}--- @class UnitPositionFrameMixin
+UnitPositionFrameMixin = {} --- @class UnitPositionFrameMixin
 
 function UnitPositionFrameMixin:OnLoad()
 	self:ResetCurrentMouseOverUnits();
@@ -316,7 +316,7 @@ function UnitPositionFrameMixin:NeedsPeriodicUpdate()
 	return self.needsPeriodicUpdate;
 end
 
-UnitPositionFrameUpdateSecureMixin = {};--- @class UnitPositionFrameUpdateSecureMixin
+UnitPositionFrameUpdateSecureMixin = {}; --- @class UnitPositionFrameUpdateSecureMixin
 
 function UnitPositionFrameUpdateSecureMixin:SetupSecureData()
 	self.unitAppearanceData = {};

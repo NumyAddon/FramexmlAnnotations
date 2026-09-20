@@ -19,7 +19,7 @@ local permittedAPI =
 	[AsyncCallbackAPIType.ASYNC_SPELL] = { event = "SPELL_DATA_LOAD_RESULT", accessor =  C_Spell.RequestLoadSpellData },
 };
 
-AsyncCallbackSystemMixin = {};--- @class AsyncCallbackSystemMixin
+AsyncCallbackSystemMixin = {}; --- @class AsyncCallbackSystemMixin
 
 function AsyncCallbackSystemMixin:Init(apiType)
 	self.callbacks = {};

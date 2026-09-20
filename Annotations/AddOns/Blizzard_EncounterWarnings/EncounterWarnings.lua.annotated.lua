@@ -2,7 +2,7 @@ EncounterWarningsSystemDynamicEvents = {
 	"ENCOUNTER_WARNING",
 };
 
-EncounterWarningsSystemFrameMixin = CreateFromMixins(EditModeEncounterEventsSystemMixin);--- @class EncounterWarningsSystemFrameMixin : EditModeEncounterEventsSystemMixin
+EncounterWarningsSystemFrameMixin = CreateFromMixins(EditModeEncounterEventsSystemMixin); --- @class EncounterWarningsSystemFrameMixin : EditModeEncounterEventsSystemMixin
 
 function EncounterWarningsSystemFrameMixin:OnLoad()
 	EditModeEncounterEventsSystemMixin.OnSystemLoad(self);

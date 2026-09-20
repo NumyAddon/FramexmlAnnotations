@@ -1,4 +1,4 @@
-WorldQuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class WorldQuestDataProviderMixin : MapCanvasDataProviderMixin
+WorldQuestDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class WorldQuestDataProviderMixin : MapCanvasDataProviderMixin
 
 function WorldQuestDataProviderMixin:SetMatchWorldMapFilters(matchWorldMapFilters)
 	local wasMatchingWorldMapFilters = self:IsMatchingWorldMapFilters();
@@ -356,7 +356,7 @@ function WorldQuestDataProviderMixin:IsQuestSuppressed(questID)
 end
 
 --[[ World Quest Pin ]]--
-WorldQuestPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class WorldQuestPinMixin : MapCanvasPinMixin
+WorldQuestPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class WorldQuestPinMixin : MapCanvasPinMixin
 
 function WorldQuestPinMixin:DisableInheritedMotionScriptsWarning()
 	return true;
@@ -479,7 +479,7 @@ function WorldQuestPinMixin:GetDisplayName()
 end
 
 --[[ World Quest Spell Effect Pin ]]--
-WorldQuestSpellEffectPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class WorldQuestSpellEffectPinMixin : MapCanvasPinMixin
+WorldQuestSpellEffectPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class WorldQuestSpellEffectPinMixin : MapCanvasPinMixin
 
 function WorldQuestSpellEffectPinMixin:OnLoad()
 	self:SetDisplayInfo(11686); 	-- 11686 is invisible stalker

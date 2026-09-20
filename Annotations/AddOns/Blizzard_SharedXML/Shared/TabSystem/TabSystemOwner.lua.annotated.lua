@@ -1,5 +1,5 @@
 
-TabSystemTrackerMixin = {};--- @class TabSystemTrackerMixin
+TabSystemTrackerMixin = {}; --- @class TabSystemTrackerMixin
 
 function TabSystemTrackerMixin:OnLoad()
 	self:Init();
@@ -69,7 +69,7 @@ function TabSystemTrackerMixin:GetElementsForTab(tabID)
 end
 
 
-TabSystemOwnerMixin = {};--- @class TabSystemOwnerMixin
+TabSystemOwnerMixin = {}; --- @class TabSystemOwnerMixin
 
 function TabSystemOwnerMixin:OnLoad()
 	self.internalTabTracker = CreateAndInitFromMixin(TabSystemTrackerMixin);

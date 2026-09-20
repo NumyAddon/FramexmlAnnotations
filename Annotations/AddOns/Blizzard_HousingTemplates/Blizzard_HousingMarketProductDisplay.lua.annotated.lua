@@ -1,6 +1,6 @@
 
 -- Shared behavior for product displays that have a "Contents" child based on a CatalogShop template.
-HousingMarketProductDisplayMixin = {};--- @class HousingMarketProductDisplayMixin
+HousingMarketProductDisplayMixin = {}; --- @class HousingMarketProductDisplayMixin
 
 function HousingMarketProductDisplayMixin:OnLoad()
 	-- In the housing market, products never display as selected.
@@ -119,7 +119,7 @@ function HousingMarketProductDisplayMixin:StartPreview()
 	-- Override in your derived Mixin.
 end
 
-HousingMarketSmallProductDisplayMixin = {};--- @class HousingMarketSmallProductDisplayMixin
+HousingMarketSmallProductDisplayMixin = {}; --- @class HousingMarketSmallProductDisplayMixin
 
 local function CreateContentsFrame(parent, contentsTemplate)
 	local frame = CreateFrame("Button", nil, parent, contentsTemplate);
@@ -227,7 +227,7 @@ function HousingMarketSmallProductDisplayMixin:GetCartItemData()
 	};
 end
 
-HousingMarketBundleDisplayMixin = {};--- @class HousingMarketBundleDisplayMixin
+HousingMarketBundleDisplayMixin = {}; --- @class HousingMarketBundleDisplayMixin
 
 function HousingMarketBundleDisplayMixin:AddTooltipLines(tooltip)
 	-- Overrides HousingMarketProductDisplayMixin.

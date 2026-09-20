@@ -1,4 +1,4 @@
-TalentButtonCapstoneTooltipMixin = {};--- @class TalentButtonCapstoneTooltipMixin
+TalentButtonCapstoneTooltipMixin = {}; --- @class TalentButtonCapstoneTooltipMixin
 
 function TalentButtonCapstoneTooltipMixin:FormatCapstoneRankStage(text, rank, maxRanks, isRankPurchased)
 	-- When previewing the first rank (Ex. 0 -> 1), we display "0/Max" to indicate 0 points spent.
@@ -73,7 +73,7 @@ function TalentButtonCapstoneTooltipMixin:AddTooltipEntryRanks(tooltip, entryID,
 	end
 end
 
-TalentButtonCapstonePipMixin = CreateFromMixins(TalentButtonArtMixin, TalentButtonCapstoneTooltipMixin);--- @class TalentButtonCapstonePipMixin : TalentButtonArtMixin, TalentButtonCapstoneTooltipMixin
+TalentButtonCapstonePipMixin = CreateFromMixins(TalentButtonArtMixin, TalentButtonCapstoneTooltipMixin); --- @class TalentButtonCapstonePipMixin : TalentButtonArtMixin, TalentButtonCapstoneTooltipMixin
 
 function TalentButtonCapstonePipMixin:OnLoad()
 	TalentButtonArtMixin.OnLoad(self);
@@ -209,7 +209,7 @@ function TalentButtonCapstonePipMixin:AddTooltipDescription(tooltip)
 	self:AddTooltipEntryRanks(tooltip, entryID, spentInTier, maxRanks);
 end
 
-TalentButtonCapstoneWithTrackMixin = CreateFromMixins(TalentButtonSpendMixin, TalentButtonCapstoneTooltipMixin);--- @class TalentButtonCapstoneWithTrackMixin : TalentButtonSpendMixin, TalentButtonCapstoneTooltipMixin
+TalentButtonCapstoneWithTrackMixin = CreateFromMixins(TalentButtonSpendMixin, TalentButtonCapstoneTooltipMixin); --- @class TalentButtonCapstoneWithTrackMixin : TalentButtonSpendMixin, TalentButtonCapstoneTooltipMixin
 
 function TalentButtonCapstoneWithTrackMixin:OnLoad()
 	TalentButtonSpendMixin.OnLoad(self);

@@ -1,4 +1,4 @@
-WarbandSceneJounalMixin = {};--- @class WarbandSceneJounalMixin
+WarbandSceneJounalMixin = {}; --- @class WarbandSceneJounalMixin
 
 local WarbandSceneTemplates = {
 	["WARBAND_SCENE"] = { template = "WarbandSceneTemplate", initFunc = WarbandSceneEntryMixin.Init },

@@ -29,7 +29,7 @@ local function CreateSecureAuraInstanceMap(numElements)
 	return auraInstanceMap;
 end
 
-AuraContainerAuraGroupManagerMixin = {};--- @class AuraContainerAuraGroupManagerMixin
+AuraContainerAuraGroupManagerMixin = {}; --- @class AuraContainerAuraGroupManagerMixin
 
 function AuraContainerAuraGroupManagerMixin:Init(owner)
 	self.owner = owner;
@@ -356,7 +356,7 @@ function AuraContainerAuraGroupManagerMixin:ResetFrameAssignments()
 	end
 end
 
-AuraContainerAuraGroupMixin = {};--- @class AuraContainerAuraGroupMixin
+AuraContainerAuraGroupMixin = {}; --- @class AuraContainerAuraGroupMixin
 
 function AuraContainerAuraGroupMixin:Init(description)
 	assert(AuraUtil.IsValidFilterString(description.filterString));
@@ -531,7 +531,7 @@ function AuraContainerAuraGroupMixin:RebuildAuras()
 	self:MarkFrameAssignmentsDirty();
 end
 
-AuraContainerAuraGroupOwnerMixin = {};--- @class AuraContainerAuraGroupOwnerMixin
+AuraContainerAuraGroupOwnerMixin = {}; --- @class AuraContainerAuraGroupOwnerMixin
 
 function AuraContainerAuraGroupOwnerMixin:OnAuraGroupsChanged()
 	-- Override in the owner to be notified when the list of configured aura

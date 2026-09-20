@@ -1,4 +1,4 @@
-MapCanvasMixin = CreateFromMixins(CallbackRegistryMixin);--- @class MapCanvasMixin : CallbackRegistryMixin
+MapCanvasMixin = CreateFromMixins(CallbackRegistryMixin); --- @class MapCanvasMixin : CallbackRegistryMixin
 
 MapCanvasMixin.MouseAction = { Up = 1, Down = 2, Click = 3 };
 

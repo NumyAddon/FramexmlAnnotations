@@ -26,7 +26,7 @@ OBJECTIVE_DASH_STYLE_HIDE_AND_COLLAPSE = 3;
 -- ***** QUEST ITEM BUTTON
 -- *****************************************************************************************************
 
-QuestObjectiveItemButtonMixin = { };--- @class QuestObjectiveItemButtonMixin
+QuestObjectiveItemButtonMixin = { }; --- @class QuestObjectiveItemButtonMixin
 
 function QuestObjectiveItemButtonMixin:OnLoad()
 	self:RegisterForClicks("AnyUp");
@@ -142,7 +142,7 @@ function QuestObjectiveItemButtonMixin:UpdateInsideBlob(questID, inside)
 	end
 end
 
-QuestObjectiveItemGlowAnimMixin = {}--- @class QuestObjectiveItemGlowAnimMixin
+QuestObjectiveItemGlowAnimMixin = {} --- @class QuestObjectiveItemGlowAnimMixin
 
 function QuestObjectiveItemGlowAnimMixin:OnLoop()
 	self.loopCount = self.loopCount + 1;
@@ -169,7 +169,7 @@ end
 -- ***** FIND GROUP BUTTON
 -- *****************************************************************************************************
 
-QuestObjectiveFindGroupButtonMixin = { };--- @class QuestObjectiveFindGroupButtonMixin
+QuestObjectiveFindGroupButtonMixin = { }; --- @class QuestObjectiveFindGroupButtonMixin
 
 function QuestObjectiveFindGroupButtonMixin:SetUp(questID)
 	self:SetAttribute("questID", questID);
@@ -205,7 +205,7 @@ end
 -- ***** REWARDS TOAST
 -- *****************************************************************************************************
 
-ObjectiveTrackerRewardsToastMixin = {};--- @class ObjectiveTrackerRewardsToastMixin
+ObjectiveTrackerRewardsToastMixin = {}; --- @class ObjectiveTrackerRewardsToastMixin
 
 function ObjectiveTrackerRewardsToastMixin:OnLoad()
 	self.framePool = CreateFramePool("FRAME", self, "ObjectiveTrackerRewardFrameTemplate");
@@ -294,7 +294,7 @@ end
 -- ***** LINE
 -- *****************************************************************************************************
 
-ObjectiveTrackerLineMixin = {};--- @class ObjectiveTrackerLineMixin
+ObjectiveTrackerLineMixin = {}; --- @class ObjectiveTrackerLineMixin
 
 function ObjectiveTrackerLineMixin:OnLoad()
 	-- override in your mixin
@@ -312,7 +312,7 @@ end
 -- ***** PROGRESS BARS
 -- *****************************************************************************************************
 
-ObjectiveTrackerProgressBarMixin = { };--- @class ObjectiveTrackerProgressBarMixin
+ObjectiveTrackerProgressBarMixin = { }; --- @class ObjectiveTrackerProgressBarMixin
 
 function ObjectiveTrackerProgressBarMixin:SetPercent(percent)
 	self.Bar:SetValue(percent);
@@ -323,7 +323,7 @@ end
 -- ***** TIMER BARS
 -- *****************************************************************************************************
 
-ObjectiveTrackerTimerBarMixin = { };--- @class ObjectiveTrackerTimerBarMixin
+ObjectiveTrackerTimerBarMixin = { }; --- @class ObjectiveTrackerTimerBarMixin
 
 function ObjectiveTrackerTimerBarMixin:OnUpdate(elapsed)
 	local timeNow = GetTime();
@@ -363,13 +363,13 @@ end
 -- ***** SLIDING
 -- *****************************************************************************************************
 
-ObjectiveTrackerSlidingState = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["SlideIn"]: 2, ["SlideOut"]: 3} See [ObjectiveTrackerSlidingState](lua://ObjectiveTrackerSlidingState)
+ObjectiveTrackerSlidingState = EnumUtil.MakeEnum( --- @type {["None"]: 1, ["SlideIn"]: 2, ["SlideOut"]: 3} # See [ObjectiveTrackerSlidingState](lua://ObjectiveTrackerSlidingState)
 	"None",
 	"SlideIn",
 	"SlideOut"
 );
 
-ObjectiveTrackerSlidingMixin = { };--- @class ObjectiveTrackerSlidingMixin
+ObjectiveTrackerSlidingMixin = { }; --- @class ObjectiveTrackerSlidingMixin
 
 function ObjectiveTrackerSlidingMixin:IsSliding()
 	return not not self.slideInfo;

@@ -1,5 +1,5 @@
 
-ExpBarMixin = {};--- @class ExpBarMixin
+ExpBarMixin = {}; --- @class ExpBarMixin
 
 function ExpBarMixin:GetMaxLevel()
 	-- Timerunners levels can go above the purchased max level to the max current expansion level
@@ -108,7 +108,7 @@ function ExpBarMixin:UpdateStatusBarTextures(isRested)
 	-- Override me!
 end
 
-ExhaustionTickMixin = {};--- @class ExhaustionTickMixin
+ExhaustionTickMixin = {}; --- @class ExhaustionTickMixin
 
 function ExhaustionTickMixin:ExhaustionToolTipText()
 	-- Override me!

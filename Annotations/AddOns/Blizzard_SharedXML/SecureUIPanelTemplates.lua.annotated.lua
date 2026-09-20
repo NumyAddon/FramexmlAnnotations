@@ -78,7 +78,7 @@ function UIPanelButton_OnEnable(self)
 	self.Right:SetTexture("Interface\\Buttons\\UI-Panel-Button-Up");
 end
 
-UIButtonFitToTextBehaviorMixin = {};--- @class UIButtonFitToTextBehaviorMixin
+UIButtonFitToTextBehaviorMixin = {}; --- @class UIButtonFitToTextBehaviorMixin
 
 function UIButtonFitToTextBehaviorMixin:SetTextToFit(text)
 	self:SetText(text);
@@ -90,7 +90,7 @@ function UIButtonFitToTextBehaviorMixin:FitToText()
 	self:SetWidth(math.max(minWidth, self:GetTextWidth() + self.fitTextWidthPadding));
 end
 
-UIPanelButtonNoTooltipResizeToFitMixin = {};--- @class UIPanelButtonNoTooltipResizeToFitMixin
+UIPanelButtonNoTooltipResizeToFitMixin = {}; --- @class UIPanelButtonNoTooltipResizeToFitMixin
 
 function UIPanelButtonNoTooltipResizeToFitMixin:OnLoad()
 	UIPanelButton_OnLoad(self);
@@ -119,7 +119,7 @@ function SelectionFrameOkayButton_OnClick(self, ...)
 	end
 end
 
-LoadingSpinnerMixin = {};--- @class LoadingSpinnerMixin
+LoadingSpinnerMixin = {}; --- @class LoadingSpinnerMixin
 
 function LoadingSpinnerMixin:OnShow()
 	self.Anim:Play();

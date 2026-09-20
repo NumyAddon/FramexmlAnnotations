@@ -1,4 +1,4 @@
-ArtifactPerksMixin = {}--- @class ArtifactPerksMixin
+ArtifactPerksMixin = {} --- @class ArtifactPerksMixin
 
 local NUM_CURVED_LINE_SEGEMENTS = 20;
 local CURVED_LINE_RADIUS_SCALAR = 0.98;
@@ -488,7 +488,7 @@ function ArtifactPerksMixin:Refresh(newItem)
 	self.newItem = self.newItem or newItem;
 end
 
-ArtifactLineMixin = CreateFromMixins(PowerDependencyLineMixin)--- @class ArtifactLineMixin : PowerDependencyLineMixin
+ArtifactLineMixin = CreateFromMixins(PowerDependencyLineMixin) --- @class ArtifactLineMixin : PowerDependencyLineMixin
 
 function ArtifactLineMixin:IsDeprecated()
 	return C_ArtifactUI.IsArtifactDisabled();
@@ -1110,7 +1110,7 @@ end
 ------------------------------------------------------------------
 
 
-ArtifactTitleTemplateMixin = {}--- @class ArtifactTitleTemplateMixin
+ArtifactTitleTemplateMixin = {} --- @class ArtifactTitleTemplateMixin
 
 function ArtifactTitleTemplateMixin:RefreshTitle()
 	self.PointsRemainingLabel:SnapToTarget();

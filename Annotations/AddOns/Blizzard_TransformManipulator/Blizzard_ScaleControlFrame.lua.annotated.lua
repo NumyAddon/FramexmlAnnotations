@@ -4,7 +4,7 @@ local ScaleControlDirection = {
 	Positive = 2
 };
 
-ScaleControlFrameMixin = {};--- @class ScaleControlFrameMixin
+ScaleControlFrameMixin = {}; --- @class ScaleControlFrameMixin
 
 function ScaleControlFrameMixin:OnLoad()
 	FrameUtil.RegisterForTopLevelParentChanged(self);
@@ -154,7 +154,7 @@ function ScaleControlFrameMixin:UpdateFill()
 end
 
 
-ScaleControlArrowButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class ScaleControlArrowButtonMixin : ButtonStateBehaviorMixin
+ScaleControlArrowButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class ScaleControlArrowButtonMixin : ButtonStateBehaviorMixin
 
 function ScaleControlArrowButtonMixin:OnLoad()
 	self.Icon:SetAtlas(self.atlas);

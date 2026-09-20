@@ -1,4 +1,4 @@
-HouseEditorFrameMixin = {};--- @class HouseEditorFrameMixin
+HouseEditorFrameMixin = {}; --- @class HouseEditorFrameMixin
 
 function HouseEditorFrame_GetFrame()
 	return HouseEditorFrame;

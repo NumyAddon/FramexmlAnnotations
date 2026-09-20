@@ -1,7 +1,7 @@
 local FRAME_SLIDE_DURATION = 0.25;
 local BUTTON_SLIDE_DURATION = 0.15;
 
-CustomizeDecorPetFrameMixin = {};--- @class CustomizeDecorPetFrameMixin
+CustomizeDecorPetFrameMixin = {}; --- @class CustomizeDecorPetFrameMixin
 
 function CustomizeDecorPetFrameMixin:OnLoad()
 	local stride = 3;
@@ -289,7 +289,7 @@ function CustomizeDecorPetFrameMixin:OnHide()
 	FrameUtil.UnregisterFrameForEvents(self, CustomizePetDecorShownEvents);
 end
 
-DecorPetCustomizationMixin = {};--- @class DecorPetCustomizationMixin
+DecorPetCustomizationMixin = {}; --- @class DecorPetCustomizationMixin
 
 local PetBehaviorTypeStrings = {
 	[Enum.HousingPetBehaviorType.Stationary] = HOUSING_DECOR_CUSTOMIZATION_PET_STATIONARY,
@@ -388,7 +388,7 @@ function DecorPetCustomizationMixin:SetupDropdown()
 	end);
 end
 
-HousingPetEntryMixin = {};--- @class HousingPetEntryMixin
+HousingPetEntryMixin = {}; --- @class HousingPetEntryMixin
 
 function HousingPetEntryMixin:Init(elementData)
 	if(elementData.speciesID) then

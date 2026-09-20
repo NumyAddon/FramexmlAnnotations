@@ -1,4 +1,4 @@
-ClassTalentLoadoutImportDialogMixin = {};--- @class ClassTalentLoadoutImportDialogMixin
+ClassTalentLoadoutImportDialogMixin = {}; --- @class ClassTalentLoadoutImportDialogMixin
 
 function ClassTalentLoadoutImportDialogMixin:OnLoad()
 	self.exclusive = true;
@@ -45,7 +45,7 @@ function ClassTalentLoadoutImportDialogMixin:ShowDialog()
 end
 
 
-ClassTalentLoadoutImportDialogImportControlMixin = CreateFromMixins(ClassTalentLoadoutDialogInputControlMixin);--- @class ClassTalentLoadoutImportDialogImportControlMixin : ClassTalentLoadoutDialogInputControlMixin
+ClassTalentLoadoutImportDialogImportControlMixin = CreateFromMixins(ClassTalentLoadoutDialogInputControlMixin); --- @class ClassTalentLoadoutImportDialogImportControlMixin : ClassTalentLoadoutDialogInputControlMixin
 
 function ClassTalentLoadoutImportDialogImportControlMixin:OnShow()
 	ClassTalentLoadoutDialogInputControlMixin.OnShow(self);
@@ -69,7 +69,7 @@ function ClassTalentLoadoutImportDialogImportControlMixin:GetEditBox()
 end
 
 
-ClassTalentLoadoutImportDialogNameControlMixin = {}--- @class ClassTalentLoadoutImportDialogNameControlMixin
+ClassTalentLoadoutImportDialogNameControlMixin = {} --- @class ClassTalentLoadoutImportDialogNameControlMixin
 
 function ClassTalentLoadoutImportDialogNameControlMixin:OnEnterPressed()
 	self:GetParent():OnAccept();

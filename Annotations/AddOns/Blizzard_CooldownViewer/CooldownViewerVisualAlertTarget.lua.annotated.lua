@@ -1,4 +1,4 @@
-CooldownViewerVisualAlertTargetMixin = CreateFromMixins(VisualAlertTargetMixin);--- @class CooldownViewerVisualAlertTargetMixin : VisualAlertTargetMixin
+CooldownViewerVisualAlertTargetMixin = CreateFromMixins(VisualAlertTargetMixin); --- @class CooldownViewerVisualAlertTargetMixin : VisualAlertTargetMixin
 
 local function AnchorAlertTypeIcons(overlay)
 	local firstAlertIcon = overlay.visibleIcons[1];

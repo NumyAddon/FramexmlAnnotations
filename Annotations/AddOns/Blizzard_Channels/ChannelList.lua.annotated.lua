@@ -1,4 +1,4 @@
-ChannelListMixin = {};--- @class ChannelListMixin
+ChannelListMixin = {}; --- @class ChannelListMixin
 
 function ChannelListMixin:OnLoad()
 	ScrollFrame_OnLoad(self);

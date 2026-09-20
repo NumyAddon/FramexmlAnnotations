@@ -1,4 +1,4 @@
-SimpleTooltipRegionMixin = {};--- @class SimpleTooltipRegionMixin
+SimpleTooltipRegionMixin = {}; --- @class SimpleTooltipRegionMixin
 
 function SimpleTooltipRegionMixin:OnEnter()
 	if self.tooltip then
@@ -36,7 +36,7 @@ local function GetGuildError(statusCode)
 	return entry or guildErrorLookup[Enum.GuildErrorType.UnknownError];
 end
 
-local GuildRenameMode = EnumUtil.MakeEnum("Title", "DoRename");--- @type {["Title"]: 1, ["DoRename"]: 2}
+local GuildRenameMode = EnumUtil.MakeEnum("Title", "DoRename"); --- @type {["Title"]: 1, ["DoRename"]: 2}
 
 local function ShowGuildRenameFrame()
 	GuildRenameFrame:BeginInteraction();
@@ -54,7 +54,7 @@ end
 
 RegisterWithPlayerInteractionManager();
 
-GuildRenameFrameMixin = {};--- @class GuildRenameFrameMixin
+GuildRenameFrameMixin = {}; --- @class GuildRenameFrameMixin
 
 function GuildRenameFrameMixin:OnLoad()
 	self.modeFrames = {};
@@ -358,7 +358,7 @@ do
 	end
 end
 
-GuildRenameManagedFlowMixin = {};--- @class GuildRenameManagedFlowMixin
+GuildRenameManagedFlowMixin = {}; --- @class GuildRenameManagedFlowMixin
 
 function GuildRenameManagedFlowMixin:SetManager(manager)
 	self.manager = manager;
@@ -368,7 +368,7 @@ function GuildRenameManagedFlowMixin:GetManager()
 	return self.manager;
 end
 
-GuildRenameFlowMixin = CreateFromMixins(TimedCallbackMixin, GuildRenameManagedFlowMixin);--- @class GuildRenameFlowMixin : TimedCallbackMixin, GuildRenameManagedFlowMixin
+GuildRenameFlowMixin = CreateFromMixins(TimedCallbackMixin, GuildRenameManagedFlowMixin); --- @class GuildRenameFlowMixin : TimedCallbackMixin, GuildRenameManagedFlowMixin
 
 function GuildRenameFlowMixin:OnLoad()
 	self:SetCheckDelaySeconds(1);
@@ -463,9 +463,7 @@ end
 local timeFormatter = CreateFromMixins(SecondsFormatterMixin);
 timeFormatter:Init(SECONDS_PER_MIN, SecondsFormatter.Abbreviation.OneLetter, SecondsFormatterConstants.DontRoundUpLastUnit, SecondsFormatterConstants.ConvertToLower);
 
-GuildRenameTitleFlowMixin = CreateFromMixins(GuildRenameManagedFlowMixin, {--- @class GuildRenameTitleFlowMixin : GuildRenameManagedFlowMixin, {
-	timeFormatter = timeFormatter,
-}
+GuildRenameTitleFlowMixin = CreateFromMixins(GuildRenameManagedFlowMixin, { --- @class GuildRenameTitleFlowMixin : GuildRenameManagedFlowMixin
 	timeFormatter = timeFormatter,
 });
 
@@ -564,7 +562,7 @@ function GuildRenameTitleFlowMixin:FormatTime(seconds)
 	return self.timeFormatter:Format(seconds);
 end
 
-GuildRenameContextButtonMixin = CreateFromMixins(SimpleTooltipRegionMixin);--- @class GuildRenameContextButtonMixin : SimpleTooltipRegionMixin
+GuildRenameContextButtonMixin = CreateFromMixins(SimpleTooltipRegionMixin); --- @class GuildRenameContextButtonMixin : SimpleTooltipRegionMixin
 
 function GuildRenameContextButtonMixin:SetToGuildRename(renameStatus)
 	self.renameStatus = renameStatus;
@@ -613,7 +611,7 @@ StaticPopupDialogs["CONFIRM_GUILD_RENAME_REFUND"] = {
 	hideOnEscape = 1,
 }
 
-GuildIconDisplayMixin = CreateFromMixins(SimpleTooltipRegionMixin);--- @class GuildIconDisplayMixin : SimpleTooltipRegionMixin
+GuildIconDisplayMixin = CreateFromMixins(SimpleTooltipRegionMixin); --- @class GuildIconDisplayMixin : SimpleTooltipRegionMixin
 
 function GuildIconDisplayMixin:UpdateTabard()
 	local emblemFilename = select(10, GetGuildLogoInfo());

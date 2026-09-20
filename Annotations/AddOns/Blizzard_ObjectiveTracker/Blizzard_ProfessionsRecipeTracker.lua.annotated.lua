@@ -13,7 +13,7 @@ local settings = {
 	lineTemplate = "ObjectiveTrackerAnimLineTemplate",
 };
 
-ProfessionsRecipeTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings);--- @class ProfessionsRecipeTrackerMixin : ObjectiveTrackerModuleMixin, settings
+ProfessionsRecipeTrackerMixin = CreateFromMixins(ObjectiveTrackerModuleMixin, settings); --- @class ProfessionsRecipeTrackerMixin : ObjectiveTrackerModuleMixin, settings
 
 local IsRecrafting = true;
 

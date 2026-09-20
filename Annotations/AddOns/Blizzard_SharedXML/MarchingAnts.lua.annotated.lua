@@ -1,4 +1,4 @@
-MarchingAntsMixin = CreateFromMixins(DirtiableMixin);--- @class MarchingAntsMixin : DirtiableMixin
+MarchingAntsMixin = CreateFromMixins(DirtiableMixin); --- @class MarchingAntsMixin : DirtiableMixin
 
 function MarchingAntsMixin:OnLoad()
 	self:SetDirtyMethod(self.Clean);

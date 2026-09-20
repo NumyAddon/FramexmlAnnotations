@@ -26,14 +26,14 @@ local STABLE_FRAME_ON_SHOW_EVENTS = {
 	"PET_STABLE_FAVORITES_UPDATED",
 };
 
-local PetSortMode = EnumUtil.MakeEnum(--- @type {["Specialization"]: 1, ["Family"]: 2, ["Name"]: 3, ["NameReverse"]: 4}
+local PetSortMode = EnumUtil.MakeEnum( --- @type {["Specialization"]: 1, ["Family"]: 2, ["Name"]: 3, ["NameReverse"]: 4}
 	"Specialization",
 	"Family",
 	"Name",
 	"NameReverse"
 );
 
-local StableTogglePetButton = EnumUtil.MakeEnum(--- @type {["Stable"]: 1, ["MakeActive"]: 2}
+local StableTogglePetButton = EnumUtil.MakeEnum( --- @type {["Stable"]: 1, ["MakeActive"]: 2}
 	"Stable",
 	"MakeActive"
 );
@@ -201,7 +201,7 @@ local function ClearPetCursor()
 	end
 end
 
-StableFrameMixin = {};--- @class StableFrameMixin
+StableFrameMixin = {}; --- @class StableFrameMixin
 
 function StableFrameMixin:OnLoad()
 	local panelAttributes = {
@@ -361,7 +361,7 @@ function StableFrameMixin:SetupPetCounter()
 	self.StabledPetList.ListCounter.Count:SetText(counterText);
 end
 
-StableTogglePetButtonMixin = {};--- @class StableTogglePetButtonMixin
+StableTogglePetButtonMixin = {}; --- @class StableTogglePetButtonMixin
 
 function StableTogglePetButtonMixin:OnLoad()
 	self:RegisterEvent("UNIT_PET");
@@ -401,7 +401,7 @@ function StableTogglePetButtonMixin:OnClick()
 	EventRegistry:TriggerEvent("StableFrameMixin.PetSwapRequested", selectedSlot, destinationSlot);
 end
 
-StableReleasePetButtonMixin = {};--- @class StableReleasePetButtonMixin
+StableReleasePetButtonMixin = {}; --- @class StableReleasePetButtonMixin
 
 function StableReleasePetButtonMixin:OnClick()
 	ClearPetCursor();
@@ -410,7 +410,7 @@ function StableReleasePetButtonMixin:OnClick()
 	StaticPopup_Show("RELEASE_PET", nil, nil, {selectedPetNumber = selectedPet and selectedPet.petNumber, summonedPetNumber = summonedPet and summonedPet.petNumber});
 end
 
-StablePetFavoriteButtonMixin = {};--- @class StablePetFavoriteButtonMixin
+StablePetFavoriteButtonMixin = {}; --- @class StablePetFavoriteButtonMixin
 
 function StablePetFavoriteButtonMixin:IsFavorited()
 	return C_StableInfo.IsPetFavorite(self:GetParent().petData.slotID);
@@ -437,7 +437,7 @@ function StablePetFavoriteButtonMixin:RefreshVisuals()
 	self:SetHighlightAtlas(self:IsFavorited() and "auctionhouse-icon-favorite" or "auctionhouse-icon-favorite-off");
 end
 
-StableActivePetListMixin = {};--- @class StableActivePetListMixin
+StableActivePetListMixin = {}; --- @class StableActivePetListMixin
 
 function StableActivePetListMixin:GetPet(activePetSlot)
 	return self.pets[activePetSlot];
@@ -469,7 +469,7 @@ function StableActivePetListMixin:Refresh()
 	self.BeastMasterSecondaryPetButton:Refresh();
 end
 
-StablePetNameBoxMixin = {};--- @class StablePetNameBoxMixin
+StablePetNameBoxMixin = {}; --- @class StablePetNameBoxMixin
 
 function StablePetNameBoxMixin:SetPet(petData)
 	self.Name:SetText(petData.name);
@@ -477,7 +477,7 @@ function StablePetNameBoxMixin:SetPet(petData)
 	self:SetWidth(nameWidth);
 end
 
-StablePetNameEditButtonMixin = {};--- @class StablePetNameEditButtonMixin
+StablePetNameEditButtonMixin = {}; --- @class StablePetNameEditButtonMixin
 
 function StablePetNameEditButtonMixin:OnClick()
 	ClearPetCursor();
@@ -490,7 +490,7 @@ function StablePetNameEditButtonMixin:OnClick()
 	end
 end
 
-StableStabledPetButtonTemplateMixin = {};--- @class StableStabledPetButtonTemplateMixin
+StableStabledPetButtonTemplateMixin = {}; --- @class StableStabledPetButtonTemplateMixin
 
 function StableStabledPetButtonTemplateMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonDown", "RightButtonUp");
@@ -563,7 +563,7 @@ function StableStabledPetButtonTemplateMixin:OnClick(mouseButton)
 	end
 end
 
-StableSearchBoxMixin = {};--- @class StableSearchBoxMixin
+StableSearchBoxMixin = {}; --- @class StableSearchBoxMixin
 
 function StableSearchBoxMixin:GetSearchString()
 	return self:GetText();
@@ -584,7 +584,7 @@ function StableSearchBoxMixin:OnTextChanged()
 	self:StartSearch();
 end
 
-StableActivePetButtonTemplateMixin = {};--- @class StableActivePetButtonTemplateMixin
+StableActivePetButtonTemplateMixin = {}; --- @class StableActivePetButtonTemplateMixin
 
 function StableActivePetButtonTemplateMixin:SetLocked(locked)
 	self.Lock:SetShown(locked);
@@ -728,7 +728,7 @@ function StableActivePetButtonTemplateMixin:TryAcceptPetSwap()
 	ClearPetCursor();
 end
 
-StableBeastMasterSecondaryPetButtonMixin = CreateFromMixins(StableActivePetButtonTemplateMixin);--- @class StableBeastMasterSecondaryPetButtonMixin : StableActivePetButtonTemplateMixin
+StableBeastMasterSecondaryPetButtonMixin = CreateFromMixins(StableActivePetButtonTemplateMixin); --- @class StableBeastMasterSecondaryPetButtonMixin : StableActivePetButtonTemplateMixin
 
 function StableBeastMasterSecondaryPetButtonMixin:OnShow()
 	self:Refresh();
@@ -755,7 +755,7 @@ function StableBeastMasterSecondaryPetButtonMixin:Refresh()
 	self.disabledTooltip = STABLE_SECONDARY_PET_DISABLED;
 end
 
-StablePetInfoMixin = {};--- @class StablePetInfoMixin
+StablePetInfoMixin = {}; --- @class StablePetInfoMixin
 
 function StablePetInfoMixin:SetPet(petData)
 	self.petData = petData;
@@ -770,7 +770,7 @@ function StablePetInfoMixin:SetPet(petData)
 	self.Specialization:Refresh();
 end
 
-StablePetTypeStringMixin = {};--- @class StablePetTypeStringMixin
+StablePetTypeStringMixin = {}; --- @class StablePetTypeStringMixin
 
 function StablePetTypeStringMixin:GetPetInfoFrame()
 	return self:GetParent();
@@ -790,7 +790,7 @@ function StablePetTypeStringMixin:OnLeave()
 	GameTooltip_Hide();
 end
 
-StabledPetListCategoryMixin = {};--- @class StabledPetListCategoryMixin
+StabledPetListCategoryMixin = {}; --- @class StabledPetListCategoryMixin
 
 function StabledPetListCategoryMixin:OnEnter()
 	self.Label:SetFontObject(GameFontHighlight_NoShadow);
@@ -806,7 +806,7 @@ function StabledPetListCategoryMixin:SetCollapseState(collapsed)
 	self.CollapseIconAlphaAdd:SetAtlas(atlas, TextureKitConstants.UseAtlasSize);
 end
 
-StableStabledPetListMixin = {};--- @class StableStabledPetListMixin
+StableStabledPetListMixin = {}; --- @class StableStabledPetListMixin
 
 function StableStabledPetListMixin:OnLoad()
 	local indent = 0;
@@ -1057,13 +1057,13 @@ function StableFrameMixin:ToggleHelpPlates()
 	end
 end
 
-StableTutorialButtonMixin = {};--- @class StableTutorialButtonMixin
+StableTutorialButtonMixin = {}; --- @class StableTutorialButtonMixin
 
 function StableTutorialButtonMixin:OnClick()
 	self:GetParent():ToggleHelpPlates();
 end
 
-StablePetModelSceneMixin = CreateFromMixins(PanningModelSceneMixin);--- @class StablePetModelSceneMixin : PanningModelSceneMixin
+StablePetModelSceneMixin = CreateFromMixins(PanningModelSceneMixin); --- @class StablePetModelSceneMixin : PanningModelSceneMixin
 
 function StablePetModelSceneMixin:OnLoad()
 	ModelSceneMixin.OnLoad(self);
@@ -1110,7 +1110,7 @@ function StablePetModelSceneMixin:UpdateBackgroundForPet(pet)
 	self.Background:SetAtlas(GetBackgroundForPetSpecialization(pet.specialization), TextureKitConstants.UseAtlasSize);
 end
 
-StablePetAbilityMixin = {};--- @class StablePetAbilityMixin
+StablePetAbilityMixin = {}; --- @class StablePetAbilityMixin
 
 function StablePetAbilityMixin:Initialize(spellID, specialization)
 	self.spellID = spellID;
@@ -1160,7 +1160,7 @@ function StablePetAbilityMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-StablePetAbilitiesListMixin = {};--- @class StablePetAbilitiesListMixin
+StablePetAbilitiesListMixin = {}; --- @class StablePetAbilitiesListMixin
 
 function StablePetAbilitiesListMixin:OnLoad()
 	EventRegistry:RegisterCallback("StableFrameMixin.PetSelected", self.OnPetSelected, self);
@@ -1216,7 +1216,7 @@ function StablePetAbilitiesListMixin:OnPetSelected(pet)
 	self:Layout();
 end
 
-StablePetSpecializationMixin = {};--- @class StablePetSpecializationMixin
+StablePetSpecializationMixin = {}; --- @class StablePetSpecializationMixin
 
 function StablePetSpecializationMixin:OnLoad()
 	WowStyle1DropdownMixin.OnLoad(self);

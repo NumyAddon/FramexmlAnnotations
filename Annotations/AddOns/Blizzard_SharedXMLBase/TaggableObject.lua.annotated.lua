@@ -32,7 +32,7 @@ local function TableHasTag(tags, tag)
 	return false;
 end
 
-TaggableObjectMixin = {};--- @class TaggableObjectMixin
+TaggableObjectMixin = {}; --- @class TaggableObjectMixin
 
 function TaggableObjectMixin:AddTag(tag)
 	AddTagToTable(GetOrCreateTableEntry(self, "tags"), tag);

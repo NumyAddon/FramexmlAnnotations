@@ -1,4 +1,4 @@
-PhotoSharingBrowserMixin = {}--- @class PhotoSharingBrowserMixin
+PhotoSharingBrowserMixin = {} --- @class PhotoSharingBrowserMixin
 
 function PhotoSharingBrowserMixin:SetInitialLoading(initialLoading)
 	self.initialLoading = initialLoading;
@@ -38,7 +38,7 @@ function PhotoSharingBrowserMixin:OnEvent(evt, callbackUrl, ...)
 	end
 end	
 
-PhotoSharingBrowserPopupMixin = {}--- @class PhotoSharingBrowserPopupMixin
+PhotoSharingBrowserPopupMixin = {} --- @class PhotoSharingBrowserPopupMixin
 
 function PhotoSharingBrowserPopupMixin:SetInitialLoading(initialLoading)
 	self.initialLoading = initialLoading;

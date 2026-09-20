@@ -40,7 +40,7 @@ AuraContainerDirtyMask =
 	AuraFrameLayout = Flags_CreateMask(AuraContainerDirtyFlag.ApplyLayout),
 };
 
-ManagedAuraContainerSharedMixin = CreateFromMixins(AuraContainerSharedMixin);--- @class ManagedAuraContainerSharedMixin : AuraContainerSharedMixin
+ManagedAuraContainerSharedMixin = CreateFromMixins(AuraContainerSharedMixin); --- @class ManagedAuraContainerSharedMixin : AuraContainerSharedMixin
 
 function ManagedAuraContainerSharedMixin:IsEditModePreviewEnabled()
 	return self.editModePreviewEnabled == true;
@@ -64,8 +64,8 @@ function ManagedAuraContainerSharedMixin:UpdateAllAuras()
 	self:MarkDirty(AuraContainerDirtyMask.FullAuraRebuild);
 end
 
-ManagedAuraContainerInboundMixin = CreateFromMixins(AuraContainerInboundMixin, ManagedAuraContainerSharedMixin);--- @class ManagedAuraContainerInboundMixin : AuraContainerInboundMixin, ManagedAuraContainerSharedMixin
-ManagedAuraContainerPrivateMixin = CreateFromMixins(AuraContainerAuraGroupOwnerMixin, AuraContainerAuraSlotOwnerMixin, AuraContainerItemEnchantmentOwnerMixin, AuraContainerPrivateMixin, ManagedAuraContainerSharedMixin, DirtyPhaseMixin);--- @class ManagedAuraContainerPrivateMixin : AuraContainerAuraGroupOwnerMixin, AuraContainerAuraSlotOwnerMixin, AuraContainerItemEnchantmentOwnerMixin, AuraContainerPrivateMixin, ManagedAuraContainerSharedMixin, DirtyPhaseMixin
+ManagedAuraContainerInboundMixin = CreateFromMixins(AuraContainerInboundMixin, ManagedAuraContainerSharedMixin); --- @class ManagedAuraContainerInboundMixin : AuraContainerInboundMixin, ManagedAuraContainerSharedMixin
+ManagedAuraContainerPrivateMixin = CreateFromMixins(AuraContainerAuraGroupOwnerMixin, AuraContainerAuraSlotOwnerMixin, AuraContainerItemEnchantmentOwnerMixin, AuraContainerPrivateMixin, ManagedAuraContainerSharedMixin, DirtyPhaseMixin); --- @class ManagedAuraContainerPrivateMixin : AuraContainerAuraGroupOwnerMixin, AuraContainerAuraSlotOwnerMixin, AuraContainerItemEnchantmentOwnerMixin, AuraContainerPrivateMixin, ManagedAuraContainerSharedMixin, DirtyPhaseMixin
 
 function ManagedAuraContainerPrivateMixin:OnLoad_Intrinsic()
 	AuraContainerPrivateMixin.OnLoad_Intrinsic(self);

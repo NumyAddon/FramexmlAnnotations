@@ -1,4 +1,4 @@
-VisualAlertBaseMixin = CreateFromMixins(VisualAlertMixin);--- @class VisualAlertBaseMixin : VisualAlertMixin
+VisualAlertBaseMixin = CreateFromMixins(VisualAlertMixin); --- @class VisualAlertBaseMixin : VisualAlertMixin
 
 function VisualAlertBaseMixin:OnLoad()
 	self:ApplyVertexColor();
@@ -47,7 +47,7 @@ function VisualAlertBaseMixin:ApplyVertexColorToRegions(color, ...)
 	end
 end
 
-VisualAlertMarchingAntsBaseMixin = {};--- @class VisualAlertMarchingAntsBaseMixin
+VisualAlertMarchingAntsBaseMixin = {}; --- @class VisualAlertMarchingAntsBaseMixin
 
 function VisualAlertMarchingAntsBaseMixin:GetVertexColoredRegions()
 	return self.Flipbook;
@@ -60,7 +60,7 @@ function VisualAlertMarchingAntsBaseMixin:GetAnchors()
 	return topLeft, bottomRight;
 end
 
-VisualAlertFlashBaseMixin = {};--- @class VisualAlertFlashBaseMixin
+VisualAlertFlashBaseMixin = {}; --- @class VisualAlertFlashBaseMixin
 
 function VisualAlertFlashBaseMixin:GetVertexColoredRegions()
 	return self.Glow;

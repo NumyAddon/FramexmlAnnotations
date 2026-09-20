@@ -2296,7 +2296,7 @@ function LFGRoleButton_LockReasonsTextTable(dungeonID, roleID, textTable)
 	return textTable;
 end
 
-LFGRoleButtonWithShortageRewardMixin = {};--- @class LFGRoleButtonWithShortageRewardMixin
+LFGRoleButtonWithShortageRewardMixin = {}; --- @class LFGRoleButtonWithShortageRewardMixin
 
 function LFGRoleButtonWithShortageRewardMixin:OnLoad()
 	LFGRoleButtonTemplate_OnLoad(self);
@@ -2356,7 +2356,7 @@ function LFGRoleButtonWithShortageRewardMixin:CancelPulseEffect()
 	self.RoleShortagePulseModelScene:ClearEffects();
 end
 
-LFGRoleShortagePulseAnimMixin = {};--- @class LFGRoleShortagePulseAnimMixin
+LFGRoleShortagePulseAnimMixin = {}; --- @class LFGRoleShortagePulseAnimMixin
 
 function LFGRoleShortagePulseAnimMixin:OnLoop()
 	local parentFrame = self:GetParent();
@@ -2369,7 +2369,7 @@ function LFGRoleShortagePulseAnimMixin:OnStop()
 	self:GetParent():CancelPulseEffect();
 end
 
-LFGRewardFrameTemplateTitleMixin = {};--- @class LFGRewardFrameTemplateTitleMixin
+LFGRewardFrameTemplateTitleMixin = {}; --- @class LFGRewardFrameTemplateTitleMixin
 function LFGRewardFrameTemplateTitleMixin:OnLoad()
 	self:SetFontObject(QuestTitleFontBlackShadow);
 	self:SetText(LFG_TYPE_RANDOM_DUNGEON);

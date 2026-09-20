@@ -1,7 +1,7 @@
 local RUNES_OF_POWER_SYSTEM_ID = 48;
 local RUNES_OF_POWER_TREE_ID = 1186;
 
-MidnightLandingOverlayMixin = {};--- @class MidnightLandingOverlayMixin
+MidnightLandingOverlayMixin = {}; --- @class MidnightLandingOverlayMixin
 
 local minimapDisplayInfo = {
 	useDefaultButtonSize = true,
@@ -148,7 +148,7 @@ function MidnightLandingOverlayMixin.HandleMinimapAnimationEvent(event, ...)
 	TryShowPurchasableRunesofPowerReminder();
 end
 
-RunesOfPowerMixin = { };--- @class RunesOfPowerMixin
+RunesOfPowerMixin = { }; --- @class RunesOfPowerMixin
 
 function RunesOfPowerMixin:OnLoad()
 	TalentFrameBaseMixin.OnLoad(self);

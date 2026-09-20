@@ -1,4 +1,4 @@
-CovenantRenownToastMixin = {};--- @class CovenantRenownToastMixin
+CovenantRenownToastMixin = {}; --- @class CovenantRenownToastMixin
 
 function CovenantRenownToastMixin:OnLoad()
 	self:RegisterEvent("COVENANT_SANCTUM_RENOWN_LEVEL_CHANGED");

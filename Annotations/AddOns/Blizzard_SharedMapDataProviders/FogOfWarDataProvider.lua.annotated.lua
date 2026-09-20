@@ -1,4 +1,4 @@
-FogOfWarDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class FogOfWarDataProviderMixin : MapCanvasDataProviderMixin
+FogOfWarDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class FogOfWarDataProviderMixin : MapCanvasDataProviderMixin
 
 function FogOfWarDataProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -19,7 +19,7 @@ function FogOfWarDataProviderMixin:RefreshAllData(fromOnShow)
 	self.pin:OnMapChanged();
 end
 
-FogOfWarPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class FogOfWarPinMixin : MapCanvasPinMixin
+FogOfWarPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class FogOfWarPinMixin : MapCanvasPinMixin
 
 function FogOfWarPinMixin:OnLoad()
 	FogOfWarFrameMixin.OnLoad(self);

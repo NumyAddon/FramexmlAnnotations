@@ -101,7 +101,7 @@ local function LineUpFrames(frames, anchorPoint, anchor, relativePoint, width)
 
 end
 
-ChallengesFrameMixin = {};--- @class ChallengesFrameMixin
+ChallengesFrameMixin = {}; --- @class ChallengesFrameMixin
 
 function ChallengesFrameMixin:OnLoad()
 	-- events
@@ -290,7 +290,7 @@ function ChallengesFrameMixin:UpdateTitle()
 	PVEFrame:SetTitle(title);
 end
 
-ChallengeModeWeeklyChestMixin = CreateFromMixins(WeeklyRewardMixin);--- @class ChallengeModeWeeklyChestMixin : WeeklyRewardMixin
+ChallengeModeWeeklyChestMixin = CreateFromMixins(WeeklyRewardMixin); --- @class ChallengeModeWeeklyChestMixin : WeeklyRewardMixin
 
 function ChallengeModeWeeklyChestMixin:Update(bestMapID, dungeonScore)
 	local chestState = CHEST_STATE_WALL_OF_TEXT;
@@ -376,7 +376,7 @@ function ChallengeModeWeeklyChestMixin:OnLeave()
 	end
 end
 
-ChallengeModeLegacyWeeklyChestMixin = {};--- @class ChallengeModeLegacyWeeklyChestMixin
+ChallengeModeLegacyWeeklyChestMixin = {}; --- @class ChallengeModeLegacyWeeklyChestMixin
 
 function ChallengeModeLegacyWeeklyChestMixin:Update(bestMapID)
 	self.name = C_ChallengeMode.GetMapUIInfo(bestMapID);
@@ -473,7 +473,7 @@ function ChallengeModeLegacyWeeklyChestMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-ChallengesDungeonIconMixin = {};--- @class ChallengesDungeonIconMixin
+ChallengesDungeonIconMixin = {}; --- @class ChallengesDungeonIconMixin
 
 function ChallengesDungeonIconMixin:SetUp(mapInfo, isFirst)
 	self.mapID = mapInfo.id;
@@ -548,7 +548,7 @@ function ChallengesDungeonIconMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-ChallengesFrameWeeklyInfoMixin = {};--- @class ChallengesFrameWeeklyInfoMixin
+ChallengesFrameWeeklyInfoMixin = {}; --- @class ChallengesFrameWeeklyInfoMixin
 
 function ChallengesFrameWeeklyInfoMixin:SetUp(hasWeeklyRun, bestData)
 	local affixes = C_MythicPlus.GetCurrentAffixes();
@@ -580,7 +580,7 @@ function ChallengesFrameWeeklyInfoMixin:HideAffixes()
 	end
 end
 
-ChallengesKeystoneFrameMixin = {};--- @class ChallengesKeystoneFrameMixin
+ChallengesKeystoneFrameMixin = {}; --- @class ChallengesKeystoneFrameMixin
 
 function ChallengesKeystoneFrameMixin:OnLoad()
 	self.baseStates = {};
@@ -725,7 +725,7 @@ function ChallengesKeystoneFrameMixin:StartChallengeMode()
 	self:Hide();
 end
 
-ChallengesKeystoneSlotMixin = {};--- @class ChallengesKeystoneSlotMixin
+ChallengesKeystoneSlotMixin = {}; --- @class ChallengesKeystoneSlotMixin
 
 function ChallengesKeystoneSlotMixin:OnLoad()
 	self:RegisterForDrag("LeftButton");
@@ -772,7 +772,7 @@ function ChallengesKeystoneSlotMixin:OnClick()
 	end
 end
 
-ChallengesKeystoneFrameAffixMixin = {};--- @class ChallengesKeystoneFrameAffixMixin
+ChallengesKeystoneFrameAffixMixin = {}; --- @class ChallengesKeystoneFrameAffixMixin
 
 CHALLENGE_MODE_EXTRA_AFFIX_INFO = {
 	["dmg"] = {
@@ -839,7 +839,7 @@ function ChallengesKeystoneFrameAffixMixin:SetUp(affixInfo)
 	self:Show();
 end
 
-ChallengeModeCompleteBannerMixin = {};--- @class ChallengeModeCompleteBannerMixin
+ChallengeModeCompleteBannerMixin = {}; --- @class ChallengeModeCompleteBannerMixin
 
 function ChallengeModeCompleteBannerMixin:OnLoad()
 	self.timeToHold = 8;
@@ -1056,7 +1056,7 @@ function ChallengeModeCompleteBanner_OnAnimOutFinished(self)
 	TopBannerManager_BannerFinished();
 end
 
-ChallengeModeBannerPartyMemberMixin = {};--- @class ChallengeModeBannerPartyMemberMixin
+ChallengeModeBannerPartyMemberMixin = {}; --- @class ChallengeModeBannerPartyMemberMixin
 
 function ChallengeModeBannerPartyMemberMixin:SetUp(unitToken)
 	SetPortraitTexture(self.Portrait, unitToken);
@@ -1086,7 +1086,7 @@ function MythicPlusSeasonChangeNoticeOnCloseClick(self)
 	PlaySound(SOUNDKIT.UI_80_ISLANDS_TUTORIAL_CLOSE);
 end
 
-DungeonScoreInfoMixin = { };--- @class DungeonScoreInfoMixin
+DungeonScoreInfoMixin = { }; --- @class DungeonScoreInfoMixin
 
 function DungeonScoreInfoMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT", 0, 0);

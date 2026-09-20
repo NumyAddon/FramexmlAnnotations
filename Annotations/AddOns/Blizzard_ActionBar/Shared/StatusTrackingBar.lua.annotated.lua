@@ -1,4 +1,4 @@
-StatusTrackingBarMixin = { }--- @class StatusTrackingBarMixin
+StatusTrackingBarMixin = { } --- @class StatusTrackingBarMixin
 
 --Override this in your bar.lua function 
 function StatusTrackingBarMixin:Update()

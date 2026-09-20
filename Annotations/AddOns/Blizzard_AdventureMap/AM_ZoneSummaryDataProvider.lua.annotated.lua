@@ -1,4 +1,4 @@
-AdventureMap_ZoneSummaryProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class AdventureMap_ZoneSummaryProviderMixin : MapCanvasDataProviderMixin
+AdventureMap_ZoneSummaryProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class AdventureMap_ZoneSummaryProviderMixin : MapCanvasDataProviderMixin
 
 function AdventureMap_ZoneSummaryProviderMixin:OnAdded(mapCanvas)
 	MapCanvasDataProviderMixin.OnAdded(self, mapCanvas);
@@ -121,7 +121,7 @@ function AdventureMap_ZoneSummaryProviderMixin:AddInsetSummaryPin(mapInsetIndex,
 end
 
 --[[ Zone Summary Pin ]]--
-AdventureMap_ZoneSummaryPinMixin = CreateFromMixins(MapCanvasPinMixin);--- @class AdventureMap_ZoneSummaryPinMixin : MapCanvasPinMixin
+AdventureMap_ZoneSummaryPinMixin = CreateFromMixins(MapCanvasPinMixin); --- @class AdventureMap_ZoneSummaryPinMixin : MapCanvasPinMixin
 
 function AdventureMap_ZoneSummaryPinMixin:OnLoad()
 	self:SetAlphaStyle(AM_PIN_ALPHA_STYLE_VISIBLE_WHEN_ZOOMED_OUT);
@@ -164,7 +164,7 @@ function AdventureMap_ZoneSummaryPinMixin:OnMouseLeave()
 end
 
 --[[ Zone Summary Inset Pin ]]--
-AdventureMap_ZoneSummaryInsetPinMixin = CreateFromMixins(AdventureMap_ZoneSummaryPinMixin);--- @class AdventureMap_ZoneSummaryInsetPinMixin : AdventureMap_ZoneSummaryPinMixin
+AdventureMap_ZoneSummaryInsetPinMixin = CreateFromMixins(AdventureMap_ZoneSummaryPinMixin); --- @class AdventureMap_ZoneSummaryInsetPinMixin : AdventureMap_ZoneSummaryPinMixin
 
 function AdventureMap_ZoneSummaryInsetPinMixin:OnLoad()
 	self:UseFrameLevelType("PIN_FRAME_LEVEL_ZONE_SUMMARY_INSET");

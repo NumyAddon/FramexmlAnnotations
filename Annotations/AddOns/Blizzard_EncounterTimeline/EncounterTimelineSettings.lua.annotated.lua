@@ -1,6 +1,6 @@
 -- Settings common to all view types and event frames.
 
-EncounterTimelineSettingsMixin = {};--- @class EncounterTimelineSettingsMixin
+EncounterTimelineSettingsMixin = {}; --- @class EncounterTimelineSettingsMixin
 
 function EncounterTimelineSettingsMixin:OnLoad()
 	self.flipHorizontally = EncounterTimelineSettingDefaults.FlipHorizontally;
@@ -119,7 +119,7 @@ end
 
 -- Settings common to all view types, but not event frames.
 
-EncounterTimelineViewSettingsMixin = CreateFromMixins(EncounterTimelineSettingsMixin);--- @class EncounterTimelineViewSettingsMixin : EncounterTimelineSettingsMixin
+EncounterTimelineViewSettingsMixin = CreateFromMixins(EncounterTimelineSettingsMixin); --- @class EncounterTimelineViewSettingsMixin : EncounterTimelineSettingsMixin
 
 function EncounterTimelineViewSettingsMixin:OnLoad()
 	EncounterTimelineSettingsMixin.OnLoad(self);
@@ -144,7 +144,7 @@ end
 
 -- Settings shared between track views and event frames.
 
-EncounterTimelineTrackSettingsMixin = {};--- @class EncounterTimelineTrackSettingsMixin
+EncounterTimelineTrackSettingsMixin = {}; --- @class EncounterTimelineTrackSettingsMixin
 
 function EncounterTimelineTrackSettingsMixin:OnLoad()
 	self.crossAxisOffset = EncounterTimelineTrackSettingDefaults.CrossAxisOffset;
@@ -183,7 +183,7 @@ end
 
 -- Settings specific to track views.
 
-EncounterTimelineTrackViewSettingsMixin = CreateFromMixins(EncounterTimelineTrackSettingsMixin);--- @class EncounterTimelineTrackViewSettingsMixin : EncounterTimelineTrackSettingsMixin
+EncounterTimelineTrackViewSettingsMixin = CreateFromMixins(EncounterTimelineTrackSettingsMixin); --- @class EncounterTimelineTrackViewSettingsMixin : EncounterTimelineTrackSettingsMixin
 
 function EncounterTimelineTrackViewSettingsMixin:OnLoad()
 	EncounterTimelineTrackSettingsMixin.OnLoad(self);
@@ -254,7 +254,7 @@ end
 
 -- Settings shared between timer views and event frames.
 
-EncounterTimelineTimerSettingsMixin = {};--- @class EncounterTimelineTimerSettingsMixin
+EncounterTimelineTimerSettingsMixin = {}; --- @class EncounterTimelineTimerSettingsMixin
 
 function EncounterTimelineTimerSettingsMixin:OnLoad()
 	self.showIcon = EncounterTimelineTimerSettingDefaults.ShowIcon;
@@ -309,7 +309,7 @@ end
 
 -- Settings shared specific to timer views.
 
-EncounterTimelineTimerViewSettingsMixin = CreateFromMixins(EncounterTimelineTimerSettingsMixin);--- @class EncounterTimelineTimerViewSettingsMixin : EncounterTimelineTimerSettingsMixin
+EncounterTimelineTimerViewSettingsMixin = CreateFromMixins(EncounterTimelineTimerSettingsMixin); --- @class EncounterTimelineTimerViewSettingsMixin : EncounterTimelineTimerSettingsMixin
 
 function EncounterTimelineTimerViewSettingsMixin:OnLoad()
 	EncounterTimelineTimerSettingsMixin.OnLoad(self);

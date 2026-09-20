@@ -1,4 +1,4 @@
-OribosScrollBarButtonScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin);--- @class OribosScrollBarButtonScriptsMixin : ButtonStateBehaviorMixin
+OribosScrollBarButtonScriptsMixin = CreateFromMixins(ButtonStateBehaviorMixin); --- @class OribosScrollBarButtonScriptsMixin : ButtonStateBehaviorMixin
 
 function OribosScrollBarButtonScriptsMixin:OnLoad()
 	ButtonStateBehaviorMixin.OnLoad(self);

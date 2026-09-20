@@ -1,5 +1,5 @@
 
-AccountStoreItemDisplayMixin = {};--- @class AccountStoreItemDisplayMixin
+AccountStoreItemDisplayMixin = {}; --- @class AccountStoreItemDisplayMixin
 
 local AccountStoreItemDisplayEvents = {
 	"ACCOUNT_STORE_CURRENCY_AVAILABLE_UPDATED",

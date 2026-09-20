@@ -1,4 +1,4 @@
-HousingBulletinBoardFrameMixin = {}--- @class HousingBulletinBoardFrameMixin
+HousingBulletinBoardFrameMixin = {} --- @class HousingBulletinBoardFrameMixin
 
 BULLETIN_BOARD_SHOWING_EVENTS = {
     "NEIGHBORHOOD_INFO_UPDATED",
@@ -58,7 +58,7 @@ function HousingBulletinBoardFrameMixin:GetRosterFrame()
 end
 
 --///////////////////////////////////////////////////////////////////////
-BulletinBoardColumnDisplayMixin = CreateFromMixins(ColumnDisplayMixin);--- @class BulletinBoardColumnDisplayMixin : ColumnDisplayMixin
+BulletinBoardColumnDisplayMixin = CreateFromMixins(ColumnDisplayMixin); --- @class BulletinBoardColumnDisplayMixin : ColumnDisplayMixin
 
 --overridden from ColumnDisplayMixin
 function BulletinBoardColumnDisplayMixin:OnLoad()
@@ -66,7 +66,7 @@ function BulletinBoardColumnDisplayMixin:OnLoad()
 end
 
 --//////////////////////////////////////////////////////////////////////
-NeighborhoodRosterMixin = {};--- @class NeighborhoodRosterMixin
+NeighborhoodRosterMixin = {}; --- @class NeighborhoodRosterMixin
 
 local NEIGHBORHOOD_ROSTER_COLUMN_INFO = {
 	[1] = {
@@ -384,7 +384,7 @@ function NeighborhoodRosterMixin:ConfirmTransferOwnership()
 end
 
 --//////////////////////////////////////////////////////////////////////
-NeighborhoodRosterEntryMixin = {};--- @class NeighborhoodRosterEntryMixin
+NeighborhoodRosterEntryMixin = {}; --- @class NeighborhoodRosterEntryMixin
 
 --TODO: set up events to update a single entry rather than the entire neighborhood roster for evicting / adding managers
 NEIGHBORHOOD_ROSTER_ENTRY_EVENTS = {
@@ -501,7 +501,7 @@ function NeighborhoodRosterEntryMixin:UpdateNameFrame()
 end
 
 --//////////////////////////////////////////////////////////////////////
-HousingInviteResidentFrameMixin = {}--- @class HousingInviteResidentFrameMixin
+HousingInviteResidentFrameMixin = {} --- @class HousingInviteResidentFrameMixin
 
 local NeighborhoodInviteErrorTypeStrings = {
 	[Enum.NeighborhoodInviteResult.DbError] = HOUSING_NEIGHBORHOOD_INVITE_ERR_GENERIC,
@@ -680,7 +680,7 @@ function HousingInviteResidentFrameMixin:CancelInviteClicked(pendingInviteFrame)
 end
 
 --///////////////////////////////
-HousingInviteSearchBoxMixin = {}--- @class HousingInviteSearchBoxMixin
+HousingInviteSearchBoxMixin = {} --- @class HousingInviteSearchBoxMixin
 
 function HousingInviteSearchBoxMixin:OnLoad()
 	AutoCompleteEditBox_SetAutoCompleteSource(self, C_AutoComplete.GetAutoCompleteResults, AUTOCOMPLETE_LIST_TEMPLATES.ALL_CHARS.include, AUTOCOMPLETE_LIST_TEMPLATES.ALL_CHARS.exclude);
@@ -711,7 +711,7 @@ function HousingInviteSearchBoxMixin:OnTextChanged(userInput)
 end
 
 --//////////////////////////////////////////////////////////////////////
-NeighborhoodChangeNameDialogMixin = {}--- @class NeighborhoodChangeNameDialogMixin
+NeighborhoodChangeNameDialogMixin = {} --- @class NeighborhoodChangeNameDialogMixin
 
 local NAME_CHANGE_DIALOG_SHOWING_EVENTS = {
 	"NEIGHBORHOOD_NAME_VALIDATED",
@@ -757,7 +757,7 @@ function NeighborhoodChangeNameDialogMixin:OnConfirmClicked()
 end
 
 --//////////////////////////////////////////////////////////////////////
-NeighborhoodChangeNameCostMixin = {}--- @class NeighborhoodChangeNameCostMixin
+NeighborhoodChangeNameCostMixin = {} --- @class NeighborhoodChangeNameCostMixin
 
 local RENAME_TOKEN_ITEM_ID =  234128;
 

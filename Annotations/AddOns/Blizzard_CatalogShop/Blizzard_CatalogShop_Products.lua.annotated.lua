@@ -8,7 +8,7 @@ end
 --- CatalogShopProductContainerFrameMixin
 -----------------------------------------------------------------------------------
 
-CatalogShopProductContainerFrameMixin = {};--- @class CatalogShopProductContainerFrameMixin
+CatalogShopProductContainerFrameMixin = {}; --- @class CatalogShopProductContainerFrameMixin
 function CatalogShopProductContainerFrameMixin:OnLoad()
 	EventRegistry:RegisterCallback("CatalogShop.AllDataRefresh", self.AllDataRefresh, self);
 	EventRegistry:RegisterCallback("CatalogShop.OnModelSceneActorFailedToLoad", self.OnModelSceneFailure, self);
@@ -406,7 +406,7 @@ end
 -----------------------------------------------------------------------------------
 --- ProductContainerFrameMixin
 -----------------------------------------------------------------------------------
-ProductContainerFrameMixin = CreateFromMixins(CatalogShopProductContainerFrameMixin);--- @class ProductContainerFrameMixin : CatalogShopProductContainerFrameMixin
+ProductContainerFrameMixin = CreateFromMixins(CatalogShopProductContainerFrameMixin); --- @class ProductContainerFrameMixin : CatalogShopProductContainerFrameMixin
 function ProductContainerFrameMixin:OnLoad()
 	CatalogShopProductContainerFrameMixin.OnLoad(self);
 	self.NoSearchResults:SetText(self.noSearchResultsText);

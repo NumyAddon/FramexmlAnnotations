@@ -532,7 +532,7 @@ end
 
 -- [[ AchievementFrameCategories ]] --
 
-AchievementCategoryTemplateMixin = {};--- @class AchievementCategoryTemplateMixin
+AchievementCategoryTemplateMixin = {}; --- @class AchievementCategoryTemplateMixin
 
 function AchievementCategoryTemplateMixin:OnLoad()
 	AchievementCategoryButton_Localize(self.Button);
@@ -607,7 +607,7 @@ function AchievementCategoryTemplateMixin:UpdateSelectionState(selected)
 	end
 end
 
-AchievementCategoryTemplateButtonMixin = {};--- @class AchievementCategoryTemplateButtonMixin
+AchievementCategoryTemplateButtonMixin = {}; --- @class AchievementCategoryTemplateButtonMixin
 
 function AchievementCategoryTemplateButtonMixin:OnEnter()
     if ( self.showTooltipFunc ) then
@@ -1077,7 +1077,7 @@ ACHIEVEMENTBUTTON_MAXHEIGHT = 232;
 ACHIEVEMENTBUTTON_TEXTUREHEIGHT = 128;
 GUILDACHIEVEMENTBUTTON_MINHEIGHT = 128;
 
-AchievementTemplateMixin = {};--- @class AchievementTemplateMixin
+AchievementTemplateMixin = {}; --- @class AchievementTemplateMixin
 
 function AchievementTemplateMixin:OnLoad()
 	self.DateCompleted = self.Shield.DateCompleted;
@@ -1662,7 +1662,7 @@ function AchievementTemplateMixin:OnShieldClicked(o, buttonName, down)
 	self:ProcessClick(buttonName, down);
 end
 
-AchivementButtonCheckMixin = {};--- @class AchivementButtonCheckMixin
+AchivementButtonCheckMixin = {}; --- @class AchivementButtonCheckMixin
 
 function AchivementButtonCheckMixin:ApplyChecked(checked, noSound)
 	if not noSound then
@@ -1707,7 +1707,7 @@ function AchievementButton_ResetTable (t)
 	end
 end
 
-AchievementsObjectivesMixin = {};--- @class AchievementsObjectivesMixin
+AchievementsObjectivesMixin = {}; --- @class AchievementsObjectivesMixin
 
 function AchievementsObjectivesMixin:OnLoad()
 	self.pools = CreateFramePoolCollection();
@@ -2159,7 +2159,7 @@ end
 
 -- [[ StatsFrames ]]--
 
-AchievementStatTemplateMixin = {};--- @class AchievementStatTemplateMixin
+AchievementStatTemplateMixin = {}; --- @class AchievementStatTemplateMixin
 
 function AchievementStatTemplateMixin:OnLoad()
 	self.Value:SetVertexColor(1, 0.97, 0.6);
@@ -2611,7 +2611,7 @@ function AchievementFrameSummaryCategory_OnHide (self)
 	self:UnregisterEvent("ACHIEVEMENT_EARNED");
 end
 
-AchievementMetaCriteriaMixin = {};--- @class AchievementMetaCriteriaMixin
+AchievementMetaCriteriaMixin = {}; --- @class AchievementMetaCriteriaMixin
 
 function AchievementMetaCriteriaMixin:OnClick()
 	AddNextAchievementSelectionHistoryID(self.parentID);
@@ -2716,7 +2716,7 @@ function AchievementFrame_ViewStatisticByAchievementID(achievementID)
 	end, ScrollBoxConstants.AlignCenter);
 end
 
-AchievementComparisonTemplateMixin = {};--- @class AchievementComparisonTemplateMixin
+AchievementComparisonTemplateMixin = {}; --- @class AchievementComparisonTemplateMixin
 
 function AchievementComparisonTemplateMixin:OnLoad()
 	AchievementComparisonButton_Localize(self);
@@ -2942,7 +2942,7 @@ function AchievementFrameComparisonStat_OnLoad (self)
 	self.FriendValue:SetVertexColor(1, 0.97, 0.6);
 end
 
-AchivementComparisonStatMixin = {};--- @class AchivementComparisonStatMixin
+AchivementComparisonStatMixin = {}; --- @class AchivementComparisonStatMixin
 
 function AchivementComparisonStatMixin:Init(elementData)
 	local category = elementData.id;
@@ -3459,7 +3459,7 @@ function AchievementFrameSearchBox_OnTextChanged(self)
 	end
 end
 
-AchievementFullSearchResultsButtonMixin = {};--- @class AchievementFullSearchResultsButtonMixin
+AchievementFullSearchResultsButtonMixin = {}; --- @class AchievementFullSearchResultsButtonMixin
 
 function AchievementFullSearchResultsButtonMixin:Init(elementData)
 	local index = elementData.index;

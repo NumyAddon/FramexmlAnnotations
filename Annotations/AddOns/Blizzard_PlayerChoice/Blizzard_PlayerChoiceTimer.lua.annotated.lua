@@ -1,4 +1,4 @@
-PlayerChoiceTimeRemainingMixin = {};--- @class PlayerChoiceTimeRemainingMixin
+PlayerChoiceTimeRemainingMixin = {}; --- @class PlayerChoiceTimeRemainingMixin
 
 function PlayerChoiceTimeRemainingMixin:HideTimer()
 	self:Hide();

@@ -1,5 +1,5 @@
 
-AdventuresPuckAbilityMixin = {};--- @class AdventuresPuckAbilityMixin
+AdventuresPuckAbilityMixin = {}; --- @class AdventuresPuckAbilityMixin
 
 function AdventuresPuckAbilityMixin:OnEnter()
 	GameTooltip:SetOwner(self);
@@ -87,7 +87,7 @@ function AdventuresPuckAbilityMixin:GetBoard()
 	return self:GetPuck():GetBoard();
 end
 
-AdventuresPuckMixin = {};--- @class AdventuresPuckMixin
+AdventuresPuckMixin = {}; --- @class AdventuresPuckMixin
 
 function AdventuresPuckMixin:OnLoad()
 	local function OnDeathAnimationFinished()
@@ -265,7 +265,7 @@ function AdventuresPuckMixin:HideSupportColorationRings()
 end
 
 
-AdventuresFollowerPuckMixin = {};--- @class AdventuresFollowerPuckMixin
+AdventuresFollowerPuckMixin = {}; --- @class AdventuresFollowerPuckMixin
 
 function AdventuresFollowerPuckMixin:OnLoad()
 	AdventuresPuckMixin.OnLoad(self);
@@ -366,7 +366,7 @@ function AdventuresFollowerPuckMixin:UpdateStats()
 	end
 end
 
-AdventuresEnemyPuckMixin = {};--- @class AdventuresEnemyPuckMixin
+AdventuresEnemyPuckMixin = {}; --- @class AdventuresEnemyPuckMixin
 
 function AdventuresEnemyPuckMixin:OnLoad()
 	AdventuresPuckMixin.OnLoad(self);
@@ -426,7 +426,7 @@ function AdventuresEnemyPuckMixin:GetName()
 end
 
 
-AdventuresMissionPageFollowerPuckMixin = {}--- @class AdventuresMissionPageFollowerPuckMixin
+AdventuresMissionPageFollowerPuckMixin = {} --- @class AdventuresMissionPageFollowerPuckMixin
 
 function AdventuresMissionPageFollowerPuckMixin:OnLoad()
 	AdventuresFollowerPuckMixin.OnLoad(self);

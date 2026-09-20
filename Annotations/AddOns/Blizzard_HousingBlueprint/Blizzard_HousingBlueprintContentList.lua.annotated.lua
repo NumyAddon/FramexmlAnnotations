@@ -1,6 +1,6 @@
 ----------------- Content List Container -----------------
 
-HousingBlueprintContentListFrameMixin = {};--- @class HousingBlueprintContentListFrameMixin
+HousingBlueprintContentListFrameMixin = {}; --- @class HousingBlueprintContentListFrameMixin
 
 local ContentListWhileShownEvents = {
 	"HOUSING_NUM_DECOR_PLACED_CHANGED",
@@ -241,7 +241,7 @@ function HousingBlueprintContentListFrameMixin:UpdateBlueprintContentsData()
 end
 
 ----------------- Content Group -----------------
-HousingBlueprintContentGroupMixin = {};--- @class HousingBlueprintContentGroupMixin
+HousingBlueprintContentGroupMixin = {}; --- @class HousingBlueprintContentGroupMixin
 
 function HousingBlueprintContentGroupMixin:OnLoad()
 	self.Header:SetClickHandler(function(_header, button)

@@ -1,4 +1,4 @@
-SystemsAPIMixin = CreateFromMixins(BaseAPIMixin);--- @class SystemsAPIMixin : BaseAPIMixin
+SystemsAPIMixin = CreateFromMixins(BaseAPIMixin); --- @class SystemsAPIMixin : BaseAPIMixin
 
 function SystemsAPIMixin:GetType()
 	return "system";

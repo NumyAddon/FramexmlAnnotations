@@ -1,4 +1,4 @@
-HouseListFrameMixin = {}--- @class HouseListFrameMixin
+HouseListFrameMixin = {} --- @class HouseListFrameMixin
 
 local HouseListFrameShowingEvents =
 {
@@ -105,7 +105,7 @@ function HouseListFrameMixin:SelectedFirstHouse(dataProvider)
     end
 end
 
-HouseEntryTemplateMixin = {}--- @class HouseEntryTemplateMixin
+HouseEntryTemplateMixin = {} --- @class HouseEntryTemplateMixin
 
 function HouseEntryTemplateMixin:Init(elementData)
     self.id = elementData.id;

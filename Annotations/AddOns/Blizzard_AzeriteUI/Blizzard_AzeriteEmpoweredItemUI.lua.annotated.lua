@@ -1,4 +1,4 @@
-AzeriteEmpoweredItemUIMixin = CreateFromMixins(CallbackRegistryMixin);--- @class AzeriteEmpoweredItemUIMixin : CallbackRegistryMixin
+AzeriteEmpoweredItemUIMixin = CreateFromMixins(CallbackRegistryMixin); --- @class AzeriteEmpoweredItemUIMixin : CallbackRegistryMixin
 
 AzeriteEmpoweredItemUIMixin:GenerateCallbackEvents(
 {

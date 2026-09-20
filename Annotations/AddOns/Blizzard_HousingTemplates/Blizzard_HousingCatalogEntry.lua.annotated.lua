@@ -11,7 +11,7 @@ local function GetMarketInfoIfDecor(entryVariantID)
 	return nil;
 end
 
-HousingCatalogDyeDisplayMixin = {};--- @class HousingCatalogDyeDisplayMixin
+HousingCatalogDyeDisplayMixin = {}; --- @class HousingCatalogDyeDisplayMixin
 
 function HousingCatalogDyeDisplayMixin:OnLoad()
 	if self.spacingAdjust then
@@ -52,7 +52,7 @@ function HousingCatalogDyeDisplayMixin:UpdateDyeSlots(dyeSlots)
 	return anyDyes;
 end
 
-HousingCatalogEntryMixin = {};--- @class HousingCatalogEntryMixin
+HousingCatalogEntryMixin = {}; --- @class HousingCatalogEntryMixin
 
 function HousingCatalogEntryMixin:OnLoad()
 	local forceSceneChange = true;
@@ -480,7 +480,7 @@ function HousingCatalogEntryMixin:TypeSpecificTrackEntry()
 	return false;
 end
 
-HousingCatalogDecorEntryMixin = CreateFromMixins(HousingCatalogEntryMixin);--- @class HousingCatalogDecorEntryMixin : HousingCatalogEntryMixin
+HousingCatalogDecorEntryMixin = CreateFromMixins(HousingCatalogEntryMixin); --- @class HousingCatalogDecorEntryMixin : HousingCatalogEntryMixin
 
 local DecorEntryWhileShownEvents = {
 	"HOUSING_NUM_DECOR_PLACED_CHANGED",
@@ -856,7 +856,7 @@ function HousingCatalogDecorEntryMixin:ShowContextMenu()
 	end);
 end
 
-HousingCatalogRoomEntryMixin = {};--- @class HousingCatalogRoomEntryMixin
+HousingCatalogRoomEntryMixin = {}; --- @class HousingCatalogRoomEntryMixin
 
 local RoomEntryWhileInitializedEvents = {
 	"HOUSING_LAYOUT_FLOORPLAN_SELECTION_CHANGED",

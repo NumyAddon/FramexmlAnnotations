@@ -15,7 +15,7 @@ local BasicDecorModeShownEvents =
 	"HOUSING_DECOR_GRID_SNAP_OCCURRED",
 };
 
-HouseEditorBasicDecorModeMixin = CreateFromMixins(BaseHouseEditorModeMixin);--- @class HouseEditorBasicDecorModeMixin : BaseHouseEditorModeMixin
+HouseEditorBasicDecorModeMixin = CreateFromMixins(BaseHouseEditorModeMixin); --- @class HouseEditorBasicDecorModeMixin : BaseHouseEditorModeMixin
 
 function HouseEditorBasicDecorModeMixin:OnLoad()
 	self.DecorMoveOverlay:SetScript("OnMouseUp", function()
@@ -265,7 +265,7 @@ function HouseEditorBasicDecorModeMixin:TryShowInvalidPlacementTooltip(placement
 end
 
 -- Iherits HouseEditorSubmodeButtonMixin
-HouseEditorSnapButtonMixin = {};--- @class HouseEditorSnapButtonMixin
+HouseEditorSnapButtonMixin = {}; --- @class HouseEditorSnapButtonMixin
 
 function HouseEditorSnapButtonMixin:IsActive()
 	return C_HousingBasicMode.IsGridSnapEnabled();
@@ -280,7 +280,7 @@ function HouseEditorSnapButtonMixin:LeaveMode()
 end
 
 -- Iherits HouseEditorSubmodeButtonMixin
-HouseEditorGridVisibilityButtonMixin = {};--- @class HouseEditorGridVisibilityButtonMixin
+HouseEditorGridVisibilityButtonMixin = {}; --- @class HouseEditorGridVisibilityButtonMixin
 
 function HouseEditorGridVisibilityButtonMixin:IsActive()
 	return C_HousingBasicMode.IsGridVisible();
@@ -295,7 +295,7 @@ function HouseEditorGridVisibilityButtonMixin:LeaveMode()
 end
 
 -- Iherits HouseEditorSubmodeButtonMixin
-HouseEditorFreePlaceButtonMixin = {};--- @class HouseEditorFreePlaceButtonMixin
+HouseEditorFreePlaceButtonMixin = {}; --- @class HouseEditorFreePlaceButtonMixin
 
 function HouseEditorFreePlaceButtonMixin:IsActive()
 	return C_HousingBasicMode.IsFreePlaceEnabled();

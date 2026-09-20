@@ -1,6 +1,6 @@
 UIPanelWindows["AzeriteEssenceUI"] = { area = "left", pushable = 1 };
 
-AzeriteEssenceUIMixin = CreateFromMixins(CallbackRegistryMixin);--- @class AzeriteEssenceUIMixin : CallbackRegistryMixin
+AzeriteEssenceUIMixin = CreateFromMixins(CallbackRegistryMixin); --- @class AzeriteEssenceUIMixin : CallbackRegistryMixin
 
 AzeriteEssenceUIMixin:GenerateCallbackEvents(
 {
@@ -547,7 +547,7 @@ function AzeriteEssenceUIMixin:OnSwirlAnimationFinished()
 	end
 end
 
-AzeriteEssenceDependencyLineMixin = CreateFromMixins(PowerDependencyLineMixin);--- @class AzeriteEssenceDependencyLineMixin : PowerDependencyLineMixin
+AzeriteEssenceDependencyLineMixin = CreateFromMixins(PowerDependencyLineMixin); --- @class AzeriteEssenceDependencyLineMixin : PowerDependencyLineMixin
 
 function AzeriteEssenceDependencyLineMixin:SetDisconnected()
 	self.FillScroll1:SetVertexColor(self.disconnectedColor:GetRGB());
@@ -588,7 +588,7 @@ function AzeriteEssenceDependencyLineMixin:OnRevealFinished()
 	self:Refresh();
 end
 
-AzeriteEssenceListMixin  = { };--- @class AzeriteEssenceListMixin
+AzeriteEssenceListMixin  = { }; --- @class AzeriteEssenceListMixin
 
 function AzeriteEssenceListMixin:OnLoad()
 	self:RegisterEvent("VARIABLES_LOADED");
@@ -861,7 +861,7 @@ function AzeriteEssenceListMixin:UpdateMouseOverTooltip()
 	end);
 end
 
-AzeriteEssenceButtonMixin  = { };--- @class AzeriteEssenceButtonMixin
+AzeriteEssenceButtonMixin  = { }; --- @class AzeriteEssenceButtonMixin
 
 function AzeriteEssenceButtonMixin:OnEnter()
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
@@ -913,7 +913,7 @@ function AzeriteEssenceButtonMixin:Init(essenceInfo, isAzeriteItemEnabled, slotE
 	end
 end
 
-AzeriteEssenceHeaderButtonMixin = { };--- @class AzeriteEssenceHeaderButtonMixin
+AzeriteEssenceHeaderButtonMixin = { }; --- @class AzeriteEssenceHeaderButtonMixin
 
 function AzeriteEssenceHeaderButtonMixin:SetExpanded(expanded)
 	if expanded then
@@ -925,7 +925,7 @@ function AzeriteEssenceHeaderButtonMixin:SetExpanded(expanded)
 	end
 end
 
-AzeriteMilestoneBaseMixin = { };--- @class AzeriteMilestoneBaseMixin
+AzeriteMilestoneBaseMixin = { }; --- @class AzeriteMilestoneBaseMixin
 
 function AzeriteMilestoneBaseMixin:OnLoad()
 	if self.isDraggable then
@@ -1105,7 +1105,7 @@ function AzeriteMilestoneBaseMixin:IsMajorSlot()
 	return self.isMajorSlot;
 end
 
-AzeriteMilestoneSlotMixin = CreateFromMixins(AzeriteMilestoneBaseMixin);--- @class AzeriteMilestoneSlotMixin : AzeriteMilestoneBaseMixin
+AzeriteMilestoneSlotMixin = CreateFromMixins(AzeriteMilestoneBaseMixin); --- @class AzeriteMilestoneSlotMixin : AzeriteMilestoneBaseMixin
 
 function AzeriteMilestoneSlotMixin:OnLoad()
 	self.UnlockedState.EmptyGlow.Anim:Play();
@@ -1294,7 +1294,7 @@ function AzeriteMilestoneSlotMixin:OnEnter()
 	GameTooltip:Show();
 end
 
-AzeriteMilestoneStaminaMixin = CreateFromMixins(AzeriteMilestoneBaseMixin);--- @class AzeriteMilestoneStaminaMixin : AzeriteMilestoneBaseMixin
+AzeriteMilestoneStaminaMixin = CreateFromMixins(AzeriteMilestoneBaseMixin); --- @class AzeriteMilestoneStaminaMixin : AzeriteMilestoneBaseMixin
 
 function AzeriteMilestoneStaminaMixin:Refresh()
 	self:UpdateMilestoneInfo();
@@ -1330,7 +1330,7 @@ function AzeriteMilestoneStaminaMixin:Refresh()
 	end
 end
 
-AzeriteMilestoneRankedMixin = CreateFromMixins(AzeriteMilestoneBaseMixin);--- @class AzeriteMilestoneRankedMixin : AzeriteMilestoneBaseMixin
+AzeriteMilestoneRankedMixin = CreateFromMixins(AzeriteMilestoneBaseMixin); --- @class AzeriteMilestoneRankedMixin : AzeriteMilestoneBaseMixin
 
 function AzeriteMilestoneRankedMixin:Refresh()
 	self:UpdateMilestoneInfo();
@@ -1402,7 +1402,7 @@ function AzeriteMilestoneRankedMixin:OnUnlocked()
 	PlaySound(SOUNDKIT.UI_82_HEARTOFAZEROTH_UNLOCKSTAMINANODE);
 end
 
-AzeriteEssenceLearnAnimFrameMixin = { };--- @class AzeriteEssenceLearnAnimFrameMixin
+AzeriteEssenceLearnAnimFrameMixin = { }; --- @class AzeriteEssenceLearnAnimFrameMixin
 
 function AzeriteEssenceLearnAnimFrameMixin:OnLoad()
 	self:SetPoint("CENTER", AzeriteEssenceUI:GetSlotFrame(Enum.AzeriteEssenceSlot.MainSlot));

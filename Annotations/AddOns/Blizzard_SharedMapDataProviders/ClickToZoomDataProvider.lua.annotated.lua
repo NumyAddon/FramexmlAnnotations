@@ -6,7 +6,7 @@ local ClickToZoomStyles = {
 	[Enum.MapCanvasPosition.TopRight] = { point="TOPRIGHT", x = -75, y = -65, textPoint="RIGHT" };
 };
 
-ClickToZoomDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class ClickToZoomDataProviderMixin : MapCanvasDataProviderMixin
+ClickToZoomDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin); --- @class ClickToZoomDataProviderMixin : MapCanvasDataProviderMixin
 
 function ClickToZoomDataProviderMixin:OnZoneLabelFadeIn(isContinent)
 	if isContinent then
@@ -119,7 +119,7 @@ function ClickToZoomDataProviderMixin:ShouldShowZoomOut()
 	return self.shouldShowZoomOut;
 end
 
-ClickToZoomDataProvider_LabelMixin = {};--- @class ClickToZoomDataProvider_LabelMixin
+ClickToZoomDataProvider_LabelMixin = {}; --- @class ClickToZoomDataProvider_LabelMixin
 
 function ClickToZoomDataProvider_LabelMixin:Init(text, showAtMaxZoom)
 	self.Text:SetText(text);

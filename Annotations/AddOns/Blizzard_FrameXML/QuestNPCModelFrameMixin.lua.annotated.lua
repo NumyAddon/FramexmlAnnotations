@@ -1,7 +1,7 @@
 
 --------------------------------------------------
 -- QUEST NPC MODEL FRAME MIXIN
-QuestNPCModelFrameMixin = CreateFromMixins(ModelFrameMixin);--- @class QuestNPCModelFrameMixin : ModelFrameMixin
+QuestNPCModelFrameMixin = CreateFromMixins(ModelFrameMixin); --- @class QuestNPCModelFrameMixin : ModelFrameMixin
 
 function QuestNPCModelFrameMixin:OnLoad()
 	ModelFrameMixin.OnLoad(self);

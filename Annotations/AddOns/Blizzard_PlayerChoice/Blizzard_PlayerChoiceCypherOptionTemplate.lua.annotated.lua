@@ -1,4 +1,4 @@
-PlayerChoiceCypherOptionTemplateMixin = {};--- @class PlayerChoiceCypherOptionTemplateMixin
+PlayerChoiceCypherOptionTemplateMixin = {}; --- @class PlayerChoiceCypherOptionTemplateMixin
 
 local animationInfos =
 {

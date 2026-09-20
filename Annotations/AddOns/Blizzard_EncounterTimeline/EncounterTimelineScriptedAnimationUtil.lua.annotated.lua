@@ -1,4 +1,4 @@
-EncounterTimelineScriptedAnimatableMixin = {};--- @class EncounterTimelineScriptedAnimatableMixin
+EncounterTimelineScriptedAnimatableMixin = {}; --- @class EncounterTimelineScriptedAnimatableMixin
 
 function EncounterTimelineScriptedAnimatableMixin:OnLoad()
 	self.scriptedAnimationType = nil;

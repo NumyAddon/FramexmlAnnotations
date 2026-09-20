@@ -10,7 +10,7 @@ AuraContainerAuraSlotConstants =
 	CandidatesNotChanged = false;
 };
 
-AuraContainerAuraSlotManagerMixin = {};--- @class AuraContainerAuraSlotManagerMixin
+AuraContainerAuraSlotManagerMixin = {}; --- @class AuraContainerAuraSlotManagerMixin
 
 function AuraContainerAuraSlotManagerMixin:Init(owner)
 	self.owner = owner;
@@ -227,7 +227,7 @@ function AuraContainerAuraSlotManagerMixin:ResetFrameAssignments()
 	end
 end
 
-AuraContainerAuraSlotMixin = {};--- @class AuraContainerAuraSlotMixin
+AuraContainerAuraSlotMixin = {}; --- @class AuraContainerAuraSlotMixin
 
 function AuraContainerAuraSlotMixin:Init(slotKey, description)
 	self.enabled = true;
@@ -402,7 +402,7 @@ function AuraContainerAuraSlotMixin:MarkClean()
 	self.dirty = false;
 end
 
-AuraContainerAuraSlotOwnerMixin = {};--- @class AuraContainerAuraSlotOwnerMixin
+AuraContainerAuraSlotOwnerMixin = {}; --- @class AuraContainerAuraSlotOwnerMixin
 
 function AuraContainerAuraSlotOwnerMixin:OnAuraSlotsChanged()
 	-- Override in the owner to be notified when the list of configured aura

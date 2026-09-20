@@ -8,7 +8,7 @@ function MagePowerBar:UpdatePower()
 end
 
 
-ArcaneChargeMixin = { };--- @class ArcaneChargeMixin
+ArcaneChargeMixin = { }; --- @class ArcaneChargeMixin
 
 function ArcaneChargeMixin:Setup()
 	self.isActive = nil;

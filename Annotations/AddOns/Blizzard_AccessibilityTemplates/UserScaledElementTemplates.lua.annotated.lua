@@ -1,4 +1,4 @@
-UserScaledElementMixin = {};--- @class UserScaledElementMixin
+UserScaledElementMixin = {}; --- @class UserScaledElementMixin
 
 function UserScaledElementMixin:OnLoad_UserScaledElement()
 	TextSizeManager:RegisterObject(self);
@@ -62,7 +62,7 @@ function UserScaledElementMixin:OnTextScaleUpdated(scale, registrationInfo)
 	end
 end
 
-UserScaledButtonFitToTextMixin = CreateFromMixins(UserScaledElementMixin);--- @class UserScaledButtonFitToTextMixin : UserScaledElementMixin
+UserScaledButtonFitToTextMixin = CreateFromMixins(UserScaledElementMixin); --- @class UserScaledButtonFitToTextMixin : UserScaledElementMixin
 
 function UserScaledButtonFitToTextMixin:OnLoad()
 	self:OnLoad_UserScaledElement();
@@ -95,7 +95,7 @@ function UserScaledButtonFitToTextMixin:TryRecalculateDesiredWidth(scale)
 	self.desiredWidth = math.max(self.baseWidth, fitToTextWidth);
 end
 
-UserScaledFrameByHeightMixin = {}--- @class UserScaledFrameByHeightMixin
+UserScaledFrameByHeightMixin = {} --- @class UserScaledFrameByHeightMixin
 
 function UserScaledFrameByHeightMixin:OnLoad_UserScaledByHeight()
 	TextSizeManager:RegisterObject(self);

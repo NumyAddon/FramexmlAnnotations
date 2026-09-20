@@ -1,4 +1,4 @@
-VoiceChatHeadsetButtonMixin = {};--- @class VoiceChatHeadsetButtonMixin
+VoiceChatHeadsetButtonMixin = {}; --- @class VoiceChatHeadsetButtonMixin
 
 function VoiceChatHeadsetButtonMixin:OnLoad()
 	self:RegisterEvent("VOICE_CHAT_CHANNEL_JOINED");
@@ -293,7 +293,7 @@ function VoiceChatHeadsetButtonMixin:Update()
 	end
 end
 
-VoiceChatHeadsetMixin = {};--- @class VoiceChatHeadsetMixin
+VoiceChatHeadsetMixin = {}; --- @class VoiceChatHeadsetMixin
 
 function VoiceChatHeadsetMixin:SetCommunityInfo(...)
 	self.Button:SetCommunityInfo(...);

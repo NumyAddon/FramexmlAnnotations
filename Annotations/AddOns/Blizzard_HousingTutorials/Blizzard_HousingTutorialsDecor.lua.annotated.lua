@@ -1,7 +1,7 @@
 
 HousingTutorialsQuestManager = CreateFromMixins(TutorialQuestManager);
 
-HouseDecorQuestWatcherMixin = {};--- @class HouseDecorQuestWatcherMixin
+HouseDecorQuestWatcherMixin = {}; --- @class HouseDecorQuestWatcherMixin
 
 function HouseDecorQuestWatcherMixin:Initialize()
 	-- Register for quest related callbacks
@@ -163,7 +163,7 @@ function HouseDecorQuestWatcherMixin:Quest_Abandoned(questData)
 	end
 end
 
-HouseDecorQuestTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin);--- @class HouseDecorQuestTutorialMixin : HelpTipStateMachineBasedTutorialMixin
+HouseDecorQuestTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin); --- @class HouseDecorQuestTutorialMixin : HelpTipStateMachineBasedTutorialMixin
 
 function HouseDecorQuestTutorialMixin:Init(questID, helpTipInfos, helpTipSystemName, bitfieldFlag)
 	self.questID = questID;
@@ -214,7 +214,7 @@ function HouseDecorQuestTutorialMixin:UpdateInProgressHelpTip()
 	end
 end
 
-HouseDecorWatcherMixin = {};--- @class HouseDecorWatcherMixin
+HouseDecorWatcherMixin = {}; --- @class HouseDecorWatcherMixin
 
 local HOUSE_DECOR_PLACEMENT_WATCHER_EVENTS = {
 	"HOUSE_EDITOR_MODE_CHANGED",
@@ -359,7 +359,7 @@ local function ShouldShowClippingAndGridTutorial()
 	return not GetCVarBitfield(HOUSING_TUTORIAL_CVAR_BITFIELD, Enum.FrameTutorialAccount.HousingDecorClippingGrid);
 end
 
-HouseClippingAndGridTutorialMixin = {};--- @class HouseClippingAndGridTutorialMixin
+HouseClippingAndGridTutorialMixin = {}; --- @class HouseClippingAndGridTutorialMixin
 
 function HouseClippingAndGridTutorialMixin:CanBegin()
 	return ShouldShowClippingAndGridTutorial();
@@ -391,7 +391,7 @@ local function ShouldShowModesUnlockedTutorial()
 	return not GetCVarBitfield(HOUSING_TUTORIAL_CVAR_BITFIELD, Enum.FrameTutorialAccount.HousingModesUnlocked);
 end
 
-HouseModesUnlockedTutorialMixin = {};--- @class HouseModesUnlockedTutorialMixin
+HouseModesUnlockedTutorialMixin = {}; --- @class HouseModesUnlockedTutorialMixin
 
 function HouseModesUnlockedTutorialMixin:CanBegin()
 	return ShouldShowModesUnlockedTutorial();
@@ -432,7 +432,7 @@ local function ShouldShowExpertModeTutorial()
 	return not GetCVarBitfield(HOUSING_TUTORIAL_CVAR_BITFIELD, Enum.FrameTutorialAccount.HousingExpertMode);
 end
 
-HouseExpertModeTutorialMixin = {};--- @class HouseExpertModeTutorialMixin
+HouseExpertModeTutorialMixin = {}; --- @class HouseExpertModeTutorialMixin
 
 function HouseExpertModeTutorialMixin:CanBegin()
 	return ShouldShowExpertModeTutorial();
@@ -464,7 +464,7 @@ local function ShouldShowCleanupModeTutorial()
 	return not GetCVarBitfield(HOUSING_TUTORIAL_CVAR_BITFIELD, Enum.FrameTutorialAccount.HousingCleanupMode);
 end
 
-HouseCleanupModeTutorialMixin = {};--- @class HouseCleanupModeTutorialMixin
+HouseCleanupModeTutorialMixin = {}; --- @class HouseCleanupModeTutorialMixin
 
 function HouseCleanupModeTutorialMixin:CanBegin()
 	return ShouldShowCleanupModeTutorial();
@@ -492,7 +492,7 @@ function HouseCleanupModeTutorialMixin:UpdateHelpTip()
 	end
 end
 
-HouseMarketTabTutorialMixin = {};--- @class HouseMarketTabTutorialMixin
+HouseMarketTabTutorialMixin = {}; --- @class HouseMarketTabTutorialMixin
 
 function HouseMarketTabTutorialMixin:CanBegin()
 	if ShouldShowClippingAndGridTutorial() or GetCVarBitfield(HOUSING_TUTORIAL_CVAR_BITFIELD, Enum.FrameTutorialAccount.HousingMarketTab) then
@@ -525,7 +525,7 @@ function HouseMarketTabTutorialMixin:UpdateHelpTip()
 	end
 end
 
-HouseDecorCustomizationsTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin);--- @class HouseDecorCustomizationsTutorialMixin : HelpTipStateMachineBasedTutorialMixin
+HouseDecorCustomizationsTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin); --- @class HouseDecorCustomizationsTutorialMixin : HelpTipStateMachineBasedTutorialMixin
 
 function HouseDecorCustomizationsTutorialMixin:Init()
 	self.helpTipInfos = HousingTutorialData.HouseDecorTutorial.CustomizationHelptips;
@@ -553,7 +553,7 @@ function HouseDecorCustomizationsTutorialMixin:Init()
 	);
 end
 
-HouseLayoutTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin);--- @class HouseLayoutTutorialMixin : HelpTipStateMachineBasedTutorialMixin
+HouseLayoutTutorialMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin); --- @class HouseLayoutTutorialMixin : HelpTipStateMachineBasedTutorialMixin
 
 function HouseLayoutTutorialMixin:Init()
 	self.helpTipInfos = HousingTutorialData.HouseDecorTutorial.LayoutHelptips;
@@ -589,7 +589,7 @@ function HouseLayoutTutorialMixin:Init()
 	);
 end
 
-HousePetBedTutorialMixin = {};--- @class HousePetBedTutorialMixin
+HousePetBedTutorialMixin = {}; --- @class HousePetBedTutorialMixin
 
 function HousePetBedTutorialMixin:CanBegin()
 	return not GetCVarBitfield(HOUSING_TUTORIAL_CVAR_BITFIELD, Enum.FrameTutorialAccount.HousingPetBeds);

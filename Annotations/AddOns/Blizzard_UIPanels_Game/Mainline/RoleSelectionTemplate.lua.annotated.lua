@@ -1,5 +1,5 @@
 
-RoleSelectionMixin = {};--- @class RoleSelectionMixin
+RoleSelectionMixin = {}; --- @class RoleSelectionMixin
 
 function RoleSelectionMixin:OnLoad()
 	self:UpdatePermanentlyDisabledRoles();
@@ -31,7 +31,7 @@ function RoleSelectionMixin:OnCancel()
 end
 
 
-RoleSelectionRoleMixin = {};--- @class RoleSelectionRoleMixin
+RoleSelectionRoleMixin = {}; --- @class RoleSelectionRoleMixin
 
 function RoleSelectionRoleMixin:OnClick(button)
 	if ( self.CheckButton:GetChecked() ) then

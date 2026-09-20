@@ -1,4 +1,4 @@
-ProfessionsCustomerOrdersBrowsePageMixin = {};--- @class ProfessionsCustomerOrdersBrowsePageMixin
+ProfessionsCustomerOrdersBrowsePageMixin = {}; --- @class ProfessionsCustomerOrdersBrowsePageMixin
 
 local ProfessionsCustomerOrdersBrowsePageEvents =
 {

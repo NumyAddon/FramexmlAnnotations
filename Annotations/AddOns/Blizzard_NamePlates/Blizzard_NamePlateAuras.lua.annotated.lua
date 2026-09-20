@@ -1,5 +1,5 @@
 -- For displaying individual buffs/debuffs/crowd control.
-NamePlateAuraItemMixin = {};--- @class NamePlateAuraItemMixin
+NamePlateAuraItemMixin = {}; --- @class NamePlateAuraItemMixin
 
 function NamePlateAuraItemMixin:OnLoad()
 	self:SetSize(NamePlateConstants.AURA_ITEM_HEIGHT, NamePlateConstants.AURA_ITEM_HEIGHT);
@@ -69,7 +69,7 @@ CVarCallbackRegistry:SetCVarCachable(NamePlateConstants.AURA_SCALE_CVAR);
 CVarCallbackRegistry:SetCVarCachable(NamePlateConstants.SHOW_ALL_PERSONAL_AURAS_CVAR);
 
 -- For displaying all the buffs/debuffs/crowd control/loss of control auras on a nameplate.
-NamePlateAurasMixin = CreateFromMixins(NamePlateComponentMixin);--- @class NamePlateAurasMixin : NamePlateComponentMixin
+NamePlateAurasMixin = CreateFromMixins(NamePlateComponentMixin); --- @class NamePlateAurasMixin : NamePlateComponentMixin
 
 function NamePlateAurasMixin:OnLoad()
 	local auraItemFrameResetCallback = function(pool, auraItemFrame)

@@ -1,4 +1,4 @@
-PlayerSpellsFrameMixin = {};--- @class PlayerSpellsFrameMixin
+PlayerSpellsFrameMixin = {}; --- @class PlayerSpellsFrameMixin
 
 local PlayerSpellsFrameEvents = {
 	"PLAYER_LEAVING_WORLD",

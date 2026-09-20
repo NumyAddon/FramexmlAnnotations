@@ -1,4 +1,4 @@
-HousingBlueprintContentSummaryMixin = {};--- @class HousingBlueprintContentSummaryMixin
+HousingBlueprintContentSummaryMixin = {}; --- @class HousingBlueprintContentSummaryMixin
 
 local ContentWhileShownEvents = {
 	"HOUSING_NUM_DECOR_PLACED_CHANGED",

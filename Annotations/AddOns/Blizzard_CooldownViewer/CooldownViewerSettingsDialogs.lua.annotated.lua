@@ -1,4 +1,4 @@
-CooldownViewerBaseDialogMixin = {}; -- implements API from CreateFromMixins(EditModeBaseDialogMixin);--- @class CooldownViewerBaseDialogMixin
+CooldownViewerBaseDialogMixin = {}; -- implements API from CreateFromMixins(EditModeBaseDialogMixin); --- @class CooldownViewerBaseDialogMixin
 
 function CooldownViewerBaseDialogMixin:GetManagerExitCallbackEventName()
 	return "CooldownViewerSettings.OnHide";
@@ -12,7 +12,7 @@ function CooldownViewerBaseDialogMixin:GetDesiredLayoutType()
 	return self:IsCharacterSpecificLayoutChecked() and Enum.CooldownLayoutType.Character or Enum.CooldownLayoutType.Account;
 end
 
-CooldownViewerImportLayoutDialogMixin = {};--- @class CooldownViewerImportLayoutDialogMixin
+CooldownViewerImportLayoutDialogMixin = {}; --- @class CooldownViewerImportLayoutDialogMixin
 
 function CooldownViewerImportLayoutDialogMixin:SetLayoutIDs(layoutIDs)
 	self.layoutIDs = layoutIDs;

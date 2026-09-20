@@ -1,11 +1,11 @@
-ClassTalentLoadoutDialogMixin = {};--- @class ClassTalentLoadoutDialogMixin
+ClassTalentLoadoutDialogMixin = {}; --- @class ClassTalentLoadoutDialogMixin
 
 function ClassTalentLoadoutDialogMixin:OnLoad()
 	self.Title:SetText(self.titleText);
 end
 
 
-ClassTalentLoadoutDialogInputControlMixin = {};--- @class ClassTalentLoadoutDialogInputControlMixin
+ClassTalentLoadoutDialogInputControlMixin = {}; --- @class ClassTalentLoadoutDialogInputControlMixin
 
 function ClassTalentLoadoutDialogInputControlMixin:OnLoad()
 	local editBox = self:GetEditBox();
@@ -47,7 +47,7 @@ function ClassTalentLoadoutDialogInputControlMixin:GetEditBox()
 	-- Override in derived
 end
 
-ClassTalentLoadoutDialogNameControlMixin = CreateFromMixins(ClassTalentLoadoutDialogInputControlMixin);--- @class ClassTalentLoadoutDialogNameControlMixin : ClassTalentLoadoutDialogInputControlMixin
+ClassTalentLoadoutDialogNameControlMixin = CreateFromMixins(ClassTalentLoadoutDialogInputControlMixin); --- @class ClassTalentLoadoutDialogNameControlMixin : ClassTalentLoadoutDialogInputControlMixin
 
 function ClassTalentLoadoutDialogNameControlMixin:GetEditBox()
 	return self.EditBox;

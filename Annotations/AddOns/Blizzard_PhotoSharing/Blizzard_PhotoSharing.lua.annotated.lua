@@ -13,7 +13,7 @@ end
 
 RegisterGameMenuEscHandler(GameMenuEscPriority.AddOn, PhotoSharingFrame_EscapePressed);
 
-PhotoSharingMixin = {};--- @class PhotoSharingMixin
+PhotoSharingMixin = {}; --- @class PhotoSharingMixin
 
 function PhotoSharingMixin:ResetEditBoxes()
 	self.TitleFrame.PhotoSharingTitleEditBox:SetText("");
@@ -101,7 +101,7 @@ function PhotoSharingMixin:OnEvent(event, ...)
 	end
 end
 
-PhotoSharingSubmitButtonMixin = {};--- @class PhotoSharingSubmitButtonMixin
+PhotoSharingSubmitButtonMixin = {}; --- @class PhotoSharingSubmitButtonMixin
 
 function PhotoSharingSubmitButtonMixin:OnClick()
 	if C_PhotoSharing.IsAuthorized() then
@@ -114,7 +114,7 @@ function PhotoSharingSubmitButtonMixin:OnClick()
 	end
 end
 
-PhotoSharingCancelButtonMixin = {};--- @class PhotoSharingCancelButtonMixin
+PhotoSharingCancelButtonMixin = {}; --- @class PhotoSharingCancelButtonMixin
 
 function PhotoSharingCancelButtonMixin:OnClick()
 	self:GetParent():Hide();

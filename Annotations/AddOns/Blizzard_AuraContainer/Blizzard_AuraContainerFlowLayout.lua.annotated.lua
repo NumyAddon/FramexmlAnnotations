@@ -1,4 +1,4 @@
-local AuraContainerFlowLayoutSharedMixin = {};--- @class AuraContainerFlowLayoutSharedMixin
+local AuraContainerFlowLayoutSharedMixin = {}; --- @class AuraContainerFlowLayoutSharedMixin
 
 function AuraContainerFlowLayoutSharedMixin:GetFlowLayoutAxis()
 	return self:GetFlowLayout():GetLayoutAxis();
@@ -70,8 +70,8 @@ function AuraContainerFlowLayoutSharedMixin:ResetFlowLayoutOptions()
 	self:MarkDirty(AuraContainerDirtyMask.AuraFrameLayout);
 end
 
-AuraContainerFlowLayoutInboundMixin = CreateFromMixins(AuraContainerFlowLayoutSharedMixin);--- @class AuraContainerFlowLayoutInboundMixin : AuraContainerFlowLayoutSharedMixin
-AuraContainerFlowLayoutPrivateMixin = CreateFromMixins(AuraContainerFlowLayoutSharedMixin);--- @class AuraContainerFlowLayoutPrivateMixin : AuraContainerFlowLayoutSharedMixin
+AuraContainerFlowLayoutInboundMixin = CreateFromMixins(AuraContainerFlowLayoutSharedMixin); --- @class AuraContainerFlowLayoutInboundMixin : AuraContainerFlowLayoutSharedMixin
+AuraContainerFlowLayoutPrivateMixin = CreateFromMixins(AuraContainerFlowLayoutSharedMixin); --- @class AuraContainerFlowLayoutPrivateMixin : AuraContainerFlowLayoutSharedMixin
 
 function AuraContainerFlowLayoutPrivateMixin:ApplyFlowLayoutDefaults(_flowLayout)
 	-- Override to apply any defaults after resetting flow layout options.

@@ -15,7 +15,7 @@ local TORGHAST_LEVEL_PICKER_EVENTS = {
 	"GROUP_FORMED",
 };
 
-TorghastLevelPickerFrameMixin = {};--- @class TorghastLevelPickerFrameMixin
+TorghastLevelPickerFrameMixin = {}; --- @class TorghastLevelPickerFrameMixin
 
 function TorghastLevelPickerFrameMixin:OnLoad()
 	CustomGossipFrameBaseMixin.OnLoad(self);
@@ -183,7 +183,7 @@ function TorghastLevelPickerFrameMixin:ScrollAndSelectHighestAvailableLayer()
 
 end 
 
-TorghastLevelPickerOptionButtonMixin = {}; --- @class TorghastLevelPickerOptionButtonMixin
+TorghastLevelPickerOptionButtonMixin = {};  --- @class TorghastLevelPickerOptionButtonMixin
 
 function TorghastLevelPickerOptionButtonMixin:SetDifficultyTexture()
 	if(not self.index) then 
@@ -299,7 +299,7 @@ function TorghastLevelPickerOptionButtonMixin:OnLeave()
 	GameTooltip:Hide(); 
 end		
 
-TorghastPagingContainerMixin = {}; --- @class TorghastPagingContainerMixin
+TorghastPagingContainerMixin = {};  --- @class TorghastPagingContainerMixin
 
 function TorghastPagingContainerMixin:Init(startingPageNumber)
 	self.currentPage = startingPageNumber;
@@ -340,7 +340,7 @@ function TorghastPagingContainerMixin:PageNext()
 	PlaySound(SOUNDKIT.UI_TORGHAST_WAYFINDER_PAGING_CLICK);
 end 
 
-TorghastLevelPickerRewardCircleMixin = {}; --- @class TorghastLevelPickerRewardCircleMixin
+TorghastLevelPickerRewardCircleMixin = {};  --- @class TorghastLevelPickerRewardCircleMixin
 
 local function TorghastLevelPickerRewardSortFunction(firstValue, secondValue)
 	return firstValue > secondValue;
@@ -522,7 +522,7 @@ function TorghastLevelPickerRewardCircleMixin:OnLeave()
 	EmbeddedItemTooltip:Hide();
 end 
 
-TorghastLevelPickerOpenPortalButtonMixin = { };--- @class TorghastLevelPickerOpenPortalButtonMixin
+TorghastLevelPickerOpenPortalButtonMixin = { }; --- @class TorghastLevelPickerOpenPortalButtonMixin
 
 function TorghastLevelPickerOpenPortalButtonMixin:OnEnter()
 	if (not self:GetParent().isPartyLeader) then

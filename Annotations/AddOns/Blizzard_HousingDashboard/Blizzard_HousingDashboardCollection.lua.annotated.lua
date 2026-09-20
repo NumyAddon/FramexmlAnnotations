@@ -1,5 +1,5 @@
 ----------------- Collections Container -----------------
-HousingDashboardCollectionFrameMixin = {};--- @class HousingDashboardCollectionFrameMixin
+HousingDashboardCollectionFrameMixin = {}; --- @class HousingDashboardCollectionFrameMixin
 
 function HousingDashboardCollectionFrameMixin:OnLoad()
 	self.BlueprintCollection:SetBlueprintEntryClickedCallback(GenerateClosure(self.OnBlueprintEntryClicked, self));
@@ -15,7 +15,7 @@ function HousingDashboardCollectionFrameMixin:OnBlueprintEntryClicked(blueprintI
 end
 
 ----------------- Details preview frame -----------------
-HousingDashboardBlueprintDetailsMixin = {};--- @class HousingDashboardBlueprintDetailsMixin
+HousingDashboardBlueprintDetailsMixin = {}; --- @class HousingDashboardBlueprintDetailsMixin
 
 local DetailsLifetimeEvents = {
 	"HOUSING_BLUEPRINT_RENAME_SUCCESS",

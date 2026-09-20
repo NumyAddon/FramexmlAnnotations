@@ -472,7 +472,7 @@ function MoneyInputFrameButton_OpenPopup(self)
 	MoneyInputFrame_OpenPopup(self:GetParent());
 end
 
-SmallMoneyFrameMixin = {};--- @class SmallMoneyFrameMixin
+SmallMoneyFrameMixin = {}; --- @class SmallMoneyFrameMixin
 
 function SmallMoneyFrameMixin:SetIsUserScaled()
 	if self.isUserScaled then

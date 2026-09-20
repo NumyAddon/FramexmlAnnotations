@@ -93,7 +93,7 @@ function SetPlayerInteractionConditions(interactionType, conditions)
 	interactionManagerConditions[interactionType] = ValidateInteractionConditions(interactionType, conditions);
 end
 
-PlayerInteractionFrameManagerMixin = { };--- @class PlayerInteractionFrameManagerMixin
+PlayerInteractionFrameManagerMixin = { }; --- @class PlayerInteractionFrameManagerMixin
 
 local function GetFrameInfo(interactionType)
 	return interactionManagerFrameInfo[interactionType];

@@ -49,7 +49,7 @@ local CovenantRenownEvents = {
 	"COVENANT_RENOWN_CATCH_UP_STATE_UPDATE",
 };
 
-CovenantRenownMixin = {};--- @class CovenantRenownMixin
+CovenantRenownMixin = {}; --- @class CovenantRenownMixin
 
 function CovenantRenownMixin:OnLoad()
 	local attributes =
@@ -320,7 +320,7 @@ function CovenantRenownMixin:CheckTutorials()
 	end
 end
 
-CovenantRenownRewardMixin = { };--- @class CovenantRenownRewardMixin
+CovenantRenownRewardMixin = { }; --- @class CovenantRenownRewardMixin
 
 function CovenantRenownRewardMixin:SetReward(rewardInfo, unlocked)
 	SetupTextureKit(self, rewardTextureKitRegions);
@@ -347,7 +347,7 @@ function CovenantRenownRewardMixin:OnEnter()
 	end
 end
 
-CovenantRenownHeaderFrameMixin = { }; --- @class CovenantRenownHeaderFrameMixin
+CovenantRenownHeaderFrameMixin = { };  --- @class CovenantRenownHeaderFrameMixin
 function CovenantRenownHeaderFrameMixin:OnEnter()
 	local covenantName = g_covenantData.name;
 	GameTooltip:SetOwner(self, "ANCHOR_BOTTOMRIGHT", -40, 130);

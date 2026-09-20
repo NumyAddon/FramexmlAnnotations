@@ -18,7 +18,7 @@ StaticPopupDialogs["CONFIRM_RUNEFORGE_LEGENDARY_CRAFT"] = {
 };
 
 
-RuneforgeCreateFrameMixin = CreateFromMixins(RuneforgeSystemMixin);--- @class RuneforgeCreateFrameMixin : RuneforgeSystemMixin
+RuneforgeCreateFrameMixin = CreateFromMixins(RuneforgeSystemMixin); --- @class RuneforgeCreateFrameMixin : RuneforgeSystemMixin
 
 local RuneforgeCreateFrameEvents = {
 	"UNIT_INVENTORY_CHANGED",
@@ -142,7 +142,7 @@ function RuneforgeCreateFrameMixin:GetRuneforgeFrame()
 end
 
 
-RuneforgeCraftItemButtonMixin = {};--- @class RuneforgeCraftItemButtonMixin
+RuneforgeCraftItemButtonMixin = {}; --- @class RuneforgeCraftItemButtonMixin
 
 function RuneforgeCraftItemButtonMixin:OnShow()
 	self:SetText(self:GetParent():IsRuneforgeUpgrading() and LEGENDARY_CRAFTING_UPGRADE_ITEM or LEGENDARY_CRAFTING_CRAFT_ITEM);

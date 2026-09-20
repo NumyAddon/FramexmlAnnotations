@@ -3,7 +3,7 @@ local MIN_TAB_WIDTH = 70;
 local TAB_PADDING = 20;
 
 
-AuctionHouseFrameTabMixin = {};--- @class AuctionHouseFrameTabMixin
+AuctionHouseFrameTabMixin = {}; --- @class AuctionHouseFrameTabMixin
 
 function AuctionHouseFrameTabMixin:OnShow()
 	local absoluteSize = nil;
@@ -11,14 +11,14 @@ function AuctionHouseFrameTabMixin:OnShow()
 end
 
 
-AuctionHouseFrameTopTabMixin = CreateFromMixins(AuctionHouseFrameTabMixin);--- @class AuctionHouseFrameTopTabMixin : AuctionHouseFrameTabMixin
+AuctionHouseFrameTopTabMixin = CreateFromMixins(AuctionHouseFrameTabMixin); --- @class AuctionHouseFrameTopTabMixin : AuctionHouseFrameTabMixin
 
 function AuctionHouseFrameTopTabMixin:OnClick()
 	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB);
 end
 
 
-AuctionHouseFrameDisplayModeTabMixin = {};--- @class AuctionHouseFrameDisplayModeTabMixin
+AuctionHouseFrameDisplayModeTabMixin = {}; --- @class AuctionHouseFrameDisplayModeTabMixin
 
 function AuctionHouseFrameDisplayModeTabMixin:OnClick()
 	CallMethodOnNearestAncestor(self, "SetDisplayMode", self.displayMode);

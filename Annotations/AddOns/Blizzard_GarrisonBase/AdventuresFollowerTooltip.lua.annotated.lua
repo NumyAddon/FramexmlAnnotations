@@ -3,7 +3,7 @@
 -- Adventures Level Portrait Mixin
 ---------------------------------------
 
-AdventuresLevelPortraitMixin = {}--- @class AdventuresLevelPortraitMixin
+AdventuresLevelPortraitMixin = {} --- @class AdventuresLevelPortraitMixin
 
 function AdventuresLevelPortraitMixin:SetupPortrait(info)
 	self.info = info;

@@ -1,5 +1,5 @@
 
-AccountStoreCategoryMixin = {};--- @class AccountStoreCategoryMixin
+AccountStoreCategoryMixin = {}; --- @class AccountStoreCategoryMixin
 
 function AccountStoreCategoryMixin:OnClick()
 	PlaySound(SOUNDKIT.ACCOUNT_STORE_CATEGORY_SELECT);
@@ -15,7 +15,7 @@ function AccountStoreCategoryMixin:SetCategory(categoryID)
 end
 
 
-AccountStoreCategoryListMixin = {};--- @class AccountStoreCategoryListMixin
+AccountStoreCategoryListMixin = {}; --- @class AccountStoreCategoryListMixin
 
 function AccountStoreCategoryListMixin:OnLoad()
 	self.SelectionHighlight = self.ScrollBox.SelectionHighlight;

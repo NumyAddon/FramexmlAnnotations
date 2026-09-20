@@ -3,7 +3,7 @@ ExtraActionButtonPriority = 100;
 ZoneAbilityFramePriority = 200;
 
 
-ExtraAbilityContainerMixin = {};--- @class ExtraAbilityContainerMixin
+ExtraAbilityContainerMixin = {}; --- @class ExtraAbilityContainerMixin
 
 function ExtraAbilityContainerMixin:OnLoad()
 	self.frames = {};

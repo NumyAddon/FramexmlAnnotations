@@ -58,7 +58,7 @@ function EssencePowerBar:SetupEvoker()
 	return showBar;
 end
 
-EssencePointButtonMixin = { }; --- @class EssencePointButtonMixin
+EssencePointButtonMixin = { };  --- @class EssencePointButtonMixin
 function EssencePointButtonMixin:OnUpdate(elapsed) 
 	local peace,interrupted = GetPowerRegenForPowerType(Enum.PowerType.Essence)
 	if (peace == nil or peace == 0) then

@@ -93,7 +93,7 @@ function CompactArenaFrame_Generate()
 	return frame, didCreate;
 end
 
-CompactArenaFrameMixin = CreateFromMixins(CompactPartyFrameMixin);--- @class CompactArenaFrameMixin : CompactPartyFrameMixin
+CompactArenaFrameMixin = CreateFromMixins(CompactPartyFrameMixin); --- @class CompactArenaFrameMixin : CompactPartyFrameMixin
 
 function CompactArenaFrameMixin:OnLoad()
 	CompactPartyFrameMixin.OnLoad(self);
@@ -290,7 +290,7 @@ function CompactArenaFrameMixin:RefreshMembers()
 	self.PreMatchFramesContainer:UpdateUnitFrames();
 end
 
-ArenaPreMatchFramesContainerMixin = {};--- @class ArenaPreMatchFramesContainerMixin
+ArenaPreMatchFramesContainerMixin = {}; --- @class ArenaPreMatchFramesContainerMixin
 
 function ArenaPreMatchFramesContainerMixin:OnLoad()
 	-- Create pre-match unit frame
@@ -329,7 +329,7 @@ function ArenaPreMatchFramesContainerMixin:UpdateUnitFrames()
 	self:UpdateShownState();
 end
 
-PreMatchArenaUnitFrameMixin = {};--- @class PreMatchArenaUnitFrameMixin
+PreMatchArenaUnitFrameMixin = {}; --- @class PreMatchArenaUnitFrameMixin
 
 function PreMatchArenaUnitFrameMixin:Update(index)
 	local specID, gender = GetArenaOpponentSpec(index);
@@ -349,7 +349,7 @@ function PreMatchArenaUnitFrameMixin:Update(index)
 	end
 end
 
-ArenaUnitFrameCcRemoverMixin = {};--- @class ArenaUnitFrameCcRemoverMixin
+ArenaUnitFrameCcRemoverMixin = {}; --- @class ArenaUnitFrameCcRemoverMixin
 
 local ccRemoverAlwaysEvents =
 {
@@ -440,7 +440,7 @@ function ArenaUnitFrameCcRemoverMixin:UpdateShownState()
 	self:SetShown(self.isInEditMode or self.spellId);
 end
 
-ArenaUnitFrameDebuffMixin = {};--- @class ArenaUnitFrameDebuffMixin
+ArenaUnitFrameDebuffMixin = {}; --- @class ArenaUnitFrameDebuffMixin
 
 local arenaUnitFrameDebuffEvents = {
 	"LOSS_OF_CONTROL_UPDATE",
@@ -549,7 +549,7 @@ function ArenaUnitFrameDebuffMixin:UpdateShownState()
 	self:SetShown(self.auraData or self.isInEditMode)
 end
 
-StealthedArenaUnitFrameMixin = {};--- @class StealthedArenaUnitFrameMixin
+StealthedArenaUnitFrameMixin = {}; --- @class StealthedArenaUnitFrameMixin
 
 function StealthedArenaUnitFrameMixin:SetUnitFrame(unitFrame)
 	if self.unitFrame then

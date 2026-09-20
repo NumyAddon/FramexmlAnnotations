@@ -1,4 +1,4 @@
-SequencerMixin = {};--- @class SequencerMixin
+SequencerMixin = {}; --- @class SequencerMixin
 
 function SequencerMixin:Init()
 	self.original = {};

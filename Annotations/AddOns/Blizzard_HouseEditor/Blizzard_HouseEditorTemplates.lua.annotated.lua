@@ -1,4 +1,4 @@
-BaseHouseEditorModeMixin = {};--- @class BaseHouseEditorModeMixin
+BaseHouseEditorModeMixin = {}; --- @class BaseHouseEditorModeMixin
 
 function BaseHouseEditorModeMixin:BaseOnShow()
 	if C_HousingDecor.IsHoveringDecor() then
@@ -164,7 +164,7 @@ function BaseHouseEditorModeMixin:TryHandleEscape()
 	assert(false);
 end
 
-HouseEditorInstructionsContainerMixin = {};--- @class HouseEditorInstructionsContainerMixin
+HouseEditorInstructionsContainerMixin = {}; --- @class HouseEditorInstructionsContainerMixin
 
 function HouseEditorInstructionsContainerMixin:OnLoad()
 	self:UpdateAllVisuals();
@@ -205,7 +205,7 @@ function HouseEditorInstructionsContainerMixin:UpdateLayout()
 	self:Layout();
 end
 
-HouseEditorInstructionMixin = {};--- @class HouseEditorInstructionMixin
+HouseEditorInstructionMixin = {}; --- @class HouseEditorInstructionMixin
 
 function HouseEditorInstructionMixin:OnLoad()
 	self:UpdateVisuals();
@@ -277,7 +277,7 @@ function HouseEditorInstructionMixin:UpdateInstruction()
 	self:MarkDirty();
 end
 
-HouseEditorBudgetCountMixin = {};--- @class HouseEditorBudgetCountMixin
+HouseEditorBudgetCountMixin = {}; --- @class HouseEditorBudgetCountMixin
 
 function HouseEditorBudgetCountMixin:OnShow()
 	FrameUtil.RegisterFrameForEvents(self, self.updateEvents);
@@ -305,7 +305,7 @@ function HouseEditorBudgetCountMixin:OnLeave()
 	GameTooltip:Hide();
 end
 
-HouseEditorDecorCountMixin = {};--- @class HouseEditorDecorCountMixin
+HouseEditorDecorCountMixin = {}; --- @class HouseEditorDecorCountMixin
 
 function HouseEditorDecorCountMixin:OnLoad()
 	self.updateEvents = {"HOUSING_NUM_DECOR_PLACED_CHANGED", "HOUSE_LEVEL_CHANGED"};
@@ -329,7 +329,7 @@ function HouseEditorDecorCountMixin:UpdateCount()
 	self.tooltipText =  baseTooltip:format(decorPlaced, maxDecor, petDecorPlaced, maxPetDecor);
 end
 
-HouseEditorPetCountMixin = {};--- @class HouseEditorPetCountMixin
+HouseEditorPetCountMixin = {}; --- @class HouseEditorPetCountMixin
 
 function HouseEditorPetCountMixin:OnLoad()
 	self.updateEvents = {"HOUSING_NUM_DECOR_PLACED_CHANGED", "HOUSING_BASIC_MODE_SELECTED_TARGET_CHANGED"};
@@ -354,7 +354,7 @@ function HouseEditorPetCountMixin:UpdateCount(event)
 	end
 end
 
-HouseEditorRoomCountMixin = {};--- @class HouseEditorRoomCountMixin
+HouseEditorRoomCountMixin = {}; --- @class HouseEditorRoomCountMixin
 
 function HouseEditorRoomCountMixin:OnLoad()
 	self.updateEvents = {"HOUSING_LAYOUT_ROOM_RECEIVED", "HOUSING_LAYOUT_ROOM_REMOVED", "HOUSE_LEVEL_CHANGED"};

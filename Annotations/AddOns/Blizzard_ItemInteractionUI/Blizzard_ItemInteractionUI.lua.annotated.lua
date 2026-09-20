@@ -125,7 +125,7 @@ local ITEM_INTERACTION_UNIT_EVENTS = {
 	"UNIT_SPELLCAST_STOP",
 };
 
-ItemInteractionMixin = {};--- @class ItemInteractionMixin
+ItemInteractionMixin = {}; --- @class ItemInteractionMixin
 
 ----------------- Helper functions --------------------
 function ItemInteractionMixin:GetItemLocation()
@@ -744,7 +744,7 @@ function ItemInteractionMixin:SetInputItemSlotTooltip(itemSlot, itemLocation)
 end
 
 ------------------ Item Slot Functions ----------------------------
-ItemInteractionItemSlotMixin = {};--- @class ItemInteractionItemSlotMixin
+ItemInteractionItemSlotMixin = {}; --- @class ItemInteractionItemSlotMixin
 function ItemInteractionItemSlotMixin:OnLoad()
 	self:RegisterForClicks("RightButtonDown", "LeftButtonDown");
 	self:RegisterForDrag("LeftButton");
@@ -808,7 +808,7 @@ function ItemInteractionItemSlotMixin:OnLeave()
 end
 
 ------------------ Item Action Button Functions ----------------------------
-ItemInteractionActionButtonMixin = {};--- @class ItemInteractionActionButtonMixin
+ItemInteractionActionButtonMixin = {}; --- @class ItemInteractionActionButtonMixin
 
 function ItemInteractionActionButtonMixin:OnEnter()
 	local itemInteractionFrame = self:GetParent():GetParent();
@@ -856,7 +856,7 @@ end
 
 ------------------ Item Conversion Frame Functions ------------------
 
-ItemInteractionItemConversionFrameMixin = {};--- @class ItemInteractionItemConversionFrameMixin
+ItemInteractionItemConversionFrameMixin = {}; --- @class ItemInteractionItemConversionFrameMixin
 function ItemInteractionItemConversionFrameMixin:OnLoad()
 	-- We have duplicates here to increase the brightness of the "Conversion Celebration Flash"
 	self.flashingRegions = {
@@ -908,7 +908,7 @@ function ItemInteractionItemConversionFrameMixin:UpdateArrow(validItem)
 end
 
 ------------------ Item Conversion Input Slot Functions ------------------
-ItemInteractionItemConversionInputSlotMixin = {};--- @class ItemInteractionItemConversionInputSlotMixin
+ItemInteractionItemConversionInputSlotMixin = {}; --- @class ItemInteractionItemConversionInputSlotMixin
 
 function ItemInteractionItemConversionInputSlotMixin:OnLoad()
 	self:RegisterForClicks("RightButtonDown", "LeftButtonDown");
@@ -982,7 +982,7 @@ function ItemInteractionItemConversionInputSlotMixin:OnLeave()
 end
 
 ------------------ Item Conversion Output Slot Functions ------------------
-ItemInteractionItemConversionOutputSlotMixin = {};--- @class ItemInteractionItemConversionOutputSlotMixin
+ItemInteractionItemConversionOutputSlotMixin = {}; --- @class ItemInteractionItemConversionOutputSlotMixin
 
 function ItemInteractionItemConversionOutputSlotMixin:RefreshIcon()
 	local itemInteractionFrame = self:GetParent():GetParent();

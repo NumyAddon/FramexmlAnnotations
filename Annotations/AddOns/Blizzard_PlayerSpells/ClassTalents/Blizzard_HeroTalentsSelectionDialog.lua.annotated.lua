@@ -1,4 +1,4 @@
-HeroTalentsSelectionMixin = {};--- @class HeroTalentsSelectionMixin
+HeroTalentsSelectionMixin = {}; --- @class HeroTalentsSelectionMixin
 
 function HeroTalentsSelectionMixin:OnLoad()
 	self.SpecContentFramePool = CreateFramePool("FRAME", self.SpecOptionsContainer, "HeroTalentSpecContentTemplate", HeroTalentSpecContentMixin.Reset);
@@ -360,7 +360,7 @@ end
 
 
 
-HeroTalentSpecContentMixin = {};--- @class HeroTalentSpecContentMixin
+HeroTalentSpecContentMixin = {}; --- @class HeroTalentSpecContentMixin
 
 function HeroTalentSpecContentMixin:OnLoad()
 	self.ActivateButton:SetScript("OnClick", GenerateClosure(self.OnActivateClicked, self));
@@ -569,7 +569,7 @@ function HeroTalentSpecContentMixin:CheckTutorials()
 	self:GetTalentFrame():CheckHeroTalentTutorial(self.subTreeInfo, self.helpTipOffsetX, self.helpTipOffsetY, self, self.NodesContainer);
 end
 
-HeroTalentActivateButtonMixin = {};--- @class HeroTalentActivateButtonMixin
+HeroTalentActivateButtonMixin = {}; --- @class HeroTalentActivateButtonMixin
 
 function HeroTalentActivateButtonMixin:UpdateState(isLocked, errorMessage)
 	self:SetEnabled(not isLocked);

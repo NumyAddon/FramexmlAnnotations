@@ -1,4 +1,4 @@
-SpellDiminishStatusTrayItemMixin = {};--- @class SpellDiminishStatusTrayItemMixin
+SpellDiminishStatusTrayItemMixin = {}; --- @class SpellDiminishStatusTrayItemMixin
 
 function SpellDiminishStatusTrayItemMixin:OnLoad()
 	self:SetupImmunityIndicator();
@@ -34,7 +34,7 @@ function SpellDiminishStatusTrayItemMixin:Reset()
 	self.isEditModePreview = nil;
 end
 
-SpellDiminishStatusTrayMixin = {};--- @class SpellDiminishStatusTrayMixin
+SpellDiminishStatusTrayMixin = {}; --- @class SpellDiminishStatusTrayMixin
 
 local SpellDiminishStatusTrayEvents = {
 	"UNIT_SPELL_DIMINISH_CATEGORY_STATE_UPDATED",

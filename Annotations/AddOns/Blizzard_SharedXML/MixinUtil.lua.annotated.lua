@@ -71,7 +71,7 @@ function DrawLine(texture, canvasFrame, startX, startY, endX, endY, lineWidth, l
 end
 
 -- Mix this into a Texture to be able to treat it like a line
-LineMixin = {};--- @class LineMixin
+LineMixin = {}; --- @class LineMixin
 
 function LineMixin:SetStartPoint(x, y)
 	self.startX, self.startY = x, y;
@@ -94,7 +94,7 @@ function LineMixin:Draw()
 end
 
 -- Mix this into a FontString to have it animate towards its value, call UpdateAnimatedValue every frame
-AnimatedNumericFontStringMixin = {};--- @class AnimatedNumericFontStringMixin
+AnimatedNumericFontStringMixin = {}; --- @class AnimatedNumericFontStringMixin
 
 -- How long should it take to animate
 function AnimatedNumericFontStringMixin:SetAnimatedDurationTimeSec(animatedDurationTimeSec)
@@ -137,7 +137,7 @@ function AnimatedNumericFontStringMixin:UpdateAnimatedValue(elapsed)
 	end
 end
 
-SparseGridMixin = {};--- @class SparseGridMixin
+SparseGridMixin = {}; --- @class SparseGridMixin
 
 function SparseGridMixin:OnLoad(width, height)
 	self.width = width;
@@ -299,7 +299,7 @@ function DoublyLinkedListMixin:Remove(node)
 	return node;
 end
 
-TextureLoadingGroupMixin = {};--- @class TextureLoadingGroupMixin
+TextureLoadingGroupMixin = {}; --- @class TextureLoadingGroupMixin
 
 function TextureLoadingGroupMixin:AddTexture(texture)
 	self.textures = self.textures or {};
@@ -334,7 +334,7 @@ function TextureLoadingGroupMixin:IsFullyLoaded()
 	return true;
 end
 
-DirtiableMixin = {};--- @class DirtiableMixin
+DirtiableMixin = {}; --- @class DirtiableMixin
 
 function DirtiableMixin:SetDirtyMethod(method)
 	self.dirtyCallback = function()
@@ -354,7 +354,7 @@ end
 -- This mixin implements a small ordered dirty-update runner. Consumers
 -- define their own dirty flags and phase order. Phase methods return any
 -- downstream flags that should be processed later in the same pass.
-DirtyPhaseMixin = {};--- @class DirtyPhaseMixin
+DirtyPhaseMixin = {}; --- @class DirtyPhaseMixin
 
 function DirtyPhaseMixin:InitDirtyPhases()
 	self.dirty = false;

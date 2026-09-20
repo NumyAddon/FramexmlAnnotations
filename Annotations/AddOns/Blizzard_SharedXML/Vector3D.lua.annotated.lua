@@ -88,7 +88,7 @@ function Vector3D_CreateNormalVectorFromYawPitch(yawRadians, pitchRadians)
 	return CreateVector3D(Vector3D_CalculateNormalFromYawPitch(yawRadians, pitchRadians));
 end
 
-Vector3DMixin = {};--- @class Vector3DMixin
+Vector3DMixin = {}; --- @class Vector3DMixin
 
 function CreateVector3D(x, y, z)
 	local vector = CreateFromMixins(Vector3DMixin);

@@ -3,13 +3,13 @@ local SlowSpeed = 1.0;
 local FastSpeed = 2 * SlowSpeed;
 
 
-AdventuresCompleteScreenContinueButtonMixin = {};--- @class AdventuresCompleteScreenContinueButtonMixin
+AdventuresCompleteScreenContinueButtonMixin = {}; --- @class AdventuresCompleteScreenContinueButtonMixin
 
 function AdventuresCompleteScreenContinueButtonMixin:OnClick()
 	self:GetParent():GetParent():AdvanceStage();
 end
 
-AdventuresCompleteScreenSpeedButtonMixin = {};--- @class AdventuresCompleteScreenSpeedButtonMixin
+AdventuresCompleteScreenSpeedButtonMixin = {}; --- @class AdventuresCompleteScreenSpeedButtonMixin
 
 function AdventuresCompleteScreenSpeedButtonMixin:OnClick()
 	local completeScreen = self:GetParent():GetParent();
@@ -20,7 +20,7 @@ function AdventuresCompleteScreenSpeedButtonMixin:SetSpeedUpShown(shown)
 	self.SpeedUp:SetShown(shown);
 end
 
-AdventuresCompleteScreenMixin = {};--- @class AdventuresCompleteScreenMixin
+AdventuresCompleteScreenMixin = {}; --- @class AdventuresCompleteScreenMixin
 
 local AdventuresCompleteScreenEvents = {
 	"GARRISON_MISSION_COMPLETE_RESPONSE",

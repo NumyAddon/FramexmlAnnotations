@@ -222,7 +222,7 @@ end
 ----------------------------
 ------QuickJoinButton------
 ----------------------------
-QuickJoinButtonMixin = {}--- @class QuickJoinButtonMixin
+QuickJoinButtonMixin = {} --- @class QuickJoinButtonMixin
 
 function QuickJoinButtonMixin:OnLoad()
 	self:RegisterForClicks("LeftButtonUp", "RightButtonUp");
@@ -301,7 +301,7 @@ end
 ----------------------------
 ------QuickJoinEntries------
 ----------------------------
-QuickJoinEntriesMixin = {}--- @class QuickJoinEntriesMixin
+QuickJoinEntriesMixin = {} --- @class QuickJoinEntriesMixin
 
 function QuickJoinEntriesMixin:Init()
 	self:UpdateAll();
@@ -358,7 +358,7 @@ end
 ----------------------------
 -------QuickJoinEntry-------
 ----------------------------
-QuickJoinEntryMixin = {}--- @class QuickJoinEntryMixin
+QuickJoinEntryMixin = {} --- @class QuickJoinEntryMixin
 
 function QuickJoinEntryMixin:Init(partyGUID)
 	-- All scrollable text in the Quick Join List uses font that can be resized by the player
@@ -608,7 +608,7 @@ end
 ----------------------------
 ---QuickJoinRoleSelection---
 ----------------------------
-QuickJoinRoleSelectionMixin = {};--- @class QuickJoinRoleSelectionMixin
+QuickJoinRoleSelectionMixin = {}; --- @class QuickJoinRoleSelectionMixin
 
 function QuickJoinRoleSelectionMixin:ShowForGroup(guid)
 	self.guid = guid;
@@ -640,7 +640,7 @@ function QuickJoinRoleSelectionMixin:OnCancel()
 	StaticPopupSpecial_Hide(self);
 end
 
-JoinQueueButtonMixin = {}--- @class JoinQueueButtonMixin
+JoinQueueButtonMixin = {} --- @class JoinQueueButtonMixin
 
 function JoinQueueButtonMixin:OnClick()
 	local quickJoin = self:GetParent();

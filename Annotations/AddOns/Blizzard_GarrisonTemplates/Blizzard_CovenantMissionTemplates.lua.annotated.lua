@@ -19,7 +19,7 @@ end
 ---------------------------------------------------------------------------------
 -- Covenant Mission Page Enemy Frame
 ---------------------------------------------------------------------------------
-CovenantMissionPageEnemyMixin = { }--- @class CovenantMissionPageEnemyMixin
+CovenantMissionPageEnemyMixin = { } --- @class CovenantMissionPageEnemyMixin
 
 function CovenantMissionPageEnemyMixin:OnEnter()
 	if (#self.autoCombatSpells > 0) then
@@ -78,7 +78,7 @@ end
 -- Covenant Follower Tab Mixin
 ---------------------------------------------------------------------------------
 
-CovenantFollowerTabMixin = {};--- @class CovenantFollowerTabMixin
+CovenantFollowerTabMixin = {}; --- @class CovenantFollowerTabMixin
 
 function CovenantFollowerTabMixin:OnHide()
 	StaticPopup_Hide("COVENANT_MISSIONS_HEAL_CONFIRMATION");
@@ -251,7 +251,7 @@ end
 local covenantMissionButtonBGTextureKit = "%s-ButtonBG";
 local covenantMissionButtonHighlightTextureKit = "%s-ButtonHighlight";
 
-CovenantMissionListMixin = { }--- @class CovenantMissionListMixin
+CovenantMissionListMixin = { } --- @class CovenantMissionListMixin
 
 function CovenantMissionListMixin:OnLoad()
 	self.newMissionIDs = {};
@@ -537,7 +537,7 @@ end
 --- Covenant Mission List Button Handlers									  ---
 ---------------------------------------------------------------------------------
 
-CovenantMissionEncounterIconMixin = {}--- @class CovenantMissionEncounterIconMixin
+CovenantMissionEncounterIconMixin = {} --- @class CovenantMissionEncounterIconMixin
 
 function CovenantMissionEncounterIconMixin:SetEncounterInfo(encounterIconInfo)
 	self.PortraitBorder:SetShown( not encounterIconInfo.isRare and not encounterIconInfo.isElite);
@@ -563,7 +563,7 @@ end
 --- Adventures Targeting Indicator											  ---
 ---------------------------------------------------------------------------------
 
-AdventuresTargetingIndicatorMixin = {};--- @class AdventuresTargetingIndicatorMixin
+AdventuresTargetingIndicatorMixin = {}; --- @class AdventuresTargetingIndicatorMixin
 
 function AdventuresTargetingIndicatorMixin:OnShow()
 	if self.targetingTextureAtlas then
@@ -622,7 +622,7 @@ function AdventuresTargetingIndicatorMixin:Loop()
 	end
 end
 
-AdventuresFriendlyTargetingIndicatorMixin = {};--- @class AdventuresFriendlyTargetingIndicatorMixin
+AdventuresFriendlyTargetingIndicatorMixin = {}; --- @class AdventuresFriendlyTargetingIndicatorMixin
 
 function AdventuresFriendlyTargetingIndicatorMixin:OnShow()
 	self:SetDefault();
@@ -672,7 +672,7 @@ end
 ---- SupportColorationAnimatorMixin
 --------------------------------------------------------------------------------
 
-SupportColorationAnimatorMixin = {}--- @class SupportColorationAnimatorMixin
+SupportColorationAnimatorMixin = {} --- @class SupportColorationAnimatorMixin
 
 function CovenantMission_GetSupportColorationPreviewType(previewType)
 	return bit.band(previewType, bit.bor(Enum.GarrAutoPreviewTargetType.Buff, Enum.GarrAutoPreviewTargetType.Heal));
@@ -760,7 +760,7 @@ end
 --- Covenant Portrait Mixin													  ---
 ---------------------------------------------------------------------------------
 
-CovenantPortraitMixin = {};--- @class CovenantPortraitMixin
+CovenantPortraitMixin = {}; --- @class CovenantPortraitMixin
 
 local CovenantTroopPortraitYAdjustment = -6;
 
@@ -797,7 +797,7 @@ end
 --- Health Bar Mixin													  ---
 ---------------------------------------------------------------------------------
 
-AdventuresPuckHealthBarMixin = {};--- @class AdventuresPuckHealthBarMixin
+AdventuresPuckHealthBarMixin = {}; --- @class AdventuresPuckHealthBarMixin
 
 local HealthBarBorderSize = 2;
 local TotalHealthBarBorderSize = HealthBarBorderSize * 2;

@@ -8,7 +8,7 @@ local rawset = rawset;
 local next = next;
 local GetOrCreateTableEntry = GetOrCreateTableEntry;
 
-local CallbackType = EnumUtil.MakeEnum("Closure", "Function");--- @type {["Closure"]: 1, ["Function"]: 2}
+local CallbackType = EnumUtil.MakeEnum("Closure", "Function"); --- @type {["Closure"]: 1, ["Function"]: 2}
 
 local function IsCallbackTypeValid(callbackType)
 	return callbackType == CallbackType.Closure or callbackType == CallbackType.Function;
@@ -49,7 +49,7 @@ AttributeDelegate:SetScript("OnAttributeChanged", function(self, attribute, valu
 end);
 
 
-CallbackRegistryMixin = {};--- @class CallbackRegistryMixin
+CallbackRegistryMixin = {}; --- @class CallbackRegistryMixin
 
 function CallbackRegistryMixin:OnLoad()
 	local callbackTables = {};

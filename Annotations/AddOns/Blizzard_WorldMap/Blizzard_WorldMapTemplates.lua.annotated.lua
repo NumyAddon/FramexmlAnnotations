@@ -1,4 +1,4 @@
-WorldMapFloorNavigationFrameMixin = { }--- @class WorldMapFloorNavigationFrameMixin
+WorldMapFloorNavigationFrameMixin = { } --- @class WorldMapFloorNavigationFrameMixin
 
 function WorldMapFloorNavigationFrameMixin:RefreshMenu(mapID)
 	if not mapID then
@@ -57,7 +57,7 @@ function WorldMapFloorNavigationFrameMixin:ShouldShowTrackingIconOnFloor(encount
 	return false;
 end
 
-local WorldMapFilterMixin = {};--- @class WorldMapFilterMixin
+local WorldMapFilterMixin = {}; --- @class WorldMapFilterMixin
 
 function WorldMapFilterMixin:Init(text, cvarName, tooltipText, minimapTrackingFilter)
 	self.text = text;
@@ -123,7 +123,7 @@ function WorldMapFilterMixin:ResetToDefault()
 	end
 end
 
-WorldMapTrackingOptionsFilterCounterMixin = {};--- @class WorldMapTrackingOptionsFilterCounterMixin
+WorldMapTrackingOptionsFilterCounterMixin = {}; --- @class WorldMapTrackingOptionsFilterCounterMixin
 
 function WorldMapTrackingOptionsFilterCounterMixin:OnEnter()
 	self:TryShowTooltip();
@@ -163,7 +163,7 @@ function WorldMapTrackingOptionsFilterCounterMixin:RefreshVisibility()
 	self:SetShown(self.activeFilters and #self.activeFilters > 0);
 end
 
-WorldMapTrackingOptionsButtonMixin = CreateFromMixins(WowDropdownFilterBehaviorMixin);--- @class WorldMapTrackingOptionsButtonMixin : WowDropdownFilterBehaviorMixin
+WorldMapTrackingOptionsButtonMixin = CreateFromMixins(WowDropdownFilterBehaviorMixin); --- @class WorldMapTrackingOptionsButtonMixin : WowDropdownFilterBehaviorMixin
 
 function WorldMapTrackingOptionsButtonMixin:OnLoad()
 	WowDropdownFilterBehaviorMixin.OnLoad(self);
@@ -403,7 +403,7 @@ function WorldMapTrackingOptionsButtonMixin:ShouldShowWorldQuestFilters(mapID)
 	return mapID and MapUtil.MapShouldShowWorldQuestFilters(mapID);
 end
 
-WorldMapTrackingPinButtonMixin = { };--- @class WorldMapTrackingPinButtonMixin
+WorldMapTrackingPinButtonMixin = { }; --- @class WorldMapTrackingPinButtonMixin
 
 function WorldMapTrackingPinButtonMixin:OnLoad()
 	self:RegisterEvent("USER_WAYPOINT_UPDATED");
@@ -470,7 +470,7 @@ function WorldMapTrackingPinButtonMixin:SetActive(isActive)
 	self:GetParent():TriggerEvent("WaypointLocationToggleUpdate", isActive);
 end
 
-WorldMapNavBarMixin = { };--- @class WorldMapNavBarMixin
+WorldMapNavBarMixin = { }; --- @class WorldMapNavBarMixin
 
 function WorldMapNavBarMixin:OnLoad()
 	local homeData = {
@@ -524,7 +524,7 @@ function WorldMapNavBarMixin:Refresh()
 	end
 end
 
-WorldMapNavBarButtonMixin = { };--- @class WorldMapNavBarButtonMixin
+WorldMapNavBarButtonMixin = { }; --- @class WorldMapNavBarButtonMixin
 
 function WorldMapNavBarButtonMixin:GetDropdownList()
 	local list = { };
@@ -558,7 +558,7 @@ local function SetCoordText(fontString, floatFormatString, integerFormatString, 
 	end
 end
 
-WorldMapCoordsPanelMixin = { };--- @class WorldMapCoordsPanelMixin
+WorldMapCoordsPanelMixin = { }; --- @class WorldMapCoordsPanelMixin
 
 function WorldMapCoordsPanelMixin:OnLoad()
 	CVarCallbackRegistry:RegisterCallback("worldMapShowPlayerCoords", self.CVarsUpdated, self);
@@ -641,7 +641,7 @@ function WorldMapCoordsPanelMixin:PostRefresh()
 	end
 end
 
-WorldMapSidePanelToggleMixin = { };--- @class WorldMapSidePanelToggleMixin
+WorldMapSidePanelToggleMixin = { }; --- @class WorldMapSidePanelToggleMixin
 
 function WorldMapSidePanelToggleMixin:OnClick()
 	self:GetParent():HandleUserActionToggleSidePanel();
@@ -658,7 +658,7 @@ function WorldMapSidePanelToggleMixin:Refresh()
 	end
 end
 
-WorldMapZoneTimerMixin = {};--- @class WorldMapZoneTimerMixin
+WorldMapZoneTimerMixin = {}; --- @class WorldMapZoneTimerMixin
 
 function WorldMapZoneTimerMixin:OnUpdate(elapsed)
 	local nextBattleTime = C_PvP.GetOutdoorPvPWaitTime(self:GetParent():GetMapID());
@@ -677,7 +677,7 @@ function WorldMapZoneTimerMixin:Refresh()
 	-- nothing to do here
 end
 
-WorldMapThreatFrameMixin = {};--- @class WorldMapThreatFrameMixin
+WorldMapThreatFrameMixin = {}; --- @class WorldMapThreatFrameMixin
 
 function WorldMapThreatFrameMixin:OnLoad()
 	self:RegisterEvent("UI_MODEL_SCENE_INFO_UPDATED");
@@ -800,7 +800,7 @@ function WorldMapThreatFrameMixin:SetNextMapForThreat()
 	self:GetParent():SetMapID(threatMaps[mapIndex]);
 end
 
-WorldMapThreatEyeMixin = { };--- @class WorldMapThreatEyeMixin
+WorldMapThreatEyeMixin = { }; --- @class WorldMapThreatEyeMixin
 
 function WorldMapThreatEyeMixin:OnShow()
 	if not GetCVarBitfield("closedInfoFrames", LE_FRAME_TUTORIAL_WORLD_MAP_THREAT_ICON) then

@@ -1,4 +1,4 @@
-LowHealthFrameMixin = {};--- @class LowHealthFrameMixin
+LowHealthFrameMixin = {}; --- @class LowHealthFrameMixin
 
 LOW_HEALTH_FRAME_STATE_DISABLED = 0;
 LOW_HEALTH_FRAME_STATE_FULLSCREEN = 1;

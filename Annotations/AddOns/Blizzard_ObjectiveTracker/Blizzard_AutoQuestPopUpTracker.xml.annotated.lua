@@ -40,15 +40,15 @@
 --- Template
 --- @class QuestIcon_WhiteFlash : Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L209)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L218)
 --- child of AutoQuestPopUpBlockTemplate_Contents_FlashFrame
 --- @class AutoQuestPopUpBlockTemplate_Contents_FlashFrame_Flash : Texture, UIPanelButtonHighlightTexture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L226)
 --- child of AutoQuestPopUpBlockTemplate_Contents_FlashFrame
 --- @class AutoQuestPopUpBlockTemplate_Contents_FlashFrame_IconFlash : Texture, QuestIcon_WhiteFlash
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L215)
 --- child of AutoQuestPopUpBlockTemplate_Contents
 --- @class AutoQuestPopUpBlockTemplate_Contents_FlashFrame : Frame, AutoQuestPopupFlashFrameMixin
 --- @field Flash AutoQuestPopUpBlockTemplate_Contents_FlashFrame_Flash
@@ -78,32 +78,32 @@
 --- child of AutoQuestPopUpBlockTemplate_Contents
 --- @class AutoQuestPopUpBlockTemplate_Contents_QuestionMark : Texture, QuestIcon_QuestionMark
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L161)
 --- child of AutoQuestPopUpBlockTemplate_Contents
 --- @class AutoQuestPopUpBlockTemplate_Contents_QuestName : FontString, QuestFont_Large
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L170)
 --- child of AutoQuestPopUpBlockTemplate_Contents
 --- @class AutoQuestPopUpBlockTemplate_Contents_TopText : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L177)
 --- child of AutoQuestPopUpBlockTemplate_Contents
 --- @class AutoQuestPopUpBlockTemplate_Contents_BottomText : FontString, GameFontDisableSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L179)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L188)
 --- child of AutoQuestPopUpBlockTemplate_Contents_Shine
 --- @class AutoQuestPopUpBlockTemplate_Contents_Shine_Flash : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L186)
 --- child of AutoQuestPopUpBlockTemplate_Contents
 --- @class AutoQuestPopUpBlockTemplate_Contents_Shine : Texture
 --- @field Flash AutoQuestPopUpBlockTemplate_Contents_Shine_Flash
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L197)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L206)
 --- child of AutoQuestPopUpBlockTemplate_Contents_IconShine
 --- @class AutoQuestPopUpBlockTemplate_Contents_IconShine_Flash : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L192)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L201)
 --- child of AutoQuestPopUpBlockTemplate_Contents
 --- @class AutoQuestPopUpBlockTemplate_Contents_IconShine : Texture, QuestIcon_WhiteFlash
 --- @field Flash AutoQuestPopUpBlockTemplate_Contents_IconShine_Flash
@@ -124,6 +124,7 @@
 --- @field QuestIconBg Texture
 --- @field Exclamation AutoQuestPopUpBlockTemplate_Contents_Exclamation
 --- @field QuestionMark AutoQuestPopUpBlockTemplate_Contents_QuestionMark
+--- @field CircleMask MaskTexture
 --- @field QuestIconBadgeBorder Texture
 --- @field QuestName AutoQuestPopUpBlockTemplate_Contents_QuestName
 --- @field TopText AutoQuestPopUpBlockTemplate_Contents_TopText

@@ -144,15 +144,6 @@ local ObjectiveTrackerSlidingState = {
     ["SlideOut"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1782)
- --- @enum PVPUIHonorInsetPanelType
-local PVPUIHonorInsetPanelType = {
-    ["Casual"] = 1,
-    ["Rated"] = 2,
-    ["Plunderstorm"] = 3,
-    ["TrainingGrounds"] = 4,
-}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L6)
  --- @enum Professions.ProfessionType
 local Professions_ProfessionType = {

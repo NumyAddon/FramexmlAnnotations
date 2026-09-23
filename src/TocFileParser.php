@@ -47,7 +47,14 @@ class TocFileParser
             if (str_starts_with($line, '##')) {
                 preg_match('/^## *(?<name>[^:]+) *: *(?<value>.+?) *$/', $line, $matches);
                 if (isset($matches['name']) && isset($matches['value'])) {
-                    $directives[strtolower($matches['name'])] = $matches['value'];
+                    $name = strtolower($matches['name']);
+                    $directives[$name] = $matches['value'];
+                    if (
+                        (str_starts_with($name, 'allowload') || str_starts_with($name, 'excludeload'))
+                        && ($name !== 'allowloadgametype' && $name !== 'excludeloadgametype' && $name !== 'allowload')
+                    ) {
+                        throw new RuntimeException('Unknown directive: ' . $name);
+                    }
                 }
                 continue;
             }
@@ -69,6 +76,11 @@ class TocFileParser
         if (isset($directives['allowloadgametype'])) {
             if (!$this->allowLoadGameType($directives['allowloadgametype'])) {
                 return []; // don't load addons that are not allowed for this gametype
+            }
+        }
+        if (isset($directives['excludeloadgametype'])) {
+            if ($this->allowLoadGameType($directives['excludeloadgametype'])) {
+                return [];
             }
         }
 

@@ -84,16 +84,16 @@ PetJournalSearchBox["instructionText"] = SEARCH -- inherited
 PetJournalSearchBox["clearButton"] = PetJournalSearchBoxClearButton -- inherited
 PetJournalSearchBox["searchIcon"] = PetJournalSearchBoxSearchIcon -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L174)
 --- child of PetJournal
 --- @class PetJournal_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 --- @field resizeToText boolean # false
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L181)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L183)
 --- child of PetJournal
 --- @class PetJournal_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L187)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L189)
 --- child of PetJournal
 --- @class PetJournal_ScrollBar : EventFrame, PetJournalScrollBar
 
@@ -137,35 +137,35 @@ PetJournalPetCardLeft = {}
 --- @type Texture
 PetJournalPetCardRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L202)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L203)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCard_ShadowOverlay : Frame, ShadowOverlayTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L210)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L211)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfoIcon : Texture
 PetJournalPetCardPetInfoIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L218)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L219)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfoName : FontString, GameFontHighlightLarge
 PetJournalPetCardPetInfoName = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L224)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L225)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfoSubName : FontString, GameFontNormalSmall
 PetJournalPetCardPetInfoSubName = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L237)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L238)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfoFavorite : Texture
 PetJournalPetCardPetInfoFavorite = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L245)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfo_new : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L203)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L204)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardPetInfo : Button
 --- @field icon PetJournalPetCardPetInfoIcon
@@ -181,21 +181,21 @@ PetJournalPetCardPetInfo["name"] = PetJournalPetCardPetInfoName
 PetJournalPetCardPetInfo["subName"] = PetJournalPetCardPetInfoSubName
 PetJournalPetCardPetInfo["favorite"] = PetJournalPetCardPetInfoFavorite
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L296)
 --- child of PetJournalPetCard_modelScene
 --- @class PetJournalPetCard_modelScene_RotateLeftButton : Button, RotateOrbitCameraLeftButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L297)
 --- child of PetJournalPetCard_modelScene
 --- @class PetJournalPetCard_modelScene_RotateRightButton : Button, RotateOrbitCameraRightButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L290)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCard_modelScene : ModelScene, WrappedAndUnwrappedModelScene
 --- @field RotateLeftButton PetJournalPetCard_modelScene_RotateLeftButton
 --- @field RotateRightButton PetJournalPetCard_modelScene_RotateRightButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L190)
 --- child of PetJournal
 --- @class PetJournalPetCard : Frame
 --- @field ShadowOverlay PetJournalPetCard_ShadowOverlay
@@ -205,7 +205,7 @@ PetJournalPetCardPetInfo["favorite"] = PetJournalPetCardPetInfoFavorite
 PetJournalPetCard = {}
 PetJournalPetCard["PetInfo"] = PetJournalPetCardPetInfo
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L311)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L312)
 --- child of PetJournal
 --- @class PetJournalSummonButton : Button, MagicButtonTemplate
 PetJournalSummonButton = {}

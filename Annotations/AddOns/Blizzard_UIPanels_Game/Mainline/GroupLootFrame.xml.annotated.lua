@@ -285,11 +285,11 @@ BonusRollMoneyWonFrame = {}
 --- @field Highlight Texture
 --- @field Name MasterLooterPlayerTemplate_Name
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L760)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L745)
 --- child of MasterLooterFrame_Item
 --- @class MasterLooterFrame_Item_ItemName : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L713)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L698)
 --- child of MasterLooterFrame
 --- @class MasterLooterFrame_Item : Frame
 --- @field Icon Texture
@@ -299,15 +299,15 @@ BonusRollMoneyWonFrame = {}
 --- @field IconBorder Texture
 --- @field ItemName MasterLooterFrame_Item_ItemName
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L769)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L754)
 --- child of MasterLooterFrame
 --- @class MasterLooterFrame_player1 : Button, MasterLooterPlayerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L774)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L759)
 --- child of MasterLooterFrame
 --- @class MasterLooterFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L779)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L764)
 --- child of MasterLooterFrame
 --- @class MasterLooterFrame_HighlightFrame : Frame, DialogFrameGlowTemplate
 
@@ -321,7 +321,7 @@ MasterLooterFrameBg = {}
 --- @type DefaultPanelTemplate_TopTileStreaks
 MasterLooterFrameTopTileStreaks = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L707)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L692)
 --- @class MasterLooterFrame : Frame, DefaultPanelTemplate
 --- @field Item MasterLooterFrame_Item
 --- @field player1 MasterLooterFrame_player1

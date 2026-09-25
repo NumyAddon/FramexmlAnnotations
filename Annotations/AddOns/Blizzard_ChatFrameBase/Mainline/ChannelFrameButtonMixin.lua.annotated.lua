@@ -1,10 +1,6 @@
 ChannelFrameButtonMixin = {}; --- @class ChannelFrameButtonMixin
 
 function ToggleChannelFrame()
-	if (Kiosk.IsEnabled()) then
-		return;
-	end
-
 	local wasShown = ChannelFrame:IsShown();
 	ChannelFrame:Toggle();
 	if ChannelFrame:IsShown() ~= wasShown then

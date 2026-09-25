@@ -224,17 +224,17 @@ GuildBankMoneyLimitLabel = {}
 --- @class GuildBankMoneyUnlimitedLabel : FontString, GameFontHighlightSmall
 GuildBankMoneyUnlimitedLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.xml#L1362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.xml#L1318)
 --- child of GuildBankFrame_MoneyFrameBG (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 GuildBankFrameLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.xml#L1370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.xml#L1326)
 --- child of GuildBankFrame_MoneyFrameBG (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 GuildBankFrameRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.xml#L1378)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.xml#L1334)
 --- child of GuildBankFrame_MoneyFrameBG (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 GuildBankFrameMiddle = {}

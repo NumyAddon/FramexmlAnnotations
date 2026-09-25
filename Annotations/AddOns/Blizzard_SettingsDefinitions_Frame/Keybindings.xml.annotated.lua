@@ -13,7 +13,12 @@
 --- @class SettingsKeybindingPrefaceTemplate : Frame, SettingsKeybindingPrefaceMixin
 --- @field text SettingsKeybindingPrefaceTemplate_text
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Keybindings.xml#L26)
+--- child of SettingsKeybindingSectionTemplate
+--- @class SettingsKeybindingSectionTemplate_NewFeature : Frame, NewFeatureLabelTemplate
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Keybindings.xml#L23)
 --- Template
 --- @class SettingsKeybindingSectionTemplate : EventFrame, SettingsExpandableSectionTemplate, SettingsKeybindingSectionMixin
+--- @field NewFeature SettingsKeybindingSectionTemplate_NewFeature
 

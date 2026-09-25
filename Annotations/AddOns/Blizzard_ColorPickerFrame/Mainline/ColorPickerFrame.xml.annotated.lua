@@ -91,6 +91,6 @@ OpacityFrame = {}
 ColorPickerFrame = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L211)
---- @class ColorPickerSoftCursor : Frame, SoftCursorPointerTemplate, SoftCursorMixin
+--- @class ColorPickerSoftCursor : Frame, YellowSoftCursorPointerTemplate, SoftCursorMixin
 ColorPickerSoftCursor = {}
 

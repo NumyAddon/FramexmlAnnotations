@@ -86,7 +86,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L170)
 --- child of LegacyTreeTraitPanelTemplate
 --- @class LegacyTreeTraitPanelTemplate_GamepadResetButton : Frame, InputIconTextureFrameTemplate
---- @field mappedButtonKey any # GAMEPAD_TRIGGER_RIGHT
+--- @field mappedButtonKey any # GAMEPAD_FACE_TOP
 --- @field useDropShadow boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L180)
@@ -100,7 +100,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L194)
 --- child of LegacyTreeTraitPanelTemplate
 --- @class LegacyTreeTraitPanelTemplate_GamepadUndoButton : Frame, InputIconTextureFrameTemplate
---- @field mappedButtonKey any # GAMEPAD_TRIGGER_RIGHT
+--- @field mappedButtonKey any # GAMEPAD_FACE_TOP
 --- @field useDropShadow boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L204)

@@ -15,6 +15,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.xml#L27)
 --- child of MapCanvasFrameScrollContainerTemplate
 --- @class MapCanvasFrameScrollContainerTemplate_Child : Frame
+--- @field smartNavigationIgnored boolean # true
 --- @field TiledBackground Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.xml#L21)
@@ -23,7 +24,7 @@
 --- @class MapCanvasFrameScrollContainerTemplate : ScrollFrame, MapCanvasScrollControllerMixin
 --- @field Child MapCanvasFrameScrollContainerTemplate_Child
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.xml#L53)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.xml#L56)
 --- Template
 --- @class MapCanvasFrameTemplate : Frame, MapCanvasMixin
 --- @field debugInspectionSystem string # MapCanvas

@@ -10,12 +10,12 @@
 --- @class SmartNavigationFocusableTemplate : Frame
 --- @field smartNavigationCanFocus boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L28)
 --- child of SmartNavigationPointerTemplate
 --- @class SmartNavigationPointerTemplate_Icon : Frame
 --- @field Cursor Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L27)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L22)
 --- child of SmartNavigationPointerTemplate
 --- @class SmartNavigationPointerTemplate_IntroAnim : AnimationGroup
 
@@ -25,21 +25,21 @@
 --- @field Icon SmartNavigationPointerTemplate_Icon
 --- @field IntroAnim SmartNavigationPointerTemplate_IntroAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L47)
 --- Template
 --- @class SmartNavigationIgnoredContainerFrameTemplate : Frame
 --- @field smartNavigationIgnoredContainerFrame boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L53)
 --- Template
 --- @class SmartNavigationNoContextActions : Frame
 --- @field noContextActions boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L73)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L68)
 --- child of SmartNavigation
 --- @class SmartNavigation_Pointer : Frame, SmartNavigationPointerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.xml#L59)
 --- @class SmartNavigation : Frame, SmartNavigationMixin
 --- @field cursorOffsetX number # 10
 --- @field cursorOffsetY number # 0

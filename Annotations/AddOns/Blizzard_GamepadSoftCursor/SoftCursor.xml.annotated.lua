@@ -1,21 +1,36 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.xml#L12)
---- child of SoftCursorPointerTemplate
---- @class SoftCursorPointerTemplate_Icon : Frame
+--- child of YellowSoftCursorPointerTemplate
+--- @class YellowSoftCursorPointerTemplate_Icon : Frame
 --- @field Texture Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.xml#L6)
---- child of SoftCursorPointerTemplate
---- @class SoftCursorPointerTemplate_IntroAnim : AnimationGroup
+--- child of YellowSoftCursorPointerTemplate
+--- @class YellowSoftCursorPointerTemplate_IntroAnim : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.xml#L3)
 --- Template
---- @class SoftCursorPointerTemplate : Frame
---- @field Icon SoftCursorPointerTemplate_Icon
---- @field IntroAnim SoftCursorPointerTemplate_IntroAnim
+--- @class YellowSoftCursorPointerTemplate : Frame
+--- @field Icon YellowSoftCursorPointerTemplate_Icon
+--- @field IntroAnim YellowSoftCursorPointerTemplate_IntroAnim
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.xml#L43)
+--- child of MetallicSoftCursorPointerTemplate
+--- @class MetallicSoftCursorPointerTemplate_Icon : Frame
+--- @field Texture Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.xml#L37)
+--- child of MetallicSoftCursorPointerTemplate
+--- @class MetallicSoftCursorPointerTemplate_IntroAnim : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.xml#L34)
---- @class SoftCursor : Frame, SoftCursorPointerTemplate, SoftCursorMixin
+--- Template
+--- @class MetallicSoftCursorPointerTemplate : Frame
+--- @field Icon MetallicSoftCursorPointerTemplate_Icon
+--- @field IntroAnim MetallicSoftCursorPointerTemplate_IntroAnim
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.xml#L67)
+--- @class SoftCursor : Frame, MetallicSoftCursorPointerTemplate, SoftCursorMixin
 SoftCursor = {}
 

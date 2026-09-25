@@ -159,7 +159,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L503)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_GamepadUndoButton : Frame, InputIconTextureFrameTemplate
---- @field mappedButtonKey any # GAMEPAD_TRIGGER_RIGHT
+--- @field mappedButtonKey any # GAMEPAD_FACE_TOP
 --- @field useDropShadow boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L514)

@@ -3,20 +3,26 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/FlyoutRadial.xml#L4)
 --- Explicitly protected
 --- Template
---- @class GamepadSpellFlyoutPopupButtonTemplate : CheckButton, SpellFlyoutPopupButtonTemplate, GamepadSpellFlyoutPopupButtonMixin
+--- @class GamepadFlyoutPopupButtonBaseTemplate : CheckButton, SmallActionButtonTemplate, FlyoutPopupButtonTemplate, SecureFrameTemplate
 --- @field CheckedOverlayTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/FlyoutRadial.xml#L69)
---- child of GamepadSpellFlyout
---- @class GamepadSpellFlyout_SelectionArrow : Frame
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/FlyoutRadial.xml#L14)
+--- Explicitly protected
+--- Template
+--- @class GamepadFlyoutPopupButtonTemplate : CheckButton, GamepadFlyoutPopupButtonBaseTemplate, GamepadFlyoutPopupButtonMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/FlyoutRadial.xml#L71)
+--- child of GamepadFlyoutTemplate
+--- @class GamepadFlyoutTemplate_SelectionArrow : Frame
 --- @field Texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/FlyoutRadial.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/FlyoutRadial.xml#L29)
 --- Explicitly protected
---- @class GamepadSpellFlyout : Frame, SecureFrameTemplate, FlyoutPopupMixin, GamepadSpellFlyoutMixin
---- @field buttonTemplate string # GamepadSpellFlyoutPopupButtonTemplate
+--- Template
+--- @class GamepadFlyoutTemplate : Frame, SecureFrameTemplate, FlyoutPopupMixin, GamepadFlyoutMixin
+--- @field buttonTemplate string # GamepadFlyoutPopupButtonTemplate
 --- @field showAllRanks boolean # false
---- @field SelectionArrow GamepadSpellFlyout_SelectionArrow
+--- @field SelectionArrow GamepadFlyoutTemplate_SelectionArrow
 --- @field Background Texture
 --- @field SlotBackdrop1 Texture
 --- @field SlotBackdrop2 Texture
@@ -28,7 +34,4 @@
 --- @field SlotBackdrop8 Texture
 --- @field SelectionIndicator Texture
 --- @field SlotBackdrops table<number, Texture>
-GamepadSpellFlyout = {}
-GamepadSpellFlyout["buttonTemplate"] = "GamepadSpellFlyoutPopupButtonTemplate"
-GamepadSpellFlyout["showAllRanks"] = false
 

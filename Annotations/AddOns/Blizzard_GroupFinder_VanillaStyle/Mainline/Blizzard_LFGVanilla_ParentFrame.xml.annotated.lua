@@ -37,39 +37,29 @@ LFGParentFrameTab2["tabIndex"] = 2
 LFGParentFrameTab3 = {}
 LFGParentFrameTab3["tabIndex"] = 3
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L92)
---- child of LFGParentFramePortrait
---- @class LFGParentFramePortraitIcon : Texture
-LFGParentFramePortraitIcon = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L7)
---- child of LFGParentFramePortrait (created in template LFGEyeTemplate)
---- @type Texture
-LFGParentFramePortraitTexture = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L85)
 --- child of LFGParentFrame
---- @class LFGParentFramePortrait : Frame, LFGEyeTemplate
+--- @class LFGParentFramePortrait : Button, LFGEyeBigTemplate
 LFGParentFramePortrait = {}
-LFGParentFramePortrait["Texture"] = LFGParentFramePortraitTexture -- inherited
+LFGParentFramePortrait["hideTextureOnAnim"] = "false" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L98)
 --- child of LFGParentFrame
 --- @class LFGParentFrame_ListingTab : Frame, LFGVanillaRightTabTemplate
 --- @field tooltipText any # LFG_LIST_TAB_1
---- @field iconTexture string # Interface\ICONS\INV_Helmet_08
+--- @field iconTexture string # Interface\ICONS\INV_SideTab_GroupFinder_c60
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L107)
 --- child of LFGParentFrame
 --- @class LFGParentFrame_BrowsingTab : Frame, LFGVanillaRightTabTemplate
 --- @field tooltipText any # LFG_LIST_TAB_2
---- @field iconTexture string # Interface\ICONS\Achievement_General_StayClassy
+--- @field iconTexture string # Interface\ICONS\INV_SideTab_GroupBrowsing_c60
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L117)
 --- child of LFGParentFrame
 --- @class LFGParentFrame_WhoListingTab : Frame, LFGVanillaRightTabTemplate
 --- @field tooltipText any # LFG_LIST_TAB_3
---- @field iconTexture string # Interface\ICONS\INV_OwlDragonMount
+--- @field iconTexture string # Interface\ICONS\INV_SideTab_WhoList_c60
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L30)
 --- @class LFGParentFrame : Frame, LFGParentFrameMixin

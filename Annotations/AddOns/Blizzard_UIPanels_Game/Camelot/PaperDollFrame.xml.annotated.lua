@@ -379,16 +379,10 @@ PaperDollFrameNewSet = {}
 --- @field FrameFX CharacterModelScene_GearEnchantAnimation_FrameFX
 --- @field TopFrame CharacterModelScene_GearEnchantAnimation_TopFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L9)
---- child of PetPaperDollPetHappinessInfo (created in template PetFrameHappinessTemplate)
---- @type Texture
-PetFrameHappinessTexture = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L740)
 --- child of CharacterModelScene
 --- @class PetPaperDollPetHappinessInfo : Frame, PetFrameHappinessTemplate
 PetPaperDollPetHappinessInfo = {}
-PetPaperDollPetHappinessInfo["texture"] = PetFrameHappinessTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L745)
 --- child of CharacterModelScene

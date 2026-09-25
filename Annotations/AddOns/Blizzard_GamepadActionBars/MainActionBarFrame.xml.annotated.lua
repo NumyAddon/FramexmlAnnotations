@@ -258,6 +258,146 @@ GamepadMainActionBarFramePageUnitShortcutsActionBar["RightButtonFrame"] = Gamepa
 GamepadMainActionBarFramePageUnitShortcutsActionBar["BackgroundFocus"] = GamepadMainActionBarFramePageUnitShortcutsActionBarBackgroundFocus -- inherited
 GamepadMainActionBarFramePageUnitShortcutsActionBar["IdentifierIcon"] = GamepadMainActionBarFramePageUnitShortcutsActionBarIdentifierIcon -- inherited
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L111)
+--- child of GamepadMainActionBarFramePageUnitLeftClassAction (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_Cooldown
+GamepadMainActionBarFramePageUnitLeftClassActionCooldown = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L23)
+--- child of GamepadMainActionBarFramePageUnitLeftClassAction (created in template ActionButtonTemplate)
+--- @type Texture
+GamepadMainActionBarFramePageUnitLeftClassActionIcon = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L36)
+--- child of GamepadMainActionBarFramePageUnitLeftClassAction (created in template ActionButtonTemplate)
+--- @type Texture
+GamepadMainActionBarFramePageUnitLeftClassActionFlash = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L43)
+--- child of GamepadMainActionBarFramePageUnitLeftClassAction (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_Name
+GamepadMainActionBarFramePageUnitLeftClassActionName = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L49)
+--- child of GamepadMainActionBarFramePageUnitLeftClassAction (created in template ActionButtonTemplate)
+--- @type Texture
+GamepadMainActionBarFramePageUnitLeftClassActionBorder = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L146)
+--- child of GamepadMainActionBarFramePageUnitLeftClassAction (created in template ActionButtonTemplate)
+--- @type Texture
+GamepadMainActionBarFramePageUnitLeftClassActionNormalTexture = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L96)
+--- Explicitly protected
+--- child of GamepadMainActionBarFramePageUnit
+--- @class GamepadMainActionBarFramePageUnitLeftClassAction : CheckButton, GamepadClassActionButtonTemplate
+--- @field shoulderButton any # GAMEPAD_SHOULDER_LEFT
+--- @field triggerButton any # GAMEPAD_TRIGGER_LEFT
+--- @field inputPromptKey string # LeftInputPrompt
+GamepadMainActionBarFramePageUnitLeftClassAction = {}
+GamepadMainActionBarFramePageUnitLeftClassAction["shoulderButton"] = GAMEPAD_SHOULDER_LEFT
+GamepadMainActionBarFramePageUnitLeftClassAction["triggerButton"] = GAMEPAD_TRIGGER_LEFT
+GamepadMainActionBarFramePageUnitLeftClassAction["inputPromptKey"] = "LeftInputPrompt"
+GamepadMainActionBarFramePageUnitLeftClassAction["enableSpellFX"] = true -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["enableLOCCooldown"] = true -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["popupDirection"] = "UP" -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["popupOffset"] = -4 -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["popupCrossAxisSize"] = 47 -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["openArrowOffset"] = 2 -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["closedArrowOffset"] = 4 -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["arrowMainAxisSize"] = 18 -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["arrowCrossAxisSize"] = 7 -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["hotkeyTextKeyboardX"] = -4 -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["hotkeyTextKeyboardY"] = -5 -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["hotkeyTextGamepadX"] = 0 -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["hotkeyTextGamepadY"] = 0 -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["cooldown"] = GamepadMainActionBarFramePageUnitLeftClassActionCooldown -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["icon"] = GamepadMainActionBarFramePageUnitLeftClassActionIcon -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["Flash"] = GamepadMainActionBarFramePageUnitLeftClassActionFlash -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["Name"] = GamepadMainActionBarFramePageUnitLeftClassActionName -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["Border"] = GamepadMainActionBarFramePageUnitLeftClassActionBorder -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["NormalTexture"] = GamepadMainActionBarFramePageUnitLeftClassActionNormalTexture -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
+GamepadMainActionBarFramePageUnitLeftClassAction["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L111)
+--- child of GamepadMainActionBarFramePageUnitRightClassAction (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_Cooldown
+GamepadMainActionBarFramePageUnitRightClassActionCooldown = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L23)
+--- child of GamepadMainActionBarFramePageUnitRightClassAction (created in template ActionButtonTemplate)
+--- @type Texture
+GamepadMainActionBarFramePageUnitRightClassActionIcon = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L36)
+--- child of GamepadMainActionBarFramePageUnitRightClassAction (created in template ActionButtonTemplate)
+--- @type Texture
+GamepadMainActionBarFramePageUnitRightClassActionFlash = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L43)
+--- child of GamepadMainActionBarFramePageUnitRightClassAction (created in template ActionButtonTemplate)
+--- @type ActionButtonTemplate_Name
+GamepadMainActionBarFramePageUnitRightClassActionName = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L49)
+--- child of GamepadMainActionBarFramePageUnitRightClassAction (created in template ActionButtonTemplate)
+--- @type Texture
+GamepadMainActionBarFramePageUnitRightClassActionBorder = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L146)
+--- child of GamepadMainActionBarFramePageUnitRightClassAction (created in template ActionButtonTemplate)
+--- @type Texture
+GamepadMainActionBarFramePageUnitRightClassActionNormalTexture = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L106)
+--- Explicitly protected
+--- child of GamepadMainActionBarFramePageUnit
+--- @class GamepadMainActionBarFramePageUnitRightClassAction : CheckButton, GamepadClassActionButtonTemplate
+--- @field shoulderButton any # GAMEPAD_SHOULDER_RIGHT
+--- @field triggerButton any # GAMEPAD_TRIGGER_RIGHT
+--- @field inputPromptKey string # RightInputPrompt
+GamepadMainActionBarFramePageUnitRightClassAction = {}
+GamepadMainActionBarFramePageUnitRightClassAction["shoulderButton"] = GAMEPAD_SHOULDER_RIGHT
+GamepadMainActionBarFramePageUnitRightClassAction["triggerButton"] = GAMEPAD_TRIGGER_RIGHT
+GamepadMainActionBarFramePageUnitRightClassAction["inputPromptKey"] = "RightInputPrompt"
+GamepadMainActionBarFramePageUnitRightClassAction["enableSpellFX"] = true -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["enableLOCCooldown"] = true -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["popupDirection"] = "UP" -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["popupOffset"] = -4 -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["popupCrossAxisSize"] = 47 -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["openArrowOffset"] = 2 -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["closedArrowOffset"] = 4 -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["arrowMainAxisSize"] = 18 -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["arrowCrossAxisSize"] = 7 -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["hotkeyTextKeyboardX"] = -4 -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["hotkeyTextKeyboardY"] = -5 -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["hotkeyTextGamepadX"] = 0 -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["hotkeyTextGamepadY"] = 0 -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["cooldown"] = GamepadMainActionBarFramePageUnitRightClassActionCooldown -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["icon"] = GamepadMainActionBarFramePageUnitRightClassActionIcon -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["Flash"] = GamepadMainActionBarFramePageUnitRightClassActionFlash -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["Name"] = GamepadMainActionBarFramePageUnitRightClassActionName -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["Border"] = GamepadMainActionBarFramePageUnitRightClassActionBorder -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["NormalTexture"] = GamepadMainActionBarFramePageUnitRightClassActionNormalTexture -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
+GamepadMainActionBarFramePageUnitRightClassAction["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L121)
+--- child of GamepadMainActionBarFramePageUnit
+--- @class GamepadMainActionBarFramePageUnit_LeftInputPrompt : Frame, InputPromptTwoIconTemplate
+--- @field Icon1 any # GAMEPAD_SHOULDER_LEFT
+--- @field Icon2 any # GAMEPAD_TRIGGER_LEFT
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L131)
+--- child of GamepadMainActionBarFramePageUnit
+--- @class GamepadMainActionBarFramePageUnit_RightInputPrompt : Frame, InputPromptTwoIconTemplate
+--- @field Icon1 any # GAMEPAD_SHOULDER_RIGHT
+--- @field Icon2 any # GAMEPAD_TRIGGER_RIGHT
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L606)
 --- Implicitly protected
 --- child of GamepadActionBarPageUnitTemplateTopCenteredAnchor
@@ -349,6 +489,10 @@ GamepadMainActionBarFramePageUnitRightCenteredAnchor["Bar"] = GamepadActionBarPa
 --- @field FriendlyTargetingActionBar GamepadMainActionBarFramePageUnitFriendlyTargetingActionBar # Implicitly protected
 --- @field HostileTargetingActionBar GamepadMainActionBarFramePageUnitHostileTargetingActionBar # Implicitly protected
 --- @field ShortcutsActionBar GamepadMainActionBarFramePageUnitShortcutsActionBar # Implicitly protected
+--- @field LeftClassAction GamepadMainActionBarFramePageUnitLeftClassAction # Explicitly protected
+--- @field RightClassAction GamepadMainActionBarFramePageUnitRightClassAction # Explicitly protected
+--- @field LeftInputPrompt GamepadMainActionBarFramePageUnit_LeftInputPrompt
+--- @field RightInputPrompt GamepadMainActionBarFramePageUnit_RightInputPrompt
 --- @field LeftShoulderBackground Texture
 --- @field RightShoulderBackground Texture
 --- @field LeftShoulderIcon Texture
@@ -359,6 +503,8 @@ GamepadMainActionBarFramePageUnit = {}
 GamepadMainActionBarFramePageUnit["FriendlyTargetingActionBar"] = GamepadMainActionBarFramePageUnitFriendlyTargetingActionBar
 GamepadMainActionBarFramePageUnit["HostileTargetingActionBar"] = GamepadMainActionBarFramePageUnitHostileTargetingActionBar
 GamepadMainActionBarFramePageUnit["ShortcutsActionBar"] = GamepadMainActionBarFramePageUnitShortcutsActionBar
+GamepadMainActionBarFramePageUnit["LeftClassAction"] = GamepadMainActionBarFramePageUnitLeftClassAction
+GamepadMainActionBarFramePageUnit["RightClassAction"] = GamepadMainActionBarFramePageUnitRightClassAction
 GamepadMainActionBarFramePageUnit["TopCenteredAnchor"] = GamepadMainActionBarFramePageUnitTopCenteredAnchor -- inherited
 GamepadMainActionBarFramePageUnit["PageTracker"] = GamepadMainActionBarFramePageUnitPageTracker -- inherited
 GamepadMainActionBarFramePageUnit["BottomCenteredAnchor"] = GamepadMainActionBarFramePageUnitBottomCenteredAnchor -- inherited

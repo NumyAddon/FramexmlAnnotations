@@ -17,5 +17,5 @@ function GameKioskTimerMixin:OnUpdate() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Kiosk/BlizzCon2026/Game.lua#L27)
 function GameKioskFrameMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Kiosk/BlizzCon2026/Game.lua#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Kiosk/BlizzCon2026/Game.lua#L83)
 function GameKioskFrameMixin:HandlePlayerEnteringWorld(isInitialLogin, isUIReload) end

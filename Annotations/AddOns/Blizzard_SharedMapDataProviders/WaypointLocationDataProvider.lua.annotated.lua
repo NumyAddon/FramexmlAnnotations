@@ -68,8 +68,8 @@ function WaypointLocationPinMixin:OnMouseClickAction(mouseButton) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L165)
 function WaypointLocationPinMixin:OnMouseEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L181)
 function WaypointLocationPinMixin:OnMouseLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L179)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/WaypointLocationDataProvider.lua#L187)
 function WaypointLocationPinMixin:CopySlashCommandToClipboard() end

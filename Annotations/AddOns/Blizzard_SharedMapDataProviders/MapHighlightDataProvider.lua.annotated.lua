@@ -26,8 +26,8 @@ function MapHighlightPinMixin:OnUpdate(elapsed) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/MapHighlightDataProvider.lua#L49)
 function MapHighlightPinMixin:Refresh() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/MapHighlightDataProvider.lua#L102)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/MapHighlightDataProvider.lua#L97)
 function MapHighlightPinMixin:SetupHighlightPulse() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/MapHighlightDataProvider.lua#L145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/MapHighlightDataProvider.lua#L140)
 function MapHighlightPinMixin:OnCanvasSizeChanged() end

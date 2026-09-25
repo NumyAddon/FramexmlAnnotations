@@ -1,14 +1,18 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L3)
+--- @class SwingTimerManagerFrame : Frame, SwingTimerManagerMixin
+SwingTimerManagerFrame = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L36)
 --- child of SwingTimerFrameTemplate_StatusBar
 --- @class SwingTimerFrameTemplate_StatusBar_TypeLabel : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L41)
 --- child of SwingTimerFrameTemplate_StatusBar
 --- @class SwingTimerFrameTemplate_StatusBar_TimeLabel : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L14)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L21)
 --- child of SwingTimerFrameTemplate
 --- @class SwingTimerFrameTemplate_StatusBar : StatusBar
 --- @field Pip Texture
@@ -16,7 +20,7 @@
 --- @field TypeLabel SwingTimerFrameTemplate_StatusBar_TypeLabel
 --- @field TimeLabel SwingTimerFrameTemplate_StatusBar_TimeLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L10)
 --- Template
 --- @class SwingTimerFrameTemplate : Frame, EditModeSwingTimerSystemTemplate, BottomManagedFrameTemplate, SwingTimerMixin
 --- @field ignoreInLayoutWhenActionBarIsOverriden boolean # true
@@ -24,7 +28,7 @@
 --- @field Background Texture
 --- @field Border Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L56)
 --- @class SwingTimerMainHandFrame : Frame, SwingTimerFrameTemplate
 --- @field systemIndex any # Enum.EditModeSwingTimerSystemIndices.MainHand
 --- @field systemNameString any # SWING_TIMER_MAIN_HAND
@@ -50,7 +54,7 @@ SwingTimerMainHandFrame["hideWhenActionBarIsOverriden"] = true -- inherited
 SwingTimerMainHandFrame["isBottomManagedFrame"] = true -- inherited
 SwingTimerMainHandFrame["isManagedFrame"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L69)
 --- @class SwingTimerOffHandFrame : Frame, SwingTimerFrameTemplate
 --- @field systemIndex any # Enum.EditModeSwingTimerSystemIndices.OffHand
 --- @field systemNameString any # SWING_TIMER_OFF_HAND
@@ -76,7 +80,7 @@ SwingTimerOffHandFrame["hideWhenActionBarIsOverriden"] = true -- inherited
 SwingTimerOffHandFrame["isBottomManagedFrame"] = true -- inherited
 SwingTimerOffHandFrame["isManagedFrame"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L76)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SwingTimer/Blizzard_SwingTimer.xml#L82)
 --- @class SwingTimerRangedFrame : Frame, SwingTimerFrameTemplate
 --- @field systemIndex any # Enum.EditModeSwingTimerSystemIndices.Ranged
 --- @field systemNameString any # SWING_TIMER_RANGED

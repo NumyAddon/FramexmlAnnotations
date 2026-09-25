@@ -116,7 +116,7 @@ StackSplitFrameDisabledTexture = {}
 --- @class StackSplitFrame_StackItemCountText : FontString, GameFontNormal
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Camelot/StackSplitFrame.xml#L3)
---- @class StackSplitFrame : Frame, StackSplitMixin, FocusFramesInterfaceMixin
+--- @class StackSplitFrame : Frame, FocusFramesInterfaceMixin, StackSplitMixin
 --- @field layoutType string # StackSplitTemplate
 --- @field FrameGlow StackSplitFrame_FrameGlow
 --- @field LeftJumpHint StackSplitFrame_LeftJumpHint

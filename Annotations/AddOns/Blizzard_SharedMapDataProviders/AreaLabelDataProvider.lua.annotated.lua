@@ -35,20 +35,20 @@ function AreaLabelFrameMixin:OnLoad() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L71)
 function AreaLabelFrameMixin:OnUpdate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L142)
 function AreaLabelFrameMixin:SetLabel(areaLabelType, name, description, nameColor, descriptionColor, textureInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L159)
 function AreaLabelFrameMixin:ClearLabel(areaLabelType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L165)
 function AreaLabelFrameMixin:ClearAllLabels() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L170)
 function AreaLabelFrameMixin:GetHighestPriorityLabelInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L191)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L186)
 function AreaLabelFrameMixin:IsDirty() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L200)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/AreaLabelDataProvider.lua#L195)
 function AreaLabelFrameMixin:EvaluateLabels() end

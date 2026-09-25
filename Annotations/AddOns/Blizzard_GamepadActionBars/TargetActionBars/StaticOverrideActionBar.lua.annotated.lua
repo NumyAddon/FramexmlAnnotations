@@ -7,13 +7,16 @@ StaticOverrideActionBarMixin = CreateFromMixins(GamepadActionBarMixin)
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L50)
 function StaticOverrideActionBarMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L93)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L81)
 function StaticOverrideActionBarMixin:PostVariableSetUp() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L85)
 function StaticOverrideActionBarMixin:ShouldSwapLeftAndRightButtons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L89)
+function StaticOverrideActionBarMixin:SetActionButtonReferences(leftParent, rightParent) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L108)
 function StaticOverrideActionBarMixin:SetUpActionButtons() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L145)

@@ -1,58 +1,58 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L232)
  --- @class TooltipBackdropTemplateMixin
 TooltipBackdropTemplateMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L266)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L272)
  --- @class NarratableTooltipMixin
 NarratableTooltipMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L320)
  --- @class DisabledTooltipButtonMixin
 DisabledTooltipButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L228)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L234)
 function TooltipBackdropTemplateMixin:TooltipBackdropOnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L249)
 function TooltipBackdropTemplateMixin:SetBackdropColor(r, g, b, a) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L253)
 function TooltipBackdropTemplateMixin:GetBackdropColor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L251)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L257)
 function TooltipBackdropTemplateMixin:SetBackdropBorderColor(r, g, b, a) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L261)
 function TooltipBackdropTemplateMixin:GetBackdropBorderColor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L259)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L265)
 function TooltipBackdropTemplateMixin:SetBorderBlendMode(blendMode) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L274)
 function NarratableTooltipMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L278)
 function NarratableTooltipMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L282)
 function NarratableTooltipMixin:NarrationGetName() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L296)
 function NarratableTooltipMixin:NarrationGetDescription() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L322)
 function DisabledTooltipButtonMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L325)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L331)
 function DisabledTooltipButtonMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L330)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L336)
 function DisabledTooltipButtonMixin:SetDisabledTooltip(disabledTooltip, disabledTooltipAnchor) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L335)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L341)
 function DisabledTooltipButtonMixin:GetDisabledTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L339)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L345)
 function DisabledTooltipButtonMixin:SetDisabledState(disabled, disabledTooltip, disabledTooltipAnchor) end

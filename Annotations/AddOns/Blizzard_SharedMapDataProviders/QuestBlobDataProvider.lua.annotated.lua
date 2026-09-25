@@ -95,8 +95,8 @@ function QuestBlobPinMixin:ClearHighlightedQuestPOI() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestBlobDataProvider.lua#L182)
 function QuestBlobPinMixin:UpdateTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestBlobDataProvider.lua#L231)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestBlobDataProvider.lua#L232)
 function QuestBlobPinMixin:OnMouseEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestBlobDataProvider.lua#L235)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestBlobDataProvider.lua#L236)
 function QuestBlobPinMixin:OnMouseLeave() end

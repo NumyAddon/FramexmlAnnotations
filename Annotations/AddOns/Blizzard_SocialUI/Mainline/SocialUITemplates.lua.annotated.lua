@@ -44,11 +44,11 @@ SocialUIBattleNetBroadcastFrameMixin = {}
  --- @class SocialUIBattleNetBroadcastEditBoxMixin
 SocialUIBattleNetBroadcastEditBoxMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L832)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L827)
  --- @class SocialUIIgnoreListHeaderMixin
 SocialUIIgnoreListHeaderMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L844)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L839)
  --- @class SocialUIIgnoreListEntryMixin
 SocialUIIgnoreListEntryMixin = {}
 
@@ -313,32 +313,32 @@ function SocialUIIgnoreListMixin:OnSelectionChanged(elementData, isSelected) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L799)
 function SocialUIIgnoreListMixin:BlockPlayer() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L816)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L811)
 function SocialUIIgnoreListMixin:UnblockSelected() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L834)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L829)
 function SocialUIIgnoreListHeaderMixin:Initialize(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L839)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L834)
 function SocialUIIgnoreListHeaderMixin:RefreshText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L846)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L841)
 function SocialUIIgnoreListEntryMixin:Initialize(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L852)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L847)
 function SocialUIIgnoreListEntryMixin:GetBlockType() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L856)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L851)
 function SocialUIIgnoreListEntryMixin:GetBlockIndex() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L860)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L855)
 function SocialUIIgnoreListEntryMixin:FullRefresh() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L865)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L860)
 function SocialUIIgnoreListEntryMixin:RefreshName() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L874)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L869)
 function SocialUIIgnoreListEntryMixin:RefreshSelected() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L879)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L874)
 function SocialUIIgnoreListEntryMixin:SetSelected(selected) end

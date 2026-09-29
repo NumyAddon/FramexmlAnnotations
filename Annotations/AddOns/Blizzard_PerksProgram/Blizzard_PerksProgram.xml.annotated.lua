@@ -606,28 +606,28 @@ PerksProgramTooltip["TextRight2"] = PerksProgramTooltipTextRight2 -- inherited
 --- child of PerksProgramFrame_FooterFrame
 --- @class PerksProgramFrame_FooterFrame_TogglePlayerPreview : CheckButton, PerksProgramCheckboxTemplate
 --- @field textString any # PERKS_PROGRAM_PLAYER_PREVIEW
---- @field perksProgramOnClickMethod string # TogglePlayerPreviewOnClick
---- @field perksProgramOnShowMethod string # GetTogglePlayerSetting
+--- @field perksProgramOnClickMethod string # ToggleHidePlayerOnMountOnClick
+--- @field perksProgramOnShowMethod string # GetHidePlayerOnMountSetting
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L837)
 --- child of PerksProgramFrame_FooterFrame
 --- @class PerksProgramFrame_FooterFrame_ToggleMountSpecial : CheckButton, PerksProgramCheckboxTemplate
 --- @field textString any # PERKS_PROGRAM_MOUNT_SPECIAL_ANIM
---- @field perksProgramOnClickMethod string # SetMountSpecialPreviewOnClick
+--- @field perksProgramOnClickMethod string # ToggleMountSpecialPreviewOnClick
 --- @field perksProgramOnShowMethod string # GetMountSpecialPreviewSetting
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L849)
 --- child of PerksProgramFrame_FooterFrame
 --- @class PerksProgramFrame_FooterFrame_ToggleHideArmor : CheckButton, PerksProgramCheckboxTemplate
 --- @field textString any # PERKS_PROGRAM_HIDE_ARMOR
---- @field perksProgramOnClickMethod string # PlayerToggledHideArmorOnClick
+--- @field perksProgramOnClickMethod string # ToggleHideArmorOnClick
 --- @field perksProgramOnShowMethod string # GetHideArmorSetting
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L860)
 --- child of PerksProgramFrame_FooterFrame
 --- @class PerksProgramFrame_FooterFrame_ToggleAttackAnimation : CheckButton, PerksProgramCheckboxTemplate
 --- @field textString any # PERKS_PROGRAM_PLAY_ATTACK_ANIM
---- @field perksProgramOnClickMethod string # PlayerSetAttackAnimationOnClick
+--- @field perksProgramOnClickMethod string # ToggleAttackAnimationOnClick
 --- @field perksProgramOnShowMethod string # GetAttackAnimationSetting
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L879)

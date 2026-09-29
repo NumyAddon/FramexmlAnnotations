@@ -4,7 +4,7 @@
  --- @class PerksProgramFooterFrameMixin
 PerksProgramFooterFrameMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L204)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L186)
  --- @class PerksProgramErrorIndicatorMixin
 PerksProgramErrorIndicatorMixin = {}
 
@@ -24,28 +24,28 @@ function PerksProgramFooterFrameMixin:OnItemSetSelectionUpdated(data, perksVendo
 function PerksProgramFooterFrameMixin:UpdateCartButtons(numCartItems) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L88)
-function PerksProgramFooterFrameMixin:OnProductSelected(data) end
+function PerksProgramFooterFrameMixin:OnProductSelected(data, skipTelemetry) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L120)
 function PerksProgramFooterFrameMixin:UpdateMountControls(categoryID, newProduct) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L136)
 function PerksProgramFooterFrameMixin:UpdateTransmogControls(categoryID, newProduct, displayData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L162)
 function PerksProgramFooterFrameMixin:OnProductPurchasedStateChange(data) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L186)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L168)
 function PerksProgramFooterFrameMixin:Init() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L171)
 function PerksProgramFooterFrameMixin:OnModelSceneChanged(modelScene) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L198)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L180)
 function PerksProgramFooterFrameMixin:OnServerErrorStateChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L188)
 function PerksProgramErrorIndicatorMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramFooter.lua#L194)
 function PerksProgramErrorIndicatorMixin:OnLeave() end

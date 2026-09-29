@@ -317,7 +317,7 @@ function PerksProgramViewCartButtonMixin:ShowTooltip(tooltip) end
 function PerksProgramDividerFrameMixin:OnLoad() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L883)
-function PerksProgramDividerFrameMixin:OnProductSelectedAfterModel(data) end
+function PerksProgramDividerFrameMixin:OnProductSelectedAfterModel(data, skipTelemetry) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L987)
 function PerksProgramItemDetailsListMixin:OnLoad() end
@@ -431,7 +431,7 @@ function PerksProgramToyDetailsFrameMixin:OnLoad() end
 function PerksProgramToyDetailsFrameMixin:OnShow() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1796)
-function PerksProgramToyDetailsFrameMixin:OnProductSelectedAfterModel(data) end
+function PerksProgramToyDetailsFrameMixin:OnProductSelectedAfterModel(data, skipTelemetry) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1800)
 function PerksProgramToyDetailsFrameMixin:UpdateDetails(data) end
@@ -449,7 +449,7 @@ function PerksProgramProductDetailsFrameMixin:SetData(data) end
 function PerksProgramProductDetailsFrameMixin:Refresh() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1885)
-function PerksProgramProductDetailsFrameMixin:OnProductSelectedAfterModel(data) end
+function PerksProgramProductDetailsFrameMixin:OnProductSelectedAfterModel(data, skipTelemetry) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.lua#L1889)
 function PerksProgramProductDetailsFrameMixin:OnProductInfoChanged(data) end

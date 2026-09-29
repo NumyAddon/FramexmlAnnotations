@@ -4,11 +4,11 @@
 --- child of MajorFactionUnlockToast
 --- @class MajorFactionUnlockToast_FactionName : FontString, QuestFont_30
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.xml#L18)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.xml#L19)
 --- child of MajorFactionUnlockToast
 --- @class MajorFactionUnlockToast_HeaderText : FontString, SystemFont_Shadow_Med1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionUnlockToast.xml#L31)
 --- child of MajorFactionUnlockToast
 --- @class MajorFactionUnlockToast_ShowAnim : AnimationGroup
 

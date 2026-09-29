@@ -67,59 +67,70 @@
 --- @field Label WorldMapCoordsPanelTemplate_CursorCoords_Label
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L150)
---- child of WorldMapCoordsPanelTemplate_PlayerCoords
---- @class WorldMapCoordsPanelTemplate_PlayerCoords_Label : FontString, GameFontHighlightSmall
+--- child of WorldMapCoordsPanelTemplate_CrosshairCoords
+--- @class WorldMapCoordsPanelTemplate_CrosshairCoords_Label : FontString, GameFontHighlightSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L143)
 --- child of WorldMapCoordsPanelTemplate
---- @class WorldMapCoordsPanelTemplate_PlayerCoords : Frame
+--- @class WorldMapCoordsPanelTemplate_CrosshairCoords : Frame
 --- @field layoutIndex number # 2
+--- @field Label WorldMapCoordsPanelTemplate_CrosshairCoords_Label
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L161)
+--- child of WorldMapCoordsPanelTemplate_PlayerCoords
+--- @class WorldMapCoordsPanelTemplate_PlayerCoords_Label : FontString, GameFontHighlightSmall
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L154)
+--- child of WorldMapCoordsPanelTemplate
+--- @class WorldMapCoordsPanelTemplate_PlayerCoords : Frame
+--- @field layoutIndex number # 3
 --- @field Label WorldMapCoordsPanelTemplate_PlayerCoords_Label
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L129)
 --- Template
 --- @class WorldMapCoordsPanelTemplate : Frame, VerticalLayoutFrame, WorldMapCoordsPanelMixin
 --- @field CursorCoords WorldMapCoordsPanelTemplate_CursorCoords
+--- @field CrosshairCoords WorldMapCoordsPanelTemplate_CrosshairCoords
 --- @field PlayerCoords WorldMapCoordsPanelTemplate_PlayerCoords
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L175)
 --- child of WorldMapSidePanelToggleTemplate
 --- @class WorldMapSidePanelToggleTemplate_OpenButton : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L204)
 --- child of WorldMapSidePanelToggleTemplate
 --- @class WorldMapSidePanelToggleTemplate_CloseButton : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L172)
 --- Template
 --- @class WorldMapSidePanelToggleTemplate : Frame, WorldMapSidePanelToggleMixin
 --- @field OpenButton WorldMapSidePanelToggleTemplate_OpenButton
 --- @field CloseButton WorldMapSidePanelToggleTemplate_CloseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L240)
 --- child of WorldMapZoneTimerTemplate
 --- @class WorldMapZoneTimerTemplate_TimeLabel : FontString, SystemFont_OutlineThick_Huge2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L225)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L236)
 --- Template
 --- @class WorldMapZoneTimerTemplate : Frame, WorldMapZoneTimerMixin
 --- @field TimeLabel WorldMapZoneTimerTemplate_TimeLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L254)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L265)
 --- child of WorldMapThreatFrameTemplate
 --- @class WorldMapThreatFrameTemplate_Eye : Frame, WorldMapThreatEyeMixin
 --- @field Eye Texture
 --- @field Highlight Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L295)
 --- child of WorldMapThreatFrameTemplate
 --- @class WorldMapThreatFrameTemplate_ModelSceneBottom : ModelScene, NonInteractableModelSceneMixinTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L301)
 --- child of WorldMapThreatFrameTemplate
 --- @class WorldMapThreatFrameTemplate_ModelSceneTop : ModelScene, NonInteractableModelSceneMixinTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L241)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L252)
 --- Template
 --- @class WorldMapThreatFrameTemplate : Frame, WorldMapThreatFrameMixin
 --- @field Eye WorldMapThreatFrameTemplate_Eye

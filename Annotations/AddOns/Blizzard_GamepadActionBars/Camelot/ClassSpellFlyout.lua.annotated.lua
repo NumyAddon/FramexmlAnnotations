@@ -16,8 +16,5 @@ function ClassSpellFlyoutButtonMixin:UpdateVisibility() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/ClassSpellFlyout.lua#L44)
 function ClassSpellFlyoutButtonMixin:UpdateAction(force) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/ClassSpellFlyout.lua#L55)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/ClassSpellFlyout.lua#L51)
 function ClassSpellFlyoutButtonMixin:Update() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/ClassSpellFlyout.lua#L60)
-function ClassSpellFlyoutButtonMixin:SetActionAttributes() end

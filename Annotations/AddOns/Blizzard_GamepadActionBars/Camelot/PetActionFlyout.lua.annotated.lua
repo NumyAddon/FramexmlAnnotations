@@ -36,16 +36,16 @@ function PetActionFlyoutButtonMixin:OnEvent(event, ...) end
 function PetActionFlyoutButtonMixin:UpdateFlyoutPopup(_) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetActionFlyout.lua#L122)
-function PetActionFlyoutButtonMixin:OnClick(button, down) end
+function PetActionFlyoutButtonMixin:HandleFlyoutClickOverride(button, down) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetActionFlyout.lua#L128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetActionFlyout.lua#L129)
 function PetActionFlyoutButtonMixin:UpdateIcon() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetActionFlyout.lua#L134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetActionFlyout.lua#L135)
 function PetActionFlyoutButtonMixin:UpdateFlash() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetActionFlyout.lua#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetActionFlyout.lua#L139)
 function PetActionFlyoutButtonMixin:IsPetAttacking() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetActionFlyout.lua#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetActionFlyout.lua#L149)
 function PetActionFlyoutButtonMixin:SetFlashing(enabled) end

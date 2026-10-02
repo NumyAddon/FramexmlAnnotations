@@ -46,47 +46,47 @@ function GamepadFriendlyTargetingActionBarMixin:OnTargetModifierStateCancelled(p
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L108)
 function GamepadFriendlyTargetingActionBarMixin:RefreshGroupTargeting() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L184)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L179)
 function GamepadFriendlyTargetingActionBarMixin:RefreshPlayerPortrait() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L183)
 function GamepadFriendlyTargetingActionBarMixin:RefreshPetButton() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L199)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L194)
 function GamepadFriendlyTargetingActionBarMixin:RefreshAssistButton() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L203)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L198)
 function GamepadFriendlyTargetingActionBarMixin:ResetDpadLeft() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L202)
 function GamepadFriendlyTargetingActionBarMixin:ResetDpadTop() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L211)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L206)
 function GamepadFriendlyTargetingActionBarMixin:ResetDpadRight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L215)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L210)
 function GamepadFriendlyTargetingActionBarMixin:ResetDpadBottom() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L214)
 function GamepadFriendlyTargetingActionBarMixin:ResetFaceLeft() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L223)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L218)
 function GamepadFriendlyTargetingActionBarMixin:SetUpFaceLeft() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L232)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L227)
 function GamepadFriendlyTargetingActionBarMixin:ResetFaceTop() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L231)
 function GamepadFriendlyTargetingActionBarMixin:SetUpFaceTop() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L235)
 function GamepadFriendlyTargetingActionBarMixin:ResetFaceRight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L239)
 function GamepadFriendlyTargetingActionBarMixin:SetUpFaceRight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L248)
 function GamepadFriendlyTargetingActionBarMixin:ResetFaceBottom() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L257)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/FriendlyTargetingActionBar.lua#L252)
 function GamepadFriendlyTargetingActionBarMixin:SetUpFaceBottom() end

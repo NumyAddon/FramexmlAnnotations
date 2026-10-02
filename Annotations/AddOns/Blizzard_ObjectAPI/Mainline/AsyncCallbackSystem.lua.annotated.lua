@@ -14,7 +14,7 @@ function AsyncCallbackSystemMixin:AddCallback(id, callbackFunction) end
 function AsyncCallbackSystemMixin:AddCancelableCallback(id, callbackFunction) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L70)
-function AsyncCallbackSystemMixin:FireCallbacks(id) end
+function AsyncCallbackSystemMixin:FireCallbacks(id, success) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ObjectAPI/Mainline/AsyncCallbackSystem.lua#L87)
 function AsyncCallbackSystemMixin:ClearCallbacks(id) end

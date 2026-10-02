@@ -4,63 +4,63 @@
  --- @class MicroMenuContainerMixin
 MicroMenuContainerMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L58)
  --- @class MicroMenuMixin
 MicroMenuMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L4)
 function MicroMenuContainerMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L10)
 function MicroMenuContainerMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L18)
 function MicroMenuContainerMixin:Layout() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L60)
 function MicroMenuMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L65)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L66)
 function MicroMenuMixin:GenerateButtonInfos() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L70)
 function MicroMenuMixin:ApplyMicroMenuOverrides() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L73)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L74)
 function MicroMenuMixin:InitializeButtons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L101)
 function MicroMenuMixin:AddButton(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L112)
 function MicroMenuMixin:GetEdgeButton(rightMost, topMost) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L148)
 function MicroMenuMixin:UpdateHelpTicketButtonAnchor(position) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L169)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L170)
 function MicroMenuMixin:UpdateFramerateFrameAnchor(position) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L178)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L179)
 function MicroMenuMixin:AnchorToMenuContainer(position) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L199)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L200)
 function MicroMenuMixin:Layout() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L208)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L209)
 function MicroMenuMixin:UpdateScale() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L218)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L219)
 function MicroMenuMixin:SetNormalScale(scale) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L223)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L224)
 function MicroMenuMixin:SetOverrideScale(overrideScale) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L228)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L229)
 function MicroMenuMixin:ClearOverrideScale() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L234)
 function MicroMenuMixin:ResetMicroMenuPosition() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MicroMenu/Shared/MicroMenuContainer.lua#L246)
 function MicroMenuMixin:OverrideMicroMenuPosition(parent, anchor, anchorTo, relAnchor, x, y, isStacked) end

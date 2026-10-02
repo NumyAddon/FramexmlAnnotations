@@ -50,5 +50,5 @@ function InstanceDifficultyMixin:SetFlipped(flipped) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L218)
 function GuildInstanceDifficultyMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L249)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.lua#L251)
 function GuildInstanceDifficultyMixin:OnLeave() end

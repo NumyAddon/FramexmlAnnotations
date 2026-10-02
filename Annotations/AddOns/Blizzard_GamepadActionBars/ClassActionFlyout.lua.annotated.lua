@@ -7,20 +7,17 @@ GamepadClassActionButtonMixin = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L3)
 function GamepadClassActionButtonMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L28)
 function GamepadClassActionButtonMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L40)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L39)
 function GamepadClassActionButtonMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L50)
 function GamepadClassActionButtonMixin:ApplyExtraButtonStylesForState(state) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L61)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L60)
 function GamepadClassActionButtonMixin:OnUpdate(_) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L76)
 function GamepadClassActionButtonMixin:ApplyPressedStyle(pressed) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L88)
-function GamepadClassActionButtonMixin:SetActionAttributes() end

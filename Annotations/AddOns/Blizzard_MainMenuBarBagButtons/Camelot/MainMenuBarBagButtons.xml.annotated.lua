@@ -32,12 +32,12 @@ MainMenuBarBackpackButton["quickKeybindHighlightAtlas"] = "QuickKeybind-MainBag-
 MainMenuBarBackpackButton["buttonShape"] = "square" -- inherited
 MainMenuBarBackpackButton["showMatchHighlight"] = false -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L63)
 --- child of BagSlotCluster (created in template BagSlotClusterTemplate)
 --- @type BagSlotClusterTemplate_BagBarExpandToggle
 BagBarExpandToggle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L90)
 --- child of BagSlotCluster (created in template BagSlotClusterTemplate)
 --- @type BagSlotClusterTemplate_CharacterBag0Slot
 CharacterBag0Slot = {}
@@ -46,7 +46,7 @@ CharacterBag0Slot["buttonShape"] = "square" -- inherited
 CharacterBag0Slot["showMatchHighlight"] = false -- inherited
 CharacterBag0Slot["quickKeybindHighlightAtlas"] = "QuickKeybind-Bag-Iconframe-Glow" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L93)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L98)
 --- child of BagSlotCluster (created in template BagSlotClusterTemplate)
 --- @type BagSlotClusterTemplate_CharacterBag1Slot
 CharacterBag1Slot = {}
@@ -55,7 +55,7 @@ CharacterBag1Slot["buttonShape"] = "square" -- inherited
 CharacterBag1Slot["showMatchHighlight"] = false -- inherited
 CharacterBag1Slot["quickKeybindHighlightAtlas"] = "QuickKeybind-Bag-Iconframe-Glow" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L106)
 --- child of BagSlotCluster (created in template BagSlotClusterTemplate)
 --- @type BagSlotClusterTemplate_CharacterBag2Slot
 CharacterBag2Slot = {}
@@ -64,7 +64,7 @@ CharacterBag2Slot["buttonShape"] = "square" -- inherited
 CharacterBag2Slot["showMatchHighlight"] = false -- inherited
 CharacterBag2Slot["quickKeybindHighlightAtlas"] = "QuickKeybind-Bag-Iconframe-Glow" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L109)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L114)
 --- child of BagSlotCluster (created in template BagSlotClusterTemplate)
 --- @type BagSlotClusterTemplate_CharacterBag3Slot
 CharacterBag3Slot = {}
@@ -73,7 +73,7 @@ CharacterBag3Slot["buttonShape"] = "square" -- inherited
 CharacterBag3Slot["showMatchHighlight"] = false -- inherited
 CharacterBag3Slot["quickKeybindHighlightAtlas"] = "QuickKeybind-Bag-Iconframe-Glow" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L122)
 --- child of BagSlotCluster (created in template BagSlotClusterTemplate)
 --- @type BagSlotClusterTemplate_CharacterReagentBag0Slot
 CharacterReagentBag0Slot = {}

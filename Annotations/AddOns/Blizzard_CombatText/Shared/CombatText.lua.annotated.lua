@@ -31,5 +31,5 @@ function CombatTextMixin:InitializeFontString(fontString) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CombatText/Shared/CombatText.lua#L460)
 function CombatTextMixin:ClearAnimationList() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CombatText/Shared/CombatText.lua#L468)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CombatText/Shared/CombatText.lua#L474)
 function CombatTextMixin:UpdateDisplayedMessages() end

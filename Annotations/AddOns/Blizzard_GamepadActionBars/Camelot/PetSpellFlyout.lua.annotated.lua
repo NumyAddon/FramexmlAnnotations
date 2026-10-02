@@ -8,11 +8,11 @@ GamepadPetSpellFlyoutMixin = {}
  --- @class SingleSpellMixin
 SingleSpellMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L131)
  --- @class MultipleSpellsMixin
 MultipleSpellsMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L178)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L180)
  --- @class PetSpellFlyoutButtonMixin
 PetSpellFlyoutButtonMixin = {}
 
@@ -56,55 +56,55 @@ function SingleSpellMixin:UpdateUsable() end
 function SingleSpellMixin:UpdateFlyoutPopup(_) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L117)
-function SingleSpellMixin:OnClick(button, down) end
+function SingleSpellMixin:HandleFlyoutClickOverride(button, down) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L133)
 function MultipleSpellsMixin:SetUp() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L136)
 function MultipleSpellsMixin:TearDown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L139)
 function MultipleSpellsMixin:SetTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L142)
 function MultipleSpellsMixin:UpdateCooldown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L146)
 function MultipleSpellsMixin:UpdateRange() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L149)
 function MultipleSpellsMixin:UpdateUsable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L167)
 function MultipleSpellsMixin:UpdateFlyoutPopup(_) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L170)
-function MultipleSpellsMixin:OnClick(button, down) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L171)
+function MultipleSpellsMixin:HandleFlyoutClickOverride(button, down) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L182)
 function PetSpellFlyoutButtonMixin:Init() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L207)
 function PetSpellFlyoutButtonMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L215)
 function PetSpellFlyoutButtonMixin:ACTION_RANGE_CHECK_UPDATE() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L218)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L220)
 function PetSpellFlyoutButtonMixin:PET_BAR_UPDATE() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L222)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L224)
 function PetSpellFlyoutButtonMixin:PET_BAR_UPDATE_COOLDOWN() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L228)
 function PetSpellFlyoutButtonMixin:PET_BAR_UPDATE_USABLE() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L230)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L232)
 function PetSpellFlyoutButtonMixin:UPDATE_VEHICLE_ACTIONBAR() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L236)
 function PetSpellFlyoutButtonMixin:UNIT_PET() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L238)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/Camelot/PetSpellFlyout.lua#L240)
 function PetSpellFlyoutButtonMixin:Update() end

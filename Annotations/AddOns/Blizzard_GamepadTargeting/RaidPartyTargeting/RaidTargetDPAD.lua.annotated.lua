@@ -19,29 +19,29 @@ function RaidTargetingFreeSelectionMixin:OnHide() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L27)
 function RaidTargetingFreeSelectionMixin:UpdateVisibility() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L47)
 function RaidTargetingFreeSelectionMixin:CanUseFocusButton() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L51)
 function RaidTargetingFreeSelectionMixin:SetupFooter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L65)
 function RaidTargetingFreeSelectionMixin:UpdateFooter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L73)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L74)
 function RaidTargetingFreeSelectionMixin:SetActive(inActive) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L85)
 function RaidTargetingFreeSelectionMixin:Toggle() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L96)
 function RaidTargetingFreeSelectionMixin:OnExitEditMode() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L100)
 function RaidTargetingFreeSelectionMixin:InitializeGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L104)
 function RaidTargetingFreeSelectionMixin:UninitializeGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/RaidPartyTargeting/RaidTargetDPAD.lua#L108)
 function RaidTargetingFreeSelectionMixin:RegisterForTransitions() end

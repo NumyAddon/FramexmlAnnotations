@@ -454,39 +454,39 @@ QuestFrameDetailPanel["MaterialTopRight"] = QuestFrameDetailPanelMaterialTopRigh
 QuestFrameDetailPanel["MaterialBotLeft"] = QuestFrameDetailPanelMaterialBotLeft -- inherited
 QuestFrameDetailPanel["MaterialBotRight"] = QuestFrameDetailPanelMaterialBotRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L231)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L233)
 --- child of QuestFrameGreetingPanel
 --- @class QuestFrameGreetingGoodbyeButton : Button, UIPanelButtonTemplate
 QuestFrameGreetingGoodbyeButton = {}
 QuestFrameGreetingGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 QuestFrameGreetingGoodbyeButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L250)
 --- child of QuestGreetingScrollChildFrame
 --- @class GreetingText : FontString, QuestFont
 GreetingText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L254)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L256)
 --- child of QuestGreetingScrollChildFrame
 --- @class CurrentQuestsText : FontString, QuestTitleFont
 CurrentQuestsText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L262)
 --- child of QuestGreetingScrollChildFrame
 --- @class QuestGreetingFrameHorizontalBreak : Texture
 QuestGreetingFrameHorizontalBreak = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L266)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L268)
 --- child of QuestGreetingScrollChildFrame
 --- @class AvailableQuestsText : FontString, QuestTitleFont
 AvailableQuestsText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L246)
 --- child of QuestGreetingScrollFrame
 --- @class QuestGreetingScrollChildFrame : Frame
 QuestGreetingScrollChildFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L244)
 --- child of QuestFrameGreetingPanel
 --- @class QuestGreetingScrollFrame : ScrollFrame, QuestScrollFrameTemplate
 QuestGreetingScrollFrame = {}
@@ -518,7 +518,7 @@ QuestFrameGreetingPanelMaterialBotLeft = {}
 --- @type Texture
 QuestFrameGreetingPanelMaterialBotRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L231)
 --- child of QuestFrame
 --- @class QuestFrameGreetingPanel : Frame, QuestFramePanelTemplate
 QuestFrameGreetingPanel = {}
@@ -528,7 +528,7 @@ QuestFrameGreetingPanel["MaterialTopRight"] = QuestFrameGreetingPanelMaterialTop
 QuestFrameGreetingPanel["MaterialBotLeft"] = QuestFrameGreetingPanelMaterialBotLeft -- inherited
 QuestFrameGreetingPanel["MaterialBotRight"] = QuestFrameGreetingPanelMaterialBotRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L285)
 --- child of QuestFrame
 --- @class QuestFrame_FriendshipStatusBar : StatusBar, NPCFriendshipStatusBarTemplate
 
@@ -563,22 +563,22 @@ QuestFrame["CloseButton"] = QuestFrameCloseButton -- inherited
 QuestFrame["Bg"] = QuestFrameBg -- inherited
 QuestFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L340)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L342)
 --- child of QuestModelScene
 --- @class QuestNPCModelNameTooltipFrame : Frame
 QuestNPCModelNameTooltipFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L389)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L391)
 --- child of QuestNPCModelTextScrollChildFrame
 --- @class QuestNPCModelText : FontString, GameFontHighlight
 QuestNPCModelText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L385)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L387)
 --- child of QuestNPCModelTextScrollFrame
 --- @class QuestNPCModelTextScrollChildFrame : Frame
 QuestNPCModelTextScrollChildFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L373)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L375)
 --- child of QuestModelScene_ModelTextFrame
 --- @class QuestNPCModelTextScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # -4
@@ -589,17 +589,17 @@ QuestNPCModelTextScrollFrame["scrollBarX"] = -4
 QuestNPCModelTextScrollFrame["scrollBarTopY"] = 10
 QuestNPCModelTextScrollFrame["scrollBarBottomY"] = -10
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L357)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L359)
 --- child of QuestModelScene
 --- @class QuestModelScene_ModelTextFrame : Frame
 --- @field TextBackground Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L318)
 --- child of QuestModelScene
 --- @class QuestNPCModelNameText : FontString, GameFontNormal
 QuestNPCModelNameText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L298)
 --- @class QuestModelScene : ModelScene, PanningModelSceneMixinTemplate, QuestFrameModelSceneMixin
 --- @field normalIntensity number # 0.75
 --- @field highlightIntensity number # 1.2

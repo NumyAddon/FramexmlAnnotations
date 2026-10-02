@@ -107,39 +107,28 @@
 --- @field flyoutDirection string # UP
 --- @field SocketDisplay PaperDollItemSlotButtonBottomTemplate_SocketDisplay
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L175)
---- child of PlayerTitleButtonTemplate
---- @class PlayerTitleButtonTemplate_BgTop : Texture, Char_Stat_Top
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L180)
---- child of PlayerTitleButtonTemplate
---- @class PlayerTitleButtonTemplate_BgBottom : Texture, Char_Stat_Top
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L166)
 --- Template
 --- @class PlayerTitleButtonTemplate : Button
---- @field BgTop PlayerTitleButtonTemplate_BgTop
---- @field BgBottom PlayerTitleButtonTemplate_BgBottom
---- @field BgMiddle Texture
 --- @field Stripe Texture
 --- @field Check Texture
 --- @field SelectedBar Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L308)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L285)
 --- child of GearSetButtonTemplate
 --- @class GearSetButtonTemplate_DeleteButton : Button
 --- @field texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L319)
 --- child of GearSetButtonTemplate
 --- @class GearSetButtonTemplate_EditButton : Button
 --- @field texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L245)
 --- child of GearSetButtonTemplate
 --- @class GearSetButtonTemplate_Text : FontString, GameFontNormalLeft
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L232)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L209)
 --- Template
 --- @class GearSetButtonTemplate : Button, GearSetButtonMixin
 --- @field buttonContext string # ButtonContext_GearSetButton
@@ -153,59 +142,64 @@
 --- @field SpecRing Texture
 --- @field SpecIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L379)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L356)
 --- Template
 --- @class GearSetPopupButtonTemplate : CheckButton, SimplePopupButtonTemplate
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L395)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L372)
 --- Template
 --- Adds itself to the parent inside the array `Tabs`
 --- @class PaperDollSidebarTabTemplate : CheckButton, PaperDollSidebarTabMixin
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L434)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L411)
 --- child of PaperDollSidebarTabs
 --- @class PaperDollSidebarTab2 : CheckButton, PaperDollSidebarTabTemplate
 PaperDollSidebarTab2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L439)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L416)
 --- child of PaperDollSidebarTabs
 --- @class PaperDollSidebarTab3 : CheckButton, PaperDollSidebarTabTemplate
 PaperDollSidebarTab3 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L444)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L421)
 --- child of PaperDollSidebarTabs
 --- @class PaperDollSidebarTab1 : CheckButton, PaperDollSidebarTabTemplate
 PaperDollSidebarTab1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L428)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L426)
+--- child of PaperDollSidebarTabs
+--- @class PaperDollSidebarTab4 : CheckButton, PaperDollSidebarTabTemplate
+PaperDollSidebarTab4 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L405)
 --- child of PaperDollFrame
 --- @class PaperDollSidebarTabs : Frame
---- @field Tabs table<number, PaperDollSidebarTab2 | PaperDollSidebarTab3 | PaperDollSidebarTab1>
+--- @field Tabs table<number, PaperDollSidebarTab2 | PaperDollSidebarTab3 | PaperDollSidebarTab1 | PaperDollSidebarTab4>
 PaperDollSidebarTabs = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L459)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L441)
 --- child of PaperDollLevelInfo
 --- @class CharacterLevelTextBackground : Texture
 CharacterLevelTextBackground = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L467)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L449)
 --- child of PaperDollLevelInfo
 --- @class CharacterLevelText : FontString, GameFontNormalLarge
 CharacterLevelText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L475)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L457)
 --- child of PaperDollLevelInfo
 --- @class PetLoyaltyText : FontString, GameFontHighlight
 PetLoyaltyText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L485)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L467)
 --- child of PaperDollLevelInfo
 --- @class CharacterTrialLevelErrorText : FontString, GameFontNormalSmall
 CharacterTrialLevelErrorText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L452)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L434)
 --- child of PaperDollFrame
 --- @class PaperDollLevelInfo : Frame
 PaperDollLevelInfo = {}
@@ -286,36 +280,37 @@ PaperDollTabIndicatorsRightTabButton["PressedTexture"] = PaperDollTabIndicatorsR
 PaperDollTabIndicatorsRightTabButton["ActiveTexture"] = PaperDollTabIndicatorsRightTabButtonActiveTexture -- inherited
 PaperDollTabIndicatorsRightTabButton["DisabledTexture"] = PaperDollTabIndicatorsRightTabButtonDisabledTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L498)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L480)
 --- child of PaperDollFrame
 --- @class PaperDollTabIndicators : Frame, GamepadTabIndicatorsTemplate
 PaperDollTabIndicators = {}
 PaperDollTabIndicators["LeftTabButton"] = PaperDollTabIndicatorsLeftTabButton -- inherited
 PaperDollTabIndicators["RightTabButton"] = PaperDollTabIndicatorsRightTabButton -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L506)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L499)
 --- child of PaperDollFrame_TitleManagerPane
 --- @class PaperDollFrame_TitleManagerPane_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L514)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L508)
 --- child of PaperDollFrame_TitleManagerPane
 --- @class PaperDollFrame_TitleManagerPane_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L500)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L482)
 --- child of PaperDollFrame
 --- @class PaperDollFrame_TitleManagerPane : Frame
 --- @field ScrollBox PaperDollFrame_TitleManagerPane_ScrollBox
 --- @field ScrollBar PaperDollFrame_TitleManagerPane_ScrollBar
+--- @field Border Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L532)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L526)
 --- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L538)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L532)
 --- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L545)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L539)
 --- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrameEquipSet : Button, SharedButtonSmallTemplate
 PaperDollFrameEquipSet = {}
@@ -323,7 +318,7 @@ PaperDollFrameEquipSet["fitTextCanWidthDecrease"] = false -- inherited
 PaperDollFrameEquipSet["fitTextWidthPadding"] = 30 -- inherited
 PaperDollFrameEquipSet["atlasName"] = "128-RedButton" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L555)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L549)
 --- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrameSaveSet : Button, SharedButtonSmallTemplate
 PaperDollFrameSaveSet = {}
@@ -331,12 +326,12 @@ PaperDollFrameSaveSet["fitTextCanWidthDecrease"] = false -- inherited
 PaperDollFrameSaveSet["fitTextWidthPadding"] = 30 -- inherited
 PaperDollFrameSaveSet["atlasName"] = "128-RedButton" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L565)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L559)
 --- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrameNewSet : Button, PaperDollTertiaryButtonTemplate
 PaperDollFrameNewSet = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L526)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L520)
 --- child of PaperDollFrame
 --- @class PaperDollFrame_EquipmentManagerPane : Frame, PaperDollEquipmentManagerPaneMixin
 --- @field ScrollBox PaperDollFrame_EquipmentManagerPane_ScrollBox
@@ -346,15 +341,15 @@ PaperDollFrameNewSet = {}
 --- @field NewSet PaperDollFrameNewSet
 --- @field Border Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L651)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L645)
 --- child of CharacterModelScene
 --- @class CharacterModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L698)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L692)
 --- child of CharacterModelScene_GearEnchantAnimation_FrameFX
 --- @class CharacterModelScene_GearEnchantAnimation_FrameFX_FrameFXAnimGroup : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L657)
 --- child of CharacterModelScene_GearEnchantAnimation
 --- @class CharacterModelScene_GearEnchantAnimation_FrameFX : Frame
 --- @field PurpleGlow Texture
@@ -363,57 +358,57 @@ PaperDollFrameNewSet = {}
 --- @field Mask MaskTexture
 --- @field FrameFXAnimGroup CharacterModelScene_GearEnchantAnimation_FrameFX_FrameFXAnimGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L729)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L723)
 --- child of CharacterModelScene_GearEnchantAnimation_TopFrame
 --- @class CharacterModelScene_GearEnchantAnimation_TopFrame_TopFrameAnimGroup : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L714)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L708)
 --- child of CharacterModelScene_GearEnchantAnimation
 --- @class CharacterModelScene_GearEnchantAnimation_TopFrame : Frame
 --- @field Frame Texture
 --- @field TopFrameAnimGroup CharacterModelScene_GearEnchantAnimation_TopFrame_TopFrameAnimGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L657)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L651)
 --- child of CharacterModelScene
 --- @class CharacterModelScene_GearEnchantAnimation : Frame, GearEnchantAnimationMixin
 --- @field FrameFX CharacterModelScene_GearEnchantAnimation_FrameFX
 --- @field TopFrame CharacterModelScene_GearEnchantAnimation_TopFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L740)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L734)
 --- child of CharacterModelScene
 --- @class PetPaperDollPetHappinessInfo : Frame, PetFrameHappinessTemplate
 PetPaperDollPetHappinessInfo = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L745)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L739)
 --- child of CharacterModelScene
 --- @class PetPaperDollFrameExpBar : Frame, PetExpColoredProgressBarTemplate
 PetPaperDollFrameExpBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L751)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L745)
 --- child of CharacterModelScene
 --- @class CharacterModelScene_GamepadFocusIndicator : Frame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L615)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L609)
 --- child of CharacterModelScene
 --- @class CharacterModelFrameBackgroundTopLeft : Texture
 CharacterModelFrameBackgroundTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L622)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L616)
 --- child of CharacterModelScene
 --- @class CharacterModelFrameBackgroundTopRight : Texture
 CharacterModelFrameBackgroundTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L630)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L624)
 --- child of CharacterModelScene
 --- @class CharacterModelFrameBackgroundBotLeft : Texture
 CharacterModelFrameBackgroundBotLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L638)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L632)
 --- child of CharacterModelScene
 --- @class CharacterModelFrameBackgroundBotRight : Texture
 CharacterModelFrameBackgroundBotRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L608)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L602)
 --- child of PaperDollFrame
 --- @class CharacterModelScene : ModelScene, PanningModelSceneMixinTemplate, CharacterModelSceneMixin
 --- @field ControlFrame CharacterModelScene_ControlFrame
@@ -442,7 +437,7 @@ CharacterHeadSlotPopoutButton = {}
 CharacterHeadSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterHeadSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L772)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L766)
 --- child of PaperDollItemsFrame
 --- @class CharacterHeadSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterHeadSlot = {}
@@ -465,7 +460,7 @@ CharacterNeckSlotPopoutButton = {}
 CharacterNeckSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterNeckSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L777)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L771)
 --- child of PaperDollItemsFrame
 --- @class CharacterNeckSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterNeckSlot = {}
@@ -488,7 +483,7 @@ CharacterShoulderSlotPopoutButton = {}
 CharacterShoulderSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterShoulderSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L782)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L776)
 --- child of PaperDollItemsFrame
 --- @class CharacterShoulderSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterShoulderSlot = {}
@@ -511,7 +506,7 @@ CharacterBackSlotPopoutButton = {}
 CharacterBackSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterBackSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L787)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L781)
 --- child of PaperDollItemsFrame
 --- @class CharacterBackSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterBackSlot = {}
@@ -534,7 +529,7 @@ CharacterChestSlotPopoutButton = {}
 CharacterChestSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterChestSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L792)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L786)
 --- child of PaperDollItemsFrame
 --- @class CharacterChestSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterChestSlot = {}
@@ -557,7 +552,7 @@ CharacterShirtSlotPopoutButton = {}
 CharacterShirtSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterShirtSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L797)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L791)
 --- child of PaperDollItemsFrame
 --- @class CharacterShirtSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterShirtSlot = {}
@@ -580,7 +575,7 @@ CharacterTabardSlotPopoutButton = {}
 CharacterTabardSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterTabardSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L802)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L796)
 --- child of PaperDollItemsFrame
 --- @class CharacterTabardSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterTabardSlot = {}
@@ -603,7 +598,7 @@ CharacterWristSlotPopoutButton = {}
 CharacterWristSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterWristSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L807)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L801)
 --- child of PaperDollItemsFrame
 --- @class CharacterWristSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterWristSlot = {}
@@ -626,7 +621,7 @@ CharacterHandsSlotPopoutButton = {}
 CharacterHandsSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterHandsSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L813)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L807)
 --- child of PaperDollItemsFrame
 --- @class CharacterHandsSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterHandsSlot = {}
@@ -649,7 +644,7 @@ CharacterWaistSlotPopoutButton = {}
 CharacterWaistSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterWaistSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L818)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L812)
 --- child of PaperDollItemsFrame
 --- @class CharacterWaistSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterWaistSlot = {}
@@ -672,7 +667,7 @@ CharacterLegsSlotPopoutButton = {}
 CharacterLegsSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterLegsSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L823)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L817)
 --- child of PaperDollItemsFrame
 --- @class CharacterLegsSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterLegsSlot = {}
@@ -695,7 +690,7 @@ CharacterFeetSlotPopoutButton = {}
 CharacterFeetSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterFeetSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L828)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L822)
 --- child of PaperDollItemsFrame
 --- @class CharacterFeetSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterFeetSlot = {}
@@ -718,7 +713,7 @@ CharacterFinger0SlotPopoutButton = {}
 CharacterFinger0SlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterFinger0SlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L833)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L827)
 --- child of PaperDollItemsFrame
 --- @class CharacterFinger0Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterFinger0Slot = {}
@@ -741,7 +736,7 @@ CharacterFinger1SlotPopoutButton = {}
 CharacterFinger1SlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterFinger1SlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L838)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L832)
 --- child of PaperDollItemsFrame
 --- @class CharacterFinger1Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterFinger1Slot = {}
@@ -764,7 +759,7 @@ CharacterTrinket0SlotPopoutButton = {}
 CharacterTrinket0SlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterTrinket0SlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L843)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L837)
 --- child of PaperDollItemsFrame
 --- @class CharacterTrinket0Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterTrinket0Slot = {}
@@ -787,7 +782,7 @@ CharacterTrinket1SlotPopoutButton = {}
 CharacterTrinket1SlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterTrinket1SlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L848)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L842)
 --- child of PaperDollItemsFrame
 --- @class CharacterTrinket1Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterTrinket1Slot = {}
@@ -810,7 +805,7 @@ CharacterMainHandSlotPopoutButton = {}
 CharacterMainHandSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterMainHandSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L854)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L848)
 --- child of PaperDollItemsFrame
 --- @class CharacterMainHandSlot : ItemButton, PaperDollItemSlotButtonBottomTemplate
 CharacterMainHandSlot = {}
@@ -832,7 +827,7 @@ CharacterSecondaryHandSlotPopoutButton = {}
 CharacterSecondaryHandSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterSecondaryHandSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L855)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L850)
 --- child of PaperDollItemsFrame
 --- @class CharacterSecondaryHandSlot : ItemButton, PaperDollItemSlotButtonBottomTemplate
 CharacterSecondaryHandSlot = {}
@@ -854,7 +849,7 @@ CharacterRangedSlotPopoutButton = {}
 CharacterRangedSlotPopoutButton["smartNavigationIgnored"] = true -- inherited
 CharacterRangedSlotPopoutButton["flyoutDirection"] = "RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L860)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L855)
 --- child of PaperDollItemsFrame
 --- @class CharacterRangedSlot : ItemButton, PaperDollItemSlotButtonBottomTemplate
 CharacterRangedSlot = {}
@@ -864,41 +859,41 @@ CharacterRangedSlot["Cooldown"] = CharacterRangedSlotCooldown -- inherited
 CharacterRangedSlot["popoutButton"] = CharacterRangedSlotPopoutButton -- inherited
 CharacterRangedSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L892)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L887)
 --- child of CharacterAmmoSlot
 --- @class CharacterAmmoSlotCooldown : Cooldown, CooldownFrameTemplate
 CharacterAmmoSlotCooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L879)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L874)
 --- child of CharacterAmmoSlot
 --- @class CharacterAmmoSlotIconTexture : Texture
 CharacterAmmoSlotIconTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L880)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L875)
 --- child of CharacterAmmoSlot
 --- @class CharacterAmmoSlotCount : FontString, NumberFontNormal
 CharacterAmmoSlotCount = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L920)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L915)
 --- child of CharacterAmmoSlot
 --- @class CharacterAmmoSlotNormalTexture : Texture
 CharacterAmmoSlotNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L865)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L860)
 --- child of PaperDollItemsFrame
 --- @class CharacterAmmoSlot : ItemButton
 --- @field Count CharacterAmmoSlotCount
 CharacterAmmoSlot = {}
 CharacterAmmoSlot["Count"] = CharacterAmmoSlotCount
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L770)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L764)
 --- child of PaperDollFrame
 --- @class PaperDollItemsFrame : Frame
 --- @field EquipmentSlots table<number, CharacterHeadSlot | CharacterNeckSlot | CharacterShoulderSlot | CharacterBackSlot | CharacterChestSlot | CharacterShirtSlot | CharacterTabardSlot | CharacterWristSlot | CharacterHandsSlot | CharacterWaistSlot | CharacterLegsSlot | CharacterFeetSlot | CharacterFinger0Slot | CharacterFinger1Slot | CharacterTrinket0Slot | CharacterTrinket1Slot>
 --- @field WeaponSlots table<number, CharacterMainHandSlot | CharacterSecondaryHandSlot | CharacterRangedSlot>
 PaperDollItemsFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L426)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L403)
 --- @class PaperDollFrame : Frame, PaperDollFrameMixin
 --- @field TabIndicators PaperDollTabIndicators
 --- @field TitleManagerPane PaperDollFrame_TitleManagerPane
@@ -910,7 +905,7 @@ PaperDollFrame["TabIndicators"] = PaperDollTabIndicators
 PaperDollFrame["CharacterModelScene"] = CharacterModelScene
 PaperDollFrame["ItemsFrame"] = PaperDollItemsFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L940)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L935)
 --- @class GearManagerPopupFrame : Frame, IconSelectorPopupFrameTemplate, GearManagerPopupFrameMixin
 --- @field editBoxHeaderText any # GEARSETS_POPUP_TEXT
 GearManagerPopupFrame = {}

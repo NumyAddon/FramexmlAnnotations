@@ -67,7 +67,7 @@
 --- @field ActivateButton ClassTalentActiveSpecTemplate_ActivateButton
 --- @field ActiveLabel ClassTalentActiveSpecTemplate_ActiveLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L345)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_TabSystem : Frame, TabSystemTemplate
 --- @field minTabWidth number # 150
@@ -75,77 +75,77 @@
 --- @field tabTemplate string # ClassTalentsFrameTabTemplate
 --- @field smartNavigationIgnored boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L357)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_GamepadPrimaryTabIcon : Frame, InputIconTextureFrameTemplate
 --- @field mappedButtonKey any # GAMEPAD_SHOULDER_LEFT
 --- @field useDropShadow boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L365)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L368)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_GamepadSecondaryTabIcon : Frame, InputIconTextureFrameTemplate
 --- @field mappedButtonKey any # GAMEPAD_SHOULDER_RIGHT
 --- @field useDropShadow boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L379)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_HeroTalentsContainer : Frame, HeroTalentsContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L382)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L385)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_ClassCurrencyDisplay : Frame, ClassTalentCurrencyDisplayTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L388)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L391)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_ActiveSpec : Frame, ClassTalentActiveSpecTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L394)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L397)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_LoadSystem : Frame, DropdownLoadSystemTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L401)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L404)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_SearchBox : EditBox, SpellSearchBoxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L405)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L408)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_SearchBoxIcon : Frame, InputIconTextureFrameTemplate
 --- @field mappedButtonKey any # GAMEPAD_MENU_LEFT
 --- @field useDropShadow boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L416)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L419)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_SearchPreviewContainer : Frame, SpellSearchPreviewContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L423)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L426)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_SearchOptionsDropdown : DropdownButton, WowStyle1ArrowDropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L427)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L430)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_SettingsTopFaceIcon : Frame, InputIconTextureFrameTemplate
 --- @field mappedButtonKey any # GAMEPAD_MENU_RIGHT
 --- @field useDropShadow boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L447)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L450)
 --- child of ClassTalentsFrameTemplate_ApplyButton
 --- @class ClassTalentsFrameTemplate_ApplyButton_YellowGlow : Frame
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L438)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L441)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_ApplyButton : Button, UIPanelButtonNoTooltipTemplate, UIButtonTemplate
 --- @field smartNavigationIgnored boolean # true
 --- @field YellowGlow ClassTalentsFrameTemplate_ApplyButton_YellowGlow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L477)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L480)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_InspectCopyButton : Button, UIPanelButtonNoTooltipTemplate, UIButtonTemplate
 --- @field fitTextWidthPadding number # 80
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L487)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L490)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_ResetButton : DropdownButton, IconButtonTemplate
 --- @field menuPoint string # BOTTOMLEFT
@@ -156,13 +156,13 @@
 --- @field useAtlasSize boolean # true
 --- @field useIconAsHighlight boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L503)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L506)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_GamepadUndoButton : Frame, InputIconTextureFrameTemplate
 --- @field mappedButtonKey any # GAMEPAD_FACE_TOP
 --- @field useDropShadow boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L514)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L517)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_UndoButton : Button, IconButtonTemplate
 --- @field iconAtlas string # talents-button-undo
@@ -172,7 +172,7 @@
 --- @field tooltipTextColor any # HIGHLIGHT_FONT_COLOR
 --- @field smartNavigationIgnored boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L529)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/ClassTalents/Blizzard_ClassTalentsFrame.xml#L532)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_FxModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 

@@ -53,7 +53,7 @@ local CraftingQualityStatLine = {
     ["Concentration"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLBase/IconDataProvider.lua#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLBase/IconDataProvider.lua#L47)
  --- @enum IconDataProviderIconType
 local IconDataProviderIconType = {
     ["Spell"] = 1,

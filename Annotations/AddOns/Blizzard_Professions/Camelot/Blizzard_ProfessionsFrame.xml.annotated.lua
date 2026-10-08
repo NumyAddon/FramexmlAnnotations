@@ -41,31 +41,6 @@
 --- child of ProfessionsFrame
 --- @class ProfessionsFrame_Professions7Tab : Frame, ProfessionsFrameRightTabTemplateWrapper
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L10)
---- child of ProfessionsFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-ProfessionsFrameLeftTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L11)
---- child of ProfessionsFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-ProfessionsFrameLeftTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L12)
---- child of ProfessionsFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-ProfessionsFrameLeftTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L13)
---- child of ProfessionsFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-ProfessionsFrameLeftTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L14)
---- child of ProfessionsFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-ProfessionsFrameLeftTabButtonDisabledTexture = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L15)
 --- child of ProfessionsFrame_TabIndicators (created in template GamepadTabIndicatorsTemplate)
 --- @type GamepadTabIndicatorsTemplate_LeftTabButton
@@ -73,36 +48,6 @@ ProfessionsFrameLeftTabButton = {}
 ProfessionsFrameLeftTabButton["offset"] = -1
 ProfessionsFrameLeftTabButton["useDropShadow"] = true -- inherited
 ProfessionsFrameLeftTabButton["smartNavigationIgnored"] = true -- inherited
-ProfessionsFrameLeftTabButton["NormalTexture"] = ProfessionsFrameLeftTabButtonNormalTexture -- inherited
-ProfessionsFrameLeftTabButton["HoverTexture"] = ProfessionsFrameLeftTabButtonHoverTexture -- inherited
-ProfessionsFrameLeftTabButton["PressedTexture"] = ProfessionsFrameLeftTabButtonPressedTexture -- inherited
-ProfessionsFrameLeftTabButton["ActiveTexture"] = ProfessionsFrameLeftTabButtonActiveTexture -- inherited
-ProfessionsFrameLeftTabButton["DisabledTexture"] = ProfessionsFrameLeftTabButtonDisabledTexture -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L10)
---- child of ProfessionsFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-ProfessionsFrameRightTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L11)
---- child of ProfessionsFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-ProfessionsFrameRightTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L12)
---- child of ProfessionsFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-ProfessionsFrameRightTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L13)
---- child of ProfessionsFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-ProfessionsFrameRightTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L14)
---- child of ProfessionsFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-ProfessionsFrameRightTabButtonDisabledTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L20)
 --- child of ProfessionsFrame_TabIndicators (created in template GamepadTabIndicatorsTemplate)
@@ -111,11 +56,6 @@ ProfessionsFrameRightTabButton = {}
 ProfessionsFrameRightTabButton["offset"] = 1
 ProfessionsFrameRightTabButton["useDropShadow"] = true -- inherited
 ProfessionsFrameRightTabButton["smartNavigationIgnored"] = true -- inherited
-ProfessionsFrameRightTabButton["NormalTexture"] = ProfessionsFrameRightTabButtonNormalTexture -- inherited
-ProfessionsFrameRightTabButton["HoverTexture"] = ProfessionsFrameRightTabButtonHoverTexture -- inherited
-ProfessionsFrameRightTabButton["PressedTexture"] = ProfessionsFrameRightTabButtonPressedTexture -- inherited
-ProfessionsFrameRightTabButton["ActiveTexture"] = ProfessionsFrameRightTabButtonActiveTexture -- inherited
-ProfessionsFrameRightTabButton["DisabledTexture"] = ProfessionsFrameRightTabButtonDisabledTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Camelot/Blizzard_ProfessionsFrame.xml#L62)
 --- child of ProfessionsFrame

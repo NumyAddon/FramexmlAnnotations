@@ -18,31 +18,6 @@
 --- @field tooltipText any # LEGACY_TREE_TAB_TOOLTIP
 --- @field iconTexture string # Interface/Icons/achievement_guildperk_everybodysfriend
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L10)
---- child of LegacySystemFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-LegacySystemFrameTabIndicatorsLeftTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L11)
---- child of LegacySystemFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-LegacySystemFrameTabIndicatorsLeftTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L12)
---- child of LegacySystemFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-LegacySystemFrameTabIndicatorsLeftTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L13)
---- child of LegacySystemFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-LegacySystemFrameTabIndicatorsLeftTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L14)
---- child of LegacySystemFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-LegacySystemFrameTabIndicatorsLeftTabButtonDisabledTexture = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L15)
 --- child of LegacySystemFrameTabIndicators (created in template GamepadTabIndicatorsTemplate)
 --- @type GamepadTabIndicatorsTemplate_LeftTabButton
@@ -50,36 +25,6 @@ LegacySystemFrameTabIndicatorsLeftTabButton = {}
 LegacySystemFrameTabIndicatorsLeftTabButton["offset"] = -1
 LegacySystemFrameTabIndicatorsLeftTabButton["useDropShadow"] = true -- inherited
 LegacySystemFrameTabIndicatorsLeftTabButton["smartNavigationIgnored"] = true -- inherited
-LegacySystemFrameTabIndicatorsLeftTabButton["NormalTexture"] = LegacySystemFrameTabIndicatorsLeftTabButtonNormalTexture -- inherited
-LegacySystemFrameTabIndicatorsLeftTabButton["HoverTexture"] = LegacySystemFrameTabIndicatorsLeftTabButtonHoverTexture -- inherited
-LegacySystemFrameTabIndicatorsLeftTabButton["PressedTexture"] = LegacySystemFrameTabIndicatorsLeftTabButtonPressedTexture -- inherited
-LegacySystemFrameTabIndicatorsLeftTabButton["ActiveTexture"] = LegacySystemFrameTabIndicatorsLeftTabButtonActiveTexture -- inherited
-LegacySystemFrameTabIndicatorsLeftTabButton["DisabledTexture"] = LegacySystemFrameTabIndicatorsLeftTabButtonDisabledTexture -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L10)
---- child of LegacySystemFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-LegacySystemFrameTabIndicatorsRightTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L11)
---- child of LegacySystemFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-LegacySystemFrameTabIndicatorsRightTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L12)
---- child of LegacySystemFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-LegacySystemFrameTabIndicatorsRightTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L13)
---- child of LegacySystemFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-LegacySystemFrameTabIndicatorsRightTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L14)
---- child of LegacySystemFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-LegacySystemFrameTabIndicatorsRightTabButtonDisabledTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L20)
 --- child of LegacySystemFrameTabIndicators (created in template GamepadTabIndicatorsTemplate)
@@ -88,11 +33,6 @@ LegacySystemFrameTabIndicatorsRightTabButton = {}
 LegacySystemFrameTabIndicatorsRightTabButton["offset"] = 1
 LegacySystemFrameTabIndicatorsRightTabButton["useDropShadow"] = true -- inherited
 LegacySystemFrameTabIndicatorsRightTabButton["smartNavigationIgnored"] = true -- inherited
-LegacySystemFrameTabIndicatorsRightTabButton["NormalTexture"] = LegacySystemFrameTabIndicatorsRightTabButtonNormalTexture -- inherited
-LegacySystemFrameTabIndicatorsRightTabButton["HoverTexture"] = LegacySystemFrameTabIndicatorsRightTabButtonHoverTexture -- inherited
-LegacySystemFrameTabIndicatorsRightTabButton["PressedTexture"] = LegacySystemFrameTabIndicatorsRightTabButtonPressedTexture -- inherited
-LegacySystemFrameTabIndicatorsRightTabButton["ActiveTexture"] = LegacySystemFrameTabIndicatorsRightTabButtonActiveTexture -- inherited
-LegacySystemFrameTabIndicatorsRightTabButton["DisabledTexture"] = LegacySystemFrameTabIndicatorsRightTabButtonDisabledTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacySystem.xml#L34)
 --- child of LegacySystemFrame

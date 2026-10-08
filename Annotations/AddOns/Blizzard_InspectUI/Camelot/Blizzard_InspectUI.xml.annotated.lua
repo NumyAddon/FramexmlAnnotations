@@ -10,57 +10,51 @@
 --- @class InspectFrameTab1 : Button, PanelTabButtonTemplate
 InspectFrameTab1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L27)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L28)
 --- child of InspectFrame
 --- @class InspectFrameTab2 : Button, PanelTabButtonTemplate
 InspectFrameTab2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L41)
+--- child of InspectFrame
+--- @class InspectFrameTab3 : Button, PanelTabButtonTemplate
+InspectFrameTab3 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L60)
 --- child of InspectUITabs
 --- @class InspectFrameModeTab1 : Frame, InspectFrameModeSideTabTemplate
+--- @field tooltipText any # CHARACTER_INFO
 InspectFrameModeTab1 = {}
+InspectFrameModeTab1["tooltipText"] = CHARACTER_INFO
 InspectFrameModeTab1["fillToInterior"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L65)
 --- child of InspectUITabs
 --- @class InspectFrameModeTab2 : Frame, InspectFrameModeSideTabTemplate
+--- @field tooltipText any # PLAYER_V_PLAYER
 InspectFrameModeTab2 = {}
+InspectFrameModeTab2["tooltipText"] = PLAYER_V_PLAYER
 InspectFrameModeTab2["fillToInterior"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L70)
+--- child of InspectUITabs
+--- @class InspectFrameModeTab3 : Frame, InspectFrameModeSideTabTemplate
+--- @field tooltipText any # GUILD
+InspectFrameModeTab3 = {}
+InspectFrameModeTab3["tooltipText"] = GUILD
+InspectFrameModeTab3["fillToInterior"] = true -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L54)
 --- child of InspectFrame
 --- @class InspectUITabs : Frame
 --- @field CharacterTab InspectFrameModeTab1
---- @field GuildTab InspectFrameModeTab2
---- @field Tabs table<number, InspectFrameModeTab1 | InspectFrameModeTab2>
+--- @field PvPTab InspectFrameModeTab2
+--- @field GuildTab InspectFrameModeTab3
+--- @field Tabs table<number, InspectFrameModeTab1 | InspectFrameModeTab2 | InspectFrameModeTab3>
 InspectUITabs = {}
 InspectUITabs["CharacterTab"] = InspectFrameModeTab1
-InspectUITabs["GuildTab"] = InspectFrameModeTab2
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L10)
---- child of InspectFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-InspectFrameLeftTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L11)
---- child of InspectFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-InspectFrameLeftTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L12)
---- child of InspectFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-InspectFrameLeftTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L13)
---- child of InspectFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-InspectFrameLeftTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L14)
---- child of InspectFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-InspectFrameLeftTabButtonDisabledTexture = {}
+InspectUITabs["PvPTab"] = InspectFrameModeTab2
+InspectUITabs["GuildTab"] = InspectFrameModeTab3
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L15)
 --- child of InspectFrame_TabIndicators (created in template GamepadTabIndicatorsTemplate)
@@ -69,36 +63,6 @@ InspectFrameLeftTabButton = {}
 InspectFrameLeftTabButton["offset"] = -1
 InspectFrameLeftTabButton["useDropShadow"] = true -- inherited
 InspectFrameLeftTabButton["smartNavigationIgnored"] = true -- inherited
-InspectFrameLeftTabButton["NormalTexture"] = InspectFrameLeftTabButtonNormalTexture -- inherited
-InspectFrameLeftTabButton["HoverTexture"] = InspectFrameLeftTabButtonHoverTexture -- inherited
-InspectFrameLeftTabButton["PressedTexture"] = InspectFrameLeftTabButtonPressedTexture -- inherited
-InspectFrameLeftTabButton["ActiveTexture"] = InspectFrameLeftTabButtonActiveTexture -- inherited
-InspectFrameLeftTabButton["DisabledTexture"] = InspectFrameLeftTabButtonDisabledTexture -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L10)
---- child of InspectFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-InspectFrameRightTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L11)
---- child of InspectFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-InspectFrameRightTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L12)
---- child of InspectFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-InspectFrameRightTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L13)
---- child of InspectFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-InspectFrameRightTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L14)
---- child of InspectFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-InspectFrameRightTabButtonDisabledTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L20)
 --- child of InspectFrame_TabIndicators (created in template GamepadTabIndicatorsTemplate)
@@ -107,13 +71,8 @@ InspectFrameRightTabButton = {}
 InspectFrameRightTabButton["offset"] = 1
 InspectFrameRightTabButton["useDropShadow"] = true -- inherited
 InspectFrameRightTabButton["smartNavigationIgnored"] = true -- inherited
-InspectFrameRightTabButton["NormalTexture"] = InspectFrameRightTabButtonNormalTexture -- inherited
-InspectFrameRightTabButton["HoverTexture"] = InspectFrameRightTabButtonHoverTexture -- inherited
-InspectFrameRightTabButton["PressedTexture"] = InspectFrameRightTabButtonPressedTexture -- inherited
-InspectFrameRightTabButton["ActiveTexture"] = InspectFrameRightTabButtonActiveTexture -- inherited
-InspectFrameRightTabButton["DisabledTexture"] = InspectFrameRightTabButtonDisabledTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L49)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/Blizzard_InspectUI.xml#L77)
 --- child of InspectFrame
 --- @class InspectFrame_TabIndicators : Frame, GamepadTabIndicatorsTemplate
 --- @field isVertical boolean # true
@@ -138,7 +97,7 @@ InspectFrameBg = {}
 --- @class InspectFrame : Frame, ButtonFrameTemplate, InspectFrameMixin
 --- @field ModeTabs InspectUITabs
 --- @field TabIndicators InspectFrame_TabIndicators
---- @field Tabs table<number, InspectFrameTab1 | InspectFrameTab2>
+--- @field Tabs table<number, InspectFrameTab1 | InspectFrameTab2 | InspectFrameTab3>
 InspectFrame = {}
 InspectFrame["ModeTabs"] = InspectUITabs
 InspectFrame["Inset"] = InspectFrameInset -- inherited

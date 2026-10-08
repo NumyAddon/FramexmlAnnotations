@@ -26,87 +26,83 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L64)
 --- child of InspectPaperDollFrame_LevelTextWrapper
---- @class InspectLevelText : FontString, GameFontNormalSmall
+--- @class InspectLevelText : FontString, GameFontNormalMed2Outline
 InspectLevelText = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L58)
 --- child of InspectPaperDollFrame
 --- @class InspectPaperDollFrame_LevelTextWrapper : Frame, ResizeLayoutFrame, LevelTextMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L78)
---- child of InspectPaperDollFrame
---- @class InspectPaperDollFrame_InspectTalents : Button, UIPanelButtonTemplate, InspectPaperDollFrameTalentsButtonMixin
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L77)
 --- child of InspectPaperDollFrame
 --- @class InspectPaperDollFrame_ViewButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L94)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBackgroundTopLeft : Texture
 InspectModelFrameBackgroundTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L101)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBackgroundTopRight : Texture
 InspectModelFrameBackgroundTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L109)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBackgroundBotLeft : Texture
 InspectModelFrameBackgroundBotLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L117)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBackgroundBotRight : Texture
 InspectModelFrameBackgroundBotRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L139)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L127)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBackgroundOverlay : Texture
 InspectModelFrameBackgroundOverlay = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L149)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L137)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBorderTopLeft : Texture, Char_Corner_UpperLeft
 InspectModelFrameBorderTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L154)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L142)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBorderTopRight : Texture, Char_Corner_UpperRight
 InspectModelFrameBorderTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L147)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBorderBottomLeft : Texture, Char_Corner_LowerLeft
 InspectModelFrameBorderBottomLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L152)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBorderBottomRight : Texture, Char_Corner_LowerRight
 InspectModelFrameBorderBottomRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L169)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L157)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBorderLeft : Texture, Char_Inner_Left
 InspectModelFrameBorderLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L165)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBorderRight : Texture, Char_Inner_Right
 InspectModelFrameBorderRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L185)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L173)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBorderTop : Texture, Char_Inner_Top
 InspectModelFrameBorderTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L181)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBorderBottom : Texture, Char_Inner_Bottom
 InspectModelFrameBorderBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L189)
 --- child of InspectModelFrame
 --- @class InspectModelFrameBorderBottom2 : Texture, Char_Inner_Bottom
 InspectModelFrameBorderBottom2 = {}
@@ -147,7 +143,7 @@ InspectModelFrameControlFrame["panButton"] = ModelWithControlsTemplateControlFra
 InspectModelFrameControlFrame["rotateLeftButton"] = ModelWithControlsTemplateControlFrameRotateLeftButton
 InspectModelFrameControlFrame["rotateRightButton"] = ModelWithControlsTemplateControlFrameRotateRightButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L87)
 --- child of InspectPaperDollFrame
 --- @class InspectModelFrame : PlayerModel, ModelWithControlsTemplate
 --- @field BackgroundTopLeft InspectModelFrameBackgroundTopLeft
@@ -163,102 +159,102 @@ InspectModelFrame["BackgroundBotRight"] = InspectModelFrameBackgroundBotRight
 InspectModelFrame["BackgroundOverlay"] = InspectModelFrameBackgroundOverlay
 InspectModelFrame["controlFrame"] = InspectModelFrameControlFrame -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L205)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectHeadSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectHeadSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L222)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L210)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectNeckSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectNeckSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L228)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L216)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectShoulderSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectShoulderSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L222)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectBackSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectBackSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L228)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectChestSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectChestSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L234)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectShirtSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectShirtSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L252)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L240)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectTabardSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectTabardSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L258)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L246)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectWristSlot : ItemButton, InspectPaperDollItemSlotButtonLeftTemplate
 InspectWristSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L252)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectHandsSlot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectHandsSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L257)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectWaistSlot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectWaistSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L263)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectLegsSlot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectLegsSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L269)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectFeetSlot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectFeetSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L275)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectFinger0Slot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectFinger0Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L281)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectFinger1Slot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectFinger1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L287)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectTrinket0Slot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectTrinket0Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L293)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectTrinket1Slot : ItemButton, InspectPaperDollItemSlotButtonRightTemplate
 InspectTrinket1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L311)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L299)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectMainHandSlot : ItemButton, InspectPaperDollItemSlotButtonBottomTemplate
 InspectMainHandSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L304)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectSecondaryHandSlot : ItemButton, InspectPaperDollItemSlotButtonBottomTemplate
 InspectSecondaryHandSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L322)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L310)
 --- child of InspectPaperDollItemsFrame
 --- @class InspectRangedSlot : ItemButton, InspectPaperDollItemSlotButtonBottomTemplate
 InspectRangedSlot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L215)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L203)
 --- child of InspectPaperDollFrame
 --- @class InspectPaperDollItemsFrame : Frame
 --- @field LeftEquipmentSlots table<number, InspectHeadSlot | InspectNeckSlot | InspectShoulderSlot | InspectBackSlot | InspectChestSlot | InspectShirtSlot | InspectTabardSlot | InspectWristSlot>
@@ -266,17 +262,17 @@ InspectRangedSlot = {}
 --- @field WeaponSlots table<number, InspectMainHandSlot | InspectSecondaryHandSlot | InspectRangedSlot>
 InspectPaperDollItemsFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L321)
 --- child of InspectPaperDollFrame
 --- @class InspectTitleText : FontString, GameFontNormalSmall
 InspectTitleText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L338)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L326)
 --- child of InspectPaperDollFrame
 --- @class InspectGuildText : FontString, GameFontNormalSmall
 InspectGuildText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L343)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L331)
 --- child of InspectPaperDollFrame
 --- @class InspectFaction : Texture
 InspectFaction = {}
@@ -284,7 +280,6 @@ InspectFaction = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L56)
 --- @class InspectPaperDollFrame : Frame, InspectPaperDollFrameMixin
 --- @field LevelTextWrapper InspectPaperDollFrame_LevelTextWrapper
---- @field InspectTalents InspectPaperDollFrame_InspectTalents
 --- @field ViewButton InspectPaperDollFrame_ViewButton
 InspectPaperDollFrame = {}
 

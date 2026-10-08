@@ -375,31 +375,6 @@ CharacterFrameModeTabs["PvPTab"] = CharacterFrameModeTab4
 CharacterFrameModeTabs["CurrencyTab"] = CharacterFrameModeTab5
 CharacterFrameModeTabs["StatisticsTab"] = CharacterFrameModeTab6
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L10)
---- child of CharacterFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-CharacterFrameTabIndicatorsLeftTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L11)
---- child of CharacterFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-CharacterFrameTabIndicatorsLeftTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L12)
---- child of CharacterFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-CharacterFrameTabIndicatorsLeftTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L13)
---- child of CharacterFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-CharacterFrameTabIndicatorsLeftTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L14)
---- child of CharacterFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-CharacterFrameTabIndicatorsLeftTabButtonDisabledTexture = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L15)
 --- child of CharacterFrameTabIndicators (created in template GamepadTabIndicatorsTemplate)
 --- @type GamepadTabIndicatorsTemplate_LeftTabButton
@@ -407,36 +382,6 @@ CharacterFrameTabIndicatorsLeftTabButton = {}
 CharacterFrameTabIndicatorsLeftTabButton["offset"] = -1
 CharacterFrameTabIndicatorsLeftTabButton["useDropShadow"] = true -- inherited
 CharacterFrameTabIndicatorsLeftTabButton["smartNavigationIgnored"] = true -- inherited
-CharacterFrameTabIndicatorsLeftTabButton["NormalTexture"] = CharacterFrameTabIndicatorsLeftTabButtonNormalTexture -- inherited
-CharacterFrameTabIndicatorsLeftTabButton["HoverTexture"] = CharacterFrameTabIndicatorsLeftTabButtonHoverTexture -- inherited
-CharacterFrameTabIndicatorsLeftTabButton["PressedTexture"] = CharacterFrameTabIndicatorsLeftTabButtonPressedTexture -- inherited
-CharacterFrameTabIndicatorsLeftTabButton["ActiveTexture"] = CharacterFrameTabIndicatorsLeftTabButtonActiveTexture -- inherited
-CharacterFrameTabIndicatorsLeftTabButton["DisabledTexture"] = CharacterFrameTabIndicatorsLeftTabButtonDisabledTexture -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L10)
---- child of CharacterFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-CharacterFrameTabIndicatorsRightTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L11)
---- child of CharacterFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-CharacterFrameTabIndicatorsRightTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L12)
---- child of CharacterFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-CharacterFrameTabIndicatorsRightTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L13)
---- child of CharacterFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-CharacterFrameTabIndicatorsRightTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L14)
---- child of CharacterFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-CharacterFrameTabIndicatorsRightTabButtonDisabledTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L20)
 --- child of CharacterFrameTabIndicators (created in template GamepadTabIndicatorsTemplate)
@@ -445,11 +390,6 @@ CharacterFrameTabIndicatorsRightTabButton = {}
 CharacterFrameTabIndicatorsRightTabButton["offset"] = 1
 CharacterFrameTabIndicatorsRightTabButton["useDropShadow"] = true -- inherited
 CharacterFrameTabIndicatorsRightTabButton["smartNavigationIgnored"] = true -- inherited
-CharacterFrameTabIndicatorsRightTabButton["NormalTexture"] = CharacterFrameTabIndicatorsRightTabButtonNormalTexture -- inherited
-CharacterFrameTabIndicatorsRightTabButton["HoverTexture"] = CharacterFrameTabIndicatorsRightTabButtonHoverTexture -- inherited
-CharacterFrameTabIndicatorsRightTabButton["PressedTexture"] = CharacterFrameTabIndicatorsRightTabButtonPressedTexture -- inherited
-CharacterFrameTabIndicatorsRightTabButton["ActiveTexture"] = CharacterFrameTabIndicatorsRightTabButtonActiveTexture -- inherited
-CharacterFrameTabIndicatorsRightTabButton["DisabledTexture"] = CharacterFrameTabIndicatorsRightTabButtonDisabledTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/CharacterFrame.xml#L606)
 --- child of CharacterFrame

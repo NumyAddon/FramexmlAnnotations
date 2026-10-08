@@ -73,7 +73,7 @@ GamepadMainActionBarFramePageUnitFriendlyTargetingActionBarBackgroundFocus = {}
 --- @type Texture
 GamepadMainActionBarFramePageUnitFriendlyTargetingActionBarIdentifierIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L55)
 --- Implicitly protected
 --- child of GamepadMainActionBarFramePageUnit
 --- @class GamepadMainActionBarFramePageUnitFriendlyTargetingActionBar : Frame, GamepadActionBarTemplate, GamepadFriendlyTargetingActionBarMixin
@@ -159,7 +159,7 @@ GamepadMainActionBarFramePageUnitHostileTargetingActionBarBackgroundFocus = {}
 --- @type Texture
 GamepadMainActionBarFramePageUnitHostileTargetingActionBarIdentifierIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L68)
 --- Implicitly protected
 --- child of GamepadMainActionBarFramePageUnit
 --- @class GamepadMainActionBarFramePageUnitHostileTargetingActionBar : Frame, GamepadActionBarTemplate, GamepadHostileTargetingActionBarMixin
@@ -245,7 +245,7 @@ GamepadMainActionBarFramePageUnitShortcutsActionBarBackgroundFocus = {}
 --- @type Texture
 GamepadMainActionBarFramePageUnitShortcutsActionBarIdentifierIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L81)
 --- Implicitly protected
 --- child of GamepadMainActionBarFramePageUnit
 --- @class GamepadMainActionBarFramePageUnitShortcutsActionBar : Frame, GamepadActionBarTemplate, GamepadShortcutsActionBarMixin
@@ -288,7 +288,7 @@ GamepadMainActionBarFramePageUnitLeftClassActionBorder = {}
 --- @type Texture
 GamepadMainActionBarFramePageUnitLeftClassActionNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L94)
 --- Explicitly protected
 --- child of GamepadMainActionBarFramePageUnit
 --- @class GamepadMainActionBarFramePageUnitLeftClassAction : CheckButton, GamepadClassActionButtonTemplate
@@ -352,7 +352,7 @@ GamepadMainActionBarFramePageUnitRightClassActionBorder = {}
 --- @type Texture
 GamepadMainActionBarFramePageUnitRightClassActionNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L104)
 --- Explicitly protected
 --- child of GamepadMainActionBarFramePageUnit
 --- @class GamepadMainActionBarFramePageUnitRightClassAction : CheckButton, GamepadClassActionButtonTemplate
@@ -386,13 +386,13 @@ GamepadMainActionBarFramePageUnitRightClassAction["arrowNormalTexture"] = "UI-HU
 GamepadMainActionBarFramePageUnitRightClassAction["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 GamepadMainActionBarFramePageUnitRightClassAction["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L119)
 --- child of GamepadMainActionBarFramePageUnit
 --- @class GamepadMainActionBarFramePageUnit_LeftInputPrompt : Frame, InputPromptTwoIconTemplate
 --- @field Icon1 any # GAMEPAD_SHOULDER_LEFT
 --- @field Icon2 any # GAMEPAD_TRIGGER_LEFT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L129)
 --- child of GamepadMainActionBarFramePageUnit
 --- @class GamepadMainActionBarFramePageUnit_RightInputPrompt : Frame, InputPromptTwoIconTemplate
 --- @field Icon1 any # GAMEPAD_SHOULDER_RIGHT
@@ -482,7 +482,7 @@ GamepadMainActionBarFramePageUnitLeftCenteredAnchor["Bar"] = GamepadActionBarPag
 GamepadMainActionBarFramePageUnitRightCenteredAnchor = {}
 GamepadMainActionBarFramePageUnitRightCenteredAnchor["Bar"] = GamepadActionBarPageUnitTemplateRightCenteredAnchorRightBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L14)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L12)
 --- Implicitly protected
 --- child of GamepadMainActionBarFrame
 --- @class GamepadMainActionBarFramePageUnit : Frame, GamepadActionBarPageUnitTemplate
@@ -513,8 +513,10 @@ GamepadMainActionBarFramePageUnit["RightCenteredAnchor"] = GamepadMainActionBarF
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/MainActionBarFrame.xml#L3)
 --- Implicitly protected
---- @class GamepadMainActionBarFrame : Frame, GamepadMainActionBarFrameMixin
+--- @class GamepadMainActionBarFrame : Frame, EditModeGamepadMainActionBarSystemTemplate, GamepadMainActionBarFrameMixin
 --- @field PageUnit GamepadMainActionBarFramePageUnit # Implicitly protected
 GamepadMainActionBarFrame = {}
 GamepadMainActionBarFrame["PageUnit"] = GamepadMainActionBarFramePageUnit
+GamepadMainActionBarFrame["system"] = Enum.EditModeSystem.GamepadMainActionBar -- inherited
+GamepadMainActionBarFrame["systemNameString"] = HUD_EDIT_MODE_GAMEPAD_MAIN_ACTION_BAR_LABEL -- inherited
 

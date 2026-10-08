@@ -890,31 +890,6 @@ MailFrameTab1 = {}
 --- @class MailFrameTab2 : Button, FriendsFrameTabTemplate
 MailFrameTab2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L10)
---- child of MailFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MailFrameLeftTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L11)
---- child of MailFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MailFrameLeftTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L12)
---- child of MailFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MailFrameLeftTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L13)
---- child of MailFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MailFrameLeftTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L14)
---- child of MailFrameLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MailFrameLeftTabButtonDisabledTexture = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L15)
 --- child of MailFrame_TabIndicators (created in template GamepadTabIndicatorsTemplate)
 --- @type GamepadTabIndicatorsTemplate_LeftTabButton
@@ -922,36 +897,6 @@ MailFrameLeftTabButton = {}
 MailFrameLeftTabButton["offset"] = -1
 MailFrameLeftTabButton["useDropShadow"] = true -- inherited
 MailFrameLeftTabButton["smartNavigationIgnored"] = true -- inherited
-MailFrameLeftTabButton["NormalTexture"] = MailFrameLeftTabButtonNormalTexture -- inherited
-MailFrameLeftTabButton["HoverTexture"] = MailFrameLeftTabButtonHoverTexture -- inherited
-MailFrameLeftTabButton["PressedTexture"] = MailFrameLeftTabButtonPressedTexture -- inherited
-MailFrameLeftTabButton["ActiveTexture"] = MailFrameLeftTabButtonActiveTexture -- inherited
-MailFrameLeftTabButton["DisabledTexture"] = MailFrameLeftTabButtonDisabledTexture -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L10)
---- child of MailFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MailFrameRightTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L11)
---- child of MailFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MailFrameRightTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L12)
---- child of MailFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MailFrameRightTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L13)
---- child of MailFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MailFrameRightTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L14)
---- child of MailFrameRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MailFrameRightTabButtonDisabledTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L20)
 --- child of MailFrame_TabIndicators (created in template GamepadTabIndicatorsTemplate)
@@ -960,11 +905,6 @@ MailFrameRightTabButton = {}
 MailFrameRightTabButton["offset"] = 1
 MailFrameRightTabButton["useDropShadow"] = true -- inherited
 MailFrameRightTabButton["smartNavigationIgnored"] = true -- inherited
-MailFrameRightTabButton["NormalTexture"] = MailFrameRightTabButtonNormalTexture -- inherited
-MailFrameRightTabButton["HoverTexture"] = MailFrameRightTabButtonHoverTexture -- inherited
-MailFrameRightTabButton["PressedTexture"] = MailFrameRightTabButtonPressedTexture -- inherited
-MailFrameRightTabButton["ActiveTexture"] = MailFrameRightTabButtonActiveTexture -- inherited
-MailFrameRightTabButton["DisabledTexture"] = MailFrameRightTabButtonDisabledTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L885)
 --- child of MailFrame

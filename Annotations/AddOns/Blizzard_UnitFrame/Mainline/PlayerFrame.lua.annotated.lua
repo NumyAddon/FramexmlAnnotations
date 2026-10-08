@@ -1,8 +1,8 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.lua#L796)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.lua#L794)
  --- @class TempMaxHealthLossDividerMixin
 TempMaxHealthLossDividerMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.lua#L798)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.lua#L796)
 function TempMaxHealthLossDividerMixin:SetXPosition(xPosition) end

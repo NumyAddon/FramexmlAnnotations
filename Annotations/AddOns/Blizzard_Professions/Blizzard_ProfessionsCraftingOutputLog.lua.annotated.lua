@@ -17,47 +17,29 @@ function ProfessionsCraftingOutputLogElementMixin:Init() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L258)
 function ProfessionsCraftingOutputLogMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L304)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L302)
 function ProfessionsCraftingOutputLogMixin:ProcessResultData(resultData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L326)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L324)
 function ProfessionsCraftingOutputLogMixin:RestartTimer(waitSeconds) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L340)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L338)
 function ProfessionsCraftingOutputLogMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L352)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L350)
 function ProfessionsCraftingOutputLogMixin:ShouldAutoOpen() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L356)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L354)
 function ProfessionsCraftingOutputLogMixin:FinalizeResultData() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L394)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L392)
 function ProfessionsCraftingOutputLogMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L398)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L396)
 function ProfessionsCraftingOutputLogMixin:OnCloseCallback() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L403)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L401)
 function ProfessionsCraftingOutputLogMixin:CalculateElementsHeight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L420)
 function ProfessionsCraftingOutputLogMixin:Cleanup() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L427)
-function ProfessionsCraftingOutputLogMixin:SetupGamepad() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L482)
-function ProfessionsCraftingOutputLogMixin:GetJumpHintLabel() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L486)
-function ProfessionsCraftingOutputLogMixin:InitGamepad() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L490)
-function ProfessionsCraftingOutputLogMixin:FocusGamepad() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L498)
-function ProfessionsCraftingOutputLogMixin:UnfocusGamepad() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCraftingOutputLog.lua#L502)
-function ProfessionsCraftingOutputLogMixin:RegisterForTransitions() end

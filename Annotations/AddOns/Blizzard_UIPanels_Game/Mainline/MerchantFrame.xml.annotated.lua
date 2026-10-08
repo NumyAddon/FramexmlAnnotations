@@ -1376,31 +1376,6 @@ MerchantFrameTab2 = {}
 --- child of MerchantFrame
 --- @class MerchantFrame_FilterDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L10)
---- child of MerchantFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MerchantFrameTabIndicatorsLeftTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L11)
---- child of MerchantFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MerchantFrameTabIndicatorsLeftTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L12)
---- child of MerchantFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MerchantFrameTabIndicatorsLeftTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L13)
---- child of MerchantFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MerchantFrameTabIndicatorsLeftTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L14)
---- child of MerchantFrameTabIndicatorsLeftTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MerchantFrameTabIndicatorsLeftTabButtonDisabledTexture = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L15)
 --- child of MerchantFrameTabIndicators (created in template GamepadTabIndicatorsTemplate)
 --- @type GamepadTabIndicatorsTemplate_LeftTabButton
@@ -1408,36 +1383,6 @@ MerchantFrameTabIndicatorsLeftTabButton = {}
 MerchantFrameTabIndicatorsLeftTabButton["offset"] = -1
 MerchantFrameTabIndicatorsLeftTabButton["useDropShadow"] = true -- inherited
 MerchantFrameTabIndicatorsLeftTabButton["smartNavigationIgnored"] = true -- inherited
-MerchantFrameTabIndicatorsLeftTabButton["NormalTexture"] = MerchantFrameTabIndicatorsLeftTabButtonNormalTexture -- inherited
-MerchantFrameTabIndicatorsLeftTabButton["HoverTexture"] = MerchantFrameTabIndicatorsLeftTabButtonHoverTexture -- inherited
-MerchantFrameTabIndicatorsLeftTabButton["PressedTexture"] = MerchantFrameTabIndicatorsLeftTabButtonPressedTexture -- inherited
-MerchantFrameTabIndicatorsLeftTabButton["ActiveTexture"] = MerchantFrameTabIndicatorsLeftTabButtonActiveTexture -- inherited
-MerchantFrameTabIndicatorsLeftTabButton["DisabledTexture"] = MerchantFrameTabIndicatorsLeftTabButtonDisabledTexture -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L10)
---- child of MerchantFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MerchantFrameTabIndicatorsRightTabButtonNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L11)
---- child of MerchantFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MerchantFrameTabIndicatorsRightTabButtonHoverTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L12)
---- child of MerchantFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MerchantFrameTabIndicatorsRightTabButtonPressedTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L13)
---- child of MerchantFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MerchantFrameTabIndicatorsRightTabButtonActiveTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L14)
---- child of MerchantFrameTabIndicatorsRightTabButton (created in template InputIconTextureFrameTemplate)
---- @type Texture
-MerchantFrameTabIndicatorsRightTabButtonDisabledTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L20)
 --- child of MerchantFrameTabIndicators (created in template GamepadTabIndicatorsTemplate)
@@ -1446,11 +1391,6 @@ MerchantFrameTabIndicatorsRightTabButton = {}
 MerchantFrameTabIndicatorsRightTabButton["offset"] = 1
 MerchantFrameTabIndicatorsRightTabButton["useDropShadow"] = true -- inherited
 MerchantFrameTabIndicatorsRightTabButton["smartNavigationIgnored"] = true -- inherited
-MerchantFrameTabIndicatorsRightTabButton["NormalTexture"] = MerchantFrameTabIndicatorsRightTabButtonNormalTexture -- inherited
-MerchantFrameTabIndicatorsRightTabButton["HoverTexture"] = MerchantFrameTabIndicatorsRightTabButtonHoverTexture -- inherited
-MerchantFrameTabIndicatorsRightTabButton["PressedTexture"] = MerchantFrameTabIndicatorsRightTabButtonPressedTexture -- inherited
-MerchantFrameTabIndicatorsRightTabButton["ActiveTexture"] = MerchantFrameTabIndicatorsRightTabButtonActiveTexture -- inherited
-MerchantFrameTabIndicatorsRightTabButton["DisabledTexture"] = MerchantFrameTabIndicatorsRightTabButtonDisabledTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L620)
 --- child of MerchantFrame

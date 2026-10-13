@@ -71,7 +71,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L134)
 --- child of HousingBlueprintExportFrame_SuccessContent
 --- @class HousingBlueprintExportFrame_SuccessContent_ClipboardButton : Button, UIPanelButtonTemplate
---- @field tooltipText any # TALENT_FRAME_DROP_DOWN_EXPORT_CLIPBOARD
+--- @field tooltipText any # HOUSING_BLUEPRINT_EXPORT_CLIPBOARD_TOOLTIP
 --- @field tooltipAnchor string # ANCHOR_BOTTOM
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L97)

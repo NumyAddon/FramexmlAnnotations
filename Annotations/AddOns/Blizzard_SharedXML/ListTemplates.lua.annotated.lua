@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L160)
  --- @class ListHeaderThreeSliceMixin : ListHeaderVisualMixin
 ListHeaderThreeSliceMixin = CreateFromMixins(ListHeaderVisualMixin)
 
@@ -56,28 +56,31 @@ function ListHeaderMixin:OnClick(button) end
 function ListHeaderMixin:SetClickHandler(handler) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L88)
+function ListHeaderMixin:SetTooltipText(tooltipText) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L93)
 function ListHeaderMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L104)
 function ListHeaderMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L115)
 function ListHeaderMixin:CheckUpdateTooltip(isMouseOver) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L133)
 function ListHeaderMixin:OnMouseDown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L143)
 function ListHeaderMixin:OnMouseUp() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L153)
 function ListHeaderMixin:UpdateCollapsedState(collapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L162)
 function ListHeaderThreeSliceMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L166)
 function ListHeaderThreeSliceMixin:GetTitleRegion() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ListTemplates.lua#L170)
 function ListHeaderThreeSliceMixin:UpdateCollapsedState(collapsed) end

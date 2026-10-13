@@ -517,7 +517,7 @@ CarouselContainer["bottomPadding"] = 0
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L449)
 --- child of CatalogShopFrame
 --- @class CatalogShopFrame_CatalogShopDetailsFrame : Frame, VerticalLayoutFrame, CatalogShopProductDetailsFrameMixin
---- @field fixedWidth string # 320
+--- @field fixedWidth number # 320
 --- @field ProductRefundContainer CatalogShopFrame_CatalogShopDetailsFrame_ProductRefundContainer
 --- @field ButtonContainer CatalogShopFrame_CatalogShopDetailsFrame_ButtonContainer
 --- @field BottomPadding CatalogShopFrame_CatalogShopDetailsFrame_BottomPadding

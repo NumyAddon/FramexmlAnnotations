@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L31)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L38)
 --- child of HousingDashboardBlueprintDetailsTemplate
 --- @class HousingDashboardBlueprintDetailsTemplate_GearDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L37)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L44)
 --- child of HousingDashboardBlueprintDetailsTemplate
 --- @class HousingDashboardBlueprintDetailsTemplate_ContentSummary : Frame, HousingBlueprintContentSummaryTemplate
 --- @field playLoadCompleteSound boolean # false
@@ -25,6 +25,10 @@
 --- child of HousingDashboardBlueprintDetailsTemplate
 --- @class HousingDashboardBlueprintDetailsTemplate_NoticeText : FontString, GameFontHighlight
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L29)
+--- child of HousingDashboardBlueprintDetailsTemplate
+--- @class HousingDashboardBlueprintDetailsTemplate_PlaceholderText : FontString, GameFontHighlightLarge
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L3)
 --- Template
 --- @class HousingDashboardBlueprintDetailsTemplate : Frame, HousingDashboardBlueprintDetailsMixin
@@ -34,31 +38,32 @@
 --- @field NameText HousingDashboardBlueprintDetailsTemplate_NameText
 --- @field DateTimeText HousingDashboardBlueprintDetailsTemplate_DateTimeText
 --- @field NoticeText HousingDashboardBlueprintDetailsTemplate_NoticeText
+--- @field PlaceholderText HousingDashboardBlueprintDetailsTemplate_PlaceholderText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L76)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L83)
 --- child of HousingDashboardCollectionFrameTemplate_Categories
 --- @class HousingDashboardCollectionFrameTemplate_Categories_CategoryPlaceholder : Button
 --- @field align string # center
 --- @field layoutIndex number # 1
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L73)
 --- child of HousingDashboardCollectionFrameTemplate
 --- @class HousingDashboardCollectionFrameTemplate_Categories : Frame, HousingCatalogCategoriesVisualsTemplate
 --- @field fixedWidth number # 70
 --- @field topPadding number # 10
 --- @field CategoryPlaceholder HousingDashboardCollectionFrameTemplate_Categories_CategoryPlaceholder
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L91)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L98)
 --- child of HousingDashboardCollectionFrameTemplate
 --- @class HousingDashboardCollectionFrameTemplate_BlueprintCollection : Frame, HousingBlueprintCollectionTemplate
 --- @field showReset boolean # false
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L108)
 --- child of HousingDashboardCollectionFrameTemplate
 --- @class HousingDashboardCollectionFrameTemplate_BlueprintDetails : Frame, HousingDashboardBlueprintDetailsTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCollection.xml#L61)
 --- Template
 --- @class HousingDashboardCollectionFrameTemplate : Frame, HousingDashboardCollectionFrameMixin
 --- @field Categories HousingDashboardCollectionFrameTemplate_Categories

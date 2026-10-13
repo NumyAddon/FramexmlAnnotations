@@ -60,7 +60,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L139)
 --- Template
 --- Adds itself to the parent inside the array `TabButtons`
---- @class CooldownViewerSettingsTabTemplate : Frame, LargeSideTabButtonTemplate
+--- @class CooldownViewerSettingsTabTemplate : Frame, LargeSideTabButtonTemplate, CooldownViewerSettingsTabMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L141)
 --- Template
@@ -112,9 +112,15 @@ CooldownViewerSettingsSearchIcon = {}
 --- child of CooldownViewerSettings
 --- @class CooldownViewerSettings_SettingsDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L243)
+--- child of CooldownViewerSettings_CooldownScroll_Content
+--- @class CooldownViewerSettings_CooldownScroll_Content_ReorderMarker : Frame, CooldownViewerSettingsReorderMarkerMixin
+--- @field Texture Texture
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L237)
 --- child of CooldownViewerSettings_CooldownScroll
 --- @class CooldownViewerSettings_CooldownScroll_Content : Frame, CooldownViewerSettingsContentMixin
+--- @field ReorderMarker CooldownViewerSettings_CooldownScroll_Content_ReorderMarker
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L225)
 --- child of CooldownViewerSettings
@@ -125,26 +131,21 @@ CooldownViewerSettingsSearchIcon = {}
 --- @field scrollBarBottomY number # 0
 --- @field Content CooldownViewerSettings_CooldownScroll_Content
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L260)
 --- child of CooldownViewerSettings
 --- @class CooldownViewerSettings_GroupBuffFilter : Frame, GroupBuffFilterTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L251)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L266)
 --- child of CooldownViewerSettings
 --- @class CooldownViewerSettings_LayoutDropdown : DropdownButton, WowStyle1DropdownTemplate
 --- @field menuPoint string # BOTTOMLEFT
 --- @field menuRelativePoint string # TOPLEFT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L275)
 --- child of CooldownViewerSettings
 --- @class CooldownViewerSettings_UndoButton : Button, UIPanelButtonNoTooltipTemplate, UIButtonTemplate
 --- @field tooltipTitle any # COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES_TOOLTIP
 --- @field disabledTooltip any # COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES_TOOLTIP
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L270)
---- child of CooldownViewerSettings
---- @class CooldownViewerSettings_ReorderMarker : Frame, CooldownViewerSettingsReorderMarkerMixin
---- @field Texture Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L686)
 --- child of CooldownViewerSettings (created in template ButtonFrameTemplate)
@@ -173,7 +174,6 @@ CooldownViewerSettingsBg = {}
 --- @field GroupBuffFilter CooldownViewerSettings_GroupBuffFilter
 --- @field LayoutDropdown CooldownViewerSettings_LayoutDropdown
 --- @field UndoButton CooldownViewerSettings_UndoButton
---- @field ReorderMarker CooldownViewerSettings_ReorderMarker
 --- @field Background Texture
 --- @field TabButtons table<number, CooldownViewerSettings_SpellsTab | CooldownViewerSettings_AurasTab | CooldownViewerSettings_GroupBuffsTab>
 CooldownViewerSettings = {}

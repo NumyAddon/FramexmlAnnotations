@@ -93,6 +93,8 @@ class TocFileParser
                 [
                     '[Family]' => $this->flavor->family(),
                     '[Game]' => $this->flavor->game(),
+                    '[RegionalTextLocale]' => 'enUS', // hardcoded to enUS only for now
+                    '[TextLocale]' => 'enUS', // hardcoded to enUS only for now
                     '\\' => '/',
                 ],
             );
@@ -208,7 +210,7 @@ class TocFileParser
     {
         $gameTypes = match ($flavor) {
             FlavorEnum::STANDARD => ['Standard'],
-            FlavorEnum::CAMELOT => ['Camelot'],
+            FlavorEnum::CAMELOT => ['Camelot', 'Forever'],
             FlavorEnum::MISTS => ['Mists'],
             FlavorEnum::CATA => ['Cata'],
             FlavorEnum::WRATH => ['Wrath', 'WOTLKC'],

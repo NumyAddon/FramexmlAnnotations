@@ -49,9 +49,13 @@ class TocFileParser
                 if (isset($matches['name']) && isset($matches['value'])) {
                     $name = strtolower($matches['name']);
                     $directives[$name] = $matches['value'];
+                    $resolved = $this->resolveLoadConditionDirective($name, $matches['value']);
+                    if ($resolved === false) {
+                        return [];
+                    }
                     if (
-                        (str_starts_with($name, 'allowload') || str_starts_with($name, 'excludeload'))
-                        && ($name !== 'allowloadgametype' && $name !== 'excludeloadgametype' && $name !== 'allowload')
+                        $resolved === null
+                        && (str_starts_with($name, 'allowload') || str_starts_with($name, 'excludeload'))
                     ) {
                         throw new RuntimeException('Unknown directive: ' . $name);
                     }
@@ -67,22 +71,6 @@ class TocFileParser
             $fileLines[] = $line;
         }
         fclose($tocFile);
-
-        if (isset($directives['allowload'])) {
-            if (strtolower($directives['allowload']) === 'glue') {
-                return []; // don't load glue-only addons
-            }
-        }
-        if (isset($directives['allowloadgametype'])) {
-            if (!$this->allowLoadGameType($directives['allowloadgametype'])) {
-                return []; // don't load addons that are not allowed for this gametype
-            }
-        }
-        if (isset($directives['excludeloadgametype'])) {
-            if ($this->allowLoadGameType($directives['excludeloadgametype'])) {
-                return [];
-            }
-        }
 
         $dir = dirname($tocFilePath);
         $files = [];
@@ -172,6 +160,20 @@ class TocFileParser
         }
 
         copy($filename, $targetFile);
+    }
+
+    /**
+     * @return bool|null true = load, false = don't load, null = unknown
+     */
+    private function resolveLoadConditionDirective(string $name, string $value): ?bool
+    {
+        return match(strtolower($name)) {
+            'allowload' => strtolower($value) !== 'glue', // don't load glue-only addons
+            'allowloadgametype' => $this->allowLoadGameType($value), // don't load addons that are not allowed for this gametype
+            'excludeloadgametype' => !$this->allowLoadGameType($value),
+            'allowloadtextlocale' => true, // just load it for now
+            default => null,
+        };
     }
 
     private function allowLoadGameType(string $gameTypes): bool

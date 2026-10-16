@@ -115,6 +115,11 @@
 --- child of CarouselControlTemplate
 --- @class CarouselControlTemplate_CarouselRightButton : Button
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L367)
+--- child of CarouselControlTemplate_CarouselLabelContainer
+--- @class CarouselControlTemplate_CarouselLabelContainer_FrameGlow : Frame, FrameGlowTemplate
+--- @field layoutType string # CatalogShopCarousel
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L362)
 --- child of CarouselControlTemplate_CarouselLabelContainer
 --- @class CarouselControlTemplate_CarouselLabelContainer_Label : FontString, GameFontNormalMed2
@@ -122,7 +127,14 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L355)
 --- child of CarouselControlTemplate
 --- @class CarouselControlTemplate_CarouselLabelContainer : Frame
+--- @field FrameGlow CarouselControlTemplate_CarouselLabelContainer_FrameGlow
 --- @field Label CarouselControlTemplate_CarouselLabelContainer_Label
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L374)
+--- child of CarouselControlTemplate
+--- @class CarouselControlTemplate_GamepadFocusIcon : Frame, InputIconTextureFrameTemplate
+--- @field mappedButtonKey any # GAMEPAD_MENU_RIGHT
+--- @field useDropShadow boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L335)
 --- Template
@@ -130,12 +142,13 @@
 --- @field CarouselLeftButton CarouselControlTemplate_CarouselLeftButton
 --- @field CarouselRightButton CarouselControlTemplate_CarouselRightButton
 --- @field CarouselLabelContainer CarouselControlTemplate_CarouselLabelContainer
+--- @field GamepadFocusIcon CarouselControlTemplate_GamepadFocusIcon
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L421)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L439)
 --- child of ImageCarouselElementTemplate
 --- @class ImageCarouselElementTemplate_Spinner : Frame, SpinnerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L393)
 --- Template
 --- @class ImageCarouselElementTemplate : Button, ImageCarouselElementTemplateMixin
 --- @field Spinner ImageCarouselElementTemplate_Spinner
@@ -145,54 +158,54 @@
 --- @field Selected Texture
 --- @field Hover Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L436)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L454)
 --- child of ImageCarouselControlTemplate
 --- @class ImageCarouselControlTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L460)
 --- child of ImageCarouselControlTemplate
 --- @class ImageCarouselControlTemplate_LeftButton : Button
 --- @field direction string # -1
 --- @field Selected Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L466)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L484)
 --- child of ImageCarouselControlTemplate
 --- @class ImageCarouselControlTemplate_RightButton : Button
 --- @field direction string # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L433)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L451)
 --- Template
 --- @class ImageCarouselControlTemplate : Frame, ImageCarouselControlMixin
 --- @field ScrollBox ImageCarouselControlTemplate_ScrollBox
 --- @field LeftButton ImageCarouselControlTemplate_LeftButton
 --- @field RightButton ImageCarouselControlTemplate_RightButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L496)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L514)
 --- child of ProductRefundContainerTemplate_RefundTextFrame
 --- @class ProductRefundContainerTemplate_RefundTextFrame_RefundText : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L489)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L507)
 --- child of ProductRefundContainerTemplate
 --- @class ProductRefundContainerTemplate_RefundTextFrame : Frame
 --- @field RefundText ProductRefundContainerTemplate_RefundTextFrame_RefundText
 --- @field RefundIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L512)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L530)
 --- child of ProductRefundContainerTemplate
 --- @class ProductRefundContainerTemplate_RefundButton : Button, CatalogShopButtonTemplate, CatalogShopDetailsButtonMixin
 --- @field catalogShopOnClickMethod string # ShowSelectedRefundableDecor
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L487)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L505)
 --- Template
 --- @class ProductRefundContainerTemplate : Frame, ProductRefundContainerMixin
 --- @field RefundTextFrame ProductRefundContainerTemplate_RefundTextFrame
 --- @field RefundButton ProductRefundContainerTemplate_RefundButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L545)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L563)
 --- child of NavigationBarButtonTemplate
 --- @class NavigationBarButtonTemplate_Label : FontString, GameFontNormalMed2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L527)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L545)
 --- Template
 --- @class NavigationBarButtonTemplate : Button, NavigationBarButtonMixin
 --- @field Label NavigationBarButtonTemplate_Label
@@ -202,7 +215,7 @@
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L577)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L595)
 --- Template
 --- @class NavigationBarNavigationButtonTemplate : Button, NavigationBarNavigationButtonMixin
 --- @field Arrow Texture
@@ -210,37 +223,37 @@
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L603)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L621)
 --- child of NavigationBarTemplate
 --- @class NavigationBarTemplate_ScrollBackwards : Button, NavigationBarNavigationButtonTemplate
 --- @field OnClickNavigate string # SelectPreviousNavButton
 --- @field atlas string # shop-header-arrow
 --- @field direction string # backwards
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L613)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L631)
 --- child of NavigationBarTemplate
 --- @class NavigationBarTemplate_ScrollForwards : Button, NavigationBarNavigationButtonTemplate
 --- @field OnClickNavigate string # SelectNextNavButton
 --- @field atlas string # shop-header-arrow
 --- @field direction string # forwards
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L623)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L641)
 --- child of NavigationBarTemplate
 --- @class NavigationBarTemplate_NavButtonScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L629)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L647)
 --- child of NavigationBarTemplate
 --- @class NavigationBarTemplate_GamepadPreviousCategoryIcon : Frame, InputIconTextureFrameTemplate
 --- @field mappedButtonKey any # GAMEPAD_SHOULDER_LEFT
 --- @field useDropShadow boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L636)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L654)
 --- child of NavigationBarTemplate
 --- @class NavigationBarTemplate_GamepadNextCategoryIcon : Frame, InputIconTextureFrameTemplate
 --- @field mappedButtonKey any # GAMEPAD_SHOULDER_RIGHT
 --- @field useDropShadow boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L601)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L619)
 --- Template
 --- @class NavigationBarTemplate : Frame, CallbackRegistrantTemplate, NavigationBarMixin
 --- @field ScrollBackwards NavigationBarTemplate_ScrollBackwards
@@ -249,52 +262,52 @@
 --- @field GamepadPreviousCategoryIcon NavigationBarTemplate_GamepadPreviousCategoryIcon
 --- @field GamepadNextCategoryIcon NavigationBarTemplate_GamepadNextCategoryIcon
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L649)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L667)
 --- child of CatalogShopPersistentRefundContainerFrameTemplate
 --- @class CatalogShopPersistentRefundContainerFrameTemplate_PersistentRefundButton : Button, BigRedRefreshButtonTemplate, CatalogShopButtonMixin
 --- @field catalogShopOnClickMethod string # ShowAllRefundableDecor
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L665)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L683)
 --- child of CatalogShopPersistentRefundContainerFrameTemplate_RefundTextFrame
 --- @class CatalogShopPersistentRefundContainerFrameTemplate_RefundTextFrame_RefundText : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L658)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L676)
 --- child of CatalogShopPersistentRefundContainerFrameTemplate
 --- @class CatalogShopPersistentRefundContainerFrameTemplate_RefundTextFrame : Frame
 --- @field RefundText CatalogShopPersistentRefundContainerFrameTemplate_RefundTextFrame_RefundText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L685)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L703)
 --- child of CatalogShopPersistentRefundContainerFrameTemplate_RefundCountFrame
 --- @class CatalogShopPersistentRefundContainerFrameTemplate_RefundCountFrame_RefundCountText : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L672)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L690)
 --- child of CatalogShopPersistentRefundContainerFrameTemplate
 --- @class CatalogShopPersistentRefundContainerFrameTemplate_RefundCountFrame : Frame
 --- @field RefundCountBackground Texture
 --- @field RefundCountText CatalogShopPersistentRefundContainerFrameTemplate_RefundCountFrame_RefundCountText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L646)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L664)
 --- Template
 --- @class CatalogShopPersistentRefundContainerFrameTemplate : Frame, CatalogShopPersistentRefundContainerFrameMixin
 --- @field PersistentRefundButton CatalogShopPersistentRefundContainerFrameTemplate_PersistentRefundButton
 --- @field RefundTextFrame CatalogShopPersistentRefundContainerFrameTemplate_RefundTextFrame
 --- @field RefundCountFrame CatalogShopPersistentRefundContainerFrameTemplate_RefundCountFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L700)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L718)
 --- Template
 --- @class IconTrainFrameChildTemplate : Frame, CallbackRegistrantTemplate, IconTrainFrameChildMixin
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L719)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L737)
 --- child of IconTrainTemplate
 --- @class IconTrainTemplate_IconTrainScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L717)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L735)
 --- Template
 --- @class IconTrainTemplate : Frame, CallbackRegistrantTemplate, IconTrainMixin
 --- @field IconTrainScrollBox IconTrainTemplate_IconTrainScrollBox
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L736)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L754)
 --- child of CatalogShopProductContainerFrameTemplate_ProductsHeader
 --- @class CatalogShopProductContainerFrameTemplate_ProductsHeader_ProductName : FontString, Game32Font_Shadow2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 16
@@ -303,7 +316,7 @@
 --- @field bottomPadding number # 15
 --- @field leftPadding number # 15
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L747)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L765)
 --- child of CatalogShopProductContainerFrameTemplate_ProductsHeader
 --- @class CatalogShopProductContainerFrameTemplate_ProductsHeader_ProductType : FontString, Game16Font, AutoScalingFontStringMixin
 --- @field minLineHeight number # 12
@@ -312,7 +325,7 @@
 --- @field bottomPadding number # 15
 --- @field leftPadding number # 15
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L758)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L776)
 --- child of CatalogShopProductContainerFrameTemplate_ProductsHeader
 --- @class CatalogShopProductContainerFrameTemplate_ProductsHeader_ProductDescription : FontString, GameFontNormal, ProductDescriptionMixin, AutoScalingFontStringMixin
 --- @field minLineHeight number # 12
@@ -321,7 +334,7 @@
 --- @field bottomPadding number # 15
 --- @field leftPadding number # 15
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L772)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L790)
 --- child of CatalogShopProductContainerFrameTemplate_ProductsHeader
 --- @class CatalogShopProductContainerFrameTemplate_ProductsHeader_LegalDisclaimerText : FontString, GameFontNormal
 --- @field minLineHeight number # 12
@@ -330,7 +343,7 @@
 --- @field bottomPadding number # 15
 --- @field leftPadding number # 15
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L726)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L744)
 --- child of CatalogShopProductContainerFrameTemplate
 --- @class CatalogShopProductContainerFrameTemplate_ProductsHeader : Frame, VerticalLayoutFrame, ProductsHeaderMixin
 --- @field fixedWidth number # 752
@@ -339,80 +352,80 @@
 --- @field ProductDescription CatalogShopProductContainerFrameTemplate_ProductsHeader_ProductDescription
 --- @field LegalDisclaimerText CatalogShopProductContainerFrameTemplate_ProductsHeader_LegalDisclaimerText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L793)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L811)
 --- child of CatalogShopProductContainerFrameTemplate_ProductsScrollBoxContainer
 --- @class CatalogShopProductContainerFrameTemplate_ProductsScrollBoxContainer_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L799)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L817)
 --- child of CatalogShopProductContainerFrameTemplate_ProductsScrollBoxContainer
 --- @class CatalogShopProductContainerFrameTemplate_ProductsScrollBoxContainer_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L787)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L805)
 --- child of CatalogShopProductContainerFrameTemplate
 --- @class CatalogShopProductContainerFrameTemplate_ProductsScrollBoxContainer : Frame
 --- @field ScrollBox CatalogShopProductContainerFrameTemplate_ProductsScrollBoxContainer_ScrollBox
 --- @field ScrollBar CatalogShopProductContainerFrameTemplate_ProductsScrollBoxContainer_ScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L807)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L825)
 --- child of CatalogShopProductContainerFrameTemplate
 --- @class CatalogShopProductContainerFrameTemplate_ShadowLayer : Frame
 --- @field topProductRule Texture
 --- @field bottomProductRule Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L723)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L741)
 --- Template
 --- @class CatalogShopProductContainerFrameTemplate : Frame, CatalogShopProductContainerFrameMixin
 --- @field ProductsHeader CatalogShopProductContainerFrameTemplate_ProductsHeader
 --- @field ProductsScrollBoxContainer CatalogShopProductContainerFrameTemplate_ProductsScrollBoxContainer
 --- @field ShadowLayer CatalogShopProductContainerFrameTemplate_ShadowLayer
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L847)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L865)
 --- child of CatalogShopProductDetailsContainerFrameTemplate
 --- @class CatalogShopProductDetailsContainerFrameTemplate_BackButton : Button, CatalogShopButtonTemplate, CatalogShopDetailsButtonMixin
 --- @field catalogShopOnClickMethod string # HideProductDetails
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L856)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L874)
 --- child of CatalogShopProductDetailsContainerFrameTemplate
 --- @class CatalogShopProductDetailsContainerFrameTemplate_DetailsProductContainerFrame : Frame, CatalogShopProductContainerFrameTemplate, DetailsProductContainerFrameMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L844)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L862)
 --- Template
 --- @class CatalogShopProductDetailsContainerFrameTemplate : Frame, CatalogShopProductDetailsContainerFrameMixin
 --- @field BackButton CatalogShopProductDetailsContainerFrameTemplate_BackButton
 --- @field DetailsProductContainerFrame CatalogShopProductDetailsContainerFrameTemplate_DetailsProductContainerFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L873)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L891)
 --- Template
 --- @class ModelSceneFrameTemplate : Frame
 --- @field dropShadow Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L925)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L943)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_Border : Frame, SecureDialogBorderOpaqueTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L926)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L944)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_AcceptButton : Button, CatalogShopButtonTemplate
 --- @field catalogShopOnClickMethod string # AcceptError
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L935)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L953)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_WebsiteButton : Button, CatalogShopButtonTemplate
 --- @field catalogShopOnClickMethod string # WebsiteError
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L905)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L923)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_Title : FontString, GameFontNormalLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L910)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L928)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_Description : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L916)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L934)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_WebsiteWarning : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L882)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L900)
 --- Template
 --- @class CatalogShopErrorFrameTemplate : Frame, CatalogShopErrorFrameMixin
 --- @field Border CatalogShopErrorFrameTemplate_Border

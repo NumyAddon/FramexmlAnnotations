@@ -219,17 +219,17 @@ AddFriendEntryFrameInfoButton["texture"] = AddFriendEntryFrameInfoButtonTexture 
 --- @class AddFriendNameEditBoxLeft : Texture
 AddFriendNameEditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L401)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L400)
 --- child of AddFriendNameEditBox
 --- @class AddFriendNameEditBoxRight : Texture
 AddFriendNameEditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L409)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L407)
 --- child of AddFriendNameEditBox
 --- @class AddFriendNameEditBoxMiddle : Texture
 AddFriendNameEditBoxMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L419)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L416)
 --- child of AddFriendNameEditBox
 --- @class AddFriendNameEditBoxFill : FontString, UserScaledFontGameDisableSmall
 AddFriendNameEditBoxFill = {}
@@ -247,21 +247,28 @@ AddFriendNameEditBox["Right"] = AddFriendNameEditBoxRight
 AddFriendNameEditBox["baseWidth"] = 280
 AddFriendNameEditBox["baseHeight"] = 20
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L444)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L441)
 --- child of AddFriendEntryFrame_EditBoxContainer
 --- @class AddFriendEntryFrameAcceptButton : Button, AddFriendButtonTemplate, UserScaledFrameTemplate
 AddFriendEntryFrameAcceptButton = {}
 AddFriendEntryFrameAcceptButton["baseWidth"] = 131 -- inherited
 AddFriendEntryFrameAcceptButton["baseHeight"] = 22 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L452)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L449)
 --- child of AddFriendEntryFrame_EditBoxContainer
 --- @class AddFriendEntryFrameCancelButton : Button, AddFriendButtonTemplate, UserScaledFrameTemplate
 AddFriendEntryFrameCancelButton = {}
 AddFriendEntryFrameCancelButton["baseWidth"] = 131 -- inherited
 AddFriendEntryFrameCancelButton["baseHeight"] = 22 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L465)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L462)
+--- child of AddFriendEntryFrame_EditBoxContainer
+--- @class AddFriendEntryFrame_EditBoxContainer_ErrorMessage : FontString, UserScaledFontGameHighlight, UserScaledFontStringTemplate
+--- @field baseWidth number # 374
+--- @field useScaleWeight boolean # true
+--- @field scaleWeight number # 0.8
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L473)
 --- child of AddFriendEntryFrame_EditBoxContainer
 --- @class AddFriendEntryFrame_EditBoxContainer_RequestInfoText : FontString, UserScaledFontGameHighlight, UserScaledFontStringTemplate
 --- @field baseWidth number # 300
@@ -275,6 +282,7 @@ AddFriendEntryFrameCancelButton["baseHeight"] = 22 -- inherited
 --- @field NameEditBox AddFriendNameEditBox
 --- @field AcceptButton AddFriendEntryFrameAcceptButton
 --- @field CancelButton AddFriendEntryFrameCancelButton
+--- @field ErrorMessage AddFriendEntryFrame_EditBoxContainer_ErrorMessage
 --- @field RequestInfoText AddFriendEntryFrame_EditBoxContainer_RequestInfoText
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L235)

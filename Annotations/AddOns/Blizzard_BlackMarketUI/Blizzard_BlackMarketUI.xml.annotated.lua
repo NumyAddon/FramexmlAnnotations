@@ -326,22 +326,22 @@ BlackMarketMoneyFrame["trialErrorButton"] = BlackMarketMoneyFrameTrialErrorButto
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_BidButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L18)
 --- child of BlackMarketBidPriceGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceGoldLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L26)
 --- child of BlackMarketBidPriceGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceGoldRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L34)
 --- child of BlackMarketBidPriceGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceGoldMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L80)
 --- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Gold
 BlackMarketBidPriceGold = {}
@@ -351,25 +351,26 @@ BlackMarketBidPriceGold["coinDisplayOffsetX"] = -4
 BlackMarketBidPriceGold["darkenOnDigits"] = 9
 BlackMarketBidPriceGold["baseWidth"] = 70
 BlackMarketBidPriceGold["baseHeight"] = 20 -- inherited
+BlackMarketBidPriceGold["customSmartNavOffsetX"] = 0 -- inherited
 BlackMarketBidPriceGold["left"] = BlackMarketBidPriceGoldLeft -- inherited
 BlackMarketBidPriceGold["right"] = BlackMarketBidPriceGoldRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L18)
 --- child of BlackMarketBidPriceSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceSilverLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L26)
 --- child of BlackMarketBidPriceSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceSilverRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L34)
 --- child of BlackMarketBidPriceSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceSilverMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L97)
 --- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Silver
 BlackMarketBidPriceSilver = {}
@@ -377,25 +378,26 @@ BlackMarketBidPriceSilver["coinAtlas"] = "coin-silver"
 BlackMarketBidPriceSilver["coinSymbol"] = SILVER_AMOUNT_SYMBOL
 BlackMarketBidPriceSilver["baseWidth"] = 48
 BlackMarketBidPriceSilver["baseHeight"] = 20 -- inherited
+BlackMarketBidPriceSilver["customSmartNavOffsetX"] = 0 -- inherited
 BlackMarketBidPriceSilver["left"] = BlackMarketBidPriceSilverLeft -- inherited
 BlackMarketBidPriceSilver["right"] = BlackMarketBidPriceSilverRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L18)
 --- child of BlackMarketBidPriceCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceCopperLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L26)
 --- child of BlackMarketBidPriceCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceCopperRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L34)
 --- child of BlackMarketBidPriceCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceCopperMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L112)
 --- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Copper
 BlackMarketBidPriceCopper = {}
@@ -403,6 +405,7 @@ BlackMarketBidPriceCopper["coinAtlas"] = "coin-copper"
 BlackMarketBidPriceCopper["coinSymbol"] = COPPER_AMOUNT_SYMBOL
 BlackMarketBidPriceCopper["baseWidth"] = 48
 BlackMarketBidPriceCopper["baseHeight"] = 20 -- inherited
+BlackMarketBidPriceCopper["customSmartNavOffsetX"] = 0 -- inherited
 BlackMarketBidPriceCopper["left"] = BlackMarketBidPriceCopperLeft -- inherited
 BlackMarketBidPriceCopper["right"] = BlackMarketBidPriceCopperRight -- inherited
 

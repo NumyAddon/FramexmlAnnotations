@@ -543,12 +543,12 @@ AchievementFrameCategories["layoutType"] = "TooltipDefaultLayout" -- inherited
 --- @field BorderRight Texture
 --- @field BorderCenter Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L224)
 --- child of AchievementFrame_HeaderDetails_Filters_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 AchievementFrameClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L215)
 --- child of AchievementFrame_HeaderDetails_Filters_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 AchievementFrameSearchIcon = {}

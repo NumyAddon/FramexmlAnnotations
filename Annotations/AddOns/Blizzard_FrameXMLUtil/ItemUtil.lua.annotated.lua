@@ -1,23 +1,23 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L498)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L504)
  --- @class ItemTransmogInfoMixin
 ItemTransmogInfoMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L500)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L506)
 function ItemTransmogInfoMixin:Init(appearanceID, secondaryAppearanceID, illusionID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L506)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L512)
 function ItemTransmogInfoMixin:IsEqual(itemTransmogInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L513)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L519)
 function ItemTransmogInfoMixin:Clear() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L520)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L526)
 function ItemTransmogInfoMixin:ConfigureSecondaryForMainHand(isLegionArtifact) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L528)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L534)
 function ItemTransmogInfoMixin:IsMainHandIndividualWeapon() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L532)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXMLUtil/ItemUtil.lua#L538)
 function ItemTransmogInfoMixin:IsMainHandPairedWeapon() end

@@ -109,68 +109,68 @@ function GamepadActionBarPageUnitMixin:GetControllerActionButtonFromSlot(slotID)
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L527)
 function GamepadActionBarPageUnitMixin:SetActiveActionBar(barToActivate, leftModifierDown, rightModifierDown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L546)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L542)
 function GamepadActionBarPageUnitMixin:GetActiveBar() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L550)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L546)
 function GamepadActionBarPageUnitMixin:ActionBarModKeyDownStateCheck() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L605)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L601)
 function GamepadActionBarPageUnitMixin:OnSelectedActionBarModifierStateChange() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L609)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L605)
 function GamepadActionBarPageUnitMixin:StartListeningForModifierUpdates() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L616)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L612)
 function GamepadActionBarPageUnitMixin:StopListeningForModifierUpdates() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L621)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L617)
 function GamepadActionBarPageUnitMixin:GetTopAnchorFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L625)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L621)
 function GamepadActionBarPageUnitMixin:GetLeftAnchorFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L629)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L625)
 function GamepadActionBarPageUnitMixin:GetRightAnchorFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L633)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L629)
 function GamepadActionBarPageUnitMixin:GetBottomAnchorFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L637)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L633)
 function GamepadActionBarPageUnitMixin:IsSpecialPageAvailableForSelection() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L641)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L637)
 function GamepadActionBarPageUnitMixin:RefreshPageTrackerSpecialPageSlotVisibility() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L649)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L645)
 function GamepadActionBarPageUnitMixin:HandleSpecialPageActiveStateChange() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L660)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L656)
 function GamepadActionBarPageUnitMixin:RefreshActionBarVisibilities() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L672)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L668)
 function GamepadActionBarPageUnitMixin:ReevaluatePageTrackerWidth() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L683)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L679)
 function GamepadActionBarPageUnitMixin:DebugPrintPageableActionBarsForPage(pageNum) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L693)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L689)
 function GamepadActionBarPageUnitMixin:IsAnyOverrideBarOverridingActionBar(actionBar) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L703)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L699)
 function GamepadActionBarPageUnitMixin:OnInputDeviceIconSetUpdated() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L709)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L705)
 function GamepadActionBarPageUnitMixin:RegisterActiveActionBarUpdatedCallback(callback, owner) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L713)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L709)
 function GamepadActionBarPageUnitMixin:SetPageTrackerPagingPromptVisibility(show) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L717)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L713)
 function GamepadActionBarPageUnitMixin:DisableActionButtonGameplayFeedback() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L723)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L719)
 function GamepadActionBarPageUnitMixin:OnFlyoutOpened(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L734)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/PageUnit.lua#L730)
 function GamepadActionBarPageUnitMixin:OnFlyoutClosed() end

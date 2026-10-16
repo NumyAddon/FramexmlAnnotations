@@ -4,24 +4,18 @@
 --- Template
 --- @class PetStableSlotTemplate : CheckButton, PetStableSlotMixin
 --- @field buttonContext string # ButtonContext_StableFramePetButton
---- @field background Texture
+--- @field currentGlow Texture
+--- @field genericPetIcon Texture
+--- @field unlockedBackground Texture
+--- @field currentBackground Texture
+--- @field lockedBackground Texture
+--- @field lockIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L66)
---- child of PetStableLoyaltyLevelTemplate
---- @class PetStableLoyaltyLevelTemplate_levelText : FontString, GameFontNormal
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L55)
---- Template
---- @class PetStableLoyaltyLevelTemplate : Frame, PetStableLoyaltyLevelMixin
---- @field levelTextOffsetX number # 0.5
---- @field levelTextOffsetXLevelOne number # -0.5
---- @field levelText PetStableLoyaltyLevelTemplate_levelText
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L154)
 --- child of PetStableFrame_modelScene
 --- @class PetStableFrame_modelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L160)
 --- child of PetStableFrame_modelScene
 --- @class PetStableFrame_modelScene_Inset : Frame, InsetFrameTemplate
 
@@ -65,11 +59,11 @@ PetStableFrameLeft = {}
 --- @type Texture
 PetStableFrameRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L179)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L167)
 --- child of PetStableFrame_modelScene
 --- @class PetStableFrame_modelScene_PetModelSceneShadow : Frame, ShadowOverlayTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L130)
 --- child of PetStableFrame
 --- @class PetStableFrame_modelScene : ModelScene, PanningModelSceneMixinTemplate, StablePetModelSceneMixin
 --- @field ControlFrame PetStableFrame_modelScene_ControlFrame
@@ -78,81 +72,63 @@ PetStableFrameRight = {}
 --- @field Background Texture
 --- @field PetShadow Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L177)
 --- child of PetStableFrame
 --- @class PetStableFrame_diet : Frame, PetFrameHappinessTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L195)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L183)
 --- child of PetStableFrame
---- @class PetStableFrame_expBar : Frame, PetExpStatusBarTemplate
+--- @class expBar : Frame, PetExpColoredProgressBarTemplate, StableExpBarMixin
+expBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L201)
---- child of PetStableFrame
---- @class PetStableFrame_loyaltyLevel : Frame, PetStableLoyaltyLevelTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L197)
 --- child of PetStableCurrentPet
 --- @class PetStableCurrentPet_Text : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L12)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L10)
 --- child of PetStableCurrentPet (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableCurrentPetIconTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L38)
---- child of PetStableCurrentPet (created in template PetStableSlotTemplate)
---- @type Texture
-PetStableCurrentPetNormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L190)
 --- child of PetStableFrame
 --- @class PetStableCurrentPet : CheckButton, PetStableSlotTemplate
 --- @field Text PetStableCurrentPet_Text
 PetStableCurrentPet = {}
 PetStableCurrentPet["buttonContext"] = "ButtonContext_StableFramePetButton" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L211)
 --- child of PetStableStabledPet1
 --- @class PetStableStabledPet1_Text : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L12)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L10)
 --- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet1IconTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L38)
---- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
---- @type Texture
-PetStableStabledPet1NormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L205)
 --- child of PetStableFrame
 --- @class PetStableStabledPet1 : CheckButton, PetStableSlotTemplate
 --- @field Text PetStableStabledPet1_Text
 PetStableStabledPet1 = {}
 PetStableStabledPet1["buttonContext"] = "ButtonContext_StableFramePetButton" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L12)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L10)
 --- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet2IconTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L38)
---- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
---- @type Texture
-PetStableStabledPet2NormalTexture = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L219)
 --- child of PetStableFrame
 --- @class PetStableStabledPet2 : CheckButton, PetStableSlotTemplate
 PetStableStabledPet2 = {}
 PetStableStabledPet2["buttonContext"] = "ButtonContext_StableFramePetButton" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L257)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L225)
 --- child of PetStableFrame
 --- @class PetStableFrame_purchaseButton : Button, UIPanelButtonTemplate, PetStablePurchaseButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L240)
 --- child of PetStableMoneyFrame
 --- @class PetStableMoneyFrame_Border : Frame, ContainerFrameCurrencyBorderTemplate
 --- @field leftEdge string # common-coinbox-left
@@ -179,7 +155,7 @@ PetStableMoneyFrameGoldButton = {}
 --- @type Texture
 PetStableMoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L234)
 --- child of PetStableFrame
 --- @class PetStableMoneyFrame : Frame, SmallMoneyFrameTemplate
 --- @field Border PetStableMoneyFrame_Border
@@ -211,7 +187,7 @@ PetStableCostMoneyFrameGoldButton = {}
 --- @type Texture
 PetStableCostMoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L254)
 --- child of PetStableFrame
 --- @class PetStableCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 PetStableCostMoneyFrame = {}
@@ -222,29 +198,49 @@ PetStableCostMoneyFrame["SilverButton"] = PetStableCostMoneyFrameSilverButton --
 PetStableCostMoneyFrame["GoldButton"] = PetStableCostMoneyFrameGoldButton -- inherited
 PetStableCostMoneyFrame["trialErrorButton"] = PetStableCostMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L265)
 --- child of PetStableFrame
---- @class PetStableLevelText : FontString, GameFontNormal
+--- @class PetStableFrame_BottomDividerFrame : Frame
+--- @field horzDivider Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L277)
+--- child of PetStableFrame
+--- @class PetStableFrame_TopDividerFrame : Frame
+--- @field horzDivider Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L73)
+--- child of PetStableFrame
+--- @class PetStableLevelText : FontString, GameFontNormalLarge
 PetStableLevelText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L78)
 --- child of PetStableFrame
---- @class PetStableLoyaltyText : FontString, GameFontNormalSmall
+--- @class PetStableLoyaltyText : FontString, GameFontHighlight
 PetStableLoyaltyText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L84)
 --- child of PetStableFrame
---- @class PetStableSlotText : FontString, GameFontHighlightSmall
+--- @class PetStableSlotText : FontString, GameFontNormalSmall
 PetStableSlotText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L90)
 --- child of PetStableFrame
 --- @class PetStableCostLabel : FontString, GameFontNormal
 PetStableCostLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L96)
 --- child of PetStableFrame
 --- @class PetStableFrame_GamepadSlotCostText : FontString, GameFontWhite
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L104)
+--- child of PetStableFrame
+--- @class BottomBackground : Texture
+BottomBackground = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L111)
+--- child of PetStableFrame
+--- @class TopBackground : Texture
+TopBackground = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L660)
 --- child of PetStableFrame (created in template PortraitFrameTemplate)
@@ -256,15 +252,20 @@ PetStableFrameCloseButton = {}
 --- @type Texture
 PetStableFrameBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L63)
 --- @class PetStableFrame : Frame, PortraitFrameTemplate, StableFrameMixin
 --- @field modelScene PetStableFrame_modelScene
 --- @field diet PetStableFrame_diet
---- @field expBar PetStableFrame_expBar
---- @field loyaltyLevel PetStableFrame_loyaltyLevel
+--- @field expBar expBar
 --- @field purchaseButton PetStableFrame_purchaseButton
+--- @field BottomDividerFrame PetStableFrame_BottomDividerFrame
+--- @field TopDividerFrame PetStableFrame_TopDividerFrame
 --- @field GamepadSlotCostText PetStableFrame_GamepadSlotCostText
+--- @field Background BottomBackground | TopBackground
+--- @field insideFrameBottom Texture
 PetStableFrame = {}
+PetStableFrame["expBar"] = expBar
+PetStableFrame["Background"] = TopBackground
 PetStableFrame["CloseButton"] = PetStableFrameCloseButton -- inherited
 PetStableFrame["Bg"] = PetStableFrameBg -- inherited
 PetStableFrame["layoutType"] = "PortraitFrameTemplate" -- inherited

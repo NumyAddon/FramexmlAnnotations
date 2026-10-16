@@ -4,29 +4,29 @@
  --- @class CommunitiesGuildPreferredPlaySettingsFrameMixin
 CommunitiesGuildPreferredPlaySettingsFrameMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L37)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L16)
 function CommunitiesGuildPreferredPlaySettingsFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L43)
 function CommunitiesGuildPreferredPlaySettingsFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L52)
 function CommunitiesGuildPreferredPlaySettingsFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L81)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L55)
 function CommunitiesGuildPreferredPlaySettingsFrameMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L61)
 function CommunitiesGuildPreferredPlaySettingsFrameMixin:RefreshState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L153)
-function CommunitiesGuildPreferredPlaySettingsFrameMixin:InitializeLocaleDropdown(level) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L119)
+function CommunitiesGuildPreferredPlaySettingsFrameMixin:InitializeLocaleDropdown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L172)
-function CommunitiesGuildPreferredPlaySettingsFrameMixin:InitializeDatacenterDropdown(level) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L143)
+function CommunitiesGuildPreferredPlaySettingsFrameMixin:InitializeDatacenterDropdown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L191)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L167)
 function CommunitiesGuildPreferredPlaySettingsFrameMixin:ApplyLocaleSelection() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L197)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.lua#L173)
 function CommunitiesGuildPreferredPlaySettingsFrameMixin:ApplyDatacenterLocalitySelection() end

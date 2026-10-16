@@ -16,8 +16,8 @@ function LegacyChallengeDetailPaneMixin:RefreshChallenges() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeDetailPane.lua#L37)
 function LegacyChallengeDetailPaneMixin:GenerateDataProvider(categoryInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeDetailPane.lua#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeDetailPane.lua#L52)
 function LegacyChallengeDetailPaneMixin:SelectChallenge(achievementId, scrollToChallenge) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeDetailPane.lua#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyChallengeDetailPane.lua#L66)
 function LegacyChallengeDetailPaneMixin:UpdateChallenge(elementData) end

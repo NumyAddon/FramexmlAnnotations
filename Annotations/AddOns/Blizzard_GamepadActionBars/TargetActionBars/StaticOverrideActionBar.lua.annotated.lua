@@ -74,16 +74,19 @@ function StaticOverrideActionBarMixin:SetUpFaceBottom() end
 function StaticOverrideActionBarMixin:RefreshActionBarVisibility() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L170)
+function StaticOverrideActionBarMixin:IsBarEmpty() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L175)
 function StaticOverrideActionBarMixin:IsBarActivelyOverridingActionBar(actionBar) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L174)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L179)
 function StaticOverrideActionBarMixin:PageChangeHandler(oldPageNum) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L178)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L183)
 function StaticOverrideActionBarMixin:ActivateOverrideBar() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L210)
 function StaticOverrideActionBarMixin:DeactivateOverrideBar() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L237)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/TargetActionBars/StaticOverrideActionBar.lua#L242)
 function StaticOverrideActionBarMixin:ActivateOrDeactivateOverrideBar(activate) end

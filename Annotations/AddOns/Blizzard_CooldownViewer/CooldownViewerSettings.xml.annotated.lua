@@ -93,12 +93,12 @@
 --- @field inactiveAtlas string # icon_buffreorder
 --- @field tooltipText any # COOLDOWN_VIEWER_SETTINGS_TAB_GROUP_AURAS
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L224)
 --- child of CooldownViewerSettings_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 CooldownViewerSettingsClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L215)
 --- child of CooldownViewerSettings_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 CooldownViewerSettingsSearchIcon = {}

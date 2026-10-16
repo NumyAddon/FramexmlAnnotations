@@ -19,5 +19,8 @@ function GamepadClassActionButtonMixin:ApplyExtraButtonStylesForState(state) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L60)
 function GamepadClassActionButtonMixin:OnUpdate(_) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L76)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L79)
 function GamepadClassActionButtonMixin:ApplyPressedStyle(pressed) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ClassActionFlyout.lua#L84)
+function GamepadClassActionButtonMixin:ReapplyStyle() end

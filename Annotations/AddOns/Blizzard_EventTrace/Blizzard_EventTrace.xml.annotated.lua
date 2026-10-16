@@ -127,12 +127,12 @@
 --- child of EventTrace_Log_Bar
 --- @class EventTrace_Log_Bar_DiscardAllButton : Button, EventTraceMenuButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L224)
 --- child of EventTrace_Log_Bar_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 EventTraceClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L215)
 --- child of EventTrace_Log_Bar_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 EventTraceSearchIcon = {}

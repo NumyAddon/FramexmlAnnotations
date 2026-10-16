@@ -43,5 +43,5 @@ function LegacyRewardTrackPageMixin:Refresh() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.lua#L183)
 function LegacyRewardTrackPageMixin:SetupProgressDetails() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.lua#L237)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.lua#L240)
 function LegacyRewardTrackPageMixin:CancelLevelEffect() end

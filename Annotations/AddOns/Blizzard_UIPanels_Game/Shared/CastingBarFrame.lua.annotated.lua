@@ -8,15 +8,11 @@ CastingBarMixin = {}
  --- @class PlayerCastingBarMixin
 PlayerCastingBarMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1384)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1383)
  --- @class PlayerCastingBarFrameMixin
 PlayerCastingBarFrameMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1392)
- --- @class GamepadPlayerCastingBarFrameMixin
-GamepadPlayerCastingBarFrameMixin = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1401)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1393)
  --- @class OverlayPlayerCastingBarMixin
 OverlayPlayerCastingBarMixin = {}
 
@@ -194,32 +190,26 @@ function CastingBarMixin:SimulateCast(castData) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1367)
 function PlayerCastingBarMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1374)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1379)
 function PlayerCastingBarMixin:IsAttachedToPlayerFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1378)
-function PlayerCastingBarMixin:OnEvent(...) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1386)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1385)
 function PlayerCastingBarFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1394)
-function GamepadPlayerCastingBarFrameMixin:OnEvent(...) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1403)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1395)
 function OverlayPlayerCastingBarMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1414)
 function OverlayPlayerCastingBarMixin:StartReplacingPlayerBarAt(parentFrame, overrideInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1458)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1450)
 function OverlayPlayerCastingBarMixin:EndReplacingPlayerBar() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1469)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1461)
 function OverlayPlayerCastingBarMixin:GetEffectiveType(isChannel, notInterruptible, isTradeSkill, isEmpowered) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1473)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1465)
 function OverlayPlayerCastingBarMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1478)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Shared/CastingBarFrame.lua#L1470)
 function OverlayPlayerCastingBarMixin:OnHide() end

@@ -32,19 +32,34 @@ function ChannelRosterMixin:OnUnitConnection() end
 function ChannelRosterMixin:GetRosterButtonForVoiceMemberID(voiceMemberID) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L54)
+function ChannelRosterMixin:UpdateSmartNavJumps() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L68)
+function ChannelRosterMixin:GetChannelFrameNavLeftTarget() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L72)
+function ChannelRosterMixin:ResetScrollAndGetTopEntry() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L81)
+function ChannelRosterMixin:GetGamepadSelectionData() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L109)
+function ChannelRosterMixin:RestorePreviousSelectionData(previousSelectionData) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L139)
 function ChannelRosterMixin:Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L159)
 function ChannelRosterMixin:ResetScrollPosition() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L163)
 function ChannelRosterMixin:GetChannelCountText(count, category) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L171)
 function ChannelRosterMixin:GetChannelNameText(count, channel) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L175)
 function ChannelRosterMixin:UpdateFromOpaqueChannel(opaqueChannel, getChannelInfoFn, updateChannelRosterEntryFn) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L189)
 function ChannelRosterMixin:InitializeScrollBox() end

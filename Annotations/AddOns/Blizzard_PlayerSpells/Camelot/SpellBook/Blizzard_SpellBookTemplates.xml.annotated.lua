@@ -9,44 +9,48 @@
 --- Template
 --- @class PagedSpellsTemplate : Frame, PagedCondensedVerticalGridContentFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L13)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L14)
+--- Template
+--- @class SpellBookHeaderSizeTemplate : Frame
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L18)
 --- Template
 --- @class PagedSpellsView1Template : Frame, StaticGridLayoutFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L19)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L24)
 --- Template
 --- @class PagedSpellsView2Template : Frame, StaticGridLayoutFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L31)
 --- Template
 --- @class SpellBookTopBarTemplate : Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L37)
 --- Template
 --- @class SpellBookBGHalvedTemplate : Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L38)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L43)
 --- Template
 --- @class SpellBookBGLeftTemplate : Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L49)
 --- Template
 --- @class SpellBookBGRightTemplate : Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L55)
 --- Template
 --- @class SpellBookBookmarkTemplate : Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L57)
 --- Template
 --- @class SpellbookCategoryTabSystemTemplate : Frame, CategoryTabSystemTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L63)
 --- Template
 --- @class SpellBookSettingsDropdownTemplate : DropdownButton, UIPanelArrowDropdownButtonTemplate
 --- @field yOffset number # -27
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/SpellBook/Blizzard_SpellBookTemplates.xml#L72)
 --- Template
 --- @class SpellBookSearchBoxTemplate : EditBox, SpellSearchBoxTemplate
 

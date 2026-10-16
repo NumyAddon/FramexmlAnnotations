@@ -2,7 +2,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.xml#L30)
 --- child of CommunitiesGuildPreferredPlaySettingsFrameTemplate
---- @class CommunitiesGuildPreferredPlaySettingsFrameTemplate_LocaleDropdown : Frame, UIDropDownMenuTemplate
+--- @class CommunitiesGuildPreferredPlaySettingsFrameTemplate_LocaleDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.xml#L35)
 --- child of CommunitiesGuildPreferredPlaySettingsFrameTemplate
@@ -10,7 +10,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.xml#L46)
 --- child of CommunitiesGuildPreferredPlaySettingsFrameTemplate
---- @class CommunitiesGuildPreferredPlaySettingsFrameTemplate_DatacenterDropdown : Frame, UIDropDownMenuTemplate
+--- @class CommunitiesGuildPreferredPlaySettingsFrameTemplate_DatacenterDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/GuildPreferredPlaySettings.xml#L51)
 --- child of CommunitiesGuildPreferredPlaySettingsFrameTemplate

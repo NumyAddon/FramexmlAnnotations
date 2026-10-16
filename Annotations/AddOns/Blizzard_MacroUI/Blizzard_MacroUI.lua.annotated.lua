@@ -80,5 +80,5 @@ function MacroFrameMixin:UnfocusGamepad() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L378)
 function MacroFrameMixin:SetUpGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L391)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua#L390)
 function MacroFrameMixin:RegisterForInterfaceTransitions() end

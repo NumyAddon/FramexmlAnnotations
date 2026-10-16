@@ -31,5 +31,11 @@ function ReadyCheckListenerFrameMixin:DeactivateBinding() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.lua#L132)
 function ReadyCheckListenerFrameMixin:SetupGamepad() end
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.lua#L147)
+function ReadyCheckListenerFrameMixin:InitGamepad() end
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.lua#L152)
+function ReadyCheckListenerFrameMixin:UninitGamepad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.lua#L156)
 function ReadyCheckListenerFrameMixin:RegisterForTransitions() end

@@ -47,38 +47,38 @@ function QuickKeybindFrameMixin:OnCharacterBindingsChanged(setting, value) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L142)
 function QuickKeybindFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L161)
 function QuickKeybindFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L178)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L180)
 function QuickKeybindFrameMixin:CancelBinding() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L184)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L186)
 function QuickKeybindFrameMixin:SetSelected(command, actionButton) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L195)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L197)
 function QuickKeybindFrameMixin:OnKeyDown(input) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L215)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L217)
 function QuickKeybindFrameMixin:OnMouseWheel(delta) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L228)
 function QuickKeybindFrameMixin:SetOutputText(text) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L230)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L232)
 function QuickKeybindFrameMixin:ClearOutputText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L236)
 function QuickKeybindFrameMixin:OnKeybindUnbindFailed(action, unbindAction, unbindSlotIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L239)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L241)
 function QuickKeybindFrameMixin:OnKeybindRebindFailed(action) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L245)
 function QuickKeybindFrameMixin:OnKeybindRebindSuccess(action) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L249)
 function QuickKeybindFrameMixin:OnDragStart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L251)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.lua#L253)
 function QuickKeybindFrameMixin:OnDragStop() end

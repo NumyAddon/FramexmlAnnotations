@@ -4,7 +4,7 @@
  --- @class DropdownButtonMixin : CallbackRegistryMixin
 DropdownButtonMixin = CreateFromMixins(CallbackRegistryMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L397)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L411)
  --- @class DropdownButtonProxyMixin
 DropdownButtonProxyMixin = {}
 
@@ -102,34 +102,37 @@ function DropdownButtonMixin:Rotate(forward) end
 function DropdownButtonMixin:HasAnyRadioDescriptions() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L367)
-function DropdownButtonMixin:Increment() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L372)
-function DropdownButtonMixin:Decrement() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L377)
-function DropdownButtonMixin:CollectSelectionData() end
+function DropdownButtonMixin:HasOnlyRadioDescriptions() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L381)
-function DropdownButtonMixin:GetSelectionData() end
+function DropdownButtonMixin:Increment() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L386)
+function DropdownButtonMixin:Decrement() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L391)
+function DropdownButtonMixin:CollectSelectionData() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L395)
+function DropdownButtonMixin:GetSelectionData() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L400)
 function DropdownButtonMixin:HasStickyFocus() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L399)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L413)
 function DropdownButtonProxyMixin:GetRouteSibling() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L403)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L417)
 function DropdownButtonProxyMixin:RouteScript(scriptName, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L408)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L422)
 function DropdownButtonProxyMixin:OnEnter(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L412)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L426)
 function DropdownButtonProxyMixin:OnLeave(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L416)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L430)
 function DropdownButtonProxyMixin:OnMouseDown(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L421)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L435)
 function DropdownButtonProxyMixin:HandlesGlobalMouseEvent(buttonName, event) end

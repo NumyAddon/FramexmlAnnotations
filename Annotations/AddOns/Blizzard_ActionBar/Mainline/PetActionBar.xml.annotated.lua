@@ -26,6 +26,7 @@
 --- @field systemNameString any # HUD_EDIT_MODE_PET_ACTION_BAR_LABEL
 --- @field defaultHideSelection boolean # true
 --- @field skipAutomaticPositioning any # ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
+--- @field customGamepadModeVisibilityHandling boolean # true
 PetActionBar = {}
 PetActionBar["buttonTemplate"] = "PetActionButtonTemplate"
 PetActionBar["commandNamePrefix"] = "BONUSACTION"
@@ -40,6 +41,7 @@ PetActionBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.PetActionBar
 PetActionBar["systemNameString"] = HUD_EDIT_MODE_PET_ACTION_BAR_LABEL
 PetActionBar["defaultHideSelection"] = true
 PetActionBar["skipAutomaticPositioning"] = ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
+PetActionBar["customGamepadModeVisibilityHandling"] = true
 PetActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 PetActionBar["addSystemIndexToName"] = true -- inherited
 

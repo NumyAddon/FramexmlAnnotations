@@ -9,12 +9,12 @@
 --- @class SocialUITabTemplate : Button, LargeSideTabButtonTemplate, SocialUITabMixin
 --- @field Count SocialUITabTemplate_Count
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L16)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L17)
 --- Template
 --- @class SocialUIOnlineStatusDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, SocialUIOnlineStatusDropdownMixin
 --- @field presenceIconSizeForDropdown number # 19
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L30)
 --- Template
 --- @class SocialUIBattleNetMenuButtonTemplate : DropdownButton, SocialUIBattleNetMenuButtonMixin
 --- @field Icon Texture
@@ -22,48 +22,48 @@
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L61)
 --- child of SocialUIPersonalBattleTagDisplayTemplate
 --- @class SocialUIPersonalBattleTagDisplayTemplate_CopyBattleTagToClipboardButton : Button, SocialUICopyBattleTagToClipboardButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L67)
 --- child of SocialUIPersonalBattleTagDisplayTemplate
 --- @class SocialUIPersonalBattleTagDisplayTemplate_BattleNetUnavailableNoticeButton : Button, SocialUIBattleNetUnavailableNoticeButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L57)
 --- child of SocialUIPersonalBattleTagDisplayTemplate
 --- @class SocialUIPersonalBattleTagDisplayTemplate_DisplayText : FontString, UserScaledFontBody, TruncatedTooltipScriptTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L53)
 --- Template
 --- @class SocialUIPersonalBattleTagDisplayTemplate : Frame, SocialUIPersonalBattleTagDisplayMixin
 --- @field CopyBattleTagToClipboardButton SocialUIPersonalBattleTagDisplayTemplate_CopyBattleTagToClipboardButton
 --- @field BattleNetUnavailableNoticeButton SocialUIPersonalBattleTagDisplayTemplate_BattleNetUnavailableNoticeButton
 --- @field DisplayText SocialUIPersonalBattleTagDisplayTemplate_DisplayText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L79)
 --- Template
 --- @class SocialUICopyBattleTagToClipboardButtonTemplate : Button, SocialUICopyBattleTagToClipboardButtonMixin
 --- @field Icon Texture
 --- @field HighlightTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L101)
 --- Template
 --- @class SocialUIBattleNetUnavailableNoticeButtonTemplate : Button, UIPanelInfoButton, SocialUIBattleNetUnavailableNoticeButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L109)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L110)
 --- child of SocialUIBattleNetControlsContainerTemplate
 --- @class SocialUIBattleNetControlsContainerTemplate_OnlineStatusDropdown : DropdownButton, SocialUIOnlineStatusDropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L116)
 --- child of SocialUIBattleNetControlsContainerTemplate
 --- @class SocialUIBattleNetControlsContainerTemplate_BattleNetMenuButton : DropdownButton, SocialUIBattleNetMenuButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L122)
 --- child of SocialUIBattleNetControlsContainerTemplate
 --- @class SocialUIBattleNetControlsContainerTemplate_PersonalBattleTagDisplay : Frame, SocialUIPersonalBattleTagDisplayTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L107)
 --- Template
 --- @class SocialUIBattleNetControlsContainerTemplate : Frame, SocialUIBattleNetControlsContainerMixin
 --- @field OnlineStatusDropdown SocialUIBattleNetControlsContainerTemplate_OnlineStatusDropdown
@@ -71,32 +71,32 @@
 --- @field PersonalBattleTagDisplay SocialUIBattleNetControlsContainerTemplate_PersonalBattleTagDisplay
 --- @field BattleNetBackground Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L161)
 --- child of SocialUIBattleNetBarTemplate
 --- @class SocialUIBattleNetBarTemplate_ControlsContainer : Frame, SocialUIBattleNetControlsContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L149)
 --- Template
 --- @class SocialUIBattleNetBarTemplate : Frame
 --- @field ControlsContainer SocialUIBattleNetBarTemplate_ControlsContainer
 --- @field Background Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L176)
 --- child of SocialUIBattleNetUnavailableNoticeFrameTemplate
 --- @class SocialUIBattleNetUnavailableNoticeFrameTemplate_Border : Frame, DialogBorderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L186)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L187)
 --- child of SocialUIBattleNetUnavailableNoticeFrameTemplate_Header
 --- @class SocialUIBattleNetUnavailableNoticeFrameTemplate_Header_IconHolder : Frame, UserScaledFrameTemplate
 --- @field baseWidth number # 32
 --- @field baseHeight number # 32
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L203)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L204)
 --- child of SocialUIBattleNetUnavailableNoticeFrameTemplate_Header
 --- @class SocialUIBattleNetUnavailableNoticeFrameTemplate_Header_HeaderText : FontString, UserScaledFontBody
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L178)
 --- child of SocialUIBattleNetUnavailableNoticeFrameTemplate
 --- @class SocialUIBattleNetUnavailableNoticeFrameTemplate_Header : Frame, ResizeLayoutFrame
 --- @field minimumWidth number # 1
@@ -104,11 +104,11 @@
 --- @field IconHolder SocialUIBattleNetUnavailableNoticeFrameTemplate_Header_IconHolder
 --- @field HeaderText SocialUIBattleNetUnavailableNoticeFrameTemplate_Header_HeaderText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L215)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L216)
 --- child of SocialUIBattleNetUnavailableNoticeFrameTemplate
 --- @class SocialUIBattleNetUnavailableNoticeFrameTemplate_Text : FontString, UserScaledFontGameHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L169)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L170)
 --- Template
 --- @class SocialUIBattleNetUnavailableNoticeFrameTemplate : Frame, ResizeLayoutFrame, SocialUIBattleNetUnavailableNoticeFrameMixin
 --- @field widthPadding number # 40
@@ -117,15 +117,15 @@
 --- @field Header SocialUIBattleNetUnavailableNoticeFrameTemplate_Header
 --- @field Text SocialUIBattleNetUnavailableNoticeFrameTemplate_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L246)
 --- child of SocialUIBattleNetBroadcastFrameTemplate
 --- @class SocialUIBattleNetBroadcastFrameTemplate_Border : Frame, DialogBorderOpaqueTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L313)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L314)
 --- child of SocialUIBattleNetBroadcastFrameTemplate_EditBox
 --- @class SocialUIBattleNetBroadcastFrameTemplate_EditBox_PromptText : FontString, UserScaledFontGameDisableSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L248)
 --- child of SocialUIBattleNetBroadcastFrameTemplate
 --- @class SocialUIBattleNetBroadcastFrameTemplate_EditBox : EditBox, UserScaledFrameTemplate, SocialUIBattleNetBroadcastEditBoxMixin
 --- @field baseWidth number # 256
@@ -141,23 +141,23 @@
 --- @field MiddleBorder Texture
 --- @field PromptText SocialUIBattleNetBroadcastFrameTemplate_EditBox_PromptText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L327)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L328)
 --- child of SocialUIBattleNetBroadcastFrameTemplate
 --- @class SocialUIBattleNetBroadcastFrameTemplate_UpdateButton : Button, UIPanelButtonUserScaledTemplate
 --- @field baseWidth number # 128
 --- @field baseHeight number # 22
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L338)
 --- child of SocialUIBattleNetBroadcastFrameTemplate
 --- @class SocialUIBattleNetBroadcastFrameTemplate_CancelButton : Button, UIPanelButtonUserScaledTemplate
 --- @field baseWidth number # 128
 --- @field baseHeight number # 22
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L237)
 --- child of SocialUIBattleNetBroadcastFrameTemplate
 --- @class SocialUIBattleNetBroadcastFrameTemplate_Title : FontString, UserScaledFontBody
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L230)
 --- Template
 --- @class SocialUIBattleNetBroadcastFrameTemplate : Frame, ResizeLayoutFrame, SocialUIBattleNetBroadcastFrameMixin, SocialUISystemMixin
 --- @field widthPadding number # 40
@@ -168,47 +168,47 @@
 --- @field CancelButton SocialUIBattleNetBroadcastFrameTemplate_CancelButton
 --- @field Title SocialUIBattleNetBroadcastFrameTemplate_Title
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L363)
 --- child of SocialUIIgnoreListHeaderTemplate
 --- @class SocialUIIgnoreListHeaderTemplate_Text : FontString, UserScaledFontGameHighlight, TruncatedTooltipFontStringTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L356)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L357)
 --- Template
 --- @class SocialUIIgnoreListHeaderTemplate : Frame, SocialUIIgnoreListHeaderMixin
 --- @field baseHeight number # 20
 --- @field Text SocialUIIgnoreListHeaderTemplate_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L378)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L379)
 --- child of SocialUIIgnoreListEntryTemplate
 --- @class SocialUIIgnoreListEntryTemplate_Name : FontString, UserScaledFontGameNormal, TruncatedTooltipFontStringTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L372)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L373)
 --- Template
 --- @class SocialUIIgnoreListEntryTemplate : Button, SocialUIIgnoreListEntryMixin
 --- @field baseHeight number # 20
 --- @field Name SocialUIIgnoreListEntryTemplate_Name
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L398)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L399)
 --- child of SocialUIIgnoreListFrameTemplate
 --- @class SocialUIIgnoreListFrameTemplate_BlockButton : Button, UIPanelButtonUserScaledTemplate
 --- @field baseWidth number # 128
 --- @field baseHeight number # 22
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L408)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L409)
 --- child of SocialUIIgnoreListFrameTemplate
 --- @class SocialUIIgnoreListFrameTemplate_UnblockButton : Button, UIPanelButtonUserScaledTemplate
 --- @field baseWidth number # 128
 --- @field baseHeight number # 22
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L418)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L419)
 --- child of SocialUIIgnoreListFrameTemplate
 --- @class SocialUIIgnoreListFrameTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L425)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L426)
 --- child of SocialUIIgnoreListFrameTemplate
 --- @class SocialUIIgnoreListFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L389)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.xml#L390)
 --- Template
 --- @class SocialUIIgnoreListFrameTemplate : Frame, ButtonFrameTemplate, UserScaledFrameTemplate, SocialUIIgnoreListMixin, SocialUISystemMixin
 --- @field baseWidth number # 320

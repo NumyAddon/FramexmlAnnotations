@@ -25,6 +25,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L47)
 --- Template
 --- @class AuraButtonCodeTemplate : Button, AuraButtonArtTemplate, AuraButtonMixin
+--- @field buttonContext string # ButtonContext_AuraButton
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L54)
 --- Template

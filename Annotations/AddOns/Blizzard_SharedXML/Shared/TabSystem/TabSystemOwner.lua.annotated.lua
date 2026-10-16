@@ -48,22 +48,28 @@ function TabSystemOwnerMixin:SetTabSystem(tabSystem) end
 function TabSystemOwnerMixin:AddNamedTab(tabName, ...) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L90)
+function TabSystemOwnerMixin:AddIconTab(tabIcon, ...) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L97)
 function TabSystemOwnerMixin:SetTabCallback(tabID, callback) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L94)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L101)
 function TabSystemOwnerMixin:SetTabDeselectCallback(tabID, callback) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L105)
 function TabSystemOwnerMixin:SetTab(tabID, isUserAction) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L110)
+function TabSystemOwnerMixin:RemoveAllTabs() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L114)
 function TabSystemOwnerMixin:GetTab() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L118)
 function TabSystemOwnerMixin:GetTabSet() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L122)
 function TabSystemOwnerMixin:GetElementsForTab(tabID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L126)
 function TabSystemOwnerMixin:GetTabButton(tabID) end

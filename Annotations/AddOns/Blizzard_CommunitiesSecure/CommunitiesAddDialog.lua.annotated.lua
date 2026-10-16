@@ -42,7 +42,10 @@ function CommunitiesCreateDialogMixin:OnAttributeChanged(name, value) end
 function CommunitiesCreateDialogMixin:OnHide() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L103)
+function CommunitiesCreateDialogMixin:SmartNavigationCloseHandler() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L108)
 function CommunitiesCreateDialogMixin:CreateCommunity() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L115)
 function CommunitiesCreateDialogMixin:UpdateCreateButton() end

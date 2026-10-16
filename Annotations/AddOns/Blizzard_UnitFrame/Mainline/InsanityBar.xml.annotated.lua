@@ -1,21 +1,21 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/InsanityBar.xml#L10)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/InsanityBar.xml#L9)
 --- child of InsanityBarFrame
 --- @class InsanityBarFrame_PortraitGlow : Frame
 --- @field Flipbook Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/InsanityBar.xml#L21)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/InsanityBar.xml#L20)
 --- child of InsanityBarFrame
 --- @class InsanityBarFrame_FillOverlay : Frame
 --- @field Flipbook Texture
 --- @field FlipbookMask MaskTexture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/InsanityBar.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/InsanityBar.xml#L38)
 --- child of InsanityBarFrame
 --- @class InsanityBarFrame_InsanityAnims : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/InsanityBar.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/InsanityBar.xml#L4)
 --- @class InsanityBarFrame : Frame, ClassPowerBarFrame, ClassPowerBar, InsanityPowerBar
 --- @field PortraitGlow InsanityBarFrame_PortraitGlow
 --- @field FillOverlay InsanityBarFrame_FillOverlay

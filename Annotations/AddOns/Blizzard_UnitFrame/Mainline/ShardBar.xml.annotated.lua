@@ -1,41 +1,41 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L97)
 --- child of ShardTemplate_FillIncrement
 --- @class ShardTemplate_FillIncrement_FillAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L79)
 --- child of ShardTemplate
 --- @class ShardTemplate_FillIncrement : Frame
 --- @field Fill Texture
 --- @field Glow Texture
 --- @field FillAnim ShardTemplate_FillIncrement_FillAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L105)
 --- child of ShardTemplate
 --- @class ShardTemplate_emptyToFullAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L118)
 --- child of ShardTemplate
 --- @class ShardTemplate_fillDoneAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L130)
 --- child of ShardTemplate
 --- @class ShardTemplate_readyLoopAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L134)
 --- child of ShardTemplate
 --- @class ShardTemplate_depleteAnimA : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L139)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L138)
 --- child of ShardTemplate
 --- @class ShardTemplate_depleteAnimB : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L142)
 --- child of ShardTemplate
 --- @class ShardTemplate_depleteAnimC : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L4)
 --- Template
 --- @class ShardTemplate : Frame, WarlockShardMixin
 --- @field FillIncrement ShardTemplate_FillIncrement
@@ -60,7 +60,7 @@
 --- @field fxTextures table<number, Texture>
 --- @field fxFlipBooks table<number, Texture>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L149)
 --- Template
 --- @class WarlockPowerFrameTemplate : Frame, ClassResourceBarTemplate, WarlockPowerBar
 --- @field powerToken string # SOUL_SHARDS
@@ -68,15 +68,14 @@
 --- @field tooltip1 any # SOUL_SHARDS_POWER
 --- @field tooltip2 any # SOUL_SHARDS_TOOLTIP
 --- @field resourcePointTemplate string # ShardTemplate
---- @field resourcePointSetupFunc any # WarlockShardMixin.Setup
---- @field resourcePointReleaseFunc any # WarlockShardMixin.OnRelease
+--- @field resourcePointMixin any # WarlockShardMixin
 --- @field spacing number # 1
 --- @field class string # WARLOCK
 --- @field requiredShownLevel number # 10
 --- @field leftPadding number # 5
 --- @field topPadding number # -2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ShardBar.xml#L165)
 --- @class WarlockPowerFrame : Frame, WarlockPowerFrameTemplate
 --- @field layoutIndex number # 3
 --- @field showTooltip boolean # true
@@ -88,8 +87,7 @@ WarlockPowerFrame["powerType"] = Enum.PowerType.SoulShards -- inherited
 WarlockPowerFrame["tooltip1"] = SOUL_SHARDS_POWER -- inherited
 WarlockPowerFrame["tooltip2"] = SOUL_SHARDS_TOOLTIP -- inherited
 WarlockPowerFrame["resourcePointTemplate"] = "ShardTemplate" -- inherited
-WarlockPowerFrame["resourcePointSetupFunc"] = WarlockShardMixin.Setup -- inherited
-WarlockPowerFrame["resourcePointReleaseFunc"] = WarlockShardMixin.OnRelease -- inherited
+WarlockPowerFrame["resourcePointMixin"] = WarlockShardMixin -- inherited
 WarlockPowerFrame["spacing"] = 1 -- inherited
 WarlockPowerFrame["class"] = "WARLOCK" -- inherited
 WarlockPowerFrame["requiredShownLevel"] = 10 -- inherited

@@ -7,5 +7,5 @@ GhostFrameMixin = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GhostFrame.lua#L7)
 function GhostFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GhostFrame.lua#L11)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GhostFrame.lua#L16)
 function GhostFrameMixin:OnEvent(event, ...) end

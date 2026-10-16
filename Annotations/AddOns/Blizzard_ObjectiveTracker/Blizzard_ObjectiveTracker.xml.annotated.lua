@@ -6,14 +6,14 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTracker.xml#L3)
 --- @class ObjectiveTrackerFrame : Frame, RightManagedFrameTemplate, EditModeObjectiveTrackerSystemTemplate, ObjectiveTrackerContainerTemplate, ObjectiveTrackerFrameMixin
---- @field topPadding number # 0
---- @field topModulePadding number # 38
+--- @field topPadding number # 15
+--- @field topModulePadding number # 0
 --- @field headerText any # TRACKER_ALL_OBJECTIVES
 --- @field layoutIndex number # 50
 --- @field Header ObjectiveTrackerFrame_Header
 ObjectiveTrackerFrame = {}
-ObjectiveTrackerFrame["topPadding"] = 0
-ObjectiveTrackerFrame["topModulePadding"] = 38
+ObjectiveTrackerFrame["topPadding"] = 15
+ObjectiveTrackerFrame["topModulePadding"] = 0
 ObjectiveTrackerFrame["headerText"] = TRACKER_ALL_OBJECTIVES
 ObjectiveTrackerFrame["layoutIndex"] = 50
 ObjectiveTrackerFrame["layoutParent"] = RightManagedFrameContainer -- inherited

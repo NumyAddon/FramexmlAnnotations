@@ -47,10 +47,10 @@ function PingableType_ActionButtonMixin:UpdatePingAttributes() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L72)
 function PingableType_ActionButtonMixin:GetIsPingable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L93)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L94)
 function PingableType_ActionButtonMixin:GetAllowRadialWheel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L98)
 function PingableType_ActionButtonMixin:GetTargetInfo() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L117)

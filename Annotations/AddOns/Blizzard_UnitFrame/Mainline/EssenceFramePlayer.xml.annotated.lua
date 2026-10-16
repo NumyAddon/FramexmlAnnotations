@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L74)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L73)
 --- child of EssencePointButtonTemplate_EssenceFilling
 --- @class EssencePointButtonTemplate_EssenceFilling_FillingAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L99)
 --- child of EssencePointButtonTemplate_EssenceFilling
 --- @class EssencePointButtonTemplate_EssenceFilling_CircleAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L8)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L7)
 --- child of EssencePointButtonTemplate
 --- @class EssencePointButtonTemplate_EssenceFilling : Frame
 --- @field EssenceBG Texture
@@ -24,11 +24,11 @@
 --- @field FillingAnim EssencePointButtonTemplate_EssenceFilling_FillingAnim
 --- @field CircleAnim EssencePointButtonTemplate_EssenceFilling_CircleAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L169)
 --- child of EssencePointButtonTemplate_EssenceFillDone
 --- @class EssencePointButtonTemplate_EssenceFillDone_AnimIn : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L116)
 --- child of EssencePointButtonTemplate
 --- @class EssencePointButtonTemplate_EssenceFillDone : Frame
 --- @field CircBG Texture
@@ -40,21 +40,21 @@
 --- @field EssenceIconGlow Texture
 --- @field AnimIn EssencePointButtonTemplate_EssenceFillDone_AnimIn
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L192)
 --- child of EssencePointButtonTemplate
 --- @class EssencePointButtonTemplate_EssenceEmpty : Frame
 --- @field EssenceBG Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L204)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L203)
 --- child of EssencePointButtonTemplate
 --- @class EssencePointButtonTemplate_EssenceFull : Frame
 --- @field EssenceIconActive Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L263)
 --- child of EssencePointButtonTemplate_EssenceDepleting
 --- @class EssencePointButtonTemplate_EssenceDepleting_AnimIn : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L215)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L214)
 --- child of EssencePointButtonTemplate
 --- @class EssencePointButtonTemplate_EssenceDepleting : Frame
 --- @field EssenceBG Texture
@@ -66,7 +66,7 @@
 --- @field FXSmoke Texture
 --- @field AnimIn EssencePointButtonTemplate_EssenceDepleting_AnimIn
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L4)
 --- Template
 --- @class EssencePointButtonTemplate : Frame, EssencePointButtonMixin
 --- @field EssenceFilling EssencePointButtonTemplate_EssenceFilling
@@ -75,7 +75,7 @@
 --- @field EssenceFull EssencePointButtonTemplate_EssenceFull
 --- @field EssenceDepleting EssencePointButtonTemplate_EssenceDepleting
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L279)
 --- Template
 --- @class EssencePlayerFrameTemplate : Frame, ClassResourceBarTemplate, EssencePowerBar
 --- @field powerToken string # ESSENCE
@@ -83,11 +83,11 @@
 --- @field tooltip1 any # POWER_TYPE_ESSENCE
 --- @field tooltip2 any # ESSENCE_TOOLTIP
 --- @field resourcePointTemplate string # EssencePointButtonTemplate
---- @field shouldShowBarFunc any # EssencePowerBar.SetupEvoker
+--- @field resourcePointMixin any # EssencePointButtonMixin
 --- @field spacing number # -1
 --- @field class string # EVOKER
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L293)
 --- @class EssencePlayerFrame : Frame, EssencePlayerFrameTemplate
 --- @field layoutIndex number # 3
 --- @field topPadding number # 5
@@ -101,7 +101,7 @@ EssencePlayerFrame["powerType"] = Enum.PowerType.Essence -- inherited
 EssencePlayerFrame["tooltip1"] = POWER_TYPE_ESSENCE -- inherited
 EssencePlayerFrame["tooltip2"] = ESSENCE_TOOLTIP -- inherited
 EssencePlayerFrame["resourcePointTemplate"] = "EssencePointButtonTemplate" -- inherited
-EssencePlayerFrame["shouldShowBarFunc"] = EssencePowerBar.SetupEvoker -- inherited
+EssencePlayerFrame["resourcePointMixin"] = EssencePointButtonMixin -- inherited
 EssencePlayerFrame["spacing"] = -1 -- inherited
 EssencePlayerFrame["class"] = "EVOKER" -- inherited
 EssencePlayerFrame["maxUsablePoints"] = 5 -- inherited

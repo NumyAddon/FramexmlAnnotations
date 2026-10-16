@@ -1,21 +1,21 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L8)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L7)
 --- child of WardrobeSetsScrollFrameButtonTemplate
 --- @class WardrobeSetsScrollFrameButtonTemplate_IconFrame : Frame, WardrobeSetsScrollFrameButtonIconFrameMixin
 --- @field Icon Texture
 --- @field Cover Texture
 --- @field Favorite Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L41)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L40)
 --- child of WardrobeSetsScrollFrameButtonTemplate
 --- @class WardrobeSetsScrollFrameButtonTemplate_Name : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L46)
 --- child of WardrobeSetsScrollFrameButtonTemplate
 --- @class WardrobeSetsScrollFrameButtonTemplate_Label : FontString, GameFontDisableSmallLeft
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L4)
 --- Template
 --- @class WardrobeSetsScrollFrameButtonTemplate : Button, WardrobeSetsScrollFrameButtonMixin
 --- @field IconFrame WardrobeSetsScrollFrameButtonTemplate_IconFrame
@@ -27,21 +27,21 @@
 --- @field New Texture
 --- @field HighlightTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L111)
 --- child of WardrobeSetsDetailsItemFrameTemplate
 --- @class WardrobeSetsDetailsItemFrameTemplate_Favorite : Frame
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L102)
 --- child of WardrobeSetsDetailsItemFrameTemplate_New
 --- @class WardrobeSetsDetailsItemFrameTemplate_New_Anim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L96)
 --- child of WardrobeSetsDetailsItemFrameTemplate
 --- @class WardrobeSetsDetailsItemFrameTemplate_New : Texture
 --- @field Anim WardrobeSetsDetailsItemFrameTemplate_New_Anim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L79)
 --- Template
 --- @class WardrobeSetsDetailsItemFrameTemplate : Frame, WardrobeSetsDetailsItemMixin
 --- @field Favorite WardrobeSetsDetailsItemFrameTemplate_Favorite

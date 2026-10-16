@@ -24,7 +24,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.xml#L75)
 --- child of ScriptErrorsFrame
---- @class ScriptErrorsFrame_Close : Button, UIPanelButtonTemplate
+--- @class ScriptErrorsFrame_CloseButton : Button, UIPanelButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.xml#L136)
 --- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
@@ -82,13 +82,14 @@ ScriptErrorsFrameTitleBG = {}
 ScriptErrorsFrameDialogBG = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ScriptErrorsFrame/Blizzard_ScriptErrorsFrame.xml#L4)
---- @class ScriptErrorsFrame : Frame, UIPanelDialogTemplate, ScriptErrorsFrameMixin, ScriptErrorsFrameSecureMixin
+--- @class ScriptErrorsFrame : Frame, UIPanelDialogTemplate, DefaultDialogPanelTemplate, ScriptErrorsFrameMixin, ScriptErrorsFrameSecureMixin
 --- @field DragArea ScriptErrorsFrame_DragArea
 --- @field ScrollFrame ScriptErrorsFrame_ScrollFrame
 --- @field Reload ScriptErrorsFrame_Reload
 --- @field PreviousError ScriptErrorsFrame_PreviousError
 --- @field NextError ScriptErrorsFrame_NextError
---- @field Close ScriptErrorsFrame_Close
+--- @field CloseButton ScriptErrorsFrame_CloseButton
 --- @field IndexLabel FontString
 ScriptErrorsFrame = {}
+ScriptErrorsFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 

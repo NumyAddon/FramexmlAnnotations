@@ -91,18 +91,18 @@
 --- child of HousingModelPreviewFrame
 --- @class HousingModelPreviewFrame_ModelPreview : Frame, HousingModelPreviewTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingModelPreview/Blizzard_HousingModelPreview.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingModelPreview/Blizzard_HousingModelPreview.xml#L713)
 --- child of HousingModelPreviewFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 HousingModelPreviewFrameInset = {}
 HousingModelPreviewFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingModelPreview/Blizzard_HousingModelPreview.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingModelPreview/Blizzard_HousingModelPreview.xml#L707)
 --- child of HousingModelPreviewFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 HousingModelPreviewFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingModelPreview/Blizzard_HousingModelPreview.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingModelPreview/Blizzard_HousingModelPreview.xml#L690)
 --- child of HousingModelPreviewFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 HousingModelPreviewFrameBg = {}

@@ -10,7 +10,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L61)
 --- child of LootFrameElementTemplate
---- @class LootFrameElementTemplate_SlideOutRightAnim : AnimationGroup
+--- @class LootFrameElementTemplate_SlideOutRightAnim : AnimationGroup, LootFrameElementSlideOutRightAnimMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L7)
 --- Template
@@ -24,37 +24,37 @@
 --- @field ShowAnim LootFrameElementTemplate_ShowAnim
 --- @field SlideOutRightAnim LootFrameElementTemplate_SlideOutRightAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L85)
 --- child of LootFrameItemElementTemplate
 --- @class LootFrameItemElementTemplate_QualityText : FontString, GameFontWhiteTiny2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L90)
 --- child of LootFrameItemElementTemplate
 --- @class LootFrameItemElementTemplate_Text : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L74)
 --- Template
 --- @class LootFrameItemElementTemplate : Frame, LootFrameElementTemplate, LootFrameItemElementMixin
 --- @field QualityStripe Texture
 --- @field QualityText LootFrameItemElementTemplate_QualityText
 --- @field Text LootFrameItemElementTemplate_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L106)
 --- child of LootFrameMoneyElementTemplate
 --- @class LootFrameMoneyElementTemplate_Text : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L100)
 --- Template
 --- @class LootFrameMoneyElementTemplate : Frame, LootFrameElementTemplate, LootFrameElementMixin
 --- @field ignoreColorOverrides boolean # true
 --- @field Text LootFrameMoneyElementTemplate_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L529)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L551)
 --- child of LootFrame (created in template DefaultPanelFlatTemplate)
 --- @type DefaultPanelFlatTemplate_Bg
 LootFrameBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L116)
 --- @class LootFrame : Frame, ScrollingFlatPanelTemplate, EditModeLootFrameSystemTemplate, LootFrameMixin
 --- @field panelTitle any # ITEMS
 --- @field panelMaxHeight number # 290

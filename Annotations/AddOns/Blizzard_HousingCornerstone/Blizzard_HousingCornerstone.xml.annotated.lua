@@ -34,12 +34,12 @@ HousingCornerstoneFrameCloseButton = {}
 --- child of HousingCornerstoneFrame
 --- @class HousingCornerstoneFrame_HouseNameText : FontString, Game15Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L509)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L531)
 --- child of HousingCornerstoneFrame (created in template DefaultPanelTemplate)
 --- @type Texture
 HousingCornerstoneFrameBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L517)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L539)
 --- child of HousingCornerstoneFrame (created in template DefaultPanelTemplate)
 --- @type DefaultPanelTemplate_TopTileStreaks
 HousingCornerstoneFrameTopTileStreaks = {}
@@ -72,22 +72,22 @@ HousingCornerstoneFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inher
 --- @class HousingCornerstonePurchaseFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
 HousingCornerstonePurchaseFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L109)
 --- child of HousingCornerstonePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 HousingCornerstonePriceMoneyFrameCopperButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L128)
 --- child of HousingCornerstonePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 HousingCornerstonePriceMoneyFrameSilverButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L147)
 --- child of HousingCornerstonePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 HousingCornerstonePriceMoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L89)
 --- child of HousingCornerstonePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type Texture
 HousingCornerstonePriceMoneyFrameTrialErrorButton = {}
@@ -97,6 +97,7 @@ HousingCornerstonePriceMoneyFrameTrialErrorButton = {}
 --- @class HousingCornerstonePriceMoneyFrame : Frame, SmallMoneyFrameTemplate
 HousingCornerstonePriceMoneyFrame = {}
 HousingCornerstonePriceMoneyFrame["small"] = 1 -- inherited
+HousingCornerstonePriceMoneyFrame["smartNavigationIgnored"] = true -- inherited
 HousingCornerstonePriceMoneyFrame["CopperButton"] = HousingCornerstonePriceMoneyFrameCopperButton -- inherited
 HousingCornerstonePriceMoneyFrame["SilverButton"] = HousingCornerstonePriceMoneyFrameSilverButton -- inherited
 HousingCornerstonePriceMoneyFrame["GoldButton"] = HousingCornerstonePriceMoneyFrameGoldButton -- inherited
@@ -116,17 +117,17 @@ HousingCornerstonePriceMoneyFrame["trialErrorButton"] = HousingCornerstonePriceM
 --- child of HousingCornerstonePurchaseFrame
 --- @class HousingCornerstonePurchaseFrame_BuyButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L13)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L16)
 --- child of HousingCornerstonePurchaseFrameMoneyFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_CopperButton
 HousingCornerstonePurchaseFrameMoneyFrameCopperButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L35)
 --- child of HousingCornerstonePurchaseFrameMoneyFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_SilverButton
 HousingCornerstonePurchaseFrameMoneyFrameSilverButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L54)
 --- child of HousingCornerstonePurchaseFrameMoneyFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_GoldButton
 HousingCornerstonePurchaseFrameMoneyFrameGoldButton = {}
@@ -135,6 +136,7 @@ HousingCornerstonePurchaseFrameMoneyFrameGoldButton = {}
 --- child of HousingCornerstonePurchaseFrame
 --- @class HousingCornerstonePurchaseFrameMoneyFrame : Frame, MoneyFrameTemplate
 HousingCornerstonePurchaseFrameMoneyFrame = {}
+HousingCornerstonePurchaseFrameMoneyFrame["smartNavigationIgnored"] = true -- inherited
 HousingCornerstonePurchaseFrameMoneyFrame["CopperButton"] = HousingCornerstonePurchaseFrameMoneyFrameCopperButton -- inherited
 HousingCornerstonePurchaseFrameMoneyFrame["SilverButton"] = HousingCornerstonePurchaseFrameMoneyFrameSilverButton -- inherited
 HousingCornerstonePurchaseFrameMoneyFrame["GoldButton"] = HousingCornerstonePurchaseFrameMoneyFrameGoldButton -- inherited
@@ -364,22 +366,22 @@ BuyHouseConfirmationDialog["BottomBorder"] = BuyHouseConfirmationDialogBottomBor
 BuyHouseConfirmationDialog["LeftBorder"] = BuyHouseConfirmationDialogLeftBorder -- inherited
 BuyHouseConfirmationDialog["RightBorder"] = BuyHouseConfirmationDialogRightBorder -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L109)
 --- child of MoveHouseConfirmationDialog_PriceMoneyFrameOriginal (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 MoveHouseConfirmationDialogCopperButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L128)
 --- child of MoveHouseConfirmationDialog_PriceMoneyFrameOriginal (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 MoveHouseConfirmationDialogSilverButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L147)
 --- child of MoveHouseConfirmationDialog_PriceMoneyFrameOriginal (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 MoveHouseConfirmationDialogGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L89)
 --- child of MoveHouseConfirmationDialog_PriceMoneyFrameOriginal (created in template SmallMoneyFrameTemplate)
 --- @type Texture
 MoveHouseConfirmationDialogTrialErrorButton = {}
@@ -393,22 +395,22 @@ MoveHouseConfirmationDialogTrialErrorButton = {}
 --- @class MoveHouseConfirmationDialog_OriginalStrikethrough : Frame
 --- @field PriceStrikethrough Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L109)
 --- child of MoveHouseConfirmationDialog_PriceMoneyFrameDiscount (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 MoveHouseConfirmationDialogCopperButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L128)
 --- child of MoveHouseConfirmationDialog_PriceMoneyFrameDiscount (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 MoveHouseConfirmationDialogSilverButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L147)
 --- child of MoveHouseConfirmationDialog_PriceMoneyFrameDiscount (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 MoveHouseConfirmationDialogGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L89)
 --- child of MoveHouseConfirmationDialog_PriceMoneyFrameDiscount (created in template SmallMoneyFrameTemplate)
 --- @type Texture
 MoveHouseConfirmationDialogTrialErrorButton = {}

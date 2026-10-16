@@ -31,5 +31,5 @@ function SpellSearchTextFilterMixin:DerivedGetMatchTypeForPvPTalent(pvpTalentID,
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTextFilter.lua#L195)
 function SpellSearchTextFilterMixin:DerivedGetMatchTypeForSpellBookItem(spellBookItemData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTextFilter.lua#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTextFilter.lua#L241)
 function SpellSearchTextFilterMixin:DerivedGetMatchTypeForFlyout(flyoutID) end

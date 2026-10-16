@@ -119,11 +119,11 @@ function CommentatorUnitFrameMixin:SetCircleTrackerIcon(circleTracker, spellID) 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorUnitFrame.lua#L439)
 function CommentatorUnitFrameMixin:UpdateCircleTracker(circleTracker, infoCallback) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorUnitFrame.lua#L460)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorUnitFrame.lua#L461)
 function CommentatorUnitFrameMixin:UpdateCrowdControlAuras() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorUnitFrame.lua#L492)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorUnitFrame.lua#L493)
 function CommentatorUnitFrameMixin:UpdateSpellTrays(elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorUnitFrame.lua#L498)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Mainline/Blizzard_CommentatorUnitFrame.lua#L499)
 function CommentatorUnitFrameMixin:InitSpells() end

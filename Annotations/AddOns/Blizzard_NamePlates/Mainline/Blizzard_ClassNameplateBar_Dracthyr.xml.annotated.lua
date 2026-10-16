@@ -18,6 +18,7 @@ ClassNameplateBarDracthyrFrame["powerType"] = Enum.PowerType.Essence -- inherite
 ClassNameplateBarDracthyrFrame["tooltip1"] = POWER_TYPE_ESSENCE -- inherited
 ClassNameplateBarDracthyrFrame["tooltip2"] = ESSENCE_TOOLTIP -- inherited
 ClassNameplateBarDracthyrFrame["resourcePointTemplate"] = "EssencePointButtonTemplate" -- inherited
+ClassNameplateBarDracthyrFrame["resourcePointMixin"] = EssencePointButtonMixin -- inherited
 ClassNameplateBarDracthyrFrame["spacing"] = -1 -- inherited
 ClassNameplateBarDracthyrFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarDracthyrFrame["layoutIndex"] = 1 -- inherited

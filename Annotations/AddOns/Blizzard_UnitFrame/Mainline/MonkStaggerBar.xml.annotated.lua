@@ -5,7 +5,7 @@
 --- @class MonkStaggerBarTemplate : StatusBar, MonkStaggerBarMixin
 --- @field powerName string # STAGGER
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkStaggerBar.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkStaggerBar.xml#L16)
 --- child of MonkStaggerBar (created in template AlternatePowerBarBaseTemplate)
 --- @type AlternatePowerBarBaseTemplate_Text
 MonkStaggerBarText = {}

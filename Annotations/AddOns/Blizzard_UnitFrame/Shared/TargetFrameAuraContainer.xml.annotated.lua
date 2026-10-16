@@ -19,4 +19,5 @@
 --- @field constrainedFlowLayoutLineSize any # TargetFrameAuraContainerDefaults.ConstrainedFlowLayoutLineSize
 --- @field numConstrainedFlowLayoutLines any # TargetFrameAuraContainerDefaults.NumConstrainedFlowLayoutLines
 --- @field showAuraCount any # TargetFrameAuraContainerDefaults.ShowAuraCount
+--- @field editModePreviewEnabled boolean # true
 

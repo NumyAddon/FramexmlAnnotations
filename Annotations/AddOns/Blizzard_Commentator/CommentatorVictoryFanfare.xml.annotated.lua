@@ -1,39 +1,39 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L18)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L16)
 --- child of CommentatorVictoryFanfareFrame_BackgroundModelScene
 --- @class CommentatorVictoryFanfareFrame_BackgroundModelScene_EffectAnimIn : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L12)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L10)
 --- child of CommentatorVictoryFanfareFrame
 --- @class CommentatorVictoryFanfareFrame_BackgroundModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 --- @field EffectAnimIn CommentatorVictoryFanfareFrame_BackgroundModelScene_EffectAnimIn
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L74)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L72)
 --- child of CommentatorVictoryFanfareFrame
 --- @class CommentatorVictoryFanfareFrame_Title : FontString, CommentatorVictoryFanfare
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L78)
 --- child of CommentatorVictoryFanfareFrame
 --- @class CommentatorVictoryFanfareFrame_TitleFlash : FontString, Game120Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L86)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L84)
 --- child of CommentatorVictoryFanfareFrame
 --- @class CommentatorVictoryFanfareFrame_TeamName : FontString, CommentatorVictoryFanfareTeam
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L90)
 --- child of CommentatorVictoryFanfareFrame
 --- @class CommentatorVictoryFanfareFrame_TeamNameFlash : FontString, CommentatorVictoryFanfareTeam
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L96)
 --- child of CommentatorVictoryFanfareFrame
 --- @class CommentatorVictoryFanfareFrame_BonusLabel : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L132)
 --- child of CommentatorVictoryFanfareFrame
 --- @class CommentatorVictoryFanfareFrame_Anim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L6)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/CommentatorVictoryFanfare.xml#L4)
 --- @class CommentatorVictoryFanfareFrame : Frame, CommentatorVictoryFanfareFrameMixin
 --- @field BackgroundModelScene CommentatorVictoryFanfareFrame_BackgroundModelScene
 --- @field ExitArenaButton Button

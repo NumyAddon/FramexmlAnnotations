@@ -1,30 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.xml#L64)
---- child of DruidComboPointTemplate
---- @class DruidComboPointTemplate_activateAnim : AnimationGroup
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.xml#L78)
---- child of DruidComboPointTemplate
---- @class DruidComboPointTemplate_deactivateAnim : AnimationGroup
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.xml#L5)
---- Template
---- @class DruidComboPointTemplate : Frame, DruidComboPointMixin
---- @field BG_Shadow Texture
---- @field BG_Active Texture
---- @field BG_Inactive Texture
---- @field BG_Glow Texture
---- @field Point_Deplete Texture
---- @field Point_Icon Texture
---- @field FX_RingGlow Texture
---- @field FB_Slash Texture
---- @field Smoke Texture
---- @field activateAnim DruidComboPointTemplate_activateAnim
---- @field deactivateAnim DruidComboPointTemplate_deactivateAnim
---- @field fxTextures table<number, Texture>
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.xml#L91)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.xml#L4)
 --- Template
 --- @class DruidComboPointBarTemplate : Frame, ClassResourceBarTemplate, DruidComboPointBarMixin
 --- @field powerToken string # COMBO_POINTS
@@ -32,13 +8,12 @@
 --- @field tooltip1 any # COMBO_POINTS_POWER
 --- @field tooltip2 any # COMBO_POINTS_DRUID_TOOLTIP
 --- @field resourcePointTemplate string # DruidComboPointTemplate
---- @field resourcePointSetupFunc any # DruidComboPointMixin.Setup
---- @field resourcePointReleaseFunc any # DruidComboPointMixin.OnRelease
---- @field shouldShowBarFunc any # DruidComboPointBarMixin.ShouldShowBar
+--- @field resourcePointMixin any # DruidComboPointMixin
+--- @field shouldShowBarFunc any # DruidComboPointBarMixin.ShouldShowComboPointBar
 --- @field spacing number # 4
 --- @field class string # DRUID
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.xml#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.xml#L18)
 --- @class DruidComboPointBarFrame : Frame, DruidComboPointBarTemplate
 --- @field layoutIndex number # 3
 --- @field topPadding number # 7
@@ -52,9 +27,8 @@ DruidComboPointBarFrame["powerType"] = Enum.PowerType.ComboPoints -- inherited
 DruidComboPointBarFrame["tooltip1"] = COMBO_POINTS_POWER -- inherited
 DruidComboPointBarFrame["tooltip2"] = COMBO_POINTS_DRUID_TOOLTIP -- inherited
 DruidComboPointBarFrame["resourcePointTemplate"] = "DruidComboPointTemplate" -- inherited
-DruidComboPointBarFrame["resourcePointSetupFunc"] = DruidComboPointMixin.Setup -- inherited
-DruidComboPointBarFrame["resourcePointReleaseFunc"] = DruidComboPointMixin.OnRelease -- inherited
-DruidComboPointBarFrame["shouldShowBarFunc"] = DruidComboPointBarMixin.ShouldShowBar -- inherited
+DruidComboPointBarFrame["resourcePointMixin"] = DruidComboPointMixin -- inherited
+DruidComboPointBarFrame["shouldShowBarFunc"] = DruidComboPointBarMixin.ShouldShowComboPointBar -- inherited
 DruidComboPointBarFrame["spacing"] = 4 -- inherited
 DruidComboPointBarFrame["class"] = "DRUID" -- inherited
 DruidComboPointBarFrame["maxUsablePoints"] = 5 -- inherited

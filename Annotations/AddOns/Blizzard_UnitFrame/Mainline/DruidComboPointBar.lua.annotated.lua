@@ -4,21 +4,8 @@
  --- @class DruidComboPointBarMixin
 DruidComboPointBarMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.lua#L22)
- --- @class DruidComboPointMixin
-DruidComboPointMixin = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.lua#L3)
-function DruidComboPointBarMixin:ShouldShowBar() end
+function DruidComboPointBarMixin:ShouldShowComboPointBar() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.lua#L14)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.lua#L13)
 function DruidComboPointBarMixin:UpdatePower() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.lua#L24)
-function DruidComboPointMixin:Setup() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.lua#L35)
-function DruidComboPointMixin:SetActive(isActive) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/DruidComboPointBar.lua#L52)
-function DruidComboPointMixin:ResetVisuals() end

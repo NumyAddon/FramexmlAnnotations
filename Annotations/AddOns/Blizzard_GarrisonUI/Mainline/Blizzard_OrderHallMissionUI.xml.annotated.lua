@@ -134,12 +134,12 @@ OrderHallMissionFrameTab3 = {}
 --- child of OrderHallMissionFrameFollowers
 --- @class OrderHallMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L224)
 --- child of OrderHallMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 OrderHallMissionFrameFollowersClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L215)
 --- child of OrderHallMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 OrderHallMissionFrameFollowersSearchIcon = {}

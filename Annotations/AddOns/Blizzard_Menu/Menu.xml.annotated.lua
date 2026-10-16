@@ -6,4 +6,5 @@
 --- @field minimumElementWidth number # 50
 --- @field ignoreAllChildren boolean # true
 --- @field skipChildLayout boolean # true
+--- @field disableFrameFocusPagingWhenFocused boolean # true
 

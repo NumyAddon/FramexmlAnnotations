@@ -12,15 +12,15 @@
 --- child of DamageMeterSourceWindowTemplate
 --- @class DamageMeterSourceWindowTemplate_ResizeButton : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSourceWindow.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSourceWindow.xml#L47)
 --- child of DamageMeterSourceWindowTemplate
 --- @class DamageMeterSourceWindowTemplate_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSourceWindow.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSourceWindow.xml#L54)
 --- child of DamageMeterSourceWindowTemplate
 --- @class DamageMeterSourceWindowTemplate_ShowResizeButton : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSourceWindow.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSourceWindow.xml#L57)
 --- child of DamageMeterSourceWindowTemplate
 --- @class DamageMeterSourceWindowTemplate_EmphasizeScrollBar : AnimationGroup
 

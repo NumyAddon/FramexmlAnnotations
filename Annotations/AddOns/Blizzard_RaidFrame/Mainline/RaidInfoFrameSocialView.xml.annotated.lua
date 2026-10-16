@@ -1,18 +1,18 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L10)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L7)
 --- child of SocialUIRaidInfoContentFrameTemplate
 --- @class SocialUIRaidInfoContentFrameTemplate_name : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L16)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L13)
 --- child of SocialUIRaidInfoContentFrameTemplate
 --- @class SocialUIRaidInfoContentFrameTemplate_difficulty : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L23)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L19)
 --- child of SocialUIRaidInfoContentFrameTemplate
 --- @class SocialUIRaidInfoContentFrameTemplate_reset : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L28)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L25)
 --- child of SocialUIRaidInfoContentFrameTemplate
 --- @class SocialUIRaidInfoContentFrameTemplate_extended : FontString, GameFontHighlightSmall
 
@@ -24,25 +24,25 @@
 --- @field reset SocialUIRaidInfoContentFrameTemplate_reset
 --- @field extended SocialUIRaidInfoContentFrameTemplate_extended
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L107)
 --- child of SocialUIRaidInfoFrameTemplate
 --- @class SocialUIRaidInfoFrameTemplate_CloseButton : Button, UIPanelCloseButtonNoScripts
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L112)
 --- child of SocialUIRaidInfoFrameTemplate
 --- @class SocialUIRaidInfoFrameTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L118)
 --- child of SocialUIRaidInfoFrameTemplate
 --- @class SocialUIRaidInfoFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L124)
 --- child of SocialUIRaidInfoFrameTemplate
 --- @class SocialUIRaidInfoFrameTemplate_ExtendButton : Button, SharedButtonTemplate, SocialUIRaidInfoExtendMixin
 --- @field fitTextCanWidthDecrease boolean # false
 --- @field fitTextWidthPadding number # 40
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidInfoFrameSocialView.xml#L48)
 --- Template
 --- @class SocialUIRaidInfoFrameTemplate : Frame, SocialUIRaidInfoFrameMixin, SocialUISystemMixin
 --- @field Border Frame

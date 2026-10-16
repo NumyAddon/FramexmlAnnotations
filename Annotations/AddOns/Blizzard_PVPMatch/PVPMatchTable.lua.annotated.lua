@@ -32,19 +32,19 @@ PVPCellStringMixin = CreateFromMixins(TableBuilderCellMixin)
  --- @class PVPCellNameMixin : TableBuilderCellMixin
 PVPCellNameMixin = CreateFromMixins(TableBuilderCellMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L245)
  --- @class PVPSoloShuffleCellNameMixin : PVPCellNameMixin
 PVPSoloShuffleCellNameMixin = CreateFromMixins(PVPCellNameMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L261)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L262)
  --- @class PVPCellStatMixin : TableBuilderCellMixin
 PVPCellStatMixin = CreateFromMixins(TableBuilderCellMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L307)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L308)
  --- @class PVPSoloShuffleCellStatMixin : PVPCellStatMixin
 PVPSoloShuffleCellStatMixin = CreateFromMixins(PVPCellStatMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L313)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L314)
  --- @class PVPNewRatingMixin : TableBuilderCellMixin
 PVPNewRatingMixin = CreateFromMixins(TableBuilderCellMixin)
 
@@ -120,20 +120,20 @@ function PVPCellNameMixin:OnLeave() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L233)
 function PVPCellNameMixin:OnClick(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L249)
 function PVPSoloShuffleCellNameMixin:Populate(rowData, dataIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L264)
 function PVPCellStatMixin:Init(dataProviderKey, useAlternateColor) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L281)
 function PVPCellStatMixin:Populate(rowData, dataIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L310)
 function PVPSoloShuffleCellStatMixin:Populate(rowData, dataIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L316)
 function PVPNewRatingMixin:Init(useAlternateColor) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L319)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPMatch/PVPMatchTable.lua#L320)
 function PVPNewRatingMixin:Populate(rowData, dataIndex) end

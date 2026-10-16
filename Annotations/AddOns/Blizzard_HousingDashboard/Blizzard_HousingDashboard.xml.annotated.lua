@@ -37,12 +37,12 @@
 --- @field inactiveAtlas string # common-icons-blueprints-inactive
 --- @field tooltipText any # HOUSING_DASHBOARD_COLLECTION_TOOLTIP
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L633)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L660)
 --- child of HousingDashboardFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 HousingDashboardFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L627)
 --- child of HousingDashboardFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 HousingDashboardFrameBg = {}

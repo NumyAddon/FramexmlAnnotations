@@ -17,6 +17,7 @@
 --- @class TieredEntranceTraitSpellTemplate : Frame, TieredEntranceTraitSpellMixin
 --- @field Icon Texture
 --- @field IconMask MaskTexture
+--- @field GoldCircle Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TieredEntranceTraits/Blizzard_TieredEntranceTraits.xml#L97)
 --- child of TieredEntranceTraitsContainer

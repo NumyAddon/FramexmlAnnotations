@@ -53,20 +53,24 @@ ActionBarButtonUpdateFrame = {}
 ActionBarButtonRangeCheckFrame = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L117)
+--- @class ActionBarButtonActionCombatRangeCheckFrame : Frame, ActionBarButtonActionCombatRangeCheckFrameMixin
+ActionBarButtonActionCombatRangeCheckFrame = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L124)
 --- @class ActionBarButtonUsableWatcherFrame : Frame, ActionBarButtonUsableWatcherFrameMixin
 ActionBarButtonUsableWatcherFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L131)
 --- Template
 --- @class ActionButtonTextureOverlayTemplate : Frame
 --- @field Texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L177)
 --- child of ActionButtonCastingAnimFrameTemplate_Fill
 --- @class ActionButtonCastingAnimFrameTemplate_Fill_CastingAnim : AnimationGroup, ActionButtonCastingAnimationFillMixin
 --- @field CastFillTranslation Translation
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L142)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L149)
 --- child of ActionButtonCastingAnimFrameTemplate
 --- @class ActionButtonCastingAnimFrameTemplate_Fill : Frame
 --- @field InnerGlowTexture Texture
@@ -74,28 +78,28 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field FillMask MaskTexture
 --- @field CastingAnim ActionButtonCastingAnimFrameTemplate_Fill_CastingAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L203)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L210)
 --- child of ActionButtonCastingAnimFrameTemplate_EndBurst
 --- @class ActionButtonCastingAnimFrameTemplate_EndBurst_FinishCastAnim : AnimationGroup, ActionButtonCastingFinishAnimMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L187)
 --- child of ActionButtonCastingAnimFrameTemplate
 --- @class ActionButtonCastingAnimFrameTemplate_EndBurst : Frame
 --- @field GlowRing Texture
 --- @field EndMask MaskTexture
 --- @field FinishCastAnim ActionButtonCastingAnimFrameTemplate_EndBurst_FinishCastAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L143)
 --- Template
 --- @class ActionButtonCastingAnimFrameTemplate : Frame, ActionButtonCastingAnimFrameMixin
 --- @field Fill ActionButtonCastingAnimFrameTemplate_Fill
 --- @field EndBurst ActionButtonCastingAnimFrameTemplate_EndBurst
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L253)
 --- child of ActionButtonTargetReticleFrameTemplate
 --- @class ActionButtonTargetReticleFrameTemplate_HighlightAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L216)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L223)
 --- Template
 --- @class ActionButtonTargetReticleFrameTemplate : Frame, ActionButtonTargetReticleFrameMixin
 --- @field Base Texture
@@ -103,60 +107,61 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field Mask MaskTexture
 --- @field HighlightAnim ActionButtonTargetReticleFrameTemplate_HighlightAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L285)
 --- child of ActionButtonInterruptTemplate_Highlight
 --- @class ActionButtonInterruptTemplate_Highlight_AnimIn : AnimationGroup
+--- @field Translation Translation
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L262)
 --- child of ActionButtonInterruptTemplate
 --- @class ActionButtonInterruptTemplate_Highlight : Frame
 --- @field HighlightTexture Texture
 --- @field Mask MaskTexture
 --- @field AnimIn ActionButtonInterruptTemplate_Highlight_AnimIn
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L305)
 --- child of ActionButtonInterruptTemplate_Base
 --- @class ActionButtonInterruptTemplate_Base_AnimIn : AnimationGroup, ActionButtonInterruptAnimInMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L290)
 --- child of ActionButtonInterruptTemplate
 --- @class ActionButtonInterruptTemplate_Base : Frame
 --- @field Base Texture
 --- @field AnimIn ActionButtonInterruptTemplate_Base_AnimIn
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L260)
 --- Template
 --- @class ActionButtonInterruptTemplate : Frame, ActionButtonInterruptFrameMixin
 --- @field Highlight ActionButtonInterruptTemplate_Highlight
 --- @field Base ActionButtonInterruptTemplate_Base
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L323)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L330)
 --- child of ActionButtonCooldownFlashTemplate
 --- @class ActionButtonCooldownFlashTemplate_FlashAnim : AnimationGroup, ActionButtonCooldownFlashAnimMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L312)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L319)
 --- Template
 --- @class ActionButtonCooldownFlashTemplate : Frame, ActionButtonCooldownFlashMixin
 --- @field Flipbook Texture
 --- @field FlashAnim ActionButtonCooldownFlashTemplate_FlashAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L330)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L337)
 --- child of ActionButtonSpellFXTemplate
 --- @class ActionButtonSpellFXTemplate_InterruptDisplay : Frame, ActionButtonInterruptTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L331)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L338)
 --- child of ActionButtonSpellFXTemplate
 --- @class ActionButtonSpellFXTemplate_SpellCastAnimFrame : Frame, ActionButtonCastingAnimFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L339)
 --- child of ActionButtonSpellFXTemplate
 --- @class ActionButtonSpellFXTemplate_TargetReticleAnimFrame : Frame, ActionButtonTargetReticleFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L340)
 --- child of ActionButtonSpellFXTemplate
 --- @class ActionButtonSpellFXTemplate_CooldownFlash : Frame, ActionButtonCooldownFlashTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L328)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonComponentTemplate.xml#L335)
 --- Template
 --- @class ActionButtonSpellFXTemplate : CheckButton
 --- @field InterruptDisplay ActionButtonSpellFXTemplate_InterruptDisplay

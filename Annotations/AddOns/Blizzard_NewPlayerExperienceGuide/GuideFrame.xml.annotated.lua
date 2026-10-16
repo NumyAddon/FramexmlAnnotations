@@ -32,12 +32,12 @@
 --- @class GuideFrame_Title : FontString, Fancy30Font, AutoScalingFontStringMixin
 --- @field minLineHeight number # 16
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L633)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L660)
 --- child of GuideFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 GuideFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L627)
 --- child of GuideFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 GuideFrameBg = {}

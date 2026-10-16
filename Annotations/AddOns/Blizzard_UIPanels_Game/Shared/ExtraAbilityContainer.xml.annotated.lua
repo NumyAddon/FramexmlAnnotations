@@ -5,13 +5,13 @@
 --- @field spacing number # -30
 --- @field minimumWidth number # 250
 --- @field fixedHeight number # 120
---- @field layoutIndex number # 12
+--- @field layoutIndex number # 15
 --- @field hideWhenActionBarIsOverriden boolean # false
 ExtraAbilityContainer = {}
 ExtraAbilityContainer["spacing"] = -30
 ExtraAbilityContainer["minimumWidth"] = 250
 ExtraAbilityContainer["fixedHeight"] = 120
-ExtraAbilityContainer["layoutIndex"] = 12
+ExtraAbilityContainer["layoutIndex"] = 15
 ExtraAbilityContainer["hideWhenActionBarIsOverriden"] = false
 ExtraAbilityContainer["layoutParent"] = BottomManagedFrameContainer -- inherited
 ExtraAbilityContainer["align"] = "center" -- inherited

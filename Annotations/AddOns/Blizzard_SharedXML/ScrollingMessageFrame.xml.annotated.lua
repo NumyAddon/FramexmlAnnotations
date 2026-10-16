@@ -5,5 +5,6 @@
 --- @class ScrollingMessageFrame : Frame, ScrollingMessageFrameMixin, ScrollingMessageFrameSecureMixin
 --- @field isScrollingMessageFrame boolean # true
 --- @field allowScroll boolean # true
+--- @field smartNavRightStickMaxScrollSpeed number # 25
 --- @field FontStringContainer Frame
 

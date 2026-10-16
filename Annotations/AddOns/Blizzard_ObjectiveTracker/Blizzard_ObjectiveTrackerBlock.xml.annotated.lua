@@ -3,6 +3,8 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerBlock.xml#L16)
 --- child of ObjectiveTrackerBlockTemplate
 --- @class ObjectiveTrackerBlockTemplate_HeaderButton : Button, ObjectiveTrackerBlockHeaderMixin
+--- @field smartNavigationIgnored boolean # true
+--- @field buttonContext string # ButtonContext_QuestHeaderButton
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerBlock.xml#L7)
 --- child of ObjectiveTrackerBlockTemplate

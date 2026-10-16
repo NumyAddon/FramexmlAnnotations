@@ -31,6 +31,10 @@
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_Member5 : Button, CompactRaidGroupUnitFrameTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactRaidGroup.xml#L52)
+--- child of CompactRaidGroupTemplate
+--- @class CompactRaidGroupTemplate_Title : Button, SmartNavigationIgnoredTemplate
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactRaidGroup.xml#L61)
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_BorderFrame : Frame
@@ -43,7 +47,7 @@
 --- @field isFlowGroup boolean # true
 --- @field minUnitFrames number # 1
 --- @field groupType any # CompactRaidGroupTypeEnum.Raid
---- @field title Button
+--- @field title CompactRaidGroupTemplate_Title
 --- @field borderFrame CompactRaidGroupTemplate_BorderFrame
 --- @field memberUnitFrames table<number, CompactRaidGroupTemplate_Member1 | CompactRaidGroupTemplate_Member2 | CompactRaidGroupTemplate_Member3 | CompactRaidGroupTemplate_Member4 | CompactRaidGroupTemplate_Member5>
 

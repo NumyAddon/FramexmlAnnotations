@@ -4,6 +4,10 @@
  --- @class UIButtonMixin
 UIButtonMixin = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Button/UIButtonTemplate.lua#L161)
+ --- @class UIPanelCloseButtonNarrationMixin
+UIPanelCloseButtonNarrationMixin = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Button/UIButtonTemplate.lua#L4)
 function UIButtonMixin:InitButton() end
 
@@ -45,3 +49,6 @@ function UIButtonMixin:SetTooltipAnchor(tooltipAnchor, tooltipOffsetX, tooltipOf
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Button/UIButtonTemplate.lua#L149)
 function UIButtonMixin:SetDisabledTooltip(disabledTooltip, disabledTooltipAnchor, disabledTooltipOffsetX, disabledTooltipOffsetY) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Button/UIButtonTemplate.lua#L163)
+function UIPanelCloseButtonNarrationMixin:NarrationGetName() end

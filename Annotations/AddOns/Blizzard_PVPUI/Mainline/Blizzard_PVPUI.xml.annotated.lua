@@ -378,7 +378,7 @@ PVPTalentPrestigeLevelDialogCloseButton = {}
 --- child of PVPTalentPrestigeLevelDialog
 --- @class PVPTalentPrestigeLevelDialog_Warning : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L627)
 --- child of PVPTalentPrestigeLevelDialog (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 PVPTalentPrestigeLevelDialogBg = {}
@@ -746,9 +746,9 @@ TrainingGroundsFrameTypeDropdown = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1543)
 --- child of TrainingGroundsFrame_BonusTrainingGroundList
---- @class TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundButton : Button, PVPTrainingGroundActivityButtonTemplate
+--- @class TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundBGButton : Button, PVPTrainingGroundActivityButtonTemplate
 --- @field titleText any # RANDOM_TRAINING_GROUNDS_BATTLEGROUNDS_LABEL
---- @field queueOption string # RandomTrainingGround
+--- @field queueOption string # RandomTrainingGroundBG
 --- @field tooltipTitle any # RANDOM_TRAINING_GROUNDS_BATTLEGROUNDS_LABEL
 --- @field tooltipDescription any # BONUS_BUTTON_RANDOM_TRAINING_GROUND_DESC
 
@@ -807,11 +807,11 @@ TrainingGroundsFrameRight = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1528)
 --- child of TrainingGroundsFrame
 --- @class TrainingGroundsFrame_BonusTrainingGroundList : Frame, BonusTrainingGroundListMixin
---- @field RandomTrainingGroundButton TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundButton
+--- @field RandomTrainingGroundBGButton TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundBGButton
 --- @field RandomTrainingGroundArenaButton TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundArenaButton
 --- @field ShadowOverlay TrainingGroundsFrame_BonusTrainingGroundList_ShadowOverlay
 --- @field WorldBattlesTexture Texture
---- @field BonusTrainingGroundButtons table<number, TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundButton | TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundArenaButton>
+--- @field BonusTrainingGroundButtons table<number, TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundBGButton | TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundArenaButton>
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1581)
 --- child of TrainingGroundsFrame
@@ -1090,37 +1090,4 @@ ConquestTooltip["minimumWidth"] = 152
 ConquestTooltip["widthPadding"] = 10
 ConquestTooltip["heightPadding"] = 16
 ConquestTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L2088)
---- child of PvPObjectiveBannerFrame
---- @class PvPObjectiveBannerFrame_Title : FontString, QuestFont_Super_Huge
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L2093)
---- child of PvPObjectiveBannerFrame
---- @class PvPObjectiveBannerFrame_TitleFlash : FontString, QuestFont_Super_Huge
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L2099)
---- child of PvPObjectiveBannerFrame
---- @class PvPObjectiveBannerFrame_BonusLabel : FontString, GameFontHighlightLarge
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L2107)
---- child of PvPObjectiveBannerFrame
---- @class PvPObjectiveBannerFrame_Anim : AnimationGroup
---- @field BG1Translation Translation
---- @field TitleTranslation Translation
---- @field BonusLabelTranslation Translation
---- @field IconTranslation Translation
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L2046)
---- @class PvPObjectiveBannerFrame : Frame
---- @field Icon Texture
---- @field Icon2 Texture
---- @field Icon3 Texture
---- @field BG1 Texture
---- @field BG2 Texture
---- @field Title PvPObjectiveBannerFrame_Title
---- @field TitleFlash PvPObjectiveBannerFrame_TitleFlash
---- @field BonusLabel PvPObjectiveBannerFrame_BonusLabel
---- @field Anim PvPObjectiveBannerFrame_Anim
-PvPObjectiveBannerFrame = {}
 

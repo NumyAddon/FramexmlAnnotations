@@ -19,5 +19,5 @@ function MainMenuFrameMixin:AddSection(customSpacing) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/MainMenuFrameTemplates.lua#L73)
 function MainMenuFrameMixin:AddCloseButton(customText, customSpacing) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/MainMenuFrameTemplates.lua#L81)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Frame/MainMenuFrameTemplates.lua#L80)
 function MainMenuFrameMixin:CloseMenu() end

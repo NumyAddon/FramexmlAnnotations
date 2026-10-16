@@ -8,6 +8,10 @@ BarberShopMixin = CreateFromMixins(CharCustomizeParentFrameBaseMixin)
  --- @class BarberShopButtonMixin
 BarberShopButtonMixin = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.lua#L255)
+ --- @class BarberShopSDToggleMixin
+BarberShopSDToggleMixin = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.lua#L3)
 function BarberShopMixin:OnLoad() end
 
@@ -39,7 +43,7 @@ function BarberShopMixin:ApplyChanges() end
 function BarberShopMixin:UpdateButtons() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.lua#L127)
-function BarberShopMixin:UpdateCharCustomizationFrame(alsoReset) end
+function BarberShopMixin:UpdateCharCustomizationFrame(alsoReset, dontResetCamera) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.lua#L147)
 function BarberShopMixin:GetAlteredFormsUnsafeLeftSpace() end
@@ -100,3 +104,12 @@ function BarberShopMixin:SetCharacterSex(sexID) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.lua#L246)
 function BarberShopButtonMixin:OnClick() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.lua#L257)
+function BarberShopSDToggleMixin:OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.lua#L265)
+function BarberShopSDToggleMixin:OnShow() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.lua#L269)
+function BarberShopSDToggleMixin:OnClick() end

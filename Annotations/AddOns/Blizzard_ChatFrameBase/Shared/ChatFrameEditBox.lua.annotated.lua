@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L317)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L323)
  --- @class ChatFrameEditBoxMixin : ChatFrameEditBoxBaseMixin
 ChatFrameEditBoxMixin = CreateFromMixins(ChatFrameEditBoxBaseMixin)
 
@@ -50,101 +50,104 @@ function ChatFrameEditBoxBaseMixin:ResetChatTypeToSticky() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L73)
 function ChatFrameEditBoxBaseMixin:ExtractTellTarget(msg, chatType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L116)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L122)
 function ChatFrameEditBoxBaseMixin:ExtractChannel(msg) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L141)
 function ChatFrameEditBoxBaseMixin:ProcessChatType(msg, index, send) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L182)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L188)
 function ChatFrameEditBoxBaseMixin:HandleChatType(msg, command, send) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L208)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L214)
 function ChatFrameEditBoxBaseMixin:ParseText(send, parseIfNoSpaces) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L291)
 function ChatFrameEditBoxBaseMixin:SendText(addHistory) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L319)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L325)
 function ChatFrameEditBoxMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L357)
 function ChatFrameEditBoxMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L360)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L366)
 function ChatFrameEditBoxMixin:OnUpdate(elapsedSec) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L373)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L379)
 function ChatFrameEditBoxMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L378)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L384)
 function ChatFrameEditBoxMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L391)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L397)
 function ChatFrameEditBoxMixin:OnEditFocusGained() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L396)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L405)
 function ChatFrameEditBoxMixin:OnEditFocusLost() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L405)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L416)
+function ChatFrameEditBoxMixin:SendMessage() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L442)
 function ChatFrameEditBoxMixin:OnEnterPressed() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L434)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L449)
 function ChatFrameEditBoxMixin:OnEscapePressed() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L440)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L459)
 function ChatFrameEditBoxMixin:OnSpacePressed() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L449)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L468)
 function ChatFrameEditBoxMixin:OnTabPressed() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L458)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L477)
 function ChatFrameEditBoxMixin:OnTextChanged(userInput) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L488)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L507)
 function ChatFrameEditBoxMixin:OnChar() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L516)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L535)
 function ChatFrameEditBoxMixin:OnTextSet() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L520)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L539)
 function ChatFrameEditBoxMixin:OnInputLanguageChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L526)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L545)
 function ChatFrameEditBoxMixin:OnPreSendText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L533)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L552)
 function ChatFrameEditBoxMixin:ClearChat() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L543)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L564)
 function ChatFrameEditBoxMixin:Deactivate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L563)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L584)
 function ChatFrameEditBoxMixin:ResetChatType() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L596)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L617)
 function ChatFrameEditBoxMixin:UpdateHeader() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L698)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L719)
 function ChatFrameEditBoxMixin:UpdateLanguageHeader() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L704)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L725)
 function ChatFrameEditBoxMixin:SetFocusRegionVertexColors(color) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L708)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L729)
 function ChatFrameEditBoxMixin:SetFocusRegionsShown(shown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L712)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L733)
 function ChatFrameEditBoxMixin:DoesCurrentChannelTargetMatch(localID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L721)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L742)
 function ChatFrameEditBoxMixin:AddHistory() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L754)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L775)
 function ChatFrameEditBoxMixin:SecureTabPressed() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L801)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L822)
 function ChatFrameEditBoxMixin:SetGameLanguage(language, languageId) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L807)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Shared/ChatFrameEditBox.lua#L828)
 function ChatFrameEditBoxMixin:HasStickyFocus() end

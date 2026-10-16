@@ -22,26 +22,23 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L92)
 --- child of MainActionBar
---- @class MainActionBar_EndCaps : Frame
---- @field ignoreInLayout boolean # true
---- @field LeftEndCap Texture
---- @field RightEndCap Texture
+--- @class MainActionBar_EndCaps : Frame, MainMenuBarEndCaps
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L111)
 --- child of MainActionBar_ActionBarPageNumber
 --- @class MainActionBar_ActionBarPageNumber_UpButton : Button, QuickKeybindButtonTemplate, MainActionBarUpButtonMixin
 --- @field commandName string # NEXTACTIONPAGE
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L149)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L128)
 --- child of MainActionBar_ActionBarPageNumber
 --- @class MainActionBar_ActionBarPageNumber_DownButton : Button, QuickKeybindButtonTemplate, MainActionBarDownButtonMixin
 --- @field commandName string # PREVIOUSACTIONPAGE
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L102)
 --- child of MainActionBar_ActionBarPageNumber
 --- @class MainActionBar_ActionBarPageNumber_Text : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L114)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L93)
 --- child of MainActionBar
 --- @class MainActionBar_ActionBarPageNumber : Frame, ResizeLayoutFrame
 --- @field ignoreInLayout boolean # true
@@ -68,7 +65,7 @@
 --- @field skipAutomaticPositioning any # ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
 --- @field isNormalBar boolean # true
 --- @field enableDividers boolean # true
---- @field dynamicEndCaps boolean # true
+--- @field manageEndCaps any # MAIN_ACTION_BAR_MANAGE_END_CAPS
 --- @field EndCaps MainActionBar_EndCaps
 --- @field ActionBarPageNumber MainActionBar_ActionBarPageNumber
 --- @field BorderArt MainActionBar_BorderArt
@@ -89,7 +86,7 @@ MainActionBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.MainBar
 MainActionBar["skipAutomaticPositioning"] = ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
 MainActionBar["isNormalBar"] = true
 MainActionBar["enableDividers"] = true
-MainActionBar["dynamicEndCaps"] = true
+MainActionBar["manageEndCaps"] = MAIN_ACTION_BAR_MANAGE_END_CAPS
 MainActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MainActionBar["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MainActionBar["addSystemIndexToName"] = true -- inherited

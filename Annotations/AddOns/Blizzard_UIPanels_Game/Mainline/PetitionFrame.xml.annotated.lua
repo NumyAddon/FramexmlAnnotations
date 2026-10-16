@@ -122,18 +122,18 @@ PetitionFrameMemberName9 = {}
 --- @class PetitionFrameInstructions : FontString, QuestFont
 PetitionFrameInstructions = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L713)
 --- child of PetitionFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 PetitionFrameInset = {}
 PetitionFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L707)
 --- child of PetitionFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 PetitionFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L690)
 --- child of PetitionFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 PetitionFrameBg = {}

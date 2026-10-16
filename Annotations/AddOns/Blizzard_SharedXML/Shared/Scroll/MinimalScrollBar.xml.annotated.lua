@@ -4,7 +4,7 @@
 --- Template
 --- @class MinimalScrollBarStepperScripts : Frame, MinimalScrollBarStepperScriptsMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L51)
 --- child of MinimalScrollBar_Track
 --- @class MinimalScrollBar_Track_Thumb : EventButton, MinimalScrollBarThumbScriptsMixin
 --- @field upBeginTexture string # minimal-scrollbar-small-thumb-top
@@ -21,7 +21,7 @@
 --- @field End Texture
 --- @field Middle Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L23)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L24)
 --- child of MinimalScrollBar
 --- @class MinimalScrollBar_Track : Frame
 --- @field Thumb MinimalScrollBar_Track_Thumb
@@ -29,7 +29,7 @@
 --- @field End Texture
 --- @field Middle Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L101)
 --- child of MinimalScrollBar
 --- @class MinimalScrollBar_Back : EventButton, MinimalScrollBarStepperScripts
 --- @field direction any # ScrollControllerMixin.Directions.Decrease
@@ -40,7 +40,7 @@
 --- @field mouseDownSoundKitID any # SOUNDKIT.SCROLLBAR_STEP
 --- @field Texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/MinimalScrollBar.xml#L120)
 --- child of MinimalScrollBar
 --- @class MinimalScrollBar_Forward : EventButton, MinimalScrollBarStepperScripts
 --- @field direction any # ScrollControllerMixin.Directions.Increase
@@ -56,6 +56,7 @@
 --- @class MinimalScrollBar : EventFrame, VerticalScrollBarTemplate
 --- @field thumbAnchor string # TOP
 --- @field minThumbExtent number # 23
+--- @field smartNavigationIgnored boolean # true
 --- @field Track MinimalScrollBar_Track
 --- @field Back MinimalScrollBar_Back
 --- @field Forward MinimalScrollBar_Forward

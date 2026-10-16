@@ -8,7 +8,7 @@
 --- Template
 --- @class ActionBarTemplate : Frame, ResizeLayoutFrame, ActionBarMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionBarTemplate.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionBarTemplate.xml#L61)
 --- Template
 --- @class EditModeActionBarTemplate : Frame, ActionBarTemplate, EditModeActionBarSystemTemplate, EditModeActionBarMixin
 

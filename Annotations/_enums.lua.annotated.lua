@@ -53,14 +53,14 @@ local CraftingQualityStatLine = {
     ["Concentration"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/IconDataProvider.lua#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/IconDataProvider.lua#L47)
  --- @enum IconDataProviderIconType
 local IconDataProviderIconType = {
     ["Spell"] = 1,
     ["Item"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1672)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1675)
  --- @enum IconSelectorPopupFrameIconFilterTypes
 local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
@@ -68,7 +68,7 @@ local IconSelectorPopupFrameIconFilterTypes = {
     ["Item"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1667)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1670)
  --- @enum IconSelectorPopupFrameModes
 local IconSelectorPopupFrameModes = {
     ["New"] = 1,
@@ -136,7 +136,7 @@ local ObjectiveTrackerModuleState = {
     ["ShownFully"] = 5, -- all objectives are shown, or header is collapsed and at least 1 objective could have shown
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L366)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L374)
  --- @enum ObjectiveTrackerSlidingState
 local ObjectiveTrackerSlidingState = {
     ["None"] = 1,
@@ -144,7 +144,7 @@ local ObjectiveTrackerSlidingState = {
     ["SlideOut"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1816)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1782)
  --- @enum PVPUIHonorInsetPanelType
 local PVPUIHonorInsetPanelType = {
     ["Casual"] = 1,
@@ -183,7 +183,7 @@ local ProfessionsCustomerOrdersMode = {
     ["Orders"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L1551)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L1600)
  --- @enum ProfessionsSortOrder
 local ProfessionsSortOrder = {
     ["Name"] = 1,
@@ -265,7 +265,7 @@ local SocialUITabType = {
     ["RecentAllies"] = 6,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L9)
  --- @enum SpellFlyoutOpenReason
 local SpellFlyoutOpenReason = {
     ["GlyphPending"] = 1,

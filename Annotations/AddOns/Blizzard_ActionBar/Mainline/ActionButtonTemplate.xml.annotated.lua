@@ -1,40 +1,40 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L90)
 --- child of ActionButtonTemplate_TextOverlayContainer
 --- @class ActionButtonTemplate_TextOverlayContainer_HotKey : FontString, NumberFontNormalSmallGray
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L97)
 --- child of ActionButtonTemplate_TextOverlayContainer
 --- @class ActionButtonTemplate_TextOverlayContainer_Count : FontString, NumberFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L87)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_TextOverlayContainer : Frame, ActionButtonTextOverlayContainerMixin
 --- @field HotKey ActionButtonTemplate_TextOverlayContainer_HotKey
 --- @field Count ActionButtonTemplate_TextOverlayContainer_Count
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L109)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_AutoCastOverlay : Frame, AutoCastOverlayTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L116)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L125)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_lossOfControlCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L135)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_chargeCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L48)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_Name : FontString, GameFontHighlightSmallOutline
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L75)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L80)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_SpellHighlightAnim : AnimationGroup
 
@@ -64,6 +64,7 @@
 --- @field SlotBackground Texture
 --- @field SlotArt Texture
 --- @field Flash Texture
+--- @field InsufficientResourceFlash Texture
 --- @field Name ActionButtonTemplate_Name
 --- @field Border Texture
 --- @field NewActionTexture Texture
@@ -74,17 +75,17 @@
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L177)
 --- Explicitly protected
 --- Template
 --- @class ActionBarButtonCodeTemplate : CheckButton, SecureActionButtonTemplate, QuickKeybindButtonTemplate, ActionButtonSpellFXTemplate, ActionBarActionButtonDerivedMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L194)
 --- Explicitly protected
 --- Template
 --- @class ActionBarButtonTemplate : CheckButton, ActionButtonTemplate, ActionBarButtonCodeTemplate, ActionBarButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L198)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L203)
 --- Template
 --- @class SmallActionButtonTemplate : CheckButton, ActionButtonTemplate, SmallActionButtonMixin
 --- @field hotkeyX number # -3

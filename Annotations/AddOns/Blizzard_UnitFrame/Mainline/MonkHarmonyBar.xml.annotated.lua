@@ -32,13 +32,12 @@
 --- @field powerToken2 string # DARK_FORCE
 --- @field powerType any # Enum.PowerType.Chi
 --- @field resourcePointTemplate string # MonkLightEnergyTemplate
---- @field resourcePointSetupFunc any # MonkLightEnergyMixin.Setup
---- @field resourcePointReleaseFunc any # MonkLightEnergyMixin.OnRelease
+--- @field resourcePointMixin any # MonkLightEnergyMixin
 --- @field spacing number # 2
 --- @field class string # MONK
 --- @field spec any # SPEC_MONK_WINDWALKER
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L119)
 --- @class MonkHarmonyBarFrame : Frame, MonkHarmonyBarFrameTemplate
 --- @field layoutIndex number # 3
 --- @field topPadding number # 7
@@ -55,8 +54,7 @@ MonkHarmonyBarFrame["powerToken"] = "CHI" -- inherited
 MonkHarmonyBarFrame["powerToken2"] = "DARK_FORCE" -- inherited
 MonkHarmonyBarFrame["powerType"] = Enum.PowerType.Chi -- inherited
 MonkHarmonyBarFrame["resourcePointTemplate"] = "MonkLightEnergyTemplate" -- inherited
-MonkHarmonyBarFrame["resourcePointSetupFunc"] = MonkLightEnergyMixin.Setup -- inherited
-MonkHarmonyBarFrame["resourcePointReleaseFunc"] = MonkLightEnergyMixin.OnRelease -- inherited
+MonkHarmonyBarFrame["resourcePointMixin"] = MonkLightEnergyMixin -- inherited
 MonkHarmonyBarFrame["spacing"] = 2 -- inherited
 MonkHarmonyBarFrame["class"] = "MONK" -- inherited
 MonkHarmonyBarFrame["spec"] = SPEC_MONK_WINDWALKER -- inherited

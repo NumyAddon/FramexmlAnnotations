@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.xml#L75)
 --- child of ProfessionsReagentSlotBaseTemplate_Button
 --- @class ProfessionsReagentSlotBaseTemplate_Button_InputOverlay : Frame
 --- @field AddIcon Texture
@@ -10,6 +10,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.xml#L28)
 --- child of ProfessionsReagentSlotBaseTemplate
 --- @class ProfessionsReagentSlotBaseTemplate_Button : ItemButton, ProfessionsButtonTemplate, ProfessionsReagentSlotButtonMixin
+--- @field buttonContext string # ButtonContext_ProfessionsReagentButton
 --- @field InputOverlay ProfessionsReagentSlotBaseTemplate_Button_InputOverlay
 --- @field ColorOverlay Texture
 --- @field CropFrame Texture
@@ -17,11 +18,11 @@
 --- @field QualityOverlay Texture
 --- @field AddIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.xml#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.xml#L100)
 --- child of ProfessionsReagentSlotBaseTemplate
 --- @class ProfessionsReagentSlotBaseTemplate_Checkbox : CheckButton, UICheckButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.xml#L110)
 --- child of ProfessionsReagentSlotBaseTemplate
 --- @class ProfessionsReagentSlotBaseTemplate_Checkmark : Frame
 --- @field Check Texture

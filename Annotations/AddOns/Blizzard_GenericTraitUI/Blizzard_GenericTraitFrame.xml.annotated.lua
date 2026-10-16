@@ -1,35 +1,44 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L37)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L36)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L42)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # UniqueCornersLayout
 --- @field layoutTextureKit string # none
 --- @field DetailTop Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L69)
+--- child of GenericTraitFrame_FrameTitleContainer
+--- @class GenericTraitFrame_FrameTitleContainer_FrameTitle : FontString, GameFontNormal
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L62)
+--- child of GenericTraitFrame
+--- @class GenericTraitFrame_FrameTitleContainer : Frame
+--- @field FrameTitle GenericTraitFrame_FrameTitleContainer_FrameTitle
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L85)
 --- child of GenericTraitFrame_Header
 --- @class GenericTraitFrame_Header_Title : FontString, Fancy24Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L78)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_Header : Frame
 --- @field Title GenericTraitFrame_Header_Title
 --- @field TitleDivider Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L104)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_Inset : Frame, InsetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L128)
 --- child of GenericTraitFrame_Currency
 --- @class GenericTraitFrame_Currency_UnspentPointsCount : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L110)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_Currency : Button, GenericTraitFrameCurrencyFrameMixin
 --- @field CurrencyBackground Texture
@@ -47,6 +56,7 @@
 --- @field refreshOnShow boolean # true
 --- @field CloseButton GenericTraitFrame_CloseButton
 --- @field NineSlice GenericTraitFrame_NineSlice
+--- @field FrameTitleContainer GenericTraitFrame_FrameTitleContainer
 --- @field Header GenericTraitFrame_Header
 --- @field Inset GenericTraitFrame_Inset
 --- @field Currency GenericTraitFrame_Currency

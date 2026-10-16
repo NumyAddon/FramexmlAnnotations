@@ -1,27 +1,29 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L4)
 --- Template
 --- @class AvatarButtonTemplate : Button, CommunitiesAvatarButtonMixin
 --- @field Selected Texture
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L47)
 --- child of CommunitiesAvatarPickerDialog
 --- @class CommunitiesAvatarPickerDialog_Selector : Frame, SelectionFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L48)
 --- child of CommunitiesAvatarPickerDialog
 --- @class CommunitiesAvatarPickerDialog_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L54)
 --- child of CommunitiesAvatarPickerDialog
 --- @class CommunitiesAvatarPickerDialog_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L21)
---- @class CommunitiesAvatarPickerDialog : Frame, CommunitiesAvatarPickerDialogMixin
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesAvatarPickerDialog.xml#L20)
+--- @class CommunitiesAvatarPickerDialog : Frame, GamepadBaseDialogTemplate, FocusFramesInterfaceTemplate, CommunitiesAvatarPickerDialogMixin
+--- @field layoutType string # DialogFrameTemplate
 --- @field Selector CommunitiesAvatarPickerDialog_Selector
 --- @field ScrollBox CommunitiesAvatarPickerDialog_ScrollBox
 --- @field ScrollBar CommunitiesAvatarPickerDialog_ScrollBar
 CommunitiesAvatarPickerDialog = {}
+CommunitiesAvatarPickerDialog["layoutType"] = "DialogFrameTemplate"
 

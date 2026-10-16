@@ -384,7 +384,7 @@ InspectGuildText = {}
 InspectFaction = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Mainline/InspectPaperDollFrame.xml#L81)
---- @class InspectPaperDollFrame : Frame
+--- @class InspectPaperDollFrame : Frame, InspectPaperDollFrameMixin
 --- @field LevelTextWrapper InspectPaperDollFrame_LevelTextWrapper
 --- @field ViewButton InspectPaperDollFrame_ViewButton
 InspectPaperDollFrame = {}

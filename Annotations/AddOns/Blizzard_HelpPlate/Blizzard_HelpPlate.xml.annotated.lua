@@ -199,7 +199,7 @@
 --- @field ShadowLeft GlowBoxTemplate_ShadowLeft
 --- @field ShadowRight GlowBoxTemplate_ShadowRight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L292)
 --- child of MainHelpPlateButton
 --- @class MainHelpPlateButton_Pulse : AnimationGroup
 --- @field BigIPulse Alpha
@@ -209,54 +209,55 @@
 --- Template
 --- @class MainHelpPlateButton : Button, MainHelpPlateButtonMixin
 --- @field mainHelpPlateButtonTooltipText any # MAIN_HELP_BUTTON_TOOLTIP
+--- @field smartNavigationIgnored boolean # true
 --- @field I Texture
 --- @field Ring Texture
 --- @field BigIPulse Texture
 --- @field RingPulse Texture
 --- @field Pulse MainHelpPlateButton_Pulse
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L303)
 --- child of HelpPlateTooltip
 --- @class HelpPlateTooltip_Text : FontString, GameFontHighlightLeft
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L311)
 --- child of HelpPlateTooltip
 --- @class HelpPlateTooltip_ArrowUp : Texture, HelpPlateArrowDown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L317)
 --- child of HelpPlateTooltip
 --- @class HelpPlateTooltip_ArrowDown : Texture, HelpPlateArrowUp
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L321)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L323)
 --- child of HelpPlateTooltip
 --- @class HelpPlateTooltip_ArrowRight : Texture, HelpPlateArrowDown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L327)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L329)
 --- child of HelpPlateTooltip
 --- @class HelpPlateTooltip_ArrowLeft : Texture, HelpPlateArrowDown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L335)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L337)
 --- child of HelpPlateTooltip
 --- @class HelpPlateTooltip_ArrowGlowUp : Texture, HelpPlateArrow_GlowDown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L341)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L343)
 --- child of HelpPlateTooltip
 --- @class HelpPlateTooltip_ArrowGlowDown : Texture, HelpPlateArrow_GlowUp
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L347)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L349)
 --- child of HelpPlateTooltip
 --- @class HelpPlateTooltip_ArrowGlowRight : Texture, HelpPlateArrow_GlowDown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L353)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L355)
 --- child of HelpPlateTooltip
 --- @class HelpPlateTooltip_ArrowGlowLeft : Texture, HelpPlateArrow_GlowDown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L364)
 --- child of HelpPlateTooltip
 --- @class HelpPlateTooltip_LingerAndFade : AnimationGroup
 --- @field FadeOut Alpha
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L299)
 --- @class HelpPlateTooltip : Frame, GlowBoxTemplate, HelpPlateTooltipMixin
 --- @field Text HelpPlateTooltip_Text
 --- @field ArrowUp HelpPlateTooltip_ArrowUp
@@ -270,13 +271,13 @@
 --- @field LingerAndFade HelpPlateTooltip_LingerAndFade
 HelpPlateTooltip = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L402)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L404)
 --- child of HelpPlateTile_Button
 --- @class HelpPlateTile_Button_Pulse : AnimationGroup
 --- @field HelpIGlow Alpha
 --- @field BgGlow Alpha
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L377)
 --- child of HelpPlateTile
 --- @class HelpPlateTile_Button : Button, HelpPlateButtonMixin
 --- @field HelpI Texture
@@ -284,7 +285,7 @@ HelpPlateTooltip = {}
 --- @field BgGlow Texture
 --- @field Pulse HelpPlateTile_Button_Pulse
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L410)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L412)
 --- child of HelpPlateTile
 --- @class HelpPlateTile_Box : Frame, HelpPlateBoxMixin
 --- @field BG Texture
@@ -298,7 +299,7 @@ HelpPlateTooltip = {}
 --- @field Right Texture
 --- @field Textures table<number, Texture>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L481)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L483)
 --- child of HelpPlateTile
 --- @class HelpPlateTile_BoxHighlight : Frame
 --- @field TopLeft Texture
@@ -311,18 +312,18 @@ HelpPlateTooltip = {}
 --- @field Right Texture
 --- @field Textures table<number, Texture>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L372)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L374)
 --- Template
 --- @class HelpPlateTile : Frame, HelpPlateTileMixin
 --- @field Button HelpPlateTile_Button
 --- @field Box HelpPlateTile_Box
 --- @field BoxHighlight HelpPlateTile_BoxHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L547)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L549)
 --- @class HelpPlateCanvas : Button
 HelpPlateCanvas = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L551)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L553)
 --- Template
 --- @class RinglessHelpPlateButtonTemplate : Button
 --- @field LetterI Texture

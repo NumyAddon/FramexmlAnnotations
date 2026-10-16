@@ -11,7 +11,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L73)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CenterStatusIcon : Button, CompactUnitFrameCenterStatusIconMixin
+--- @class CompactUnitFrameTemplate_CenterStatusIcon : Button, SmartNavigationIgnoredTemplate, CompactUnitFrameCenterStatusIconMixin
 --- @field texture Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L87)
@@ -35,7 +35,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L3)
 --- Explicitly protected
 --- Template
---- @class CompactUnitFrameTemplate : Button, SecureUnitButtonTemplate, PingableUnitFrameTemplate, BasePrivateAuraBehaviorMixin
+--- @class CompactUnitFrameTemplate : Button, SecureUnitButtonTemplate, PingableUnitFrameTemplate, SmartNavigationNoContextActions, BasePrivateAuraBehaviorMixin
 --- @field maxPrivateAuras number # 5
 --- @field healthBar StatusBar
 --- @field TempMaxHealthLoss CompactUnitFrameTemplate_TempMaxHealthLoss

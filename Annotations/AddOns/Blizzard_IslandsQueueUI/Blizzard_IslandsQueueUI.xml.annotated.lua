@@ -147,12 +147,12 @@
 --- child of IslandsQueueFrame
 --- @class IslandsQueueFrame_HelpButton : Button, MainHelpPlateButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L633)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L660)
 --- child of IslandsQueueFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 IslandsQueueFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L627)
 --- child of IslandsQueueFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 IslandsQueueFrameBg = {}

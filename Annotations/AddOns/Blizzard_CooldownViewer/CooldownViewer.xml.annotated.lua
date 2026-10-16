@@ -159,14 +159,14 @@
 --- @field systemNameString any # HUD_EDIT_MODE_SYSTEM_ESSENTIAL_COOLDOWNS
 --- @field itemTemplate string # CooldownViewerEssentialItemTemplate
 --- @field cooldownViewerCategory any # Enum.CooldownViewerCategory.Essential
---- @field layoutIndex number # 10
+--- @field layoutIndex number # 13
 --- @field ignoreInLayoutWhenActionBarIsOverriden boolean # true
 EssentialCooldownViewer = {}
 EssentialCooldownViewer["systemIndex"] = Enum.EditModeCooldownViewerSystemIndices.Essential
 EssentialCooldownViewer["systemNameString"] = HUD_EDIT_MODE_SYSTEM_ESSENTIAL_COOLDOWNS
 EssentialCooldownViewer["itemTemplate"] = "CooldownViewerEssentialItemTemplate"
 EssentialCooldownViewer["cooldownViewerCategory"] = Enum.CooldownViewerCategory.Essential
-EssentialCooldownViewer["layoutIndex"] = 10
+EssentialCooldownViewer["layoutIndex"] = 13
 EssentialCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
 EssentialCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 EssentialCooldownViewer["defaultHideSelection"] = true -- inherited
@@ -182,14 +182,14 @@ EssentialCooldownViewer["isManagedFrame"] = true -- inherited
 --- @field systemNameString any # HUD_EDIT_MODE_SYSTEM_UTILITY_COOLDOWNS
 --- @field itemTemplate string # CooldownViewerUtilityItemTemplate
 --- @field cooldownViewerCategory any # Enum.CooldownViewerCategory.Utility
---- @field layoutIndex number # 11
+--- @field layoutIndex number # 14
 --- @field ignoreInLayoutWhenActionBarIsOverriden boolean # true
 UtilityCooldownViewer = {}
 UtilityCooldownViewer["systemIndex"] = Enum.EditModeCooldownViewerSystemIndices.Utility
 UtilityCooldownViewer["systemNameString"] = HUD_EDIT_MODE_SYSTEM_UTILITY_COOLDOWNS
 UtilityCooldownViewer["itemTemplate"] = "CooldownViewerUtilityItemTemplate"
 UtilityCooldownViewer["cooldownViewerCategory"] = Enum.CooldownViewerCategory.Utility
-UtilityCooldownViewer["layoutIndex"] = 11
+UtilityCooldownViewer["layoutIndex"] = 14
 UtilityCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
 UtilityCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 UtilityCooldownViewer["defaultHideSelection"] = true -- inherited
@@ -205,14 +205,14 @@ UtilityCooldownViewer["isManagedFrame"] = true -- inherited
 --- @field systemNameString any # HUD_EDIT_MODE_SYSTEM_TRACKED_BUFFS
 --- @field itemTemplate string # CooldownViewerBuffIconItemTemplate
 --- @field cooldownViewerCategory any # Enum.CooldownViewerCategory.TrackedBuff
---- @field layoutIndex number # 9
+--- @field layoutIndex number # 12
 --- @field ignoreInLayoutWhenActionBarIsOverriden boolean # true
 BuffIconCooldownViewer = {}
 BuffIconCooldownViewer["systemIndex"] = Enum.EditModeCooldownViewerSystemIndices.BuffIcon
 BuffIconCooldownViewer["systemNameString"] = HUD_EDIT_MODE_SYSTEM_TRACKED_BUFFS
 BuffIconCooldownViewer["itemTemplate"] = "CooldownViewerBuffIconItemTemplate"
 BuffIconCooldownViewer["cooldownViewerCategory"] = Enum.CooldownViewerCategory.TrackedBuff
-BuffIconCooldownViewer["layoutIndex"] = 9
+BuffIconCooldownViewer["layoutIndex"] = 12
 BuffIconCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
 BuffIconCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 BuffIconCooldownViewer["defaultHideSelection"] = true -- inherited

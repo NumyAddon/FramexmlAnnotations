@@ -89,12 +89,12 @@
 --- @class CatalogShopRefundFrame_CoverFrame : Frame
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow.xml#L509)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow.xml#L531)
 --- child of CatalogShopRefundFrame (created in template DefaultPanelTemplate)
 --- @type Texture
 CatalogShopRefundFrameBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow.xml#L517)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow.xml#L539)
 --- child of CatalogShopRefundFrame (created in template DefaultPanelTemplate)
 --- @type DefaultPanelTemplate_TopTileStreaks
 CatalogShopRefundFrameTopTileStreaks = {}

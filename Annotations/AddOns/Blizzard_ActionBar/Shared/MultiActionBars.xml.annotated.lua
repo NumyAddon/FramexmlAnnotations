@@ -87,6 +87,7 @@ MultiBarBottomLeft["addSystemIndexToName"] = true -- inherited
 --- @field hideGridEventName string # ACTIONBAR_HIDEGRID
 --- @field systemIndex any # Enum.EditModeActionBarSystemIndices.Bar3
 --- @field skipAutomaticPositioning any # ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
+--- @field isNormalBar boolean # true
 --- @field QuickKeybindGlow Texture
 MultiBarBottomRight = {}
 MultiBarBottomRight["buttonTemplate"] = "MultiBar2ButtonTemplate"
@@ -100,11 +101,12 @@ MultiBarBottomRight["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBarBottomRight["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarBottomRight["systemIndex"] = Enum.EditModeActionBarSystemIndices.Bar3
 MultiBarBottomRight["skipAutomaticPositioning"] = ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
+MultiBarBottomRight["isNormalBar"] = true
 MultiBarBottomRight["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBarBottomRight["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBarBottomRight["addSystemIndexToName"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L105)
 --- @class MultiBarLeft : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar4ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR4
@@ -134,7 +136,7 @@ MultiBarLeft["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBarLeft["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBarLeft["addSystemIndexToName"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L134)
 --- @class MultiBarRight : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar3ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR3
@@ -164,7 +166,7 @@ MultiBarRight["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBarRight["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBarRight["addSystemIndexToName"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L162)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L163)
 --- @class MultiBar5 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar5ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR5
@@ -194,7 +196,7 @@ MultiBar5["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBar5["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBar5["addSystemIndexToName"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L191)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L192)
 --- @class MultiBar6 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar6ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR6
@@ -224,7 +226,7 @@ MultiBar6["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBar6["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBar6["addSystemIndexToName"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L220)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L221)
 --- @class MultiBar7 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar7ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR7

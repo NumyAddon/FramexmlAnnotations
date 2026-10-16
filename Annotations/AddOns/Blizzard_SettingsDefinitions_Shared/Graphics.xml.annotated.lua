@@ -91,45 +91,53 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L154)
 --- child of SettingsAdvancedQualityControlsTemplate
---- @class SettingsAdvancedQualityControlsTemplate_ParticleDensity : Frame, SettingsAdvancedDropdownTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_PBRLiquidDetail : Frame, SettingsAdvancedDropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L160)
 --- child of SettingsAdvancedQualityControlsTemplate
---- @class SettingsAdvancedQualityControlsTemplate_SSAO : Frame, SettingsAdvancedDropdownTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_ParticleDensity : Frame, SettingsAdvancedDropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L166)
 --- child of SettingsAdvancedQualityControlsTemplate
---- @class SettingsAdvancedQualityControlsTemplate_DepthEffects : Frame, SettingsAdvancedDropdownTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_SSAO : Frame, SettingsAdvancedDropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L172)
 --- child of SettingsAdvancedQualityControlsTemplate
---- @class SettingsAdvancedQualityControlsTemplate_ComputeEffects : Frame, SettingsAdvancedDropdownTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_DepthEffects : Frame, SettingsAdvancedDropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L178)
 --- child of SettingsAdvancedQualityControlsTemplate
---- @class SettingsAdvancedQualityControlsTemplate_OutlineMode : Frame, SettingsAdvancedDropdownTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_ComputeEffects : Frame, SettingsAdvancedDropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L184)
 --- child of SettingsAdvancedQualityControlsTemplate
---- @class SettingsAdvancedQualityControlsTemplate_TextureResolution : Frame, SettingsAdvancedDropdownTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_OutlineMode : Frame, SettingsAdvancedDropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L190)
 --- child of SettingsAdvancedQualityControlsTemplate
---- @class SettingsAdvancedQualityControlsTemplate_SpellDensity : Frame, SettingsAdvancedDropdownTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_TextureResolution : Frame, SettingsAdvancedDropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L196)
 --- child of SettingsAdvancedQualityControlsTemplate
---- @class SettingsAdvancedQualityControlsTemplate_ProjectedTextures : Frame, SettingsAdvancedDropdownTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_SpellDensity : Frame, SettingsAdvancedDropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L202)
 --- child of SettingsAdvancedQualityControlsTemplate
---- @class SettingsAdvancedQualityControlsTemplate_ViewDistance : Frame, SettingsAdvancedSliderTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_ProjectedTextures : Frame, SettingsAdvancedDropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L208)
 --- child of SettingsAdvancedQualityControlsTemplate
---- @class SettingsAdvancedQualityControlsTemplate_EnvironmentDetail : Frame, SettingsAdvancedSliderTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_LightMode : Frame, SettingsAdvancedDropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L214)
+--- child of SettingsAdvancedQualityControlsTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_ViewDistance : Frame, SettingsAdvancedSliderTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L220)
+--- child of SettingsAdvancedQualityControlsTemplate
+--- @class SettingsAdvancedQualityControlsTemplate_EnvironmentDetail : Frame, SettingsAdvancedSliderTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L226)
 --- child of SettingsAdvancedQualityControlsTemplate
 --- @class SettingsAdvancedQualityControlsTemplate_GroundClutter : Frame, SettingsAdvancedSliderTemplate
 
@@ -138,6 +146,7 @@
 --- @class SettingsAdvancedQualityControlsTemplate : Frame, SettingsAdvancedQualityControlsMixin
 --- @field ShadowQuality SettingsAdvancedQualityControlsTemplate_ShadowQuality
 --- @field LiquidDetail SettingsAdvancedQualityControlsTemplate_LiquidDetail
+--- @field PBRLiquidDetail SettingsAdvancedQualityControlsTemplate_PBRLiquidDetail
 --- @field ParticleDensity SettingsAdvancedQualityControlsTemplate_ParticleDensity
 --- @field SSAO SettingsAdvancedQualityControlsTemplate_SSAO
 --- @field DepthEffects SettingsAdvancedQualityControlsTemplate_DepthEffects
@@ -146,18 +155,19 @@
 --- @field TextureResolution SettingsAdvancedQualityControlsTemplate_TextureResolution
 --- @field SpellDensity SettingsAdvancedQualityControlsTemplate_SpellDensity
 --- @field ProjectedTextures SettingsAdvancedQualityControlsTemplate_ProjectedTextures
+--- @field LightMode SettingsAdvancedQualityControlsTemplate_LightMode
 --- @field ViewDistance SettingsAdvancedQualityControlsTemplate_ViewDistance
 --- @field EnvironmentDetail SettingsAdvancedQualityControlsTemplate_EnvironmentDetail
 --- @field GroundClutter SettingsAdvancedQualityControlsTemplate_GroundClutter
---- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_ShadowQuality | SettingsAdvancedQualityControlsTemplate_LiquidDetail | SettingsAdvancedQualityControlsTemplate_ParticleDensity | SettingsAdvancedQualityControlsTemplate_SSAO | SettingsAdvancedQualityControlsTemplate_DepthEffects | SettingsAdvancedQualityControlsTemplate_ComputeEffects | SettingsAdvancedQualityControlsTemplate_OutlineMode | SettingsAdvancedQualityControlsTemplate_TextureResolution | SettingsAdvancedQualityControlsTemplate_SpellDensity | SettingsAdvancedQualityControlsTemplate_ProjectedTextures | SettingsAdvancedQualityControlsTemplate_ViewDistance | SettingsAdvancedQualityControlsTemplate_EnvironmentDetail | SettingsAdvancedQualityControlsTemplate_GroundClutter>
+--- @field Controls table<number, SettingsAdvancedQualityControlsTemplate_ShadowQuality | SettingsAdvancedQualityControlsTemplate_LiquidDetail | SettingsAdvancedQualityControlsTemplate_PBRLiquidDetail | SettingsAdvancedQualityControlsTemplate_ParticleDensity | SettingsAdvancedQualityControlsTemplate_SSAO | SettingsAdvancedQualityControlsTemplate_DepthEffects | SettingsAdvancedQualityControlsTemplate_ComputeEffects | SettingsAdvancedQualityControlsTemplate_OutlineMode | SettingsAdvancedQualityControlsTemplate_TextureResolution | SettingsAdvancedQualityControlsTemplate_SpellDensity | SettingsAdvancedQualityControlsTemplate_ProjectedTextures | SettingsAdvancedQualityControlsTemplate_LightMode | SettingsAdvancedQualityControlsTemplate_ViewDistance | SettingsAdvancedQualityControlsTemplate_EnvironmentDetail | SettingsAdvancedQualityControlsTemplate_GroundClutter>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L245)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # UniqueCornersLayout
 --- @field layoutTextureKit string # OptionsFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L255)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_RaidTab : Button, MinimalTabTemplate, SettingsTabNarrationMixin
 --- @field tabText any # RAID_SETTINGS
@@ -165,7 +175,7 @@
 --- @field tabIndex number # 2
 --- @field numTabs number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L267)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_BaseTab : Button, MinimalTabTemplate, SettingsTabNarrationMixin
 --- @field tabText any # BASE_SETTINGS_TAB
@@ -173,27 +183,27 @@
 --- @field tabIndex number # 1
 --- @field numTabs number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L282)
 --- child of SettingsAdvancedQualitySectionTemplate_BaseQualityControls
 --- @class SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideSliderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L280)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_BaseQualityControls : Frame, SettingsAdvancedQualityControlsTemplate
 --- @field GraphicsQuality SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality
 --- @field Controls table<number, SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L293)
 --- child of SettingsAdvancedQualitySectionTemplate_RaidQualityControls
 --- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideCheckboxSliderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L291)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls : Frame, SettingsAdvancedQualityControlsTemplate
 --- @field GraphicsQuality SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality
 --- @field Controls table<number, SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L222)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L234)
 --- Template
 --- @class SettingsAdvancedQualitySectionTemplate : EventFrame, SettingsAdvancedQualitySectionMixin
 --- @field NineSlice SettingsAdvancedQualitySectionTemplate_NineSlice

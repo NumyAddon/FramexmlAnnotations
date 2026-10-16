@@ -194,7 +194,7 @@
 --- @field tooltipTitle any # CONTACTS_MENU_NAME
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L2188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L2207)
 --- child of FriendsFrameBattlenetFrame_UnavailableInfoButton (created in template UIPanelInfoButton)
 --- @type Texture
 FriendsFrameBattlenetFrameTexture = {}
@@ -377,18 +377,18 @@ RecentAlliesFrame = {}
 --- child of FriendsFrame_IgnoreListWindow
 --- @class FriendsFrame_IgnoreListWindow_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L713)
 --- child of FriendsFrame_IgnoreListWindow (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 FriendsFrameInset = {}
 FriendsFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L707)
 --- child of FriendsFrame_IgnoreListWindow (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 FriendsFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L690)
 --- child of FriendsFrame_IgnoreListWindow (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 FriendsFrameBg = {}
@@ -400,12 +400,12 @@ FriendsFrameBg = {}
 --- @field ScrollBox FriendsFrame_IgnoreListWindow_ScrollBox
 --- @field ScrollBar FriendsFrame_IgnoreListWindow_ScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L224)
 --- child of WhoFrameEditBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 WhoFrameEditBoxClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L215)
 --- child of WhoFrameEditBox (created in template SearchBoxTemplate)
 --- @type Texture
 WhoFrameEditBoxSearchIcon = {}
@@ -731,18 +731,18 @@ FriendsFrameIcon = {}
 --- @class FriendsFrameTitleText : FontString, GameFontNormal
 FriendsFrameTitleText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L713)
 --- child of FriendsFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 FriendsFrameInset = {}
 FriendsFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L707)
 --- child of FriendsFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 FriendsFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L690)
 --- child of FriendsFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 FriendsFrameBg = {}

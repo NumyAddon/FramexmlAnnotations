@@ -35,22 +35,22 @@
 --- @field Checkbox HouseSettingsAccessButtonTemplate_Checkbox
 --- @field OptionLabel HouseSettingsAccessButtonTemplate_OptionLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L109)
 --- child of AbandonHouseRefundMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 AbandonHouseRefundMoneyFrameCopperButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L128)
 --- child of AbandonHouseRefundMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 AbandonHouseRefundMoneyFrameSilverButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L147)
 --- child of AbandonHouseRefundMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 AbandonHouseRefundMoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L89)
 --- child of AbandonHouseRefundMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type Texture
 AbandonHouseRefundMoneyFrameTrialErrorButton = {}
@@ -60,6 +60,7 @@ AbandonHouseRefundMoneyFrameTrialErrorButton = {}
 --- @class AbandonHouseRefundMoneyFrame : Frame, SmallMoneyFrameTemplate
 AbandonHouseRefundMoneyFrame = {}
 AbandonHouseRefundMoneyFrame["small"] = 1 -- inherited
+AbandonHouseRefundMoneyFrame["smartNavigationIgnored"] = true -- inherited
 AbandonHouseRefundMoneyFrame["CopperButton"] = AbandonHouseRefundMoneyFrameCopperButton -- inherited
 AbandonHouseRefundMoneyFrame["SilverButton"] = AbandonHouseRefundMoneyFrameSilverButton -- inherited
 AbandonHouseRefundMoneyFrame["GoldButton"] = AbandonHouseRefundMoneyFrameGoldButton -- inherited

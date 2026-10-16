@@ -49,11 +49,11 @@
 --- @field IconBorder Texture
 --- @field Highlight Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L218)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L221)
 --- child of WorldMapActionButtonTemplate_SpellButton
 --- @class WorldMapActionButtonTemplate_SpellButton_Cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L215)
 --- child of WorldMapActionButtonTemplate
 --- @class WorldMapActionButtonTemplate_SpellButton : Button
 --- @field Cooldown WorldMapActionButtonTemplate_SpellButton_Cooldown
@@ -61,6 +61,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L200)
 --- Template
 --- @class WorldMapActionButtonTemplate : Frame, WorldMapActionButtonMixin
+--- @field smartNavigationIgnored boolean # true
 --- @field SpellButton WorldMapActionButtonTemplate_SpellButton
 --- @field ActionFrameTexture Texture
 

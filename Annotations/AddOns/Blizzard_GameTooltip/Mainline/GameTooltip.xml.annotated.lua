@@ -1629,3 +1629,193 @@ GameSmallHeaderTooltip["TextRight1"] = GameSmallHeaderTooltipTextRight1 -- inher
 GameSmallHeaderTooltip["TextLeft2"] = GameSmallHeaderTooltipTextLeft2 -- inherited
 GameSmallHeaderTooltip["TextRight2"] = GameSmallHeaderTooltipTextRight2 -- inherited
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L9)
+--- child of BuffFrameTooltip (created in template GameTooltipTemplate)
+--- @type GameTooltipTemplate_StatusBar
+BuffFrameTooltipStatusBar = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L35)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_TextLeft1
+BuffFrameTooltipTextLeft1 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L36)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_TextRight1
+BuffFrameTooltipTextRight1 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L41)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_TextLeft2
+BuffFrameTooltipTextLeft2 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L42)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_TextRight2
+BuffFrameTooltipTextRight2 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L47)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture1
+BuffFrameTooltipTexture1 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L48)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture2
+BuffFrameTooltipTexture2 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L49)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture3
+BuffFrameTooltipTexture3 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L50)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture4
+BuffFrameTooltipTexture4 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L51)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture5
+BuffFrameTooltipTexture5 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L52)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture6
+BuffFrameTooltipTexture6 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L53)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture7
+BuffFrameTooltipTexture7 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L54)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture8
+BuffFrameTooltipTexture8 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L55)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture9
+BuffFrameTooltipTexture9 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L56)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture10
+BuffFrameTooltipTexture10 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L57)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture11
+BuffFrameTooltipTexture11 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L58)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture12
+BuffFrameTooltipTexture12 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L59)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture13
+BuffFrameTooltipTexture13 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L60)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture14
+BuffFrameTooltipTexture14 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L61)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture15
+BuffFrameTooltipTexture15 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L62)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture16
+BuffFrameTooltipTexture16 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L63)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture17
+BuffFrameTooltipTexture17 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L64)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture18
+BuffFrameTooltipTexture18 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L65)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture19
+BuffFrameTooltipTexture19 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L66)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture20
+BuffFrameTooltipTexture20 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L67)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture21
+BuffFrameTooltipTexture21 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L68)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture22
+BuffFrameTooltipTexture22 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L69)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture23
+BuffFrameTooltipTexture23 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L70)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture24
+BuffFrameTooltipTexture24 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L71)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture25
+BuffFrameTooltipTexture25 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L72)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture26
+BuffFrameTooltipTexture26 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L73)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture27
+BuffFrameTooltipTexture27 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L74)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture28
+BuffFrameTooltipTexture28 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L75)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture29
+BuffFrameTooltipTexture29 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L76)
+--- child of BuffFrameTooltip (created in template SharedTooltipArtTemplate)
+--- @type SharedTooltipArtTemplate_Texture30
+BuffFrameTooltipTexture30 = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L330)
+--- @class BuffFrameTooltip : GameTooltip, GameTooltipTemplate
+BuffFrameTooltip = {}
+BuffFrameTooltip["supportsDataRefresh"] = true -- inherited
+BuffFrameTooltip["StatusBar"] = BuffFrameTooltipStatusBar -- inherited
+BuffFrameTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+BuffFrameTooltip["textRight1Font"] = "GameTooltipHeaderText" -- inherited
+BuffFrameTooltip["textLeft2Font"] = "GameTooltipText" -- inherited
+BuffFrameTooltip["textRight2Font"] = "GameTooltipText" -- inherited
+BuffFrameTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+BuffFrameTooltip["TextLeft1"] = BuffFrameTooltipTextLeft1 -- inherited
+BuffFrameTooltip["TextRight1"] = BuffFrameTooltipTextRight1 -- inherited
+BuffFrameTooltip["TextLeft2"] = BuffFrameTooltipTextLeft2 -- inherited
+BuffFrameTooltip["TextRight2"] = BuffFrameTooltipTextRight2 -- inherited
+

@@ -1,11 +1,11 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyFrame.xml#L14)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyFrame.xml#L13)
 --- child of PartyFrame
 --- @class PartyFrame_Background : Frame, BackdropTemplate, PartyMemberBackgroundMixin
 --- @field backdropInfo any # BACKDROP_PARTY_32_32
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyFrame.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyFrame.xml#L3)
 --- @class PartyFrame : Frame, VerticalLayoutFrame, EditModeUnitFrameSystemTemplate, PingTopLevelPassThroughAttributeTemplate, PartyFrameMixin
 --- @field systemIndex any # Enum.EditModeUnitFrameSystemIndices.Party
 --- @field systemNameString any # HUD_EDIT_MODE_PARTY_FRAMES_LABEL
@@ -25,7 +25,7 @@ PartyFrame["alwaysUseTopLeftAnchor"] = true
 PartyFrame["spacing"] = 10
 PartyFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyFrame.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyFrame.xml#L42)
 --- @class PartyMemberBuffTooltip : Frame, TooltipBackdropTemplate, PartyMemberBuffTooltipMixin
 --- @field BuffContainer Frame
 --- @field DebuffContainer Frame

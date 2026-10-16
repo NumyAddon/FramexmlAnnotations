@@ -6,4 +6,5 @@
 --- @field isVertical boolean # true
 --- @field centerAlign boolean # false
 --- @field buttonSpacing number # 20
+--- @field refreshOnShow boolean # true
 

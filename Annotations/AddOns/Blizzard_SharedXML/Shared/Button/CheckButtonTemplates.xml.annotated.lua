@@ -44,3 +44,12 @@
 --- Template
 --- @class MinimalCheckboxTemplate : CheckButton, MinimalCheckboxArtTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Button/CheckButtonTemplates.xml#L82)
+--- child of CheckboxWithLabelTemplate
+--- @class CheckboxWithLabelTemplate_Text : FontString, GameFontNormalSmall
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Button/CheckButtonTemplates.xml#L78)
+--- Template
+--- @class CheckboxWithLabelTemplate : CheckButton, MinimalCheckboxArtTemplate
+--- @field Text CheckboxWithLabelTemplate_Text
+

@@ -25,7 +25,7 @@
 --- child of DemonHunterSoulFragmentsBar
 --- @class DemonHunterSoulFragmentsBar_CollapsingStarDepleteFinAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DemonHunterSoulFragmentsBar.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DemonHunterSoulFragmentsBar.xml#L16)
 --- child of DemonHunterSoulFragmentsBar (created in template AlternatePowerBarBaseTemplate)
 --- @type AlternatePowerBarBaseTemplate_Text
 DemonHunterSoulFragmentsBarText = {}

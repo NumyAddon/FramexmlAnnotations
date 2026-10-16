@@ -122,18 +122,18 @@ GarrisonCapacitiveDisplayFrameMiddle = {}
 --- child of GarrisonCapacitiveDisplayFrame
 --- @class GarrisonCapacitiveDisplayFrame_IncrementButton : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L713)
 --- child of GarrisonCapacitiveDisplayFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 GarrisonCapacitiveDisplayFrameInset = {}
 GarrisonCapacitiveDisplayFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L707)
 --- child of GarrisonCapacitiveDisplayFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 GarrisonCapacitiveDisplayFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L690)
 --- child of GarrisonCapacitiveDisplayFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 GarrisonCapacitiveDisplayFrameBg = {}

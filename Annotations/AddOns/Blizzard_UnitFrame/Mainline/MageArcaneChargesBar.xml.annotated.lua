@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.xml#L78)
 --- child of ArcaneChargeTemplate
 --- @class ArcaneChargeTemplate_activateAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.xml#L102)
 --- child of ArcaneChargeTemplate
 --- @class ArcaneChargeTemplate_deactivateAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.xml#L4)
 --- Template
 --- @class ArcaneChargeTemplate : Frame, ArcaneChargeMixin
 --- @field ArcaneBGShadow Texture
@@ -27,7 +27,7 @@
 --- @field deactivateAnim ArcaneChargeTemplate_deactivateAnim
 --- @field fxTextures table<number, Texture>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.xml#L114)
 --- Template
 --- @class MageArcaneChargesFrameTemplate : Frame, ClassResourceBarTemplate
 --- @field powerToken string # ARCANE_CHARGES
@@ -35,13 +35,12 @@
 --- @field tooltip1 any # ARCANE_CHARGES
 --- @field tooltip2 any # ARCANE_CHARGES_TOOLTIP
 --- @field resourcePointTemplate string # ArcaneChargeTemplate
---- @field resourcePointSetupFunc any # ArcaneChargeMixin.Setup
---- @field resourcePointReleaseFunc any # ArcaneChargeMixin.OnRelease
+--- @field resourcePointMixin any # ArcaneChargeMixin
 --- @field spacing number # 10
 --- @field class string # MAGE
 --- @field spec any # SPEC_MAGE_ARCANE
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.xml#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/MageArcaneChargesBar.xml#L128)
 --- @class MageArcaneChargesFrame : Frame, MageArcaneChargesFrameTemplate, MagePowerBar
 --- @field layoutIndex number # 3
 --- @field showTooltip boolean # true
@@ -55,8 +54,7 @@ MageArcaneChargesFrame["powerType"] = Enum.PowerType.ArcaneCharges -- inherited
 MageArcaneChargesFrame["tooltip1"] = ARCANE_CHARGES -- inherited
 MageArcaneChargesFrame["tooltip2"] = ARCANE_CHARGES_TOOLTIP -- inherited
 MageArcaneChargesFrame["resourcePointTemplate"] = "ArcaneChargeTemplate" -- inherited
-MageArcaneChargesFrame["resourcePointSetupFunc"] = ArcaneChargeMixin.Setup -- inherited
-MageArcaneChargesFrame["resourcePointReleaseFunc"] = ArcaneChargeMixin.OnRelease -- inherited
+MageArcaneChargesFrame["resourcePointMixin"] = ArcaneChargeMixin -- inherited
 MageArcaneChargesFrame["spacing"] = 10 -- inherited
 MageArcaneChargesFrame["class"] = "MAGE" -- inherited
 MageArcaneChargesFrame["spec"] = SPEC_MAGE_ARCANE -- inherited

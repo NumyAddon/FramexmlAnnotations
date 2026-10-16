@@ -682,22 +682,22 @@ ItemUpgradeFrameItemHoverPreviewFrame["TextRight2"] = ItemUpgradeFrameItemHoverP
 --- @field Glow Texture
 --- @field GlowAnim ItemUpgradeFrame_UpgradeButton_GlowAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L109)
 --- child of ItemUpgradeFrame_UpgradeCostFrame_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 ItemUpgradeFrameCopperButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L128)
 --- child of ItemUpgradeFrame_UpgradeCostFrame_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 ItemUpgradeFrameSilverButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L147)
 --- child of ItemUpgradeFrame_UpgradeCostFrame_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 ItemUpgradeFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L89)
 --- child of ItemUpgradeFrame_UpgradeCostFrame_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
 --- @type Texture
 ItemUpgradeFrameTrialErrorButton = {}
@@ -737,22 +737,22 @@ ItemUpgradeFramePlayerCurrenciesBorderMiddle = {}
 --- @class ItemUpgradeFramePlayerCurrenciesBorder : Frame, ThinGoldEdgeTemplate
 ItemUpgradeFramePlayerCurrenciesBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L109)
 --- child of ItemUpgradeFrame_PlayerCurrencies_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 ItemUpgradeFrameCopperButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L128)
 --- child of ItemUpgradeFrame_PlayerCurrencies_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 ItemUpgradeFrameSilverButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L147)
 --- child of ItemUpgradeFrame_PlayerCurrencies_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 ItemUpgradeFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L89)
 --- child of ItemUpgradeFrame_PlayerCurrencies_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
 --- @type Texture
 ItemUpgradeFrameTrialErrorButton = {}
@@ -803,12 +803,12 @@ ItemUpgradeFrameTrialErrorButton = {}
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_IdleGlowSlide : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L633)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L660)
 --- child of ItemUpgradeFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 ItemUpgradeFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L627)
 --- child of ItemUpgradeFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ItemUpgradeFrameBg = {}

@@ -26,6 +26,7 @@ ReadyCheckPortrait = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L63)
 --- child of ReadyCheckListenerFrame
 --- @class ReadyCheckListenerFrame_PortraitContainer : Frame
+--- @field Portrait ReadyCheckPortrait
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L79)
 --- child of ReadyCheckListenerFrame
@@ -41,6 +42,22 @@ ReadyCheckFrameNoButton = {}
 ReadyCheckFrameNoButton["fitTextCanWidthDecrease"] = true -- inherited
 ReadyCheckFrameNoButton["fitTextWidthPadding"] = 40 -- inherited
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L105)
+--- child of ReadyCheckListenerFrame
+--- @class ReadyCheckListenerFrame_FrameGlow : Frame, FrameGlowTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L106)
+--- child of ReadyCheckListenerFrame
+--- @class ReadyCheckListenerFrame_LeftJumpHint : Frame, FrameLeftJumpHintTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L111)
+--- child of ReadyCheckListenerFrame
+--- @class ReadyCheckListenerFrame_RightJumpHint : Frame, FrameRightJumpHintTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L116)
+--- child of ReadyCheckListenerFrame
+--- @class ReadyCheckListenerFrame_FocusJumpHint : Frame, FrameFocusJumpHintTemplate
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L35)
 --- child of ReadyCheckListenerFrame
 --- @class ReadyCheckFrameText : FontString, GameFontNormal
@@ -48,13 +65,23 @@ ReadyCheckFrameText = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L21)
 --- child of ReadyCheckFrame
---- @class ReadyCheckListenerFrame : Frame
+--- @class ReadyCheckListenerFrame : Frame, ReadyCheckListenerFrameMixin, FocusFramesInterfaceMixin
 --- @field layoutType string # PortraitFrameTemplate
 --- @field NineSlice ReadyCheckListenerFrame_NineSlice
 --- @field TitleContainer ReadyCheckListenerFrame_TitleContainer
 --- @field PortraitContainer ReadyCheckListenerFrame_PortraitContainer
+--- @field YesButton ReadyCheckFrameYesButton
+--- @field NoButton ReadyCheckFrameNoButton
+--- @field FrameGlow ReadyCheckListenerFrame_FrameGlow
+--- @field LeftJumpHint ReadyCheckListenerFrame_LeftJumpHint
+--- @field RightJumpHint ReadyCheckListenerFrame_RightJumpHint
+--- @field FocusJumpHint ReadyCheckListenerFrame_FocusJumpHint
 --- @field Bg Texture
+--- @field Text ReadyCheckFrameText
 ReadyCheckListenerFrame = {}
+ReadyCheckListenerFrame["YesButton"] = ReadyCheckFrameYesButton
+ReadyCheckListenerFrame["NoButton"] = ReadyCheckFrameNoButton
+ReadyCheckListenerFrame["Text"] = ReadyCheckFrameText
 ReadyCheckListenerFrame["layoutType"] = "PortraitFrameTemplate"
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L15)

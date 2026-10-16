@@ -36,12 +36,12 @@ PhotoSharingBrowser = {}
 --- @class PhotoSharingBrowserFrame_GoogleSSONotice : Frame
 --- @field TopInset Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PhotoSharing/Blizzard_PhotoSharingBrowser.xml#L509)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PhotoSharing/Blizzard_PhotoSharingBrowser.xml#L531)
 --- child of PhotoSharingBrowserFrame (created in template DefaultPanelTemplate)
 --- @type Texture
 PhotoSharingBrowserFrameBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PhotoSharing/Blizzard_PhotoSharingBrowser.xml#L517)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PhotoSharing/Blizzard_PhotoSharingBrowser.xml#L539)
 --- child of PhotoSharingBrowserFrame (created in template DefaultPanelTemplate)
 --- @type DefaultPanelTemplate_TopTileStreaks
 PhotoSharingBrowserFrameTopTileStreaks = {}

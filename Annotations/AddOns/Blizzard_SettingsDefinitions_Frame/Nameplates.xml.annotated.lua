@@ -19,18 +19,18 @@
 --- child of NamePlatesTutorial
 --- @class NamePlatesTutorial_DragBar : Frame, PanelDragBarTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.xml#L713)
 --- child of NamePlatesTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 NamePlatesTutorialInset = {}
 NamePlatesTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.xml#L707)
 --- child of NamePlatesTutorial (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 NamePlatesTutorialCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.xml#L690)
 --- child of NamePlatesTutorial (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 NamePlatesTutorialBg = {}

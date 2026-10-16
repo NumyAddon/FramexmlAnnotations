@@ -132,7 +132,7 @@ AddFriendInfoFrame = {}
 AddFriendInfoFrame["widthPadding"] = 80
 AddFriendInfoFrame["heightPadding"] = 26
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L2188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L2207)
 --- child of AddFriendEntryFrameInfoButton (created in template UIPanelInfoButton)
 --- @type Texture
 AddFriendEntryFrameInfoButtonTexture = {}

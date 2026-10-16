@@ -98,18 +98,18 @@ TimeManagerGlobe = {}
 --- @class TimeManagerFrameTicker : FontString, GameFontHighlightLarge
 TimeManagerFrameTicker = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L713)
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 TimeManagerFrameInset = {}
 TimeManagerFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L707)
 --- child of TimeManagerFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 TimeManagerFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L690)
 --- child of TimeManagerFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 TimeManagerFrameBg = {}

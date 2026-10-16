@@ -96,18 +96,18 @@ ItemSocketingScrollFrame["scrollBarBottomY"] = 1
 --- child of ItemSocketingFrame
 --- @class ItemSocketingFrame_TopRightNub : Texture, NubTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L713)
 --- child of ItemSocketingFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 ItemSocketingFrameInset = {}
 ItemSocketingFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L707)
 --- child of ItemSocketingFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 ItemSocketingFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L690)
 --- child of ItemSocketingFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ItemSocketingFrameBg = {}

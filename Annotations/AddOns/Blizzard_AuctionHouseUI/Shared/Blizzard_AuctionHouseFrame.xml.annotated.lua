@@ -116,18 +116,18 @@ AuctionHouseFrameAuctionsTab["displayMode"] = AuctionHouseFrameDisplayMode.Aucti
 --- @field Tutorial3 BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_Tutorial3
 --- @field infoarrow Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L713)
 --- child of GameTimeTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 GameTimeTutorialInset = {}
 GameTimeTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L707)
 --- child of GameTimeTutorial (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 GameTimeTutorialCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L690)
 --- child of GameTimeTutorial (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 GameTimeTutorialBg = {}
@@ -206,12 +206,12 @@ AuctionHouseFrameAuctionsFrame["BidsTab"] = AuctionHouseFrameAuctionsFrameBidsTa
 --- @field useAuctionHouseIcons boolean # true
 --- @field resizeToFit boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L633)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L660)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 AuctionHouseFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L627)
 --- child of AuctionHouseFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 AuctionHouseFrameBg = {}

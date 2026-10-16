@@ -1,43 +1,53 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L12)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L11)
 --- child of WorldMapFrameTemplate
 --- @class WorldMapFrameTemplate_ScrollContainer : ScrollFrame, MapCanvasFrameScrollContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L18)
+--- child of WorldMapFrameTemplate
+--- @class WorldMapFrameTemplate_OverscrollBG : Frame
+--- @field Texture Texture
+--- @field TopLeftVignette Texture
+--- @field TopRightVignette Texture
+--- @field BottomLeftVignette Texture
+--- @field BottomRightVignette Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L4)
 --- Template
 --- @class WorldMapFrameTemplate : Frame, MapCanvasFrameTemplate, QuestLogOwnerMixin, WorldMapMixin
 --- @field TitleCanvasSpacerFrame Frame
 --- @field ScrollContainer WorldMapFrameTemplate_ScrollContainer
+--- @field OverscrollBG WorldMapFrameTemplate_OverscrollBG
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L72)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_BlackoutFrame : Frame
 --- @field Blackout Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L61)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L103)
 --- child of WorldMapFrame_BorderFrame
 --- @class WorldMapFrame_BorderFrame_Tutorial : Button, MainHelpPlateButton, WorldMapTutorialMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L113)
 --- child of WorldMapFrame_BorderFrame
 --- @class WorldMapFrame_BorderFrame_MaximizeMinimizeFrame : Frame, MaximizeMinimizeButtonFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L93)
 --- child of WorldMapFrame_BorderFrame
 --- @class WorldMapFrame_BorderFrame_InsetBorderTop : Texture, _UI_Frame_InnerTopTile
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L633)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L660)
 --- child of WorldMapFrame_BorderFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 WorldMapFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L627)
 --- child of WorldMapFrame_BorderFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 WorldMapFrameBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L85)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_BorderFrame : Frame, PortraitFrameTemplateMinimizable
 --- @field Tutorial WorldMapFrame_BorderFrame_Tutorial
@@ -46,10 +56,12 @@ WorldMapFrameBg = {}
 --- @field Underlay Texture
 --- @field InsetBorderTop WorldMapFrame_BorderFrame_InsetBorderTop
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L28)
---- @class WorldMapFrame : Frame, WorldMapFrameTemplate
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L67)
+--- @class WorldMapFrame : Frame, WorldMapFrameTemplate, FocusFramesInterfaceMixin
+--- @field FocusFrameParent string # BorderFrame
 --- @field BlackoutFrame WorldMapFrame_BlackoutFrame
 --- @field BorderFrame WorldMapFrame_BorderFrame
 WorldMapFrame = {}
+WorldMapFrame["FocusFrameParent"] = "BorderFrame"
 WorldMapFrame["debugInspectionSystem"] = "MapCanvas" -- inherited
 

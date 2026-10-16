@@ -62,201 +62,205 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L447)
 --- Template
+--- @class NumberFont_GameLarge : Font
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L486)
+--- Template
 --- @class Number12Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L465)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L504)
 --- Template
 --- @class NumberFont_Outline_Huge : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L484)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L523)
 --- Template
 --- @class QuestFont_Shadow_Small : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L537)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L576)
 --- Template
 --- @class QuestFont_Outline_Huge : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L555)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L594)
 --- Template
 --- @class QuestFont_Super_Huge : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L583)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L622)
 --- Template
 --- @class QuestFont_Super_Huge_Outline : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L611)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L650)
 --- Template
 --- @class QuestFont_Enormous : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L640)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L679)
 --- Template
 --- @class Game11Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L658)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L697)
 --- Template
 --- @class Game12Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L676)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L715)
 --- Template
 --- @class Game13Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L694)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L733)
 --- Template
 --- @class Game13FontShadow : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L747)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L786)
 --- Template
 --- @class Game15Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L765)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L804)
 --- Template
 --- @class Game18Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L783)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L822)
 --- Template
 --- @class Game20Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L801)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L840)
 --- Template
 --- @class Game24Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L819)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L858)
 --- Template
 --- @class Game27Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L837)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L876)
 --- Template
 --- @class Game32Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L855)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L894)
 --- Template
 --- @class Game36Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L873)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L912)
 --- Template
 --- @class Game42Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L891)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L930)
 --- Template
 --- @class Game46Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L909)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L948)
 --- Template
 --- @class Game48Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L927)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L966)
 --- Template
 --- @class Game48FontShadow : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L980)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1019)
 --- Template
 --- @class Game120Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L998)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1037)
 --- Template
 --- @class Game11Font_o1 : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1016)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1055)
 --- Template
 --- @class Game12Font_o1 : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1034)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1073)
 --- Template
 --- @class Game13Font_o1 : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1052)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1091)
 --- Template
 --- @class Game15Font_o1 : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1071)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1110)
 --- Template
 --- @class Fancy12Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1089)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1128)
 --- Template
 --- @class Fancy14Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1146)
 --- Template
 --- @class Fancy16Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1164)
 --- Template
 --- @class Fancy18Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1182)
 --- Template
 --- @class Fancy20Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1200)
 --- Template
 --- @class Fancy22Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1228)
 --- Template
 --- @class Fancy24Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1246)
 --- Template
 --- @class Fancy27Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1225)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1264)
 --- Template
 --- @class Fancy30Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1282)
 --- Template
 --- @class Fancy32Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1261)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1300)
 --- Template
 --- @class Fancy48Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1319)
 --- Template
 --- @class SplashHeaderFont : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1338)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1377)
 --- Template
 --- @class ChatBubbleFont : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1356)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1395)
 --- Template
 --- @class DestinyFontMed : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1384)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1423)
 --- Template
 --- @class DestinyFontLarge : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1412)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1451)
 --- Template
 --- @class DestinyFontHuge : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1440)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1479)
 --- Template
 --- @class CoreAbilityFont : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1468)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1507)
 --- Template
 --- @class SpellFont_Small : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1486)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1525)
 --- Template
 --- @class InvoiceFont_Med : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1504)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1543)
 --- Template
 --- @class InvoiceFont_Small : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1522)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1561)
 --- Template
 --- @class AchievementFont_Small : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1540)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1579)
 --- Template
 --- @class ReputationDetailFont : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1598)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/GameFonts.xml#L1637)
 --- Template
 --- @class GameFont_Gigantic : Font
 

@@ -39,3 +39,42 @@
 --- @field animIn SocialToastAnimInTemplate
 --- @field waitAndAnimOut SocialToastAnimOutTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L76)
+--- child of ShardTransferImminentFrame
+--- @class ShardTransferImminentFrameText : FontString, FriendsFont_Normal
+ShardTransferImminentFrameText = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L17)
+--- child of ShardTransferImminentFrameGlowFrame (created in template SocialToastGlowTemplate)
+--- @type SocialToastGlowTemplate_AnimIn
+ShardTransferImminentFrameGlowFrameAnimIn = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L55)
+--- child of ShardTransferImminentFrame (created in template SocialToastTemplate)
+--- @type SocialToastTemplate_GlowFrame
+ShardTransferImminentFrameGlowFrame = {}
+ShardTransferImminentFrameGlowFrame["animIn"] = ShardTransferImminentFrameGlowFrameAnimIn -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L72)
+--- @class ShardTransferImminentFrame : ContainedAlertFrame, SocialToastTemplate, ShardTransferImminentMixin
+--- @field Text ShardTransferImminentFrameText
+ShardTransferImminentFrame = {}
+ShardTransferImminentFrame["Text"] = ShardTransferImminentFrameText
+ShardTransferImminentFrame["backdropInfo"] = BACKDROP_TOAST_12_12 -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L17)
+--- child of ShardTransferImminentMinimizeButtonGlowFrame (created in template SocialToastGlowTemplate)
+--- @type SocialToastGlowTemplate_AnimIn
+ShardTransferImminentMinimizeButtonGlowFrameAnimIn = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L55)
+--- child of ShardTransferImminentMinimizeButton (created in template SocialToastTemplate)
+--- @type SocialToastTemplate_GlowFrame
+ShardTransferImminentMinimizeButtonGlowFrame = {}
+ShardTransferImminentMinimizeButtonGlowFrame["animIn"] = ShardTransferImminentMinimizeButtonGlowFrameAnimIn -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L94)
+--- @class ShardTransferImminentMinimizeButton : ContainedAlertFrame, SocialToastTemplate, ShardTransferImminentMinimizeMixin
+ShardTransferImminentMinimizeButton = {}
+ShardTransferImminentMinimizeButton["backdropInfo"] = BACKDROP_TOAST_12_12 -- inherited
+

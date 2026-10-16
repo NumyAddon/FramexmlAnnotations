@@ -15,12 +15,16 @@
 --- child of CinematicFrameCloseDialog
 --- @class CinematicFrameCloseDialogConfirmButton : Button, CinematicDialogButtonTemplate
 CinematicFrameCloseDialogConfirmButton = {}
+CinematicFrameCloseDialogConfirmButton["fitTextCanWidthDecrease"] = false -- inherited
+CinematicFrameCloseDialogConfirmButton["fitTextWidthPadding"] = 30 -- inherited
 CinematicFrameCloseDialogConfirmButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L62)
 --- child of CinematicFrameCloseDialog
 --- @class CinematicFrameCloseDialogResumeButton : Button, CinematicDialogButtonTemplate
 CinematicFrameCloseDialogResumeButton = {}
+CinematicFrameCloseDialogResumeButton["fitTextCanWidthDecrease"] = false -- inherited
+CinematicFrameCloseDialogResumeButton["fitTextWidthPadding"] = 30 -- inherited
 CinematicFrameCloseDialogResumeButton["atlasName"] = "128-RedButton" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L42)
@@ -46,6 +50,7 @@ LowerBlackBar = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L3)
 --- @class CinematicFrame : Frame
+--- @field useCustomNavigation boolean # true
 --- @field BossEmoteFrame CinematicFrame_BossEmoteFrame
 --- @field closeDialog CinematicFrameCloseDialog
 --- @field UpperBlackBar UpperBlackBar
@@ -54,4 +59,5 @@ CinematicFrame = {}
 CinematicFrame["closeDialog"] = CinematicFrameCloseDialog
 CinematicFrame["UpperBlackBar"] = UpperBlackBar
 CinematicFrame["LowerBlackBar"] = LowerBlackBar
+CinematicFrame["useCustomNavigation"] = true
 

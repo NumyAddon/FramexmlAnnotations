@@ -87,12 +87,12 @@ AddonDialog = {}
 --- child of AddonList
 --- @class AddonList_ForceLoad : CheckButton, MinimalCheckboxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L224)
 --- child of AddonList_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 AddonListClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L215)
 --- child of AddonList_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 AddonListSearchIcon = {}
@@ -150,18 +150,18 @@ AddonListSearchIcon = {}
 --- child of AddonList
 --- @class AddonList_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L713)
 --- child of AddonList (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 AddonListInset = {}
 AddonListInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L707)
 --- child of AddonList (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 AddonListCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L690)
 --- child of AddonList (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 AddonListBg = {}

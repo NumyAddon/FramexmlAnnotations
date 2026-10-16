@@ -610,22 +610,22 @@ TradeFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 TradePlayerInputMoneyInset = {}
 TradePlayerInputMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L18)
 --- child of TradePlayerInputMoneyFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 TradePlayerInputMoneyFrameGoldLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L26)
 --- child of TradePlayerInputMoneyFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 TradePlayerInputMoneyFrameGoldRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L34)
 --- child of TradePlayerInputMoneyFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 TradePlayerInputMoneyFrameGoldMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L80)
 --- child of TradePlayerInputMoneyFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Gold
 TradePlayerInputMoneyFrameGold = {}
@@ -635,25 +635,26 @@ TradePlayerInputMoneyFrameGold["coinDisplayOffsetX"] = -4
 TradePlayerInputMoneyFrameGold["darkenOnDigits"] = 9
 TradePlayerInputMoneyFrameGold["baseWidth"] = 70
 TradePlayerInputMoneyFrameGold["baseHeight"] = 20 -- inherited
+TradePlayerInputMoneyFrameGold["customSmartNavOffsetX"] = 0 -- inherited
 TradePlayerInputMoneyFrameGold["left"] = TradePlayerInputMoneyFrameGoldLeft -- inherited
 TradePlayerInputMoneyFrameGold["right"] = TradePlayerInputMoneyFrameGoldRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L18)
 --- child of TradePlayerInputMoneyFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 TradePlayerInputMoneyFrameSilverLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L26)
 --- child of TradePlayerInputMoneyFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 TradePlayerInputMoneyFrameSilverRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L34)
 --- child of TradePlayerInputMoneyFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 TradePlayerInputMoneyFrameSilverMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L97)
 --- child of TradePlayerInputMoneyFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Silver
 TradePlayerInputMoneyFrameSilver = {}
@@ -661,25 +662,26 @@ TradePlayerInputMoneyFrameSilver["coinAtlas"] = "coin-silver"
 TradePlayerInputMoneyFrameSilver["coinSymbol"] = SILVER_AMOUNT_SYMBOL
 TradePlayerInputMoneyFrameSilver["baseWidth"] = 48
 TradePlayerInputMoneyFrameSilver["baseHeight"] = 20 -- inherited
+TradePlayerInputMoneyFrameSilver["customSmartNavOffsetX"] = 0 -- inherited
 TradePlayerInputMoneyFrameSilver["left"] = TradePlayerInputMoneyFrameSilverLeft -- inherited
 TradePlayerInputMoneyFrameSilver["right"] = TradePlayerInputMoneyFrameSilverRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L18)
 --- child of TradePlayerInputMoneyFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 TradePlayerInputMoneyFrameCopperLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L26)
 --- child of TradePlayerInputMoneyFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 TradePlayerInputMoneyFrameCopperRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L34)
 --- child of TradePlayerInputMoneyFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 TradePlayerInputMoneyFrameCopperMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L112)
 --- child of TradePlayerInputMoneyFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Copper
 TradePlayerInputMoneyFrameCopper = {}
@@ -687,6 +689,7 @@ TradePlayerInputMoneyFrameCopper["coinAtlas"] = "coin-copper"
 TradePlayerInputMoneyFrameCopper["coinSymbol"] = COPPER_AMOUNT_SYMBOL
 TradePlayerInputMoneyFrameCopper["baseWidth"] = 48
 TradePlayerInputMoneyFrameCopper["baseHeight"] = 20 -- inherited
+TradePlayerInputMoneyFrameCopper["customSmartNavOffsetX"] = 0 -- inherited
 TradePlayerInputMoneyFrameCopper["left"] = TradePlayerInputMoneyFrameCopperLeft -- inherited
 TradePlayerInputMoneyFrameCopper["right"] = TradePlayerInputMoneyFrameCopperRight -- inherited
 

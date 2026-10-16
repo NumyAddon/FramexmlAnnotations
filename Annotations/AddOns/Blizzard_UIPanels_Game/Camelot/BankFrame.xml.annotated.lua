@@ -51,11 +51,11 @@ BankPanelGoldButton = {}
 --- @type Texture
 BankPanelTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml#L97)
 --- child of BankPanel
 --- @class BankPanel_MoneyDisplay : Frame, SmallMoneyFrameTemplate, BankBagCostMoneyDisplayMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml#L109)
 --- child of BankPanel
 --- Template
 --- Adds itself to the parent with key `PurchaseButton`
@@ -64,7 +64,7 @@ BankFramePurchaseButton = {}
 BankFramePurchaseButton["fitTextCanWidthDecrease"] = true -- inherited
 BankFramePurchaseButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml#L86)
 --- child of BankFrame
 --- @class BankPanel : Frame, BankPanelTemplate
 --- @field itemButtonTemplate string # CamelotBankItemButtonTemplate
@@ -85,14 +85,14 @@ BankPanel["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml#L68)
 --- child of BankFrame
---- @class BankFrame_BagText : FontString, GameFontNormalLarge2
+--- @class BankFrame_BagText : FontString, GameFontNormalLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml#L224)
 --- child of BankItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 BankItemSearchBoxClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/BankFrame.xml#L215)
 --- child of BankItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 BankItemSearchBoxSearchIcon = {}

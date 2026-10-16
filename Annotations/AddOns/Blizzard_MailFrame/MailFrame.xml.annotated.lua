@@ -355,34 +355,34 @@ InboxCurrentPage = {}
 InboxFrame = {}
 InboxFrame["OpenAllMail"] = OpenAllMail
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L560)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L563)
 --- child of SendMailScrollChildFrame
 --- @class SendMailBodyEditBox : EditBox
 SendMailBodyEditBox = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L551)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L554)
 --- child of SendMailScrollFrame
 --- @class SendMailScrollChildFrame : Frame, SendMailScrollChildMixin
 --- @field smartNavigationIgnored boolean # true
 SendMailScrollChildFrame = {}
 SendMailScrollChildFrame["smartNavigationIgnored"] = true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L537)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L540)
 --- child of SendMailScrollFrame
 --- @class SendMailScrollFrame_GamepadFocusArea : Frame, SendMailScrollFrameGamepadFocusAreaMixin
 --- @field smartNavigationCanFocus boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L522)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L525)
 --- child of SendMailScrollFrame
 --- @class SendStationeryBackgroundLeft : Texture
 SendStationeryBackgroundLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L528)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L531)
 --- child of SendMailScrollFrame
 --- @class SendStationeryBackgroundRight : Texture
 SendStationeryBackgroundRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L510)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L513)
 --- child of SendMailFrame
 --- @class SendMailScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 10
@@ -394,22 +394,22 @@ SendMailScrollFrame["scrollBarX"] = 10
 SendMailScrollFrame["scrollBarTopY"] = -4
 SendMailScrollFrame["scrollBarBottomY"] = 3
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L602)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L605)
 --- child of SendMailNameEditBox
 --- @class SendMailNameEditBoxLeft : Texture
 SendMailNameEditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L609)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L612)
 --- child of SendMailNameEditBox
 --- @class SendMailNameEditBoxMiddle : Texture
 SendMailNameEditBoxMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L616)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L619)
 --- child of SendMailNameEditBox
 --- @class SendMailNameEditBoxRight : Texture
 SendMailNameEditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L590)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L593)
 --- child of SendMailFrame
 --- @class SendMailNameEditBox : EditBox, AutoCompleteEditBoxTemplate
 SendMailNameEditBox = {}
@@ -434,7 +434,7 @@ SendMailCostMoneyFrameGoldButton = {}
 --- @type Texture
 SendMailCostMoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L657)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L660)
 --- child of SendMailFrame
 --- @class SendMailCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 SendMailCostMoneyFrame = {}
@@ -445,22 +445,22 @@ SendMailCostMoneyFrame["SilverButton"] = SendMailCostMoneyFrameSilverButton -- i
 SendMailCostMoneyFrame["GoldButton"] = SendMailCostMoneyFrameGoldButton -- inherited
 SendMailCostMoneyFrame["trialErrorButton"] = SendMailCostMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L690)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L693)
 --- child of SendMailSubjectEditBox
 --- @class SendMailSubjectEditBoxLeft : Texture
 SendMailSubjectEditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L697)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L700)
 --- child of SendMailSubjectEditBox
 --- @class SendMailSubjectEditBoxMiddle : Texture
 SendMailSubjectEditBoxMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L704)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L707)
 --- child of SendMailSubjectEditBox
 --- @class SendMailSubjectEditBoxRight : Texture
 SendMailSubjectEditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L678)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L681)
 --- child of SendMailFrame
 --- @class SendMailSubjectEditBox : EditBox
 SendMailSubjectEditBox = {}
@@ -470,7 +470,7 @@ SendMailSubjectEditBox = {}
 --- @type SendMailAttachment_Count
 SendMailAttachment1Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L725)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L728)
 --- child of SendMailFrame
 --- @class SendMailAttachment1 : Button, SendMailAttachment
 SendMailAttachment1 = {}
@@ -481,7 +481,7 @@ SendMailAttachment1["Count"] = SendMailAttachment1Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment2Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L726)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L729)
 --- child of SendMailFrame
 --- @class SendMailAttachment2 : Button, SendMailAttachment
 SendMailAttachment2 = {}
@@ -492,7 +492,7 @@ SendMailAttachment2["Count"] = SendMailAttachment2Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment3Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L727)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L730)
 --- child of SendMailFrame
 --- @class SendMailAttachment3 : Button, SendMailAttachment
 SendMailAttachment3 = {}
@@ -503,7 +503,7 @@ SendMailAttachment3["Count"] = SendMailAttachment3Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment4Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L728)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L731)
 --- child of SendMailFrame
 --- @class SendMailAttachment4 : Button, SendMailAttachment
 SendMailAttachment4 = {}
@@ -514,7 +514,7 @@ SendMailAttachment4["Count"] = SendMailAttachment4Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment5Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L729)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L732)
 --- child of SendMailFrame
 --- @class SendMailAttachment5 : Button, SendMailAttachment
 SendMailAttachment5 = {}
@@ -525,7 +525,7 @@ SendMailAttachment5["Count"] = SendMailAttachment5Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment6Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L730)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L733)
 --- child of SendMailFrame
 --- @class SendMailAttachment6 : Button, SendMailAttachment
 SendMailAttachment6 = {}
@@ -536,7 +536,7 @@ SendMailAttachment6["Count"] = SendMailAttachment6Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment7Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L731)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L734)
 --- child of SendMailFrame
 --- @class SendMailAttachment7 : Button, SendMailAttachment
 SendMailAttachment7 = {}
@@ -547,7 +547,7 @@ SendMailAttachment7["Count"] = SendMailAttachment7Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment8Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L732)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L735)
 --- child of SendMailFrame
 --- @class SendMailAttachment8 : Button, SendMailAttachment
 SendMailAttachment8 = {}
@@ -558,7 +558,7 @@ SendMailAttachment8["Count"] = SendMailAttachment8Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment9Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L733)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L736)
 --- child of SendMailFrame
 --- @class SendMailAttachment9 : Button, SendMailAttachment
 SendMailAttachment9 = {}
@@ -569,7 +569,7 @@ SendMailAttachment9["Count"] = SendMailAttachment9Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment10Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L734)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L737)
 --- child of SendMailFrame
 --- @class SendMailAttachment10 : Button, SendMailAttachment
 SendMailAttachment10 = {}
@@ -580,7 +580,7 @@ SendMailAttachment10["Count"] = SendMailAttachment10Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment11Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L735)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L738)
 --- child of SendMailFrame
 --- @class SendMailAttachment11 : Button, SendMailAttachment
 SendMailAttachment11 = {}
@@ -591,7 +591,7 @@ SendMailAttachment11["Count"] = SendMailAttachment11Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment12Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L736)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L739)
 --- child of SendMailFrame
 --- @class SendMailAttachment12 : Button, SendMailAttachment
 SendMailAttachment12 = {}
@@ -602,7 +602,7 @@ SendMailAttachment12["Count"] = SendMailAttachment12Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment13Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L737)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L740)
 --- child of SendMailFrame
 --- @class SendMailAttachment13 : Button, SendMailAttachment
 SendMailAttachment13 = {}
@@ -613,7 +613,7 @@ SendMailAttachment13["Count"] = SendMailAttachment13Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment14Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L738)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L741)
 --- child of SendMailFrame
 --- @class SendMailAttachment14 : Button, SendMailAttachment
 SendMailAttachment14 = {}
@@ -624,7 +624,7 @@ SendMailAttachment14["Count"] = SendMailAttachment14Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment15Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L739)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L742)
 --- child of SendMailFrame
 --- @class SendMailAttachment15 : Button, SendMailAttachment
 SendMailAttachment15 = {}
@@ -635,28 +635,28 @@ SendMailAttachment15["Count"] = SendMailAttachment15Count -- inherited
 --- @type SendMailAttachment_Count
 SendMailAttachment16Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L740)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L743)
 --- child of SendMailFrame
 --- @class SendMailAttachment16 : Button, SendMailAttachment
 SendMailAttachment16 = {}
 SendMailAttachment16["Count"] = SendMailAttachment16Count -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L18)
 --- child of SendMailMoneyGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 SendMailMoneyGoldLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L26)
 --- child of SendMailMoneyGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 SendMailMoneyGoldRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L34)
 --- child of SendMailMoneyGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 SendMailMoneyGoldMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L80)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Gold
 SendMailMoneyGold = {}
@@ -666,25 +666,26 @@ SendMailMoneyGold["coinDisplayOffsetX"] = -4
 SendMailMoneyGold["darkenOnDigits"] = 9
 SendMailMoneyGold["baseWidth"] = 70
 SendMailMoneyGold["baseHeight"] = 20 -- inherited
+SendMailMoneyGold["customSmartNavOffsetX"] = 0 -- inherited
 SendMailMoneyGold["left"] = SendMailMoneyGoldLeft -- inherited
 SendMailMoneyGold["right"] = SendMailMoneyGoldRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L18)
 --- child of SendMailMoneySilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 SendMailMoneySilverLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L26)
 --- child of SendMailMoneySilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 SendMailMoneySilverRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L34)
 --- child of SendMailMoneySilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 SendMailMoneySilverMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L97)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Silver
 SendMailMoneySilver = {}
@@ -692,25 +693,26 @@ SendMailMoneySilver["coinAtlas"] = "coin-silver"
 SendMailMoneySilver["coinSymbol"] = SILVER_AMOUNT_SYMBOL
 SendMailMoneySilver["baseWidth"] = 48
 SendMailMoneySilver["baseHeight"] = 20 -- inherited
+SendMailMoneySilver["customSmartNavOffsetX"] = 0 -- inherited
 SendMailMoneySilver["left"] = SendMailMoneySilverLeft -- inherited
 SendMailMoneySilver["right"] = SendMailMoneySilverRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L18)
 --- child of SendMailMoneyCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 SendMailMoneyCopperLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L26)
 --- child of SendMailMoneyCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 SendMailMoneyCopperRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L34)
 --- child of SendMailMoneyCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 SendMailMoneyCopperMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L112)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Copper
 SendMailMoneyCopper = {}
@@ -718,10 +720,11 @@ SendMailMoneyCopper["coinAtlas"] = "coin-copper"
 SendMailMoneyCopper["coinSymbol"] = COPPER_AMOUNT_SYMBOL
 SendMailMoneyCopper["baseWidth"] = 48
 SendMailMoneyCopper["baseHeight"] = 20 -- inherited
+SendMailMoneyCopper["customSmartNavOffsetX"] = 0 -- inherited
 SendMailMoneyCopper["left"] = SendMailMoneyCopperLeft -- inherited
 SendMailMoneyCopper["right"] = SendMailMoneyCopperRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L756)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L759)
 --- child of SendMailMoneyButton
 --- @class SendMailMoney : Frame, MoneyInputFrameTemplate
 SendMailMoney = {}
@@ -736,7 +739,7 @@ SendMailMoney["copper"] = SendMailMoneyCopper -- inherited
 --- @type UIRadioButtonTemplate_Text
 SendMailSendMoneyButtonText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L769)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L772)
 --- child of SendMailMoneyButton
 --- @class SendMailSendMoneyButton : CheckButton, SendMailRadioButtonTemplate
 SendMailSendMoneyButton = {}
@@ -747,23 +750,23 @@ SendMailSendMoneyButton["text"] = SendMailSendMoneyButtonText -- inherited
 --- @type UIRadioButtonTemplate_Text
 SendMailCODButtonText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L779)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L782)
 --- child of SendMailMoneyButton
 --- @class SendMailCODButton : CheckButton, SendMailRadioButtonTemplate
 SendMailCODButton = {}
 SendMailCODButton["text"] = SendMailCODButtonText -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L748)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L751)
 --- child of SendMailMoneyButton
 --- @class SendMailMoneyText : FontString, GameFontNormalSmall
 SendMailMoneyText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L741)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L744)
 --- child of SendMailFrame
 --- @class SendMailMoneyButton : Frame
 SendMailMoneyButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L791)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L794)
 --- child of SendMailFrame
 --- @class SendMailMoneyInset : Frame, InsetFrameTemplate
 SendMailMoneyInset = {}
@@ -784,7 +787,7 @@ SendMailMoneyBgRight = {}
 --- @type Texture
 SendMailMoneyBgMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L797)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L800)
 --- child of SendMailFrame
 --- @class SendMailMoneyBg : Frame, ThinGoldEdgeTemplate
 SendMailMoneyBg = {}
@@ -809,7 +812,7 @@ SendMailMoneyFrameGoldButton = {}
 --- @type Texture
 SendMailMoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L804)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L807)
 --- child of SendMailFrame
 --- @class SendMailMoneyFrame : Frame, SmallMoneyFrameTemplate
 SendMailMoneyFrame = {}
@@ -820,46 +823,46 @@ SendMailMoneyFrame["SilverButton"] = SendMailMoneyFrameSilverButton -- inherited
 SendMailMoneyFrame["GoldButton"] = SendMailMoneyFrameGoldButton -- inherited
 SendMailMoneyFrame["trialErrorButton"] = SendMailMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L809)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L812)
 --- child of SendMailFrame
 --- @class SendMailCancelButton : Button, UIPanelButtonTemplate
 SendMailCancelButton = {}
 SendMailCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 SendMailCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L820)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L823)
 --- child of SendMailFrame
 --- @class SendMailMailButton : Button, UIPanelButtonTemplate, SendMailButtonMixin
 SendMailMailButton = {}
 SendMailMailButton["fitTextCanWidthDecrease"] = true -- inherited
 SendMailMailButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L836)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L839)
 --- child of SendMailFrameLockSendMail
 --- @class SendMailFrameLockSendMailBlackFilter : Texture
 SendMailFrameLockSendMailBlackFilter = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L829)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L832)
 --- child of SendMailFrame
 --- @class SendMailFrameLockSendMail : Frame
 SendMailFrameLockSendMail = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L470)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L473)
 --- child of SendMailFrame
 --- @class SendMailErrorText : FontString, GameFontRedSmall
 SendMailErrorText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L473)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L476)
 --- child of SendMailFrame
 --- @class SendMailErrorCoin : Texture
 SendMailErrorCoin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L479)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L482)
 --- child of SendMailFrame
 --- @class SendMailHorizontalBarLeft : Texture
 SendMailHorizontalBarLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L493)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L496)
 --- child of SendMailFrame
 --- @class SendMailHorizontalBarLeft2 : Texture
 SendMailHorizontalBarLeft2 = {}
@@ -867,6 +870,7 @@ SendMailHorizontalBarLeft2 = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L463)
 --- child of MailFrame
 --- @class SendMailFrame : Frame, SendMailMixin
+--- @field smartNavigationIgnoredDontPropagate boolean # true
 --- @field ScrollFrame SendMailScrollFrame
 --- @field NameEditBox SendMailNameEditBox
 --- @field SubjectEditBox SendMailSubjectEditBox
@@ -879,13 +883,14 @@ SendMailFrame["NameEditBox"] = SendMailNameEditBox
 SendMailFrame["SubjectEditBox"] = SendMailSubjectEditBox
 SendMailFrame["CancelButton"] = SendMailCancelButton
 SendMailFrame["SendButton"] = SendMailMailButton
+SendMailFrame["smartNavigationIgnoredDontPropagate"] = true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L865)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L868)
 --- child of MailFrame
 --- @class MailFrameTab1 : Button, FriendsFrameTabTemplate
 MailFrameTab1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L875)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L878)
 --- child of MailFrame
 --- @class MailFrameTab2 : Button, FriendsFrameTabTemplate
 MailFrameTab2 = {}
@@ -906,7 +911,7 @@ MailFrameRightTabButton["offset"] = 1
 MailFrameRightTabButton["useDropShadow"] = true -- inherited
 MailFrameRightTabButton["smartNavigationIgnored"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L885)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L888)
 --- child of MailFrame
 --- @class MailFrame_TabIndicators : Frame, GamepadTabIndicatorsTemplate
 
@@ -947,30 +952,30 @@ MailFrame["CloseButton"] = MailFrameCloseButton -- inherited
 MailFrame["Bg"] = MailFrameBg -- inherited
 MailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L939)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L942)
 --- child of OpenMailFrame
 --- @class OpenMailReportSpamButton : Button, UIPanelButtonTemplate, OpenMailReportSpamMixin
 OpenMailReportSpamButton = {}
 OpenMailReportSpamButton["fitTextCanWidthDecrease"] = true -- inherited
 OpenMailReportSpamButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L955)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L958)
 --- child of OpenMailSender
 --- @class OpenMailSender_Name : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L948)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L951)
 --- child of OpenMailFrame
 --- @class OpenMailSender : Frame
 --- @field Name OpenMailSender_Name
 OpenMailSender = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1007)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1010)
 --- child of OpenMailScrollChildFrame
 --- @class OpenMailBodyText : SimpleHTML, InlineHyperlinkFrameTemplate
 OpenMailBodyText = {}
 OpenMailBodyText["tooltipFrame"] = GameTooltip -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1050)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1053)
 --- child of ConsortiumMailFrame
 --- @class ConsortiumMailFrame_CommissionReceivedDisplay : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
@@ -979,7 +984,7 @@ OpenMailBodyText["tooltipFrame"] = GameTooltip -- inherited
 --- @field resizeToFit boolean # true
 --- @field alwaysShowGold boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1086)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1089)
 --- child of ConsortiumMailFrame_CommissionPaidDisplay
 --- @class ConsortiumMailFrame_CommissionPaidDisplay_MoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
@@ -988,38 +993,38 @@ OpenMailBodyText["tooltipFrame"] = GameTooltip -- inherited
 --- @field resizeToFit boolean # true
 --- @field alwaysShowGold boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1077)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1080)
 --- child of ConsortiumMailFrame_CommissionPaidDisplay
 --- @class ConsortiumMailFrame_CommissionPaidDisplay_CommissionPaidText : FontString, InvoiceTextFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1063)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1066)
 --- child of ConsortiumMailFrame
 --- @class ConsortiumMailFrame_CommissionPaidDisplay : Frame
 --- @field MoneyDisplayFrame ConsortiumMailFrame_CommissionPaidDisplay_MoneyDisplayFrame
 --- @field Separator Texture
 --- @field CommissionPaidText ConsortiumMailFrame_CommissionPaidDisplay_CommissionPaidText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1017)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1020)
 --- child of ConsortiumMailFrame
 --- @class ConsortiumMailFrame_OpeningText : FontString, InvoiceTextFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1023)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1026)
 --- child of ConsortiumMailFrame
 --- @class ConsortiumMailFrame_CrafterText : FontString, InvoiceTextFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1029)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1032)
 --- child of ConsortiumMailFrame
 --- @class ConsortiumMailFrame_CommissionReceived : FontString, InvoiceTextFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1035)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1038)
 --- child of ConsortiumMailFrame
 --- @class ConsortiumMailFrame_CrafterNote : FontString, InvoiceTextFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1041)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1044)
 --- child of ConsortiumMailFrame
 --- @class ConsortiumMailFrame_ConsortiumNote : FontString, InvoiceTextFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1014)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1017)
 --- child of OpenMailScrollChildFrame
 --- @class ConsortiumMailFrame : Frame
 --- @field CommissionReceivedDisplay ConsortiumMailFrame_CommissionReceivedDisplay
@@ -1051,7 +1056,7 @@ OpenMailTransactionAmountMoneyFrameGoldButton = {}
 --- @type Texture
 OpenMailTransactionAmountMoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1168)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailTransactionAmountMoneyFrame : Frame, SmallMoneyFrameTemplate
 OpenMailTransactionAmountMoneyFrame = {}
@@ -1082,7 +1087,7 @@ OpenMailDepositMoneyFrameGoldButton = {}
 --- @type Texture
 OpenMailDepositMoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1179)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailDepositMoneyFrame : Frame, SmallMoneyFrameTemplate
 OpenMailDepositMoneyFrame = {}
@@ -1113,7 +1118,7 @@ OpenMailHouseCutMoneyFrameGoldButton = {}
 --- @type Texture
 OpenMailHouseCutMoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1199)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailHouseCutMoneyFrame : Frame, SmallMoneyFrameTemplate
 OpenMailHouseCutMoneyFrame = {}
@@ -1124,7 +1129,7 @@ OpenMailHouseCutMoneyFrame["SilverButton"] = OpenMailHouseCutMoneyFrameSilverBut
 OpenMailHouseCutMoneyFrame["GoldButton"] = OpenMailHouseCutMoneyFrameGoldButton -- inherited
 OpenMailHouseCutMoneyFrame["trialErrorButton"] = OpenMailHouseCutMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1222)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1225)
 --- child of OpenMailSalePriceMoneyFrame
 --- @class OpenMailSalePriceMoneyFrame_Count : FontString, InvoiceTextFontNormal
 
@@ -1148,7 +1153,7 @@ OpenMailSalePriceMoneyFrameGoldButton = {}
 --- @type Texture
 OpenMailSalePriceMoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1216)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1219)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailSalePriceMoneyFrame : Frame, SmallMoneyFrameTemplate
 --- @field Count OpenMailSalePriceMoneyFrame_Count
@@ -1160,72 +1165,72 @@ OpenMailSalePriceMoneyFrame["SilverButton"] = OpenMailSalePriceMoneyFrameSilverB
 OpenMailSalePriceMoneyFrame["GoldButton"] = OpenMailSalePriceMoneyFrameGoldButton -- inherited
 OpenMailSalePriceMoneyFrame["trialErrorButton"] = OpenMailSalePriceMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1118)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailInvoiceItemLabel : FontString, InvoiceTextFontNormal
 OpenMailInvoiceItemLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1124)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailInvoicePurchaser : FontString, InvoiceTextFontNormal
 OpenMailInvoicePurchaser = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1126)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1129)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailInvoiceSalePrice : FontString, InvoiceTextFontNormal
 OpenMailInvoiceSalePrice = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1134)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailInvoiceDeposit : FontString, InvoiceTextFontNormal
 OpenMailInvoiceDeposit = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1139)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailInvoiceHouseCut : FontString, InvoiceTextFontNormal
 OpenMailInvoiceHouseCut = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1144)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailArithmeticLine : Texture
 OpenMailArithmeticLine = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1150)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailInvoiceAmountReceived : FontString, InvoiceTextFontNormal
 OpenMailInvoiceAmountReceived = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1155)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailInvoiceNotYetSent : FontString, InvoiceTextFontNormal
 OpenMailInvoiceNotYetSent = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1157)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1160)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailInvoiceMoneyDelay : FontString, InvoiceTextFontNormal
 OpenMailInvoiceMoneyDelay = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1115)
 --- child of OpenMailScrollChildFrame
 --- @class OpenMailInvoiceFrame : Frame
 OpenMailInvoiceFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1001)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1004)
 --- child of OpenMailScrollFrame
 --- @class OpenMailScrollChildFrame : Frame
 OpenMailScrollChildFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L986)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L989)
 --- child of OpenMailScrollFrame
 --- @class OpenStationeryBackgroundLeft : Texture
 OpenStationeryBackgroundLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L992)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L995)
 --- child of OpenMailScrollFrame
 --- @class OpenStationeryBackgroundRight : Texture
 OpenStationeryBackgroundRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L974)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L977)
 --- child of OpenMailFrame
 --- @class OpenMailScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 10
@@ -1236,138 +1241,138 @@ OpenMailScrollFrame["scrollBarX"] = 10
 OpenMailScrollFrame["scrollBarTopY"] = -3
 OpenMailScrollFrame["scrollBarBottomY"] = 5
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1245)
 --- child of OpenMailFrame
 --- @class OpenMailLetterButton : ItemButton
 OpenMailLetterButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1263)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton1 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1261)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1264)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton2 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1265)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton3 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton3 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1266)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton4 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton4 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1267)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton5 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton5 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1268)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton6 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton6 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1266)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1269)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton7 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton7 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1267)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1270)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton8 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton8 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1271)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton9 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton9 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1272)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton10 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton10 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1273)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton11 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton11 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1274)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton12 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton12 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1275)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton13 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton13 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1276)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton14 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton14 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1277)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton15 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton15 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1278)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentButton16 : ItemButton, OpenMailAttachment
 OpenMailAttachmentButton16 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1279)
 --- child of OpenMailFrame
 --- @class OpenMailMoneyButton : ItemButton
 OpenMailMoneyButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1307)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1310)
 --- child of OpenMailFrame
 --- @class OpenMailCancelButton : Button, UIPanelButtonTemplate
 OpenMailCancelButton = {}
 OpenMailCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 OpenMailCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1319)
 --- child of OpenMailFrame
 --- @class OpenMailDeleteButton : Button, UIPanelButtonTemplate, OpenMailDeleteMixin
 OpenMailDeleteButton = {}
 OpenMailDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
 OpenMailDeleteButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1325)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1328)
 --- child of OpenMailFrame
 --- @class OpenMailReplyButton : Button, UIPanelButtonTemplate, OpenMailReplyMixin
 OpenMailReplyButton = {}
 OpenMailReplyButton["fitTextCanWidthDecrease"] = true -- inherited
 OpenMailReplyButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L901)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L904)
 --- child of OpenMailFrame
 --- @class OpenMailAttachmentText : FontString, GameFontHighlightSmall
 OpenMailAttachmentText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L904)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L907)
 --- child of OpenMailFrame
 --- @class OpenMailSenderLabel : FontString, GameFontHighlight
 OpenMailSenderLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L910)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L913)
 --- child of OpenMailFrame
 --- @class OpenMailSubjectLabel : FontString, GameFontHighlight
 OpenMailSubjectLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L916)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L919)
 --- child of OpenMailFrame
 --- @class OpenMailSubject : FontString, GameFontNormalSmall
 OpenMailSubject = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L922)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L925)
 --- child of OpenMailFrame
 --- @class OpenMailHorizontalBarLeft : Texture
 OpenMailHorizontalBarLeft = {}
@@ -1388,7 +1393,7 @@ OpenMailFrameCloseButton = {}
 --- @type Texture
 OpenMailFrameBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L895)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L898)
 --- @class OpenMailFrame : Frame, ButtonFrameTemplate, OpenMailMixin
 --- @field ReportSpamButton OpenMailReportSpamButton
 --- @field ScrollFrame OpenMailScrollFrame

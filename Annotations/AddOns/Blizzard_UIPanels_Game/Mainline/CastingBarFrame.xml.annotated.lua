@@ -178,19 +178,7 @@ PlayerCastingBarFrame["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inher
 PlayerCastingBarFrame["isBottomManagedFrame"] = true -- inherited
 PlayerCastingBarFrame["isManagedFrame"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L483)
---- @class GamepadPlayerCastingBarFrame : StatusBar, PlayerCastingBarFrameTemplate, GamepadPlayerCastingBarFrameMixin
-GamepadPlayerCastingBarFrame = {}
-GamepadPlayerCastingBarFrame["layoutIndex"] = 2 -- inherited
-GamepadPlayerCastingBarFrame["bottomPadding"] = 8 -- inherited
-GamepadPlayerCastingBarFrame["editModeSelectionTopOffset"] = 0 -- inherited
-GamepadPlayerCastingBarFrame["editModeSelectionBottomOffset"] = -12 -- inherited
-GamepadPlayerCastingBarFrame["playCastFX"] = true -- inherited
-GamepadPlayerCastingBarFrame["system"] = Enum.EditModeSystem.CastBar -- inherited
-GamepadPlayerCastingBarFrame["systemNameString"] = HUD_EDIT_MODE_CAST_BAR_LABEL -- inherited
-GamepadPlayerCastingBarFrame["defaultHideSelection"] = true -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L485)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L484)
 --- @class OverlayPlayerCastingBarFrame : StatusBar, CastingBarFrameTemplate, OverlayPlayerCastingBarMixin
 --- @field playCastFX boolean # true
 OverlayPlayerCastingBarFrame = {}

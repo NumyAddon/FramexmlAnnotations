@@ -1,12 +1,13 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L54)
 --- child of CommunitiesListEntryTemplate
 --- @class CommunitiesListEntryTemplate_Name : FontString, GameFontNormal
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L4)
 --- Template
 --- @class CommunitiesListEntryTemplate : Button, CommunitiesListEntryMixin
+--- @field buttonContext string # ButtonContext_CommunitiesListEntryButton
 --- @field Background Texture
 --- @field GuildTabardBackground Texture
 --- @field Selection Texture
@@ -21,15 +22,15 @@
 --- @field FavoriteIcon Texture
 --- @field NewCommunityFlash Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L162)
 --- child of CommunitiesListFrameTemplate
 --- @class CommunitiesListFrameTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L168)
 --- child of CommunitiesListFrameTemplate
 --- @class CommunitiesListFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L174)
 --- child of CommunitiesListFrameTemplate
 --- @class CommunitiesListFrameTemplate_FilligreeOverlay : Frame
 --- @field TLCorner Texture
@@ -41,11 +42,11 @@
 --- @field TopBar Texture
 --- @field BottomBar Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L247)
 --- child of CommunitiesListFrameTemplate
 --- @class CommunitiesListFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L133)
 --- Template
 --- @class CommunitiesListFrameTemplate : Frame, CommunitiesListMixin
 --- @field ScrollBox CommunitiesListFrameTemplate_ScrollBox
@@ -56,12 +57,12 @@
 --- @field TopFiligree Texture
 --- @field BottomFiligree Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L268)
 --- child of CommunitiesListDropdownTemplate
 --- @class CommunitiesListDropdownTemplate_NotificationOverlay : Frame
 --- @field UnreadNotificationIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Communities/CommunitiesList.xml#L266)
 --- Template
 --- @class CommunitiesListDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, CommunitiesListDropdownMixin
 --- @field NotificationOverlay CommunitiesListDropdownTemplate_NotificationOverlay

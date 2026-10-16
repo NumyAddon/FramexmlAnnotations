@@ -134,20 +134,22 @@
 --- child of CharCustomizeFrame_CustomizeOptionsContainerFrame
 --- @class CharCustomizeFrame_CustomizeOptionsContainerFrame_RandomizeAppearanceButton : Button, CustomizationRandomizeAppearanceButtonTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L335)
+--- child of CharCustomizeFrame_CustomizeOptionsContainerFrame_OptionsScrollBox
+--- @class CharCustomizeFrame_CustomizeOptionsContainerFrame_OptionsScrollBox_Options : Frame, CharacterCustomizeOptions
+--- @field scrollable boolean # true
+--- @field leftPadding number # 18
+--- @field topPadding number # 24
+--- @field bottomPadding number # 15
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L329)
 --- child of CharCustomizeFrame_CustomizeOptionsContainerFrame
---- @class CharCustomizeFrame_CustomizeOptionsContainerFrame_Options : Frame, CharacterCustomizeOptions
---- @field minimumWidth number # 300
+--- @class CharCustomizeFrame_CustomizeOptionsContainerFrame_OptionsScrollBox : Frame, WowScrollBox
+--- @field Options CharCustomizeFrame_CustomizeOptionsContainerFrame_OptionsScrollBox_Options
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L346)
 --- child of CharCustomizeFrame_CustomizeOptionsContainerFrame
---- @class Frame_TR : Texture
-Frame_TR = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L274)
---- child of CharCustomizeFrame_CustomizeOptionsContainerFrame
---- @class Frame_BR : Texture
-Frame_BR = {}
+--- @class CharCustomizeFrame_CustomizeOptionsContainerFrame_OptionsScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L257)
 --- child of CharCustomizeFrame
@@ -157,36 +159,39 @@ Frame_BR = {}
 --- @field fixedWidth number # 360
 --- @field Categories CharCustomizeFrame_CustomizeOptionsContainerFrame_Categories
 --- @field RandomizeAppearanceButton CharCustomizeFrame_CustomizeOptionsContainerFrame_RandomizeAppearanceButton
---- @field Options CharCustomizeFrame_CustomizeOptionsContainerFrame_Options
+--- @field OptionsScrollBox CharCustomizeFrame_CustomizeOptionsContainerFrame_OptionsScrollBox
+--- @field OptionsScrollBar CharCustomizeFrame_CustomizeOptionsContainerFrame_OptionsScrollBar
 --- @field Frame Texture
+--- @field FrameTopRight Texture
+--- @field FrameBottomRight Texture
 --- @field Backdrop Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L380)
 --- child of CharCustomizeFrame_SmallButtons
 --- @class CharCustomizeFrame_SmallButtons_ResetCameraButton : Button, CustomizationResetCameraButtonTemplate
 --- @field layoutIndex number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L367)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L385)
 --- child of CharCustomizeFrame_SmallButtons
 --- @class CharCustomizeFrame_SmallButtons_ZoomOutButton : Button, CustomizationZoomOutButtonTemplate
 --- @field layoutIndex number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L372)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L390)
 --- child of CharCustomizeFrame_SmallButtons
 --- @class CharCustomizeFrame_SmallButtons_ZoomInButton : Button, CustomizationZoomInButtonTemplate
 --- @field layoutIndex number # 3
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L377)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L395)
 --- child of CharCustomizeFrame_SmallButtons
 --- @class CharCustomizeFrame_SmallButtons_RotateLeftButton : Button, CustomizationRotateLeftButtonTemplate
 --- @field layoutIndex number # 4
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L382)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L400)
 --- child of CharCustomizeFrame_SmallButtons
 --- @class CharCustomizeFrame_SmallButtons_RotateRightButton : Button, CustomizationRotateRightButtonTemplate
 --- @field layoutIndex number # 5
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CharacterCustomize/Camelot/Blizzard_CharacterCustomize.xml#L355)
 --- child of CharCustomizeFrame
 --- @class CharCustomizeFrame_SmallButtons : Frame, HorizontalLayoutFrame
 --- @field spacing number # -5

@@ -31,28 +31,28 @@
 --- @field BG StaticPopupBaseTemplate_BG
 --- @field CloseButton StaticPopupBaseTemplate_CloseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L154)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L163)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_CoverFrame : Frame, GameDialogCoverFrameMixin
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L181)
 --- child of StaticPopupTemplate_ButtonContainer
 --- @class StaticPopupTemplate_ButtonContainer_Button1 : Button, StaticPopupButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L182)
 --- child of StaticPopupTemplate_ButtonContainer
 --- @class StaticPopupTemplate_ButtonContainer_Button2 : Button, StaticPopupButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L174)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L183)
 --- child of StaticPopupTemplate_ButtonContainer
 --- @class StaticPopupTemplate_ButtonContainer_Button3 : Button, StaticPopupButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L184)
 --- child of StaticPopupTemplate_ButtonContainer
 --- @class StaticPopupTemplate_ButtonContainer_Button4 : Button, StaticPopupButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L179)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_ButtonContainer : Frame, ResizeLayoutFrame
 --- @field Button1 StaticPopupTemplate_ButtonContainer_Button1
@@ -61,16 +61,16 @@
 --- @field Button4 StaticPopupTemplate_ButtonContainer_Button4
 --- @field Buttons table<number, StaticPopupTemplate_ButtonContainer_Button1 | StaticPopupTemplate_ButtonContainer_Button2 | StaticPopupTemplate_ButtonContainer_Button3 | StaticPopupTemplate_ButtonContainer_Button4>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L205)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_ExtraButton : Button, StaticPopupButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L223)
 --- child of StaticPopupTemplateEditBox
 --- @class StaticPopupTemplate_EditBox_Instructions : FontString, UserScaledFontGameDisableSmall, UserScaledFontStringTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L210)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_EditBox : EditBox, AutoCompleteEditBoxTemplate, TooltipBackdropTemplate, UserScaledFrameTemplate, StaticPopupEditBoxMixin
 --- @field baseWidth number # 130
@@ -79,34 +79,34 @@
 --- @field useScaleWeight boolean # true
 --- @field Instructions StaticPopupTemplate_EditBox_Instructions
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L235)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L244)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_GamepadSequence : Frame, GamepadInputSequenceTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L249)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_Dropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L254)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_MoneyFrame : Frame, SmallMoneyFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L262)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_MoneyInputFrame : Frame, MoneyInputFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L273)
 --- child of StaticPopupTemplate_ItemFrame
 --- @class StaticPopupTemplate_ItemFrame_Text : FontString, UserScaledFontGameNormal, UserScaledFontStringTemplate
 --- @field baseWidth number # 103
 --- @field baseHeight number # 38
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L283)
 --- child of StaticPopupTemplate_ItemFrame
 --- @class StaticPopupTemplate_ItemFrame_NameFrame : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L258)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L267)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_ItemFrame : Frame, ResizeLayoutFrame, StaticPopupItemFrameMixin
 --- @field widthPadding number # -4
@@ -114,12 +114,12 @@
 --- @field Text StaticPopupTemplate_ItemFrame_Text
 --- @field NameFrame StaticPopupTemplate_ItemFrame_NameFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L310)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_DarkOverlay : Frame
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L317)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L326)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_Spinner : Frame, SpinnerTemplate
 --- @field ignoreInLayout boolean # true
@@ -136,25 +136,30 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L103)
 --- child of StaticPopupTemplate
---- @class StaticPopupTemplate_SubText : FontString, UserScaledFontGameNormalSmall, UserScaledFontStringTemplate
+--- @class StaticPopupTemplate_ConfirmText : FontString, UserScaledFontGameHighlight, UserScaledFontStringTemplate
 --- @field useScaleWeight boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L112)
 --- child of StaticPopupTemplate
+--- @class StaticPopupTemplate_SubText : FontString, UserScaledFontGameNormalSmall, UserScaledFontStringTemplate
+--- @field useScaleWeight boolean # true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L121)
+--- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_AlertIcon : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L132)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_ProgressBarBorder : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L144)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_ProgressBarFill : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L181)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L190)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_Separator : Texture
 --- @field ignoreInLayout boolean # true
@@ -177,6 +182,7 @@
 --- @field Spinner StaticPopupTemplate_Spinner
 --- @field TopSpacer StaticPopupTemplate_TopSpacer
 --- @field Text StaticPopupTemplate_Text
+--- @field ConfirmText StaticPopupTemplate_ConfirmText
 --- @field SubText StaticPopupTemplate_SubText
 --- @field AlertIcon StaticPopupTemplate_AlertIcon
 --- @field ProgressBarBorder StaticPopupTemplate_ProgressBarBorder
@@ -185,7 +191,7 @@
 --- @field Separator StaticPopupTemplate_Separator
 --- @field Buttons table<number, StaticPopupTemplate_ExtraButton>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L205)
 --- child of StaticPopup1 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_ExtraButton
 StaticPopup1ExtraButton = {}
@@ -193,12 +199,12 @@ StaticPopup1ExtraButton["baseWidth"] = 128 -- inherited
 StaticPopup1ExtraButton["baseHeight"] = 21 -- inherited
 StaticPopup1ExtraButton["useScaleWeight"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L223)
 --- child of StaticPopupTemplateEditBox
 --- @class StaticPopupTemplate_EditBox_Instructions : FontString, UserScaledFontGameDisableSmall, UserScaledFontStringTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L210)
 --- child of StaticPopup1 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_EditBox
 StaticPopup1EditBox = {}
@@ -228,7 +234,7 @@ StaticPopup1MoneyFrameGoldButton = {}
 --- @type Texture
 StaticPopup1MoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L254)
 --- child of StaticPopup1 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_MoneyFrame
 StaticPopup1MoneyFrame = {}
@@ -239,22 +245,22 @@ StaticPopup1MoneyFrame["SilverButton"] = StaticPopup1MoneyFrameSilverButton -- i
 StaticPopup1MoneyFrame["GoldButton"] = StaticPopup1MoneyFrameGoldButton -- inherited
 StaticPopup1MoneyFrame["trialErrorButton"] = StaticPopup1MoneyFrameTrialErrorButton -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup1MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup1MoneyInputFrameGoldLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup1MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup1MoneyInputFrameGoldRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup1MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup1MoneyInputFrameGoldMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L80)
 --- child of StaticPopup1MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Gold
 StaticPopup1MoneyInputFrameGold = {}
@@ -264,25 +270,26 @@ StaticPopup1MoneyInputFrameGold["coinDisplayOffsetX"] = -4
 StaticPopup1MoneyInputFrameGold["darkenOnDigits"] = 9
 StaticPopup1MoneyInputFrameGold["baseWidth"] = 70
 StaticPopup1MoneyInputFrameGold["baseHeight"] = 20 -- inherited
+StaticPopup1MoneyInputFrameGold["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup1MoneyInputFrameGold["left"] = StaticPopup1MoneyInputFrameGoldLeft -- inherited
 StaticPopup1MoneyInputFrameGold["right"] = StaticPopup1MoneyInputFrameGoldRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup1MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup1MoneyInputFrameSilverLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup1MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup1MoneyInputFrameSilverRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup1MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup1MoneyInputFrameSilverMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L97)
 --- child of StaticPopup1MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Silver
 StaticPopup1MoneyInputFrameSilver = {}
@@ -290,25 +297,26 @@ StaticPopup1MoneyInputFrameSilver["coinAtlas"] = "coin-silver"
 StaticPopup1MoneyInputFrameSilver["coinSymbol"] = SILVER_AMOUNT_SYMBOL
 StaticPopup1MoneyInputFrameSilver["baseWidth"] = 48
 StaticPopup1MoneyInputFrameSilver["baseHeight"] = 20 -- inherited
+StaticPopup1MoneyInputFrameSilver["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup1MoneyInputFrameSilver["left"] = StaticPopup1MoneyInputFrameSilverLeft -- inherited
 StaticPopup1MoneyInputFrameSilver["right"] = StaticPopup1MoneyInputFrameSilverRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup1MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup1MoneyInputFrameCopperLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup1MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup1MoneyInputFrameCopperRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup1MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup1MoneyInputFrameCopperMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L112)
 --- child of StaticPopup1MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Copper
 StaticPopup1MoneyInputFrameCopper = {}
@@ -316,10 +324,11 @@ StaticPopup1MoneyInputFrameCopper["coinAtlas"] = "coin-copper"
 StaticPopup1MoneyInputFrameCopper["coinSymbol"] = COPPER_AMOUNT_SYMBOL
 StaticPopup1MoneyInputFrameCopper["baseWidth"] = 48
 StaticPopup1MoneyInputFrameCopper["baseHeight"] = 20 -- inherited
+StaticPopup1MoneyInputFrameCopper["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup1MoneyInputFrameCopper["left"] = StaticPopup1MoneyInputFrameCopperLeft -- inherited
 StaticPopup1MoneyInputFrameCopper["right"] = StaticPopup1MoneyInputFrameCopperRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L262)
 --- child of StaticPopup1 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_MoneyInputFrame
 StaticPopup1MoneyInputFrame = {}
@@ -341,7 +350,7 @@ StaticPopup1Text["useScaleWeight"] = true
 StaticPopup1CloseButton = {}
 StaticPopup1CloseButton["ignoreInLayout"] = true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L339)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L348)
 --- @class StaticPopup1 : Frame, StaticPopupTemplate
 StaticPopup1 = {}
 StaticPopup1["onCloseCallback"] = StaticPopup_OnCloseButtonClicked -- inherited
@@ -354,7 +363,7 @@ StaticPopup1["Text"] = StaticPopup1Text -- inherited
 StaticPopup1["CloseButton"] = StaticPopup1CloseButton -- inherited
 StaticPopup1["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L205)
 --- child of StaticPopup2 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_ExtraButton
 StaticPopup2ExtraButton = {}
@@ -362,12 +371,12 @@ StaticPopup2ExtraButton["baseWidth"] = 128 -- inherited
 StaticPopup2ExtraButton["baseHeight"] = 21 -- inherited
 StaticPopup2ExtraButton["useScaleWeight"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L223)
 --- child of StaticPopupTemplateEditBox
 --- @class StaticPopupTemplate_EditBox_Instructions : FontString, UserScaledFontGameDisableSmall, UserScaledFontStringTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L210)
 --- child of StaticPopup2 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_EditBox
 StaticPopup2EditBox = {}
@@ -397,7 +406,7 @@ StaticPopup2MoneyFrameGoldButton = {}
 --- @type Texture
 StaticPopup2MoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L254)
 --- child of StaticPopup2 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_MoneyFrame
 StaticPopup2MoneyFrame = {}
@@ -408,22 +417,22 @@ StaticPopup2MoneyFrame["SilverButton"] = StaticPopup2MoneyFrameSilverButton -- i
 StaticPopup2MoneyFrame["GoldButton"] = StaticPopup2MoneyFrameGoldButton -- inherited
 StaticPopup2MoneyFrame["trialErrorButton"] = StaticPopup2MoneyFrameTrialErrorButton -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup2MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup2MoneyInputFrameGoldLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup2MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup2MoneyInputFrameGoldRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup2MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup2MoneyInputFrameGoldMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L80)
 --- child of StaticPopup2MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Gold
 StaticPopup2MoneyInputFrameGold = {}
@@ -433,25 +442,26 @@ StaticPopup2MoneyInputFrameGold["coinDisplayOffsetX"] = -4
 StaticPopup2MoneyInputFrameGold["darkenOnDigits"] = 9
 StaticPopup2MoneyInputFrameGold["baseWidth"] = 70
 StaticPopup2MoneyInputFrameGold["baseHeight"] = 20 -- inherited
+StaticPopup2MoneyInputFrameGold["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup2MoneyInputFrameGold["left"] = StaticPopup2MoneyInputFrameGoldLeft -- inherited
 StaticPopup2MoneyInputFrameGold["right"] = StaticPopup2MoneyInputFrameGoldRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup2MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup2MoneyInputFrameSilverLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup2MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup2MoneyInputFrameSilverRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup2MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup2MoneyInputFrameSilverMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L97)
 --- child of StaticPopup2MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Silver
 StaticPopup2MoneyInputFrameSilver = {}
@@ -459,25 +469,26 @@ StaticPopup2MoneyInputFrameSilver["coinAtlas"] = "coin-silver"
 StaticPopup2MoneyInputFrameSilver["coinSymbol"] = SILVER_AMOUNT_SYMBOL
 StaticPopup2MoneyInputFrameSilver["baseWidth"] = 48
 StaticPopup2MoneyInputFrameSilver["baseHeight"] = 20 -- inherited
+StaticPopup2MoneyInputFrameSilver["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup2MoneyInputFrameSilver["left"] = StaticPopup2MoneyInputFrameSilverLeft -- inherited
 StaticPopup2MoneyInputFrameSilver["right"] = StaticPopup2MoneyInputFrameSilverRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup2MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup2MoneyInputFrameCopperLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup2MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup2MoneyInputFrameCopperRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup2MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup2MoneyInputFrameCopperMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L112)
 --- child of StaticPopup2MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Copper
 StaticPopup2MoneyInputFrameCopper = {}
@@ -485,10 +496,11 @@ StaticPopup2MoneyInputFrameCopper["coinAtlas"] = "coin-copper"
 StaticPopup2MoneyInputFrameCopper["coinSymbol"] = COPPER_AMOUNT_SYMBOL
 StaticPopup2MoneyInputFrameCopper["baseWidth"] = 48
 StaticPopup2MoneyInputFrameCopper["baseHeight"] = 20 -- inherited
+StaticPopup2MoneyInputFrameCopper["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup2MoneyInputFrameCopper["left"] = StaticPopup2MoneyInputFrameCopperLeft -- inherited
 StaticPopup2MoneyInputFrameCopper["right"] = StaticPopup2MoneyInputFrameCopperRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L262)
 --- child of StaticPopup2 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_MoneyInputFrame
 StaticPopup2MoneyInputFrame = {}
@@ -510,7 +522,7 @@ StaticPopup2Text["useScaleWeight"] = true
 StaticPopup2CloseButton = {}
 StaticPopup2CloseButton["ignoreInLayout"] = true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L344)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L353)
 --- @class StaticPopup2 : Frame, StaticPopupTemplate
 StaticPopup2 = {}
 StaticPopup2["onCloseCallback"] = StaticPopup_OnCloseButtonClicked -- inherited
@@ -523,7 +535,7 @@ StaticPopup2["Text"] = StaticPopup2Text -- inherited
 StaticPopup2["CloseButton"] = StaticPopup2CloseButton -- inherited
 StaticPopup2["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L205)
 --- child of StaticPopup3 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_ExtraButton
 StaticPopup3ExtraButton = {}
@@ -531,12 +543,12 @@ StaticPopup3ExtraButton["baseWidth"] = 128 -- inherited
 StaticPopup3ExtraButton["baseHeight"] = 21 -- inherited
 StaticPopup3ExtraButton["useScaleWeight"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L223)
 --- child of StaticPopupTemplateEditBox
 --- @class StaticPopupTemplate_EditBox_Instructions : FontString, UserScaledFontGameDisableSmall, UserScaledFontStringTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L210)
 --- child of StaticPopup3 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_EditBox
 StaticPopup3EditBox = {}
@@ -566,7 +578,7 @@ StaticPopup3MoneyFrameGoldButton = {}
 --- @type Texture
 StaticPopup3MoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L254)
 --- child of StaticPopup3 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_MoneyFrame
 StaticPopup3MoneyFrame = {}
@@ -577,22 +589,22 @@ StaticPopup3MoneyFrame["SilverButton"] = StaticPopup3MoneyFrameSilverButton -- i
 StaticPopup3MoneyFrame["GoldButton"] = StaticPopup3MoneyFrameGoldButton -- inherited
 StaticPopup3MoneyFrame["trialErrorButton"] = StaticPopup3MoneyFrameTrialErrorButton -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup3MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup3MoneyInputFrameGoldLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup3MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup3MoneyInputFrameGoldRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup3MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup3MoneyInputFrameGoldMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L80)
 --- child of StaticPopup3MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Gold
 StaticPopup3MoneyInputFrameGold = {}
@@ -602,25 +614,26 @@ StaticPopup3MoneyInputFrameGold["coinDisplayOffsetX"] = -4
 StaticPopup3MoneyInputFrameGold["darkenOnDigits"] = 9
 StaticPopup3MoneyInputFrameGold["baseWidth"] = 70
 StaticPopup3MoneyInputFrameGold["baseHeight"] = 20 -- inherited
+StaticPopup3MoneyInputFrameGold["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup3MoneyInputFrameGold["left"] = StaticPopup3MoneyInputFrameGoldLeft -- inherited
 StaticPopup3MoneyInputFrameGold["right"] = StaticPopup3MoneyInputFrameGoldRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup3MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup3MoneyInputFrameSilverLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup3MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup3MoneyInputFrameSilverRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup3MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup3MoneyInputFrameSilverMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L97)
 --- child of StaticPopup3MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Silver
 StaticPopup3MoneyInputFrameSilver = {}
@@ -628,25 +641,26 @@ StaticPopup3MoneyInputFrameSilver["coinAtlas"] = "coin-silver"
 StaticPopup3MoneyInputFrameSilver["coinSymbol"] = SILVER_AMOUNT_SYMBOL
 StaticPopup3MoneyInputFrameSilver["baseWidth"] = 48
 StaticPopup3MoneyInputFrameSilver["baseHeight"] = 20 -- inherited
+StaticPopup3MoneyInputFrameSilver["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup3MoneyInputFrameSilver["left"] = StaticPopup3MoneyInputFrameSilverLeft -- inherited
 StaticPopup3MoneyInputFrameSilver["right"] = StaticPopup3MoneyInputFrameSilverRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup3MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup3MoneyInputFrameCopperLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup3MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup3MoneyInputFrameCopperRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup3MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup3MoneyInputFrameCopperMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L112)
 --- child of StaticPopup3MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Copper
 StaticPopup3MoneyInputFrameCopper = {}
@@ -654,10 +668,11 @@ StaticPopup3MoneyInputFrameCopper["coinAtlas"] = "coin-copper"
 StaticPopup3MoneyInputFrameCopper["coinSymbol"] = COPPER_AMOUNT_SYMBOL
 StaticPopup3MoneyInputFrameCopper["baseWidth"] = 48
 StaticPopup3MoneyInputFrameCopper["baseHeight"] = 20 -- inherited
+StaticPopup3MoneyInputFrameCopper["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup3MoneyInputFrameCopper["left"] = StaticPopup3MoneyInputFrameCopperLeft -- inherited
 StaticPopup3MoneyInputFrameCopper["right"] = StaticPopup3MoneyInputFrameCopperRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L262)
 --- child of StaticPopup3 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_MoneyInputFrame
 StaticPopup3MoneyInputFrame = {}
@@ -679,7 +694,7 @@ StaticPopup3Text["useScaleWeight"] = true
 StaticPopup3CloseButton = {}
 StaticPopup3CloseButton["ignoreInLayout"] = true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L349)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L358)
 --- @class StaticPopup3 : Frame, StaticPopupTemplate
 StaticPopup3 = {}
 StaticPopup3["onCloseCallback"] = StaticPopup_OnCloseButtonClicked -- inherited
@@ -692,7 +707,7 @@ StaticPopup3["Text"] = StaticPopup3Text -- inherited
 StaticPopup3["CloseButton"] = StaticPopup3CloseButton -- inherited
 StaticPopup3["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L205)
 --- child of StaticPopup4 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_ExtraButton
 StaticPopup4ExtraButton = {}
@@ -700,12 +715,12 @@ StaticPopup4ExtraButton["baseWidth"] = 128 -- inherited
 StaticPopup4ExtraButton["baseHeight"] = 21 -- inherited
 StaticPopup4ExtraButton["useScaleWeight"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L223)
 --- child of StaticPopupTemplateEditBox
 --- @class StaticPopupTemplate_EditBox_Instructions : FontString, UserScaledFontGameDisableSmall, UserScaledFontStringTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L210)
 --- child of StaticPopup4 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_EditBox
 StaticPopup4EditBox = {}
@@ -735,7 +750,7 @@ StaticPopup4MoneyFrameGoldButton = {}
 --- @type Texture
 StaticPopup4MoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L254)
 --- child of StaticPopup4 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_MoneyFrame
 StaticPopup4MoneyFrame = {}
@@ -746,22 +761,22 @@ StaticPopup4MoneyFrame["SilverButton"] = StaticPopup4MoneyFrameSilverButton -- i
 StaticPopup4MoneyFrame["GoldButton"] = StaticPopup4MoneyFrameGoldButton -- inherited
 StaticPopup4MoneyFrame["trialErrorButton"] = StaticPopup4MoneyFrameTrialErrorButton -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup4MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup4MoneyInputFrameGoldLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup4MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup4MoneyInputFrameGoldRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup4MoneyInputFrameGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup4MoneyInputFrameGoldMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L80)
 --- child of StaticPopup4MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Gold
 StaticPopup4MoneyInputFrameGold = {}
@@ -771,25 +786,26 @@ StaticPopup4MoneyInputFrameGold["coinDisplayOffsetX"] = -4
 StaticPopup4MoneyInputFrameGold["darkenOnDigits"] = 9
 StaticPopup4MoneyInputFrameGold["baseWidth"] = 70
 StaticPopup4MoneyInputFrameGold["baseHeight"] = 20 -- inherited
+StaticPopup4MoneyInputFrameGold["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup4MoneyInputFrameGold["left"] = StaticPopup4MoneyInputFrameGoldLeft -- inherited
 StaticPopup4MoneyInputFrameGold["right"] = StaticPopup4MoneyInputFrameGoldRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup4MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup4MoneyInputFrameSilverLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup4MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup4MoneyInputFrameSilverRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup4MoneyInputFrameSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup4MoneyInputFrameSilverMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L97)
 --- child of StaticPopup4MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Silver
 StaticPopup4MoneyInputFrameSilver = {}
@@ -797,25 +813,26 @@ StaticPopup4MoneyInputFrameSilver["coinAtlas"] = "coin-silver"
 StaticPopup4MoneyInputFrameSilver["coinSymbol"] = SILVER_AMOUNT_SYMBOL
 StaticPopup4MoneyInputFrameSilver["baseWidth"] = 48
 StaticPopup4MoneyInputFrameSilver["baseHeight"] = 20 -- inherited
+StaticPopup4MoneyInputFrameSilver["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup4MoneyInputFrameSilver["left"] = StaticPopup4MoneyInputFrameSilverLeft -- inherited
 StaticPopup4MoneyInputFrameSilver["right"] = StaticPopup4MoneyInputFrameSilverRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L18)
 --- child of StaticPopup4MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup4MoneyInputFrameCopperLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L26)
 --- child of StaticPopup4MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup4MoneyInputFrameCopperRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L34)
 --- child of StaticPopup4MoneyInputFrameCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 StaticPopup4MoneyInputFrameCopperMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L112)
 --- child of StaticPopup4MoneyInputFrame (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Copper
 StaticPopup4MoneyInputFrameCopper = {}
@@ -823,10 +840,11 @@ StaticPopup4MoneyInputFrameCopper["coinAtlas"] = "coin-copper"
 StaticPopup4MoneyInputFrameCopper["coinSymbol"] = COPPER_AMOUNT_SYMBOL
 StaticPopup4MoneyInputFrameCopper["baseWidth"] = 48
 StaticPopup4MoneyInputFrameCopper["baseHeight"] = 20 -- inherited
+StaticPopup4MoneyInputFrameCopper["customSmartNavOffsetX"] = 0 -- inherited
 StaticPopup4MoneyInputFrameCopper["left"] = StaticPopup4MoneyInputFrameCopperLeft -- inherited
 StaticPopup4MoneyInputFrameCopper["right"] = StaticPopup4MoneyInputFrameCopperRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L262)
 --- child of StaticPopup4 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_MoneyInputFrame
 StaticPopup4MoneyInputFrame = {}
@@ -848,7 +866,7 @@ StaticPopup4Text["useScaleWeight"] = true
 StaticPopup4CloseButton = {}
 StaticPopup4CloseButton["ignoreInLayout"] = true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L363)
 --- @class StaticPopup4 : Frame, StaticPopupTemplate
 StaticPopup4 = {}
 StaticPopup4["onCloseCallback"] = StaticPopup_OnCloseButtonClicked -- inherited

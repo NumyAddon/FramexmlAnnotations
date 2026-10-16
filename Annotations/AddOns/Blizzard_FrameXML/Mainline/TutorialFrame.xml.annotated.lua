@@ -43,7 +43,7 @@ TutorialFrameCallOut["backdropBorderBlendMode"] = "ADD"
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L175)
 --- child of TutorialFrame
---- @class TutorialFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
+--- @class TutorialFrameCloseButton : Button, UIPanelCloseButton
 TutorialFrameCloseButton = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L180)

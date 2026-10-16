@@ -531,6 +531,7 @@ CarouselContainer["bottomPadding"] = 0
 --- @class CatalogShopFrame_CatalogShopDetailsFrame : Frame, VerticalLayoutFrame, CatalogShopProductDetailsFrameMixin
 --- @field fixedWidth number # 320
 --- @field smartNavigationIgnored boolean # true
+--- @field CarouselContainer CarouselContainer
 --- @field ProductRefundContainer CatalogShopFrame_CatalogShopDetailsFrame_ProductRefundContainer
 --- @field ButtonContainer CatalogShopFrame_CatalogShopDetailsFrame_ButtonContainer
 --- @field BottomPadding CatalogShopFrame_CatalogShopDetailsFrame_BottomPadding
@@ -546,12 +547,12 @@ CarouselContainer["bottomPadding"] = 0
 --- child of CatalogShopFrame
 --- @class CatalogShopFrame_PersistentRefundContainerFrame : Frame, CatalogShopPersistentRefundContainerFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L889)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L907)
 --- child of CatalogShopFrame_CatalogShopErrorFrame (created in template CatalogShopErrorFrameTemplate)
 --- @type Texture
 _G["store-error-icon"] = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L898)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L916)
 --- child of CatalogShopFrame_CatalogShopErrorFrame (created in template CatalogShopErrorFrameTemplate)
 --- @type Texture
 _G["store-error-line"] = {}

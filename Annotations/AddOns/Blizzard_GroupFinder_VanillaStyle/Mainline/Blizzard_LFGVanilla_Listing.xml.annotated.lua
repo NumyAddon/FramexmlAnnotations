@@ -219,7 +219,7 @@ LFGListingFrameActivityViewText = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L579)
 --- child of LFGListingFrameActivityView_LevelRangesCheckbox
---- @class LFGListingFrameActivityView_LevelRangesCheckbox_Checkbox : CheckButton, UICheckButtonTemplate
+--- @class LFGListingFrameActivityView_LevelRangesCheckbox_Checkbox : CheckButton, UICheckButtonTemplate, LFGListingLevelRangesCheckboxMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L570)
 --- child of LFGListingFrameActivityView_LevelRangesCheckbox
@@ -231,7 +231,7 @@ LFGListingFrameActivityViewText = {}
 --- @field Checkbox LFGListingFrameActivityView_LevelRangesCheckbox_Checkbox
 --- @field Text LFGListingFrameActivityView_LevelRangesCheckbox_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L587)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L590)
 --- child of LFGListingFrameActivityView
 --- @class LFGListingFrameActivityViewScrollBox : Frame, WowScrollBoxList
 --- @field TopAnchorY number # -45
@@ -240,7 +240,7 @@ LFGListingFrameActivityViewScrollBox["TopAnchorY"] = -45
 LFGListingFrameActivityViewScrollBox["canInterpolateScroll"] = false -- inherited
 LFGListingFrameActivityViewScrollBox["debugInspectionSystem"] = "ScrollBox" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L593)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L596)
 --- child of LFGListingFrameActivityView
 --- @class LFGListingFrameActivityViewScrollBar : EventFrame, MinimalScrollBar
 LFGListingFrameActivityViewScrollBar = {}
@@ -278,7 +278,7 @@ LFGListingCommentScrollBar["ScrollUpButton"] = LFGListingCommentScrollBarScrollU
 LFGListingCommentScrollBar["ScrollDownButton"] = LFGListingCommentScrollBarScrollDownButton -- inherited
 LFGListingCommentScrollBar["ThumbTexture"] = LFGListingCommentScrollBarThumbTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L599)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L602)
 --- child of LFGListingFrameActivityView
 --- @class LFGListingComment : ScrollFrame, UIPanelInputScrollFrameTemplate
 --- @field maxLetters number # 255
@@ -290,7 +290,7 @@ LFGListingComment["instructions"] = DESCRIPTION_OF_YOUR_GROUP
 LFGListingComment["hideCharCount"] = true
 LFGListingComment["ScrollBar"] = LFGListingCommentScrollBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L631)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L634)
 --- child of LFGListingFrameActivityView
 --- @class LFGListingFrameActivityViewVoiceChatDropdown : DropdownButton, WowStyle1DropdownTemplate
 LFGListingFrameActivityViewVoiceChatDropdown = {}
@@ -332,17 +332,17 @@ LFGListingFrameActivityView["BarTop"] = LFGListingFrameActivityViewBarTop
 LFGListingFrameActivityView["BarMiddle"] = LFGListingFrameActivityViewBarMiddle
 LFGListingFrameActivityView["ListingSpacingY"] = 22
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L649)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L652)
 --- child of LFGListingFrameLockedView
 --- @class LFGListingFrameLockedViewErrorText : FontString, GameFontNormal
 LFGListingFrameLockedViewErrorText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L655)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L658)
 --- child of LFGListingFrameLockedView
 --- @class LFGListingFrameLockedViewActivityText : FontString, GameFontNormal
 LFGListingFrameLockedViewActivityText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L642)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_Listing.xml#L645)
 --- child of LFGListingFrame
 --- @class LFGListingFrameLockedView : Frame
 --- @field ErrorText LFGListingFrameLockedViewErrorText

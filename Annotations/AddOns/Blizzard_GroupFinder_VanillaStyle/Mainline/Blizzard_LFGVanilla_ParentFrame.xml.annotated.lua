@@ -13,49 +13,49 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L39)
 --- child of LFGParentFrame
---- @class LFGParentFrameCloseButton : Button, UIPanelCloseButton
+--- @class LFGParentFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
 LFGParentFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L41)
 --- child of LFGParentFrame
 --- @class LFGParentFrameTab1 : Button, LFGVanillaTabButtonTemplate, LFGVanillaListTabButtonMixin
 --- @field tabIndex number # 1
 LFGParentFrameTab1 = {}
 LFGParentFrameTab1["tabIndex"] = 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L55)
 --- child of LFGParentFrame
 --- @class LFGParentFrameTab2 : Button, LFGVanillaTabButtonTemplate, LFGVanillaBrowserTabButtonMixin
 --- @field tabIndex number # 2
 LFGParentFrameTab2 = {}
 LFGParentFrameTab2["tabIndex"] = 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L68)
 --- child of LFGParentFrame
 --- @class LFGParentFrameTab3 : Button, LFGVanillaTabButtonTemplate, LFGVanillaWhoListTabButtonMixin
 --- @field tabIndex number # 3
 LFGParentFrameTab3 = {}
 LFGParentFrameTab3["tabIndex"] = 3
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L81)
 --- child of LFGParentFrame
 --- @class LFGParentFramePortrait : Button, LFGEyeBigTemplate
 LFGParentFramePortrait = {}
 LFGParentFramePortrait["hideTextureOnAnim"] = "false" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L94)
 --- child of LFGParentFrame
 --- @class LFGParentFrame_ListingTab : Frame, LFGVanillaRightTabTemplate
 --- @field tooltipText any # LFG_LIST_TAB_1
 --- @field iconTexture string # Interface\ICONS\INV_SideTab_GroupFinder_c60
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L103)
 --- child of LFGParentFrame
 --- @class LFGParentFrame_BrowsingTab : Frame, LFGVanillaRightTabTemplate
 --- @field tooltipText any # LFG_LIST_TAB_2
 --- @field iconTexture string # Interface\ICONS\INV_SideTab_GroupBrowsing_c60
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Mainline/Blizzard_LFGVanilla_ParentFrame.xml#L113)
 --- child of LFGParentFrame
 --- @class LFGParentFrame_WhoListingTab : Frame, LFGVanillaRightTabTemplate
 --- @field tooltipText any # LFG_LIST_TAB_3

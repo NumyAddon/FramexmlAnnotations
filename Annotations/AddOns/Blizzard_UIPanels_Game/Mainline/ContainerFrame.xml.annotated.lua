@@ -289,7 +289,26 @@ ContainerFrame7["isBagContainer"] = true -- inherited
 ContainerFrame7["PortraitButton"] = ContainerFrame7PortraitButton -- inherited
 ContainerFrame7["Background1Slot"] = ContainerFrame7Background1Slot -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L224)
+--- child of BagItemSearchBox (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_ClearButton
+BagItemSearchBoxClearButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L215)
+--- child of BagItemSearchBox (created in template SearchBoxTemplate)
+--- @type Texture
+BagItemSearchBoxSearchIcon = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L308)
+--- @class BagItemSearchBox : EditBox, BagSearchBoxTemplate
+--- @field smartNavigationIgnored boolean # true
+BagItemSearchBox = {}
+BagItemSearchBox["smartNavigationIgnored"] = true
+BagItemSearchBox["instructionText"] = SEARCH -- inherited
+BagItemSearchBox["clearButton"] = BagItemSearchBoxClearButton -- inherited
+BagItemSearchBox["searchIcon"] = BagItemSearchBoxSearchIcon -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L321)
 --- child of ContainerFrameCombinedBags
 --- @class ContainerFrameCombinedBagsPortraitButton : DropdownButton, ContainerFramePortraitButtonTemplate
 ContainerFrameCombinedBagsPortraitButton = {}
@@ -315,49 +334,39 @@ ContainerFrameCombinedBagsGoldButton = {}
 --- @type Texture
 ContainerFrameCombinedBagsTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L323)
 --- child of ContainerFrameCombinedBags
 --- @class ContainerFrameCombinedBags_MoneyFrame : Frame, ContainerMoneyFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L321)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L328)
 --- child of ContainerFrameCombinedBags_CountContainer
 --- @class ContainerFrameCombinedBags_CountContainer_Count : FontString, NumberFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L317)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L324)
 --- child of ContainerFrameCombinedBags
 --- @class ContainerFrameCombinedBags_CountContainer : Frame
 --- @field Count ContainerFrameCombinedBags_CountContainer_Count
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L308)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L339)
+--- child of ContainerFrameCombinedBags
+--- @class ContainerFrameCombinedBags_SearchBoxIcon : Frame, InputIconTextureFrameTemplate
+--- @field mappedButtonKey any # GAMEPAD_MENU_LEFT
+--- @field useDropShadow boolean # true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L315)
 --- @class ContainerFrameCombinedBags : Frame, PortraitFrameFlatTemplate, ContainerFrameCombinedBagsMixin
 --- @field onCloseCallback any # ContainerFrameCombinedBagsMixin.Close
 --- @field layoutType string # HeldBagLayout
 --- @field PortraitButton ContainerFrameCombinedBagsPortraitButton
 --- @field MoneyFrame ContainerFrameCombinedBags_MoneyFrame
 --- @field CountContainer ContainerFrameCombinedBags_CountContainer
+--- @field SearchBoxIcon ContainerFrameCombinedBags_SearchBoxIcon
 ContainerFrameCombinedBags = {}
 ContainerFrameCombinedBags["PortraitButton"] = ContainerFrameCombinedBagsPortraitButton
 ContainerFrameCombinedBags["onCloseCallback"] = ContainerFrameCombinedBagsMixin.Close
 ContainerFrameCombinedBags["layoutType"] = "HeldBagLayout"
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L221)
---- child of BagItemSearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_ClearButton
-BagItemSearchBoxClearButton = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L212)
---- child of BagItemSearchBox (created in template SearchBoxTemplate)
---- @type Texture
-BagItemSearchBoxSearchIcon = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L341)
---- @class BagItemSearchBox : EditBox, BagSearchBoxTemplate
-BagItemSearchBox = {}
-BagItemSearchBox["instructionText"] = SEARCH -- inherited
-BagItemSearchBox["clearButton"] = BagItemSearchBoxClearButton -- inherited
-BagItemSearchBox["searchIcon"] = BagItemSearchBoxSearchIcon -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L345)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L358)
 --- @class BagItemAutoSortButton : Button
 BagItemAutoSortButton = {}
 

@@ -9,12 +9,12 @@
 --- child of ToyBox
 --- @class ToyBox_ProgressTracker : StatusBar, ToyProgressTracker
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_ToyBox.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_ToyBox.xml#L224)
 --- child of ToyBox_searchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 ToyBoxClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_ToyBox.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_ToyBox.xml#L215)
 --- child of ToyBox_searchBox (created in template SearchBoxTemplate)
 --- @type Texture
 ToyBoxSearchIcon = {}

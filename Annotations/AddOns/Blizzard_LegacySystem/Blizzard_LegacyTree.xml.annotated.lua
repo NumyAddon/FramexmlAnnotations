@@ -45,51 +45,51 @@
 --- @field artSet any # TalentButtonArtMixin.ArtSet.LegacySquare
 --- @field sizingAdjustment any # TalentButtonUtil.SizingAdjustment.LegacySquare
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L75)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L85)
 --- Template
 --- @class LegacyTreeTraitEdgeArrowTemplate : Frame, TalentEdgeArrowTemplate
 --- @field ignoreInLayout string # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L115)
 --- child of LegacyTreeTraitPanelTemplate_SelectedTreeIcon
 --- @class LegacyTreeTraitPanelTemplate_SelectedTreeIcon_SelectedTreeLabel : FontString, SystemFont_Shadow_Huge1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L106)
 --- child of LegacyTreeTraitPanelTemplate
 --- @class LegacyTreeTraitPanelTemplate_SelectedTreeIcon : CheckButton, SelectedLegacyTreeIconTemplate
 --- @field smartNavigationIgnored boolean # true
 --- @field SelectedTreeLabel LegacyTreeTraitPanelTemplate_SelectedTreeIcon_SelectedTreeLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L126)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L137)
 --- child of LegacyTreeTraitPanelTemplate_SpentPointsFrame
 --- @class LegacyTreeTraitPanelTemplate_SpentPointsFrame_Text : FontString, SystemFont_Huge2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L123)
 --- child of LegacyTreeTraitPanelTemplate
 --- @class LegacyTreeTraitPanelTemplate_SpentPointsFrame : Frame
 --- @field Background Texture
 --- @field Text LegacyTreeTraitPanelTemplate_SpentPointsFrame_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L152)
 --- child of LegacyTreeTraitPanelTemplate_ApplyButton
 --- @class LegacyTreeTraitPanelTemplate_ApplyButton_YellowGlow : Frame
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L143)
 --- child of LegacyTreeTraitPanelTemplate
 --- @class LegacyTreeTraitPanelTemplate_ApplyButton : Button, UIPanelButtonNoTooltipTemplate, UIButtonTemplate
 --- @field smartNavigationIgnored boolean # true
 --- @field YellowGlow LegacyTreeTraitPanelTemplate_ApplyButton_YellowGlow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L181)
 --- child of LegacyTreeTraitPanelTemplate
 --- @class LegacyTreeTraitPanelTemplate_GamepadResetButton : Frame, InputIconTextureFrameTemplate
 --- @field mappedButtonKey any # GAMEPAD_FACE_TOP
 --- @field useDropShadow boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L191)
 --- child of LegacyTreeTraitPanelTemplate
 --- @class LegacyTreeTraitPanelTemplate_ResetButton : Button, IconButtonTemplate
 --- @field smartNavigationIgnored boolean # true
@@ -97,13 +97,13 @@
 --- @field useAtlasSize boolean # true
 --- @field useIconAsHighlight boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L194)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L205)
 --- child of LegacyTreeTraitPanelTemplate
 --- @class LegacyTreeTraitPanelTemplate_GamepadUndoButton : Frame, InputIconTextureFrameTemplate
 --- @field mappedButtonKey any # GAMEPAD_FACE_TOP
 --- @field useDropShadow boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L204)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L215)
 --- child of LegacyTreeTraitPanelTemplate
 --- @class LegacyTreeTraitPanelTemplate_UndoButton : Button, IconButtonTemplate
 --- @field smartNavigationIgnored boolean # true
@@ -113,27 +113,28 @@
 --- @field tooltipText any # TALENT_FRAME_DISCARD_CHANGES_BUTTON_TOOLTIP
 --- @field tooltipTextColor any # HIGHLIGHT_FONT_COLOR
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L240)
 --- child of LegacyTreeTraitPanelTemplate_SearchBox
 --- @class LegacyTreeTraitPanelTemplate_SearchBox_GamepadFocusIcon : Frame, InputIconTextureFrameTemplate
 --- @field mappedButtonKey any # GAMEPAD_MENU_LEFT
 --- @field useDropShadow boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L220)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L231)
 --- child of LegacyTreeTraitPanelTemplate
 --- @class LegacyTreeTraitPanelTemplate_SearchBox : EditBox, SpellSearchBoxTemplate
 --- @field smartNavigationIgnored boolean # true
 --- @field GamepadFocusIcon LegacyTreeTraitPanelTemplate_SearchBox_GamepadFocusIcon
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L241)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L252)
 --- child of LegacyTreeTraitPanelTemplate
 --- @class LegacyTreeTraitPanelTemplate_SearchPreviewContainer : Frame, SpellSearchPreviewContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L81)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L91)
 --- Template
 --- @class LegacyTreeTraitPanelTemplate : Frame, TalentFrameBaseTemplate, LegacyTreeTraitPanelMixin
 --- @field getTemplateType any # LegacyTreeUtil.GetTemplateForTalentType
 --- @field getEdgeTemplateType any # LegacyTreeUtil.GetEdgeTemplateType
+--- @field getSpecializedMixin any # LegacyTreeUtil.GetSpecializedMixin
 --- @field topPadding number # 54
 --- @field bottomPadding number # 54
 --- @field missingFromActionBarSuggested boolean # false
@@ -150,40 +151,40 @@
 --- @field SearchBox LegacyTreeTraitPanelTemplate_SearchBox
 --- @field SearchPreviewContainer LegacyTreeTraitPanelTemplate_SearchPreviewContainer
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L287)
 --- child of LegacyTreePointSummaryTemplate
 --- @class LegacyTreePointSummaryTemplate_Shield : Button, LegacyPointShield
 --- @field smartNavigationIgnored boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L259)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L270)
 --- child of LegacyTreePointSummaryTemplate
 --- @class LegacyTreePointSummaryTemplate_AvailablePointsLabel : FontString, SystemFont_Shadow_Large
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L266)
 --- Template
 --- @class LegacyTreePointSummaryTemplate : Frame, LegacyTreePointSummaryMixin
 --- @field Shield LegacyTreePointSummaryTemplate_Shield
 --- @field AvailablePointsLabel LegacyTreePointSummaryTemplate_AvailablePointsLabel
 --- @field Border Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L304)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L315)
 --- child of LegacyTreePageTemplate
 --- @class LegacyTreePageTemplate_LegacyTreeSelectionPanel : Frame, LegacyTreeSelectionPanelTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L320)
 --- child of LegacyTreePageTemplate
 --- @class LegacyTreePageTemplate_LegacyTreePointSummary : Frame, LegacyTreePointSummaryTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L325)
 --- child of LegacyTreePageTemplate
 --- @class LegacyTreePageTemplate_LegacyTreeTraitPanel : Frame, LegacyTreeTraitPanelTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L319)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L330)
 --- child of LegacyTreePageTemplate
 --- @class LegacyTreePageTemplate_VerticalDivider : Frame
 --- @field VerticalDivider Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyTree.xml#L303)
 --- Template
 --- @class LegacyTreePageTemplate : Frame, LegacyTreePageMixin
 --- @field LegacyTreeSelectionPanel LegacyTreePageTemplate_LegacyTreeSelectionPanel

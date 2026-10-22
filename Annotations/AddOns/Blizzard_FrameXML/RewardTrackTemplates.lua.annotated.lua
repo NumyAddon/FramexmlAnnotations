@@ -119,20 +119,23 @@ function RenownLevelMixin:TryInit() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L389)
 function RenownLevelMixin:Refresh(actualLevel, displayLevel, selected) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L485)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L489)
 function RenownLevelMixin:SetIcon() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L493)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L497)
 function RenownLevelMixin:SetRewardName() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L498)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L502)
 function RenownLevelMixin:ApplyAlpha(alpha) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L505)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L509)
 function RenownLevelMixin:OnMouseUp() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L511)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L515)
 function RenownLevelMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L517)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L526)
+function RenownLevelMixin:OnLeave() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L533)
 function RenownLevelMixin:RefreshTooltip() end

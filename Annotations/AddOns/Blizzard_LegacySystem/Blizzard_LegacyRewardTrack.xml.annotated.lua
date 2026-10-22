@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L55)
 --- child of LegacyRewardCardTemplate
 --- @class LegacyRewardCardTemplate_Level : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L60)
 --- child of LegacyRewardCardTemplate
 --- @class LegacyRewardCardTemplate_RewardName : FontString, GameFontHighlightMedium
 
@@ -25,6 +25,7 @@
 --- @field earnedRewardNameColor any # WHITE_FONT_COLOR
 --- @field rewardNameColor any # DISABLED_FONT_COLOR
 --- @field RewardCardBG Texture
+--- @field Highlight Texture
 --- @field Icon Texture
 --- @field LevelSquare Texture
 --- @field EarnedCheckmark Texture
@@ -33,11 +34,11 @@
 --- @field RewardName LegacyRewardCardTemplate_RewardName
 --- @field Textures table<number, Texture>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L114)
 --- child of LegacyRewardTrackPageTemplate
 --- @class LegacyRewardTrackPageTemplate_LegacyRewardProgressBar : StatusBar, LegacyProgressBarTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L120)
 --- child of LegacyRewardTrackPageTemplate
 --- @class LegacyRewardTrackPageTemplate_LegacyRewardProgressFrame : Frame, RewardProgressFrameTemplate
 --- @field elementWidth number # 216
@@ -48,15 +49,15 @@
 --- @field scrollCenterChangeSound any # SOUNDKIT.UI_MAJOR_FACTION_RENOWN_SLIDE_START
 --- @field fullAlphaRadius number # 1000
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L94)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L95)
 --- child of LegacyRewardTrackPageTemplate
 --- @class LegacyRewardTrackPageTemplate_Points : FontString, Game32Font_Shadow2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L100)
 --- child of LegacyRewardTrackPageTemplate
 --- @class LegacyRewardTrackPageTemplate_PointsLabel : FontString, SystemFont_Shadow_Large
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L74)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LegacySystem/Blizzard_LegacyRewardTrack.xml#L75)
 --- Template
 --- @class LegacyRewardTrackPageTemplate : Frame, LegacyRewardTrackPageMixin
 --- @field LegacyRewardProgressBar LegacyRewardTrackPageTemplate_LegacyRewardProgressBar

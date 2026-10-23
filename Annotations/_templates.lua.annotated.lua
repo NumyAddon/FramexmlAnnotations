@@ -1919,7 +1919,6 @@
 --- | "ModelSceneControlButtonTemplate"
 --- | "ModelSceneControlFrameTemplate"
 --- | "ModelSceneDropShadowTemplate"
---- | "ModelSceneFrameTemplate"
 --- | "ModelSceneMixinTemplate"
 --- | "ModelTemplate"
 --- | "ModelWithControlsTemplate"

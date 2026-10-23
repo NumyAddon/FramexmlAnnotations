@@ -26,20 +26,20 @@ OpacityFrameCloseButton = {}
 --- @field Border OpacityFrame_Border
 OpacityFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L81)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L85)
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_Border : Frame, DialogBorderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L86)
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_Header : Frame, DialogHeaderTemplate
 --- @field textString any # COLOR_PICKER
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L91)
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_DragBar : Frame, PanelDragBarTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L126)
 --- child of ColorPickerFrame_Content
 --- @class ColorPickerFrame_Content_ColorPicker : ColorSelect
 --- @field Wheel Texture
@@ -49,16 +49,16 @@ OpacityFrame = {}
 --- @field Alpha Texture
 --- @field AlphaThumb Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L169)
 --- child of ColorPickerFrame_Content_HexBox
 --- @class ColorPickerFrame_Content_HexBox_Hash : FontString, GameFontNormalLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L162)
 --- child of ColorPickerFrame_Content
 --- @class ColorPickerFrame_Content_HexBox : EditBox, InputBoxInstructionsTemplate, ColorPickerHexBoxMixin
 --- @field Hash ColorPickerFrame_Content_HexBox_Hash
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L93)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L97)
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_Content : Frame
 --- @field ColorPicker ColorPickerFrame_Content_ColorPicker
@@ -67,30 +67,54 @@ OpacityFrame = {}
 --- @field ColorSwatchCurrent Texture
 --- @field ColorSwatchOriginal Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L187)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L191)
 --- child of ColorPickerFrame_Footer
 --- @class ColorPickerFrame_Footer_CancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L197)
 --- child of ColorPickerFrame_Footer
 --- @class ColorPickerFrame_Footer_OkayButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L181)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L185)
 --- child of ColorPickerFrame
 --- @class ColorPickerFrame_Footer : Frame
 --- @field CancelButton ColorPickerFrame_Footer_CancelButton
 --- @field OkayButton ColorPickerFrame_Footer_OkayButton
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L205)
+--- child of ColorPickerFrame
+--- @class ColorPickerFrame_FrameGlow : Frame, FrameGlowTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L206)
+--- child of ColorPickerFrame
+--- @class ColorPickerFrame_LeftJumpHint : Frame, FrameLeftJumpHintTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L207)
+--- child of ColorPickerFrame
+--- @class ColorPickerFrame_RightJumpHint : Frame, FrameRightJumpHintTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L208)
+--- child of ColorPickerFrame
+--- @class ColorPickerFrame_FocusJumpHint : Frame, FrameFocusJumpHintTemplate
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L75)
---- @class ColorPickerFrame : Frame, ColorPickerFrameMixin
+--- @class ColorPickerFrame : Frame, ColorPickerFrameMixin, FocusFramesInterfaceMixin
+--- @field layoutType string # DialogFrameWithHeaderTemplate
+--- @field smartNavigationIgnored boolean # true
 --- @field Border ColorPickerFrame_Border
 --- @field Header ColorPickerFrame_Header
 --- @field DragBar ColorPickerFrame_DragBar
 --- @field Content ColorPickerFrame_Content
 --- @field Footer ColorPickerFrame_Footer
+--- @field FrameGlow ColorPickerFrame_FrameGlow
+--- @field LeftJumpHint ColorPickerFrame_LeftJumpHint
+--- @field RightJumpHint ColorPickerFrame_RightJumpHint
+--- @field FocusJumpHint ColorPickerFrame_FocusJumpHint
 ColorPickerFrame = {}
+ColorPickerFrame["layoutType"] = "DialogFrameWithHeaderTemplate"
+ColorPickerFrame["smartNavigationIgnored"] = true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L211)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ColorPickerFrame/Mainline/ColorPickerFrame.xml#L219)
 --- @class ColorPickerSoftCursor : Frame, YellowSoftCursorPointerTemplate, SoftCursorMixin
 ColorPickerSoftCursor = {}
 

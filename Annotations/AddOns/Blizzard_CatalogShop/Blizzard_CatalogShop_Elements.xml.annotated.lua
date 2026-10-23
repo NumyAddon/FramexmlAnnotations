@@ -420,38 +420,33 @@
 --- @field BYOBProductContainerFrame CatalogShopProductBYOBContainerFrameTemplate_BYOBProductContainerFrame
 --- @field BYOBPurchaseButton CatalogShopProductBYOBContainerFrameTemplate_BYOBPurchaseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L934)
---- Template
---- @class ModelSceneFrameTemplate : Frame
---- @field dropShadow Texture
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L986)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L977)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_Border : Frame, SecureDialogBorderOpaqueTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L987)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L978)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_AcceptButton : Button, CatalogShopButtonTemplate
 --- @field catalogShopOnClickMethod string # AcceptError
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L996)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L987)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_WebsiteButton : Button, CatalogShopButtonTemplate
 --- @field catalogShopOnClickMethod string # WebsiteError
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L966)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L957)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_Title : FontString, GameFontNormalLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L971)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L962)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_Description : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L977)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L968)
 --- child of CatalogShopErrorFrameTemplate
 --- @class CatalogShopErrorFrameTemplate_WebsiteWarning : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L943)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L934)
 --- Template
 --- @class CatalogShopErrorFrameTemplate : Frame, CatalogShopErrorFrameMixin
 --- @field Border CatalogShopErrorFrameTemplate_Border

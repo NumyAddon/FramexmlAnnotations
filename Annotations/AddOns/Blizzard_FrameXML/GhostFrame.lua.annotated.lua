@@ -1,7 +1,7 @@
 GhostFrameMixin = {} --- @class GhostFrameMixin
 
 function SetGhostFrameShown(shown)
-	GhostFrame:SetShown(shown);
+	GhostFrame:SetShown(shown and CanPortGraveyard());
 end
 
 function GhostFrameMixin:OnLoad()

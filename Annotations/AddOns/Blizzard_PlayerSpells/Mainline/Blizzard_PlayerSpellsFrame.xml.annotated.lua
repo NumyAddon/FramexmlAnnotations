@@ -1,27 +1,27 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/Mainline/Blizzard_PlayerSpellsFrame.xml#L15)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/Mainline/Blizzard_PlayerSpellsFrame.xml#L16)
 --- child of PlayerSpellsFrame
 --- @class PlayerSpellsFrame_MaximizeMinimizeButton : Frame, MaximizeMinimizeButtonFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/Mainline/Blizzard_PlayerSpellsFrame.xml#L20)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/Mainline/Blizzard_PlayerSpellsFrame.xml#L21)
 --- child of PlayerSpellsFrame
 --- @class PlayerSpellsFrame_TabSystem : Frame, TabSystemTemplate
 --- @field minTabWidth number # 100
 --- @field maxTabWidth number # 150
 --- @field tabSelectSound any # SOUNDKIT.UI_CLASS_TALENT_TAB
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/Mainline/Blizzard_PlayerSpellsFrame.xml#L31)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/Mainline/Blizzard_PlayerSpellsFrame.xml#L32)
 --- child of PlayerSpellsFrame
 --- @class PlayerSpellsFrame_SpecFrame : Frame, ClassSpecFrameTemplate
 --- @field fixedWidth number # 1612
 --- @field fixedHeight number # 856
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/Mainline/Blizzard_PlayerSpellsFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/Mainline/Blizzard_PlayerSpellsFrame.xml#L43)
 --- child of PlayerSpellsFrame
 --- @class PlayerSpellsFrame_TalentsFrame : Frame, ClassTalentsFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/Mainline/Blizzard_PlayerSpellsFrame.xml#L49)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/Mainline/Blizzard_PlayerSpellsFrame.xml#L50)
 --- Implicitly protected
 --- child of PlayerSpellsFrame
 --- @class PlayerSpellsFrame_SpellBookFrame : Frame, SpellBookFrameTemplate
@@ -44,6 +44,7 @@ PlayerSpellsFrameBg = {}
 --- @field minimizedWidth string # 809
 --- @field maximizedWidth string # 1618
 --- @field desiredHeight string # 883
+--- @field uiPanelYOffset number # 75
 --- @field MaximizeMinimizeButton PlayerSpellsFrame_MaximizeMinimizeButton
 --- @field MaxMinButtonFrame PlayerSpellsFrame_MaximizeMinimizeButton
 --- @field TabSystem PlayerSpellsFrame_TabSystem
@@ -54,6 +55,7 @@ PlayerSpellsFrame = {}
 PlayerSpellsFrame["minimizedWidth"] = "809"
 PlayerSpellsFrame["maximizedWidth"] = "1618"
 PlayerSpellsFrame["desiredHeight"] = "883"
+PlayerSpellsFrame["uiPanelYOffset"] = 75
 PlayerSpellsFrame["CloseButton"] = PlayerSpellsFrameCloseButton -- inherited
 PlayerSpellsFrame["Bg"] = PlayerSpellsFrameBg -- inherited
 PlayerSpellsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited

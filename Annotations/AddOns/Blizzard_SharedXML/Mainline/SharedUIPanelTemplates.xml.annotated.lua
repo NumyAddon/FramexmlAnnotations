@@ -540,11 +540,11 @@
 --- Template
 --- @class PanelTopTabButtonTemplate : Button, PanelTabButtonTemplate, PanelTopTabButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1011)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1010)
 --- child of MaximizeMinimizeButtonFrameTemplate
 --- @class MaximizeMinimizeButtonFrameTemplate_MaximizeButton : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1023)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L1022)
 --- child of MaximizeMinimizeButtonFrameTemplate
 --- @class MaximizeMinimizeButtonFrameTemplate_MinimizeButton : Button
 

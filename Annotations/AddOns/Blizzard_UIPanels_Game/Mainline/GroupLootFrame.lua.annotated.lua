@@ -1,90 +1,90 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L699)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L722)
  --- @class EncounterJournalLinkButtonMixin
 EncounterJournalLinkButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1058)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1081)
  --- @class GamepadGroupLootRollFrameMixin
 GamepadGroupLootRollFrameMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L701)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L724)
 function EncounterJournalLinkButtonMixin:IsLinkDataAvailable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L713)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L736)
 function EncounterJournalLinkButtonMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L728)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L751)
 function EncounterJournalLinkButtonMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L747)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L770)
 function EncounterJournalLinkButtonMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1097)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1120)
 function GamepadGroupLootRollFrameMixin:DoFullRefresh() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1140)
 function GamepadGroupLootRollFrameMixin:GetSelectedElement() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1158)
 function GamepadGroupLootRollFrameMixin:FocusGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1164)
 function GamepadGroupLootRollFrameMixin:OnSmartNavPanelInfoAdded(panelInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1168)
 function GamepadGroupLootRollFrameMixin:CanSelectRelativeRoll(offset) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1179)
 function GamepadGroupLootRollFrameMixin:SelectRelativeRoll(offset) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1190)
 function GamepadGroupLootRollFrameMixin:InitRegions() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1194)
 function GamepadGroupLootRollFrameMixin:InitScrollBox() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1198)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1221)
 function GamepadGroupLootRollFrameMixin:OnDragStart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1202)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1225)
 function GamepadGroupLootRollFrameMixin:OnDragStop() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1229)
 function GamepadGroupLootRollFrameMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1250)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1273)
 function GamepadGroupLootRollFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1399)
 function GamepadGroupLootRollFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1390)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1413)
 function GamepadGroupLootRollFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1402)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1425)
 function GamepadGroupLootRollFrameMixin:UnfocusGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1414)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1437)
 function GamepadGroupLootRollFrameMixin:InitializeGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1427)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1450)
 function GamepadGroupLootRollFrameMixin:UninitializeGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1437)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1460)
 function GamepadGroupLootRollFrameMixin:RefreshSelectedTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1447)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1470)
 function GamepadGroupLootRollFrameMixin:AddRoll(rollID, rollTime) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1453)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1476)
 function GamepadGroupLootRollFrameMixin:RemoveRoll(rollID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1478)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1501)
 function GamepadGroupLootRollFrameMixin:RemoveAllRolls() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1484)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1507)
 function GamepadGroupLootRollFrameMixin:GetNumWaitingRolls() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1488)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.lua#L1511)
 function GamepadGroupLootRollFrameMixin:RehydrateLootRolls() end

@@ -23,61 +23,58 @@ function PromptedBindingFooterMixin:AddStandardSelectPrompt(optionalLabel) end
 function PromptedBindingFooterMixin:AddNonFallbackSelectPrompt(optionalLabel) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L116)
-function PromptedBindingFooterMixin:AddStandardFrameControlManagerBindings(focusedFrame) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L130)
 function PromptedBindingFooterMixin:AddStandardBackPrompt(optionalLabel) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L142)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L128)
 function PromptedBindingFooterMixin:SetParentFrame(parentFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L154)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L140)
 function PromptedBindingFooterMixin:SetAnchorOffsets(xOffset, yOffset) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L146)
 function PromptedBindingFooterMixin:SetAlignmentType(alignmentType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L151)
 function PromptedBindingFooterMixin:SetOverflowType(overflowType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L157)
 function PromptedBindingFooterMixin:SetCustomAnchor(anchor) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L162)
 function PromptedBindingFooterMixin:Finalize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L182)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L168)
 function PromptedBindingFooterMixin:UseWideBackground() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L175)
 function PromptedBindingFooterMixin:RefreshCustomFrameVisibility() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L202)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L188)
 function PromptedBindingFooterMixin:GeneratePromptedBindingsByKey() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L224)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L210)
 function PromptedBindingFooterMixin:IsBindingGroupRequired() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L222)
 function PromptedBindingFooterMixin:GetPromptedBindingToDisplayForKey(key) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L259)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L245)
 function PromptedBindingFooterMixin:ApplyInputLegendAttachment() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L267)
 function PromptedBindingFooterMixin:RefreshPromptedBindingsActive() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L278)
 function PromptedBindingFooterMixin:RefreshInputLegend() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L318)
 function PromptedBindingFooterMixin:RefreshBindingGroup() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L373)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L359)
 function PromptedBindingFooterMixin:Refresh() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L380)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L366)
 function PromptedBindingFooterMixin:ShowAndActivateBindings() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L390)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/PromptedBindings/PromptedBindingFooter.lua#L376)
 function PromptedBindingFooterMixin:HideAndDeactivateBindings() end

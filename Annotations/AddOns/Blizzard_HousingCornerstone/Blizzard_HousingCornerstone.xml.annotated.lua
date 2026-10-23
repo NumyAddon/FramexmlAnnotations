@@ -9,7 +9,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L32)
 --- child of HousingCornerstoneFrame
---- @class HousingCornerstoneFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
+--- @class HousingCornerstoneFrameCloseButton : Button, UIPanelCloseButton
 HousingCornerstoneFrameCloseButton = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L41)
@@ -69,7 +69,7 @@ HousingCornerstoneFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inher
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L183)
 --- child of HousingCornerstonePurchaseFrame
---- @class HousingCornerstonePurchaseFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
+--- @class HousingCornerstonePurchaseFrameCloseButton : Button, UIPanelCloseButton
 HousingCornerstonePurchaseFrameCloseButton = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L109)
@@ -218,7 +218,7 @@ HousingCornerstonePurchaseFrame["MoneyFrame"] = HousingCornerstonePurchaseFrameM
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L314)
 --- child of HousingCornerstoneVisitorTemplate
---- @class HousingCornerstoneVisitorTemplate_CloseButton : Button, UIPanelCloseButtonDefaultAnchors
+--- @class HousingCornerstoneVisitorTemplate_CloseButton : Button, UIPanelCloseButton
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L319)
 --- child of HousingCornerstoneVisitorTemplate

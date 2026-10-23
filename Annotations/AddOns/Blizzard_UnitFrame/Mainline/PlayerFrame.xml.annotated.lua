@@ -185,37 +185,37 @@ PlayerLevelText = {}
 --- @field LevelBackgroundCircle PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_LevelBackgroundCircle
 --- @field PvpBackgroundIcon PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_PvpBackgroundIcon
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L380)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L381)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_ReadyCheck : Frame, ReadyCheckStatusTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L405)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L406)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerRestLoop
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerRestLoop_PlayerRestLoopAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L389)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L390)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerRestLoop : Frame
 --- @field RestTexture Texture
 --- @field PlayerRestLoopAnim PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerRestLoop_PlayerRestLoopAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L410)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L411)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerPlayTime : Frame
 --- @field PlayTimeIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L453)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L454)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator
 --- @class PlayerFrameGroupIndicatorText : FontString, GameFontHighlightSmall
 PlayerFrameGroupIndicatorText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L430)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L431)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator : Frame
 --- @field GroupIndicatorLeft Texture
 --- @field GroupIndicatorRight Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L372)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L373)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 --- @class PlayerPVPTimerText : FontString, GameFontNormalSmall
 PlayerPVPTimerText = {}
@@ -230,10 +230,10 @@ PlayerPVPTimerText = {}
 --- @field LeaderIcon Texture
 --- @field GuideIcon Texture
 --- @field RoleIcon Texture
---- @field AttackIcon Texture
 --- @field PlayerPortraitCornerIcon Texture
 --- @field PVPIcon Texture
 --- @field PrestigePortrait Texture
+--- @field AttackIcon Texture
 --- @field PrestigeBadge Texture
 --- @field PvpTimerText PlayerPVPTimerText
 
@@ -258,7 +258,7 @@ PlayerFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Player -- inher
 PlayerFrame["systemNameString"] = HUD_EDIT_MODE_PLAYER_FRAME_LABEL -- inherited
 PlayerFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L476)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L477)
 --- @class PlayerBottomManagedFrameContainer : Frame, PlayerManagedContainerTemplate, PlayerBottomManagedFrameContainerMixin
 --- @field fixedWidth number # 160
 PlayerBottomManagedFrameContainer = {}

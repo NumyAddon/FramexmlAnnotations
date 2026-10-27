@@ -206,7 +206,6 @@
 --- @field InventorySlots table<number, ProfessionsCraftingPageTemplate_Prof0ToolSlot | ProfessionsCraftingPageTemplate_Prof0Gear0Slot | ProfessionsCraftingPageTemplate_Prof0Gear1Slot | ProfessionsCraftingPageTemplate_Prof1ToolSlot | ProfessionsCraftingPageTemplate_Prof1Gear0Slot | ProfessionsCraftingPageTemplate_Prof1Gear1Slot | ProfessionsCraftingPageTemplate_CookingToolSlot | ProfessionsCraftingPageTemplate_CookingGear0Slot | ProfessionsCraftingPageTemplate_FishingToolSlot>
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafting.xml#L397)
---- Implicitly protected
 --- Template
 --- @class ProfessionsBookPageTemplate : Frame, ProfessionsBookFrameTemplate, ProfessionsBookPageFrameMixin
 

@@ -911,6 +911,7 @@
 --- | "DressUpCustomSetSlotFrameTemplate"
 --- | "DressUpFrameTransmogSetButtonTemplate"
 --- | "DressUpFrameTransmogSetTemplate"
+--- | "DropdownLoadSystemTemplate"
 --- | "DropdownWithSteppersAndLabelLargeTemplate"
 --- | "DropdownWithSteppersAndLabelTemplate"
 --- | "DropdownWithSteppersLargeTemplate"

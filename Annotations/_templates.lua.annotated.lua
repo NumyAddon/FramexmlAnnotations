@@ -892,6 +892,7 @@
 --- | "DressUpCustomSetSlotFrameTemplate"
 --- | "DressUpFrameTransmogSetButtonTemplate"
 --- | "DressUpFrameTransmogSetTemplate"
+--- | "DropdownLoadSystemTemplate"
 --- | "DropdownWithSteppersAndLabelTemplate"
 --- | "DropdownWithSteppersTemplate"
 --- | "DruidComboPointBarTemplate"

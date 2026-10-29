@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Shared/ItemButtonTemplate.xml#L21)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Shared/ItemButtonTemplate.xml#L23)
 --- child of ItemButton
 --- @class ItemButton_Count : FontString, NumberFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Shared/ItemButtonTemplate.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Shared/ItemButtonTemplate.xml#L28)
 --- child of ItemButton
 --- @class ItemButton_Stock : FontString, NumberFontNormalYellow
 
@@ -12,6 +12,7 @@
 --- Intrinsic
 --- @class ItemButton : Button, ItemButtonMixin
 --- @field showMatchHighlight boolean # true
+--- @field Mask MaskTexture
 --- @field icon Texture
 --- @field Count ItemButton_Count
 --- @field Stock ItemButton_Stock

@@ -749,26 +749,26 @@ LFGListEntryCreationPlayStyleDropdown = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1844)
 --- child of LFGListFrame_EntryCreation
---- @class LFGListFrame_EntryCreation_VoiceChat : Frame, LFGListRequirementTemplate
---- @field maxLetters number # 31
---- @field secureReferenceStr string # LFGListCreationVoiceChat
---- @field hideLockButton boolean # true
---- @field label any # LFG_LIST_VOICE_CHAT
---- @field instructions any # LFG_LIST_VOICE_CHAT_INSTR
---- @field tabCategory string # ENTRY_CREATION
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1859)
---- child of LFGListFrame_EntryCreation
 --- @class LFGListFrame_EntryCreation_CrossFactionGroup : Frame, LFGListOptionCheckButtonTemplate
 --- @field label any # LFG_LIST_CROSS_FACTION
 --- @field tooltip any # LFG_LIST_CROSS_FACTION_TOOLTIP
 --- @field disableTooltip any # LFG_LIST_CROSS_FACTION_DISABLE_TOOLTIP
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1869)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1854)
 --- child of LFGListFrame_EntryCreation
 --- @class LFGListFrame_EntryCreation_PrivateGroup : Frame, LFGListOptionCheckButtonTemplate
 --- @field label any # LFG_LIST_PRIVATE
 --- @field tooltip any # LFG_LIST_PRIVATE_TOOLTIP
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1871)
+--- child of LFGListFrame_EntryCreation_VoiceChat
+--- @class LFGListFrame_EntryCreation_VoiceChat_Dropdown : DropdownButton, WowStyle1DropdownTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1863)
+--- child of LFGListFrame_EntryCreation
+--- @class LFGListFrame_EntryCreation_VoiceChat : Frame, LFGListOptionCheckButtonTemplate
+--- @field label any # LFG_LIST_VOICE_CHAT
+--- @field Dropdown LFGListFrame_EntryCreation_VoiceChat_Dropdown
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1895)
 --- child of LFGListFrame_EntryCreation_ListGroupButton
@@ -814,9 +814,9 @@ LFGListEntryCreationPlayStyleDropdown = {}
 --- @field PvpItemLevel LFGListFrame_EntryCreation_PvpItemLevel
 --- @field PVPRating LFGListFrame_EntryCreation_PVPRating
 --- @field MythicPlusRating LFGListFrame_EntryCreation_MythicPlusRating
---- @field VoiceChat LFGListFrame_EntryCreation_VoiceChat
 --- @field CrossFactionGroup LFGListFrame_EntryCreation_CrossFactionGroup
 --- @field PrivateGroup LFGListFrame_EntryCreation_PrivateGroup
+--- @field VoiceChat LFGListFrame_EntryCreation_VoiceChat
 --- @field ListGroupButton LFGListFrame_EntryCreation_ListGroupButton
 --- @field LeaverBadge LFGListFrame_EntryCreation_LeaverBadge
 --- @field CancelButton LFGListFrame_EntryCreation_CancelButton

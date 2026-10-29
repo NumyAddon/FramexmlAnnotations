@@ -49,17 +49,20 @@ function ChannelRosterMixin:RestorePreviousSelectionData(previousSelectionData) 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L139)
 function ChannelRosterMixin:Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L162)
+function ChannelRosterMixin:ClearRoster() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L174)
 function ChannelRosterMixin:ResetScrollPosition() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L163)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L178)
 function ChannelRosterMixin:GetChannelCountText(count, category) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L186)
 function ChannelRosterMixin:GetChannelNameText(count, channel) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L190)
 function ChannelRosterMixin:UpdateFromOpaqueChannel(opaqueChannel, getChannelInfoFn, updateChannelRosterEntryFn) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/Mainline/ChannelRoster.lua#L204)
 function ChannelRosterMixin:InitializeScrollBox() end

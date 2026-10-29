@@ -4,11 +4,11 @@
  --- @class ClassTrainerFrameMixin
 ClassTrainerFrameMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L850)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L847)
  --- @class ClassTrainerCategoryButtonMixin
 ClassTrainerCategoryButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L857)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L854)
  --- @class ClassTrainerSkillButtonMixin
 ClassTrainerSkillButtonMixin = {}
 
@@ -30,11 +30,11 @@ function ClassTrainerFrameMixin:UnfocusGamepad() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L134)
 function ClassTrainerFrameMixin:RegisterForTransitions() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L852)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L849)
 function ClassTrainerCategoryButtonMixin:OnSmartNavSelect() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L859)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L856)
 function ClassTrainerSkillButtonMixin:UpdateNameWidth() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L862)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Mainline/Blizzard_TrainerUI.lua#L859)
 function ClassTrainerSkillButtonMixin:OnSmartNavSelect() end

@@ -137,4 +137,5 @@
 --- @class TalentButtonDelveChallengeCircleTemplate : Button, TalentButtonArtTemplate
 --- @field artSet any # TalentButtonArtMixin.ArtSet.DelveChallengeCircle
 --- @field sizingAdjustment any # TalentButtonUtil.SizingAdjustment.DelveChallengeCircle
+--- @field hideSelectableIcon boolean # true
 

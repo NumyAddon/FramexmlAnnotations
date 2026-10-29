@@ -32,7 +32,7 @@ InspectFrameCloseButton = {}
 InspectFrameBg = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Mainline/Blizzard_InspectUI.xml#L3)
---- @class InspectFrame : Frame, ButtonFrameTemplate
+--- @class InspectFrame : Frame, ButtonFrameTemplate, InspectFrameMixin
 --- @field Tabs table<number, InspectFrameTab1 | InspectFrameTab2 | InspectFrameTab3>
 InspectFrame = {}
 InspectFrame["Inset"] = InspectFrameInset -- inherited

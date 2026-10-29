@@ -50,7 +50,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L103)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_SearchBox : EditBox, SpellBookSearchBoxTemplate
---- @field instructionText any # SPELLBOOK_SEARCH_INSTRUCTIONS
+--- @field instructionText any # COOLDOWN_VIEWER_SETTINGS_SEARCH_INSTRUCTIONS
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L109)
 --- child of SpellBookFrameTemplate

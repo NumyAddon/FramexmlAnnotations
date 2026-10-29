@@ -7,11 +7,11 @@
 --- @field maxTotalLines number # 4
 --- @field messageTypes any # RaidWarningUtil.MessageTypes.BossEmote
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L54)
 --- child of CinematicFrameCloseDialog
 --- @class CinematicFrameCloseDialog_Border : Frame, DialogBorderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L55)
 --- child of CinematicFrameCloseDialog
 --- @class CinematicFrameCloseDialogConfirmButton : Button, CinematicDialogButtonTemplate
 CinematicFrameCloseDialogConfirmButton = {}
@@ -19,7 +19,7 @@ CinematicFrameCloseDialogConfirmButton["fitTextCanWidthDecrease"] = false -- inh
 CinematicFrameCloseDialogConfirmButton["fitTextWidthPadding"] = 30 -- inherited
 CinematicFrameCloseDialogConfirmButton["atlasName"] = "128-RedButton" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L62)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L65)
 --- child of CinematicFrameCloseDialog
 --- @class CinematicFrameCloseDialogResumeButton : Button, CinematicDialogButtonTemplate
 CinematicFrameCloseDialogResumeButton = {}
@@ -27,16 +27,18 @@ CinematicFrameCloseDialogResumeButton["fitTextCanWidthDecrease"] = false -- inhe
 CinematicFrameCloseDialogResumeButton["fitTextWidthPadding"] = 30 -- inherited
 CinematicFrameCloseDialogResumeButton["atlasName"] = "128-RedButton" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L45)
 --- child of CinematicFrameCloseDialog
 --- @class CinematicFrameCloseDialogText : FontString, GameFontHighlight
 CinematicFrameCloseDialogText = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L35)
 --- child of CinematicFrame
---- @class CinematicFrameCloseDialog : Frame
+--- @class CinematicFrameCloseDialog : Frame, CinematicFrameCloseDialogMixin
+--- @field useCustomNavigation boolean # true
 --- @field Border CinematicFrameCloseDialog_Border
 CinematicFrameCloseDialog = {}
+CinematicFrameCloseDialog["useCustomNavigation"] = true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Shared/CinematicFrame.xml#L6)
 --- child of CinematicFrame

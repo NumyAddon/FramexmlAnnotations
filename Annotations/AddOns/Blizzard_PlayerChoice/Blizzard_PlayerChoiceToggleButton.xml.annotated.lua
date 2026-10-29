@@ -61,11 +61,11 @@ TaleboundPlayerChoiceToggleButton["fitTextCanWidthDecrease"] = false -- inherite
 TaleboundPlayerChoiceToggleButton["fitTextWidthPadding"] = 30 -- inherited
 TaleboundPlayerChoiceToggleButton["atlasName"] = "128-RedButton" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.xml#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.xml#L139)
 --- child of GenericPlayerChoiceToggleButton
 --- @class GenericPlayerChoiceToggleButton_HighlightAnimation : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.xml#L111)
 --- @class GenericPlayerChoiceToggleButton : Button, PlayerChoiceToggleButtonTemplate, GenericPlayerChoiceToggleButtonMixin
 --- @field hidePowersSound any # SOUNDKIT.UI_PLAYER_CHOICE_GENERIC_HIDE_POWERS
 --- @field showPowersSound any # SOUNDKIT.UI_PLAYER_CHOICE_GENERIC_SHOW_POWERS

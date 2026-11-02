@@ -10,20 +10,20 @@
 --- @field buttonShape string # square
 --- @field SquareMask MaskTexture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L34)
 --- child of GamepadBagSlotButtonTemplate
 --- @class GamepadBagSlotButtonTemplate_BagDropdownButton : DropdownButton
 --- @field smartNavigationIgnored boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L24)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L25)
 --- Template
---- @class GamepadBagSlotButtonTemplate : ItemButton
+--- @class GamepadBagSlotButtonTemplate : ItemButton, GamepadBagSlotMixin
 --- @field buttonContext string # ButtonContext_OpenBagDropdownSettings
 --- @field normalAndPushedTextureWidth number # 37
 --- @field normalAndPushedTextureHeight number # 37
 --- @field BagDropdownButton GamepadBagSlotButtonTemplate_BagDropdownButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L77)
 --- child of BagsBar
 --- @class MainMenuBarBackpackButton : ItemButton, MainMenuBarBackpackButtonBase
 --- @field bagIcon string # Interface\Icons\ui-hud-actionbar-bag
@@ -84,12 +84,12 @@ CharacterReagentBag0Slot["buttonShape"] = "square" -- inherited
 CharacterReagentBag0Slot["showMatchHighlight"] = false -- inherited
 CharacterReagentBag0Slot["quickKeybindHighlightAtlas"] = "QuickKeybind-Bag-Iconframe-Glow" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L76)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L83)
 --- child of BagsBar
 --- @class BagSlotCluster : Frame, BagSlotClusterTemplate
 BagSlotCluster = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L84)
 --- child of BagsBar
 --- @class KeyRingButton : ItemButton, ShapedBagSlotButtonTemplate, KeyRingMixin
 --- @field normalAndPushedTextureWidth number # 33
@@ -99,12 +99,12 @@ KeyRingButton["buttonShape"] = "square" -- inherited
 KeyRingButton["showMatchHighlight"] = false -- inherited
 KeyRingButton["quickKeybindHighlightAtlas"] = "QuickKeybind-Bag-Iconframe-Glow" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L65)
 --- child of BagsBar
 --- @class BagsBar_BorderArt : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L51)
 --- @class BagsBar : Frame, EditModeBagsSystemTemplate, BagsBarMixin
 --- @field isHorizontal boolean # true
 --- @field direction any # Enum.BagsDirection.Left
@@ -121,7 +121,7 @@ BagsBar["hideExpandToggle"] = true
 BagsBar["system"] = Enum.EditModeSystem.Bags -- inherited
 BagsBar["systemNameString"] = HUD_EDIT_MODE_BAGS_LABEL -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L102)
 --- child of GamepadBagBar
 --- @class GamepadBackpackButton : ItemButton, MainMenuBarBackpackButtonBase, GamepadBagSlotButtonTemplate, GamepadBackpackButtonMixin
 --- @field bagIcon string # Interface\Icons\ui-hud-actionbar-bag
@@ -135,38 +135,38 @@ GamepadBackpackButton["buttonContext"] = "ButtonContext_OpenBagDropdownSettings"
 GamepadBackpackButton["normalAndPushedTextureWidth"] = 37 -- inherited
 GamepadBackpackButton["normalAndPushedTextureHeight"] = 37 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L107)
 --- child of GamepadBagBar
 --- @class GamepadBagBar_Bag0SlotButton : ItemButton, ShapedBagSlotButtonTemplate, GamepadBagSlotButtonTemplate, GamepadBagSlotButtonMixin
 --- @field slotName string # BAG0SLOT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L112)
 --- child of GamepadBagBar
 --- @class GamepadBagBar_Bag1SlotButton : ItemButton, ShapedBagSlotButtonTemplate, GamepadBagSlotButtonTemplate, GamepadBagSlotButtonMixin
 --- @field slotName string # BAG1SLOT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L117)
 --- child of GamepadBagBar
 --- @class GamepadBagBar_Bag2SlotButton : ItemButton, ShapedBagSlotButtonTemplate, GamepadBagSlotButtonTemplate, GamepadBagSlotButtonMixin
 --- @field slotName string # BAG2SLOT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L122)
 --- child of GamepadBagBar
 --- @class GamepadBagBar_Bag3SlotButton : ItemButton, ShapedBagSlotButtonTemplate, GamepadBagSlotButtonTemplate, GamepadBagSlotButtonMixin
 --- @field slotName string # BAG3SLOT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L127)
 --- child of GamepadBagBar
 --- @class GamepadBagBar_ReagentBag0SlotButton : ItemButton, ShapedBagSlotButtonTemplate, GamepadBagSlotButtonTemplate, GamepadCharacterReagentBagMixin
 --- @field slotName string # REAGENTBAG0SLOT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L132)
 --- child of GamepadBagBar
 --- @class GamepadBagBar_KeyRingButton : ItemButton, ShapedBagSlotButtonTemplate, GamepadBagSlotButtonTemplate, GamepadKeyRingMixin
 --- @field slotName string # KEYRING
 --- @field bagIcon string # Interface/ICONS/ui-hud-actionbar-keyring
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Camelot/MainMenuBarBagButtons.xml#L99)
 --- @class GamepadBagBar : Frame, GamepadBagBarMixin
 --- @field BackpackButton GamepadBackpackButton
 --- @field Bag0SlotButton GamepadBagBar_Bag0SlotButton

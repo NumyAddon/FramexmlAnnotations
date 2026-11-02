@@ -15,11 +15,11 @@ function PVPMatchScoreboardMixin:OnLoad()
 	self.ScrollCategories = self.Content.ScrollCategories;
 	self.TabContainer = self.Content.TabContainer;
 	self.TabGroup = self.TabContainer.TabGroup;
-	self.MatchmakingText = self.TabContainer.MatchmakingText;
 	self.Tab1 = self.TabGroup.Tab1;
 	self.Tab2 = self.TabGroup.Tab2;
 	self.Tab3 = self.TabGroup.Tab3;
-	self.tintFrames = { self.Content.ScrollBox.Background };
+
+	self.ScrollBox:SetEdgeFadeLength(45);
 
 	self.Tab1:SetText(ALL);
 	self.Tabs = {self.Tab1, self.Tab2, self.Tab3};
@@ -28,8 +28,6 @@ function PVPMatchScoreboardMixin:OnLoad()
 		tab:SetScript("OnClick", function() self:OnTabGroupClicked(tab) end);
 	end
 	PanelTemplates_SetTab(self, 1);
-
-	UIPanelCloseButton_SetBorderAtlas(self.CloseButton, "UI-Frame-GenericMetal-ExitButtonBorder", -1, 1);
 
 	self.tableBuilder = CreateTableBuilder();
 	self.tableBuilder:SetHeaderContainer(self.ScrollCategories);
@@ -45,14 +43,19 @@ function PVPMatchScoreboardMixin:Init()
 
 	FrameUtil.RegisterFrameForEvents(self, ACTIVE_EVENTS);
 
-	local isFactionalMatch = C_PvP.IsMatchFactional();
-	self.TabGroup:SetShown(isFactionalMatch);
+	self:UpdateMapName();
 	self:UpdateTabs();
 	
-	local factionIndex = GetBattlefieldArenaFaction();
-	self:SetupArtwork(factionIndex, isFactionalMatch);
-	
+	local isFactionalMatch = C_PvP.IsMatchFactional();
 	ConstructPVPMatchTable(self.tableBuilder, not isFactionalMatch);
+end
+
+function PVPMatchScoreboardMixin:UpdateMapName()
+	local mapName = GetRealZoneText();
+	if not mapName or mapName == "" then
+		mapName = GetZoneText();
+	end
+	self.HeaderContainer.Text:SetText(mapName or "");
 end
 
 function PVPMatchScoreboardMixin:UpdateTabs()
@@ -64,8 +67,6 @@ function PVPMatchScoreboardMixin:UpdateTabs()
 		self.Tab2:SetText(PVP_TAB_FILTER_COUNTED:format(FACTION_ALLIANCE, teamInfos[2].size));
 		self.Tab3:SetText(PVP_TAB_FILTER_COUNTED:format(FACTION_HORDE, teamInfos[1].size));
 	end
-
-	PVPMatchUtil.UpdateMatchmakingText(self.MatchmakingText);
 end
 
 function PVPMatchScoreboardMixin:ShutdownPrivate()
@@ -88,22 +89,6 @@ function PVPMatchScoreboardMixin:OnUpdate()
 	RequestBattlefieldScoreData();
 end
 
-function PVPMatchScoreboardMixin:SetupArtwork(factionIndex, isFactionalMatch)
-	local useAlternateColor = not isFactionalMatch;
-	local r, g, b = PVPMatchStyle.GetTeamColor(factionIndex, useAlternateColor):GetRGB();
-	self.ScrollBox.Background:SetVertexColor(r, g, b);
-
-	local theme;
-	if isFactionalMatch then
-		theme = PVPMatchStyle.GetFactionPanelThemeByIndex(factionIndex);
-	else
-		theme = PVPMatchStyle.GetNeutralPanelTheme();
-	end
-
-	NineSliceUtil.ApplyLayoutByName(self, theme.nineSliceLayout);
-end
-
-
 function PVPMatchScoreboardMixin:UpdateTable()
 	PVPMatchUtil.UpdateDataProvider(self.ScrollBox);
 
@@ -112,6 +97,7 @@ end
 
 function PVPMatchScoreboardMixin:OnShow()
 	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB);
+	self:UpdateMapName();
 end
 
 function PVPMatchScoreboardMixin:OnHide()

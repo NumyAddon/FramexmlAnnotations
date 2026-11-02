@@ -5,14 +5,16 @@
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_SpellButton1 : CheckButton, ProfessionButtonTemplate
 --- @field doNotCloseParentUI boolean # true
+--- @field IconBorder Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L49)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L54)
 --- Explicitly protected
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_SpellButton2 : CheckButton, ProfessionButtonTemplate
 --- @field doNotCloseParentUI boolean # true
+--- @field IconBorder Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L67)
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_StatusBar : Frame, ProfessionsRankBarTemplate
 --- @field overrideBorderAtlas string # Profession-ProgressBar-frame
@@ -22,14 +24,14 @@
 --- @field overrideMaskRightOffset number # -7
 --- @field ownerManagesEvents boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L80)
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_UnlearnButton : Button, ProfessionsUnlearnButtonMixin
 --- @field smartNavigationIgnored boolean # true
 --- @field Icon Texture
 --- @field Overlay Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L111)
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_GamepadUnlearnButton : Frame, InputIconTextureFrameTemplate
 --- @field mappedButtonKey any # GAMEPAD_FACE_LEFT
@@ -68,31 +70,35 @@
 --- @field missingText PrimaryProfessionTemplate_missingText
 --- @field spellButtons table<number, PrimaryProfessionTemplate_SpellButton1 | PrimaryProfessionTemplate_SpellButton2>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L142)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L152)
 --- Explicitly protected
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_SpellButton1 : CheckButton, ProfessionButtonTemplate
 --- @field doNotCloseParentUI boolean # true
+--- @field IconBorder Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L165)
 --- Explicitly protected
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_SpellButton2 : CheckButton, ProfessionButtonTemplate
 --- @field doNotCloseParentUI boolean # true
+--- @field IconBorder Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L178)
 --- Explicitly protected
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_SpellButton3 : CheckButton, ProfessionButtonTemplate
 --- @field doNotCloseParentUI boolean # true
+--- @field IconBorder Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L191)
 --- Explicitly protected
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_SpellButton4 : CheckButton, ProfessionButtonTemplate
 --- @field doNotCloseParentUI boolean # true
+--- @field IconBorder Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L205)
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_StatusBar : Frame, ProfessionsRankBarTemplate
 --- @field overrideBorderAtlas string # Profession-ProgressBar-frame
@@ -102,19 +108,19 @@
 --- @field overrideMaskRightOffset number # -5
 --- @field ownerManagesEvents boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L131)
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_ProfessionName : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L137)
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_Missing : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L143)
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_missingText : FontString, GameFontHighlightSmall2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L114)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L124)
 --- Implicitly protected
 --- Template
 --- @class SecondaryProfessionTemplate : Frame
@@ -129,32 +135,32 @@
 --- @field missingText SecondaryProfessionTemplate_missingText
 --- @field spellButtons table<number, SecondaryProfessionTemplate_SpellButton1 | SecondaryProfessionTemplate_SpellButton2 | SecondaryProfessionTemplate_SpellButton3 | SecondaryProfessionTemplate_SpellButton4>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L199)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L229)
 --- Implicitly protected
 --- child of ProfessionsBookFrameTemplate_ProfessionsContentFrame
 --- @class ProfessionsBookFrameTemplate_ProfessionsContentFrame_PrimaryProfession1 : Frame, PrimaryProfessionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L204)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L234)
 --- Implicitly protected
 --- child of ProfessionsBookFrameTemplate_ProfessionsContentFrame
 --- @class ProfessionsBookFrameTemplate_ProfessionsContentFrame_PrimaryProfession2 : Frame, PrimaryProfessionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L244)
 --- Implicitly protected
 --- child of ProfessionsBookFrameTemplate_ProfessionsContentFrame
 --- @class ProfessionsBookFrameTemplate_ProfessionsContentFrame_SecondaryProfession1 : Frame, SecondaryProfessionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L256)
 --- Implicitly protected
 --- child of ProfessionsBookFrameTemplate_ProfessionsContentFrame
 --- @class ProfessionsBookFrameTemplate_ProfessionsContentFrame_SecondaryProfession2 : Frame, SecondaryProfessionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L238)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L268)
 --- Implicitly protected
 --- child of ProfessionsBookFrameTemplate_ProfessionsContentFrame
 --- @class ProfessionsBookFrameTemplate_ProfessionsContentFrame_SecondaryProfession3 : Frame, SecondaryProfessionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L223)
 --- Implicitly protected
 --- child of ProfessionsBookFrameTemplate
 --- @class ProfessionsBookFrameTemplate_ProfessionsContentFrame : Frame
@@ -164,7 +170,7 @@
 --- @field SecondaryProfession2 ProfessionsBookFrameTemplate_ProfessionsContentFrame_SecondaryProfession2 # Implicitly protected
 --- @field SecondaryProfession3 ProfessionsBookFrameTemplate_ProfessionsContentFrame_SecondaryProfession3 # Implicitly protected
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L191)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsBook/Camelot/Blizzard_ProfessionsBookTemplates.xml#L221)
 --- Implicitly protected
 --- Template
 --- @class ProfessionsBookFrameTemplate : Frame

@@ -176,7 +176,7 @@ function GamepadActionBarEditFrameMixin:UpdateSelectedMoveDisplay_Macro(selected
 function GamepadActionBarEditFrameMixin:SetDisplayedActionPickupInfo(actionPickupFunc, ...) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarEditFrame.lua#L938)
-function GamepadActionBarEditFrameMixin:UnFocusGamepad() end
+function GamepadActionBarEditFrameMixin:UnfocusGamepad() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadActionBars/ActionBarEditFrame.lua#L942)
 function GamepadActionBarEditFrameMixin:TryClearHeldAction() end

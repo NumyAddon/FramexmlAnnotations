@@ -41,23 +41,23 @@ function GamepadReticleSwingTimerMixin:OnEnableCVarChanged(newValue) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L84)
 function GamepadReticleSwingTimerMixin:RefreshEnabled() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L102)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L104)
 function GamepadReticleSwingTimerMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L136)
 function GamepadReticleSwingTimerMixin:RefreshOffHand() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L172)
 function GamepadReticleSwingTimerMixin:PlaySwingAnim(animGroup, duration) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L181)
 function GamepadReticleSwingTimerMixin:IsAnyVisibleAnimationPlaying() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L183)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L189)
 function GamepadReticleSwingTimerMixin:OnAnimEnded(animGroup) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L194)
 function GamepadReticleSwingTimerMixin:RefreshVisibility() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L197)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Gamepad/UI/Reticle/GamepadReticle.lua#L203)
 function GamepadReticleSwingTimerMixin:SetVisibility(visible) end

@@ -28,38 +28,38 @@ function GamepadTargetLogicMixin:UpdateCameraZoom(elapsed) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L86)
 function GamepadTargetLogicMixin:OnAbilityUsed(unit, _, _, spellId) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L99)
 function GamepadTargetLogicMixin:UpdateSoftTargetInteract() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L107)
 function GamepadTargetLogicMixin:OnTargetChanged(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L112)
 function GamepadTargetLogicMixin:OnCombatEnter(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L114)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L116)
 function GamepadTargetLogicMixin:OnCombatExit(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L120)
 function GamepadTargetLogicMixin:RegisterEventsForGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L127)
 function GamepadTargetLogicMixin:UnregisterEventsForGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L134)
 function GamepadTargetLogicMixin:BeginTargeting(filter) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L148)
 function GamepadTargetLogicMixin:EndTargeting() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L170)
 function GamepadTargetLogicMixin:OnTargetModifierChanged(_, active) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L182)
 function GamepadTargetLogicMixin:OnTargetModifierCancelled(_, previous) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L185)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L187)
 function GamepadTargetLogicMixin:OnInputModifierStateChanged(_, modifierDown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L200)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GamepadTargeting/TargetLogic.lua#L202)
 function GamepadTargetLogicMixin:Init() end

@@ -5,7 +5,7 @@
 --- @class MainMenuBarEndCaps_LeftEndCap : Frame, EditModeMainActionBarEndCapLeftSystemTemplate, MainMenuBarEndCapMixin
 --- @field Texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ActionBar/Camelot/MainMenuBarEndCaps.xml#L19)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ActionBar/Camelot/MainMenuBarEndCaps.xml#L20)
 --- child of MainMenuBarEndCaps
 --- @class MainMenuBarEndCaps_RightEndCap : Frame, EditModeMainActionBarEndCapRightSystemTemplate, MainMenuBarEndCapMixin
 --- @field Texture Texture

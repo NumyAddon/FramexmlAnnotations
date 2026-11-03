@@ -81,7 +81,7 @@
 --- @field NameSoloOffsetY number # 0
 --- @field NameGroupOffsetX number # 0
 --- @field NameGroupOffsetY number # 0
---- @field NameMaxWidth number # 228
+--- @field NameMaxWidth number # 200
 --- @field DataDisplay LFGBrowseSearchEntryBaseTemplate_DataDisplay
 --- @field PartyIcon Texture
 --- @field Name LFGBrowseSearchEntryBaseTemplate_Name

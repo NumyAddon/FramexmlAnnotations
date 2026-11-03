@@ -1,27 +1,27 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.xml#L18)
 --- child of PlayerSpellsFrame
 --- @class PlayerSpellsFrame_MaximizeMinimizeButton : Frame, MaximizeMinimizeButtonFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.xml#L23)
 --- child of PlayerSpellsFrame
 --- @class PlayerSpellsFrame_TabSystem : Frame, TabSystemTemplate
 --- @field minTabWidth number # 100
 --- @field maxTabWidth number # 150
 --- @field tabSelectSound any # SOUNDKIT.UI_CLASS_TALENT_TAB
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.xml#L34)
 --- child of PlayerSpellsFrame
 --- @class PlayerSpellsFrame_SpecFrame : Frame, ClassSpecFrameTemplate
 --- @field fixedWidth number # 1612
 --- @field fixedHeight number # 856
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.xml#L45)
 --- child of PlayerSpellsFrame
 --- @class PlayerSpellsFrame_TalentsFrame : Frame, ClassTalentsFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PlayerSpells/Camelot/Blizzard_PlayerSpellsFrame.xml#L52)
 --- Implicitly protected
 --- child of PlayerSpellsFrame
 --- @class PlayerSpellsFrame_SpellBookFrame : Frame, SpellBookFrameTemplate
@@ -46,6 +46,7 @@ PlayerSpellsFrameBg = {}
 --- @field spellBookHeight string # 720
 --- @field talentsWidth string # 1218
 --- @field talentsHeight string # 708
+--- @field uiPanelYOffset number # 0
 --- @field MaximizeMinimizeButton PlayerSpellsFrame_MaximizeMinimizeButton
 --- @field MaxMinButtonFrame PlayerSpellsFrame_MaximizeMinimizeButton
 --- @field TabSystem PlayerSpellsFrame_TabSystem
@@ -58,6 +59,7 @@ PlayerSpellsFrame["spellBookMaximizedWidth"] = "1154"
 PlayerSpellsFrame["spellBookHeight"] = "720"
 PlayerSpellsFrame["talentsWidth"] = "1218"
 PlayerSpellsFrame["talentsHeight"] = "708"
+PlayerSpellsFrame["uiPanelYOffset"] = 0
 PlayerSpellsFrame["CloseButton"] = PlayerSpellsFrameCloseButton -- inherited
 PlayerSpellsFrame["Bg"] = PlayerSpellsFrameBg -- inherited
 PlayerSpellsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited

@@ -21,7 +21,7 @@
 --- @field CountFrame NameplateAuraItemTemplate_CountFrame
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateAuras.xml#L53)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateAuras.xml#L51)
 --- Template
 --- @class NamePlateAuraListTemplate : Frame, GridLayoutFrame
 --- @field childXPadding number # 0

@@ -30,7 +30,16 @@
 --- @field Icon MetallicSoftCursorPointerTemplate_Icon
 --- @field IntroAnim MetallicSoftCursorPointerTemplate_IntroAnim
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.xml#L69)
+--- child of SoftCursor
+--- @class SoftCursor_Lines : Frame
+--- @field LeftLine Texture
+--- @field RightLine Texture
+--- @field TopLine Texture
+--- @field BottomLine Texture
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSoftCursor/SoftCursor.xml#L67)
 --- @class SoftCursor : Frame, MetallicSoftCursorPointerTemplate, SoftCursorMixin
+--- @field Lines SoftCursor_Lines
 SoftCursor = {}
 

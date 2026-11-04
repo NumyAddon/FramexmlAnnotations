@@ -409,7 +409,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L913)
 --- child of CatalogShopProductBYOBContainerFrameTemplate
---- @class CatalogShopProductBYOBContainerFrameTemplate_BYOBPurchaseButton : Button, CatalogShopRedGoldButtonTemplate
+--- @class CatalogShopProductBYOBContainerFrameTemplate_BYOBPurchaseButton : Button, CatalogShopRedGoldButtonTemplate, CatalogShopBYOBPurchaseButtonMixin
 --- @field catalogShopOnClickMethod string # PurchaseBYOB
 --- @field Spinner CatalogShopProductBYOBContainerFrameTemplate_BYOBPurchaseButton_Spinner
 

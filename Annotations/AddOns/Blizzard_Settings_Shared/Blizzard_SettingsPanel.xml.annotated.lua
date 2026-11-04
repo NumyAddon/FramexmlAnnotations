@@ -1,34 +1,34 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L29)
 --- child of SettingsPanel
 --- @class SettingsPanel_GameTab : Button, MinimalTabTemplate
 --- @field tabText any # SETTINGS_TAB_GAME
 --- @field categorySet any # Settings.CategorySet.Game
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L39)
 --- child of SettingsPanel
 --- @class SettingsPanel_AddOnsTab : Button, MinimalTabTemplate
 --- @field tabText any # SETTINGS_TAB_ADDONS
 --- @field categorySet any # Settings.CategorySet.AddOns
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L49)
 --- child of SettingsPanel
 --- @class SettingsPanel_CloseButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L55)
 --- child of SettingsPanel
 --- @class SettingsPanel_ApplyButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L61)
 --- child of SettingsPanel
 --- @class SettingsPanel_CategoryList : Frame, SettingsCategoryListTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L73)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L76)
 --- child of SettingsPanel_Container
 --- @class SettingsPanel_Container_SettingsList : Frame, SettingsListTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L65)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L68)
 --- child of SettingsPanel
 --- @class SettingsPanel_Container : Frame
 --- @field SettingsCanvas Frame
@@ -44,20 +44,21 @@ SettingsPanelClearButton = {}
 --- @type Texture
 SettingsPanelSearchIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L76)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L79)
 --- child of SettingsPanel
 --- @class SettingsPanel_SearchBox : EditBox, SearchBoxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L85)
 --- child of SettingsPanel
 --- @class SettingsPanel_InputBlocker : Frame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L18)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L21)
 --- child of SettingsPanel
 --- @class SettingsPanel_OutputText : FontString, GameFontWhite
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L4)
---- @class SettingsPanel : Frame, SettingsFrameTemplate, SettingsPanelMixin
+--- @class SettingsPanel : Frame, SettingsFrameTemplate, GamepadBaseDialogTemplate, FocusFramesInterfaceTemplate, SettingsPanelMixin
+--- @field layoutType string # ButtonFrameTemplateNoPortrait
 --- @field GameTab SettingsPanel_GameTab
 --- @field AddOnsTab SettingsPanel_AddOnsTab
 --- @field CloseButton SettingsPanel_CloseButton
@@ -68,6 +69,7 @@ SettingsPanelSearchIcon = {}
 --- @field InputBlocker SettingsPanel_InputBlocker
 --- @field OutputText SettingsPanel_OutputText
 SettingsPanel = {}
+SettingsPanel["layoutType"] = "ButtonFrameTemplateNoPortrait"
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L35)
 --- child of SettingsTooltip (created in template SharedTooltipArtTemplate)
@@ -239,7 +241,7 @@ SettingsTooltipTexture29 = {}
 --- @type SharedTooltipArtTemplate_Texture30
 SettingsTooltipTexture30 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L118)
 --- @class SettingsTooltip : GameTooltip, SharedTooltipTemplate, NarratableTooltipTemplate, TopLevelParentScaleFrameTemplate
 SettingsTooltip = {}
 SettingsTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited

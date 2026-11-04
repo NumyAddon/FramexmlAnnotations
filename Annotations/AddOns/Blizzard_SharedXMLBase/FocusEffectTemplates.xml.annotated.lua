@@ -30,26 +30,30 @@
 --- @field GlowTexture Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/FocusEffectTemplates.xml#L72)
---- child of FocusFramesInterfaceTemplate
---- @class FocusFramesInterfaceTemplate_FrameGlow : Frame, FrameGlowTemplate
+--- child of FocusFramesInterfaceBaseTemplate
+--- @class FocusFramesInterfaceBaseTemplate_FrameGlow : Frame, FrameGlowTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/FocusEffectTemplates.xml#L73)
---- child of FocusFramesInterfaceTemplate
---- @class FocusFramesInterfaceTemplate_LeftJumpHint : Frame, FrameLeftJumpHintTemplate
+--- child of FocusFramesInterfaceBaseTemplate
+--- @class FocusFramesInterfaceBaseTemplate_LeftJumpHint : Frame, FrameLeftJumpHintTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/FocusEffectTemplates.xml#L74)
---- child of FocusFramesInterfaceTemplate
---- @class FocusFramesInterfaceTemplate_RightJumpHint : Frame, FrameRightJumpHintTemplate
+--- child of FocusFramesInterfaceBaseTemplate
+--- @class FocusFramesInterfaceBaseTemplate_RightJumpHint : Frame, FrameRightJumpHintTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/FocusEffectTemplates.xml#L75)
---- child of FocusFramesInterfaceTemplate
---- @class FocusFramesInterfaceTemplate_FocusJumpHint : Frame, FrameFocusJumpHintTemplate
+--- child of FocusFramesInterfaceBaseTemplate
+--- @class FocusFramesInterfaceBaseTemplate_FocusJumpHint : Frame, FrameFocusJumpHintTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/FocusEffectTemplates.xml#L70)
 --- Template
---- @class FocusFramesInterfaceTemplate : Frame, FocusFramesInterfaceMixin
---- @field FrameGlow FocusFramesInterfaceTemplate_FrameGlow
---- @field LeftJumpHint FocusFramesInterfaceTemplate_LeftJumpHint
---- @field RightJumpHint FocusFramesInterfaceTemplate_RightJumpHint
---- @field FocusJumpHint FocusFramesInterfaceTemplate_FocusJumpHint
+--- @class FocusFramesInterfaceBaseTemplate : Frame
+--- @field FrameGlow FocusFramesInterfaceBaseTemplate_FrameGlow
+--- @field LeftJumpHint FocusFramesInterfaceBaseTemplate_LeftJumpHint
+--- @field RightJumpHint FocusFramesInterfaceBaseTemplate_RightJumpHint
+--- @field FocusJumpHint FocusFramesInterfaceBaseTemplate_FocusJumpHint
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/FocusEffectTemplates.xml#L79)
+--- Template
+--- @class FocusFramesInterfaceTemplate : Frame, FocusFramesInterfaceBaseTemplate, FocusFramesInterfaceMixin
 

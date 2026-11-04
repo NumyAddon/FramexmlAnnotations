@@ -855,12 +855,12 @@ EncounterJournalNavBarInsetLeftBorder = {}
 --- @class EncounterJournalNavBarInsetRightBorder : Texture, _UI_Frame_InnerRightTile
 EncounterJournalNavBarInsetRightBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L280)
 --- child of EncounterJournalNavBar (created in template NavBarTemplate)
 --- @type NavBarTemplate_OverflowButton
 EncounterJournalNavBarOverflowButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L297)
 --- child of EncounterJournalNavBar (created in template NavBarTemplate)
 --- @type NavBarTemplate_HomeButton
 EncounterJournalNavBarHomeButton = {}

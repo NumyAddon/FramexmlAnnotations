@@ -86,7 +86,7 @@ SubscriptionInterstitialFrameBg = {}
 SubscriptionInterstitialFrameTopTileStreaks = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L43)
---- @class SubscriptionInterstitialFrame : Frame, DefaultPanelTemplate, SubscriptionInterstitialFrameMixin
+--- @class SubscriptionInterstitialFrame : Frame, DefaultPanelTemplate, GamepadBaseDialogTemplate, FocusFramesInterfaceTemplate, SubscriptionInterstitialFrameMixin
 --- @field Inset SubscriptionInterstitialFrame_Inset
 --- @field SubscribeButton SubscriptionInterstitialFrame_SubscribeButton
 --- @field UpgradeButton SubscriptionInterstitialFrame_UpgradeButton

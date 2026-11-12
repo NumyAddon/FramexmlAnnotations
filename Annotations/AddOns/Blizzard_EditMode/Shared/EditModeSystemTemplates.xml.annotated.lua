@@ -57,11 +57,18 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L78)
 --- Template
+--- @class EditModeGamepadInfoHUDSystemTemplate : Frame, EditModeSystemTemplate, EditModeSystemMixin
+--- @field system any # Enum.EditModeSystem.GamepadInfoHud
+--- @field systemNameString any # HUD_EDIT_MODE_GAMEPAD_INFO_HUD_LABEL
+--- @field Selection EditModeSystemSelectionTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L88)
+--- Template
 --- @class EditModeUnitFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeUnitFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.UnitFrame
 --- @field Selection EditModeSystemSelectionDoubleLabelTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L97)
 --- Template
 --- @class EditModeBossUnitFrameSystemTemplate : Frame, EditModeUnitFrameSystemTemplate, EditModeBossUnitFrameSystemMixin
 --- @field systemIndex any # Enum.EditModeUnitFrameSystemIndices.Boss
@@ -69,7 +76,7 @@
 --- @field defaultHideSelection boolean # true
 --- @field breakSnappedFramesOnSave boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L106)
 --- Template
 --- @class EditModeArenaUnitFrameSystemTemplate : Frame, EditModeUnitFrameSystemTemplate, EditModeArenaUnitFrameSystemMixin
 --- @field systemIndex any # Enum.EditModeUnitFrameSystemIndices.Arena
@@ -78,14 +85,14 @@
 --- @field breakSnappedFramesOnSave boolean # true
 --- @field alwaysUseTopRightAnchor boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L116)
 --- Template
 --- @class EditModeMinimapSystemTemplate : Frame, EditModeSystemTemplate, EditModeMinimapSystemMixin
 --- @field system any # Enum.EditModeSystem.Minimap
 --- @field systemNameString any # HUD_EDIT_MODE_MINIMAP_LABEL
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L116)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L126)
 --- Template
 --- @class EditModeCastBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeCastBarSystemMixin
 --- @field system any # Enum.EditModeSystem.CastBar
@@ -93,7 +100,7 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L137)
 --- Template
 --- @class EditModeEncounterBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeEncounterBarSystemMixin
 --- @field system any # Enum.EditModeSystem.EncounterBar
@@ -101,7 +108,7 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L148)
 --- Template
 --- @class EditModeExtraAbilitiesSystemTemplate : Frame, EditModeSystemTemplate, EditModeExtraAbilitiesSystemMixin
 --- @field system any # Enum.EditModeSystem.ExtraAbilities
@@ -109,14 +116,14 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L149)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L159)
 --- Template
 --- @class EditModeAuraFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeAuraFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.AuraFrame
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L169)
 --- Template
 --- @class EditModeTalkingHeadFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeTalkingHeadFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.TalkingHeadFrame
@@ -124,11 +131,11 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L182)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L192)
 --- child of EditModeChatFrameSystemTemplate
 --- @class EditModeChatFrameSystemTemplate_EditModeResizeButton : Button, EditModeChatFrameResizeButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L180)
 --- Template
 --- @class EditModeChatFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeChatFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.ChatFrame
@@ -136,7 +143,7 @@
 --- @field Selection EditModeSystemSelectionTemplate
 --- @field EditModeResizeButton EditModeChatFrameSystemTemplate_EditModeResizeButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L198)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L208)
 --- Template
 --- @class EditModeVehicleLeaveButtonSystemTemplate : Frame, EditModeSystemTemplate, EditModeVehicleLeaveButtonSystemMixin
 --- @field system any # Enum.EditModeSystem.VehicleLeaveButton
@@ -145,7 +152,7 @@
 --- @field skipAutomaticPositioning any # ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L224)
 --- Template
 --- @class EditModeLootFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeLootFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.LootFrame
@@ -153,14 +160,14 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L225)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L235)
 --- Template
 --- @class EditModeHudTooltipSystemTemplate : Frame, EditModeSystemTemplate
 --- @field system any # Enum.EditModeSystem.HudTooltip
 --- @field systemNameString any # HUD_EDIT_MODE_HUD_TOOLTIP_LABEL
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L235)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L245)
 --- Template
 --- @class EditModeObjectiveTrackerSystemTemplate : Frame, EditModeSystemTemplate, EditModeObjectiveTrackerSystemMixin
 --- @field system any # Enum.EditModeSystem.ObjectiveTracker
@@ -168,34 +175,34 @@
 --- @field breakSnappedFramesOnSave boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L256)
 --- Template
 --- @class EditModeMicroMenuSystemTemplate : Frame, EditModeSystemTemplate, EditModeMicroMenuSystemMixin
 --- @field system any # Enum.EditModeSystem.MicroMenu
 --- @field systemNameString any # HUD_EDIT_MODE_MICRO_MENU_LABEL
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L266)
 --- Template
 --- @class EditModeBagsSystemTemplate : Frame, EditModeSystemTemplate, EditModeBagsSystemMixin
 --- @field system any # Enum.EditModeSystem.Bags
 --- @field systemNameString any # HUD_EDIT_MODE_BAGS_LABEL
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L266)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L276)
 --- Template
 --- @class EditModeStatusTrackingBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeStatusTrackingBarSystemMixin
 --- @field system any # Enum.EditModeSystem.StatusTrackingBar
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L285)
 --- Template
 --- @class EditModeStatusTrackingBar1SystemTemplate : Frame, EditModeStatusTrackingBarSystemTemplate, EditModeStatusTrackingBar1SystemMixin
 --- @field systemIndex any # Enum.EditModeStatusTrackingBarSystemIndices.StatusTrackingBar1
 --- @field systemNameString any # HUD_EDIT_MODE_STATUS_TRACKING_BAR_LABEL
 --- @field addSystemIndexToName boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L293)
 --- Template
 --- @class EditModeStatusTrackingBar2SystemTemplate : Frame, EditModeStatusTrackingBarSystemTemplate
 --- @field systemIndex any # Enum.EditModeStatusTrackingBarSystemIndices.StatusTrackingBar2
@@ -203,7 +210,7 @@
 --- @field addSystemIndexToName boolean # true
 --- @field defaultHideSelection boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L302)
 --- Template
 --- @class EditModeDurabilityFrameSystemTemplate : Frame, EditModeSystemTemplate, EditModeDurabilityFrameSystemMixin
 --- @field system any # Enum.EditModeSystem.DurabilityFrame
@@ -211,20 +218,20 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L313)
 --- Template
 --- @class EditModePlayerFrameSystemTemplate : Frame, EditModeUnitFrameSystemTemplate, EditModePlayerFrameSystemMixin
 --- @field systemIndex any # Enum.EditModeUnitFrameSystemIndices.Player
 --- @field systemNameString any # HUD_EDIT_MODE_PLAYER_FRAME_LABEL
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L320)
 --- Template
 --- @class EditModePetFrameSystemTemplate : Frame, EditModeUnitFrameSystemTemplate, EditModePetFrameSystemMixin
 --- @field systemIndex any # Enum.EditModeUnitFrameSystemIndices.Pet
 --- @field systemNameString any # HUD_EDIT_MODE_PET_FRAME_LABEL
 --- @field defaultHideSelection boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L318)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L328)
 --- Template
 --- @class EditModeTimerBarsSystemTemplate : Frame, EditModeSystemTemplate, EditModeTimerBarsSystemMixin
 --- @field system any # Enum.EditModeSystem.TimerBars
@@ -232,14 +239,14 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L329)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L339)
 --- Template
 --- @class EditModeSwingTimerSystemTemplate : Frame, EditModeSystemTemplate, EditModeSwingTimerSystemMixin
 --- @field system any # Enum.EditModeSystem.SwingTimer
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L339)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L349)
 --- Template
 --- @class EditModeVehicleSeatIndicatorSystemTemplate : Frame, EditModeSystemTemplate, EditModeVehicleSeatIndicatorSystemMixin
 --- @field system any # Enum.EditModeSystem.VehicleSeatIndicator
@@ -247,7 +254,7 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L360)
 --- Template
 --- @class EditModeArchaeologyBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeArchaeologyBarSystemMixin
 --- @field system any # Enum.EditModeSystem.ArchaeologyBar
@@ -255,14 +262,14 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L371)
 --- Template
 --- @class EditModeCooldownViewerSystemTemplate : Frame, EditModeSystemTemplate, EditModeCooldownViewerSystemMixin
 --- @field system any # Enum.EditModeSystem.CooldownViewer
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L371)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L381)
 --- Template
 --- @class EditModePersonalResourceDisplaySystemTemplate : Frame, EditModeSystemTemplate, EditModePersonalResourceDisplaySystemMixin
 --- @field system any # Enum.EditModeSystem.PersonalResourceDisplay
@@ -270,18 +277,18 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L382)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L392)
 --- Template
 --- @class EditModeEncounterEventsSystemTemplate : Frame, EditModeSystemTemplate, EditModeEncounterEventsSystemMixin
 --- @field system any # Enum.EditModeSystem.EncounterEvents
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L400)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L410)
 --- child of EditModeDamageMeterSystemTemplate
 --- @class EditModeDamageMeterSystemTemplate_EditModeResizeButton : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L392)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L402)
 --- Template
 --- @class EditModeDamageMeterSystemTemplate : Frame, EditModeSystemTemplate, EditModeDamageMeterSystemMixin
 --- @field system any # Enum.EditModeSystem.DamageMeter
@@ -290,7 +297,7 @@
 --- @field Selection EditModeSystemSelectionTemplate
 --- @field EditModeResizeButton EditModeDamageMeterSystemTemplate_EditModeResizeButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L412)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L422)
 --- Template
 --- @class EditModeRaidWarningSystemTemplate : Frame, EditModeSystemTemplate, EditModeRaidWarningSystemMixin
 --- @field system any # Enum.EditModeSystem.RaidWarning
@@ -298,7 +305,7 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L423)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L433)
 --- Template
 --- @class EditModeTotemActionBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeTotemActionBarSystemMixin
 --- @field system any # Enum.EditModeSystem.TotemActionBar
@@ -306,27 +313,27 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L434)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L444)
 --- Template
 --- @class EditModeMainActionBarEndCapSystemTemplate : Frame, EditModeSystemTemplate, EditModeMainActionBarEndCapSystemMixin
 --- @field system any # Enum.EditModeSystem.MainActionBarEndCap
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L453)
 --- Template
 --- @class EditModeMainActionBarEndCapLeftSystemTemplate : Frame, EditModeMainActionBarEndCapSystemTemplate
 --- @field systemIndex any # Enum.EditModeMainActionBarEndCapSystemIndices.EndCapLeft
 --- @field systemNameString any # HUD_EDIT_MODE_END_CAP_LEFT_LABEL
 --- @field addSystemIndexToName boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L451)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L461)
 --- Template
 --- @class EditModeMainActionBarEndCapRightSystemTemplate : Frame, EditModeMainActionBarEndCapSystemTemplate
 --- @field systemIndex any # Enum.EditModeMainActionBarEndCapSystemIndices.EndCapRight
 --- @field systemNameString any # HUD_EDIT_MODE_END_CAP_RIGHT_LABEL
 --- @field addSystemIndexToName boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L459)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L469)
 --- Template
 --- @class EditModeGroupFinderSystemTemplate : Frame, EditModeSystemTemplate, EditModeGroupFinderSystemMixin
 --- @field system any # Enum.EditModeSystem.GroupFinder
@@ -334,7 +341,7 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L470)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L480)
 --- Template
 --- @class EditModeLossOfControlSystemTemplate : Frame, EditModeSystemTemplate, EditModeLossOfControlSystemMixin
 --- @field system any # Enum.EditModeSystem.LossOfControl

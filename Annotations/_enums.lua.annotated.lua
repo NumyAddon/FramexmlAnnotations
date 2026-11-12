@@ -75,6 +75,14 @@ local IconSelectorPopupFrameModes = {
     ["Edit"] = 2,
 }
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.lua#L507)
+ --- @enum ItemSlotDropState
+local ItemSlotDropState = {
+    ["None"] = 1,
+    ["Permitted"] = 2,
+    ["Restricted"] = 3,
+}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L286)
  --- @enum MapPinHighlightAnimType
 local MapPinHighlightAnimType = {

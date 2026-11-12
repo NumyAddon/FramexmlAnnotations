@@ -91,3 +91,8 @@
 --- @field AugmentBorderAnimTexture Texture
 --- @field AugmentBorderAnim EnchantingItemButtonAnimTemplate_AugmentBorderAnim
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L281)
+--- Template
+--- @class ItemSlotDropStateTemplate : Frame, ItemSlotDropStateMixin
+--- @field DropStateTexture Texture
+

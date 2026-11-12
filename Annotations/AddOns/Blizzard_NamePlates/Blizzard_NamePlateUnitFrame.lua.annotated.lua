@@ -121,14 +121,17 @@ function NamePlateUnitFrameMixin:ShouldShowName() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L678)
 function NamePlateUnitFrameMixin:UpdateAnchors() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L893)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L892)
+function NamePlateUnitFrameMixin:UpdateControlAnchors(rightManagedAuraOffset) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L910)
 function NamePlateUnitFrameMixin:SetExplicitValues(explicitValues) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L912)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L929)
 function NamePlateUnitFrameMixin:GetNamePlateFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L916)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L933)
 function NamePlateUnitFrameMixin:SetNamePlateFrame(namePlateFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L920)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L937)
 function NamePlateUnitFrameMixin:UpdatePrivateAuras() end

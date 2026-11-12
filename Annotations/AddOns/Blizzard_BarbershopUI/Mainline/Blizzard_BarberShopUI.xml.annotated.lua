@@ -4,22 +4,22 @@
 --- Template
 --- @class BarberShopButtonTemplate : Button, SharedButtonLargeTemplate, BarberShopButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L38)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L41)
 --- child of BarberShopFrame
 --- @class BarberShopFrame_BodyTypes : Frame, HorizontalLayoutFrame
 --- @field spacing number # 22
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L49)
 --- child of BarberShopFrame
 --- @class BarberShopFrame_CancelButton : Button, BarberShopButtonTemplate
 --- @field barberShopOnClickMethod string # Cancel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L55)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L58)
 --- child of BarberShopFrame
 --- @class BarberShopFrame_ResetButton : Button, BarberShopButtonTemplate
 --- @field barberShopOnClickMethod string # Reset
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L74)
 --- child of BarberShopFrame_SDToggleButton
 --- @class BarberShopFrame_SDToggleButton_Text : FontString, GameFontNormalMed2
 
@@ -28,18 +28,19 @@
 --- @type UICheckButtonTemplate_Text
 BarberShopFrameText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L67)
 --- child of BarberShopFrame
 --- @class BarberShopFrame_SDToggleButton : CheckButton, UICheckButtonTemplate, BarberShopSDToggleMixin
 --- @field Text BarberShopFrame_SDToggleButton_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L86)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L89)
 --- child of BarberShopFrame
 --- @class BarberShopFrame_AcceptButton : Button, BarberShopButtonTemplate
 --- @field barberShopOnClickMethod string # ApplyChanges
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Mainline/Blizzard_BarberShopUI.xml#L10)
 --- @class BarberShopFrame : Frame, TopLevelParentScaleFrameTemplate, BarberShopMixin
+--- @field disallowGamepadUnfocus boolean # true
 --- @field BodyTypes BarberShopFrame_BodyTypes
 --- @field CancelButton BarberShopFrame_CancelButton
 --- @field ResetButton BarberShopFrame_ResetButton
@@ -49,4 +50,5 @@ BarberShopFrameText = {}
 --- @field LeftBackgroundOverlay Texture
 --- @field RightBackgroundOverlay Texture
 BarberShopFrame = {}
+BarberShopFrame["disallowGamepadUnfocus"] = true
 

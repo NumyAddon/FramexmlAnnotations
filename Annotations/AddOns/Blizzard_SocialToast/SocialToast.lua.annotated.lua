@@ -16,7 +16,7 @@ SocialToastMixin = {}
  --- @class ShardTransferImminentMixin
 ShardTransferImminentMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L102)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L123)
  --- @class ShardTransferImminentMinimizeMixin
 ShardTransferImminentMinimizeMixin = {}
 
@@ -41,29 +41,41 @@ function SocialToastMixin:OnLeave() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L35)
 function ShardTransferImminentMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L59)
+function ShardTransferImminentMixin:InitMKB() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L65)
+function ShardTransferImminentMixin:UninitMKB() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L71)
 function ShardTransferImminentMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L60)
-function ShardTransferImminentMixin:Start(time) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L81)
+function ShardTransferImminentMixin:Start() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L88)
 function ShardTransferImminentMixin:OnUpdate(elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L93)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L114)
 function ShardTransferImminentMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L125)
 function ShardTransferImminentMinimizeMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L149)
+function ShardTransferImminentMinimizeMixin:InitMKB() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L155)
+function ShardTransferImminentMinimizeMixin:UninitMKB() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L161)
 function ShardTransferImminentMinimizeMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L129)
-function ShardTransferImminentMinimizeMixin:Start(time) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L171)
+function ShardTransferImminentMinimizeMixin:Start() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L177)
 function ShardTransferImminentMinimizeMixin:OnUpdate(elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.lua#L187)
 function ShardTransferImminentMinimizeMixin:OnClick() end

@@ -101,7 +101,7 @@ TransmogCharacterMixin = {
 	};
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1711)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1722)
  --- @class TransmogWardrobeMixin
 TransmogWardrobeMixin = {
 	HELPTIP_INFO = {
@@ -156,7 +156,7 @@ TransmogWardrobeMixin = {
 	};
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1892)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1903)
  --- @class TransmogWardrobeItemsMixin
 TransmogWardrobeItemsMixin = {
 	DYNAMIC_EVENTS = {
@@ -178,7 +178,7 @@ TransmogWardrobeItemsMixin = {
 	WEAPON_SHEATHE_DROPDOWN_WIDTH = 190;
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2918)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2929)
  --- @class TransmogWardrobeSetsMixin
 TransmogWardrobeSetsMixin = {
 	DYNAMIC_EVENTS = {
@@ -194,7 +194,7 @@ TransmogWardrobeSetsMixin = {
 	};
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3122)
  --- @class TransmogWardrobeCustomSetsMixin
 TransmogWardrobeCustomSetsMixin = {
 	DYNAMIC_EVENTS = {
@@ -209,7 +209,7 @@ TransmogWardrobeCustomSetsMixin = {
 	};
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3341)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3352)
  --- @class TransmogWardrobeSituationsMixin
 TransmogWardrobeSituationsMixin = {
 	DYNAMIC_EVENTS = {
@@ -400,341 +400,341 @@ function TransmogCharacterMixin:ToggleSheathe() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1239)
 function TransmogCharacterMixin:SetupSlots() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1281)
 function TransmogCharacterMixin:SetupSlotSection(groupData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1335)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1346)
 function TransmogCharacterMixin:RefreshHideIgnoredToggle() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1341)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1352)
 function TransmogCharacterMixin:RefreshSheatheWeaponToggle() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1362)
 function TransmogCharacterMixin:RefreshPreviewedWeaponToggle() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1373)
 function TransmogCharacterMixin:RefreshPlayerModel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1379)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1390)
 function TransmogCharacterMixin:RefreshSlotOptions(clearCurrentOptionInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1389)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1400)
 function TransmogCharacterMixin:RefreshSlots() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1509)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1520)
 function TransmogCharacterMixin:RefreshSelectedSlot() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1521)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1532)
 function TransmogCharacterMixin:RefreshSmartNavJumps() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1543)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1554)
 function TransmogCharacterMixin:SetInitialSelectedSlot() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1568)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1579)
 function TransmogCharacterMixin:ShouldForceRefreshOnSlotUpdate(slotData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1590)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1601)
 function TransmogCharacterMixin:UpdateSlot(slotData, forceRefresh) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1631)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1642)
 function TransmogCharacterMixin:GetSelectedSlotData() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1635)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1646)
 function TransmogCharacterMixin:SetSelectedSlotData(slotData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1639)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1650)
 function TransmogCharacterMixin:GetSlotFrame(slot, type) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1655)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1666)
 function TransmogCharacterMixin:GetCurrentTransmogInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1684)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1695)
 function TransmogCharacterMixin:GetCurrentTransmogIcons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1697)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1708)
 function TransmogCharacterMixin:GetItemTransmogInfoList() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1706)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1717)
 function TransmogCharacterMixin:GetFirstButtonForSection() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1764)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1775)
 function TransmogWardrobeMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1779)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1790)
 function TransmogWardrobeMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1787)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1798)
 function TransmogWardrobeMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1791)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1802)
 function TransmogWardrobeMixin:UpdateTabs() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1798)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1809)
 function TransmogWardrobeMixin:SetToDefaultAvailableTab() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1802)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1813)
 function TransmogWardrobeMixin:SetToItemsTab() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1808)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1819)
 function TransmogWardrobeMixin:SetTab(tabID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1821)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1832)
 function TransmogWardrobeMixin:CheckShowHelptips(tabID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1862)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1873)
 function TransmogWardrobeMixin:UpdateSlot(slotData, forceRefresh) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1867)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1878)
 function TransmogWardrobeMixin:GetFirstButtonForSection() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1872)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1883)
 function TransmogWardrobeMixin:GetFirstButtonForTab() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1912)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1923)
 function TransmogWardrobeItemsMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1981)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1992)
 function TransmogWardrobeItemsMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1992)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2003)
 function TransmogWardrobeItemsMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L1997)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2008)
 function TransmogWardrobeItemsMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2046)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2057)
 function TransmogWardrobeItemsMixin:OnKeyDown(key) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2054)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2065)
 function TransmogWardrobeItemsMixin:Init(wardrobeCollection) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2058)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2069)
 function TransmogWardrobeItemsMixin:InitFilterButton() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2098)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2109)
 function TransmogWardrobeItemsMixin:Reset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2119)
 function TransmogWardrobeItemsMixin:HandleFormChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2129)
 function TransmogWardrobeItemsMixin:Refresh() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2139)
 function TransmogWardrobeItemsMixin:RefreshActiveSlotTitle() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2172)
 function TransmogWardrobeItemsMixin:RefreshFilterButtons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2187)
 function TransmogWardrobeItemsMixin:RefreshWeaponDropdown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2232)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2243)
 function TransmogWardrobeItemsMixin:RefreshDisplayTypeButtons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2373)
 function TransmogWardrobeItemsMixin:RefreshSecondaryAppearanceToggle() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2380)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2391)
 function TransmogWardrobeItemsMixin:RefreshWeaponSheatheDropdown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2427)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2438)
 function TransmogWardrobeItemsMixin:RefreshCollectionEntries() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2454)
 function TransmogWardrobeItemsMixin:RefreshCameras() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2449)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2460)
 function TransmogWardrobeItemsMixin:RefreshPagedEntry() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2463)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2474)
 function TransmogWardrobeItemsMixin:SelectVisual(visualID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2504)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2515)
 function TransmogWardrobeItemsMixin:UpdateSelectedVisualFromKeyPress(key) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2608)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2619)
 function TransmogWardrobeItemsMixin:GetAnAppearanceSourceFromVisual(visualID, mustBeUsable) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2627)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2638)
 function TransmogWardrobeItemsMixin:GetChosenVisualSource(visualID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2631)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2642)
 function TransmogWardrobeItemsMixin:SetChosenVisualSource(visualID, sourceID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2635)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2646)
 function TransmogWardrobeItemsMixin:ValidateChosenVisualSources() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2651)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2662)
 function TransmogWardrobeItemsMixin:IsAppearanceUsableForActiveCategory(appearanceInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2660)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2671)
 function TransmogWardrobeItemsMixin:GetAppearanceNameTextAndColor(appearanceInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2669)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2680)
 function TransmogWardrobeItemsMixin:SetAppearanceTooltip(frame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2676)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2687)
 function TransmogWardrobeItemsMixin:RefreshAppearanceTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2714)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2725)
 function TransmogWardrobeItemsMixin:ClearAppearanceTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2720)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2731)
 function TransmogWardrobeItemsMixin:SetCollectionEntries(entries, retainCurrentPage) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2757)
 function TransmogWardrobeItemsMixin:UpdateSlot(slotData, forceRefresh) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2777)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2788)
 function TransmogWardrobeItemsMixin:GetActiveSlotInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2781)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2792)
 function TransmogWardrobeItemsMixin:SetActiveSlot(transmogLocation, forceRefresh) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2819)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2830)
 function TransmogWardrobeItemsMixin:IsValidWeaponCategoryForSlot(categoryID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2829)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2840)
 function TransmogWardrobeItemsMixin:PageToTransmogID(transmogID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2847)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2858)
 function TransmogWardrobeItemsMixin:GetActiveCategory() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2851)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2862)
 function TransmogWardrobeItemsMixin:SetActiveCategory(categoryID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2872)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2883)
 function TransmogWardrobeItemsMixin:GetTransmogLocation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2876)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2887)
 function TransmogWardrobeItemsMixin:SetTransmogLocation(transmogLocation) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2880)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2891)
 function TransmogWardrobeItemsMixin:GetWeaponSheatheCategory() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2884)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2895)
 function TransmogWardrobeItemsMixin:SetWeaponSheatheCategory(categoryID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2892)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2903)
 function TransmogWardrobeItemsMixin:GetActiveSlot() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2896)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2907)
 function TransmogWardrobeItemsMixin:HasActiveSecondaryAppearance() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2901)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2912)
 function TransmogWardrobeItemsMixin:GetOutfitSlotSavedState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2905)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2916)
 function TransmogWardrobeItemsMixin:SetOutfitSlotSavedState(outfitSlotSaved) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2909)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2920)
 function TransmogWardrobeItemsMixin:GetSelectedSlotCallback() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2913)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2924)
 function TransmogWardrobeItemsMixin:GetSlotFrameCallback(slot, type) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2932)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2943)
 function TransmogWardrobeSetsMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2939)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2950)
 function TransmogWardrobeSetsMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2950)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2961)
 function TransmogWardrobeSetsMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2955)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2966)
 function TransmogWardrobeSetsMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2981)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2992)
 function TransmogWardrobeSetsMixin:Init(wardrobeCollection) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2985)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L2996)
 function TransmogWardrobeSetsMixin:InitFilterButton() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3009)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3020)
 function TransmogWardrobeSetsMixin:HandleFormChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3019)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3030)
 function TransmogWardrobeSetsMixin:Refresh() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3024)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3035)
 function TransmogWardrobeSetsMixin:RefreshHasAvailableSets() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3032)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3043)
 function TransmogWardrobeSetsMixin:RefreshCollectionEntries() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3053)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3064)
 function TransmogWardrobeSetsMixin:RefreshCameras() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3059)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3070)
 function TransmogWardrobeSetsMixin:GetFirstMatchingSetID() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3098)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3109)
 function TransmogWardrobeSetsMixin:GetOutfitSlotSavedState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3102)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3113)
 function TransmogWardrobeSetsMixin:SetOutfitSlotSavedState(outfitSlotSaved) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3117)
 function TransmogWardrobeSetsMixin:GetCurrentTransmogInfoCallback() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3135)
 function TransmogWardrobeCustomSetsMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3155)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3166)
 function TransmogWardrobeCustomSetsMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3178)
 function TransmogWardrobeCustomSetsMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3183)
 function TransmogWardrobeCustomSetsMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3207)
 function TransmogWardrobeCustomSetsMixin:Init(wardrobeCollection) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3200)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3211)
 function TransmogWardrobeCustomSetsMixin:HandleFormChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3210)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3221)
 function TransmogWardrobeCustomSetsMixin:RefreshNewCustomSetButton() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3227)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3238)
 function TransmogWardrobeCustomSetsMixin:RefreshCollectionEntries() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3261)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3272)
 function TransmogWardrobeCustomSetsMixin:RefreshCameras() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3267)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3278)
 function TransmogWardrobeCustomSetsMixin:GetFirstMatchingCustomSetID() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3324)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3335)
 function TransmogWardrobeCustomSetsMixin:GetOutfitSlotSavedState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3328)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3339)
 function TransmogWardrobeCustomSetsMixin:SetOutfitSlotSavedState(outfitSlotSaved) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3343)
 function TransmogWardrobeCustomSetsMixin:GetCurrentTransmogInfoCallback() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3336)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3347)
 function TransmogWardrobeCustomSetsMixin:GetItemTransmogInfoListCallback() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3347)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3358)
 function TransmogWardrobeSituationsMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3377)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3388)
 function TransmogWardrobeSituationsMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3383)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3394)
 function TransmogWardrobeSituationsMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3398)
 function TransmogWardrobeSituationsMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3393)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3404)
 function TransmogWardrobeSituationsMixin:Init() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3417)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.lua#L3428)
 function TransmogWardrobeSituationsMixin:Refresh() end

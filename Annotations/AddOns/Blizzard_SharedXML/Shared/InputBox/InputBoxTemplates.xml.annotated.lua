@@ -68,7 +68,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputBox/InputBoxTemplates.xml#L209)
 --- Template
---- @class SearchBoxTemplate : EditBox, InputBoxInstructionsTemplate, NarrationSearchBoxMixin
+--- @class SearchBoxTemplate : EditBox, InputBoxInstructionsTemplate, NarrationSearchBoxMixin, SearchBoxGamepadMixin
 --- @field instructionText any # SEARCH
 --- @field clearButton SearchBoxTemplate_ClearButton
 --- @field searchIcon Texture

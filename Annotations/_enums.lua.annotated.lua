@@ -60,7 +60,7 @@ local IconDataProviderIconType = {
     ["Item"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1681)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1684)
  --- @enum IconSelectorPopupFrameIconFilterTypes
 local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
@@ -68,7 +68,7 @@ local IconSelectorPopupFrameIconFilterTypes = {
     ["Item"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1676)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1679)
  --- @enum IconSelectorPopupFrameModes
 local IconSelectorPopupFrameModes = {
     ["New"] = 1,

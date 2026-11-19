@@ -905,4 +905,5 @@ PaperDollFrame["ItemsFrame"] = PaperDollItemsFrame
 --- @field editBoxHeaderText any # GEARSETS_POPUP_TEXT
 GearManagerPopupFrame = {}
 GearManagerPopupFrame["editBoxHeaderText"] = GEARSETS_POPUP_TEXT
+GearManagerPopupFrame["layoutType"] = "DialogFrameTemplate" -- inherited
 

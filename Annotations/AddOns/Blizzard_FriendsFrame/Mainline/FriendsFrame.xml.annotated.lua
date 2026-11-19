@@ -194,7 +194,7 @@
 --- @field tooltipTitle any # CONTACTS_MENU_NAME
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L2207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L2220)
 --- child of FriendsFrameBattlenetFrame_UnavailableInfoButton (created in template UIPanelInfoButton)
 --- @type Texture
 FriendsFrameBattlenetFrameTexture = {}

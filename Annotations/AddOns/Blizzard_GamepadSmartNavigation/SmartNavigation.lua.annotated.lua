@@ -88,179 +88,176 @@ function SmartNavigationMixin:RunCurrentButtonLeaveScript() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L759)
 function SmartNavigationMixin:SetPosition(inX, inY) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L772)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L785)
 function SmartNavigationMixin:UpdateCursorPosition() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L826)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L847)
 function SmartNavigationMixin:GetPanelInfo(inFrame, dontCreateIfNotFound) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L846)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L867)
 function SmartNavigationMixin:GetLastButtonForPanelInfo(panelInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L851)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L872)
 function SmartNavigationMixin:SetLastButtonForPanelInfo(panelInfo, lastButton) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L855)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L876)
 function SmartNavigationMixin:GetActiveGroup(inFrameInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L869)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L890)
 function SmartNavigationMixin:HandlePanelClose(inPanel) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L873)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L894)
 function SmartNavigationMixin:RemovePanelInfo(inFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L904)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L925)
 function SmartNavigationMixin:SetActiveFrame(inFrameInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L937)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L958)
 function SmartNavigationMixin:ClearActiveFrames() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L949)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L970)
 function SmartNavigationMixin:SelectFirstButton(forceReselect) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L968)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L989)
 function SmartNavigationMixin:SelectTopLeftButton() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L980)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1001)
 function SmartNavigationMixin:IsButtonInCurrentFocusGroup(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1004)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1025)
 function SmartNavigationMixin:SetTargetButtonForFrame(inFrame, inTargetButton) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1017)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1038)
 function SmartNavigationMixin:SetScrollFrameForFrame(inFrame, inScrollFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1032)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1053)
 function SmartNavigationMixin:GetParentPanelInfo(frame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1049)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1070)
 function SmartNavigationMixin:ClearLastTarget(inFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1056)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1077)
 function SmartNavigationMixin:SetWrapping(inFrame, shouldWrap) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1065)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1086)
 function SmartNavigationMixin:SetGridHeightCompensation(inFrame, shouldCompensate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1077)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1098)
 function SmartNavigationMixin:SetUseGridNavigation(inFrame, inUseGrid) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1087)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1108)
 function SmartNavigationMixin:HandleScroll(nextButton, buttonScrollFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1181)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1202)
 function SmartNavigationMixin:GetCurrentDirection() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1228)
 function SmartNavigationMixin:IsButtonValid(inButton, inScrollFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1250)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1271)
 function SmartNavigationMixin:GetButtonInfoInDirection(inButton, inDirection, inOffset) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1353)
 function SmartNavigationMixin:UpdateGrid(inPanelInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1386)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1420)
 function SmartNavigationMixin:GetButtonAtGridIndex(inX, inY) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1399)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1433)
 function SmartNavigationMixin:GetButtonInDirectionGrid(inButton, inDirection) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1472)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1501)
 function SmartNavigationMixin:Navigate(inDirection) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1584)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1613)
 function SmartNavigationMixin:ClearNavigationInput() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1593)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1622)
 function SmartNavigationMixin:HandleNavigationInput(isDown, inDirection) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1623)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1652)
 function SmartNavigationMixin:NavigateRight(isDown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1627)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1656)
 function SmartNavigationMixin:NavigateLeft(isDown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1631)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1660)
 function SmartNavigationMixin:NavigateUp(isDown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1635)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1664)
 function SmartNavigationMixin:NavigateDown(isDown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1646)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1675)
 function SmartNavigationMixin:Click() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1655)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1684)
 function SmartNavigationMixin:RightClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1661)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1690)
 function SmartNavigationMixin:AttemptClose() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1696)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1725)
 function SmartNavigationMixin:OnGamepadRightStick(inX, inY) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1711)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1740)
 function SmartNavigationMixin:FindTopLeftButton(frameInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1747)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1776)
 function SmartNavigationMixin:UpdateResolution() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1754)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1783)
 function SmartNavigationMixin:HandlePanelOpen(inPanel, extraPanels) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1773)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1802)
 function SmartNavigationMixin:RefreshButtonGroups(inPanel, extraPanels) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1799)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1828)
 function SmartNavigationMixin:UpdateParent(inChild) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1807)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1836)
 function SmartNavigationMixin:AnchorDropDown(inDropDown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1825)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1854)
 function SmartNavigationMixin:GetCurrentButton() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1829)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1858)
 function SmartNavigationMixin:IsCurrentButton(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1833)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1862)
 function SmartNavigationMixin:GetCurrentButtonContext() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1838)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1867)
 function SmartNavigationMixin:FindButton(inMatchFunc) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1874)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1903)
 function SmartNavigationMixin:GetActiveFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1881)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1910)
 function SmartNavigationMixin:EnterFocusGroup(inFocusKey, optionalFocusGroupOwner, button, scrollFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1916)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1945)
 function SmartNavigationMixin:LeaveFocusGroup(button, scrollFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1934)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1963)
 function SmartNavigationMixin:IsInFocusGroup() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1943)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1972)
 function SmartNavigationMixin:SetItemToBeDeleted(cursorType, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1955)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1984)
 function SmartNavigationMixin:ClearItemToBeDeleted() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1971)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L2000)
 function SmartNavigationMixin:SetSmartNavPanelInfoRemovedCallback(inFrame, callback) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1982)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L2011)
 function SmartNavigationMixin:SetSmartNavPanelInfoAddedCallback(inFrame, callback) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1986)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L2015)
 function SmartNavigationMixin:SetOverrideIconAtlas(atlas) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1990)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L2019)
 function SmartNavigationMixin:ClearOverrideIconAtlas() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1994)
-function SmartNavigationMixin:SetCursorArtHorizontal() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L1998)
-function SmartNavigationMixin:SetCursorArtVerical() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSmartNavigation/SmartNavigation.lua#L2023)
+function SmartNavigationMixin:SetClampedCursorRotationForFrame(degree) end

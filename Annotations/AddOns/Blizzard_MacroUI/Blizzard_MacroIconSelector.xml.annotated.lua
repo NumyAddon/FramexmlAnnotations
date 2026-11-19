@@ -5,4 +5,5 @@
 --- @field editBoxHeaderText any # MACRO_POPUP_TEXT
 MacroPopupFrame = {}
 MacroPopupFrame["editBoxHeaderText"] = MACRO_POPUP_TEXT
+MacroPopupFrame["layoutType"] = "DialogFrameTemplate" -- inherited
 

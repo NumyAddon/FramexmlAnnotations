@@ -43,32 +43,32 @@ function GameMenuFrameMixin:AddCloseButton(...) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L160)
 function GameMenuFrameMixin:InitButtons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L272)
 function GameMenuFrameMixin:SetRatingsButtonShown(shown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L276)
 function GameMenuFrameMixin:GetRatingsButtonShown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L280)
 function GameMenuFrameMixin:GetLogoutText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L285)
 function GameMenuFrameMixin:CloseMenu() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L292)
 function GameMenuFrameMixin:SmartNavigationCloseHandler() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L297)
 function GameMenuFrameMixin:FocusGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L301)
 function GameMenuFrameMixin:UnfocusGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L304)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L305)
 function GameMenuFrameMixin:RegisterForTransitions() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L311)
 function GameMenuFrameMixin:SetupGamepad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L321)
 function GameMenuFrameMixin:UninitializeGamepad() end

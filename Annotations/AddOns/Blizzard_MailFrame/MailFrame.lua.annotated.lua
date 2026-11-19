@@ -52,6 +52,10 @@ SendMailButtonMixin = {}
  --- @class OpenAllMailMixin
 OpenAllMailMixin = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1715)
+ --- @class SendMailCODButtonMixin
+SendMailCODButtonMixin = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L22)
 function MailMixin:OnLoad() end
 
@@ -270,3 +274,9 @@ function OpenAllMailMixin:AddFailedItem(itemID) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1710)
 function OpenAllMailMixin:IsItemFailed(itemID) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1717)
+function SendMailCODButtonMixin:OnEnter() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.lua#L1725)
+function SendMailCODButtonMixin:OnLeave() end

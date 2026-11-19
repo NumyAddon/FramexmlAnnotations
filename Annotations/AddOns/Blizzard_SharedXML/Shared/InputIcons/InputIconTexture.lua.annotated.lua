@@ -4,7 +4,7 @@
  --- @class InputDeviceIconSetMixin
 InputDeviceIconSetMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L599)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L635)
  --- @class InputIconTextureMixin
 InputIconTextureMixin = {
 	mappedButtonKey = GAMEPAD_FACE_BOTTOM,
@@ -27,68 +27,68 @@ function InputDeviceIconSetMixin:SetInputIconTextureForKey(inputKey, state, prom
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L93)
 function InputDeviceIconSetMixin:SetSymbolInputIconTextureForKey(inputKey, symbolIconTexture) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L607)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L643)
 function InputIconTextureMixin:RefreshIconTextures() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L625)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L661)
 function InputIconTextureMixin:ApplyTextureLayout(texture, atlasKey) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L636)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L672)
 function InputIconTextureMixin:ShouldUseAdjustedTextureBounds(iconAtlasKey) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L644)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L680)
 function InputIconTextureMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L670)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L706)
 function InputIconTextureMixin:SetInputKey(buttonKey) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L676)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L712)
 function InputIconTextureMixin:EnableDropShadow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L684)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L720)
 function InputIconTextureMixin:DisableDropShadow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L692)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L728)
 function InputIconTextureMixin:CanEnterTextureState(textureState) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L706)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L742)
 function InputIconTextureMixin:SetTextureState(newTextureState) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L719)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L755)
 function InputIconTextureMixin:SetUsableState(newUsableState) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L729)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L765)
 function InputIconTextureMixin:SetPressable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L734)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L770)
 function InputIconTextureMixin:SetDisabled() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L739)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L775)
 function InputIconTextureMixin:SetFocused() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L743)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L779)
 function InputIconTextureMixin:SetTextureWidth(width) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L747)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L783)
 function InputIconTextureMixin:SetTextureHeight(height) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L751)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L787)
 function InputIconTextureMixin:SetEnabled(enabled) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L755)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L791)
 function InputIconTextureMixin:SetIsHoldAction(isHoldAction) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L760)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L796)
 function InputIconTextureMixin:BeginHold(duration) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L773)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L809)
 function InputIconTextureMixin:EndHold() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L781)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L817)
 function InputIconTextureMixin:SetHoldState(holding) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L790)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L826)
 function InputIconTextureMixin:OnHoldAnimFinished() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L794)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/InputIcons/InputIconTexture.lua#L830)
 function InputIconTextureMixin:OnHoldAnimStopped() end

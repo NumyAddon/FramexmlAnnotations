@@ -617,6 +617,7 @@ GuildBankFrame["Info"] = GuildBankInfo
 --- @field editBoxHeaderText any # GUILDBANK_POPUP_TEXT
 GuildBankPopupFrame = {}
 GuildBankPopupFrame["editBoxHeaderText"] = GUILDBANK_POPUP_TEXT
+GuildBankPopupFrame["layoutType"] = "DialogFrameTemplate" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Mainline/Blizzard_GuildBankUI.xml#L224)
 --- child of GuildItemSearchBox (created in template SearchBoxTemplate)

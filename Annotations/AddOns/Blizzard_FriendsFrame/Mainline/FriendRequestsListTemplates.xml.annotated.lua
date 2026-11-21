@@ -60,23 +60,23 @@
 --- @field useScaleWeightForHeight boolean # true
 --- @field scaleWeight number # 0.6
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.xml#L149)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.xml#L151)
 --- child of FriendRequestsListSocialCardTemplate
 --- @class FriendRequestsListSocialCardTemplate_AcceptButton : Button, FriendRequestsListSocialCardAcceptButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.xml#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.xml#L155)
 --- child of FriendRequestsListSocialCardTemplate
 --- @class FriendRequestsListSocialCardTemplate_DeclineButton : DropdownButton, FriendRequestsListSocialCardDeclineButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.xml#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.xml#L168)
 --- child of FriendRequestsListSocialCardTemplate
 --- @class FriendRequestsListSocialCardTemplate_RequestTimestamp : FontString, UserScaledFontBody
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.xml#L174)
 --- child of FriendRequestsListSocialCardTemplate
 --- @class FriendRequestsListSocialCardTemplate_Name : FontString, UserScaledFontHeader
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.xml#L178)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendRequestsListTemplates.xml#L180)
 --- child of FriendRequestsListSocialCardTemplate
 --- @class FriendRequestsListSocialCardTemplate_FriendType : FontString, UserScaledFontBody
 
@@ -94,6 +94,7 @@
 --- @field acceptButtonYOffset number # -11
 --- @field declineButtonXOffset number # 5
 --- @field declineButtonYOffset number # 3
+--- @field buttonContext string # ButtonContext_FriendRequestsListCard
 --- @field lineSpacing number # 4
 --- @field AcceptButton FriendRequestsListSocialCardTemplate_AcceptButton
 --- @field DeclineButton FriendRequestsListSocialCardTemplate_DeclineButton

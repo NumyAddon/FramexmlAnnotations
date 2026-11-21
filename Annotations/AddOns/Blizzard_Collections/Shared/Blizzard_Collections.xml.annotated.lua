@@ -34,6 +34,31 @@ CollectionsJournalTab6 = {}
 --- child of CollectionsJournal
 --- @class CollectionsJournal_TabContainer : Frame, CollectionsJournalTabContainer
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.xml#L15)
+--- child of CollectionsJournalTabIndicators (created in template GamepadTabIndicatorsTemplate)
+--- @type GamepadTabIndicatorsTemplate_LeftTabButton
+CollectionsJournalTabIndicatorsLeftTabButton = {}
+CollectionsJournalTabIndicatorsLeftTabButton["offset"] = -1
+CollectionsJournalTabIndicatorsLeftTabButton["useDropShadow"] = true -- inherited
+CollectionsJournalTabIndicatorsLeftTabButton["smartNavigationIgnored"] = true -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.xml#L20)
+--- child of CollectionsJournalTabIndicators (created in template GamepadTabIndicatorsTemplate)
+--- @type GamepadTabIndicatorsTemplate_RightTabButton
+CollectionsJournalTabIndicatorsRightTabButton = {}
+CollectionsJournalTabIndicatorsRightTabButton["offset"] = 1
+CollectionsJournalTabIndicatorsRightTabButton["useDropShadow"] = true -- inherited
+CollectionsJournalTabIndicatorsRightTabButton["smartNavigationIgnored"] = true -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.xml#L11)
+--- child of CollectionsJournal
+--- @class CollectionsJournalTabIndicators : Frame, GamepadTabIndicatorsTemplate
+--- @field isVertical boolean # true
+CollectionsJournalTabIndicators = {}
+CollectionsJournalTabIndicators["isVertical"] = true
+CollectionsJournalTabIndicators["LeftTabButton"] = CollectionsJournalTabIndicatorsLeftTabButton -- inherited
+CollectionsJournalTabIndicators["RightTabButton"] = CollectionsJournalTabIndicatorsRightTabButton -- inherited
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.xml#L660)
 --- child of CollectionsJournal (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
@@ -47,7 +72,9 @@ CollectionsJournalBg = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.xml#L4)
 --- @class CollectionsJournal : Frame, PortraitFrameTemplate, CollectionsJournalMixin
 --- @field TabContainer CollectionsJournal_TabContainer
+--- @field TabIndicators CollectionsJournalTabIndicators
 CollectionsJournal = {}
+CollectionsJournal["TabIndicators"] = CollectionsJournalTabIndicators
 CollectionsJournal["CloseButton"] = CollectionsJournalCloseButton -- inherited
 CollectionsJournal["Bg"] = CollectionsJournalBg -- inherited
 CollectionsJournal["layoutType"] = "PortraitFrameTemplate" -- inherited

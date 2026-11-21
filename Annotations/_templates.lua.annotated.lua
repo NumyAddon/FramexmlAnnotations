@@ -2830,6 +2830,7 @@
 --- | "SocialUIBattleNetMenuButtonTemplate"
 --- | "SocialUIBattleNetUnavailableNoticeButtonTemplate"
 --- | "SocialUIBattleNetUnavailableNoticeFrameTemplate"
+--- | "SocialUIBattleTagHiddenButtonTemplate"
 --- | "SocialUIContactsFrameTemplate"
 --- | "SocialUICopyBattleTagToClipboardButtonTemplate"
 --- | "SocialUIFilterBarTemplate"

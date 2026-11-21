@@ -47,39 +47,40 @@
 --- @field Cooldown FriendsListSocialCardRAFSummonButtonTemplate_Cooldown
 --- @field ActionIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L118)
 --- child of FriendsListSocialCardTemplate
 --- @class FriendsListSocialCardTemplate_PresenceHolder : Frame, SocialCardPresenceHolderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L122)
 --- child of FriendsListSocialCardTemplate
 --- @class FriendsListSocialCardTemplate_PartyButton : Button, FriendsListSocialCardPartyButtonTemplate
+--- @field smartNavigationIgnored boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L135)
 --- child of FriendsListSocialCardTemplate
 --- @class FriendsListSocialCardTemplate_GameIconHolder : Frame, FriendsListSocialCardGameIconHolderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L145)
 --- child of FriendsListSocialCardTemplate
 --- @class FriendsListSocialCardTemplate_StateDisplay : Frame, FriendsListSocialCardStateDisplayTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L154)
 --- child of FriendsListSocialCardTemplate
 --- @class FriendsListSocialCardTemplate_FriendName : FontString, UserScaledFontHeader
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L155)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L159)
 --- child of FriendsListSocialCardTemplate
 --- @class FriendsListSocialCardTemplate_Name : FontString, UserScaledFontBody
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L164)
 --- child of FriendsListSocialCardTemplate
 --- @class FriendsListSocialCardTemplate_Level : FontString, UserScaledFontBody
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L170)
 --- child of FriendsListSocialCardTemplate
 --- @class FriendsListSocialCardTemplate_Class : FontString, UserScaledFontBody
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListTemplates.xml#L177)
 --- child of FriendsListSocialCardTemplate
 --- @class FriendsListSocialCardTemplate_Location : FontString, UserScaledFontBody
 
@@ -99,6 +100,7 @@
 --- @field lineSpacing number # 4
 --- @field secondaryTextIndent number # 1
 --- @field stateDisplayXOffset number # 2
+--- @field buttonContext string # ButtonContext_FriendsListCard
 --- @field PresenceHolder FriendsListSocialCardTemplate_PresenceHolder
 --- @field PartyButton FriendsListSocialCardTemplate_PartyButton
 --- @field GameIconHolder FriendsListSocialCardTemplate_GameIconHolder

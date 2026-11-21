@@ -19,3 +19,21 @@ function CollectionsJournalMixin:GetPageTitleText(tabID) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.lua#L152)
 function CollectionsJournalMixin:SetupTabs() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.lua#L155)
+function CollectionsJournalMixin:RegisterForTransitions() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.lua#L161)
+function CollectionsJournalMixin:SetupGamepad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.lua#L165)
+function CollectionsJournalMixin:InitializeGamepad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.lua#L182)
+function CollectionsJournalMixin:UpdateTabFocus(selectedID) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.lua#L192)
+function CollectionsJournalMixin:FocusGamepad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Collections.lua#L205)
+function CollectionsJournalMixin:UnfocusGamepad() end

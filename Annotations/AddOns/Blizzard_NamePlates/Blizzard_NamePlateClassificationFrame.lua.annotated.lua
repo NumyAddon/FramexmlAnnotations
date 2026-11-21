@@ -35,16 +35,19 @@ function NamePlateClassificationFrameMixin:GetClassification() end
 function NamePlateClassificationFrameMixin:GetClassificationAtlasElement() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L132)
+function NamePlateClassificationFrameMixin:GetRareClassificationAtlasElement() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L136)
 function NamePlateClassificationFrameMixin:UpdateClassificationIndicator() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L152)
 function NamePlateClassificationFrameMixin:ShouldBeShown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L160)
 function NamePlateClassificationFrameMixin:UpdateShownState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L170)
 function NamePlateClassificationFrameMixin:SetRaidTargetIndex(index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L176)
 function NamePlateClassificationFrameMixin:SetExplicitValues(explicitValues) end

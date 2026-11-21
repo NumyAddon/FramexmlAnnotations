@@ -8,7 +8,7 @@ ModelSceneZoomButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin)
  --- @class ModelScenelRotateButtonMixin : ModelSceneControlButtonMixin
 ModelScenelRotateButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L264)
  --- @class ModelSceneResetButtonMixin : ModelSceneControlButtonMixin
 ModelSceneResetButtonMixin = CreateFromMixins(ModelSceneControlButtonMixin)
 
@@ -104,14 +104,14 @@ function ModelScenelRotateButtonMixin:OnMouseUp() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L244)
 function ModelScenelRotateButtonMixin:OnSmartNavClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L249)
 function ModelScenelRotateButtonMixin:RotateStep() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L265)
 function ModelSceneResetButtonMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L269)
 function ModelSceneResetButtonMixin:Init() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelSceneControlFrame.lua#L274)
 function ModelSceneResetButtonMixin:OnClick() end

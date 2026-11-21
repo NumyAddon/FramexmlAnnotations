@@ -4,7 +4,7 @@
  --- @class GamepadTabIndicatorsMixin
 GamepadTabIndicatorsMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L199)
  --- @class GamepadTabIndicatorButtonMixin
 GamepadTabIndicatorButtonMixin = {}
 
@@ -20,29 +20,29 @@ function GamepadTabIndicatorsMixin:OnHide() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L26)
 function GamepadTabIndicatorsMixin:SetUpTabs(inTabs, reverse) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L55)
 function GamepadTabIndicatorsMixin:SetUpTabSystem(tabSystem) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L63)
 function GamepadTabIndicatorsMixin:UpdateTabVisibility() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L110)
 function GamepadTabIndicatorsMixin:SetCurrentIndex(inIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L114)
 function GamepadTabIndicatorsMixin:ClickCurrentTab() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L130)
 function GamepadTabIndicatorsMixin:Tab(inOffset) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L163)
 function GamepadTabIndicatorsMixin:GetNumTabs() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L167)
 function GamepadTabIndicatorsMixin:UpdateTabIndicators() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L191)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L194)
 function GamepadTabIndicatorsMixin:LockTabs(isLocked) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L198)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GamepadSharedUtility/Tab/TabIndicators.lua#L201)
 function GamepadTabIndicatorButtonMixin:OnClick(button, down) end

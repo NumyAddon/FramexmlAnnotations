@@ -168,52 +168,52 @@ PVPRoleCheckPopup["HealerIcon"] = PVPRoleCheckPopupRoleButtonHealer
 PVPRoleCheckPopup["DPSIcon"] = PVPRoleCheckPopupRoleButtonDPS
 PVPRoleCheckPopup["Description"] = PVPRoleCheckPopupDescription
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L295)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialog_Border : Frame, DialogBorderTranslucentTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L296)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogCloseButton : Button, UIPanelHideButtonNoScripts
 PVPReadyDialogCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L308)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogEnterBattleButton : Button, UIPanelButtonTemplate, PVPReadyDialogEnterButtonMixin
 PVPReadyDialogEnterBattleButton = {}
 PVPReadyDialogEnterBattleButton["fitTextCanWidthDecrease"] = true -- inherited
 PVPReadyDialogEnterBattleButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L317)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogLeaveQueueButton : Button, UIPanelButtonTemplate, PVPReadyDialogLeaveButtonMixin
 PVPReadyDialogLeaveQueueButton = {}
 PVPReadyDialogLeaveQueueButton["fitTextCanWidthDecrease"] = true -- inherited
 PVPReadyDialogLeaveQueueButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L331)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L334)
 --- child of PVPReadyDialogRoleIcon
 --- @class PVPReadyDialogRoleIconTexture : Texture
 PVPReadyDialogRoleIconTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L324)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L327)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogRoleIcon : Frame
 --- @field texture PVPReadyDialogRoleIconTexture
 PVPReadyDialogRoleIcon = {}
 PVPReadyDialogRoleIcon["texture"] = PVPReadyDialogRoleIconTexture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L354)
 --- child of PVPReadyDialogInstanceInfoFrame
 --- @class PVPReadyDialogInstanceInfoFrameName : FontString, GameFontNormalLarge
 PVPReadyDialogInstanceInfoFrameName = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L357)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L360)
 --- child of PVPReadyDialogInstanceInfoFrame
 --- @class PVPReadyDialogInstanceInfoFrameStatusText : FontString, GameFontNormal
 PVPReadyDialogInstanceInfoFrameStatusText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L335)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L338)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogInstanceInfoFrame : Frame
 --- @field underline Texture
@@ -223,34 +223,36 @@ PVPReadyDialogInstanceInfoFrame = {}
 PVPReadyDialogInstanceInfoFrame["name"] = PVPReadyDialogInstanceInfoFrameName
 PVPReadyDialogInstanceInfoFrame["statusText"] = PVPReadyDialogInstanceInfoFrameStatusText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L258)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L261)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogBackground : Texture
 PVPReadyDialogBackground = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L267)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L270)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogLabel : FontString, GameFontHighlight
 PVPReadyDialogLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L276)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogBottomArt : Texture
 PVPReadyDialogBottomArt = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L282)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogYourRoleDescription : FontString, GameFontHighlightExtraSmall
 PVPReadyDialogYourRoleDescription = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L287)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogRoleLabel : FontString, GameFontNormalLarge
 PVPReadyDialogRoleLabel = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_LFGUtil/Mainline/PVPHelper.xml#L254)
---- @class PVPReadyDialog : Frame
+--- @class PVPReadyDialog : Frame, FocusFramesInterfaceTemplate, PVPReadyDialogMixin
+--- @field layoutType string # DialogFrameTemplate
 --- @field Border PVPReadyDialog_Border
+--- @field closeButton PVPReadyDialogCloseButton
 --- @field enterButton PVPReadyDialogEnterBattleButton
 --- @field leaveButton PVPReadyDialogLeaveQueueButton
 --- @field roleIcon PVPReadyDialogRoleIcon
@@ -261,6 +263,7 @@ PVPReadyDialogRoleLabel = {}
 --- @field roleDescription PVPReadyDialogYourRoleDescription
 --- @field roleLabel PVPReadyDialogRoleLabel
 PVPReadyDialog = {}
+PVPReadyDialog["closeButton"] = PVPReadyDialogCloseButton
 PVPReadyDialog["enterButton"] = PVPReadyDialogEnterBattleButton
 PVPReadyDialog["leaveButton"] = PVPReadyDialogLeaveQueueButton
 PVPReadyDialog["roleIcon"] = PVPReadyDialogRoleIcon
@@ -270,4 +273,5 @@ PVPReadyDialog["label"] = PVPReadyDialogLabel
 PVPReadyDialog["bottomArt"] = PVPReadyDialogBottomArt
 PVPReadyDialog["roleDescription"] = PVPReadyDialogYourRoleDescription
 PVPReadyDialog["roleLabel"] = PVPReadyDialogRoleLabel
+PVPReadyDialog["layoutType"] = "DialogFrameTemplate"
 
